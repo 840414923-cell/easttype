@@ -32,7 +32,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://easttype.com"),
+  metadataBase: new URL("https://myeasterntype.com"),
   title: "EastType — What's Your Eastern Type?",
   description:
     "Chinese medicine identified 9 body types centuries ago. Ayurveda has 3. We have 9. Discover yours in ~5 minutes.",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Chinese medicine identified 9 body types centuries ago. Discover yours in a free ~5 min quiz.",
     type: "website",
-    url: "https://easttype.com",
+    url: "https://myeasterntype.com",
     images: [
       {
         url: "/og-image.svg",
