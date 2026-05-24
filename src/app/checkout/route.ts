@@ -2,7 +2,7 @@ import { Checkout } from "@creem_io/nextjs"
 
 const checkoutHandler = Checkout({
   apiKey: process.env.CREEM_API_KEY!,
-  testMode: process.env.NODE_ENV !== "production",
+  testMode: process.env.CREEM_TEST_MODE === "true",
   defaultSuccessUrl: "https://myeasterntype.com/success",
 })
 
