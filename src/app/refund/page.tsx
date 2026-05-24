@@ -41,9 +41,9 @@ export default function RefundPage() {
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>
                 {l(
-                  "Email support@easttype.com with your order number",
-                  "發送電子郵件至 support@easttype.com，附上你的訂單編號",
-                  "support@easttype.com に注文番号を記載してメールでお問い合わせください"
+                  "Email support@myeasterntype.com with your order number",
+                  "發送電子郵件至 support@myeasterntype.com，附上你的訂單編號",
+                  "support@myeasterntype.com に注文番号を記載してメールでお問い合わせください"
                 )}
               </li>
               <li>
@@ -91,9 +91,9 @@ export default function RefundPage() {
             </h2>
             <p>
               {l(
-                "For refund requests or questions, please email support@easttype.com.",
-                "退款申請或疑問請發送電子郵件至 support@easttype.com。",
-                "返金請求やご質問は support@easttype.com までメールでお問い合わせください。"
+                "For refund requests or questions, please email support@myeasterntype.com.",
+                "退款申請或疑問請發送電子郵件至 support@myeasterntype.com。",
+                "返金請求やご質問は support@myeasterntype.com までメールでお問い合わせください。"
               )}
             </p>
           </section>

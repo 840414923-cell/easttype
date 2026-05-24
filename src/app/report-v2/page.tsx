@@ -856,7 +856,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           <div>EastType Constitution Report · {isPro ? "Full Diagnosis" : "Body Profile"}</div>
           <div>{a4ui.footer}</div>
         </div>
-        <div className="bg-[#f8f6f2] px-12 py-1.5 text-center text-[11px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.easttype.com</div>
+        <div className="bg-[#f8f6f2] px-12 py-1.5 text-center text-[11px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
       </div>
     </div>
   )

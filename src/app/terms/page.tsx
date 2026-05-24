@@ -173,9 +173,9 @@ export default function TermsPage() {
             </h2>
             <p>
               {l(
-                "If you have any questions about these Terms of Service, please email us at support@easttype.com.",
-                "如果你對這些服務條款有任何疑問，請發送電子郵件至 support@easttype.com。",
-                "本利用規約についてご質問がある場合は、support@easttype.com までメールでお問い合わせください。"
+                "If you have any questions about these Terms of Service, please email us at support@myeasterntype.com.",
+                "如果你對這些服務條款有任何疑問，請發送電子郵件至 support@myeasterntype.com。",
+                "本利用規約についてご質問がある場合は、support@myeasterntype.com までメールでお問い合わせください。"
               )}
             </p>
           </section>

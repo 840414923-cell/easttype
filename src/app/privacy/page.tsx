@@ -119,9 +119,9 @@ export default function PrivacyPage() {
             </ul>
             <p className="mt-3">
               {l(
-                "To exercise any of these rights, email us at support@easttype.com. We will respond within 30 days.",
-                "要行使以上任何權利，請發送電子郵件至 support@easttype.com。我們將在30天內回覆。",
-                "これらの権利を行使するには、support@easttype.com にメールしてください。30日以内に対応いたします。"
+                "To exercise any of these rights, email us at support@myeasterntype.com. We will respond within 30 days.",
+                "要行使以上任何權利，請發送電子郵件至 support@myeasterntype.com。我們將在30天內回覆。",
+                "これらの権利を行使するには、support@myeasterntype.com にメールしてください。30日以内に対応いたします。"
               )}
             </p>
           </section>
@@ -132,9 +132,9 @@ export default function PrivacyPage() {
             </h2>
             <p>
               {l(
-                "EastType is not intended for use by individuals under the age of 16. If we learn that we have collected personal data from a child under 16, we will delete it promptly. If you are a parent or guardian and believe your child has used our service, please contact us at support@easttype.com.",
-                "EastType 不適用於16歲以下的個人。如果我們得知已收集16歲以下兒童的個人資料，我們將立即刪除。如果你是家長或監護人，並認為你的孩子使用了我們的服務，請聯繫 support@easttype.com。",
-                "EastTypeは16歳未満の方の使用を想定していません。16歳未満の子供の個人データを収集したことが判明した場合、速やかに削除します。お子様が本サービスを使用したと思われる場合は、support@easttype.com までご連絡ください。"
+                "EastType is not intended for use by individuals under the age of 16. If we learn that we have collected personal data from a child under 16, we will delete it promptly. If you are a parent or guardian and believe your child has used our service, please contact us at support@myeasterntype.com.",
+                "EastType 不適用於16歲以下的個人。如果我們得知已收集16歲以下兒童的個人資料，我們將立即刪除。如果你是家長或監護人，並認為你的孩子使用了我們的服務，請聯繫 support@myeasterntype.com。",
+                "EastTypeは16歳未満の方の使用を想定していません。16歳未満の子供の個人データを収集したことが判明した場合、速やかに削除します。お子様が本サービスを使用したと思われる場合は、support@myeasterntype.com までご連絡ください。"
               )}
             </p>
           </section>
@@ -171,9 +171,9 @@ export default function PrivacyPage() {
             </h2>
             <p>
               {l(
-                "If you have any questions about this Privacy Policy, or wish to exercise your data protection rights, please email us at support@easttype.com.",
-                "如果你對本隱私權政策有任何疑問，或希望行使資料保護權利，請發送電子郵件至 support@easttype.com。",
-                "このプライバシーポリシーについてご質問がある場合、またはデータ保護権利を行使したい場合は、support@easttype.com までメールでお問い合わせください。"
+                "If you have any questions about this Privacy Policy, or wish to exercise your data protection rights, please email us at support@myeasterntype.com.",
+                "如果你對本隱私權政策有任何疑問，或希望行使資料保護權利，請發送電子郵件至 support@myeasterntype.com。",
+                "このプライバシーポリシーについてご質問がある場合、またはデータ保護権利を行使したい場合は、support@myeasterntype.com までメールでお問い合わせください。"
               )}
             </p>
           </section>

@@ -122,14 +122,14 @@ export function ShareCardImage({
                 <div className="flex items-center gap-2.5 pt-2.5 mt-2 border-t border-white/8">
                   <div className="bg-white rounded p-1 flex-shrink-0">
                     <QRCodeSVG
-                      value="https://easttype.com"
+                      value="https://myeasterntype.com"
                       size={40}
                       level="M"
                     />
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="font-[family-name:var(--font-display)] text-xs text-white/80 tracking-wide">
-                      easttype.com
+                      myeasterntype.com
                     </div>
                     <div className="text-[9px] text-white/35 mt-0.5">
                       {l("Scan to discover your type", "掃碼測測你的體質", "スキャンしてタイプを発見")}
