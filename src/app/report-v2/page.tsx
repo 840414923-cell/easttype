@@ -12,6 +12,9 @@ import type { LocaleCode } from "@/lib/i18n/types"
 import type { ReportBasic, ReportPro } from "@/lib/reports-json"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
+import { CreemCheckout } from "@creem_io/nextjs"
+
+const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 
 const SEASON_KEYS = ["spring", "summer", "autumn", "winter"] as const
 const SEASON_LABELS: Record<LocaleCode, Record<string, string>> = {
@@ -311,12 +314,15 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
         <div className="border-2 border-dashed border-accent rounded-xl p-5 text-center bg-[rgba(201,163,85,0.04)]">
           <div className="text-accent text-xs font-bold uppercase tracking-wider mb-1">{ui.proUpgradeTitle}</div>
           <p className="text-[15px] text-text2 mb-3">{ui.proUpgradeDesc}</p>
-          <Link
-            href={`/report-v2?type=${typeId}&sex=${sex}&plan=pro`}
-            className="inline-flex items-center px-5 py-2 rounded-full text-sm font-semibold no-underline bg-gradient-to-r from-accent to-accent2 text-bg"
+          <CreemCheckout
+            productId={CREEM_PRODUCT_PRO}
+            successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro`}
+            metadata={{ type: typeId, sex, plan: "pro" }}
           >
-            {ui.proUpgradeCta}
-          </Link>
+            <div className="inline-flex items-center px-5 py-2 rounded-full text-sm font-semibold cursor-pointer bg-gradient-to-r from-accent to-accent2 text-bg">
+              {ui.proUpgradeCta}
+            </div>
+          </CreemCheckout>
         </div>
       )}
     </div>
@@ -847,7 +853,15 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
             <div className="print:hidden border-2 border-dashed border-[#C9A96E] rounded-lg px-6 py-4 mt-6 text-center bg-[#fdf9f3]">
               <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1">{a4ui.proUpgradeTitle}</div>
               <p className="text-[13px] text-[#444] mb-3 max-w-md mx-auto">{a4ui.proUpgradeDesc}</p>
-              <Link href={`/report-v2?type=${typeId}&sex=${sex}&plan=pro`} className="inline-flex items-center px-5 py-1.5 rounded text-[13px] font-semibold no-underline bg-[#C9A96E] text-white">{a4ui.proUpgradeCta}</Link>
+              <CreemCheckout
+                productId={CREEM_PRODUCT_PRO}
+                successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro`}
+                metadata={{ type: typeId, sex, plan: "pro" }}
+              >
+                <div className="inline-flex items-center px-5 py-1.5 rounded text-[13px] font-semibold cursor-pointer bg-[#C9A96E] text-white">
+                  {a4ui.proUpgradeCta}
+                </div>
+              </CreemCheckout>
             </div>
           )}
         </div>

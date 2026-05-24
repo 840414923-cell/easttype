@@ -9,6 +9,10 @@ import type { ConstitutionId } from "@/lib/types"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { ShareCardImage } from "@/components/share-card"
+import { CreemCheckout } from "@creem_io/nextjs"
+
+const CREEM_PRODUCT_BASIC = process.env.NEXT_PUBLIC_CREEM_PRODUCT_BASIC!
+const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 
 function ResultContent() {
   const params = useSearchParams()
@@ -43,23 +47,34 @@ function ResultContent() {
   const typeName = locale.code === "en" ? t.en : locale.code === "zh-TW" ? t.zh.replace("质", "質") : t.zh
 
   const reportBase = `/report-v2?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
+  const successBase = `/success?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
 
-  // CTA buttons — reused
+  // CTA buttons — Creem API checkout
   const ProCta = ({ className = "" }: { className?: string }) => (
-    <Link
-      href={`${reportBase}&plan=pro`}
-      className={`flex items-center justify-center w-full py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
+    <CreemCheckout
+      productId={CREEM_PRODUCT_PRO}
+      successUrl={`${successBase}&plan=pro`}
+      metadata={{ type: primaryId, sex: sex ?? "female", plan: "pro" }}
     >
-      {l("Get My Full Kit →", "取得進階套件 →", "フルキットを取得 →")}
-    </Link>
+      <div
+        className={`flex items-center justify-center w-full py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
+      >
+        {l("Get My Full Kit →", "取得進階套件 →", "フルキットを取得 →")}
+      </div>
+    </CreemCheckout>
   )
   const BasicCta = ({ className = "" }: { className?: string }) => (
-    <Link
-      href={reportBase}
-      className={`flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline border border-accent/30 text-accent hover:bg-[rgba(201,163,85,0.06)] transition-all ${className}`}
+    <CreemCheckout
+      productId={CREEM_PRODUCT_BASIC}
+      successUrl={`${successBase}&plan=basic`}
+      metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
-      {l("Get My Report", "取得報告", "レポートを取得")}
-    </Link>
+      <div
+        className={`flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer border border-accent/30 text-accent hover:bg-[rgba(201,163,85,0.06)] transition-all ${className}`}
+      >
+        {l("Get My Report", "取得報告", "レポートを取得")}
+      </div>
+    </CreemCheckout>
   )
 
   return (
@@ -405,12 +420,17 @@ function ResultContent() {
             )}
           </p>
           <ProCta className="mb-2" />
-          <Link
-            href={reportBase}
-            className="flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer no-underline border border-accent/25 text-accent hover:bg-[rgba(201,163,85,0.05)]"
+          <CreemCheckout
+            productId={CREEM_PRODUCT_BASIC}
+            successUrl={`${successBase}&plan=basic`}
+            metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
           >
-            {locale.ui.planBasicPrice} — {l("Get My Report", "取得報告", "レポートを取得")}
-          </Link>
+            <div
+              className="flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer border border-accent/25 text-accent hover:bg-[rgba(201,163,85,0.05)]"
+            >
+              {locale.ui.planBasicPrice} — {l("Get My Report", "取得報告", "レポートを取得")}
+            </div>
+          </CreemCheckout>
           <div className="text-[10px] text-text2 mt-2">{locale.ui.moneyBack}</div>
         </div>
 
