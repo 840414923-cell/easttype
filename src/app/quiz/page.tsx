@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useCallback, useEffect } from "react"
+import { useState, useCallback, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { LIKERT_OPTIONS, calculate27Scores, getPrimaryAndSecondary } from "@/lib/quiz-27"
@@ -367,6 +367,55 @@ export default function QuizPage() {
   )
 }
 
+function QuizLocaleSelect({ localeCode, setLocaleCode, localeKeys, locales }: {
+  localeCode: string
+  setLocaleCode: (code: any) => void
+  localeKeys: string[]
+  locales: Record<string, { label: string }>
+}) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!open) return
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
+    }
+    document.addEventListener("mousedown", handler)
+    return () => document.removeEventListener("mousedown", handler)
+  }, [open])
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded border border-[rgba(201,163,85,0.15)] bg-[rgba(201,163,85,0.05)] text-text2 hover:text-accent hover:border-[rgba(201,163,85,0.3)] cursor-pointer transition-all duration-200"
+      >
+        <span>🌐</span>
+        <span className="font-medium">{locales[localeCode].label}</span>
+        <span className={`text-[10px] transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▾</span>
+      </button>
+      {open && (
+        <div className="absolute right-0 top-full mt-1.5 min-w-[120px] py-1.5 rounded-xl border border-[rgba(201,163,85,0.15)] bg-[rgba(10,15,30,0.95)] backdrop-blur-xl shadow-lg shadow-black/30 z-50">
+          {localeKeys.map((key) => (
+            <button
+              key={key}
+              onClick={() => { setLocaleCode(key); setOpen(false) }}
+              className={`w-full text-left px-4 py-2 text-xs cursor-pointer transition-colors ${
+                localeCode === key
+                  ? "text-accent font-semibold bg-[rgba(201,163,85,0.1)]"
+                  : "text-text2 hover:text-accent hover:bg-[rgba(201,163,85,0.06)]"
+              }`}
+            >
+              {locales[key].label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function Nav({ locale, right }: { locale: { ui: { exit: string } }; right?: React.ReactNode }) {
   const { localeCode, setLocaleCode, localeKeys, locales } = useLocale()
   return (
@@ -375,21 +424,7 @@ function Nav({ locale, right }: { locale: { ui: { exit: string } }; right?: Reac
         East<span className="text-accent">Type</span>
       </Link>
       <div className="flex items-center gap-3">
-        <div className="flex gap-1">
-          {localeKeys.map((key) => (
-            <button
-              key={key}
-              onClick={() => setLocaleCode(key)}
-              className={`px-3 py-1.5 text-xs rounded cursor-pointer transition-all duration-200 ${
-                localeCode === key
-                  ? "bg-accent text-bg font-semibold"
-                  : "text-text2 hover:text-accent hover:bg-[rgba(201,169,110,0.1)]"
-              }`}
-            >
-              {locales[key].label}
-            </button>
-          ))}
-        </div>
+        <QuizLocaleSelect localeCode={localeCode} setLocaleCode={setLocaleCode} localeKeys={localeKeys} locales={locales} />
         {right ?? (
           <Link href="/" className="text-sm text-text2 hover:text-accent px-4 py-2 no-underline transition-colors">
             {locale.ui.exit}
