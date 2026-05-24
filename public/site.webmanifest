@@ -1,0 +1,16 @@
+{
+  "name": "EastType",
+  "short_name": "EastType",
+  "description": "Discover your Eastern body type — a TCM constitution quiz",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F1E",
+  "theme_color": "#C9A96E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

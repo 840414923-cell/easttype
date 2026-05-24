@@ -1,0 +1,489 @@
+{
+    "ch1Identity":  {
+                        "en":  "You know how some people seem to have effortless circulation — rosy cheeks, light step, nothing sticks? That\u0027s not you. Your blood has traffic jams. It doesn\u0027t flow freely — it stagnates, pools, creates dark patches. Like ink that\u0027s been spilled and not cleaned up.\n\nYou\u0027re **The Ink Trail**. In Chinese medicine, your type is called **血瘀 (Xuè Yū)** — \"Blood Stasis.\" Blood (血) is supposed to move — nourishing, warming, carrying life to every corner of your body. \"Stasis\" means it gets stuck. Not sometimes. As a pattern. Your rivers have dams.\n\nThis is the most **visible** constitution. Dark circles under your eyes that no concealer can fix. Purplish lips. A dull complexion with dark spots. Easy bruising. Spider veins. As a woman, your period tells the story — CRUSHING pain, dark clots, the kind that makes you cancel plans. The pain is fixed and stabbing, not moving, stays in one place. Your blood literally gets stuck.\n\n### What Makes You, You\n\nPersonality-wise, you\u0027re deep, artistic, and sensitive. You feel things profoundly. Your \"stuck blood\" mirrors an intensity of experience — you don\u0027t feel things halfway. Joy, grief, beauty, injustice — all of it hits you at full depth. This isn\u0027t a flaw. This depth makes you an incredible artist, writer, thinker. You see beauty that others walk past. You feel truth that others gloss over.\n\nYou\u0027ve probably been told to \"let it go\" more times than you can count. But your constitution doesn\u0027t let go easily — not because you\u0027re stubborn, but because your body literally holds onto things. Trapped feelings become trapped blood. Suppressed grief congeals. Unspoken anger stagnates. The emotional and the physical are one in your type.\n\n### Your Natural Strengths\n\n- **Depth** — you experience life with rare intensity, seeing layers others miss\n- **Artistic vision** — beauty that others walk past is obvious to you; you have an eye for ... (line truncated to 2000 chars)",
+                        "zh-TW":  "你知道嗎？有些人天生血液循環順暢——臉頰紅潤、步伐輕盈、毫不費力。那不是你。你的血液會塞車。它不會自由流動——而是停滯、淤積、形成暗沉的色塊。就像灑了一地的墨漬，無人清理。\n\n你是**「墨跡」**。在中醫裡，你的體質叫做**血瘀（Xuè Yū）**——「血液瘀滯」。血（血）本該流動——滋養、溫暖、把生命力送到身體的每個角落。「瘀」的意思是它卡住了。不是偶爾。而是一種模式。你的河流裡築起了水壩。\n\n這是最**顯而易見**的體質。眼下那些遮瑕膏蓋不住的黑眼圈。發紫的嘴唇。暗沉的臉色配上黑斑。動不動就瘀青。蜘蛛狀靜脈。作為女性，你的月經最能說明一切——痛到撕裂般的經痛、深色的血塊、那種讓你不得不取消所有計畫的痛。那種痛是固定的、刺痛的，不移動，就停在一個地方。你的血液真的卡住了。\n\n### 是什麼造就了這樣的你\n\n性格上，你深沉、有藝術氣質、心思細膩。你的感受深刻而強烈。你的「瘀血」映射出一種極致的體驗強度——你從不敷衍地感受任何事。喜悅、悲傷、美好、不公——一切都以最深的方式觸動你。這不是缺點。這種深度讓你成為了不起的藝術家、作家、思想家。你看得見別人走過就忽略的美。你感受得到別人輕描淡寫的真相。\n\n你可能被勸過無數次「放下吧」。但你的體質不容易放下——不是因為你固執，而是你的身體確確實實地「留住了」一切。被困住的情緒變成了被瘀住的血。壓抑的悲傷凝結。未說出口的憤怒停滯。在你的體質裡，情緒和身體是同一件事。\n\n### 你的天賦優勢\n\n- **深度**——你以罕見的強度體驗生活，看見別人錯過的層次\n- **藝術眼光**——別人視而不見的美好，在你眼中清晰可見；你擁有發現深邃之美的天賦\n- **情感真誠**——你全然地感受一切，這讓你真實而動人\n- **忠誠**——一旦建立連結，你就全心投入；你的人際關係深入骨髓\n- **創造之火**——痛苦化為藝術，掙扎化為意義；你的挑戰正是非凡創造力的燃料\n\n### 最快消耗你的事物\n\n- **久坐不動**——血液需要運動；靜坐簡直是你的天敵\n- **寒冷環境**——寒凝血瘀，讓一切雪上加霜\n- **壓抑情緒**——被壓抑的感受＝被瘀住的血；在你的體質裡兩者密不可分\n- **緊身衣物**——阻礙血液循環，尤其是腰腹和大腿處\n- **加工食品**——產生毒素，進一步堵塞循環\n- **缺乏出汗**——你的身體需要把東西排出去，出汗是其中一條出路\n- **記恨不忘**——在中醫看來，未化解的憤怒和怨恨會真的讓血液凝結\n\n### 你可能聽過的話\n\n「你看起來好累。」是啊——黑眼圈是體質使然，不是睡眠不足。\n「多用點遮瑕就好。」遮瑕膏解決不了根本問題。\n「為什麼你經痛那麼嚴重？」因為我的血不能順暢流動——它瘀滯成塊。\n「放下吧。」我的身體確確實實地留住了一切——這不是選擇。\n\n大約**7%的人**與你共享這個體質。你的同伴包括**芙烈達·卡蘿（Frida Kahlo）**，她將身體與情感的痛苦化為藝術，以熾烈的強度活出自我；以及**希薇亞·普拉斯（Sylvia Plath）**，她將生命的深度化為至今仍震撼人心的文字。",
+                        "ja":  "周りの人の中には、循環が驚くほどスムーズな人がいますよね。ほほは薔薇色、足取りは軽く、何の苦もありません。でも、それはあなたではありません。あなたの血は渋滞しています。自由に流れない——滞り、溜まり、暗い染みを作ります。まるで、こぼれて放置された墨のような。\n\nあなたは**「墨跡」**です。中医学では、あなたの体質は**血瘀（けつお）**——「血の滞り」と呼ばれます。血は本来流れるもの——栄養を届け、温め、生命を体の隅々まで運びます。「瘀」とは、血が詰まること。時々ではありません。ひとつのパターンなのです。あなたの川にはダムができています。\n\nこれは最も**目に見える**体質です。どんなコンシーラーでも隠せない目の下のクマ。紫がかった唇。暗いシミのあるくすんだ肌。できやすいあざ。毛細血管の浮き。女性として、あなたの生理が物語っています——ひきつけるような激痛、暗い血の塊、予定をキャンセルせざるを得ないような痛み。痛みは固定し、刺すように、移動せず、ひとところにとどまります。あなたの血は、文字通り詰まっているのです。\n\n### あなたを作っているもの\n\n性格的には、あなたは深く、芸術的で、繊細です。物事を深く感じ取ります。あなたの「瘀血」は、体験の強さを映し出しています——あなたは中途半端に感じることはありません。喜びも、悲しみも、美しさも、不条理も——すべてが最大の深さで響きます。これは欠陥ではありません。この深さが、あなたを素晴らしいアーティスト、作家、思考者にしているのです。あなたは、他の人が通り過ぎる美しさを見つけます。他の人が見過ごす真実を感じ取ります。\n\n「手放しなよ」と言われた回数は数えきれないでしょう。でも、あなたの体質は簡単には手放せない——頑固だからではなく、あなたの体が文字通りすべてを抱え込んでいるからです。囚われた感情は瘀血になります。抑圧された悲しみは凝り固まる。口に出せない怒りは滞る。あなたの体質では、感情と身体はひとつなのです。\n\n### 生まれ持った強み\n\n- **深さ**——あなたは希有な強さで人生を体験し、他の人が見逃す層を見つめます\n- **芸術的感性**——他の人が見過ごす美しがあなたには鮮やかに見えます。深い美を発見する才能があります\n- **感情の誠実さ**——すべてを全身で感じるあなたは、本物で、人の心を動かします\n- **誠実さ**——一度絆を結べば、全身全霊を注ぎます。あなたの人間関係は骨の髄まで深い\n- **創造の炎**——痛みは芸術に、葛藤は意味に変わる。あなたの試練は、比類ない創造力の燃料です\n\n### 最もあなたを消耗させるもの\n\n- **長時間の座位**——血には運動が必要。座りっぱなしはまさに天敵\n- **寒い環境**——寒は血を凝らせ、すべてをさらに悪化させます\n- **感情の抑圧**——抑えられた感情＝瘀血。あなたの体質では、両者は切り離せません\n- **締めつける衣服**——特に腰回りと太ももの血流を妨げます\n- **加工食品**——毒素を生み出し、循環をさらに詰まらせます\n- **発汗不足**——体は排出を必要としています。汗をかくことは、その出口のひとつ\n- **恨みを抱え続けること**——中医学では、未解決の怒りや恨みは文字通り血を凝固させると考えられています\n\n### あなたが言われたことがある言葉\n\n「なんだか疲れてる？」——ええ、クマは体質のせいで、睡眠不足のせいではありません。\n「コンシーラーをもっと使えば？」——コンシーラーは根本的な問題を解決しません。\n「なんでそんなに生理痛がひどいの？」——私の血はスムーズに流れないから。滞って塊になるから。\n「手放しなよ。」——私の体は文字通りすべてを抱え込んでいる。これは選択ではありません。\n\n約**7％の人**があなたと同じ体質です。仲間には、身体と感情の痛みを芸術に変え、灼熱のような強さで生きた**フリーダ・カーロ**、そして、命の深さを今なお人々の心を揺さぶる言葉に変えた**シルヴィア・プラス**がいます。"
+                    },
+    "ch2FoodsLove":  [
+                         {
+                             "name":  {
+                                          "en":  "Black Fungus",
+                                          "zh-TW":  "黑木耳",
+                                          "ja":  "黒木耳（くろきくらげ）"
+                                      },
+                             "nameZh":  "木耳",
+                             "aliases":  "Wood Ear / 木耳 / 黒木耳 / Mù ěr / Cloud Ear Fungus / Auricularia",
+                             "tcmAction":  {
+                                               "en":  "Invigorates blood, prevents stasis",
+                                               "zh-TW":  "活血化瘀，預防瘀滯",
+                                               "ja":  "活血化瘀、瘀滞を予防する"
+                                           },
+                             "desc":  {
+                                          "en":  "Your #1 food. Eat it daily if possible. In soup, stir-fry, or cold salad. Black fungus is TCM\u0027s top recommendation for invigorating blood and clearing stagnation — it\u0027s like a natural pipe cleaner for your circulatory system.",
+                                          "zh-TW":  "你的頭號食物。盡量每天吃。煲湯、清炒或涼拌皆可。黑木耳是中醫活血化瘀的首要推薦食材——就像你循環系統的天然清道夫。",
+                                          "ja":  "あなたのナンバーワンの食材。できれば毎日食べましょう。スープ、炒め物、和え物などに。黒木耳は中医学で活血化瘀の最推奨食材——まるで循環系の天然のパイプクリーナーのような存在です。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Hawthorn",
+                                          "zh-TW":  "山楂",
+                                          "ja":  "サンザシ（山査子）"
+                                      },
+                             "nameZh":  "山楂",
+                             "aliases":  "Hawthorn / 山楂 / サンザシ / Shān Zhā / Hawthorn Berry / Crataegus",
+                             "tcmAction":  {
+                                               "en":  "Invigorates blood, transforms stasis",
+                                               "zh-TW":  "活血化瘀",
+                                               "ja":  "活血化瘀"
+                                           },
+                             "desc":  {
+                                          "en":  "The classic blood-moving fruit. Tea, snack, or in soup. Hawthorn has been used for centuries in TCM to move blood, transform stagnation, and improve circulation — it\u0027s sweet, tart, and medicinal all at once.",
+                                          "zh-TW":  "經典的活血果實。泡茶、當零食、或入湯皆可。山楂在中醫裡被用來活血、化瘀、促進循環已有數百年歷史——酸甜可口，同時兼具養生功效。",
+                                          "ja":  "古典的な活血の果実。お茶に、おやつに、スープに。サンザシは中医学で数百年にわたり活血、化瘀、循環改善に使われてきました——甘く、酸っぱく、同時に養生効果も兼ね備えています。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Rose",
+                                          "zh-TW":  "玫瑰花",
+                                          "ja":  "ローズ（玫瑰花）"
+                                      },
+                             "nameZh":  "玫瑰",
+                             "aliases":  "Rose / 玫瑰 / バラ / Méi Gui / Rose Petals / Rosa rugosa",
+                             "tcmAction":  {
+                                               "en":  "Moves blood, regulates periods, lifts mood",
+                                               "zh-TW":  "活血調經，疏肝解鬱",
+                                               "ja":  "活血調経、疎肝解鬱"
+                                           },
+                             "desc":  {
+                                          "en":  "Rose tea is your daily medicine. Beautiful and functional. In TCM, rose moves blood, regulates the menstrual cycle, and gently lifts the mood — it addresses the physical and emotional dimensions of blood stasis simultaneously.",
+                                          "zh-TW":  "玫瑰茶是你每天的好物。美麗又實用。在中醫裡，玫瑰能活血、調理月經週期、溫和地提振情緒——它同時照顧了血瘀的身體和情緒兩個層面。",
+                                          "ja":  "ローズティーはあなたの毎日の養生茶。美しくて機能的。中医学では、ローズは血を巡らせ、月経周期を調え、穏やかに気分を上げます——血瘀の身体面と感情面を同時にケアします。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Peach Kernel",
+                                          "zh-TW":  "桃仁",
+                                          "ja":  "桃仁（とうにん）"
+                                      },
+                             "nameZh":  "桃仁",
+                             "aliases":  "Peach Kernel / 桃仁 / 桃の種 / Táo Rén / Peach Seed / Persica",
+                             "tcmAction":  {
+                                               "en":  "Invigorates blood, moistens intestines",
+                                               "zh-TW":  "活血祛瘀，潤腸通便",
+                                               "ja":  "活血祛瘀、潤腸通便"
+                                           },
+                             "desc":  {
+                                          "en":  "Classic blood-moving herb/food. Add to congee or soup. Peach kernel is one of the most important ingredients in TCM blood-invigorating formulas — it breaks up stasis while keeping the intestines lubricated.",
+                                          "zh-TW":  "經典的活血食療。加入粥品或湯中。桃仁是中醫活血方劑中最重要的傳統食材之一——它能化瘀，同時保持腸道潤滑。",
+                                          "ja":  "古典的な活血の食膳。お粥やスープに加えて。桃仁は中医学の活血方剤で最も重要な伝統食材のひとつ——化瘀しながら腸を潤します。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Saffron",
+                                          "zh-TW":  "番紅花",
+                                          "ja":  "サフラン（番紅花）"
+                                      },
+                             "nameZh":  "番紅花",
+                             "aliases":  "Saffron / 番紅花 / サフラン / Fān Hóng Huā / Crocus sativus / Zang Hong Hua",
+                             "tcmAction":  {
+                                               "en":  "Invigorates blood, regulates menses",
+                                               "zh-TW":  "活血調經",
+                                               "ja":  "活血調経"
+                                           },
+                             "desc":  {
+                                          "en":  "The world\u0027s most precious spice is also one of TCM\u0027s strongest blood movers. A few threads in tea. Saffron powerfully invigorates blood and regulates the menstrual cycle — use sparingly, as a little goes a long way.",
+                                          "zh-TW":  "世界上最珍貴的香料，也是中醫最強的活血食材之一。在茶中放入幾根花絲即可。番紅花強力活血並調理月經週期——少量即見效，請酌量使用。",
+                                          "ja":  "世界で最も貴重なスパイスは、中医学の最強の活血素材でもあります。お茶に数本の花糸を入れて。サフランは強力に活血し、月経周期を調えます——少量で効くので、控えめに使いましょう。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Dark Chocolate (70%+)",
+                                          "zh-TW":  "黑巧克力（70%以上）",
+                                          "ja":  "ダークチョコレート（カカオ70%以上）"
+                                      },
+                             "nameZh":  "黑巧克力",
+                             "aliases":  "Dark Chocolate / 黑巧克力 / ダークチョコレート / 70% Cacao",
+                             "tcmAction":  {
+                                               "en":  "Contains flavonoids that improve circulation",
+                                               "zh-TW":  "含黃酮類化合物，促進血液循環",
+                                               "ja":  "フラボノイド含有、血液循環を促進する"
+                                           },
+                             "desc":  {
+                                          "en":  "One of the few \"modern\" foods TCM practitioners recommend for your type. The flavonoids in dark chocolate improve blood vessel function and circulation — a square a day is genuinely beneficial for you.",
+                                          "zh-TW":  "少數獲得中醫師推薦適合你體質的「現代」食物。黑巧克力中的黃酮類化合物能改善血管功能和血液循環——每天一小塊，對你而言真的是養生好物。",
+                                          "ja":  "中医師があなたの体質に推奨する数少ない「現代の」食材のひとつ。ダークチョコレートのフラボノイドは血管機能と血液循環を改善します——1日1かけ、あなたにとってまさに養生素材。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Black Beans",
+                                          "zh-TW":  "黑豆",
+                                          "ja":  "黒豆"
+                                      },
+                             "nameZh":  "黑豆",
+                             "aliases":  "Black Bean / 黑豆 / 黒豆 / Hēi Dòu / Black Soybean",
+                             "tcmAction":  {
+                                               "en":  "Nourishes blood, invigorates circulation",
+                                               "zh-TW":  "養血活血",
+                                               "ja":  "養血活血"
+                                           },
+                             "desc":  {
+                                          "en":  "The \"black\" foods are your friends — they nourish Kidney and move blood. Black beans nourish blood while invigorating circulation, making them a perfect daily staple for your constitution.",
+                                          "zh-TW":  "「黑色」食物是你的好朋友——它們入腎經又能活血。黑豆養血同時活血，是你體質最理想的日常主食。",
+                                          "ja":  "「黒い」食材はあなたの味方——腎経に入り、血を巡らせます。黒豆は養血しながら活血するので、あなたの体質に理想的な毎日の staple です。"
+                                      }
+                         },
+                         {
+                             "name":  {
+                                          "en":  "Ginger",
+                                          "zh-TW":  "生薑",
+                                          "ja":  "しょうが（生姜）"
+                                      },
+                             "nameZh":  "生薑",
+                             "aliases":  "Fresh Ginger / 生薑 / ショウガ / Shēng Jiāng / Ginger Root",
+                             "tcmAction":  {
+                                               "en":  "Warms and moves blood",
+                                               "zh-TW":  "溫經活血",
+                                               "ja":  "温経活血"
+                                           },
+                             "desc":  {
+                                          "en":  "Cold congeals blood; ginger warms and gets it flowing again. Use generously. Ginger is essential for your type because it addresses the root cause of much blood stasis — cold. Every meal should include it.",
+                                          "zh-TW":  "寒則血凝；生薑能溫暖身體、讓血液重新流動。請大量使用。生薑對你的體質至關重要，因為它針對了許多血瘀的根本原因——寒。每餐都應該有它。",
+                                          "ja":  "寒さは血を凝らせます。しょうがは温めて流れを取り戻します。たっぷり使いましょう。しょうがは血瘀の根本原因である「寒」に働きかけるため、あなたの体質に不可欠です。毎食取り入れましょう。"
+                                      }
+                         }
+                     ],
+    "ch2FoodsAvoid":  [
+                          {
+                              "en":  "Cold and raw food — ice cream, iced drinks, raw salads — cold congeals blood, the exact opposite of what you need",
+                              "zh-TW":  "寒涼生冷食物——冰淇淋、冰飲、生菜沙拉——寒則血凝，與你的需要完全背道而馳",
+                              "ja":  "冷たい食べ物と生もの——アイスクリーム、冷たい飲み物、生野菜のサラダ——寒は血を凝らせます。あなたに必要なものと真逆です"
+                          },
+                          {
+                              "en":  "Excessive salt — thickens blood, promotes stagnation",
+                              "zh-TW":  "過量的鹽——使血液黏稠，加重瘀滯",
+                              "ja":  "塩分の摂りすぎ——血をドロドロにし、瘀滞を助長します"
+                          },
+                          {
+                              "en":  "Processed and fast food — creates toxicity that further blocks circulation",
+                              "zh-TW":  "加工和速食——產生毒素，進一步堵塞循環",
+                              "ja":  "加工食品とファストフード——毒素を生み出し、循環をさらに詰まらせます"
+                          },
+                          {
+                              "en":  "Alcohol in excess — while small amounts move blood, excess creates damp-heat and new stasis",
+                              "zh-TW":  "過量飲酒——少量可活血，但過量會產生濕熱，形成新的瘀滯",
+                              "ja":  "飲みすぎ——少量は活血しますが、過剰になると湿熱を生み、新たな瘀滞を作ります"
+                          },
+                          {
+                              "en":  "Unresolved emotional pain — in TCM, suppressed grief and anger literally congeal blood",
+                              "zh-TW":  "未化解的情感創傷——在中醫裡，壓抑的悲傷和憤怒會真的讓血液凝結",
+                              "ja":  "未解決の感情の痛み——中医学では、抑圧された悲しみや怒りは文字通り血を凝固させます"
+                          },
+                          {
+                              "en":  "Tight restrictive clothing — restricts blood flow, especially around waist and thighs",
+                              "zh-TW":  "緊身束縛的衣物——阻礙血液流動，尤其是腰腹和大腿處",
+                              "ja":  "締めつける衣服——特に腰回りと太ももの血流を妨げます"
+                          },
+                          {
+                              "en":  "Prolonged sitting — the physical cause of much blood stasis in modern life",
+                              "zh-TW":  "久坐不動——現代人血瘀最常見的身體成因",
+                              "ja":  "長時間の座位——現代人の血瘀の最も一般的な身体的要因です"
+                          }
+                      ],
+    "ch3Seasonal":  {
+                        "highlight":  {
+                                          "en":  "Winter is your crucible — cold congeals blood. You feel worse in cold months. Spring brings renewal as warmth gets blood moving again.",
+                                          "zh-TW":  "冬天是你的試煉——寒則血凝。在寒冷的月份你會感覺更差。春天帶來更新，溫暖讓血液重新流動起來。",
+                                          "ja":  "冬はあなたの試練です——寒は血を凝らせます。寒い月は調子が落ちます。春が訪れると温もりが血を動かし始め、新たな循環が始まります。"
+                                      },
+                        "tips":  [
+                                     {
+                                         "en":  "Spring — Blood starts moving again as warmth returns. Increase ginger and hawthorn in your diet. Take outdoor walks — the movement and the warming weather are your allies. Your body is waking up from winter stagnation.",
+                                         "zh-TW":  "春季——隨著天氣回暖，血液開始重新流動。增加飲食中的生薑和山楂。到戶外散步——運動和回暖的天氣都是你的盟友。你的身體正在從冬季的瘀滯中甦醒。",
+                                         "ja":  "春——温もりが戻り、血が再び動き始めます。食事にしょうがとサンザシを増やしましょう。外を散歩して——運動と暖かい気候はあなたの味方です。体は冬の瘀滞から目を覚ましています。"
+                                     },
+                                     {
+                                         "en":  "Summer — Circulation is at its best. Stay active and take advantage of the natural warmth. Don\u0027t overdo air conditioning — it\u0027s \"internal winter\" and it congeals your blood just like the real thing. Let yourself sweat.",
+                                         "zh-TW":  "夏季——血液循環處於最佳狀態。保持活躍，善用自然的溫暖。不要過度使用冷氣——那是「內部的冬天」，同樣會讓你的血液凝結。讓自己出汗吧。",
+                                         "ja":  "夏——血液循環が最も良い時期。活発に過ごし、自然の温もりを活かしましょう。冷房の使いすぎに注意——それは「内なる冬」で、本物の冬と同じように血を凝らせます。しっかり汗をかきましょう。"
+                                     },
+                                     {
+                                         "en":  "Autumn — Prepare for the cold ahead. Start incorporating more warming foods — blood-moving soups, ginger in everything, hawthorn tea daily. This is your preparation window. Don\u0027t wait until winter to act.",
+                                         "zh-TW":  "秋季——為即將到來的寒冷做準備。開始增加更多溫性食物——活血湯品、餐餐加薑、每天山楂茶。這是你的備戰期。不要等到冬天才行動。",
+                                         "ja":  "秋——これから来る寒さへの備えを。温性食材をさらに取り入れましょう——活血スープ、何にでもしょうがを、毎日サンザシ茶。これは準備の時期です。冬になってから動くのでは遅すぎます。"
+                                     },
+                                     {
+                                         "en":  "Winter — Critical season for you. Cold congeals blood — this is when your stasis is at its worst. Ginger in everything. Keep warm at all times. Never sit in cold drafts. Warm baths are medicinal. Move your body even when you don\u0027t want to.",
+                                         "zh-TW":  "冬季——你的關鍵季節。寒則血凝——這是瘀滯最嚴重的時候。餐餐加薑。隨時保持溫暖。絕不要坐在冷風中。熱水澡是養生好方法。即使不想動，也要讓身體動起來。",
+                                         "ja":  "冬——あなたにとっての重要な季節。寒は血を凝らせ——瘀滞が最もひどくなる時期です。何にでもしょうがを。常に温かく。冷たい風には絶対に当たらないで。温かいお風呂は養生です。動きたくなくても体を動かしましょう。"
+                                     }
+                                 ]
+                    },
+    "ch4DailyRhythm":  [
+                           {
+                               "time":  "6:30–7:30 AM",
+                               "meridian":  {
+                                                "en":  "Stomach",
+                                                "zh-TW":  "胃經",
+                                                "ja":  "胃経"
+                                            },
+                               "desc":  {
+                                            "en":  "Wake with warmth. Hot water with ginger and a goji berry. No cold water ever — your blood has been still all night and cold will congeal it further. Start the day by getting the rivers flowing.",
+                                            "zh-TW":  "在溫暖中醒來。生薑枸杞熱水。永遠不喝冷水——你的血液已經靜止了一整夜，冷只會讓它更加凝滯。用讓河流重新流動的方式開始新的一天。",
+                                            "ja":  "温もりとともに目覚めて。しょうがとクコの実入りのお湯を。冷たい水は絶対にNG——血は一晩中止まっていたところに冷たさが加わると、さらに凝ってしまいます。川の流れを取り戻すところから一日を始めましょう。"
+                                        }
+                           },
+                           {
+                               "time":  "7:30–8:30 AM",
+                               "meridian":  {
+                                                "en":  "Spleen",
+                                                "zh-TW":  "脾經",
+                                                "ja":  "脾経"
+                                            },
+                               "desc":  {
+                                            "en":  "Warm, blood-nourishing breakfast. Black fungus congee or hawthorn tea with toast. Everything warm. This meal sets the tone for your circulation all day — make it count.",
+                                            "zh-TW":  "溫暖、養血的早餐。黑木耳粥或山楂茶配吐司。一切都要溫的。這餐決定了你一整天的血液循環基調——好好把握。",
+                                            "ja":  "温かく養血する朝食。黒木耳粥かサンザシ茶とトースト。すべて温かく。この食事が一日の血液循環の基調を決めます——大切に。"
+                                        }
+                           },
+                           {
+                               "time":  "9:00–11:00 AM",
+                               "meridian":  {
+                                                "en":  "Spleen (peak)",
+                                                "zh-TW":  "脾經（當令）",
+                                                "ja":  "脾経（当令）"
+                                            },
+                               "desc":  {
+                                            "en":  "MOVE. This is not optional for your type. Brisk walk, yoga, dance — anything that gets blood pumping. Movement IS your medicine. Your blood has been nourished at breakfast; now it needs to circulate. Sitting during Spleen peak is the worst thing you can do.",
+                                            "zh-TW":  "動起來。這對你的體質來說不是選項，是必須。快走、瑜伽、跳舞——任何能讓血液奔流的事。運動就是你的養生好方法。早餐已經為你養了血；現在它需要循環起來。在脾經當令時久坐，是你能做的最糟的事。",
+                                            "ja":  "動く。これはあなたの体質にとって選択肢ではありません。早歩き、ヨガ、ダンス——血を巡らせる何かを。運動こそが養生。朝食で養った血は、今こそ巡る必要があります。脾経が当令の時間に座り続けるのは、最もやってはいけないことです。"
+                                        }
+                           },
+                           {
+                               "time":  "11:00 AM–1:00 PM",
+                               "meridian":  {
+                                                "en":  "Heart",
+                                                "zh-TW":  "心經",
+                                                "ja":  "心経"
+                                            },
+                               "desc":  {
+                                            "en":  "Warming lunch. Ginger, black beans, dark leafy greens. No cold salads. The Heart governs blood — nourish it now with warm, blood-moving foods while your digestive fire is strong.",
+                                            "zh-TW":  "溫熱的午餐。生薑、黑豆、深綠色蔬菜。不要吃生菜沙拉。心主血——趁著消化火力旺盛時，用溫熱的活血食物來滋養它。",
+                                            "ja":  "温かい昼食。しょうが、黒豆、濃い色の葉物野菜。冷たいサラダはNG。心は血を司る——消化の力が強い今の時間に、温かい活血食材で養いましょう。"
+                                        }
+                           },
+                           {
+                               "time":  "1:00–3:00 PM",
+                               "meridian":  {
+                                                "en":  "Small Intestine",
+                                                "zh-TW":  "小腸經",
+                                                "ja":  "小腸経"
+                                            },
+                               "desc":  {
+                                            "en":  "Gentle movement. Walk after lunch — even 10 minutes. Blood stasis hates sitting. Use this time to keep things circulating. A short walk after every meal is one of the most powerful habits you can build.",
+                                            "zh-TW":  "溫和的運動。飯後散步——哪怕十分鐘也好。血瘀最怕久坐。利用這段時間讓一切繼續循環。每餐飯後短暫散步，是你能建立的最重要的習慣之一。",
+                                            "ja":  "穏やかな運動。食後の散歩——10分でも。血瘀は座ることが一番の敵。この時間を使って循環を保ちましょう。毎食後の短い散歩は、身につけたい最も強力な習慣のひとつです。"
+                                        }
+                           },
+                           {
+                               "time":  "3:00–5:00 PM",
+                               "meridian":  {
+                                                "en":  "Bladder",
+                                                "zh-TW":  "膀胱經",
+                                                "ja":  "膀胱経"
+                                            },
+                               "desc":  {
+                                            "en":  "Rose tea and a square of dark chocolate. Your afternoon blood-moving ritual. The rose gently moves blood and lifts your mood; the dark chocolate improves circulation. A beautiful, medicinal break.",
+                                            "zh-TW":  "玫瑰花茶配一小塊黑巧克力。這是你下午的活血儀式。玫瑰溫和地活血並提振情緒；黑巧克力促進循環。一段美好而有益身心的休息。",
+                                            "ja":  "ローズティーとダークチョコレートをひとかけ。午後の活血ルーティン。ローズは穏やかに血を巡らせ気分を上げ、ダークチョコレートは循環を改善します。美しく、養生効果のあるひととき。"
+                                        }
+                           },
+                           {
+                               "time":  "5:00–7:00 PM",
+                               "meridian":  {
+                                                "en":  "Kidney",
+                                                "zh-TW":  "腎經",
+                                                "ja":  "腎経"
+                                            },
+                               "desc":  {
+                                            "en":  "Warm dinner. Black fungus soup, hawthorn dessert. Continue the warmth into evening. The Kidney is the root of your constitutional energy — nourish it with warm, dark-colored, blood-moving foods.",
+                                            "zh-TW":  "溫暖的晚餐。黑木耳湯、山楂甜點。讓溫暖延續到夜晚。腎是你體質能量的根本——用溫性、深色、活血的食物來滋養它。",
+                                            "ja":  "温かい夕食。黒木耳スープ、サンザシのデザート。温もりを夜まで続けて。腎は体質エネルギーの根——温かく、黒っぽく、活血する食材で養いましょう。"
+                                        }
+                           },
+                           {
+                               "time":  "8:30–9:30 PM",
+                               "meridian":  {
+                                                "en":  "Heart Protector",
+                                                "zh-TW":  "心包經",
+                                                "ja":  "心包経"
+                                            },
+                               "desc":  {
+                                            "en":  "Warm bath with Epsom salts. This is deeply beneficial for you — it supports blood movement throughout your entire body. The warmth opens vessels, the Epsom salts relax muscles, and the immersion creates gentle pressure that aids circulation. Not a luxury — essential body care.",
+                                            "zh-TW":  "用瀉鹽泡熱水澡。這對你來說是養生好物——它確實讓血液在你全身流動起來。溫暖擴張血管，瀉鹽放鬆肌肉，浸泡產生的溫和壓力有助循環。這不是奢侈——是必要的身體護理。",
+                                            "ja":  "エプソムソルト入りのお風呂に。これはあなたにとっての養生素材——全身の血を物理的に巡らせます。温かさが血管を開き、エプソムソルトが筋肉を緩め、浸かることで加わる穏やかな圧力が循環を助けます。贅沢ではなく——必要な身体ケアです。"
+                                        }
+                           },
+                           {
+                               "time":  "10:00–10:30 PM",
+                               "meridian":  {
+                                                "en":  "Triple Heater",
+                                                "zh-TW":  "三焦經",
+                                                "ja":  "三焦経"
+                                            },
+                               "desc":  {
+                                            "en":  "Asleep in a warm room. Never sleep in a cold room — eight hours of cold will undo all your day\u0027s work. Socks on. Your body repairs circulation during sleep, but only if it\u0027s warm enough to let blood flow freely.",
+                                            "zh-TW":  "在溫暖的房間裡入睡。絕不要在冷房裡睡覺——八小時的寒冷會毀掉你一整天的努力。穿上襪子。你的身體在睡眠中修復循環，但前提是要夠暖，血液才能自由流動。",
+                                            "ja":  "温かい部屋で眠りにつきましょう。冷たい部屋で寝てはいけません——8時間の寒さが一日の努力を無にしてしまいます。靴下を履いて。体は眠っている間に循環を修復しますが、血が自由に流れるほど温かくないとできません。"
+                                        }
+                           }
+                       ],
+    "ch4Checklist":  [
+                         {
+                             "en":  "Hot water with ginger first thing — no cold drinks, ever",
+                             "zh-TW":  "早晨第一杯：薑片熱水——永遠不喝冷飲",
+                             "ja":  "朝一番はしょうが入りのお湯——冷たい飲み物は絶対にNG"
+                         },
+                         {
+                             "en":  "Blood-moving food at breakfast (black fungus, hawthorn)",
+                             "zh-TW":  "早餐含活血食物（黑木耳、山楂）",
+                             "ja":  "朝食に活血食材を（黒木耳、サンザシ）"
+                         },
+                         {
+                             "en":  "30+ minutes of movement in the morning — non-negotiable",
+                             "zh-TW":  "早上運動30分鐘以上——不可妥協",
+                             "ja":  "午前中に30分以上の運動——譲れない"
+                         },
+                         {
+                             "en":  "Warm lunch — no raw salads, no cold food",
+                             "zh-TW":  "溫熱午餐——不碰生菜沙拉和冷食",
+                             "ja":  "温かい昼食——生野菜サラダも冷たい食べ物もNG"
+                         },
+                         {
+                             "en":  "Walk after every meal — even 10 minutes",
+                             "zh-TW":  "每餐飯後散步——哪怕十分鐘也好",
+                             "ja":  "毎食後の散歩——10分でも"
+                         },
+                         {
+                             "en":  "Rose tea + dark chocolate in the afternoon",
+                             "zh-TW":  "下午玫瑰花茶＋黑巧克力",
+                             "ja":  "午後はローズティー＋ダークチョコレート"
+                         },
+                         {
+                             "en":  "Warm bath or shower before bed — medicinal for your type",
+                             "zh-TW":  "睡前熱水澡或熱水淋浴——對你的體質而言是養生好方法",
+                             "ja":  "寝る前に温かいお風呂かシャワー——あなたの体質には養生"
+                         },
+                         {
+                             "en":  "Sleep in warm room with socks on",
+                             "zh-TW":  "在溫暖的房間裡穿著襪子入睡",
+                             "ja":  "温かい部屋で靴下を履いて眠る"
+                         }
+                     ],
+    "recipe":  {
+                   "title":  {
+                                 "en":  "Black Fungus \u0026 Hawthorn Blood-Moving Soup",
+                                 "zh-TW":  "木耳山楂活血湯",
+                                 "ja":  "黒木耳とサンザシの活血スープ"
+                             },
+                   "titleZh":  "木耳山楂活血湯",
+                   "ingredients":  [
+                                       {
+                                           "name":  {
+                                                        "en":  "Dried Black Fungus",
+                                                        "zh-TW":  "乾黑木耳",
+                                                        "ja":  "乾燥黒木耳"
+                                                    },
+                                           "aliases":  "Wood Ear / 木耳 / 黒木耳 / Mù ěr / Dried Auricularia",
+                                           "amount":  "15 g (≈ 0.5 oz), soaked"
+                                       },
+                                       {
+                                           "name":  {
+                                                        "en":  "Fresh Hawthorn",
+                                                        "zh-TW":  "新鮮山楂",
+                                                        "ja":  "生サンザシ"
+                                                    },
+                                           "aliases":  "Hawthorn / 山楂 / サンザシ / Shān Zhā / Hawthorn Berry",
+                                           "amount":  "30 g fresh (or 15 g dried)"
+                                       },
+                                       {
+                                           "name":  {
+                                                        "en":  "Red Dates (dried)",
+                                                        "zh-TW":  "紅棗（乾）",
+                                                        "ja":  "紅棗（乾）"
+                                                    },
+                                           "aliases":  "Jujube / 紅棗 / Natsume / Chinese dates",
+                                           "amount":  "6 pieces, pitted"
+                                       },
+                                       {
+                                           "name":  {
+                                                        "en":  "Fresh Ginger",
+                                                        "zh-TW":  "生薑",
+                                                        "ja":  "しょうが"
+                                                    },
+                                           "aliases":  "Fresh Ginger / 生薑 / ショウガ / Shēng Jiāng",
+                                           "amount":  "3 slices"
+                                       },
+                                       {
+                                           "name":  {
+                                                        "en":  "Brown Sugar",
+                                                        "zh-TW":  "黑糖",
+                                                        "ja":  "黒糖"
+                                                    },
+                                           "aliases":  "Brown Sugar / 黑糖 / 黒糖 / Muscovado",
+                                           "amount":  "15 g (≈ 1 tbsp / 0.5 oz)"
+                                       },
+                                       {
+                                           "name":  {
+                                                        "en":  "Water",
+                                                        "zh-TW":  "水",
+                                                        "ja":  "水"
+                                                    },
+                                           "aliases":  "",
+                                           "amount":  "1000 ml (≈ 4 cups)"
+                                       }
+                                   ],
+                   "tcmPrinciple":  {
+                                        "en":  "Black fungus is TCM\u0027s top food for invigorating blood and clearing stasis. Hawthorn is the classic fruit for moving blood and transforming stagnation. Red dates nourish blood — you must nourish while you move, because moving depleted blood creates more problems. Ginger warms to prevent cold from congealing blood. Brown sugar warms and moves blood — used for centuries for menstrual pain.",
+                                        "zh-TW":  "黑木耳是中醫活血化瘀的首選食材。山楂是活血化瘀的經典果實。紅棗養血——活血的同時必須養血，因為在血虛的狀態下行血會製造更多問題。生薑溫陽散寒，防止寒邪凝滯血液。黑糖溫經活血——用於經痛已有數百年歷史。",
+                                        "ja":  "黒木耳は中医学における活血化瘀の最高食材です。サンザシは活血化瘀の古典的な果実。紅棗は養血します——活血する際は同時に養血が必要です。血が不足した状態で活血すると、かえって問題が増えるからです。しょうがは温めて寒が血を凝らすのを防ぎます。黒糖は温経活血——生理痛に数百年にわたり使われてきました。"
+                                    },
+                   "steps":  [
+                                 {
+                                     "en":  "Soak black fungus in warm water for 30 minutes until fully expanded. Tear into small pieces. Remove and discard the hard base.",
+                                     "zh-TW":  "將黑木耳用溫水浸泡30分鐘至完全展開。撕成小片。去除並丟棄硬蒂。",
+                                     "ja":  "黒木耳をぬるま湯に30分浸し、完全に戻す。小さくちぎる。硬い根元は取り除く。"
+                                 },
+                                 {
+                                     "en":  "If using fresh hawthorn, wash and cut in half, remove seeds. If using dried hawthorn, rinse briefly.",
+                                     "zh-TW":  "若用新鮮山楂，洗淨後對半切開，去籽。若用乾山楂，稍微沖洗即可。",
+                                     "ja":  "生のサンザシの場合は洗って半分に切り、種を取り除く。乾燥サンザシの場合は軽くゆすぐ。"
+                                 },
+                                 {
+                                     "en":  "Place black fungus, hawthorn, red dates, ginger, and 1000 ml water in a pot. Bring to a boil, then reduce heat and simmer for 30 minutes.",
+                                     "zh-TW":  "將黑木耳、山楂、紅棗、生薑和1000毫升水放入鍋中。大火煮沸後轉小火，煲煮30分鐘。",
+                                     "ja":  "黒木耳、サンザシ、紅棗、しょうが、水1000mlを鍋に入れる。沸騰したら弱火にし、30分煮込む。"
+                                 },
+                                 {
+                                     "en":  "Add brown sugar, stir until fully dissolved. Simmer for 5 more minutes.",
+                                     "zh-TW":  "加入黑糖，攪拌至完全溶解。再小火煮5分鐘。",
+                                     "ja":  "黒糖を加え、完全に溶けるまでかき混ぜる。さらに5分弱火で煮る。"
+                                 },
+                                 {
+                                     "en":  "Serve warm. Drink the broth and eat the fungus and dates. Makes 2 servings.",
+                                     "zh-TW":  "趁溫熱飲用。喝湯並食用木耳和紅棗。此份量為2人份。",
+                                     "ja":  "温かいうちにどうぞ。スープを飲み、木耳と紅棗も食べる。2人分です。"
+                                 }
+                             ],
+                   "tip":  {
+                               "en":  "Best started 3 days before your period and continued through it. For severe cramps, add 3g saffron threads (番紅花) in step 3. This is your daily medicine — make it a ritual.",
+                               "zh-TW":  "最好在經期前3天開始飲用，並持續到經期結束。若經痛嚴重，可在第3步加入3克番紅花。這是你的日常養生好物——讓它成為一種儀式。",
+                               "ja":  "生理の3日前から飲み始め、生理が終わるまで続けるのがベスト。ひどい生理痛には、手順3でサフラン3gを加えて。これは毎日の養生茶——儀式にしましょう。"
+                           }
+               }
+}

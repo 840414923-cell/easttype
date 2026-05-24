@@ -1,0 +1,521 @@
+{
+  "ch1Identity": {
+    "en": "You know how some people seem to glide through life without the drama? That's you. Your body's internal environment is harmonious — Qi flows smoothly, blood nourishes fully, Yin and Yang are in dynamic balance. You sleep well, digest well, handle stress reasonably, recover from illness quickly. You're the gold standard.\n\nIn Chinese medicine, your type is called **平和 (Píng Hé)** — \"Balanced and Harmonious.\" It's exactly what it sounds like. Your body is a well-tuned instrument playing in key. Your complexion is bright and clear, your energy is steady, your emotions are balanced. As a woman: regular periods with minimal discomfort, healthy appetite, good sleep, clear skin, stable mood. You're the person others come to for stability.\n\nBut — and this is crucial — balanced is not invincible. Your constitution is a **GIFT, not a guarantee**. It must be maintained. Think of it as a well-tuned instrument: beautiful when cared for, but it can go out of tune through neglect. Most people who lose their balanced constitution do so through lifestyle — too much of anything (work, stress, alcohol, late nights, extreme diets) will push you toward imbalance. Your mission is **preservation**.\n\n### What Makes You, You\n\nYou're naturally balanced, adaptable, easy-going but with depth. You're the person who can enjoy a party and also enjoy solitude. You handle stress without falling apart. Your personality is like water — it takes the shape of whatever container it's in, without losing its essential nature. People feel calm around you because your internal harmony radiates outward.\n\n### Your Natural Strengths\n\n- **Resilience** — your body and mind bounce back quickly from stress, illness, and disruption\n- **Adaptability** — you adjust to change naturally, both physically and emotionally\n- **Emotional stability** — steady without being flat, present without being overwhelmed\n- **Vitality** — consistent energy without the crashes others experience\n- **Natural i... (line truncated to 2000 chars)",
+    "zh-TW": "你知道嗎？有些人似乎總能從容不迫地度過人生，而你正是如此。你的身體內在環境和諧——氣血流暢、陰陽平衡、臟腑協調。你睡得好、消化好、能從容應對壓力、生病後恢復迅速。你就是健康的黃金標準。\n\n在中醫裡，你的體質稱為**平和質**——「平衡和諧」。顧名思義，你的身體就像一把調校精準的樂器，奏出和諧的旋律。面色紅潤有光澤、精力充沛而穩定、情緒平和。作為女性：經期規律且不適感輕微、食慾良好、睡眠安穩、肌膚清透、心情穩定。你是身邊人尋求安定感的那個人。\n\n但——這一點至關重要——平和不代表無堅不摧。你的體質是一份**天賦，而非永恆的保證**，需要用心維護。把它想像成一把精心調校的樂器：悉心保養時音色優美，但疏於照顧便會走調。大多數失去平和體質的人，都是因為生活方式——任何事物的過量（工作、壓力、酒精、熬夜、極端飲食）都會把你推向失衡。你的使命是**守護與維持**。\n\n### 是什麼成就了妳\n\n你天生平衡、適應力強、隨和而有深度。你既能享受熱鬧的聚會，也能安於獨處。面對壓力不會崩潰。你的個性如水——能隨容器改變形態，卻不失本質。身邊的人在你身旁會感到平靜，因為你內在的和諧會自然流露。\n\n### 妳天生的優勢\n\n- **恢復力**——身心從壓力、疾病和干擾中迅速恢復\n- **適應力**——身心皆能自然順應變化\n- **情緒穩定**——穩而不僵、在場而不被淹沒\n- **活力**——持續穩定的精力，不會出現他人的精力崩潰\n- **天然的免疫力**——強健的正氣抵禦外邪入侵",
+    "ja": "人生をドラマなく滑らかに生きている人がいますよね。それがあなたです。からだの内側の環境は調和がとれていて——気がスムーズに巡り、血がしっかりと潤し、陰と陽が動的な平衡を保っています。よく眠れ、よく消化でき、ストレスも適切に扱い、病気からも早く回復する。あなたは健康の黄金基準です。\n\n漢方では、あなたの体質は**平和（へいわ）**と呼ばれます——「平衡で調和のとれた」という意味です。その名の通り、あなたのからだはよく調律された楽器のように、正しい音程で奏でています。肌は明るく澄んでいて、エネルギーは安定し、感情のバランスが取れています。女性として：月経は規則正しく不快感が少なく、食欲は健やかで、睡眠は安らか、肌は清らか、気分は安定しています。あなたは周りの人が安心感を求めて頼る存在です。\n\nでも——ここがとても大切です——平衡だからといって無敵ではありません。あなたの体質は**天からの贈り物であり、永遠の保証ではありません**。大切に守り続ける必要があります。よく調律された楽器のように、手入れすれば美しい音色を奏でますが、放っておけば音が狂ってしまいます。平和な体質を失う人の多くは、ライフスタイルが原因です——何事も「すぎる」（仕事、ストレス、お酒、夜更かし、極端な食事）ことが、バランスを崩す方向へ押しやります。あなたの使命は**守り抜くこと**です。\n\n### あなたらしさの源\n\nあなたは生まれつきバランスが取れ、適応力があり、おおらかでいて奥深い人です。パーティーも楽しめるし、ひとりの時間も心地よく過ごせる。ストレスが来ても崩れ落ちない。あなたの個性は水のよう——器に合わせて形を変えても、本質は失いません。内なる調和が外ににじみ出るため、周りの人はあなたのそばで穏やかな気持ちになります。\n\n### あなたの生まれ持った強み\n\n- **回復力**——心身ともにストレス、病気、変化からすぐに立ち直る\n- **適応力**——身体的にも感情的にも、変化に自然に順応する\n- **感情の安定**——平坦ではなく安定し、圧倒されずにその場に在る\n- **生命力**——他人のようなエネルギーの崩落がなく、持続的な活力がある\n- **自然な免疫力**——健やかな正気が外邪の侵入を防ぐ"
+  },
+  "ch2FoodsLove": [
+    {
+      "name": {
+        "en": "Seasonal Vegetables",
+        "zh-TW": "應季蔬菜",
+        "ja": "旬の野菜"
+      },
+      "nameZh": "應季蔬菜",
+      "aliases": "Seasonal Vegetables / 應季蔬菜 / Seasonal Greens / Yìng Jì Shū Cài",
+      "tcmAction": {
+        "en": "Harmonizes with seasonal Qi, supports natural balance",
+        "zh-TW": "順應四時之氣，調和自然平衡",
+        "ja": "四時の気に順応し、自然な平衡を調和する"
+      },
+      "desc": {
+        "en": "Eat what's in season. Nature provides exactly what your body needs each season. Spring: greens. Summer: cooling vegetables. Autumn: root vegetables. Winter: warming stews. Your body thrives on this natural rhythm.",
+        "zh-TW": "吃當季的食物。大自然在每個季節都為你提供了身體所需。春天：綠葉蔬菜。夏天：清涼瓜果。秋天：根莖類蔬菜。冬天：溫補燉品。順應自然節律，你的身體會更加健康。",
+        "ja": "旬のものを食べましょう。自然は季節ごとに、からだが必要なものをちょうど与えてくれます。春は緑黄色野菜、夏は涼性の野菜、秋は根菜類、冬は温まる煮込み料理。この自然のリズムに乗ることで、からだは健やかに育ちます。"
+      }
+    },
+    {
+      "name": {
+        "en": "Whole Grains",
+        "zh-TW": "五穀雜糧",
+        "ja": "五穀雑穀"
+      },
+      "nameZh": "五穀",
+      "aliases": "Whole Grains / 五穀 / Wǔ Gǔ / Rice / Millet / Oats / Quinoa",
+      "tcmAction": {
+        "en": "Strengthens Spleen, nourishes Qi, foundational nutrition",
+        "zh-TW": "健脾益氣，奠定營養根基",
+        "ja": "健脾し気を養い、栄養の基盤を築く"
+      },
+      "desc": {
+        "en": "Rice, millet, oats, quinoa — the foundation of balanced nutrition. Your body processes them efficiently. These are your daily staples — steady, reliable, and deeply nourishing.",
+        "zh-TW": "白米、小米、燕麥、藜麥——均衡營養的基石。你的身體能高效地消化吸收。這些是你每日的主食——穩定可靠，滋養深厚。",
+        "ja": "お米、粟、オーツ麦、キヌア——バランスのとれた栄養の基盤です。あなたのからだはこれらを効率よく消化吸収できます。毎日の主食として——安定して頼りになり、深く滋養を与えてくれます。"
+      }
+    },
+    {
+      "name": {
+        "en": "Goji Berries",
+        "zh-TW": "枸杞",
+        "ja": "クコの実"
+      },
+      "nameZh": "枸杞",
+      "aliases": "Goji Berries / 枸杞 / Wolfberry / Gǒu Qǐ / Lycium",
+      "tcmAction": {
+        "en": "Nourishes Liver and Kidney, supports longevity",
+        "zh-TW": "滋養肝腎，助益延年",
+        "ja": "肝と腎を滋養し、長寿を助ける"
+      },
+      "desc": {
+        "en": "Your daily maintenance supplement. A handful in tea or congee keeps your Liver and Kidney systems well-nourished. Gentle, consistent, long-term care — exactly what your balanced constitution needs.",
+        "zh-TW": "你的日常保養聖品。泡茶或煮粥時放一小把，持續滋養肝腎。溫和、持久、長期的調養——正是平和體質所需要的。",
+        "ja": "毎日のお手入れにぴったりの食材。お茶やお粥にひとつまみ入れるだけで、肝と腎のシステムをしっかり滋養できます。穏やかで、持続する、長期的な養生——それこそが平和体質に必要なケアです。"
+      }
+    },
+    {
+      "name": {
+        "en": "Red Dates",
+        "zh-TW": "紅棗",
+        "ja": "紅棗（ナツメ）"
+      },
+      "nameZh": "紅棗",
+      "aliases": "Red Dates / 紅棗 / Jujube / Hóng Zǎo / Chinese Dates",
+      "tcmAction": {
+        "en": "Nourishes Blood, strengthens Spleen",
+        "zh-TW": "補血健脾",
+        "ja": "血を補い、脾を健やかにする"
+      },
+      "desc": {
+        "en": "The everyday superfood. 3-5 dates daily in tea or as a snack. Nourishes your blood and strengthens your Spleen — the foundation of good digestion and steady energy.",
+        "zh-TW": "日常的超級食物。每天三至五顆，泡茶或當零食皆可。養血健脾——良好消化與穩定精力的根基。",
+        "ja": "毎日のスーパーフード。1日3〜5粒をお茶に入れたり、おやつとしてどうぞ。血を養い、脾を健やかにし——健やかな消化と安定したエネルギーの基盤となります。"
+      }
+    },
+    {
+      "name": {
+        "en": "Green Tea",
+        "zh-TW": "綠茶",
+        "ja": "緑茶"
+      },
+      "nameZh": "綠茶",
+      "aliases": "Green Tea / 綠茶 / Lǜ Chá / Matcha / Sencha",
+      "tcmAction": {
+        "en": "Clears heat, supports metabolism",
+        "zh-TW": "清熱，促進代謝",
+        "ja": "熱を清らかにし、代謝を助ける"
+      },
+      "desc": {
+        "en": "Your daily beverage. Antioxidant-rich without overstimulating. Green tea supports your metabolism and provides gentle, clean energy. Unlike other constitutions, you can enjoy it freely.",
+        "zh-TW": "你的日常飲品。富含抗氧化物，溫和不刺激。綠茶有助促進代謝，提供溫和而純淨的能量。與其他體質不同，你可以安心享用。",
+        "ja": "あなたの毎日の飲み物。抗酸化物質が豊富で、刺激が強すぎません。緑茶は代謝を助け、穏やかで純粋なエネルギーを与えてくれます。他の体質と違い、あなたは安心して楽しむことができます。"
+      }
+    },
+    {
+      "name": {
+        "en": "Sweet Potato",
+        "zh-TW": "番薯",
+        "ja": "さつまいも"
+      },
+      "nameZh": "番薯",
+      "aliases": "Sweet Potato / 番薯 / Fān Shǔ / Yam / Kumara",
+      "tcmAction": {
+        "en": "Strengthens Spleen, nourishes Qi",
+        "zh-TW": "健脾益氣",
+        "ja": "健脾し気を養う"
+      },
+      "desc": {
+        "en": "Comfort food that's also medicine. Your digestion loves it. Sweet potato strengthens your Spleen and provides steady, warm nourishment. Bake it, steam it, add it to congee — it's always the right choice.",
+        "zh-TW": "既是撫慰心靈的食物，也是養生好物。你的脾胃特別喜歡它。番薯健脾益氣，提供穩定而溫暖的滋養。烤、蒸、煮粥皆宜——怎麼吃都對。",
+        "ja": "心を温める食べ物であり、養生素材でもあります。あなたの消化器はさつまいもが大好きです。脾を健やかにし、安定した温かい滋養を与えてくれます。焼いても、蒸しても、お粥に入れても——どんな食べ方でも正解です。"
+      }
+    },
+    {
+      "name": {
+        "en": "Black Sesame",
+        "zh-TW": "黑芝麻",
+        "ja": "黒ごま"
+      },
+      "nameZh": "黑芝麻",
+      "aliases": "Black Sesame / 黑芝麻 / Hēi Zhī Má / Kuro Goma",
+      "tcmAction": {
+        "en": "Nourishes Liver and Kidney",
+        "zh-TW": "滋養肝腎",
+        "ja": "肝と腎を滋養する"
+      },
+      "desc": {
+        "en": "A daily spoonful for long-term maintenance of hair, skin, and joints. Black sesame nourishes your deepest reserves — the Liver and Kidney systems that govern aging, vitality, and reproductive health.",
+        "zh-TW": "每天一匙，長期保養髮膚與關節。黑芝麻滋養你最深層的儲備——主掌衰老、活力與生殖健康的肝腎系統。",
+        "ja": "毎日スプーン一杯で、髪、肌、関節の長期的なお手入れを。黒ごまは最も深い蔵——老化、生命力、生殖の健康を司る肝と腎のシステムを滋養します。"
+      }
+    },
+    {
+      "name": {
+        "en": "Fresh Fruit (Seasonal)",
+        "zh-TW": "應季水果",
+        "ja": "旬の果物"
+      },
+      "nameZh": "應季水果",
+      "aliases": "Fresh Fruit / 應季水果 / Seasonal Fruit / Yìng Jì Shuǐ Guǒ",
+      "tcmAction": {
+        "en": "Nourishes fluids, provides natural vitamins and minerals",
+        "zh-TW": "生津潤燥，補充天然維生素與礦物質",
+        "ja": "津液を生じ潤し、天然のビタミンとミネラルを補う"
+      },
+      "desc": {
+        "en": "Whatever is seasonal and local. Your body can handle the full variety that other constitutions must carefully limit. Enjoy the abundance — this is one of the great privileges of being balanced.",
+        "zh-TW": "選擇當季在地水果。你的身體能夠承受其他體質必須小心限制的各種水果。盡情享受豐富的選擇吧——這正是平和體質的得天獨厚之處。",
+        "ja": "旬の地元の果物をどうぞ。あなたのからだは、他の体質では慎重に制限しなければならない多様な果物をしっかり受け入れられます。豊かな選択を存分に楽しんで——それこそが平和体質の特権です。"
+      }
+    }
+  ],
+  "ch2FoodsAvoid": [
+    {
+      "en": "Excessive anything — your constitution's kryptonite is excess. Too much spicy, too much sweet, too much alcohol, too much raw — balance is your medicine AND your boundary",
+      "zh-TW": "過量是唯一的剋星——過辣、過甜、過量飲酒、過多生冷——平衡既是你的養生之道，也是你的界線",
+      "ja": "何事も「すぎる」こと——それがあなたの体質の弱点です。辛すぎ、甘すぎ、飲みすぎ、生ものの摂りすぎ——バランスはあなたの養生の道であり、同時に境界線でもあります"
+    },
+    {
+      "en": "Extreme diets — keto, fasting, juice cleanses — you don't need to \"fix\" anything and extreme approaches will push you OUT of balance",
+      "zh-TW": "極端飲食法——生酮、斷食、果汁排毒——你不需要「修復」任何問題，極端做法反而會打破你的平衡",
+      "ja": "極端な食事法——ケトジェニック、断食、ジュースクレンズ——あなたは何も「修復」する必要がなく、極端なアプローチはかえってバランスを崩してしまいます"
+    },
+    {
+      "en": "Processed and fast food — even your resilient body accumulates damage from chronic processed food consumption",
+      "zh-TW": "加工食品與速食——即使你體質強健，長期攝入加工食品也會逐漸累積損害",
+      "ja": "加工食品とファストフード——体質が強健でも、長期的な加工食品の摂取は少しずつダメージを蓄積します"
+    },
+    {
+      "en": "Excessive alcohol — your body can handle moderate amounts but habitual excess erodes Liver balance over time",
+      "zh-TW": "過量飲酒——你的身體能承受適量飲酒，但長期過量會逐漸損耗肝經的平衡",
+      "ja": "過度な飲酒——適量ならからだは受け入れられますが、習慣的な過剰摂取は肝経の平衡を徐々に損ないます"
+    },
+    {
+      "en": "Skipping meals — your stable blood sugar is a gift, don't destabilize it with irregular eating patterns",
+      "zh-TW": "不按時用餐——穩定的血糖是一份天賦，不要因飲食不規律而打破它",
+      "ja": "食事を抜くこと——安定した血糖値は天からの贈り物、不規則な食習慣で崩さないでください"
+    },
+    {
+      "en": "Eating the same thing every day — variety maintains the diversity your balanced system thrives on. Monotony is the enemy of harmony.",
+      "zh-TW": "每天吃同樣的食物——多樣性維持著你平衡系統所需的豐富營養。單調是和諧的大敵。",
+      "ja": "毎日同じものを食べること——多様性があなたの平衡したシステムを健やかに保ちます。単調さは調和の敵です。"
+    },
+    {
+      "en": "Late-night eating — your good digestion is worth protecting. Stop eating 2-3 hours before sleep.",
+      "zh-TW": "深夜進食——你良好的消化力值得守護。睡前兩至三小時請停止進食。",
+      "ja": "深夜の食事——あなたの健やかな消化力は守る価値があります。寝る2〜3時間前には食事を終えましょう。"
+    }
+  ],
+  "ch3Seasonal": {
+    "highlight": {
+      "en": "You have the luxury of adapting naturally to all seasons. Your body responds to seasonal changes smoothly — the challenge is to maintain this, not take it for granted.",
+      "zh-TW": "你擁有自然適應四季變化的天賦。身體對季節轉換反應順暢——挑戰在於持續維持，而非視為理所當然。",
+      "ja": "あなたはすべての季節に自然に順応できるという恵まれた体質を持っています。季節の変化にスムーズに対応できます——課題は、これを当然と思わずに守り続けることです。"
+    },
+    "tips": [
+      {
+        "en": "Spring — Liver-cleansing season. Increase greens — spring onions, spinach, celery. Get outside and move. Your body naturally wants to detox after winter. Support it with light, fresh foods and outdoor activity.",
+        "zh-TW": "春季——肝經排毒時節。多吃綠色蔬菜——蔥、菠菜、芹菜。到戶外活動。經歷一冬之後，身體自然需要排毒。以清淡新鮮的飲食和戶外運動來支持它。",
+        "ja": "春——肝経のデトックスの時季。緑の野菜を増やしましょう——ネギ、ほうれん草、セロリ。外に出て体を動かす。冬を経て、からだは自然に排毒を求めています。軽くて新鮮な食事と戸外の活動でサポートしましょう。"
+      },
+      {
+        "en": "Summer — Enjoy the energy. Cooling foods like watermelon, cucumber, and mung beans. Stay hydrated. Your body handles heat well — just don't overdo cold drinks or raw food. Balance summer's fire with mindful cooling.",
+        "zh-TW": "夏季——盡情享受活力。多食清涼之品，如西瓜、黃瓜、綠豆。注意補充水分。你的身體耐熱能力不錯——但不要過度飲用冰品或生冷食物。以適度的清涼來平衡夏日的炎火。",
+        "ja": "夏——エネルギーを存分に楽しみましょう。スイカ、きゅうり、緑豆など涼性の食材で。水分補給をしっかりと。あなたのからだは暑さに強いですが、冷たい飲み物や生ものの摂りすぎに注意しましょう。夏の火を意識的な清涼でバランスを取って。"
+      },
+      {
+        "en": "Autumn — Lung-nourishing season. Pears, lily bulb, white fungus. Slow down slightly. Your body is transitioning from summer's expansion to winter's contraction. Support the Lungs — they're your gateway to immune resilience.",
+        "zh-TW": "秋季——肺經調養時節。梨、百合、銀耳。稍微放慢步調。身體正從夏天的向外舒展轉向冬天的內斂收藏。養好肺經——它是你免疫力的門戶。",
+        "ja": "秋——肺経を養う時季。梨、百合根、白きくらげ。少しずつペースを落としましょう。からだは夏の発散から冬の内収へと移行しています。肺経を労わりましょう——それは免疫力の入り口です。"
+      },
+      {
+        "en": "Winter — Kidney-nourishing season. Warming stews, black sesame, walnuts. Protect your reserves. This is the season for deep nourishment — your body stores energy now for the year ahead. Don't skimp on warmth or rest.",
+        "zh-TW": "冬季——腎經滋養時節。溫補燉品、黑芝麻、核桃。守護你的精氣儲備。這是深度滋養的季節——身體在此時為來年蓄積能量。不要虧欠了溫暖與休息。",
+        "ja": "冬——腎経を滋養する時季。温かい煮込み料理、黒ごま、クルミ。あなたの精気の蓄えを守りましょう。深く滋養する季節——からだは今、来年に向けてエネルギーを蓄えます。温もりと休息をけずらないでください。"
+      }
+    ]
+  },
+  "ch4DailyRhythm": [
+    {
+      "time": "6:00–7:00 AM",
+      "meridian": {
+        "en": "Lung",
+        "zh-TW": "肺經",
+        "ja": "肺経"
+      },
+      "desc": {
+        "en": "Wake naturally if possible. Your body's clock is reliable. Warm water with goji and red date. Light stretching — nothing extreme, just gentle movement to wake the body.",
+        "zh-TW": "盡量自然醒來。你的身體時鐘值得信賴。一杯枸杞紅棗溫水。輕柔伸展——不必劇烈，以溫和的動作喚醒身體即可。",
+        "ja": "できれば自然に目覚めましょう。あなたの体内時計は信頼に足ります。クコの実と紅棗の温水を一杯。軽いストレッチ——激しい運動は不要、穏やかな動きでからだを起こしましょう。"
+      }
+    },
+    {
+      "time": "7:00–8:00 AM",
+      "meridian": {
+        "en": "Spleen",
+        "zh-TW": "脾經",
+        "ja": "脾経"
+      },
+      "desc": {
+        "en": "Balanced breakfast. Whole grain porridge, seasonal fruit, a few nuts. The variety your body loves. You don't need to restrict — you need diversity.",
+        "zh-TW": "均衡的早餐。五穀粥、應季水果、少許堅果。正是身體所喜的多樣搭配。你不需要限制——你需要的是豐富多元。",
+        "ja": "バランスのとれた朝食。雑穀粥、旬の果物、少量のナッツ。からだが喜ぶ多様な組み合わせです。制限する必要はありません——必要なのは多様性です。"
+      }
+    },
+    {
+      "time": "9:00–11:00 AM",
+      "meridian": {
+        "en": "Spleen (peak)",
+        "zh-TW": "脾經（旺盛）",
+        "ja": "脾経（旺盛）"
+      },
+      "desc": {
+        "en": "Productive work. Your energy is steady and reliable — use this window for your most demanding tasks. The Spleen is converting food into peak mental and physical energy right now.",
+        "zh-TW": "高效工作時段。你的精力穩定可靠——把握這段時間處理最重要的任務。此時脾經正將食物轉化為巔峰的身心能量。",
+        "ja": "集中して仕事をする時間。エネルギーは安定して頼りになります——最も重要なタスクにこの時間を使いましょう。脾経は今、食べ物を心身のピークエネルギーに変えています。"
+      }
+    },
+    {
+      "time": "11:00 AM–1:00 PM",
+      "meridian": {
+        "en": "Heart",
+        "zh-TW": "心經",
+        "ja": "心経"
+      },
+      "desc": {
+        "en": "Balanced lunch. Grain, protein, vegetables — the full plate. You can handle variety that others must carefully curate. Enjoy this privilege.",
+        "zh-TW": "均衡的午餐。穀物、蛋白質、蔬菜——一應俱全。你能輕鬆駕馭其他體質必須精心搭配的多樣飲食。好好享受這份福氣。",
+        "ja": "バランスのとれた昼食。穀物、タンパク質、野菜——すべて揃えて。他の体質では慎重に選ばなければならない多様な食事を、あなたは無理なくこなせます。この恵みを楽しんで。"
+      }
+    },
+    {
+      "time": "1:00–3:00 PM",
+      "meridian": {
+        "en": "Small Intestine",
+        "zh-TW": "小腸經",
+        "ja": "小腸経"
+      },
+      "desc": {
+        "en": "Brief rest or walk. You don't need a nap — a 10-minute walk keeps your energy flowing. Your body integrates and sorts nutrients during this window.",
+        "zh-TW": "短暫休息或散步。你不需要午睡——十分鐘的散步就能讓氣血持續流通。這段時間身體正在整合與分佈營養。",
+        "ja": "短い休憩か散歩を。昼寝は不要——10分の散歩で気血を巡らせましょう。この時間、からだは栄養を統合し分配しています。"
+      }
+    },
+    {
+      "time": "3:00–5:00 PM",
+      "meridian": {
+        "en": "Bladder",
+        "zh-TW": "膀胱經",
+        "ja": "膀胱経"
+      },
+      "desc": {
+        "en": "Green tea and a piece of fruit. Your natural afternoon rhythm. Stay hydrated — the Bladder meridian governs fluid metabolism and the body's natural detox pathways.",
+        "zh-TW": "一杯綠茶搭配一份水果。這是你自然的午後節奏。保持水分充足——膀胱經主導水液代謝與身體的天然排毒通道。",
+        "ja": "緑茶と果物をひと切れ。あなたの自然な午後のリズム。水分をしっかり補給して——膀胱経は水液代謝とからだの自然な排毒経路を司っています。"
+      }
+    },
+    {
+      "time": "5:00–7:00 PM",
+      "meridian": {
+        "en": "Kidney",
+        "zh-TW": "腎經",
+        "ja": "腎経"
+      },
+      "desc": {
+        "en": "Dinner with variety. Try new foods, enjoy cooking. Your constitution can handle culinary adventure. This is your time to nourish the deepest reserves — Kidney energy, the root of vitality.",
+        "zh-TW": "豐富多樣的晚餐。嘗試新食材，享受烹飪的樂趣。你的體質經得起美食的探索。這是滋養最深層儲備的時刻——腎經之氣，生命活力的根本。",
+        "ja": "多様な夕食を。新しい食材に挑戦し、料理を楽しみましょう。あなたの体質は美食の探求に耐えられます。最も深い蔵を滋養する時間——腎経の気、生命力の根本です。"
+      }
+    },
+    {
+      "time": "8:30–9:30 PM",
+      "meridian": {
+        "en": "Heart Protector",
+        "zh-TW": "心包經",
+        "ja": "心包経"
+      },
+      "desc": {
+        "en": "Wind-down. Read, stretch, spend time with loved ones. Your emotional balance needs this gentle close to the day. The Heart Protector guards your emotional core — give it a peaceful evening.",
+        "zh-TW": "放鬆時光。閱讀、伸展、與親友相伴。你的情緒平衡需要這樣溫柔的一天收尾。心包經守護著你的情感核心——給它一個寧靜的夜晚。",
+        "ja": "リラックスタイム。読書、ストレッチ、大切な人と過ごす。あなたの感情の平衡には、穏やかな一日の締めくくりが必要です。心包経はあなたの感情の核を守っています——穏やかな夜を贈りましょう。"
+      }
+    },
+    {
+      "time": "10:00–10:30 PM",
+      "meridian": {
+        "en": "Triple Heater",
+        "zh-TW": "三焦經",
+        "ja": "三焦経"
+      },
+      "desc": {
+        "en": "Asleep by 10:30. Your natural sleep rhythm is one of your greatest assets — protect it. The Triple Heater coordinates all your body's systems during sleep. Trust it.",
+        "zh-TW": "十點半前入睡。你天然的睡眠節奏是最珍貴的資產之一——好好守護它。三焦經在睡眠中協調全身各系統的運作。信任它。",
+        "ja": "10時半までに眠りにつきましょう。あなたの自然な睡眠リズムは最も大切な資産の一つ——守ってください。三焦経は睡眠中にからだのすべてのシステムを調整しています。信頼しましょう。"
+      }
+    }
+  ],
+  "ch4Checklist": [
+    {
+      "en": "Wake with warm goji + red date water",
+      "zh-TW": "醒來喝一杯枸杞紅棗溫水",
+      "ja": "目覚めにクコの実と紅棗の温水を"
+    },
+    {
+      "en": "Balanced breakfast with variety — grains, fruit, nuts",
+      "zh-TW": "多樣均衡的早餐——穀物、水果、堅果",
+      "ja": "多様でバランスのとれた朝食——穀物、果物、ナッツ"
+    },
+    {
+      "en": "Demanding work in the morning (your peak energy window)",
+      "zh-TW": "上午處理最重要的工作（精力巔峰時段）",
+      "ja": "午前中に重要な仕事を（エネルギーのピークタイム）"
+    },
+    {
+      "en": "Complete balanced lunch — grain + protein + vegetables",
+      "zh-TW": "完整均衡的午餐——穀物＋蛋白質＋蔬菜",
+      "ja": "バランスのとれた完全な昼食——穀物＋タンパク質＋野菜"
+    },
+    {
+      "en": "10-minute walk after lunch",
+      "zh-TW": "午後散步十分鐘",
+      "ja": "昼食後10分の散歩"
+    },
+    {
+      "en": "Green tea and fruit in the afternoon",
+      "zh-TW": "下午一杯綠茶配水果",
+      "ja": "午後は緑茶と果物を"
+    },
+    {
+      "en": "Adventurous dinner — try new healthy foods",
+      "zh-TW": "豐富的晚餐——嘗試新的健康食材",
+      "ja": "冒険的な夕食——新しい健康食材に挑戦"
+    },
+    {
+      "en": "Asleep by 10:30 PM — protect your natural rhythm",
+      "zh-TW": "晚上十點半前入睡——守護你的自然節律",
+      "ja": "22時半までに就寝——自然なリズムを守る"
+    }
+  ],
+  "recipe": {
+    "title": {
+      "en": "Five-Color Balanced Bowl",
+      "zh-TW": "五色平衡飯",
+      "ja": "五色の平衡ごはん"
+    },
+    "titleZh": "五色平衡飯",
+    "ingredients": [
+      {
+        "name": {
+          "en": "Brown Rice",
+          "zh-TW": "糙米",
+          "ja": "玄米"
+        },
+        "aliases": "Brown Rice / 糙米 / Genmai",
+        "amount": "100 g (≈ 3.5 oz)"
+      },
+      {
+        "name": {
+          "en": "Carrot (diced)",
+          "zh-TW": "紅蘿蔔（切丁）",
+          "ja": "にんじん（角切り）"
+        },
+        "aliases": "Carrot / 胡蘿蔔 / Ninjin",
+        "amount": "50 g (≈ 1.8 oz)"
+      },
+      {
+        "name": {
+          "en": "Spinach",
+          "zh-TW": "菠菜",
+          "ja": "ほうれん草"
+        },
+        "aliases": "Spinach / 菠菜 / Hōrensō",
+        "amount": "50 g (≈ 1.8 oz)"
+      },
+      {
+        "name": {
+          "en": "Shiitake Mushrooms (sliced)",
+          "zh-TW": "香菇（切片）",
+          "ja": "しいたけ（スライス）"
+        },
+        "aliases": "Shiitake / 香菇 / Shitake",
+        "amount": "30 g (≈ 1 oz)"
+      },
+      {
+        "name": {
+          "en": "Black Sesame",
+          "zh-TW": "黑芝麻",
+          "ja": "黒ごま"
+        },
+        "aliases": "Black Sesame / 黑芝麻 / Kuro Goma",
+        "amount": "10 g (≈ 1 tbsp)"
+      },
+      {
+        "name": {
+          "en": "Red Dates (pitted, sliced)",
+          "zh-TW": "紅棗（去核，切片）",
+          "ja": "紅棗（種を取り、スライス）"
+        },
+        "aliases": "Red Dates / 紅棗 / Natsume / Jujube",
+        "amount": "5 pieces"
+      },
+      {
+        "name": {
+          "en": "Ginger (sliced)",
+          "zh-TW": "生薑（切片）",
+          "ja": "生姜（スライス）"
+        },
+        "aliases": "Ginger / 生薑 / Shōga",
+        "amount": "2 slices"
+      },
+      {
+        "name": {
+          "en": "Sesame Oil",
+          "zh-TW": "麻油",
+          "ja": "ごま油"
+        },
+        "aliases": "Sesame Oil / 麻油 / Goma Abura",
+        "amount": "5 ml (≈ 1 tsp)"
+      },
+      {
+        "name": {
+          "en": "Light Soy Sauce",
+          "zh-TW": "生抽",
+          "ja": "薄口しょうゆ"
+        },
+        "aliases": "Light Soy Sauce / 生抽 / Usukuchi Shōyu",
+        "amount": "10 ml (≈ 2 tsp)"
+      }
+    ],
+    "tcmPrinciple": {
+      "en": "In TCM, the five colors correspond to the five organs: red/Heart, yellow/Spleen, green/Liver, white/Lung, black/Kidney. This bowl contains all five colors, nourishing all five organ systems simultaneously. Brown rice provides steady Qi. Black sesame nourishes Kidney. Carrot strengthens Spleen. Spinach supports Liver. Shiitake benefits Lung. Red dates nourish Heart. For the balanced constitution, this is maintenance medicine — keeping everything in harmony.",
+      "zh-TW": "中醫認為五色入五臟：紅入心、黃入脾、綠入肝、白入肺、黑入腎。這碗飯集齊五色，同時滋養五臟系統。糙米益氣穩定，黑芝麻滋腎，紅蘿蔔健脾，菠菜養肝，香菇潤肺，紅棗補心。對平和體質而言，這就是最好的日常養生——讓一切維持在和諧之中。",
+      "ja": "漢方では五色が五臟に対応します：赤は心、黄は脾、緑は肝、白は肺、黒は腎。このごはんは五色すべてを含み、五臟のシステムを同時に滋養します。玄米は気を安定させ、黒ごまは腎を滋養し、にんじんは脾を健やかにし、ほうれん草は肝を養い、しいたけは肺を潤し、紅棗は心を補います。平和体質にとって、これは最高の日常の養生——すべてを調和のうちに保ちます。"
+    },
+    "steps": [
+      {
+        "en": "Cook brown rice according to package instructions.",
+        "zh-TW": "按照包裝指示煮熟糙米。",
+        "ja": "パッケージの指示に従って玄米を炊く。"
+      },
+      {
+        "en": "Sauté diced carrot in sesame oil for 2 minutes.",
+        "zh-TW": "以麻油煸炒紅蘿蔔丁約兩分鐘。",
+        "ja": "ごま油でにんじんの角切りを2分ほど炒める。"
+      },
+      {
+        "en": "Add shiitake mushrooms, cook 2 more minutes.",
+        "zh-TW": "加入香菇片，續炒兩分鐘。",
+        "ja": "しいたけのスライスを加え、さらに2分炒める。"
+      },
+      {
+        "en": "Add spinach, toss until just wilted (30 seconds).",
+        "zh-TW": "加入菠菜，翻炒至剛好變軟（約三十秒）。",
+        "ja": "ほうれん草を加え、しんなりするまでさっと混ぜる（約30秒）。"
+      },
+      {
+        "en": "Mix cooked rice with vegetables. Add soy sauce and toss.",
+        "zh-TW": "將煮好的糙米與蔬菜拌勻，加入生抽翻炒。",
+        "ja": "炊いた玄米と野菜を混ぜ合わせ、薄口しょうゆを加えて炒める。"
+      },
+      {
+        "en": "Top with sliced red dates and generous sprinkle of black sesame. Serve warm. Makes 1 serving.",
+        "zh-TW": "鋪上紅棗片，撒上滿滿的黑芝麻。趁熱享用。此為一人份。",
+        "ja": "紅棗のスライスをのせ、たっぷりの黒ごまをふりかける。温かいうちにどうぞ。1人分です。"
+      }
+    ],
+    "tip": {
+      "en": "Eat this 2-3 times weekly as a maintenance meal. In spring, add green peas. In summer, add cucumber. In autumn, add lotus root. In winter, add sweet potato. Let the seasons guide your variations. This is your daily practice of balance.",
+      "zh-TW": "每週食用二至三次作為日常養生餐。春天加青豆，夏天加黃瓜，秋天加蓮藕，冬天加番薯。讓四季引導你的變化。這就是你的平衡日常。",
+      "ja": "週に2〜3回、養生の食事としてお召し上がりください。春はグリンピースを、夏はきゅうりを、秋はれんこんを、冬はさつまいもを加えて。四季があなたのバリエーションを導いてくれます。これがあなたの平衡の日々の習慣です。"
+    }
+  }
+}

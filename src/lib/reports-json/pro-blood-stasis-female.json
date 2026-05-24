@@ -1,0 +1,690 @@
+{
+  "ch1Origin": {
+    "en": "### The Woman Whose Body Remembers Everything\n\nLook at your skin — do you see dark circles that never fully fade? Spots of discoloration? A tendency toward dullness or a grayish-olive undertone that concealer can't quite fix? Do you bruise easily, find that scars linger for months, or notice that your lips and nail beds are darker than other women's? These aren't cosmetic problems. They're signs that Blood isn't flowing freely through your body — and it probably hasn't been for a long time.\n\n**Blood Stasis in women often begins with the menstrual cycle.** In TCM, menstruation is the body's monthly Blood-renewal process. When Blood flows freely, periods are manageable — 4-5 days, moderate flow, minimal pain. But for Blood Stasis women, something went wrong early. Maybe your periods were always painful — cramping that felt like your uterus was \"clenching.\" Maybe your flow was dark with clots. Maybe you were told this was \"normal\" and given painkillers. But in TCM, painful periods with dark clots are the earliest sign that Blood is stagnating.\n\n**The emotional freeze.** Blood Stasis is often preceded by Qi Stagnation — unexpressed emotions, chronic frustration, or emotional \"freezing\" from past trauma. When Qi stops moving (from emotional holding), Blood stops moving too. The body literally stores unresolved emotional experience in tissue that doesn't receive fresh Blood. This is why Blood Stasis women often feel \"stuck\" — in life, in relationships, in patterns they can't break.\n\n**The cold connection.** Cold causes Blood to congeal — just like water becomes ice. If you were a teenager who wore short skirts in winter, who iced injuries, who swam during your period, or who lived in a cold climate without proper warmth, external cold may have entered your body and \"frozen\" Blood in the pelvic area. This is why your cramps feel better with heat — you're literally thawing stagnated Blood.\n\n**The surgical scar factor.** Any surgery (C-section, appendectomy, ovarian cyst removal, even dental surgery) creates scar tissue that interrupts Blood flow. If you've had pelvic or abdominal surgery, the scar may act like a dam in a river — Blood pools behind it, stagnates, darkens. Many women notice Blood Stasis symptoms worsen after surgery.\n\n**What your body is trying to tell you:** Your body isn't broken — it's carrying too much. Blood Stasis is the result of accumulation: accumulated cold, accumulated emotional pain, accumulated physical trauma, accumulated stagnation. The solution isn't to add anything — it's to get everything moving again. Restore the flow. Let your body release what it's been holding for years.",
+    "zh-TW": "### 身體記得一切的妳\n\n看看妳的皮膚——是否看到永遠消不掉的黑眼圈？色斑？遮瑕膏蓋不住的暗沉或灰橄欖色調？妳是否容易瘀青、疤痕數月不退，或者發現嘴唇和指甲床比其他女性更深？這些不是美容問題，而是血液無法在體內順暢流動的徵兆——而且可能已經持續很久了。\n\n**女性的血瘀往往從月經開始。** 中醫認為，月經是身體每月的血液更新過程。血液順暢時，經期是可管理的——4-5天、中等量、輕微不適。但血瘀女性的經期從早期就出了問題。也許妳的經痛一直很劇烈——那種子宮「絞緊」般的疼痛。也許經血顏色深且有血塊。也許有人告訴妳這很「正常」，給了止痛養生好物。但在中醫看來，深色血塊的痛經是血瘀最早的信號。\n\n**情緒的凍結。** 血瘀之前往往是氣滯——未表達的情緒、長期的挫折感，或過去創傷造成的情緒「凍結」。當氣停止流動（因為情緒壓抑），血也停止流動。身體確實將未解決的情緒經驗儲存在缺乏新鮮血液供應的組織中。這就是為什麼血瘀女性常感到「卡住」——在生活、關係、無法打破的模式中。\n\n**與寒的關聯。** 寒使血液凝固——就像水結冰一樣。如果妳青春期在冬天穿短裙、冰敷傷口、經期游泳，或住在寒冷的環境中沒有適當保暖，外寒可能已經進入身體，在骨盆區「凍住」了血液。這就是為什麼熱敷能緩解經痛——妳確實在融化停滯的血液。\n\n**手術疤痕因素。** 任何手術（剖腹產、闌尾切除、卵巢囊腫摘除，甚至牙科手術）都會產生中斷血流的疤痕組織。如果妳做過骨盆或腹部手術，疤痕可能像河裡的水壩——血液在後方積聚、停滯、變暗。許多女性注意到術後血瘀症狀加重。\n\n**妳的身體在告訴妳什麼：** 身體沒有壞——它只是承載太多。血瘀是累積的結果：累積的寒、累積的情緒傷痛、累積的身體創傷、累積的停滯。解決方案不是添加什麼——而是讓一切重新流動。恢復血流。讓身體釋放它積壓多年的東西。",
+    "ja": "### 体がすべてを覚えている女性\n\nあなたの肌を見てください——完全に消えないクマはありませんか？シミ？コンシーラーでも隠しきれないくすみや灰オリーブ色の傾向は？あざができやすく、傷跡が何ヶ月も残り、唇や爪床が他の女性より暗いことに気づいていませんか？これらは美容の問題ではありません。血が体内を自由に流れていないサインです——おそらく長い間そうだったのでしょう。\n\n**女性の血瘀は月経から始まることが多い。** 中医学では、月経は体の月次の血液更新プロセスです。血が自由に流れると、月経は管理可能です——4〜5日、中等量、最小限の痛み。しかし血瘀の女性は、早い段階で何かが狂いました。おそらく月経痛は常に激しかった——子宮が「締め付けられる」ような痛み。おそらく経血は暗くて塊があった。おそらく「正常だ」と言われ、鎮痛剤を渡された。しかし中医学では、暗い塊を伴う月経痛は血が停滞している最も初期のサインです。\n\n**感情の凍結。** 血瘀の前には気滞があることが多い——表現されない感情、慢性的な苛立ち、または過去のトラウマによる感情の「凍結」。気が止まると（感情を抱え込むことで）、血も止まります。体は文字通り、新鮮な血が届かない組織に未解決の感情的体験を蓄積します。だから血瘀の女性は「動けない」と感じるのです——人生、人間関係、断ち切れないパターンにおいて。\n\n**冷えとのつながり。** 冷えは血を凝固させます——水が氷になるのと同じです。ティーンエイジャーの頃、冬にミニスカートを履いていた、怪我を冷やしていた、月経中に泳いでいた、または寒い環境で適切に暖を取らずに暮らしていた場合、外からの冷えが体に入り込み、骨盤周辺の血を「凍らせた」可能性があります。だから温めると月経痛が和らぐのです——停滞した血を文字通り「溶かしている」のです。\n\n**手術の傷跡の要因。** どのような手術（帝王切開、虫垂切除、卵巣嚢腫の摘出、さらには歯科手術）も、血流を中断する傷跡組織を作ります。骨盤や腹部の手術を受けた場合、傷跡は川のダムのような役割を果たす可能性があります——血が後ろに溜まり、停滞し、暗くなります。多くの女性が手術後に血瘀症状の悪化に気づきます。\n\n**体が伝えていること：** 体は壊れていません——ただ背負いすぎているのです。血瘀は蓄積の結果です：蓄積された冷え、蓄積された感情の痛み、蓄積された身体的外傷、蓄積された停滞。解決策は何かを足すことではありません——すべてを再び動かすこと。流れを回復させる。体が何年も抱え込んできたものを解放する。"
+  },
+  "ch1Emotion": {
+    "en": "### The Emotional Archive\n\nBlood Stasis creates one of the most poignant emotional patterns in TCM — because you quite literally carry the past in your body.\n\n**Emotional holding.** The Liver stores Blood and ensures its smooth flow. When Blood stagnates, emotional \"flow\" stagnates too. You may find yourself unable to \"move on\" from experiences that others process quickly — not because you're weak, but because your body is physically holding those experiences in tissue that lacks fresh Blood flow. Old grief, old anger, old hurt — they don't fade. They accumulate, layer by layer, like sediment in a slow river.\n\n**The melancholy beneath the surface.** Many Blood Stasis women present a composed, capable exterior while carrying a deep, quiet sadness. It's not depression in the clinical sense — it's more like a permanent undertone of heaviness, as if you're carrying invisible weight. You may feel \"older than your years,\" \"world-weary,\" or \"like you've already lived several lifetimes.\" This is the emotional expression of Blood that isn't being refreshed.\n\n**Sharp, stabbing emotions.** When Blood Stasis flares, the emotional pain is sharp and specific — not the vague heaviness of Qi deficiency, but a piercing, localized feeling. \"It hurts right here,\" you might say, pointing to your chest or pelvis. This emotional precision mirrors the physical nature of Blood Stasis: fixed, stabbing, localized pain.\n\n**The creativity paradox.** Blood Stasis women are often deeply creative — artists, writers, healers. The same sensitivity that makes you prone to emotional holding also makes you perceptive, empathetic, and artistically gifted. When Blood begins to flow freely, this creativity doesn't diminish — it intensifies, because the emotional \"blockages\" that were constraining it dissolve.\n\n**When Blood moves, everything moves.** The stuck feeling lifts. Old emotions process and release. The melancholy lightens into bittersweet wisdom. Your body stops being an archive of pain and starts becoming a river that carries experience with grace rather than weight. This transformation is one of the most beautiful things a TCM practitioner witnesses — a woman whose Blood finally flows, whose face brightens, whose spirit lightens. It's not fantasy. It's what happens when you give your body what it needs.",
+    "zh-TW": "### 情緒的檔案館\n\n血瘀創造了中醫中最令人心酸的情緒模式之一——因為妳確實把過去帶在身體裡。\n\n**情緒的囤積。** 肝藏血並確保其順暢流動。當血停滯時，情緒的「流動」也停滯了。妳可能發現自己無法從別人很快就能處理的經驗中「走出來」——不是因為妳軟弱，而是因為妳的身體正把這些經驗物理性地儲存在缺乏新鮮血液的組織中。舊的悲傷、舊的憤怒、舊的傷害——它們不會消退。它們像慢河流中的沉積物一樣，一層一層地積累。\n\n**表面下的憂鬱。** 許多血瘀女性表現出沉穩、幹練的外表，同時背負著深深的、安靜的悲傷。這不是一般意義上的抑鬱——更像是一種永恆的沉重底色，彷彿妳背負著看不見的重量。妳可能覺得「比實際年齡老」、「厭世」，或者「好像已經活了幾輩子」。這是血液未得到更新在情緒上的表現。\n\n**尖銳、刺痛的情緒。** 當血瘀發作時，情緒的痛是尖銳而具體的——不是氣虛的模糊沉重，而是一種刺穿性的、局部化的感覺。「就是這裡痛，」妳可能會說，指著胸口或骨盆。這種情緒的精確性映射了血瘀的物理特徵：固定、刺痛、局部化。\n\n**創造力的悖論。** 血瘀女性通常極具創造力——藝術家、作家、照護者。讓妳容易情緒囤積的敏感度同時也使妳敏銳、有同理心、有天賦的藝術才華。當血液開始自由流動時，這種創造力不會減弱——反而會增強，因為限制它的情緒「阻塞」消融了。\n\n**當血動起來，一切都動起來。** 卡住的感覺消散。舊情緒被處理和釋放。憂鬱輕化為苦甜參半的智慧。妳的身體不再是疼痛的檔案館，而成為優雅而非重量地承載經驗的河流。這種轉變是中醫師所見最美好的事物之一——一個血終於流動的女人，臉色明亮，精神輕盈。這不是幻想。這是當妳給身體所需時發生的事。",
+    "ja": "### 感情のアーカイブ\n\n血瘀は中医学で最も胸を打つ感情パターンの一つを生み出します——なぜなら、あなたは文字通り過去を体に背負っているからです。\n\n**感情の抱え込み。** 肝は血を蔵し、その円滑な流れを確保します。血が停滞すると、感情の「流れ」も停滞します。他の人ならすぐに処理できる経験から「前に進めない」ことに気づくかもしれません——弱いからではなく、体が新鮮な血が届かない組織にその経験を物理的に蓄えているからです。古い悲しみ、古い怒り、古い傷——それらは薄れません。淀んだ川の堆積物のように、層を重ねて蓄積します。\n\n**表面の下にある憂鬱。** 多くの血瘀女性は、落ち着いた有能な外見の下に、深く静かな悲しみを背負っています。それは一般的な意味でのうつ病ではありません——むしろ、見えない重さを背負っているような永続的な重さの底音です。「実年齢より老けている」「世の中に疲れている」「すでに何度も人生を生きてきたように感じる」と思うかもしれません。これは血が更新されていないことの感情的表現です。\n\n**鋭く刺すような感情。** 血瘀が悪化すると、感情の痛みは鋭く具体的です——気虚の曖昧な重さではなく、貫くような局所的な感覚。「ここが痛い」と胸や骨盆を指すかもしれません。この感情の精密さは、血瘀の身体的性質——固定した、刺すような、局所的な痛み——を反映しています。\n\n**創造性のパラドックス。** 血瘀女性は深く創造的であることが多い——アーティスト、作家、ケア提供者。感情を抱え込みやすくする感受性が、同時にあなたを鋭敏で共感的で芸術的に才能ある人にしています。血が自由に流れ始めると、この創造性は減退せず——むしろ増幅します。制約していた感情の「ブロック」が溶けるからです。\n\n**血が動けば、すべてが動く。** 動けない感覚が消える。古い感情が処理され解放される。憂鬱がほろ苦い知恵へと軽くなる。体が痛みのアーカイブではなく、重さではなく優雅に経験を運ぶ川になる。この変容は中医学の実践者が目にする最も美しいものの一つ——血がついに流れ、顔が明るくなり、精神が軽やかになる女性。それは幻想ではありません。体に必要なものを与えた時に起こることです。"
+  },
+  "ch2Combos": [
+    {
+      "en": "**Cold food + cold drinks (salad + iced latte)** — Cold causes Blood to congeal. When you eat cold food and drink cold beverages, Blood literally slows down in your vessels. For Blood Stasis women who already have sluggish circulation, this combination makes everything worse: darker period blood, more clots, worse cramps, darker under-eye circles, and colder hands and feet. Your body needs warmth to keep Blood moving — cold food is the opposite.",
+      "zh-TW": "**冷食 + 冷飲（沙拉 + 冰拿鐵）** — 寒使血液凝固。吃冷食、喝冷飲時，血液在血管中確實會減速。對已經循環遲緩的血瘀女性來說，這種組合讓一切更糟：經血更暗、血塊更多、痛經更重、黑眼圈更深、手腳更冷。妳的身體需要溫暖來保持血液流動——冷食恰恰相反。",
+      "ja": "**冷たい食べ物 + 冷たい飲み物（サラダ + アイスラテ）** — 冷えは血を凝固させます。冷たい食べ物と冷たい飲み物を摂ると、血管内の血が文字通り減速します。すでに循環が遅い血瘀女性にとって、この組み合わせはすべてを悪化させます：経血の暗色化、血塊の増加、月経痛の悪化、クマの悪化、手足の冷えの悪化。体は血を動かすために温かさを必要としています——冷たい食べ物はその逆です。"
+    },
+    {
+      "en": "**Sugary food + sedentary behavior** — Sugar creates systemic inflammation that thickens Blood (in TCM terms, \"Blood becomes turbid\"). Sitting for hours creates Qi stagnation, which leads to Blood stagnation. Together, they create a cycle: thick Blood moves slowly → stagnates in the pelvis → causes cramps and dark clots → body produces more inflammatory markers → Blood becomes thicker. Breaking this cycle requires BOTH dietary change and movement.",
+      "zh-TW": "**甜食 + 久坐** — 糖造成全身性發炎，使血液變稠（中醫所謂「血變渾濁」）。久坐數小時造成氣滯，進而導致血瘀。兩者形成惡性循環：稠血流動慢 → 停滯在骨盆 → 引起痛經和暗色血塊 → 身體產生更多發炎因子 → 血液更稠。打破這個循環需要同時改變飲食和增加運動。",
+      "ja": "**甘い食べ物 + 座りっぱなし** — 糖は全身性の炎症を引き起こし、血を濃くします（中医学の「血が濁る」）。何時間も座っていると気滞が生じ、血瘀につながります。合わせて悪循環を生み出します：濃い血はゆっくり流れる→骨盤に停滞→月経痛と暗い血塊を引き起こす→体がより多くの炎症マーカーを産生→血がさらに濃くなる。このサイクルを断つには、食事の変更と運動の両方が必要です。"
+    },
+    {
+      "en": "**Dairy + wheat/gluten** — In TCM, dairy is damp and phlegm-producing; excess wheat creates stagnation. Together, they create \"damp-phlegm obstructing Blood vessels\" — literally clogging the channels through which Blood should flow freely. This shows up as: heavier periods with more clots, thicker tongue coating over purple tongue body, and the feeling of \"congestion\" in the lower abdomen.",
+      "zh-TW": "**乳製品 + 小麥/麩質** — 中醫認為乳製品生濕生痰，過量小麥造成停滯。兩者合在一起造成「濕痰阻絡」——確實在堵塞血液應該自由流動的通道。表現為：經量更多、血塊更多，紫暗舌體上覆蓋厚苔，以及下腹部的「堵塞感」。",
+      "ja": "**乳製品 + 小麦/グルテン** — 中医学では乳製品は湿を生み痰を生じさせ、過剰な小麦は停滞を引き起こします。合わせて「湿痰が血脈を阻塞する」状態——血が自由に流れるべき経絡を文字通り詰まらせます。表れとして：より重い月経と血塊、紫暗い舌体の上の厚い舌苔、下腹部の「詰まり」感があります。"
+    },
+    {
+      "en": "**Coffee + insufficient sleep** — Coffee overstimulates the Liver (which stores Blood) and creates Liver heat. When the Liver is \"running hot\" without adequate rest to replenish Blood, it creates a state called \"Liver Blood deficiency with heat\" — which paradoxically makes Blood more likely to stagnate. The insomnia-coffee cycle that many women depend on is directly worsening Blood Stasis: poor sleep depletes Blood → Blood stagnates → worse sleep quality → more coffee → more Liver strain.",
+      "zh-TW": "**咖啡 + 睡眠不足** — 咖啡過度刺激肝（藏血的器官），產生肝熱。肝在沒有充分休息補充血液的情況下「過熱」，會造成「肝血虛伴熱」的狀態——矛盾地使血液更容易停滯。許多女性依賴的失眠-咖啡循環直接惡化血瘀：睡眠差耗損血 → 血停滯 → 睡眠品質更差 → 更多咖啡 → 肝更多負擔。",
+      "ja": "**コーヒー + 睡眠不足** — コーヒーは肝（血を蔵する臓器）を過剰刺激し、肝熱を生じます。肝が十分な休息なしに血を補充できずに「オーバーヒート」すると、「肝血虚に熱を伴う」状態になり——逆説的に血が停滞しやすくなります。多くの女性が依存している不眠-コーヒーのサイクルは、血瘀を直接悪化させます：睡眠不足が血を消耗する→血が停滞する→睡眠の質がさらに低下する→コーヒーをより多く飲む→肝への負担が増す。"
+    },
+    {
+      "en": "**Alcohol + late nights** — Alcohol initially \"moves Blood\" (which is why you might feel temporarily better after drinking). But the morning-after effect is worse stagnation: the Liver is exhausted, Blood quality is degraded, and the \"movement\" you felt was actually reckless dispersal that leaves the system more depleted. For Blood Stasis women, the alcohol relief is always followed by worse symptoms — darker circles, heavier period, deeper fatigue.",
+      "zh-TW": "**酒精 + 熬夜** — 酒精初期「活血」（所以妳可能在喝酒後暫時感覺好些）。但隔天的效果是更嚴重的停滯：肝被耗盡、血液品質下降、妳感受到的「流動」其實是魯莽的耗散，讓系統更加虛弱。對血瘀女性來說，酒精的緩解之後總是更糟的症狀——更深的黑眼圈、更重的月經、更深的疲憊。",
+      "ja": "**アルコール + 夜更かし** — アルコールは一時的に「血を動かす」（だから飲んだ後一時的に良く感じるかもしれません）。しかし翌朝の効果はより深刻な停滞です：肝が疲弊し、血の質が低下し、感じた「動き」は実際には無謀な発散で、系統をさらに消耗させます。血瘀女性にとって、アルコールの緩和の後には常に悪化が続きます——より深いクマ、より重い月経、より深い疲労。"
+    }
+  ],
+  "ch3SeasonDrinks": {
+    "spring": {
+      "en": "Rose & Safflower Blood-Moving Tea — 5 dried rose buds + 3g safflower (hong hua), steeped 5 minutes. Rose moves Qi and gently invigorates Blood; safflower is the premier Blood-invigorating flower in TCM. Together they create a light, floral tea that gently dissolves stagnation while lifting the mood. Drink 2 cups daily in spring when the Liver's rising energy naturally supports Blood movement.",
+      "zh-TW": "玫瑰紅花活血茶——乾燥玫瑰花蕾5朵 + 紅花3g，沖泡5分鐘。玫瑰理氣活血，紅花是中醫最強的活血花卉。兩者組成清淡花茶，溫和化解瘀滯、提升心情。春季肝氣升發，天然支持血行，每日飲用2杯。",
+      "ja": "ローズ紅花活血茶——乾燥ローズ蕾5個 + 紅花3g、5分蒸らす。ローズは気を巡らせ穏やかに血を活血し、紅花は中医学で最も強力な活血の花です。合わせて軽やかな花茶になり、停滞を穏やかに溶かしながら気分を上げます。春は肝気が上昇し自然に血行をサポートする時期、1日2杯飲みましょう。"
+    },
+    "summer": {
+      "en": "Hawthorn & Rose Hip Circulation Tea — 10g dried hawthorn + 5g dried rose hips, simmered 10 minutes. Hawthorn invigorates Blood and digests fats (keeping blood vessels clear); rose hips are rich in vitamin C and support Blood quality. A slightly tart, fruity summer tea that keeps Blood moving without being too warming for hot weather. Add a small piece of cinnamon stick if you run cold.",
+      "zh-TW": "山楂玫瑰果循環茶——乾燥山楂10g + 乾燥玫瑰果5g，煮10分鐘。山楂活血並消化脂肪（保持血管通暢），玫瑰果富含維生素C、支持血液品質。微酸果味夏日茶，活血而不過溫。體寒者可加小段肉桂。",
+      "ja": "山楂ローズヒップ循環茶——乾燥山楂10g + 乾燥ローズヒップ5g、10分煮出す。山楂は血を活血し脂質を消化（血管をクリアに保つ）、ローズヒップはビタミンCが豊富で血の質をサポート。わずかに酸味のあるフルーツティーのような夏のお茶で、温めすぎずに血を動かします。冷え性の方はシナモンスティックを少量加えて。"
+    },
+    "autumn": {
+      "en": "Goji Berry & Red Date Blood-Nourishing Tea — 10g goji berries + 5 red dates + 3g dried longan, steeped 10 minutes. Goji berries nourish Liver Blood; red dates support Blood production; longan calms the Heart. This is a nourishing (rather than moving) autumn tea — after summer's active Blood-moving phase, autumn is for rebuilding Blood quality before winter's stagnation risk.",
+      "zh-TW": "枸杞紅棗養血茶——枸杞10g + 紅棗5顆 + 乾燥桂圓3g，沖泡10分鐘。枸杞養肝血，紅棗支持造血，桂圓安神。秋季宜「滋養」而非「通利」——夏季積極活血後，秋季重建血液品質，為冬季的瘀滯風險做準備。",
+      "ja": "クコ紅棗養血茶——クコ10g + 紅棗5個 + 乾燥龍眼肉3g、10分蒸らす。クコは肝血を養い、紅棗は造血をサポートし、龍眼は心を安らげます。秋は「活血」ではなく「滋養」の時期——夏の積極的な活血の後、秋は血の質を再建し、冬の停滞リスクに備えます。"
+    },
+    "winter": {
+      "en": "Ginger, Jujube & Cinnamon Warming Tea — 4 slices fresh ginger + 4 red dates + 1 small cinnamon stick + 2g safflower, simmered 10 minutes. This warming tea prevents Blood from congealing in cold weather. Ginger warms the channels; cinnamon warms the Blood; red dates support Blood production; safflower keeps Blood moving. Drink 2-3 cups daily during winter, especially during your period.",
+      "zh-TW": "生薑紅棗肉桂暖茶——生薑4片 + 紅棗4顆 + 小段肉桂 + 紅花2g，煮10分鐘。生薑溫經，肉桂溫血，紅棗支持造血，紅花保持血行。冬日每天2-3杯，經期尤為重要。",
+      "ja": "生姜紅棗シナモン温め茶——生姜4枚 + 紅棗4個 + 小さなシナモンスティック1本 + 紅花2g、10分煮出す。生姜は経絡を温め、シナモンは血を温め、紅棗は造血をサポートし、紅花は血を動かし続けます。冬場は1日2〜3杯、特に月経中が重要です。"
+    }
+  },
+  "ch3SeasonNotes": {
+    "spring": {
+      "en": "Spring is your most powerful healing season. The Liver's rising energy naturally wants to move Blood — support this with rose tea, outdoor movement, and emotional expression. This is the best time to start Blood-invigorating treatments. Avoid holding in frustration — speak up, journal, create art. Every emotion you express helps Blood flow more freely.",
+      "zh-TW": "春季是妳最強大的恢復季節。肝氣升發自然想活血——用玫瑰茶、戶外運動、情緒表達來支持。這是開始活血化瘀調理的最佳時機。不要壓抑挫折——說出來、寫日記、創作。每一個妳表達的情緒都幫助血液更自由地流動。",
+      "ja": "春は最も強力な回復の季節です。肝気の上昇が自然に血を動かそうとします——ローズティー、屋外での運動、感情の表現でサポートしましょう。活血化瘀のケアを始めるのに最適な時期です。苛立ちを抑え込まない——声に出す、日記を書く、アートを創る。表現する感情すべてが血の流れを助けます。"
+    },
+    "summer": {
+      "en": "Summer's warmth naturally thaws stagnation — take advantage! This is when Blood moves most freely. Support circulation with light, colorful foods, swimming, and hawthorn tea. Don't undo the benefit with excessive air conditioning (which introduces cold). Your skin and periods will be at their best in summer — observe and appreciate the contrast.",
+      "zh-TW": "夏天的溫暖自然融化瘀滯——善用這一點！此時血液流動最順暢。用清淡多彩的食物、游泳和山楂茶支持循環。不要用過度冷氣抵消好處（那會帶來寒氣）。妳的皮膚和月經在夏天表現最好——觀察並感受這種對比。",
+      "ja": "夏の温かさは自然に停滞を溶かします——活用しましょう！この時期、血が最も自由に流れます。軽く彩り豊かな食べ物、水泳、山楂茶で循環をサポート。冷房の入れすぎでメリットを打ち消さない（冷えを持ち込むため）。肌と月経は夏に最も良い状態になります——観察し、その違いを感じてください。"
+    },
+    "autumn": {
+      "en": "Autumn is the season to NOURISH Blood. After summer's active movement, rebuild Blood quality with goji berries, red dates, dark leafy greens, and bone broth. This is preventive — strong, well-nourished Blood is less likely to stagnate in winter. Prioritize sleep this season — Blood is produced during deep sleep.",
+      "zh-TW": "秋季宜「養血」。夏季積極活血後，用枸杞、紅棗、深色綠葉蔬菜和骨頭湯重建血液品質。這是預防——強壯、營養充足的血液在冬季更不容易停滯。這個季節優先睡眠——血液在深層睡眠時生成。",
+      "ja": "秋は「血を養う」季節。夏の積極的な活血の後、クコ、紅棗、濃い色の葉物野菜、骨付きスープで血の質を再建しましょう。これは予防です——強く栄養豊かな血は冬に停滞しにくくなります。この季節は睡眠を優先——血は深い眠りの間に作られます。"
+    },
+    "winter": {
+      "en": "Winter is when Blood Stasis worsens most — cold congeals Blood. Keep WARM: warm food, warm drinks, warm clothing (especially around the waist and feet). Never sit on cold surfaces. Drink warming teas. Use a heating pad on your lower abdomen during your period. This season determines how severely your Blood Stasis manifests — manage it well and spring will be dramatically easier.",
+      "zh-TW": "冬季血瘀最容易加重——寒凝血瘀。保持溫暖：溫食、溫飲、保暖衣物（尤其是腰部和腳）。絕不坐在冷面上。喝暖茶。經期用暖敷袋敷下腹。這個季節決定血瘀的嚴重程度——管理好它，春天會輕鬆很多。",
+      "ja": "冬は血瘀が最も悪化する季節——寒が血を凝らせます。温かく：温かい食べ物、温かい飲み物、防寒着（特に腰と足）。冷たい面に座らない。温かいお茶を飲む。月経中は下腹部にカイロを。この季節が血瘀の重症度を決めます——しっかり管理すれば、春は劇的に楽になります。"
+    }
+  },
+  "ch4Acupoints": [
+    {
+      "en": "**Sanyinjiao (SP6) — Three Yin Crossing**\nLocation: 4 finger-widths above inner ankle bone, on back edge of shinbone.\nMethod: Gentle circular pressure for 3 minutes each side, morning and evening.\nEffect: THE point for women's Blood health. It's the crossing point of three Yin meridians (Spleen, Liver, Kidney) — all three organs involved in Blood production and regulation. For women with painful periods, dark clots, and irregular cycles, this point nourishes Blood AND moves it. Press daily, and press more firmly during your period to help Blood flow.",
+      "zh-TW": "**三陰交（SP6）——三陰交會**\n位置：內踝骨上方4指寬，脛骨後緣。\n方法：晨昏各3分鐘，穩定打圈按壓。\n效果：女性血液健康的「那個穴位」。它是三條陰經（脾、肝、腎）的交會點——三個參與造血和調經的臟腑。對痛經、暗色血塊、週期不規則的女性，此穴既養血又活血。每日按壓，經期加重力度幫助血流。",
+      "ja": "**三陰交（さんいんこう）——三陰の交差点**\n場所：内くるぶしの指幅4つ分上、すね骨の後ろ縁。\n方法：朝夕各3分間、穏やかに円形に押します。\n効果：女性の血の健康にとって「そのツボ」。3つの陰経（脾・肝・腎）の交差点——血の生成と調節に関わる3つの臓器すべてです。月経痛、暗い血塊、不規則な周期の女性に、血を養い同時に動かします。毎日押し、月経中は力を強めて血流を助けましょう。"
+    },
+    {
+      "en": "**Taichong (LR3) — Supreme Rush**\nLocation: On the top of the foot, in the depression between the 1st and 2nd metatarsal bones.\nMethod: Press firmly for 3 minutes each side, morning and evening.\nEffect: The Liver's primary point for moving stagnant Qi and Blood. For women with breast tenderness, irritability before periods, and the feeling of emotional \"blockage,\" Taichong releases both physical and emotional stagnation. Combine with Sanyinjiao for the most powerful women's Blood-moving pair in TCM.",
+      "zh-TW": "**太衝（LR3）——太衝**\n位置：足背，第1、第2蹠骨之間的凹陷處。\n方法：晨昏各3分鐘，用力按壓。\n效果：肝經疏導停滯氣血的主要穴位。經前乳房脹痛、易怒、情緒「堵住」感的女性，太衝同時釋放身體和情緒的停滯。配合三陰交，形成中醫最強的女性活血配穴。",
+      "ja": "**太衝（たいしょう）——太衝**\n場所：足の甲、第1・第2中足骨の間のくぼみ。\n方法：朝夕各3分間、しっかり押します。\n効果：肝経の停滞した気血を動かす主要ツボ。月経前の乳房の張り、イライラ、感情の「詰まり」感のある女性に、太衝は身体と感情の停滞を同時に解放します。三陰交と組み合わせて、中医学最強の女性活血ペアになります。"
+    },
+    {
+      "en": "**Xuehai (SP10) — Sea of Blood**\nLocation: 2 thumb-widths above the top inner edge of the kneecap, with the knee bent.\nMethod: Press firmly for 3 minutes each side, once daily.\nEffect: The name says everything — this is the \"Sea of Blood\" point. It invigorates Blood and regulates menstruation. For women with dark period blood, clots, and delayed cycles, pressing Xuehai directly addresses the stagnation. This point is also used for skin discoloration, dark spots, and dull complexion — all signs of Blood not nourishing the skin.",
+      "zh-TW": "**血海（SP10）——血之海**\n位置：膝蓋內上側2拇指寬，屈膝取穴。\n方法：每側3分鐘，每日一次，用力按壓。\n效果：名字說明一切——「血之海」。活血調經。經血暗、有血塊、週期延遲的女性，按壓血海直接針對瘀滯。此穴也用於皮膚色斑、暗沉——都是血液不能滋養皮膚的徵兆。",
+      "ja": "**血海（けっかい）——血の海**\n場所：膝を曲げ、膝蓋骨の内側上端から親指幅2つ分上。\n方法：各足3分間、1日1回、しっかり押します。\n効果：名前がすべてを物語る——「血の海」のツボです。血を活血し月経を調えます。暗い経血、血塊、周期の遅れのある女性に、血海は停滞に直接アプローチします。このツボは肌の色素沈着、シミ、くすみ——血が肌を養えていないサイン——にも使われます。"
+    },
+    {
+      "en": "**Guanyuan (CV4) — Gate of Origin**\nLocation: On the midline, 4 finger-widths below the navel.\nMethod: Warm with a palm or heating pad for 5-10 minutes, twice daily. Light pressure is sufficient.\nEffect: The most important point for women's pelvic health. It warms the uterus, supports Blood production, and resolves pelvic stagnation. For Blood Stasis women with period pain, clots, and the feeling of \"congestion\" in the lower abdomen, this point provides warmth that literally \"thaws\" stagnated Blood. Best warmed, not pressed aggressively.",
+      "zh-TW": "**關元（CV4）——元氣之門**\n位置：正中線，肚臍下方4指寬。\n方法：掌心或暖敷袋溫敷5-10分鐘，每日兩次。輕壓即可。\n效果：女性骨盆健康最重要的穴位。溫暖子宮、支持造血、化解骨盆瘀滯。經痛、血塊、下腹「堵塞感」的血瘀女性，此穴提供溫暖，確實「融化」停滯的血液。宜溫不宜重壓。",
+      "ja": "**関元（かんげん）——元気の門**\n場所：正中線上、おへそから指幅4つ分下。\n方法：手のひらまたはカイロで5〜10分温める、1日2回。軽い圧力で十分。\n効果：女性の骨盤健康において最も重要なツボ。子宮を温め、造血をサポートし、骨盤の停滞を解消します。月経痛、血塊、下腹部の「詰まり」感のある血瘀女性に、温かさで停滞した血を文字通り「溶かします」。強く押すより温めるのが適しています。"
+    },
+    {
+      "en": "**Hegu (LI4) — Joining Valley**\nLocation: On the hand, between the 1st and 2nd metacarpal bones, at the highest point when thumb and index finger are pressed together.\nMethod: Pinch firmly for 2-3 minutes each hand, as needed.\nEffect: The most commonly used point for moving Qi and Blood in the upper body. For Blood Stasis women with headaches, facial dark spots, and tension in the jaw and neck, Hegu releases upper-body stagnation. Combine with Taichong (called the \"Four Gates\" combination) for full-body Blood movement.",
+      "zh-TW": "**合谷（LI4）——合谷**\n位置：手背，第1、第2掌骨之間，拇指食指併攏時最高點。\n方法：捏壓2-3分鐘，按需使用。\n效果：上半身行氣活血最常用的穴位。頭痛、面部色斑、下顎和頸部緊繃的血瘀女性，合谷釋放上半身瘀滯。配合太衝（稱為「四關」配穴），實現全身活血。",
+      "ja": "**合谷（ごうこく）——合わさる谷**\n場所：手の甲、第1・第2中手骨の間、親指と人差し指を合わせた時の最高点。\n方法：2〜3分間つまむように押します。必要に応じて。\n効果：上半身の気血を動かす最もよく使われるツボ。頭痛、顔のシミ、顎と首の緊張がある血瘀女性に、合谷は上半身の停滞を解放します。太衝と組み合わせ（「四関」という配合）、全身の活血を実現します。"
+    }
+  ],
+  "ch6Recipes": [
+    {
+      "title": {
+        "en": "Black-Bone Chicken, Angelica & Rehmannia Blood Soup",
+        "zh-TW": "烏骨雞當歸地黃養血湯",
+        "ja": "烏骨鶏当帰地黄養血スープ"
+      },
+      "titleZh": "乌鸡当归熟地补血汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Black-Bone Chicken (whole or half)",
+            "zh-TW": "烏骨雞（整隻或半隻）",
+            "ja": "烏骨鶏（丸鶏または半身）"
+          },
+          "aliases": "乌鸡",
+          "amount": "1 small"
+        },
+        {
+          "name": {
+            "en": "Angelica Root (Dang Gui)",
+            "zh-TW": "當歸",
+            "ja": "当帰（トウキ）"
+          },
+          "aliases": "当归",
+          "amount": "10g"
+        },
+        {
+          "name": {
+            "en": "Prepared Rehmannia",
+            "zh-TW": "熟地黃",
+            "ja": "熟地黃"
+          },
+          "aliases": "熟地",
+          "amount": "15g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "乾燥紅棗",
+            "ja": "乾燥紅棗"
+          },
+          "aliases": "红枣",
+          "amount": "6 pieces"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "3 slices"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "The queen of Blood-nourishing soups. Black-bone chicken (silkie) is the most Blood-tonifying meat in TCM — it's specifically indicated for women's Blood deficiency and stasis. Angelica (Dang Gui) is the premier Blood-tonifying and Blood-moving herb — it nourishes AND invigorates simultaneously. Rehmannia builds Blood at the deepest level. This soup addresses the root cause: Blood that is both deficient (thin, pale) and stagnant (dark, clotted). Drink once weekly, especially after your period ends.",
+        "zh-TW": "養血湯之王。烏骨雞是中醫最補血的肉類——專為女性血虛和血瘀而設。當歸是補血活血之首好幫手——同時滋養和活血。熟地黃從最深層面補血。此湯針對根本原因：既虛（血淡、稀薄）又瘀（血暗、有塊）的血液。每週飲用一次，特別是經期結束後。",
+        "ja": "養血スープの女王。烏骨鶏は中医学で最も血を補う肉——女性の血虚と血瘀に特異的に使用されます。当帰は最高の補血・活血伝統素材——同時に養い、巡らせます。熟地黄は最も深いレベルで血を築きます。このスープは根本原因——虚（薄い、淡い）でありながら瘀（暗い、塊のある）血に対応します。週1回飲みましょう。特に月経終了後に。"
+      },
+      "steps": [
+        {
+          "en": "Clean chicken. Blanch for 3 minutes. Rinse.",
+          "zh-TW": "清洗雞肉。焯水3分鐘。沖洗乾淨。",
+          "ja": "鶏肉を洗う。3分下茹でし、洗う。"
+        },
+        {
+          "en": "Place chicken, angelica, rehmannia, red dates, and ginger in 2 liters of water. Simmer 2 hours.",
+          "zh-TW": "將雞肉、當歸、熟地黃、紅棗、生薑放入2公升水中。慢燉2小時。",
+          "ja": "鶏肉、当帰、熟地黄、紅棗、生姜を水2リットルに入れる。2時間煮込む。"
+        },
+        {
+          "en": "Add goji berries in the last 10 minutes. Season with salt.",
+          "zh-TW": "最後10分鐘加入枸杞。加鹽調味。",
+          "ja": "最後の10分にクコを加える。塩で味付け。"
+        },
+        {
+          "en": "Eat the chicken and drink the dark, rich broth — the color is the medicine.",
+          "zh-TW": "吃雞肉、喝深色濃湯——這個顏色就是養生功效。",
+          "ja": "鶏肉を食べ、濃く暗いスープを飲む——その色が養生効果です。"
+        }
+      ],
+      "tip": {
+        "en": "The #1 soup for Blood Stasis women. The dark broth is normal — it's the herbs working. Drink weekly, ideally in the week AFTER your period (when Blood needs rebuilding). This soup is warm, nourishing, and specifically designed for women's Blood health. Do NOT drink during heavy flow days. Available at Asian markets or online as \"silkie chicken.\"",
+        "zh-TW": "血瘀女性的No.1湯品。深色湯汁是正常的——那是傳統食材在發揮作用。每週飲用，最好在經期結束後那一週（此時需要重建血液）。此湯溫暖滋養，專為女性血液健康設計。經量多的日子不要喝。烏骨雞在亞洲超市或網上有售。",
+        "ja": "血瘀女性のNo.1スープ。濃い色のスープは正常——伝統素材が効いている証拠です。週1回、理想的には月経終了後の週（血を再建する時期）に飲みましょう。このスープは温かく滋養に富み、女性の血の健康のために特別に設計されています。出血の多い日は飲まないでください。烏骨鶏はアジアのスーパーマーケットやオンラインで「silkie chicken」として入手可能です。"
+      }
+    },
+    {
+      "title": {
+        "en": "Hawthorn, Brown Sugar & Ginger Period-Relief Tea",
+        "zh-TW": "山楂黑糖生薑經痛緩解茶",
+        "ja": "山楂黒糖生姜月経痛緩和茶"
+      },
+      "titleZh": "山楂红糖姜茶经痛缓解",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Dried Hawthorn",
+            "zh-TW": "乾燥山楂",
+            "ja": "乾燥山楂"
+          },
+          "aliases": "山楂",
+          "amount": "15g"
+        },
+        {
+          "name": {
+            "en": "Brown Sugar",
+            "zh-TW": "黑糖",
+            "ja": "黒糖"
+          },
+          "aliases": "红糖",
+          "amount": "20g"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "4 slices"
+        },
+        {
+          "name": {
+            "en": "Dried Rose Buds",
+            "zh-TW": "乾燥玫瑰花蕾",
+            "ja": "乾燥ローズ蕾"
+          },
+          "aliases": "玫瑰花",
+          "amount": "5"
+        },
+        {
+          "name": {
+            "en": "Safflower",
+            "zh-TW": "紅花",
+            "ja": "紅花"
+          },
+          "aliases": "红花",
+          "amount": "2g"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "The classic period-pain rescue formula for Blood Stasis women. Hawthorn invigorates Blood and specifically dissolves clots. Brown sugar warms the Blood and provides easily absorbed iron. Ginger warms the uterus. Rose moves Qi. Safflower (used sparingly) is the strongest Blood-invigorating flower. This combination targets the exact mechanism of period pain: stagnant Blood with clots. Drink hot during your period, 2-3 cups per day.",
+        "zh-TW": "血瘀女性的經痛急救配方。山楂活血、專化血塊。黑糖溫血並提供易吸收的鐵質。生薑溫暖子宮。玫瑰理氣。紅花（少量使用）是最強的活血花卉。此組合針對經痛的確切機制：帶血塊的瘀血。經期熱飲，每天2-3杯。",
+        "ja": "血瘀女性のための月経痛レスキューフォーミュラ。山楂は血を活血し、特に血塊を溶かします。黒糖は血を温め吸収されやすい鉄分を提供します。生姜は子宮を温めます。ローズは気を巡らせます。紅花（控えめに使用）は最も強力な活血の花です。この組み合わせは月経痛の正確なメカニズム——血塊を伴う血瘀——を標的とします。月経中に熱く飲み、1日2〜3杯。"
+      },
+      "steps": [
+        {
+          "en": "Place hawthorn, ginger, rose buds, and safflower in 600ml water. Bring to boil.",
+          "zh-TW": "將山楂、生薑、玫瑰花蕾和紅花放入600ml水中。煮沸。",
+          "ja": "山楂、生姜、ローズ蕾、紅花を水600mlに入れる。沸騰させる。"
+        },
+        {
+          "en": "Simmer 10 minutes. Add brown sugar, stir until dissolved.",
+          "zh-TW": "小火煮10分鐘。加入黑糖，攪拌至融化。",
+          "ja": "弱火で10分煮る。黒糖を加え、溶けるまで混ぜる。"
+        },
+        {
+          "en": "Drink hot. Sip slowly. Repeat 2-3 times daily during period pain.",
+          "zh-TW": "趁熱飲用。慢慢啜飲。經痛時每天重複2-3次。",
+          "ja": "熱いうちに飲む。ゆっくり啜る。月経痛の間、1日2〜3回繰り返す。"
+        }
+      ],
+      "tip": {
+        "en": "Your period-day rescue drink. Drink it HOT — the heat is as important as the herbs. You should feel warmth spreading through your lower abdomen within 15-20 minutes, followed by reduced cramping and easier flow with fewer clots. NOT for pregnancy. Start drinking on Day 1 of your period and continue through Day 3.",
+        "zh-TW": "妳的經期急救飲品。一定要趁熱喝——熱度跟食材一樣重要。15-20分鐘內應該感覺暖意擴散到下腹，然後經痛減輕、血塊減少、流動更順暢。孕婦禁用。從月經第1天開始喝到第3天。",
+        "ja": "月経中のレスキュードリンク。必ず熱く飲む——熱さは材料と同じくらい重要。15〜20分以内に下腹部に温かさが広がり、月経痛の軽減、血塊の減少、流れの改善を感じるはずです。妊娠中は使用禁止。月経1日目から3日目まで飲みましょう。"
+      }
+    },
+    {
+      "title": {
+        "en": "Beef, Tomato & Angelica Blood-Building Soup",
+        "zh-TW": "牛肉番茄當歸補血湯",
+        "ja": "牛肉トマト当帰補血スープ"
+      },
+      "titleZh": "牛肉番茄当归补血汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Beef (bone-in short rib)",
+            "zh-TW": "牛小排（帶骨）",
+            "ja": "牛骨付き短肋肉"
+          },
+          "aliases": "牛排骨",
+          "amount": "300g"
+        },
+        {
+          "name": {
+            "en": "Fresh Tomatoes",
+            "zh-TW": "新鮮番茄",
+            "ja": "生トマト"
+          },
+          "aliases": "番茄",
+          "amount": "2 large"
+        },
+        {
+          "name": {
+            "en": "Angelica Root (Dang Gui)",
+            "zh-TW": "當歸",
+            "ja": "当帰（トウキ）"
+          },
+          "aliases": "当归",
+          "amount": "8g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "乾燥紅棗",
+            "ja": "乾燥紅棗"
+          },
+          "aliases": "红枣",
+          "amount": "4 pieces"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "3 slices"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Beef is the most Blood-tonifying red meat in TCM — it directly builds Blood. Tomatoes are slightly cooling and acidic, which helps balance the warmth of beef and angelica. Angelica nourishes and invigorates Blood. This soup is for women whose Blood Stasis is accompanied by Blood deficiency (pale face, dizziness on standing, light-headedness with period pain). It builds new Blood while moving old, stagnant Blood.",
+        "zh-TW": "牛肉是中醫最補血的紅肉——直接造血。番茄微涼微酸，平衡牛肉和當歸的溫性。當歸養血活血。此湯適合血瘀伴血虛（面色蒼白、站起頭暈、經痛伴頭暈）的女性——在補新血的同時疏通舊的瘀血。",
+        "ja": "牛肉は中医学で最も血を補う赤身肉——直接血を築きます。トマトはわずかに涼性で酸味があり、牛肉と当帰の温かさをバランスさせます。当帰は血を養い活血します。このスープは血虚（顔色が白い、立ちくらみ、月経痛にめまい）を伴う血瘀女性に——古い停滞した血を動かしながら新しい血を築きます。"
+      },
+      "steps": [
+        {
+          "en": "Blanch beef ribs for 3 minutes. Rinse. Quarter tomatoes.",
+          "zh-TW": "牛小排焯水3分鐘。沖洗。番茄切塊。",
+          "ja": "牛肋肉を3分下茹でし、洗う。トマトをくし切りにする。"
+        },
+        {
+          "en": "Place beef, angelica, red dates, and ginger in 1.5 liters of water. Simmer 1 hour.",
+          "zh-TW": "將牛肉、當歸、紅棗、生薑放入1.5公升水中。慢燉1小時。",
+          "ja": "牛肉、当帰、紅棗、生姜を水1.5リットルに入れる。1時間煮込む。"
+        },
+        {
+          "en": "Add tomatoes. Simmer 20 more minutes. Season with salt.",
+          "zh-TW": "加入番茄，繼續燉20分鐘。加鹽調味。",
+          "ja": "トマトを加え、さらに20分煮込む。塩で味付け。"
+        }
+      ],
+      "tip": {
+        "en": "A rich, warming soup perfect for autumn and winter. The combination of beef + angelica is one of the most powerful Blood-building pairs in TCM. The tomatoes add pleasant acidity and keep the soup from being too heavy. Drink 2 times per week. Best consumed in the week after your period ends, when the body is actively rebuilding Blood.",
+        "zh-TW": "秋冬季節的濃郁暖湯。牛肉+當歸是中醫最強的補血搭配之一。番茄加入宜人酸味，使湯不至太厚重。每週飲用2次。最好在經期結束後那一週飲用，此時身體正在積極重建血液。",
+        "ja": "秋冬にぴったりの濃厚な温かいスープ。牛肉＋当帰は中医学で最も強力な補血ペアの一つ。トマトの酸味が加わり、スープを重すぎず心地よく仕上げます。週2回飲みましょう。月経終了後の週、体が積極的に血を再建している時に最適です。"
+      }
+    }
+  ],
+  "ch7Schedule": {
+    "headers": [
+      {
+        "en": "Wake Time",
+        "zh-TW": "起床時間",
+        "ja": "起床時間"
+      },
+      {
+        "en": "Breakfast",
+        "zh-TW": "早餐",
+        "ja": "朝食"
+      },
+      {
+        "en": "Exercise",
+        "zh-TW": "運動",
+        "ja": "運動"
+      },
+      {
+        "en": "Water Intake",
+        "zh-TW": "水分攝取",
+        "ja": "水分摂取"
+      },
+      {
+        "en": "Avoid Check",
+        "zh-TW": "避免事項",
+        "ja": "避けること"
+      },
+      {
+        "en": "Bedtime",
+        "zh-TW": "就寢時間",
+        "ja": "就寝時間"
+      },
+      {
+        "en": "Mood",
+        "zh-TW": "心情",
+        "ja": "気分"
+      }
+    ],
+    "rows": [
+      {
+        "zh-TW": "7:00 起床。7:30 溫熱紅棗薑茶 + 熱粥。晨起5分鐘伸展，促進血液循環。",
+        "ja": "7:00 起床。7:30 温かい紅棗生姜茶＋お粥。朝5分のストレッチで血行促進。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（紅棗枸杞）+ 水煮蛋。午間15分鐘快走。",
+        "ja": "7:00 起床。7:30 温かいお粥（紅棗クコ入り）＋ゆで卵。昼：15分快歩。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 烏骨雞當歸湯（食譜1）+ 白飯。下午按摩三陰交各3分鐘。",
+        "ja": "7:00 起床。7:30 烏骨鶏当帰スープ（レシピ1）＋白米。夕方：三陰交を各足3分マッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間20分鐘快走。睡前熱水泡腳15分鐘。",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：20分快歩。就寝前に足湯15分。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 牛肉番茄當歸湯（食譜3）+ 白飯。按摩血海穴各3分鐘。",
+        "ja": "7:00 起床。7:30 牛肉トマト当帰スープ（レシピ3）＋白米。血海ツボを各足3分マッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱燕麥粥（肉桂紅棗）+ 溫豆漿。午間15分鐘散步。",
+        "ja": "7:00 起床。7:30 温かいオートミール（シナモン紅棗入り）＋温かい豆乳。昼：15分散歩。"
+      },
+      {
+        "zh-TW": "7:30 起床。8:00 玫瑰紅花茶 + 全麥吐司。休息日——輕柔瑜伽20分鐘。",
+        "ja": "7:30 起床。8:00 ローズ紅花茶＋全粒粉トースト。休息日——穏やかなヨガ20分。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（桂圓紅棗）+ 水煮蛋。午間15分鐘快走。睡前太衝穴按摩。",
+        "ja": "7:00 起床。7:30 温かいお粥（龍眼肉紅棗入り）＋ゆで卵。昼：15分快歩。就寝前に太衝ツボマッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 烏骨雞當歸湯 + 白飯。午間20分鐘快走。觀察皮膚色澤變化。",
+        "ja": "7:00 起床。7:30 烏骨鶏当帰スープ＋白米。昼：20分快歩。肌の色つやの変化を観察。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間15分鐘散步。一週回顧——黑眼圈有變淡嗎？",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：15分散歩。週の振り返り——クマは薄くなった？"
+      },
+      {
+        "zh-TW": "7:30 起床。8:00 牛肉番茄當歸湯 + 白飯。休息日——輕鬆散步。用暖敷袋溫敷關元穴。",
+        "ja": "7:30 起床。8:00 牛肉トマト当帰スープ＋白米。休息日——リラックス散歩。カイロで関元を温める。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（黑芝麻核桃）+ 玫瑰茶。午間20分鐘快走。合谷穴按摩。",
+        "ja": "7:00 起床。7:30 温かいお粥（黒ごまクルミ入り）＋ローズ茶。昼：20分快歩。合谷ツボマッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 烏骨雞當歸湯 + 白飯。午間15分鐘快走。觀察唇色變化。",
+        "ja": "7:00 起床。7:30 烏骨鶏当帰スープ＋白米。昼：15分快歩。唇の色の変化を観察。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間20分鐘快走。已連續2週不吃冷食冷飲。",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：20分快歩。冷たい食事飲み物を2週間続けて避けている。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 牛肉番茄當歸湯 + 白飯。午間15分鐘快走。2週回顧——皮膚亮度有改善嗎？",
+        "ja": "7:00 起床。7:30 牛肉トマト当帰スープ＋白米。昼：15分快歩。2週間チェック——肌の明るさは改善した？"
+      },
+      {
+        "zh-TW": "7:30 起床。8:00 熱燕麥粥 + 枸杞紅棗茶。休息日——瑜伽或散步。泡腳+按摩三陰交。",
+        "ja": "7:30 起床。8:00 温かいオートミール＋クコ紅棗茶。休息日——ヨガまたは散歩。足湯＋三陰交マッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（紅棗當歸）+ 水煮蛋。午間20分鐘快走。睡前四關配穴（合谷+太衝）。",
+        "ja": "7:00 起床。7:30 温かいお粥（紅棗当帰入り）＋ゆで卵。昼：20分快歩。就寝前に四関のツボ（合谷＋太衝）。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 烏骨雞當歸湯 + 白飯。午間15分鐘散步。觀察指甲床顏色。",
+        "ja": "7:00 起床。7:30 烏骨鶏当帰スープ＋白米。昼：15分散歩。爪床の色を観察。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間20分鐘快走。按摩血海+三陰交組合。",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：20分快歩。血海＋三陰交のコンビマッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 牛肉番茄當歸湯 + 白飯。午間15分鐘快走。三週回顧——整體血色評估。",
+        "ja": "7:00 起床。7:30 牛肉トマト当帰スープ＋白米。昼：15分快歩。3週間の振り返り——全体の血色を評価。"
+      },
+      {
+        "zh-TW": "7:30 起床。8:00 熱粥 + 玫瑰茶。休息日——輕柔散步。全身觀察，記錄所有積極變化。",
+        "ja": "7:30 起床。8:00 温かいお粥＋ローズ茶。休息日——穏やかな散歩。全身を観察し、すべてのポジティブな変化を記録。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 烏骨雞當歸湯 + 白飯。午間20分鐘快走。關元穴溫敷10分鐘。",
+        "ja": "7:00 起床。7:30 烏骨鶏当帰スープ＋白米。昼：20分快歩。関元ツボを10分温める。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（山楂紅棗）+ 溫豆漿。午間15分鐘快走。睡前足湯。",
+        "ja": "7:00 起床。7:30 温かいお粥（山楂紅棗入り）＋温かい豆乳。昼：15分快歩。就寝前に足湯。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 牛肉番茄當歸湯 + 白飯。午間20分鐘快走。觀察手腳溫度變化。",
+        "ja": "7:00 起床。7:30 牛肉トマト当帰スープ＋白米。昼：20分快歩。手足の温度の変化を観察。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間15分鐘散步。四週回顧——面部色斑和黑眼圈的改善。",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：15分散歩。4週間の振り返り——顔のシミとクマの改善。"
+      },
+      {
+        "zh-TW": "7:30 起床。8:00 烏骨雞當歸湯。休息日——輕鬆散步。感恩身體的變化。",
+        "ja": "7:30 起床。8:00 烏骨鶏当帰スープ。休息日——リラックス散歩。体の変化に感謝。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥（紅棗桂圓）+ 水煮蛋。午間20分鐘快走。全部穴位例行按摩。",
+        "ja": "7:00 起床。7:30 温かいお粥（紅棗龍眼肉入り）＋ゆで卵。昼：20分快歩。全ツボのルーティンマッサージ。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 牛肉番茄當歸湯 + 白飯。午間15分鐘快走。觀察下一次月經準備。",
+        "ja": "7:00 起床。7:30 牛肉トマト当帰スープ＋白米。昼：15分快歩。次回月経に向けた準備を観察。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 熱粥 + 蒸蔬菜。午間20分鐘快走。29天習慣已穩固建立。",
+        "ja": "7:00 起床。7:30 温かいお粥＋蒸し野菜。昼：20分快歩。29日間の習慣が確立。"
+      },
+      {
+        "zh-TW": "7:00 起床。7:30 溫熱紅棗薑茶 + 營養早餐。午間散步。30天完成——全面評估皮膚、月經、血色和情緒的蛻變！",
+        "ja": "7:00 起床。7:30 温かい紅棗生姜茶＋栄養朝食。昼：散歩。30日完了——肌、月経、血色、感情の変容を総合評価！"
+      }
+    ],
+    "footer": {
+      "en": "Warm breakfasts daily, no cold/raw food or drinks, daily movement to circulate Blood. Your body clears stagnation through movement and warmth — support both. Note period pain level (1-10), clot size, and blood color changes in Body Notes. Skin brightness and reduced dark circles visible by Day 14-21. Next period should be less painful.",
+      "zh-TW": "每天溫熱早餐，不碰冷食冷飲，每日運動活血。妳的身體靠運動和溫暖清除瘀滯——兩者都要支持。在體感記錄中追蹤經痛程度（1-10）、血塊大小和經血顏色變化。第14-21天可見皮膚亮度和黑眼圈改善。下一次月經應該更不痛。",
+      "ja": "毎日温かい朝食、冷たい食べ物飲み物は避け、毎日運動して血を巡らせる。体は運動と温かさで停滞をクリアする——両方サポートしましょう。体のメモに月経痛レベル（1-10）、血塊の大きさ、経血の色の変化を記録。14〜21日目で肌の明るさとクマの改善が確認できるはず。次回の月経はより軽くなるでしょう。"
+    }
+  },
+  "ch8Monitor": {
+    "headers": [
+      {
+        "en": "Energy (1-5)",
+        "zh-TW": "精力（1-5）",
+        "ja": "エネルギー（1-5）"
+      },
+      {
+        "en": "Sleep (1-5)",
+        "zh-TW": "睡眠（1-5）",
+        "ja": "睡眠（1-5）"
+      },
+      {
+        "en": "Digestion",
+        "zh-TW": "消化",
+        "ja": "消化"
+      },
+      {
+        "en": "Emotion",
+        "zh-TW": "情緒",
+        "ja": "感情"
+      },
+      {
+        "en": "Body Notes",
+        "zh-TW": "身體記錄",
+        "ja": "体のメモ"
+      },
+      {
+        "en": "Weight",
+        "zh-TW": "體重",
+        "ja": "体重"
+      }
+    ],
+    "rows": [
+      {
+        "zh-TW": "| 2 | 3 | 正常 | 沉重 | 手腳冷，嘴唇暗 | — |",
+        "ja": "| 2 | 3 | 普通 | 重い | 手足冷たい、唇が暗い | — |"
+      },
+      {
+        "zh-TW": "| 2 | 3 | 正常 | 平穩 | 溫食讓身體舒服 | — |",
+        "ja": "| 2 | 3 | 普通 | 平穏 | 温かい食事が体に合う | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 良好 | 三陰交按摩後腹部溫暖 | — |",
+        "ja": "| 3 | 4 | 良好 | 良好 | 三陰交マッサージ後、腹部が温かい | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 平穩 | 泡腳很舒服，入睡更快 | — |",
+        "ja": "| 3 | 4 | 良好 | 平穏 | 足湯が心地よい、入眠が早い | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 積極 | 牛肉湯後感覺有力 | — |",
+        "ja": "| 3 | 4 | 良好 | 前向き | 牛肉スープ後、力が湧く | — |"
+      },
+      {
+        "zh-TW": "| 3 | 3 | 正常 | 平穩 | 指甲床似乎稍紅潤 | — |",
+        "ja": "| 3 | 3 | 普通 | 平穏 | 爪床が少し赤みを帯びたかも | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 放鬆 | 休息日，感覺輕鬆 | — |",
+        "ja": "| 3 | 4 | 良好 | リラックス | 休息日、軽やかに感じる | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 良好 | 太衝穴按壓後胸悶減輕 | — |",
+        "ja": "| 3 | 4 | 良好 | 良好 | 太衝ツボ押圧後、胸のつかえが軽減 | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 穩定 | 皮膚似乎不那麼暗沉 | — |",
+        "ja": "| 3 | 4 | 良好 | 穏やか | 肌のくすみが少し減った気がする | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 良好 | 一週無冷食，身體感受明顯 | — |",
+        "ja": "| 3 | 4 | 良好 | 良好 | 1週間冷たいものなし、体感の違いが明確 | — |"
+      },
+      {
+        "zh-TW": "| 3 | 5 | 良好 | 放鬆 | 睡眠質量明顯提升 | — |",
+        "ja": "| 3 | 5 | 良好 | リラックス | 睡眠の質が明らかに向上 | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 良好 | 合谷按摩後面部感覺溫暖 | — |",
+        "ja": "| 4 | 4 | 良好 | 良好 | 合谷マッサージ後、顔が温かく感じる | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 很好 | 積極 | 能量水平上升，下午不那麼累 | — |",
+        "ja": "| 4 | 4 | とても良い | 前向き | エネルギーレベル上昇、午後の疲れが軽い | — |"
+      },
+      {
+        "zh-TW": "| 3 | 4 | 良好 | 平穩 | 黑眼圈似乎有淡化 | — |",
+        "ja": "| 3 | 4 | 良好 | 平穏 | クマが少し薄くなったかも | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 良好 | 2週檢查：皮膚亮度改善、嘴唇顏色變紅 | — |",
+        "ja": "| 4 | 4 | 良好 | 良好 | 2週間チェック：肌の明るさ改善、唇の色が赤みを帯びる | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 良好 | 愉快 | 早晨精力更持久 | — |",
+        "ja": "| 4 | 5 | 良好 | 楽しい | 朝の活力が長続きする | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 穩定 | 四關配穴按摩後全身放鬆 | — |",
+        "ja": "| 4 | 4 | 良好 | 穏やか | 四関のツボマッサージ後、全身がリラックス | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 很好 | 良好 | 烏骨雞湯的深層滋養感 | — |",
+        "ja": "| 4 | 4 | とても良い | 良好 | 烏骨鶏スープの深い滋養を感じる | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 良好 | 積極 | 睡眠穩定，夢少了 | — |",
+        "ja": "| 4 | 5 | 良好 | 前向き | 睡眠が安定、夢が減った | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 良好 | 全身溫暖感增加 | — |",
+        "ja": "| 4 | 4 | 良好 | 良好 | 全身の温かさが増している | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 放鬆 | 休息日，感覺輕盈 | — |",
+        "ja": "| 4 | 4 | 良好 | リラックス | 休息日、軽やかに感じる | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 平穩 | 唇色繼續改善 | — |",
+        "ja": "| 4 | 4 | 良好 | 平穏 | 唇の色が引き続き改善 | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 很好 | 良好 | 泡腳+按摩後入睡極快 | — |",
+        "ja": "| 4 | 5 | とても良い | 良好 | 足湯＋マッサージ後、すぐ眠れる | — |"
+      },
+      {
+        "zh-TW": "| 4 | 4 | 良好 | 積極 | 手腳明顯更溫暖 | — |",
+        "ja": "| 4 | 4 | 良好 | 前向き | 手足が明らかに温かい | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 良好 | 很好 | 4週：皮膚色澤、黑眼圈明顯改善 | — |",
+        "ja": "| 4 | 5 | 良好 | とても良い | 4週間：肌の色つや、クマが明確に改善 | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 良好 | 感恩 | 烏骨雞湯，深層滋養 | — |",
+        "ja": "| 4 | 5 | 良好 | 感謝 | 烏骨鶏スープ、深い滋養 | — |"
+      },
+      {
+        "zh-TW": "| 5 | 4 | 很好 | 穩定 | 整體血色很好，家人也注意到了 | — |",
+        "ja": "| 5 | 4 | とても良い | 穏やか | 全体の血色が良く、家族も気づいた | — |"
+      },
+      {
+        "zh-TW": "| 4 | 5 | 良好 | 積極 | 下次月經準備就緒 | — |",
+        "ja": "| 4 | 5 | 良好 | 前向き | 次回月経に向けて準備完了 | — |"
+      },
+      {
+        "zh-TW": "| 5 | 5 | 很好 | 很好 | 溫熱飲食已完全成為習慣 | — |",
+        "ja": "| 5 | 5 | とても良い | とても良い | 温かい食事が完全に習慣化 | — |"
+      },
+      {
+        "zh-TW": "| 5 | 5 | 很好 | 很好 | 30天完成：肌膚亮澤、唇色紅潤、手腳溫暖、情緒流通！ | — |",
+        "ja": "| 5 | 5 | とても良い | とても良い | 30日完了：肌が明るく、唇に赤み、手足が温かく、感情が流れる！ | — |"
+      }
+    ],
+    "footer": {
+      "en": "Rate energy and sleep 1-5. Track period pain (1-10), clot size, blood color, and dark circle changes in Body Notes. Weigh weekly. Note period days. Key marker: next period should be less painful with fewer clots. Skin brightness and lip color improvement by Day 21-30.",
+      "zh-TW": "精力和睡眠評1-5分。在身體記錄中追蹤經痛（1-10）、血塊大小、經血顏色和黑眼圈變化。每週稱重。記錄經期天數。關鍵指標：下次月經應更不痛、血塊更少。第21-30天可見皮膚亮度和唇色改善。",
+      "ja": "エネルギーと睡眠を1-5で評価。体のメモに月経痛（1-10）、血塊の大きさ、経血の色、クマの変化を記録。毎週体重測定。月経日を記録。重要指標：次回の月経は痛みが軽く、血塊が少なくなるはず。21〜30日目で肌の明るさと唇の色の改善が確認できます。"
+    }
+  }
+}

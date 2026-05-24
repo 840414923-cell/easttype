@@ -1,0 +1,494 @@
+{
+  "ch1Identity": {
+    "en": "You know that feeling when you've eaten a heavy meal and your whole body slows down? For most people, it passes. For you, it's Wednesday. And Thursday. And every day.\n\nYou're **The Mossy Stone**. In Chinese medicine, your type is called **痰湿 (Tán Shī)** — \"Phlegm-Dampness.\" This means your fluid metabolism is sluggish. Instead of moving fluids through your body efficiently, your system lets them pool and stagnate — creating a sense of heaviness, sluggishness, and mental fog that others mistake for laziness. Your body feels like it's wrapped in a damp blanket that never quite dries.\n\nAs a man with this constitution, you may have noticed that extra weight around your midsection — the \"spare tire\" — refuses to budge no matter how many diets you try. It's not a discipline problem. It's a metabolism problem. Your body hoards fluids and converts them into dampness, which settles as soft, stubborn weight. You may feel sluggish after meals, snore heavily at night, and notice that your sweat feels sticky and heavy rather than clean and light. Cold drinks make everything worse.\n\n### What Makes You, You\n\nYou're steady, reliable, and grounded. While others chase the next thrill, you've built a life on methodical, deliberate action. You don't panic in crises — you're the rock people lean on. Your personality has a natural gravity that comes from being comfortable with yourself. You're patient, loyal, and you think things through before acting.\n\n### Your Natural Strengths\n\n- **Unshakeable steadiness** — when the world is falling apart, you're the one still standing\n- **Physical resilience** — your body can endure more than most, it just moves at its own pace\n- **Emotional stability** — you don't swing high and low, you stay centered\n- **Patience** — you understand that real results take time, and you don't chase shortcuts\n- **Loyalty** — once you commit, you're in for the long haul\n\n### What Drains You Most\n\n- **Dairy** — it generates phlegm directly in your system and thickens the fluids you're already struggling to move\n- **Sweets and sugar** — they feed dampness like gasoline on a slow-burning fire\n- **Cold drinks and raw food** — they freeze your Spleen's ability to transform fluids\n- **Sedentary lifestyle** — stillness lets dampness settle deeper into your tissues\n- **Late-night eating** — your body creates dampness overnight from undigested food\n- **Humid environments** — external dampness resonates with your internal dampness, amplifying both\n\n### What Restores You\n\n- **Sweating exercise** — your single most important medicine. Sweating is one of your body's primary exit routes for dampness\n- **Warm, cooked foods** — easy for your Spleen to transform, leaving no damp residue\n- **Job's Tears (Coix Seed)** — the single most important ingredient for your constitution\n- **Dry, crisp environments** — autumn air is your natural ally\n- **Regular rhythm** — consistent meal times, sleep, and movement keep your fluid metabolism steady",
+    "zh-TW": "你知道那種吃完一頓大餐後全身都慢下來的感覺嗎？對大多數人來說，這感覺很快就過去了。但對你來說，今天是這樣，明天也是，每一天都是。\n\n你是**「厚重雲層」**。在中醫裡，你的體質叫做**痰濕**——意思是你的水液代謝遲緩。你的身體沒有把水分順暢地運送出去，反而讓它們積聚、停滯，造成一種沉重、遲鈍、腦霧的感覺，別人以為你只是懶。你的身體就像被一條永遠乾不了的濕毯子裹住。\n\n作為痰濕體質的男性，你可能已經注意到腰間那圈怎麼也減不掉的「備胎」。這不是意志力的問題，而是代謝的問題。你的身體把水分囤積起來轉化成濕氣，沉積為鬆軟、頑固的體重。你可能飯後覺得身體沉重、晚上睡覺打鼾嚴重，出汗時感覺黏膩沉悶而不是清爽輕盈。冷飲會讓一切更糟。\n\n### 你的獨特之處\n\n你穩重、可靠、踏實。當別人追逐下一個刺激時，你用有條不紊的方式建立生活。你在危機中不慌張——你是別人依靠的那塊磐石。你的性格有一種天然的厚重感，來自於你對自己的自在。你有耐心、忠誠，做事三思而後行。\n\n### 你的天賦優勢\n\n- **不可動搖的穩定**——當世界天翻地覆時，你是那個依然站穩的人\n- **強健的體魄**——你的身體比大多數人更能承受，只是以自己的節奏運作\n- **情緒穩定**——你不會大起大落，你保持居中平穩\n- **耐心**——你明白真正的成果需要時間，不追求捷徑\n- **忠誠**——一旦承諾，你就會堅持到底\n\n### 最消耗你的事物\n\n- **乳製品**——它直接在你的體內生痰，讓你本來就難以運化的水液變得更黏稠\n- **糖和甜食**——它們助長濕氣，就像火上澆油\n- **冷飲和生冷食物**——它們凍住你的脾胃運化功能\n- **久坐不動**——靜止讓濕氣沉積得更深\n- **宵夜**——你的身體會在夜間從未消化的食物中產生濕氣\n- **潮濕環境**——外在的濕氣會與你體內的濕氣相互呼應，雪上加霜\n\n### 讓你恢復活力的事物\n\n- **出汗運動**——你最重要的好幫手。出汗是身體排出濕氣的主要途徑之一\n- **溫熱熟食**——容易讓脾胃運化，不會留下濕氣殘留\n- **薏苡仁（薏仁）**——你的體質最需要的一味食材\n- **乾爽清朗的環境**——秋天的空氣是你天然的盟友\n- **規律的節奏**——定時進食、睡眠和運動，讓你的水液代謝保持穩定",
+    "ja": "重い食事をした後、体全体がだるくなるあの感覚、わかりますよね？ほとんどの人ならすぐに治まるものが、あなたの場合は水曜も木曜も、そして毎日続きます。\n\nあなたは**「重たい雲」**です。中医学では、あなたの体質を**痰湿（たんしつ）**と呼びます。これは水分代謝が滞っているという意味です。体内の水分をスムーズに巡らせる代わりに、溜め込んで停滞させてしまうため、重だるさ、気だるさ、頭のぼんやり感が生じます。周りの人はそれを「怠け」だと勘違いしてしまうでしょう。まるで、いつまで経っても乾かない湿った毛布にくるまれているような感覚です。\n\n痰湿体質の男性として、お腹周りのどうしても落ちない贅肉に悩んでいるかもしれません。それは意志の問題ではなく、代謝の問題です。あなたの体は水分を溜め込み、それを湿気に変えて、柔らかくて頑固な脂肪として蓄積します。食後にだるさを感じたり、夜いびきをかきすぎたり、汗がベタベタと重く、さっぱりしないことに気づいているかもしれません。冷たい飲み物はすべてをさらに悪化させます。\n\n### あなたらしいところ\n\nあなたは穏やかで、頼りがいがあり、地に足がついています。他の人が次の刺激を追いかける中、あなたは着実で慎重な行動で生活を築いてきました。危機に陥ってもパニックにはならない――あなたは周りの人が頼れる岩のような存在です。あなたの性格には、自分をよく受け入れていることから来る自然な重みがあります。忍耐強く、誠実で、行動する前にじっくり考える人です。\n\n### 生まれ持った強み\n\n- **揺るぎない安定感**――世界が崩れそうな時も、あなたはただ一人立っていられる\n- **タフな体**――多くの人より耐えられる、ただ自分のペースで動くだけ\n- **感情の安定**――気分の波が激しくなく、いつも中心を保っている\n- **忍耐力**――本当の成果には時間がかかると心得ており、近道を追わない\n- **誠実さ**――一度決めたら、最後まで貫く\n\n### 最もあなたを消耗させるもの\n\n- **乳製品**――体内で直接痰を生み出し、もともと運びにくい水分をさらにドロドロにする\n- **甘いもの・砂糖**――湿気に油を注ぐように、ますます助長してしまう\n- **冷たい飲み物・生冷食品**――脾胃の運化機能を凍りつかせてしまう\n- **座りっぱなしの生活**――動かないことで湿気がさらに深く沈殿する\n- **夜食**――未消化の食べ物から夜間に湿気が生み出される\n- **湿気の多い環境**――外の湿気が体内の湿気と共鳴して、さらに悪化する\n\n### あなたを回復させるもの\n\n- **汗をかく運動**――あなたにとって一番の養生素材。発汗は体が湿気を排出する主要なルートの一つ\n- **温かい加熱食**――脾胃が運化しやすく、湿気の残留がない\n- **ハトムギ（薏苡仁）**――あなたの体質に最も欠かせない食材\n- **乾燥して澄んだ環境**――秋の空気はあなたの天然の味方\n- **規則正しいリズム**――決まった時間の食事・睡眠・運動で、水分代謝を安定させる"
+  },
+  "ch2FoodsLove": [
+    {
+      "name": {
+        "en": "Job's Tears",
+        "zh-TW": "薏苡仁",
+        "ja": "ハトムギ"
+      },
+      "nameZh": "薏苡仁",
+      "aliases": "Yì Yǐ Rén / 薏仁 / Coix Seed / 薏米 / Hatomugi",
+      "tcmAction": {
+        "en": "Drains dampness, strengthens Spleen",
+        "zh-TW": "利水滲濕，健脾",
+        "ja": "利水して湿を除き、脾を健やかにする"
+      },
+      "desc": {
+        "en": "Your single most important food. Job's Tears (also called Coix Seed) is the king of damp-draining ingredients in Chinese medicine. Cook it as congee for breakfast, add it to soups, or boil it as tea. It directly targets the fluid stagnation at the root of your constitution. Eat it daily if you can.",
+        "zh-TW": "你最重要的食材。薏苡仁（又稱薏仁）是中醫祛濕食材之王。煮成粥當早餐、加入湯品，或煮水當茶喝。它直接針對你體質根源的水液停滯問題。盡量每天食用。",
+        "ja": "あなたにとって最も重要な食材。ハトムギ（薏苡仁）は中医学における除湿食材の王様です。朝食にお粥として煮たり、スープに加えたり、お茶として煮出したりしましょう。あなたの体質の根本にある水分停滞に直接アプローチします。できる限り毎日食べましょう。"
+      }
+    },
+    {
+      "name": {
+        "en": "Adzuki Bean",
+        "zh-TW": "紅豆",
+        "ja": "小豆（あずき）"
+      },
+      "nameZh": "紅豆",
+      "aliases": "Hóng Dòu / 红豆 / Adzuki / 小豆 / Azuki Bean",
+      "tcmAction": {
+        "en": "Drains dampness, reduces swelling",
+        "zh-TW": "利水消腫",
+        "ja": "利水して腫れを引かせる"
+      },
+      "desc": {
+        "en": "The classic partner to Job's Tears. Adzuki beans drain dampness and reduce water retention and swelling. Boil them together as a soup or congee — this combination is the single most effective daily remedy for your constitution.",
+        "zh-TW": "薏苡仁的經典搭檔。紅豆能利水祛濕、消水腫。將兩者一起煮成湯或粥——這是對你的體質最有效的日常食療方。",
+        "ja": "ハトムギの昔からの相棒。小豆は湿を除き、むくみや水はけを改善します。一緒にスープやお粥にして煮ましょう――この組み合わせは、あなたの体質に対する最も効果的な毎日の食事療法です。"
+      }
+    },
+    {
+      "name": {
+        "en": "Winter Melon",
+        "zh-TW": "冬瓜",
+        "ja": "トウガン"
+      },
+      "nameZh": "冬瓜",
+      "aliases": "Dōng Guā / 冬瓜 / Wax Gourd / 白瓜 / Tōgan",
+      "tcmAction": {
+        "en": "Drains dampness, clears heat",
+        "zh-TW": "利水祛濕，清熱",
+        "ja": "利水して湿を除き、熱を清らかにする"
+      },
+      "desc": {
+        "en": "A powerful damp-draining vegetable with cooling properties. Cook it in soups with the skin on — the skin is where much of the damp-draining action lives. Especially good in summer when damp-heat builds up.",
+        "zh-TW": "一款強效的祛濕蔬菜，性涼。帶皮煮湯——冬瓜皮的祛濕功效最強。特別適合夏天濕熱積聚時食用。",
+        "ja": "強力な除湿作用を持つ冷性の野菜。皮付きのままスープで煮ましょう――皮の部分に除湿成分が一番多く含まれています。湿熱が溜まりやすい夏場に特におすすめです。"
+      }
+    },
+    {
+      "name": {
+        "en": "Chen Pi",
+        "zh-TW": "陳皮",
+        "ja": "陳皮（ちんぴ）"
+      },
+      "nameZh": "陳皮",
+      "aliases": "Chén Pí / 陈皮 / Aged Tangerine Peel / 陳皮 / Chinpi",
+      "tcmAction": {
+        "en": "Regulates Qi, transforms phlegm",
+        "zh-TW": "理氣，化痰",
+        "ja": "気を整え、痰を化解する"
+      },
+      "desc": {
+        "en": "Aged tangerine peel — one of the most versatile ingredients in your kitchen. It regulates Qi movement (which stagnation blocks), transforms phlegm, and improves digestion. Add a small piece to congee, tea, or soup. A little goes a long way.",
+        "zh-TW": "陳年橘子皮——你廚房裡用途最廣的食材之一。它能理氣（化解氣機阻滯）、化痰、改善消化。在粥、茶或湯中加入一小片即可，少量就有顯著效果。",
+        "ja": "熟成されたみかんの皮――キッチンで最も使い道の広い食材の一つです。気の巡りを整え（停滞を解消し）、痰を化解し、消化を助けます。お粥やお茶、スープに小さな一片を加えるだけで、少量でもしっかり効きます。"
+      }
+    },
+    {
+      "name": {
+        "en": "Chinese Yam",
+        "zh-TW": "山藥",
+        "ja": "ヤマノイモ"
+      },
+      "nameZh": "山藥",
+      "aliases": "Shān Yào / 山药 / Huái Shān / 淮山 / Nagaimo / Japanese Yam",
+      "tcmAction": {
+        "en": "Strengthens Spleen",
+        "zh-TW": "健脾",
+        "ja": "脾を健やかにする"
+      },
+      "desc": {
+        "en": "Your Spleen is the organ responsible for transforming fluids — when it's weak, dampness accumulates. Chinese Yam directly strengthens Spleen function at the root level. Steam it, add it to soups, or slice it into stir-fries. Gentle but deeply effective with regular use.",
+        "zh-TW": "脾胃是負責運化水液的臟器——當它虛弱時，濕氣就會堆積。山藥從根源直接補益脾胃功能。蒸食、加入湯品或切片炒菜皆可。性質溫和但持續食用效果深遠。",
+        "ja": "脾胃は水分の運化を担う臓器です――弱ると湿気が溜まってしまいます。ヤマノイモは根本から脾胃の機能を直接強化します。蒸しても、スープに入れても、炒め物にスライスして加えてもOK。穏やかですが、続ければしっかり効いてきます。"
+      }
+    },
+    {
+      "name": {
+        "en": "White Radish",
+        "zh-TW": "白蘿蔔",
+        "ja": "大根（だいこん）"
+      },
+      "nameZh": "白蘿蔔",
+      "aliases": "Bái Luó Bo / 白萝卜 / Daikon / 大根 / Chinese Radish",
+      "tcmAction": {
+        "en": "Transforms phlegm, descends Qi",
+        "zh-TW": "化痰，降氣",
+        "ja": "痰を化解し、気を下ろす"
+      },
+      "desc": {
+        "en": "The phlegm-cutter. White radish transforms phlegm and helps Qi descend — which means it clears the stuck, heavy feeling in your chest and digestion. Grate it raw in small amounts, cook it in soups, or pickle it. Especially helpful when you feel congested and foggy.",
+        "zh-TW": "化痰利器。白蘿蔔能化痰降氣——清除你胸悶和消化道的窒悶沉重感。少量生磨、煮湯或醃漬皆可。當你覺得胸悶、頭腦昏沉時特別有效。",
+        "ja": "痰切り名人。大根は痰を化解し、気を下ろすはたらきがあります――胸や消化器官のもたれ重い感覚をスッキリさせます。少量をおろし生で、スープで煮ても、漬けてもOK。胸がつかえる、頭がぼんやりするときに特におすすめです。"
+      }
+    },
+    {
+      "name": {
+        "en": "Green Tea",
+        "zh-TW": "綠茶",
+        "ja": "緑茶（りょくちゃ）"
+      },
+      "nameZh": "綠茶",
+      "aliases": "Lǜ Chá / 绿茶 / Ryokucha / 緑茶 / Sencha",
+      "tcmAction": {
+        "en": "Clears damp-heat",
+        "zh-TW": "清濕熱",
+        "ja": "湿熱を清らかにする"
+      },
+      "desc": {
+        "en": "Unlike cooling types who should avoid green tea, it's actually beneficial for you — it clears damp-heat and promotes fluid metabolism. Drink it between meals, not ice-cold. Warm or room temperature only. It helps cut through the heavy, greasy feeling that dampness creates.",
+        "zh-TW": "與虛寒體質應避免綠茶不同，綠茶對你其實有益——它能清濕熱、促進水液代謝。在兩餐之間飲用，不要冰鎮。溫飲或常溫即可。它有助於化解濕氣帶來的沉重油膩感。",
+        "ja": "冷え性の人が緑茶を控えるべきなのとは異なり、あなたには実は有益です――湿熱を清らかにし、水分代謝を促進します。食間に飲みましょう。アイスではなく、温かいか常温で。湿気がもたらす重たく脂っこい感覚をスッキリさせる助けになります。"
+      }
+    },
+    {
+      "name": {
+        "en": "Lotus Root",
+        "zh-TW": "蓮藕",
+        "ja": "レンコン"
+      },
+      "nameZh": "蓮藕",
+      "aliases": "Lián Ǒu / 莲藕 / Hasu / レンコン / Renkon",
+      "tcmAction": {
+        "en": "Drains dampness",
+        "zh-TW": "利水祛濕",
+        "ja": "利水して湿を除く"
+      },
+      "desc": {
+        "en": "Lotus root helps drain dampness while strengthening the Spleen. Its natural astringent quality also helps consolidate fluids so they don't leak and pool. Slice it into soups or stir-fry with light seasoning. Crisp, satisfying, and working quietly on your behalf.",
+        "zh-TW": "蓮藕能利水祛濕，同時健脾。它天然的收澀特性還能幫助固攝水液，防止水液外滲積聚。切片煮湯或清炒皆可。口感爽脆，在不知不覺中為你默默調理。",
+        "ja": "レンコンは湿を除きながら脾を健やかにします。天然の収斂作用で水分をしっかりと固め、漏れや滞りを防ぎます。スープにスライスして入れたり、薄味で炒めたり。シャキシャキとした食感で、気づかないうちに内側からしっかり働いてくれます。"
+      }
+    }
+  ],
+  "ch2FoodsAvoid": [
+    {
+      "en": "Dairy — milk, cheese, cream, yogurt — it generates phlegm directly in your system and thickens the fluids you're already struggling to move",
+      "zh-TW": "乳製品——牛奶、起司、鮮奶油、優格——它直接在體內生痰，讓你本就難以運化的水液變得更黏稠",
+      "ja": "乳製品――牛乳、チーズ、クリーム、ヨーグルト――体内で直接痰を生み出し、もともと運びにくい水分をさらにドロドロにする"
+    },
+    {
+      "en": "Sweets and sugar — they feed dampness like gasoline on a slow-burning fire, creating more of the exact thing you're trying to eliminate",
+      "zh-TW": "甜食和糖——它們像在慢火上澆汽油一樣助長濕氣，製造出更多你正努力消除的東西",
+      "ja": "甘いもの・砂糖――ゆっくり燃える火にガソリンを注ぐように湿気を助長し、せっかく排除しようとしているものをさらに増やしてしまう"
+    },
+    {
+      "en": "Greasy and fried foods — your Spleen cannot transform heavy oils efficiently, and the excess becomes more dampness stored in your tissues",
+      "zh-TW": "油膩和油炸食物——你的脾胃無法有效運化厚重的油脂，多餘的油就變成更多濕氣囤積在組織中",
+      "ja": "脂っこいもの・揚げ物――脾胃は重い油脂をうまく運化できず、余った油がさらに湿気となって組織に蓄積される"
+    },
+    {
+      "en": "Cold and raw food — it freezes your Spleen's transformation function, the very organ you need working at full capacity",
+      "zh-TW": "生冷食物——它會凍住脾胃的運化功能，而那正是你需要全力運作的臟器",
+      "ja": "冷たいもの・生もの――脾胃の運化機能を凍りつかせてしまう。それはあなたが最もフル稼働させたい臓器です"
+    },
+    {
+      "en": "Excessive fruit — fruit is moist and sweet by nature; too much adds to your fluid burden rather than relieving it",
+      "zh-TW": "過量水果——水果天生多汁偏甜，吃太多只會加重水液負擔而不是減輕",
+      "ja": "果物の摂りすぎ――果物は本来みずみずしく甘い。食べすぎると水分の負担を減らすどころか増やしてしまう"
+    },
+    {
+      "en": "Refined carbohydrates — white bread, pastries, noodles in excess — they convert quickly to dampness in your system",
+      "zh-TW": "精製碳水化合物——白麵包、糕點、過量的麵條——它們很快在你體內轉化為濕氣",
+      "ja": "精製炭水化物――白パン、菓子パン、麺類の食べすぎ――体内ですぐに湿気に変わってしまう"
+    },
+    {
+      "en": "Beer and sweet alcohol — beer is both cold and damp, the worst possible combination for your constitution. Sweet cocktails are equally damaging",
+      "zh-TW": "啤酒和甜酒——啤酒既寒又濕，是對你體質最不利的組合。甜調酒的殺傷力一樣大",
+      "ja": "ビールと甘いお酒――ビールは冷たくて湿気があり、あなたの体質にとって最悪の組み合わせ。甘いカクテルも同じくらいダメージがある"
+    }
+  ],
+  "ch3Seasonal": {
+    "highlight": {
+      "en": "Late summer and humid seasons are your crucible — the external damp mirrors your internal damp and amplifies it. You may feel heaviest, foggiest, and most sluggish during these periods. But autumn is your relief — crisp, dry air pulls dampness from your body naturally. Every season is either working with you or against you. Learn the rhythm.",
+      "zh-TW": "長夏和潮濕的季節是你的大考——外在的濕氣與你體內的濕氣相互呼應，變本加厲。這段期間你可能覺得身體最沉重、腦袋最昏沉、精神最遲鈍。但秋天是你的救星——乾爽清脆的空氣自然地帶走體內的濕氣。每個季節不是幫你就是害你，掌握好節奏吧。",
+      "ja": "長夏と湿気の多い季節はあなたの試練です――外の湿気が体内の湿気と共鳴してさらに悪化します。この時期、最も体が重く、頭がぼんやりし、だるさを感じるかもしれません。しかし秋は救いの季節――乾燥して澄んだ空気が自然と体から湿気を引き出してくれます。すべての季節はあなたに味方するか敵対するかのどちらか。そのリズムを身につけましょう。"
+    },
+    "tips": [
+      {
+        "en": "Spring — Get moving early. Your body has been still all winter and dampness has settled deep. Start with brisk walking and build to sweating exercise. This is your wake-up season — don't let sluggishness win the first battle of the year. Eat Job's Tears congee daily.",
+        "zh-TW": "春季——及早動起來。你的身體整個冬天都在靜止，濕氣已經沉積得很深。從快走開始，逐步增加到會出汗的運動。這是你的甦醒季節——別讓遲鈍贏得今年的第一場仗。每天喝薏仁粥。",
+        "ja": "春――早めに動き出しましょう。体はずっと冬の間動かず、湿気が深く沈殿しています。早歩きから始めて、汗をかく運動へと徐々に強度を上げましょう。これは目覚めの季節――今年最初の戦いでだるさに負けないで。毎日ハトムギ粥を食べましょう。"
+      },
+      {
+        "en": "Summer — Limit fruit and air conditioning. Cold AC freezes your Spleen and traps dampness inside. Summer fruit is moist and sweet — enjoy it moderately, not in excess. Instead, sweat deliberately. Exercise that produces a good sweat is medicine for you right now.",
+        "zh-TW": "夏季——限制水果和冷氣。冰冷的冷氣會凍住脾胃，把濕氣困在體內。夏季水果多汁偏甜——適量享用即可，不可過量。相反，要刻意出汗。能讓你好好流汗的運動現在就是你的好幫手。",
+        "ja": "夏――果物と冷房を控えめに。冷たいエアコンは脾胃を凍らせ、湿気を体内に閉じ込めてしまいます。夏の果物はみずみずしく甘い――適度に楽しみ、食べすぎないこと。その代わり、意識的に汗をかきましょう。しっかり汗をかく運動は今のあなたにとって養生素材です。"
+      },
+      {
+        "en": "Autumn — Your best season for clearing dampness. The dry, crisp air naturally supports your body's drainage. Capitalize on it — eat damp-draining foods aggressively, maintain exercise, and drink warm green tea. This is when you make the most progress.",
+        "zh-TW": "秋季——你祛濕的最佳季節。乾爽清脆的空氣自然地幫助身體排出濕氣。好好把握——大量吃祛濕食物、維持運動、喝溫熱的綠茶。這是你進展最快的時候。",
+        "ja": "秋――湿気を除くのに最適な季節。乾燥して澄んだ空気が自然と体の排水を助けてくれます。チャンスを活かしましょう――除湿効果の高い食べ物を積極的に取り、運動を維持し、温かい緑茶を飲む。最も成果が出る時期です。"
+      },
+      {
+        "en": "Winter — Keep active. The temptation to hibernate is strong, but stillness lets dampness settle deeper into your tissues. Maintain your exercise routine even when it's cold. Eat warm, cooked foods exclusively. Hot soups with Job's Tears and Adzuki beans are your winter staples.",
+        "zh-TW": "冬季——保持活躍。冬眠的誘惑很強，但靜止只會讓濕氣沉積得更深。即使天冷也要維持運動習慣。只吃溫熱的熟食。薏仁紅豆熱湯是你的冬季必備。",
+        "ja": "冬――動き続けましょう。冬眠の誘惑は強いけれど、じっとしていると湿気がさらに深く組織に沈殿してしまいます。寒くても運動習慣を維持して。温かい加熱食だけを食べる。ハトムギと小豆のホットスープは冬の必需品です。"
+      }
+    ]
+  },
+  "ch4DailyRhythm": [
+    {
+      "time": "6:30–7:30 AM",
+      "meridian": {
+        "en": "Stomach",
+        "zh-TW": "胃經",
+        "ja": "胃経"
+      },
+      "desc": {
+        "en": "Move first, then eat. Before anything goes in your stomach, get your body in motion — even 10 minutes of stretching, jumping jacks, or a brisk walk around the block. Movement wakes up your fluid metabolism. Then drink a cup of warm water with a small piece of Chen Pi (aged tangerine peel) steeped in it. This primes your digestion to transform fluids efficiently instead of letting them stagnate.",
+        "zh-TW": "先動，再吃。在胃裡裝進任何東西之前，先讓身體動起來——哪怕只是十分鐘的伸展、開合跳或繞街區快走。運動能喚醒你的水液代謝。然後喝一杯用一小片陳皮泡的溫水。這能啟動消化系統，讓它高效地運化水液，而不是讓水液停滯。",
+        "ja": "まず動いて、それから食べる。胃に何か入れる前に、まず体を動かしましょう――たった10分のストレッチ、ジャンピングジャック、近所の早歩きでも構いません。運動は水分代謝を目覚めさせます。それから陳皮（ちんぴ）を一片入れた白湯を一杯飲みましょう。消化器官が水分を滞らせず効率的に運化できるよう準備が整います。"
+      }
+    },
+    {
+      "time": "7:30–8:30 AM",
+      "meridian": {
+        "en": "Spleen",
+        "zh-TW": "脾經",
+        "ja": "脾経"
+      },
+      "desc": {
+        "en": "Your most important meal: Job's Tears and Adzuki Bean congee. This is not optional — it's medicine. These two ingredients directly drain the dampness that defines your constitution. Cook them into a warm, soupy congee and eat it slowly. Add Chinese Yam for extra Spleen support. This breakfast sets your fluid metabolism for the entire day.",
+        "zh-TW": "你最重要的一餐：薏仁紅豆粥。這不是可選的——這是養生好物。這兩味食材直接袪除你體質的核心——濕氣。煮成溫熱的稀粥，慢慢吃。可以加山藥加強健脾效果。這頓早餐決定了你一整天的水液代謝。",
+        "ja": "一番重要な食事：ハトムギと小豆のお粥。これは選択肢ではありません――養生素材です。この二つの食材が、あなたの体質の根本である湿気に直接アプローチします。温かくとろりとしたお粥にして、ゆっくり食べましょう。ヤマノイモを加えると健脾効果がさらにアップ。この朝食が一日の水分代謝を決めます。"
+      }
+    },
+    {
+      "time": "9:00–11:00 AM",
+      "meridian": {
+        "en": "Spleen (peak)",
+        "zh-TW": "脾經（當令）",
+        "ja": "脾経（当令）"
+      },
+      "desc": {
+        "en": "CRITICAL exercise window. Your Spleen is at its peak transformative power right now — and movement supercharges it. This is your most important exercise period of the day. Do whatever makes you sweat: running, cycling, brisk walking, sports, gym. Sweat is one of your body's primary exit routes for dampness. Use it. A sedentary 9-11 AM is the worst thing you can do to your constitution.",
+        "zh-TW": "關鍵運動時段。你的脾胃此時運化能力最強——而運動能進一步激發它。這是你一天中最重要的運動時段。做任何能讓你出汗的運動：跑步、騎車、快走、球類運動、健身房。出汗是你身體排出濕氣的主要途徑之一，好好利用。上午九到十一點久坐不動，對你的體質是最糟的事。",
+        "ja": "重要な運動タイム。脾胃の運化力がピークに達する時間帯です――そして運動がさらにパワーアップさせます。これが一日で最も重要な運動時間です。汗をかくなら何でも：ランニング、サイクル、早歩き、スポーツ、ジム。発汗は体が湿気を排出する主要なルートの一つ。活用しましょう。午前9〜11時の座りっぱなしは、あなたの体質にとって最悪の選択です。"
+      }
+    },
+    {
+      "time": "11:00 AM–1:00 PM",
+      "meridian": {
+        "en": "Heart",
+        "zh-TW": "心經",
+        "ja": "心経"
+      },
+      "desc": {
+        "en": "A light, warm lunch. Heavy meals at midday overload your Spleen and create afternoon sluggishness. Think: clear soup with vegetables and a small portion of protein, or a warm grain bowl with steamed greens. Avoid greasy, heavy, or fried foods. Keep it clean and warm. Your body is still processing breakfast — don't overwhelm it.",
+        "zh-TW": "清淡溫熱的午餐。午間大魚大肉會讓脾胃超載，導致下午昏沉。想一下：清湯加蔬菜和少量蛋白質，或者一碗溫熱的穀物搭配蒸青菜。避免油膩、厚重或油炸的食物。保持清淡溫暖。你的身體還在處理早餐——別讓它不堪負荷。",
+        "ja": "軽くて温かいランチ。昼に重い食事をすると脾胃に負担がかかり、午後のだるさを招きます。こんなイメージで：野菜たっぷりの澄ましスープに少量のたんぱく質、または温かい穀物ボウルに蒸し野菜。脂っこい、重い、揚げたものは避けて。シンプルで温かく。体はまだ朝食を処理中です――無理させないで。"
+      }
+    },
+    {
+      "time": "1:00–3:00 PM",
+      "meridian": {
+        "en": "Small Intestine",
+        "zh-TW": "小腸經",
+        "ja": "小腸経"
+      },
+      "desc": {
+        "en": "Walk for 15 minutes after lunch. Do not sit down immediately. Do not nap. Napping after meals is disastrous for your constitution — it tells your Spleen to stop transforming, and dampness accumulates while you sleep. A gentle walk keeps fluids moving and supports digestion. If you're at an office, walk the stairs or pace.",
+        "zh-TW": "午餐後散步十五分鐘。不要立刻坐下，不要午睡。飯後午睡對你的體質是災難——它讓脾胃停止運化，濕氣在你睡覺時悄悄堆積。輕鬆的散步能保持水液流通、幫助消化。如果你在辦公室，走樓梯或來回踱步也行。",
+        "ja": "ランチの後に15分散歩しましょう。すぐに座らない。昼寝もしない。食後の昼寝はあなたの体質には最悪です――脾胃の運化が止まり、寝ている間に湿気が溜まってしまいます。軽い散歩は水分の巡りを保ち、消化を助けます。オフィスにいるなら、階段を使ったり歩き回ったりしましょう。"
+      }
+    },
+    {
+      "time": "3:00–5:00 PM",
+      "meridian": {
+        "en": "Bladder",
+        "zh-TW": "膀胱經",
+        "ja": "膀胱経"
+      },
+      "desc": {
+        "en": "Keep moving. The Bladder meridian is your body's main drainage channel — it wants to move fluids out. A second walk, light stretching, or standing work keeps this system active. Drink warm water or green tea (not cold). If you've been sitting since lunch, stand up now and move for at least 10 minutes.",
+        "zh-TW": "繼續動。膀胱經是你身體的主要排水通道——它需要把水液排出去。再散步一次、做些輕拉伸、或站著工作，保持這個系統活躍。喝溫水或綠茶（不要冰的）。如果你午餐後一直坐著，現在站起來至少活動十分鐘。",
+        "ja": "動き続けましょう。膀胱経は体のメイン排水チャンネルです――水分を外に出そうとしています。もう一度散歩、軽いストレッチ、スタンディングワークでこのシステムを活発に保ちましょう。白湯か緑茶を飲んで（冷たいものはダメ）。ランチ後ずっと座っているなら、今すぐ立って最低10分は動いて。"
+      }
+    },
+    {
+      "time": "5:00–7:00 PM",
+      "meridian": {
+        "en": "Kidney",
+        "zh-TW": "腎經",
+        "ja": "腎経"
+      },
+      "desc": {
+        "en": "A light dinner — soup is ideal. Warm, brothy soups with Job's Tears, lotus root, or winter melon continue the damp-draining work through the evening. Eat before 7 PM. A heavy, late dinner guarantees a sluggish morning and heavy, phlegmy sleep. Keep it simple: soup, steamed vegetables, small protein.",
+        "zh-TW": "清淡晚餐——湯最理想。加薏仁、蓮藕或冬瓜的溫熱清湯，持續在晚間為你祛濕。七點前吃完。厚重又晚吃的晚餐保證讓你第二天早上渾身沉重、睡覺時痰多。簡單就好：湯、蒸蔬菜、少量蛋白質。",
+        "ja": "軽めの夕食――スープが理想。ハトムギ、レンコン、トウガンを入れた温かいスープは、夜も除湿を続けてくれます。午後7時までに食べ終えましょう。重くて遅い夕食は、翌朝の重だるさと痰の多い睡眠を保証してしまいます。シンプルに：スープ、蒸し野菜、少量のたんぱく質。"
+      }
+    },
+    {
+      "time": "8:30–9:30 PM",
+      "meridian": {
+        "en": "Heart Protector",
+        "zh-TW": "心包經",
+        "ja": "心包経"
+      },
+      "desc": {
+        "en": "Slow, deliberate movement: tai chi, yoga, or a gentle walk. This isn't about cardio — it's about keeping your Qi and fluids circulating before sleep. Dampness loves stillness, so your evening routine should include gentle but consistent movement. Avoid the couch-to-bed pipeline. Move, then rest.",
+        "zh-TW": "緩慢、從容的運動：太極、瑜伽或輕鬆的散步。這不是為了心肺訓練——而是讓你的氣血和水液在睡前保持流通。濕氣最愛靜止，所以你的晚間活動應該包含溫和但持續的運動。避免從沙發直接上床的模式。先動，再休息。",
+        "ja": "ゆっくり、丁寧な動き：太極拳、ヨガ、または軽い散歩。これは心肺トレーニングではありません――睡眠前に気と水分の巡りを保つためのものです。湿気は静けさを好むので、夜のルーティンには穏やかでも継続的な動きを取り入れましょう。ソファからベッドへの直行は避けて。まず動いて、それから休む。"
+      }
+    },
+    {
+      "time": "10:00–10:30 PM",
+      "meridian": {
+        "en": "Triple Heater",
+        "zh-TW": "三焦經",
+        "ja": "三焦経"
+      },
+      "desc": {
+        "en": "Asleep. Nothing in your stomach — no late-night snacking, no milk, no alcohol. Your body needs to repair, not digest. Sleeping with food in your system creates dampness overnight, which is why you may wake up feeling heavy and foggy. An empty stomach by bedtime is one of the most impactful changes you can make.",
+        "zh-TW": "入睡。胃裡不要有東西——不吃宵夜、不喝牛奶、不喝酒。你的身體需要修復，而不是消化。帶著食物入睡會在夜間產生濕氣，這就是為什麼你可能早上醒來覺得又重又昏沉。睡前保持空腹，是你能做到最有影響力的改變之一。",
+        "ja": "就寝。胃に何も入れない――夜食なし、牛乳なし、お酒なし。体は修復が必要で、消化は不要です。食べたまま眠ると夜間に湿気が生まれ、それが朝の重さとぼんやり感の原因になります。寝る時の空腹は、あなたができる中で最も効果的な変化の一つです。"
+      }
+    }
+  ],
+  "ch4Checklist": [
+    {
+      "en": "Morning movement before breakfast — even 10 minutes, no excuses",
+      "zh-TW": "早餐前先運動——哪怕十分鐘，沒有藉口",
+      "ja": "朝食前に運動――たった10分でも、言い訳なし"
+    },
+    {
+      "en": "Damp-draining breakfast — Job's Tears and Adzuki congee, warm and soupy",
+      "zh-TW": "祛濕早餐——薏仁紅豆粥，溫熱稀軟",
+      "ja": "除湿の朝食――ハトムギと小豆のお粥、温かくとろりと"
+    },
+    {
+      "en": "Sweat between 9-11 AM — your most critical exercise window",
+      "zh-TW": "上午九到十一點出汗——你最關鍵的運動時段",
+      "ja": "午前9〜11時に汗をかく――最も重要な運動タイム"
+    },
+    {
+      "en": "Light, warm lunch — no heavy, greasy, or fried food",
+      "zh-TW": "清淡溫熱的午餐——不要厚重、油膩或油炸的食物",
+      "ja": "軽くて温かいランチ――重い、脂っこい、揚げたものは避けて"
+    },
+    {
+      "en": "Walk 15 minutes after lunch — no napping after meals",
+      "zh-TW": "午餐後散步十五分鐘——飯後不午睡",
+      "ja": "ランチ後に15分散歩――食後の昼寝はしない"
+    },
+    {
+      "en": "No dairy, no sugar, no cold drinks — not today, not any day",
+      "zh-TW": "不碰乳製品、糖和冷飲——今天不行，哪天都不行",
+      "ja": "乳製品・砂糖・冷たい飲み物は避ける――今日も、いつの日も"
+    },
+    {
+      "en": "Light dinner before 7 PM — soup-based, warm, simple",
+      "zh-TW": "七點前吃清淡晚餐——以湯為主，溫熱簡單",
+      "ja": "午後7時までに軽い夕食――スープ中心で、温かくシンプルに"
+    },
+    {
+      "en": "Asleep by 10:30 PM — empty stomach, no late-night eating",
+      "zh-TW": "十點半前入睡——空腹，不吃宵夜",
+      "ja": "午後10時半までに就寝――空腹で、夜食はなし"
+    }
+  ],
+  "recipe": {
+    "title": {
+      "en": "Job's Tears & Adzuki Damp-Draining Soup",
+      "zh-TW": "薏仁紅豆祛濕湯",
+      "ja": "ハトムギと小豆の除湿スープ"
+    },
+    "titleZh": "薏仁紅豆祛濕湯",
+    "ingredients": [
+      {
+        "name": {
+          "en": "Job's Tears",
+          "zh-TW": "薏苡仁",
+          "ja": "ハトムギ"
+        },
+        "aliases": "薏苡仁 / 薏仁 / 薏米 / Coix Seed / Hatomubi",
+        "amount": "50 g (≈ 1.8 oz)"
+      },
+      {
+        "name": {
+          "en": "Adzuki Bean",
+          "zh-TW": "紅豆",
+          "ja": "小豆（あずき）"
+        },
+        "aliases": "紅豆 / 红豆 / 小豆 / Azuki / Adzuki",
+        "amount": "50 g (≈ 1.8 oz)"
+      },
+      {
+        "name": {
+          "en": "Winter Melon",
+          "zh-TW": "冬瓜",
+          "ja": "トウガン"
+        },
+        "aliases": "冬瓜 / 白瓜 / Wax Gourd / Tōgan",
+        "amount": "200 g (≈ 7 oz), with skin"
+      },
+      {
+        "name": {
+          "en": "Chen Pi",
+          "zh-TW": "陳皮",
+          "ja": "陳皮（ちんぴ）"
+        },
+        "aliases": "陳皮 / 陈皮 / Aged Tangerine Peel / Chinpi",
+        "amount": "5 g (≈ 0.2 oz), about 2 small pieces"
+      },
+      {
+        "name": {
+          "en": "Ginger (fresh)",
+          "zh-TW": "生薑",
+          "ja": "生姜（しょうが）"
+        },
+        "aliases": "生薑 / 生姜 / ショウガ / Ginger Root",
+        "amount": "2 slices"
+      },
+      {
+        "name": {
+          "en": "Water",
+          "zh-TW": "水",
+          "ja": "水"
+        },
+        "aliases": "",
+        "amount": "1200 ml (≈ 5 cups)"
+      }
+    ],
+    "tcmPrinciple": {
+      "en": "This soup targets dampness from every angle: Job's Tears drains dampness through urination and strengthens the Spleen so it stops producing dampness in the first place. Adzuki Bean reduces swelling and drains water retention. Winter Melon clears damp-heat and its skin contains concentrated damp-draining compounds. Chen Pi regulates Qi to prevent stagnation and transforms phlegm. Ginger warms the Spleen so it can transform fluids efficiently. Together, they form a complete damp-draining system — addressing the root cause (weak Spleen), the mechanism (fluid stagnation), and the symptom (accumulated dampness).",
+      "zh-TW": "這道湯從各個角度袪除濕氣：薏苡仁通過利尿排出濕氣，同時健脾，從源頭減少濕氣的產生。紅豆消腫、排水。冬瓜清濕熱，冬瓜皮含有高濃度的祛濕成分。陳皮理氣防阻滯、化痰。生薑溫脾，讓脾胃能高效運化水液。它們共同組成一套完整的祛濕系統——針對根本原因（脾虛）、作用機制（水液停滯）和症狀（濕氣積聚）全面調理。",
+      "ja": "このスープはあらゆる角度から湿気にアプローチします：ハトムギは利尿で湿気を排出し、同時に脾を健やかにして湿気の発生を根本から防ぎます。小豆はむくみを引き、水分の滞留を排出します。トウガンは湿熱を清らかにし、皮には高濃度の除湿成分が含まれています。陳皮は気を整えて停滞を防ぎ、痰を化解します。生姜は脾を温め、水分を効率的に運化できるようにします。これらが揃って完全な除湿システムを形成し――根本原因（脾の弱り）、メカニズム（水分の停滞）、症状（湿気の蓄積）のすべてに働きかけます。"
+    },
+    "steps": [
+      {
+        "en": "Soak Job's Tears and Adzuki Beans in water for at least 2 hours (overnight is ideal). Drain and rinse.",
+        "zh-TW": "將薏苡仁和紅豆浸泡至少二小時（隔夜最佳）。瀝乾並沖洗。",
+        "ja": "ハトムギと小豆を水に最低2時間浸します（一晩が理想）。水を切って軽く洗います。"
+      },
+      {
+        "en": "Cut Winter Melon into large chunks, keeping the skin on — the skin is where the strongest damp-draining properties reside.",
+        "zh-TW": "將冬瓜切成大塊，保留外皮——皮的祛濕功效最強。",
+        "ja": "トウガンを大きめの一口大に切ります。皮はつけたままに――皮に最も強い除湿成分が含まれています。"
+      },
+      {
+        "en": "Place all ingredients in a pot: soaked Job's Tears, Adzuki Beans, Winter Melon chunks (skin-on), Chen Pi, ginger slices, and 1200 ml water. Bring to a boil over medium-high heat.",
+        "zh-TW": "將所有材料放入鍋中：泡好的薏苡仁、紅豆、冬瓜塊（帶皮）、陳皮、薑片和 1200 毫升水。中大火煮開。",
+        "ja": "すべての材料を鍋に入れます：浸しておいたハトムギ、小豆、トウガン（皮付き）、陳皮、生姜の薄切り、そして水1200ml。中強火で沸騰させます。"
+      },
+      {
+        "en": "Once boiling, reduce heat to low. Cover with a lid, leaving a small gap. Simmer for 45-60 minutes until the beans are soft and the liquid has reduced by about one-third.",
+        "zh-TW": "煮開後轉小火。蓋上鍋蓋，留一小縫。燉煮四十五至六十分鐘，直到豆子變軟，湯汁減少約三分之一。",
+        "ja": "沸騰したら弱火にします。蓋をして少し隙間を開けておきます。45〜60分ほどコトコト煮て、豆が柔らかくなり、汁が約3分の1に減るまで待ちます。"
+      },
+      {
+        "en": "Remove the Chen Pi pieces and ginger slices. Taste the broth — it should be mild, slightly nutty, and clean-tasting. Add a pinch of salt if desired, but keep it minimal.",
+        "zh-TW": "撈出陳皮和薑片。嚐一下湯——應該味道清淡、微微有堅果香、口感清爽。可依喜好加一小撮鹽，但盡量少加。",
+        "ja": "陳皮と生姜を取り出します。スープの味見をしましょう――まろやかで、ほんのりナッツの香りがあり、さっぱりとした味わいが理想です。お好みで少量の塩を加えても構いませんが、最小限に。"
+      },
+      {
+        "en": "Ladle into bowls, including the beans and Winter Melon. Eat the solids and drink the broth — both carry the damp-draining medicine. This recipe makes 2 servings.",
+        "zh-TW": "盛入碗中，連同豆子和冬瓜一起吃。湯料和湯汁都要吃——兩者都含有祛濕的養生功效。此食譜為二人份。",
+        "ja": "お椀によそい、豆とトウガンも一緒に盛ります。具も汁もすべて食べてください――どちらにも除湿の養生効果が含まれています。このレシピは2人分です。"
+      }
+    ],
+    "tip": {
+      "en": "Make this soup 3 times per week — consistency is more important than intensity. For severe bloating or water retention, add 10 g of Fu Ling (茯苓 / Poria mushroom) to the pot. Fu Ling is one of the most powerful damp-draining herbs and works synergistically with this recipe. Best consumed at breakfast or as a light dinner.",
+      "zh-TW": "每週煮這道湯三次——堅持比強度更重要。如果嚴重腹脹或水腫，可以在鍋中加入 10 克茯苓。茯苓是最強效的祛濕傳統食材之一，與此食譜協同效果絕佳。最佳食用時機為早餐或清淡晚餐。",
+      "ja": "このスープは週に3回作りましょう――強度よりも継続が大切です。ひどいお腹の張りやむくみがある場合は、鍋にブクリョウ（茯苓）10gを加えてください。ブクリョウは最も強力な除湿伝統素材の一つで、このレシピとの相乗効果が期待できます。朝食や軽い夕食として食べるのがおすすめです。"
+    }
+  }
+}

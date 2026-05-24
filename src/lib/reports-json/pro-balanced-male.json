@@ -1,0 +1,1523 @@
+{
+  "ch1Origin": {
+    "en": "### You Won the Genetic Lottery — Now Protect It\n\nYou've probably always felt different, but couldn't quite explain why. While your friends complained about chronic fatigue, poor sleep, digestive issues, or mood swings, you just... didn't have those problems. You wake up energized. You sleep through the night. You eat whatever you want (mostly) and feel fine. Stress bounces off you. You recover from workouts faster than others. People come to you when they're falling apart, because you always seem steady.\n\n**In TCM, you are the benchmark — the Balanced (平和质) constitution.** This is the gold standard. Your Qi flows smoothly, your Blood is abundant, your Yin and Yang are in harmonious proportion, and your organ systems work as a well-coordinated team. You were likely born with strong Kidney essence (good genetics), and your upbringing probably reinforced that foundation with adequate nutrition, physical activity, and emotional stability.\n\n**But here's the catch nobody tells you:** Balanced constitution is not a permanent state — it's a dynamic equilibrium that must be actively maintained. Think of it like a luxury car that runs perfectly — until you stop changing the oil. Most Balanced men start noticing cracks around age 35-40. That second beer doesn't metabolize as fast. That all-nighter takes three days to recover from instead of one. That lower back starts whispering after heavy deadlifts.\n\n**The men who stay Balanced into their 50s, 60s, and beyond are not lucky — they're strategic.** They understand that their constitutional gift has a maintenance schedule. They don't wait for symptoms. They optimize proactively — nutrition, training, sleep, seasonal adjustments, stress management. This report is your maintenance manual.\n\n**Your natural advantages are real:** robust digestion, strong immunity, emotional resilience, quick recovery, restful sleep, and a body that seems to run on premium fuel by default. The question isn't whether you're healthy now — it's whether you'll still be this healthy in 20 years. That depends entirely on what you do next.",
+    "zh-TW": "### 你中了基因彩票——現在要守住它\n\n你可能一直都覺得自己和別人不一樣，但說不清楚為什麼。當朋友抱怨慢性疲勞、睡眠差、消化問題或情緒波動時，你就是……沒有這些問題。你起床有精神，一覺睡到天亮。想吃什麼就吃什麼（大部分時候）也沒事。壓力彈得開。運動恢復得比別人快。別人撐不住的時候都來找你，因為你總是那麼穩。\n\n**在中醫裡，你就是標準——平和質。** 這是金標準。你的氣機順暢、血液充盈、陰陽調和、臟腑系統如同一個配合默契的團隊。你可能天生腎精充足（基因好），而成長過程中的充足營養、運動和情緒穩定又進一步鞏固了這個基礎。\n\n**但沒人告訴你的陷阱是：** 平和質不是永久狀態——它是一個必須主動維護的動態平衡。就像一輛完美運轉的豪華轎車——直到你停止換機油。大多數平和質男性在35-40歲左右開始注意到裂痕。第二杯酒代謝沒那麼快了。熬一次夜需要三天才能恢復而不是一天。大重量硬舉後下背部開始悄悄抱怨。\n\n**那些到50、60歲以後還保持平和質的男人不是靠運氣——他們靠策略。** 他們理解體質天賦有保養時間表。他們不等症狀出現才行動，而是主動優化——營養、訓練、睡眠、季節調整、壓力管理。這份報告就是你的保養手冊。\n\n**你的天然優勢是真實的：** 強健的消化、強大的免疫力、情緒韌性、快速恢復、優質睡眠，以及一個似乎天生就加高級燃料的身體。問題不是你健不健康——而是你能把這份健康維持多久。",
+    "ja": "### 遺伝の宝くじに当たった——だからこそ守ろう\n\nいつもなんとなく「違う」と感じていた。友達が慢性疲労、睡眠の質の悪さ、消化器の不調、気分の波を訴える中、あなたは……そういう問題がなかった。目覚めはエネルギッシュ。朝までぐっすり。ほぼ何を食べても問題ない。ストレスも弾き返す。運動からの回復も他より速い。周りが崩れている時、頼りにされる——いつも安定しているから。\n\n**中医学でいう「基準」——平和質の体質。** ゴールドスタンダード。気がスムーズに流れ、血は豊か、陰と陽は調和し、臓腑が協調して働く。おそらく強い腎精（良い遺伝）を持って生まれ、十分な栄養、身体活動、感情的安定性で基礎が強化されてきた。\n\n**落とし穴：平和質は永続的な状態ではなく、積極的に維持すべき動的平衡。** 完璧に走る高級車——オイル交換を止めた途端に問題が出る。ほとんどの平和質の男性は35〜40歳頃に亀裂に気づく。2杯目のビールの代謝が遅くなる。徹夜の回復に1日ではなく3日かかる。重量挙げの後に腰がささやき始める。\n\n**50代、60代以降も平和質を保つ男性は運が良いのではなく、戦略的。** 体質の贈り物にはメンテナンススケジュールがある。症状を待たず、積極的に最適化する——栄養、トレーニング、睡眠、季節の調整、ストレス管理。このレポートがあなたのメンテナンスマニュアル。\n\n**あなたの天然の利点：** 頑健な消化、強い免疫力、感情的回復力、速い回復、安らかな睡眠、プレミアム燃料で走るような体。問題は今健康か——そうだ。問題は20年後もこの健康さを保てるか。それは次に何をするかに完全に依存する。"
+  },
+  "ch1Emotion": {
+    "en": "### The Steady Ship — And the Iceberg You Don't See Coming\n\nYour emotional life is probably your greatest asset and your biggest blind spot.\n\n**You're naturally stable, confident, and patient.** In TCM, Balanced constitution means your Liver Qi flows freely (no stagnation), your Heart Shen is well-anchored (no anxiety), and your Kidney willpower is strong (no lack of drive). You handle stress that would flatten other people. You make decisions under pressure. You're the guy others lean on during crises — and that feels natural to you.\n\n**But stability breeds overconfidence.** Because your body has always bounced back, you push harder than you should. You work 60-hour weeks because you can. You drink more than you should because your liver handles it (for now). You skip sleep because you \"function fine on five hours.\" You skip warm-up sets because you've never been injured (until you are). This pattern works brilliantly — right up until it catastrophically doesn't.\n\n**The emotional danger for Balanced men is not deficiency — it's complacency.** You don't feel broken, so you don't maintain. You don't feel stressed, so you don't decompress. You don't feel old, so you don't adjust. And then one day, usually in your late 30s or early 40s, the bill comes due. A small imbalance that would have been trivial at 25 becomes a chronic issue at 40. A dietary habit that was fine at 30 becomes a health problem at 45.\n\n**The emotionally intelligent Balanced man does something counterintuitive: he acts like he HAS something to lose.** Because he does. Your constitutional advantage is a trust fund — spend the interest wisely, invest the principal, and it lasts generations. Blow it all in your 20s and 30s, and you'll be working to rebuild what you once had for free. The men who protect their balance don't do it out of fear — they do it out of intelligence.",
+    "zh-TW": "### 穩如泰山的船——以及你看不見的冰山\n\n你的情緒生活可能既是你最大的資產，也是最大的盲點。\n\n**你天生穩定、自信、有耐心。** 在中醫裡，平和質意味著肝氣流暢（不鬱結）、心神安穩（不焦慮）、腎志堅定（不缺乏動力）。你能承受會壓垮別人的壓力，能在壓力下做決策，你是危機中別人倚靠的那個人——這對你來說很自然。\n\n**但穩定會滋生過度自信。** 因為你的身體總是恢復得快，你就更拼命。你每週工作60小時因為你扛得住。你喝得比應有的更多因為肝處理得了（暫時的）。你跳過睡眠因為「五小時也夠用」。你跳過熱身組因為從沒受過傷（直到受傷的那天）。這個模式運作得很好——直到有天突然不行了。\n\n**平和質男人的情緒危險不是不足——而是自滿。** 你不覺得自己壞了，所以你不保養。你不覺得壓力大，所以你不減壓。你不覺得老了，所以你不調整。然後有一天，通常在三十幾歲末或四十出頭，帳單來了。25歲時微不足道的小失衡，到了40歲變成慢性問題。30歲時沒問題的飲食習慣，到了45歲變成健康問題。\n\n**情緒智慧高的平和質男人會做一件反直覺的事：他表現得好像自己有東西可以失去。** 因為他確實有。你的體質優勢是一筆信託基金——明智地花利息、投資本金，就能傳承好幾代。在二三十歲時全部揮霍掉，後半生就要努力重建曾經免費擁有的東西。守護平衡的男人不是出於恐懼，而是出於智慧。",
+    "ja": "### 稼働する船——そして見えない氷山\n\n感情生活はおそらく最大の資産であり、最大の盲点。\n\n**生まれながらに安定、自信があり、忍耐強い。** 平和質とは肝気が自由に流れ（鬱滞なし）、心神がしっかりと定まり（不安なし）、腎の意志が強い（意欲の欠如なし）。他の人を平らげるストレスをものともしない。圧力下で決断できる。危機の時に頼りにされる——それがあなたにとって自然。\n\n**しかし安定は過信を生む。** 体がいつも回復してきたから、無理をしすぎる。60時間働けるから働く。肝臓が処理できるから（今は）飲みすぎる。「5時間で問題なく機能する」から睡眠をスキップする。ケガをしたことがないからウォームアップを抜かす。このパターンは……破綻するまで完璧に機能する。\n\n**平和質の男性の感情的危険は「不足」ではなく「慢心」。** 壊れていないからメンテナンスしない。ストレスを感じないからリラックスしない。年齢を感じないから調整しない。そしてある日、通常は30代後半から40代前半、請求書が届く。25歳では取るに足らない不調和が、40歳では慢性的な問題に。30歳で問題なかった食習慣が、45歳で健康問題に。\n\n**感情的に賢い平和質の男性は直感に反することをする：失うものがあるとして行動する。** なぜなら本当にそうだから。体質的利点は信託財産——利子を賢く使い、元本を投資すれば世代を超えて続く。20代と30代で使い果たせば、かつて無料で持っていたものを再構築するために働くことになる。バランスを守る男性は恐怖からではなく、知性からそうする。"
+  },
+  "ch2Combos": [
+    {
+      "en": "**Alcohol binges + late-night meals** — Your liver handles moderate drinking well, but binge drinking (4+ drinks) followed by heavy late-night food creates a toxic combination: your Liver is overwhelmed by alcohol metabolism while your Spleen is forced to digest a large meal during its weakest time (night). Over time, this is the #1 way Balanced men develop Damp-Heat or Liver Qi Stagnation. The damage is slow and invisible — until blood work shows elevated liver enzymes or gout flares up.",
+      "zh-TW": "**酒精豪飲＋深夜大餐**——你的肝處理適量飲酒沒問題，但豪飲（4杯以上）再配上一頓豐盛的深夜大餐，會製造出毒性的組合：肝被酒精代謝壓垮，同時脾被迫在它最弱的時段（夜間）消化大量食物。隨時間推移，這是平和質男性發展成濕熱或肝氣鬱結的第一大途徑。損害是緩慢且看不見的——直到驗血顯示肝指數異常或痛風發作。",
+      "ja": "**過度の飲酒 + 夜食** — 適度な飲酒は肝臓がうまく処理するが、暴飲（4杯以上）の後に重い夜食を食べると有毒な組み合わせに：肝臓はアルコール代謝で過負荷になり、同時に脾は最も弱い時間（夜）に大量の消化を強いられる。長期的に、これが平和質の男性が湿熱や肝気鬱滞を発症する第1の方法。被害は遅く目に見えない——肝酵素値の上昇や痛風の発作まで。"
+    },
+    {
+      "en": "**Extreme diets (keto, prolonged fasting, carnivore) + intense training** — Your body runs well on balanced nutrition. Extreme dietary restrictions combined with heavy training create a metabolic mismatch. Keto can generate internal Heat and dryness; prolonged fasting depletes Spleen Qi; carnivore overloads the Liver with protein toxicity. For Balanced men, the optimal approach is exactly what your body is already designed for: varied, moderate, seasonal eating with adequate carbs, protein, and fat.",
+      "zh-TW": "**極端飲食（生酮、長時間斷食、全肉）＋高強度訓練**——你的身體靠均衡營養運行良好。極端飲食限制配高強度訓練會造成代謝失調。生酮可能產生內熱和乾燥；長時間斷食消耗脾氣；全肉飲食讓肝承受過量蛋白質毒性。對平和質來說，最佳方案正是你的身體天生設計好的：多樣、適量、應季的飲食，搭配足夠的碳水和蛋白質與脂肪。",
+      "ja": "**極端なダイエット（ケト、長期断食、肉食）+ 激しい運動** — バランスの取れた栄養で体はうまく動く。極端な食事制限とハードなトレーニングの組み合わせは代謝のミスマッチ。ケトは内熱と乾燥を生み、長期断食は脾気を消耗し、肉食はタンパク質毒性で肝臓を過負荷に。平和質の男性にとって最適なのは、体が本来求めているもの：多様で適度、季節の食べ物。"
+    },
+    {
+      "en": "**Excessive red meat + energy drinks** — Red meat in moderation builds Blood and strengthens muscles. But excessive red meat (daily heavy portions) generates internal Heat and Dampness. Combined with energy drinks (which are artificially stimulating and deplete Kidney Yin through excessive caffeine), this combo creates a slow-burning internal fire that erodes your natural balance. You'll notice it first as irritability, oily skin, or restless sleep — the early warning signs.",
+      "zh-TW": "**過量紅肉＋能量飲料**——紅肉適量食用能補血強肌。但過量紅肉（每日大量）會生內熱和濕氣。加上能量飲料（人工刺激，過量咖啡因耗損腎陰），這個組合製造出慢燃的內火，一點點侵蝕你天生的平衡。你會先注意到煩躁、皮膚出油或睡眠不安——這些是早期警訊。",
+      "ja": "**過度の赤身肉 + エナジードリンク** — 適度な赤身肉は血を補い筋肉を強める。しかし毎日の大量摂取は内熱と湿気を生む。エナジードリンク（過剰なカフェインで腎陰を消耗）と組み合わせると、天然のバランスをむしばむゆっくり燃える内火。いらいら、脂性肌、落ちない睡眠——初期の警告サイン。"
+    },
+    {
+      "en": "**Overtraining + under-eating** — You recover fast, so you train hard. But training beyond your caloric intake creates a deficit that your body covers by borrowing from Kidney essence — your constitutional reserves. This is like running a profitable business but spending the retirement fund. Initially, you look and feel great (lean, vascular, high energy from cortisol). Then you plateau, get injured, or burn out. The recovery from overtraining syndrome takes months, not days.",
+      "zh-TW": "**過度訓練＋吃得太少**——你恢復快，所以訓練量大。但訓練量超過熱量攝取會造成赤字，你的身體就從腎精——你的體質儲備——裡借。這就像經營一家盈利的公司卻在花退休金。起初你看起來和感覺都很好（精瘦、血管明顯、皮質醇帶來的高能量）。然後你撞牆、受傷或耗盡。過度訓練症的恢復需要幾個月，不是幾天。",
+      "ja": "**過トレーニング + 食事不足** — 回復が速いから激しくトレーニングする。しかしカロリー摂取を超えるトレーニングは、体が腎精——体質の備蓄——から借りて補う赤字を作る。利益を出しながら退職金を取り崩すようなもの。最初は見た目も気分も素晴らしい（脂肪が減り、血管が浮き、コルチゾールで高エネルギー）。そしてプラトー、ケガ、またはバーンアウト。過トレーニングからの回復には数日ではなく数ヶ月かかる。"
+    },
+    {
+      "en": "**Excessive supplements + stimulant stacking** — Pre-workout, creatine, BCAAs, fat burners, nootropics, testosterone boosters — stacking supplements does not optimize a Balanced constitution. It overwhelms your Liver's detoxification capacity and creates artificial dependencies. Your body already produces what it needs efficiently. The supplement industry profits by convincing healthy men they're deficient. You're not. A quality multivitamin, omega-3, and vitamin D (in winter) is all most Balanced men need.",
+      "zh-TW": "**過量保健品＋刺激物疊加**——訓練前補劑、肌酸、BCAA、脂肪燃燒劑、腦力增強劑、睪酮促進劑——疊加保健品不會優化平和質。它壓垮肝的解毒能力並製造人工依賴。你的身體已經高效地產生所需的一切。保健品行業靠說服健康的男人他們有缺陷來賺錢。你沒有。一款優質複合維生素、Omega-3和維生素D（冬季）就是大多數平和質男性所需的全部。",
+      "ja": "**過剰なサプリメント + 刺激物の重ねがけ** — プリワークアウト、クレアチン、BCAA、脂肪燃焼サプリ、ヌートロピクス、テストステロンブースター——重ねても平和質は最適化しない。肝臓の解毒能力を圧迫し、人工的な依存を作る。体はすでに必要なものを効率的に生産している。サプリメント業界は健康な男性に「不足している」と信じ込ませて利益を得る。不足していない。品質の良いマルチビタミン、オメガ3、冬季のビタミンDで十分。"
+    }
+  ],
+  "ch3SeasonDrinks": {
+    "spring": {
+      "en": "Astragalus & Goji Vitality Tea — 5g sliced astragalus root + 1 tbsp goji berries, steeped in hot water for 15 minutes. Astragalus strengthens defensive Qi (immunity) and supports Spleen function; goji nourishes Liver blood and Kidney essence. This is the classic maintenance tea for Balanced men — it doesn't fix anything because nothing is broken, but it reinforces your natural defenses and keeps organ systems humming.",
+      "zh-TW": "黃芪枸杞活力茶——黃芪片5克＋枸杞1大匙，熱水沖泡15分鐘。黃芪補衛氣（免疫力）健脾；枸杞滋養肝血腎精。這是平和質男人的經典保養茶——它不修復任何東西，因為沒有壞的，但它鞏固天然防禦，讓臟腑系統持續順暢運行。",
+      "ja": "黄芪クコ活力茶——黄芪スライス5g + クコ大さじ1、お湯で15分蒸らす。黄芪は衛気（免疫）を強め脾機能をサポート。クコは肝血と腎精を養う。平和質の男性のための古典的なメンテナンス茶——直すものはないが、天然の防御を強化し、臓腑システムを好調に保つ。"
+    },
+    "summer": {
+      "en": "Chrysanthemum & Cassia Seed Cooling Tea — 5-6 dried chrysanthemum flowers + 3g cassia seeds (决明子), steeped in hot water 10 minutes. This tea gently clears summer Heat from the Liver and eyes without being aggressively cold. Perfect for the Balanced man who spends summer outdoors or in front of screens. Drink warm or at room temperature — never ice cold.",
+      "zh-TW": "菊花決明子清涼茶——乾菊花5-6朵＋決明子3克，熱水沖泡10分鐘。溫和地從肝和眼睛清除夏日暑熱，不會過於寒涼。適合夏天常待在戶外或螢幕前的平和質男性。溫飲或室溫飲用——絕不要冰的。",
+      "ja": "菊花・カシアシード清涼茶——菊花5〜6輪 + カシアシード3g、お湯で10分蒸らす。夏の肝と目の熱を穏やかに清める。屋外や画面前で夏を過ごす平和質の男性に。温かくまたは室温で。氷冷は避ける。"
+    },
+    "autumn": {
+      "en": "High-Quality Green Tea with Rose — 1 tsp quality green tea leaves + 2 dried rose buds, steeped 3-4 minutes in 80°C water. Green tea is neutral-to-cooling, supporting Lung health during dry autumn while providing antioxidants. Rose buds gently move Liver Qi, preventing the stagnation that autumn's contracting energy can trigger. A refined daily drink for men who appreciate quality.",
+      "zh-TW": "優質綠茶配玫瑰——優質綠茶葉1茶匙＋乾玫瑰花蕾2朵，80°C水沖泡3-4分鐘。綠茶性平偏涼，在乾燥的秋季護肺同時提供抗氧化物。玫瑰花蕾溫和疏肝理氣，防止秋季收斂之氣引發的鬱結。適合注重品味的男士的日常飲品。",
+      "ja": "高品質緑茶とローズ——高品質な緑茶の葉小さじ1 + 乾燥ローズのつぼみ2個、80°Cのお湯で3〜4分。緑茶は中〜涼性で、乾燥する秋に肺の健康をサポートしつつ抗酸化物質を供給。ローズが肝気を穏やかに巡らせ、秋の収縮エネルギーが引き起こす鬱滞を予防。質を重んじる男性の洗練された毎日の一杯。"
+    },
+    "winter": {
+      "en": "Fresh Ginger & Red Date Performance Tea — 3 slices fresh ginger + 5 pitted red dates + a small pinch of cinnamon, simmered 10 minutes. This warming tea supports Kidney Yang during winter, keeps circulation strong, and maintains the digestive fire that processes heavier winter foods. For the active Balanced man, this is your winter training companion — drink it before morning workouts.",
+      "zh-TW": "生薑紅棗元氣茶——生薑3片＋紅棗5顆（去核）＋少許肉桂，煮10分鐘。這款暖茶在冬天補腎陽、保持血液循環強勁、維持消化火力來處理較厚重的冬日飲食。對活躍的平和質男性來說，這是你的冬季訓練夥伴——晨練前飲用。",
+      "ja": "生姜・紅棗パフォーマンス茶——新鮮な生姜3枚 + 種抜き紅棗5個 + 少量のシナモン、10分煮る。冬に腎陽をサポートし、血流を強く保ち、重めの冬の食事を消化する火力を維持。アクティブな平和質の男性にとって、冬のトレーニングの味方——朝の運動前に飲む。"
+    }
+  },
+  "ch3SeasonNotes": {
+    "spring": {
+      "en": "Spring is your season of natural renewal — your Liver Qi rises with the season, giving you extra energy and drive. Channel this into new fitness goals, skill development, or creative projects. Increase exercise intensity gradually. Eat more green vegetables and sprouts. This is the best time to start a new training program — your body is primed for growth and adaptation.",
+      "zh-TW": "春天是你自然煥新的季節——肝氣隨季節升發，帶給你額外的能量和衝勁。把這股能量引導到新的健身目標、技能開發或創意項目上。循序漸進地增加運動強度。多吃綠色蔬菜和芽菜。這是啟動新訓練計劃的最佳時機——你的身體已做好成長和適應的準備。",
+      "ja": "春は自然な更新の季節——肝気が季節とともに上昇し、エネルギーと意欲が増す。これを新しいフィットネスの目標、スキルの習得、創造的なプロジェクトに活かす。運動強度を徐々に上げる。緑黄色野菜と芽物を多く。新しいトレーニングプログラムを始めるのに最適な時期——体は成長と適応に最適。"
+    },
+    "summer": {
+      "en": "Summer is when Balanced men are most tempted to overdo it — extra drinks at barbecues, late nights, ice-cold everything. Your strong constitution handles it better than most, but the cumulative effect still erodes your reserves. Stay hydrated with room-temperature or warm drinks. Train early morning or late evening to avoid Heat exhaustion. Eat lighter meals with more vegetables and fruit. You can afford one beer — not five.",
+      "zh-TW": "夏天是平和質男性最容易放縱的季節——烤肉多喝幾杯、熬夜、什麼都喝冰的。你的強健體質比大多數人更能扛，但累積效應仍在侵蝕你的儲備。用室溫或溫飲保持水分。清晨或傍晚訓練以避免中暑。吃清淡一些，多蔬果。一杯啤酒可以——五杯不行。",
+      "ja": "夏は平和質の男性が最もやりすぎる季節——バーベキューでの飲みすぎ、夜更かし、氷冷のすべて。強い体質は他よりうまく対応するが、蓄積効果は備蓄を削る。室温または温かい飲み物で水分補給。熱中症を避けるため早朝または夕方にトレーニング。軽い食事で野菜と果物を多めに。ビール1本は許される——5本は許されない。"
+    },
+    "autumn": {
+      "en": "Autumn is your preparation season — the time to build reserves for winter. Increase protein intake, add warming spices to meals, and shift training from high-intensity to balanced strength-endurance work. Pay attention to the first signs of imbalance: if you notice dry skin, slight constipation, or a subtle mood dip, adjust immediately. Balanced men catch these early because their baseline is so clear.",
+      "zh-TW": "秋天是你的備戰季——為冬天建立儲備的時候。增加蛋白質攝取、在飲食中加入溫性香料、把訓練從高強度調整為力量耐力平衡。注意最初的失衡跡象：如果你注意到皮膚乾燥、輕微便秘或心情微降，立刻調整。平和質的男人能早期捕捉到這些信號，因為他們的基線太清晰了。",
+      "ja": "秋は準備の季節——冬に向けた備蓄の時。タンパク質摂取を増やし、温めるスパイスを加え、トレーニングを高強度からバランスの取れた筋力・持久力重視に切り替える。不調和の初期サインに注意：乾燥肌、軽い便秘、微妙な気分の低下に気づいたらすぐに調整。平和質の男性はベースラインが明確なので、早期に気づける。"
+    },
+    "winter": {
+      "en": "Winter is your consolidation season — the time to protect and store energy rather than expend it. Sleep more (30 minutes extra), eat warming, nourishing foods (soups, stews, root vegetables), and maintain training volume but reduce max-intensity efforts. This is also the season for hearty tonic soups — use this time to build deeper reserves. A Balanced man who respects winter emerges in spring with a performance edge over everyone else.",
+      "zh-TW": "冬天是你的固本季——儲存而非消耗能量的時候。多睡30分鐘，吃溫補滋養的食物（湯、燉菜、根莖類），維持訓練量但降低最大強度。這也是喝滋補湯方的季節——利用這段時間建立更深層的儲備。一個尊重冬天的平和質男人，春天來臨時會比所有人都多出一份競爭優勢。",
+      "ja": "冬は統合の季節——エネルギーを消費するよりも保護し蓄える時。睡眠を30分長く。温かく滋養のある食事（スープ、シチュー、根菜）。トレーニング量は維持しつつ最大強度の努力は減らす。栄養たっぷりのスープの時期——より深い備蓄を作る。冬を尊重する平和質の男性は、春に誰よりもパフォーマンスで勝る。"
+    }
+  },
+  "ch4Acupoints": [
+    {
+      "en": "**Zusanli (足三里) — Leg Three Miles**\nLocation: 4 finger-widths below the kneecap, 1 finger-width to the outside of the shinbone. You'll feel a slight depression.\nMethod: Press firmly with your thumb for 2-3 minutes on each leg, once daily. Use moderate pressure — you should feel a strong but pleasant ache.\nEffect: The most important maintenance point in TCM, traditionally called the \"point of longevity.\" For Balanced men, Zusanli keeps the Spleen and Stomach performing optimally — ensuring you extract maximum nutrition from food. Strong digestion is the foundation of sustained health. Pressing this point regularly is like taking your car in for scheduled maintenance.",
+      "zh-TW": "**足三里——足三里**\n位置：膝蓋骨下方四橫指，脛骨外側一橫指處。你會感覺到一個微微的凹陷。\n方法：拇指用力按壓每腿2-3分鐘，每日一次。適中力度——應感到強烈但舒適的痠痛。\n功效：中醫最重要的保養穴位，傳統上被稱為「長壽穴」。對平和質男性來說，足三里讓脾胃保持最佳運作——確保你從食物中萃取最大營養。強健的消化是持續健康的根基。定期按壓這個穴位就像按時給車做保養。",
+      "ja": "**足三里（そくさんり）— 足の三里**\n場所：膝蓋骨の下4指、すねの骨の外側1指分。わずかなくぼみを感じる。\n方法：親指でしっかり2〜3分ずつ、各脚、1日1回。心地よい痛みを感じる強さで。\n効果：中医学で最も重要なメンテナンス穴位——伝統的に「長寿の穴位」。平和質の男性にとって、足三里は脾胃を最適に保ち——食べ物から最大限の栄養を吸収。強い消化力は持続する健康の基盤。この穴位の定期的な押圧は車を定期点検に出すようなもの。"
+    },
+    {
+      "en": "**Hegu (合谷) — Joining Valley**\nLocation: On the hand, in the fleshy web between the thumb and index finger. Squeeze your thumb and index finger together — Hegu is at the highest point of the bulge.\nMethod: Pinch firmly with the opposite thumb and index finger for 2 minutes each hand. Use strong pressure.\nEffect: The master point for the face, head, and upper body. For Balanced men, Hegu maintains free flow of Qi through the head and neck, prevents tension headaches from desk work, and supports immune function. It's also the go-to point for relieving the neck and shoulder tension that builds up from training or long work sessions.",
+      "zh-TW": "**合谷——合谷**\n位置：手部，拇指與食指之間的虎口肉墊。拇指與食指用力併攏——肌肉隆起最高處即是合谷。\n方法：對側拇指和食指捏住用力按壓每手2分鐘。用力按壓。\n功效：面部、頭部和上半身的主穴。對平和質男性來說，合谷維持頭頸部的氣機暢通、預防久坐導致的緊張性頭痛、支持免疫功能。也是緩解訓練或長時間工作後肩頸緊繃的首選穴位。",
+      "ja": "**合谷（ごうこく）— 合の谷**\n場所：手の親指と人差し指の間の肉付きのウェブ。親指と人差し指を合わせた時の膨らみの最高点。\n方法：反対の手の親指と人差し指で2分間しっかりつまむ。\n効果：顔・頭・上半身のマスターポイント。平和質の男性にとって、頭と首への気の自由な流れを維持し、デスクワークによる緊張型頭痛を予防し、免疫機能をサポート。トレーニングや長時間の作業でたまる首と肩の緊張を緩和する定番。"
+    },
+    {
+      "en": "**Taichong (太冲) — Supreme Surge**\nLocation: On the foot, in the depression between the big toe and second toe, about 2 finger-widths back from the toe web.\nMethod: Press with your thumb using moderate-firm pressure for 2 minutes on each foot. Best done in the evening.\nEffect: The primary Liver point — keeps Liver Qi flowing smoothly, prevents stagnation from stress, frustration, or anger. For Balanced men under professional pressure, Taichong prevents the subtle Liver Qi stagnation that leads to irritability, tension in the ribs, or disrupted sleep. Think of it as your emotional pressure-release valve.",
+      "zh-TW": "**太衝——太衝**\n位置：足背，大拇趾與第二趾之間的凹陷處，約趾縫後方兩橫指。\n方法：拇指中等力度按壓每腳2分鐘。最好在晚上做。\n功效：肝經主要穴位——保持肝氣暢通，預防壓力、沮喪或憤怒造成的鬱結。對承受工作壓力的平和質男性來說，太衝預防微妙的肝氣鬱結導致的煩躁、脅肋緊張或睡眠中斷。把它想成你的情緒洩壓閥。",
+      "ja": "**太衝（たいしょう）— 最高の湧き出し**\n場所：足の親指と第二指の間のくぼみ、指の股から約2指分戻ったところ。\n方法：親指で中程度〜強めの力で各足2分間。夕方が望ましい。\n効果：肝のメイン穴位——肝気をスムーズに流し、ストレス、苛立ち、怒りによる鬱滞を予防。仕事の圧力下にある平和質の男性にとって、太衝はいらいら、脇腹の緊張、睡眠の乱れにつながる微妙な肝気鬱滞を予防。感情の圧力リリースバルブ。"
+    },
+    {
+      "en": "**Mingmen (命门) — Gate of Life**\nLocation: On the lower back, on the spine, directly between the 2nd and 3rd lumbar vertebrae (roughly at navel level when viewed from the side).\nMethod: Rub both palms together vigorously until hot, then place them flat on Mingmen for 2-3 minutes. Alternatively, use a warm palm to rub in circles for 3 minutes each evening.\nEffect: The source of Kidney Yang fire — the body's root energy. For Balanced men, warming Mingmen regularly maintains the Kidney Yang reserves that power your vitality, libido, lower back strength, and overall drive. This is your anti-aging point: consistent maintenance here preserves the \"fire\" that diminishes with age in every man.",
+      "zh-TW": "**命門——命門**\n位置：腰部，脊柱上，第二、三腰椎之間（大約與肚臍齊平）。\n方法：雙掌用力搓熱，然後平放在命門上2-3分鐘。或者每晚用溫熱的掌心畫圈摩擦3分鐘。\n功效：腎陽之火的源頭——身體的根本能量。對平和質男性來說，定期溫暖命門可維持腎陽儲備，這是驅動活力、性致、下背力量和整體衝勁的能量。這是你的抗衰老穴位：持續保養這裡可以保存隨年齡減弱的「命門之火」。",
+      "ja": "**命門（めいもん）— 命の門**\n場所：腰の背中、脊柱上、第2・第3腰椎の間（横から見てほぼへその高さ）。\n方法：両手を激しくこすり合わせて熱くしてから、命門に平らに2〜3分当てる。または温かい手のひらで3分間円を描く。毎晩。\n効果：腎陽の火の源——体の根本エネルギー。平和質の男性にとって、命門を定期的に温めることで、活力、性欲、腰の強さ、全体的なドライブを支える腎陽の備蓄を維持。アンチエイジングの穴位：ここでの一貫したメンテナンスが、すべての男性で加齢とともに減少する「火」を保つ。"
+    },
+    {
+      "en": "**Guanyuan (关元) — Gate of Origin**\nLocation: 3 finger-widths below the navel, on the midline of the lower abdomen.\nMethod: Place your warm palm flat on this point and rub in slow, clockwise circles for 3-5 minutes each night before sleep. Breathe deeply and naturally.\nEffect: The primary point for cultivating and storing Qi and essence. For Balanced men, Guanyuan is the \"savings account\" point — regular stimulation here builds and maintains your constitutional reserves. It strengthens Kidney function, supports reproductive health, improves sleep quality, and builds the deep core energy that distinguishes a truly vital man from one who is merely \"not sick.\"",
+      "zh-TW": "**關元——關元**\n位置：肚臍下方三橫指，腹部正中線上。\n方法：每晚睡前將溫熱的掌心平放在穴位上，以順時針方向緩慢畫圈3-5分鐘。自然深呼吸。\n功效：培蓄和儲藏氣與精華的主要穴位。對平和質男性來說，關元是「儲蓄帳戶」穴——定期刺激可積累和維護體質儲備。它強腎功能、支援生殖健康、改善睡眠品質，並建立區分「真正精力充沛」和「只是沒生病」的那股深層核心能量。",
+      "ja": "**関元（かんげん）— 元の門**\n場所：へその下3指、下腹部の正中線上。\n方法：温かい手のひらを平らに当て、就寝前にゆっくり時計回りに3〜5分円を描く。自然に深呼吸。\n効果：気と精を養い蓄える第一の穴位。平和質の男性にとって、関元は「貯金口座」の穴位——定期的な刺激が体質の備蓄を構築・維持。腎機能を強め、生殖健康をサポートし、睡眠の質を改善し、単に「病気でない」男性と「真に活力ある」男性を区別する深いコアエネルギーを作る。"
+    }
+  ],
+  "ch6Recipes": [
+    {
+      "title": {
+        "en": "Hearty Beef Bone Broth",
+        "zh-TW": "濃郁牛骨湯",
+        "ja": "濃厚牛骨スープ"
+      },
+      "titleZh": "浓郁牛骨汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Beef Marrow Bones (cut)",
+            "zh-TW": "牛骨髓骨",
+            "ja": "牛骨髄ボーン（カット）"
+          },
+          "aliases": "牛骨髓骨",
+          "amount": "500g"
+        },
+        {
+          "name": {
+            "en": "Beef Shank (chunked)",
+            "zh-TW": "牛腱",
+            "ja": "牛すね肉（カット）"
+          },
+          "aliases": "牛腱",
+          "amount": "200g"
+        },
+        {
+          "name": {
+            "en": "Ginger (thick slices)",
+            "zh-TW": "生薑（厚片）",
+            "ja": "生姜（厚切り）"
+          },
+          "aliases": "生姜",
+          "amount": "30g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "6 pieces"
+        },
+        {
+          "name": {
+            "en": "Goji Berries",
+            "zh-TW": "枸杞",
+            "ja": "クコの実"
+          },
+          "aliases": "枸杞",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": {
+            "en": "Green Onion",
+            "zh-TW": "大蔥",
+            "ja": "ネギ"
+          },
+          "aliases": "大葱",
+          "amount": "2 stalks"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Beef bone broth is the premier tonic for building and maintaining robust constitution in men. Marrow bones tonify Kidney essence and build bone strength; beef shank provides high-quality protein and iron for Blood nourishment. This is the foundational maintenance soup — deeply nourishing without being overly warming or cooling. For the Balanced man, this is your weekly performance fuel.",
+        "zh-TW": "牛骨湯是男性建立和維持強健體質的首選滋補品。骨髓補腎益精、壯骨強筋；牛腱提供優質蛋白質和鐵以養血。這是基礎保養湯——深度滋補而不過溫或過涼。對平和質男性來說，這是你每週的性能燃料。",
+        "ja": "牛骨スープは男性の頑健な体質を構築・維持する最高のトニック。骨髄ボーンは腎精を補い骨を強める。牛すね肉は高品質のタンパク質と鉄分を供給し血を養う。温めすぎず冷やしすぎない深い滋養。平和質の男性にとって、これが週のパフォーマンス燃料。"
+      },
+      "steps": [
+        {
+          "en": "Roast marrow bones in the oven at 200°C for 30 minutes until deeply browned. This develops flavor and releases marrow nutrients.",
+          "zh-TW": "牛骨髓骨放入烤箱以200°C烤30分鐘至深褐色，可發展香氣並釋放骨髓營養。",
+          "ja": "骨髄ボーンを200°Cのオーブンで30分、深く焼き色がつくまでロースト。風味を引き出し、髄の栄養を放出する。"
+        },
+        {
+          "en": "Blanch beef shank in boiling water for 3 minutes. Rinse clean.",
+          "zh-TW": "牛腱沸水焯水3分鐘，洗淨。",
+          "ja": "牛すね肉を沸騰した湯で3分ゆで、洗う。"
+        },
+        {
+          "en": "Place roasted bones, beef shank, ginger, and green onion in a large pot. Add 2.5 liters of water. Bring to a rolling boil.",
+          "zh-TW": "烤好的骨頭、牛腱、生薑、大蔥放入大鍋，加2.5公升水，煮沸。",
+          "ja": "ローストした骨、すね肉、生姜、ネギを大きな鍋に入れ、2.5リットルの水を加えて強火で沸騰させる。"
+        },
+        {
+          "en": "Reduce to lowest simmer. Cook for 3-4 hours, skimming fat occasionally. The broth should be rich, dark, and gelatinous.",
+          "zh-TW": "轉最小火，煮3-4小時，偶爾撇油。湯應為濃郁、深色、凝膠狀。",
+          "ja": "最弱火にして3〜4時間煮込む。たまに脂をすくう。スープは濃く、暗色で、ゲル状に。"
+        },
+        {
+          "en": "Add red dates in the last 30 minutes and goji in the last 10 minutes. Season with salt and a splash of Shaoxing wine.",
+          "zh-TW": "最後30分鐘加入紅棗，最後10分鐘加入枸杞。加鹽和少許紹興酒調味。",
+          "ja": "最後の30分で紅棗、最後の10分でクコを加える。塩と紹興酒少々で味を調える。"
+        }
+      ],
+      "tip": {
+        "en": "Make a large batch and refrigerate — the broth will gel (a sign of quality collagen). Reheat portions throughout the week. Drink 1-2 bowls daily as a meal base or post-workout recovery. This is the #1 maintenance recipe for your constitution.",
+        "zh-TW": "做一大批放冰箱——湯會凝結（優質膠原蛋白的標誌）。一週內分次加熱飲用。每天喝1-2碗作為基礎餐或訓練後恢復。這是你體質的第一保養食譜。",
+        "ja": "大量に作り冷蔵——スープがゼリー状になれば高品質コラーゲンの証拠。週を通して再加熱して飲む。食事のベースまたは運動後の回復に毎日1〜2杯。体質維持の第1位レシピ。"
+      }
+    },
+    {
+      "title": {
+        "en": "Ginseng Chicken Performance Soup",
+        "zh-TW": "人參雞湯",
+        "ja": "人参鶏パフォーマンススープ"
+      },
+      "titleZh": "人参鸡汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Whole Chicken (small, ~600g)",
+            "zh-TW": "全雞（約600g）",
+            "ja": "丸鶏（小型、約600g）"
+          },
+          "aliases": "全鸡",
+          "amount": "1"
+        },
+        {
+          "name": {
+            "en": "American Ginseng (Xi Yang Shen)",
+            "zh-TW": "西洋參",
+            "ja": "花旗参（アメリカ人参）"
+          },
+          "aliases": "西洋参",
+          "amount": "10g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "6 pieces"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "4 slices"
+        },
+        {
+          "name": {
+            "en": "Goji Berries",
+            "zh-TW": "枸杞",
+            "ja": "クコの実"
+          },
+          "aliases": "枸杞",
+          "amount": "1 tbsp"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "American Ginseng (Xi Yang Shen) is the ideal ginseng for Balanced men — it tonifies Qi and nourishes Yin without generating excess Heat. Unlike Asian ginseng which is strongly warming, American ginseng provides balanced nourishment that supports sustained energy, mental clarity, and immune function. Combined with whole chicken for deep tissue nourishment, this is the performance optimization soup.",
+        "zh-TW": "西洋參是平和質男性的理想人參——補氣滋陰而不生過剩內熱。不同於性熱的亞洲/人參，西洋參提供平衡的滋養，支撐持續能量、腦力清晰和免疫功能。配合整隻雞深層組織滋養，這是性能優化湯。",
+        "ja": "花旗参は平和質の男性に理想的な人参——気を補い陰を養い、過剰な熱を生じない。強く温める高麗人参と異なり、花旗参は持続的なエネルギー、精神的明晰さ、免疫機能をサポートするバランスの取れた滋養。丸鶏の深い組織滋養と合わせて、パフォーマンス最適化スープ。"
+      },
+      "steps": [
+        {
+          "en": "Rinse American ginseng slices and soak in warm water for 10 minutes.",
+          "zh-TW": "西洋參片洗淨，溫水浸泡10分鐘。",
+          "ja": "花旗参スライスを洗い、温水に10分浸す。"
+        },
+        {
+          "en": "Clean the chicken and blanch in boiling water for 3 minutes. Rinse thoroughly.",
+          "zh-TW": "雞洗淨，沸水焯水3分鐘，完全洗淨。",
+          "ja": "鶏をきれいに洗い、沸騰した湯で3分ゆでる。丁寧に洗う。"
+        },
+        {
+          "en": "Place chicken, ginseng, red dates, and ginger in a pot with 2 liters of water. Bring to boil.",
+          "zh-TW": "雞、西洋參、紅棗、生薑放入鍋中加2公升水，煮沸。",
+          "ja": "鶏、人参、紅棗、生姜を鍋に入れ、2リットルの水を加えて火にかける。"
+        },
+        {
+          "en": "Reduce to low simmer and cook covered for 2 hours until the chicken is fall-apart tender.",
+          "zh-TW": "轉小火加蓋煮2小時，至雞肉軟爛。",
+          "ja": "弱火にして蓋をし、鶏肉がほろほろになるまで2時間煮込む。"
+        },
+        {
+          "en": "Add goji berries in the last 10 minutes. Season with salt. Serve the rich, slightly bitter-sweet broth.",
+          "zh-TW": "最後10分鐘加入枸杞。加鹽調味。飲用浓郁微苦甜的湯。",
+          "ja": "最後の10分でクコを加える。塩で味を調える。わずかに苦甘いリッチなスープを飲む。"
+        }
+      ],
+      "tip": {
+        "en": "Use American ginseng (西洋参), NOT Asian/Red ginseng — the cooler nature is more appropriate for maintaining balance. Drink once per week. Especially beneficial during seasonal transitions or periods of heavy training. The slight bitterness is the ginsenosides — that's the medicine.",
+        "zh-TW": "使用西洋參，不是亞洲/紅參——性涼更適合維持平衡。每週喝一次。季節轉換或高強度訓練期間特別有益。微苦是人參皂苷——那就是養生功效所在。",
+        "ja": "必ず花旗参（西洋参）を使うこと。高麗人参・紅参は熱すぎる。週1回飲む。季節の変わり目やハードトレーニング期間に特に効果的。わずかな苦味はジンセノサイド——それが養生効果。"
+      }
+    },
+    {
+      "title": {
+        "en": "Black Bean & Walnut Kidney Support Soup",
+        "zh-TW": "黑豆核桃補腎湯",
+        "ja": "黒豆とクルミの腎サポートスープ"
+      },
+      "titleZh": "黑豆核桃补肾汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Black Beans",
+            "zh-TW": "黑豆",
+            "ja": "黒豆"
+          },
+          "aliases": "黑豆",
+          "amount": "50g"
+        },
+        {
+          "name": {
+            "en": "Walnuts (shelled)",
+            "zh-TW": "核桃",
+            "ja": "クルミ（殻付きから外したもの）"
+          },
+          "aliases": "核桃",
+          "amount": "30g"
+        },
+        {
+          "name": {
+            "en": "Pork Ribs",
+            "zh-TW": "排骨",
+            "ja": "豚骨付き肉"
+          },
+          "aliases": "排骨",
+          "amount": "250g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "5 pieces"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "3 slices"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Black beans are the TCM Kidney tonic food — they nourish Kidney Yin and Yang simultaneously, support lower back strength, and provide sustained energy. Walnuts tonify Kidney Yang and strengthen the brain. Together with protein-rich pork ribs, this soup provides the deep Kidney nourishment that maintains vitality, reproductive health, and physical resilience. For Balanced men, this is long-term kidney maintenance.",
+        "zh-TW": "黑豆是中醫補腎食材——同時滋養腎陰腎陽、支撐下背力量、提供持續能量。核桃補腎陽、健腦。配合富蛋白質的排骨，這道湯提供深度補腎滋養，維持活力、生殖健康和身體韌性。對平和質男性來說，這是長期腎臟保養。",
+        "ja": "黒豆は中医学の腎の滋養食材——腎陰と腎陽を同時に補い、腰を強め、持続的なエネルギーを供給。クルミは腎陽を補い脳を強める。タンパク質豊富な豚骨付き肉と合わせて、活力、生殖健康、身体的レジリエンスを維持する深い腎の滋養。平和質の男性にとって長期的な腎メンテナンス。"
+      },
+      "steps": [
+        {
+          "en": "Soak black beans overnight or at least 4 hours. Drain.",
+          "zh-TW": "黑豆隔夜浸泡或至少4小時，瀝乾。",
+          "ja": "黒豆を一晩または4時間以上浸す。水を切る。"
+        },
+        {
+          "en": "Lightly toast walnuts in a dry pan for 2 minutes until fragrant. Set aside.",
+          "zh-TW": "核桃乾鍋小火烘2分鐘至香，放置一邊。",
+          "ja": "クルミを乾いたフライパンで2分軽く炒り、香りを出す。脇に置く。"
+        },
+        {
+          "en": "Blanch pork ribs in boiling water for 2 minutes. Rinse clean.",
+          "zh-TW": "排骨沸水焯水2分鐘，洗淨。",
+          "ja": "豚骨付き肉を沸騰した湯で2分ゆでて洗う。"
+        },
+        {
+          "en": "Place black beans, ribs, ginger, and red dates in a pot with 1.5 liters of water. Bring to boil.",
+          "zh-TW": "黑豆、排骨、生薑、紅棗放入鍋中加1.5公升水，煮沸。",
+          "ja": "黒豆、骨付き肉、生姜、紅棗を鍋に入れ、1.5リットルの水を加えて火にかける。"
+        },
+        {
+          "en": "Simmer on low for 1.5 hours until beans are soft and broth is dark. Add toasted walnuts in the last 15 minutes. Season with salt.",
+          "zh-TW": "小火煮1.5小時至豆子軟湯色深。最後15分鐘加入烘過的核桃。加鹽調味。",
+          "ja": "弱火で1.5時間、豆が柔らかくスープが暗色になるまで煮込む。最後の15分で炒ったクルミを加える。塩で味を調える。"
+        }
+      ],
+      "tip": {
+        "en": "This is an excellent weekly soup — gentle, nourishing, and deeply supportive of Kidney function. The dark broth is a visual indicator of its Kidney-tonifying properties. For men over 35, this soup becomes increasingly important as natural Kidney reserves begin their slow, natural decline.",
+        "zh-TW": "這是出色的每週湯品——溫和、滋補、深層支持腎功能。深色湯是腎補效能的視覺指標。對35歲以上的男性，隨著腎精儲備開始緩慢自然衰退，這道湯變得越來越重要。",
+        "ja": "優れた週1回のスープ——穏やかで滋養に富み、腎機能を深くサポート。暗いスープは腎補の視覚的指標。35歳以上の男性には、天然の腎の備蓄がゆっくり減少し始めるため、このスープの重要性が増す。"
+      }
+    },
+    {
+      "title": {
+        "en": "Four-Season Balanced Nourishing Soup",
+        "zh-TW": "四君平衡湯",
+        "ja": "四季平衡滋養スープ"
+      },
+      "titleZh": "四君平衡汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Codonopsis Root (Dang Shen)",
+            "zh-TW": "黨參",
+            "ja": "党参（とうじん）"
+          },
+          "aliases": "党参",
+          "amount": "15g"
+        },
+        {
+          "name": {
+            "en": "White Atractylodes (Bai Zhu)",
+            "zh-TW": "白朮",
+            "ja": "白朮（びゃくじゅつ）"
+          },
+          "aliases": "白术",
+          "amount": "10g"
+        },
+        {
+          "name": {
+            "en": "Poria (Fu Ling)",
+            "zh-TW": "茯苓",
+            "ja": "茯苓（ぶくりょう）"
+          },
+          "aliases": "茯苓",
+          "amount": "15g"
+        },
+        {
+          "name": {
+            "en": "Chicken Thigh (bone-in)",
+            "zh-TW": "雞腿",
+            "ja": "骨付き鶏もも肉"
+          },
+          "aliases": "鸡腿",
+          "amount": "2 pieces"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "5 pieces"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "This soup is based on the famous \"Si Jun Zi Tang\" (Four Gentlemen Decoction) — TCM's most balanced Qi-tonifying formula for over 800 years. Codonopsis, Atractylodes, Poria, and Licorice work together to strengthen Spleen Qi, support digestion, and maintain the Qi production that powers your entire body. For Balanced men, this is the constitutional equivalent of a system tune-up — everything runs better after it.",
+        "zh-TW": "這道湯基於著名的「四君子湯」——中醫800多年來最平衡的補氣方。黨參、白朮、茯苓、甘草協力健脾補氣、支撐消化、維持驅動全身的氣機生成。對平和質男性來說，這是體質的系統調校——之後一切都運行得更好。",
+        "ja": "有名な「四君子湯」に基づく——800年以上使われた中医学の最もバランスの取れた気補処方。党参、白朮、茯苓、甘草が協力して脾気を強め、消化をサポートし、全身を動かす気の生産を維持。平和質の男性にとって、システム全体の点検に相当——飲んだ後はすべてがより良く回る。"
+      },
+      "steps": [
+        {
+          "en": "Rinse all herbs and soak in warm water for 15 minutes.",
+          "zh-TW": "所有食材洗淨，溫水浸泡15分鐘。",
+          "ja": "すべての材料を洗い、温水に15分浸す。"
+        },
+        {
+          "en": "Blanch chicken thighs for 2 minutes. Rinse clean.",
+          "zh-TW": "雞腿焯水2分鐘，洗淨。",
+          "ja": "鶏もも肉を2分ゆでて洗う。"
+        },
+        {
+          "en": "Place herbs, chicken, and red dates in a pot with 1.2 liters of water. Bring to boil.",
+          "zh-TW": "食材、雞腿、紅棗放入鍋中加1.2公升水，煮沸。",
+          "ja": "材料、鶏肉、紅棗を鍋に入れ、1.2リットルの水を加えて火にかける。"
+        },
+        {
+          "en": "Simmer on low heat for 1.5 hours until chicken is tender.",
+          "zh-TW": "小火煮1.5小時至雞肉軟嫩。",
+          "ja": "弱火で1.5時間、鶏肉が柔らかくなるまで煮込む。"
+        },
+        {
+          "en": "Season with salt. Strain out herbs (they are fibrous). Drink broth and eat chicken.",
+          "zh-TW": "加鹽調味。食材瀝出（纖維多）。喝湯吃肉。",
+          "ja": "塩で味を調える。繊維質の材料を取り出す。スープを飲み、鶏肉を食べる。"
+        }
+      ],
+      "tip": {
+        "en": "This is the perfect \"everyday\" tonic soup — mild, balanced, and suitable year-round. Drink 2 times per week. All herbs are available at Chinese herbal shops. For the Balanced man who wants ONE soup to maintain his constitution, this is it.",
+        "zh-TW": "這是完美的「日常」滋補湯——溫和、平衡、全年適宜。每週喝2次。所有食材在中食材店有售。對於想要一款湯來維持體質的平和質男性，就是這道了。",
+        "ja": "「毎日」飲める理想的なトニックスープ——マイルドでバランスが良く、一年中適している。週2回飲む。すべての材料は中国食材店で。平和質の男性が体質維持のため「1つだけ」選ぶなら、これ。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mountain Yam & Pork Rib Vitality Soup",
+        "zh-TW": "山藥排骨益氣湯",
+        "ja": "山芋と豚骨の活力スープ"
+      },
+      "titleZh": "山药排骨益气汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Fresh Chinese Yam (Shan Yao)",
+            "zh-TW": "鮮山藥",
+            "ja": "新鮮な山芋（サンヤオ）"
+          },
+          "aliases": "鲜山药",
+          "amount": "200g"
+        },
+        {
+          "name": {
+            "en": "Pork Ribs",
+            "zh-TW": "排骨",
+            "ja": "豚骨付き肉"
+          },
+          "aliases": "排骨",
+          "amount": "250g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "5 pieces"
+        },
+        {
+          "name": {
+            "en": "Goji Berries",
+            "zh-TW": "枸杞",
+            "ja": "クコの実"
+          },
+          "aliases": "枸杞",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "3 slices"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Chinese Yam (Shan Yao) is one of the most balanced tonic foods in TCM — it tonifies Spleen, Lung, and Kidney simultaneously without being too warming or too cooling. It's the ideal food for maintaining constitutional balance because it supports the three organs most responsible for energy production and distribution. Combined with pork ribs for protein and minerals, this is the gentle maintenance soup that keeps everything running smoothly.",
+        "zh-TW": "山藥是中醫最平衡的滋補食材之一——同時補脾、肺、腎，既不過溫也不過涼。它是維持體質平衡的理想食材，因為它支撐能量生成和分配最重要的三個臟腑。配合排骨提供蛋白質和礦物質，這是溫和的保養湯，讓一切順暢運行。",
+        "ja": "山芋は中医学で最もバランスの取れた滋養食材——脾・肺・腎を同時に補い、温めすぎも冷やしすぎもしない。体質のバランスを維持する理想の食材——エネルギーの生産と分配に最も責任を持つ3つの臓器をサポート。豚骨付き肉のタンパク質とミネラルと合わせて、すべてをスムーズに動かす穏やかなメンテナンススープ。"
+      },
+      "steps": [
+        {
+          "en": "Peel Chinese yam and cut into thick rounds. (Wear gloves — yam sap can irritate skin.) Soak in water to prevent browning.",
+          "zh-TW": "山藥去皮切厚片。（戴手套——山藥汁液可能刺激皮膚。）泡水防止變色。",
+          "ja": "山芋の皮をむき、厚めの輪切りにする（手袋をすること——汁が肌を刺激する）。変色防止に水に浸す。"
+        },
+        {
+          "en": "Blanch pork ribs in boiling water for 2 minutes. Rinse clean.",
+          "zh-TW": "排骨沸水焯水2分鐘，洗淨。",
+          "ja": "豚骨付き肉を沸騰した湯で2分ゆでて洗う。"
+        },
+        {
+          "en": "Place ribs, ginger, and red dates in a pot with 1.2 liters of water. Bring to boil.",
+          "zh-TW": "排骨、薑、紅棗放入鍋中加1.2公升水，煮沸。",
+          "ja": "骨付き肉、生姜、紅棗を鍋に入れ、1.2リットルの水を加えて火にかける。"
+        },
+        {
+          "en": "Simmer for 45 minutes, then add yam rounds. Cook another 30 minutes until yam is soft and translucent.",
+          "zh-TW": "煮45分鐘後加入山藥片。再煮30分鐘至山藥軟透明。",
+          "ja": "45分煮込み、山芋を加える。山芋が柔らかく半透明になるまでさらに30分。"
+        },
+        {
+          "en": "Add goji in the last 5 minutes. Season with salt. The broth will be slightly thick and naturally sweet from the yam.",
+          "zh-TW": "最後5分鐘加入枸杞。加鹽調味。湯會因山藥而略稠並自帶甜味。",
+          "ja": "最後の5分でクコを加える。塩で味を調える。スープは少しとろみがあり、山芋の天然の甘さ。"
+        }
+      ],
+      "tip": {
+        "en": "Fresh Chinese yam is available at Asian grocery stores (look for firm, unblemished roots). This soup is mild enough for 3-4 times per week. The yam should be soft but not mushy — it's the highlight of the dish. For post-workout recovery, this is excellent.",
+        "zh-TW": "鮮山藥在亞洲超市有售（選購結實無損的根莖）。這道湯溫和到每週可喝3-4次。山藥應軟但不爛——這是菜的亮點。訓練後恢復，這道湯很棒。",
+        "ja": "新鮮な山芋はアジア系食料品店で（硬く傷のない根を）。週3〜4回飲めるマイルドさ。山芋は柔らかく、崩れない程度——料理のハイライト。運動後の回復に優れている。"
+      }
+    },
+    {
+      "title": {
+        "en": "Lamb & Daikon Winter Strength Soup",
+        "zh-TW": "蘿蔔羊肉壯骨湯",
+        "ja": "羊肉と大根の冬の力スープ"
+      },
+      "titleZh": "萝卜羊肉壮骨汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Lamb Shoulder (bone-in chunks)",
+            "zh-TW": "羊肩肉",
+            "ja": "羊肉（骨付きカット）"
+          },
+          "aliases": "羊肩肉",
+          "amount": "300g"
+        },
+        {
+          "name": {
+            "en": "White Radish / Daikon",
+            "zh-TW": "白蘿蔔",
+            "ja": "大根"
+          },
+          "aliases": "白萝卜",
+          "amount": "200g"
+        },
+        {
+          "name": {
+            "en": "Ginger (thick slices)",
+            "zh-TW": "生薑（厚片）",
+            "ja": "生姜（厚切り）"
+          },
+          "aliases": "生姜",
+          "amount": "20g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "5 pieces"
+        },
+        {
+          "name": {
+            "en": "Green Onion (white part)",
+            "zh-TW": "蔥白",
+            "ja": "ネギ（白い部分）"
+          },
+          "aliases": "葱白",
+          "amount": "2 stalks"
+        },
+        {
+          "name": {
+            "en": "Cilantro (for garnish)",
+            "zh-TW": "香菜",
+            "ja": "パクチー（飾り用）"
+          },
+          "aliases": "香菜",
+          "amount": "一把"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Lamb is the warmest common meat — it tonifies Qi, warms the interior, and builds strength. Daikon radish is the perfect counterbalance: it descends Qi, resolves phlegm, and prevents the lamb from generating excess internal Heat. This classic combination demonstrates the TCM principle of balanced nourishment — warming meat balanced by cooling vegetable. For Balanced men in winter, this soup provides the building blocks for strength without disrupting equilibrium.",
+        "zh-TW": "羊肉是最溫的常見肉類——補氣、溫裡、壯筋。白蘿蔔是完美的平衡：下氣、化痰，防止羊肉產生過剩內熱。這個經典組合展示了中醫平衡滋補的原則——溫肉被涼菜平衡。對冬季的平和質男性來說，這道湯提供力量的建材而不破壞平衡。",
+        "ja": "羊肉は最も温かい一般的な肉——気を補い、内側を温め、力を作る。大根は完璧なバランス：気を下げ、痰を解き、羊肉が過剰な内熱を生むのを防ぐ。この古典的な組み合わせは、中医学の平衡滋養の原則——温める肉と涼しい野菜のバランス。冬の平和質の男性にとって、平衡を崩さずに力の構築要素を供給する。"
+      },
+      "steps": [
+        {
+          "en": "Cut lamb into 3cm chunks. Blanch in boiling water with a splash of cooking wine for 3 minutes. Remove and rinse.",
+          "zh-TW": "羊肉切成3cm塊。沸水加少許料酒焯水3分鐘，撈出洗淨。",
+          "ja": "羊肉を3cm角に切る。料理酒少々を入れた沸騰湯で3分ゆで、取り出して洗う。"
+        },
+        {
+          "en": "Peel daikon and cut into thick rounds. Cut green onion whites into segments.",
+          "zh-TW": "白蘿蔔去皮切厚圓片。蔥白切段。",
+          "ja": "大根の皮をむき、厚めの輪切り。ネギの白い部分を適当な長さに切る。"
+        },
+        {
+          "en": "Place lamb, ginger, green onion, and red dates in a pot with 1.5 liters of water. Bring to a rolling boil.",
+          "zh-TW": "羊肉、薑、蔥白、紅棗放入鍋中加1.5公升水，煮沸。",
+          "ja": "羊肉、生姜、ネギ、紅棗を鍋に入れ、1.5リットルの水を加えて強火で沸騰させる。"
+        },
+        {
+          "en": "Reduce to low simmer. Cook 1 hour, then add daikon. Cook another 30 minutes until lamb is tender and daikon is soft.",
+          "zh-TW": "小火煮1小時，加入白蘿蔔。再煮30分鐘至羊肉軟嫩、白蘿蔔軟。",
+          "ja": "弱火にして1時間。大根を加え、さらに30分。羊肉が柔らかく大根がとろけるまで。"
+        },
+        {
+          "en": "Season with salt and white pepper. Garnish with fresh cilantro. Serve piping hot.",
+          "zh-TW": "加鹽和白胡椒調味。撒新鮮香菜。趁熱上桌。",
+          "ja": "塩と白胡椒で味を調える。パクチーを散らす。熱々を飲む。"
+        }
+      ],
+      "tip": {
+        "en": "Best consumed during late autumn and winter. The daikon is essential — without it, lamb soup can generate excess Heat. Use once per week in cold months. If you exercise outdoors in winter, this is your post-activity recovery meal. Skip this soup in summer.",
+        "zh-TW": "最適合在深秋和冬季食用。白蘿蔔不可少——沒有它，羊肉湯可能產生過剩熱。寒冷月份每週用一次。如果冬季在戶外運動，這是你活動後的恢復餐。夏季勿用此湯。",
+        "ja": "晩秋と冬に最適。大根は必須——ないと羊肉スープが過剰な熱を生む。寒い時期は週1回。冬に屋外運動するなら、運動後の回復食。夏はこのスープをスキップ。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mushroom & Silky Fowl Replenishing Soup",
+        "zh-TW": "花膠烏雞滋補湯",
+        "ja": "きのこと烏骨鶏の補充スープ"
+      },
+      "titleZh": "花胶乌鸡滋补汤",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Silky Fowl / Black-Bone Chicken",
+            "zh-TW": "烏骨雞",
+            "ja": "烏骨鶏（黒骨鶏）"
+          },
+          "aliases": "乌鸡",
+          "amount": "1 (~500g)"
+        },
+        {
+          "name": {
+            "en": "Dried Shiitake Mushrooms",
+            "zh-TW": "乾香菇",
+            "ja": "乾燥干し椎茸"
+          },
+          "aliases": "干香菇",
+          "amount": "6 pieces"
+        },
+        {
+          "name": {
+            "en": "Fish Maw (Hua Jiao)",
+            "zh-TW": "花膠",
+            "ja": "花膠（はちこう/魚の浮袋）"
+          },
+          "aliases": "花胶",
+          "amount": "20g"
+        },
+        {
+          "name": {
+            "en": "Dried Red Dates",
+            "zh-TW": "紅棗",
+            "ja": "乾燥紅棗（なつめ）"
+          },
+          "aliases": "红枣",
+          "amount": "5 pieces"
+        },
+        {
+          "name": {
+            "en": "Ginger Slices",
+            "zh-TW": "生薑片",
+            "ja": "生姜スライス"
+          },
+          "aliases": "生姜",
+          "amount": "4 slices"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Silky fowl (black-bone chicken) is the premium Blood and Yin nourishing food in TCM dietary tradition — it nourishes Blood, tonifies Liver and Kidney, and supports recovery without generating Heat. Fish maw provides collagen and deeply nourishes Yin. Shiitake mushrooms support immune function. This soup is the \"premium fuel\" for Balanced men — it doesn't push your system in any direction, it simply fills all tanks to full.",
+        "zh-TW": "烏骨雞是中醫食療中的頂級補血養陰食材——補血、養肝腎、支援恢復而不生熱。花膠提供膠原蛋白、深層滋陰。香菇支持免疫功能。這道湯是平和質男性的「頂級燃料」——它不向任何方向推你的系統，只是把每個油箱加滿。",
+        "ja": "烏骨鶏は中医学食事療法で最高の血と陰のトニック——血を養い、肝腎を補い、熱を生じずに回復をサポート。花膠はコラーゲンを供給し陰を深く滋養。干し椎茸は免疫機能をサポート。このスープは平和質の男性にとって「プレミアム燃料」——システムをどの方向にも押すのではなく、すべてのタンクを満タンにする。"
+      },
+      "steps": [
+        {
+          "en": "Soak fish maw in warm water for 2 hours until softened. Cut into pieces.",
+          "zh-TW": "花膠溫水浸泡2小時至軟，切塊。",
+          "ja": "花膠を温水に2時間浸して柔らかくする。適当な大きさに切る。"
+        },
+        {
+          "en": "Soak dried shiitake mushrooms for 30 minutes. Remove stems.",
+          "zh-TW": "乾香菇浸泡30分鐘，去蒂。",
+          "ja": "干し椎茸を30分浸す。軸を取る。"
+        },
+        {
+          "en": "Clean and blanch the silky fowl for 3 minutes. Rinse thoroughly.",
+          "zh-TW": "烏骨雞洗淨，沸水焯水3分鐘，完全洗淨。",
+          "ja": "烏骨鶏をきれいに洗い、3分ゆでて洗う。"
+        },
+        {
+          "en": "Place chicken, fish maw, mushrooms, red dates, and ginger in a pot with 1.5 liters of water. Bring to boil.",
+          "zh-TW": "雞、花膠、香菇、紅棗、薑放入鍋中加1.5公升水，煮沸。",
+          "ja": "鶏、花膠、椎茸、紅棗、生姜を鍋に入れ、1.5リットルの水を加えて火にかける。"
+        },
+        {
+          "en": "Simmer on lowest heat for 2.5 hours until the broth is rich and golden. Season with salt.",
+          "zh-TW": "最小火煮2.5小時至湯色濃金黃。加鹽調味。",
+          "ja": "最弱火で2.5時間、スープが濃く黄金色になるまで煮込む。塩で味を調える。"
+        }
+      ],
+      "tip": {
+        "en": "Silky fowl is available at Asian markets and butchers. Fish maw can be found at Chinese dried seafood shops. This is a premium soup — make it once every 10-14 days. It's an investment in your constitutional reserves. The golden broth should taste rich but clean — never greasy.",
+        "zh-TW": "烏骨雞在亞洲超市和肉店有售。花膠在華人海味店有售。這是頂級湯品——每10-14天做一次。是對體質儲備的投資。金色湯汁應味道濃郁但清新——绝不油膩。",
+        "ja": "烏骨鶏はアジア系市場と精肉店で。花膠は中国の乾物店で。プレミアムスープ——10〜14日に1回。体質の備蓄への投資。黄金色のスープは濃厚だがクリア——決して脂っこくない。"
+      }
+    },
+    {
+      "title": {
+        "en": "Millet, Yam & Pumpkin Daily Balance Porridge",
+        "zh-TW": "小米山藥南瓜平衡粥",
+        "ja": "粟・山芋・かぼちゃの毎日バランス粥"
+      },
+      "titleZh": "小米山药南瓜平衡粥",
+      "ingredients": [
+        {
+          "name": {
+            "en": "Millet",
+            "zh-TW": "小米",
+            "ja": "粟（あわ）"
+          },
+          "aliases": "小米",
+          "amount": "80g"
+        },
+        {
+          "name": {
+            "en": "Fresh Chinese Yam",
+            "zh-TW": "鮮山藥",
+            "ja": "新鮮な山芋"
+          },
+          "aliases": "鲜山药",
+          "amount": "100g"
+        },
+        {
+          "name": {
+            "en": "Pumpkin (cubed)",
+            "zh-TW": "南瓜",
+            "ja": "かぼちゃ（角切り）"
+          },
+          "aliases": "南瓜",
+          "amount": "150g"
+        },
+        {
+          "name": {
+            "en": "Goji Berries",
+            "zh-TW": "枸杞",
+            "ja": "クコの実"
+          },
+          "aliases": "枸杞",
+          "amount": "1 tsp"
+        },
+        {
+          "name": {
+            "en": "Rock Sugar (optional)",
+            "zh-TW": "冰糖（可選）",
+            "ja": "氷砂糖（お好みで）"
+          },
+          "aliases": "冰糖",
+          "amount": "適量"
+        }
+      ],
+      "tcmPrinciple": {
+        "en": "Millet is the most Spleen-supportive grain in TCM — it strengthens digestion and provides steady, sustained energy. Yam tonifies Spleen, Lung, and Kidney simultaneously. Pumpkin warms the middle and supports Spleen function. Together, this daily porridge maintains the digestive engine that powers your entire system. For the Balanced man, this is your daily constitutional maintenance — simple, effective, and sustainable.",
+        "zh-TW": "小米是中醫最健脾的穀物——增強消化、提供穩定持續的能量。山藥同時補脾、肺、腎。南瓜溫中健脾。三者合一，這道每日粥維持驅動整個系統的消化引擎。對平和質男性來說，這是你的每日體質保養——簡單、有效、可持續。",
+        "ja": "粟は中医学で最も脾に優しい穀物——消化を強め、安定した持続的なエネルギーを供給。山芋は脾・肺・腎を同時に補う。かぼちゃは中焦を温め脾機能をサポート。合わせて、全身を動かす消化エンジンを維持する毎日の粥。平和質の男性にとって、これが毎日の体質メンテナンス——シンプルで効果的、持続可能。"
+      },
+      "steps": [
+        {
+          "en": "Rinse millet. Peel and cube yam and pumpkin into bite-sized pieces.",
+          "zh-TW": "小米洗淨。山藥和南瓜去皮切小塊。",
+          "ja": "粟を洗う。山芋とかぼちゃの皮をむき、一口大にカットする。"
+        },
+        {
+          "en": "Bring 1 liter of water to boil. Add millet and pumpkin. Return to boil.",
+          "zh-TW": "1公升水煮沸。加入小米和南瓜。再次煮沸。",
+          "ja": "1リットルの水を沸かす。粟とかぼちゃを加え、再び沸騰させる。"
+        },
+        {
+          "en": "Reduce to medium-low and cook for 20 minutes, stirring occasionally.",
+          "zh-TW": "轉中小火煮20分鐘，偶爾攪拌。",
+          "ja": "中火弱にして20分、たまに混ぜながら煮る。"
+        },
+        {
+          "en": "Add yam cubes and cook another 15 minutes until everything is soft and the porridge is thick.",
+          "zh-TW": "加入山藥塊再煮15分鐘至全部軟糯、粥變稠。",
+          "ja": "山芋を加え、すべてが柔らかく粥が濃くなるまでさらに15分。"
+        },
+        {
+          "en": "Add goji berries in the last 3 minutes. Add rock sugar if desired. Serve warm for breakfast.",
+          "zh-TW": "最後3分鐘加入枸杞。根據口味加冰糖。溫熱早餐食用。",
+          "ja": "最後の3分でクコを加える。氷砂糖をお好みで。朝食に温かくして飲む。"
+        }
+      ],
+      "tip": {
+        "en": "This is your daily breakfast foundation — quick to make, easy to digest, and perfectly balanced for your constitution. Add a boiled egg or some nuts on the side for extra protein. Make a large batch and reheat for 2-3 days. Consistency with this simple dish does more for maintaining balance than any exotic supplement.",
+        "zh-TW": "這是你每日早餐的基礎——做法快速、容易消化、與你的體質完美平衡。旁邊加一顆水煮蛋或一些堅果增加蛋白質。做一大鍋回溫可吃2-3天。堅持這道簡單的料理比任何奇異保健品都更能維持平衡。",
+        "ja": "毎日の朝食の基盤——すぐ作れ、消化しやすく、体質に完璧にバランスが取れている。ゆで卵やナッツを添えてタンパク質を追加。大量に作り2〜3日再加熱。このシンプルな一品の継続は、どんな珍しいサプリメントよりもバランスの維持に効果的。"
+      }
+    }
+  ],
+  "ch7Schedule": {
+    "headers": [
+      {
+        "en": "Wake Time",
+        "zh-TW": "起床時間",
+        "ja": "起床時間"
+      },
+      {
+        "en": "Breakfast",
+        "zh-TW": "早餐",
+        "ja": "朝食"
+      },
+      {
+        "en": "Exercise",
+        "zh-TW": "運動",
+        "ja": "運動"
+      },
+      {
+        "en": "Water Intake",
+        "zh-TW": "飲水量",
+        "ja": "水分摂取"
+      },
+      {
+        "en": "Avoid Check",
+        "zh-TW": "自律打卡",
+        "ja": "避けること"
+      },
+      {
+        "en": "Bedtime",
+        "zh-TW": "就寢時間",
+        "ja": "就寝時間"
+      },
+      {
+        "en": "Mood",
+        "zh-TW": "心情",
+        "ja": "気分"
+      }
+    ],
+    "rows": [
+      {
+        "day": 1,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + 2 eggs",
+        "exercise": "45-min strength training (upper body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No binge drinking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 2,
+        "wakeTime": "6:00",
+        "breakfast": "Oatmeal with walnuts and banana",
+        "exercise": "30-min steady-state cardio (run)",
+        "water": "8 cups warm",
+        "avoidCheck": "No energy drinks",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 3,
+        "wakeTime": "6:00",
+        "breakfast": "Beef bone broth with rice noodles",
+        "exercise": "45-min strength training (lower body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No heavy late-night meals",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 4,
+        "wakeTime": "6:00",
+        "breakfast": "Congee with lean pork and greens",
+        "exercise": "30-min yoga or mobility work",
+        "water": "8 cups warm",
+        "avoidCheck": "No extreme dieting",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 5,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + boiled eggs",
+        "exercise": "45-min strength training (full body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No alcohol excess",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 6,
+        "wakeTime": "6:30",
+        "breakfast": "Ginseng chicken soup (weekend batch)",
+        "exercise": "60-min sport or outdoor activity",
+        "water": "8 cups warm",
+        "avoidCheck": "No supplement stacking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 7,
+        "wakeTime": "7:00",
+        "breakfast": "Eggs benedict or balanced brunch",
+        "exercise": "30-min light walk or stretching",
+        "water": "8 cups warm",
+        "avoidCheck": "Recovery day — no overtraining",
+        "bedtime": "22:00",
+        "mood": ""
+      },
+      {
+        "day": 8,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + nuts",
+        "exercise": "45-min strength training (upper body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No binge drinking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 9,
+        "wakeTime": "6:00",
+        "breakfast": "Oatmeal with goji and honey",
+        "exercise": "30-min HIIT intervals",
+        "water": "8 cups warm",
+        "avoidCheck": "No energy drinks",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 10,
+        "wakeTime": "6:00",
+        "breakfast": "Beef bone broth with vegetables",
+        "exercise": "45-min strength training (lower body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No heavy late-night meals",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 11,
+        "wakeTime": "6:00",
+        "breakfast": "Congee with chicken and ginger",
+        "exercise": "30-min swimming or cycling",
+        "water": "8 cups warm",
+        "avoidCheck": "No extreme dieting",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 12,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + eggs",
+        "exercise": "45-min strength training (full body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No alcohol excess",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 13,
+        "wakeTime": "6:30",
+        "breakfast": "Black bean walnut soup",
+        "exercise": "60-min sport or outdoor activity",
+        "water": "8 cups warm",
+        "avoidCheck": "No supplement stacking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 14,
+        "wakeTime": "7:00",
+        "breakfast": "Balanced brunch with protein",
+        "exercise": "30-min yoga or mobility work",
+        "water": "8 cups warm",
+        "avoidCheck": "Recovery day — active rest only",
+        "bedtime": "22:00",
+        "mood": ""
+      },
+      {
+        "day": 15,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + boiled eggs",
+        "exercise": "45-min strength training (upper body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No binge drinking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 16,
+        "wakeTime": "6:00",
+        "breakfast": "Oatmeal with walnuts and berries",
+        "exercise": "30-min steady-state cardio (run)",
+        "water": "8 cups warm",
+        "avoidCheck": "No energy drinks",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 17,
+        "wakeTime": "6:00",
+        "breakfast": "Four-season balanced soup with rice",
+        "exercise": "45-min strength training (lower body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No heavy late-night meals",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 18,
+        "wakeTime": "6:00",
+        "breakfast": "Congee with fish and ginger",
+        "exercise": "30-min swimming or cycling",
+        "water": "8 cups warm",
+        "avoidCheck": "No extreme dieting",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 19,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + nuts",
+        "exercise": "45-min strength training (full body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No alcohol excess",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 20,
+        "wakeTime": "6:30",
+        "breakfast": "Mountain yam pork rib soup",
+        "exercise": "60-min sport or outdoor activity",
+        "water": "8 cups warm",
+        "avoidCheck": "No supplement stacking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 21,
+        "wakeTime": "7:00",
+        "breakfast": "Eggs, whole wheat toast, avocado",
+        "exercise": "30-min light walk or stretching",
+        "water": "8 cups warm",
+        "avoidCheck": "Recovery day — no overtraining",
+        "bedtime": "22:00",
+        "mood": ""
+      },
+      {
+        "day": 22,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + 2 eggs",
+        "exercise": "45-min strength training (upper body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No binge drinking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 23,
+        "wakeTime": "6:00",
+        "breakfast": "Oatmeal with goji and banana",
+        "exercise": "30-min HIIT intervals",
+        "water": "8 cups warm",
+        "avoidCheck": "No energy drinks",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 24,
+        "wakeTime": "6:00",
+        "breakfast": "Beef bone broth with noodles",
+        "exercise": "45-min strength training (lower body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No heavy late-night meals",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 25,
+        "wakeTime": "6:00",
+        "breakfast": "Congee with chicken and vegetables",
+        "exercise": "30-min yoga or mobility work",
+        "water": "8 cups warm",
+        "avoidCheck": "No extreme dieting",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 26,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + eggs",
+        "exercise": "45-min strength training (full body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No alcohol excess",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 27,
+        "wakeTime": "6:30",
+        "breakfast": "Lamb daikon soup (weekend batch)",
+        "exercise": "60-min sport or outdoor activity",
+        "water": "8 cups warm",
+        "avoidCheck": "No supplement stacking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 28,
+        "wakeTime": "7:00",
+        "breakfast": "Balanced brunch with protein",
+        "exercise": "30-min light walk or stretching",
+        "water": "8 cups warm",
+        "avoidCheck": "Recovery day — active rest only",
+        "bedtime": "22:00",
+        "mood": ""
+      },
+      {
+        "day": 29,
+        "wakeTime": "6:00",
+        "breakfast": "Mushroom silky fowl soup",
+        "exercise": "45-min strength training (full body)",
+        "water": "8 cups warm",
+        "avoidCheck": "No binge drinking",
+        "bedtime": "22:30",
+        "mood": ""
+      },
+      {
+        "day": 30,
+        "wakeTime": "6:00",
+        "breakfast": "Millet yam pumpkin porridge + nuts",
+        "exercise": "30-min steady-state cardio",
+        "water": "8 cups warm",
+        "avoidCheck": "Review month — note improvements",
+        "bedtime": "22:00",
+        "mood": ""
+      }
+    ],
+    "footer": {
+      "en": "You already have the best engine — this schedule is about premium maintenance. Vary your exercise between strength, cardio, and flexibility. Eat balanced, hearty meals. Protect your recovery. The man who maintains his balance at 35 will outperform every other constitution at 50.",
+      "zh-TW": "你已經擁有最好的引擎——這個計劃是關於頂級保養。在力量、心肺和柔韌性之間交替運動。吃均衡豐盛的飲食。保護你的恢復。在35歲守住平衡的男人，到了50歲會超越所有其他體質。",
+      "ja": "最高のエンジンをすでに持っている——このスケジュールはプレミアムメンテナンス。筋力・有酸素・柔軟性を交互に。バランスの取れたしっかりした食事。回復を守る。35代でバランスを維持した男性は、50代で他のどの体質よりも上回る。"
+    }
+  },
+  "ch8Monitor": {
+    "headers": [
+      {
+        "en": "Energy (1-5)",
+        "zh-TW": "精力（1-5）",
+        "ja": "エネルギー（1-5）"
+      },
+      {
+        "en": "Sleep (1-5)",
+        "zh-TW": "睡眠（1-5）",
+        "ja": "睡眠（1-5）"
+      },
+      {
+        "en": "Digestion",
+        "zh-TW": "消化",
+        "ja": "消化"
+      },
+      {
+        "en": "Emotion",
+        "zh-TW": "情緒",
+        "ja": "感情"
+      },
+      {
+        "en": "Body Notes",
+        "zh-TW": "身體記錄",
+        "ja": "体のメモ"
+      },
+      {
+        "en": "Weight",
+        "zh-TW": "體重",
+        "ja": "体重"
+      }
+    ],
+    "rows": [
+      {
+        "day": 1,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 2,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 3,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 4,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 5,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 6,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 7,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 8,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 9,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 10,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 11,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 12,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 13,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 14,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 15,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 16,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 17,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 18,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 19,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 20,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 21,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 22,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 23,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 24,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 25,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 26,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 27,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 28,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 29,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      },
+      {
+        "day": 30,
+        "energy": "",
+        "sleep": "",
+        "digestion": "",
+        "emotion": "",
+        "bodyNote": "",
+        "weight": ""
+      }
+    ],
+    "footer": {
+      "en": "Rate energy and sleep 1-5 (1=worst, 5=best). Your baseline is already high — watch for any DROPS as early warning signs. Even a 1-point decrease matters. Track workout recovery, mental clarity, and mood stability in Body Notes. The goal isn't to improve — it's to maintain peak performance.",
+      "zh-TW": "精力與睡眠評分1-5（1=最差，5=最佳）。你的基線本來就高——注意任何下降作為早期警訊。即使下降1分也很重要。在身體記錄中追蹤運動恢復、思維清晰度和情緒穩定性。目標不是改善——而是維持巔峰表現。",
+      "ja": "エネルギーと睡眠を1〜5で評価（1=最悪、5=最高）。ベースラインはすでに高い——「下がり」を早期警告として捉える。1ポイントの低下も重要。体のメモに運動後の回復、精神的明晰さ、気分の安定性を記録。目標は改善ではなく——ピークパフォーマンスを維持すること。"
+    }
+  }
+}
