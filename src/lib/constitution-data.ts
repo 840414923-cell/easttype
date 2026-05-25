@@ -9,7 +9,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "You're the 1 in 10 who got it right",
     color: "#C4A882",
     pct: "~30%",
-    celebs: "The Dalai Lama, Kung Fu Panda (Po, post-training)",
   },
   qi_deficient: {
     id: "qi_deficient",
@@ -19,7 +18,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Everything works, just needs a jumpstart",
     color: "#B8A472",
     pct: "~15%",
-    celebs: "Mr. Rogers, Ikkyu-san, Lin-Manuel Miranda",
   },
   yang_deficient: {
     id: "yang_deficient",
@@ -29,7 +27,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Sunlight is your superpower",
     color: "#7B9EB0",
     pct: "~10%",
-    celebs: "Elsa from Frozen, early Vincent van Gogh, Thom Yorke",
   },
   yin_deficient: {
     id: "yin_deficient",
@@ -39,7 +36,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Calm outside, volcanic inside",
     color: "#C75B3A",
     pct: "~10%",
-    celebs: "Audrey Hepburn, Frida Kahlo, Céline from Before Sunset",
   },
   phlegm_damp: {
     id: "phlegm_damp",
@@ -49,7 +45,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Your body moves slower than your mind",
     color: "#8E9B90",
     pct: "~8%",
-    celebs: "Jack Black, Luis from Ant-Man, Paddington Bear",
   },
   damp_heat: {
     id: "damp_heat",
@@ -59,7 +54,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Intensity is your default setting",
     color: "#8B7355",
     pct: "~8%",
-    celebs: "Anthony Bourdain, Gordon Ramsay, Elizabeth Gilbert",
   },
   blood_stasis: {
     id: "blood_stasis",
@@ -69,7 +63,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Everything flows, just not fast enough",
     color: "#6B4C3B",
     pct: "~6%",
-    celebs: "Neo from The Matrix, Lisbeth Salander, Prince",
   },
   qi_stagnant: {
     id: "qi_stagnant",
@@ -79,7 +72,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "Your mind never stops, your body pays the price",
     color: "#9B8AA0",
     pct: "~8%",
-    celebs: "Virginia Woolf, Will from Good Will Hunting, BoJack Horseman",
   },
   sensitive: {
     id: "sensitive",
@@ -89,7 +81,6 @@ export const TYPES: Record<ConstitutionId, ConstitutionType> = {
     line: "You feel everything everyone else doesn't",
     color: "#A0C4B8",
     pct: "~5%",
-    celebs: "Eleven from Stranger Things, Amélie Poulain, Spider-Man",
   },
 }
 

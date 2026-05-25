@@ -54,6 +54,13 @@ export default function Home() {
             <span className="text-sm text-text2 tracking-wide">
               {locale.ui.free} · {locale.ui.minutes} · {locale.ui.noSignup}
             </span>
+            <span className="text-xs text-text2/70 tracking-wide">
+              {l(
+                "Detailed reports available from $4.99 USD",
+                "詳細報告 $4.99 美元起",
+                "詳細レポート $4.99 USD から"
+              )}
+            </span>
           </div>
 
         </section>
@@ -83,9 +90,10 @@ export default function Home() {
               const viral = locale.types[t.id]
               const imgSrc = `/types/${t.id}.png`
               return (
-                <div
+                <Link
                   key={t.id}
-                  className="group"
+                  href={`/types/${t.id}`}
+                  className="group block"
                 >
                   <div
                     className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.12)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(201,163,85,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(0,0,0,0.5)]"
@@ -157,9 +165,77 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               )
             })}
+          </div>
+        </section>
+
+        {/* ── Ornamental Divider ── */}
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        {/* ── Pricing ── */}
+        <section className="max-w-3xl mx-auto px-6 py-6 sm:py-8">
+          <div className="text-center mb-5">
+            <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide">
+              {l("What's Inside Each Report", "每份報告包含什麼", "各レポートの内容")}
+            </h2>
+            <p className="text-text2 text-sm mt-1">
+              {l("Free quiz, then unlock the depth you want", "免費測驗，再按需解鎖深度報告", "無料クイズ、その後必要な深さをアンロック")}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {/* Free */}
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
+              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">{l("Quiz Result", "測驗結果", "クイズ結果")}</div>
+              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-text mb-0.5">{l("Free", "免費", "無料")}</div>
+              <div className="text-[10px] text-text2 mb-4">{l("No credit card needed", "無需信用卡", "クレジットカード不要")}</div>
+              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Your primary + secondary type", "你的主要 + 次要體質", "主要 + 二次の体質")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Shareable type card", "可分享的體質卡片", "シェア可能なタイプカード")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">{l("No food map", "無食物地圖", "フードマップなし")}</span></li>
+                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">{l("No recipe plan", "無食譜計畫", "レシピプランなし")}</span></li>
+              </ul>
+            </div>
+
+            {/* Basic $4.99 */}
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
+              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">{locale.ui.planBasicName}</div>
+              <div className="flex items-baseline gap-1 mb-0.5">
+                <span className="font-[family-name:var(--font-display)] text-3xl font-bold text-text">$4.99</span>
+                <span className="text-xs text-text2">USD</span>
+              </div>
+              <div className="text-[10px] text-text2 mb-4">{l("One-time payment", "一次性付款", "一回限りの支払い")}</div>
+              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Deep type explanation", "體質深度解析", "体質の詳しい解説")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Personal Food Map (25+ foods)", "專屬食物地圖（25+ 食物）", "フードマップ（25+食材）")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Seasonal guide + daily rhythm", "季節指南 + 每日節奏", "季節ガイド + 1日のリズム")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">{l("No 28-day recipe plan", "無28天食譜計畫", "28日レシピプランなし")}</span></li>
+              </ul>
+            </div>
+
+            {/* Pro $12.99 */}
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
+              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">{locale.ui.planProName}</div>
+              <div className="flex items-baseline gap-1 mb-0.5">
+                <span className="font-[family-name:var(--font-display)] text-3xl font-bold text-text">$12.99</span>
+                <span className="text-xs text-text2">USD</span>
+              </div>
+              <div className="text-[10px] text-text2 mb-4">{l("One-time payment", "一次性付款", "一回限りの支払い")}</div>
+              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Everything in Body Profile", "包含體質報告所有內容", "ボディプロファイルの全内容")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("28-day TCM recipe plan", "28天中醫食療食譜", "28日中医学レシピプラン")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Weekly grocery lists", "每週採購清單", "週間買い物リスト")}</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>{l("Seasonal adjustments", "季節性調整建議", "季節調整アドバイス")}</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="text-center text-[10px] text-text2 mt-3">
+            {l("30-day money-back guarantee · Questions? 840414923@qq.com", "30天退款保證 · 有疑问？840414923@qq.com", "30日間返金保証 · 質問は 840414923@qq.com")}
           </div>
         </section>
 
@@ -187,6 +263,9 @@ export default function Home() {
             {l("Quick Quiz · ~5 min", "快速測驗 · 約 5 分鐘", "クイック診断 · 約5分")}
             <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
           </Link>
+          <span className="text-xs text-text2/70 mt-2">
+            {l("Free quiz · Detailed reports from $4.99 USD", "免費測驗 · 詳細報告 $4.99 美元起", "無料クイズ · 詳細レポート $4.99 USD から")}
+          </span>
         </section>
       </main>
       <Footer />

@@ -17,7 +17,6 @@ export interface ConstitutionType {
   line: string
   color: string
   pct: string
-  celebs: string
 }
 
 export interface QuizOption {

@@ -56,7 +56,7 @@ function SuccessContent() {
           {l("View My Report →", "查看報告 →", "レポートを見る →")}
         </Link>
         <p className="text-xs text-text2 mt-8">
-          {l("Questions? support@myeasterntype.com · 30-day money-back guarantee", "有疑问？support@myeasterntype.com · 30天退款保证", "質問は support@myeasterntype.com · 30日間返金保証")}
+          {l("Questions? 840414923@qq.com · 30-day money-back guarantee", "有疑问？840414923@qq.com · 30天退款保证", "質問は 840414923@qq.com · 30日間返金保証")}
         </p>
       </main>
       <Footer />

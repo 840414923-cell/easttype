@@ -175,7 +175,7 @@ function ResultContent() {
               <span>{l("30-day money-back guarantee", "30天退款保證", "30日間返金保証")}</span>
             </div>
             <div className="text-center text-[10px] text-text2 mt-2">
-              {l("One-time payment · No subscription · Questions? support@myeasterntype.com", "一次性付款 · 無订阅 · 有疑问？support@myeasterntype.com", "一回限りの支払い · サブスクなし · 質問？support@myeasterntype.com")}
+              {l("One-time payment · No subscription · Questions? 840414923@qq.com", "一次性付款 · 無订阅 · 有疑问？840414923@qq.com", "一回限りの支払い · サブスクなし · 質問？840414923@qq.com")}
             </div>
           </div>
         </div>
@@ -424,6 +424,22 @@ function ResultContent() {
               "あなたの体は3,000年、誰かが聞いてくれるのを待っていました。"
             )}
           </p>
+          <div className="mb-3">
+            <div className="text-xs text-text2 mb-1">{l("Starting from", "價格從", "価格")}</div>
+            <div className="flex items-baseline justify-center gap-4">
+              <div>
+                <span className="font-[family-name:var(--font-display)] text-2xl font-bold gold-gradient-text">$12.99</span>
+                <span className="text-xs text-text2 ml-1">USD</span>
+                <div className="text-[10px] text-text2">{locale.ui.planProName}</div>
+              </div>
+              <div className="text-text2/30">|</div>
+              <div>
+                <span className="font-[family-name:var(--font-display)] text-2xl font-bold text-text">$4.99</span>
+                <span className="text-xs text-text2 ml-1">USD</span>
+                <div className="text-[10px] text-text2">{locale.ui.planBasicName}</div>
+              </div>
+            </div>
+          </div>
           <ProCta className="mb-2" />
           <CreemCheckout
             productId={CREEM_PRODUCT_BASIC}
@@ -436,7 +452,7 @@ function ResultContent() {
               {l("Get My Report — $4.99", "取得報告 — $4.99", "レポートを取得 — $4.99")}
             </div>
           </CreemCheckout>
-          <div className="text-[10px] text-text2 mt-2">{locale.ui.moneyBack}</div>
+          <div className="text-[10px] text-text2 mt-2">{l("One-time payment · No subscription · 30-day money-back guarantee", "一次性付款 · 無訂閱 · 30天退款保證", "一回限りの支払い · サブスクなし · 30日間返金保証")}</div>
         </div>
 
       </div>
