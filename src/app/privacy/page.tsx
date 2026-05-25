@@ -29,7 +29,7 @@ export default function PrivacyPage() {
               <li>{l("Quiz answers — your responses to the body constitution questionnaire, stored only in your browser's local storage", "測驗答案 — 你對體質問卷的回答，僅儲存在你的瀏覽器本地存儲中", "クイズの回答 — 体質診断質問への回答はブラウザのローカルストレージにのみ保存")}</li>
               <li>{l("Language preference — stored in your browser's local storage", "語言偏好 — 儲存在瀏覽器本地存儲中", "言語設定 — ブラウザのローカルストレージに保存")}</li>
               <li>{l("Consent preference — whether you accepted or declined cookies, stored in local storage", "同意偏好 — 你是否接受或拒絕了 Cookie，儲存在本地存儲中", "同意設定 — クッキーの承諾・拒否の選択はローカルストレージに保存")}</li>
-              <li>{l("Payment information — processed securely by LemonSqueezy; we never store your card details", "付款資訊 — 由 LemonSqueezy 安全處理；我們絕不儲存你的卡片資料", "支払い情報 — LemonSqueezyにより安全に処理され、カード情報は保存しません")}</li>
+              <li>{l("Payment information — processed securely by Creem; we never store your card details", "付款資訊 — 由 Creem 安全處理；我們絕不儲存你的卡片資料", "支払い情報 — Creemにより安全に処理され、カード情報は保存しません")}</li>
               <li>{l("Analytics data — page views and quiz completion rates (anonymized, no personally identifiable information)", "分析數據 — 頁面瀏覽量和測驗完成率（匿名化，無個人身份資訊）", "分析データ — ページビューとクイズ完了率（匿名化、個人を特定する情報は含みません）")}</li>
             </ul>
           </section>
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>{l("Quiz data: retained in your browser until you clear it (no server-side retention)", "測驗資料：保留在你的瀏覽器中直到你清除（伺服器端不保留）", "クイズデータ：ブラウザに保存され、消去するまで保持（サーバー側には保持しない）")}</li>
-              <li>{l("Payment records: retained by LemonSqueezy for 7 years per financial regulations", "付款記錄：由 LemonSqueezy 依據金融法規保留7年", "支払い記録：金融規制によりLemonSqueezyが7年間保持")}</li>
+              <li>{l("Payment records: retained by Creem for 7 years per financial regulations", "付款記錄：由 Creem 依據金融法規保留7年", "支払い記録：金融規制によりCreemが7年間保持")}</li>
               <li>{l("Analytics: anonymized and aggregated; retained for 26 months", "分析數據：匿名化和匯總；保留26個月", "分析データ：匿名化・集計済み、26ヶ月間保持")}</li>
             </ul>
           </section>
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
             </h2>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>{l("Vercel — website hosting and delivery (privacy policy: vercel.com/legal/privacy-policy)", "Vercel — 網站託管和分發（隱私政策：vercel.com/legal/privacy-policy）", "Vercel — ウェブサイトのホスティングと配信（プライバシーポリシー：vercel.com/legal/privacy-policy）")}</li>
-              <li>{l("LemonSqueezy — payment processing (privacy policy: lemonsqueezy.com/privacy)", "LemonSqueezy — 付款處理（隱私政策：lemonsqueezy.com/privacy）", "LemonSqueezy — 決済処理（プライバシーポリシー：lemonsqueezy.com/privacy）")}</li>
+              <li>{l("Creem — payment processing (privacy policy: lemonsqueezy.com/privacy)", "Creem — 付款處理（隱私政策：lemonsqueezy.com/privacy）", "Creem — 決済処理（プライバシーポリシー：lemonsqueezy.com/privacy）")}</li>
             </ul>
           </section>
 
@@ -145,9 +145,9 @@ export default function PrivacyPage() {
             </h2>
             <p>
               {l(
-                "Our website is hosted on Vercel (United States) and payments are processed by LemonSqueezy (United States). Data may be transferred to and processed in the United States. Both Vercel and LemonSqueezy comply with EU-US Data Privacy Framework standards. By using EastType, you acknowledge that your data may be processed in jurisdictions with different data protection laws.",
-                "我們的網站由 Vercel（美國）託管，付款由 LemonSqueezy（美國）處理。資料可能傳輸至美國並在美國處理。Vercel 和 LemonSqueezy 均遵守 EU-US Data Privacy Framework 標準。使用 EastType 即表示你承認你的資料可能在具有不同資料保護法的司法管轄區處理。",
-                "当サイトはVercel（米国）でホストされ、決済はLemonSqueezy（米国）で処理されます。データは米国に転送・処理される場合があります。VercelとLemonSqueezyはいずれもEU-US Data Privacy Framework基準に準拠しています。EastTypeの利用により、データが異なるデータ保護法を持つ管轄区域で処理される場合があることを了承したものとみなされます。"
+                "Our website is hosted on Vercel (United States) and payments are processed by Creem (United States). Data may be transferred to and processed in the United States. Both Vercel and Creem comply with EU-US Data Privacy Framework standards. By using EastType, you acknowledge that your data may be processed in jurisdictions with different data protection laws.",
+                "我們的網站由 Vercel（美國）託管，付款由 Creem（美國）處理。資料可能傳輸至美國並在美國處理。Vercel 和 Creem 均遵守 EU-US Data Privacy Framework 標準。使用 EastType 即表示你承認你的資料可能在具有不同資料保護法的司法管轄區處理。",
+                "当サイトはVercel（米国）でホストされ、決済はCreem（米国）で処理されます。データは米国に転送・処理される場合があります。VercelとCreemはいずれもEU-US Data Privacy Framework基準に準拠しています。EastTypeの利用により、データが異なるデータ保護法を持つ管轄区域で処理される場合があることを了承したものとみなされます。"
               )}
             </p>
           </section>

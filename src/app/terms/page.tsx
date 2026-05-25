@@ -77,7 +77,7 @@ export default function TermsPage() {
             </h2>
             <ul className="list-disc list-inside space-y-2 ml-2">
               <li>{l("All prices are listed in US Dollars (USD).", "所有價格以美元（USD）標示。", "すべての価格は米ドル（USD）で表示されています。")}</li>
-              <li>{l("Payments are processed securely via LemonSqueezy.", "付款通過 LemonSqueezy 安全處理。", "支払いは LemonSqueezy を通じて安全に処理されます。")}</li>
+              <li>{l("Payments are processed securely via Creem.", "付款通過 Creem 安全處理。", "支払いは Creem を通じて安全に処理されます。")}</li>
               <li>{l("All reports are digital products delivered instantly upon payment.", "所有報告為數位產品，付款後即時交付。", "すべてのレポートはデジタル製品で、お支払い後に即時配信されます。")}</li>
             </ul>
           </section>

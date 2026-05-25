@@ -59,7 +59,7 @@ function ResultContent() {
       <div
         className={`flex items-center justify-center w-full py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
       >
-        {l("Get My Full Kit →", "取得進階套件 →", "フルキットを取得 →")}
+        {l("Get My Full Kit — $12.99 →", "取得進階套件 — $12.99 →", "フルキットを取得 — $12.99 →")}
       </div>
     </CreemCheckout>
   )
@@ -72,7 +72,7 @@ function ResultContent() {
       <div
         className={`flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer border border-accent/30 text-accent hover:bg-[rgba(201,163,85,0.06)] transition-all ${className}`}
       >
-        {l("Get My Report", "取得報告", "レポートを取得")}
+        {l("Get My Report — $4.99", "取得報告 — $4.99", "レポートを取得 — $4.99")}
       </div>
     </CreemCheckout>
   )
@@ -131,7 +131,86 @@ function ResultContent() {
           ))}
         </div>
 
-        {/* ━━ 3. Loss aversion — "you're only seeing 20%" ━━ */}
+        {/* ━━ 3. PRICING — front and center ━━ */}
+
+        {/* Pro — THE big card */}
+        <div className="relative border-2 border-accent rounded-xl overflow-hidden mb-2">
+          <div className="absolute inset-0 bg-gradient-to-br from-[rgba(201,163,85,0.06)] to-transparent pointer-events-none" />
+          <div className="relative p-5">
+            {/* Badge */}
+            <div className="absolute -top-0 left-1/2 -translate-x-1/2 px-4 py-1 rounded-b-lg bg-gradient-to-r from-accent to-accent2 text-bg text-[10px] font-bold tracking-wide uppercase whitespace-nowrap">
+              {locale.ui.planProBadge}
+            </div>
+            {/* Price */}
+            <div className="text-center pt-4 mb-4">
+              <div className="text-xs text-accent font-semibold mb-1">{locale.ui.planProName}</div>
+              <div className="flex items-baseline justify-center gap-2">
+                                <span className="font-[family-name:var(--font-display)] text-3xl font-bold gold-gradient-text">$12.99</span>
+                <span className="text-xs text-text2">USD</span>
+              </div>
+              <div className="text-[11px] text-text2 mt-1">{l("Full Transformation Kit · One-time payment", "完整分析套件 · 一次性付款", "フルキット · 一回限りの支払い")}</div>
+            </div>
+            {/* All features — this IS the complete package */}
+            <div className="space-y-1.5 mb-4">
+              {[
+                locale.ui.planProFeature1,
+                locale.ui.planProFeature2,
+                locale.ui.planProFeature3,
+                locale.ui.planProFeature4,
+                locale.ui.planProFeature5,
+                locale.ui.planProFeature6,
+              ].map((f, i) => (
+                <div key={i} className="text-xs text-text flex items-start gap-2">
+                  <span className="text-accent text-[10px] mt-0.5 flex-shrink-0">&#10003;</span>
+                  <span>{f}</span>
+                </div>
+              ))}
+            </div>
+            <ProCta />
+            <div className="flex items-center justify-center gap-3 mt-2.5 text-[10px] text-text2">
+              <span>{l("🔒 Secure checkout", "🔒 安全結帳", "🔒 安全な決済")}</span>
+              <span>·</span>
+              <span>{l("⚡ Instant delivery", "⚡ 即刻查看", "⚡ すぐに閲覧")}</span>
+              <span>·</span>
+              <span>{l("30-day money-back guarantee", "30天退款保證", "30日間返金保証")}</span>
+            </div>
+            <div className="text-center text-[10px] text-text2 mt-2">
+              {l("One-time payment · No subscription · Questions? support@myeasterntype.com", "一次性付款 · 無订阅 · 有疑问？support@myeasterntype.com", "一回限りの支払い · サブスクなし · 質問？support@myeasterntype.com")}
+            </div>
+          </div>
+        </div>
+
+        {/* Basic — budget alternative */}
+        <div className="border border-[rgba(201,163,85,0.15)] rounded-xl p-4 bg-card-bg mb-3">
+          <div className="flex items-center justify-between mb-2">
+            <div>
+              <div className="text-xs text-text2 mb-0.5">{locale.ui.planBasicName}</div>
+              <div className="flex items-baseline gap-1">
+                <span className="font-[family-name:var(--font-display)] text-xl font-bold text-text">$4.99</span>
+                <span className="text-[10px] text-text2">USD</span>
+              </div>
+              <div className="text-[11px] text-text2 mt-0.5">{l("Body Profile Report · One-time payment", "體質報告 · 一次性付款", "ボディプロファイルレポート · 一回限りの支払い")}</div>
+            </div>
+            <div className="text-[10px] text-text2 text-right leading-snug">
+              {l("Report only,<br/>no recipe plan", "僅報告，<br/>不含食譜計畫", "レポートのみ、<br/>レシピプランなし")}
+            </div>
+          </div>
+          <div className="space-y-0.5 mb-3">
+            {[locale.ui.planBasicFeature1, locale.ui.planBasicFeature2, locale.ui.planBasicFeature3].map((f, i) => (
+              <div key={i} className="text-[11px] text-text2 flex items-start gap-1.5">
+                <span className="text-accent/60 text-[9px] mt-0.5">&#10003;</span>
+                <span>{f}</span>
+              </div>
+            ))}
+          </div>
+          <BasicCta />
+        </div>
+
+        <div className="text-center text-[10px] text-text2 mb-6">
+          {locale.ui.moneyBack}
+        </div>
+
+        {/* ━━ 4. Loss aversion — "you're only seeing 20%" ━━ */}
         <div
           className="rounded-xl p-5 mb-5 text-center"
           style={{
@@ -160,7 +239,7 @@ function ResultContent() {
           </div>
         </div>
 
-        {/* ━━ 4. Report sample — show concrete value before price ━━ */}
+        {/* ━━ 5. Report sample — show concrete value ━━ */}
         <div className="mb-5">
           <div className="text-center mb-3">
             <span className="text-accent text-[10px] uppercase tracking-[0.2em]">
@@ -188,7 +267,7 @@ function ResultContent() {
             </div>
             {/* Body */}
             <div className="px-4 py-3 bg-card-bg space-y-2.5">
-              <div>
+      <div>
                 <div className="flex items-center gap-1.5 mb-1">
                   <span className="text-xs">&#127858;</span>
                   <span className="text-xs font-semibold text-text">{l("Your Nourishing Foods", "你的滋養食物", "滋養の食材")}</span>
@@ -225,7 +304,7 @@ function ResultContent() {
           </div>
         </div>
 
-        {/* ━━ 5. Chapters overview ━━ */}
+        {/* ━━ 6. Chapters overview ━━ */}
         <div className="grid grid-cols-2 gap-2 mb-5">
           {[
             { ch: "Ch.1", title: l("Who You Are", "你是誰", "あなたについて"), desc: l("Strengths, blind spots & your body's ancient language", "天賦、盲點和你身體的古老語言", "強み、盲点、体の古代言語") },
@@ -250,80 +329,6 @@ function ResultContent() {
               "この評価はウェルネスと自己認識のためのみです。医療診断や治療を構成するものではありません。健康上の懸念については、常に資格のある医療専門家にご相談ください。"
             )}
           </p>
-        </div>
-
-        {/* ━━ 6. PRICING — Pro hero, Basic as budget option ━━ */}
-
-        {/* Pro — THE big card */}
-        <div className="relative border-2 border-accent rounded-xl overflow-hidden mb-2">
-          <div className="absolute inset-0 bg-gradient-to-br from-[rgba(201,163,85,0.06)] to-transparent pointer-events-none" />
-          <div className="relative p-5">
-            {/* Badge */}
-            <div className="absolute -top-0 left-1/2 -translate-x-1/2 px-4 py-1 rounded-b-lg bg-gradient-to-r from-accent to-accent2 text-bg text-[10px] font-bold tracking-wide uppercase whitespace-nowrap">
-              {locale.ui.planProBadge}
-            </div>
-            {/* Price */}
-            <div className="text-center pt-4 mb-4">
-              <div className="text-xs text-accent font-semibold mb-1">{locale.ui.planProName}</div>
-              <div className="flex items-baseline justify-center gap-2">
-                                <span className="font-[family-name:var(--font-display)] text-3xl font-bold gold-gradient-text">{locale.ui.planProPrice}</span>
-                <span className="text-xs text-text2">USD</span>
-              </div>
-            </div>
-            {/* All features — this IS the complete package */}
-            <div className="space-y-1.5 mb-4">
-              {[
-                locale.ui.planProFeature1,
-                locale.ui.planProFeature2,
-                locale.ui.planProFeature3,
-                locale.ui.planProFeature4,
-                locale.ui.planProFeature5,
-                locale.ui.planProFeature6,
-              ].map((f, i) => (
-                <div key={i} className="text-xs text-text flex items-start gap-2">
-                  <span className="text-accent text-[10px] mt-0.5 flex-shrink-0">&#10003;</span>
-                  <span>{f}</span>
-                </div>
-              ))}
-            </div>
-            <ProCta />
-            <div className="flex items-center justify-center gap-3 mt-2.5 text-[10px] text-text2">
-              <span>{l("🔒 Secure", "🔒 安全結帳", "🔒 安全な決済")}</span>
-              <span>·</span>
-              <span>{l("⚡ Instant", "⚡ 即刻查看", "⚡ すぐに閲覧")}</span>
-              <span>·</span>
-              <span>{l("30-day guarantee", "30天保證", "30日保証")}</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Basic — budget alternative */}
-        <div className="border border-[rgba(201,163,85,0.15)] rounded-xl p-4 bg-card-bg mb-3">
-          <div className="flex items-center justify-between mb-2">
-            <div>
-              <div className="text-xs text-text2 mb-0.5">{locale.ui.planBasicName}</div>
-              <div className="flex items-baseline gap-1">
-                <span className="font-[family-name:var(--font-display)] text-xl font-bold text-text">{locale.ui.planBasicPrice}</span>
-                <span className="text-[10px] text-text2">USD</span>
-              </div>
-            </div>
-            <div className="text-[10px] text-text2 text-right leading-snug">
-              {l("Report only,<br/>no recipe plan", "僅報告，<br/>不含食譜計畫", "レポートのみ、<br/>レシピプランなし")}
-            </div>
-          </div>
-          <div className="space-y-0.5 mb-3">
-            {[locale.ui.planBasicFeature1, locale.ui.planBasicFeature2, locale.ui.planBasicFeature3].map((f, i) => (
-              <div key={i} className="text-[11px] text-text2 flex items-start gap-1.5">
-                <span className="text-accent/60 text-[9px] mt-0.5">&#10003;</span>
-                <span>{f}</span>
-              </div>
-            ))}
-          </div>
-          <BasicCta />
-        </div>
-
-        <div className="text-center text-[10px] text-text2 mb-6">
-          {locale.ui.moneyBack}
         </div>
 
         {/* ━━ 7. 4 Buying reasons — overcome objections ━━ */}
@@ -428,7 +433,7 @@ function ResultContent() {
             <div
               className="flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer border border-accent/25 text-accent hover:bg-[rgba(201,163,85,0.05)]"
             >
-              {locale.ui.planBasicPrice} — {l("Get My Report", "取得報告", "レポートを取得")}
+              {l("Get My Report — $4.99", "取得報告 — $4.99", "レポートを取得 — $4.99")}
             </div>
           </CreemCheckout>
           <div className="text-[10px] text-text2 mt-2">{locale.ui.moneyBack}</div>
