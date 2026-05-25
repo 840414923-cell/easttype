@@ -33,6 +33,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://myeasterntype.com"),
+  verification: {
+    google: "MiP1PyAbOojiLM7jlUAb8a1ZiSRPzqdyXJTdgWvGFYQ",
+  },
   title: "EastType — What's Your Eastern Type?",
   description:
     "Chinese medicine identified 9 body types centuries ago. Ayurveda has 3. We have 9. Discover yours in ~5 minutes.",
