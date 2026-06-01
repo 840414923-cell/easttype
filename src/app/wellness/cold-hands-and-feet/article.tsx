@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function ColdHandsArticle() {
   const { locale } = useLocale()
@@ -206,6 +207,22 @@ export default function ColdHandsArticle() {
       </section>
 
       <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/why-am-i-always-cold" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Always Cold", "總是怕冷", "いつも寒い")}</h3>
+            <p className="text-text2 text-sm">{l("Feeling cold even when others are comfortable is a key sign of Yang Deficiency", "別人覺得舒適你卻總是冷，是陽虛的關鍵信號", "他の人が快適なのにいつも寒いのは陽虚の主要なサイン")}</p>
+          </Link>
+          <Link href="/patterns/cold-sensitivity" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Cold Sensitivity", "寒敏感", "寒さへの敏感さ")}</h3>
+            <p className="text-text2 text-sm">{l("Persistent sensitivity to cold environments often points to this pattern", "持續對寒冷環境敏感常指向這種體質", "寒い環境への持続的な敏感さはこのパターンを指すことが多い")}</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">{l("Related Conditions", "相關狀況", "関連する状態")}</h2>
         <p className="text-text2 leading-relaxed mb-4">
           {l(
@@ -250,13 +267,7 @@ export default function ColdHandsArticle() {
 
       <FaqSection faqs={WELLNESS_FAQS["cold-hands-and-feet"]} />
 
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">{l("Always cold is one of the key signs of the Yang Deficient body type.", "長期怕冷是陽虛體質的關鍵信號之一。", "いつも寒いのは陽虚タイプの主要なサインです。")}</p>
-        <p className="text-text2 text-sm mb-6">{l("There are 9 body types in Chinese medicine. Take the free 5-minute quiz to discover yours.", "中醫有9種體質。花5分鐘做免費測驗，發現你的體質。", "中医学には9つの体質があります。無料の5分クイズであなたのタイプを発見。")}</p>
-        <Link href="/quiz" className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2">
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

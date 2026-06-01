@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function InsomniaChineseMedicineArticle() {
   const { locale } = useLocale()
@@ -308,6 +309,22 @@ export default function InsomniaChineseMedicineArticle() {
         </p>
       </section>
 
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/why-do-i-wake-up-at-3am" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Waking At 3AM", "凌晨三點醒來", "深夜3時に目覚める")}</h3>
+            <p className="text-text2 text-sm">{l("Waking up in the middle of the night is a hallmark of Yin Deficiency insomnia", "半夜醒來是陰虛失眠的標誌", "夜中に目が覚めるのは陰虚不眠の特徴")}</p>
+          </Link>
+          <Link href="/patterns/internal-heat" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Internal Heat", "內熱", "内熱")}</h3>
+            <p className="text-text2 text-sm">{l("Nighttime heat buildup is often the root cause of sleep disturbances", "夜間熱氣堆積常是睡眠障礙的根本原因", "夜間の熱の蓄積は睡眠障害の根本原因となることが多い")}</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Related Conditions */}
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -359,29 +376,7 @@ export default function InsomniaChineseMedicineArticle() {
 
       <FaqSection faqs={WELLNESS_FAQS["insomnia-chinese-medicine"]} />
 
-      {/* CTA */}
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">
-          {l(
-            "Insomnia and night heat are key signs of the Yin Deficient body type.",
-            "失眠和夜間燥熱是陰虛體質的關鍵信號。",
-            "不眠と夜間のほてりは陰虚タイプの主要なサインです。"
-          )}
-        </p>
-        <p className="text-text2 text-sm mb-6">
-          {l(
-            "There are 9 body types in Chinese medicine. Take the free 5-minute quiz to discover yours.",
-            "中醫有9種體質。花5分鐘做免費測驗，發現你的體質。",
-            "中医学には9つの体質があります。無料の5分クイズであなたのタイプを発見。"
-          )}
-        </p>
-        <Link
-          href="/quiz"
-          className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2"
-        >
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

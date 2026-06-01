@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function FoodsThatWarmArticle() {
   const { locale } = useLocale()
@@ -321,6 +322,22 @@ export default function FoodsThatWarmArticle() {
         </p>
       </section>
 
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/why-am-i-always-cold" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Always Cold", "總是怕冷", "いつも寒い")}</h3>
+            <p className="text-text2 text-sm">{l("Always feeling cold is the primary symptom that warming foods address", "總是怕冷是溫性食物主要處理的症狀", "いつも寒いのは温性食材が主に対処する症状")}</p>
+          </Link>
+          <Link href="/patterns/cold-sensitivity" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Cold Sensitivity", "寒敏感", "寒さへの敏感さ")}</h3>
+            <p className="text-text2 text-sm">{l("Understanding this pattern helps guide your warming food choices", "了解這種模式有助於引導你的溫性食物選擇", "このパターンを理解すると温性食材の選び方の指針になる")}</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Related Conditions */}
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -384,29 +401,7 @@ export default function FoodsThatWarmArticle() {
 
       <FaqSection faqs={WELLNESS_FAQS["foods-that-warm-your-body"]} />
 
-      {/* CTA */}
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">
-          {l(
-            "Cold hands, frequent urination, and aversion to cold are key signs of the Yang Deficient body type.",
-            "手腳冰冷、頻尿、怕冷是陽虛體質的關鍵信號。",
-            "冷たい手足、頻尿、寒さへの嫌悪は陽虚タイプの主要なサインです。"
-          )}
-        </p>
-        <p className="text-text2 text-sm mb-6">
-          {l(
-            "There are 9 body types in Chinese medicine. Take the free 5-minute quiz to discover yours.",
-            "中醫有9種體質。花5分鐘做免費測驗，發現你的體質。",
-            "中医学には9つの体質があります。無料の5分クイズであなたのタイプを発見。"
-          )}
-        </p>
-        <Link
-          href="/quiz"
-          className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2"
-        >
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

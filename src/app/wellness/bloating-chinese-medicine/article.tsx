@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function BloatingArticle() {
   const { locale } = useLocale()
@@ -237,6 +238,22 @@ export default function BloatingArticle() {
       </section>
 
       <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/always-bloated-after-eating" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Bloated", "腹脹", "膨満感")}</h3>
+            <p className="text-text2 text-sm">{l("Chronic bloating after meals is a classic sign of Damp accumulation", "飯後慢性腹脹是濕氣積聚的典型信號", "食後の慢性膨満感は湿気蓄積の典型的なサイン")}</p>
+          </Link>
+          <Link href="/patterns/heavy-and-sluggish" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Heavy & Sluggish", "沉重遲緩", "重だるさ")}</h3>
+            <p className="text-text2 text-sm">{l("The heavy, sluggish feeling often accompanies chronic bloating from Dampness", "沉重遲緩的感覺常伴隨濕氣引起的慢性腹脹", "重だるさは湿気による慢性膨満感とよく伴う")}</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">{l("Related Conditions", "相關症狀", "関連する症状")}</h2>
         <p className="text-text2 text-sm mb-4">{l("Dampness doesn't just cause bloating. It's connected to other common issues:", "濕氣不只造成腹脹，它跟其他常見問題也有關：", "湿気は膨満感だけでなく、他の一般的な問題とも関連しています：")}</p>
         <div className="space-y-3">
@@ -257,11 +274,7 @@ export default function BloatingArticle() {
 
       <FaqSection faqs={WELLNESS_FAQS["bloating-chinese-medicine"]} />
 
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">{l("Chronic bloating is one of the key signs of the Phlegm Damp body type.", "慢性腹脹是痰濕體質的關鍵信號之一。", "慢性の膨満感は痰湿タイプの主要なサインです。")}</p>
-        <p className="text-text2 text-sm mb-6">{l("There are 9 body types in Chinese medicine. Take the free 5-minute quiz to discover yours.", "中醫有9種體質。花5分鐘做免費測驗，發現你的體質。", "中医学には9つの体質があります。無料の5分クイズであなたのタイプを発見。")}</p>
-        <Link href="/quiz" className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2">{l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}</Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

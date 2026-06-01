@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function WhyAlwaysTiredArticle() {
   const { locale } = useLocale()
@@ -246,6 +247,22 @@ export default function WhyAlwaysTiredArticle() {
         </p>
       </section>
 
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/why-am-i-always-tired" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Always Tired", "總是疲勞", "いつも疲れている")}</h3>
+            <p className="text-text2 text-sm">{l("Fatigue that doesn't improve with sleep is the core symptom of Qi Deficiency", "睡眠無法改善的疲勞是氣虛的核心症狀", "睡眠で改善しない疲労は気虚の中核症状")}</p>
+          </Link>
+          <Link href="/patterns/low-vitality" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Low Vitality", "活力不足", "活力低下")}</h3>
+            <p className="text-text2 text-sm">{l("Chronically low energy and weak stamina define this pattern", "長期能量低和體力差是這種模式的定義", "慢性的なエネルギー不足と弱いスタミナがこのパターンを定義する")}</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Related conditions - internal links */}
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -291,29 +308,7 @@ export default function WhyAlwaysTiredArticle() {
       {/* FAQ */}
       <FaqSection faqs={WELLNESS_FAQS["why-am-i-always-tired"]} />
 
-      {/* CTA */}
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">
-          {l(
-            "Chronic fatigue is one of the key signs of the Qi Deficient body type.",
-            "慢性疲勞是氣虛體質的關鍵信號之一。",
-            "慢性疲労は気虚タイプの主要なサインの一つです。"
-          )}
-        </p>
-        <p className="text-text2 text-sm mb-6">
-          {l(
-            "There are 9 body types in Chinese medicine. Take the free 5-minute quiz to discover yours.",
-            "中醫有9種體質。花5分鐘做免費測驗，發現你的體質。",
-            "中医学には9つの体質があります。無料の5分クイズであなたのタイプを発見。"
-          )}
-        </p>
-        <Link
-          href="/quiz"
-          className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2"
-        >
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

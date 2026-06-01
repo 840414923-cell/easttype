@@ -6,6 +6,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
+import SymptomCta from "@/components/symptom-cta"
 
 const TYPE_SUMMARY: Record<ConstitutionId, { en: { name: string; desc: string; key: string }; zh: { name: string; desc: string; key: string }; ja: { name: string; desc: string; key: string } }> = {
   balanced: { en: { name: "The Still Lake", desc: "Self-regulating, steady energy, emotionally resilient. The rare baseline — only ~30% of people.", key: "Sleeps well, adapts easily, rarely sick" }, zh: { name: "平和質", desc: "自我調節、能量穩定、情緒韌性強。罕見基準體質，約30%的人。", key: "睡得好、適應力強、很少生病" }, ja: { name: "平和質", desc: "自己調節、安定エネルギー、感情的回復力。稀な基準体質、約30%", key: "よく眠れ、適応力強、病気になりにくい" } },
@@ -218,6 +219,22 @@ export default function BodyTypesArticle() {
       </section>
 
       <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Browse All Symptoms", "瀏覽所有症狀", "全症状を見る")}</h3>
+            <p className="text-text2 text-sm">{l("Explore all symptoms to find which ones match your body type", "探索所有症狀，找出哪些符合你的體質", "全ての症状を探索し、自分の体質に合うものを見つける")}</p>
+          </Link>
+          <Link href="/patterns" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Browse All Patterns", "瀏覽所有模式", "全パターンを見る")}</h3>
+            <p className="text-text2 text-sm">{l("Discover your dominant pattern through our comprehensive pattern guide", "透過完整的模式指南發現你的主導體質", "包括的なパターンガイドで自分の優勢パターンを発見")}</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">{l("Related Articles", "相關文章", "関連記事")}</h2>
         <p className="text-text2 text-sm mb-4">
           {l(
@@ -265,13 +282,7 @@ export default function BodyTypesArticle() {
 
       <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-body-types"]} />
 
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">{l("Which of the 9 types are you?", "你是9種體質中的哪一種？", "9つのタイプのどれ？")}</p>
-        <p className="text-text2 text-sm mb-6">{l("Take the free 5-minute quiz and get your personalized result.", "花5分鐘做免費測驗，取得你的個人結果。", "無料の5分クイズでパーソナライズされた結果を取得。")}</p>
-        <Link href="/quiz" className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2">
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }

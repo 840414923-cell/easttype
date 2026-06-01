@@ -85,6 +85,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-[family-name:var(--font-body)]">
         <LocaleProvider>{children}</LocaleProvider>
         <CookieConsent />
+        <script defer data-domain="myeasterntype.com" src="https://plausible.io/js/script.js" />
       </body>
     </html>
   )

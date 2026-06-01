@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import SymptomCta from "@/components/symptom-cta"
 
 export default function FoodsForEnergyArticle() {
   const { locale } = useLocale()
@@ -190,6 +191,22 @@ export default function FoodsForEnergyArticle() {
       <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-foods-for-energy"]} />
 
       <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          {l("Related Symptoms & Patterns", "相關症狀與模式", "関連する症状とパターン")}
+        </h2>
+        <div className="space-y-3">
+          <Link href="/symptoms/why-am-i-always-tired" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Always Tired", "總是疲勞", "いつも疲れている")}</h3>
+            <p className="text-text2 text-sm">{l("Chronic fatigue that doesn't improve with sleep often points to Qi Deficiency", "睡眠無法改善的慢性疲勞常指向氣虛", "睡眠で改善しない慢性疲労は気虚を指すことが多い")}</p>
+          </Link>
+          <Link href="/patterns/low-vitality" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{l("Low Vitality", "活力不足", "活力低下")}</h3>
+            <p className="text-text2 text-sm">{l("Low energy and weak stamina are hallmarks of the Low Vitality pattern", "能量低和體力差是活力不足模式的特徵", "エネルギー不足と弱いスタミナは活力低下パターンの特徴")}</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">{l("Related Articles", "相關文章", "関連記事")}</h2>
         <div className="space-y-3">
           <Link href="/wellness/why-am-i-always-tired" className="block bg-cream/20 border border-border/50 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline">
@@ -207,13 +224,7 @@ export default function FoodsForEnergyArticle() {
         </div>
       </section>
 
-      <section className="text-center py-10 border-t border-border">
-        <p className="text-text mb-2 font-medium">{l("The right food for YOUR body type makes all the difference.", "吃對你體質的食物，天差地別。", "自分の体質に合った食材で全く違う結果に。")}</p>
-        <p className="text-text2 text-sm mb-6">{l("Chinese medicine identifies 9 body types. Take the free 5-minute quiz and discover which foods actually fuel YOU.", "中醫有9種體質。花5分鐘做免費測驗，發現哪些食物真正給你能量。", "中医学は9つの体質を識別します。無料の5分クイズで自分に合った食材を発見。")}</p>
-        <Link href="/quiz" className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg bg-gradient-to-r from-accent to-accent2">
-          {l("Take the Free Quiz →", "免費測驗 →", "無料クイズ →")}
-        </Link>
-      </section>
+      <SymptomCta />
     </main>
   )
 }
