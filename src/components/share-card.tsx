@@ -79,47 +79,54 @@ export function ShareCardImage({
               </div>
             </div>
 
-            {/* Bottom overlay — compact bar only */}
+            {/* Bottom overlay — viral headline as hero */}
             <div className="absolute bottom-0 left-0 right-0 z-10">
               <div
-                className="px-4 pt-3 pb-3"
+                className="px-5 pt-6 pb-3"
                 style={{
-                  background: "linear-gradient(to top, rgba(26,20,16,0.92) 60%, transparent 100%)",
+                  background: "linear-gradient(to top, rgba(26,20,16,0.95) 50%, rgba(26,20,16,0.7) 75%, transparent 100%)",
                 }}
               >
-                {/* Type name */}
-                <div className="flex items-baseline gap-2 mb-1">
+                {/* Type name + nickname */}
+                <div className="flex items-center gap-2 mb-2">
                   <span
-                    className="font-[family-name:var(--font-display)] text-xl font-bold"
+                    className="font-[family-name:var(--font-display)] text-lg font-bold"
                     style={{ color: t.color }}
                   >
                     {locale.code === "en" ? t.en : locale.code === "zh-TW" ? t.zh.replace("质", "質") : t.zh}
                   </span>
-                  <span className="text-[11px] text-white/45">
-                    {locale.code === "en" ? `${t.zh} · ${t.zhPy}` : `${t.en} · ${t.zhPy}`}
+                  <span className="text-sm text-white/50">
+                    {viral.nickname}
                   </span>
                 </div>
 
-                {/* Percentage badge — eye-catching */}
-                <div className="flex items-baseline gap-1 mb-1">
+                {/* Viral headline — THE hero text */}
+                <div
+                  className="font-[family-name:var(--font-display)] text-[22px] sm:text-[28px] font-bold text-white leading-[1.15] mb-2"
+                >
+                  {viral.cardHeadline}
+                </div>
+
+                {/* Percentage + tagline */}
+                <div className="flex items-baseline gap-1.5 mb-1.5">
                   <span
-                    className="font-[family-name:var(--font-display)] text-2xl font-bold"
+                    className="font-[family-name:var(--font-display)] text-xl font-bold"
                     style={{ color: t.color }}
                   >
                     {t.pct}
                   </span>
-                  <span className="text-[10px] text-white/50 font-medium">
+                  <span className="text-sm text-white/60 font-medium">
                     {l("of people share your type", "的人和你一樣體質", "の人が同じタイプ")}
                   </span>
                 </div>
 
-                {/* Tagline */}
-                <div className="text-[12px] text-white/85 font-medium leading-snug">
-                  &ldquo;{viral.cardHeadline}&rdquo;
+                {/* Prediction tease */}
+                <div className="text-sm text-white/75 font-medium italic">
+                  {viral.predictions[0]}
                 </div>
 
                 {/* QR + URL */}
-                <div className="flex items-center gap-2.5 pt-2.5 mt-2 border-t border-white/8">
+                <div className="flex items-center gap-2.5 pt-2 mt-2 border-t border-white/8">
                   <div className="bg-white rounded p-1 flex-shrink-0">
                     <QRCodeSVG
                       value="https://myeasterntype.com"
@@ -128,11 +135,11 @@ export function ShareCardImage({
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="font-[family-name:var(--font-display)] text-xs text-white/80 tracking-wide">
+                    <div className="font-[family-name:var(--font-display)] text-sm text-white/80 tracking-wide">
                       myeasterntype.com
                     </div>
-                    <div className="text-[9px] text-white/35 mt-0.5">
-                      {l("Scan to discover your type", "掃碼測測你的體質", "スキャンしてタイプを発見")}
+                    <div className="text-xs text-white/40 mt-0.5">
+                      {l("Take the free quiz →", "免費測驗 →", "無料クイズ →")}
                     </div>
                   </div>
                 </div>
