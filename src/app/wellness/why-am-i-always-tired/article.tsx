@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function WhyAlwaysTiredArticle() {
   const { locale } = useLocale()
@@ -156,6 +158,12 @@ export default function WhyAlwaysTiredArticle() {
           )}
         </p>
       </section>
+
+      {/* FAQ */}
+      <FaqSection faqs={WELLNESS_FAQS["why-am-i-always-tired"]} />
+
+      {/* FAQ */}
+      <FaqSection faqs={WELLNESS_FAQS["why-am-i-always-tired"]} />
 
       {/* CTA */}
       <section className="text-center py-10 border-t border-border">

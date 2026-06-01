@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function FoodsForEnergyArticle() {
   const { locale } = useLocale()
@@ -109,6 +111,8 @@ export default function FoodsForEnergyArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-foods-for-energy"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("The right food for YOUR body type makes all the difference.", "吃對你體質的食物，天差地別。", "自分の体質に合った食材で全く違う結果に。")}</p>

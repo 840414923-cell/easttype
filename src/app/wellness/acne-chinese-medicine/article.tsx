@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function AcneArticle() {
   const { locale } = useLocale()
@@ -90,6 +92,8 @@ export default function AcneArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["acne-chinese-medicine"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("Persistent acne is one of the key signs of the Damp Heat body type.", "持續長痘是濕熱體質的關鍵信號之一。", "持続的なニキビは湿熱タイプの主要なサインです。")}</p>

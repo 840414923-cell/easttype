@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { TYPES, TYPE_IDS } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import TypeDetailClient from "./detail-client"
+import { buildMedicalWebPageJsonLd } from "@/lib/json-ld"
 
 const SEO_TITLES: Record<ConstitutionId, { en: string; zh: string; ja: string }> = {
   balanced: { en: "The Still Lake — Balanced Constitution (Ping He)", zh: "平和質 — 你是那1/10的天選之人", ja: "平和質 — バランスのとれた体質" },
@@ -69,6 +70,30 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 }
 
-export default function TypeDetailPage({ params }: { params: Promise<{ id: string }> }) {
-  return <TypeDetailClient params={params} />
+export default async function TypeDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const typeId = id as ConstitutionId
+  const titles = SEO_TITLES[typeId]
+  const descs = SEO_DESCS[typeId]
+  const url = `https://myeasterntype.com/types/${id}`
+
+  const jsonLd = TYPES[typeId]
+    ? buildMedicalWebPageJsonLd({
+        title: `EastType — ${titles.en}`,
+        description: descs.en,
+        url,
+      })
+    : null
+
+  return (
+    <>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
+      <TypeDetailClient params={params} />
+    </>
+  )
 }

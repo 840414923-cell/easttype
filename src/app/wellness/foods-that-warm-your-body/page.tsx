@@ -1,29 +1,47 @@
 import type { Metadata } from "next"
 import WellnessArticle from "./article"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
+import { buildArticleJsonLd } from "@/lib/json-ld"
+
+const SLUG = "foods-that-warm-your-body"
+const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const TITLE = "Foods That Warm Your Body: A Chinese Medicine Guide"
+const DESC = "Yang Deficiency means your inner furnace is underpowered. Learn which warming foods — ginger, cinnamon, lamb — can stoke your fire, and which cold foods make it worse."
 
 export const metadata: Metadata = {
-  title: "Foods That Warm Your Body: A Chinese Medicine Guide | EastType",
-  description:
-    "Yang Deficiency means your inner furnace is underpowered. Learn which warming foods — ginger, cinnamon, lamb — can stoke your fire, and which cold foods make it worse.",
+  title: `${TITLE} | EastType`,
+  description: DESC,
   openGraph: {
-    title: "Foods That Warm Your Body: A Chinese Medicine Guide",
-    description:
-      "Cold hands, frequent urination, aversion to cold? In Chinese medicine, that's Yang Deficiency — and warming foods are the medicine. Here's what to eat and what to avoid.",
-    url: "https://myeasterntype.com/wellness/foods-that-warm-your-body",
+    title: TITLE,
+    description: "Cold hands, frequent urination, aversion to cold? In Chinese medicine, that's Yang Deficiency — and warming foods are the medicine. Here's what to eat and what to avoid.",
+    url: URL,
     type: "article",
     siteName: "EastType",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Foods That Warm Your Body: A Chinese Medicine Guide",
-    description:
-      "Cold hands, frequent urination, aversion to cold? That's Yang Deficiency. Warming foods are the medicine.",
+    title: TITLE,
+    description: "Cold hands, frequent urination, aversion to cold? That's Yang Deficiency. Warming foods are the medicine.",
   },
-  alternates: {
-    canonical: "https://myeasterntype.com/wellness/foods-that-warm-your-body",
-  },
+  alternates: { canonical: URL },
 }
 
+const jsonLd = buildArticleJsonLd({
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-05-15",
+  faqs: WELLNESS_FAQS[SLUG],
+})
+
 export default function FoodsThatWarmPage() {
-  return <WellnessArticle />
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <WellnessArticle />
+    </>
+  )
 }

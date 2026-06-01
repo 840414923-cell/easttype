@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function FoodsThatWarmArticle() {
   const { locale } = useLocale()
@@ -160,6 +162,11 @@ export default function FoodsThatWarmArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["foods-that-warm-your-body"]} />
+
+      {/* FAQ */}
+      <FaqSection faqs={WELLNESS_FAQS["foods-that-warm-your-body"]} />
 
       {/* CTA */}
       <section className="text-center py-10 border-t border-border">

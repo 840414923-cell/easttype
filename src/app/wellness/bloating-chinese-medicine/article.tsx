@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function BloatingArticle() {
   const { locale } = useLocale()
@@ -101,6 +103,8 @@ export default function BloatingArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["bloating-chinese-medicine"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("Chronic bloating is one of the key signs of the Phlegm Damp body type.", "慢性腹脹是痰濕體質的關鍵信號之一。", "慢性の膨満感は痰湿タイプの主要なサインです。")}</p>

@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function ColdHandsArticle() {
   const { locale } = useLocale()
@@ -97,6 +99,8 @@ export default function ColdHandsArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["cold-hands-and-feet"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("Always cold is one of the key signs of the Yang Deficient body type.", "長期怕冷是陽虛體質的關鍵信號之一。", "いつも寒いのは陽虚タイプの主要なサインです。")}</p>

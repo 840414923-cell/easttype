@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function InsomniaChineseMedicineArticle() {
   const { locale } = useLocale()
@@ -156,6 +158,11 @@ export default function InsomniaChineseMedicineArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["insomnia-chinese-medicine"]} />
+
+      {/* FAQ */}
+      <FaqSection faqs={WELLNESS_FAQS["insomnia-chinese-medicine"]} />
 
       {/* CTA */}
       <section className="text-center py-10 border-t border-border">

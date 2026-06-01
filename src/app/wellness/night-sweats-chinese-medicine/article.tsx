@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 
 export default function NightSweatsArticle() {
   const { locale } = useLocale()
@@ -97,6 +99,8 @@ export default function NightSweatsArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["night-sweats-chinese-medicine"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("Night sweats are one of the key signs of the Yin Deficient body type.", "夜間盜汗是陰虛體質的關鍵信號之一。", "寝汗は陰虚タイプの主要なサインです。")}</p>

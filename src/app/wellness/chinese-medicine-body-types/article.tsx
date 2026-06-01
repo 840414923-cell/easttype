@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useLocale } from "@/components/locale-provider"
+import FaqSection from "@/components/faq-section"
+import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 
@@ -92,6 +94,8 @@ export default function BodyTypesArticle() {
           )}
         </p>
       </section>
+
+      <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-body-types"]} />
 
       <section className="text-center py-10 border-t border-border">
         <p className="text-text mb-2 font-medium">{l("Which of the 9 types are you?", "你是9種體質中的哪一種？", "9つのタイプのどれ？")}</p>
