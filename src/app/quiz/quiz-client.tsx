@@ -1,12 +1,10 @@
 "use client"
 
-import { useState, useCallback, useEffect, useRef } from "react"
+import { useState, useCallback, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { LIKERT_OPTIONS, calculate27Scores, getPrimaryAndSecondary } from "@/lib/quiz-27"
 import { QUIZ_15, QUIZ_15_INDICES, QUIZ_12, calculate15Scores } from "@/lib/quiz-15"
-import { useLocale } from "@/components/locale-provider"
-import type { LocaleCode } from "@/lib/i18n/types"
 import type { ConstitutionId } from "@/lib/types"
 import MidReveal from "@/components/mid-reveal"
 
@@ -55,11 +53,6 @@ function buildFullScores(
 
 export default function QuizClient() {
   const router = useRouter()
-  const { locale, localeCode } = useLocale()
-  const l = (obj: Record<string, string>) =>
-    localeCode === "en" ? obj.en : localeCode === "zh-TW" ? obj["zh-TW"] : obj.ja
-  const t = (en: string, zh: string, ja: string) =>
-    localeCode === "en" ? en : localeCode === "zh-TW" ? zh : ja
 
   const [sex, setSex] = useState<Sex | null>(null)
   const [phase, setPhase] = useState<Phase>("sex")
@@ -80,8 +73,8 @@ export default function QuizClient() {
   const currentQuestion = questions[currentQ]
 
   const phaseLabel = isPhase1
-    ? t("Quick Scan · ~3 min", "快速掃描 · 約 3 分鐘", "クイックスキャン · 約3分")
-    : t("Deep Analysis · ~2 min", "深度分析 · 約 2 分鐘", "ディープアナリシス · 約2分")
+    ? "Quick Scan · ~3 min"
+    : "Deep Analysis · ~2 min"
 
   const finishAndNavigate = useCallback(
     (fullAnswers: number[]) => {
@@ -98,11 +91,11 @@ export default function QuizClient() {
       p.set("primary", primary)
       if (secondary) p.set("secondary", secondary)
       p.set("scores", Object.entries(weighted).map(([k, v]) => `${k}:${v}`).join(","))
-      p.set("lang", localeCode)
+      p.set("lang", "en")
       if (sex) p.set("sex", sex)
       router.push(`/result?${p.toString()}`)
     },
-    [sex, localeCode, router],
+    [sex, router],
   )
 
   const handleSexSelect = useCallback((s: Sex) => {
@@ -190,8 +183,8 @@ export default function QuizClient() {
   if (phase === "completion") {
     return (
       <>
-        <Nav locale={locale} />
-        <CompletionAnimation localeCode={localeCode} />
+        <Nav />
+        <CompletionAnimation />
       </>
     )
   }
@@ -199,12 +192,10 @@ export default function QuizClient() {
   if (phase === "mid-reveal" && midRevealScores && midRevealPrimary) {
     return (
       <>
-        <Nav locale={locale} />
+        <Nav />
         <MidReveal
           scores={midRevealScores}
           primaryId={midRevealPrimary}
-          localeCode={localeCode}
-          locale={locale}
           onComplete={handleMidRevealComplete}
           onSkip={handleMidRevealSkip}
         />
@@ -215,20 +206,16 @@ export default function QuizClient() {
   if (phase === "sex") {
     return (
       <>
-        <Nav locale={locale} />
+        <Nav />
         <div className="max-w-lg mx-auto px-6 py-20 min-h-screen flex flex-col items-center justify-center">
           <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4">
-            {t("Step 1 of 2", "第 1 步，共 2 步", "ステップ 1/2")}
+            Step 1 of 2
           </div>
           <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-center mb-4 leading-snug">
-            {t("What's your biological sex?", "你的生理性別是？", "生物学的な性別は？")}
+            What&apos;s your biological sex?
           </h1>
           <p className="text-text2 text-center mb-12 leading-relaxed max-w-sm">
-            {t(
-              "This helps us account for gender-specific patterns in Chinese medicine. Your data stays private.",
-              "這幫助我們考量中醫中性別特有的體質傾向。你的資料完全保密。",
-              "中医における性別特有の体質パターンを考慮するために使用します。データは完全にプライベートです。"
-            )}
+            This helps us account for gender-specific patterns in Chinese medicine. Your data stays private.
           </p>
           <div className="flex gap-4 w-full max-w-xs">
             <button
@@ -237,7 +224,7 @@ export default function QuizClient() {
             >
               <div className="text-3xl mb-2">♀</div>
               <div className="font-semibold text-base">
-                {t("Female", "女性", "女性")}
+                Female
               </div>
             </button>
             <button
@@ -246,7 +233,7 @@ export default function QuizClient() {
             >
               <div className="text-3xl mb-2">♂</div>
               <div className="font-semibold text-base">
-                {t("Male", "男性", "男性")}
+                Male
               </div>
             </button>
           </div>
@@ -258,14 +245,13 @@ export default function QuizClient() {
   return (
     <>
       <Nav
-        locale={locale}
         right={
           <div className="flex items-center gap-4">
             <span className="text-xs text-text2">
               {phaseLabel}
             </span>
             <Link href="/" className="text-sm text-text2 hover:text-accent px-4 py-2 no-underline transition-colors">
-              {locale.ui.exit}
+              Exit
             </Link>
           </div>
         }
@@ -297,40 +283,39 @@ export default function QuizClient() {
         <div className="max-w-xl mx-auto w-full">
           {isPhase1 && (
             <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4 text-center">
-              {t("Quick Scan", "快速掃描", "クイックスキャン")}
+              Quick Scan
             </div>
           )}
           {isPhase2 && (
             <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4 text-center">
-              {t("Deep Analysis", "深度分析", "ディープアナリシス")}
+              Deep Analysis
             </div>
           )}
 
-          {/* Fixed-height question area — answer options stay in place */}
           <div className="h-[110px] sm:h-[90px] flex items-center justify-center mb-4 px-2">
             <h2 className="font-[family-name:var(--font-display)] text-[17px] sm:text-xl leading-[1.45] text-center">
-              {l(currentQuestion.q)}
+              {currentQuestion.q.en}
             </h2>
           </div>
 
-          <Collapsible label={t("Why this question?", "為什麼問這個？", "なぜこの質問？")}>
+          <Collapsible label="Why this question?">
             <div className="flex items-start gap-2">
               <span className="text-accent text-xs mt-0.5 flex-shrink-0">&#9670;</span>
               <p className="text-sm text-text2 leading-relaxed">
-                {l(currentQuestion.theory)}
+                {currentQuestion.theory.en}
               </p>
             </div>
           </Collapsible>
 
-          <Collapsible label={t("Think of it this way...", "換個方式想...", "こう考えてみて...")}>
+          <Collapsible label="Think of it this way...">
             <p className="text-sm text-text2 leading-relaxed italic opacity-80">
-              {l(currentQuestion.bridge)}
+              {currentQuestion.bridge.en}
             </p>
           </Collapsible>
 
           <div className="flex flex-col gap-3">
             {LIKERT_OPTIONS.map((opt) => {
-              const label = localeCode === "en" ? opt.en : localeCode === "zh-TW" ? opt["zh-TW"] : opt.ja
+              const label = opt.en
               return (
                 <button
                   key={opt.value}
@@ -351,15 +336,10 @@ export default function QuizClient() {
                 </button>
               )
             })}
-	          </div>
+          </div>
 
-          {/* Disclaimer */}
           <p className="text-[9px] text-text2/60 text-center mt-4 leading-relaxed">
-            {t(
-              "For wellness & self-awareness only. Not medical advice.",
-              "僅供養生與自我覺察。非醫療建議。",
-              "ウェルネスと自己認識のためのみ。医療アドバイスではありません。"
-            )}
+            For wellness &amp; self-awareness only. Not medical advice.
           </p>
         </div>
       </div>
@@ -367,67 +347,16 @@ export default function QuizClient() {
   )
 }
 
-function QuizLocaleSelect({ localeCode, setLocaleCode, localeKeys, locales }: {
-  localeCode: string
-  setLocaleCode: (code: any) => void
-  localeKeys: string[]
-  locales: Record<string, { label: string }>
-}) {
-  const [open, setOpen] = useState(false)
-  const ref = useRef<HTMLDivElement>(null)
-
-  useEffect(() => {
-    if (!open) return
-    const handler = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
-    }
-    document.addEventListener("mousedown", handler)
-    return () => document.removeEventListener("mousedown", handler)
-  }, [open])
-
-  return (
-    <div ref={ref} className="relative">
-      <button
-        onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded border border-[rgba(201,163,85,0.15)] bg-[rgba(201,163,85,0.05)] text-text2 hover:text-accent hover:border-[rgba(201,163,85,0.3)] cursor-pointer transition-all duration-200"
-      >
-        <span>🌐</span>
-        <span className="font-medium">{locales[localeCode].label}</span>
-        <span className={`text-[10px] transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▾</span>
-      </button>
-      {open && (
-        <div className="absolute right-0 top-full mt-1.5 min-w-[120px] py-1.5 rounded-xl border border-[rgba(201,163,85,0.15)] bg-[rgba(10,15,30,0.95)] backdrop-blur-xl shadow-lg shadow-black/30 z-50">
-          {localeKeys.map((key) => (
-            <button
-              key={key}
-              onClick={() => { setLocaleCode(key); setOpen(false) }}
-              className={`w-full text-left px-4 py-2 text-xs cursor-pointer transition-colors ${
-                localeCode === key
-                  ? "text-accent font-semibold bg-[rgba(201,163,85,0.1)]"
-                  : "text-text2 hover:text-accent hover:bg-[rgba(201,163,85,0.06)]"
-              }`}
-            >
-              {locales[key].label}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
-
-function Nav({ locale, right }: { locale: { ui: { exit: string } }; right?: React.ReactNode }) {
-  const { localeCode, setLocaleCode, localeKeys, locales } = useLocale()
+function Nav({ right }: { right?: React.ReactNode }) {
   return (
     <nav className="sticky top-0 z-50 bg-[rgba(10,15,30,0.92)] backdrop-blur-xl border-b border-border px-6 py-4 flex justify-between items-center">
       <Link href="/" className="font-[family-name:var(--font-display)] text-xl font-bold text-text no-underline tracking-wide">
         East<span className="text-accent">Type</span>
       </Link>
       <div className="flex items-center gap-3">
-        <QuizLocaleSelect localeCode={localeCode} setLocaleCode={setLocaleCode} localeKeys={localeKeys} locales={locales} />
         {right ?? (
           <Link href="/" className="text-sm text-text2 hover:text-accent px-4 py-2 no-underline transition-colors">
-            {locale.ui.exit}
+            Exit
           </Link>
         )}
       </div>
@@ -435,7 +364,7 @@ function Nav({ locale, right }: { locale: { ui: { exit: string } }; right?: Reac
   )
 }
 
-function CompletionAnimation({ localeCode }: { localeCode: string }) {
+function CompletionAnimation() {
   const [step, setStep] = useState(0)
 
   useEffect(() => {
@@ -455,10 +384,10 @@ function CompletionAnimation({ localeCode }: { localeCode: string }) {
 
         <div className={`mt-6 transition-all duration-700 ${step >= 1 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           <div className="text-accent text-xs uppercase tracking-[0.2em] mb-2">
-            {localeCode === "en" ? "Analysis Complete" : localeCode === "zh-TW" ? "分析完成" : "分析完了"}
+            Analysis Complete
           </div>
           <div className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text">
-            {localeCode === "en" ? "27 Body Signals Collected" : localeCode === "zh-TW" ? "27 個身體訊號已收集" : "27の体のシグナルを収集完了"}
+            27 Body Signals Collected
           </div>
         </div>
 
@@ -469,7 +398,7 @@ function CompletionAnimation({ localeCode }: { localeCode: string }) {
             ))}
           </div>
           <div className="text-sm text-text2 mt-2">
-            {localeCode === "en" ? "Analyzing your constitution..." : localeCode === "zh-TW" ? "正在分析你的體質..." : "体質を分析中..."}
+            Analyzing your constitution...
           </div>
         </div>
       </div>

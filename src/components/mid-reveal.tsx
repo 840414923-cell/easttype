@@ -5,7 +5,7 @@ import type { ConstitutionId } from "@/lib/types"
 import { TYPES } from "@/lib/constitution-data"
 import { QUIZ_12, QUIZ_12_INDICES } from "@/lib/quiz-15"
 import { LIKERT_OPTIONS } from "@/lib/quiz-27"
-import type { LocaleCode } from "@/lib/i18n/types"
+import { TYPE_VIRAL } from "@/lib/type-viral"
 
 function Collapsible({ label, children }: { label: string; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
@@ -33,18 +33,13 @@ const RADAR_AXES: ConstitutionId[] = [
   "qi_stagnant", "sensitive",
 ]
 
-function t(localeCode: LocaleCode, en: string, zh: string, ja: string) {
-  return localeCode === "en" ? en : localeCode === "zh-TW" ? zh : ja
-}
-
 interface RadarChartProps {
   scores: Record<ConstitutionId, number>
   primaryId: ConstitutionId
   animated: boolean
-  localeCode: LocaleCode
 }
 
-function RadarChart({ scores, primaryId, animated, localeCode }: RadarChartProps) {
+function RadarChart({ scores, primaryId, animated }: RadarChartProps) {
   const size = 220
   const cx = size / 2
   const cy = size / 2
@@ -117,11 +112,9 @@ function RadarChart({ scores, primaryId, animated, localeCode }: RadarChartProps
           fontSize="8"
           fontWeight="500"
         >
-          {localeCode === "en"
-            ? TYPES[p.id].en.length > 14
-              ? TYPES[p.id].en.split(" ").slice(0, 2).join(" ")
-              : TYPES[p.id].en
-            : TYPES[p.id].zh}
+          {TYPES[p.id].en.length > 14
+            ? TYPES[p.id].en.split(" ").slice(0, 2).join(" ")
+            : TYPES[p.id].en}
         </text>
       ))}
     </svg>
@@ -131,13 +124,11 @@ function RadarChart({ scores, primaryId, animated, localeCode }: RadarChartProps
 interface MidRevealProps {
   scores: Record<ConstitutionId, number>
   primaryId: ConstitutionId
-  localeCode: LocaleCode
-  locale: { types: Record<string, { nickname: string; cardHeadline: string; predictions: string[] }> }
   onComplete: (extraAnswers: number[]) => void
   onSkip: () => void
 }
 
-export default function MidReveal({ scores, primaryId, localeCode, locale, onComplete, onSkip }: MidRevealProps) {
+export default function MidReveal({ scores, primaryId, onComplete, onSkip }: MidRevealProps) {
   const [phase, setPhase] = useState<"reveal" | "quiz" | "done">("reveal")
   const [animated, setAnimated] = useState(false)
   const [currentQ, setCurrentQ] = useState(0)
@@ -146,7 +137,7 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
   const [isTransitioning, setIsTransitioning] = useState(false)
 
   const primaryType = TYPES[primaryId]
-  const viral = locale.types[primaryId] ?? locale.types.balanced
+  const viral = TYPE_VIRAL[primaryId] ?? TYPE_VIRAL.balanced
   const remainingCount = QUIZ_12_INDICES.length
 
   useEffect(() => {
@@ -181,8 +172,6 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
 
   if (phase === "quiz") {
     const question = QUIZ_12[currentQ]
-    const l = (obj: Record<string, string>) =>
-      localeCode === "en" ? obj.en : localeCode === "zh-TW" ? obj["zh-TW"] : obj.ja
     const progress = ((currentQ + 1) / remainingCount) * 100
 
     return (
@@ -217,75 +206,64 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
 
         <div className="max-w-xl mx-auto w-full">
           <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4 text-center">
-            {t(localeCode, "Deep Analysis", "深度分析", "ディープアナリシス")}
+            Deep Analysis
           </div>
           <div className="h-[110px] sm:h-[90px] flex items-center justify-center mb-4 px-2">
             <h2 className="font-[family-name:var(--font-display)] text-[17px] sm:text-xl leading-[1.45] text-center">
-              {l(question.q)}
+              {question.q.en}
             </h2>
           </div>
-          <Collapsible label={t(localeCode, "Why this question?", "為什麼問這個？", "なぜこの質問？")}>
+          <Collapsible label="Why this question?">
             <div className="flex items-start gap-2">
               <span className="text-accent text-xs mt-0.5 flex-shrink-0">&#9670;</span>
-              <p className="text-sm text-text2 leading-relaxed">{l(question.theory)}</p>
+              <p className="text-sm text-text2 leading-relaxed">{question.theory.en}</p>
             </div>
           </Collapsible>
-          <Collapsible label={t(localeCode, "Think of it this way...", "換個方式想...", "こう考えてみて...")}>
-            <p className="text-sm text-text2 leading-relaxed italic opacity-80">{l(question.bridge)}</p>
+          <Collapsible label="Think of it this way...">
+            <p className="text-sm text-text2 leading-relaxed italic opacity-80">{question.bridge.en}</p>
           </Collapsible>
           <div className="flex flex-col gap-3 mt-5">
-            {LIKERT_OPTIONS.map((opt) => {
-              const label = localeCode === "en" ? opt.en : localeCode === "zh-TW" ? opt["zh-TW"] : opt.ja
-              return (
-                <button
-                  key={opt.value}
-                  onClick={() => handleLikert(opt.value)}
-                  disabled={isTransitioning}
-                  className={`w-full text-left p-4 rounded border-[1.5px] cursor-pointer transition-colors duration-200 flex items-center gap-4 min-h-[56px] ${
-                    selectedValue === opt.value
-                      ? "border-accent bg-[rgba(201,163,85,0.15)] text-accent"
-                      : "border-card-border bg-card-bg text-text hover:border-[rgba(201,163,85,0.3)] hover:bg-card-hover"
-                  } disabled:cursor-default`}
-                >
-                  <span className="flex-shrink-0 w-8 h-8 rounded-full border border-current flex items-center justify-center text-sm font-semibold opacity-60">
-                    {opt.value}
-                  </span>
-                  <span className="text-base">{label}</span>
-                </button>
-              )
-            })}
+            {LIKERT_OPTIONS.map((opt) => (
+              <button
+                key={opt.value}
+                onClick={() => handleLikert(opt.value)}
+                disabled={isTransitioning}
+                className={`w-full text-left p-4 rounded border-[1.5px] cursor-pointer transition-colors duration-200 flex items-center gap-4 min-h-[56px] ${
+                  selectedValue === opt.value
+                    ? "border-accent bg-[rgba(201,163,85,0.15)] text-accent"
+                    : "border-card-border bg-card-bg text-text hover:border-[rgba(201,163,85,0.3)] hover:bg-card-hover"
+                } disabled:cursor-default`}
+              >
+                <span className="flex-shrink-0 w-8 h-8 rounded-full border border-current flex items-center justify-center text-sm font-semibold opacity-60">
+                  {opt.value}
+                </span>
+                <span className="text-base">{opt.en}</span>
+              </button>
+            ))}
           </div>
         </div>
       </div>
     )
   }
 
-  const shareText = t(
-    localeCode,
-    `I just found out my Eastern body type is "${viral.nickname}"... and it explains EVERYTHING 🤯 Take the free quiz:`,
-    `我剛測出我的東方體質是「${viral.nickname}」… 完全說中我了 🤯 免費測驗：`,
-    `東洋の体質タイプは「${viral.nickname}」だった… 全部当てはまる 🤯 無料分析：`,
-  )
+  const shareText = `I just found out my Eastern body type is "${viral.nickname}"... and it explains EVERYTHING 🤯 Take the free quiz:`
   const shareUrl = typeof window !== "undefined" ? window.location.origin : ""
 
   return (
     <div className="max-w-lg mx-auto px-6 py-6 sm:py-12 min-h-screen flex flex-col items-center justify-center">
-      {/* Animated header */}
       <div className={`transition-all duration-700 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <div className="text-accent text-xs uppercase tracking-[0.2em] mb-2 text-center">
-          {t(localeCode, "Preliminary Result", "初步結果", "一次結果")}
+          Preliminary Result
         </div>
         <h1 className="font-[family-name:var(--font-display)] text-2xl sm:text-4xl text-center mb-1 leading-snug">
-          {t(localeCode, "We found your type", "我們找到你的體質了", "あなたのタイプが見つかりました")}
+          We found your type
         </h1>
       </div>
 
-      {/* Radar chart — compact */}
       <div className={`mt-4 transition-all duration-1000 delay-200 ${animated ? "opacity-100 scale-100" : "opacity-0 scale-75"}`}>
-        <RadarChart scores={scores} primaryId={primaryId} animated={animated} localeCode={localeCode} />
+        <RadarChart scores={scores} primaryId={primaryId} animated={animated} />
       </div>
 
-      {/* Type card — merged with prediction */}
       <div className={`mt-4 w-full max-w-md transition-all duration-700 delay-400 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <div
           className="rounded-xl border p-4 text-center"
@@ -305,7 +283,6 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
         </div>
       </div>
 
-      {/* Hook — irresistible reason to continue */}
       <div className={`mt-3 w-full max-w-md transition-all duration-700 delay-500 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <div
           className="rounded px-4 py-3 text-center"
@@ -318,33 +295,27 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
             &ldquo;{viral.predictions[0]}&rdquo;
           </div>
           <div className="text-xs text-accent mt-1.5 font-medium">
-            {t(localeCode, "This is only 70% accurate. Keep going?", "這只有 70% 準確。繼續嗎？", "これは70%の精度です。続けますか？")}
+            This is only 70% accurate. Keep going?
           </div>
         </div>
       </div>
 
-      {/* CTA buttons */}
       <div className={`mt-5 w-full max-w-md transition-all duration-700 delay-600 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <button
           onClick={handleStartPhase2}
           className="w-full py-4 rounded bg-gradient-to-r from-accent to-accent2 text-bg font-semibold text-base cursor-pointer transition-all duration-250 hover:-translate-y-0.5 hover:shadow-lg"
         >
-          {t(localeCode, "Unlock 95% Accuracy →", "解鎖 95% 準確率 →", "95%の精度をアンロック →")}
+          Unlock 95% Accuracy →
         </button>
         <div className="text-center text-xs text-text2 opacity-50 mt-1">
-          {t(
-            localeCode,
-            `Answer ${remainingCount} more · ~2 min · Free`,
-            `再答 ${remainingCount} 題 · 約 2 分鐘 · 免費`,
-            `あと${remainingCount}問 · 約2分 · 無料`,
-          )}
+          Answer {remainingCount} more · ~2 min · Free
         </div>
 
         <button
           onClick={onSkip}
           className="w-full mt-3 py-2 text-text2 text-xs cursor-pointer hover:text-accent transition-colors bg-transparent border-none"
         >
-          {t(localeCode, "Skip — show basic result", "跳過 — 顯示基本結果", "スキップ — 基本結果を見る")}
+          Skip — show basic result
         </button>
 
         <div className="mt-3 flex justify-center">
@@ -354,7 +325,7 @@ export default function MidReveal({ scores, primaryId, localeCode, locale, onCom
             rel="noopener noreferrer"
             className="text-xs text-text2 hover:text-accent transition-colors px-3 py-2 rounded border border-card-border bg-card-bg"
           >
-            {t(localeCode, "Share the Mystery →", "分享這個懸念 →", "ミステリーをシェア →")}
+            Share the Mystery →
           </a>
         </div>
       </div>

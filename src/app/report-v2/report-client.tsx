@@ -6,9 +6,7 @@ import Link from "next/link"
 import { TYPES } from "@/lib/constitution-data"
 import { getJsonReport, getProJsonReport, t } from "@/lib/reports-json"
 import type { Sex } from "@/lib/reports-json"
-import { useLocale } from "@/components/locale-provider"
 import type { ConstitutionId } from "@/lib/types"
-import type { LocaleCode } from "@/lib/i18n/types"
 import type { ReportBasic, ReportPro } from "@/lib/reports-json"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
@@ -17,7 +15,7 @@ import { CreemCheckout } from "@creem_io/nextjs"
 const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 
 const SEASON_KEYS = ["spring", "summer", "autumn", "winter"] as const
-const SEASON_LABELS: Record<LocaleCode, Record<string, string>> = {
+const SEASON_LABELS: Record<string, Record<string, string>> = {
   en: { spring: "Spring", summer: "Summer", autumn: "Autumn", winter: "Winter" },
   "zh-TW": { spring: "春季", summer: "夏季", autumn: "秋季", winter: "冬季" },
   ja: { spring: "春", summer: "夏", autumn: "秋", winter: "冬" },
@@ -34,7 +32,7 @@ function renderMdPlain(text: string) {
     .join("\n\n")
 }
 
-const UI: Record<LocaleCode, Record<string, string>> = {
+const UI: Record<string, Record<string, string>> = {
   en: {
     constitution: "Constitution", chinese: "Chinese", nickname: "Nickname", sex: "Sex",
     female: "Female ♀", male: "Male ♂",
@@ -112,7 +110,7 @@ const UI: Record<LocaleCode, Record<string, string>> = {
 /* ── Mobile Reading View ── */
 
 function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
-  report: ReportBasic; pro: ReportPro | null; lc: LocaleCode;
+  report: ReportBasic; pro: ReportPro | null; lc: string;
   ui: Record<string, string>; ct: typeof TYPES.balanced; sex: Sex;
   typeId: ConstitutionId; isPro: boolean
 }) {
@@ -133,15 +131,15 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
       {isPro && pro ? (
         <>
           <Section title={ui.proCh1Origin} color={ct.color}>
-            <TextBlock>{renderMdPlain(t(pro.ch1Origin, lc))}</TextBlock>
+            <TextBlock>{renderMdPlain(t(pro.ch1Origin))}</TextBlock>
           </Section>
           <Section title={ui.proCh1Emotion} color={ct.color}>
-            <TextBlock>{renderMdPlain(t(pro.ch1Emotion, lc))}</TextBlock>
+            <TextBlock>{renderMdPlain(t(pro.ch1Emotion))}</TextBlock>
           </Section>
         </>
       ) : (
         <Section title={ui.section1} color={ct.color}>
-          <TextBlock>{renderMdPlain(t(report.ch1Identity, lc))}</TextBlock>
+          <TextBlock>{renderMdPlain(t(report.ch1Identity))}</TextBlock>
         </Section>
       )}
 
@@ -152,11 +150,11 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           {report.ch2FoodsLove.map((food, i) => (
             <div key={i} className="bg-card-bg border border-card-border rounded-lg p-3">
               <div className="flex items-baseline gap-2 mb-1">
-                <span className="font-bold text-base">{t(food.name, lc)}</span>
+                <span className="font-bold text-base">{t(food.name)}</span>
                 <span className="text-[15px] text-text2">{food.nameZh}</span>
               </div>
-              <div className="text-[15px] text-accent mb-1 break-words">{t(food.tcmAction, lc)}</div>
-              <div className="text-[15px] text-text2 break-words">{t(food.desc, lc)}</div>
+              <div className="text-[15px] text-accent mb-1 break-words">{t(food.tcmAction)}</div>
+              <div className="text-[15px] text-text2 break-words">{t(food.desc)}</div>
             </div>
           ))}
         </div>
@@ -165,7 +163,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           <div className="flex flex-wrap gap-2">
             {report.ch2FoodsAvoid.map((item, i) => (
               <span key={i} className="text-[15px] bg-card-bg border border-card-border rounded-full px-3 py-1 text-text2">
-                ✕ {t(item, lc)}
+                ✕ {t(item)}
               </span>
             ))}
           </div>
@@ -175,7 +173,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           <div className="mt-4 space-y-3">
             {pro.ch2Combos.map((combo, i) => (
               <div key={i} className="border-l-2 pl-3" style={{ borderColor: "#b85450" }}>
-                <TextBlock>{renderMdPlain(t(combo, lc))}</TextBlock>
+                <TextBlock>{renderMdPlain(t(combo))}</TextBlock>
               </div>
             ))}
           </div>
@@ -185,11 +183,11 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
       {/* Ch3: Seasonal */}
       <Section title={ui.section3} color={ct.color}>
         <div className="bg-card-bg border border-card-border rounded-lg p-3 mb-4 border-l-2" style={{ borderLeftColor: ct.color }}>
-          <TextBlock>{t(report.ch3Seasonal.highlight, lc)}</TextBlock>
+          <TextBlock>{t(report.ch3Seasonal.highlight)}</TextBlock>
         </div>
         <div className="space-y-2">
           {report.ch3Seasonal.tips.map((tip, i) => {
-            const txt = t(tip, lc)
+            const txt = t(tip)
             const parts = txt.split("—")
             return (
               <div key={i} className="flex gap-2 text-[15px]">
@@ -206,7 +204,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
               {SEASON_KEYS.map((s) => (
                 <div key={s} className="text-[15px]">
                   <span className="text-accent font-bold">{seasonLabels[s]}：</span>
-                  <span className="text-text2">{t(pro.ch3SeasonDrinks[s], lc)}</span>
+                  <span className="text-text2">{t(pro.ch3SeasonDrinks[s])}</span>
                 </div>
               ))}
             </div>
@@ -215,7 +213,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
               {SEASON_KEYS.map((s) => (
                 <div key={s} className="text-[15px]">
                   <span className="text-accent font-bold">{seasonLabels[s]}：</span>
-                  <span className="text-text2">{t(pro.ch3SeasonNotes[s], lc)}</span>
+                  <span className="text-text2">{t(pro.ch3SeasonNotes[s])}</span>
                 </div>
               ))}
             </div>
@@ -230,9 +228,9 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
             <div key={i} className="bg-card-bg border border-card-border rounded-lg p-3">
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-accent font-bold text-base">{row.time}</span>
-                <span className="text-[15px] text-text2">{t(row.meridian, lc)}</span>
+                <span className="text-[15px] text-text2">{t(row.meridian)}</span>
               </div>
-              <div className="text-[15px] text-text2">{t(row.desc, lc).replace(/\*\*/g, "")}</div>
+              <div className="text-[15px] text-text2">{t(row.desc).replace(/\*\*/g, "")}</div>
             </div>
           ))}
         </div>
@@ -242,7 +240,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
             {report.ch4Checklist.map((item, i) => (
               <div key={i} className="flex items-start gap-2 text-[15px] text-text2">
                 <span className="text-accent">☐</span>
-                <span>{t(item, lc)}</span>
+                <span>{t(item)}</span>
               </div>
             ))}
           </div>
@@ -251,7 +249,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           <div className="mt-4 space-y-3">
             {pro.ch4Acupoints.map((point, i) => (
               <div key={i} className="border-l-2 pl-3" style={{ borderColor: ct.color }}>
-                <TextBlock>{renderMdPlain(t(point, lc))}</TextBlock>
+                <TextBlock>{renderMdPlain(t(point))}</TextBlock>
               </div>
             ))}
           </div>
@@ -289,7 +287,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
                 </div>
               ))}
             </div>
-            <div className="text-xs text-accent italic mt-2">{t(pro.ch7Schedule.footer, lc)}</div>
+            <div className="text-xs text-accent italic mt-2">{t(pro.ch7Schedule.footer)}</div>
           </Section>
           <Section title={ui.proCh8Monitor} color={ct.color}>
             <div className="space-y-2">
@@ -298,13 +296,13 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
                   <div className="text-accent font-bold mb-1">{ui.proDayCol} {row.day}</div>
                   <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-text2 text-xs">
                     {pro.ch8Monitor.headers.map((h, hi) => (
-                      <div key={hi}>{t(h, lc)}: ___</div>
+                      <div key={hi}>{t(h)}: ___</div>
                     ))}
                   </div>
                 </div>
               ))}
             </div>
-            <div className="text-xs text-accent italic mt-2">{t(pro.ch8Monitor.footer, lc)}</div>
+            <div className="text-xs text-accent italic mt-2">{t(pro.ch8Monitor.footer)}</div>
           </Section>
         </>
       )}
@@ -349,18 +347,18 @@ function TextBlock({ children }: { children: string }) {
   )
 }
 
-function MobileRecipe({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-TW": string; ja: string }; titleZh: string; ingredients: { name: { en: string; "zh-TW": string; ja: string }; aliases: string; amount: string }[]; tcmPrinciple: { en: string; "zh-TW": string; ja: string }; steps: { en: string; "zh-TW": string; ja: string }[]; tip: { en: string; "zh-TW": string; ja: string } }; lc: LocaleCode; ui: Record<string, string> }) {
+function MobileRecipe({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-TW": string; ja: string }; titleZh: string; ingredients: { name: { en: string; "zh-TW": string; ja: string }; aliases: string; amount: string }[]; tcmPrinciple: { en: string; "zh-TW": string; ja: string }; steps: { en: string; "zh-TW": string; ja: string }[]; tip: { en: string; "zh-TW": string; ja: string } }; lc: string; ui: Record<string, string> }) {
   return (
     <div className="bg-card-bg border border-card-border rounded-xl p-4">
-      <div className="font-bold text-base mb-0.5">{t(recipe.title, lc)}</div>
+      <div className="font-bold text-base mb-0.5">{t(recipe.title)}</div>
       <div className="text-[15px] text-accent mb-3">{recipe.titleZh}</div>
       <div className="text-xs text-text2 uppercase tracking-wider mb-1">{ui.tcmPrinciple}</div>
-      <div className="text-[15px] text-text2 mb-3">{t(recipe.tcmPrinciple, lc)}</div>
+      <div className="text-[15px] text-text2 mb-3">{t(recipe.tcmPrinciple)}</div>
       <div className="text-xs text-text2 uppercase tracking-wider mb-1">{ui.ingredients}</div>
       <div className="space-y-1 mb-3">
         {recipe.ingredients.map((ing, i) => (
           <div key={i} className="flex justify-between text-[15px]">
-            <span className="font-medium text-text">{t(ing.name, lc)}</span>
+            <span className="font-medium text-text">{t(ing.name)}</span>
             <span className="text-text2">{ing.amount}</span>
           </div>
         ))}
@@ -370,13 +368,13 @@ function MobileRecipe({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
         {recipe.steps.map((step, i) => (
           <li key={i} className="flex gap-2 text-[15px] text-text2">
             <span className="text-accent font-bold flex-shrink-0">{i + 1}.</span>
-            <span>{t(step, lc)}</span>
+            <span>{t(step)}</span>
           </li>
         ))}
       </ol>
       <div className="bg-bg rounded-lg px-3 py-2">
         <span className="text-[15px] font-bold text-accent">{ui.wellnessTip}</span>
-        <span className="text-[15px] text-text2">{t(recipe.tip, lc)}</span>
+        <span className="text-[15px] text-text2">{t(recipe.tip)}</span>
       </div>
     </div>
   )
@@ -384,8 +382,8 @@ function MobileRecipe({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
 
 function ReportV2Content() {
   const params = useSearchParams()
-  const { locale, localeCode } = useLocale()
-  const lc = localeCode
+  const locale = { types: {} as Record<string, { nickname: string }> }
+  const lc = "en"
   const ui = UI[lc]
 
   const typeId = (params.get("type") ?? "qi_deficient") as ConstitutionId
@@ -500,7 +498,7 @@ function ReportV2Content() {
 
 /* ── A4 Report (desktop + PDF generation target) ── */
 
-const HEADER_TEXT: Record<LocaleCode, { institution: string; title: string; disclaimer1: string; disclaimer2: string; warning: string }> = {
+const HEADER_TEXT: Record<string, { institution: string; title: string; disclaimer1: string; disclaimer2: string; warning: string }> = {
   en: {
     institution: "EastType · Traditional Chinese Medicine",
     title: "BODY PROFILE REPORT",
@@ -524,7 +522,7 @@ const HEADER_TEXT: Record<LocaleCode, { institution: string; title: string; disc
   },
 }
 
-const A4_UI: Record<LocaleCode, Record<string, string>> = {
+const A4_UI: Record<string, Record<string, string>> = {
   en: {
     constitution: "Constitution", chinese: "Chinese", nickname: "Nickname", sex: "Sex",
     female: "Female ♀", male: "Male ♂",
@@ -638,17 +636,17 @@ function SectionHeader({ num, title }: { num: number; title: string }) {
   )
 }
 
-function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-TW": string; ja: string }; titleZh: string; ingredients: { name: { en: string; "zh-TW": string; ja: string }; aliases: string; amount: string }[]; tcmPrinciple: { en: string; "zh-TW": string; ja: string }; steps: { en: string; "zh-TW": string; ja: string }[]; tip: { en: string; "zh-TW": string; ja: string } }; lc: LocaleCode; ui: Record<string, string> }) {
+function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-TW": string; ja: string }; titleZh: string; ingredients: { name: { en: string; "zh-TW": string; ja: string }; aliases: string; amount: string }[]; tcmPrinciple: { en: string; "zh-TW": string; ja: string }; steps: { en: string; "zh-TW": string; ja: string }[]; tip: { en: string; "zh-TW": string; ja: string } }; lc: string; ui: Record<string, string> }) {
   return (
     <div className="border border-[#e0d8cc] rounded-lg overflow-hidden">
       <div className="bg-[#f8f6f2] px-4 py-2 border-b border-[#e0d8cc]">
-        <div className="font-bold text-[15px] text-[#1a1a1a]">{t(recipe.title, lc)}</div>
+        <div className="font-bold text-[15px] text-[#1a1a1a]">{t(recipe.title)}</div>
         <div className="text-[13px]" style={{ color: "#7a6535" }}>{recipe.titleZh}</div>
       </div>
       <div className="px-4 py-3 space-y-3">
         <div>
           <div className="text-[12px] font-bold text-[#999] uppercase tracking-wider mb-1">{ui.tcmPrinciple}</div>
-          <p className="text-[13px] text-[#444] leading-[1.6]">{t(recipe.tcmPrinciple, lc)}</p>
+          <p className="text-[13px] text-[#444] leading-[1.6]">{t(recipe.tcmPrinciple)}</p>
         </div>
         <div>
           <div className="text-[12px] font-bold text-[#999] uppercase tracking-wider mb-1">{ui.ingredients}</div>
@@ -664,7 +662,7 @@ function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
               <tbody>
                 {recipe.ingredients.map((ing, i) => (
                   <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}>
-                    <td className="px-2 py-1 border border-[#e0d8cc] font-medium text-[#1a1a1a]">{t(ing.name, lc)}</td>
+                    <td className="px-2 py-1 border border-[#e0d8cc] font-medium text-[#1a1a1a]">{t(ing.name)}</td>
                     <td className="px-2 py-1 border border-[#e0d8cc] text-[#888] text-[11px]">{ing.aliases}</td>
                     <td className="px-2 py-1 border border-[#e0d8cc] text-[#444] font-medium">{ing.amount}</td>
                   </tr>
@@ -679,14 +677,14 @@ function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
             {recipe.steps.map((step, i) => (
               <li key={i} className="flex gap-2 text-[13px] text-[#444] leading-[1.6]">
                 <span className="font-bold shrink-0 w-5 h-5 rounded-full bg-[#f8f6f2] border border-[#e0d8cc] flex items-center justify-center text-[11px]" style={{ color: "#7a6535" }}>{i + 1}</span>
-                <span>{t(step, lc)}</span>
+                <span>{t(step)}</span>
               </li>
             ))}
           </ol>
         </div>
         <div className="bg-[#f8f6f2] rounded px-3 py-1.5">
           <span className="text-[12px] font-bold" style={{ color: "#7a6535" }}>{ui.wellnessTip}</span>
-          <span className="text-[12px] text-[#444]">{t(recipe.tip, lc)}</span>
+          <span className="text-[12px] text-[#444]">{t(recipe.tip)}</span>
         </div>
       </div>
     </div>
@@ -694,7 +692,7 @@ function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
 }
 
 function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
-  report: ReportBasic; pro: ReportPro | null; lc: LocaleCode;
+  report: ReportBasic; pro: ReportPro | null; lc: string;
   ui: Record<string, string>; ct: typeof TYPES.balanced; sex: Sex;
   typeId: ConstitutionId; isPro: boolean;
   locale: { types: Record<string, { nickname: string }> }
@@ -742,7 +740,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           {/* Basic Sections */}
           {!isPro && (
             <>
-              <div className="mb-6"><SectionHeader num={1} title={a4ui.section1} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(report.ch1Identity, lc)) }} /></div>
+              <div className="mb-6"><SectionHeader num={1} title={a4ui.section1} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(report.ch1Identity)) }} /></div>
               <div className="mb-6">
                 <SectionHeader num={2} title={a4ui.section2} />
                 <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-2">{a4ui.recommended}</div>
@@ -750,23 +748,23 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                   <thead><tr className="bg-[#f8f6f2]">{[a4ui.foodCol, a4ui.aliasCol, a4ui.tcmCol, a4ui.guideCol].map((h, i) => <th key={i} className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{h}</th>)}</tr></thead>
                   <tbody>{report.ch2FoodsLove.map((food, i) => (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}>
-                      <td className="px-3 py-1.5 border border-[#e0d8cc]"><span className="font-semibold">{t(food.name, lc)}</span><br /><span className="text-[11px] text-[#999]">{food.nameZh}</span></td>
+                      <td className="px-3 py-1.5 border border-[#e0d8cc]"><span className="font-semibold">{t(food.name)}</span><br /><span className="text-[11px] text-[#999]">{food.nameZh}</span></td>
                       <td className="px-3 py-1.5 border border-[#e0d8cc] text-[11px] text-[#888]">{food.aliases}</td>
-                      <td className="px-3 py-1.5 border border-[#e0d8cc] font-medium" style={{ color: "#7a6535" }}>{t(food.tcmAction, lc)}</td>
-                      <td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]">{t(food.desc, lc)}</td>
+                      <td className="px-3 py-1.5 border border-[#e0d8cc] font-medium" style={{ color: "#7a6535" }}>{t(food.tcmAction)}</td>
+                      <td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]">{t(food.desc)}</td>
                     </tr>
                   ))}</tbody>
                 </table></div>
                 <div className="text-[10px] font-bold text-[#b85450] uppercase tracking-wider mb-2">{a4ui.foodsToLimit}</div>
                 <div className="border border-[#e0d8cc] rounded px-3 py-2"><ul className="list-none p-0 space-y-1">{report.ch2FoodsAvoid.map((item, i) => (
-                  <li key={i} className="text-[13px] text-[#444] flex items-start gap-2"><span className="text-[#b85450] flex-shrink-0">✕</span><span>{t(item, lc)}</span></li>
+                  <li key={i} className="text-[13px] text-[#444] flex items-start gap-2"><span className="text-[#b85450] flex-shrink-0">✕</span><span>{t(item)}</span></li>
                 ))}</ul></div>
               </div>
               <div className="mb-6"><SectionHeader num={3} title={a4ui.section3} />
-                <div className="px-3 py-2 rounded bg-[#f8f6f2] mb-3 border-l-[3px] border-[#C9A96E]"><p className="text-[13px] leading-[1.6] text-[#1a1a1a] font-medium">{t(report.ch3Seasonal.highlight, lc)}</p></div>
+                <div className="px-3 py-2 rounded bg-[#f8f6f2] mb-3 border-l-[3px] border-[#C9A96E]"><p className="text-[13px] leading-[1.6] text-[#1a1a1a] font-medium">{t(report.ch3Seasonal.highlight)}</p></div>
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] min-w-[400px]">
                   <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-24">{a4ui.seasonCol}</th><th className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{a4ui.protocolCol}</th></tr></thead>
-                  <tbody>{report.ch3Seasonal.tips.map((tip, i) => { const txt = t(tip, lc); const season = txt.split("—")[0]?.trim() ?? ""; const body = txt.includes("—") ? txt.substring(txt.indexOf("—") + 1).trim() : txt; return (
+                  <tbody>{report.ch3Seasonal.tips.map((tip, i) => { const txt = t(tip); const season = txt.split("—")[0]?.trim() ?? ""; const body = txt.includes("—") ? txt.substring(txt.indexOf("—") + 1).trim() : txt; return (
                     <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}><td className="px-3 py-1.5 border border-[#e0d8cc] font-semibold" style={{ color: "#7a6535" }}>{season}</td><td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]" dangerouslySetInnerHTML={{ __html: body.replace(/\*\*(.*?)\*\*/g, '<strong class="text-[#1a1a1a]">$1</strong>') }} /></tr>
                   )})}</tbody>
                 </table></div>
@@ -777,8 +775,8 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                   <tbody>{report.ch4DailyRhythm.map((row, i) => (
                     <tr key={row.time} className={i % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}>
                       <td className="px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a] whitespace-nowrap">{row.time}</td>
-                      <td className="px-3 py-1.5 border border-[#e0d8cc] font-medium" style={{ color: "#7a6535" }}>{t(row.meridian, lc)}</td>
-                      <td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]" dangerouslySetInnerHTML={{ __html: t(row.desc, lc).replace(/\*\*(.*?)\*\*/g, '<strong class="text-[#1a1a1a]">$1</strong>') }} />
+                      <td className="px-3 py-1.5 border border-[#e0d8cc] font-medium" style={{ color: "#7a6535" }}>{t(row.meridian)}</td>
+                      <td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]" dangerouslySetInnerHTML={{ __html: t(row.desc).replace(/\*\*(.*?)\*\*/g, '<strong class="text-[#1a1a1a]">$1</strong>') }} />
                     </tr>
                   ))}</tbody>
                 </table></div>
@@ -788,7 +786,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                     <tr key={i} className={i < report.ch4Checklist.length - 1 ? "border-b border-[#eee8e0]" : ""}>
                       <td className="text-center px-2 py-2 border-r border-[#eee8e0]"><span className="inline-block w-3.5 h-3.5 border border-[#bbb] rounded-sm"></span></td>
                       <td className="text-center px-2 py-2 border-r border-[#eee8e0] text-[#bbb] text-[11px]">{i + 1}</td>
-                      <td className="px-3 py-2 text-[#444]">{t(item, lc)}</td>
+                      <td className="px-3 py-2 text-[#444]">{t(item)}</td>
                     </tr>
                   ))}</tbody></table>
                 </div>
@@ -799,26 +797,26 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           {/* Pro Sections */}
           {isPro && pro && (
             <>
-              <div className="mb-6"><SectionHeader num={1} title={a4ui.proCh1Origin} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Origin, lc)) }} /></div>
-              <div className="mb-6"><SectionHeader num={2} title={a4ui.proCh1Emotion} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Emotion, lc)) }} /></div>
+              <div className="mb-6"><SectionHeader num={1} title={a4ui.proCh1Origin} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Origin)) }} /></div>
+              <div className="mb-6"><SectionHeader num={2} title={a4ui.proCh1Emotion} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Emotion)) }} /></div>
               <div className="mb-6"><SectionHeader num={3} title={a4ui.proCh2Combos} /><div className="space-y-3">{pro.ch2Combos.map((combo, i) => (
-                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#b85450]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(combo, lc)) }} /></div>
+                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#b85450]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(combo)) }} /></div>
               ))}</div></div>
               <div className="mb-6"><SectionHeader num={4} title={a4ui.proCh3Drinks} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
-                <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonDrinks[s], lc)}</p></div>
+                <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonDrinks[s])}</p></div>
               ))}</div></div>
               <div className="mb-6"><SectionHeader num={5} title={a4ui.proCh3Notes} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
-                <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonNotes[s], lc)}</p></div>
+                <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonNotes[s])}</p></div>
               ))}</div></div>
               <div className="mb-6"><SectionHeader num={6} title={a4ui.proCh4Acupoints} /><div className="space-y-3">{pro.ch4Acupoints.map((point, i) => (
-                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#C9A96E]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(point, lc)) }} /></div>
+                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#C9A96E]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(point)) }} /></div>
               ))}</div></div>
               <div className="mb-6"><SectionHeader num={7} title={a4ui.proCh6Recipes} /><div className="space-y-4">{pro.ch6Recipes.map((recipe, i) => (
                 <div key={i}><div className="text-[12px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">{a4ui.proRecipeN} {i + 1}</div><A4RecipeCard recipe={recipe} lc={lc} ui={a4ui} /></div>
               ))}</div></div>
               <div className="mb-6"><SectionHeader num={8} title={a4ui.proCh7Schedule} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[11px]">
-                  <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch7Schedule.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h, lc)}</th>)}</tr></thead>
+                  <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch7Schedule.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h)}</th>)}</tr></thead>
                   <tbody>{pro.ch7Schedule.rows.map((row) => (
                     <tr key={row.day} className={row.day % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}>
                       <td className="px-2 py-1 border border-[#e0d8cc] font-bold text-center">{row.day}</td>
@@ -832,11 +830,11 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                     </tr>
                   ))}</tbody>
                 </table></div>
-                <div className="mt-2 text-[11px] text-[#7a6535] italic">{t(pro.ch7Schedule.footer, lc)}</div>
+                <div className="mt-2 text-[11px] text-[#7a6535] italic">{t(pro.ch7Schedule.footer)}</div>
               </div>
               <div className="mb-6"><SectionHeader num={9} title={a4ui.proCh8Monitor} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[11px]">
-                  <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch8Monitor.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h, lc)}</th>)}</tr></thead>
+                  <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch8Monitor.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h)}</th>)}</tr></thead>
                   <tbody>{pro.ch8Monitor.rows.map((row) => (
                     <tr key={row.day} className={row.day % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}>
                       <td className="px-2 py-1.5 border border-[#e0d8cc] font-bold text-center">{row.day}</td>
@@ -844,7 +842,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                     </tr>
                   ))}</tbody>
                 </table></div>
-                <div className="mt-2 text-[11px] text-[#7a6535] italic">{t(pro.ch8Monitor.footer, lc)}</div>
+                <div className="mt-2 text-[11px] text-[#7a6535] italic">{t(pro.ch8Monitor.footer)}</div>
               </div>
             </>
           )}
@@ -877,10 +875,9 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
 }
 
 export default function ReportV2Page() {
-  const { locale } = useLocale()
   return (
     <Suspense
-      fallback={<div className="min-h-screen flex items-center justify-center text-text2">{locale.ui.loadingResult}</div>}
+      fallback={<div className="min-h-screen flex items-center justify-center text-text2">Loading report...</div>}
     >
       <ReportV2Content />
     </Suspense>

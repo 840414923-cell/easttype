@@ -101,8 +101,6 @@ export interface ReportSexPair {
 
 export type Sex = "female" | "male"
 
-import type { LocaleCode } from "../i18n/types"
-
-export function t(text: LText, locale: LocaleCode): string {
-  return text[locale] || text.en
+export function t(text: LText): string {
+  return text.en
 }

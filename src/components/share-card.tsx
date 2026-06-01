@@ -5,7 +5,7 @@ import { toPng } from "html-to-image"
 import Image from "next/image"
 import { QRCodeSVG } from "qrcode.react"
 import { TYPES } from "@/lib/constitution-data"
-import { useLocale } from "@/components/locale-provider"
+import { TYPE_VIRAL } from "@/lib/type-viral"
 import type { ConstitutionId } from "@/lib/types"
 
 export function ShareCardImage({
@@ -15,14 +15,10 @@ export function ShareCardImage({
   typeId: ConstitutionId
   onBack?: () => void
 }) {
-  const { locale } = useLocale()
   const cardRef = useRef<HTMLDivElement>(null)
   const t = TYPES[typeId] ?? TYPES.balanced
-  const viral = locale.types[typeId] ?? locale.types.balanced
+  const viral = TYPE_VIRAL[typeId] ?? TYPE_VIRAL.balanced
   const imgSrc = `/types/${typeId}.png`
-
-  const l = (en: string, zh: string, ja: string) =>
-    locale.code === "en" ? en : locale.code === "zh-TW" ? zh : ja
 
   const handleDownload = useCallback(async () => {
     if (!cardRef.current) return
@@ -55,12 +51,10 @@ export function ShareCardImage({
             background: `linear-gradient(145deg, #C9A355, #E0C878, #C9A355, #A88740, #C9A355)`,
           }}
         >
-          {/* Inner card */}
           <div
             className="relative w-full h-full rounded-[9px] overflow-hidden"
             style={{ background: "#1A1410" }}
           >
-            {/* Background image — fully visible */}
             <Image
               src={imgSrc}
               alt={t.en}
@@ -69,17 +63,14 @@ export function ShareCardImage({
               unoptimized
             />
 
-            {/* Top gradient for branding */}
             <div className="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-black/50 to-transparent" />
 
-            {/* Top branding */}
             <div className="absolute top-0 left-0 right-0 flex items-center justify-center pt-3.5 z-10">
               <div className="font-[family-name:var(--font-display)] text-[11px] tracking-[0.2em] text-white/70">
                 ◇ EASTTYPE ◇
               </div>
             </div>
 
-            {/* Bottom overlay — viral headline as hero */}
             <div className="absolute bottom-0 left-0 right-0 z-10">
               <div
                 className="px-5 pt-6 pb-3"
@@ -87,27 +78,24 @@ export function ShareCardImage({
                   background: "linear-gradient(to top, rgba(26,20,16,0.95) 50%, rgba(26,20,16,0.7) 75%, transparent 100%)",
                 }}
               >
-                {/* Type name + nickname */}
                 <div className="flex items-center gap-2 mb-2">
                   <span
                     className="font-[family-name:var(--font-display)] text-lg font-bold"
                     style={{ color: t.color }}
                   >
-                    {locale.code === "en" ? t.en : locale.code === "zh-TW" ? t.zh.replace("质", "質") : t.zh}
+                    {t.en}
                   </span>
                   <span className="text-sm text-white/50">
                     {viral.nickname}
                   </span>
                 </div>
 
-                {/* Viral headline — THE hero text */}
                 <div
                   className="font-[family-name:var(--font-display)] text-[22px] sm:text-[28px] font-bold text-white leading-[1.15] mb-2"
                 >
                   {viral.cardHeadline}
                 </div>
 
-                {/* Percentage + tagline */}
                 <div className="flex items-baseline gap-1.5 mb-1.5">
                   <span
                     className="font-[family-name:var(--font-display)] text-xl font-bold"
@@ -116,16 +104,14 @@ export function ShareCardImage({
                     {t.pct}
                   </span>
                   <span className="text-sm text-white/60 font-medium">
-                    {l("of people share your type", "的人和你一樣體質", "の人が同じタイプ")}
+                    of people share your type
                   </span>
                 </div>
 
-                {/* Prediction tease */}
                 <div className="text-sm text-white/75 font-medium italic">
                   {viral.predictions[0]}
                 </div>
 
-                {/* QR + URL */}
                 <div className="flex items-center gap-2.5 pt-2 mt-2 border-t border-white/8">
                   <div className="bg-white rounded p-1 flex-shrink-0">
                     <QRCodeSVG
@@ -139,7 +125,7 @@ export function ShareCardImage({
                       myeasterntype.com
                     </div>
                     <div className="text-xs text-white/40 mt-0.5">
-                      {l("Take the free quiz →", "免費測驗 →", "無料クイズ →")}
+                      Take the free quiz →
                     </div>
                   </div>
                 </div>
@@ -154,7 +140,7 @@ export function ShareCardImage({
           onClick={handleDownload}
           className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-gradient-to-r from-accent to-accent2 text-bg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer transition-all duration-300 hover:shadow-[0_0_20px_rgba(201,163,85,0.2)] hover:-translate-y-0.5"
         >
-          {l("Save Image", "儲存圖片", "画像を保存")}
+          Save Image
         </button>
       </div>
     </div>

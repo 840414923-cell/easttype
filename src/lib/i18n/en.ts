@@ -1,12 +1,11 @@
-import type { LocaleData } from "./types"
 import { POOL } from "../questions/index"
 
-const questions: LocaleData["questions"] = POOL.map((q) => ({
+const questions = POOL.map((q) => ({
   q: q.q.en,
   opts: [q.opts[0].en, q.opts[1].en, q.opts[2].en, q.opts[3].en],
 }))
 
-const en: LocaleData = {
+const en = {
   code: "en",
   label: "EN",
   ui: {

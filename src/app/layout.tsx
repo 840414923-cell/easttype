@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next"
 import { Playfair_Display, DM_Sans, Noto_Serif_SC } from "next/font/google"
 import { Analytics } from "@vercel/analytics/react"
-import { LocaleProvider } from "@/components/locale-provider"
 import { CookieConsent } from "@/components/cookie-consent"
 import "./globals.css"
 
@@ -84,7 +83,7 @@ export default function RootLayout({
       className={`${playfair.variable} ${dmSans.variable} ${notoSerifSC.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-[family-name:var(--font-body)]">
-        <LocaleProvider>{children}</LocaleProvider>
+        {children}
         <Analytics />
         <CookieConsent />
       </body>
