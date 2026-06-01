@@ -92,10 +92,48 @@ export interface LocaleData {
   landing: {
     badge: string
     title1: string
-    title2em: string
-    subtitleBefore: string
-    subtitleHighlight: string
-    subtitleAfter: string
+    subtitle: string
+    cta: string
+    ctaSub: string
+    ctaSecondary: string
+    discoverTitle: string
+    discover1: string
+    discover2: string
+    discover3: string
+    discover4: string
+    discover5: string
+    archetypeTitle: string
+    archetypeLine1: string
+    archetypeLine2: string
+    howTitle: string
+    how1Title: string
+    how1Desc: string
+    how2Title: string
+    how2Desc: string
+    how3Title: string
+    how3Desc: string
+    previewTitle: string
+    previewBadge: string
+    previewType: string
+    previewTrait1: string
+    previewTrait2: string
+    previewTrait3: string
+    previewSug1: string
+    previewSug2: string
+    previewSug3: string
+    previewSub: string
+    seoTitle: string
+    seoP1: string
+    seoP2: string
+    faqTitle: string
+    faq1Q: string
+    faq1A: string
+    faq2Q: string
+    faq2A: string
+    faq3Q: string
+    faq3A: string
+    faq4Q: string
+    faq4A: string
     readySubtitleBefore: string
     readySubtitleAfter: string
   }

@@ -1,0 +1,52 @@
+import type { Metadata } from "next"
+import AlwaysBloatedArticle from "./article"
+import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
+import { buildArticleJsonLd } from "@/lib/json-ld"
+
+const SLUG = "always-bloated-after-eating"
+const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Always Bloated After Eating? Eastern Body Type Insights"
+const DESC = "Bloated after every meal? Traditional Chinese Medicine links bloating to specific body types. Learn which foods may help reduce that heavy feeling."
+
+export const metadata: Metadata = {
+  title: `${TITLE} | EastType`,
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: "Bloated after meals? Your Eastern body type may explain it.",
+    url: URL,
+    type: "article",
+    siteName: "EastType",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: "Bloated after meals? Your Eastern body type may explain it.",
+  },
+  alternates: { canonical: URL },
+}
+
+const jsonLd = buildArticleJsonLd({
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-06-01",
+  faqs: SYMPTOM_FAQS[SLUG],
+  breadcrumb: [
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: TITLE, url: URL },
+  ],
+})
+
+export default function Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <AlwaysBloatedArticle />
+    </>
+  )
+}

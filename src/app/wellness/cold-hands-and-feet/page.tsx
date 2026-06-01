@@ -32,6 +32,11 @@ const jsonLd = buildArticleJsonLd({
   url: URL,
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
+  breadcrumb: [
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: TITLE, url: URL },
+  ],
 })
 
 export default function ColdHandsPage() {

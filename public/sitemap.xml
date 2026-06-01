@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://myeasterntype.com/</loc><lastmod>2026-06-01</lastmod><priority>1.0</priority></url>
   <url><loc>https://myeasterntype.com/quiz</loc><lastmod>2026-06-01</lastmod><priority>0.9</priority></url>
+  <url><loc>https://myeasterntype.com/wellness</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://myeasterntype.com/patterns</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>
+  <url><loc>https://myeasterntype.com/patterns/low-vitality</loc><lastmod>2026-06-01</lastmod><priority>0.75</priority></url>
+  <url><loc>https://myeasterntype.com/patterns/cold-sensitivity</loc><lastmod>2026-06-01</lastmod><priority>0.75</priority></url>
+  <url><loc>https://myeasterntype.com/patterns/internal-heat</loc><lastmod>2026-06-01</lastmod><priority>0.75</priority></url>
+  <url><loc>https://myeasterntype.com/patterns/heavy-and-sluggish</loc><lastmod>2026-06-01</lastmod><priority>0.75</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-am-i-always-tired</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-am-i-always-cold</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-do-i-wake-up-at-3am</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/always-bloated-after-eating</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-am-i-always-sleepy</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-do-i-have-night-sweats</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
+  <url><loc>https://myeasterntype.com/symptoms/why-do-i-feel-anxious</loc><lastmod>2026-06-01</lastmod><priority>0.7</priority></url>
   <url><loc>https://myeasterntype.com/types/balanced</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://myeasterntype.com/types/qi_deficient</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>
   <url><loc>https://myeasterntype.com/types/yang_deficient</loc><lastmod>2026-06-01</lastmod><priority>0.8</priority></url>

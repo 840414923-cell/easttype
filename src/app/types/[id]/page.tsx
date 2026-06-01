@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { TYPES, TYPE_IDS } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import TypeDetailClient from "./detail-client"
-import { buildMedicalWebPageJsonLd } from "@/lib/json-ld"
+import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const SEO_TITLES: Record<ConstitutionId, { en: string; zh: string; ja: string }> = {
   balanced: { en: "The Still Lake — Balanced Constitution (Ping He)", zh: "平和質 — 你是那1/10的天選之人", ja: "平和質 — バランスのとれた体質" },
@@ -78,11 +78,40 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
   const url = `https://myeasterntype.com/types/${id}`
 
   const jsonLd = TYPES[typeId]
-    ? buildMedicalWebPageJsonLd({
-        title: `EastType — ${titles.en}`,
-        description: descs.en,
-        url,
-      })
+    ? [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: `EastType — ${titles.en}`,
+          description: descs.en,
+          url,
+          datePublished: "2026-06-01",
+          dateModified: "2026-06-01",
+          image: `https://myeasterntype.com/types/${id}.png`,
+          author: {
+            "@type": "Organization",
+            name: "EastType",
+            url: "https://myeasterntype.com",
+          },
+          publisher: {
+            "@type": "Organization",
+            name: "EastType",
+            url: "https://myeasterntype.com",
+            logo: {
+              "@type": "ImageObject",
+              url: "https://myeasterntype.com/favicon.svg",
+            },
+          },
+          mainEntityOfPage: {
+            "@type": "WebPage",
+            "@id": url,
+          },
+        },
+        buildBreadcrumbJsonLd([
+          { name: "EastType", url: "https://myeasterntype.com" },
+          { name: titles.en, url },
+        ]),
+      ]
     : null
 
   return (

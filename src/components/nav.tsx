@@ -56,14 +56,45 @@ function LocaleSelect({ localeCode, setLocaleCode, localeKeys, locales }: {
 export function Nav({ right }: { right?: React.ReactNode }) {
   const { locale, localeCode, setLocaleCode, localeKeys, locales } = useLocale()
 
+  const navLinks = localeCode === "en"
+    ? [
+        { href: "/", label: "Home" },
+        { href: "/wellness", label: "Body Types" },
+        { href: "/about", label: "About" },
+      ]
+    : localeCode === "zh-TW"
+    ? [
+        { href: "/", label: "首頁" },
+        { href: "/wellness", label: "體質百科" },
+        { href: "/about", label: "關於" },
+      ]
+    : [
+        { href: "/", label: "ホーム" },
+        { href: "/wellness", label: "体質百科" },
+        { href: "/about", label: "概要" },
+      ]
+
   return (
     <nav className="sticky top-0 z-50 bg-[rgba(26,20,16,0.92)] backdrop-blur-xl border-b border-[rgba(201,163,85,0.15)] px-6 py-4 flex justify-between items-center" style={{ paddingTop: "max(1rem, env(safe-area-inset-top))" }}>
-      <Link
-        href="/"
-        className="font-[family-name:var(--font-display)] text-xl font-bold text-text no-underline tracking-wider"
-      >
-        <span className="text-accent">East</span><span className="text-accent2">Type</span>
-      </Link>
+      <div className="flex items-center gap-6">
+        <Link
+          href="/"
+          className="font-[family-name:var(--font-display)] text-xl font-bold text-text no-underline tracking-wider"
+        >
+          <span className="text-accent">East</span><span className="text-accent2">Type</span>
+        </Link>
+        <div className="hidden sm:flex items-center gap-4">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-xs text-text2 no-underline hover:text-accent transition-colors tracking-wide"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </div>
+      </div>
       <div className="flex items-center gap-3">
         <LocaleSelect localeCode={localeCode} setLocaleCode={setLocaleCode} localeKeys={localeKeys} locales={locales} />
         {right || (

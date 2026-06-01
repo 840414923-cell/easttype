@@ -1,0 +1,52 @@
+import type { Metadata } from "next"
+import WhyWakeAt3AmArticle from "./article"
+import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
+import { buildArticleJsonLd } from "@/lib/json-ld"
+
+const SLUG = "why-do-i-wake-up-at-3am"
+const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Why Do I Wake Up at 3AM? Eastern Body Type Insights"
+const DESC = "Waking up at 3AM every night? Traditional Chinese Medicine connects this to specific body types. Learn what your sleep pattern may mean."
+
+export const metadata: Metadata = {
+  title: `${TITLE} | EastType`,
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: "3AM wakeups every night? TCM says your body type may be the reason.",
+    url: URL,
+    type: "article",
+    siteName: "EastType",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: "3AM wakeups every night? TCM says your body type may be the reason.",
+  },
+  alternates: { canonical: URL },
+}
+
+const jsonLd = buildArticleJsonLd({
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-06-01",
+  faqs: SYMPTOM_FAQS[SLUG],
+  breadcrumb: [
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: TITLE, url: URL },
+  ],
+})
+
+export default function Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <WhyWakeAt3AmArticle />
+    </>
+  )
+}

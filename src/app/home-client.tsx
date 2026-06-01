@@ -13,75 +13,84 @@ export default function HomeClient() {
     locale.code === "en" ? en : locale.code === "zh-TW" ? zh : ja
 
   const typeList = Object.values(TYPES)
+  const ll = locale.landing
 
   return (
     <>
       <Nav />
       <main className="flex-1">
 
-        {/* ── Hero ── */}
+        {/* ── Part 1+2: Hero + What You'll Discover ── */}
         <section className="relative max-w-4xl mx-auto px-6 pt-12 pb-6 text-center hero-radial dunhuang-border-top">
 
           <div className="inline-flex items-center gap-2 bg-[rgba(201,163,85,0.06)] border border-[rgba(201,163,85,0.15)] rounded-full px-5 py-2 text-[11px] font-semibold text-accent uppercase tracking-[0.2em] mb-6">
             <span className="text-accent text-[8px]">◇</span>
-            {locale.landing.badge}
+            {ll.badge}
             <span className="text-accent text-[8px]">◇</span>
           </div>
 
-          <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-7xl mb-4 leading-[1.1] tracking-wide">
-            <span className="text-text">{locale.landing.title1}</span>
-            <br />
-            <span className="gold-gradient-text font-bold italic">
-              {locale.landing.title2em}
-            </span>
-            <span className="text-text">?</span>
+          <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl md:text-6xl mb-4 leading-[1.15] tracking-wide text-text max-w-3xl mx-auto">
+            {ll.title1}
           </h1>
 
-          <p className="text-base sm:text-xl text-text2 max-w-lg mx-auto mb-6 leading-relaxed tracking-wide">
-            {locale.landing.subtitleBefore}{" "}
-            <strong className="text-accent">{locale.landing.subtitleHighlight}</strong>{" "}
-            {locale.landing.subtitleAfter}
+          <p className="text-base sm:text-lg text-text2 max-w-xl mx-auto mb-8 leading-relaxed tracking-wide">
+            {ll.subtitle}
           </p>
 
-          <div className="flex flex-col items-center gap-2 mb-4">
+          <div className="flex flex-col items-center gap-2 mb-6">
             <Link
               href="/quiz"
               className="group relative inline-flex items-center justify-center px-10 py-4 rounded font-[family-name:var(--font-body)] text-lg font-semibold cursor-pointer no-underline transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(201,163,85,0.25)] bg-gradient-to-r from-accent to-accent2 text-bg"
             >
-              {locale.ui.discoverType}
+              {ll.cta}
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </Link>
             <span className="text-sm text-text2 tracking-wide">
-              {locale.ui.free} · {locale.ui.minutes} · {locale.ui.noSignup}
+              {ll.ctaSub}
             </span>
             <span className="text-xs text-text2/70 tracking-wide">
-              {l(
-                "Detailed reports available from $4.99 USD",
-                "詳細報告 $4.99 美元起",
-                "詳細レポート $4.99 USD から"
-              )}
+              {ll.ctaSecondary}
             </span>
+          </div>
+
+          {/* What You'll Discover */}
+          <div className="max-w-md mx-auto">
+            <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-[0.15em] text-accent mb-3">
+              {ll.discoverTitle}
+            </h2>
+            <ul className="space-y-2">
+              {[
+                ll.discover1,
+                ll.discover2,
+                ll.discover3,
+                ll.discover4,
+                ll.discover5,
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-2 text-sm text-text2">
+                  <span className="text-accent text-xs">&#10003;</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
 
         </section>
 
-        {/* ── Ornamental Divider ── */}
+        {/* ── Divider ── */}
         <div className="lotus-divider max-w-4xl mx-auto px-6">
           <span className="text-accent text-xs opacity-40">✦</span>
         </div>
 
-        {/* ── Type Cards Grid ── */}
+        {/* ── Part 3: Type Cards Grid ── */}
         <section className="max-w-4xl mx-auto px-4 sm:px-6 pt-2 pb-6 sm:pb-10">
           <div className="text-center mb-4 sm:mb-6">
             <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-4xl mb-2 tracking-wide">
-              {l("Which One Are You?", "你是哪一種？", "あなたはどれ？")}
+              {ll.archetypeTitle}
             </h2>
-            <p className="text-text2 text-sm sm:text-lg tracking-wide">
-              {l(
-                "9 archetypes. 9 destinies. Yours is written in your body.",
-                "九種體質。九種命運。你的，寫在身體裡。",
-                "9つの体質。9つの運命。あなたのものは体に刻まれている。"
-              )}
+            <p className="text-text2 text-sm sm:text-base tracking-wide max-w-lg mx-auto">
+              {ll.archetypeLine1}
+              <br />
+              <span className="text-text2/80">{ll.archetypeLine2}</span>
             </p>
           </div>
 
@@ -113,7 +122,6 @@ export default function HomeClient() {
 
                     <div className="absolute inset-0 bg-gradient-to-t from-[#1A1410]/90 via-[#1A1410]/20 to-transparent" />
 
-                    {/* Mobile: name + pct only */}
                     <div className="absolute bottom-0 left-0 right-0 p-2 sm:hidden">
                       <span
                         className="font-[family-name:var(--font-display)] text-xs font-bold block mb-0.5 truncate"
@@ -132,7 +140,6 @@ export default function HomeClient() {
                       </span>
                     </div>
 
-                    {/* Desktop: full info */}
                     <div className="hidden sm:block absolute bottom-0 left-0 right-0 p-4">
                       <div className="mb-1">
                         <span
@@ -171,7 +178,100 @@ export default function HomeClient() {
           </div>
         </section>
 
-        {/* ── Ornamental Divider ── */}
+        {/* ── Divider ── */}
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        {/* ── Part 4: How It Works ── */}
+        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
+          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-8">
+            {ll.howTitle}
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4">
+            {[
+              { num: "1", title: ll.how1Title, desc: ll.how1Desc },
+              { num: "2", title: ll.how2Title, desc: ll.how2Desc },
+              { num: "3", title: ll.how3Title, desc: ll.how3Desc },
+            ].map((step) => (
+              <div key={step.num} className="text-center">
+                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
+                  {step.num}
+                </div>
+                <h3 className="font-[family-name:var(--font-display)] text-base sm:text-lg text-text mb-2 tracking-wide">
+                  {step.title}
+                </h3>
+                <p className="text-sm text-text2 leading-relaxed">
+                  {step.desc}
+                </p>
+                {step.num !== "3" && (
+                  <span className="hidden sm:block text-accent/40 text-xl mt-3">↓</span>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── Divider ── */}
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        {/* ── Part 5: Result Preview ── */}
+        <section className="max-w-4xl mx-auto px-6 py-8 sm:py-12">
+          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-8">
+            {ll.previewTitle}
+          </h2>
+
+          <div className="max-w-sm mx-auto">
+            <div className="border border-[rgba(201,163,85,0.2)] rounded-2xl overflow-hidden bg-card-bg">
+              <div className="bg-[rgba(201,163,85,0.08)] px-5 py-2 text-center">
+                <span className="text-[10px] text-accent uppercase tracking-[0.15em] font-semibold">{ll.previewBadge}</span>
+              </div>
+              <div className="px-5 py-6 text-center">
+                <div className="font-[family-name:var(--font-display)] text-2xl font-bold text-accent mb-5">
+                  {ll.previewType}
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 text-left">
+                  <div>
+                    <div className="text-[10px] text-text2 uppercase tracking-wider mb-2">
+                      {l("Common Traits", "常見特徵", "一般的な特徴")}
+                    </div>
+                    <ul className="space-y-1.5">
+                      {[ll.previewTrait1, ll.previewTrait2, ll.previewTrait3].map((t) => (
+                        <li key={t} className="text-xs text-text/80 flex items-center gap-1.5">
+                          <span className="w-1 h-1 rounded-full bg-accent/60 shrink-0" />
+                          {t}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <div className="text-[10px] text-text2 uppercase tracking-wider mb-2">
+                      {l("Suggestions", "建議", "アドバイス")}
+                    </div>
+                    <ul className="space-y-1.5">
+                      {[ll.previewSug1, ll.previewSug2, ll.previewSug3].map((s) => (
+                        <li key={s} className="text-xs text-text/80 flex items-center gap-1.5">
+                          <span className="w-1 h-1 rounded-full bg-accent/60 shrink-0" />
+                          {s}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-center text-xs text-text2/70 mt-4">
+              {ll.previewSub}
+            </p>
+          </div>
+        </section>
+
+        {/* ── Divider ── */}
         <div className="lotus-divider max-w-4xl mx-auto px-6">
           <span className="text-accent text-xs opacity-40">✦</span>
         </div>
@@ -239,7 +339,7 @@ export default function HomeClient() {
           </div>
         </section>
 
-        {/* ── Ornamental Divider ── */}
+        {/* ── Divider ── */}
         <div className="lotus-divider max-w-4xl mx-auto px-6">
           <span className="text-accent text-xs opacity-40">✦</span>
         </div>
@@ -250,11 +350,7 @@ export default function HomeClient() {
             {l("Ready to Meet Yourself?", "準備好認識自己了嗎？", "自分に出会う準備はできた？")}
           </h2>
           <p className="text-text2 text-base sm:text-lg mb-8 leading-relaxed max-w-lg mx-auto tracking-wide">
-            {l(
-              "27 questions. ~5 min. A food map your body has been waiting 3,000 years for.",
-              "27 題。約 5 分鐘。一份你的身體等了 3,000 年的食物地圖。",
-              "27問。約5分。あなたの体が3,000年待っていたフードマップ。"
-            )}
+            {ll.readySubtitleBefore}
           </p>
           <Link
             href="/quiz"
@@ -263,10 +359,48 @@ export default function HomeClient() {
             {l("Quick Quiz · ~5 min", "快速測驗 · 約 5 分鐘", "クイック診断 · 約5分")}
             <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
           </Link>
-          <span className="text-xs text-text2/70 mt-2">
+          <span className="text-xs text-text2/70 mt-2 block">
             {l("Free quiz · Detailed reports from $4.99 USD", "免費測驗 · 詳細報告 $4.99 美元起", "無料クイズ · 詳細レポート $4.99 USD から")}
           </span>
         </section>
+
+        {/* ── Part 6: SEO Block + FAQ ── */}
+        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
+          <div className="mb-10">
+            <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl tracking-wide mb-4 text-center">
+              {ll.seoTitle}
+            </h2>
+            <div className="space-y-3 text-sm text-text2 leading-relaxed text-center max-w-xl mx-auto">
+              <p>{ll.seoP1}</p>
+              <p>{ll.seoP2}</p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl tracking-wide mb-6 text-center">
+              {ll.faqTitle}
+            </h2>
+            <div className="space-y-3">
+              {[
+                { q: ll.faq1Q, a: ll.faq1A },
+                { q: ll.faq2Q, a: ll.faq2A },
+                { q: ll.faq3Q, a: ll.faq3A },
+                { q: ll.faq4Q, a: ll.faq4A },
+              ].map((faq) => (
+                <details key={faq.q} className="group border border-[rgba(201,163,85,0.12)] rounded-xl bg-card-bg">
+                  <summary className="flex items-center justify-between px-5 py-3.5 cursor-pointer text-sm text-text font-medium list-none">
+                    {faq.q}
+                    <span className="text-accent/50 text-xs transition-transform duration-200 group-open:rotate-180">▾</span>
+                  </summary>
+                  <div className="px-5 pb-3.5 text-sm text-text2 leading-relaxed">
+                    {faq.a}
+                  </div>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>
