@@ -1,0 +1,52 @@
+import type { Metadata } from "next"
+import WaterRetentionArticle from "./article"
+import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
+import { buildArticleJsonLd } from "@/lib/json-ld"
+
+const SLUG = "why-do-i-have-water-retention"
+const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Why Do I Have Water Retention? Eastern Body Type Insights"
+const DESC = "Puffy, swollen, or heavy from fluid buildup? Your Eastern body type may explain water retention. Learn which TCM patterns are linked to holding onto moisture."
+
+export const metadata: Metadata = {
+  title: `${TITLE} | EastType`,
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: "Rings tight, face puffy, legs heavy? Your body type may explain why your body holds onto water it should be releasing.",
+    url: URL,
+    type: "article",
+    siteName: "EastType",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: "Rings tight, face puffy, legs heavy? Your body type may explain why your body holds onto water it should be releasing.",
+  },
+  alternates: { canonical: URL },
+}
+
+const jsonLd = buildArticleJsonLd({
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-06-02",
+  faqs: SYMPTOM_FAQS[SLUG],
+  breadcrumb: [
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: "Water Retention", url: URL },
+  ],
+})
+
+export default function Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <WaterRetentionArticle />
+    </>
+  )
+}

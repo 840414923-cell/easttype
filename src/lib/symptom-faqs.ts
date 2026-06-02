@@ -501,4 +501,58 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their internal moisture is low, and the dryness peaks at night when Yin should be replenishing but can't keep up. About 10% of people have this pattern. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-do-i-have-hot-flashes": [
+    {
+      q: { en: "Are hot flashes only a menopause thing?", "zh-TW": "", ja: "" },
+      a: { en: "No. Hot flashes are most commonly associated with menopause, and that association is valid. But hot flashes can happen at any age, and in both men and women. In TCM, hot flashes aren't defined by hormones. They're defined by a pattern: Yin Deficiency. When your body's cooling system is undercharged, internal heat builds up and periodically bursts through, creating that sudden flushing sensation. Whether you're 25 or 55, the underlying pattern can be the same.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What's happening in my body during a hot flash?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM terms, a hot flash is Yang rising uncontrollably because Yin can't anchor it. Yin is the cooling, grounding force. Yang is the heating, rising force. Normally they balance each other. When Yin is low, Yang has nothing holding it down, and it surges upward as a wave of heat through your chest, face, and neck. It's like a pot boiling over because there isn't enough liquid to absorb the heat.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with hot flashes?", "zh-TW": "", ja: "" },
+      a: { en: "Yin-nourishing foods are the foundation: pear, black sesame, lily bulb, tremella mushroom, lotus seed, and cucumber. These help rebuild the cooling system. Avoid the main heat generators: spicy food, alcohol, coffee, lamb, and deep-fried food. These add fuel to the fire. Cooling teas like chrysanthemum and peppermint may provide relief during a flash. Eating smaller, cooler meals in the evening may reduce nighttime hot flashes.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with hot flashes?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their cooling system is undercharged, so internal heat builds and surges periodically. The Damp Heat type (湿热质) may also experience heat surges, but these tend to feel sticky and oppressive rather than sudden and dry. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-water-retention": [
+    {
+      q: { en: "Is water retention the same as edema?", "zh-TW": "", ja: "" },
+      a: { en: "Water retention is the general term for excess fluid in the body. Edema is the medical term for visible, measurable swelling from fluid accumulation. You can have water retention without it being severe enough to be called edema. In TCM, the distinction matters less than the pattern. Whether it's mild puffiness or visible swelling, TCM traces it back to the Spleen's inability to transform and transport fluids, and the Kidneys' inability to regulate water metabolism.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do I feel puffier in humid weather?", "zh-TW": "", ja: "" },
+      a: { en: "This is a hallmark of the Phlegm Damp pattern. Your body is already holding onto moisture internally. When the external environment is also humid, your body can't evaporate or drain fluids as efficiently, and the internal moisture gets worse. It's like wearing a wet raincoat on a rainy day. You were already damp, and now there's nowhere for the moisture to go. Air conditioning and dehumidifiers can help, but the real fix is improving your body's internal drainage capacity.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with water retention?", "zh-TW": "", ja: "" },
+      a: { en: "Damp-draining foods are the answer: adzuki beans (the single most effective food for water retention in TCM), coix seed, winter melon, celery, cucumber, and modest amounts of green tea. These help your body process and eliminate excess moisture. Reduce salt, dairy, sweets, fried food, and cold drinks, which either add moisture or slow down your body's ability to drain it. Warm, cooked meals support the Spleen's fluid-processing function.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with water retention?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match. Their body holds onto moisture and metabolic waste instead of processing it efficiently. About 10% of people fall into this category. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-always-constipated": [
+    {
+      q: { en: "Is chronic constipation always a fiber problem?", "zh-TW": "", ja: "" },
+      a: { en: "No. Increasing fiber helps some people, but it makes others worse. In TCM, constipation isn't one problem. It's several different patterns that produce the same symptom. If you have dry-type constipation (hard, pellet-like stools), you need moisture, not fiber. Fiber without moisture is like adding more cargo to a ship that's already run aground. If you have sluggish-type constipation (infrequent but normal-texture stools), your intestines lack the energy to move things along. Fiber might help here, but addressing the underlying energy deficit works better.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does constipation get worse when I'm stressed?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, stress causes Liver Qi Stagnation. The Liver is responsible for smooth flow throughout the body, including the intestines. When Liver Qi is stuck, everything downstream slows down. The Liver and the Spleen (digestion) have a close relationship. When the Liver is agitated, it overcontrols the Spleen, and the Spleen's ability to move things through the digestive tract weakens. This is why stress-related constipation often comes with bloating and irritability.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with constipation from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "For dry-type constipation (Yin Deficiency): pear, black sesame, honey, banana, and warm water first thing in the morning. These add moisture and lubrication. For sluggish-type constipation (Qi Deficiency or Phlegm Damp): sweet potato, steamed vegetables, and warm, cooked meals that are easy to digest. For stress-related constipation: rose tea, tangerine peel tea, and citrus to move Liver Qi. In all cases, warm water on an empty stomach in the morning can trigger the digestive reflex.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic constipation?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the most common match for sluggish constipation. Their digestion is slow and heavy. The Yin Deficient type (阴虚质) is the most common match for dry constipation. Their intestines lack the moisture to move stool smoothly. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }

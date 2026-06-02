@@ -156,8 +156,8 @@ export default function EczemaArticle() {
           Related Pattern
         </h2>
         <div className="flex flex-wrap gap-2">
-          <Link href="/patterns/damp-heat" className="text-sm text-accent no-underline hover:underline">
-            Damp Heat Pattern →
+          <Link href="/patterns/internal-heat" className="text-sm text-accent no-underline hover:underline">
+            Internal Heat Pattern →
           </Link>
         </div>
       </section>
@@ -167,12 +167,12 @@ export default function EczemaArticle() {
           Related Symptoms
         </h2>
         <div className="flex flex-wrap gap-2">
-          <Link href="/symptoms/why-do-i-keep-breaking-out" className="text-sm text-accent no-underline hover:underline">
-            Why Do I Keep Breaking Out?
-          </Link>
-          <span className="text-text2/40">·</span>
           <Link href="/symptoms/why-is-my-skin-so-dry" className="text-sm text-accent no-underline hover:underline">
             Why Is My Skin So Dry?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-feel-anxious" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Feel Anxious?
           </Link>
         </div>
       </section>

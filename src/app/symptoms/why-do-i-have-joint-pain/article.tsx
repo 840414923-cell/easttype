@@ -167,12 +167,12 @@ export default function JointPainArticle() {
           Related Symptoms
         </h2>
         <div className="flex flex-wrap gap-2">
-          <Link href="/symptoms/why-do-my-hands-and-feet-go-numb" className="text-sm text-accent no-underline hover:underline">
-            Why Do My Hands and Feet Go Numb?
-          </Link>
-          <span className="text-text2/40">·</span>
           <Link href="/symptoms/why-am-i-always-cold" className="text-sm text-accent no-underline hover:underline">
             Why Am I Always Cold?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-my-hands-and-feet-go-numb" className="text-sm text-accent no-underline hover:underline">
+            Why Do My Hands and Feet Go Numb?
           </Link>
         </div>
       </section>
