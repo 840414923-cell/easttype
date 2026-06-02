@@ -152,6 +152,10 @@ export default function HotFlashesArticle() {
           <Link href="/patterns/internal-heat" className="text-sm text-accent no-underline hover:underline">
             Internal Heat Pattern →
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/damp-heat" className="text-sm text-accent no-underline hover:underline">
+            Damp Heat Pattern →
+          </Link>
         </div>
       </section>
 

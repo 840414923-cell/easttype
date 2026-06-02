@@ -157,6 +157,10 @@ export default function BloodStasisArticle() {
           These symptom guides explore specific signs connected to the Blood Stasis pattern:
         </p>
         <div className="flex flex-wrap gap-2">
+          <Link href="/symptoms/why-do-i-have-joint-pain" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Have Joint Pain?
+          </Link>
+          <span className="text-text2/40">·</span>
           <Link href="/symptoms/why-do-my-hands-and-feet-go-numb" className="text-sm text-accent no-underline hover:underline">
             Why Do My Hands and Feet Go Numb?
           </Link>
@@ -178,10 +182,6 @@ export default function BloodStasisArticle() {
         <div className="flex flex-wrap gap-2">
           <Link href="/patterns/cold-sensitivity" className="text-sm text-accent no-underline hover:underline">
             Cold Sensitivity Pattern →
-          </Link>
-          <span className="text-text2/40">·</span>
-          <Link href="/patterns/low-vitality" className="text-sm text-accent no-underline hover:underline">
-            Low Vitality Pattern →
           </Link>
         </div>
       </section>

@@ -96,8 +96,8 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Damp Heat",
     readTime: "9 min",
     relatedTypes: ["damp_heat"],
-    relatedSymptoms: ["why-do-i-keep-breaking-out", "why-do-i-have-acid-reflux", "why-do-i-have-headaches", "why-am-i-always-thirsty"],
-    relatedPatterns: ["internal-heat", "heavy-and-sluggish"],
+    relatedSymptoms: ["why-do-i-keep-breaking-out", "why-do-i-have-acid-reflux", "why-am-i-always-thirsty", "why-do-i-have-hot-flashes"],
+    relatedPatterns: ["internal-heat"],
     tcmConcept: "Damp Heat",
   },
   "blood-stasis": {
@@ -110,8 +110,8 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Blood Stasis",
     readTime: "9 min",
     relatedTypes: ["blood_stasis"],
-    relatedSymptoms: ["why-do-my-hands-and-feet-go-numb", "why-do-i-have-headaches", "why-do-i-feel-dizzy"],
-    relatedPatterns: ["cold-sensitivity", "low-vitality"],
+    relatedSymptoms: ["why-do-i-have-joint-pain", "why-do-my-hands-and-feet-go-numb", "why-do-i-have-headaches", "why-do-i-feel-dizzy"],
+    relatedPatterns: ["cold-sensitivity"],
     tcmConcept: "Blood Stasis",
   },
   "high-sensitivity": {

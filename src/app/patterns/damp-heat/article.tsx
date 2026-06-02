@@ -164,12 +164,12 @@ export default function DampHeatArticle() {
             Why Do I Have Acid Reflux?
           </Link>
           <span className="text-text2/40">·</span>
-          <Link href="/symptoms/why-do-i-have-headaches" className="text-sm text-accent no-underline hover:underline">
-            Why Do I Have Headaches?
-          </Link>
-          <span className="text-text2/40">·</span>
           <Link href="/symptoms/why-am-i-always-thirsty" className="text-sm text-accent no-underline hover:underline">
             Why Am I Always Thirsty?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-have-hot-flashes" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Have Hot Flashes?
           </Link>
         </div>
       </section>
@@ -181,10 +181,6 @@ export default function DampHeatArticle() {
         <div className="flex flex-wrap gap-2">
           <Link href="/patterns/internal-heat" className="text-sm text-accent no-underline hover:underline">
             Internal Heat Pattern →
-          </Link>
-          <span className="text-text2/40">·</span>
-          <Link href="/patterns/heavy-and-sluggish" className="text-sm text-accent no-underline hover:underline">
-            Heavy and Sluggish Pattern →
           </Link>
         </div>
       </section>

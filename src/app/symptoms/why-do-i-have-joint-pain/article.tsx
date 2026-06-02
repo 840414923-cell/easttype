@@ -159,6 +159,10 @@ export default function JointPainArticle() {
           <Link href="/patterns/cold-sensitivity" className="text-sm text-accent no-underline hover:underline">
             Cold Sensitivity Pattern →
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/blood-stasis" className="text-sm text-accent no-underline hover:underline">
+            Blood Stasis Pattern →
+          </Link>
         </div>
       </section>
 
