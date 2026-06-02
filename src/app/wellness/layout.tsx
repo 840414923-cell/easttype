@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
-import WellnessLayoutClient from "./layout-client"
+import { Nav } from "@/components/nav"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "EastType Wellness — Chinese Medicine Health Guides",
@@ -7,5 +8,11 @@ export const metadata: Metadata = {
 }
 
 export default function WellnessLayout({ children }: { children: React.ReactNode }) {
-  return <WellnessLayoutClient>{children}</WellnessLayoutClient>
+  return (
+    <>
+      <Nav />
+      <main className="flex-1">{children}</main>
+      <Footer />
+    </>
+  )
 }
