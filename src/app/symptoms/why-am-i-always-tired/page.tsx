@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-tired"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Am I Always Tired? Eastern Body Type Insights"
 const DESC = "Always tired even after sleeping well? Learn why from a Traditional Chinese Medicine perspective — and which body type may be connected to your chronic fatigue."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-01",
   faqs: SYMPTOM_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
     { name: TITLE, url: URL },
   ],
 })

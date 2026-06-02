@@ -4,7 +4,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-foods-for-energy"
-const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
 const TITLE = "Chinese Medicine Foods for Energy: What to Eat When You're Always Tired"
 const DESC = "Chinese medicine says fatigue is often a Qi problem — your body's fuel is low. These 10+ foods have been used for centuries to restore energy naturally. Plus: foods that secretly drain your energy."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
     { name: TITLE, url: URL },
   ],
 })

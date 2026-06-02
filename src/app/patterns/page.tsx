@@ -6,7 +6,7 @@ import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "Wellness Patterns — Connect Your Symptoms to Eastern Body Wisdom"
 const DESC = "Explore wellness patterns that bridge everyday symptoms like fatigue, cold sensitivity, and poor sleep with Traditional Chinese Medicine body types. Understand what your body may be telling you."
-const URL = "https://myeasterntype.com/patterns"
+const URL = "https://www.myeasterntype.com/patterns"
 
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,
@@ -35,7 +35,7 @@ const tagColors: Record<string, string> = {
 }
 
 const jsonLd = buildBreadcrumbJsonLd([
-  { name: "EastType", url: "https://myeasterntype.com" },
+  { name: "EastType", url: "https://www.myeasterntype.com" },
   { name: "Patterns", url: URL },
 ])
 

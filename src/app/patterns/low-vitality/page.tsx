@@ -4,7 +4,7 @@ import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "low-vitality"
-const URL = `https://myeasterntype.com/patterns/${SLUG}`
+const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Low Vitality Pattern — Always Tired, Low Energy, Exhausted"
 const DESC = "The Low Vitality pattern connects chronic fatigue, low energy, and afternoon crashes to Qi Deficiency in Traditional Chinese Medicine. Learn which foods and habits may help restore your energy."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-01",
   faqs: PATTERN_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Patterns", url: "https://myeasterntype.com/patterns" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Patterns", url: "https://www.myeasterntype.com/patterns" },
     { name: "Low Vitality", url: URL },
   ],
 })

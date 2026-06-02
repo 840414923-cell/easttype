@@ -3,7 +3,7 @@ import RefundContent from "./refund-content"
 
 const TITLE = "Refund Policy — EastType"
 const DESC = "EastType offers a 30-day money-back guarantee on all reports. No questions asked. Request a refund via email."
-const URL = "https://myeasterntype.com/refund"
+const URL = "https://www.myeasterntype.com/refund"
 
 export const metadata: Metadata = {
   title: TITLE,

@@ -4,7 +4,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "insomnia-chinese-medicine"
-const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
 const TITLE = "Insomnia & Chinese Medicine: Why You Can't Fall (or Stay) Asleep"
 const DESC = "Chinese medicine explains insomnia as Yin Deficiency — your body's cooling force is low, so internal heat builds up at night. Learn the signs, causes, and which foods can help you sleep naturally."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
     { name: TITLE, url: URL },
   ],
 })

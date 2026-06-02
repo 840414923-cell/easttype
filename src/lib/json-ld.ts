@@ -1,6 +1,6 @@
 import type { FaqItem } from "./wellness-faqs"
 
-const SITE = "https://myeasterntype.com"
+const SITE = "https://www.myeasterntype.com"
 
 export function buildBreadcrumbJsonLd(items: { name: string; url: string }[]) {
   return {

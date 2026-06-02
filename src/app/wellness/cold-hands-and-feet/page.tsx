@@ -4,7 +4,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "cold-hands-and-feet"
-const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
 const TITLE = "Cold Hands and Feet: Chinese Medicine Explains Why"
 const DESC = "Always cold? Chinese medicine calls it Yang Deficiency — your inner furnace is underpowered. Learn the signs, warming foods, and why sunlight is literally medicine for your type."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
     { name: TITLE, url: URL },
   ],
 })

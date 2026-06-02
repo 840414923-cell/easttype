@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description:
       "Discover your Eastern body type in 5 minutes. Personalized food maps and wellness guidance inspired by 3,000 years of TCM wisdom.",
     type: "website",
-    url: "https://myeasterntype.com",
+    url: "https://www.myeasterntype.com",
     siteName: "EastType",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Why are you always tired, cold, or bloated? Take our free 5-minute quiz to discover your TCM body type.",
   },
   alternates: {
-    canonical: "https://myeasterntype.com",
+    canonical: "https://www.myeasterntype.com",
   },
 }
 
@@ -28,8 +28,8 @@ const ORG_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "EastType",
-  url: "https://myeasterntype.com",
-  logo: "https://myeasterntype.com/favicon.svg",
+  url: "https://www.myeasterntype.com",
+  logo: "https://www.myeasterntype.com/favicon.svg",
   description: "Discover your Chinese medicine body type with a free 5-minute quiz. Personalized food maps, seasonal guides, and TCM recipe plans.",
   sameAs: [],
 }
@@ -38,10 +38,10 @@ const WEB_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "EastType",
-  url: "https://myeasterntype.com",
+  url: "https://www.myeasterntype.com",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://myeasterntype.com/quiz",
+    target: "https://www.myeasterntype.com/quiz",
     queryInput: "required name=search_string",
   },
 }

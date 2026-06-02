@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "always-bloated-after-eating"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Bloated After Eating? Eastern Body Type Insights"
 const DESC = "Bloated after every meal? Traditional Chinese Medicine links bloating to specific body types. Learn which foods may help reduce that heavy feeling."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-01",
   faqs: SYMPTOM_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
     { name: TITLE, url: URL },
   ],
 })

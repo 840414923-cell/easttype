@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-overthink-everything"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Do I Overthink Everything? Eastern Body Type Insights"
 const DESC = "Can't stop replaying conversations in your head? Your Eastern body type may explain overthinking. Learn which TCM patterns are linked to racing thoughts and what may help quiet your mind."
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const jsonLd = buildArticleJsonLd({
   title: TITLE, description: DESC, url: URL, datePublished: "2026-06-02",
   faqs: SYMPTOM_FAQS[SLUG],
-  breadcrumb: [{ name: "EastType", url: "https://myeasterntype.com" }, { name: "Symptoms", url: "https://myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
+  breadcrumb: [{ name: "EastType", url: "https://www.myeasterntype.com" }, { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
 })
 
 export default function Page() {

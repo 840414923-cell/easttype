@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-irritable"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Am I So Irritable? Eastern Body Type Insights"
 const DESC = "Snapping at people for no reason? Your Eastern body type may explain chronic irritability. Learn which TCM patterns are linked to a short fuse."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-02",
   faqs: SYMPTOM_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
     { name: TITLE, url: URL },
   ],
 })

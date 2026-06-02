@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-feel-anxious"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Do I Feel Anxious? Eastern Body Type Insights"
 const DESC = "Anxious all the time for no clear reason? Traditional Chinese Medicine connects chronic anxiety to specific body types. Learn what your body may be telling you."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-01",
   faqs: SYMPTOM_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
     { name: TITLE, url: URL },
   ],
 })

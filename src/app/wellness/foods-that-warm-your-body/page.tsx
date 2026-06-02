@@ -4,7 +4,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "foods-that-warm-your-body"
-const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
 const TITLE = "Foods That Warm Your Body: A Chinese Medicine Guide"
 const DESC = "Yang Deficiency means your inner furnace is underpowered. Learn which warming foods — ginger, cinnamon, lamb — can stoke your fire, and which cold foods make it worse."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
     { name: TITLE, url: URL },
   ],
 })

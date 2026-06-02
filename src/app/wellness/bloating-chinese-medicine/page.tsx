@@ -4,7 +4,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "bloating-chinese-medicine"
-const URL = `https://myeasterntype.com/wellness/${SLUG}`
+const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
 const TITLE = "Bloating & Chinese Medicine: Why You Feel Heavy After Eating"
 const DESC = "Always bloated? Chinese medicine calls it Damp accumulation — your body holds moisture like a sponge. Learn the signs, causes, and which foods reduce bloating naturally."
 
@@ -29,8 +29,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-05-15",
   faqs: WELLNESS_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
     { name: TITLE, url: URL },
   ],
 })

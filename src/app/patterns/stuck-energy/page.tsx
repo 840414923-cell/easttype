@@ -4,7 +4,7 @@ import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "stuck-energy"
-const URL = `https://myeasterntype.com/patterns/${SLUG}`
+const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Stuck Energy Pattern — Tight Chest, Frequent Sighing, Mood Swings"
 const DESC = "The Stuck Energy pattern connects emotional tightness, frequent sighing, and mood swings to Qi Stagnation in Traditional Chinese Medicine. Learn which foods and habits may help your energy flow more freely."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-02",
   faqs: PATTERN_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Patterns", url: "https://myeasterntype.com/patterns" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Patterns", url: "https://www.myeasterntype.com/patterns" },
     { name: "Stuck Energy", url: URL },
   ],
 })

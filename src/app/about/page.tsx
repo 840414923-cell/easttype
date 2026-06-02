@@ -4,7 +4,7 @@ import { buildArticleJsonLd, buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "About EastType — Our Approach to Eastern Wellness"
 const DESC = "EastType translates traditional Chinese medicine body constitution theory into practical wellness guidance. Learn about our methodology, content sources, and what this assessment can (and cannot) do."
-const URL = "https://myeasterntype.com/about"
+const URL = "https://www.myeasterntype.com/about"
 
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,
@@ -33,25 +33,25 @@ const jsonLd = [
     url: URL,
     datePublished: "2026-06-02",
     dateModified: "2026-06-02",
-    image: "https://myeasterntype.com/og-image.png",
+    image: "https://www.myeasterntype.com/og-image.png",
     author: { "@type": "Organization", name: "EastType" },
     publisher: {
       "@type": "Organization",
       name: "EastType",
-      logo: { "@type": "ImageObject", url: "https://myeasterntype.com/favicon.svg" },
+      logo: { "@type": "ImageObject", url: "https://www.myeasterntype.com/favicon.svg" },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": URL },
   },
   buildBreadcrumbJsonLd([
-    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "About", url: URL },
   ]),
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "EastType",
-    url: "https://myeasterntype.com",
-    logo: "https://myeasterntype.com/favicon.svg",
+    url: "https://www.myeasterntype.com",
+    logo: "https://www.myeasterntype.com/favicon.svg",
     description: "Eastern wellness body constitution assessment based on Traditional Chinese Medicine",
     contactPoint: {
       "@type": "ContactPoint",

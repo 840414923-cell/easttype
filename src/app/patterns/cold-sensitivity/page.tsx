@@ -4,7 +4,7 @@ import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "cold-sensitivity"
-const URL = `https://myeasterntype.com/patterns/${SLUG}`
+const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Cold Sensitivity Pattern — Cold Hands, Cold Feet, Always Freezing"
 const DESC = "The Cold Sensitivity pattern links chronically cold hands and feet to Yang Deficiency in Traditional Chinese Medicine. Learn which warming foods and habits may help stoke your inner furnace."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-01",
   faqs: PATTERN_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Patterns", url: "https://myeasterntype.com/patterns" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Patterns", url: "https://www.myeasterntype.com/patterns" },
     { name: "Cold Sensitivity", url: URL },
   ],
 })

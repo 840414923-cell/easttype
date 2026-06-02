@@ -4,7 +4,7 @@ import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "damp-heat"
-const URL = `https://myeasterntype.com/patterns/${SLUG}`
+const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Damp Heat Pattern — Acne, Acid Reflux, Irritability in Heat"
 const DESC = "The Damp Heat pattern links persistent acne, acid reflux, and irritability in humid weather to Damp Heat in Traditional Chinese Medicine. Learn which cooling foods and habits may help clear the stickiness."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-02",
   faqs: PATTERN_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Patterns", url: "https://myeasterntype.com/patterns" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Patterns", url: "https://www.myeasterntype.com/patterns" },
     { name: "Damp Heat", url: URL },
   ],
 })

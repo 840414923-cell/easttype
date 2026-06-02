@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const titles = SEO_TITLES[typeId]
   const descs = SEO_DESCS[typeId]
   const type = TYPES[typeId]
-  const url = `https://myeasterntype.com/types/${id}`
+  const url = `https://www.myeasterntype.com/types/${id}`
 
   return {
     title: `EastType — ${titles.en}`,
@@ -70,7 +70,7 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
   const typeId = id as ConstitutionId
   const titles = SEO_TITLES[typeId]
   const descs = SEO_DESCS[typeId]
-  const url = `https://myeasterntype.com/types/${id}`
+  const url = `https://www.myeasterntype.com/types/${id}`
 
   const jsonLd = TYPES[typeId]
     ? [
@@ -82,19 +82,19 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
           url,
           datePublished: "2026-06-01",
           dateModified: "2026-06-01",
-          image: `https://myeasterntype.com/types/${id}.webp`,
+          image: `https://www.myeasterntype.com/types/${id}.webp`,
           author: {
             "@type": "Organization",
             name: "EastType",
-            url: "https://myeasterntype.com",
+            url: "https://www.myeasterntype.com",
           },
           publisher: {
             "@type": "Organization",
             name: "EastType",
-            url: "https://myeasterntype.com",
+            url: "https://www.myeasterntype.com",
             logo: {
               "@type": "ImageObject",
-              url: "https://myeasterntype.com/favicon.svg",
+              url: "https://www.myeasterntype.com/favicon.svg",
             },
           },
           mainEntityOfPage: {
@@ -103,7 +103,7 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
           },
         },
         buildBreadcrumbJsonLd([
-          { name: "EastType", url: "https://myeasterntype.com" },
+          { name: "EastType", url: "https://www.myeasterntype.com" },
           { name: titles.en, url },
         ]),
       ]

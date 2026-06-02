@@ -116,7 +116,7 @@ export function ShareCardImage({
                 <div className="flex items-center gap-2.5 pt-2 mt-2 border-t border-white/8">
                   <div className="bg-white rounded p-1 flex-shrink-0">
                     <QRCodeSVG
-                      value="https://myeasterntype.com"
+                      value="https://www.myeasterntype.com"
                       size={40}
                       level="M"
                     />

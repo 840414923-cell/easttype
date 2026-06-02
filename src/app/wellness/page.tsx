@@ -4,7 +4,7 @@ import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "Wellness Guides — Chinese Medicine for Modern Life"
 const DESC = "Free wellness guides based on Traditional Chinese Medicine. Understand why you're always tired, always cold, can't sleep, and what to eat for your body type."
-const URL = "https://myeasterntype.com/wellness"
+const URL = "https://www.myeasterntype.com/wellness"
 
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,
@@ -110,8 +110,8 @@ const tagColors: Record<string, string> = {
 
 export default function WellnessIndexPage() {
   const jsonLd = buildBreadcrumbJsonLd([
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Wellness", url: "https://www.myeasterntype.com/wellness" },
   ])
 
   return (

@@ -25,7 +25,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://myeasterntype.com"),
+  metadataBase: new URL("https://www.myeasterntype.com"),
   verification: {
     google: "MiP1PyAbOojiLM7jlUAb8a1ZiSRPzqdyXJTdgWvGFYQ",
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     description:
       "Chinese medicine identified 9 body types centuries ago. Discover yours in a free ~5 min quiz.",
     type: "website",
-    url: "https://myeasterntype.com",
+    url: "https://www.myeasterntype.com",
     images: [
       {
         url: "/og-image.png",

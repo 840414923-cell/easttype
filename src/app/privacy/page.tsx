@@ -3,7 +3,7 @@ import PrivacyContent from "./privacy-content"
 
 const TITLE = "Privacy Policy — EastType"
 const DESC = "How EastType handles your data. We store quiz answers locally, process payments via Creem, and use anonymized analytics only."
-const URL = "https://myeasterntype.com/privacy"
+const URL = "https://www.myeasterntype.com/privacy"
 
 export const metadata: Metadata = {
   title: TITLE,

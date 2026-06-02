@@ -3,7 +3,7 @@ import QuizClient from "./quiz-client"
 
 const TITLE = "Free Body Type Quiz — Discover Your Eastern Constitution | EastType"
 const DESC = "Chinese medicine identified 9 body types centuries ago. Take this free 5-minute assessment to discover your constitution type, personalized food suggestions, and lifestyle tips."
-const URL = "https://myeasterntype.com/quiz"
+const URL = "https://www.myeasterntype.com/quiz"
 
 export const metadata: Metadata = {
   title: TITLE,

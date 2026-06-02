@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-crave-sweets"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Do I Crave Sweets? Eastern Body Type Insights"
 const DESC = "Can't stop craving sugar? Your Eastern body type may explain sweet cravings. Learn which TCM patterns are linked to sugar addiction and what may help reduce the urge."
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const jsonLd = buildArticleJsonLd({
   title: TITLE, description: DESC, url: URL, datePublished: "2026-06-02",
   faqs: SYMPTOM_FAQS[SLUG],
-  breadcrumb: [{ name: "EastType", url: "https://myeasterntype.com" }, { name: "Symptoms", url: "https://myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
+  breadcrumb: [{ name: "EastType", url: "https://www.myeasterntype.com" }, { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
 })
 
 export default function Page() {

@@ -4,7 +4,7 @@ import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "high-sensitivity"
-const URL = `https://myeasterntype.com/patterns/${SLUG}`
+const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "High Sensitivity Pattern — Allergies, Strong Reactions, Emotional Sensitivity"
 const DESC = "The High Sensitivity pattern links allergies, strong reactions to smells and sounds, and emotional sensitivity to the Sensitive constitution in Traditional Chinese Medicine. Learn which habits may help build resilience."
 
@@ -33,8 +33,8 @@ const jsonLd = buildArticleJsonLd({
   datePublished: "2026-06-02",
   faqs: PATTERN_FAQS[SLUG],
   breadcrumb: [
-    { name: "EastType", url: "https://myeasterntype.com" },
-    { name: "Patterns", url: "https://myeasterntype.com/patterns" },
+    { name: "EastType", url: "https://www.myeasterntype.com" },
+    { name: "Patterns", url: "https://www.myeasterntype.com/patterns" },
     { name: "High Sensitivity", url: URL },
   ],
 })

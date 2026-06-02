@@ -4,7 +4,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-get-sick-so-often"
-const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Why Do I Get Sick So Often? Eastern Body Type Insights"
 const DESC = "Always catching every cold going around? Your Eastern body type may explain low immunity. Learn which TCM patterns are linked to frequent illness and what may help strengthen your defenses."
 
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const jsonLd = buildArticleJsonLd({
   title: TITLE, description: DESC, url: URL, datePublished: "2026-06-02",
   faqs: SYMPTOM_FAQS[SLUG],
-  breadcrumb: [{ name: "EastType", url: "https://myeasterntype.com" }, { name: "Symptoms", url: "https://myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
+  breadcrumb: [{ name: "EastType", url: "https://www.myeasterntype.com" }, { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" }, { name: TITLE, url: URL }],
 })
 
 export default function Page() {
