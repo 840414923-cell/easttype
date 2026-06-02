@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { SYMPTOMS, SYMPTOM_SLUGS } from "@/lib/symptoms-data"
 import SymptomCta from "@/components/symptom-cta"
+import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "Common Wellness Symptoms & Body Type Insights"
 const DESC = "Explore common wellness symptoms like fatigue, cold sensitivity, poor sleep, and bloating through the lens of Traditional Chinese Medicine and constitutional body type patterns."
@@ -26,8 +27,15 @@ export const metadata: Metadata = {
 }
 
 export default function SymptomsHubPage() {
+  const jsonLd = buildBreadcrumbJsonLd([
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+  ])
+
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <main className="max-w-3xl mx-auto px-6 py-12">
       <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-4 leading-tight">
         Explore Common Wellness Symptoms
       </h1>
@@ -66,5 +74,6 @@ export default function SymptomsHubPage() {
 
       <SymptomCta />
     </main>
+    </>
   )
 }

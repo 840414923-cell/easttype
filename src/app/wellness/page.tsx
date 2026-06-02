@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "Wellness Guides — Chinese Medicine for Modern Life"
 const DESC = "Free wellness guides based on Traditional Chinese Medicine. Understand why you're always tired, always cold, can't sleep, and what to eat for your body type."
@@ -108,8 +109,15 @@ const tagColors: Record<string, string> = {
 }
 
 export default function WellnessIndexPage() {
+  const jsonLd = buildBreadcrumbJsonLd([
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Wellness", url: "https://myeasterntype.com/wellness" },
+  ])
+
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <main className="max-w-3xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">
           EastType
@@ -160,5 +168,6 @@ export default function WellnessIndexPage() {
         </Link>
       </div>
     </main>
+    </>
   )
 }

@@ -22,7 +22,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
     tag: "Fatigue",
     readTime: "8 min",
     relatedTypes: ["qi_deficient", "yang_deficient"],
-    relatedSymptoms: ["why-am-i-always-sleepy", "why-do-i-have-low-energy"],
+    relatedSymptoms: ["why-am-i-always-sleepy", "why-do-i-feel-anxious"],
   },
   "why-am-i-always-cold": {
     slug: "why-am-i-always-cold",

@@ -47,11 +47,6 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     description: descs.en,
     alternates: {
       canonical: url,
-      languages: {
-        "en": url,
-        "zh-TW": url,
-        "ja": url,
-      },
     },
     openGraph: {
       title: `EastType — ${titles.en}`,
