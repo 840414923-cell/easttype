@@ -102,6 +102,10 @@ export default function AnxiousArticle() {
           <Link href="/patterns/stuck-energy" className="text-sm text-accent no-underline hover:underline">
             Stuck Energy Pattern →
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/high-sensitivity" className="text-sm text-accent no-underline hover:underline">
+            High Sensitivity Pattern →
+          </Link>
         </div>
       </section>
 

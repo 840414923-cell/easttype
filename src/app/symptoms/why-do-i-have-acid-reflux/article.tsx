@@ -151,6 +151,10 @@ export default function AcidRefluxArticle() {
           <Link href="/patterns/heavy-and-sluggish" className="text-sm text-accent no-underline hover:underline">
             Heavy & Sluggish Pattern →
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/damp-heat" className="text-sm text-accent no-underline hover:underline">
+            Damp Heat Pattern →
+          </Link>
         </div>
       </section>
 

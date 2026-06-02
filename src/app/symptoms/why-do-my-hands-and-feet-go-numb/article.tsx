@@ -131,6 +131,8 @@ export default function WhyNumbArticle() {
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">Related Pattern</h2>
         <div className="flex flex-wrap gap-2">
           <Link href="/patterns/cold-sensitivity" className="text-sm text-accent no-underline hover:underline">Cold Sensitivity Pattern →</Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/blood-stasis" className="text-sm text-accent no-underline hover:underline">Blood Stasis Pattern →</Link>
         </div>
       </section>
       <section className="mb-10">

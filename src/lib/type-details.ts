@@ -450,8 +450,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Why should I avoid ice-cold drinks if I'm already too hot?", "zh-TW": "我已經夠熱了，為什麼還不能喝冰的？", ja: "すでに暑がりなのに、なぜ冷たい飲み物を避けるべき？" }, a: { en: "This sounds backwards but stay with me. Ice-cold drinks shock your spleen, which is the organ responsible for processing dampness in Chinese medicine. When your spleen gets sluggish from the cold, it can't drain dampness properly, so the dampness just sits there and the heat gets trapped with it. Warm or room-temperature drinks keep your digestion moving and actually help clear heat better in the long run.", "zh-TW": "聽起來很矛盾，但聽我說。冰鎮飲料會讓你的脾胃受到衝擊，而脾在中醫裡正是負責處理濕氣的器官。脾被冷到就會變得遲鈍，濕氣排不出去，熱就悶在裡面跟著一起賴著不走。喝溫的或常溫的飲料，反而能讓消化系統維持正常運作，長遠來說更能幫你清熱。", ja: "逆のように聞こえますが、聞いてください。キンキンに冷たい飲み物は脾臓にショックを与えます。中医学では脾臓が湿り気を処理する器官です。脾臓が冷えて鈍くなると湿り気をうまく排出できず、湿り気が溜まったまま熱も閉じ込められます。温かい飲み物や常温の飲み物の方が消化を助け、長い目で見て熱を抑えるのに本当に役立ちます。" } },
     ],
     relatedWellness: ["chinese-medicine-diet", "chinese-medicine-body-types", "night-sweats-chinese-medicine"],
-    relatedPatterns: [],
-    relatedSymptoms: ["why-do-i-have-acid-reflux"],
+    relatedPatterns: ["damp-heat"],
+    relatedSymptoms: ["why-do-i-have-acid-reflux", "why-do-i-keep-breaking-out"],
   },
 
   blood_stasis: {
@@ -522,8 +522,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Are dark spots on my face connected to blood stasis?", "zh-TW": "臉上的黑斑跟血瘀有關嗎？", ja: "顔のシミはお血と関係ありますか？" }, a: { en: "They often are. When circulation is sluggish, nutrients and oxygen don't reach your skin efficiently, and metabolic waste doesn't get cleared quickly. That combination creates a dull complexion and can contribute to hyperpigmentation. Improving your internal circulation through diet and movement addresses the root cause and gives your skin a natural brightness back.", "zh-TW": "通常有關。當循環遲緩時，營養和氧氣無法有效送達皮膚，代謝廢物也無法快速清除。這種組合造成暗沉的氣色，也可能導致色素沉澱。透過飲食和運動改善內在循環才是從根本著手，讓你的皮膚恢復自然的明亮感。", ja: "よく関係しています。巡りが悪いと、栄養や酸素が肌に効率よく届かず、老廃物の排出も遅くなります。その組み合わせでくすんだ肌色になり、シミの原因にもなります。食事と運動で内側からの巡りを改善することが根本的なアプローチで、肌の自然な明るさを取り戻せます。" } },
     ],
     relatedWellness: ["cold-hands-and-feet", "chinese-medicine-body-types", "foods-that-warm-your-body"],
-    relatedPatterns: [],
-    relatedSymptoms: [],
+    relatedPatterns: ["blood-stasis"],
+    relatedSymptoms: ["why-do-my-hands-and-feet-go-numb", "why-do-i-have-headaches"],
   },
 
   qi_stagnant: {
@@ -665,7 +665,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "My skin randomly gets itchy and red for no reason. Is this my constitution?", "zh-TW": "我的皮膚會無緣無故發癢發紅。這是我的體質造成的嗎？", ja: "肌が理由もなくかゆくなったり赤くなったりします。体質のせいですか？" }, a: { en: "Very likely. Unexplained skin reactions are one of the most common signs of the sensitive constitution. Your skin is your body's largest interface with the outside world, and when your system is easily triggered, the skin is often where it shows up first. The usual suspects are stress, hidden food triggers, temperature changes, and environmental irritants. Track when it happens — the pattern is usually there, you just have to look for it long enough.", "zh-TW": "很有可能。無法解釋的皮膚反應是敏感體質最常見的表現之一。皮膚是你身體和外界最大的接觸面，當你的系統容易被觸發時，皮膚常常是最先表態的地方。常見的原因有壓力、隱藏的食物觸發物、溫度變化和環境刺激物。追蹤它何時發生——規律通常就在那裡，只是你需要看夠久才看得到。", ja: "その可能性が高いです。理由のない肌の反応は、敏感体質の最も一般的なサインの一つ。肌は体と外の世界の最大の接点で、システムがtriggerされやすいと、肌に最初に表れます。主な原因はストレス、隠れた食べ物のトリガー、温度変化、環境刺激。いつ起こるか記録してみて——パターンはたいていそこにあります。ただ見つけるまで時間がかかるだけ。" } },
     ],
     relatedWellness: ["chinese-medicine-body-types", "chinese-medicine-diet", "why-am-i-always-tired"],
-    relatedPatterns: [],
-    relatedSymptoms: [],
+    relatedPatterns: ["high-sensitivity"],
+    relatedSymptoms: ["why-do-i-get-sick-so-often", "why-do-i-feel-anxious"],
   },
 }

@@ -151,6 +151,14 @@ export default function HeadachesArticle() {
           <Link href="/patterns/stuck-energy" className="text-sm text-accent no-underline hover:underline">
             Stuck Energy Pattern →
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/blood-stasis" className="text-sm text-accent no-underline hover:underline">
+            Blood Stasis Pattern →
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/patterns/damp-heat" className="text-sm text-accent no-underline hover:underline">
+            Damp Heat Pattern →
+          </Link>
         </div>
       </section>
 

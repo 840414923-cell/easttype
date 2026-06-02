@@ -91,4 +91,58 @@ export const PATTERN_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Stagnant body type (气郁质) is the primary match. About 8% of people fall into this category. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
     },
   ],
+  "damp-heat": [
+    {
+      q: { en: "What is the Damp Heat pattern in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat pattern is what Chinese medicine calls the combination of Dampness and Heat in the body. Dampness creates the heavy, sticky, oily quality. Heat creates the redness, inflammation, and irritability. When both are present, you get a unique set of symptoms: persistent acne, acid reflux, feeling hot and sticky, and irritability that worsens in humid weather. Think of it as a greenhouse in summer: hot, humid, and everything grows too fast, including the things you don't want.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "How is Damp Heat different from just Internal Heat?", "zh-TW": "", ja: "" },
+      a: { en: "Internal Heat (Yin Deficiency) is dry heat. You feel hot but not sticky. Night sweats, dry skin, and insomnia are the main signs. Damp Heat adds a layer of moisture and stickiness. You feel hot AND oily AND heavy. Your breakouts are deep and swollen rather than just red. Your digestion feels sluggish and heavy rather than just uncomfortable. The treatments are different: Internal Heat needs cooling and moistening. Damp Heat needs cooling AND drying.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with the Damp Heat pattern?", "zh-TW": "", ja: "" },
+      a: { en: "Foods that both cool and drain moisture: mung bean soup, cucumber, bitter melon, celery, coix seed, and winter melon. Green tea in moderation can help clear heat. Avoid the worst offenders: alcohol, spicy food, fried food, dairy, and sweets. These generate both heat and dampness simultaneously. In humid weather, eat lighter meals and reduce portion sizes. Your body is already struggling to process, so don't overload it.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most connected to the Damp Heat pattern?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat body type (湿热质) is the primary match. About 8% of people fall into this category. They tend to run hot, break out easily, and feel irritable in humid conditions. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "blood-stasis": [
+    {
+      q: { en: "What is the Blood Stasis pattern in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "Blood Stasis (血瘀, pronounced \"shway-yoo\") means your blood circulation is sluggish. Things are moving, just not fast enough. The result is dull pain, easy bruising, numbness in the extremities, and sometimes dark spots or a dusky complexion. Chinese medicine sees blood as the river of nourishment in your body. When the river slows, areas downstream don't get what they need, and waste doesn't get cleared away quickly enough.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "How is Blood Stasis different from Cold Sensitivity?", "zh-TW": "", ja: "" },
+      a: { en: "They can overlap, but they're different patterns. Cold Sensitivity (Yang Deficiency) is about not having enough warmth to circulate properly. Blood Stasis is about the circulation itself being slow, regardless of temperature. You can have Blood Stasis without feeling cold. In fact, some people with Blood Stasis run warm but still have poor circulation. The key difference is that Cold Sensitivity improves with warming, while Blood Stasis improves with movement and circulation-supporting foods.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with the Blood Stasis pattern?", "zh-TW": "", ja: "" },
+      a: { en: "Foods that support circulation: black pepper, ginger, turmeric, rose tea, chrysanthemum tea, hawthorn, and vinegar in moderation. Dark-colored foods like black sesame, black beans, and red dates are traditionally associated with blood nourishment. Avoid excessive cold foods and drinks, which slow circulation further. Regular movement is actually more important than any specific food for this pattern. Even a daily 20-minute walk can make a noticeable difference.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most connected to the Blood Stasis pattern?", "zh-TW": "", ja: "" },
+      a: { en: "The Blood Stasis body type (血瘀质) is the primary match. About 6% of people fall into this category. They bruise easily, experience dull fixed pain, and may have dark spots or a dusky complexion. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "high-sensitivity": [
+    {
+      q: { en: "What is the High Sensitivity pattern in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "The High Sensitivity pattern is the everyday-language name for what Chinese medicine calls the Sensitive constitution (特禀质). It describes a body that reacts to the world with extraordinary intensity. Allergies, strong reactions to smells and sounds, emotional absorption, and skin that flushes or itches for no clear reason. Your threshold is lower than most people's, but your perception is deeper. It's not a weakness. It's a different operating system.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is the High Sensitivity pattern the same as being highly sensitive (HSP)?", "zh-TW": "", ja: "" },
+      a: { en: "They overlap significantly but come from different frameworks. HSP is a psychological concept about sensory processing sensitivity. The High Sensitivity pattern in TCM is a constitutional pattern that includes physical symptoms like allergies, skin reactions, and digestive sensitivities alongside emotional sensitivity. The TCM approach focuses on building resilience through food and lifestyle rather than psychological strategies. Both frameworks recognize the same core experience: you feel things others don't.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with the High Sensitivity pattern?", "zh-TW": "", ja: "" },
+      a: { en: "Simple, warm, and gentle foods. Congee, steamed vegetables, mild soups, and rice-based meals. Avoid known triggers: dairy, excess sugar, very spicy food, and highly processed items. Warm water instead of cold. The goal isn't to eliminate everything you react to, but to create a stable, predictable foundation that your body can rely on. When your base is solid, your reactions become less severe and less frequent.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most connected to the High Sensitivity pattern?", "zh-TW": "", ja: "" },
+      a: { en: "The Sensitive body type (特禀质) is the primary match. About 5% of people fall into this category. They react strongly to environmental triggers, absorb others' emotions, and tend toward allergies and skin sensitivities. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
+    },
+  ],
 }
