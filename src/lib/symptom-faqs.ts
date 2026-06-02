@@ -411,4 +411,94 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their internal cooling system is undercharged, which creates internal dryness and the sensation of unquenchable thirst. About 10% of people have this pattern. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-do-i-have-lower-back-pain": [
+    {
+      q: { en: "Is lower back pain always a structural problem?", "zh-TW": "", ja: "" },
+      a: { en: "Not always. Herniated discs, spinal stenosis, and kidney stones are structural causes that show up on scans. But many people have normal MRIs and still live with chronic lower back pain. TCM looks at this differently: the lower back is the home of the Kidneys in Chinese medicine, and pain there often points to Kidney Yang or Kidney Yin Deficiency. The structure is fine, but the energy supporting it is undercharged.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does my lower back hurt more when it's cold?", "zh-TW": "", ja: "" },
+      a: { en: "This is a classic sign of Yang Deficiency. Cold causes contraction and slows circulation. If your Kidney Yang is already low, your lower back doesn't have enough warmth to maintain flexibility and blood flow. Cold weather makes the area tighter, stiffer, and more painful. This is why TCM often recommends warm ginger compresses and avoiding cold drinks for lower back pain that worsens in winter.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with lower back pain from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Kidney-warming foods are the foundation: black beans, walnuts, chestnuts, lamb, and goji berries. Ginger and cinnamon tea can help if the pain worsens with cold. Bone broth is particularly valued because it directly supports the bones and connective tissue. Avoid ice-cold drinks, excessive raw foods, and too much salt, which can strain the Kidneys in TCM theory.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic lower back pain?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) is the primary match. Their internal heater is underpowered, and the lower back is the first place that feels it. The Qi Deficient type (气虚质) may also experience lower back aching from sheer lack of energy to support the muscles. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-eczema": [
+    {
+      q: { en: "Is eczema the same as dermatitis?", "zh-TW": "", ja: "" },
+      a: { en: "They overlap significantly. Eczema (atopic dermatitis) is a specific type of dermatitis characterized by dry, itchy, inflamed skin that comes and goes in cycles. TCM doesn't use either term, but it recognizes the pattern: flare-ups that correspond to internal heat, dampness, or both. The flare-up is the visible tip of an internal pattern that's been building underneath.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does eczema keep coming back?", "zh-TW": "", ja: "" },
+      a: { en: "Because most treatments address the surface, not the root. Creams suppress the inflammation, but they don't change the internal conditions that created it. In TCM, recurring eczema is often a Damp Heat pattern. Dampness creates the oozing and itchiness. Heat creates the redness and inflammation. Creams cool the surface temporarily, but the dampness and heat keep regenerating from inside. Until those patterns shift, the eczema returns.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What dietary changes may help with eczema?", "zh-TW": "", ja: "" },
+      a: { en: "For Damp Heat-related eczema: reduce dairy, alcohol, spicy food, fried food, and shellfish, which generate both heat and moisture. Add cooling, damp-draining foods: mung bean soup, coix seed, celery, cucumber, and winter melon. For Yin Deficiency-related eczema (dry, cracking skin): pear, black sesame, tremella mushroom, and lotus seed to rebuild internal moisture. In both cases, reducing sugar can make a noticeable difference within weeks.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with eczema?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat type (湿热质) is the primary match. Their body runs hot and sticky, creating the perfect conditions for skin flare-ups. The Sensitive type (特禀质) may also experience eczema because their body reacts to environmental triggers more intensely. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-sweat-so-much": [
+    {
+      q: { en: "Is excessive sweating always hyperhidrosis?", "zh-TW": "", ja: "" },
+      a: { en: "No. Hyperhidrosis is a specific medical diagnosis where sweating is excessive and unrelated to temperature or exercise. Many people sweat more than average without meeting the clinical criteria. TCM offers a different distinction: daytime sweating with minimal effort often points to Qi Deficiency, while night sweats point to Yin Deficiency. Figuring out when you sweat tells you what pattern may be behind it.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do I sweat during the day but not at night?", "zh-TW": "", ja: "" },
+      a: { en: "This is the hallmark of Qi Deficiency sweating. In TCM, your Wei Qi (defensive energy) acts like a gatekeeper at your skin's surface. It decides when to open your pores (to release heat) and when to close them (to keep warmth in). When Qi is weak, the gate doesn't close properly. Minor exertion like climbing stairs or eating a warm meal opens the floodgates. Night sweats, by contrast, are usually Yin Deficiency, where internal heat builds when your body should be cooling down.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do to reduce excessive sweating?", "zh-TW": "", ja: "" },
+      a: { en: "For Qi-related daytime sweating: build Qi with congee, jujube dates, sweet potato, and gentle movement. Avoid overexertion that drains what little Qi you have. For Yin-related night sweating: nourish Yin with pear, black sesame, lily bulb, and tremella mushroom. Go to bed before 11 PM. For both patterns, avoid spicy food, alcohol, and coffee, which generate internal heat that your body tries to release through sweating.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with excessive sweating?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the most common match for daytime sweating. Their defensive energy can't regulate the pores properly. The Yin Deficient type (阴虚质) is the most common match for night sweats. Their internal heat builds at night. Some people have both patterns, which means sweating around the clock. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-joint-pain": [
+    {
+      q: { en: "Is joint pain always arthritis?", "zh-TW": "", ja: "" },
+      a: { en: "No. Arthritis is a specific structural diagnosis involving joint inflammation or degeneration that shows up on X-rays and blood tests. Many people have joint pain that doesn't meet the criteria for any type of arthritis. In TCM, joint pain without structural damage often falls under a category called Bi Syndrome, which literally means 'obstruction.' Something is blocking the normal flow of Qi and Blood through the joint. Remove the blockage, and the pain often improves.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does my joint pain get worse in cold or damp weather?", "zh-TW": "", ja: "" },
+      a: { en: "This is one of the most validated observations in TCM. Cold causes contraction, which tightens the tissues around joints. Dampness creates heaviness and swelling. When both are present, your joints feel like they're packed in wet sand. People with Yang Deficiency are especially sensitive to cold-related joint pain. People with Phlegm Damp are especially sensitive to humidity-related joint pain. Knowing which one you are helps you choose the right approach.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with joint pain from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "For cold-type joint pain: ginger, cinnamon, black pepper, lamb, and warming soups to improve circulation. For damp-type joint pain: adzuki beans, coix seed, winter melon, and celery to drain moisture. For blood stasis-related joint pain (fixed, stabbing pain): turmeric, hawthorn, vinegar, and rose tea to encourage circulation. In all cases, regular gentle movement is more important than any specific food. Joints need motion to stay lubricated.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with joint pain?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) is the primary match. Their body lacks the warmth to keep joints supple and well-circulated. The Blood Stasis type (血瘀质) may also experience joint pain from poor circulation to the extremities. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-always-thirsty-at-night": [
+    {
+      q: { en: "Is being thirsty at night different from being thirsty during the day?", "zh-TW": "", ja: "" },
+      a: { en: "Yes, and the distinction matters. Daytime thirst can have many causes: not drinking enough, dry air, high salt intake, or hot weather. Nighttime thirst is more specific in TCM. It often points to Yin Deficiency, because nighttime is when Yin should be dominant. If your Yin is low, internal heat builds during the night, drying out your mouth and throat. Waking up thirsty at 2 or 3 AM is a classic Yin Deficiency signal.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Could nighttime thirst be a sign of diabetes?", "zh-TW": "", ja: "" },
+      a: { en: "It could be, so getting your blood sugar checked is the right first step. Excessive thirst and frequent urination, especially at night, are classic diabetes symptoms. But if your blood sugar is normal and you're still waking up parched, TCM offers a different framework. Yin Deficiency creates internal dryness that peaks at night because your body's cooling system is undercharged. The thirst is real. The cause may not be what you think.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do to stop waking up thirsty?", "zh-TW": "", ja: "" },
+      a: { en: "Go to bed before 11 PM. This is the single most important change for Yin-related nighttime thirst. Yin replenishes during sleep, especially the hours before midnight. Eat Yin-nourishing foods in the evening: pear soup, lily bulb, tremella mushroom, or lotus seed porridge. Avoid spicy food, alcohol, and coffee after noon, as they generate internal heat that builds through the night. Keep a glass of warm (not cold) water by your bed.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with nighttime thirst?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their internal moisture is low, and the dryness peaks at night when Yin should be replenishing but can't keep up. About 10% of people have this pattern. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }
