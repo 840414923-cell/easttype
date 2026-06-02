@@ -165,6 +165,10 @@ export default function LowVitalityArticle() {
           <Link href="/symptoms/why-am-i-always-sleepy" className="text-sm text-accent no-underline hover:underline">
             Why Am I Always Sleepy?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-get-sick-so-often" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Get Sick So Often?
+          </Link>
         </div>
       </section>
 

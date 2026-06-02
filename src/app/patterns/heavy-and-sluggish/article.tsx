@@ -169,6 +169,10 @@ export default function HeavySluggishArticle() {
           <Link href="/symptoms/why-do-i-keep-gaining-weight" className="text-sm text-accent no-underline hover:underline">
             Why Do I Keep Gaining Weight?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-crave-sweets" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Crave Sweets?
+          </Link>
         </div>
       </section>
 

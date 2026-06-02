@@ -169,6 +169,10 @@ export default function StuckEnergyArticle() {
           <Link href="/symptoms/why-are-my-moods-all-over-the-place" className="text-sm text-accent no-underline hover:underline">
             Why Are My Moods All Over the Place?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-overthink-everything" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Overthink Everything?
+          </Link>
         </div>
       </section>
 

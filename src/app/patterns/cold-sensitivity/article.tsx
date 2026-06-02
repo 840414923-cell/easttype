@@ -169,6 +169,10 @@ export default function ColdSensitivityArticle() {
           <Link href="/symptoms/why-do-i-wake-up-at-3am" className="text-sm text-accent no-underline hover:underline">
             Why Do I Wake Up at 3AM?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-my-hands-and-feet-go-numb" className="text-sm text-accent no-underline hover:underline">
+            Why Do My Hands and Feet Go Numb?
+          </Link>
         </div>
       </section>
 

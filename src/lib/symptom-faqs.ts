@@ -175,4 +175,78 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people fall into this category. Common signs include chest tightness, frequent sighing, and emotional reactions that feel out of proportion. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-do-i-get-sick-so-often": [
+    {
+      q: { en: "Why do I catch every cold that goes around?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, this points to weak Wei Qi (defensive energy). Wei Qi circulates at your body's surface like an invisible shield. When Qi or Yang is low, your body can't produce enough Wei Qi to keep pathogens out. You're not unlucky. Your defenses are understaffed.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can food really strengthen my immune system?", "zh-TW": "", ja: "" },
+      a: { en: "Yes, especially in the TCM framework. Qi-building foods like congee with jujube dates and ginger, chicken broth, and sweet potato support the energy your body needs to produce defensive Qi. Warming foods like ginger and cinnamon help if Yang Deficiency is part of your pattern. Most people notice fewer colds within a month of consistent dietary changes.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type gets sick most often?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) and Yang Deficient type (阳虚质) are both prone to frequent illness. Qi Deficiency means low defensive energy. Yang Deficiency means poor circulation of that energy. About 15% and 10% of people fall into these categories respectively. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-my-hands-and-feet-go-numb": [
+    {
+      q: { en: "Are numb hands and feet always a circulation problem?", "zh-TW": "", ja: "" },
+      a: { en: "Not always, but circulation is the most common cause. In TCM, numbness occurs when Qi and Blood don't reach an area adequately. This can be due to Yang Deficiency (not enough warmth to push circulation to the extremities) or Qi Deficiency (not enough pumping power). Both are functional patterns, not structural problems.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "How is this different from Raynaud's?", "zh-TW": "", ja: "" },
+      a: { en: "Raynaud's is a specific vascular condition where blood vessels in the fingers and toes spasm in response to cold. TCM's explanation is broader: any constitution with low Yang or low Qi can experience reduced circulation to the extremities. Some people with Raynaud's may have a Yang Deficient pattern, but not all numbness is Raynaud's.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can help with numb extremities?", "zh-TW": "", ja: "" },
+      a: { en: "For Yang Deficiency: warming foods (ginger, cinnamon, lamb), regular warm foot soaks, and dressing warmly around wrists and ankles. For Qi Deficiency: energy-building foods (congee, jujube dates, chicken broth) and gentle movement to improve circulation. For both: avoid cold drinks and raw foods.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-skin-so-dry": [
+    {
+      q: { en: "Why won't moisturizer fix my dry skin?", "zh-TW": "", ja: "" },
+      a: { en: "Because the problem isn't on the surface. In TCM, chronic dry skin is often caused by Yin Deficiency: your body lacks the internal moistening force that keeps skin hydrated from within. Moisturizer is like watering a plant by misting the leaves when the real problem is that the roots can't reach the water table.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with dry skin from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Yin-nourishing foods: pear, black sesame, lily bulb, tremella mushroom, lotus seed, tofu, and cucumber. Avoid spicy food, alcohol, and deep-fried food, which generate internal heat and further deplete Yin. Going to bed before 11 PM is one of the most effective things you can do, because Yin is replenished during sleep.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most prone to dry skin?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match. About 10% of people have this pattern. They tend to run warm, especially at night, and may also experience night sweats, dry mouth, and a thin body type. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-crave-sweets": [
+    {
+      q: { en: "Why do I crave sweets specifically after meals?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, the sweet flavor corresponds to the Spleen. When your Spleen is weak, it sends a signal asking for sweet things to support itself. The craving after meals is your Spleen saying it needs help digesting. Refined sugar makes the problem worse. Natural sweets like sweet potato and dates support the Spleen without creating the crash.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is craving sweets the same as sugar addiction?", "zh-TW": "", ja: "" },
+      a: { en: "Not necessarily. Sugar addiction involves dopamine and reward pathways in the brain. TCM looks at sweet cravings as a Spleen signal. They can overlap: a weak Spleen craves sweets, refined sugar weakens the Spleen further, creating a cycle. Breaking the cycle works best when you replace refined sugar with natural Spleen-supporting sweets rather than trying to quit all sweet foods at once.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type craves sweets most?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) and Qi Deficient type (气虚质) both tend to crave sweets. Phlegm Damp types crave sweets because of Spleen weakness. Qi Deficient types crave sweets for quick energy. Take the free EastType quiz to discover which pattern drives your cravings.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-overthink-everything": [
+    {
+      q: { en: "Is overthinking the same as anxiety?", "zh-TW": "", ja: "" },
+      a: { en: "Not exactly. Anxiety involves fear and worry about future events. Overthinking involves repetitive analysis and rumination that can happen without fear. In TCM, anxiety and overthinking share a root (Qi Stagnation) but are different expressions. Anxiety is the pressure pushing outward. Overthinking is the energy circling without moving forward.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does overthinking get worse at night?", "zh-TW": "", ja: "" },
+      a: { en: "During the day, physical activity and external stimuli help move stagnant energy. At night, when you're still and quiet, the stagnation becomes more noticeable. The stuck energy has nothing to distract it, so it intensifies as mental looping. This is why movement during the day and a wind-down routine before bed are both important.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What's the fastest way to stop an overthinking loop?", "zh-TW": "", ja: "" },
+      a: { en: "Move your body. Stand up, walk, stretch, shake your arms. Physical movement directly moves stagnant Qi. Then write down the looping thought to get it out of your head. Finally, drink rose tea or tangerine peel tea, which traditionally support smooth Liver Qi flow. The combination of movement, externalization, and tea works better than any single approach alone.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most prone to overthinking?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people have this pattern. Their energy tends to pool and stagnate, creating mental fixation and rumination. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }

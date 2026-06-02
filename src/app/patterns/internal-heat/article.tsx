@@ -163,6 +163,10 @@ export default function InternalHeatArticle() {
           <Link href="/symptoms/why-cant-i-fall-asleep" className="text-sm text-accent no-underline hover:underline">
             Why Can't I Fall Asleep?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-is-my-skin-so-dry" className="text-sm text-accent no-underline hover:underline">
+            Why Is My Skin So Dry?
+          </Link>
         </div>
       </section>
 

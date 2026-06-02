@@ -25,7 +25,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Qi Deficiency",
     readTime: "9 min",
     relatedTypes: ["qi_deficient"],
-    relatedSymptoms: ["why-am-i-always-tired", "why-am-i-always-sleepy"],
+    relatedSymptoms: ["why-am-i-always-tired", "why-am-i-always-sleepy", "why-do-i-get-sick-so-often"],
     tcmConcept: "Qi Deficiency",
   },
   "cold-sensitivity": {
@@ -38,7 +38,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Yang Deficiency",
     readTime: "9 min",
     relatedTypes: ["yang_deficient"],
-    relatedSymptoms: ["why-am-i-always-cold", "why-do-i-wake-up-at-3am"],
+    relatedSymptoms: ["why-am-i-always-cold", "why-do-i-wake-up-at-3am", "why-do-my-hands-and-feet-go-numb"],
     tcmConcept: "Yang Deficiency",
   },
   "internal-heat": {
@@ -51,7 +51,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Yin Deficiency",
     readTime: "9 min",
     relatedTypes: ["yin_deficient"],
-    relatedSymptoms: ["why-do-i-wake-up-at-3am", "why-do-i-have-night-sweats", "why-cant-i-fall-asleep"],
+    relatedSymptoms: ["why-do-i-wake-up-at-3am", "why-do-i-have-night-sweats", "why-cant-i-fall-asleep", "why-is-my-skin-so-dry"],
     tcmConcept: "Yin Deficiency",
   },
   "heavy-and-sluggish": {
@@ -64,7 +64,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Phlegm Damp",
     readTime: "9 min",
     relatedTypes: ["phlegm_damp"],
-    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy", "why-do-i-have-brain-fog", "why-do-i-keep-gaining-weight"],
+    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy", "why-do-i-have-brain-fog", "why-do-i-keep-gaining-weight", "why-do-i-crave-sweets"],
     tcmConcept: "Phlegm Damp",
   },
   "stuck-energy": {
@@ -77,7 +77,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Qi Stagnation",
     readTime: "9 min",
     relatedTypes: ["qi_stagnant"],
-    relatedSymptoms: ["why-do-i-feel-anxious", "why-do-i-wake-up-at-3am", "why-are-my-moods-all-over-the-place"],
+    relatedSymptoms: ["why-do-i-feel-anxious", "why-do-i-wake-up-at-3am", "why-are-my-moods-all-over-the-place", "why-do-i-overthink-everything"],
     tcmConcept: "Qi Stagnation",
   },
 }
