@@ -167,6 +167,25 @@ export default function InternalHeatArticle() {
           <Link href="/symptoms/why-is-my-skin-so-dry" className="text-sm text-accent no-underline hover:underline">
             Why Is My Skin So Dry?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-is-my-hair-falling-out" className="text-sm text-accent no-underline hover:underline">
+            Why Is My Hair Falling Out?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-am-i-always-thirsty" className="text-sm text-accent no-underline hover:underline">
+            Why Am I Always Thirsty?
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          Related Pattern
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/patterns/stuck-energy" className="text-sm text-accent no-underline hover:underline">
+            Stuck Energy Pattern →
+          </Link>
         </div>
       </section>
 

@@ -1,0 +1,52 @@
+import type { Metadata } from "next"
+import BreakingOutArticle from "./article"
+import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
+import { buildArticleJsonLd } from "@/lib/json-ld"
+
+const SLUG = "why-do-i-keep-breaking-out"
+const URL = `https://myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Why Do I Keep Breaking Out? Eastern Body Type Insights"
+const DESC = "Persistent acne that won't respond to skincare? Your Eastern body type may explain recurring breakouts. Learn which TCM patterns are linked to skin issues."
+
+export const metadata: Metadata = {
+  title: `${TITLE} | EastType`,
+  description: DESC,
+  openGraph: {
+    title: TITLE,
+    description: "Tried every skincare product and still breaking out? Your body type may hold the answer.",
+    url: URL,
+    type: "article",
+    siteName: "EastType",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: "Tried every skincare product and still breaking out? Your body type may hold the answer.",
+  },
+  alternates: { canonical: URL },
+}
+
+const jsonLd = buildArticleJsonLd({
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-06-02",
+  faqs: SYMPTOM_FAQS[SLUG],
+  breadcrumb: [
+    { name: "EastType", url: "https://myeasterntype.com" },
+    { name: "Symptoms", url: "https://myeasterntype.com/symptoms" },
+    { name: TITLE, url: URL },
+  ],
+})
+
+export default function Page() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <BreakingOutArticle />
+    </>
+  )
+}

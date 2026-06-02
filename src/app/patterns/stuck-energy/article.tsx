@@ -173,6 +173,25 @@ export default function StuckEnergyArticle() {
           <Link href="/symptoms/why-do-i-overthink-everything" className="text-sm text-accent no-underline hover:underline">
             Why Do I Overthink Everything?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-am-i-so-irritable" className="text-sm text-accent no-underline hover:underline">
+            Why Am I So Irritable?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-have-headaches" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Have Headaches?
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          Related Pattern
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/patterns/internal-heat" className="text-sm text-accent no-underline hover:underline">
+            Internal Heat Pattern →
+          </Link>
         </div>
       </section>
 

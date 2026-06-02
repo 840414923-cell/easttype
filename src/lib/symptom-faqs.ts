@@ -249,4 +249,166 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people have this pattern. Their energy tends to pool and stagnate, creating mental fixation and rumination. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-am-i-always-unmotivated": [
+    {
+      q: { en: "Is low motivation the same as laziness?", "zh-TW": "", ja: "" },
+      a: { en: "No. Laziness is choosing not to do something because you don't feel like it. Low motivation is wanting to do something but feeling like you physically can't get yourself started. In TCM, this is often a Qi problem, not a character problem. Your body doesn't have enough energy to initiate action, even when your mind wants to. It's like a car with a dead battery: the engine is fine, but it can't turn over.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why can I push through for others but not for myself?", "zh-TW": "", ja: "" },
+      a: { en: "This is very common with Qi Deficiency. You have a limited energy budget each day, and external obligations (work, family, deadlines) force you to spend it. By the time you get to things that are just for you, the tank is empty. It's not that you don't care about your own goals. It's that your Qi runs out before you get to them.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help restore motivation?", "zh-TW": "", ja: "" },
+      a: { en: "Qi-building foods are the foundation: congee with jujube dates and ginger, chicken broth, sweet potato, and goji berries. If you also run cold (Yang Deficiency), add warming foods like lamb, cinnamon, and black pepper. The key shift is from cold, raw, and sugary foods to warm, cooked, and nourishing ones. Most people feel a difference in their drive within 2 to 3 weeks.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with low motivation?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match. Their battery is genuinely smaller. The Yang Deficient type (阳虚质) can also feel unmotivated because their internal furnace is underpowered, making everything feel like it takes more effort than it should. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-keep-breaking-out": [
+    {
+      q: { en: "Why does my acne keep coming back in the same places?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, recurring acne in the same area often points to an internal pattern rather than a surface problem. The forehead is linked to the Heart and may signal internal heat or stress. The chin and jawline are linked to the Kidneys and reproductive system, where hormonal fluctuations interact with Phlegm Damp. The cheeks connect to the Lung and Spleen, where dampness and heat pool. Topical products clean the outside, but the inside keeps generating the same conditions.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is acne always hormonal?", "zh-TW": "", ja: "" },
+      a: { en: "Not always, though hormones play a role in many cases. TCM looks at acne through a different lens: it's often a combination of Dampness (which creates the oiliness and swelling) and Heat (which creates the redness and inflammation). Hormones can fan the flames, but if the underlying Damp-Heat pattern isn't addressed, the breakouts return regardless of what hormones are doing.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What dietary changes may help with breakouts?", "zh-TW": "", ja: "" },
+      a: { en: "Reduce dairy, sugar, fried food, and alcohol. These are the top Damp-Heat generators in TCM. Add foods that drain dampness (adzuki beans, coix seed, celery) and foods that gently clear heat (mung bean soup, cucumber, green tea in moderation). If Qi Deficiency is part of your pattern, don't go overboard with cold, raw \"detox\" foods, as they can weaken your digestion further.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with persistent acne?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the most common match. Their body holds onto moisture, creating the oily, swollen quality of persistent breakouts. The Qi Deficient type (气虚质) may also break out because their skin isn't getting enough energy to renew itself efficiently. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-hair-falling-out": [
+    {
+      q: { en: "Is hair loss always genetic?", "zh-TW": "", ja: "" },
+      a: { en: "Genetics play a significant role in pattern hair loss, but not all hair thinning is genetic. TCM views hair as an extension of Blood and Kidney energy. When these are depleted, the hair loses its nourishment and falls out. Even if you have a genetic predisposition, the rate and severity of hair loss may be influenced by your body's internal state.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does hair seem to fall out more at certain times?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, hair health is closely tied to the Kidneys and Liver Blood. Periods of intense stress, poor sleep, or illness deplete these systems. Seasonal shifts can also play a role. Many people notice more shedding after prolonged heat (which consumes Yin) or during recovery from an illness (which depletes Qi and Blood). If the shedding comes in waves rather than a steady trickle, it's worth looking at what was happening in your life 2 to 3 months before.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with hair thinning from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Blood-nourishing foods: black sesame, goji berries, spinach, beetroot, and bone broth. Yin-nourishing foods if you also run warm at night: pear, black fungus, lotus seed, and tremella mushroom. Avoid excessive spicy food, alcohol, and very salty foods, which may deplete the fluids that keep your hair rooted. Go to bed before 11 PM, as sleep is when Blood and Yin are replenished.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with hair loss?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their internal cooling system is undercharged, which dries out the fluids that nourish hair follicles. The Qi Deficient type (气虚质) may also experience hair thinning because Blood circulation to the scalp is weak. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-so-irritable": [
+    {
+      q: { en: "Is irritability the same as anger?", "zh-TW": "", ja: "" },
+      a: { en: "Not quite. Anger is a full-blown emotion directed at something specific. Irritability is a baseline state of being easily annoyed, where small things set you off that normally wouldn't. In TCM, irritability is often the early warning sign of Liver Qi Stagnation, before it develops into full anger or mood swings. Think of it as a pot on medium heat. Anger is the boil. Irritability is the simmer.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why am I more irritable in the morning?", "zh-TW": "", ja: "" },
+      a: { en: "If you wake up already irritated, TCM points to Liver Qi Stagnation. Between 1 AM and 3 AM, the Liver meridian is most active. If your Liver Qi is stuck, this overnight processing doesn't complete properly, and you wake up with pent-up energy that has nowhere to go. The irritability is your body's way of saying something didn't move when it should have.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do in the moment when irritability spikes?", "zh-TW": "", ja: "" },
+      a: { en: "Breathe out longer than you breathe in. This directly moves stagnant Qi. Then drink something warm: rose tea, chrysanthemum tea, or even just warm water. Avoid coffee when you're already irritable, as it adds fuel to the internal pressure. If you can, take a 10-minute walk without your phone. Movement plus warm fluids plus breathing is the TCM version of hitting the reset button.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic irritability?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people have this pattern. Their energy tends to pool and press outward as irritability, sighing, or chest tightness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-cant-i-lose-weight": [
+    {
+      q: { en: "Why can't I lose weight even though I'm eating less?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, the issue often isn't how much you eat but how well your body processes what you eat. When Phlegm Damp is present, your metabolism is like a sink with a slow drain. Reducing the water (eating less) helps a little, but until you clear the drain, the water keeps rising. Calorie restriction alone may not work because the underlying pattern keeps your body in storage mode.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is this different from just needing more exercise?", "zh-TW": "", ja: "" },
+      a: { en: "Yes. If the problem were simply too many calories, eating less and moving more would work reliably. But many people do both and still can't lose weight. TCM sees this as a functional pattern: Phlegm Damp blocks your body's ability to metabolize efficiently, and Qi Deficiency means you lack the energy to power a healthy metabolism. Until those patterns shift, exercise may just make you more tired without moving the scale.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with stubborn weight from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Damp-draining foods are the foundation: adzuki beans, coix seed, winter melon, celery, and modest green tea. Warm, cooked meals support the Spleen, which is the organ responsible for metabolizing fluids. Avoid dairy, sweets, fried food, cold drinks, and beer, which add moisture to a system that's already struggling to drain it. For Qi Deficiency-related weight issues, add congee, sweet potato, and ginger tea to build the energy your metabolism needs.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with stubborn weight?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match. Their body holds onto moisture and metabolic waste. The Qi Deficient type (气虚质) can also struggle because their metabolism runs on low power. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-acid-reflux": [
+    {
+      q: { en: "Is acid reflux the same as GERD?", "zh-TW": "", ja: "" },
+      a: { en: "Acid reflux is the symptom: stomach acid flowing backward into the esophagus. GERD (Gastroesophageal Reflux Disease) is the chronic form, where reflux happens frequently enough to be classified as a condition. If you experience reflux more than twice a week, a doctor may diagnose GERD. TCM doesn't use either term, but it treats the same symptoms through a different lens: heat rising when it should be staying down.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does reflux get worse at night?", "zh-TW": "", ja: "" },
+      a: { en: "When you lie flat, gravity stops helping keep stomach contents down. In TCM, nighttime reflux also points to Stomach Heat, which tends to rise when your body is horizontal. Eating late gives your body less time to digest before you lie down, and the heat from a heavy meal has nowhere to go but up. Try finishing your last meal at least 3 hours before bed and sleeping with your head slightly elevated.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with acid reflux from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Cooling, easy-to-digest foods: congee, steamed vegetables, pear, and cucumber. Ginger tea in small amounts can help if the reflux involves cold and dampness. Avoid spicy food, alcohol, coffee, fried food, and very sour foods, which generate the heat that rises as reflux. Eating smaller, warmer meals at regular times helps your Stomach process food without creating the upward pressure that causes reflux.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with acid reflux?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the most common match. Dampness creates the heavy, sluggish quality that allows stomach contents to rise. The Damp Heat type (湿热质) may also experience reflux because heat naturally rises, and when combined with dampness, it pushes upward as heartburn. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-headaches": [
+    {
+      q: { en: "Are recurring headaches normal?", "zh-TW": "", ja: "" },
+      a: { en: "Common, but not normal. TCM distinguishes between occasional headaches from obvious causes (dehydration, lack of sleep, too much screen time) and recurring headaches that keep coming back without a clear trigger. The latter usually points to an internal pattern, most commonly Qi Stagnation (energy stuck in the head) or Yin Deficiency (insufficient cooling fluid to keep the head comfortable). If your headaches are frequent, severe, or changing in pattern, see a doctor first to rule out structural causes.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do I get headaches when I'm stressed?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, stress causes Liver Qi Stagnation. When Qi gets stuck, it creates pressure, and that pressure often collects in the head because it's the highest point. Think of it like a pipe system where a blockage causes pressure to build upstream. The headache isn't really about your head. It's about the energy that can't flow smoothly through your body. This is why the headaches often come with neck and shoulder tension.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do to prevent recurring headaches?", "zh-TW": "", ja: "" },
+      a: { en: "Move regularly. Gentle movement prevents Qi from stagnating. A 20-minute walk can prevent a headache better than painkillers for some people. Drink rose tea or chrysanthemum tea to support smooth Liver Qi flow. Avoid skipping meals, which weakens your system and makes it harder to move stagnant energy. If Yin Deficiency is part of your pattern (you also run warm at night), prioritize sleep and add cooling foods like pear and black sesame.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with recurring headaches?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match. Their energy tends to pool and create pressure, especially in the head. The Yin Deficient type (阴虚质) may also experience headaches from internal heat rising to the head. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-feel-dizzy": [
+    {
+      q: { en: "Is dizziness the same as vertigo?", "zh-TW": "", ja: "" },
+      a: { en: "Not exactly. Vertigo is a specific type of dizziness where you feel like you or your surroundings are spinning. General dizziness includes lightheadedness, unsteadiness, or feeling like you might faint. TCM addresses both but distinguishes between them. Vertigo often involves more Phlegm Damp obstructing the head. General dizziness is more commonly linked to Qi or Blood not reaching the brain adequately.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do I feel dizzy when I stand up quickly?", "zh-TW": "", ja: "" },
+      a: { en: "This is one of the most common presentations of Qi Deficiency. When you stand, your body needs to quickly redirect Blood upward to your brain. If your Qi is too weak to move Blood that fast, there's a brief gap where your brain doesn't get enough. The dizziness is your brain saying it needs a moment. In TCM, this is a clear sign that your Qi isn't strong enough to manage the basic transitions your body goes through daily.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with dizziness from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "For Qi Deficiency-related dizziness: congee, jujube dates, sweet potato, ginger tea, and chicken broth to build energy. For Yin Deficiency-related dizziness (accompanied by feeling warm or dry): black sesame, goji berries, pear, and lotus seed to replenish fluids. In both cases, warm cooked meals are better than cold raw foods, which drain the energy your body needs to keep Blood flowing upward to your head.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with dizziness?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match. They lack the energy to move Blood to the head efficiently. The Yin Deficient type (阴虚质) may also experience dizziness when internal heat disturbs the head. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-always-thirsty": [
+    {
+      q: { en: "Is being always thirsty the same as diabetes?", "zh-TW": "", ja: "" },
+      a: { en: "No, but excessive thirst is one of the classic signs of diabetes, so it's worth getting your blood sugar checked. If your glucose levels are normal and you're still constantly thirsty, TCM offers a different explanation. In TCM, unquenchable thirst is often a sign of Yin Deficiency: your body lacks the cooling, moistening force that keeps your mouth and throat comfortable. You're not actually dehydrated. You're internally dry.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does drinking more water not fix the thirst?", "zh-TW": "", ja: "" },
+      a: { en: "Because the problem isn't water volume. It's moisture distribution. In TCM, Yin is the force that holds and distributes moisture throughout your body. When Yin is deficient, you can drink gallons and still feel dry because your body can't retain or distribute the fluid properly. It's like pouring water into a colander. The water goes through but doesn't stay where it's needed.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with constant thirst from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Yin-nourishing foods that help your body retain moisture: pear, lily bulb, tremella mushroom, lotus seed, black sesame, and cucumber. Drink warm or room-temperature water instead of ice-cold water, which shocks your Spleen and makes it harder to process fluids. Avoid spicy food, alcohol, coffee, and deep-fried food, which generate internal heat and further dry out your body. Going to bed before 11 PM is one of the most effective things you can do, because Yin is replenished during sleep.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with constant thirst?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match. Their internal cooling system is undercharged, which creates internal dryness and the sensation of unquenchable thirst. About 10% of people have this pattern. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }

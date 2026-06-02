@@ -7,6 +7,8 @@ import { Footer } from "@/components/footer"
 import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import { TYPE_DETAILS } from "@/lib/type-details"
+import { PATTERNS } from "@/lib/pattern-data"
+import { SYMPTOMS } from "@/lib/symptoms-data"
 
 const VALID_IDS = new Set<string>(Object.keys(TYPES))
 
@@ -214,6 +216,56 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
                   </div>
                 </details>
               ))}
+            </div>
+          </section>
+        )}
+
+      {detail.relatedPatterns && detail.relatedPatterns.length > 0 && (
+          <section className="mb-12">
+            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+              Related Patterns
+            </h2>
+            <div className="space-y-3">
+              {detail.relatedPatterns.map((slug) => {
+                const pattern = PATTERNS[slug]
+                if (!pattern) return null
+                return (
+                  <Link
+                    key={slug}
+                    href={`/patterns/${slug}`}
+                    className="group block border border-border rounded-xl p-4 bg-cream/5 hover:bg-cream/10 hover:border-accent/30 transition-all duration-300 no-underline"
+                  >
+                    <span className="text-text group-hover:text-accent transition-colors text-sm font-medium">
+                      {pattern.title.en} →
+                    </span>
+                  </Link>
+                )
+              })}
+            </div>
+          </section>
+        )}
+
+        {detail.relatedSymptoms && detail.relatedSymptoms.length > 0 && (
+          <section className="mb-12">
+            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+              Related Symptoms
+            </h2>
+            <div className="space-y-3">
+              {detail.relatedSymptoms.map((slug) => {
+                const symptom = SYMPTOMS[slug]
+                if (!symptom) return null
+                return (
+                  <Link
+                    key={slug}
+                    href={`/symptoms/${slug}`}
+                    className="group block border border-border rounded-xl p-4 bg-cream/5 hover:bg-cream/10 hover:border-accent/30 transition-all duration-300 no-underline"
+                  >
+                    <span className="text-text group-hover:text-accent transition-colors text-sm font-medium">
+                      {symptom.title.en} →
+                    </span>
+                  </Link>
+                )
+              })}
             </div>
           </section>
         )}

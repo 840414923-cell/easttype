@@ -13,6 +13,8 @@ export interface TypeDetail {
   dailyTip?: L
   faqs?: { q: L; a: L }[]
   relatedWellness?: string[]
+  relatedPatterns?: string[]
+  relatedSymptoms?: string[]
 }
 
 export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
@@ -82,6 +84,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "What's the most common mistake balanced types make?", "zh-TW": "平和體質最常犯的錯誤是什麼？", ja: "平和体質の人が一番よくやる間違いは何ですか？" }, a: { en: "Taking it for granted. Balanced types often ignore early warning signs because they're used to feeling fine. A little fatigue, a bit of poor sleep, occasional digestive grumbling — they brush it off because historically, their body has always bounced back. But the bouncing gets slower as you age. Start paying attention now, not when something actually breaks. Prevention is boring but it's a lot less annoying than fixing.", "zh-TW": "把健康視為理所當然。平和型常忽略早期警訊，因為習慣了感覺良好。一點疲勞、睡不好、偶爾消化咕嚕叫，都不當回事，因為身體一直以來都會恢復。但年紀大了恢復速度會變慢。現在就開始注意，不是等到真的壞了才注意。預防很無聊，但比修復省事多了。", ja: "当たり前だと思い込むこと。平和タイプは体調の変化の早期サインを見逃しがち。ずっと元気だったから。ちょっとした疲れ、睡眠不足、時々の胃の不調。以前は必ず回復してたから気にしない。でも年齢とともに回復は遅くなる。何か壊れてからじゃなくて、今から気をつけて。予防はつまらないけど、直すよりずっとマシ。" } },
     ],
     relatedWellness: ["chinese-medicine-body-types", "chinese-medicine-diet", "chinese-medicine-foods-for-energy"],
+    relatedPatterns: [],
+    relatedSymptoms: [],
   },
 
   qi_deficient: {
@@ -154,6 +158,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "What about supplements for Qi Deficiency?", "zh-TW": "氣虛吃保健食品有用嗎？", ja: "気虚にサプリは効く？" }, a: { en: "Supplements can support you, but they're not the fix on their own. If your Spleen is too weak to absorb nutrients, even the best supplements pass through. Start with warm, easy-to-digest foods first. Once your digestion strengthens, supplements can add a helpful boost.", "zh-TW": "保健食品可以輔助，但單靠它們不夠。脾胃太弱無法吸收的話，再好的保健食品也穿腸而過。先從溫熱好消化的食物開始。消化力增強後補充品才能加乘。", ja: "サプリはサポートになるが、それだけでは不十分。脾が弱すぎると栄養を吸収できない。まず温かく消化しやすい食事から。消化力が強まってからサプリがプラスになる。" } },
     ],
     relatedWellness: ["why-am-i-always-tired", "chinese-medicine-foods-for-energy", "cold-hands-and-feet"],
+    relatedPatterns: ["low-vitality"],
+    relatedSymptoms: ["why-am-i-always-tired", "why-am-i-always-sleepy", "why-am-i-always-unmotivated", "why-do-i-get-sick-so-often", "why-do-i-feel-dizzy", "why-cant-i-lose-weight"],
   },
 
   yang_deficient: {
@@ -225,6 +231,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Can men have Yang Deficiency?", "zh-TW": "男生也會陽虛嗎？", ja: "男性も陽虚になる？" }, a: { en: "Absolutely. Especially men who've been overworking, under-sleeping, or eating cold foods for years. Lower back pain and frequent urination — classic Yang Deficiency signs — are extremely common in middle-aged men.", "zh-TW": "當然。尤其是長期過勞、睡眠不足、或吃太多冷食的男性。腰痛和頻尿——典型的陽虛症狀——在中年男性中非常常見。", ja: "もちろんだ。特に長期間の過労、睡眠不足、冷たい食事を続けてきた男性に。腰痛と頻尿——典型的な陽虚のサイン——は中年男性に非常に多い。" } },
     ],
     relatedWellness: ["cold-hands-and-feet", "foods-that-warm-your-body", "why-am-i-always-tired"],
+    relatedPatterns: ["cold-sensitivity"],
+    relatedSymptoms: ["why-am-i-always-cold", "why-do-my-hands-and-feet-go-numb"],
   },
 
   yin_deficient: {
@@ -296,6 +304,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Should I take melatonin?", "zh-TW": "應該吃褪黑激素嗎？", ja: "メラトニンを飲むべき？" }, a: { en: "Melatonin might help you fall asleep but won't address the root cause — the internal heat waking you up. Better approach: nourish Yin directly with foods like lily bulb and tremella, establish early bedtime, and do evening foot soaks. Fix the heat, and sleep follows naturally.", "zh-TW": "褪黑激素或許能幫你入睡，但不會解決根本原因——把你弄醒的內熱。更好的方法：用百合、白木耳直接滋陰，早睡，晚上泡腳。解決了熱，睡眠自然就跟著來。", ja: "メラトニンは入眠を助けるが根本原因には対処しない——目を覚ます内熱。より良い方法：百合根や白木耳で直接陰を養い、早寝し、夜の足湯を。熱を解決すれば睡眠は自然についてくる。" } },
     ],
     relatedWellness: ["night-sweats-chinese-medicine", "insomnia-chinese-medicine", "chinese-medicine-body-types"],
+    relatedPatterns: ["internal-heat"],
+    relatedSymptoms: ["why-do-i-have-night-sweats", "why-is-my-skin-so-dry", "why-is-my-hair-falling-out", "why-cant-i-fall-asleep", "why-am-i-always-thirsty", "why-do-i-feel-dizzy"],
   },
 
   phlegm_damp: {
@@ -368,6 +378,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Why does damp weather make me feel awful?", "zh-TW": "為什麼潮濕的天氣讓我那麼難受？", ja: "なぜ湿気の多い天気だと具合が悪くなる？" }, a: { en: "Your body is already holding onto excess moisture internally. When the external environment gets humid too, it's like adding water to an already full glass. Your spleen just can't keep up with processing both at once. That's why rainy season and late summer tend to be your worst times. Using a dehumidifier indoors, eating more drying foods like adzuki beans and coix seed, and staying active can all help take the edge off.", "zh-TW": "你的身體內部已經有多餘的水分了。當外面環境也變得潮濕，就像已經裝滿水的杯子又加水進去。你的脾根本來不及同時處理裡裡外外的濕氣。所以梅雨季和長夏通常是你最難熬的時期。室內開除濕機、多吃紅豆薏仁這類排濕的食物、保持活動量，都能幫你緩解一些。", ja: "体はすでに内部で余分な水分を抱えています。外の環境も湿気てくると、満杯のコップにさらに水を足すようなものです。脾が両方を同時に処理しきれなくなります。だから梅雨時期や晩夏が一番つらい時期になりがちです。室内で除湿機を使う、小豆やハトムギなど湿気を取る食材を食べる、活動的に過ごすことでかなり楽になります。" } },
     ],
     relatedWellness: ["bloating-after-eating", "why-am-i-always-tired", "chinese-medicine-diet"],
+    relatedPatterns: ["heavy-and-sluggish"],
+    relatedSymptoms: ["always-bloated-after-eating", "why-do-i-keep-gaining-weight", "why-do-i-crave-sweets", "why-do-i-keep-breaking-out", "why-cant-i-lose-weight", "why-do-i-have-acid-reflux"],
   },
 
   damp_heat: {
@@ -438,6 +450,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Why should I avoid ice-cold drinks if I'm already too hot?", "zh-TW": "我已經夠熱了，為什麼還不能喝冰的？", ja: "すでに暑がりなのに、なぜ冷たい飲み物を避けるべき？" }, a: { en: "This sounds backwards but stay with me. Ice-cold drinks shock your spleen, which is the organ responsible for processing dampness in Chinese medicine. When your spleen gets sluggish from the cold, it can't drain dampness properly, so the dampness just sits there and the heat gets trapped with it. Warm or room-temperature drinks keep your digestion moving and actually help clear heat better in the long run.", "zh-TW": "聽起來很矛盾，但聽我說。冰鎮飲料會讓你的脾胃受到衝擊，而脾在中醫裡正是負責處理濕氣的器官。脾被冷到就會變得遲鈍，濕氣排不出去，熱就悶在裡面跟著一起賴著不走。喝溫的或常溫的飲料，反而能讓消化系統維持正常運作，長遠來說更能幫你清熱。", ja: "逆のように聞こえますが、聞いてください。キンキンに冷たい飲み物は脾臓にショックを与えます。中医学では脾臓が湿り気を処理する器官です。脾臓が冷えて鈍くなると湿り気をうまく排出できず、湿り気が溜まったまま熱も閉じ込められます。温かい飲み物や常温の飲み物の方が消化を助け、長い目で見て熱を抑えるのに本当に役立ちます。" } },
     ],
     relatedWellness: ["chinese-medicine-diet", "chinese-medicine-body-types", "night-sweats-chinese-medicine"],
+    relatedPatterns: [],
+    relatedSymptoms: ["why-do-i-have-acid-reflux"],
   },
 
   blood_stasis: {
@@ -508,6 +522,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Are dark spots on my face connected to blood stasis?", "zh-TW": "臉上的黑斑跟血瘀有關嗎？", ja: "顔のシミはお血と関係ありますか？" }, a: { en: "They often are. When circulation is sluggish, nutrients and oxygen don't reach your skin efficiently, and metabolic waste doesn't get cleared quickly. That combination creates a dull complexion and can contribute to hyperpigmentation. Improving your internal circulation through diet and movement addresses the root cause and gives your skin a natural brightness back.", "zh-TW": "通常有關。當循環遲緩時，營養和氧氣無法有效送達皮膚，代謝廢物也無法快速清除。這種組合造成暗沉的氣色，也可能導致色素沉澱。透過飲食和運動改善內在循環才是從根本著手，讓你的皮膚恢復自然的明亮感。", ja: "よく関係しています。巡りが悪いと、栄養や酸素が肌に効率よく届かず、老廃物の排出も遅くなります。その組み合わせでくすんだ肌色になり、シミの原因にもなります。食事と運動で内側からの巡りを改善することが根本的なアプローチで、肌の自然な明るさを取り戻せます。" } },
     ],
     relatedWellness: ["cold-hands-and-feet", "chinese-medicine-body-types", "foods-that-warm-your-body"],
+    relatedPatterns: [],
+    relatedSymptoms: [],
   },
 
   qi_stagnant: {
@@ -576,6 +592,8 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "Can this constitution change or am I stuck sighing forever?", "zh-TW": "這種體質可以改變嗎？還是我得一輩子嘆氣？", ja: "この体質は変わりますか？それとも一生ため息をつき続けるしかない？" }, a: { en: "You are not doomed to eternal sighing. Qi stagnation is one of the most responsive constitutions to lifestyle changes because it's so directly tied to your daily habits and emotional patterns. Regular movement, honest emotional expression, and the right foods can shift this constitution noticeably within a few months. The catch is consistency. You can't just go for one walk and call it fixed. But if you build daily outlets into your routine, the heavy-chested, sighing version of you gets quieter and the lighter, more even-keeled version gets louder.", "zh-TW": "你不是注定要永遠嘆氣。氣鬱是對生活方式改變反應最好的體質之一，因為它和你的日常習慣及情緒模式直接相關。規律運動、真誠的情緒表達和適當的食物，幾個月內就能帶來明顯變化。關鍵是持之以恆。你不能只散一次步就說搞定了。但如果你把每天的出口寫進日常，那個胸悶嘆氣的你會慢慢安靜下來，那個輕盈平穩的你會越來越響亮。", ja: "永遠のため息つきに運命づけられてません。気鬱はライフスタイルの変化に最も反応しやすい体質の一つです。日常の習慣と感情パターンに直結しているから。定期的な運動、正直な感情表現、適切な食事で、数ヶ月で明らかな変化を実感できます。重要なのは継続。一回散歩しただけで解決とはいきません。でも毎日のルーティンに出口を組み込めば、胸が苦しくてため息をつく自分は静かになり、軽やかで安定した自分が前に出てきます。" } },
     ],
     relatedWellness: ["why-am-i-always-tired", "chinese-medicine-body-types", "insomnia-chinese-medicine"],
+    relatedPatterns: ["stuck-energy"],
+    relatedSymptoms: ["why-do-i-feel-anxious", "why-are-my-moods-all-over-the-place", "why-do-i-overthink-everything", "why-am-i-so-irritable", "why-do-i-have-headaches"],
   },
 
   sensitive: {
@@ -647,5 +665,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "My skin randomly gets itchy and red for no reason. Is this my constitution?", "zh-TW": "我的皮膚會無緣無故發癢發紅。這是我的體質造成的嗎？", ja: "肌が理由もなくかゆくなったり赤くなったりします。体質のせいですか？" }, a: { en: "Very likely. Unexplained skin reactions are one of the most common signs of the sensitive constitution. Your skin is your body's largest interface with the outside world, and when your system is easily triggered, the skin is often where it shows up first. The usual suspects are stress, hidden food triggers, temperature changes, and environmental irritants. Track when it happens — the pattern is usually there, you just have to look for it long enough.", "zh-TW": "很有可能。無法解釋的皮膚反應是敏感體質最常見的表現之一。皮膚是你身體和外界最大的接觸面，當你的系統容易被觸發時，皮膚常常是最先表態的地方。常見的原因有壓力、隱藏的食物觸發物、溫度變化和環境刺激物。追蹤它何時發生——規律通常就在那裡，只是你需要看夠久才看得到。", ja: "その可能性が高いです。理由のない肌の反応は、敏感体質の最も一般的なサインの一つ。肌は体と外の世界の最大の接点で、システムがtriggerされやすいと、肌に最初に表れます。主な原因はストレス、隠れた食べ物のトリガー、温度変化、環境刺激。いつ起こるか記録してみて——パターンはたいていそこにあります。ただ見つけるまで時間がかかるだけ。" } },
     ],
     relatedWellness: ["chinese-medicine-body-types", "chinese-medicine-diet", "why-am-i-always-tired"],
+    relatedPatterns: [],
+    relatedSymptoms: [],
   },
 }

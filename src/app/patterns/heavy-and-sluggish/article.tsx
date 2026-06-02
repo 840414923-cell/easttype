@@ -173,6 +173,29 @@ export default function HeavySluggishArticle() {
           <Link href="/symptoms/why-do-i-crave-sweets" className="text-sm text-accent no-underline hover:underline">
             Why Do I Crave Sweets?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-keep-breaking-out" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Keep Breaking Out?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-cant-i-lose-weight" className="text-sm text-accent no-underline hover:underline">
+            Why Can&apos;t I Lose Weight?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-have-acid-reflux" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Have Acid Reflux?
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          Related Pattern
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/patterns/low-vitality" className="text-sm text-accent no-underline hover:underline">
+            Low Vitality Pattern →
+          </Link>
         </div>
       </section>
 

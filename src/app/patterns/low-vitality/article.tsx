@@ -169,6 +169,25 @@ export default function LowVitalityArticle() {
           <Link href="/symptoms/why-do-i-get-sick-so-often" className="text-sm text-accent no-underline hover:underline">
             Why Do I Get Sick So Often?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-am-i-always-unmotivated" className="text-sm text-accent no-underline hover:underline">
+            Why Am I Always Unmotivated?
+          </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-feel-dizzy" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Feel Dizzy?
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          Related Pattern
+        </h2>
+        <div className="flex flex-wrap gap-2">
+          <Link href="/patterns/cold-sensitivity" className="text-sm text-accent no-underline hover:underline">
+            Cold Sensitivity Pattern →
+          </Link>
         </div>
       </section>
 
