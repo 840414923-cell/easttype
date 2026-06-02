@@ -48,7 +48,7 @@ export default function AboutArticle() {
               The World Health Organization&apos;s Traditional Medicine Strategy and the International Classification of Diseases (ICD-11) traditional medicine chapter both reference TCM constitution concepts, reflecting growing international recognition of this framework.
             </p>
             <p>
-              EastType&apos;s symptom guides, pattern explanations, and food suggestions are based on these published sources, cross-referenced with standard TCM dietary therapy references. Content is assembled with AI assistance from these source materials and reviewed before publication. It is not written by a licensed Chinese medicine practitioner.
+              EastType&apos;s symptom guides, pattern explanations, and food suggestions are based on these published sources, cross-referenced with standard TCM dietary therapy references. Content is assembled with AI assistance from these source materials and reviewed before publication.
             </p>
           </section>
 
@@ -63,7 +63,7 @@ export default function AboutArticle() {
               EastType&apos;s version reduces the question count and adapts the language for an online, English-speaking audience. It covers the same core dimensions: energy level, thermal preference, digestion, sleep quality, emotional tendency, and physical characteristics. Your answers generate a score for each of the nine constitution types, and the highest-scoring type is presented as your primary result.
             </p>
             <p>
-              This is a self-reported assessment, not a clinical diagnosis. In a traditional Chinese medicine consultation, a practitioner would also observe your tongue, feel your pulse, and ask follow-up questions based on your responses. EastType&apos;s quiz captures the questionnaire portion of that process but cannot replicate the full diagnostic approach.
+              This is a self-reported assessment, not a clinical diagnosis. In a traditional Chinese medicine consultation, a practitioner would also observe your tongue, feel your pulse, and ask follow-up questions based on your responses. EastType captures the questionnaire portion of that process, optimized for self-understanding of your constitutional tendencies.
             </p>
           </section>
 
@@ -79,7 +79,10 @@ export default function AboutArticle() {
                 The body type results are based on a self-reported questionnaire. They reflect constitutional tendencies, not medical conditions. If you have persistent or worsening symptoms, consult a licensed healthcare provider.
               </p>
               <p>
-                Food and lifestyle suggestions are drawn from traditional Chinese dietary therapy references and are general in nature. Individual responses vary. This site does not prescribe diets, supplements, or treatments.
+                Food and lifestyle suggestions are drawn from traditional Chinese dietary therapy references and are general in nature. Individual responses vary. This site does not provide any prescription for medical purposes. It offers suggestions for healthy living only, including food choices, daily routines, sleep habits, and seasonal adjustments.
+              </p>
+              <p className="font-medium text-text">
+                Disclaimer: EastType is not a medical service. It does not diagnose, treat, or cure any condition. The assessment and all content on this site are for informational and educational purposes only. Always consult a qualified healthcare provider for medical concerns.
               </p>
             </div>
           </section>
