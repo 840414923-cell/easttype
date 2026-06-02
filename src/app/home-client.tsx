@@ -9,27 +9,29 @@ import { Footer } from "@/components/footer"
 
 const LL = {
   badge: "3,000 Years of Eastern Wellness Wisdom",
-  title1: "Why Are You Always Tired, Cold, Stressed, or Bloated?",
-  subtitle: "Discover your unique body type through a 5-minute assessment inspired by Traditional Chinese Medicine.",
-  cta: "Take the Free 5-Minute Quiz",
+  title1: "Why Are You Always Tired, Bloated, Anxious, or Struggling to Sleep?",
+  subtitle: "Discover the body pattern behind recurring symptoms and get personalized wellness guidance.",
+  cta: "Take the Free 5-Min Quiz",
   ctaSub: "Free · No Sign-up Required",
   ctaSecondary: "Detailed reports available after your results",
   discoverTitle: "What You'll Discover",
-  discover1: "Your dominant body type",
-  discover2: "Why certain symptoms keep recurring",
+  discover1: "Which body pattern drives your recurring symptoms",
+  discover2: "Why certain symptoms keep coming back",
   discover3: "Foods that may suit your constitution",
   discover4: "Personalized wellness suggestions",
   discover5: "Practical lifestyle recommendations",
+  symptomsTitle: "Common Symptoms People Explore",
+  howTitle: "How EastType Works",
+  how1Title: "Recognize Recurring Symptoms",
+  how1Desc: "Notice which symptoms keep coming back instead of dismissing them as normal.",
+  how2Title: "Discover Your Underlying Pattern",
+  how2Desc: "Learn which body pattern connects your symptoms through Eastern wellness wisdom.",
+  how3Title: "Get Personalized Guidance",
+  how3Desc: "Receive food, lifestyle and wellness suggestions tailored to your pattern.",
+  exploreTitle: "Explore the Library",
   archetypeTitle: "Which Body Type Matches You?",
   archetypeLine1: "Traditional Eastern wellness identifies 9 constitutional patterns.",
   archetypeLine2: "Each type has unique tendencies in energy, digestion, sleep, emotional balance, and overall wellbeing.",
-  howTitle: "How It Works",
-  how1Title: "Answer Simple Questions",
-  how1Desc: "Tell us about your energy, sleep, digestion and habits.",
-  how2Title: "Discover Your Body Type",
-  how2Desc: "See which constitutional pattern best matches your responses.",
-  how3Title: "Get Personalized Insights",
-  how3Desc: "Receive food, lifestyle and wellness suggestions tailored to your results.",
   previewTitle: "See a Sample Result",
   previewBadge: "Your Type",
   previewType: "The Gentle Breeze",
@@ -54,6 +56,17 @@ const LL = {
   faq4A: "Yes, anytime.",
   readySubtitleBefore: "27 questions. ~5 min. A food map your body has been waiting 3,000 years for.",
 }
+
+const COMMON_SYMPTOMS = [
+  { slug: "why-am-i-always-tired", label: "Always Tired" },
+  { slug: "why-do-i-have-brain-fog", label: "Brain Fog" },
+  { slug: "why-do-i-feel-anxious", label: "Anxiety" },
+  { slug: "why-do-i-have-night-sweats", label: "Night Sweats" },
+  { slug: "why-do-i-have-acid-reflux", label: "Acid Reflux" },
+  { slug: "why-do-i-keep-gaining-weight", label: "Weight Gain" },
+  { slug: "why-cant-i-fall-asleep", label: "Poor Sleep" },
+  { slug: "why-am-i-always-constipated", label: "Constipation" },
+]
 
 export default function HomeClient() {
   const typeList = Object.values(TYPES)
@@ -115,6 +128,28 @@ export default function HomeClient() {
             </ul>
           </div>
 
+        </section>
+
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        <section className="max-w-4xl mx-auto px-6 py-8 sm:py-10">
+          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-6">
+            {LL.symptomsTitle}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {COMMON_SYMPTOMS.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/symptoms/${s.slug}`}
+                className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all duration-300 no-underline"
+              >
+                <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide">{s.label}</span>
+                <span className="block text-accent text-xs mt-1">Learn more →</span>
+              </Link>
+            ))}
+          </div>
         </section>
 
         <div className="lotus-divider max-w-4xl mx-auto px-6">
@@ -243,6 +278,38 @@ export default function HomeClient() {
                 )}
               </div>
             ))}
+          </div>
+        </section>
+
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-10 text-center">
+          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide mb-6">
+            {LL.exploreTitle}
+          </h2>
+          <div className="grid grid-cols-3 gap-4 mb-6">
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
+              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">33+</div>
+              <div className="text-xs text-text2 tracking-wide">Symptoms</div>
+            </div>
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
+              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">8</div>
+              <div className="text-xs text-text2 tracking-wide">Patterns</div>
+            </div>
+            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
+              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">9</div>
+              <div className="text-xs text-text2 tracking-wide">Body Types</div>
+            </div>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link href="/symptoms" className="text-sm text-accent no-underline hover:underline tracking-wide">
+              Browse Symptoms →
+            </Link>
+            <Link href="/patterns" className="text-sm text-accent no-underline hover:underline tracking-wide">
+              Browse Patterns →
+            </Link>
           </div>
         </section>
 

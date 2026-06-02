@@ -5,6 +5,8 @@ import Link from "next/link"
 export function Nav({ right }: { right?: React.ReactNode }) {
   const navLinks = [
     { href: "/", label: "Home" },
+    { href: "/symptoms", label: "Symptoms" },
+    { href: "/patterns", label: "Patterns" },
     { href: "/wellness", label: "Body Types" },
     { href: "/about", label: "About" },
   ]
