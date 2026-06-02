@@ -46,6 +46,19 @@ const jsonLd = [
     { name: "EastType", url: "https://myeasterntype.com" },
     { name: "About", url: URL },
   ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "EastType",
+    url: "https://myeasterntype.com",
+    logo: "https://myeasterntype.com/favicon.svg",
+    description: "Eastern wellness body constitution assessment based on Traditional Chinese Medicine",
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "840414923@qq.com",
+      contactType: "customer support",
+    },
+  },
 ]
 
 export default function AboutPage() {

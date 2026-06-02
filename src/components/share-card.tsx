@@ -1,7 +1,6 @@
 "use client"
 
 import { useRef, useCallback } from "react"
-import { toPng } from "html-to-image"
 import Image from "next/image"
 import { QRCodeSVG } from "qrcode.react"
 import { TYPES } from "@/lib/constitution-data"
@@ -18,11 +17,12 @@ export function ShareCardImage({
   const cardRef = useRef<HTMLDivElement>(null)
   const t = TYPES[typeId] ?? TYPES.balanced
   const viral = TYPE_VIRAL[typeId] ?? TYPE_VIRAL.balanced
-  const imgSrc = `/types/${typeId}.png`
+  const imgSrc = `/types/${typeId}.webp`
 
   const handleDownload = useCallback(async () => {
     if (!cardRef.current) return
     try {
+      const { toPng } = await import("html-to-image")
       const el = cardRef.current
       const rect = el.getBoundingClientRect()
       const dataUrl = await toPng(el, {
@@ -59,6 +59,7 @@ export function ShareCardImage({
               src={imgSrc}
               alt={t.en}
               fill
+              sizes="400px"
               className="object-cover opacity-75"
               unoptimized
             />

@@ -54,13 +54,13 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       url,
       siteName: "EastType",
       type: "article",
-      images: [{ url: `/types/${id}.png`, width: 400, height: 600, alt: titles.en }],
+      images: [{ url: `/types/${id}.webp`, width: 400, height: 600, alt: titles.en }],
     },
     twitter: {
       card: "summary_large_image",
       title: `EastType — ${titles.en}`,
       description: descs.en,
-      images: [`/types/${id}.png`],
+      images: [`/types/${id}.webp`],
     },
   }
 }
@@ -82,7 +82,7 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
           url,
           datePublished: "2026-06-01",
           dateModified: "2026-06-01",
-          image: `https://myeasterntype.com/types/${id}.png`,
+          image: `https://myeasterntype.com/types/${id}.webp`,
           author: {
             "@type": "Organization",
             name: "EastType",

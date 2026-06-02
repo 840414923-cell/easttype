@@ -1,4 +1,3 @@
-"use client"
 
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next"
-import { Playfair_Display, DM_Sans, Noto_Serif_SC } from "next/font/google"
+import { Playfair_Display, DM_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/react"
 import { CookieConsent } from "@/components/cookie-consent"
 import "./globals.css"
@@ -15,13 +15,6 @@ const dmSans = DM_Sans({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-})
-
-const notoSerifSC = Noto_Serif_SC({
-  variable: "--font-cjk",
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  style: ["normal"],
 })
 
 export const viewport: Viewport = {
@@ -52,7 +45,7 @@ export const metadata: Metadata = {
     url: "https://myeasterntype.com",
     images: [
       {
-        url: "/og-image.svg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "EastType — Discover Your Eastern Body Type",
@@ -64,7 +57,7 @@ export const metadata: Metadata = {
     title: "EastType — What's Your Eastern Type?",
     description:
       "Chinese medicine identified 9 body types centuries ago. Discover yours in ~5 min.",
-    images: ["/og-image.svg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -80,7 +73,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} ${notoSerifSC.variable} h-full antialiased dark`}
+      className={`${playfair.variable} ${dmSans.variable} h-full antialiased dark`}
       suppressHydrationWarning
     >
       <head>

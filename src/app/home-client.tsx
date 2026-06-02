@@ -220,7 +220,7 @@ export default function HomeClient() {
           <div className="grid grid-cols-3 gap-1.5 sm:gap-4">
             {typeList.map((t) => {
               const viral = TYPE_VIRAL[t.id]
-              const imgSrc = `/types/${t.id}.png`
+              const imgSrc = `/types/${t.id}.webp`
               return (
                 <Link
                   key={t.id}
@@ -240,7 +240,6 @@ export default function HomeClient() {
                       height={600}
                       className="w-full h-auto block opacity-60 group-hover:opacity-80 transition-opacity duration-500"
                       sizes="(max-width: 640px) 33vw, 200px"
-                      unoptimized
                     />
 
                     <div className="absolute inset-0 bg-gradient-to-t from-type-card-base/90 via-type-card-base/20 to-transparent" />
