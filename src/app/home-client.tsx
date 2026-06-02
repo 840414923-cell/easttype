@@ -8,12 +8,12 @@ import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 
 const LL = {
-  badge: "3,000 Years of Eastern Wellness Wisdom",
+  badge: "33+ Symptom Guides · 8 Patterns · 9 Body Types",
   title1: "Why Are You Always Tired, Bloated, Anxious, or Struggling to Sleep?",
   subtitle: "Discover the body pattern behind recurring symptoms and get personalized wellness guidance.",
   cta: "Take the Free 5-Min Quiz",
   ctaSub: "Free · No Sign-up Required",
-  ctaSecondary: "Detailed reports available after your results",
+  ctaSecondary: "Based on 3,000 years of Eastern wellness observation",
   discoverTitle: "What You'll Discover",
   discover1: "Which body pattern drives your recurring symptoms",
   discover2: "Why certain symptoms keep coming back",
@@ -21,27 +21,11 @@ const LL = {
   discover4: "Personalized wellness suggestions",
   discover5: "Practical lifestyle recommendations",
   symptomsTitle: "Common Symptoms People Explore",
-  howTitle: "How EastType Works",
-  how1Title: "Recognize Recurring Symptoms",
-  how1Desc: "Notice which symptoms keep coming back instead of dismissing them as normal.",
-  how2Title: "Discover Your Underlying Pattern",
-  how2Desc: "Learn which body pattern connects your symptoms through Eastern wellness wisdom.",
-  how3Title: "Get Personalized Guidance",
-  how3Desc: "Receive food, lifestyle and wellness suggestions tailored to your pattern.",
-  exploreTitle: "Explore the Library",
+  connectTitle: "How Eastern Wellness Connects the Dots",
+  connectBody: "Recurring symptoms rarely happen in isolation. Eastern wellness looks for deeper patterns behind fatigue, poor sleep, digestive issues, and emotional imbalance. Those patterns often point to a broader body type tendency.",
   archetypeTitle: "Which Body Type Matches You?",
   archetypeLine1: "Traditional Eastern wellness identifies 9 constitutional patterns.",
   archetypeLine2: "Each type has unique tendencies in energy, digestion, sleep, emotional balance, and overall wellbeing.",
-  previewTitle: "See a Sample Result",
-  previewBadge: "Your Type",
-  previewType: "The Gentle Breeze",
-  previewTrait1: "Low energy",
-  previewTrait2: "Sensitive digestion",
-  previewTrait3: "Easily fatigued",
-  previewSug1: "Warm cooked foods",
-  previewSug2: "Consistent sleep schedule",
-  previewSug3: "Gentle daily movement",
-  previewSub: "Every result includes personalized insights and recommendations.",
   seoTitle: "What Are Eastern Body Types?",
   seoP1: "Inspired by Traditional Chinese Medicine (TCM), Eastern body types describe common patterns related to energy, digestion, sleep, emotional tendencies and overall wellbeing.",
   seoP2: "This assessment helps identify which pattern best reflects your current constitution and provides personalized wellness guidance.",
@@ -66,6 +50,13 @@ const COMMON_SYMPTOMS = [
   { slug: "why-do-i-keep-gaining-weight", label: "Weight Gain" },
   { slug: "why-cant-i-fall-asleep", label: "Poor Sleep" },
   { slug: "why-am-i-always-constipated", label: "Constipation" },
+]
+
+const PATTERN_CARDS = [
+  { slug: "low-vitality", name: "Low Vitality", desc: "Chronic fatigue, low energy, and afternoon crashes that sleep doesn't fix." },
+  { slug: "heavy-and-sluggish", name: "Heavy & Sluggish", desc: "Bloating, heaviness, and brain fog from moisture your body can't process." },
+  { slug: "internal-heat", name: "Internal Heat", desc: "Night sweats, insomnia, and feeling hot when your cooling system is undercharged." },
+  { slug: "stuck-energy", name: "Stuck Energy", desc: "Anxiety, mood swings, and chest tightness from energy that can't flow freely." },
 ]
 
 export default function HomeClient() {
@@ -149,6 +140,64 @@ export default function HomeClient() {
                 <span className="block text-accent text-xs mt-1">Learn more →</span>
               </Link>
             ))}
+          </div>
+        </section>
+
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
+        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
+          <div className="text-center mb-8">
+            <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide mb-4">
+              {LL.connectTitle}
+            </h2>
+            <p className="text-sm sm:text-base text-text2 leading-relaxed max-w-xl mx-auto">
+              {LL.connectBody}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
+            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
+                1
+              </div>
+              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Symptoms</h3>
+              <p className="text-xs text-text2 leading-relaxed">Fatigue, brain fog, bloating, anxiety, poor sleep</p>
+            </div>
+            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
+                2
+              </div>
+              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Patterns</h3>
+              <p className="text-xs text-text2 leading-relaxed">Low Vitality, Internal Heat, Heavy &amp; Sluggish, Stuck Energy</p>
+            </div>
+            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
+                3
+              </div>
+              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Body Types</h3>
+              <p className="text-xs text-text2 leading-relaxed">Qi Deficient, Yin Deficient, Phlegm Damp, and 6 more</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3">
+            {PATTERN_CARDS.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/patterns/${p.slug}`}
+                className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all duration-300 no-underline"
+              >
+                <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block mb-1">{p.name}</span>
+                <span className="text-xs text-text2 leading-relaxed block">{p.desc}</span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-5">
+            <Link href="/patterns" className="text-sm text-accent no-underline hover:underline tracking-wide">
+              Explore All Patterns →
+            </Link>
           </div>
         </section>
 
@@ -245,127 +294,6 @@ export default function HomeClient() {
                 </Link>
               )
             })}
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-8">
-            {LL.howTitle}
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4">
-            {[
-              { num: "1", title: LL.how1Title, desc: LL.how1Desc },
-              { num: "2", title: LL.how2Title, desc: LL.how2Desc },
-              { num: "3", title: LL.how3Title, desc: LL.how3Desc },
-            ].map((step) => (
-              <div key={step.num} className="text-center">
-                <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
-                  {step.num}
-                </div>
-                <h3 className="font-[family-name:var(--font-display)] text-base sm:text-lg text-text mb-2 tracking-wide">
-                  {step.title}
-                </h3>
-                <p className="text-sm text-text2 leading-relaxed">
-                  {step.desc}
-                </p>
-                {step.num !== "3" && (
-                  <span className="hidden sm:block text-accent/40 text-xl mt-3">↓</span>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-10 text-center">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide mb-6">
-            {LL.exploreTitle}
-          </h2>
-          <div className="grid grid-cols-3 gap-4 mb-6">
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
-              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">33+</div>
-              <div className="text-xs text-text2 tracking-wide">Symptoms</div>
-            </div>
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
-              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">8</div>
-              <div className="text-xs text-text2 tracking-wide">Patterns</div>
-            </div>
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-4 bg-card-bg">
-              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-accent mb-1">9</div>
-              <div className="text-xs text-text2 tracking-wide">Body Types</div>
-            </div>
-          </div>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/symptoms" className="text-sm text-accent no-underline hover:underline tracking-wide">
-              Browse Symptoms →
-            </Link>
-            <Link href="/patterns" className="text-sm text-accent no-underline hover:underline tracking-wide">
-              Browse Patterns →
-            </Link>
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-4xl mx-auto px-6 py-8 sm:py-12">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-8">
-            {LL.previewTitle}
-          </h2>
-
-          <div className="max-w-sm mx-auto">
-            <div className="border border-[rgba(201,163,85,0.2)] rounded-2xl overflow-hidden bg-card-bg">
-              <div className="bg-[rgba(201,163,85,0.08)] px-5 py-2 text-center">
-                <span className="text-[10px] text-accent uppercase tracking-[0.15em] font-semibold">{LL.previewBadge}</span>
-              </div>
-              <div className="px-5 py-6 text-center">
-                <div className="font-[family-name:var(--font-display)] text-2xl font-bold text-accent mb-5">
-                  {LL.previewType}
-                </div>
-
-                <div className="grid grid-cols-2 gap-4 text-left">
-                  <div>
-                    <div className="text-[10px] text-text2 uppercase tracking-wider mb-2">
-                      Common Traits
-                    </div>
-                    <ul className="space-y-1.5">
-                      {[LL.previewTrait1, LL.previewTrait2, LL.previewTrait3].map((t) => (
-                        <li key={t} className="text-xs text-text/80 flex items-center gap-1.5">
-                          <span className="w-1 h-1 rounded-full bg-accent/60 shrink-0" />
-                          {t}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <div className="text-[10px] text-text2 uppercase tracking-wider mb-2">
-                      Suggestions
-                    </div>
-                    <ul className="space-y-1.5">
-                      {[LL.previewSug1, LL.previewSug2, LL.previewSug3].map((s) => (
-                        <li key={s} className="text-xs text-text/80 flex items-center gap-1.5">
-                          <span className="w-1 h-1 rounded-full bg-accent/60 shrink-0" />
-                          {s}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <p className="text-center text-xs text-text2/70 mt-4">
-              {LL.previewSub}
-            </p>
           </div>
         </section>
 
