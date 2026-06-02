@@ -51,7 +51,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Yin Deficiency",
     readTime: "9 min",
     relatedTypes: ["yin_deficient"],
-    relatedSymptoms: ["why-do-i-wake-up-at-3am", "why-do-i-have-night-sweats"],
+    relatedSymptoms: ["why-do-i-wake-up-at-3am", "why-do-i-have-night-sweats", "why-cant-i-fall-asleep"],
     tcmConcept: "Yin Deficiency",
   },
   "heavy-and-sluggish": {
@@ -64,7 +64,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Phlegm Damp",
     readTime: "9 min",
     relatedTypes: ["phlegm_damp"],
-    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy", "why-do-i-have-brain-fog"],
+    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy", "why-do-i-have-brain-fog", "why-do-i-keep-gaining-weight"],
     tcmConcept: "Phlegm Damp",
   },
   "stuck-energy": {
@@ -77,7 +77,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Qi Stagnation",
     readTime: "9 min",
     relatedTypes: ["qi_stagnant"],
-    relatedSymptoms: ["why-do-i-feel-anxious", "why-do-i-wake-up-at-3am"],
+    relatedSymptoms: ["why-do-i-feel-anxious", "why-do-i-wake-up-at-3am", "why-are-my-moods-all-over-the-place"],
     tcmConcept: "Qi Stagnation",
   },
 }

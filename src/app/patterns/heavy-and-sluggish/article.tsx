@@ -165,6 +165,10 @@ export default function HeavySluggishArticle() {
           <Link href="/symptoms/why-do-i-have-brain-fog" className="text-sm text-accent no-underline hover:underline">
             Why Do I Have Brain Fog?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-do-i-keep-gaining-weight" className="text-sm text-accent no-underline hover:underline">
+            Why Do I Keep Gaining Weight?
+          </Link>
         </div>
       </section>
 

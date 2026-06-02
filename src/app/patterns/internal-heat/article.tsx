@@ -159,6 +159,10 @@ export default function InternalHeatArticle() {
           <Link href="/symptoms/why-do-i-have-night-sweats" className="text-sm text-accent no-underline hover:underline">
             Why Do I Have Night Sweats?
           </Link>
+          <span className="text-text2/40">·</span>
+          <Link href="/symptoms/why-cant-i-fall-asleep" className="text-sm text-accent no-underline hover:underline">
+            Why Can't I Fall Asleep?
+          </Link>
         </div>
       </section>
 

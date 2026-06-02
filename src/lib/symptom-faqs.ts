@@ -121,4 +121,58 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Phlegm Damp type (痰湿质) is the most common match. Their body holds onto moisture, creating a heavy, foggy feeling in the head. The Qi Deficient type (气虚质) can also experience brain fog from low energy rather than moisture. Take the free EastType quiz to discover which body type matches your current patterns.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-cant-i-fall-asleep": [
+    {
+      q: { en: "Why can't I fall asleep even though I'm exhausted?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, falling asleep requires Yin energy to become dominant over Yang. If your Yin is low (Yin Deficiency) or your Yang is stuck (Qi Stagnation), the transition from wake to sleep doesn't happen smoothly. You feel wired and tired at the same time because the active energy won't step aside for the resting energy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is trouble falling asleep different from waking up at 3AM?", "zh-TW": "", ja: "" },
+      a: { en: "Yes. Trouble falling asleep means your body can't transition into sleep. Waking at 3AM means something interrupted sleep that was already happening. In TCM, they're related but distinct. Not falling asleep often involves Yin Deficiency or Qi Stagnation. Waking at 3AM is more specifically linked to Liver meridian activity. The approaches for each can be different.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do to fall asleep faster?", "zh-TW": "", ja: "" },
+      a: { en: "Get into bed before 11 PM. In TCM, the Gallbladder meridian activates from 11 PM to 1 AM, and missing this window makes falling asleep much harder. Try chrysanthemum tea if you run warm, or rose tea if you feel emotionally wound up. Keep your room cool (65-68°F). Avoid screens for an hour before bed, and write down tomorrow's tasks so your brain can let go of them.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with trouble falling asleep?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the most common match. Their internal cooling system is undercharged, so Yang stays active at night. The Qi Stagnant type (气郁质) can also struggle with sleep onset due to racing thoughts and emotional pressure. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-keep-gaining-weight": [
+    {
+      q: { en: "Why am I gaining weight even though I eat the same?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, unexplained weight gain is often linked to Phlegm Damp, a pattern where your body holds onto moisture and metabolic waste instead of processing it efficiently. Your metabolism is like a sink with a slow drain. You can reduce the water coming in (eat less), but until you clear the drain, the water keeps rising.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is this type of weight gain the same as regular fat?", "zh-TW": "", ja: "" },
+      a: { en: "Not entirely. TCM distinguishes between fat accumulation and dampness accumulation. Dampness-related weight often feels soft, puffy, and concentrated around the middle. It may fluctuate with the weather (worse in humidity) and improve with foods that drain moisture. Both can exist simultaneously, but the approach for dampness-related weight focuses on supporting metabolism and reducing moisture rather than simply cutting calories.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with this type of weight gain?", "zh-TW": "", ja: "" },
+      a: { en: "For Phlegm Damp: adzuki beans, coix seed, winter melon, celery, hawthorn tea, tangerine peel tea, and modest green tea. Reduce dairy, sweets, fried food, cold drinks, and beer. For Qi Deficiency-related weight gain: warm, cooked meals like congee, sweet potato, and chicken broth. Avoid cold and raw foods that drain energy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most prone to unexplained weight gain?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match, affecting about 10% of people. The Qi Deficient type (气虚质) can also gain weight due to a slow metabolism. Take the free EastType quiz to discover which pattern matches you.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-are-my-moods-all-over-the-place": [
+    {
+      q: { en: "Why do my moods change so fast for no reason?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, unpredictable mood swings are often linked to Qi Stagnation. Your Liver is responsible for smooth energy flow, and when energy gets stuck, emotions build up like pressure in a sealed pot. When something triggers a release, it all comes out at once. The mood swing isn't about the trigger. It's about the accumulated pressure behind it.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Are mood swings always a hormonal issue?", "zh-TW": "", ja: "" },
+      a: { en: "No. While hormones are the most common cause, many people have normal hormone levels and still experience mood instability. TCM views this as an energy flow pattern. If your hormones check out fine but the mood swings persist, the Liver Qi Stagnation framework offers a different explanation and a different set of approaches.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can I do to stabilize my moods?", "zh-TW": "", ja: "" },
+      a: { en: "Move your body. This is the single most effective thing for Qi Stagnation. A 20-minute walk works better than an intense gym session. Express what you're feeling: journal, talk to a friend, sing, create. Drink rose tea or tangerine peel tea to encourage smooth energy flow. Reduce caffeine and alcohol, which add pressure to an already pressurized system.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with mood swings?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people fall into this category. Common signs include chest tightness, frequent sighing, and emotional reactions that feel out of proportion. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }
