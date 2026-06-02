@@ -96,6 +96,18 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
     relatedTypes: ["qi_stagnant"],
     relatedSymptoms: ["why-do-i-wake-up-at-3am"],
   },
+  "why-do-i-have-brain-fog": {
+    slug: "why-do-i-have-brain-fog",
+    title: { en: "Why Do I Have Brain Fog?", "zh-TW": "", ja: "" },
+    metaTitle: "Why Do I Have Brain Fog? Eastern Body Type Insights | EastType",
+    metaDesc: "Can't think clearly? Brain fog may be connected to your Eastern body type. Learn which TCM patterns are linked to mental fogginess and what may help clear it.",
+    ogDesc: "Head in a cloud? Your Eastern body type may explain why your thinking feels foggy.",
+    h1: { en: "Why Do I Have Brain Fog? When Your Head Lives in a Cloud", "zh-TW": "", ja: "" },
+    tag: "Mental Clarity",
+    readTime: "8 min",
+    relatedTypes: ["phlegm_damp", "qi_deficient"],
+    relatedSymptoms: ["why-am-i-always-sleepy", "always-bloated-after-eating"],
+  },
 }
 
 export const SYMPTOM_SLUGS = Object.keys(SYMPTOMS)

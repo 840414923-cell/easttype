@@ -64,7 +64,7 @@ export const PATTERNS: Record<string, PatternPage> = {
     tag: "Phlegm Damp",
     readTime: "9 min",
     relatedTypes: ["phlegm_damp"],
-    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy"],
+    relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy", "why-do-i-have-brain-fog"],
     tcmConcept: "Phlegm Damp",
   },
   "stuck-energy": {

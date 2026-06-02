@@ -103,4 +103,22 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Stagnant type (气郁质) is the primary match. About 8% of people fall into this category. Common signs include chest tightness, frequent sighing, mood swings, and a feeling that something is stuck inside. Take the free EastType quiz to discover if this is your type.", "zh-TW": "氣鬱體質（气郁质）是主要對應。大約8%的人屬於此類。常見信號包括胸悶、常嘆息、情緒起伏和內部有東西卡住的感覺。做 EastType 免費測驗，確認你的體質。", ja: "気鬱タイプ（気鬱質）が主な該当です。約8%の人がこのカテゴリーに当てはまります。よくあるサインは胸の圧迫感、ため息、気分の波、内側に何かが詰まっている感覚です。EastTypeの無料クイズであなたのタイプを見つけてください。" },
     },
   ],
+  "why-do-i-have-brain-fog": [
+    {
+      q: { en: "What is brain fog in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "TCM doesn't use the term \"brain fog,\" but it describes the same experience as Phlegm Damp clouding the head. When your Spleen can't transform food into clear energy efficiently, a cloudy, heavy substance builds up and obscures your thinking. It's like condensation on a window: the view is still there, but you can't see it clearly until you change the conditions creating the moisture.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is brain fog the same as being tired?", "zh-TW": "", ja: "" },
+      a: { en: "Not quite. Fatigue is low energy: your battery is low. Brain fog is poor mental clarity: your battery might be fine, but there's something interfering with the connection. In TCM, fatigue usually points to Qi Deficiency, while brain fog is more strongly associated with Phlegm Damp. Some people have both, which makes both the body and the mind feel sluggish.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help clear brain fog?", "zh-TW": "", ja: "" },
+      a: { en: "If Phlegm Damp is the root, foods that drain moisture may help: adzuki beans, coix seed, winter melon, celery, hawthorn tea, and tangerine peel tea. If Qi Deficiency is the root, warm and nourishing foods like congee, sweet potato, jujube dates, and ginger tea support energy production. In both cases, reducing dairy, sweets, fried food, and cold drinks can make a noticeable difference within a few weeks.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with brain fog?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the most common match. Their body holds onto moisture, creating a heavy, foggy feeling in the head. The Qi Deficient type (气虚质) can also experience brain fog from low energy rather than moisture. Take the free EastType quiz to discover which body type matches your current patterns.", "zh-TW": "", ja: "" },
+    },
+  ],
 }
