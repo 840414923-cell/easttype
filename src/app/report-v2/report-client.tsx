@@ -17,8 +17,6 @@ const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 const SEASON_KEYS = ["spring", "summer", "autumn", "winter"] as const
 const SEASON_LABELS: Record<string, Record<string, string>> = {
   en: { spring: "Spring", summer: "Summer", autumn: "Autumn", winter: "Winter" },
-  "zh-TW": { spring: "春季", summer: "夏季", autumn: "秋季", winter: "冬季" },
-  ja: { spring: "春", summer: "夏", autumn: "秋", winter: "冬" },
 }
 
 function renderMdPlain(text: string) {
@@ -57,54 +55,7 @@ const UI: Record<string, Record<string, string>> = {
     proUpgradeCta: "Upgrade to Full Report →",
     backToResult: "← Back to Results",
   },
-  "zh-TW": {
-    constitution: "體質", chinese: "中文名", nickname: "暱稱", sex: "性別",
-    female: "女性 ♀", male: "男性 ♂",
-    printBtn: "列印", downloadBtn: "下載 PDF",
-    section1: "體質身份", section2: "食療方案", section3: "四季調理",
-    section4: "每日經絡時刻表", section5: "食療食譜",
-    recommended: "推薦食物", foodsToLimit: "宜少食",
-    foodCol: "食物", tcmCol: "中醫功效", guideCol: "食用指導",
-    seasonCol: "季節", protocolCol: "調理方案",
-    timeCol: "時間", meridianCol: "當令經絡", recCol: "建議",
-    dailyChecklist: "每日執行清單",
-    tcmPrinciple: "中醫原理", ingredients: "食材", instructions: "做法",
-    amountCol: "用量", wellnessTip: "實用建議：",
-    proCh1Origin: "體質溯源", proCh1Emotion: "情緒藍圖",
-    proCh2Combos: "危險飲食組合", proCh3Drinks: "四季茶飲",
-    proCh3Notes: "四季提醒", proCh4Acupoints: "穴位按摩指南",
-    proCh6Recipes: "中醫食譜", proCh7Schedule: "30天生活計畫",
-    proCh8Monitor: "30天身體追蹤",
-    proDayCol: "天", proRecipeN: "食譜",
-    proUpgradeTitle: "想要完整蛻變計畫？",
-    proUpgradeDesc: "升級至完整分析報告，獲得深入中醫理論、穴位按摩指南、28天湯品計畫、多道食譜，以及完整的生活調理方案。",
-    proUpgradeCta: "升級至完整報告 →",
-    backToResult: "← 返回結果",
-  },
-  ja: {
-    constitution: "体質", chinese: "漢字名", nickname: "ニックネーム", sex: "性別",
-    female: "女性 ♀", male: "男性 ♂",
-    printBtn: "印刷", downloadBtn: "PDF保存",
-    section1: "体質アイデンティティ", section2: "食養処方", section3: "四季の養生",
-    section4: "一日の経絡スケジュール", section5: "おすすめレシピ",
-    recommended: "おすすめの食材", foodsToLimit: "控えるべき食材",
-    foodCol: "食材", tcmCol: "中医効果", guideCol: "食べ方",
-    seasonCol: "季節", protocolCol: "養生法",
-    timeCol: "時間", meridianCol: "活性経絡", recCol: "アドバイス",
-    dailyChecklist: "毎日のチェックリスト",
-    tcmPrinciple: "中医原理", ingredients: "材料", instructions: "作り方",
-    amountCol: "分量", wellnessTip: "ワンポイント：",
-    proCh1Origin: "体質ルーツ", proCh1Emotion: "感情ブループリント",
-    proCh2Combos: "危険な食事の組み合わせ", proCh3Drinks: "季節のお茶",
-    proCh3Notes: "季節の注意点", proCh4Acupoints: "ツボ按摩ガイド",
-    proCh6Recipes: "中医レシピ", proCh7Schedule: "30日ライフスタイルプラン",
-    proCh8Monitor: "30日ボディモニター",
-    proDayCol: "日", proRecipeN: "レシピ",
-    proUpgradeTitle: "完全な変容プランが欲しいですか？",
-    proUpgradeDesc: "完全分析レポートにアップグレードして、深い中医理論、ツボ按摩ガイド、28日スーププラン、複数のレシピ、完全なライフスタイルプランを入手しましょう。",
-    proUpgradeCta: "完全レポートにアップグレード →",
-    backToResult: "← 結果に戻る",
-  },
+
 }
 
 /* ── Mobile Reading View ── */
@@ -180,7 +131,8 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
         )}
       </Section>
 
-      {/* Ch3: Seasonal */}
+      {/* Ch3: Seasonal — Pro only */}
+      {isPro && (
       <Section title={ui.section3} color={ct.color}>
         <div className="bg-card-bg border border-card-border rounded-lg p-3 mb-4 border-l-2" style={{ borderLeftColor: ct.color }}>
           <TextBlock>{t(report.ch3Seasonal.highlight)}</TextBlock>
@@ -197,7 +149,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
             )
           })}
         </div>
-        {isPro && pro && (
+        {pro && (
           <>
             <div className="mt-4 text-accent text-xs font-bold uppercase tracking-wider">{ui.proCh3Drinks}</div>
             <div className="space-y-2 mt-2">
@@ -220,6 +172,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           </>
         )}
       </Section>
+      )}
 
       {/* Ch4: Daily Schedule */}
       <Section title={ui.section4} color={ct.color}>
@@ -506,20 +459,7 @@ const HEADER_TEXT: Record<string, { institution: string; title: string; disclaim
     disclaimer2: "Based on over 3,000 years of Traditional Chinese Medicine wisdom.",
     warning: "This report is for health conditioning purposes only and does not constitute medical diagnosis or treatment.",
   },
-  "zh-TW": {
-    institution: "EastType · 傳統中醫",
-    title: "體質報告",
-    disclaimer1: "基於中醫千年經驗的體質分析",
-    disclaimer2: "基於超過三千年傳統中醫藥的調理智慧。",
-    warning: "本報告僅供健康調理參考，不構成醫療診斷或治療建議。",
-  },
-  ja: {
-    institution: "EastType · 伝統中医学",
-    title: "体質レポート",
-    disclaimer1: "基於中醫千年經驗的體質分析",
-    disclaimer2: "3000年以上の伝統中医学の調理の知恵に基づいています。",
-    warning: "本レポートは健康調理の参考のみを目的としており、医療診断や治療を構成するものではありません。",
-  },
+
 }
 
 const A4_UI: Record<string, Record<string, string>> = {
@@ -552,64 +492,7 @@ const A4_UI: Record<string, Record<string, string>> = {
     proLetterP1: "This is your Full Constitution Diagnostic Report — a comprehensive guide built on over 3,000 years of Traditional Chinese Medicine wellness wisdom. It includes deep TCM theory, acupoint massage, seasonal drinks, multiple recipes, and a complete 30-day lifestyle plan.",
     proLetterP2: "We recommend printing this report and keeping it where you can reference it daily. The 30-day plan and monitoring tracker are designed for active use — fill them in as you go. Consider sharing this with a licensed TCM practitioner for personalized guidance.",
   },
-  "zh-TW": {
-    constitution: "體質", chinese: "中文名", nickname: "暱稱", sex: "性別",
-    female: "女性 ♀", male: "男性 ♂",
-    letterP1: "感謝您耐心且認真地完成了這份測試。本報告根基於超過三千年的中醫調理智慧——這套體系經歷了無數世代的觀察、精煉與驗證，對不同體質的辨識累積了深厚的經驗。",
-    letterP2: "我們鼓勵您將本報告列印出來，帶給您附近有執照的中醫師看一看，當作一個起點——而非最終定論——來探索更健康、更符合您獨特體質的生活方式。",
-    section1: "體質身份", section2: "食療方案", section3: "四季調理",
-    section4: "每日經絡時刻表", section5: "食療食譜",
-    foodCol: "食物", aliasCol: "其他名稱", tcmCol: "中醫功效", guideCol: "食用指導",
-    recommended: "推薦食物", foodsToLimit: "宜少食",
-    seasonCol: "季節", protocolCol: "調理方案",
-    timeCol: "時間", meridianCol: "當令經絡", recCol: "建議",
-    dailyChecklist: "每日執行清單", checkOff: "逐項勾選",
-    tcmPrinciple: "中醫原理", ingredients: "食材", instructions: "做法",
-    ingredientCol: "食材", amountCol: "用量",
-    wellnessTip: "實用建議：",
-    footer: "基於傳統中醫體質學理論 · 僅供健康調理參考，不作為醫療診斷或治療依據",
-    proTitle: "體質完整分析報告",
-    proCh1Origin: "體質溯源", proCh1Emotion: "情緒藍圖",
-    proCh2Combos: "危險飲食組合", proCh3Drinks: "四季茶飲",
-    proCh3Notes: "四季提醒", proCh4Acupoints: "穴位按摩指南",
-    proCh6Recipes: "中醫食譜", proCh7Schedule: "30天生活計畫",
-    proCh8Monitor: "30天身體追蹤",
-    proDayCol: "天", proRecipeN: "食譜",
-    proUpgradeTitle: "想要完整蛻變計畫？",
-    proUpgradeDesc: "升級至完整分析報告，獲得深入中醫理論、穴位按摩指南、28天湯品計畫、多道食譜，以及完整的生活調理方案。",
-    proUpgradeCta: "升級至完整報告 →",
-    proLetterP1: "這是您的完整體質分析報告——一份基於超過三千年中醫調理智慧的综合指南。包含深入的中醫理論、穴位按摩、四季茶飲、多道食譜，以及完整的30天生活計畫。",
-    proLetterP2: "我們建議您將本報告列印出來，放在每天可以參考的地方。30天計畫和追蹤表是為了實際使用而設計的——請逐日填寫。您也可以與有執照的中醫師分享本報告，獲取個人化的調理建議。",
-  },
-  ja: {
-    constitution: "体質", chinese: "漢字名", nickname: "ニックネーム", sex: "性別",
-    female: "女性 ♀", male: "男性 ♂",
-    letterP1: "忍耐強くテストを完了していただき、ありがとうございます。本レポートは、3000年以上の伝統中医学の調理の知恵に基づいています。この体系は、無数の世代にわたる観察、洗練、検証を経て、体質パターンの識別に深い経験を蓄積してきました。",
-    letterP2: "このレポートを印刷して、お近くのライセンスを持つ中医師に見せることをお勧めします。最終的な結論ではなく、あなた独自の体質に合ったより健康的なライフスタイルを探求するための出発点としてご活用ください。",
-    section1: "体質アイデンティティ", section2: "食療処方", section3: "四季の養生",
-    section4: "一日の経絡スケジュール", section5: "処方レシピ",
-    foodCol: "食材", aliasCol: "別名", tcmCol: "中医効果", guideCol: "食べ方",
-    recommended: "おすすめの食材", foodsToLimit: "控えるべき食材",
-    seasonCol: "季節", protocolCol: "養生法",
-    timeCol: "時間", meridianCol: "活性経絡", recCol: "アドバイス",
-    dailyChecklist: "毎日のチェックリスト", checkOff: "達成したらチェック",
-    tcmPrinciple: "中医原理", ingredients: "材料", instructions: "作り方",
-    ingredientCol: "材料", amountCol: "分量",
-    wellnessTip: "ワンポイント：",
-    footer: "伝統中医学の体質理論に基づく · 健康調理の参考のみであり、医療診断や治療を構成するものではありません",
-    proTitle: "体質完全分析レポート",
-    proCh1Origin: "体質ルーツ", proCh1Emotion: "感情ブループリント",
-    proCh2Combos: "危険な食事の組み合わせ", proCh3Drinks: "季節のお茶",
-    proCh3Notes: "季節の注意点", proCh4Acupoints: "ツボ按摩ガイド",
-    proCh6Recipes: "中医レシピ", proCh7Schedule: "30日ライフスタイルプラン",
-    proCh8Monitor: "30日ボディモニター",
-    proDayCol: "日", proRecipeN: "レシピ",
-    proUpgradeTitle: "完全な変容プランが欲しいですか？",
-    proUpgradeDesc: "完全分析レポートにアップグレードして、深い中医理論、ツボ按摩ガイド、28日スーププラン、複数のレシピ、完全なライフスタイルプランを入手しましょう。",
-    proUpgradeCta: "完全レポートにアップグレード →",
-    proLetterP1: "これはあなたの完全体質分析レポートです。3000年以上の伝統中医学の調理の知恵に基づく総合ガイドで、深い中医理論、ツボ按摩、季節のお茶、複数のレシピ、完全な30日ライフスタイルプランが含まれています。",
-    proLetterP2: "このレポートを印刷して、毎日参照できる場所に置くことをお勧めします。30日プランとモニタリングトラッカーは実際の使用のために設計されています — 毎日記入してください。ライセンスを持つ中医師と共有して、個別のアドバイスを受けるのも良いでしょう。",
-  },
+
 }
 
 function renderMd(text: string) {
@@ -759,15 +642,6 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                 <div className="border border-[#e0d8cc] rounded px-3 py-2"><ul className="list-none p-0 space-y-1">{report.ch2FoodsAvoid.map((item, i) => (
                   <li key={i} className="text-[13px] text-[#444] flex items-start gap-2"><span className="text-[#b85450] flex-shrink-0">✕</span><span>{t(item)}</span></li>
                 ))}</ul></div>
-              </div>
-              <div className="mb-6"><SectionHeader num={3} title={a4ui.section3} />
-                <div className="px-3 py-2 rounded bg-[#f8f6f2] mb-3 border-l-[3px] border-[#C9A96E]"><p className="text-[13px] leading-[1.6] text-[#1a1a1a] font-medium">{t(report.ch3Seasonal.highlight)}</p></div>
-                <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] min-w-[400px]">
-                  <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-24">{a4ui.seasonCol}</th><th className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{a4ui.protocolCol}</th></tr></thead>
-                  <tbody>{report.ch3Seasonal.tips.map((tip, i) => { const txt = t(tip); const season = txt.split("—")[0]?.trim() ?? ""; const body = txt.includes("—") ? txt.substring(txt.indexOf("—") + 1).trim() : txt; return (
-                    <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-[#fcfaf7]"}><td className="px-3 py-1.5 border border-[#e0d8cc] font-semibold" style={{ color: "#7a6535" }}>{season}</td><td className="px-3 py-1.5 border border-[#e0d8cc] text-[#444]" dangerouslySetInnerHTML={{ __html: body.replace(/\*\*(.*?)\*\*/g, '<strong class="text-[#1a1a1a]">$1</strong>') }} /></tr>
-                  )})}</tbody>
-                </table></div>
               </div>
               <div className="mb-6"><SectionHeader num={4} title={a4ui.section4} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] min-w-[500px]">

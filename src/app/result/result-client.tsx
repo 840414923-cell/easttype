@@ -5,6 +5,7 @@ import { Suspense } from "react"
 import Link from "next/link"
 import { TYPES } from "@/lib/constitution-data"
 import { TYPE_VIRAL } from "@/lib/type-viral"
+import { FREE_LAYER } from "@/lib/free-layer-data"
 import type { ConstitutionId } from "@/lib/types"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
@@ -106,7 +107,23 @@ function ResultContent() {
           </div>
         </div>
 
-        {/* ━━ 2. Share Card — "I got something" achievement ━━ */}
+        {/* ━━ 2. Symptom resonance ━━ */}
+        <div className="mb-6">
+          <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">Your body may often feel</h2>
+          <ul className="space-y-1.5">
+            {FREE_LAYER[primaryId].signals.map((s, i) => (
+              <li key={i} className="flex items-start gap-2 text-sm text-text2">
+                <span className="text-accent mt-0.5 flex-shrink-0">•</span>
+                <span>{s}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* ━━ 3. Simple summary ━━ */}
+        <p className="text-sm text-text2 leading-relaxed mb-6">{FREE_LAYER[primaryId].simpleSummary}</p>
+
+        {/* ━━ 4. Share Card — "I got something" achievement ━━ */}
         <div className="mb-3">
           <ShareCardImage typeId={primaryId} />
         </div>
@@ -126,111 +143,14 @@ function ResultContent() {
           ))}
         </div>
 
-        {/* ━━ 3. PRICING — front and center ━━ */}
-
-        {/* Pro — THE big card */}
-        <div className="relative border-2 border-accent rounded-xl overflow-hidden mb-2">
-          <div className="absolute inset-0 bg-gradient-to-br from-[rgba(201,163,85,0.06)] to-transparent pointer-events-none" />
-          <div className="relative p-5">
-            {/* Badge */}
-            <div className="absolute -top-0 left-1/2 -translate-x-1/2 px-4 py-1 rounded-b-lg bg-gradient-to-r from-accent to-accent2 text-bg text-[10px] font-bold tracking-wide uppercase whitespace-nowrap">
-              {"MOST POPULAR"}
-            </div>
-            {/* Price */}
-            <div className="text-center pt-4 mb-4">
-              <div className="text-xs text-accent font-semibold mb-1">{"Full Transformation Kit"}</div>
-              <div className="flex items-baseline justify-center gap-2">
-                                <span className="font-[family-name:var(--font-display)] text-3xl font-bold gold-gradient-text">$12.99</span>
-                <span className="text-xs text-text2">USD</span>
-              </div>
-              <div className="text-[11px] text-text2 mt-1">{"Full Transformation Kit · One-time payment"}</div>
-            </div>
-            {/* All features — this IS the complete package */}
-            <div className="space-y-1.5 mb-4">
-              {[
-                "Everything in the Body Profile Report",
-                "28 days of TCM-inspired recipes",
-                "Weekly grocery lists & ingredient swaps",
-                "Simple, easy-to-make daily meals",
-                "Seasonal adjustments for each week",
-                "Based on thousand-year TCM food therapy",
-              ].map((f, i) => (
-                <div key={i} className="text-xs text-text flex items-start gap-2">
-                  <span className="text-accent text-[10px] mt-0.5 flex-shrink-0">&#10003;</span>
-                  <span>{f}</span>
-                </div>
-              ))}
-            </div>
-            <ProCta />
-            <div className="flex items-center justify-center gap-3 mt-2.5 text-[10px] text-text2">
-              <span>{"🔒 Secure checkout"}</span>
-              <span>·</span>
-              <span>{"⚡ Instant delivery"}</span>
-              <span>·</span>
-              <span>{"30-day money-back guarantee"}</span>
-            </div>
-            <div className="text-center text-[10px] text-text2 mt-2">
-              {"One-time payment · No subscription · Questions? 840414923@qq.com"}
-            </div>
-          </div>
-        </div>
-
-        {/* Basic — budget alternative */}
-        <div className="border border-[rgba(201,163,85,0.15)] rounded-xl p-4 bg-card-bg mb-3">
-          <div className="flex items-center justify-between mb-2">
-            <div>
-              <div className="text-xs text-text2 mb-0.5">{"Body Profile Report"}</div>
-              <div className="flex items-baseline gap-1">
-                <span className="font-[family-name:var(--font-display)] text-xl font-bold text-text">$4.99</span>
-                <span className="text-[10px] text-text2">USD</span>
-              </div>
-              <div className="text-[11px] text-text2 mt-0.5">{"Body Profile Report · One-time payment"}</div>
-            </div>
-            <div className="text-[10px] text-text2 text-right leading-snug">
-              {"Report only,<br/>no recipe plan"}
-            </div>
-          </div>
-          <div className="space-y-0.5 mb-3">
-            {[
-              "Deep explanation of your body type",
-              "Personal Food Map — 25+ foods that love you, 15+ to avoid",
-              "Seasonal guidance tailored to your type",
-            ].map((f, i) => (
-              <div key={i} className="text-[11px] text-text2 flex items-start gap-1.5">
-                <span className="text-accent/60 text-[9px] mt-0.5">&#10003;</span>
-                <span>{f}</span>
-              </div>
-            ))}
-          </div>
-          <BasicCta />
-        </div>
-
-        <div className="text-center text-[10px] text-text2 mb-6">
-          {"30-day money-back guarantee · Cancel anytime"}
-        </div>
-
-        {/* ━━ 4. Loss aversion — "you're only seeing 20%" ━━ */}
-        <div
-          className="rounded-xl p-5 mb-5 text-center"
-          style={{
-            background: `linear-gradient(160deg, ${t.color}0D, ${t.color}05, transparent)`,
-            border: `1.5px solid ${t.color}20`,
-          }}
-        >
-          <h2 className="font-[family-name:var(--font-display)] text-xl mb-2 leading-snug" style={{ color: t.color }}>
-            {`Your ${t.en} body is trying to tell you something`}
-          </h2>
-          <p className="text-sm text-text2 leading-relaxed mb-3">
-            {viral.predictions[0]}
+        {/* ━━ 6. Gentle paywall transition ━━ */}
+        <div className="text-center mb-5">
+          <p className="text-sm text-text leading-relaxed">
+            {"That's the surface. Your full pattern goes deeper — and there's a lot you can do with it."}
           </p>
-          <div className="pt-3 border-t" style={{ borderColor: `${t.color}15` }}>
-            <p className="text-sm text-text leading-relaxed font-medium">
-              {"You're only seeing 20% of the picture. Your full report reveals what to eat, when to rest, and how to thrive."}
-            </p>
-          </div>
         </div>
 
-        {/* ━━ 5. Report sample — show concrete value ━━ */}
+        {/* ━━ Report sample ━━ */}
         <div className="mb-5">
           <div className="text-center mb-3">
             <span className="text-accent text-[10px] uppercase tracking-[0.2em]">
@@ -241,7 +161,6 @@ function ResultContent() {
             className="rounded-xl overflow-hidden border"
             style={{ borderColor: `${t.color}20` }}
           >
-            {/* Mock header */}
             <div className="px-4 py-3 border-b border-card-border" style={{ background: `linear-gradient(135deg, ${t.color}12, ${t.color}05)` }}>
               <div className="flex items-center justify-between">
                 <div>
@@ -256,9 +175,8 @@ function ResultContent() {
                 </div>
               </div>
             </div>
-            {/* Body */}
             <div className="px-4 py-3 bg-card-bg space-y-2.5">
-      <div>
+              <div>
                 <div className="flex items-center gap-1.5 mb-1">
                   <span className="text-xs">&#127858;</span>
                   <span className="text-xs font-semibold text-text">{"Your Nourishing Foods"}</span>
@@ -277,30 +195,55 @@ function ResultContent() {
                   {"6:30 AM — Wake naturally. 7:00 — Warm water with lemon. 7:30 — Slow stretching, no high-intensity cardio..."}
                 </div>
               </div>
-              <div className="h-px bg-card-border" />
-              <div className="text-center py-1">
-                <span className="text-[10px] text-accent italic">
-                  {"· · · 20+ more pages inside · · ·"}
-                </span>
-              </div>
             </div>
           </div>
         </div>
 
-        {/* ━━ 6. Chapters overview ━━ */}
-        <div className="grid grid-cols-2 gap-2 mb-5">
-          {[
-            { ch: "Ch.1", title: "Who You Are", desc: "Strengths, blind spots & your body's ancient language" },
-            { ch: "Ch.2", title: "Your Food Map", desc: "Foods that nourish you + foods that drain you" },
-            { ch: "Ch.3", title: "Seasonal Guide", desc: "What your body needs right now, this season" },
-            { ch: "Ch.4", title: "28-Day Plan", desc: "Daily rhythm + recipes tailored to your type" },
-          ].map((item) => (
-            <div key={item.ch} className="bg-card-bg border border-card-border rounded-lg p-3">
-              <div className="text-accent text-[10px] font-semibold mb-0.5">{item.ch}</div>
-              <div className="text-xs font-semibold">{item.title}</div>
-              <div className="text-[10px] text-text2 mt-0.5 leading-relaxed">{item.desc}</div>
+        {/* ━━ Pricing comparison table ━━ */}
+        <div className="mb-5">
+          <div className="rounded-xl border border-[rgba(201,163,85,0.15)] overflow-hidden">
+            <div className="grid grid-cols-3 text-center bg-card-bg">
+              <div className="py-2 px-2 text-[11px] font-semibold text-text2 border-b border-card-border" />
+              <div className="py-2 px-2 text-[11px] font-semibold text-text border-b border-card-border">
+                <div>{"Basic"}</div>
+                <div className="text-accent font-bold">$4.99</div>
+              </div>
+              <div className="py-2 px-2 text-[11px] font-semibold border-b border-card-border bg-[rgba(201,163,85,0.04)]">
+                <div className="text-accent">{"Pro"}</div>
+                <div className="gold-gradient-text font-bold">$12.99</div>
+              </div>
             </div>
-          ))}
+            {[
+              ["Full type explanation", true, true],
+              ["Personal food map (25+ foods)", true, true],
+              ["Daily rhythm + checklist", true, true],
+              ["Starter recipe", true, true],
+              ["Seasonal protocol (4 seasons)", false, true],
+              ["Deep pattern origin story", false, true],
+              ["Dangerous food combinations", false, true],
+              ["Seasonal drink recipes", false, true],
+              ["Acupoint massage guide", false, true],
+              ["Multiple TCM recipes", false, true],
+              ["30-day lifestyle plan", false, true],
+            ].map(([feature, basic, pro], i) => (
+              <div key={i} className={`grid grid-cols-3 text-center ${i % 2 === 0 ? "bg-card-bg" : ""}`}>
+                <div className="py-1.5 px-2 text-[11px] text-text2 text-left border-b border-card-border/50">{feature as string}</div>
+                <div className="py-1.5 px-2 border-b border-card-border/50 text-accent">{basic ? "✓" : "—"}</div>
+                <div className="py-1.5 px-2 border-b border-card-border/50 bg-[rgba(201,163,85,0.02)] text-accent">{pro ? "✓" : "—"}</div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-3 space-y-2">
+            <ProCta />
+            <BasicCta />
+          </div>
+          <div className="flex items-center justify-center gap-3 mt-2 text-[10px] text-text2">
+            <span>{"🔒 Secure checkout"}</span>
+            <span>·</span>
+            <span>{"⚡ Instant delivery"}</span>
+            <span>·</span>
+            <span>{"30-day money-back guarantee"}</span>
+          </div>
         </div>
 
         {/* ━━ Disclaimer ━━ */}
@@ -308,110 +251,6 @@ function ResultContent() {
           <p className="text-[10px] text-text2 leading-relaxed text-center">
             {"This assessment is for wellness and self-awareness purposes only. It does not constitute medical diagnosis or treatment. Always consult a qualified healthcare professional for medical concerns."}
           </p>
-        </div>
-
-        {/* ━━ 7. 4 Buying reasons — overcome objections ━━ */}
-        <div className="space-y-3 mb-6">
-          <h3 className="font-[family-name:var(--font-display)] text-base text-center tracking-wide">
-            {"Why this is worth it"}
-          </h3>
-
-          {/* Reason 1: Authority — talk to a real TCM doctor */}
-          <div className="bg-card-bg border border-card-border rounded-lg px-4 py-3 flex items-start gap-3">
-            <span className="text-lg mt-0.5 flex-shrink-0">&#129658;</span>
-            <div>
-              <div className="text-sm font-semibold text-text mb-0.5">
-                {"Bring it to your TCM doctor"}
-              </div>
-              <div className="text-xs text-text2 leading-relaxed">
-                {"Your report uses the same framework as Traditional Chinese Medicine practitioners. Print it out, bring it to your next appointment — your doctor will know exactly what you're talking about."}
-              </div>
-            </div>
-          </div>
-
-          {/* Reason 2: 3000 years */}
-          <div className="bg-card-bg border border-card-border rounded-lg px-4 py-3 flex items-start gap-3">
-            <span className="text-lg mt-0.5 flex-shrink-0">&#128218;</span>
-            <div>
-              <div className="text-sm font-semibold text-text mb-0.5">
-                {"Based on 3,000 years of wisdom"}
-              </div>
-              <div className="text-xs text-text2 leading-relaxed">
-                {"Not a trendy diet. This is the same framework used in wellness clinics across Asia today."}
-              </div>
-            </div>
-          </div>
-
-          {/* Reason 3: Practical */}
-          <div className="bg-card-bg border border-card-border rounded-lg px-4 py-3 flex items-start gap-3">
-            <span className="text-lg mt-0.5 flex-shrink-0">&#127793;</span>
-            <div>
-              <div className="text-sm font-semibold text-text mb-0.5">
-                {"Use it tomorrow at the grocery store"}
-              </div>
-              <div className="text-xs text-text2 leading-relaxed">
-                {"Food lists, daily schedules, seasonal tips — practical tools, not abstract theory."}
-              </div>
-            </div>
-          </div>
-
-          {/* Reason 4: Risk-free */}
-          <div className="bg-card-bg border border-card-border rounded-lg px-4 py-3 flex items-start gap-3">
-            <span className="text-lg mt-0.5 flex-shrink-0">&#128176;</span>
-            <div>
-              <div className="text-sm font-semibold text-text mb-0.5">
-                {"30-day money-back guarantee"}
-              </div>
-              <div className="text-xs text-text2 leading-relaxed">
-                {"If it doesn't resonate with you, get a full refund. No questions asked."}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* ━━ 8. Final emotional push + CTA ━━ */}
-        <div
-          className="rounded-xl p-5 text-center mb-4"
-          style={{
-            background: `linear-gradient(160deg, ${t.color}10, ${t.color}05, transparent)`,
-            border: `1.5px solid ${t.color}25`,
-          }}
-        >
-          <p className="font-[family-name:var(--font-display)] text-lg mb-1" style={{ color: t.color }}>
-            {typeName}
-          </p>
-          <p className="text-sm text-text mb-4 leading-relaxed">
-            {"Your body has been waiting 3,000 years for someone to finally listen."}
-          </p>
-          <div className="mb-3">
-            <div className="text-xs text-text2 mb-1">{"Starting from"}</div>
-            <div className="flex items-baseline justify-center gap-4">
-              <div>
-                <span className="font-[family-name:var(--font-display)] text-2xl font-bold gold-gradient-text">$12.99</span>
-                <span className="text-xs text-text2 ml-1">USD</span>
-                <div className="text-[10px] text-text2">{"Full Transformation Kit"}</div>
-              </div>
-              <div className="text-text2/30">|</div>
-              <div>
-                <span className="font-[family-name:var(--font-display)] text-2xl font-bold text-text">$4.99</span>
-                <span className="text-xs text-text2 ml-1">USD</span>
-                <div className="text-[10px] text-text2">{"Body Profile Report"}</div>
-              </div>
-            </div>
-          </div>
-          <ProCta className="mb-2" />
-          <CreemCheckout
-            productId={CREEM_PRODUCT_BASIC}
-            successUrl={`${successBase}&plan=basic`}
-            metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
-          >
-            <div
-              className="flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer border border-accent/25 text-accent hover:bg-[rgba(201,163,85,0.05)]"
-            >
-              {"Get My Report — $4.99"}
-            </div>
-          </CreemCheckout>
-          <div className="text-[10px] text-text2 mt-2">{"One-time payment · No subscription · 30-day money-back guarantee"}</div>
         </div>
 
       </div>
