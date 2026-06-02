@@ -230,7 +230,7 @@ export default function HomeClient() {
                   <div
                     className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.12)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(201,163,85,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(0,0,0,0.5)]"
                     style={{
-                      background: `linear-gradient(170deg, ${t.color}10 0%, #1A1410 40%, #1A1410 100%)`,
+                      background: `linear-gradient(170deg, ${t.color}10 0%, var(--color-type-card-base) 40%, var(--color-type-card-base) 100%)`,
                     }}
                   >
                     <Image
@@ -243,7 +243,7 @@ export default function HomeClient() {
                       unoptimized
                     />
 
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#1A1410]/90 via-[#1A1410]/20 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-type-card-base/90 via-type-card-base/20 to-transparent" />
 
                     <div className="absolute bottom-0 left-0 right-0 p-2 sm:hidden">
                       <span

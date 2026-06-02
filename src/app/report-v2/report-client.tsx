@@ -410,7 +410,7 @@ function ReportV2Content() {
       </div>
 
       {/* Mobile Nav — minimal, just back + logo */}
-      <div className="sm:hidden sticky top-0 z-50 bg-[rgba(26,20,16,0.95)] backdrop-blur-xl border-b border-border px-4 py-3 flex items-center justify-between">
+      <div className="sm:hidden sticky top-0 z-50 bg-overlay backdrop-blur-xl border-b border-border px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Link href={resultUrl} className="text-accent text-sm no-underline">←</Link>
           <span className="font-[family-name:var(--font-display)] text-base font-bold text-text tracking-wide">

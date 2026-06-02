@@ -80,8 +80,16 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} ${notoSerifSC.variable} h-full antialiased`}
+      className={`${playfair.variable} ${dmSans.variable} ${notoSerifSC.variable} h-full antialiased dark`}
+      suppressHydrationWarning
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("et-theme");if(t==="light"){document.documentElement.classList.remove("dark");document.documentElement.classList.add("light");}else{document.documentElement.classList.add("dark");}}catch(e){}})()`,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-body)]">
         {children}
         <Analytics />

@@ -53,7 +53,7 @@ export function ShareCardImage({
         >
           <div
             className="relative w-full h-full rounded-[9px] overflow-hidden"
-            style={{ background: "#1A1410" }}
+            style={{ background: "var(--color-type-card-base)" }}
           >
             <Image
               src={imgSrc}
@@ -75,7 +75,7 @@ export function ShareCardImage({
               <div
                 className="px-5 pt-6 pb-3"
                 style={{
-                  background: "linear-gradient(to top, rgba(26,20,16,0.95) 50%, rgba(26,20,16,0.7) 75%, transparent 100%)",
+                  background: "linear-gradient(to top, var(--color-overlay) 50%, color-mix(in srgb, var(--color-overlay) 70%, transparent) 75%, transparent 100%)",
                 }}
               >
                 <div className="flex items-center gap-2 mb-2">
