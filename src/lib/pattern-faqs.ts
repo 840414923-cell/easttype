@@ -73,4 +73,22 @@ export const PATTERN_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Phlegm Damp body type (痰湿质) is the primary match. About 8% of people fall into this category. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "痰濕體質（痰湿质）是主要對應。大約8%的人屬於此類。做 EastType 免費測驗，確認你的體質並獲得個人化食物建議。", ja: "痰湿タイプ（痰湿質）が主な該当です。約8%の人がこのカテゴリーに当てはまります。EastTypeの無料クイズであなたのタイプを見つけ、パーソナライズされた食材を入手してください。" },
     },
   ],
+  "stuck-energy": [
+    {
+      q: { en: "What is the Stuck Energy pattern in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "The Stuck Energy pattern is the everyday-language name for what Chinese medicine calls Qi Stagnation. It describes a state where your body's energy is present but can't move freely. Think of it as a traffic jam inside your body — the fuel is there, the engine is running, but the road is blocked. Your chest tightens, your mood swings, and you sigh without meaning to because your energy is trying to move but can't.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "How is Stuck Energy different from just being stressed?", "zh-TW": "", ja: "" },
+      a: { en: "Stress is a cause. Stuck Energy is the result. Not everyone who is stressed develops Qi Stagnation, but chronic emotional suppression, lack of movement, and irregular routines can cause energy to pool and stagnate. The key difference is that Stuck Energy comes with physical signs — chest tightness, frequent sighing, a feeling of pressure or restriction — that persist even when the stressful event has passed.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods help with the Stuck Energy pattern?", "zh-TW": "", ja: "" },
+      a: { en: "Foods that encourage smooth energy flow: green tea in moderation, tangerine peel (chenpi), rose tea, mint tea, kumquat, and chamomile. Avoid excessive alcohol, heavy greasy meals, too much coffee, and very spicy food — these can add heat and pressure to a system that's already blocked.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most connected to the Stuck Energy pattern?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant body type (气郁质) is the primary match. About 8% of people fall into this category. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
+    },
+  ],
 }

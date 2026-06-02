@@ -67,6 +67,19 @@ export const PATTERNS: Record<string, PatternPage> = {
     relatedSymptoms: ["always-bloated-after-eating", "why-am-i-always-sleepy"],
     tcmConcept: "Phlegm Damp",
   },
+  "stuck-energy": {
+    slug: "stuck-energy",
+    title: { en: "Stuck Energy Pattern", "zh-TW": "", ja: "" },
+    metaTitle: "Stuck Energy Pattern — Tight Chest, Frequent Sighing, Mood Swings | EastType",
+    metaDesc: "The Stuck Energy pattern connects emotional tightness, frequent sighing, and mood swings to Qi Stagnation in Traditional Chinese Medicine. Learn which foods and habits may help your energy flow more freely.",
+    ogDesc: "Feel like something is stuck inside? The Stuck Energy pattern explains why your emotions and energy don't flow smoothly and what Eastern body wisdom says about getting things moving.",
+    h1: { en: "Stuck Energy Pattern: When Your Body Holds Its Breath", "zh-TW": "", ja: "" },
+    tag: "Qi Stagnation",
+    readTime: "9 min",
+    relatedTypes: ["qi_stagnant"],
+    relatedSymptoms: ["why-do-i-feel-anxious", "why-do-i-wake-up-at-3am"],
+    tcmConcept: "Qi Stagnation",
+  },
 }
 
 export const PATTERN_SLUGS = Object.keys(PATTERNS)

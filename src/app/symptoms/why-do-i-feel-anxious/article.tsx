@@ -96,6 +96,17 @@ export default function AnxiousArticle() {
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+          Related Pattern
+        </h2>
+        <div className="flex flex-wrap gap-2 mb-3">
+          <Link href="/patterns/stuck-energy" className="text-sm text-accent no-underline hover:underline">
+            Stuck Energy Pattern →
+          </Link>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
           Related Symptoms
         </h2>
         <div className="flex flex-wrap gap-2">
