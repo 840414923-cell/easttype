@@ -4,7 +4,7 @@ import HomeClient from "./home-client"
 export const metadata: Metadata = {
   title: "EastType — Discover Your Chinese Medicine Body Type | Free 5-Min Quiz",
   description:
-    "Why are you always tired, cold, stressed, or bloated? Discover your unique Eastern body type with our free 5-minute quiz. Get personalized food maps, seasonal guides, and wellness suggestions based on 3,000 years of Traditional Chinese Medicine.",
+    "Why are you always tired, cold, or bloated? Discover your Eastern body type with a free 5-min quiz. Food maps and wellness guides based on 3,000 years of TCM.",
   openGraph: {
     title: "Why Are You Always Tired, Cold, Stressed, or Bloated?",
     description:
