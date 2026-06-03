@@ -34,6 +34,21 @@ const nextConfig: NextConfig = {
       headers: securityHeaders,
     },
   ],
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "myeasterntype.com",
+          },
+        ],
+        destination: "https://www.myeasterntype.com/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
