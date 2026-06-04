@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-no-patience"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have No Patience? Eastern Body Type Insights"
+const TITLE = "Why Do I Have No Patience? The Fuse That's Always Short"
 const DESC = "Everything and everyone getting on your nerves? Your Eastern body type may explain chronic impatience. Learn which TCM patterns are linked to a short fuse."
 
 export const metadata: Metadata = {

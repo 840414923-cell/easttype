@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-are-my-shoulders-always-tense"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Are My Shoulders Always Tense? Eastern Body Type Insights"
+const TITLE = "Why Are My Shoulders Always Tense? The Earrings You Never Asked For"
 const DESC = "Shoulders constantly knotted and tight? Your Eastern body type may explain chronic shoulder tension. Learn which TCM patterns are linked to upper body tightness."
 
 export const metadata: Metadata = {

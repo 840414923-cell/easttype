@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-dark-circles"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Dark Circles? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Dark Circles? The Shadows Sleep Won't Erase"
 const DESC = "Dark circles that sleep doesn't fix? Your Eastern body type may explain them. Learn which TCM patterns are linked to under-eye darkness and what may help."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-feel-anxious"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Feel Anxious? Eastern Body Type Insights"
+const TITLE = "Why Do I Feel Anxious? When Your Mind Races But Your Body Stalls"
 const DESC = "Anxious all the time for no clear reason? Traditional Chinese Medicine connects chronic anxiety to specific body types. Learn what your body may be telling you."
 
 export const metadata: Metadata = {

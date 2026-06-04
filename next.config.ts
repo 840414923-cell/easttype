@@ -47,6 +47,41 @@ const nextConfig: NextConfig = {
         destination: "https://www.myeasterntype.com/:path*",
         permanent: true,
       },
+      {
+        source: "/wellness/why-am-i-always-tired",
+        destination: "/symptoms/why-am-i-always-tired",
+        permanent: true,
+      },
+      {
+        source: "/wellness/cold-hands-and-feet",
+        destination: "/symptoms/why-am-i-always-cold",
+        permanent: true,
+      },
+      {
+        source: "/wellness/night-sweats-chinese-medicine",
+        destination: "/symptoms/why-do-i-have-night-sweats",
+        permanent: true,
+      },
+      {
+        source: "/wellness/bloating-chinese-medicine",
+        destination: "/symptoms/always-bloated-after-eating",
+        permanent: true,
+      },
+      {
+        source: "/wellness/acne-chinese-medicine",
+        destination: "/symptoms/why-do-i-keep-breaking-out",
+        permanent: true,
+      },
+      {
+        source: "/wellness/anxiety-chinese-medicine",
+        destination: "/symptoms/why-do-i-feel-anxious",
+        permanent: true,
+      },
+      {
+        source: "/wellness/insomnia-chinese-medicine",
+        destination: "/symptoms/why-cant-i-fall-asleep",
+        permanent: true,
+      },
     ];
   },
 };

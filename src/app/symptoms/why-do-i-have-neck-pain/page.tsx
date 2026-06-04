@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-neck-pain"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Neck Pain? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Neck Pain? The Pillar That Carries Too Much"
 const DESC = "Stiff, aching neck with no injury? Your Eastern body type may explain chronic neck pain. Learn which TCM patterns are linked to neck tension and stiffness."
 
 export const metadata: Metadata = {

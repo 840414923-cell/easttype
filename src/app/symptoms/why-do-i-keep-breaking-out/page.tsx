@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-breaking-out"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Keep Breaking Out? Eastern Body Type Insights"
+const TITLE = "Why Do I Keep Breaking Out? What Your Skin May Be Trying to Tell You"
 const DESC = "Persistent acne that won't respond to skincare? Your Eastern body type may explain recurring breakouts. Learn which TCM patterns are linked to skin issues."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-hot-flashes"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Hot Flashes? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Hot Flashes? The Surges That Come Without Warning"
 const DESC = "Sudden waves of heat rushing through your body? Your Eastern body type may explain hot flashes. Learn which TCM patterns are linked to heat surges."
 
 export const metadata: Metadata = {

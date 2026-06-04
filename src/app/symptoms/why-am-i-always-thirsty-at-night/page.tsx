@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-thirsty-at-night"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Thirsty at Night? Eastern Body Type Insights"
+const TITLE = "Why Am I Always Thirsty at Night? The Dryness That Wakes You"
 const DESC = "Waking up thirsty every night? Your Eastern body type may explain nighttime thirst. Learn which TCM patterns are linked to dry mouth that disrupts sleep."
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,

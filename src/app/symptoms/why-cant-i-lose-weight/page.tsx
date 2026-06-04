@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-lose-weight"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Can't I Lose Weight? Eastern Body Type Insights"
+const TITLE = "Why Can't I Lose Weight? When Calorie Math Doesn't Add Up"
 const DESC = "Trying to lose weight but nothing works? Your Eastern body type may explain a sluggish metabolism. Learn which TCM patterns are linked to stubborn weight."
 
 export const metadata: Metadata = {

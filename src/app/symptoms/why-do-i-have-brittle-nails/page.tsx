@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-brittle-nails"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Brittle Nails? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Brittle Nails? The Twigs at Your Fingertips"
 const DESC = "Nails that split, peel, or break easily? Your Eastern body type may explain brittle nails. Learn which TCM patterns are linked to nail weakness."
 
 export const metadata: Metadata = {

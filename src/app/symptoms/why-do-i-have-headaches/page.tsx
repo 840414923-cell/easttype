@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-headaches"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Headaches? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Headaches? The Pressure That Won't Lift"
 const DESC = "Frequent headaches with no clear cause? Your Eastern body type may explain recurring head pain. Learn which TCM patterns are linked to headaches."
 
 export const metadata: Metadata = {

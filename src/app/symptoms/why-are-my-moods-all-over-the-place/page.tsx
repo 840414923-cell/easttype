@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-are-my-moods-all-over-the-place"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Are My Moods All Over the Place? Eastern Body Type Insights"
+const TITLE = "Why Are My Moods All Over the Place? The Emotional Rollercoaster No One Signed Up For"
 const DESC = "Mood swings that come out of nowhere? Your Eastern body type may explain unpredictable emotions. Learn which TCM patterns are linked to emotional instability and what may help."
 
 export const metadata: Metadata = {

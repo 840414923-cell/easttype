@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-always-have-a-sore-throat"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Always Have a Sore Throat? Eastern Body Type Insights"
+const TITLE = "Why Do I Always Have a Sore Throat? The Fire in the Chimney"
 const DESC = "Throat pain that keeps coming back? Your Eastern body type may explain recurring sore throats. Learn which TCM patterns are linked to chronic throat discomfort."
 
 export const metadata: Metadata = {

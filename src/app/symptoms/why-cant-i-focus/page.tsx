@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-focus"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Can't I Focus? Eastern Body Type Insights"
+const TITLE = "Why Can't I Focus? The Attention That Keeps Changing Channels"
 const DESC = "Can't concentrate on anything for more than five minutes? Your Eastern body type may explain poor focus. Learn which TCM patterns are linked to concentration problems."
 
 export const metadata: Metadata = {

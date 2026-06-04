@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-menopause-symptoms"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Menopause Symptoms? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Menopause Symptoms? The Transition That Changes Everything"
 const DESC = "Hot flashes, night sweats, and mood changes during menopause? Your Eastern body type may explain why. Learn which TCM patterns are linked to menopausal transition."
 
 export const metadata: Metadata = {

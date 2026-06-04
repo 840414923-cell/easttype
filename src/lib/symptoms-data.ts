@@ -15,7 +15,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-tired": {
     slug: "why-am-i-always-tired",
     title: { en: "Why Am I Always Tired?", "zh-TW": "為什麼我總是累？", ja: "なぜいつも疲れている？" },
-    metaTitle: "Why Am I Always Tired? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Tired? What Your Body Type May Reveal | EastType",
     metaDesc: "Always tired even after sleeping well? Learn why from a Traditional Chinese Medicine perspective — and which body type may be connected to your chronic fatigue.",
     ogDesc: "Sleeping well but still exhausted? TCM says your body type may explain why. Free 5-min assessment included.",
     h1: { en: "Why Am I Always Tired? What Your Body Type May Reveal", "zh-TW": "為什麼我總是累？你的體質可能透露什麼", ja: "なぜいつも疲れている？体質が明かすこと" },
@@ -27,7 +27,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-cold": {
     slug: "why-am-i-always-cold",
     title: { en: "Why Am I Always Cold?", "zh-TW": "為什麼我總是冷？", ja: "なぜいつも寒い？" },
-    metaTitle: "Why Am I Always Cold? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Cold? When Your Internal Heater Runs Low | EastType",
     metaDesc: "Always cold when others are comfortable? Learn which Eastern body type is associated with cold sensitivity and what warming foods may help.",
     ogDesc: "Cold hands and feet year-round? Your Eastern body type may explain it. Learn which foods can warm you from the inside.",
     h1: { en: "Why Am I Always Cold? What Your Body Type May Reveal", "zh-TW": "為什麼我總是冷？你的體質可能透露什麼", ja: "なぜいつも寒い？体質が明かすこと" },
@@ -39,7 +39,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-wake-up-at-3am": {
     slug: "why-do-i-wake-up-at-3am",
     title: { en: "Why Do I Wake Up at 3AM?", "zh-TW": "為什麼我凌晨三點會醒？", ja: "なぜ午前3時に目が覚める？" },
-    metaTitle: "Why Do I Wake Up at 3AM? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Wake Up at 3AM? The Liver Clock That Won't Let You Sleep | EastType",
     metaDesc: "Waking up at 3AM every night? Traditional Chinese Medicine connects this to specific body types. Learn what your sleep pattern may mean.",
     ogDesc: "3AM wakeups every night? TCM says your body type may be the reason. Find out which type and what may help.",
     h1: { en: "Why Do I Wake Up at 3AM? What Your Body Type May Reveal", "zh-TW": "為什麼我凌晨三點會醒？你的體質可能透露什麼", ja: "なぜ午前3時に目が覚める？体質が明かすこと" },
@@ -51,7 +51,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "always-bloated-after-eating": {
     slug: "always-bloated-after-eating",
     title: { en: "Always Bloated After Eating", "zh-TW": "飯後總是脹氣", ja: "食後いつもお腹が張る" },
-    metaTitle: "Always Bloated After Eating? Eastern Body Type Insights | EastType",
+    metaTitle: "Always Bloated After Eating? Your Spleen May Be Overwhelmed | EastType",
     metaDesc: "Bloated after every meal? Traditional Chinese Medicine links bloating to specific body types. Learn which foods may help reduce that heavy feeling.",
     ogDesc: "Bloated after meals? Your Eastern body type may explain it. Learn which foods are easier on your digestion.",
     h1: { en: "Always Bloated After Eating? What Your Body Type May Reveal", "zh-TW": "飯後總是脹氣？你的體質可能透露什麼", ja: "食後いつもお腹が張る？体質が明かすこと" },
@@ -63,7 +63,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-sleepy": {
     slug: "why-am-i-always-sleepy",
     title: { en: "Why Am I Always Sleepy?", "zh-TW": "為什麼我總是想睡？", ja: "なぜいつも眠い？" },
-    metaTitle: "Why Am I Always Sleepy? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Sleepy? When Sleep Never Feels Like Enough | EastType",
     metaDesc: "Can't stay awake during the day? Your Eastern body type may explain daytime sleepiness. Learn which patterns are connected to low energy.",
     ogDesc: "Always sleepy no matter how much you sleep? Your body type may be the reason. Free assessment to find out.",
     h1: { en: "Why Am I Always Sleepy? What Your Body Type May Reveal", "zh-TW": "為什麼我總是想睡？你的體質可能透露什麼", ja: "なぜいつも眠い？体質が明かすこと" },
@@ -75,7 +75,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-night-sweats": {
     slug: "why-do-i-have-night-sweats",
     title: { en: "Why Do I Have Night Sweats?", "zh-TW": "為什麼我會盜汗？", ja: "なぜ寝汗をかく？" },
-    metaTitle: "Why Do I Have Night Sweats? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Night Sweats? The Heat That Rises While You Sleep | EastType",
     metaDesc: "Waking up drenched in sweat? Traditional Chinese Medicine connects night sweats to specific body types. Learn what your body may be telling you.",
     ogDesc: "Night sweats but no fever? TCM says your body type may explain it. Free assessment to find out.",
     h1: { en: "Why Do I Have Night Sweats? What Your Body Type May Reveal", "zh-TW": "為什麼我會盜汗？你的體質可能透露什麼", ja: "なぜ寝汗をかく？体質が明かすこと" },
@@ -87,7 +87,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-feel-anxious": {
     slug: "why-do-i-feel-anxious",
     title: { en: "Why Do I Feel Anxious?", "zh-TW": "為什麼我總是焦慮？", ja: "なぜ不安を感じる？" },
-    metaTitle: "Why Do I Feel Anxious? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Feel Anxious? When Your Mind Races But Your Body Stalls | EastType",
     metaDesc: "Anxious all the time for no clear reason? Traditional Chinese Medicine connects chronic anxiety to specific body types. Learn what your body may be telling you.",
     ogDesc: "Anxious but nothing is wrong? TCM says your body type may explain it. Free assessment to find out.",
     h1: { en: "Why Do I Feel Anxious? What Your Body Type May Reveal", "zh-TW": "為什麼我總是焦慮？你的體質可能透露什麼", ja: "なぜ不安を感じる？体質が明かすこと" },
@@ -99,7 +99,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-brain-fog": {
     slug: "why-do-i-have-brain-fog",
     title: { en: "Why Do I Have Brain Fog?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Brain Fog? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Brain Fog? When Thinking Feels Like Wading Through Mud | EastType",
     metaDesc: "Can't think clearly? Brain fog may be connected to your Eastern body type. Learn which TCM patterns are linked to mental fogginess and what may help clear it.",
     ogDesc: "Head in a cloud? Your Eastern body type may explain why your thinking feels foggy.",
     h1: { en: "Why Do I Have Brain Fog? When Your Head Lives in a Cloud", "zh-TW": "", ja: "" },
@@ -111,7 +111,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-cant-i-fall-asleep": {
     slug: "why-cant-i-fall-asleep",
     title: { en: "Why Can't I Fall Asleep?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Can't I Fall Asleep? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Can't I Fall Asleep? The Switch That Won't Turn Off | EastType",
     metaDesc: "Lying awake for hours? Your Eastern body type may explain why you can't fall asleep. Learn which TCM patterns are linked to trouble falling asleep and what may help.",
     ogDesc: "Can't fall asleep even when you're exhausted? Your body type may hold the answer.",
     h1: { en: "Why Can't I Fall Asleep? The Nighttime Tug-of-War", "zh-TW": "", ja: "" },
@@ -123,7 +123,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-keep-gaining-weight": {
     slug: "why-do-i-keep-gaining-weight",
     title: { en: "Why Do I Keep Gaining Weight?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Keep Gaining Weight? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Keep Gaining Weight? When Diet Alone Doesn't Explain It | EastType",
     metaDesc: "Gaining weight despite eating the same? Your Eastern body type may explain it. Learn which TCM patterns are linked to weight gain and what may help your metabolism.",
     ogDesc: "Eating the same but the scale keeps climbing? Your body type may explain why.",
     h1: { en: "Why Do I Keep Gaining Weight? The Soggy Metabolism", "zh-TW": "", ja: "" },
@@ -135,7 +135,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-are-my-moods-all-over-the-place": {
     slug: "why-are-my-moods-all-over-the-place",
     title: { en: "Why Are My Moods All Over the Place?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Are My Moods All Over the Place? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Are My Moods All Over the Place? The Emotional Rollercoaster No One Signed Up For | EastType",
     metaDesc: "Mood swings that come out of nowhere? Your Eastern body type may explain unpredictable emotions. Learn which TCM patterns are linked to emotional instability.",
     ogDesc: "Fine one minute, furious or tearful the next? Your body type may be behind it.",
     h1: { en: "Why Are My Moods All Over the Place? The Internal Pressure Cooker", "zh-TW": "", ja: "" },
@@ -147,7 +147,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-get-sick-so-often": {
     slug: "why-do-i-get-sick-so-often",
     title: { en: "Why Do I Get Sick So Often?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Get Sick So Often? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Get Sick So Often? When Your Immune Wall Has Gaps | EastType",
     metaDesc: "Always catching every cold going around? Your Eastern body type may explain low immunity. Learn which TCM patterns are linked to frequent illness.",
     ogDesc: "Every cold, every flu season? Your body type may explain it.",
     h1: { en: "Why Do I Get Sick So Often? The Body That Forgot Its Shield", "zh-TW": "", ja: "" },
@@ -159,7 +159,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-my-hands-and-feet-go-numb": {
     slug: "why-do-my-hands-and-feet-go-numb",
     title: { en: "Why Do My Hands and Feet Go Numb?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do My Hands and Feet Go Numb? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do My Hands and Feet Go Numb? The Circulation Question | EastType",
     metaDesc: "Numb or tingling hands and feet? Your Eastern body type may explain poor circulation. Learn which TCM patterns are linked to numbness.",
     ogDesc: "Tingling, numbness, pins and needles? Your body type may explain it.",
     h1: { en: "Why Do My Hands and Feet Go Numb? When Your Extremities Check Out", "zh-TW": "", ja: "" },
@@ -171,7 +171,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-skin-so-dry": {
     slug: "why-is-my-skin-so-dry",
     title: { en: "Why Is My Skin So Dry?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Skin So Dry? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Skin So Dry? When Moisture Won't Stay Where It Should | EastType",
     metaDesc: "Dry skin that no moisturizer fixes? Your Eastern body type may explain it. Learn which TCM patterns are linked to chronic dryness.",
     ogDesc: "Lotion every day and still dry? Your body type may explain it.",
     h1: { en: "Why Is My Skin So Dry? The Moisture That Disappeared", "zh-TW": "", ja: "" },
@@ -183,7 +183,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-crave-sweets": {
     slug: "why-do-i-crave-sweets",
     title: { en: "Why Do I Crave Sweets?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Crave Sweets? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Crave Sweets? What Your Cravings May Be Telling You | EastType",
     metaDesc: "Can't stop craving sugar? Your Eastern body type may explain sweet cravings. Learn which TCM patterns are linked to sugar addiction.",
     ogDesc: "Always reaching for something sweet? Your body type may explain why.",
     h1: { en: "Why Do I Crave Sweets? The Sweet Tooth That Runs Deeper Than Willpower", "zh-TW": "", ja: "" },
@@ -195,7 +195,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-overthink-everything": {
     slug: "why-do-i-overthink-everything",
     title: { en: "Why Do I Overthink Everything?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Overthink Everything? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Overthink Everything? The Mind That Won't Put the Pen Down | EastType",
     metaDesc: "Can't stop replaying conversations in your head? Your Eastern body type may explain overthinking. Learn which TCM patterns are linked to racing thoughts.",
     ogDesc: "Stuck in a mental loop you can't escape? Your body type may explain it.",
     h1: { en: "Why Do I Overthink Everything? The Mind That Won't Put the Pen Down", "zh-TW": "", ja: "" },
@@ -207,7 +207,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-unmotivated": {
     slug: "why-am-i-always-unmotivated",
     title: { en: "Why Am I Always Unmotivated?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Unmotivated? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Unmotivated? When Willpower Isn't the Problem | EastType",
     metaDesc: "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which TCM patterns are linked to apathy.",
     ogDesc: "Can't get going no matter what? Your body type may explain why motivation feels out of reach.",
     h1: { en: "Why Am I Always Unmotivated? The Engine That Won't Turn Over", "zh-TW": "", ja: "" },
@@ -219,7 +219,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-keep-breaking-out": {
     slug: "why-do-i-keep-breaking-out",
     title: { en: "Why Do I Keep Breaking Out?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Keep Breaking Out? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Keep Breaking Out? What Your Skin May Be Trying to Tell You | EastType",
     metaDesc: "Persistent acne that won't respond to skincare? Your Eastern body type may explain recurring breakouts. Learn which TCM patterns are linked to skin issues.",
     ogDesc: "Tried every skincare product and still breaking out? Your body type may hold the answer.",
     h1: { en: "Why Do I Keep Breaking Out? The Skin That's Telling a Deeper Story", "zh-TW": "", ja: "" },
@@ -231,7 +231,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-hair-falling-out": {
     slug: "why-is-my-hair-falling-out",
     title: { en: "Why Is My Hair Falling Out?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Hair Falling Out? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Hair Falling Out? What Your Scalp May Be Signaling | EastType",
     metaDesc: "More hair in the brush than on your head? Your Eastern body type may explain hair thinning. Learn which TCM patterns are linked to hair loss.",
     ogDesc: "Watching your hair thin and don't know why? Your body type may explain it.",
     h1: { en: "Why Is My Hair Falling Out? The Roots That Lost Their Grip", "zh-TW": "", ja: "" },
@@ -243,7 +243,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-so-irritable": {
     slug: "why-am-i-so-irritable",
     title: { en: "Why Am I So Irritable?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I So Irritable? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I So Irritable? The Short Fuse That Keeps Getting Shorter | EastType",
     metaDesc: "Snapping at people for no reason? Your Eastern body type may explain chronic irritability. Learn which TCM patterns are linked to a short fuse.",
     ogDesc: "Everything getting on your nerves? Your body type may explain why your patience is always running thin.",
     h1: { en: "Why Am I So Irritable? The Short Fuse That Keeps Getting Shorter", "zh-TW": "", ja: "" },
@@ -255,7 +255,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-cant-i-lose-weight": {
     slug: "why-cant-i-lose-weight",
     title: { en: "Why Can't I Lose Weight?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Can't I Lose Weight? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Can't I Lose Weight? When Calorie Math Doesn't Add Up | EastType",
     metaDesc: "Trying to lose weight but nothing works? Your Eastern body type may explain a sluggish metabolism. Learn which TCM patterns are linked to stubborn weight.",
     ogDesc: "Dieting but the scale won't move? Your body type may explain why your metabolism is stuck.",
     h1: { en: "Why Can't I Lose Weight? The Metabolism That Refuses to Budge", "zh-TW": "", ja: "" },
@@ -267,7 +267,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-acid-reflux": {
     slug: "why-do-i-have-acid-reflux",
     title: { en: "Why Do I Have Acid Reflux?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Acid Reflux? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Acid Reflux? The Fire That Keeps Rising | EastType",
     metaDesc: "Burning in your chest after meals? Your Eastern body type may explain chronic acid reflux. Learn which TCM patterns are linked to heartburn.",
     ogDesc: "That burning feeling keeps coming back? Your body type may explain why reflux won't go away.",
     h1: { en: "Why Do I Have Acid Reflux? The Fire That Rises When It Shouldn't", "zh-TW": "", ja: "" },
@@ -279,7 +279,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-headaches": {
     slug: "why-do-i-have-headaches",
     title: { en: "Why Do I Have Headaches?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Headaches? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Headaches? The Pressure That Won't Lift | EastType",
     metaDesc: "Frequent headaches with no clear cause? Your Eastern body type may explain recurring head pain. Learn which TCM patterns are linked to headaches.",
     ogDesc: "Headaches keep coming back and nothing fixes them? Your body type may hold the answer.",
     h1: { en: "Why Do I Have Headaches? The Pressure That Has Nowhere to Go", "zh-TW": "", ja: "" },
@@ -291,7 +291,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-feel-dizzy": {
     slug: "why-do-i-feel-dizzy",
     title: { en: "Why Do I Feel Dizzy?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Feel Dizzy? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Feel Dizzy? When the Room Spins Without Warning | EastType",
     metaDesc: "Dizzy spells that come and go without warning? Your Eastern body type may explain dizziness. Learn which TCM patterns are linked to feeling lightheaded.",
     ogDesc: "World spinning for no reason? Your body type may explain why your head feels unsteady.",
     h1: { en: "Why Do I Feel Dizzy? The Ground That Shifts Under Your Feet", "zh-TW": "", ja: "" },
@@ -303,7 +303,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-thirsty": {
     slug: "why-am-i-always-thirsty",
     title: { en: "Why Am I Always Thirsty?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Thirsty? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Thirsty? The Dryness That Water Can't Fix | EastType",
     metaDesc: "Can't quench your thirst no matter how much you drink? Your Eastern body type may explain constant thirst. Learn which TCM patterns are linked to dry mouth.",
     ogDesc: "Always reaching for water but never satisfied? Your body type may explain why.",
     h1: { en: "Why Am I Always Thirsty? The Well That Never Fills", "zh-TW": "", ja: "" },
@@ -315,7 +315,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-lower-back-pain": {
     slug: "why-do-i-have-lower-back-pain",
     title: { en: "Why Do I Have Lower Back Pain?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Lower Back Pain? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Lower Back Pain? The Foundation That's Cracking | EastType",
     metaDesc: "Chronic lower back pain with no clear injury? Your Eastern body type may explain it. Learn which TCM patterns are linked to persistent lower back ache.",
     ogDesc: "Back hurts but nothing showed up on the scan? Your body type may explain why your lower back keeps aching.",
     h1: { en: "Why Do I Have Lower Back Pain? The Foundation That Lost Its Support", "zh-TW": "", ja: "" },
@@ -327,7 +327,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-eczema": {
     slug: "why-do-i-have-eczema",
     title: { en: "Why Do I Have Eczema?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Eczema? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Eczema? The Itch That Comes From Within | EastType",
     metaDesc: "Eczema that keeps coming back no matter what you apply? Your Eastern body type may explain recurring eczema. Learn which TCM patterns are linked to skin flare-ups.",
     ogDesc: "Cream after cream but the eczema keeps returning? Your body type may explain what your skin is trying to tell you.",
     h1: { en: "Why Do I Have Eczema? The Skin That Speaks in Flare-Ups", "zh-TW": "", ja: "" },
@@ -339,7 +339,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-sweat-so-much": {
     slug: "why-do-i-sweat-so-much",
     title: { en: "Why Do I Sweat So Much?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Sweat So Much? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Sweat So Much? When Your Internal Thermostat Is Stuck High | EastType",
     metaDesc: "Sweating excessively even when it's not hot? Your Eastern body type may explain heavy sweating. Learn which TCM patterns are linked to excessive perspiration.",
     ogDesc: "Sweating through your shirt when everyone else is fine? Your body type may explain why your internal thermostat is stuck on high.",
     h1: { en: "Why Do I Sweat So Much? The Thermostat That Won't Turn Down", "zh-TW": "", ja: "" },
@@ -351,7 +351,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-joint-pain": {
     slug: "why-do-i-have-joint-pain",
     title: { en: "Why Do I Have Joint Pain?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Joint Pain? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Joint Pain? The Stiffness That Set In and Stayed | EastType",
     metaDesc: "Aching joints with no injury or arthritis diagnosis? Your Eastern body type may explain joint pain. Learn which TCM patterns are linked to stiff, achy joints.",
     ogDesc: "Joints ache but the doctor says nothing is wrong? Your body type may explain why your joints feel stiff and sore.",
     h1: { en: "Why Do I Have Joint Pain? The Hinges That Lost Their Oil", "zh-TW": "", ja: "" },
@@ -363,7 +363,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-thirsty-at-night": {
     slug: "why-am-i-always-thirsty-at-night",
     title: { en: "Why Am I Always Thirsty at Night?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Thirsty at Night? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Thirsty at Night? The Dryness That Wakes You | EastType",
     metaDesc: "Waking up thirsty every night? Your Eastern body type may explain nighttime thirst. Learn which TCM patterns are linked to dry mouth that disrupts sleep.",
     ogDesc: "Can't sleep because you're always reaching for water? Your body type may explain why nighttime thirst won't quit.",
     h1: { en: "Why Am I Always Thirsty at Night? The Midnight Dry Spell", "zh-TW": "", ja: "" },
@@ -375,7 +375,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-hot-flashes": {
     slug: "why-do-i-have-hot-flashes",
     title: { en: "Why Do I Have Hot Flashes?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Hot Flashes? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Hot Flashes? The Surges That Come Without Warning | EastType",
     metaDesc: "Sudden waves of heat rushing through your body? Your Eastern body type may explain hot flashes. Learn which TCM patterns are linked to heat surges.",
     ogDesc: "Heat rising from nowhere and flushing your face? Your body type may explain why your internal thermostat keeps spiking.",
     h1: { en: "Why Do I Have Hot Flashes? The Heat That Rises Without Warning", "zh-TW": "", ja: "" },
@@ -387,7 +387,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-water-retention": {
     slug: "why-do-i-have-water-retention",
     title: { en: "Why Do I Have Water Retention?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Water Retention? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Water Retention? The Puffiness That Isn't Just Salt | EastType",
     metaDesc: "Puffy, swollen, or heavy from fluid buildup? Your Eastern body type may explain water retention. Learn which TCM patterns are linked to holding onto moisture.",
     ogDesc: "Rings tight, face puffy, legs heavy? Your body type may explain why your body holds onto water it should be releasing.",
     h1: { en: "Why Do I Have Water Retention? The Sponge That Won't Wring Out", "zh-TW": "", ja: "" },
@@ -399,7 +399,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-constipated": {
     slug: "why-am-i-always-constipated",
     title: { en: "Why Am I Always Constipated?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Constipated? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Constipated? The Pipe That Stopped Flowing | EastType",
     metaDesc: "Chronic constipation that fiber doesn't fix? Your Eastern body type may explain it. Learn which TCM patterns are linked to sluggish bowel movements.",
     ogDesc: "Eating fiber and drinking water but still blocked? Your body type may explain why your digestion can't get things moving.",
     h1: { en: "Why Am I Always Constipated? The Pipe That Forgot How to Flow", "zh-TW": "", ja: "" },
@@ -411,7 +411,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-libido-low": {
     slug: "why-is-my-libido-low",
     title: { en: "Why Is My Libido Low?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Libido Low? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Libido Low? The Flame That Quietly Went Out | EastType",
     metaDesc: "Lost interest in intimacy and don't know why? Your Eastern body type may explain low libido. Learn which TCM patterns are linked to reduced desire and what may help.",
     ogDesc: "Desire just disappeared one day and never came back? Your body type may explain why your drive went quiet.",
     h1: { en: "Why Is My Libido Low? The Drive That Went on Strike", "zh-TW": "", ja: "" },
@@ -423,7 +423,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-pms": {
     slug: "why-do-i-have-pms",
     title: { en: "Why Do I Have PMS?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have PMS? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have PMS? The Monthly Storm Before the Calm | EastType",
     metaDesc: "Mood swings, bloating, and cramps before every period? Your Eastern body type may explain severe PMS. Learn which TCM patterns are linked to premenstrual symptoms.",
     ogDesc: "Every month your body stages a rebellion before your period? Your body type may explain why PMS hits you so hard.",
     h1: { en: "Why Do I Have PMS? The Monthly Rebellion Your Body Stages", "zh-TW": "", ja: "" },
@@ -435,7 +435,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-metabolism-so-slow": {
     slug: "why-is-my-metabolism-so-slow",
     title: { en: "Why Is My Metabolism So Slow?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Metabolism So Slow? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Metabolism So Slow? The Engine Running on Low | EastType",
     metaDesc: "Eating less but still not losing weight? Your Eastern body type may explain a slow metabolism. Learn which TCM patterns are linked to sluggish metabolic function.",
     ogDesc: "Hardly eating and still gaining weight? Your body type may explain why your metabolism is stuck in first gear.",
     h1: { en: "Why Is My Metabolism So Slow? The Engine Running in First Gear", "zh-TW": "", ja: "" },
@@ -447,7 +447,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-poor-circulation": {
     slug: "why-do-i-have-poor-circulation",
     title: { en: "Why Do I Have Poor Circulation?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Poor Circulation? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Poor Circulation? When Blood Can't Reach Where It Needs To | EastType",
     metaDesc: "Cold extremities, tingling, or discoloration? Your Eastern body type may explain poor circulation. Learn which TCM patterns are linked to sluggish blood flow.",
     ogDesc: "Hands blue, feet numb, always freezing? Your body type may explain why your circulation is running on low.",
     h1: { en: "Why Do I Have Poor Circulation? The River That Slowed to a Trickle", "zh-TW": "", ja: "" },
@@ -459,7 +459,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-seasonal-allergies": {
     slug: "why-do-i-have-seasonal-allergies",
     title: { en: "Why Do I Have Seasonal Allergies?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Seasonal Allergies? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Seasonal Allergies? The Defense System That Overreacts | EastType",
     metaDesc: "Sneezing and congestion every spring or fall? Your Eastern body type may explain seasonal allergies. Learn which TCM patterns are linked to recurring allergy symptoms.",
     ogDesc: "Every spring your body declares war on pollen? Your body type may explain why your immune system overreacts.",
     h1: { en: "Why Do I Have Seasonal Allergies? The Body That Overreacts to Every Season", "zh-TW": "", ja: "" },
@@ -471,7 +471,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-dark-circles": {
     slug: "why-do-i-have-dark-circles",
     title: { en: "Why Do I Have Dark Circles?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Dark Circles? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Dark Circles? The Shadows Sleep Won't Erase | EastType",
     metaDesc: "Dark circles that sleep doesn't fix? Your Eastern body type may explain them. Learn which TCM patterns are linked to under-eye darkness and what may help.",
     ogDesc: "Sleeping fine but still look exhausted? Your body type may explain why those dark circles won't go away.",
     h1: { en: "Why Do I Have Dark Circles? The Shadows Sleep Can't Erase", "zh-TW": "", ja: "" },
@@ -483,7 +483,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-hungry": {
     slug: "why-am-i-always-hungry",
     title: { en: "Why Am I Always Hungry?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Hungry? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Hungry? The Stomach That Never Feels Full | EastType",
     metaDesc: "Never feel full no matter how much you eat? Your Eastern body type may explain constant hunger. Learn which TCM patterns are linked to an unsatisfiable appetite.",
     ogDesc: "Just ate but already thinking about the next meal? Your body type may explain why your hunger never shuts off.",
     h1: { en: "Why Am I Always Hungry? The Stomach That Never Sends the 'Full' Signal", "zh-TW": "", ja: "" },
@@ -495,7 +495,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-period-cramps": {
     slug: "why-do-i-have-period-cramps",
     title: { en: "Why Do I Have Period Cramps?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Period Cramps? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Period Cramps? The Monthly Siege No One Talks About | EastType",
     metaDesc: "Painful period cramps every month? Your Eastern body type may explain dysmenorrhea. Learn which TCM patterns are linked to menstrual pain and what may help.",
     ogDesc: "Curled up in bed every month? Your body type may explain why your cramps feel like a small war.",
     h1: { en: "Why Do I Have Period Cramps? The Monthly Siege on Your Lower Belly", "zh-TW": "", ja: "" },
@@ -507,7 +507,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-period-irregular": {
     slug: "why-is-my-period-irregular",
     title: { en: "Why Is My Period Irregular?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Period Irregular? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Period Irregular? The Clock That Lost Its Rhythm | EastType",
     metaDesc: "Skipping periods or unpredictable cycle length? Your Eastern body type may explain irregular menstruation. Learn which TCM patterns are linked to cycle disruption.",
     ogDesc: "Never know when your period will show up? Your body type may explain why your cycle has a mind of its own.",
     h1: { en: "Why Is My Period Irregular? The Clock That Won't Keep Time", "zh-TW": "", ja: "" },
@@ -519,7 +519,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-period-so-heavy": {
     slug: "why-is-my-period-so-heavy",
     title: { en: "Why Is My Period So Heavy?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Period So Heavy? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Period So Heavy? The Flow That Won't Slow Down | EastType",
     metaDesc: "Soaking through pads or passing clots? Your Eastern body type may explain heavy menstrual bleeding. Learn which TCM patterns are linked to menorrhagia.",
     ogDesc: "Your period feels like a flood every month? Your body type may explain why the flow never lets up.",
     h1: { en: "Why Is My Period So Heavy? The Flood That Won't Stop", "zh-TW": "", ja: "" },
@@ -531,7 +531,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-breast-tenderness": {
     slug: "why-do-i-have-breast-tenderness",
     title: { en: "Why Do I Have Breast Tenderness?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Breast Tenderness? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Breast Tenderness? The Swelling Before the Storm | EastType",
     metaDesc: "Sore and swollen breasts before your period? Your Eastern body type may explain breast tenderness. Learn which TCM patterns are linked to cyclic breast pain.",
     ogDesc: "Can't stand your bra the week before your period? Your body type may explain why your breasts feel like bruised fruit.",
     h1: { en: "Why Do I Have Breast Tenderness? The Bruises That Arrive on Schedule", "zh-TW": "", ja: "" },
@@ -543,7 +543,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-menopause-symptoms": {
     slug: "why-do-i-have-menopause-symptoms",
     title: { en: "Why Do I Have Menopause Symptoms?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Menopause Symptoms? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Menopause Symptoms? The Transition That Changes Everything | EastType",
     metaDesc: "Hot flashes, night sweats, and mood changes during menopause? Your Eastern body type may explain why. Learn which TCM patterns are linked to menopausal transition.",
     ogDesc: "Hot one minute, freezing the next? Your body type may explain why menopause feels like a rollercoaster.",
     h1: { en: "Why Do I Have Menopause Symptoms? The Thermostat That Lost Its Manual", "zh-TW": "", ja: "" },
@@ -555,7 +555,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-nausea": {
     slug: "why-do-i-have-nausea",
     title: { en: "Why Do I Have Nausea?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Nausea? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Nausea? The Stomach That Keeps Threatening to Strike | EastType",
     metaDesc: "Feeling queasy for no clear reason? Your Eastern body type may explain chronic nausea. Learn which TCM patterns are linked to recurring nausea and what may help.",
     ogDesc: "Stomach turning for no obvious reason? Your body type may explain why nausea keeps coming back.",
     h1: { en: "Why Do I Have Nausea? The Stomach That Keeps Threatening to Strike", "zh-TW": "", ja: "" },
@@ -567,7 +567,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-diarrhea": {
     slug: "why-do-i-have-diarrhea",
     title: { en: "Why Do I Have Diarrhea?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Diarrhea? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Diarrhea? The Pipe That Flushes Too Fast | EastType",
     metaDesc: "Frequent loose stools or urgent bowel movements? Your Eastern body type may explain chronic diarrhea. Learn which TCM patterns are linked to loose stools.",
     ogDesc: "Always rushing to the bathroom? Your body type may explain why your digestion runs too fast.",
     h1: { en: "Why Do I Have Diarrhea? The Pipe That Flushes Too Fast", "zh-TW": "", ja: "" },
@@ -579,7 +579,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-feel-sick-after-eating": {
     slug: "why-do-i-feel-sick-after-eating",
     title: { en: "Why Do I Feel Sick After Eating?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Feel Sick After Eating? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Feel Sick After Eating? The Welcome Mat Your Stomach Pulled In | EastType",
     metaDesc: "Feeling unwell after every meal? Your Eastern body type may explain post-meal sickness. Learn which TCM patterns are linked to feeling sick after eating.",
     ogDesc: "Eating used to feel good. Now it feels like a chore? Your body type may explain why meals don't sit right anymore.",
     h1: { en: "Why Do I Feel Sick After Eating? The Welcome Mat Your Stomach Pulled In", "zh-TW": "", ja: "" },
@@ -591,7 +591,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-bad-breath": {
     slug: "why-do-i-have-bad-breath",
     title: { en: "Why Do I Have Bad Breath?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Bad Breath? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Bad Breath? The Fire Down Below That Rises to the Top | EastType",
     metaDesc: "Persistent bad breath that brushing doesn't fix? Your Eastern body type may explain halitosis. Learn which TCM patterns are linked to chronic bad breath.",
     ogDesc: "Brushing and mouthwash but still can't shake the smell? Your body type may explain what's really going on.",
     h1: { en: "Why Do I Have Bad Breath? The Fire Down Below That Rises to the Top", "zh-TW": "", ja: "" },
@@ -603,7 +603,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-face-so-oily": {
     slug: "why-is-my-face-so-oily",
     title: { en: "Why Is My Face So Oily?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Face So Oily? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Face So Oily? The Faucet That Won't Stop Dripping | EastType",
     metaDesc: "Shiny forehead by noon and blotting sheets don't help? Your Eastern body type may explain oily skin. Learn which TCM patterns are linked to excess facial oil.",
     ogDesc: "Wash your face and it's oily again an hour later? Your body type may explain why your skin produces too much oil.",
     h1: { en: "Why Is My Face So Oily? The Faucet That Won't Stop Dripping", "zh-TW": "", ja: "" },
@@ -615,7 +615,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-rosacea": {
     slug: "why-do-i-have-rosacea",
     title: { en: "Why Do I Have Rosacea?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Rosacea? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Rosacea? The Blush That Never Fades | EastType",
     metaDesc: "Redness and flushing that won't go away? Your Eastern body type may explain rosacea. Learn which TCM patterns are linked to facial redness and what may help.",
     ogDesc: "Your cheeks flush red and nothing calms them down? Your body type may explain why rosacea keeps flaring up.",
     h1: { en: "Why Do I Have Rosacea? The Blush That Never Fades", "zh-TW": "", ja: "" },
@@ -627,7 +627,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-brittle-nails": {
     slug: "why-do-i-have-brittle-nails",
     title: { en: "Why Do I Have Brittle Nails?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Brittle Nails? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Brittle Nails? The Twigs at Your Fingertips | EastType",
     metaDesc: "Nails that split, peel, or break easily? Your Eastern body type may explain brittle nails. Learn which TCM patterns are linked to nail weakness.",
     ogDesc: "Your nails snap like dry twigs no matter how much lotion you use? Your body type may explain why.",
     h1: { en: "Why Do I Have Brittle Nails? The Twigs at Your Fingertips", "zh-TW": "", ja: "" },
@@ -639,7 +639,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-is-my-complexion-dull": {
     slug: "why-is-my-complexion-dull",
     title: { en: "Why Is My Complexion Dull?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Is My Complexion Dull? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Is My Complexion Dull? The Light Behind the Glass That Dimmed | EastType",
     metaDesc: "Skin that looks gray, tired, or lifeless no matter what you apply? Your Eastern body type may explain a dull complexion. Learn which TCM patterns are involved.",
     ogDesc: "Your face looks tired even when you're not? Your body type may explain why your complexion lost its glow.",
     h1: { en: "Why Is My Complexion Dull? The Light Behind the Glass That Dimmed", "zh-TW": "", ja: "" },
@@ -651,7 +651,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-cellulite": {
     slug: "why-do-i-have-cellulite",
     title: { en: "Why Do I Have Cellulite?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Cellulite? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Cellulite? The Dimples That Moved In and Stayed | EastType",
     metaDesc: "Stubborn cellulite that creams and exercise don't fix? Your Eastern body type may explain it. Learn which TCM patterns are linked to cellulite from an Eastern perspective.",
     ogDesc: "Cellulite that won't budge no matter what you try? Your body type may explain why those dimples settled in.",
     h1: { en: "Why Do I Have Cellulite? The Dimples That Moved In and Stayed", "zh-TW": "", ja: "" },
@@ -663,7 +663,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-neck-pain": {
     slug: "why-do-i-have-neck-pain",
     title: { en: "Why Do I Have Neck Pain?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Neck Pain? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Neck Pain? The Pillar That Carries Too Much | EastType",
     metaDesc: "Stiff, aching neck with no injury? Your Eastern body type may explain chronic neck pain. Learn which TCM patterns are linked to neck tension and stiffness.",
     ogDesc: "Your neck feels like it's carrying the weight of the world? Your body type may explain why the tension lives there.",
     h1: { en: "Why Do I Have Neck Pain? The Pillar That Carries Too Much", "zh-TW": "", ja: "" },
@@ -675,7 +675,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-are-my-shoulders-always-tense": {
     slug: "why-are-my-shoulders-always-tense",
     title: { en: "Why Are My Shoulders Always Tense?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Are My Shoulders Always Tense? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Are My Shoulders Always Tense? The Earrings You Never Asked For | EastType",
     metaDesc: "Shoulders constantly knotted and tight? Your Eastern body type may explain chronic shoulder tension. Learn which TCM patterns are linked to upper body tightness.",
     ogDesc: "Your shoulders live somewhere near your ears? Your body type may explain why they never relax.",
     h1: { en: "Why Are My Shoulders Always Tense? The Earrings You Never Asked For", "zh-TW": "", ja: "" },
@@ -687,7 +687,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-stomach-pain": {
     slug: "why-do-i-have-stomach-pain",
     title: { en: "Why Do I Have Stomach Pain?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Stomach Pain? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Stomach Pain? The Alarm Bell Nobody Can Find | EastType",
     metaDesc: "Recurring stomach pain with no clear diagnosis? Your Eastern body type may explain it. Learn which TCM patterns are linked to chronic stomach ache.",
     ogDesc: "Your stomach hurts but the doctor says everything looks fine? Your body type may explain the pain.",
     h1: { en: "Why Do I Have Stomach Pain? The Alarm Bell Nobody Can Find", "zh-TW": "", ja: "" },
@@ -699,7 +699,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-always-stiff": {
     slug: "why-am-i-always-stiff",
     title: { en: "Why Am I Always Stiff?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I Always Stiff? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I Always Stiff? The Body That Forgot How to Bend | EastType",
     metaDesc: "Waking up stiff and barely able to move? Your Eastern body type may explain chronic stiffness. Learn which TCM patterns are linked to rigid muscles and joints.",
     ogDesc: "Your body feels like it was poured from concrete overnight? Your body type may explain the stiffness.",
     h1: { en: "Why Am I Always Stiff? The Body That Forgot How to Bend", "zh-TW": "", ja: "" },
@@ -711,7 +711,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-keep-forgetting-things": {
     slug: "why-do-i-keep-forgetting-things",
     title: { en: "Why Do I Keep Forgetting Things?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Keep Forgetting Things? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Keep Forgetting Things? The Sieve Between Your Ears | EastType",
     metaDesc: "Walking into rooms and forgetting why? Your Eastern body type may explain memory issues. Learn which TCM patterns are linked to forgetfulness.",
     ogDesc: "Your brain feels like a sieve lately? Your body type may explain why nothing sticks.",
     h1: { en: "Why Do I Keep Forgetting Things? The Sieve Between Your Ears", "zh-TW": "", ja: "" },
@@ -723,7 +723,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-cant-i-focus": {
     slug: "why-cant-i-focus",
     title: { en: "Why Can't I Focus?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Can't I Focus? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Can't I Focus? The Attention That Keeps Changing Channels | EastType",
     metaDesc: "Can't concentrate on anything for more than five minutes? Your Eastern body type may explain poor focus. Learn which TCM patterns are linked to concentration problems.",
     ogDesc: "Reading the same paragraph three times? Your body type may explain why your attention keeps slipping.",
     h1: { en: "Why Can't I Focus? The Attention That Keeps Changing Channels", "zh-TW": "", ja: "" },
@@ -735,7 +735,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-cry-so-easily": {
     slug: "why-do-i-cry-so-easily",
     title: { en: "Why Do I Cry So Easily?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Cry So Easily? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Cry So Easily? The Faucet With No Off Switch | EastType",
     metaDesc: "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which TCM patterns are linked to emotional sensitivity.",
     ogDesc: "A sad commercial and you're reaching for tissues? Your body type may explain why your tear ducts are always on standby.",
     h1: { en: "Why Do I Cry So Easily? The Faucet With No Off Switch", "zh-TW": "", ja: "" },
@@ -747,7 +747,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-no-patience": {
     slug: "why-do-i-have-no-patience",
     title: { en: "Why Do I Have No Patience?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have No Patience? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have No Patience? The Fuse That's Always Short | EastType",
     metaDesc: "Everything and everyone getting on your nerves? Your Eastern body type may explain chronic impatience. Learn which TCM patterns are linked to a short fuse.",
     ogDesc: "One more slow walker and you're going to lose it? Your body type may explain why your patience tank is always empty.",
     h1: { en: "Why Do I Have No Patience? The Fuse That's Always Short", "zh-TW": "", ja: "" },
@@ -759,7 +759,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-a-chronic-cough": {
     slug: "why-do-i-have-a-chronic-cough",
     title: { en: "Why Do I Have a Chronic Cough?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have a Chronic Cough? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have a Chronic Cough? The Tickles That Set Up Residence | EastType",
     metaDesc: "A cough that lingers for weeks or months? Your Eastern body type may explain it. Learn which TCM patterns are linked to persistent coughing.",
     ogDesc: "That cough just won't go away no matter what you try? Your body type may explain why it keeps coming back.",
     h1: { en: "Why Do I Have a Chronic Cough? The Tickles That Set Up Residence", "zh-TW": "", ja: "" },
@@ -771,7 +771,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-always-have-a-sore-throat": {
     slug: "why-do-i-always-have-a-sore-throat",
     title: { en: "Why Do I Always Have a Sore Throat?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Always Have a Sore Throat? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Always Have a Sore Throat? The Fire in the Chimney | EastType",
     metaDesc: "Throat pain that keeps coming back? Your Eastern body type may explain recurring sore throats. Learn which TCM patterns are linked to chronic throat discomfort.",
     ogDesc: "Your throat always feels scratchy or raw? Your body type may explain why it never fully heals.",
     h1: { en: "Why Do I Always Have a Sore Throat? The Fire in the Chimney", "zh-TW": "", ja: "" },
@@ -783,7 +783,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-post-nasal-drip": {
     slug: "why-do-i-have-post-nasal-drip",
     title: { en: "Why Do I Have Post-Nasal Drip?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Post-Nasal Drip? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Post-Nasal Drip? The Drip That Never Stops | EastType",
     metaDesc: "Constant need to clear your throat or feeling of mucus in the back of your throat? Your Eastern body type may explain post-nasal drip from a TCM perspective.",
     ogDesc: "Always clearing your throat or feeling something drip down the back? Your body type may explain why the drainage never stops.",
     h1: { en: "Why Do I Have Post-Nasal Drip? The Drip That Never Stops", "zh-TW": "", ja: "" },
@@ -795,7 +795,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-wake-up-to-pee": {
     slug: "why-do-i-wake-up-to-pee",
     title: { en: "Why Do I Wake Up to Pee?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Wake Up to Pee? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Wake Up to Pee? The Bladder's Night Shift | EastType",
     metaDesc: "Getting up multiple times every night to urinate? Your Eastern body type may explain nocturia. Learn which TCM patterns are linked to frequent nighttime urination.",
     ogDesc: "Two, three, four times a night? Your body type may explain why your bladder has a graveyard shift.",
     h1: { en: "Why Do I Wake Up to Pee? The Bladder's Night Shift", "zh-TW": "", ja: "" },
@@ -807,7 +807,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-tinnitus": {
     slug: "why-do-i-have-tinnitus",
     title: { en: "Why Do I Have Tinnitus?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Tinnitus? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Tinnitus? The Bell Nobody Else Can Hear | EastType",
     metaDesc: "Ringing or buzzing in your ears that won't stop? Your Eastern body type may explain tinnitus. Learn which TCM patterns are linked to ear ringing.",
     ogDesc: "That high-pitched ringing that nobody else can hear? Your body type may explain why your ears won't go quiet.",
     h1: { en: "Why Do I Have Tinnitus? The Bell Nobody Else Can Hear", "zh-TW": "", ja: "" },
@@ -819,7 +819,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-am-i-so-sensitive-to-heat": {
     slug: "why-am-i-so-sensitive-to-heat",
     title: { en: "Why Am I So Sensitive to Heat?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Am I So Sensitive to Heat? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Am I So Sensitive to Heat? The AC That Broke Down | EastType",
     metaDesc: "Can't tolerate warm weather or heated rooms? Your Eastern body type may explain heat sensitivity. Learn which TCM patterns are linked to heat intolerance.",
     ogDesc: "Everyone else is fine but you're melting? Your body type may explain why your internal AC is broken.",
     h1: { en: "Why Am I So Sensitive to Heat? The AC That Broke Down", "zh-TW": "", ja: "" },
@@ -831,7 +831,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-wake-up-tired": {
     slug: "why-do-i-wake-up-tired",
     title: { en: "Why Do I Wake Up Tired?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Wake Up Tired? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Wake Up Tired? The Rest That Doesn't Restore | EastType",
     metaDesc: "Waking up exhausted despite sleeping enough hours? Your Eastern body type may explain morning fatigue. Learn which TCM patterns are linked to unrefreshing sleep.",
     ogDesc: "You slept 8 hours and still feel like you didn't sleep at all? Your body type may explain why rest doesn't equal recovery.",
     h1: { en: "Why Do I Wake Up Tired? The Rest That Doesn't Restore", "zh-TW": "", ja: "" },
@@ -843,7 +843,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-cold-sweats": {
     slug: "why-do-i-have-cold-sweats",
     title: { en: "Why Do I Have Cold Sweats?", "zh-TW": "", ja: "" },
-    metaTitle: "Why Do I Have Cold Sweats? Eastern Body Type Insights | EastType",
+    metaTitle: "Why Do I Have Cold Sweats? The Chill That Comes With the Drip | EastType",
     metaDesc: "Breaking into cold sweats for no obvious reason? Your Eastern body type may explain it. Learn which TCM patterns are linked to cold perspiration.",
     ogDesc: "Sweating but feeling cold at the same time? Your body type may explain why your sweat has a chill to it.",
     h1: { en: "Why Do I Have Cold Sweats? The Chill That Comes With the Drip", "zh-TW": "", ja: "" },

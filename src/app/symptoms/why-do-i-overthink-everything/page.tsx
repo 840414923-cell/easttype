@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-overthink-everything"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Overthink Everything? Eastern Body Type Insights"
+const TITLE = "Why Do I Overthink Everything? The Mind That Won't Put the Pen Down"
 const DESC = "Can't stop replaying conversations in your head? Your Eastern body type may explain overthinking. Learn which TCM patterns are linked to racing thoughts and what may help quiet your mind."
 
 export const metadata: Metadata = {

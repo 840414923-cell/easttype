@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-poor-circulation"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Poor Circulation? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Poor Circulation? When Blood Can't Reach Where It Needs To"
 const DESC = "Cold extremities, tingling, or discoloration? Your Eastern body type may explain poor circulation. Learn which TCM patterns are linked to sluggish blood flow."
 
 export const metadata: Metadata = {

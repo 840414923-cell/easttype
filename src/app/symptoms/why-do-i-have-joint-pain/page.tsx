@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-joint-pain"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Joint Pain? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Joint Pain? The Stiffness That Set In and Stayed"
 const DESC = "Aching joints with no injury or arthritis diagnosis? Your Eastern body type may explain joint pain. Learn which TCM patterns are linked to stiff, achy joints."
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-seasonal-allergies"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Seasonal Allergies? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Seasonal Allergies? The Defense System That Overreacts"
 const DESC = "Sneezing and congestion every spring or fall? Your Eastern body type may explain seasonal allergies. Learn which TCM patterns are linked to recurring allergy symptoms."
 
 export const metadata: Metadata = {

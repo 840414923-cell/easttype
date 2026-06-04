@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-night-sweats"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Night Sweats? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Night Sweats? The Heat That Rises While You Sleep"
 const DESC = "Waking up drenched in sweat? Traditional Chinese Medicine connects night sweats to specific body types. Learn what your body may be telling you."
 
 export const metadata: Metadata = {

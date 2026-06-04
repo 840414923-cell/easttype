@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-sleepy"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Sleepy? Eastern Body Type Insights"
+const TITLE = "Why Am I Always Sleepy? When Sleep Never Feels Like Enough"
 const DESC = "Can't stay awake during the day? Your Eastern body type may explain daytime sleepiness. Learn which patterns are connected to low energy."
 
 export const metadata: Metadata = {

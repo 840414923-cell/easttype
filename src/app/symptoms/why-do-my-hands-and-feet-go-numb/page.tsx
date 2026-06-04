@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-my-hands-and-feet-go-numb"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do My Hands and Feet Go Numb? Eastern Body Type Insights"
+const TITLE = "Why Do My Hands and Feet Go Numb? The Circulation Question"
 const DESC = "Numb or tingling hands and feet? Your Eastern body type may explain poor circulation. Learn which TCM patterns are linked to numbness and what may help restore warmth and flow."
 
 export const metadata: Metadata = {

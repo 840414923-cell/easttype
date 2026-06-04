@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-cry-so-easily"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Cry So Easily? Eastern Body Type Insights"
+const TITLE = "Why Do I Cry So Easily? The Faucet With No Off Switch"
 const DESC = "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which TCM patterns are linked to emotional sensitivity."
 
 export const metadata: Metadata = {

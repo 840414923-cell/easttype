@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-metabolism-so-slow"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Metabolism So Slow? Eastern Body Type Insights"
+const TITLE = "Why Is My Metabolism So Slow? The Engine Running on Low"
 const DESC = "Eating less but still not losing weight? Your Eastern body type may explain a slow metabolism. Learn which TCM patterns are linked to sluggish metabolic function."
 
 export const metadata: Metadata = {

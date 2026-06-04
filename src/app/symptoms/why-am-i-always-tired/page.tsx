@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-tired"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Tired? Eastern Body Type Insights"
+const TITLE = "Why Am I Always Tired? What Your Body Type May Reveal"
 const DESC = "Always tired even after sleeping well? Learn why from a Traditional Chinese Medicine perspective — and which body type may be connected to your chronic fatigue."
 
 export const metadata: Metadata = {

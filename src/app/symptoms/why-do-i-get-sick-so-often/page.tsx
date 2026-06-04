@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-get-sick-so-often"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Get Sick So Often? Eastern Body Type Insights"
+const TITLE = "Why Do I Get Sick So Often? When Your Immune Wall Has Gaps"
 const DESC = "Always catching every cold going around? Your Eastern body type may explain low immunity. Learn which TCM patterns are linked to frequent illness and what may help strengthen your defenses."
 
 export const metadata: Metadata = {

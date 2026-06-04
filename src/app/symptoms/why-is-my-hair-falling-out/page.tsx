@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-hair-falling-out"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Hair Falling Out? Eastern Body Type Insights"
+const TITLE = "Why Is My Hair Falling Out? What Your Scalp May Be Signaling"
 const DESC = "More hair in the brush than on your head? Your Eastern body type may explain hair thinning. Learn which TCM patterns are linked to hair loss."
 
 export const metadata: Metadata = {

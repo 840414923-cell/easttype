@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-tired"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Wake Up Tired? Eastern Body Type Insights"
+const TITLE = "Why Do I Wake Up Tired? The Rest That Doesn't Restore"
 const DESC = "Waking up exhausted despite sleeping enough hours? Your Eastern body type may explain morning fatigue. Learn which TCM patterns are linked to unrefreshing sleep."
 
 export const metadata: Metadata = {

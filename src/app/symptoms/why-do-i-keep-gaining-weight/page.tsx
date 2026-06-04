@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-gaining-weight"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Keep Gaining Weight? Eastern Body Type Insights"
+const TITLE = "Why Do I Keep Gaining Weight? When Diet Alone Doesn't Explain It"
 const DESC = "Gaining weight despite eating the same? Your Eastern body type may explain it. Learn which TCM patterns are linked to weight gain and what may help your metabolism."
 
 export const metadata: Metadata = {

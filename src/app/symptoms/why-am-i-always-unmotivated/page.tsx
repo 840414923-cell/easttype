@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-unmotivated"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Unmotivated? Eastern Body Type Insights"
+const TITLE = "Why Am I Always Unmotivated? When Willpower Isn't the Problem"
 const DESC = "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which TCM patterns are linked to apathy."
 
 export const metadata: Metadata = {

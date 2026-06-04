@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-lower-back-pain"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Lower Back Pain? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Lower Back Pain? The Foundation That's Cracking"
 const DESC = "Chronic lower back pain with no clear injury? Your Eastern body type may explain it. Learn which TCM patterns are linked to persistent lower back ache."
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,

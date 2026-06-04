@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-at-3am"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Wake Up at 3AM? Eastern Body Type Insights"
+const TITLE = "Why Do I Wake Up at 3AM? The Liver Clock That Won't Let You Sleep"
 const DESC = "Waking up at 3AM every night? Traditional Chinese Medicine connects this to specific body types. Learn what your sleep pattern may mean."
 
 export const metadata: Metadata = {

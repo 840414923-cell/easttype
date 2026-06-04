@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-complexion-dull"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Complexion Dull? Eastern Body Type Insights"
+const TITLE = "Why Is My Complexion Dull? The Light Behind the Glass That Dimmed"
 const DESC = "Skin that looks gray, tired, or lifeless no matter what you apply? Your Eastern body type may explain a dull complexion. Learn which TCM patterns are involved."
 
 export const metadata: Metadata = {

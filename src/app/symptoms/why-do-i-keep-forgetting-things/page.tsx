@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-forgetting-things"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Keep Forgetting Things? Eastern Body Type Insights"
+const TITLE = "Why Do I Keep Forgetting Things? The Sieve Between Your Ears"
 const DESC = "Walking into rooms and forgetting why? Your Eastern body type may explain memory issues. Learn which TCM patterns are linked to forgetfulness."
 
 export const metadata: Metadata = {

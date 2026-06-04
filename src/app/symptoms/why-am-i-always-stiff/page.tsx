@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-stiff"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Stiff? Eastern Body Type Insights"
+const TITLE = "Why Am I Always Stiff? The Body That Forgot How to Bend"
 const DESC = "Waking up stiff and barely able to move? Your Eastern body type may explain chronic stiffness. Learn which TCM patterns are linked to rigid muscles and joints."
 
 export const metadata: Metadata = {

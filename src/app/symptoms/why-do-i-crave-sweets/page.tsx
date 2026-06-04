@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-crave-sweets"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Crave Sweets? Eastern Body Type Insights"
+const TITLE = "Why Do I Crave Sweets? What Your Cravings May Be Telling You"
 const DESC = "Can't stop craving sugar? Your Eastern body type may explain sweet cravings. Learn which TCM patterns are linked to sugar addiction and what may help reduce the urge."
 
 export const metadata: Metadata = {

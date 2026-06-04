@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-rosacea"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Rosacea? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Rosacea? The Blush That Never Fades"
 const DESC = "Redness and flushing that won't go away? Your Eastern body type may explain rosacea. Learn which TCM patterns are linked to facial redness and what may help."
 
 export const metadata: Metadata = {

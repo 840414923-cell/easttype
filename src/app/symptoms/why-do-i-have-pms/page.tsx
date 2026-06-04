@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-pms"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have PMS? Eastern Body Type Insights"
+const TITLE = "Why Do I Have PMS? The Monthly Storm Before the Calm"
 const DESC = "Mood swings, bloating, and cramps before every period? Your Eastern body type may explain severe PMS. Learn which TCM patterns are linked to premenstrual symptoms."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-diarrhea"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Diarrhea? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Diarrhea? The Pipe That Flushes Too Fast"
 const DESC = "Frequent loose stools or urgent bowel movements? Your Eastern body type may explain chronic diarrhea. Learn which TCM patterns are linked to loose stools."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-bad-breath"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Bad Breath? Eastern Body Type Insights"
+const TITLE = "Why Do I Have Bad Breath? The Fire Down Below That Rises to the Top"
 const DESC = "Persistent bad breath that brushing doesn't fix? Your Eastern body type may explain halitosis. Learn which TCM patterns are linked to chronic bad breath."
 
 export const metadata: Metadata = {

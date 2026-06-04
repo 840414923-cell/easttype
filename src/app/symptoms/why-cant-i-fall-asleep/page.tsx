@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-fall-asleep"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Can't I Fall Asleep? Eastern Body Type Insights"
+const TITLE = "Why Can't I Fall Asleep? The Switch That Won't Turn Off"
 const DESC = "Lying awake for hours? Your Eastern body type may explain why you can't fall asleep. Learn which TCM patterns are linked to trouble falling asleep and what may help."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-face-so-oily"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Face So Oily? Eastern Body Type Insights"
+const TITLE = "Why Is My Face So Oily? The Faucet That Won't Stop Dripping"
 const DESC = "Shiny forehead by noon and blotting sheets don't help? Your Eastern body type may explain oily skin. Learn which TCM patterns are linked to excess facial oil."
 
 export const metadata: Metadata = {
