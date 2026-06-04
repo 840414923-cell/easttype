@@ -189,3 +189,27 @@ Reason: `--color-bg: var(--color-bg)` creates circular reference that causes CSS
 Decision: Always confirm Vercel Production domain before setting URLs.
 
 Reason: Set canonical URLs, sitemap URLs, and metadata to non-www, but Vercel Production domain was www. This mismatch caused Google Search Console to fail sitemap crawling on the non-www resource. Always check Vercel Domain settings first.
+
+---
+
+## 2026-06-04
+
+Decision: 301 redirect 7 duplicate wellness pages to corresponding symptom pages.
+
+Reason: 7 wellness pages and 7 symptom pages targeted identical keywords (e.g., "why am I always tired", "night sweats chinese medicine"). This caused keyword cannibalization — Google couldn't determine which page to rank, hurting both. 301 redirects consolidate authority to the newer, better-structured symptom pages. 3 unique wellness pages (body-types, foods-for-energy, warm-your-body) remain active.
+
+---
+
+## 2026-06-04
+
+Decision: Differentiate all 70 symptom page titles. No shared suffix.
+
+Reason: All 70 symptom pages had the identical suffix "Eastern Body Type Insights". This is a classic programmatic SEO pattern that Google's Helpful Content updates (2022-2025) specifically target. Each title now has a unique second half specific to that symptom (e.g., "The Stomach That Keeps Threatening to Strike" for nausea). This makes each page distinguishable in search results and avoids bulk demotion risk.
+
+---
+
+## 2026-06-04
+
+Decision: Always push code to Vercel before submitting sitemap to Google.
+
+Reason: Google indexed 4 pages, then dropped to 1. Root cause: sitemap was updated locally with 107 URLs but code wasn't pushed to Vercel. Google found URLs in sitemap that returned 404, causing it to lose trust and de-index pages. Lesson: every sitemap URL must return 200 before submission.

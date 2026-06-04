@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-03
+Last updated: 2026-06-04
 
 ---
 
@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (78 in sitemap)
+## Published URLs (100 in sitemap)
 
 ### Core Pages (5)
 
@@ -24,7 +24,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 | /patterns | 0.8 |
 | /wellness | 0.8 |
 
-### Symptom Pages (40)
+### Symptom Pages (70)
 
 | URL | Pattern Link | Types |
 |---|---|---|
@@ -68,6 +68,36 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 | /symptoms/why-do-i-have-seasonal-allergies | high-sensitivity | sensitive |
 | /symptoms/why-do-i-have-dark-circles | internal-heat | yin_deficient, qi_deficient |
 | /symptoms/why-am-i-always-hungry | heavy-and-sluggish | phlegm_damp, yin_deficient |
+| /symptoms/why-do-i-have-period-cramps | stuck-energy | qi_stagnant |
+| /symptoms/why-is-my-period-irregular | stuck-energy | qi_stagnant |
+| /symptoms/why-is-my-period-so-heavy | blood-stasis | blood_stasis |
+| /symptoms/why-do-i-have-breast-tenderness | stuck-energy | qi_stagnant |
+| /symptoms/why-do-i-have-menopause-symptoms | internal-heat | yin_deficient |
+| /symptoms/why-do-i-have-nausea | heavy-and-sluggish | phlegm_damp |
+| /symptoms/why-do-i-have-diarrhea | cold-sensitivity | yang_deficient, damp_heat |
+| /symptoms/why-do-i-feel-sick-after-eating | low-vitality | qi_deficient, phlegm_damp |
+| /symptoms/why-do-i-have-bad-breath | damp-heat | damp_heat |
+| /symptoms/why-is-my-face-so-oily | damp-heat | phlegm_damp, damp_heat |
+| /symptoms/why-do-i-have-rosacea | damp-heat | damp_heat |
+| /symptoms/why-do-i-have-brittle-nails | low-vitality | qi_deficient, yin_deficient |
+| /symptoms/why-is-my-complexion-dull | stuck-energy | blood_stasis, qi_deficient |
+| /symptoms/why-do-i-have-cellulite | heavy-and-sluggish | phlegm_damp |
+| /symptoms/why-do-i-have-neck-pain | stuck-energy | qi_stagnant |
+| /symptoms/why-are-my-shoulders-always-tense | stuck-energy | qi_stagnant |
+| /symptoms/why-do-i-have-stomach-pain | stuck-energy | qi_stagnant, phlegm_damp |
+| /symptoms/why-am-i-always-stiff | cold-sensitivity | yang_deficient, blood_stasis |
+| /symptoms/why-do-i-keep-forgetting-things | low-vitality | qi_deficient, yin_deficient |
+| /symptoms/why-cant-i-focus | low-vitality | qi_deficient |
+| /symptoms/why-do-i-cry-so-easily | stuck-energy | qi_stagnant, qi_deficient |
+| /symptoms/why-do-i-have-no-patience | stuck-energy | qi_stagnant |
+| /symptoms/why-do-i-have-a-chronic-cough | low-vitality | yin_deficient, phlegm_damp |
+| /symptoms/why-do-i-always-have-a-sore-throat | low-vitality | yin_deficient |
+| /symptoms/why-do-i-have-post-nasal-drip | heavy-and-sluggish | phlegm_damp |
+| /symptoms/why-do-i-wake-up-to-pee | cold-sensitivity | yang_deficient |
+| /symptoms/why-do-i-have-tinnitus | low-vitality | yin_deficient |
+| /symptoms/why-am-i-so-sensitive-to-heat | low-vitality | yin_deficient |
+| /symptoms/why-do-i-wake-up-tired | low-vitality | qi_deficient |
+| /symptoms/why-do-i-have-cold-sweats | low-vitality | qi_deficient |
 
 ### Pattern Pages (9)
 
@@ -87,9 +117,19 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, blood_stasis, qi_stagnant, sensitive
 
-### Wellness Pages (10, frozen)
+### Wellness Pages (3 active, 7 redirected)
 
-why-am-i-always-tired, cold-hands-and-feet, chinese-medicine-body-types, night-sweats-chinese-medicine, chinese-medicine-foods-for-energy, bloating-chinese-medicine, acne-chinese-medicine, anxiety-chinese-medicine, insomnia-chinese-medicine, foods-that-warm-your-body
+Active (no duplicate):
+chinese-medicine-body-types, chinese-medicine-foods-for-energy, foods-that-warm-your-body
+
+301 redirected to symptoms:
+why-am-i-always-tired → /symptoms/why-am-i-always-tired
+cold-hands-and-feet → /symptoms/why-am-i-always-cold
+night-sweats-chinese-medicine → /symptoms/why-do-i-have-night-sweats
+bloating-chinese-medicine → /symptoms/always-bloated-after-eating
+acne-chinese-medicine → /symptoms/why-do-i-keep-breaking-out
+anxiety-chinese-medicine → /symptoms/why-do-i-feel-anxious
+insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 
 ### Utility Pages (4)
 
@@ -105,15 +145,16 @@ why-am-i-always-tired, cold-hands-and-feet, chinese-medicine-body-types, night-s
 
 | Metric | Count |
 |---|---|
-| Symptom pages | 40 |
+| Symptom pages | 70 |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages | 10 (frozen) |
+| Wellness pages (active) | 3 |
+| Wellness pages (redirected) | 7 |
 | Hub pages | 3 (symptoms, patterns, wellness) |
 | Utility pages | 4 |
-| Sitemap URLs | 78 |
-| Total build pages | 86 |
-| Internal links (verified) | 239+ cross-references, 0 dead links |
+| Sitemap URLs | 100 |
+| Total build pages | 115 |
+| Internal links (verified) | 400+ cross-references, 0 dead links |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 
@@ -135,9 +176,12 @@ why-am-i-always-tired, cold-hands-and-feet, chinese-medicine-body-types, night-s
 ## Google Indexing Status
 
 - Search Console resource: https://www.myeasterntype.com (www)
-- Sitemap submitted: 78 URLs (was 69, expanded Sprint 13)
+- Sitemap submitted: 100 URLs
 - First indexing request submitted: 2026-06-02
 - 4 pages indexed by 2026-06-03: homepage, /patterns/low-vitality, /patterns/stuck-energy, /wellness/anxiety-chinese-medicine
+- Dropped to 1 page (homepage only) by 2026-06-04 — likely caused by deploying sitemap with URLs that returned 404
+- Re-pushed all content 2026-06-04, sitemap resubmitted
+- Waiting for Google to re-crawl and re-index
 
 ---
 
@@ -145,13 +189,12 @@ why-am-i-always-tired, cold-hands-and-feet, chinese-medicine-body-types, night-s
 
 | Hash | Message |
 |---|---|
+| bed8bd1 | fix: unique symptom titles, 301 redirect 7 duplicate wellness pages, remove redirected URLs from sitemap |
+| 93aa4b7 | feat: Sprint 13 content expansion - 30 new symptom pages, natural-balance pattern, sitemap to 107 URLs |
+| 623fe02 | Shorten homepage meta description to 158 chars |
+| d11f7a0 | Add 301 redirect from non-www to www domain |
 | 4f41f4d | fix: update all URLs to www.myeasterntype.com to match Vercel Production domain |
 | c2cce54 | fix: resolve CSS circular reference in @theme inline that caused 502 |
-| 5842140 | perf: WebP images, remove Noto_Serif_SC, server components, OG image, 404 page, Organization schema |
-| 4aa3292 | feat: light/dark mode toggle, fix invalid wellness refs, add utility page SEO metadata (Sprint 11) |
-| 8a00332 | fix: soften About page language and add disclaimer |
-| 54de02f | feat: rewrite About page with trust and methodology content |
-| 2c049fd | fix: add Nav + Footer to all symptom, pattern, and wellness pages via layout.tsx |
 
 ---
 
@@ -159,24 +202,22 @@ why-am-i-always-tired, cold-hands-and-feet, chinese-medicine-body-types, night-s
 
 | Issue | Severity | Status |
 |---|---|---|
-| Google indexing started | Medium | 4 pages indexed, waiting for rest |
+| Google indexing dropped from 4 to 1 | High | Re-pushed content, sitemap resubmitted, waiting for re-crawl |
 | No conversion tracking | Medium | Need to set up quiz-to-checkout funnel analytics |
 | Cookie paywall not bulletproof | Low | Can be manually set. Sufficient for current traffic. |
+| Programmatic SEO risk resolved | Medium → Fixed | Titles differentiated, duplicate content 301'd |
 
 ---
 
 ## Next Sprint
 
-Sprint 13 — Content Expansion (in progress)
-
-### Done
-
-- Added natural-balance pattern page (9/9 types covered)
-- Added 7 new symptom pages: why-is-my-libido-low, why-do-i-have-pms, why-is-my-metabolism-so-slow, why-do-i-have-poor-circulation, why-do-i-have-seasonal-allergies, why-do-i-have-dark-circles, why-am-i-always-hungry
+Sprint 14 — Indexing Recovery + Data-Driven Optimization
 
 ### Tasks
 
-1. Wait for more pages to be indexed
-2. Check Search Console daily for impressions/clicks
-3. Set up conversion funnel tracking (quiz -> result -> checkout)
-4. Plan more content expansion based on actual search queries
+1. Monitor Google re-indexing daily (site:www.myeasterntype.com)
+2. Once indexed, analyze Search Console for top queries/impressions
+3. Optimize meta descriptions for pages with impressions but no clicks
+4. Set up conversion funnel tracking (quiz -> result -> checkout)
+5. Consider adding more internal links between symptom pages that share patterns
+6. Evaluate if any new symptom pages need content depth improvement (word count, unique analogies)

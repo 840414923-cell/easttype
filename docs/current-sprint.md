@@ -1,64 +1,69 @@
 # Current Sprint
 
-Sprint 12
+Sprint 13 — Content Expansion + SEO Fix
 
-Status:
-Pending
+Status: Complete
 
-Start Date:
-TBD
+Start Date: 2026-06-03
 
-Goal:
-Wait for Google indexing, validate conversion funnel, plan growth based on data.
+End Date: 2026-06-04
 
 ---
 
-## Sprint 11 Completed
+## Sprint 13 Completed
 
 | Task | Status |
 |---|---|
-| Light/dark mode toggle | Done (globals.css, ThemeToggle, Nav, anti-flash, hardcoded colors replaced) |
-| Fix 4 invalid wellness refs in type-details.ts | Done |
-| Utility page SEO metadata (privacy/terms/refund) | Done (server wrapper + content split) |
-| Delete empty symptoms/[slug]/ directory | Done |
-| Delete obsolete wellness/layout-client.tsx | Done |
-| PNG to WebP (9 type images) | Done (13.1MB -> 946KB, 93% reduction) |
-| Remove Noto_Serif_SC font | Done (saved 1-2MB) |
-| Remove unoptimized from home-client Image | Done (enable Vercel auto-optimization) |
-| 55 article.tsx converted to server components | Done (removed "use client") |
-| html-to-image lazy loading | Done (dynamic import in share-card) |
-| About page Organization schema | Done |
-| OG image SVG -> PNG | Done (53KB) |
-| Custom 404 page | Done (3-card navigation) |
-| URL migration to www.myeasterntype.com | Done (67 files, 254 replacements) |
+| Natural-balance pattern page (9/9 types) | Done |
+| 30 new symptom pages (batches A-G) | Done |
+| 7 missing older symptom pages (page.tsx + article.tsx) | Done |
+| 70 symptom titles differentiated (no more programmatic SEO) | Done |
+| 7 duplicate wellness pages 301 redirected to symptoms | Done |
+| Sitemap cleaned: 69 → 100 URLs | Done |
+| Push to Vercel + sitemap resubmitted | Done |
 
 ---
 
-## Sprint 12 Tasks
+## What Was Not Completed
 
-### 1. Wait for Google Indexing
-
-- Sitemap submitted to Search Console (www resource, 69 URLs discovered)
-- Expect 3-14 days for first pages to appear in index
-- Check daily: `site:www.myeasterntype.com` in Google
-
-### 2. Monitor & Validate
-
-- Once indexed, check Search Console Performance for impressions/clicks/queries
-- Set up conversion tracking: quiz start -> quiz complete -> checkout
-- Identify top-performing pages and keywords
-
-### 3. Growth Planning (after data)
-
-- If impressions but no clicks: improve titles/meta descriptions
-- If clicks but no quiz starts: improve SymptomCta and quiz entry
-- If quiz starts but no purchases: improve report value or pricing
+| Task | Reason |
+|---|---|
+| Google re-indexing recovery | Waiting period (1-2 weeks). Cannot force. |
+| Search Console data analysis | No data yet — need impressions/clicks first |
+| Conversion funnel tracking | Not started — deprioritized for SEO fixes |
+| Content depth audit for new pages | New pages may be thin compared to patterns (141 vs 208 lines) |
 
 ---
 
-## Do Not Do This Sprint
+## New Risks Introduced
 
-- No new content until search data is available
-- No wellness restructuring
-- No new product tiers
-- No domain changes
+| Risk | Severity | Mitigation |
+|---|---|---|
+| Google de-indexed from 4 to 1 page | High | Re-pushed content, sitemap resubmitted, waiting for re-crawl |
+| 30 new pages may be seen as thin content | Medium | Each has ~8 sections + FAQ + JSON-LD, but shorter than pattern pages |
+| 301 redirects may temporarily lose authority | Low | 301 passes ~95% link equity. Short-term dip, long-term gain |
+| Title changes on already-indexed pages | Low | Only 3 pages were indexed (patterns, not symptoms). No symptom page was indexed before title change |
+
+---
+
+## Key Learnings
+
+1. **Never update sitemap without pushing code first.** Google found 404s and lost trust.
+2. **Programmatic SEO patterns are dangerous.** 70 identical title suffixes = bulk demotion risk.
+3. **Duplicate content across URL paths = keyword cannibalization.** Must 301, not coexist.
+4. **Pattern pages got indexed first because titles were unique.** Each had 3 specific symptom keywords in title.
+5. **Content depth matters.** Pattern pages (208 lines) indexed; symptom pages (141 lines) did not yet.
+
+---
+
+## Next Sprint: Sprint 14
+
+Goal: Indexing recovery + data-driven optimization
+
+Tasks:
+1. Monitor Google re-indexing daily
+2. Analyze Search Console once data appears
+3. Optimize meta descriptions for high-impression / low-click pages
+4. Set up conversion funnel tracking
+5. Audit new symptom page content depth (consider expanding thin pages)
+6. Evaluate internal link density between symptom pages

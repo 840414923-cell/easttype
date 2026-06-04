@@ -87,16 +87,16 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 
 | Layer | Count | Status |
 |---|---|---|
-| Symptoms | 40 | Active, Sprint 13 added 7 new |
+| Symptoms | 70 | Active, Sprint 13 expanded from 40 to 70 |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 10 | Frozen |
-| Sitemap URLs | 78 | Hand-maintained |
-| Total static pages | 86 | Build verified |
+| Wellness | 3 (7 redirected) | 7 duplicate wellness pages 301 to symptoms, 3 unique remain |
+| Sitemap URLs | 100 | Hand-maintained |
+| Total static pages | 115 | Build verified |
 
-### Published Symptoms (40)
+### Published Symptoms (70)
 
-why-am-i-always-tired, why-am-i-always-cold, why-do-i-wake-up-at-3am, always-bloated-after-eating, why-am-i-always-sleepy, why-do-i-have-night-sweats, why-do-i-feel-anxious, why-do-i-have-brain-fog, why-cant-i-fall-asleep, why-do-i-keep-gaining-weight, why-are-my-moods-all-over-the-place, why-do-i-get-sick-so-often, why-do-my-hands-and-feet-go-numb, why-is-my-skin-so-dry, why-do-i-crave-sweets, why-do-i-overthink-everything, why-am-i-always-unmotivated, why-do-i-keep-breaking-out, why-is-my-hair-falling-out, why-am-i-so-irritable, why-cant-i-lose-weight, why-do-i-have-acid-reflux, why-do-i-have-headaches, why-do-i-feel-dizzy, why-am-i-always-thirsty, why-do-i-have-lower-back-pain, why-do-i-have-eczema, why-do-i-sweat-so-much, why-do-i-have-joint-pain, why-am-i-always-thirsty-at-night, why-do-i-have-hot-flashes, why-do-i-have-water-retention, why-am-i-always-constipated, why-is-my-libido-low, why-do-i-have-pms, why-is-my-metabolism-so-slow, why-do-i-have-poor-circulation, why-do-i-have-seasonal-allergies, why-do-i-have-dark-circles, why-am-i-always-hungry
+why-am-i-always-tired, why-am-i-always-cold, why-do-i-wake-up-at-3am, always-bloated-after-eating, why-am-i-always-sleepy, why-do-i-have-night-sweats, why-do-i-feel-anxious, why-do-i-have-brain-fog, why-cant-i-fall-asleep, why-do-i-keep-gaining-weight, why-are-my-moods-all-over-the-place, why-do-i-get-sick-so-often, why-do-my-hands-and-feet-go-numb, why-is-my-skin-so-dry, why-do-i-crave-sweets, why-do-i-overthink-everything, why-am-i-always-unmotivated, why-do-i-keep-breaking-out, why-is-my-hair-falling-out, why-am-i-so-irritable, why-cant-i-lose-weight, why-do-i-have-acid-reflux, why-do-i-have-headaches, why-do-i-feel-dizzy, why-am-i-always-thirsty, why-do-i-have-lower-back-pain, why-do-i-have-eczema, why-do-i-sweat-so-much, why-do-i-have-joint-pain, why-am-i-always-thirsty-at-night, why-do-i-have-hot-flashes, why-do-i-have-water-retention, why-am-i-always-constipated, why-is-my-libido-low, why-do-i-have-pms, why-is-my-metabolism-so-slow, why-do-i-have-poor-circulation, why-do-i-have-seasonal-allergies, why-do-i-have-dark-circles, why-am-i-always-hungry, why-do-i-have-period-cramps, why-is-my-period-irregular, why-is-my-period-so-heavy, why-do-i-have-breast-tenderness, why-do-i-have-menopause-symptoms, why-do-i-have-nausea, why-do-i-have-diarrhea, why-do-i-feel-sick-after-eating, why-do-i-have-bad-breath, why-is-my-face-so-oily, why-do-i-have-rosacea, why-do-i-have-brittle-nails, why-is-my-complexion-dull, why-do-i-have-cellulite, why-do-i-have-neck-pain, why-are-my-shoulders-always-tense, why-do-i-have-stomach-pain, why-am-i-always-stiff, why-do-i-keep-forgetting-things, why-cant-i-focus, why-do-i-cry-so-easily, why-do-i-have-no-patience, why-do-i-have-a-chronic-cough, why-do-i-always-have-a-sore-throat, why-do-i-have-post-nasal-drip, why-do-i-wake-up-to-pee, why-do-i-have-tinnitus, why-am-i-so-sensitive-to-heat, why-do-i-wake-up-tired, why-do-i-have-cold-sweats
 
 ### Published Patterns (9)
 
@@ -138,41 +138,53 @@ Hero (symptoms-first) -> Common Symptoms Grid -> Connect the Dots (3-step) -> Bo
 
 # Google Indexing
 
-- Sitemap: 78 URLs (was 69, expanded Sprint 13)
+- Sitemap: 100 URLs (expanded Sprint 13, cleaned duplicate wellness)
 - First indexing request: 2026-06-02
 - 4 pages indexed by 2026-06-03: homepage, /patterns/low-vitality, /patterns/stuck-energy, /wellness/anxiety-chinese-medicine
+- Dropped to 1 page (homepage only) by 2026-06-04 — likely caused by deploying sitemap with URLs that returned 404 (code was not pushed to Vercel)
+- Re-pushed all content 2026-06-04, sitemap resubmitted
 - Search Console resource: www.myeasterntype.com
 
 ---
 
 # Frozen
 
-/wellness 路径冻结。
+/wellness 路径部分冻结。
 
-10 篇 wellness 文章存在，但不做以下操作：
+7 篇与症状页重复的 wellness 文章已 301 重定向到对应 symptoms 页：
+- why-am-i-always-tired → /symptoms/why-am-i-always-tired
+- cold-hands-and-feet → /symptoms/why-am-i-always-cold
+- night-sweats-chinese-medicine → /symptoms/why-do-i-have-night-sweats
+- bloating-chinese-medicine → /symptoms/always-bloated-after-eating
+- acne-chinese-medicine → /symptoms/why-do-i-keep-breaking-out
+- anxiety-chinese-medicine → /symptoms/why-do-i-feel-anxious
+- insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 
-- 不新增页面
-- 不删除页面
-- 不改 URL
-- 不重构内容
+3 篇无重复的 wellness 文章保留：
+- chinese-medicine-body-types
+- chinese-medicine-foods-for-energy
+- foods-that-warm-your-body
 
-原因：站点刚上线，没有索引数据。过早动 URL 会损失已有的任何权威度。
-
-Wellness 文章已在 Sprint 04 加了 "Related Symptoms & Patterns" 交叉链接，不再是内容孤岛。
-
-未来计划（未排期）：等 Search Console 数据证明 wellness 和 symptoms 页面竞争同一关键词后，做 301 合并。详见 content-architecture.md。
+原因：7 篇与 symptoms 页争同一关键词，导致关键词自相残杀。301 重定向消除重复，保留 SEO 权重。
 
 ---
 
 # Current Sprint
 
-Sprint 13 — Content Expansion
+Sprint 13 — Content Expansion + SEO Fix
 
-任务：
+Done:
 1. 补完第 9 个模式页（natural-balance）✅
-2. 新增 7 个高搜索量症状页 ✅
-3. 等更多页面被 Google 收录
-4. 检查 Search Console 展示/点击数据
+2. 新增 30 个症状页（女性健康、消化、皮肤、疼痛、认知、呼吸、泌尿/感官/睡眠）✅
+3. 补建 7 个缺失的旧症状页（always-hungry, dark-circles, PMS, poor-circulation, seasonal-allergies, libido-low, metabolism-slow）✅
+4. 70 个症状页标题差异化 — 去掉统一 "Eastern Body Type Insights" 后缀 ✅
+5. 7 个重复 wellness 页 301 重定向到对应 symptoms 页 ✅
+6. Sitemap 从 69 → 107 → 100（移除重定向 URL）✅
+7. Push 到 Vercel，重新提交 sitemap ✅
+
+Pending:
+- 等待 Google 重新收录（从 1 页恢复）
+- 监控 Search Console 展示/点击数据
 
 ---
 
@@ -194,6 +206,10 @@ Sprint 13 — Content Expansion
 
 **不要在没有模式页的情况下直接从症状链接到体质。** 架构是 Symptoms -> Patterns -> Types。跳过 Patterns 层是被禁止的。
 
+**不要用模板化标题。** 70 个症状页不能有统一后缀。每个标题的第二部分必须独特且与该症状相关。避免 programmatic SEO 模式被 Google 惩罚。
+
+**不要让重复内容共存。** 同一关键词对应多个页面会造成关键词自相残杀。发现重复必须 301 重定向。
+
 **不要用 PowerShell 处理 UTF-8 .tsx 文件。** 会损坏编码。用 Node.js 脚本代替。
 
 **不要在 @theme inline 里用 var() 自引用。** 会造成循环引用导致 502。
@@ -206,8 +222,8 @@ Sprint 13 — Content Expansion
 
 | File | Purpose |
 |---|---|
-| src/lib/symptoms-data.ts | 40 症状页元数据 |
-| src/lib/symptom-faqs.ts | 40 x 4 FAQ |
+| src/lib/symptoms-data.ts | 70 症状页元数据 |
+| src/lib/symptom-faqs.ts | 70 x 4 FAQ |
 | src/lib/pattern-data.ts | 9 模式页元数据 |
 | src/lib/pattern-faqs.ts | 9 x 4 FAQ |
 | src/lib/type-details.ts | 9 类型 + relatedPatterns + relatedSymptoms |
@@ -228,7 +244,7 @@ Sprint 13 — Content Expansion
 | src/app/not-found.tsx | 自定义 404 页面 |
 | src/app/result/result-client.tsx | 测试结果页 |
 | src/app/report-v2/report-client.tsx | 付费报告页 |
-| public/sitemap.xml | 78 URLs (www), 手动维护 |
+| public/sitemap.xml | 100 URLs (www), 手动维护 |
 | public/robots.txt | 指向 www sitemap |
 
 ---
