@@ -555,4 +555,670 @@ export const SYMPTOM_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Phlegm Damp type (痰湿质) is the most common match for sluggish constipation. Their digestion is slow and heavy. The Yin Deficient type (阴虚质) is the most common match for dry constipation. Their intestines lack the moisture to move stool smoothly. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
     },
   ],
+  "why-is-my-libido-low": [
+    {
+      q: { en: "Can body type really affect libido?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, libido is closely tied to your overall energy reserve and internal warmth. The Kidney system governs reproductive energy, and when it's underfueled, desire is one of the first things to go quiet. It's not a psychological issue. It's your body deprioritizing non-essential functions when resources are low.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why did my libido disappear suddenly?", "zh-TW": "", ja: "" },
+      a: { en: "It rarely disappears overnight, even if it feels that way. More likely, chronic stress, poor sleep, or a diet that doesn't support your constitution has been quietly draining your reserves for months or years. Libido is like the canary in the coal mine: when overall energy drops, it's one of the first signals.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help restore desire from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Warming, nourishing foods that support the Kidney system: walnuts, black sesame, goji berries, lamb (for Yang Deficient types), and dark-colored beans. Avoid ice-cold drinks and excessive raw food, which directly deplete the warmth your reproductive system needs. Consistent warm meals over 2-4 weeks may make more difference than you expect.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with low libido?", "zh-TW": "", ja: "" },
+      a: { en: "Yang Deficient (阳虚质) and Qi Deficient (气虚质) types are the most common matches. Both run low on the warmth and fuel that reproductive energy depends on. The Yang Deficient type may also have cold hands and lower back soreness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-pms": [
+    {
+      q: { en: "Why do I get moody and bloated before every period?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, the premenstrual phase is when Qi and Blood are gathering in the lower abdomen. If your Qi flows smoothly, this transition happens without drama. If your Qi is stuck, it builds pressure like a blocked pipe. That pressure shows up as mood swings, breast tenderness, bloating, and irritability. The key is that PMS severity reflects how freely your energy moves the rest of the month.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can changing my diet really reduce PMS?", "zh-TW": "", ja: "" },
+      a: { en: "It can make a noticeable difference. Foods that support smooth Qi flow include citrus fruits, rose tea, fennel, and leafy greens. Foods that make Qi stagnation worse include excessive caffeine, alcohol, and very greasy meals. Starting these changes 1-2 weeks before your period may reduce the intensity of symptoms.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is severe PMS normal?", "zh-TW": "", ja: "" },
+      a: { en: "Mild changes before your period are common. But if PMS disrupts your relationships, work, or daily functioning, that's your body asking for attention. In TCM, severe PMS often points to significant Qi Stagnation. Gentle movement, warm meals, and stress management may help. If symptoms are extreme, check with a healthcare provider to rule out PMDD or other conditions.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with PMS?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match. Their energy tends to get stuck, and the premenstrual phase amplifies this pattern. They may also experience mood swings, frequent sighing, and chest tightness. Take the free EastType quiz to discover your type and learn personalized suggestions.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-metabolism-so-slow": [
+    {
+      q: { en: "Is a slow metabolism just about getting older?", "zh-TW": "", ja: "" },
+      a: { en: "Age plays a role, but it's not the whole story. In TCM, metabolic speed is tied to how well your Spleen transforms food into energy and how efficiently your body moves fluids. When your Spleen is weak or your system is bogged down with dampness, your metabolism slows regardless of age. Many people in their 20s and 30s already have patterns that slow metabolism.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why does eating less not speed up my metabolism?", "zh-TW": "", ja: "" },
+      a: { en: "Because eating less without eating right is like putting less gas in a car with a clogged engine. The problem isn't fuel quantity. It's fuel processing. In TCM, your Spleen needs warmth and the right types of food to function well. Cold, raw, and restrictive diets weaken the Spleen further, which actually slows metabolism more.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help boost metabolism from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Ginger, cinnamon, brown rice, adzuki beans, and warm cooked meals support your Spleen and help clear dampness. Avoid cold drinks, raw salads, excessive dairy, and very sweet foods, which contribute to the sluggishness. Consistent meal times matter more than portion control for this pattern.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with a slow metabolism?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match. Their body holds onto moisture and weight. The Qi Deficient type (气虚质) also struggles because their body lacks the energy to run metabolic processes efficiently. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-poor-circulation": [
+    {
+      q: { en: "Is poor circulation just about cold hands and feet?", "zh-TW": "", ja: "" },
+      a: { en: "Cold extremities are the most obvious sign, but poor circulation in TCM is a broader pattern. It may also show up as numbness or tingling, slow wound healing, easy bruising, a pale complexion, and feeling mentally foggy. Your body is rationing blood flow, pulling it from the edges to protect the core.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can poor circulation improve without medication?", "zh-TW": "", ja: "" },
+      a: { en: "In many cases, yes. If the underlying cause is a constitutional pattern like Yang Deficiency or Blood Stasis, warming foods, regular gentle movement, and specific daily habits may significantly improve circulation over 4-8 weeks. Ginger, cinnamon, and foods that promote blood movement like hawthorn berry and turmeric may be helpful.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why is my circulation worse in winter?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, cold contracts and slows things down. If your internal warmth is already low (Yang Deficiency), external cold makes it worse. Your body goes into deeper conservation mode, pulling even more warmth from your extremities. This is why warming strategies like foot soaks, ginger tea, and thermal underwear may help more than you'd expect.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with poor circulation?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) runs cold and has underpowered circulation. The Blood Stasis type (血瘀质) has circulation that flows but too slowly, leading to stagnation. Both types benefit from warmth and movement. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-seasonal-allergies": [
+    {
+      q: { en: "Why do I get allergies every year at the same time?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, seasonal allergies are not primarily about pollen. They are about your body's defensive energy (Wei Qi) being too weak to handle seasonal transitions. When your protective barrier is thin, things that shouldn't bother you, like tree pollen or grass, trigger an overreaction. The allergies are real. The root cause is a defensive system that's under-resourced.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can diet really help with seasonal allergies?", "zh-TW": "", ja: "" },
+      a: { en: "It may help more than you expect. In TCM, foods that support your protective energy include jujube dates, astragalus root (in soup), ginger, and warm bone broth. Foods that weaken your defenses include excessive cold drinks, sugar, and dairy during allergy season. Starting these dietary shifts 4-6 weeks before your typical allergy season may reduce severity.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Are allergies a sign of weak immunity?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, allergies are a sign of dysregulated immunity, not necessarily weak immunity. Your immune system is overreacting to harmless substances. This is why the TCM approach focuses on regulation and balance rather than simply boosting immunity. The Sensitive constitution is especially prone to this pattern.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with seasonal allergies?", "zh-TW": "", ja: "" },
+      a: { en: "The Sensitive type (特禀质) is the primary match. Their body overreacts to environmental triggers of all kinds, including pollen, dust, and temperature changes. They may also have food sensitivities and skin reactions. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-dark-circles": [
+    {
+      q: { en: "Are dark circles always a sleep problem?", "zh-TW": "", ja: "" },
+      a: { en: "Not always. Poor sleep makes them worse, but many people with dark circles sleep just fine. In TCM, dark circles under the eyes are often linked to Kidney energy depletion. The area under the eyes corresponds to the Kidney system in TCM facial mapping. When Kidney reserves are low, darkness and puffiness show up there regardless of how much you sleep.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can diet help reduce dark circles?", "zh-TW": "", ja: "" },
+      a: { en: "It may help, especially if the root is Kidney depletion or poor circulation. Black sesame, walnuts, goji berries, and dark-colored beans support the Kidney system. Warm, nourishing soups and adequate water intake help circulation. The key is consistency over weeks, not a quick fix. Cold drinks and excessive salt make them worse.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do my dark circles look worse some days?", "zh-TW": "", ja: "" },
+      a: { en: "Fatigue, stress, poor circulation on cold days, and high-salt meals can all make dark circles more visible. In TCM, anything that further depletes your Kidney energy or slows blood flow will show up under your eyes first. Late nights, emotional stress, and skipped meals are the most common triggers.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with dark circles?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match because Yin depletion directly affects the Kidney system. The Qi Deficient type (气虚质) is the second match because poor circulation leads to blood pooling under the eyes. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-always-hungry": [
+    {
+      q: { en: "Why am I hungry right after eating a full meal?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, this often means your Spleen is not properly transforming food into usable energy. You ate, but your body didn't extract what it needed, so it sends the hunger signal again. It's like filling a bucket with a hole in the bottom. The solution isn't more food. It's food your body can actually use: warm, cooked, and easy to digest.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is constant hunger the same as having a fast metabolism?", "zh-TW": "", ja: "" },
+      a: { en: "Not necessarily. A fast metabolism burns what you eat efficiently and asks for more. In TCM, constant hunger is often the opposite: your body is inefficient at converting food into energy, so it keeps asking for more input. This is especially common in the Phlegm Damp pattern, where the Spleen is overwhelmed and underperforming.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help control constant hunger?", "zh-TW": "", ja: "" },
+      a: { en: "Warm, cooked meals with complex carbohydrates (brown rice, sweet potato), adequate protein, and foods that support the Spleen (Chinese yam, millet, ginger soup). Avoid snacking on cold, sugary, or processed foods, which spike hunger rather than satisfy it. Eating at consistent times helps regulate the hunger signal.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with constant hunger?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match because their Spleen struggles to process food efficiently. The Yin Deficient type (阴虚质) may also experience hunger because their body lacks the internal moisture to feel satisfied. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-period-cramps": [
+    {
+      q: { en: "Why do my cramps feel worse than everyone else's?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, painful cramps often point to Qi Stagnation or Blood Stasis. When energy and blood don't flow smoothly through the lower abdomen, pressure builds and causes sharp, gripping pain. It's not about pain tolerance. Your body is literally struggling to move things along. Ginger tea, warmth on your lower belly, and gentle movement may help more than you expect.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can what I eat really affect period pain?", "zh-TW": "", ja: "" },
+      a: { en: "It may make more difference than you think. Cold and raw foods directly slow circulation in your lower abdomen. Ice water, salads, and cold smoothies during the week before your period may worsen cramping. Warm, cooked meals and ginger-based teas support blood flow and may reduce the intensity.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is severe period pain normal?", "zh-TW": "", ja: "" },
+      a: { en: "Mild cramping is common. But if your pain forces you to cancel plans, miss work, or rely heavily on painkillers every month, that's your body asking for attention. In TCM, this severity often points to significant Qi or Blood stagnation. If pain is extreme or suddenly gets worse, check with a doctor to rule out conditions like endometriosis.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with period cramps?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because their energy tends to get stuck, causing pressure and pain. The Blood Stasis type (血瘀质) also experiences cramps because blood flow is sluggish. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-period-irregular": [
+    {
+      q: { en: "What counts as an irregular period?", "zh-TW": "", ja: "" },
+      a: { en: "A typical cycle is 21 to 35 days. If yours varies by more than a week each month, comes less than 8 times a year, or skips months entirely, it's considered irregular. In TCM, this variability points to either stuck energy (Qi Stagnation) or cold slowing things down (Yang Deficiency). Both are common and respond well to dietary and lifestyle changes.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can stress really make my period late?", "zh-TW": "", ja: "" },
+      a: { en: "Absolutely. Stress is one of the most common causes of irregular cycles in TCM. When you're stressed, Liver Qi gets stuck, and the Liver is responsible for smooth menstrual flow. It's like a traffic jam on the highway to your uterus. Once the stress eases and Qi starts flowing again, your cycle often regulates on its own.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help regulate my cycle?", "zh-TW": "", ja: "" },
+      a: { en: "Warm, cooked foods support regular cycles. Ginger tea, rose tea, and fennel may help move Qi. Avoid excessive cold drinks, especially the week before your expected period. If cold is the culprit (your periods are often late and you feel cold), warming foods like lamb, cinnamon, and ginger are especially helpful.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with irregular periods?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the most common match because stuck energy disrupts the regular rhythm. The Yang Deficient type (阳虚质) also experiences irregularity because cold slows everything down. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-period-so-heavy": [
+    {
+      q: { en: "How heavy is too heavy for a period?", "zh-TW": "", ja: "" },
+      a: { en: "If you're soaking through a pad or tampon every hour for several hours, passing clots larger than a coin, or your period lasts longer than 7 days, that's considered heavy. In TCM, heavy bleeding often relates to Blood Stasis (blood that doesn't move gets pushed out in large volume) or Qi Deficiency (too weak to hold the blood in its proper channels).", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can diet affect how heavy my period is?", "zh-TW": "", ja: "" },
+      a: { en: "It may. Foods that support blood movement, like hawthorn berry and dark-colored beans, may help if Blood Stasis is the root cause. Foods that build energy, like jujube dates and sweet potato, may help if Qi Deficiency is the issue. Excessive spicy food and alcohol may worsen heavy bleeding in some patterns.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Should I be worried about heavy periods?", "zh-TW": "", ja: "" },
+      a: { en: "If heavy bleeding is new, getting worse, or causing fatigue and dizziness, see a doctor to rule out fibroids, thyroid issues, or other conditions. TCM constitutional patterns can coexist with these conditions. The constitutional approach complements but doesn't replace medical evaluation.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with heavy periods?", "zh-TW": "", ja: "" },
+      a: { en: "The Blood Stasis type (血瘀质) is the primary match because sluggish blood flow leads to heavier discharge. The Qi Deficient type (气虚质) may also experience heavy bleeding because their body lacks the energy to manage blood flow properly. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-breast-tenderness": [
+    {
+      q: { en: "Why do my breasts hurt before every period?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, the breasts are on the Liver and Stomach meridians. Before your period, Qi and Blood gather in the lower abdomen. If your Liver Qi is stuck, that gathering creates upstream pressure in the breasts. The tenderness is essentially a traffic jam in your meridian system.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What may help with premenstrual breast tenderness?", "zh-TW": "", ja: "" },
+      a: { en: "Rose tea and citrus peel tea may help move Liver Qi and reduce the pressure. Avoid caffeine and salty foods the week before your period, as both may worsen fluid retention in breast tissue. A warm compress on your chest and gentle arm movement may also provide relief.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is breast tenderness a sign of something serious?", "zh-TW": "", ja: "" },
+      a: { en: "Cyclic tenderness that comes and goes with your period is common and usually benign in TCM terms. But if the pain is constant, one-sided, or you feel a lump, get it checked by a doctor. TCM patterns and medical conditions can coexist.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with breast tenderness?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because stuck Liver Qi directly affects the breast area. They may also experience mood swings, frequent sighing, and chest tightness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-menopause-symptoms": [
+    {
+      q: { en: "Can TCM really help with menopause?", "zh-TW": "", ja: "" },
+      a: { en: "Many women find TCM-based dietary and lifestyle adjustments helpful during menopausal transition. The TCM view is that menopause represents a natural decline in Yin, which leads to relative excess of heat. Supporting Yin with cooling, moistening foods may help smooth the transition. It's not about reversing menopause. It's about making the ride less bumpy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with hot flashes from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Cooling and moistening foods: tofu, pear, mung bean soup, black sesame, lily bulb, and tremella mushroom. Avoid spicy food, excessive caffeine, and alcohol, which all add heat to an already hot system. Room-temperature or cool water instead of hot tea may also help during a flash.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is menopause a disease in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "No. TCM views menopause as a natural transition, not a disease. The symptoms (hot flashes, night sweats, mood changes) are signs that your body's Yin reserves are declining and need support. It's similar to a bank account: you're withdrawing more than you're depositing. The goal is to slow the withdrawal rate and top up where possible.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most affected by menopause?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) tends to have the most intense menopausal symptoms because their cooling system was already undercharged before menopause started. The Qi Stagnant type (气郁质) may struggle more with the emotional swings. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-nausea": [
+    {
+      q: { en: "Why do I feel nauseous even when I haven't eaten anything bad?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, nausea without food poisoning often points to Phlegm Damp. Your Spleen is too weak to process fluids properly, and the moisture backs up, creating a heavy, queasy feeling in your stomach. It's like a sink with a slow drain. The water doesn't flow, it pools, and eventually you feel sick from it.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with chronic nausea from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Ginger is the single most useful food here. Fresh ginger tea or water with thin ginger slices may settle your stomach within minutes. Warm, easy-to-digest foods like congee and steamed vegetables give your Spleen less work. Avoid cold drinks, greasy food, and dairy, which all add to the dampness.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can stress cause nausea?", "zh-TW": "", ja: "" },
+      a: { en: "Yes. Stress causes Liver Qi to stagnate, and the Liver sits right next to the Stomach in TCM theory. When Liver energy gets stuck, it pushes against the Stomach, creating upward pressure that feels like nausea. This is why stress-related nausea often comes with a tight feeling in your chest.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic nausea?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match. Their Spleen struggles with fluid metabolism, creating the internal conditions for recurring nausea. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-diarrhea": [
+    {
+      q: { en: "Why do I have diarrhea but no infection?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, chronic loose stools without infection often point to either Cold in the digestive system (Yang Deficiency) or Damp Heat. Cold-type diarrhea is watery and painless, often worse in the morning. Heat-type diarrhea is urgent, burning, and may come with a sense of incomplete emptying. The treatment for each is opposite, so identifying which pattern you have matters.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can what I drink cause diarrhea?", "zh-TW": "", ja: "" },
+      a: { en: "Ice water and cold drinks are a common trigger in TCM. Cold directly weakens your Spleen's ability to process fluids. Over time, your digestive system becomes so underpowered that water passes through without being properly absorbed. Switching to warm water or ginger tea may make a noticeable difference within days.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is chronic diarrhea serious?", "zh-TW": "", ja: "" },
+      a: { en: "If it persists for weeks, causes weight loss, or contains blood, see a doctor. These may indicate inflammatory bowel disease, celiac, or other conditions that need medical attention. TCM patterns can coexist with these conditions but shouldn't delay proper investigation.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic diarrhea?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) is the most common match for cold-type diarrhea. Their internal warmth is too low to process food and fluids. The Damp Heat type (湿热质) is the match for heat-type diarrhea. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-feel-sick-after-eating": [
+    {
+      q: { en: "Why does eating make me feel worse instead of better?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, this is a classic sign of Spleen weakness. Your Spleen is supposed to transform food into energy. When it's underpowered, food arrives but your body can't process it efficiently. Instead of feeling nourished, you feel burdened. The food sits there like unprocessed mail in an inbox.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods are easiest on a weak digestive system?", "zh-TW": "", ja: "" },
+      a: { en: "Congee (rice porridge), steamed vegetables, sweet potato, and well-cooked soups. These are predigested through cooking, so your Spleen barely has to work. Think of it as giving a tired worker the easiest possible tasks. Avoid raw salads, cold smoothies, and heavy greasy meals.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Should I eat less if eating makes me sick?", "zh-TW": "", ja: "" },
+      a: { en: "Not less, but different. Eating less weakens your Spleen further. Instead, eat warm, cooked, easy-to-digest meals at consistent times. The regularity matters as much as the food itself. Your Spleen loves routine and hates surprises.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with feeling sick after eating?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match because their digestive system lacks the energy to process meals. The Phlegm Damp type (痰湿质) is the second match because accumulated moisture makes digestion sluggish. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-bad-breath": [
+    {
+      q: { en: "Why does my breath smell even though I brush and floss?", "zh-TW": "", ja: "" },
+      a: { en: "If oral hygiene isn't the issue, the smell may be coming from your digestive system. In TCM, bad breath often points to Damp Heat in the Stomach. Heat creates odor, and dampness carries it upward. It's like a slow drain in your kitchen sink that hasn't been cleaned. The smell comes from inside the pipes, not the surface.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with bad breath from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Mint tea, celery, and moderate amounts of green tea may help clear Stomach heat. Avoid spicy food, heavy fried meals, garlic-heavy dishes, and excessive coffee, which feed the heat. Drinking warm water throughout the day helps your system flush instead of stagnate.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is bad breath always a gut problem?", "zh-TW": "", ja: "" },
+      a: { en: "Not always. Dental issues, tonsil stones, and dry mouth can all cause persistent breath issues. If you've ruled out dental causes, the digestive angle is worth exploring. TCM connects the mouth directly to the Stomach and Spleen, so chronic breath issues often have a digestive root.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with bad breath?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat type (湿热质) is the primary match. Their Stomach generates heat and dampness that rises as odor. They may also experience acne, acid reflux, and a feeling of internal stickiness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-face-so-oily": [
+    {
+      q: { en: "Why is my face oily just one hour after washing?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, excess facial oil often points to Damp Heat. Your body is producing oil faster than your skin can manage it. It's like a faucet with a worn-out washer. No matter how many times you wipe the sink, the drip keeps coming because the problem is inside the fixture, not on the surface.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Does oily skin mean I should avoid moisturizer?", "zh-TW": "", ja: "" },
+      a: { en: "Counterintuitively, skipping moisturizer can make oiliness worse. When your skin feels dry, it pumps out more oil to compensate. Use a light, water-based moisturizer instead. From a TCM perspective, the goal is to address the internal dampness causing the overproduction, not just mop up the result.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can what I eat affect how oily my face is?", "zh-TW": "", ja: "" },
+      a: { en: "Very much so. Fried food, dairy, sugar, and excessive cold drinks may feed the dampness that drives oil production. Warm, cooked meals with moderate protein and plenty of steamed vegetables may help your body process fluids more efficiently. Green tea and chrysanthemum tea are also traditionally used to clear heat.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with oily skin?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat type (湿热质) is the primary match. The Phlegm Damp type (痰湿质) may also experience oiliness, though usually with less redness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-rosacea": [
+    {
+      q: { en: "Can TCM explain why my face turns red so easily?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, rosacea-like redness is often linked to Heat in the Blood or Damp Heat rising to the face. Your body has accumulated too much internal heat, and it finds its escape route through your skin. Think of it as a pot boiling over. The lid (your skin) can't contain what's building up underneath.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What triggers rosacea flares from an Eastern perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Spicy food, alcohol, emotional stress, and overheated environments all add fuel to internal heat. Sun exposure may also trigger flares because external heat joins internal heat. Cooling foods like cucumber, watermelon (in moderation), and mung bean soup may help take the edge off between flares.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is rosacea the same as acne?", "zh-TW": "", ja: "" },
+      a: { en: "No. Acne involves clogged pores and is more closely tied to Damp Heat with phlegm. Rosacea is more about Blood Heat and is characterized by flushing, visible blood vessels, and sensitivity. The treatments in TCM differ because the root pattern is different, even though both show up on your face.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with rosacea?", "zh-TW": "", ja: "" },
+      a: { en: "The Damp Heat type (湿热质) is the primary match because heat and dampness create the perfect conditions for facial redness and inflammation. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-brittle-nails": [
+    {
+      q: { en: "What do nails represent in TCM?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, nails are considered the extension of Blood and are governed by the Liver. When Blood is insufficient or Liver Qi is weak, the nails don't get the nourishment they need. They become thin, ridged, and prone to breaking. Think of nails as the leaves of a tree. If the roots (Blood and Liver) aren't healthy, the leaves show it first.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can supplements fix brittle nails?", "zh-TW": "", ja: "" },
+      a: { en: "Biotin and collagen supplements may help, but they only address part of the picture. If your body can't absorb or transport those nutrients efficiently, the supplements go in but don't reach the nails. TCM focuses on strengthening the Spleen (digestion and absorption) and nourishing Blood so your body can actually use what you give it.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods support nail health in TCM?", "zh-TW": "", ja: "" },
+      a: { en: "Dark leafy greens, black sesame seeds, goji berries, jujube dates, and bone broth are all traditionally used to nourish Blood and support the Liver. These foods provide the raw materials your body needs to build strong nails from the inside out. Consistency matters more than quantity.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with brittle nails?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) lacks the energy to produce strong nails. The Yin Deficient type (阴虚质) lacks the fluids and moisture to keep them flexible. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-is-my-complexion-dull": [
+    {
+      q: { en: "Why does my skin look gray even though I sleep enough?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, a dull complexion often means Blood isn't reaching the face properly. Either Qi is too weak to push Blood upward, or Blood is stagnant and pooled somewhere else. Imagine a house where the water pressure is fine but half the pipes are clogged. The faucets at the end get barely a trickle.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can face creams fix a dull complexion?", "zh-TW": "", ja: "" },
+      a: { en: "They can help temporarily by hydrating the surface, but dullness from within needs an internal approach. If Blood isn't nourishing your face, no amount of topical product will create lasting change. TCM focuses on moving Blood and boosting Qi so your complexion gets the nourishment it needs from the inside.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is dull skin a sign of anemia?", "zh-TW": "", ja: "" },
+      a: { en: "It might be, so a blood test is worth doing. If your iron and hemoglobin are normal but your complexion is still lifeless, TCM would look at Blood Stasis or Qi Deficiency as the pattern. You can have enough Blood in volume but poor circulation of it, which gives the same visible result.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with a dull complexion?", "zh-TW": "", ja: "" },
+      a: { en: "The Blood Stasis type (血瘀质) is the primary match because blood isn't circulating to the face. The Qi Deficient type (气虚质) is the secondary match because weak Qi can't push blood upward. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-cellulite": [
+    {
+      q: { en: "Does TCM have a concept of cellulite?", "zh-TW": "", ja: "" },
+      a: { en: "TCM doesn't use the word cellulite, but it recognizes the pattern: phlegm and dampness accumulating under the skin. When your Spleen can't process fluids efficiently, the excess gets stored in tissues as damp deposits. Think of it like a sponge that's been sitting in a puddle. It soaks up water and gets heavy and lumpy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can dry brushing or massage help cellulite from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Yes, both may help because they promote circulation and move stagnant fluids. In TCM terms, dry brushing stimulates Qi and Blood flow through the meridians near the skin surface. Cupping massage is also traditionally used to break up stuck dampness in localized areas. These work best when combined with internal changes to diet.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is cellulite just about being overweight?", "zh-TW": "", ja: "" },
+      a: { en: "Not at all. Thin people get cellulite too. In TCM, it's more about fluid metabolism than body weight. If your Spleen is weak and dampness accumulates, cellulite can appear regardless of your size. The issue is how your body processes and eliminates fluids, not how much fat you carry.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with cellulite?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match because their body tends to store excess fluids in tissues. They may also experience bloating, water retention, and a feeling of heaviness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-neck-pain": [
+    {
+      q: { en: "Why does my neck hurt when there's no injury?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, unexplained neck pain often signals Qi Stagnation in the area. The neck is a narrow bridge between your head and body, and when energy gets stuck there, it creates tension and pain. Emotional stress and suppressed frustration are the most common culprits. The pain isn't from damage, it's from stuck energy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why is neck pain worse when I'm stressed?", "zh-TW": "", ja: "" },
+      a: { en: "Stress directly affects the Liver meridian, which is responsible for smooth energy flow throughout the body. When you're stressed, Liver Qi stagnates, and the neck and shoulders are where it often shows up first. It's like a traffic jam. The bottleneck happens at the narrowest point, and your neck is that point.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can help neck pain from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Gentle neck rolls, shoulder shrugs, and deep breathing may help move stuck Qi. Peppermint tea and green tea support the Liver's ability to circulate energy. Avoid hunching over screens for long periods. In TCM, movement is medicine for stagnation. Even five minutes of gentle stretching can make a difference.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with neck pain?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because their energy tends to get stuck, especially in the neck and shoulder area. They may also experience mood swings, sighing, and a feeling of something stuck in the throat. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-are-my-shoulders-always-tense": [
+    {
+      q: { en: "Why do my shoulders live near my ears?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, chronic shoulder tension is a hallmark of Qi Stagnation. Your shoulders are carrying emotional weight that hasn't been processed. Frustration, worry, and unexpressed feelings all accumulate there. It's like wearing a backpack you forgot you had. You've been carrying it so long it feels normal, but your muscles are exhausted.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is shoulder tension always from stress?", "zh-TW": "", ja: "" },
+      a: { en: "Emotional stress is the most common cause in TCM, but physical habits like poor posture, too much screen time, and shallow breathing also contribute. The Liver meridian governs free flow, and the Gallbladder meridian runs through the shoulders. Both get disrupted by tension, creating a feedback loop of tightness.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can stretching fix shoulder tension permanently?", "zh-TW": "", ja: "" },
+      a: { en: "Stretching provides temporary relief but doesn't address why your shoulders keep tightening up. In TCM, lasting improvement comes from moving Liver Qi. This means addressing emotional patterns, not just physical ones. Combining regular movement with stress management and foods that support the Liver may give more lasting results.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with shoulder tension?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because their emotional energy gets stuck in the upper body. They may also experience frequent sighing, chest tightness, and irritability. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-stomach-pain": [
+    {
+      q: { en: "Why does my stomach hurt but tests show nothing wrong?", "zh-TW": "", ja: "" },
+      a: { en: "This is very common in TCM. Functional stomach pain means the organ is working poorly but isn't diseased. The two main patterns are Qi Stagnation (stress-related gripping pain that moves around) and Phlegm Damp (heavy, dull ache after eating). The alarm is real, even if the medical scans can't find the fire.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is stomach pain connected to my emotions?", "zh-TW": "", ja: "" },
+      a: { en: "Very much so. In TCM, worry knots the Spleen and anger stagnates the Liver, which then attacks the Stomach. If your stomach pain gets worse during stressful periods, this connection is worth paying attention to. Calming your mind may calm your stomach more effectively than antacids alone.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What should I eat when my stomach hurts?", "zh-TW": "", ja: "" },
+      a: { en: "Warm, simple, easy-to-digest foods. Congee, steamed vegetables, and mild soups give your Stomach a rest while still providing nourishment. Avoid cold, raw, spicy, and greasy foods during a flare. Ginger tea may help if the pain feels better with warmth, which suggests a cold pattern.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with stomach pain?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) often gets stress-related stomach pain. The Phlegm Damp type (痰湿质) may experience dull, heavy stomach discomfort after meals. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-always-stiff": [
+    {
+      q: { en: "Why am I stiff in the morning even though I'm young?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, morning stiffness isn't about age. It's about Yang energy being too low to warm and loosen your muscles after a night of inactivity. When Yang is deficient, your body literally doesn't have enough internal warmth to keep tissues supple during sleep. You wake up feeling like you were poured from concrete.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is stiffness the same as arthritis?", "zh-TW": "", ja: "" },
+      a: { en: "Not necessarily. Arthritis involves joint damage visible on imaging. Generalized stiffness without joint damage may be a circulation issue. In TCM, Blood Stasis and Yang Deficiency can both cause stiffness without any structural damage. If you haven't had imaging done, it's worth checking with a doctor.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What helps morning stiffness from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Warm ginger tea first thing in the morning may help. A warm shower before stretching loosens things faster than stretching cold. Gentle movement like tai chi or slow walking gets Qi and Blood flowing again. Avoid sleeping in cold rooms or with a fan directly on you, as cold worsens Yang Deficiency.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with stiffness?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) is the primary match because they lack internal warmth to keep muscles flexible. The Blood Stasis type (血瘀质) is the secondary match because poor circulation leaves tissues undernourished. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-keep-forgetting-things": [
+    {
+      q: { en: "Is forgetfulness just a normal part of getting older?", "zh-TW": "", ja: "" },
+      a: { en: "Some decline is normal, but if you're forgetting things more than your peers, it's worth investigating. In TCM, the Kidneys govern the brain and memory, and the Heart houses the mind. When Kidney Yin declines or Heart Blood is insufficient, memory suffers. Age may be a factor, but it's not the whole story.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can diet improve memory?", "zh-TW": "", ja: "" },
+      a: { en: "It may help, especially if Qi or Yin deficiency is the root pattern. Walnuts, black sesame seeds, goji berries, and dark leafy greens are traditionally used in TCM to support brain function. These foods nourish Kidney Yin and Heart Blood, which are the foundations of memory in TCM theory.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is poor memory connected to poor sleep?", "zh-TW": "", ja: "" },
+      a: { en: "Often, yes. Sleep is when the Brain consolidates memories and when the body produces Blood and Yin. If you're sleeping poorly, you're robbing your memory of the raw materials it needs. Addressing sleep quality may improve memory more directly than any brain supplement.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with forgetfulness?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) lacks the energy to sustain mental focus. The Yin Deficient type (阴虚质) lacks the cooling fluids that keep the brain calm and clear. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-cant-i-focus": [
+    {
+      q: { en: "Why can't I focus even on things I care about?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, focus requires a steady supply of Qi to the head. When Qi is deficient, your mental energy flickers like a candle in the wind. You can focus for a moment, then it's gone. The issue isn't willpower. It's fuel. Your brain is running on fumes and keeps stalling.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is poor focus the same as ADHD?", "zh-TW": "", ja: "" },
+      a: { en: "No. ADHD is a specific neurodevelopmental condition. Poor focus without an ADHD diagnosis may be a functional issue related to Qi Deficiency in TCM. If your focus problems are new or getting worse, consult a healthcare provider. TCM body typing complements but doesn't replace medical evaluation.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can help improve focus from a TCM perspective?", "zh-TW": "", ja: "" },
+      a: { en: "Regular meal times with warm, cooked foods stabilize Qi production. Light physical movement between mental tasks prevents stagnation. Ginseng tea (if appropriate for your type) may provide a gentle boost. Avoid multitasking and cold foods, both of which scatter your Qi in different directions at once.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with poor focus?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match because their mental energy runs out quickly. They may also experience fatigue, pale complexion, and a soft voice. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-cry-so-easily": [
+    {
+      q: { en: "Is crying easily a sign of weakness?", "zh-TW": "", ja: "" },
+      a: { en: "Not at all. In TCM, easy crying often indicates that your Liver Qi is stagnant and your Heart is overactive. Emotions that should flow through you are getting stuck and overflowing through your tear ducts. It's not weakness. It's a pressure release valve on a system that's too full.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why do I cry more before my period?", "zh-TW": "", ja: "" },
+      a: { en: "Before menstruation, Blood moves downward and Liver Qi tends to rise. This creates an internal tension that makes emotional regulation harder. In TCM, this is classic Liver Qi Stagnation affecting the Heart. Many women experience heightened emotional sensitivity in the days before their period for this exact reason.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can food or herbs help with being overly emotional?", "zh-TW": "", ja: "" },
+      a: { en: "Rose tea and chrysanthemum tea are traditionally used to soothe the Liver and calm the Heart. Foods that nourish Blood, like jujube dates and dark leafy greens, may also help stabilize emotions. Avoid excessive coffee and alcohol, which agitate the Heart and Liver.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with crying easily?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because their emotional energy gets bottled up and overflows. The Qi Deficient type (气虚质) is the secondary match because they lack the energy to contain their emotions. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-no-patience": [
+    {
+      q: { en: "Is impatience a personality trait or a body pattern?", "zh-TW": "", ja: "" },
+      a: { en: "It can be both. In TCM, chronic impatience and irritability often signal Liver Qi Stagnation or Liver Fire. When energy should flow smoothly but gets stuck, it generates internal friction that manifests as a short temper. Your personality plays a role, but your internal energy pattern can turn up the volume significantly.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why am I more impatient when I don't sleep well?", "zh-TW": "", ja: "" },
+      a: { en: "Poor sleep depletes Yin, and when Yin is low, Yang heat rises unchecked. This excess heat in the Liver makes irritability spike. It's like a stove with the flame turned up too high. Without enough cooling Yin to balance it, everything burns faster, including your patience.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can changing my diet help with impatience?", "zh-TW": "", ja: "" },
+      a: { en: "It may. Avoiding spicy food, fried food, alcohol, and excessive coffee can reduce Liver heat. Adding cooling foods like celery, cucumber, and mung bean soup may help. In TCM, the Liver is the organ most affected by what you eat and drink, and irritability is often the first sign that something is off.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with no patience?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Stagnant type (气郁质) is the primary match because their stuck energy creates internal pressure that leaks out as irritability. They may also experience mood swings and chest tightness. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-a-chronic-cough": [
+    {
+      q: { en: "Why won't my cough go away even after the cold is gone?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, a lingering cough often means the initial illness damaged your Lung Yin. The Lungs are like a delicate sponge that needs to stay moist. When Yin is depleted, the sponge dries out and becomes irritated, triggering a dry, ticklish cough that doesn't produce much. The cold left, but the dryness stayed.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What type of cough points to what TCM pattern?", "zh-TW": "", ja: "" },
+      a: { en: "A dry, ticklish cough with no phlegm often points to Yin Deficiency. A wet cough with lots of phlegm suggests Phlegm Damp. A cough worse at night may indicate Yin Deficiency. A cough worse in the morning with lots of clearing may indicate Phlegm. The character of the cough tells the story.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can honey and pear help a chronic cough?", "zh-TW": "", ja: "" },
+      a: { en: "Yes, both are traditionally used in TCM to moisten the Lungs. Steamed pear with rock sugar and honey is a classic remedy for dry cough. Asian pear is preferred because it's more hydrating. These work best for the dry, Yin-deficient type of cough, not for the wet, phlegmy type.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with chronic cough?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) gets dry, lingering coughs. The Phlegm Damp type (痰湿质) gets wet, productive coughs with lots of phlegm. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-always-have-a-sore-throat": [
+    {
+      q: { en: "Why does my throat hurt when I'm not sick?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, a recurring sore throat without infection often points to Yin Deficiency. Your body lacks enough cooling moisture, so heat accumulates in the upper body. The throat is one of the first places this internal heat shows up. It's like a chimney that's too dry. The smallest spark of heat creates irritation.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Why is my throat worse in the morning?", "zh-TW": "", ja: "" },
+      a: { en: "During sleep, Yin is supposed to replenish. If your Yin is deficient, overnight recovery falls short, and heat builds up by morning. Mouth breathing at night can worsen it, but the root is often internal dryness. Sipping warm water with honey first thing may help more than you'd expect.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Should I drink cold water for a sore throat?", "zh-TW": "", ja: "" },
+      a: { en: "Cold water feels good temporarily but may actually worsen the root problem. In TCM, cold impairs the Spleen's ability to produce fluids, which feeds the dryness cycle. Warm or room temperature water with honey, loquat, or licorice root is more supportive. The goal is to moisten, not just numb.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with sore throat?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match because they lack the cooling moisture that protects the throat. They may also experience night sweats, dry mouth, and feeling warm. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-post-nasal-drip": [
+    {
+      q: { en: "What is post-nasal drip in TCM terms?", "zh-TW": "", ja: "" },
+      a: { en: "TCM calls this Phlegm rising upward. When the Spleen can't process fluids properly, the excess moisture gets transformed into phlegm, and it drips down from the nasal passages into the throat. It's like a gutter that overflows because the downpipe is blocked. The water finds its own path down.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is post-nasal drip the same as a sinus infection?", "zh-TW": "", ja: "" },
+      a: { en: "Not necessarily. A sinus infection involves active inflammation and often thick, colored discharge. Post-nasal drip can be chronic and low-grade, with clear or thin mucus. If yours has been going on for months without other signs of infection, the TCM pattern is more likely Phlegm Damp than an active infection.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can dairy make post-nasal drip worse?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, dairy is considered phlegm-generating. Milk, cheese, and ice cream may increase mucus production, especially in someone with a Phlegm Damp constitution. Reducing dairy for 2 to 3 weeks and observing whether your symptoms change is a simple way to test this connection for yourself.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with post-nasal drip?", "zh-TW": "", ja: "" },
+      a: { en: "The Phlegm Damp type (痰湿质) is the primary match because their body tends to generate excess phlegm. They may also experience sinus congestion, a feeling of heaviness, and bloating. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-wake-up-to-pee": [
+    {
+      q: { en: "How many times is normal to wake up to pee?", "zh-TW": "", ja: "" },
+      a: { en: "Once may be normal for some. Two or more times every night is worth looking into. In TCM, frequent nighttime urination often points to Kidney Yang Deficiency. Your Kidneys can't hold fluids overnight, so what should be stored gets released. Think of a leaky bucket. You fill it at bedtime but it empties before morning.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is waking up to pee the same as an enlarged prostate?", "zh-TW": "", ja: "" },
+      a: { en: "For men, prostate issues are one possible cause and should be checked. But many people, including women, wake up to pee without any structural cause. In TCM, Kidney Yang Deficiency is the most common pattern. The body lacks the warmth to hold and process fluids overnight.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can help reduce nighttime urination?", "zh-TW": "", ja: "" },
+      a: { en: "Stop drinking fluids 2 hours before bed. Avoid cold drinks entirely in the evening. Warm water or a small cup of ginger tea at dinner may actually help by supporting Kidney Yang. Walnuts and black sesame seeds are traditionally used to strengthen the Kidneys. Consistency over weeks matters more than any single remedy.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with nighttime urination?", "zh-TW": "", ja: "" },
+      a: { en: "The Yang Deficient type (阳虚质) is the primary match because they lack the internal warmth that helps the Kidneys hold fluids at night. They may also feel cold, have low back pain, and prefer hot drinks. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-tinnitus": [
+    {
+      q: { en: "What does ringing in the ears mean in TCM?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, tinnitus is most often linked to Kidney Yin Deficiency. The Kidneys open into the ears, and when Kidney Yin is low, empty heat rises to the head and creates the sensation of ringing. Low-pitched ringing often suggests Kidney deficiency, while high-pitched ringing may indicate Liver Fire rising.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is tinnitus always permanent?", "zh-TW": "", ja: "" },
+      a: { en: "Not necessarily. Tinnitus from loud noise exposure may be permanent, but tinnitus related to internal patterns in TCM may improve when the underlying imbalance is addressed. If your tinnitus comes and goes, or gets worse when you're tired or stressed, the internal pattern approach is worth exploring.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What foods may help with tinnitus?", "zh-TW": "", ja: "" },
+      a: { en: "Black sesame seeds, walnuts, goji berries, and bone broth are traditionally used to nourish Kidney Yin. Avoiding excessive salt, coffee, and alcohol may also help because these deplete Yin and aggravate the heat that causes ringing. Think of feeding the roots so the leaves (ears) stop rustling.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with tinnitus?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match because their internal heat rises to the head and creates the ringing sensation. They may also experience night sweats, dry mouth, and feeling warm at night. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-am-i-so-sensitive-to-heat": [
+    {
+      q: { en: "Why can't I handle warm weather when others are fine?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, heat intolerance often points to Yin Deficiency. Yin is your body's cooling system. When it's low, your internal temperature regulation struggles. Everyone else is comfortable, but your body's AC is broken. You may also notice you feel warmest in the afternoon and evening when Yang naturally peaks.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is heat sensitivity the same as hot flashes?", "zh-TW": "", ja: "" },
+      a: { en: "Related but different. Hot flashes are sudden surges of heat, often linked to hormonal changes. General heat sensitivity is a constant state of running warm. Both may involve Yin Deficiency in TCM, but hot flashes are more intense and episodic while heat sensitivity is a steady background condition.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What can help with heat sensitivity?", "zh-TW": "", ja: "" },
+      a: { en: "Cooling foods like cucumber, watermelon, mung bean soup, and mint tea may help. Avoid spicy food, heavy fried meals, and alcohol, which add heat. Staying hydrated with room temperature or cool (not ice-cold) water supports your body's natural cooling. The goal is to nourish Yin so your internal AC works better.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with heat sensitivity?", "zh-TW": "", ja: "" },
+      a: { en: "The Yin Deficient type (阴虚质) is the primary match because they lack the cooling moisture that regulates body temperature. They may also experience night sweats, dry skin, and a preference for cold drinks. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-wake-up-tired": [
+    {
+      q: { en: "Why do I wake up tired after sleeping 8 hours?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, sleep quantity doesn't equal sleep quality if your Qi is deficient. Your body may go through the motions of sleeping but doesn't have enough energy to do the actual repair work. It's like charging a phone with a damaged battery. It sits on the charger for hours but barely holds any charge.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Is waking up tired a sign of sleep apnea?", "zh-TW": "", ja: "" },
+      a: { en: "It might be, especially if you snore or wake up gasping. Sleep apnea should be evaluated by a doctor. If you've been tested and it's negative, the TCM angle is worth exploring. Qi Deficiency can produce the same exhausted-on-waking feeling without any breathing obstruction.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What time should I go to bed according to TCM?", "zh-TW": "", ja: "" },
+      a: { en: "TCM recommends being asleep by 11 PM. The Gallbladder meridian is most active from 11 PM to 1 AM, and the Liver from 1 AM to 3 AM. These hours are when your body does its deepest repair and detox work. Missing this window consistently may explain why you wake up tired even after enough hours.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with waking up tired?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match because their body can't convert rest into energy efficiently. They may also experience shortness of breath, poor appetite, and easy sweating. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
+  "why-do-i-have-cold-sweats": [
+    {
+      q: { en: "What are cold sweats in TCM terms?", "zh-TW": "", ja: "" },
+      a: { en: "In TCM, cold sweats indicate that your defensive Qi (Wei Qi) is too weak to hold your pores closed. Your body is sweating but the sweat isn't warm because there isn't enough Yang energy behind it. It's like a door that won't stay shut because the latch is broken. Moisture escapes when it shouldn't.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Are cold sweats the same as night sweats?", "zh-TW": "", ja: "" },
+      a: { en: "They're related but different. Night sweats happen during sleep and are more associated with Yin Deficiency. Cold sweats can happen anytime and are more associated with Qi or Yang Deficiency. If your sweat feels clammy and cold to the touch, that's the Qi Deficient pattern. If you wake up drenched in warm sweat, that's more Yin Deficient.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Should I be worried about cold sweats?", "zh-TW": "", ja: "" },
+      a: { en: "If cold sweats are new, sudden, or accompanied by chest pain, dizziness, or fainting, seek medical attention immediately. Chronic cold sweats without acute symptoms are more likely a constitutional pattern. In TCM, they point to Qi Deficiency and may improve with supportive foods and lifestyle changes.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is most associated with cold sweats?", "zh-TW": "", ja: "" },
+      a: { en: "The Qi Deficient type (气虚质) is the primary match because their energy is too weak to regulate sweating properly. They may also experience spontaneous daytime sweating, fatigue, and a weak voice. Take the free EastType quiz to discover your type.", "zh-TW": "", ja: "" },
+    },
+  ],
 }

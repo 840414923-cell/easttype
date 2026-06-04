@@ -84,7 +84,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
       { q: { en: "What's the most common mistake balanced types make?", "zh-TW": "平和體質最常犯的錯誤是什麼？", ja: "平和体質の人が一番よくやる間違いは何ですか？" }, a: { en: "Taking it for granted. Balanced types often ignore early warning signs because they're used to feeling fine. A little fatigue, a bit of poor sleep, occasional digestive grumbling — they brush it off because historically, their body has always bounced back. But the bouncing gets slower as you age. Start paying attention now, not when something actually breaks. Prevention is boring but it's a lot less annoying than fixing.", "zh-TW": "把健康視為理所當然。平和型常忽略早期警訊，因為習慣了感覺良好。一點疲勞、睡不好、偶爾消化咕嚕叫，都不當回事，因為身體一直以來都會恢復。但年紀大了恢復速度會變慢。現在就開始注意，不是等到真的壞了才注意。預防很無聊，但比修復省事多了。", ja: "当たり前だと思い込むこと。平和タイプは体調の変化の早期サインを見逃しがち。ずっと元気だったから。ちょっとした疲れ、睡眠不足、時々の胃の不調。以前は必ず回復してたから気にしない。でも年齢とともに回復は遅くなる。何か壊れてからじゃなくて、今から気をつけて。予防はつまらないけど、直すよりずっとマシ。" } },
     ],
     relatedWellness: ["chinese-medicine-body-types", "chinese-medicine-foods-for-energy", "foods-that-warm-your-body"],
-    relatedPatterns: [],
+    relatedPatterns: ["natural-balance"],
     relatedSymptoms: [],
   },
 
@@ -159,7 +159,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["why-am-i-always-tired", "chinese-medicine-foods-for-energy", "cold-hands-and-feet"],
     relatedPatterns: ["low-vitality"],
-    relatedSymptoms: ["why-am-i-always-tired", "why-am-i-always-sleepy", "why-am-i-always-unmotivated", "why-do-i-get-sick-so-often", "why-do-i-feel-dizzy", "why-cant-i-lose-weight"],
+    relatedSymptoms: ["why-am-i-always-tired", "why-am-i-always-sleepy", "why-am-i-always-unmotivated", "why-do-i-get-sick-so-often", "why-do-i-feel-dizzy", "why-cant-i-lose-weight", "why-is-my-libido-low", "why-is-my-metabolism-so-slow", "why-do-i-have-dark-circles"],
   },
 
   yang_deficient: {
@@ -232,7 +232,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["cold-hands-and-feet", "foods-that-warm-your-body", "why-am-i-always-tired"],
     relatedPatterns: ["cold-sensitivity"],
-    relatedSymptoms: ["why-am-i-always-cold", "why-do-my-hands-and-feet-go-numb"],
+    relatedSymptoms: ["why-am-i-always-cold", "why-do-my-hands-and-feet-go-numb", "why-is-my-libido-low", "why-do-i-have-poor-circulation"],
   },
 
   yin_deficient: {
@@ -305,7 +305,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["night-sweats-chinese-medicine", "insomnia-chinese-medicine", "chinese-medicine-body-types"],
     relatedPatterns: ["internal-heat"],
-    relatedSymptoms: ["why-do-i-have-night-sweats", "why-is-my-skin-so-dry", "why-is-my-hair-falling-out", "why-cant-i-fall-asleep", "why-am-i-always-thirsty", "why-do-i-feel-dizzy"],
+    relatedSymptoms: ["why-do-i-have-night-sweats", "why-is-my-skin-so-dry", "why-is-my-hair-falling-out", "why-cant-i-fall-asleep", "why-am-i-always-thirsty", "why-do-i-feel-dizzy", "why-do-i-have-dark-circles", "why-am-i-always-hungry", "why-do-i-have-menopause-symptoms"],
   },
 
   phlegm_damp: {
@@ -523,7 +523,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["cold-hands-and-feet", "chinese-medicine-body-types", "foods-that-warm-your-body"],
     relatedPatterns: ["blood-stasis"],
-    relatedSymptoms: ["why-do-my-hands-and-feet-go-numb", "why-do-i-have-headaches"],
+    relatedSymptoms: ["why-do-my-hands-and-feet-go-numb", "why-do-i-have-headaches", "why-do-i-have-poor-circulation", "why-is-my-period-so-heavy", "why-is-my-complexion-dull"],
   },
 
   qi_stagnant: {
@@ -593,7 +593,7 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["why-am-i-always-tired", "chinese-medicine-body-types", "insomnia-chinese-medicine"],
     relatedPatterns: ["stuck-energy"],
-    relatedSymptoms: ["why-do-i-feel-anxious", "why-are-my-moods-all-over-the-place", "why-do-i-overthink-everything", "why-am-i-so-irritable", "why-do-i-have-headaches"],
+    relatedSymptoms: ["why-do-i-feel-anxious", "why-are-my-moods-all-over-the-place", "why-do-i-overthink-everything", "why-am-i-so-irritable", "why-do-i-have-headaches", "why-do-i-have-pms", "why-do-i-have-period-cramps", "why-is-my-period-irregular", "why-do-i-have-breast-tenderness", "why-do-i-have-menopause-symptoms"],
   },
 
   sensitive: {
@@ -666,6 +666,6 @@ export const TYPE_DETAILS: Record<ConstitutionId, TypeDetail> = {
     ],
     relatedWellness: ["chinese-medicine-body-types", "cold-hands-and-feet", "why-am-i-always-tired"],
     relatedPatterns: ["high-sensitivity"],
-    relatedSymptoms: ["why-do-i-get-sick-so-often", "why-do-i-feel-anxious"],
+    relatedSymptoms: ["why-do-i-get-sick-so-often", "why-do-i-feel-anxious", "why-do-i-have-seasonal-allergies"],
   },
 }

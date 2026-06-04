@@ -32,6 +32,7 @@ const tagColors: Record<string, string> = {
   "Yin Deficiency": "bg-red-900/20 text-red-400",
   "Phlegm Damp": "bg-emerald-900/20 text-emerald-400",
   "Qi Stagnation": "bg-violet-900/20 text-violet-400",
+  "Balanced": "bg-amber-900/20 text-amber-300",
 }
 
 const jsonLd = buildBreadcrumbJsonLd([

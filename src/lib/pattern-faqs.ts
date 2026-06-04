@@ -145,4 +145,22 @@ export const PATTERN_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Sensitive body type (特禀质) is the primary match. About 5% of people fall into this category. They react strongly to environmental triggers, absorb others' emotions, and tend toward allergies and skin sensitivities. Take the free EastType quiz to discover if this is your type and get personalized food suggestions.", "zh-TW": "", ja: "" },
     },
   ],
+  "natural-balance": [
+    {
+      q: { en: "What is the Natural Balance pattern in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "The Natural Balance pattern is what Chinese medicine calls the Balanced constitution (平和质). It is the baseline all other constitutions deviate from. Your body self-regulates without drama, your energy stays steady, your digestion works smoothly, and your emotions flow without getting stuck. Roughly 10% of people fall into this category. It sounds boring, but having a body that just handles things without complaining is genuinely underrated.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can I lose my Natural Balance pattern?", "zh-TW": "", ja: "" },
+      a: { en: "Yes, and this is the part nobody warns you about. Years of bad sleep, poor diet, chronic stress, and zero movement can gradually shift your constitution toward one of the imbalanced patterns. Your body is resilient and bounces back quickly, but even good rubber bands snap if you stretch them too far. The biggest risk for balanced types is complacency: nothing hurts, so you stop paying attention.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Do I need to follow a specific diet if I'm naturally balanced?", "zh-TW": "", ja: "" },
+      a: { en: "Nothing extreme. Eat a varied, seasonal diet with plenty of whole grains, vegetables, and lean proteins. Avoid the obvious culprits: excessive sugar, fast food, and chaotic eating schedules. You don't need supplements unless a blood test shows a deficiency. The diet industry loves inventing problems to sell solutions. You don't have the problem. Don't buy the solution.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Which body type is connected to the Natural Balance pattern?", "zh-TW": "", ja: "" },
+      a: { en: "The Balanced body type (平和质) is the primary match. About 10% of people have this constitution. They sleep well, eat without drama, rarely get sick, and adapt easily to seasonal changes. Take the free EastType quiz to confirm your type and learn how to protect your natural balance.", "zh-TW": "", ja: "" },
+    },
+  ],
 }
