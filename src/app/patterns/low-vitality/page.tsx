@@ -5,15 +5,15 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "low-vitality"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "Low Vitality Pattern — Always Tired, Low Energy, Exhausted"
-const DESC = "The Low Vitality pattern connects chronic fatigue, low energy, and afternoon crashes to Qi Deficiency in Traditional Chinese Medicine. Learn which foods and habits may help restore your energy."
+const TITLE = "Always Tired? Your Body Type Might Explain Why"
+const DESC = "Sleep 8 hours and still exhausted? Your body type might be the reason. Discover which Eastern body pattern causes chronic fatigue and what you can eat to get your energy back."
 
 export const metadata: Metadata = {
   title: `${TITLE} | EastType`,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Always running on empty? The Low Vitality pattern explains why your battery never charges to full and what Eastern body wisdom says about rebuilding energy.",
+    description: "Sleep 8 hours and still exhausted? Your body type might be the reason. Discover which Eastern pattern causes chronic fatigue.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Always running on empty? Learn why your battery never charges to full.",
+    description: "Sleep 8 hours and still exhausted? Your body type might be the reason.",
   },
   alternates: { canonical: URL },
 }
