@@ -8,7 +8,7 @@ import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 
 const LL = {
-  badge: "33+ Symptom Guides · 8 Patterns · 9 Body Types",
+  badge: "70 Symptom Guides · 9 Patterns · 9 Body Types",
   title1: "Why Are You Always Tired, Bloated, Anxious, or Struggling to Sleep?",
   subtitle: "Discover the body pattern behind recurring symptoms and get personalized wellness guidance.",
   cta: "Take the Free 5-Min Quiz",

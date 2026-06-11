@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function NotFound() {
   const links = [
     { href: "/quiz", label: "Take the Quiz", desc: "Discover your Eastern body type in 5 minutes" },
-    { href: "/symptoms", label: "Browse Symptoms", desc: "33 symptom guides with pattern insights" },
+    { href: "/symptoms", label: "Browse Symptoms", desc: "70 symptom guides with pattern insights" },
     { href: "/patterns", label: "Explore Patterns", desc: "8 body patterns explained in plain English" },
   ]
 
