@@ -1,7 +1,7 @@
 "use client"
 
-import { useSearchParams } from "next/navigation"
-import { Suspense } from "react"
+import { useSearchParams, useRouter } from "next/navigation"
+import { Suspense, useState } from "react"
 import Link from "next/link"
 import { TYPES } from "@/lib/constitution-data"
 import { TYPE_VIRAL } from "@/lib/type-viral"
@@ -17,9 +17,13 @@ const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 
 function ResultContent() {
   const params = useSearchParams()
+  const router = useRouter()
   const primaryId = (params.get("primary") ?? "balanced") as ConstitutionId
   const secondaryId = params.get("secondary") as ConstitutionId | null
   const sex = params.get("sex") as "female" | "male" | null
+  const [inviteCode, setInviteCode] = useState("")
+  const [inviteStatus, setInviteStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
+  const [inviteError, setInviteError] = useState("")
   const t = TYPES[primaryId] ?? TYPES.balanced
   const secondary = secondaryId ? TYPES[secondaryId] : null
   const viral = TYPE_VIRAL[primaryId] ?? TYPE_VIRAL.balanced
@@ -72,6 +76,32 @@ function ResultContent() {
       </div>
     </CreemCheckout>
   )
+
+  async function handleInviteRedeem() {
+    if (!inviteCode.trim()) return
+    setInviteStatus("loading")
+    setInviteError("")
+    try {
+      const res = await fetch("/api/invite/verify", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ code: inviteCode.trim(), type: primaryId, sex: sex ?? "unknown" }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        setInviteStatus("error")
+        setInviteError(data.error || "Invalid code")
+        return
+      }
+      setInviteStatus("success")
+      document.cookie = "et_plan=basic; path=/; max-age=31536000; secure; samesite=lax"
+      const reportUrl = `/report-v2?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
+      setTimeout(() => router.push(reportUrl), 800)
+    } catch {
+      setInviteStatus("error")
+      setInviteError("Something went wrong")
+    }
+  }
 
   return (
     <>
@@ -237,6 +267,47 @@ function ResultContent() {
             <ProCta />
             <BasicCta />
           </div>
+
+          {/* ━━ Invite Code ━━ */}
+          <div className="mt-4 pt-4 border-t border-card-border/30">
+            <button
+              onClick={() => {
+                const el = document.getElementById("invite-section")
+                if (el) el.classList.toggle("hidden")
+              }}
+              className="w-full text-center text-xs text-text2 cursor-pointer hover:text-accent transition-colors"
+            >
+              {"Have an invite code?"}
+            </button>
+            <div id="invite-section" className="hidden mt-3">
+              <div className="flex gap-2">
+                <input
+                  type="text"
+                  value={inviteCode}
+                  onChange={(e) => setInviteCode(e.target.value.toUpperCase())}
+                  onKeyDown={(e) => e.key === "Enter" && handleInviteRedeem()}
+                  placeholder="ET-XXXXXXXX"
+                  maxLength={11}
+                  disabled={inviteStatus === "loading" || inviteStatus === "success"}
+                  className="flex-1 px-3 py-2 rounded bg-[rgba(201,163,85,0.05)] text-text2 border border-[rgba(201,163,85,0.15)] outline-none focus:border-accent/40 font-mono text-sm placeholder:text-text2/30"
+                />
+                <button
+                  onClick={handleInviteRedeem}
+                  disabled={inviteStatus === "loading" || inviteStatus === "success" || !inviteCode.trim()}
+                  className="px-4 py-2 rounded bg-[rgba(201,163,85,0.1)] text-accent text-sm font-semibold cursor-pointer hover:bg-[rgba(201,163,85,0.2)] transition-colors disabled:opacity-40"
+                >
+                  {inviteStatus === "loading" ? "..." : inviteStatus === "success" ? "✓" : "Unlock"}
+                </button>
+              </div>
+              {inviteStatus === "error" && (
+                <p className="text-red-400 text-xs mt-1.5">{inviteError}</p>
+              )}
+              {inviteStatus === "success" && (
+                <p className="text-green-400 text-xs mt-1.5">Code accepted! Redirecting to your report...</p>
+              )}
+            </div>
+          </div>
+
           <div className="flex items-center justify-center gap-3 mt-2 text-[10px] text-text2">
             <span>{"🔒 Secure checkout"}</span>
             <span>·</span>
