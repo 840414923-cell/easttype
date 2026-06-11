@@ -4,6 +4,7 @@ import { useState } from "react"
 import dynamic from "next/dynamic"
 
 const PromoImageGenerator = dynamic(() => import("@/components/promo-image-generator"), { ssr: false })
+const ContentStudio = dynamic(() => import("@/components/content-studio"), { ssr: false })
 
 const CHANNELS: Record<string, string> = {
   A7: "Instagram",
@@ -11,8 +12,10 @@ const CHANNELS: Record<string, string> = {
   C1: "TikTok",
   D5: "Twitter / X",
   E9: "YouTube",
-  F2: "Other / Manual",
+  F2: "其他/手动",
 }
+
+type Tab = "codes" | "promo" | "studio"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -36,14 +39,14 @@ export default function AdminPage() {
   }> | null>(null)
   const [loading, setLoading] = useState(false)
 
-  const [tab, setTab] = useState<"codes" | "images">("codes")
+  const [tab, setTab] = useState<Tab>("codes")
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
   function handleLogin() {
     setLoginError("")
     if (!password) {
-      setLoginError("Enter password")
+      setLoginError("请输入密码")
       return
     }
     setAuthed(true)
@@ -56,14 +59,14 @@ export default function AdminPage() {
       const res = await fetch("/api/admin/stats", { headers: headers() })
       if (res.status === 401) {
         setAuthed(false)
-        setLoginError("Wrong password")
+        setLoginError("密码错误")
         return
       }
       const data = await res.json()
       setStats(data.stats || {})
       setCodes(data.codes || [])
     } catch {
-      console.error("Failed to fetch stats")
+      console.error("获取数据失败")
     } finally {
       setLoading(false)
     }
@@ -86,7 +89,7 @@ export default function AdminPage() {
       setGeneratedCodes(data.codes || [])
       await fetchData()
     } catch {
-      console.error("Failed to generate")
+      console.error("生成失败")
     } finally {
       setGenerating(false)
     }
@@ -96,17 +99,19 @@ export default function AdminPage() {
     navigator.clipboard.writeText(generatedCodes.join("\n"))
   }
 
+  const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []
+
   if (!authed) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#0f0d0a]">
         <div className="w-80 space-y-4">
-          <h1 className="text-xl font-bold text-[#e8dcc8] text-center">EastType Admin</h1>
+          <h1 className="text-xl font-bold text-[#e8dcc8] text-center">EastType 后台管理</h1>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleLogin()}
-            placeholder="Password"
+            placeholder="输入密码"
             className="w-full px-4 py-2.5 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C9A355]"
           />
           {loginError && <p className="text-red-400 text-sm text-center">{loginError}</p>}
@@ -114,7 +119,7 @@ export default function AdminPage() {
             onClick={handleLogin}
             className="w-full py-2.5 rounded bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853]"
           >
-            Login
+            登录
           </button>
         </div>
       </div>
@@ -123,30 +128,31 @@ export default function AdminPage() {
 
   return (
     <div className="min-h-screen bg-[#0f0d0a] text-[#e8dcc8] p-6">
-      <div className="max-w-4xl mx-auto space-y-8">
+      <div className="max-w-5xl mx-auto space-y-8">
 
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-[#C9A355]">EastType Admin</h1>
+        <div className="flex items-center justify-between flex-wrap gap-3">
+          <h1 className="text-2xl font-bold text-[#C9A355]">EastType 后台管理</h1>
           <div className="flex items-center gap-3">
             <div className="flex bg-[#1e1a14] rounded-lg border border-[#2a2418] overflow-hidden">
-              <button
-                onClick={() => setTab("codes")}
-                className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === "codes" ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
-              >
-                Invite Codes
-              </button>
-              <button
-                onClick={() => setTab("images")}
-                className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === "images" ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
-              >
-                Promo Images
-              </button>
+              {([
+                ["codes", "激活码管理"],
+                ["promo", "推广图片"],
+                ["studio", "内容工厂"],
+              ] as [Tab, string][]).map(([id, label]) => (
+                <button
+                  key={id}
+                  onClick={() => setTab(id)}
+                  className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
             <button
               onClick={fetchData}
               className="px-4 py-2 rounded bg-[#2a2418] text-sm cursor-pointer hover:bg-[#3a3428]"
             >
-              Refresh
+              刷新
             </button>
           </div>
         </div>
@@ -155,28 +161,27 @@ export default function AdminPage() {
         <>
         {stats && (
           <div>
-            <h2 className="text-lg font-semibold mb-3">Channel Stats</h2>
+            <h2 className="text-lg font-semibold mb-3">渠道统计</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {Object.entries(stats).map(([ch, s]) => (
                 <div key={ch} className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
-                  <div className="text-sm text-[#7a6e5e]">{ch} ({CHANNELS[ch] || "Unknown"})</div>
-                  <div className="text-2xl font-bold text-[#C9A355] mt-1">{s.used} / {s.total}</div>
-                  <div className="text-xs text-[#7a6e5e] mt-1">{s.unused} remaining</div>
+                  <div className="text-sm text-[#7a6e5e]">{ch} ({CHANNELS[ch] || "未知"})</div>
+                  <div className="text-2xl font-bold text-[#C9A355] mt-1">已用 {s.used} / 总计 {s.total}</div>
+                  <div className="text-xs text-[#7a6e5e] mt-1">剩余 {s.unused} 个</div>
                 </div>
               ))}
               {Object.keys(stats).length === 0 && (
-                <p className="text-[#7a6e5e] col-span-3">No codes yet.</p>
+                <p className="text-[#7a6e5e] col-span-3">暂无激活码</p>
               )}
             </div>
           </div>
         )}
 
-        {/* Generate */}
         <div>
-          <h2 className="text-lg font-semibold mb-3">Generate Codes</h2>
+          <h2 className="text-lg font-semibold mb-3">生成激活码</h2>
           <div className="flex gap-3 items-end">
             <div>
-              <label className="text-xs text-[#7a6e5e] block mb-1">Channel</label>
+              <label className="text-xs text-[#7a6e5e] block mb-1">渠道</label>
               <select
                 value={genChannel}
                 onChange={(e) => setGenChannel(e.target.value)}
@@ -188,7 +193,7 @@ export default function AdminPage() {
               </select>
             </div>
             <div>
-              <label className="text-xs text-[#7a6e5e] block mb-1">Count</label>
+              <label className="text-xs text-[#7a6e5e] block mb-1">数量</label>
               <input
                 type="number"
                 min="1"
@@ -203,15 +208,15 @@ export default function AdminPage() {
               disabled={generating}
               className="px-6 py-2 rounded bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] disabled:opacity-50"
             >
-              {generating ? "..." : "Generate"}
+              {generating ? "生成中..." : "生成"}
             </button>
           </div>
 
           {generatedCodes.length > 0 && (
             <div className="mt-4 bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm font-semibold">Generated ({genChannel}):</span>
-                <button onClick={copyCodes} className="text-xs text-[#C9A355] cursor-pointer hover:underline">Copy all</button>
+                <span className="text-sm font-semibold">已生成 ({genChannel})：</span>
+                <button onClick={copyCodes} className="text-xs text-[#C9A355] cursor-pointer hover:underline">复制全部</button>
               </div>
               <div className="space-y-1">
                 {generatedCodes.map((c) => (
@@ -222,19 +227,18 @@ export default function AdminPage() {
           )}
         </div>
 
-        {/* All codes */}
         {codes && (
           <div>
-            <h2 className="text-lg font-semibold mb-3">All Codes ({codes.length})</h2>
+            <h2 className="text-lg font-semibold mb-3">全部激活码 ({codes.length})</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="text-[#7a6e5e] text-left border-b border-[#2a2418]">
-                    <th className="py-2 px-3">Code</th>
-                    <th className="py-2 px-3">Channel</th>
-                    <th className="py-2 px-3">Status</th>
-                    <th className="py-2 px-3">Used By</th>
-                    <th className="py-2 px-3">Used At</th>
+                    <th className="py-2 px-3">激活码</th>
+                    <th className="py-2 px-3">渠道</th>
+                    <th className="py-2 px-3">状态</th>
+                    <th className="py-2 px-3">使用者</th>
+                    <th className="py-2 px-3">使用时间</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -249,14 +253,14 @@ export default function AdminPage() {
                         <td className="py-2 px-3 text-[#7a6e5e]">{c.channel}</td>
                         <td className="py-2 px-3">
                           <span className={c.status === "used" ? "text-red-400" : "text-green-400"}>
-                            {c.status}
+                            {c.status === "used" ? "已使用" : "未使用"}
                           </span>
                         </td>
                         <td className="py-2 px-3 text-[#7a6e5e]">
                           {c.usedByType ? `${c.usedByType} / ${c.usedBySex}` : "—"}
                         </td>
                         <td className="py-2 px-3 text-[#7a6e5e]">
-                          {c.usedAt ? new Date(c.usedAt).toLocaleDateString() : "—"}
+                          {c.usedAt ? new Date(c.usedAt).toLocaleDateString("zh-CN") : "—"}
                         </td>
                       </tr>
                     ))}
@@ -266,12 +270,16 @@ export default function AdminPage() {
           </div>
         )}
 
-        {loading && <p className="text-[#7a6e5e] text-center">Loading...</p>}
+        {loading && <p className="text-[#7a6e5e] text-center">加载中...</p>}
         </>
         )}
 
-        {tab === "images" && (
-          <PromoImageGenerator unusedCodes={codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []} />
+        {tab === "promo" && (
+          <PromoImageGenerator unusedCodes={unusedCodes} />
+        )}
+
+        {tab === "studio" && (
+          <ContentStudio unusedCodes={unusedCodes} />
         )}
       </div>
     </div>
