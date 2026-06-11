@@ -304,8 +304,7 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
           </p>
           <Link
             href="/quiz"
-            className="inline-block px-10 py-3.5 rounded-full font-medium text-bg hover:opacity-90 transition text-lg"
-            style={{ backgroundColor: type.color }}
+            className="inline-flex items-center justify-center px-10 py-3.5 rounded font-[family-name:var(--font-body)] text-lg font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.25)] hover:-translate-y-0.5"
           >
             Take the Quiz →
           </Link>

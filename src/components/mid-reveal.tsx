@@ -228,13 +228,13 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
                 key={opt.value}
                 onClick={() => handleLikert(opt.value)}
                 disabled={isTransitioning}
-                className={`w-full text-left p-4 rounded border-[1.5px] cursor-pointer transition-colors duration-200 flex items-center gap-4 min-h-[56px] ${
+                className={`w-full text-left p-4 rounded-2xl border-[1.5px] cursor-pointer transition-all duration-200 flex items-center gap-4 min-h-[56px] ${
                   selectedValue === opt.value
-                    ? "border-accent bg-[rgba(201,163,85,0.15)] text-accent"
-                    : "border-card-border bg-card-bg text-text hover:border-[rgba(201,163,85,0.3)] hover:bg-card-hover"
+                    ? "border-accent bg-[rgba(201,163,85,0.15)] text-accent shadow-[0_0_20px_rgba(201,163,85,0.1)]"
+                    : "border-[rgba(201,163,85,0.2)] bg-[rgba(201,163,85,0.04)] text-text hover:border-accent hover:bg-[rgba(201,163,85,0.1)] hover:shadow-[0_2px_12px_rgba(201,163,85,0.08)]"
                 } disabled:cursor-default`}
               >
-                <span className="flex-shrink-0 w-8 h-8 rounded-full border border-current flex items-center justify-center text-sm font-semibold opacity-60">
+                <span className="flex-shrink-0 w-8 h-8 rounded-full border border-accent/40 flex items-center justify-center text-sm font-semibold text-accent/70">
                   {opt.value}
                 </span>
                 <span className="text-base">{opt.en}</span>

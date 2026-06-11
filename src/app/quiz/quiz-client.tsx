@@ -223,7 +223,7 @@ export default function QuizClient() {
           <div className="flex gap-4 w-full max-w-xs">
             <button
               onClick={() => handleSexSelect("female")}
-              className="flex-1 py-4 rounded-2xl border-[1.5px] border-card-border bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,169,110,0.3)] hover:bg-card-hover hover:-translate-y-0.5"
+              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(201,163,85,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,163,85,0.6)] hover:bg-[rgba(201,163,85,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(201,163,85,0.15)]"
             >
               <div className="text-3xl mb-2">♀</div>
               <div className="font-semibold text-base">
@@ -232,7 +232,7 @@ export default function QuizClient() {
             </button>
             <button
               onClick={() => handleSexSelect("male")}
-              className="flex-1 py-4 rounded-2xl border-[1.5px] border-card-border bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,169,110,0.3)] hover:bg-card-hover hover:-translate-y-0.5"
+              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(201,163,85,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,163,85,0.6)] hover:bg-[rgba(201,163,85,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(201,163,85,0.15)]"
             >
               <div className="text-3xl mb-2">♂</div>
               <div className="font-semibold text-base">
@@ -324,13 +324,13 @@ export default function QuizClient() {
                   key={opt.value}
                   onClick={() => handleLikert(opt.value)}
                   disabled={isTransitioning}
-                  className={`w-full text-left p-4 rounded-2xl border-[1.5px] cursor-pointer transition-colors duration-200 flex items-center gap-4 min-h-[56px] ${
+                  className={`w-full text-left p-4 rounded-2xl border-[1.5px] cursor-pointer transition-all duration-200 flex items-center gap-4 min-h-[56px] ${
                     selectedValue === opt.value
-                      ? "border-accent bg-[rgba(201,169,110,0.15)] text-accent"
-                      : "border-card-border bg-card-bg text-text hover:border-[rgba(201,169,110,0.3)] hover:bg-card-hover"
+                      ? "border-accent bg-[rgba(201,169,110,0.15)] text-accent shadow-[0_0_20px_rgba(201,163,85,0.1)]"
+                      : "border-[rgba(201,163,85,0.2)] bg-[rgba(201,163,85,0.04)] text-text hover:border-accent hover:bg-[rgba(201,163,85,0.1)] hover:shadow-[0_2px_12px_rgba(201,163,85,0.08)]"
                   } disabled:cursor-default`}
                 >
-                  <span className="flex-shrink-0 w-8 h-8 rounded-full border border-current flex items-center justify-center text-sm font-semibold opacity-60">
+                  <span className="flex-shrink-0 w-8 h-8 rounded-full border border-accent/40 flex items-center justify-center text-sm font-semibold text-accent/70">
                     {opt.value}
                   </span>
                   <span className="text-base">
