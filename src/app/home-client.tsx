@@ -86,7 +86,8 @@ export default function HomeClient() {
           <div className="flex flex-col items-center gap-2 mb-6">
             <Link
               href="/quiz"
-              className="group relative inline-flex items-center justify-center px-10 py-4 rounded font-[family-name:var(--font-body)] text-lg font-semibold cursor-pointer no-underline transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(201,163,85,0.25)] bg-gradient-to-r from-accent to-accent2 text-bg"
+              className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+              style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
             >
               {LL.cta}
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -372,7 +373,8 @@ export default function HomeClient() {
           </p>
           <Link
             href="/quiz"
-            className="group relative inline-flex items-center justify-center px-10 py-4 rounded font-[family-name:var(--font-body)] text-base font-semibold cursor-pointer no-underline transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_0_50px_rgba(201,163,85,0.25)] bg-gradient-to-r from-accent to-accent2 text-bg"
+            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+            style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
           >
             Quick Quiz · ~5 min
             <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>

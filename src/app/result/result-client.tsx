@@ -57,7 +57,8 @@ function ResultContent() {
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "pro" }}
     >
       <div
-        className={`flex items-center justify-center w-full py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
+        className={`flex items-center justify-center w-full py-4 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_25px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
+        style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
       >
         {"Get My Full Kit — $12.99 →"}
       </div>
@@ -70,7 +71,8 @@ function ResultContent() {
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
       <div
-        className={`flex items-center justify-center w-full py-3 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
+        className={`flex items-center justify-center w-full py-3.5 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_50px_rgba(201,163,85,0.35)] shadow-[0_0_20px_rgba(201,163,85,0.12)] border-2 border-[rgba(255,255,255,0.12)] ${className}`}
+        style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
       >
         {"Get My Body Profile — $4.99 →"}
       </div>
