@@ -82,7 +82,7 @@ function ResultContent() {
     setInviteStatus("loading")
     setInviteError("")
     try {
-      const res = await fetch("/api/invite/verify", {
+      const res = await fetch("/api/invite", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code: inviteCode.trim(), type: primaryId, sex: sex ?? "unknown" }),
