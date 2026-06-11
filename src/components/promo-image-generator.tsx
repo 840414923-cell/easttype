@@ -76,25 +76,28 @@ export default function PromoImageGenerator({ unusedCodes }: Props) {
       }
       ctx.drawImage(bgImg, sx, sy, sw, sh, 0, 0, W, H)
 
-      const grad = ctx.createLinearGradient(0, H * 0.25, 0, H)
+      const grad = ctx.createLinearGradient(0, H * 0.15, 0, H)
       grad.addColorStop(0, "rgba(10,8,5,0)")
-      grad.addColorStop(0.35, "rgba(10,8,5,0.3)")
-      grad.addColorStop(0.55, "rgba(10,8,5,0.7)")
-      grad.addColorStop(0.7, "rgba(10,8,5,0.85)")
-      grad.addColorStop(1, "rgba(10,8,5,0.95)")
+      grad.addColorStop(0.25, "rgba(10,8,5,0.4)")
+      grad.addColorStop(0.4, "rgba(10,8,5,0.75)")
+      grad.addColorStop(0.55, "rgba(10,8,5,0.88)")
+      grad.addColorStop(1, "rgba(10,8,5,0.97)")
       ctx.fillStyle = grad
       ctx.fillRect(0, 0, W, H)
 
       const caption = getCaption()
       const lines = caption.split("\n")
-      const fontSize = lines.length > 3 ? 30 : lines.length > 2 ? 34 : 38
-      const lineHeight = fontSize * 1.35
-      const startY = H * 0.58
+      const fontSize = lines.length > 3 ? 52 : lines.length > 2 ? 58 : 64
+      const lineHeight = fontSize * 1.4
+      const startY = H * 0.42
 
       ctx.font = `bold ${fontSize}px "Playfair Display", Georgia, serif`
       ctx.fillStyle = "#FFFFFF"
       ctx.textAlign = "center"
       ctx.textBaseline = "top"
+      ctx.shadowColor = "rgba(0,0,0,0.5)"
+      ctx.shadowBlur = 8
+      ctx.shadowOffsetY = 2
 
       const wrappedLines: string[] = []
       const maxWidth = W - 120
@@ -120,42 +123,44 @@ export default function PromoImageGenerator({ unusedCodes }: Props) {
       for (let i = 0; i < wrappedLines.length; i++) {
         ctx.fillText(wrappedLines[i], W / 2, startY + i * lineHeight)
       }
+      ctx.shadowBlur = 0
+      ctx.shadowOffsetY = 0
 
       const textBottom = startY + wrappedLines.length * lineHeight
 
-      ctx.strokeStyle = "rgba(201,163,85,0.5)"
-      ctx.lineWidth = 1
+      ctx.strokeStyle = "rgba(201,163,85,0.6)"
+      ctx.lineWidth = 2
       ctx.beginPath()
-      ctx.moveTo(W * 0.15, textBottom + 50)
-      ctx.lineTo(W * 0.85, textBottom + 50)
+      ctx.moveTo(W * 0.1, textBottom + 60)
+      ctx.lineTo(W * 0.9, textBottom + 60)
       ctx.stroke()
 
-      const brandY = textBottom + 80
-      ctx.font = `bold 18px "DM Sans", system-ui, sans-serif`
+      const brandY = textBottom + 100
+      ctx.font = `bold 30px "DM Sans", system-ui, sans-serif`
       ctx.fillStyle = "#C9A355"
       ctx.fillText("◇  EastType", W / 2, brandY)
 
-      ctx.font = `400 14px "DM Sans", system-ui, sans-serif`
-      ctx.fillStyle = "rgba(255,255,255,0.6)"
-      ctx.fillText("Free Body Type Quiz", W / 2, brandY + 28)
+      ctx.font = `400 22px "DM Sans", system-ui, sans-serif`
+      ctx.fillStyle = "rgba(255,255,255,0.7)"
+      ctx.fillText("Free Body Type Quiz", W / 2, brandY + 40)
 
       if (selectedCode) {
-        const codeY = brandY + 80
-        ctx.font = `bold 28px "DM Sans", monospace`
+        const codeY = brandY + 110
+        ctx.font = `bold 48px "DM Sans", monospace`
         ctx.fillStyle = "#C9A355"
-        ctx.shadowColor = "rgba(201,163,85,0.3)"
-        ctx.shadowBlur = 20
+        ctx.shadowColor = "rgba(201,163,85,0.4)"
+        ctx.shadowBlur = 30
         ctx.fillText(selectedCode, W / 2, codeY)
         ctx.shadowBlur = 0
 
-        ctx.font = `400 14px "DM Sans", system-ui, sans-serif`
-        ctx.fillStyle = "rgba(255,255,255,0.4)"
-        ctx.fillText("Use this code to unlock your free report", W / 2, codeY + 36)
+        ctx.font = `400 20px "DM Sans", system-ui, sans-serif`
+        ctx.fillStyle = "rgba(255,255,255,0.5)"
+        ctx.fillText("Use this code to unlock your free report", W / 2, codeY + 56)
       }
 
-      const urlY = H - 60
-      ctx.font = `600 16px "DM Sans", system-ui, sans-serif`
-      ctx.fillStyle = "rgba(255,255,255,0.5)"
+      const urlY = H - 70
+      ctx.font = `600 24px "DM Sans", system-ui, sans-serif`
+      ctx.fillStyle = "rgba(255,255,255,0.6)"
       ctx.fillText("myeasterntype.com", W / 2, urlY)
 
       setPreviewUrl(canvas.toDataURL("image/jpeg", 0.92))
