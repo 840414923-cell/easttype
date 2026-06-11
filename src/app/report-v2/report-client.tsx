@@ -383,6 +383,7 @@ function ReportV2Content() {
         image: { type: "jpeg", quality: 0.98 },
         html2canvas: { scale: 2, useCORS: true },
         jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+        pagebreak: { mode: ["avoid-all", "css", "legacy"] },
       }
       html2pdf().set(opt as any).from(el).save()
     })
@@ -505,14 +506,14 @@ function renderMd(text: string) {
       const trimmed = block.trim()
       if (!trimmed) return ""
       if (trimmed.startsWith("<h3")) return trimmed
-      return `<p class="text-[13px] leading-[1.75] text-[#444] mb-3 break-words">${trimmed}</p>`
+      return `<p class="text-[13px] leading-[1.75] text-[#444] mb-3 break-words" style="break-inside:avoid">${trimmed}</p>`
     })
     .join("\n")
 }
 
 function SectionHeader({ num, title }: { num: number; title: string }) {
   return (
-    <div className="flex items-center gap-2 mb-3 pb-1.5 border-b border-[#e0d8cc]">
+    <div className="flex items-center gap-2 mb-3 pb-1.5 border-b border-[#e0d8cc]" style={{ breakAfter: "avoid" }}>
       <span className="text-[10px] font-bold text-white bg-[#C9A96E] w-5 h-5 rounded flex items-center justify-center flex-shrink-0">{num}</span>
       <span className="text-sm font-bold text-[#1a1a1a] tracking-wide">{title}</span>
     </div>
@@ -589,7 +590,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
     <div className="max-w-[210mm] mx-auto my-8 print:my-0 print:max-w-none">
       <div className="bg-white text-black shadow-2xl print:shadow-none rounded-lg overflow-hidden" id="report-a4">
         {/* Header */}
-        <div className="border-b-2 border-[#C9A96E] px-12 py-6">
+        <div className="border-b-2 border-[#C9A96E] px-12 py-6" style={{ breakAfter: "avoid", breakInside: "avoid" }}>
           <div className="flex justify-between items-start">
             <div>
               <div className="text-[10px] text-[#999] tracking-[0.2em] uppercase mb-1">{hdr.institution}</div>
@@ -603,7 +604,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           </div>
         </div>
         {/* Meta */}
-        <div className="px-12 py-4 bg-[#f8f6f2] border-b border-[#e8e0d4]">
+        <div className="px-12 py-4 bg-[#f8f6f2] border-b border-[#e8e0d4]" style={{ breakAfter: "avoid", breakInside: "avoid" }}>
           <div className="grid grid-cols-2 gap-x-12 gap-y-2 text-[13px]">
             <div className="flex gap-2"><span className="text-[#999] w-28 shrink-0">{a4ui.constitution}</span><span className="font-bold" style={{ color: ct.color }}>{ct.en}</span></div>
             <div className="flex gap-2"><span className="text-[#999] w-28 shrink-0">{a4ui.sex}</span><span className="font-bold">{sex === "female" ? a4ui.female : a4ui.male}</span></div>
@@ -612,7 +613,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           </div>
         </div>
         {/* Letter */}
-        <div className="px-12 py-5 border-b border-[#e8e0d4]">
+        <div className="px-12 py-5 border-b border-[#e8e0d4]" style={{ breakAfter: "avoid", breakInside: "avoid" }}>
           <div className="text-[14px] leading-[1.8] text-[#444]">
             <p>{isPro ? a4ui.proLetterP1 : a4ui.letterP1}</p>
             <p className="mt-2">{isPro ? a4ui.proLetterP2 : a4ui.letterP2}</p>
@@ -623,8 +624,8 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
           {/* Basic Sections */}
           {!isPro && (
             <>
-              <div className="mb-6"><SectionHeader num={1} title={a4ui.section1} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(report.ch1Identity)) }} /></div>
-              <div className="mb-6">
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={1} title={a4ui.section1} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(report.ch1Identity)) }} /></div>
+              <div className="mb-6" style={{ breakInside: "avoid" }}>
                 <SectionHeader num={2} title={a4ui.section2} />
                 <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-2">{a4ui.recommended}</div>
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] mb-4 min-w-[500px]">
@@ -643,7 +644,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                   <li key={i} className="text-[13px] text-[#444] flex items-start gap-2"><span className="text-[#b85450] flex-shrink-0">✕</span><span>{t(item)}</span></li>
                 ))}</ul></div>
               </div>
-              <div className="mb-6"><SectionHeader num={4} title={a4ui.section4} />
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={4} title={a4ui.section4} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] min-w-[500px]">
                   <thead><tr className="bg-[#f8f6f2]">{[a4ui.timeCol, a4ui.meridianCol, a4ui.recCol].map((h, i) => <th key={i} className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{h}</th>)}</tr></thead>
                   <tbody>{report.ch4DailyRhythm.map((row, i) => (
@@ -665,30 +666,30 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                   ))}</tbody></table>
                 </div>
               </div>
-              <div className="mb-6"><SectionHeader num={5} title={a4ui.section5} /><A4RecipeCard recipe={report.recipe} lc={lc} ui={a4ui} /></div>
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={5} title={a4ui.section5} /><A4RecipeCard recipe={report.recipe} lc={lc} ui={a4ui} /></div>
             </>
           )}
           {/* Pro Sections */}
           {isPro && pro && (
             <>
-              <div className="mb-6"><SectionHeader num={1} title={a4ui.proCh1Origin} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Origin)) }} /></div>
-              <div className="mb-6"><SectionHeader num={2} title={a4ui.proCh1Emotion} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Emotion)) }} /></div>
-              <div className="mb-6"><SectionHeader num={3} title={a4ui.proCh2Combos} /><div className="space-y-3">{pro.ch2Combos.map((combo, i) => (
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={1} title={a4ui.proCh1Origin} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Origin)) }} /></div>
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={2} title={a4ui.proCh1Emotion} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(pro.ch1Emotion)) }} /></div>
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={3} title={a4ui.proCh2Combos} /><div className="space-y-3">{pro.ch2Combos.map((combo, i) => (
                 <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#b85450]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(combo)) }} /></div>
               ))}</div></div>
-              <div className="mb-6"><SectionHeader num={4} title={a4ui.proCh3Drinks} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={4} title={a4ui.proCh3Drinks} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
                 <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonDrinks[s])}</p></div>
               ))}</div></div>
-              <div className="mb-6"><SectionHeader num={5} title={a4ui.proCh3Notes} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={5} title={a4ui.proCh3Notes} /><div className="space-y-3">{SEASON_KEYS.map((s) => (
                 <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonNotes[s])}</p></div>
               ))}</div></div>
-              <div className="mb-6"><SectionHeader num={6} title={a4ui.proCh4Acupoints} /><div className="space-y-3">{pro.ch4Acupoints.map((point, i) => (
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={6} title={a4ui.proCh4Acupoints} /><div className="space-y-3">{pro.ch4Acupoints.map((point, i) => (
                 <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#C9A96E]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(point)) }} /></div>
               ))}</div></div>
-              <div className="mb-6"><SectionHeader num={7} title={a4ui.proCh6Recipes} /><div className="space-y-4">{pro.ch6Recipes.map((recipe, i) => (
-                <div key={i}><div className="text-[12px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">{a4ui.proRecipeN} {i + 1}</div><A4RecipeCard recipe={recipe} lc={lc} ui={a4ui} /></div>
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={7} title={a4ui.proCh6Recipes} /><div className="space-y-4">{pro.ch6Recipes.map((recipe, i) => (
+                <div key={i} style={{ breakInside: "avoid" }}><div className="text-[12px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">{a4ui.proRecipeN} {i + 1}</div><A4RecipeCard recipe={recipe} lc={lc} ui={a4ui} /></div>
               ))}</div></div>
-              <div className="mb-6"><SectionHeader num={8} title={a4ui.proCh7Schedule} />
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={8} title={a4ui.proCh7Schedule} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[11px]">
                   <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch7Schedule.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h)}</th>)}</tr></thead>
                   <tbody>{pro.ch7Schedule.rows.map((row) => (
@@ -706,7 +707,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
                 </table></div>
                 <div className="mt-2 text-[11px] text-[#7a6535] italic">{t(pro.ch7Schedule.footer)}</div>
               </div>
-              <div className="mb-6"><SectionHeader num={9} title={a4ui.proCh8Monitor} />
+              <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={9} title={a4ui.proCh8Monitor} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[11px]">
                   <thead><tr className="bg-[#f8f6f2]"><th className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a] w-8">{a4ui.proDayCol}</th>{pro.ch8Monitor.headers.map((h, i) => <th key={i} className="text-left px-2 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{t(h)}</th>)}</tr></thead>
                   <tbody>{pro.ch8Monitor.rows.map((row) => (
