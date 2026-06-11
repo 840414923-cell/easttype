@@ -57,10 +57,11 @@ function ResultContent() {
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "pro" }}
     >
       <div
-        className={`flex items-center justify-center w-full py-4 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_25px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
+        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_25px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
         style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
       >
-        {"Get My Full Kit — $12.99 →"}
+        <span className="text-[10px] font-semibold uppercase tracking-wide opacity-70">Recommended</span>
+        <span className="text-base font-bold mt-0.5">Full Kit — $12.99</span>
       </div>
     </CreemCheckout>
   )
@@ -71,10 +72,10 @@ function ResultContent() {
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
       <div
-        className={`flex items-center justify-center w-full py-3.5 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_50px_rgba(201,163,85,0.35)] shadow-[0_0_20px_rgba(201,163,85,0.12)] border-2 border-[rgba(255,255,255,0.12)] ${className}`}
-        style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_40px_rgba(201,163,85,0.2)] border-2 border-[rgba(201,163,85,0.35)] bg-[rgba(201,163,85,0.06)] ${className}`}
       >
-        {"Get My Body Profile — $4.99 →"}
+        <span className="text-[10px] font-semibold uppercase tracking-wide text-text2/50">Starter</span>
+        <span className="text-base font-bold mt-0.5 text-accent">Body Profile — $4.99</span>
       </div>
     </CreemCheckout>
   )
@@ -265,7 +266,7 @@ function ResultContent() {
               </div>
             ))}
           </div>
-          <div className="mt-3 space-y-2">
+          <div className="mt-3 grid grid-cols-2 gap-2.5">
             <ProCta />
             <BasicCta />
           </div>

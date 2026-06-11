@@ -303,7 +303,8 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
       <div className={`mt-5 w-full max-w-md transition-all duration-700 delay-600 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <button
           onClick={handleStartPhase2}
-          className="w-full py-4 rounded bg-gradient-to-r from-accent to-accent2 text-bg font-semibold text-base cursor-pointer transition-all duration-250 hover:-translate-y-0.5 hover:shadow-lg"
+          className="w-full py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+          style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
         >
           Unlock 95% Accuracy →
         </button>
