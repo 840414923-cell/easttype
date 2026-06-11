@@ -49,13 +49,17 @@ export async function redeemInviteCode(
   const redis = getRedis()
   const key = `${PREFIX}${code}`
 
-  const data = await redis.get<InviteCode>(key)
-  if (!data) {
+  const raw = await redis.get(key)
+  if (!raw) {
     return { success: false, error: "Invalid code" }
   }
 
   const invite: InviteCode =
-    typeof data === "string" ? JSON.parse(data) : data
+    typeof raw === "string" ? JSON.parse(raw as string) : (raw as InviteCode)
+
+  if (!invite || !invite.code) {
+    return { success: false, error: "Invalid code data" }
+  }
 
   if (invite.status === "used") {
     return { success: false, error: "This code has already been used" }
