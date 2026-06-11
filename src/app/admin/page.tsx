@@ -1,6 +1,9 @@
 "use client"
 
 import { useState } from "react"
+import dynamic from "next/dynamic"
+
+const PromoImageGenerator = dynamic(() => import("@/components/promo-image-generator"), { ssr: false })
 
 const CHANNELS: Record<string, string> = {
   A7: "Instagram",
@@ -32,6 +35,8 @@ export default function AdminPage() {
     createdAt: string
   }> | null>(null)
   const [loading, setLoading] = useState(false)
+
+  const [tab, setTab] = useState<"codes" | "images">("codes")
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
@@ -122,15 +127,32 @@ export default function AdminPage() {
 
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-[#C9A355]">EastType Admin</h1>
-          <button
-            onClick={fetchData}
-            className="px-4 py-2 rounded bg-[#2a2418] text-sm cursor-pointer hover:bg-[#3a3428]"
-          >
-            Refresh
-          </button>
+          <div className="flex items-center gap-3">
+            <div className="flex bg-[#1e1a14] rounded-lg border border-[#2a2418] overflow-hidden">
+              <button
+                onClick={() => setTab("codes")}
+                className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === "codes" ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
+              >
+                Invite Codes
+              </button>
+              <button
+                onClick={() => setTab("images")}
+                className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === "images" ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
+              >
+                Promo Images
+              </button>
+            </div>
+            <button
+              onClick={fetchData}
+              className="px-4 py-2 rounded bg-[#2a2418] text-sm cursor-pointer hover:bg-[#3a3428]"
+            >
+              Refresh
+            </button>
+          </div>
         </div>
 
-        {/* Stats */}
+        {tab === "codes" && (
+        <>
         {stats && (
           <div>
             <h2 className="text-lg font-semibold mb-3">Channel Stats</h2>
@@ -245,6 +267,12 @@ export default function AdminPage() {
         )}
 
         {loading && <p className="text-[#7a6e5e] text-center">Loading...</p>}
+        </>
+        )}
+
+        {tab === "images" && (
+          <PromoImageGenerator unusedCodes={codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []} />
+        )}
       </div>
     </div>
   )
