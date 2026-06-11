@@ -70,9 +70,9 @@ function ResultContent() {
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
       <div
-        className={`flex items-center justify-center w-full py-2.5 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer border border-accent/30 text-accent hover:bg-[rgba(201,163,85,0.06)] transition-all ${className}`}
+        className={`flex items-center justify-center w-full py-3 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_40px_rgba(201,163,85,0.3)] hover:-translate-y-0.5 ${className}`}
       >
-        {"Get My Report — $4.99"}
+        {"Get My Body Profile — $4.99 →"}
       </div>
     </CreemCheckout>
   )
@@ -107,8 +107,8 @@ function ResultContent() {
     <>
       <Nav
         right={
-          <Link href="/quiz" className="text-sm text-text2 hover:text-accent px-3 py-2 no-underline transition-colors">
-            {"Start New Quiz"}
+          <Link href="/quiz" className="inline-flex items-center justify-center px-4 py-2 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)]">
+            {"Retake Quiz"}
           </Link>
         }
       />

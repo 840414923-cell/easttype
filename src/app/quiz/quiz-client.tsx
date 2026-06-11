@@ -152,10 +152,13 @@ export default function QuizClient() {
   const handleMidRevealComplete = useCallback(
     (extraAnswers: number[]) => {
       setPhase2Answers(extraAnswers)
-      setCurrentQ(0)
-      setPhase("phase2")
+      setPhase("completion")
+      setTimeout(() => {
+        const fullAnswers = buildFullScores(phase1Answers, extraAnswers)
+        finishAndNavigate(fullAnswers)
+      }, 3500)
     },
-    [],
+    [phase1Answers, finishAndNavigate],
   )
 
   const handleMidRevealSkip = useCallback(() => {
