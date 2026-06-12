@@ -31,46 +31,48 @@ export function drawBackground(ctx: CanvasRenderingContext2D, bgImg: HTMLImageEl
   ctx.drawImage(bgImg, sx, sy, sw, sh, 0, 0, W, H)
 }
 
-export function drawOverlay(ctx: CanvasRenderingContext2D, startRatio = 0.15) {
-  const grad = ctx.createLinearGradient(0, H * startRatio, 0, H)
-  grad.addColorStop(0, "rgba(10,8,5,0)")
-  grad.addColorStop(0.25, "rgba(10,8,5,0.4)")
-  grad.addColorStop(0.4, "rgba(10,8,5,0.75)")
-  grad.addColorStop(0.55, "rgba(10,8,5,0.88)")
-  grad.addColorStop(1, "rgba(10,8,5,0.97)")
+export function drawOverlay(ctx: CanvasRenderingContext2D) {
+  const grad = ctx.createLinearGradient(0, 0, 0, H)
+  grad.addColorStop(0, "rgba(10,8,5,0.25)")
+  grad.addColorStop(0.3, "rgba(10,8,5,0.45)")
+  grad.addColorStop(0.5, "rgba(10,8,5,0.7)")
+  grad.addColorStop(0.7, "rgba(10,8,5,0.88)")
+  grad.addColorStop(1, "rgba(10,8,5,0.95)")
   ctx.fillStyle = grad
   ctx.fillRect(0, 0, W, H)
 }
 
-export function drawBrandFooter(ctx: CanvasRenderingContext2D, code: string, y: number) {
-  ctx.strokeStyle = "rgba(201,163,85,0.6)"
-  ctx.lineWidth = 2
+export function drawFooter(ctx: CanvasRenderingContext2D, code?: string, y?: number) {
+  const footerY = y ?? H - 220
+
+  ctx.strokeStyle = "rgba(201,163,85,0.4)"
+  ctx.lineWidth = 1
   ctx.beginPath()
-  ctx.moveTo(W * 0.08, y)
-  ctx.lineTo(W * 0.92, y)
+  ctx.moveTo(W * 0.12, footerY)
+  ctx.lineTo(W * 0.88, footerY)
   ctx.stroke()
 
-  ctx.font = `bold 30px "DM Sans", system-ui, sans-serif`
+  ctx.font = `bold 26px "DM Sans", system-ui, sans-serif`
   ctx.fillStyle = "#C9A355"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
-  ctx.fillText("◇  EastType · Free Body Type Quiz", W / 2, y + 20)
+  ctx.fillText("Free 5-min quiz → myeasterntype.com", W / 2, footerY + 20)
 
   if (code) {
-    ctx.font = `bold 48px "DM Sans", monospace`
-    ctx.shadowColor = "rgba(201,163,85,0.4)"
-    ctx.shadowBlur = 30
-    ctx.fillText(code, W / 2, y + 65)
+    ctx.font = `bold 36px "DM Sans", monospace`
+    ctx.shadowColor = "rgba(201,163,85,0.35)"
+    ctx.shadowBlur = 20
+    ctx.fillText(code, W / 2, footerY + 65)
     ctx.shadowBlur = 0
 
-    ctx.font = `400 20px "DM Sans", system-ui, sans-serif`
-    ctx.fillStyle = "rgba(255,255,255,0.5)"
-    ctx.fillText("Use this code to unlock your free report", W / 2, y + 120)
+    ctx.font = `400 16px "DM Sans", system-ui, sans-serif`
+    ctx.fillStyle = "rgba(255,255,255,0.4)"
+    ctx.fillText("Use this code to unlock your free report", W / 2, footerY + 108)
   }
 
-  ctx.font = `600 24px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(255,255,255,0.6)"
-  ctx.fillText("myeasterntype.com", W / 2, H - 70)
+  ctx.font = `600 14px "DM Sans", system-ui, sans-serif`
+  ctx.fillStyle = "rgba(255,255,255,0.3)"
+  ctx.fillText("◇  EastType · Based on 3,000 years of TCM wisdom", W / 2, H - 45)
 }
 
 export function drawWrappedText(

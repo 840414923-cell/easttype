@@ -3,7 +3,6 @@
 import { useState } from "react"
 import dynamic from "next/dynamic"
 
-const PromoImageGenerator = dynamic(() => import("@/components/promo-image-generator"), { ssr: false })
 const ContentStudio = dynamic(() => import("@/components/content-studio"), { ssr: false })
 
 const CHANNELS: Record<string, string> = {
@@ -15,7 +14,7 @@ const CHANNELS: Record<string, string> = {
   F2: "其他/手动",
 }
 
-type Tab = "codes" | "promo" | "studio"
+type Tab = "codes" | "studio"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -136,13 +135,12 @@ export default function AdminPage() {
             <div className="flex bg-[#1e1a14] rounded-lg border border-[#2a2418] overflow-hidden">
               {([
                 ["codes", "激活码管理"],
-                ["promo", "推广图片"],
                 ["studio", "内容工厂"],
               ] as [Tab, string][]).map(([id, label]) => (
                 <button
                   key={id}
                   onClick={() => setTab(id)}
-                  className={`px-4 py-2 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
+                  className={`px-5 py-2.5 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
                 >
                   {label}
                 </button>
@@ -272,10 +270,6 @@ export default function AdminPage() {
 
         {loading && <p className="text-[#7a6e5e] text-center">加载中...</p>}
         </>
-        )}
-
-        {tab === "promo" && (
-          <PromoImageGenerator unusedCodes={unusedCodes} />
         )}
 
         {tab === "studio" && (
