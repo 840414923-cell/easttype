@@ -228,43 +228,57 @@ export default function AdminPage() {
         {codes && (
           <div>
             <h2 className="text-lg font-semibold mb-3">全部激活码 ({codes.length})</h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="text-[#7a6e5e] text-left border-b border-[#2a2418]">
-                    <th className="py-2 px-3">激活码</th>
-                    <th className="py-2 px-3">渠道</th>
-                    <th className="py-2 px-3">状态</th>
-                    <th className="py-2 px-3">使用者</th>
-                    <th className="py-2 px-3">使用时间</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {codes
-                    .sort((a, b) => {
-                      if (a.status !== b.status) return a.status === "unused" ? -1 : 1
-                      return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
-                    })
-                    .map((c) => (
-                      <tr key={c.code} className="border-b border-[#1e1a14]">
-                        <td className="py-2 px-3 font-mono">{c.code}</td>
-                        <td className="py-2 px-3 text-[#7a6e5e]">{c.channel}</td>
-                        <td className="py-2 px-3">
-                          <span className={c.status === "used" ? "text-red-400" : "text-green-400"}>
-                            {c.status === "used" ? "已使用" : "未使用"}
-                          </span>
-                        </td>
-                        <td className="py-2 px-3 text-[#7a6e5e]">
-                          {c.usedByType ? `${c.usedByType} / ${c.usedBySex}` : "—"}
-                        </td>
-                        <td className="py-2 px-3 text-[#7a6e5e]">
-                          {c.usedAt ? new Date(c.usedAt).toLocaleDateString("zh-CN") : "—"}
-                        </td>
-                      </tr>
-                    ))}
-                </tbody>
-              </table>
-            </div>
+            {(() => {
+              const sorted = [...codes].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())
+              const groups: Record<string, Array<typeof codes[0]>> = {}
+              for (const c of sorted) {
+                const date = new Date(c.createdAt).toLocaleDateString("zh-CN", { year: "numeric", month: "2-digit", day: "2-digit" })
+                if (!groups[date]) groups[date] = []
+                groups[date].push(c)
+              }
+              return Object.entries(groups).map(([date, group]) => (
+                <div key={date} className="mb-4">
+                  <div className="flex items-center justify-between mb-2 px-3">
+                    <span className="text-sm font-bold text-[#C9A355]">{date}</span>
+                    <span className="text-xs text-[#7a6e5e]">
+                      {group.filter((c) => c.status === "unused").length} 未使用 / {group.length} 总计
+                    </span>
+                  </div>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="text-[#7a6e5e] text-left border-b border-[#2a2418]">
+                          <th className="py-1.5 px-3">激活码</th>
+                          <th className="py-1.5 px-3">渠道</th>
+                          <th className="py-1.5 px-3">状态</th>
+                          <th className="py-1.5 px-3">使用者</th>
+                          <th className="py-1.5 px-3">使用时间</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {group.map((c) => (
+                          <tr key={c.code} className={`border-b border-[#1e1a14] ${c.status === "used" ? "opacity-50" : ""}`}>
+                            <td className="py-1.5 px-3 font-mono">{c.code}</td>
+                            <td className="py-1.5 px-3 text-[#7a6e5e]">{c.channel}</td>
+                            <td className="py-1.5 px-3">
+                              <span className={c.status === "used" ? "text-red-400" : "text-green-400"}>
+                                {c.status === "used" ? "已使用" : "未使用"}
+                              </span>
+                            </td>
+                            <td className="py-1.5 px-3 text-[#7a6e5e]">
+                              {c.usedByType ? `${c.usedByType} / ${c.usedBySex}` : "—"}
+                            </td>
+                            <td className="py-1.5 px-3 text-[#7a6e5e]">
+                              {c.usedAt ? new Date(c.usedAt).toLocaleDateString("zh-CN") : "—"}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              ))
+            })()}
           </div>
         )}
 
