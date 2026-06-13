@@ -65,16 +65,15 @@ export function drawGoldBorder(ctx: CanvasRenderingContext2D, size: PlatformSize
   const W = size.width
   const H = size.height
   const s = size.width / 1000
-  const inset = 24 * s
-  const cornerLen = 50 * s
+  const inset = 28 * s
+  const cornerLen = 55 * s
 
-  ctx.strokeStyle = "rgba(201,163,85,0.35)"
+  ctx.strokeStyle = "rgba(201,163,85,0.3)"
   ctx.lineWidth = 1
-
   ctx.strokeRect(inset, inset, W - inset * 2, H - inset * 2)
 
-  ctx.strokeStyle = "rgba(201,163,85,0.7)"
-  ctx.lineWidth = 2 * s
+  ctx.strokeStyle = "rgba(201,163,85,0.65)"
+  ctx.lineWidth = 2.5 * s
 
   const corners = [
     { x: inset, y: inset, dx: 1, dy: 1 },
@@ -93,8 +92,8 @@ export function drawGoldBorder(ctx: CanvasRenderingContext2D, size: PlatformSize
 
 export function drawEmojiGlow(ctx: CanvasRenderingContext2D, x: number, y: number, radius: number) {
   const glow = ctx.createRadialGradient(x, y, 0, x, y, radius)
-  glow.addColorStop(0, "rgba(201,163,85,0.15)")
-  glow.addColorStop(0.5, "rgba(201,163,85,0.05)")
+  glow.addColorStop(0, "rgba(201,163,85,0.18)")
+  glow.addColorStop(0.5, "rgba(201,163,85,0.06)")
   glow.addColorStop(1, "rgba(201,163,85,0)")
   ctx.fillStyle = glow
   ctx.fillRect(x - radius, y - radius, radius * 2, radius * 2)
@@ -103,23 +102,23 @@ export function drawEmojiGlow(ctx: CanvasRenderingContext2D, x: number, y: numbe
 export function drawGoldDivider(ctx: CanvasRenderingContext2D, y: number, size: PlatformSize) {
   const W = size.width
   const s = size.width / 1000
-  const left = W * 0.15
-  const right = W * 0.85
+  const left = W * 0.12
+  const right = W * 0.88
   const mid = W / 2
 
-  ctx.strokeStyle = "rgba(201,163,85,0.3)"
+  ctx.strokeStyle = "rgba(201,163,85,0.35)"
   ctx.lineWidth = 1
   ctx.beginPath()
   ctx.moveTo(left, y)
-  ctx.lineTo(mid - 20 * s, y)
+  ctx.lineTo(mid - 22 * s, y)
   ctx.stroke()
   ctx.beginPath()
-  ctx.moveTo(mid + 20 * s, y)
+  ctx.moveTo(mid + 22 * s, y)
   ctx.lineTo(right, y)
   ctx.stroke()
 
   ctx.fillStyle = "rgba(201,163,85,0.5)"
-  ctx.font = `${12 * s}px serif`
+  ctx.font = `${14 * s}px serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "middle"
   ctx.fillText("\u25C7", mid, y)
@@ -136,19 +135,19 @@ export function drawSubtextCard(
   size: PlatformSize,
 ): number {
   const s = size.width / 1000
-  const pad = 30 * s
+  const pad = 32 * s
   const lines = wrapLines(ctx, text, maxWidth - pad * 2)
   const cardH = lines.length * lineHeight + pad * 2
 
   ctx.fillStyle = "rgba(10,8,5,0.55)"
-  roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 12 * s)
+  roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 14 * s)
   ctx.fill()
   ctx.strokeStyle = "rgba(201,163,85,0.12)"
   ctx.lineWidth = 1
-  roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 12 * s)
+  roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 14 * s)
   ctx.stroke()
 
-  ctx.fillStyle = "rgba(255,255,255,0.8)"
+  ctx.fillStyle = "rgba(255,255,255,0.85)"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   for (let i = 0; i < lines.length; i++) {
@@ -163,56 +162,56 @@ export function drawFooter(ctx: CanvasRenderingContext2D, size: PlatformSize, co
   const s = size.width / 1000
   const wide = isWideFormat(size)
 
-  const footerH = wide ? 90 * s : 200 * s
+  const footerH = wide ? 100 * s : 220 * s
   const footerY = H - footerH
 
   drawGoldDivider(ctx, footerY, size)
 
-  const textS = wide ? 0.65 : 1
+  const textS = wide ? 0.7 : 1
 
-  ctx.font = `bold ${24 * s * textS}px "DM Sans", system-ui, sans-serif`
+  ctx.font = `bold ${28 * s * textS}px "DM Sans", system-ui, sans-serif`
   ctx.fillStyle = "#C9A355"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
-  ctx.fillText("Free 5-min quiz \u2192 myeasterntype.com", W / 2, footerY + 20 * s * textS)
+  ctx.fillText("Free 5-min quiz \u2192 myeasterntype.com", W / 2, footerY + 22 * s * textS)
 
   if (code && !wide) {
-    ctx.font = `bold ${36 * s}px "DM Sans", monospace`
+    ctx.font = `bold ${38 * s}px "DM Sans", monospace`
     ctx.shadowColor = "rgba(201,163,85,0.35)"
     ctx.shadowBlur = 20
     ctx.fillText(code, W / 2, footerY + 65 * s)
     ctx.shadowBlur = 0
 
-    ctx.font = `${16 * s}px "DM Sans", system-ui, sans-serif`
+    ctx.font = `${18 * s}px "DM Sans", system-ui, sans-serif`
     ctx.fillStyle = "rgba(255,255,255,0.4)"
-    ctx.fillText("Use this code to unlock your free report", W / 2, footerY + 108 * s)
+    ctx.fillText("Use this code to unlock your free report", W / 2, footerY + 110 * s)
   } else if (code && wide) {
-    ctx.font = `bold ${20 * s}px "DM Sans", monospace`
+    ctx.font = `bold ${22 * s}px "DM Sans", monospace`
     ctx.shadowColor = "rgba(201,163,85,0.35)"
     ctx.shadowBlur = 12
     ctx.fillText(`Code: ${code}`, W / 2, footerY + 45 * s * textS)
     ctx.shadowBlur = 0
   }
 
-  const brandS = wide ? 0.55 : 1
-  ctx.font = `${13 * s * brandS}px "DM Sans", system-ui, sans-serif`
+  const brandS = wide ? 0.6 : 1
+  ctx.font = `${15 * s * brandS}px "DM Sans", system-ui, sans-serif`
   ctx.fillStyle = "rgba(255,255,255,0.25)"
-  ctx.fillText("\u25C7  EastType  \u00B7  3,000 years of TCM wisdom", W / 2, H - 25 * s * brandS)
+  ctx.fillText("\u25C7  EastType  \u00B7  3,000 years of TCM wisdom", W / 2, H - 28 * s * brandS)
 }
 
 export function drawBrandHeader(ctx: CanvasRenderingContext2D, size: PlatformSize) {
   const W = size.width
   const s = size.width / 1000
   const wide = isWideFormat(size)
-  const topY = wide ? 35 * s : 80 * s
+  const topY = wide ? 38 * s : 85 * s
 
   ctx.fillStyle = "rgba(201,163,85,0.5)"
-  ctx.font = `${10 * s}px serif`
+  ctx.font = `${12 * s}px serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
-  ctx.fillText("\u25C7", W / 2, topY - 18 * s)
+  ctx.fillText("\u25C7", W / 2, topY - 20 * s)
 
-  ctx.font = `bold ${14 * s}px "DM Sans", system-ui, sans-serif`
+  ctx.font = `bold ${16 * s}px "DM Sans", system-ui, sans-serif`
   ctx.fillStyle = "rgba(201,163,85,0.7)"
   ctx.letterSpacing = `${4 * s}px`
   ctx.fillText("EASTTYPE", W / 2, topY)

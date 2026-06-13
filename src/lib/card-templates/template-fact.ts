@@ -32,26 +32,26 @@ export async function renderFactCard(
   drawGoldBorder(ctx, size)
   drawBrandHeader(ctx, size)
 
-  const emojiY = wide ? H * 0.18 : H * 0.2
-  const emojiSize = wide ? 100 * s : 160 * s
+  const emojiY = wide ? H * 0.16 : H * 0.18
+  const emojiSize = wide ? 110 * s : 180 * s
   drawEmojiGlow(ctx, W / 2, emojiY, emojiSize * 1.5)
   drawEmoji(ctx, content.emoji, W / 2, emojiY, emojiSize)
 
-  const dividerY1 = emojiY + emojiSize * 0.7
+  const dividerY1 = emojiY + emojiSize * 0.65
   drawGoldDivider(ctx, dividerY1, size)
 
-  const headlineY = dividerY1 + (wide ? 25 * s : 50 * s)
+  const headlineY = dividerY1 + (wide ? 30 * s : 55 * s)
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
 
-  const headlineSize = wide ? 38 * s : 48 * s
+  const headlineSize = wide ? 44 * s : 64 * s
   ctx.font = `bold ${headlineSize}px "Playfair Display", Georgia, serif`
-  ctx.fillStyle = makeGoldGradient(ctx, W * 0.15, W * 0.85, headlineY)
+  ctx.fillStyle = makeGoldGradient(ctx, W * 0.12, W * 0.88, headlineY)
   ctx.shadowColor = "rgba(0,0,0,0.6)"
-  ctx.shadowBlur = 12 * s
-  ctx.shadowOffsetY = 3 * s
+  ctx.shadowBlur = 14 * s
+  ctx.shadowOffsetY = 4 * s
 
-  const headlineLines = wrapLines(ctx, content.headline, W - 200 * s)
+  const headlineLines = wrapLines(ctx, content.headline, W - 180 * s)
   const lineH = headlineSize * 1.35
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], W / 2, headlineY + i * lineH)
@@ -59,10 +59,10 @@ export async function renderFactCard(
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const subtextY = headlineY + headlineLines.length * lineH + (wide ? 20 * s : 40 * s)
-  const subtextSize = wide ? 16 * s : 22 * s
+  const subtextY = headlineY + headlineLines.length * lineH + (wide ? 22 * s : 45 * s)
+  const subtextSize = wide ? 20 * s : 30 * s
   ctx.font = `${subtextSize}px "DM Sans", system-ui, sans-serif`
-  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 160 * s, subtextSize, subtextSize * 1.55, size)
+  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 140 * s, subtextSize, subtextSize * 1.6, size)
 
   drawFooter(ctx, size, code)
   return canvasToJpg(canvas)

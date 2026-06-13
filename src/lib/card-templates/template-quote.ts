@@ -30,22 +30,22 @@ export async function renderQuoteCard(
 
   drawGoldBorder(ctx, size)
 
-  const quoteSize = wide ? 30 * s : 42 * s
+  const quoteSize = wide ? 36 * s : 56 * s
   ctx.font = `italic ${quoteSize}px "Playfair Display", Georgia, serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
 
-  ctx.fillStyle = makeGoldGradient(ctx, W * 0.15, W * 0.85, H / 2)
+  ctx.fillStyle = makeGoldGradient(ctx, W * 0.12, W * 0.88, H / 2)
   ctx.shadowColor = "rgba(0,0,0,0.4)"
-  ctx.shadowBlur = 8 * s
-  ctx.shadowOffsetY = 2 * s
+  ctx.shadowBlur = 10 * s
+  ctx.shadowOffsetY = 3 * s
 
-  const quoteLines = wrapLines(ctx, `"${content.headline}"`, W - 220 * s)
-  const lineH = quoteSize * 1.5
+  const quoteLines = wrapLines(ctx, `"${content.headline}"`, W - 200 * s)
+  const lineH = quoteSize * 1.55
   const totalQuoteHeight = quoteLines.length * lineH
-  const quoteStartY = (H - totalQuoteHeight) / 2 - 50 * s
+  const quoteStartY = (H - totalQuoteHeight) / 2 - 55 * s
 
-  const topDividerY = quoteStartY - 30 * s
+  const topDividerY = quoteStartY - 35 * s
   drawGoldDivider(ctx, topDividerY, size)
 
   for (let i = 0; i < quoteLines.length; i++) {
@@ -54,13 +54,13 @@ export async function renderQuoteCard(
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const bottomDividerY = quoteStartY + totalQuoteHeight + 15 * s
+  const bottomDividerY = quoteStartY + totalQuoteHeight + 18 * s
   drawGoldDivider(ctx, bottomDividerY, size)
 
-  const attrY = bottomDividerY + (wide ? 15 * s : 35 * s)
-  ctx.font = `${wide ? 12 * s : 16 * s}px "DM Sans", system-ui, sans-serif`
+  const attrY = bottomDividerY + (wide ? 18 * s : 40 * s)
+  ctx.font = `${wide ? 14 * s : 20 * s}px "DM Sans", system-ui, sans-serif`
   ctx.fillStyle = "rgba(201,163,85,0.5)"
-  ctx.letterSpacing = `${4 * s}px`
+  ctx.letterSpacing = `${5 * s}px`
   ctx.fillText("\u2014  EASTERN MEDICINE", W / 2, attrY)
   ctx.letterSpacing = "0px"
 

@@ -32,24 +32,24 @@ export async function renderSymptomCard(
   drawGoldBorder(ctx, size)
   drawBrandHeader(ctx, size)
 
-  const emojiY = wide ? H * 0.14 : H * 0.15
-  const emojiSize = wide ? 70 * s : 120 * s
+  const emojiY = wide ? H * 0.12 : H * 0.13
+  const emojiSize = wide ? 80 * s : 130 * s
   if (content.emoji) {
     drawEmojiGlow(ctx, W / 2, emojiY, emojiSize * 1.3)
     drawEmoji(ctx, content.emoji, W / 2, emojiY, emojiSize)
   }
 
-  const headlineY = emojiY + (wide ? 60 * s : 100 * s)
-  const headlineSize = wide ? 36 * s : 56 * s
+  const headlineY = emojiY + (wide ? 65 * s : 110 * s)
+  const headlineSize = wide ? 40 * s : 68 * s
   ctx.font = `bold ${headlineSize}px "Playfair Display", Georgia, serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   ctx.fillStyle = makeGoldGradient(ctx, W * 0.1, W * 0.9, headlineY)
   ctx.shadowColor = "rgba(0,0,0,0.5)"
-  ctx.shadowBlur = 10 * s
-  ctx.shadowOffsetY = 3 * s
+  ctx.shadowBlur = 12 * s
+  ctx.shadowOffsetY = 4 * s
 
-  const headlineLines = wrapLines(ctx, content.headline, W - 200 * s)
+  const headlineLines = wrapLines(ctx, content.headline, W - 180 * s)
   const lineH = headlineSize * 1.3
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], W / 2, headlineY + i * lineH)
@@ -57,13 +57,13 @@ export async function renderSymptomCard(
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const dividerY = headlineY + headlineLines.length * lineH + (wide ? 15 * s : 35 * s)
+  const dividerY = headlineY + headlineLines.length * lineH + (wide ? 18 * s : 40 * s)
   drawGoldDivider(ctx, dividerY, size)
 
-  const subtextY = dividerY + (wide ? 15 * s : 35 * s)
-  const subtextSize = wide ? 16 * s : 21 * s
+  const subtextY = dividerY + (wide ? 18 * s : 40 * s)
+  const subtextSize = wide ? 20 * s : 28 * s
   ctx.font = `${subtextSize}px "DM Sans", system-ui, sans-serif`
-  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 160 * s, subtextSize, subtextSize * 1.55, size)
+  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 140 * s, subtextSize, subtextSize * 1.6, size)
 
   drawFooter(ctx, size, code)
   return canvasToJpg(canvas)
