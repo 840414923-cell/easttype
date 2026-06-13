@@ -3,8 +3,9 @@ import { isWideFormat } from "./platform-sizes"
 import type { SocialContent } from "./social-content"
 import {
   loadBgImage, drawBackground, drawOverlay, drawGradientBg,
-  drawFooter, drawBrandHeader, drawEmoji, drawWrappedText,
-  initCanvas, canvasToJpg, wrapLines,
+  drawFooter, drawBrandHeader, drawEmoji, drawEmojiGlow,
+  drawGoldBorder, drawGoldDivider, drawSubtextCard,
+  initCanvas, canvasToJpg, wrapLines, makeGoldGradient,
 } from "./shared"
 
 export async function renderFactCard(
@@ -17,7 +18,8 @@ export async function renderFactCard(
 
   const W = size.width
   const H = size.height
-  const s = isWideFormat(size) ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
+  const wide = isWideFormat(size)
+  const s = wide ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
 
   if (content.bgType) {
     const bgImg = await loadBgImage(content.bgType)
@@ -27,34 +29,40 @@ export async function renderFactCard(
     drawGradientBg(ctx, size)
   }
 
+  drawGoldBorder(ctx, size)
   drawBrandHeader(ctx, size)
 
-  const contentTop = isWideFormat(size) ? H * 0.1 : H * 0.15
-  const emojiY = contentTop + 60 * s
-  const emojiSize = isWideFormat(size) ? 100 * s : 180 * s
+  const emojiY = wide ? H * 0.18 : H * 0.2
+  const emojiSize = wide ? 100 * s : 160 * s
+  drawEmojiGlow(ctx, W / 2, emojiY, emojiSize * 1.5)
   drawEmoji(ctx, content.emoji, W / 2, emojiY, emojiSize)
 
-  const headlineY = emojiY + (isWideFormat(size) ? 70 * s : 120 * s)
-  ctx.font = `bold ${52 * s}px "Playfair Display", Georgia, serif`
-  ctx.fillStyle = "#FFFFFF"
-  ctx.shadowColor = "rgba(0,0,0,0.6)"
-  ctx.shadowBlur = 15 * s
-  ctx.shadowOffsetY = 4 * s
+  const dividerY1 = emojiY + emojiSize * 0.7
+  drawGoldDivider(ctx, dividerY1, size)
+
+  const headlineY = dividerY1 + (wide ? 25 * s : 50 * s)
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
 
-  const headlineLines = wrapLines(ctx, content.headline, W - 160 * s)
-  const lineH = isWideFormat(size) ? 50 * s : 68 * s
+  const headlineSize = wide ? 38 * s : 48 * s
+  ctx.font = `bold ${headlineSize}px "Playfair Display", Georgia, serif`
+  ctx.fillStyle = makeGoldGradient(ctx, W * 0.15, W * 0.85, headlineY)
+  ctx.shadowColor = "rgba(0,0,0,0.6)"
+  ctx.shadowBlur = 12 * s
+  ctx.shadowOffsetY = 3 * s
+
+  const headlineLines = wrapLines(ctx, content.headline, W - 200 * s)
+  const lineH = headlineSize * 1.35
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], W / 2, headlineY + i * lineH)
   }
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const subtextY = headlineY + headlineLines.length * lineH + 30 * s
-  ctx.font = `${24 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(255,255,255,0.75)"
-  drawWrappedText(ctx, content.subtext, W / 2, subtextY, W - 180 * s, 24 * s, 36 * s)
+  const subtextY = headlineY + headlineLines.length * lineH + (wide ? 20 * s : 40 * s)
+  const subtextSize = wide ? 16 * s : 22 * s
+  ctx.font = `${subtextSize}px "DM Sans", system-ui, sans-serif`
+  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 160 * s, subtextSize, subtextSize * 1.55, size)
 
   drawFooter(ctx, size, code)
   return canvasToJpg(canvas)

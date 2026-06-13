@@ -3,8 +3,8 @@ import { isWideFormat } from "./platform-sizes"
 import type { SocialContent } from "./social-content"
 import {
   loadBgImage, drawBackground, drawOverlay, drawGradientBg,
-  drawFooter, drawWrappedText,
-  initCanvas, canvasToJpg, wrapLines,
+  drawFooter, drawGoldBorder, drawGoldDivider,
+  initCanvas, canvasToJpg, wrapLines, makeGoldGradient,
 } from "./shared"
 
 export async function renderQuoteCard(
@@ -17,8 +17,8 @@ export async function renderQuoteCard(
 
   const W = size.width
   const H = size.height
-  const s = isWideFormat(size) ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
   const wide = isWideFormat(size)
+  const s = wide ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
 
   if (content.bgType) {
     const bgImg = await loadBgImage(content.bgType)
@@ -28,24 +28,25 @@ export async function renderQuoteCard(
     drawGradientBg(ctx, size)
   }
 
-  const quoteSize = wide ? 32 * s : 46 * s
+  drawGoldBorder(ctx, size)
+
+  const quoteSize = wide ? 30 * s : 42 * s
   ctx.font = `italic ${quoteSize}px "Playfair Display", Georgia, serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
 
-  const goldGrad = ctx.createLinearGradient(W * 0.15, 0, W * 0.85, 0)
-  goldGrad.addColorStop(0, "#C9A355")
-  goldGrad.addColorStop(0.5, "#E0C878")
-  goldGrad.addColorStop(1, "#C9A355")
-  ctx.fillStyle = goldGrad
-  ctx.shadowColor = "rgba(0,0,0,0.5)"
-  ctx.shadowBlur = 10 * s
+  ctx.fillStyle = makeGoldGradient(ctx, W * 0.15, W * 0.85, H / 2)
+  ctx.shadowColor = "rgba(0,0,0,0.4)"
+  ctx.shadowBlur = 8 * s
   ctx.shadowOffsetY = 2 * s
 
-  const quoteLines = wrapLines(ctx, `"${content.headline}"`, W - 200 * s)
-  const lineH = wide ? 40 * s : 62 * s
+  const quoteLines = wrapLines(ctx, `"${content.headline}"`, W - 220 * s)
+  const lineH = quoteSize * 1.5
   const totalQuoteHeight = quoteLines.length * lineH
-  const quoteStartY = (H - totalQuoteHeight) / 2 - (wide ? 20 * s : 40 * s)
+  const quoteStartY = (H - totalQuoteHeight) / 2 - 50 * s
+
+  const topDividerY = quoteStartY - 30 * s
+  drawGoldDivider(ctx, topDividerY, size)
 
   for (let i = 0; i < quoteLines.length; i++) {
     ctx.fillText(quoteLines[i], W / 2, quoteStartY + i * lineH)
@@ -53,11 +54,14 @@ export async function renderQuoteCard(
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const attrY = quoteStartY + totalQuoteHeight + (wide ? 20 * s : 50 * s)
+  const bottomDividerY = quoteStartY + totalQuoteHeight + 15 * s
+  drawGoldDivider(ctx, bottomDividerY, size)
+
+  const attrY = bottomDividerY + (wide ? 15 * s : 35 * s)
   ctx.font = `${wide ? 12 * s : 16 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(255,255,255,0.4)"
-  ctx.letterSpacing = `${3 * s}px`
-  ctx.fillText("\u2014 EASTERN MEDICINE", W / 2, attrY)
+  ctx.fillStyle = "rgba(201,163,85,0.5)"
+  ctx.letterSpacing = `${4 * s}px`
+  ctx.fillText("\u2014  EASTERN MEDICINE", W / 2, attrY)
   ctx.letterSpacing = "0px"
 
   drawFooter(ctx, size, code)

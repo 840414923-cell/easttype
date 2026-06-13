@@ -3,8 +3,9 @@ import { isWideFormat } from "./platform-sizes"
 import type { SocialContent } from "./social-content"
 import {
   loadBgImage, drawBackground, drawOverlay, drawGradientBg,
-  drawFooter, drawBrandHeader, drawEmoji, drawWrappedText,
-  initCanvas, canvasToJpg, wrapLines,
+  drawFooter, drawBrandHeader, drawEmoji, drawEmojiGlow,
+  drawGoldBorder, drawGoldDivider, drawSubtextCard,
+  initCanvas, canvasToJpg, wrapLines, makeGoldGradient, roundRect,
 } from "./shared"
 
 export async function renderFoodCard(
@@ -17,8 +18,8 @@ export async function renderFoodCard(
 
   const W = size.width
   const H = size.height
-  const s = isWideFormat(size) ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
   const wide = isWideFormat(size)
+  const s = wide ? Math.min(size.width / 1000, size.height / 1500) : size.width / 1000
 
   if (content.bgType) {
     const bgImg = await loadBgImage(content.bgType)
@@ -28,43 +29,48 @@ export async function renderFoodCard(
     drawGradientBg(ctx, size)
   }
 
+  drawGoldBorder(ctx, size)
   drawBrandHeader(ctx, size)
 
-  const emojiY = wide ? H * 0.15 : H * 0.22
-  const emojiSize = wide ? 100 * s : 180 * s
+  const emojiY = wide ? H * 0.17 : H * 0.2
+  const emojiSize = wide ? 100 * s : 160 * s
+  drawEmojiGlow(ctx, W / 2, emojiY, emojiSize * 1.5)
   drawEmoji(ctx, content.emoji, W / 2, emojiY, emojiSize)
 
-  const headlineY = emojiY + (wide ? 70 * s : 120 * s)
-  const headlineSize = wide ? 36 * s : 48 * s
-  ctx.font = `italic ${headlineSize}px "Playfair Display", Georgia, serif`
-  ctx.fillStyle = "#FFFFFF"
-  ctx.shadowColor = "rgba(0,0,0,0.6)"
-  ctx.shadowBlur = 12 * s
-  ctx.shadowOffsetY = 3 * s
+  const labelY = emojiY + emojiSize * 0.65
+  ctx.font = `bold ${12 * s}px "DM Sans", system-ui, sans-serif`
+  ctx.fillStyle = "rgba(201,163,85,0.6)"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
+  ctx.letterSpacing = `${4 * s}px`
+  ctx.fillText("FOOD AS MEDICINE", W / 2, labelY)
+  ctx.letterSpacing = "0px"
 
-  const headlineLines = wrapLines(ctx, content.headline, W - 160 * s)
-  const lineH = wide ? 44 * s : 64 * s
+  const dividerY1 = labelY + 30 * s
+  drawGoldDivider(ctx, dividerY1, size)
+
+  const headlineY = dividerY1 + (wide ? 20 * s : 40 * s)
+  const headlineSize = wide ? 34 * s : 44 * s
+  ctx.font = `italic ${headlineSize}px "Playfair Display", Georgia, serif`
+  ctx.textAlign = "center"
+  ctx.textBaseline = "top"
+  ctx.fillStyle = makeGoldGradient(ctx, W * 0.15, W * 0.85, headlineY)
+  ctx.shadowColor = "rgba(0,0,0,0.5)"
+  ctx.shadowBlur = 10 * s
+  ctx.shadowOffsetY = 2 * s
+
+  const headlineLines = wrapLines(ctx, content.headline, W - 200 * s)
+  const lineH = headlineSize * 1.35
   for (let i = 0; i < headlineLines.length; i++) {
     ctx.fillText(headlineLines[i], W / 2, headlineY + i * lineH)
   }
   ctx.shadowBlur = 0
   ctx.shadowOffsetY = 0
 
-  const subtextY = headlineY + headlineLines.length * lineH + (wide ? 20 * s : 50 * s)
-  const subtextSize = wide ? 18 * s : 24 * s
+  const subtextY = headlineY + headlineLines.length * lineH + (wide ? 15 * s : 35 * s)
+  const subtextSize = wide ? 16 * s : 21 * s
   ctx.font = `${subtextSize}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(255,255,255,0.75)"
-  drawWrappedText(ctx, content.subtext, W / 2, subtextY, W - 180 * s, subtextSize, subtextSize * 1.5)
-
-  const labelY = wide ? H * 0.7 : H * 0.62
-  ctx.font = `bold ${14 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(201,163,85,0.6)"
-  ctx.textAlign = "center"
-  ctx.letterSpacing = `${4 * s}px`
-  ctx.fillText("FOOD AS MEDICINE", W / 2, labelY)
-  ctx.letterSpacing = "0px"
+  drawSubtextCard(ctx, content.subtext, W / 2, subtextY, W - 160 * s, subtextSize, subtextSize * 1.55, size)
 
   drawFooter(ctx, size, code)
   return canvasToJpg(canvas)
