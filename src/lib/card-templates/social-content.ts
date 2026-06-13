@@ -1,6 +1,6 @@
 import type { ConstitutionId } from "@/lib/types"
 
-export type TemplateType = "fact" | "symptom" | "food" | "which" | "quote"
+export type TemplateType = "fact" | "symptom" | "food" | "which" | "quote" | "chinglish"
 
 export interface SocialContent {
   type: TemplateType
@@ -17,6 +17,7 @@ export const TEMPLATE_META: Record<TemplateType, { label: string; icon: string }
   food: { label: "食物即药卡", icon: "🍯" },
   which: { label: "对号入座卡", icon: "😴" },
   quote: { label: "一句话真相卡", icon: "✨" },
+  chinglish: { label: "中式英语梗", icon: "🤣" },
 }
 
 export const SOCIAL_CONTENT: SocialContent[] = [
@@ -99,6 +100,33 @@ export const SOCIAL_CONTENT: SocialContent[] = [
   { type: "quote", headline: "Your blood test is normal. Your body is not.", subtext: "", emoji: "", bgType: "balanced", zh: "验血正常。你的身体不正常。" },
   { type: "quote", headline: "You've been treating the symptom. The cause has been your body type all along.", subtext: "", emoji: "", bgType: "balanced", zh: "你一直在治症状，原因一直是你的体质" },
   { type: "quote", headline: "The same illness. Different treatment. That's why your diet doesn't work for your friend.", subtext: "", emoji: "", bgType: "balanced", zh: "同病异治。这就是你的饮食对你朋友没用的原因" },
+
+  // ═══ Chinglish 中式英语养生梗 — 核心公式：语法离谱 + 道理不假 + 笑着转发 ═══
+  { type: "chinglish", headline: "Cold water = enemy of stomach.\nWarm water = best friend forever.", subtext: "Your stomach is fire. Ice water kill fire. Simple science.", emoji: "🧊", bgType: "yang_deficient", zh: "冰水是胃的敌人，温水是一辈子好朋友" },
+  { type: "chinglish", headline: "No sleep at 3 AM?\nYour liver is doing overtime.", subtext: "1-3 AM is liver shift. You no sleep, liver no rest. Liver get angry. You get anxious.", emoji: "🌙", bgType: "qi_stagnant", zh: "3点不睡？你的肝在加班" },
+  { type: "chinglish", headline: "Eat ginger, body say \"thank you.\"\nEat ice cream, body say \"why you do this.\"", subtext: "Warm food = body happy. Cold food = body confused. Listen to body.", emoji: "🫚", bgType: "yang_deficient", zh: "吃姜身体说谢谢，吃冰淇淋身体说为什么" },
+  { type: "chinglish", headline: "Your qi is very lazy today.\nNeed to wake up!", subtext: "Qi-deficient people: body say \"I tired\" but brain say \"I must go.\" Compromise: warm soup.", emoji: "😴", bgType: "qi_deficient", zh: "你的气今天很懒，需要叫醒！" },
+  { type: "chinglish", headline: "Ginger not for everyone.\nIf you already on fire, why add fire?", subtext: "Hot body + ginger = volcano. Cool body + ginger = sunshine. Know yourself first.", emoji: "🌋", bgType: "damp_heat", zh: "姜不是给所有人的，你已经着火了为什么还加火？" },
+  { type: "chinglish", headline: "Your tongue is honest.\nBlood test is lying.", subtext: "Western doctor say \"you fine.\" Your tongue say \"no I not.\" Trust tongue.", emoji: "👅", bgType: "balanced", zh: "你的舌头很诚实，验血在撒谎" },
+  { type: "chinglish", headline: "Coffee is borrowing.\nNot earning.", subtext: "3 PM crash = body collecting debt. You borrow energy from tomorrow. Tomorrow say \"pay me back.\"", emoji: "☕", bgType: "qi_deficient", zh: "咖啡是借不是赚" },
+  { type: "chinglish", headline: "Salad is healthy?\nFor your body, salad is betray.", subtext: "Raw cold food enter warm stomach. Stomach say \"what is this nonsense.\" Cook your vegetables. Be kind.", emoji: "🥗", bgType: "yang_deficient", zh: "沙拉健康？对你身体来说沙拉是背叛" },
+  { type: "chinglish", headline: "Angry all the time?\nLiver say: \"I stuck, help me.\"", subtext: "In TCM, anger live in liver. Liver energy stuck = you become angry person. Not personality. Just stuck liver.", emoji: "😤", bgType: "qi_stagnant", zh: "总是生气？肝说：我堵了，帮我" },
+  { type: "chinglish", headline: "Why Chinese grandma always say\n\"drink warm water\"?", subtext: "Because 3,000 years of observation prove: warm water = digestion good. Cold water = digestion crying. Grandma know.", emoji: "👵", bgType: "yang_deficient", zh: "为什么中国奶奶总说喝温水？" },
+  { type: "chinglish", headline: "Night sweat = body's AC broken.\nNeed cool down, cannot cool down.", subtext: "Yin is your coolant. Yin low = engine hot, no water in radiator. Mung bean soup. Pear. Not spicy.", emoji: "💦", bgType: "yin_deficient", zh: "盗汗 = 身体空调坏了，需要冷却但冷却不了" },
+  { type: "chinglish", headline: "Always bloated?\nYour body is wet sponge.\nNeed to squeeze.", subtext: "Dampness = heavy, sticky, no energy. Body hold water like camel but you not in desert. Warm food. No ice.", emoji: "🫠", bgType: "phlegm_damp", zh: "总是胀？你的身体是湿海绵，需要挤" },
+  { type: "chinglish", headline: "Every season you sick?\nYour shield got hole.\nNeed repair.", subtext: "Wei Qi = invisible shield. When thin, wind and cold walk right in. Eat warm. Layer up. Build wall.", emoji: "🤧", bgType: "sensitive", zh: "每个季节都病？你的盾有洞，需要修补" },
+  { type: "chinglish", headline: "You not fat.\nYou just holding water\nlike wrong container.", subtext: "Phlegm-damp body: every drop of water stay inside. Not your fault. Just wrong plumbing. Fix with warm food and patience.", emoji: "⏳", bgType: "phlegm_damp", zh: "你不是胖，你只是像错误的容器一样存着水" },
+  { type: "chinglish", headline: "Friend diet work for friend.\nSame diet for you = disaster.", subtext: "TCM say: same illness different treatment. Your body is different species. Treat it different.", emoji: "🍽️", bgType: "balanced", zh: "朋友的饮食对朋友有用，对你=灾难" },
+  { type: "chinglish", headline: "Brain fog?\nHead is cloud.\nBody is humid room.\nOpen window!", subtext: "Dampness fog up brain like shower mirror. Warm water + lemon = squeegee for mind.", emoji: "🌫️", bgType: "phlegm_damp", zh: "脑雾？头是云，身体是潮湿房间，开窗！" },
+  { type: "chinglish", headline: "Craving sweets every night?\nSpleen sending SOS.", subtext: "Spleen say: \"I need fuel but I too weak to process slow fuel. Give me quick fuel.\" Answer: sweet potato, not Snickers.", emoji: "🍫", bgType: "qi_deficient", zh: "每晚想吃甜？脾在发求救信号" },
+  { type: "chinglish", headline: "Back pain every morning?\nKidney battery = 1%.", subtext: "Lower back powered by deepest energy reserve. When low, you feel first thing in morning. Charge with walnuts and sleep.", emoji: "🦴", bgType: "yang_deficient", zh: "每天早上腰疼？肾电池1%" },
+  { type: "chinglish", headline: "Overthink everything?\nYour liver doing backflip\ninside your chest.", subtext: "Stuck energy = spinning thoughts. Body cannot move energy, so brain move thoughts instead. Walk. Breathe. Unstick.", emoji: "🌀", bgType: "qi_stagnant", zh: "总想太多？你的肝在胸口后空翻" },
+  { type: "chinglish", headline: "You think you tired?\nNo. Your body type tired.\nBig difference.", subtext: "Same sleep, same food, different energy. Because your engine is diesel, not gasoline. Stop using wrong fuel.", emoji: "⛽", bgType: "qi_deficient", zh: "你以为你累？不，是你的体质累，大不同" },
+  { type: "chinglish", headline: "Ice cream in winter?\nThat is crime against body.", subtext: "Your body already cold. You add ice? This is betrayal. Warm dessert exist. Red bean soup. Rice porridge. Join team warm.", emoji: "🍨", bgType: "yang_deficient", zh: "冬天吃冰淇淋？那是虐待身体" },
+  { type: "chinglish", headline: "Your face = map of inside.\nAcne on chin = hormone angry.\nForehead = gut crying.", subtext: "Western medicine say \"use cream.\" TCM say \"fix inside, outside will follow.\" Root cause, not band-aid.", emoji: "🗺️", bgType: "balanced", zh: "你的脸=内部地图，下巴痘=激素生气，额头=肠子在哭" },
+  { type: "chinglish", headline: "8 hour sleep but still zombie?\nWrong sleep at wrong time = no sleep.", subtext: "TCM body clock: liver repair at 1-3 AM. You sleep 3-11 AM? That is wrong shift. Body confused.", emoji: "🧟", bgType: "yin_deficient", zh: "睡8小时还是僵尸？错的时间睡等于没睡" },
+  { type: "chinglish", headline: "Chinese medicine:\nFix root, not fruit.\nWestern medicine:\nFix fruit, ignore root.", subtext: "Symptom is fruit. Body type is root. Cut fruit, new fruit grow. Fix root, no more fruit.", emoji: "🌳", bgType: "balanced", zh: "中医治根不治果，西医治果不管根" },
+  { type: "chinglish", headline: "Body is garden,\nnot machine.\nYou cannot upgrade GPU.\nBut you can change soil.", subtext: "Your body type = your soil. Some grow roses, some grow cactus. Know your soil. Plant right seed.", emoji: "🌱", bgType: "balanced", zh: "身体是花园不是机器，你不能换显卡但可以换土壤" },
 ]
 
 export function getContentByType(type: TemplateType): SocialContent[] {

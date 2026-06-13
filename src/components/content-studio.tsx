@@ -18,6 +18,7 @@ import { renderSymptomCard } from "@/lib/card-templates/template-symptom"
 import { renderFoodCard } from "@/lib/card-templates/template-food"
 import { renderWhichCard } from "@/lib/card-templates/template-which"
 import { renderQuoteCard } from "@/lib/card-templates/template-quote"
+import { renderChinglishCard } from "@/lib/card-templates/template-chinglish"
 import { generateCopy } from "@/lib/pinterest-copy"
 import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
@@ -35,6 +36,7 @@ const TEMPLATE_RENDERERS: Record<TemplateType, (c: SocialContent, s: PlatformSiz
   food: renderFoodCard,
   which: renderWhichCard,
   quote: renderQuoteCard,
+  chinglish: renderChinglishCard,
 }
 
 interface GeneratedResult {
