@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-cold"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Cold? When Your Internal Heater Runs Low"
+const TITLE = "Always Cold? Your Body Type Controls Your Internal Heat"
 const DESC = "Always cold when others are comfortable? Learn which Eastern body type is associated with cold sensitivity and what warming foods may help."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

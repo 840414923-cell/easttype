@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-acid-reflux"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Acid Reflux? The Fire That Keeps Rising"
-const DESC = "Burning in your chest after meals? Your Eastern body type may explain chronic acid reflux. Learn which TCM patterns are linked to heartburn."
+const TITLE = "Acid Reflux Won't Go Away? Your Body Type Might Be the Cause"
+const DESC = "Burning in your chest after meals? Your Eastern body type may explain chronic acid reflux. Learn which Eastern body types are linked to heartburn."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

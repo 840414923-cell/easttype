@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-to-pee"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Wake Up to Pee? The Bladder's Night Shift"
-const DESC = "Getting up multiple times every night to urinate? Your Eastern body type may explain nocturia. Learn which TCM patterns are linked to frequent nighttime urination."
+const TITLE = "Waking Up to Pee Every Night? Your Body Type Runs the Night Shift"
+const DESC = "Getting up multiple times every night to urinate? Your Eastern body type may explain nocturia. Learn which Eastern body types are linked to frequent nighttime urination."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "always-bloated-after-eating"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Always Bloated After Eating? Your Spleen May Be Overwhelmed"
-const DESC = "Bloated after every meal? Traditional Chinese Medicine links bloating to specific body types. Learn which foods may help reduce that heavy feeling."
+const TITLE = "Always Bloated After Eating? Your Body Type Controls Your Digestion"
+const DESC = "Bloated after every meal? Eastern wellness links bloating to specific body types. Learn which foods may help reduce that heavy feeling."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

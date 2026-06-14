@@ -5,15 +5,15 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-body-types"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "The 9 Chinese Medicine Body Types Explained"
-const DESC = "Chinese medicine identifies 9 body constitutions — from Balanced to Sensitive. Each type has unique strengths, weaknesses, and ideal foods. Learn all 9 types and discover yours with a free quiz."
+const TITLE = "The 9 Eastern Body Types Explained"
+const DESC = "Eastern wellness identifies 9 body constitutions — from Balanced to Sensitive. Each type has unique strengths, weaknesses, and ideal foods. Learn all 9 types and find yours."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Ayurveda has 3 doshas. Chinese medicine has 9 body types. Here's what each one means and how to tell which one you are.",
+    description: "Ayurveda has 3 doshas. Eastern wellness has 9 body types. Here's what each one means and how to tell which one you are.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Ayurveda has 3 doshas. Chinese medicine has 9 body types. Here's what each one means.",
+    description: "Ayurveda has 3 doshas. Eastern wellness has 9 body types. Here's what each one means.",
   },
   alternates: { canonical: URL },
 }

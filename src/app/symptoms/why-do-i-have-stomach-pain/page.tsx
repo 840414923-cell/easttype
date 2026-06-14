@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-stomach-pain"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Stomach Pain? The Alarm Bell Nobody Can Find"
-const DESC = "Recurring stomach pain with no clear diagnosis? Your Eastern body type may explain it. Learn which TCM patterns are linked to chronic stomach ache."
+const TITLE = "Stomach Pain With No Clear Cause? Your Body Type Sends Warning Signals"
+const DESC = "Recurring stomach pain with no clear diagnosis? Your Eastern body type may explain it. Learn which Eastern body types are linked to chronic stomach ache."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

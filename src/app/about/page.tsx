@@ -3,11 +3,11 @@ import AboutArticle from "./article"
 import { buildArticleJsonLd, buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
 const TITLE = "About EastType — Our Approach to Eastern Wellness"
-const DESC = "EastType translates traditional Chinese medicine body constitution theory into practical wellness guidance. Learn about our methodology, content sources, and what this assessment can (and cannot) do."
+const DESC = "EastType translates Eastern wellness body type theory into practical guidance. Learn about our methodology, content sources, and what this assessment can (and cannot) do."
 const URL = "https://www.myeasterntype.com/about"
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
@@ -52,7 +52,7 @@ const jsonLd = [
     name: "EastType",
     url: "https://www.myeasterntype.com",
     logo: "https://www.myeasterntype.com/favicon.svg",
-    description: "Eastern wellness body constitution assessment based on Traditional Chinese Medicine",
+    description: "Eastern wellness body constitution assessment based on 3,000 years of body type wisdom",
     contactPoint: {
       "@type": "ContactPoint",
       email: "840414923@qq.com",

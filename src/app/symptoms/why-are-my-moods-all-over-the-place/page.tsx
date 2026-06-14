@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-are-my-moods-all-over-the-place"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Are My Moods All Over the Place? The Emotional Rollercoaster No One Signed Up For"
-const DESC = "Mood swings that come out of nowhere? Your Eastern body type may explain unpredictable emotions. Learn which TCM patterns are linked to emotional instability and what may help."
+const TITLE = "Mood Swings Out of Nowhere? Your Body Type Might Be the Cause"
+const DESC = "Mood swings that come out of nowhere? Your Eastern body type may explain unpredictable emotions. Learn which Eastern body types are linked to emotional instability and what may help."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

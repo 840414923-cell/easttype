@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-constipated"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Constipated? The Pipe That Stopped Flowing"
-const DESC = "Chronic constipation that fiber doesn't fix? Your Eastern body type may explain it. Learn which TCM patterns are linked to sluggish bowel movements."
+const TITLE = "Always Constipated? Your Body Type Slows Everything Down"
+const DESC = "Chronic constipation that fiber doesn't fix? Your Eastern body type may explain it. Learn which Eastern body types are linked to sluggish bowel movements."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

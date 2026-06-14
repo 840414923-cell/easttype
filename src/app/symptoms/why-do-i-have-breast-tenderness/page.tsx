@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-breast-tenderness"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Breast Tenderness? The Swelling Before the Storm"
-const DESC = "Sore and swollen breasts before your period? Your Eastern body type may explain breast tenderness. Learn which TCM patterns are linked to cyclic breast pain."
+const TITLE = "Breast Tenderness Before Your Period? Your Body Type Causes the Swelling"
+const DESC = "Sore and swollen breasts before your period? Your Eastern body type may explain breast tenderness. Learn which Eastern body types are linked to cyclic breast pain."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

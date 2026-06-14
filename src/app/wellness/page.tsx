@@ -2,12 +2,12 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Wellness Guides — Chinese Medicine for Modern Life"
-const DESC = "Free wellness guides based on Traditional Chinese Medicine. Understand why you're always tired, always cold, can't sleep, and what to eat for your body type."
+const TITLE = "Wellness Guides — Eastern Body Type Nutrition"
+const DESC = "Free wellness guides based on Eastern wellness. Understand why you're always tired, always cold, can't sleep, and what to eat for your body type."
 const URL = "https://www.myeasterntype.com/wellness"
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
 const articles = [
   {
     slug: "chinese-medicine-body-types",
-    title: "The 9 Chinese Medicine Body Types — A Complete Guide",
-    excerpt: "Chinese medicine identifies 9 body constitutions — each with unique physical patterns, emotional tendencies, and ideal foods.",
+    title: "The 9 Eastern Body Types — A Complete Guide",
+    excerpt: "Eastern wellness identifies 9 body constitutions — each with unique physical patterns, emotional tendencies, and ideal foods.",
     tag: "Overview",
     readTime: "10 min",
   },
   {
     slug: "chinese-medicine-foods-for-energy",
-    title: "Chinese Medicine Foods for Energy: What to Eat When You're Always Tired",
+    title: "Eastern Wellness Foods for Energy: What to Eat When You're Always Tired",
     excerpt: "The right foods can rebuild your Qi. Warm, cooked, easy-to-digest meals are the foundation of energy recovery.",
     tag: "Nutrition",
     readTime: "7 min",
@@ -81,7 +81,7 @@ export default function WellnessIndexPage() {
         Wellness Guides
       </h1>
       <p className="text-text2 text-base mb-10 leading-relaxed max-w-xl">
-        Free guides based on Traditional Chinese Medicine. Understand your body&apos;s signals through 3,000 years of Eastern wisdom.
+        Free guides based on Eastern wellness. Understand your body&apos;s signals through 3,000 years of body type wisdom.
       </p>
 
       <div className="space-y-4">

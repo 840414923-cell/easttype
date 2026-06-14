@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-a-chronic-cough"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have a Chronic Cough? The Tickles That Set Up Residence"
-const DESC = "A cough that lingers for weeks or months? Your Eastern body type may explain it. Learn which TCM patterns are linked to persistent coughing."
+const TITLE = "Chronic Cough Won't Stop? Your Body Type Keeps the Tickles"
+const DESC = "A cough that lingers for weeks or months? Your Eastern body type may explain it. Learn which Eastern body types are linked to persistent coughing."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

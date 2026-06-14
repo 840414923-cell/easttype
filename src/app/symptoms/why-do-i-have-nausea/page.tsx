@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-nausea"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Nausea? The Stomach That Keeps Threatening to Strike"
-const DESC = "Feeling queasy for no clear reason? Your Eastern body type may explain chronic nausea. Learn which TCM patterns are linked to recurring nausea and what may help."
+const TITLE = "Always Nauseous? Your Body Type Might Be Behind It"
+const DESC = "Feeling queasy for no clear reason? Your Eastern body type may explain chronic nausea. Learn which Eastern body types are linked to recurring nausea and what may help."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

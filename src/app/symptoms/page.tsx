@@ -4,12 +4,12 @@ import { SYMPTOMS, SYMPTOM_SLUGS } from "@/lib/symptoms-data"
 import SymptomCta from "@/components/symptom-cta"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Common Wellness Symptoms & Body Type Insights"
-const DESC = "Explore common wellness symptoms like fatigue, cold sensitivity, poor sleep, and bloating through the lens of Traditional Chinese Medicine and constitutional body type patterns."
+const TITLE = "What Your Symptoms Mean — Eastern Body Type Guide"
+const DESC = "Explore common symptoms like fatigue, cold sensitivity, poor sleep, and bloating through Eastern wellness and body type patterns. Find out what your body may be telling you."
 const URL = "https://www.myeasterntype.com/symptoms"
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
@@ -40,7 +40,7 @@ export default function SymptomsHubPage() {
         Explore Common Wellness Symptoms
       </h1>
       <p className="text-text2 leading-relaxed mb-10 max-w-2xl">
-        Many people struggle with recurring symptoms such as fatigue, poor sleep, cold sensitivity, bloating, and low energy. This resource hub explores these symptoms through the lens of Traditional Chinese Medicine and constitutional wellness patterns.
+        Many people struggle with recurring symptoms such as fatigue, poor sleep, cold sensitivity, bloating, and low energy. This resource hub explores these symptoms through the lens of Eastern wellness and constitutional body type patterns.
       </p>
 
       <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-6">

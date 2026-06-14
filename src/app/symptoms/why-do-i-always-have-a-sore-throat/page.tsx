@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-always-have-a-sore-throat"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Always Have a Sore Throat? The Fire in the Chimney"
-const DESC = "Throat pain that keeps coming back? Your Eastern body type may explain recurring sore throats. Learn which TCM patterns are linked to chronic throat discomfort."
+const TITLE = "Sore Throat Keeps Coming Back? Your Body Type Burns From Within"
+const DESC = "Throat pain that keeps coming back? Your Eastern body type may explain recurring sore throats. Learn which Eastern body types are linked to chronic throat discomfort."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

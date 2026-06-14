@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-tinnitus"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Tinnitus? The Bell Nobody Else Can Hear"
-const DESC = "Ringing or buzzing in your ears that won't stop? Your Eastern body type may explain tinnitus. Learn which TCM patterns are linked to ear ringing."
+const TITLE = "Ringing in Your Ears? Your Body Type Rings the Bell Nobody Hears"
+const DESC = "Ringing or buzzing in your ears that won't stop? Your Eastern body type may explain tinnitus. Learn which Eastern body types are linked to ear ringing."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

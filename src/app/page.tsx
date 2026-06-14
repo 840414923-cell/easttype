@@ -2,13 +2,13 @@ import type { Metadata } from "next"
 import HomeClient from "./home-client"
 
 export const metadata: Metadata = {
-  title: "EastType — Discover Your Chinese Medicine Body Type | Free 5-Min Quiz",
+  title: "EastType — Discover Your Eastern Body Type",
   description:
-    "Why are you always tired, cold, or bloated? Discover your Eastern body type with a free 5-min quiz. Food maps and wellness guides based on 3,000 years of TCM.",
+    "Why are you always tired, cold, or bloated? Your Eastern body type has the answer. Take a free 5-min quiz and get personalized food maps and wellness guides.",
   openGraph: {
     title: "Why Are You Always Tired, Cold, Stressed, or Bloated?",
     description:
-      "Discover your Eastern body type in 5 minutes. Personalized food maps and wellness guidance inspired by 3,000 years of TCM wisdom.",
+      "Discover your Eastern body type in 5 minutes. Personalized food maps and wellness guidance based on 3,000 years of Eastern wellness.",
     type: "website",
     url: "https://www.myeasterntype.com",
     siteName: "EastType",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "EastType — What's Your Eastern Body Type?",
     description:
-      "Why are you always tired, cold, or bloated? Take our free 5-minute quiz to discover your TCM body type.",
+      "Why are you always tired, cold, or bloated? Take our free 5-minute quiz to discover your Eastern body type.",
   },
   alternates: {
     canonical: "https://www.myeasterntype.com",
@@ -30,7 +30,7 @@ const ORG_SCHEMA = {
   name: "EastType",
   url: "https://www.myeasterntype.com",
   logo: "https://www.myeasterntype.com/favicon.svg",
-  description: "Discover your Chinese medicine body type with a free 5-minute quiz. Personalized food maps, seasonal guides, and TCM recipe plans.",
+  description: "Discover your Eastern body type with a free 5-minute quiz. Personalized food maps, seasonal guides, and wellness recipe plans.",
   sameAs: [],
 }
 

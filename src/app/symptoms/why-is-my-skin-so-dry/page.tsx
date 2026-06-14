@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-skin-so-dry"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Skin So Dry? When Moisture Won't Stay Where It Should"
-const DESC = "Dry skin that no moisturizer fixes? Your Eastern body type may explain it. Learn which TCM patterns are linked to chronic dryness and what may help hydrate from within."
+const TITLE = "Dry Skin That Lotion Won't Fix? Your Body Type Decides Moisture"
+const DESC = "Dry skin that no moisturizer fixes? Your Eastern body type may explain it. Learn which Eastern body types are linked to chronic dryness and what may help hydrate from within."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: { title: TITLE, description: "Lotion every day and still dry? Your body type may explain it.", url: URL, type: "article", siteName: "EastType" },
   twitter: { card: "summary_large_image", title: TITLE, description: "Lotion every day and still dry? Your body type may explain it." },

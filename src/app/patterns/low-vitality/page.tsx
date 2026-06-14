@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "low-vitality"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "Always Tired? Your Body Type Might Explain Why"
+const TITLE = "Always Tired? Your Body Type Is Draining Your Energy"
 const DESC = "Sleep 8 hours and still exhausted? Your body type might be the reason. Discover which Eastern body pattern causes chronic fatigue and what you can eat to get your energy back."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

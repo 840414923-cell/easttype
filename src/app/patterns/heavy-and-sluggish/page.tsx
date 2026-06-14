@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "heavy-and-sluggish"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "Heavy & Sluggish Pattern — Bloating, Heaviness, Always Sleepy"
-const DESC = "The Heavy & Sluggish pattern links chronic bloating, heaviness, and daytime sleepiness to Phlegm Damp in Traditional Chinese Medicine. Learn which foods and habits may help clear the fog."
+const TITLE = "Always Bloated and Heavy? Your Body Type Holds Too Much Moisture"
+const DESC = "The Heavy & Sluggish pattern links chronic bloating, heaviness, and daytime sleepiness to Phlegm Damp in Eastern wellness. Learn which foods and habits may help clear the fog."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

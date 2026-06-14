@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-feel-dizzy"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Feel Dizzy? When the Room Spins Without Warning"
-const DESC = "Dizzy spells that come and go without warning? Your Eastern body type may explain dizziness. Learn which TCM patterns are linked to feeling lightheaded."
+const TITLE = "Dizzy Spells? Your Body Type Shakes Your Foundation"
+const DESC = "Dizzy spells that come and go without warning? Your Eastern body type may explain dizziness. Learn which Eastern body types are linked to feeling lightheaded."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-brittle-nails"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Brittle Nails? The Twigs at Your Fingertips"
-const DESC = "Nails that split, peel, or break easily? Your Eastern body type may explain brittle nails. Learn which TCM patterns are linked to nail weakness."
+const TITLE = "Brittle Nails? Your Body Type Affects Nail Strength"
+const DESC = "Nails that split, peel, or break easily? Your Eastern body type may explain brittle nails. Learn which Eastern body types are linked to nail weakness."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

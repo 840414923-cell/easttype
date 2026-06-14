@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-post-nasal-drip"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Post-Nasal Drip? The Drip That Never Stops"
-const DESC = "Constant need to clear your throat or feeling of mucus in the back of your throat? Your Eastern body type may explain post-nasal drip from a TCM perspective."
+const TITLE = "Post-Nasal Drip? Your Body Type Won't Stop the Flow"
+const DESC = "Constant need to clear your throat or feeling of mucus in the back of your throat? Your Eastern body type may explain post-nasal drip from an Eastern wellness perspective."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

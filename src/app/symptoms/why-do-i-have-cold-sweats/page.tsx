@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-cold-sweats"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Cold Sweats? The Chill That Comes With the Drip"
-const DESC = "Breaking into cold sweats for no obvious reason? Your Eastern body type may explain it. Learn which TCM patterns are linked to cold perspiration."
+const TITLE = "Cold Sweats for No Reason? Your Body Type Sends Mixed Signals"
+const DESC = "Breaking into cold sweats for no obvious reason? Your Eastern body type may explain it. Learn which Eastern body types are linked to cold perspiration."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

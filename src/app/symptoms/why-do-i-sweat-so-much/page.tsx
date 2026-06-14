@@ -5,10 +5,10 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-sweat-so-much"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Sweat So Much? When Your Internal Thermostat Is Stuck High"
-const DESC = "Sweating excessively even when it's not hot? Your Eastern body type may explain heavy sweating. Learn which TCM patterns are linked to excessive perspiration."
+const TITLE = "Sweating Too Much? Your Body Type's Thermostat May Be Stuck"
+const DESC = "Sweating excessively even when it's not hot? Your Eastern body type may explain heavy sweating. Learn which Eastern body types are linked to excessive perspiration."
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

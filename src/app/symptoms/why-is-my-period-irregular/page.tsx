@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-period-irregular"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Period Irregular? The Clock That Lost Its Rhythm"
-const DESC = "Skipping periods or unpredictable cycle length? Your Eastern body type may explain irregular menstruation. Learn which TCM patterns are linked to cycle disruption."
+const TITLE = "Irregular Periods? Your Body Type Disrupts the Clock"
+const DESC = "Skipping periods or unpredictable cycle length? Your Eastern body type may explain irregular menstruation. Learn which Eastern body types are linked to cycle disruption."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

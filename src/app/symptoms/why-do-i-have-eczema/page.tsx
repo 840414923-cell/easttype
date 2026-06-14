@@ -5,10 +5,10 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-eczema"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Eczema? The Itch That Comes From Within"
-const DESC = "Eczema that keeps coming back no matter what you apply? Your Eastern body type may explain recurring eczema. Learn which TCM patterns are linked to skin flare-ups."
+const TITLE = "Eczema Keeps Coming Back? Your Body Type May Be Behind It"
+const DESC = "Eczema that keeps coming back no matter what you apply? Your Eastern body type may explain recurring eczema. Learn which Eastern body types are linked to skin flare-ups."
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

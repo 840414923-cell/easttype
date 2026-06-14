@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-thirsty"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Thirsty? The Dryness That Water Can't Fix"
-const DESC = "Can't quench your thirst no matter how much you drink? Your Eastern body type may explain constant thirst. Learn which TCM patterns are linked to dry mouth."
+const TITLE = "Always Thirsty? Your Body Type Can't Hold Onto Water"
+const DESC = "Can't quench your thirst no matter how much you drink? Your Eastern body type may explain constant thirst. Learn which Eastern body types are linked to dry mouth."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

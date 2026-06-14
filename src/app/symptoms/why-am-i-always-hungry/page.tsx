@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-hungry"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Hungry? The Stomach That Never Feels Full"
-const DESC = "Never feel full no matter how much you eat? Your Eastern body type may explain constant hunger. Learn which TCM patterns are linked to an unsatisfiable appetite."
+const TITLE = "Always Hungry? Your Body Type Might Not Send Full Signals"
+const DESC = "Never feel full no matter how much you eat? Your Eastern body type may explain constant hunger. Learn which Eastern body types are linked to an unsatisfiable appetite."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

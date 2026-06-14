@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-face-so-oily"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Face So Oily? The Faucet That Won't Stop Dripping"
-const DESC = "Shiny forehead by noon and blotting sheets don't help? Your Eastern body type may explain oily skin. Learn which TCM patterns are linked to excess facial oil."
+const TITLE = "Oily Face by Noon? Your Body Type Controls the Oil Faucet"
+const DESC = "Shiny forehead by noon and blotting sheets don't help? Your Eastern body type may explain oily skin. Learn which Eastern body types are linked to excess facial oil."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

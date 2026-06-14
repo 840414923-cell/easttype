@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-irritable"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I So Irritable? The Short Fuse That Keeps Getting Shorter"
-const DESC = "Snapping at people for no reason? Your Eastern body type may explain chronic irritability. Learn which TCM patterns are linked to a short fuse."
+const TITLE = "Always Irritable? Your Body Type Might Be the Short Fuse"
+const DESC = "Snapping at people for no reason? Your Eastern body type may explain chronic irritability. Learn which Eastern body types are linked to a short fuse."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

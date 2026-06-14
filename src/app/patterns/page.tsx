@@ -4,12 +4,12 @@ import { PATTERNS, PATTERN_SLUGS } from "@/lib/pattern-data"
 import SymptomCta from "@/components/symptom-cta"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Wellness Patterns — Connect Your Symptoms to Eastern Body Wisdom"
-const DESC = "Explore wellness patterns that bridge everyday symptoms like fatigue, cold sensitivity, and poor sleep with Traditional Chinese Medicine body types. Understand what your body may be telling you."
+const TITLE = "Wellness Patterns — Connect Your Symptoms to Your Body Type"
+const DESC = "Explore wellness patterns that bridge everyday symptoms like fatigue, cold sensitivity, and poor sleep with Eastern body types. Understand what your body may be telling you."
 const URL = "https://www.myeasterntype.com/patterns"
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
@@ -65,7 +65,7 @@ export default function PatternsHubPage() {
           can help you make sense of symptoms that seem unrelated.
         </p>
         <p className="text-text2 text-sm mb-10 leading-relaxed max-w-xl">
-          These patterns are based on 3,000 years of Traditional Chinese Medicine observation.
+          These patterns are based on 3,000 years of Eastern wellness observation.
           They connect what you feel to what your body may need.
         </p>
 
@@ -100,7 +100,7 @@ export default function PatternsHubPage() {
             How Patterns Connect to Your Body Type
           </h2>
           <p className="text-text2 text-sm leading-relaxed mb-3">
-            Chinese medicine identifies 9 distinct body types. Each pattern on this page
+            Eastern wellness identifies 9 distinct body types. Each pattern on this page
             connects to one or more body types. Once you understand your pattern, the next step
             is discovering your full body type profile.
           </p>

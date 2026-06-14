@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "high-sensitivity"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "High Sensitivity Pattern — Allergies, Strong Reactions, Emotional Sensitivity"
-const DESC = "The High Sensitivity pattern links allergies, strong reactions to smells and sounds, and emotional sensitivity to the Sensitive constitution in Traditional Chinese Medicine. Learn which habits may help build resilience."
+const TITLE = "Allergies Won't Quit? Your Body Type Reacts to Everything"
+const DESC = "The High Sensitivity pattern links allergies, strong reactions to smells and sounds, and emotional sensitivity to the Sensitive constitution in Eastern wellness. Learn which habits may help build resilience."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

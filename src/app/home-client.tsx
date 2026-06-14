@@ -27,7 +27,7 @@ const LL = {
   archetypeLine1: "Traditional Eastern wellness identifies 9 constitutional patterns.",
   archetypeLine2: "Each type has unique tendencies in energy, digestion, sleep, emotional balance, and overall wellbeing.",
   seoTitle: "What Are Eastern Body Types?",
-  seoP1: "Inspired by Traditional Chinese Medicine (TCM), Eastern body types describe common patterns related to energy, digestion, sleep, emotional tendencies and overall wellbeing.",
+  seoP1: "Eastern wellness identifies 9 body types — each with unique patterns related to energy, digestion, sleep, emotional tendencies and overall wellbeing.",
   seoP2: "This assessment helps identify which pattern best reflects your current constitution and provides personalized wellness guidance.",
   faqTitle: "Frequently Asked Questions",
   faq1Q: "Is this a medical diagnosis?",
@@ -348,7 +348,7 @@ export default function HomeClient() {
               <div className="text-[10px] text-text2 mb-4">One-time payment</div>
               <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
                 <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Everything in Body Profile</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>28-day TCM recipe plan</li>
+                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>28-day wellness recipe plan</li>
                 <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Weekly grocery lists</li>
                 <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Seasonal adjustments</li>
               </ul>

@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-cellulite"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Cellulite? The Dimples That Moved In and Stayed"
-const DESC = "Stubborn cellulite that creams and exercise don't fix? Your Eastern body type may explain it. Learn which TCM patterns are linked to cellulite from an Eastern perspective."
+const TITLE = "Stubborn Cellulite? Your Body Type Might Explain Those Dimples"
+const DESC = "Stubborn cellulite that creams and exercise don't fix? Your Eastern body type may explain it. Learn which Eastern body types are linked to cellulite from an Eastern perspective."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

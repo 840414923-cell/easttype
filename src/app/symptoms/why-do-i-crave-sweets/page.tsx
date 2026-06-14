@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-crave-sweets"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Crave Sweets? What Your Cravings May Be Telling You"
-const DESC = "Can't stop craving sugar? Your Eastern body type may explain sweet cravings. Learn which TCM patterns are linked to sugar addiction and what may help reduce the urge."
+const TITLE = "Can't Stop Craving Sweets? Your Body Type Might Be Driving It"
+const DESC = "Can't stop craving sugar? Your Eastern body type may explain sweet cravings. Learn which Eastern body types are linked to sugar addiction and what may help reduce the urge."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: { title: TITLE, description: "Always reaching for something sweet? Your body type may explain why.", url: URL, type: "article", siteName: "EastType" },
   twitter: { card: "summary_large_image", title: TITLE, description: "Always reaching for something sweet? Your body type may explain why." },

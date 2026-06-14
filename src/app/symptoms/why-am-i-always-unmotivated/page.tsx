@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-unmotivated"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I Always Unmotivated? When Willpower Isn't the Problem"
-const DESC = "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which TCM patterns are linked to apathy."
+const TITLE = "No Motivation? Your Body Type Might Be the Reason"
+const DESC = "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which Eastern body types are linked to apathy."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-libido-low"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Libido Low? The Flame That Quietly Went Out"
-const DESC = "Lost interest in intimacy and don't know why? Your Eastern body type may explain low libido. Learn which TCM patterns are linked to reduced desire and what may help."
+const TITLE = "Low Libido? Your Body Type Might Be the Reason"
+const DESC = "Lost interest in intimacy and don't know why? Your Eastern body type may explain low libido. Learn which Eastern body types are linked to reduced desire and what may help."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

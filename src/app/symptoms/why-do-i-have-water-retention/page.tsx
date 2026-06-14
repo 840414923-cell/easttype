@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-water-retention"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Have Water Retention? The Puffiness That Isn't Just Salt"
-const DESC = "Puffy, swollen, or heavy from fluid buildup? Your Eastern body type may explain water retention. Learn which TCM patterns are linked to holding onto moisture."
+const TITLE = "Puffy and Swollen? Your Body Type Holds Onto Moisture"
+const DESC = "Puffy, swollen, or heavy from fluid buildup? Your Eastern body type may explain water retention. Learn which Eastern body types are linked to holding onto moisture."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

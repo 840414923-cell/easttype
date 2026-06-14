@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-sensitive-to-heat"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Am I So Sensitive to Heat? The AC That Broke Down"
-const DESC = "Can't tolerate warm weather or heated rooms? Your Eastern body type may explain heat sensitivity. Learn which TCM patterns are linked to heat intolerance."
+const TITLE = "Always Too Hot? Your Body Type's Cooling System May Be Off"
+const DESC = "Can't tolerate warm weather or heated rooms? Your Eastern body type may explain heat sensitivity. Learn which Eastern body types are linked to heat intolerance."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

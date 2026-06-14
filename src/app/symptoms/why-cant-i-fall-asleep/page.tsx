@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-fall-asleep"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Can't I Fall Asleep? The Switch That Won't Turn Off"
-const DESC = "Lying awake for hours? Your Eastern body type may explain why you can't fall asleep. Learn which TCM patterns are linked to trouble falling asleep and what may help."
+const TITLE = "Can't Fall Asleep? Your Body Type Won't Let You Shut Off"
+const DESC = "Lying awake for hours? Your Eastern body type may explain why you can't fall asleep. Learn which Eastern body types are linked to trouble falling asleep and what may help."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

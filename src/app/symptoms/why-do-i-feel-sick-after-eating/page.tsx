@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-feel-sick-after-eating"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Feel Sick After Eating? The Welcome Mat Your Stomach Pulled In"
-const DESC = "Feeling unwell after every meal? Your Eastern body type may explain post-meal sickness. Learn which TCM patterns are linked to feeling sick after eating."
+const TITLE = "Sick After Eating? Your Body Type Decides What Foods Work"
+const DESC = "Feeling unwell after every meal? Your Eastern body type may explain post-meal sickness. Learn which Eastern body types are linked to feeling sick after eating."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

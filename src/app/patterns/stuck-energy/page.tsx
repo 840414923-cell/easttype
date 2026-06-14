@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "stuck-energy"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "Tight Chest, Mood Swings, Can't Relax? Your Body Type Might Explain Why"
+const TITLE = "Mood Swings and Chest Tightness? Your Body Type Traps Your Emotions"
 const DESC = "Feel like something is stuck inside? Frequent sighing, mood swings, and chest tightness might be your body type talking. Discover which Eastern pattern causes stuck energy and what may help it flow again."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

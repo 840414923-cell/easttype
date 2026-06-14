@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-period-so-heavy"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Is My Period So Heavy? The Flow That Won't Slow Down"
-const DESC = "Soaking through pads or passing clots? Your Eastern body type may explain heavy menstrual bleeding. Learn which TCM patterns are linked to menorrhagia."
+const TITLE = "Heavy Periods? Your Body Type Might Not Stop the Flow"
+const DESC = "Soaking through pads or passing clots? Your Eastern body type may explain heavy menstrual bleeding. Learn which Eastern body types are linked to menorrhagia."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,

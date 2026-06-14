@@ -5,11 +5,11 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-cry-so-easily"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Why Do I Cry So Easily? The Faucet With No Off Switch"
-const DESC = "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which TCM patterns are linked to emotional sensitivity."
+const TITLE = "Cry Too Easily? Your Body Type Might Be Why Tears Flow Fast"
+const DESC = "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which Eastern body types are linked to emotional sensitivity."
 
 export const metadata: Metadata = {
-  title: `${TITLE} | EastType`,
+  title: TITLE,
   description: DESC,
   openGraph: { title: TITLE, description: "A sad commercial and you're reaching for tissues? Your body type may explain why your tear ducts are always on standby.", url: URL, type: "article", siteName: "EastType" },
   twitter: { card: "summary_large_image", title: TITLE, description: "A sad commercial and you're reaching for tissues? Your body type may explain why your tear ducts are always on standby." },

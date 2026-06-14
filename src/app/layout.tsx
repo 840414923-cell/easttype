@@ -29,18 +29,18 @@ export const metadata: Metadata = {
   verification: {
     google: "MiP1PyAbOojiLM7jlUAb8a1ZiSRPzqdyXJTdgWvGFYQ",
   },
-  title: "EastType — What's Your Eastern Type?",
+  title: "EastType — Discover Your Eastern Body Type",
   description:
-    "Chinese medicine identified 9 body types centuries ago. Ayurveda has 3. We have 9. Discover yours in ~5 minutes.",
+    "Eastern wellness identifies 9 body types — each with unique patterns and needs. Discover yours in a free 5-minute assessment.",
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "EastType — What's Your Eastern Type?",
+    title: "EastType — Discover Your Eastern Body Type",
     description:
-      "Chinese medicine identified 9 body types centuries ago. Discover yours in a free ~5 min quiz.",
+      "Eastern wellness identifies 9 body types. Discover yours in a free 5-minute assessment.",
     type: "website",
     url: "https://www.myeasterntype.com",
     images: [
@@ -54,9 +54,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EastType — What's Your Eastern Type?",
+    title: "EastType — Discover Your Eastern Body Type",
     description:
-      "Chinese medicine identified 9 body types centuries ago. Discover yours in ~5 min.",
+      "Eastern wellness identifies 9 body types. Discover yours in a free 5-minute assessment.",
     images: ["/og-image.png"],
   },
   robots: {
