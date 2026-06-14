@@ -13,7 +13,7 @@ const LL = {
   subtitle: "Discover the body pattern behind recurring symptoms and get personalized wellness guidance.",
   cta: "Take the Free 5-Min Quiz",
   ctaSub: "Free · No Sign-up Required",
-  ctaSecondary: "Based on 3,000 years of Eastern wellness observation",
+  ctaSecondary: "Quiz reviewed by licensed TCM hospital doctors",
   discoverTitle: "What You'll Discover",
   discover1: "Which body pattern drives your recurring symptoms",
   discover2: "Why certain symptoms keep coming back",

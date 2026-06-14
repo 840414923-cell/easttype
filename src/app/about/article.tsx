@@ -61,8 +61,11 @@ export default function AboutArticle() {
             <p className="mb-4">
               EastType&apos;s version reduces the question count and adapts the language for an online, English-speaking audience. It covers the same core dimensions: energy level, thermal preference, digestion, sleep quality, emotional tendency, and physical characteristics. Your answers generate a score for each of the nine constitution types, and the highest-scoring type is presented as your primary result.
             </p>
-            <p>
+            <p className="mb-4">
               This is a self-reported assessment, not a clinical diagnosis. In a traditional Chinese medicine consultation, a practitioner would also observe your tongue, feel your pulse, and ask follow-up questions based on your responses. EastType captures the questionnaire portion of that process, optimized for self-understanding of your constitutional tendencies.
+            </p>
+            <p>
+              The quiz was reviewed by doctors from a licensed Traditional Chinese Medicine hospital in China. These doctors see over 100 patients daily and referenced their real clinical diagnostic process to validate the quiz questions. Their feedback ensured the assessment captures the same core dimensions used in actual TCM practice.
             </p>
           </section>
 
