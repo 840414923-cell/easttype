@@ -16,6 +16,8 @@ export interface GeneratedCard {
   hashtags: string
   igCaption: string
   igHashtags: string
+  xCaption: string
+  xHashtags: string
   ctaType: CtaType
   ratio: AspectRatio
 }
@@ -266,6 +268,15 @@ modern medical wellness app UI, clean editorial infographic, high readability, s
   const igHashtagPool = [...new Set([...IG_BROAD_HASHTAGS, ...typeHashtags, "easternwellness", "bodytype", "foodasmedicine", "wellnesstips"])]
   const igHashtagStr = igHashtagPool.slice(0, 25).map((h) => `#${h}`).join(" ")
 
+  const foodShort = foods.map((f) => f.en).join(", ")
+  const xCtaMap: Record<CtaType, string> = {
+    none: "",
+    brand: "\n\n— EastType",
+    cta: "\n\nFind your body type → myeasterntype.com",
+  }
+  const xCaption = `You're not broken.\n\n${cause}\n\nFoods that may help:\n${foods.map((f) => `→ ${f.en}`).join("\n")}${xCtaMap[ctaType]}`
+  const xHashtags = typeHashtags.slice(0, 2).map((h) => `#${h}`).join(" ")
+
   return {
     slug,
     title,
@@ -277,6 +288,8 @@ modern medical wellness app UI, clean editorial infographic, high readability, s
     hashtags: hashtagStr,
     igCaption,
     igHashtags: igHashtagStr,
+    xCaption,
+    xHashtags,
     ctaType,
     ratio,
   }

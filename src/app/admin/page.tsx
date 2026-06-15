@@ -657,6 +657,22 @@ export default function AdminPage() {
                     <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.igHashtags}</p>
                   </div>
 
+                  <div>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">X (Twitter) 文案</span>
+                      <button
+                        onClick={() => handleCopyGen("x", `${genResult.xCaption}\n\n${genResult.xHashtags}`)}
+                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                      >
+                        {copiedGen === "x" ? "已复制 ✓" : "复制"}
+                      </button>
+                    </div>
+                    <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap">
+                      {genResult.xCaption}
+                    </pre>
+                    <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.xHashtags}</p>
+                  </div>
+
                   <button
                     onClick={() => markCardDone(genResult.slug, genResult.foods.map((f) => f.en))}
                     className="w-full py-2 rounded-lg bg-green-800 text-green-200 font-bold cursor-pointer hover:bg-green-700 text-sm"
