@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next"
 import { Playfair_Display, DM_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/react"
 import { CookieConsent } from "@/components/cookie-consent"
+import { ExitIntentPopup } from "@/components/exit-intent-popup"
 import "./globals.css"
 
 const playfair = Playfair_Display({
@@ -87,6 +88,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <CookieConsent />
+        <ExitIntentPopup />
       </body>
     </html>
   )
