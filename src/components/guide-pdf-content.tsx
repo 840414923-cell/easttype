@@ -383,13 +383,11 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
     <div
       ref={ref}
       style={{
-        position: "fixed",
-        left: "-10000px",
+        position: "absolute",
+        left: "-9999px",
         top: 0,
         width: "780px",
-        pointerEvents: "none",
-        opacity: 0,
-        zIndex: -1,
+        visibility: "visible",
       }}
     >
       <div style={S.coverPage}>

@@ -130,25 +130,26 @@ export function ExitIntentPopup() {
     setState("downloading")
 
     try {
-      const html2pdf = (await import("html2pdf.js")).default
+      await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)))
 
-      contentRef.current.style.opacity = "1"
-      contentRef.current.style.left = "0"
+      const html2pdf = (await import("html2pdf.js")).default
 
       await html2pdf()
         .set({
           margin: [8, 8, 8, 8],
           filename: "10-foods-guide-easttype.pdf",
           image: { type: "jpeg", quality: 0.98 },
-          html2canvas: { scale: 2, useCORS: true, backgroundColor: "#FFFFFF" },
+          html2canvas: {
+            scale: 2,
+            useCORS: true,
+            backgroundColor: "#FFFFFF",
+            windowWidth: 820,
+          },
           jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
           pagebreak: { mode: ["css", "legacy"] },
         })
         .from(contentRef.current)
         .save()
-
-      contentRef.current.style.opacity = "0"
-      contentRef.current.style.left = "-10000px"
 
       setState("success")
     } catch {
