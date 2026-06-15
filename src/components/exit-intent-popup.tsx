@@ -51,41 +51,62 @@ export function ExitIntentPopup() {
   useEffect(() => {
     if (typeof window === "undefined") return
 
-    let isMobile = window.matchMedia("(max-width: 768px)").matches
-    let exitTimer: ReturnType<typeof setTimeout>
-    let fallbackTimer: ReturnType<typeof setTimeout>
+    const isMobile = window.matchMedia("(max-width: 768px)").matches
+    let activated = false
+    let scrollFired = false
 
     const handleMouseLeave = (e: MouseEvent) => {
+      if (!activated) return
       if (e.clientY <= 0 && e.relatedTarget === null) {
         showPopup()
       }
     }
 
-    const startDesktopDetection = () => {
-      document.documentElement.addEventListener("mouseleave", handleMouseLeave)
-      fallbackTimer = setTimeout(() => {
+    const handleScroll = () => {
+      if (!activated || scrollFired) return
+      const scrolled = window.scrollY + window.innerHeight
+      const total = document.documentElement.scrollHeight
+      const percent = scrolled / total
+      if (percent >= 0.35) {
+        scrollFired = true
         showPopup()
-      }, 60000)
-    }
-
-    const startMobileDetection = () => {
-      exitTimer = setTimeout(() => {
-        showPopup()
-      }, 45000)
-    }
-
-    const startTimer = setTimeout(() => {
-      if (isMobile) {
-        startMobileDetection()
-      } else {
-        startDesktopDetection()
       }
-    }, 12000)
+    }
+
+    const handleScrollUp = () => {
+      if (!activated || scrollFired) return
+      if (!isMobile) return
+      const scrollDelta = lastScrollY - window.scrollY
+      if (scrollDelta > 80 && window.scrollY > 300) {
+        scrollFired = true
+        showPopup()
+      }
+      lastScrollY = window.scrollY
+    }
+
+    let lastScrollY = window.scrollY
+    const onScroll = () => {
+      handleScroll()
+      handleScrollUp()
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true })
+    if (!isMobile) {
+      document.documentElement.addEventListener("mouseleave", handleMouseLeave)
+    }
+
+    const activationTimer = setTimeout(() => {
+      activated = true
+    }, 6000)
+
+    const fallbackTimer = setTimeout(() => {
+      showPopup()
+    }, 30000)
 
     return () => {
-      clearTimeout(startTimer)
-      clearTimeout(exitTimer)
+      clearTimeout(activationTimer)
       clearTimeout(fallbackTimer)
+      window.removeEventListener("scroll", onScroll)
       document.documentElement.removeEventListener("mouseleave", handleMouseLeave)
     }
   }, [showPopup])
