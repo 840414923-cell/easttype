@@ -2,6 +2,12 @@
 
 import { useState } from "react"
 import dynamic from "next/dynamic"
+import {
+  IMAGE_PROMPTS,
+  CATEGORY_META,
+  getPromptsByCategory,
+  type PromptCategory,
+} from "@/lib/image-prompts"
 
 const ContentStudio = dynamic(() => import("@/components/content-studio"), { ssr: false })
 
@@ -14,7 +20,7 @@ const CHANNELS: Record<string, string> = {
   F2: "其他/手动",
 }
 
-type Tab = "codes" | "studio" | "leads"
+type Tab = "codes" | "studio" | "leads" | "prompts"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -42,6 +48,18 @@ export default function AdminPage() {
 
   const [leads, setLeads] = useState<Array<{ email: string; source: string; timestamp: string }> | null>(null)
   const [leadsLoading, setLeadsLoading] = useState(false)
+
+  const [promptCat, setPromptCat] = useState<PromptCategory>("symptom-hook")
+  const [promptDone, setPromptDone] = useState<Set<string>>(() => {
+    if (typeof window === "undefined") return new Set()
+    try {
+      const stored = localStorage.getItem("et_prompt_done")
+      return stored ? new Set(JSON.parse(stored)) : new Set()
+    } catch {
+      return new Set()
+    }
+  })
+  const [copiedPrompt, setCopiedPrompt] = useState<string | null>(null)
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
@@ -142,6 +160,29 @@ export default function AdminPage() {
     }
   }
 
+  function togglePromptDone(id: string) {
+    setPromptDone((prev) => {
+      const next = new Set(prev)
+      if (next.has(id)) {
+        next.delete(id)
+      } else {
+        next.add(id)
+      }
+      try {
+        localStorage.setItem("et_prompt_done", JSON.stringify([...next]))
+      } catch {
+        /* noop */
+      }
+      return next
+    })
+  }
+
+  function copyPromptText(id: string, text: string, label: string) {
+    navigator.clipboard.writeText(text)
+    setCopiedPrompt(`${id}-${label}`)
+    setTimeout(() => setCopiedPrompt(null), 2000)
+  }
+
   const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []
 
   if (!authed) {
@@ -181,6 +222,7 @@ export default function AdminPage() {
                 ["codes", "激活码管理"],
                 ["studio", "内容工厂"],
                 ["leads", "邮件列表"],
+                ["prompts", "图片提示词"],
               ] as [Tab, string][]).map(([id, label]) => (
                 <button
                   key={id}
@@ -387,6 +429,121 @@ export default function AdminPage() {
             )}
           </div>
         )}
+
+        {tab === "prompts" && (() => {
+          const filtered = getPromptsByCategory(promptCat)
+          const doneCount = filtered.filter((p) => promptDone.has(p.id)).length
+          return (
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-semibold">
+                  图片提示词库
+                  <span className="text-[#7a6e5e] text-sm ml-2">
+                    {IMAGE_PROMPTS.length} 条 · {doneCount}/{filtered.length} 已完成
+                  </span>
+                </h2>
+              </div>
+
+              <div className="flex gap-2 overflow-x-auto pb-3 mb-4">
+                {(Object.entries(CATEGORY_META) as [PromptCategory, typeof CATEGORY_META[PromptCategory]][]).map(([id, meta]) => (
+                  <button
+                    key={id}
+                    onClick={() => setPromptCat(id)}
+                    className={`flex items-center gap-2 px-4 py-2.5 rounded-lg cursor-pointer transition-all whitespace-nowrap ${
+                      promptCat === id
+                        ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                        : "bg-[#1e1a14] text-[#7a6e5e] hover:text-[#e8dcc8] border border-[#2a2418]"
+                    }`}
+                  >
+                    <span className="text-lg">{meta.icon}</span>
+                    <span className="text-sm">{meta.label}</span>
+                  </button>
+                ))}
+              </div>
+
+              <p className="text-xs text-[#7a6e5e] mb-4">{CATEGORY_META[promptCat].desc}</p>
+
+              <div className="space-y-4">
+                {filtered.map((p) => {
+                  const isDone = promptDone.has(p.id)
+                  return (
+                    <div
+                      key={p.id}
+                      className={`rounded-lg border p-5 transition-all ${
+                        isDone
+                          ? "bg-[#1a1e14] border-[#2a3418] opacity-60"
+                          : "bg-[#1e1a14] border-[#2a2418]"
+                      }`}
+                    >
+                      <div className="flex items-start justify-between gap-3 mb-3">
+                        <div className="flex items-center gap-2">
+                          <button
+                            onClick={() => togglePromptDone(p.id)}
+                            className={`w-6 h-6 rounded flex items-center justify-center cursor-pointer transition-all text-sm ${
+                              isDone
+                                ? "bg-green-800 text-green-300"
+                                : "bg-[#2a2418] text-[#7a6e5e] hover:text-[#C9A355]"
+                            }`}
+                          >
+                            {isDone ? "✓" : "○"}
+                          </button>
+                          <span className="text-sm font-bold text-[#e8dcc8]">{p.titleZh}</span>
+                          <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#C9A355]">{p.id}</span>
+                        </div>
+                        <div className="flex gap-1 flex-shrink-0">
+                          {p.platforms.map((pl) => (
+                            <span key={pl} className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#7a6e5e]">{pl}</span>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="space-y-3">
+                        <div>
+                          <div className="flex items-center justify-between mb-1">
+                            <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">画图提示词</span>
+                            <button
+                              onClick={() => copyPromptText(p.id, p.prompt, "prompt")}
+                              className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                            >
+                              {copiedPrompt === `${p.id}-prompt` ? "已复制 ✓" : "复制"}
+                            </button>
+                          </div>
+                          <div className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed max-h-[120px] overflow-y-auto">
+                            {p.prompt}
+                          </div>
+                        </div>
+
+                        <div className="flex gap-4">
+                          <div>
+                            <span className="text-[10px] font-bold text-[#7a6e5e] uppercase tracking-wider">尺寸</span>
+                            <p className="text-xs text-[#b5a890] mt-0.5">{p.size}</p>
+                            <p className="text-[10px] text-[#7a6e5e]">{p.sizeNote}</p>
+                          </div>
+                        </div>
+
+                        <div>
+                          <div className="flex items-center justify-between mb-1">
+                            <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">发布文案</span>
+                            <button
+                              onClick={() => copyPromptText(p.id, `${p.caption}\n\n${p.hashtags}`, "caption")}
+                              className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                            >
+                              {copiedPrompt === `${p.id}-caption` ? "已复制 ✓" : "复制文案+标签"}
+                            </button>
+                          </div>
+                          <div className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-line">
+                            {p.caption}
+                          </div>
+                          <p className="text-[10px] text-[#7a6e5e] mt-1">{p.hashtags}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )
+        })()}
 
         {tab === "studio" && (
           <ContentStudio unusedCodes={unusedCodes} />
