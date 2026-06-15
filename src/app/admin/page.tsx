@@ -627,18 +627,34 @@ export default function AdminPage() {
 
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">发帖文案</span>
+                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Pinterest 文案</span>
                       <button
-                        onClick={() => handleCopyGen("caption", `${genResult.caption}\n\n${genResult.hashtags}`)}
+                        onClick={() => handleCopyGen("pin", `${genResult.caption}\n\n${genResult.hashtags}`)}
                         className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
                       >
-                        {copiedGen === "caption" ? "已复制 ✓" : "复制文案+标签"}
+                        {copiedGen === "pin" ? "已复制 ✓" : "复制"}
                       </button>
                     </div>
                     <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap">
                       {genResult.caption}
                     </pre>
                     <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.hashtags}</p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Instagram 文案</span>
+                      <button
+                        onClick={() => handleCopyGen("ig", `${genResult.igCaption}\n\n${genResult.igHashtags}`)}
+                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                      >
+                        {copiedGen === "ig" ? "已复制 ✓" : "复制"}
+                      </button>
+                    </div>
+                    <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap">
+                      {genResult.igCaption}
+                    </pre>
+                    <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.igHashtags}</p>
                   </div>
 
                   <button

@@ -14,6 +14,8 @@ export interface GeneratedCard {
   imagePrompt: string
   caption: string
   hashtags: string
+  igCaption: string
+  igHashtags: string
   ctaType: CtaType
   ratio: AspectRatio
 }
@@ -182,6 +184,15 @@ const RATIO_MAP: Record<AspectRatio, string> = {
   "1:1": "square 1:1 layout (Instagram post)",
 }
 
+const IG_BROAD_HASHTAGS = [
+  "wellness", "holistichealth", "naturalremedies", "healthylifestyle",
+  "wellnessjourney", "selfcare", "mindbodyhealth", "foodasmedicine",
+  "holisticwellness", "womenshealth", "healthtips", "wellnesstips",
+  "nutritiontips", "healthyhabits", "alternativewellness",
+  "energysupport", "healingfoods", "bodywisdom", "wellnessblogger",
+  "dailymotivation", "healyourbody", "nourishyourbody",
+]
+
 function buildCtaLine(ctaType: CtaType): string {
   if (ctaType === "none") return ""
   if (ctaType === "brand") return "\n\nFooter: EastType · myeasterntype.com"
@@ -244,6 +255,17 @@ modern medical wellness app UI, clean editorial infographic, high readability, s
   const captionCta = buildCaptionCta(ctaType)
   const caption = `${title} ${cause}\n\nWhat helps:\n${foodBenefitLines}${captionCta}`
 
+  const igFoodLines = foods.map((f) => `✨ ${f.en} — ${f.benefit}`).join("\n")
+  const igCtaMap: Record<CtaType, string> = {
+    none: "\n\nWhat's your body telling you? 👇",
+    brand: "\n\n— EastType · link in bio",
+    cta: "\n\nDiscover your body type → link in bio 🔗",
+  }
+  const igCaption = `Ever wonder "${title.toLowerCase()}"\n\n${cause}\n\nHere's what may help your body rebalance:\n${igFoodLines}${igCtaMap[ctaType]}`
+
+  const igHashtagPool = [...new Set([...IG_BROAD_HASHTAGS, ...typeHashtags, "easternwellness", "bodytype", "foodasmedicine", "wellnesstips"])]
+  const igHashtagStr = igHashtagPool.slice(0, 25).map((h) => `#${h}`).join(" ")
+
   return {
     slug,
     title,
@@ -253,6 +275,8 @@ modern medical wellness app UI, clean editorial infographic, high readability, s
     imagePrompt,
     caption,
     hashtags: hashtagStr,
+    igCaption,
+    igHashtags: igHashtagStr,
     ctaType,
     ratio,
   }
