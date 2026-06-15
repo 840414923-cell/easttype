@@ -14,7 +14,7 @@ const CHANNELS: Record<string, string> = {
   F2: "其他/手动",
 }
 
-type Tab = "codes" | "studio"
+type Tab = "codes" | "studio" | "leads"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -39,6 +39,9 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(false)
 
   const [tab, setTab] = useState<Tab>("codes")
+
+  const [leads, setLeads] = useState<Array<{ email: string; source: string; timestamp: string }> | null>(null)
+  const [leadsLoading, setLeadsLoading] = useState(false)
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
@@ -98,6 +101,47 @@ export default function AdminPage() {
     navigator.clipboard.writeText(generatedCodes.join("\n"))
   }
 
+  async function fetchLeads() {
+    setLeadsLoading(true)
+    try {
+      const res = await fetch("/api/lead-magnet", { headers: headers() })
+      if (res.status === 401) {
+        setAuthed(false)
+        return
+      }
+      const data = await res.json()
+      setLeads(data.emails || [])
+    } catch {
+      console.error("获取邮件失败")
+    } finally {
+      setLeadsLoading(false)
+    }
+  }
+
+  function exportLeadsCsv() {
+    if (!leads || leads.length === 0) return
+    const csv = [
+      "Email,Source,Date",
+      ...leads.map((l) =>
+        `"${l.email}","${l.source || ""}","${new Date(l.timestamp).toLocaleString("zh-CN")}"`
+      ),
+    ].join("\n")
+    const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8" })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = url
+    a.download = `leads-${new Date().toISOString().slice(0, 10)}.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  function switchTab(t: Tab) {
+    setTab(t)
+    if (t === "leads" && leads === null) {
+      fetchLeads()
+    }
+  }
+
   const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []
 
   if (!authed) {
@@ -136,10 +180,11 @@ export default function AdminPage() {
               {([
                 ["codes", "激活码管理"],
                 ["studio", "内容工厂"],
+                ["leads", "邮件列表"],
               ] as [Tab, string][]).map(([id, label]) => (
                 <button
                   key={id}
-                  onClick={() => setTab(id)}
+                  onClick={() => switchTab(id)}
                   className={`px-5 py-2.5 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
                 >
                   {label}
@@ -284,6 +329,63 @@ export default function AdminPage() {
 
         {loading && <p className="text-[#7a6e5e] text-center">加载中...</p>}
         </>
+        )}
+
+        {tab === "leads" && (
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-semibold">
+                邮件列表 {leads && <span className="text-[#7a6e5e] text-sm">({leads.length})</span>}
+              </h2>
+              <div className="flex gap-2">
+                {leads && leads.length > 0 && (
+                  <button
+                    onClick={exportLeadsCsv}
+                    className="px-4 py-2 rounded bg-[#C9A355] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
+                  >
+                    导出 CSV
+                  </button>
+                )}
+                <button
+                  onClick={fetchLeads}
+                  className="px-4 py-2 rounded bg-[#2a2418] text-sm cursor-pointer hover:bg-[#3a3428]"
+                >
+                  刷新
+                </button>
+              </div>
+            </div>
+
+            {leadsLoading && <p className="text-[#7a6e5e] text-center py-8">加载中...</p>}
+
+            {!leadsLoading && leads && leads.length === 0 && (
+              <p className="text-[#7a6e5e] text-center py-8">暂无邮件</p>
+            )}
+
+            {leads && leads.length > 0 && (
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-[#7a6e5e] text-left border-b border-[#2a2418]">
+                      <th className="py-2 px-3">邮箱</th>
+                      <th className="py-2 px-3">来源</th>
+                      <th className="py-2 px-3">时间</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {leads.map((l, i) => (
+                      <tr key={i} className="border-b border-[#1e1a14]">
+                        <td className="py-2 px-3 text-[#e8dcc8]">{l.email}</td>
+                        <td className="py-2 px-3 text-[#7a6e5e]">{l.source || "—"}</td>
+                        <td className="py-2 px-3 text-[#7a6e5e]">
+                          {new Date(l.timestamp).toLocaleString("zh-CN")}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
         )}
 
         {tab === "studio" && (
