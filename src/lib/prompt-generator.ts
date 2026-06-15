@@ -203,7 +203,7 @@ export function generateSymptomCard(
   const symptom = SYMPTOMS[slug]
   if (!symptom) return null
 
-  const title = symptom.h1.en.replace(" — What Your Body Type May Reveal", "").replace(" — What Eastern Wellness Says", "")
+  const title = symptom.h1.en.split("?")[0] + "?"
   const cause = CAUSE_MAP[slug] || "Your body type is creating this pattern."
   const symptoms = SYMPTOM_LISTS[slug] || [symptom.title.en.replace("Why Do I ", "").replace("Why Am I ", "").replace("Why Is My ", "").replace("?", "")]
 

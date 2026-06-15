@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import dynamic from "next/dynamic"
 import { SYMPTOMS } from "@/lib/symptoms-data"
 import { TYPES } from "@/lib/constitution-data"
@@ -77,6 +77,7 @@ export default function AdminPage() {
     }
   })
   const [copiedGen, setCopiedGen] = useState<string | null>(null)
+  const [genError, setGenError] = useState<string | null>(null)
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
@@ -200,22 +201,32 @@ export default function AdminPage() {
   }
 
   function handleGenerateCard() {
-    let slug: string | null = null
-    if (genFilter === "all") {
-      slug = getRandomUnusedSlug(genDone)
-    } else {
-      const slugs = getSlugsByType(genFilter as ConstitutionId, genDone)
-      if (slugs.length > 0) {
-        slug = slugs[Math.floor(Math.random() * slugs.length)]
+    setGenError(null)
+    try {
+      let slug: string | null = null
+      if (genFilter === "all") {
+        slug = getRandomUnusedSlug(genDone)
+      } else {
+        const slugs = getSlugsByType(genFilter as ConstitutionId, genDone)
+        if (slugs.length > 0) {
+          slug = slugs[Math.floor(Math.random() * slugs.length)]
+        }
       }
+      if (!slug) {
+        setGenResult(null)
+        setGenError("该筛选下没有未完成的症状了，试试其他体质或重置进度")
+        return
+      }
+      const excludeFoods = genFoodHistory[slug] || []
+      const result = generateSymptomCard(slug, genCta, genRatio, excludeFoods)
+      if (!result) {
+        setGenError("生成失败：找不到症状数据")
+        return
+      }
+      setGenResult(result)
+    } catch (err: any) {
+      setGenError(`生成出错：${err?.message || err}`)
     }
-    if (!slug) {
-      setGenResult(null)
-      return
-    }
-    const excludeFoods = genFoodHistory[slug] || []
-    const result = generateSymptomCard(slug, genCta, genRatio, excludeFoods)
-    setGenResult(result)
   }
 
   function handleCopyGen(label: string, text: string) {
@@ -223,6 +234,12 @@ export default function AdminPage() {
     setCopiedGen(label)
     setTimeout(() => setCopiedGen(null), 2000)
   }
+
+  useEffect(() => {
+    if (tab === "cardgen" && !genResult && !genError && genDone.size < Object.keys(SYMPTOMS).length) {
+      handleGenerateCard()
+    }
+  }, [tab])
 
   const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []
 
@@ -565,12 +582,20 @@ export default function AdminPage() {
                 </div>
               </div>
 
-              <button
-                onClick={handleGenerateCard}
-                className="w-full py-3 rounded-lg bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] text-sm"
-              >
-                {remaining === 0 ? "全部已完成！" : "生成下一条"}
-              </button>
+              <div className="flex gap-3">
+                <button
+                  onClick={handleGenerateCard}
+                  className="flex-1 py-3 rounded-lg bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] text-sm"
+                >
+                  {remaining === 0 ? "全部已完成！" : "换一条"}
+                </button>
+              </div>
+
+              {genError && (
+                <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 text-sm text-red-300">
+                  {genError}
+                </div>
+              )}
 
               {genResult && (
                 <div className="space-y-4 bg-[#1e1a14] border border-[#2a2418] rounded-lg p-5">
