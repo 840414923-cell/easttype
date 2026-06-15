@@ -214,22 +214,27 @@ export function generateSymptomCard(
   const ctaLine = buildCtaLine(ctaType)
   const ratioDesc = RATIO_MAP[ratio]
 
-  const foodLines = foods.map((f) => `${f.en}`).join(", ")
+  const imagePrompt = `Clean modern wellness explanation card UI, ${ratioDesc}.
 
-  const imagePrompt = `Clean modern wellness diagnostic card UI, ${ratioDesc}.
+Top headline:
+"${title.toUpperCase()}"
 
-Title: ${title.toUpperCase().replace("?", "?")}
+Subheadline:
+"The hidden pattern behind your body signals"
 
-Cause: ${cause}
+Section 1 (CAUSE):
+"${cause}"
 
-Symptoms:
+Section 2 (SYMPTOMS):
 - ${symptoms.join("\n- ")}
 
-WHAT HELPS:
-${foodLines}
+Section 3 (WHAT HELPS):
+Simple daily food support:
+${foods.map((f) => f.en).join(", ")}
 ${ctaLine}
 
-Style: minimal medical wellness app UI, soft beige background, clean typography, high readability. Include small realistic food photos or illustrations for each item listed under WHAT HELPS — arranged in a neat horizontal row with labels below each food. No people. Instagram shareable layout.`
+Style:
+modern medical wellness app UI, clean editorial infographic, high readability, structured like a health explanation card, calm neutral aesthetic, soft beige background, minimal green accents, lots of white space. Include small realistic food photos for each item in WHAT HELPS section, arranged in a neat horizontal row with labels below each food. No people, no clutter, Instagram shareable, UI-based design.`
 
   const foodBenefitLines = foods.map((f) => `${f.en} — ${f.benefit}`).join("\n")
   const typeHashtags = typeIds.flatMap((t) => TYPE_HASHTAGS[t] || [])
