@@ -2,6 +2,17 @@
 
 import { useState } from "react"
 import dynamic from "next/dynamic"
+import { SYMPTOMS } from "@/lib/symptoms-data"
+import { TYPES } from "@/lib/constitution-data"
+import type { ConstitutionId } from "@/lib/types"
+import {
+  generateSymptomCard,
+  getRandomUnusedSlug,
+  getSlugsByType,
+  type CtaType,
+  type AspectRatio,
+  type GeneratedCard,
+} from "@/lib/prompt-generator"
 
 const ContentStudio = dynamic(() => import("@/components/content-studio"), { ssr: false })
 
@@ -14,7 +25,7 @@ const CHANNELS: Record<string, string> = {
   F2: "其他/手动",
 }
 
-type Tab = "codes" | "studio" | "leads"
+type Tab = "codes" | "studio" | "leads" | "cardgen"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -42,6 +53,30 @@ export default function AdminPage() {
 
   const [leads, setLeads] = useState<Array<{ email: string; source: string; timestamp: string }> | null>(null)
   const [leadsLoading, setLeadsLoading] = useState(false)
+
+  const [genCta, setGenCta] = useState<CtaType>("none")
+  const [genRatio, setGenRatio] = useState<AspectRatio>("9:16")
+  const [genFilter, setGenFilter] = useState<ConstitutionId | "all">("all")
+  const [genResult, setGenResult] = useState<GeneratedCard | null>(null)
+  const [genDone, setGenDone] = useState<Set<string>>(() => {
+    if (typeof window === "undefined") return new Set()
+    try {
+      const s = localStorage.getItem("et_cardgen_done")
+      return s ? new Set(JSON.parse(s)) : new Set()
+    } catch {
+      return new Set()
+    }
+  })
+  const [genFoodHistory, setGenFoodHistory] = useState<Record<string, string[]>>(() => {
+    if (typeof window === "undefined") return {}
+    try {
+      const s = localStorage.getItem("et_cardgen_foods")
+      return s ? JSON.parse(s) : {}
+    } catch {
+      return {}
+    }
+  })
+  const [copiedGen, setCopiedGen] = useState<string | null>(null)
 
   const headers = () => ({ "Content-Type": "application/json", Authorization: `Bearer ${password}` })
 
@@ -142,6 +177,53 @@ export default function AdminPage() {
     }
   }
 
+  function markCardDone(slug: string, foods: string[]) {
+    setGenDone((prev) => {
+      const next = new Set(prev)
+      next.add(slug)
+      try {
+        localStorage.setItem("et_cardgen_done", JSON.stringify([...next]))
+      } catch {
+        /* noop */
+      }
+      return next
+    })
+    setGenFoodHistory((prev) => {
+      const next = { ...prev, [slug]: foods }
+      try {
+        localStorage.setItem("et_cardgen_foods", JSON.stringify(next))
+      } catch {
+        /* noop */
+      }
+      return next
+    })
+  }
+
+  function handleGenerateCard() {
+    let slug: string | null = null
+    if (genFilter === "all") {
+      slug = getRandomUnusedSlug(genDone)
+    } else {
+      const slugs = getSlugsByType(genFilter as ConstitutionId, genDone)
+      if (slugs.length > 0) {
+        slug = slugs[Math.floor(Math.random() * slugs.length)]
+      }
+    }
+    if (!slug) {
+      setGenResult(null)
+      return
+    }
+    const excludeFoods = genFoodHistory[slug] || []
+    const result = generateSymptomCard(slug, genCta, genRatio, excludeFoods)
+    setGenResult(result)
+  }
+
+  function handleCopyGen(label: string, text: string) {
+    navigator.clipboard.writeText(text)
+    setCopiedGen(label)
+    setTimeout(() => setCopiedGen(null), 2000)
+  }
+
   const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []
 
   if (!authed) {
@@ -181,6 +263,7 @@ export default function AdminPage() {
                 ["codes", "激活码管理"],
                 ["studio", "内容工厂"],
                 ["leads", "邮件列表"],
+                ["cardgen", "症状卡生成器"],
               ] as [Tab, string][]).map(([id, label]) => (
                 <button
                   key={id}
@@ -387,6 +470,176 @@ export default function AdminPage() {
             )}
           </div>
         )}
+
+        {tab === "cardgen" && (() => {
+          const totalSymptoms = Object.keys(SYMPTOMS).length
+          const doneCount = genDone.size
+          const remaining = totalSymptoms - doneCount
+          return (
+            <div className="space-y-6">
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-semibold">
+                  症状卡生成器
+                  <span className="text-[#7a6e5e] text-sm ml-2">
+                    已完成 {doneCount}/{totalSymptoms} · 剩余 {remaining}
+                  </span>
+                </h2>
+                {doneCount > 0 && (
+                  <button
+                    onClick={() => {
+                      setGenDone(new Set())
+                      setGenFoodHistory({})
+                      try {
+                        localStorage.removeItem("et_cardgen_done")
+                        localStorage.removeItem("et_cardgen_foods")
+                      } catch { /* noop */ }
+                    }}
+                    className="text-xs text-[#7a6e5e] cursor-pointer hover:text-[#C9A355]"
+                  >
+                    重置进度
+                  </button>
+                )}
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <label className="text-xs text-[#7a6e5e] mb-2 block">CTA 类型</label>
+                  <div className="flex gap-2">
+                    {([
+                      ["none", "纯价值图", "70%"],
+                      ["brand", "品牌图", "20%"],
+                      ["cta", "CTA图", "10%"],
+                    ] as [CtaType, string, string][]).map(([val, label, pct]) => (
+                      <button
+                        key={val}
+                        onClick={() => setGenCta(val)}
+                        className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
+                          genCta === val
+                            ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                            : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
+                        }`}
+                      >
+                        {label}
+                        <span className="block text-[9px] opacity-60">{pct}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-xs text-[#7a6e5e] mb-2 block">图片比例</label>
+                  <div className="flex gap-2">
+                    {([
+                      ["9:16", "9:16", "IG Story"],
+                      ["2:3", "2:3", "Pinterest"],
+                      ["1:1", "1:1", "IG Post"],
+                    ] as [AspectRatio, string, string][]).map(([val, label, hint]) => (
+                      <button
+                        key={val}
+                        onClick={() => setGenRatio(val)}
+                        className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
+                          genRatio === val
+                            ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                            : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
+                        }`}
+                      >
+                        {label}
+                        <span className="block text-[9px] opacity-60">{hint}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="text-xs text-[#7a6e5e] mb-2 block">体质筛选</label>
+                  <select
+                    value={genFilter}
+                    onChange={(e) => setGenFilter(e.target.value as ConstitutionId | "all")}
+                    className="w-full px-3 py-2 rounded-lg bg-[#1e1a14] text-[#e8dcc8] border border-[#2a2418] outline-none text-sm"
+                  >
+                    <option value="all">全部（随机）</option>
+                    {Object.values(TYPES).map((t) => (
+                      <option key={t.id} value={t.id}>{t.zh} ({t.en})</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              <button
+                onClick={handleGenerateCard}
+                className="w-full py-3 rounded-lg bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] text-sm"
+              >
+                {remaining === 0 ? "全部已完成！" : "生成下一条"}
+              </button>
+
+              {genResult && (
+                <div className="space-y-4 bg-[#1e1a14] border border-[#2a2418] rounded-lg p-5">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-sm font-bold text-[#C9A355]">{genResult.title}</h3>
+                    <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#7a6e5e]">{genResult.slug}</span>
+                  </div>
+
+                  <div className="text-xs text-[#7a6e5e] space-y-1">
+                    <p><span className="text-[#C9A355] font-bold">Cause:</span> {genResult.cause}</p>
+                    <p><span className="text-[#C9A355] font-bold">Symptoms:</span> {genResult.symptoms.join(" · ")}</p>
+                    <p><span className="text-[#C9A355] font-bold">Foods:</span> {genResult.foods.map((f) => `${f.en} (${f.zh})`).join(", ")}</p>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Image2 画图提示词</span>
+                      <button
+                        onClick={() => handleCopyGen("prompt", genResult.imagePrompt)}
+                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                      >
+                        {copiedGen === "prompt" ? "已复制 ✓" : "复制"}
+                      </button>
+                    </div>
+                    <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap max-h-[200px] overflow-y-auto">
+                      {genResult.imagePrompt}
+                    </pre>
+                  </div>
+
+                  <div>
+                    <div className="flex items-center justify-between mb-1">
+                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">发帖文案</span>
+                      <button
+                        onClick={() => handleCopyGen("caption", `${genResult.caption}\n\n${genResult.hashtags}`)}
+                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                      >
+                        {copiedGen === "caption" ? "已复制 ✓" : "复制文案+标签"}
+                      </button>
+                    </div>
+                    <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap">
+                      {genResult.caption}
+                    </pre>
+                    <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.hashtags}</p>
+                  </div>
+
+                  <button
+                    onClick={() => markCardDone(genResult.slug, genResult.foods.map((f) => f.en))}
+                    className="w-full py-2 rounded-lg bg-green-800 text-green-200 font-bold cursor-pointer hover:bg-green-700 text-sm"
+                  >
+                    标记已完成 ✓
+                  </button>
+                </div>
+              )}
+
+              {doneCount > 0 && (
+                <div>
+                  <h3 className="text-sm font-semibold mb-2">已完成 ({doneCount})</h3>
+                  <div className="flex flex-wrap gap-1.5 max-h-[120px] overflow-y-auto">
+                    {[...genDone].map((slug) => (
+                      <span key={slug} className="text-[9px] px-2 py-1 rounded bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] opacity-60">
+                        {slug.replace(/-/g, " ")}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )
+        })()}
 
         {tab === "studio" && (
           <ContentStudio unusedCodes={unusedCodes} />
