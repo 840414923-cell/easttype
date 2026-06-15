@@ -214,6 +214,8 @@ export function generateSymptomCard(
   const ctaLine = buildCtaLine(ctaType)
   const ratioDesc = RATIO_MAP[ratio]
 
+  const foodLines = foods.map((f) => `${f.en}`).join(", ")
+
   const imagePrompt = `Clean modern wellness diagnostic card UI, ${ratioDesc}.
 
 Title: ${title.toUpperCase().replace("?", "?")}
@@ -224,10 +226,10 @@ Symptoms:
 - ${symptoms.join("\n- ")}
 
 WHAT HELPS:
-${foodNames}
+${foodLines}
 ${ctaLine}
 
-Style: minimal medical wellness app UI, soft beige background, clean typography, high readability, no people, no illustrations, Instagram shareable layout.`
+Style: minimal medical wellness app UI, soft beige background, clean typography, high readability. Include small realistic food photos or illustrations for each item listed under WHAT HELPS — arranged in a neat horizontal row with labels below each food. No people. Instagram shareable layout.`
 
   const foodBenefitLines = foods.map((f) => `${f.en} — ${f.benefit}`).join("\n")
   const typeHashtags = typeIds.flatMap((t) => TYPE_HASHTAGS[t] || [])
