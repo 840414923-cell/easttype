@@ -4,6 +4,7 @@ import { getFoodsForTypes, type FoodItem } from "./food-map"
 
 export type CtaType = "none" | "brand" | "cta"
 export type AspectRatio = "9:16" | "2:3" | "1:1"
+export type ScriptType = "daily" | "mythbust"
 
 export interface GeneratedCard {
   slug: string
@@ -21,6 +22,387 @@ export interface GeneratedCard {
   ctaType: CtaType
   ratio: AspectRatio
 }
+
+export interface GeneratedScript {
+  slug: string
+  type: ScriptType
+  en: string
+  zh: string
+}
+
+const EMOTION_MAP: Record<string, string> = {
+  "why-am-i-always-tired": "lazy",
+  "why-am-i-always-cold": "weak",
+  "why-do-i-wake-up-at-3am": "broken",
+  "always-bloated-after-eating": "greedy",
+  "why-am-i-always-sleepy": "lazy",
+  "why-do-i-have-night-sweats": "sick",
+  "why-do-i-feel-anxious": "overreacting",
+  "why-do-i-have-brain-fog": "slow",
+  "why-cant-i-fall-asleep": "wired",
+  "why-do-i-keep-gaining-weight": "lazy",
+  "why-are-my-moods-all-over-the-place": "crazy",
+  "why-do-i-get-sick-so-often": "weak",
+  "why-do-my-hands-and-feet-go-numb": "dramatic",
+  "why-is-my-skin-so-dry": "neglectful",
+  "why-do-i-crave-sweets": "undisciplined",
+  "why-do-i-overthink-everything": "crazy",
+  "why-am-i-always-unmotivated": "lazy",
+  "why-do-i-keep-breaking-out": "dirty",
+  "why-is-my-hair-falling-out": "aging",
+  "why-am-i-so-irritable": "mean",
+  "why-cant-i-lose-weight": "lazy",
+  "why-do-i-have-acid-reflux": "gluttonous",
+  "why-do-i-have-headaches": "dramatic",
+  "why-do-i-feel-dizzy": "weak",
+  "why-am-i-always-thirsty": "dramatic",
+  "why-do-i-have-lower-back-pain": "aging",
+  "why-do-i-have-eczema": "dirty",
+  "why-do-i-sweat-so-much": "gross",
+  "why-do-i-have-joint-pain": "aging",
+  "why-am-i-always-thirsty-at-night": "sick",
+  "why-do-i-have-hot-flashes": "aging",
+  "why-do-i-have-water-retention": "lazy",
+  "why-am-i-always-constipated": "sick",
+  "why-is-my-libido-low": "broken",
+  "why-do-i-have-pms": "crazy",
+  "why-is-my-metabolism-so-slow": "lazy",
+  "why-do-i-have-poor-circulation": "weak",
+  "why-do-i-have-seasonal-allergies": "weak",
+  "why-do-i-have-dark-circles": "tired",
+  "why-am-i-always-hungry": "greedy",
+  "why-do-i-have-period-cramps": "dramatic",
+  "why-is-my-period-irregular": "broken",
+  "why-is-my-period-so-heavy": "sick",
+  "why-do-i-have-breast-tenderness": "dramatic",
+  "why-do-i-have-menopause-symptoms": "aging",
+  "why-do-i-have-nausea": "sick",
+  "why-do-i-have-diarrhea": "sick",
+  "why-do-i-feel-sick-after-eating": "weak",
+  "why-do-i-have-bad-breath": "dirty",
+  "why-is-my-face-so-oily": "dirty",
+  "why-do-i-have-rosacea": "sick",
+  "why-do-i-have-brittle-nails": "neglectful",
+  "why-is-my-complexion-dull": "tired",
+  "why-do-i-have-cellulite": "lazy",
+  "why-do-i-have-neck-pain": "aging",
+  "why-are-my-shoulders-always-tense": "stressed",
+  "why-do-i-have-stomach-pain": "sick",
+  "why-am-i-always-stiff": "aging",
+  "why-do-i-keep-forgetting-things": "slow",
+  "why-cant-i-focus": "lazy",
+  "why-do-i-cry-so-easily": "overreacting",
+  "why-do-i-have-no-patience": "mean",
+  "why-do-i-have-a-chronic-cough": "sick",
+  "why-do-i-always-have-a-sore-throat": "sick",
+  "why-do-i-have-post-nasal-drip": "sick",
+  "why-do-i-wake-up-to-pee": "aging",
+  "why-do-i-have-tinnitus": "crazy",
+  "why-am-i-so-sensitive-to-heat": "dramatic",
+  "why-do-i-wake-up-tired": "lazy",
+  "why-do-i-have-cold-sweats": "sick",
+}
+
+interface RemedySuggestion {
+  en: string
+  zh: string
+  timing_en: string
+  timing_zh: string
+}
+
+const REMEDY_MAP: Record<string, RemedySuggestion> = {
+  "why-am-i-always-tired": { en: "sweet potato and red dates tea", zh: "红薯红枣茶", timing_en: "after breakfast", timing_zh: "早饭后喝" },
+  "why-am-i-always-cold": { en: "ginger cinnamon tea", zh: "生姜肉桂茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-wake-up-at-3am": { en: "chrysanthemum and dried tangerine peel tea", zh: "菊花陈皮茶", timing_en: "after dinner", timing_zh: "晚饭后喝" },
+  "always-bloated-after-eating": { en: "dried tangerine peel and ginger tea", zh: "陈皮生姜茶", timing_en: "after meals", timing_zh: "饭后喝" },
+  "why-am-i-always-sleepy": { en: "astragalus and red dates tea", zh: "黄芪红枣茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-night-sweats": { en: "goji and lily bulb tea", zh: "枸杞百合茶", timing_en: "before bed", timing_zh: "睡前喝" },
+  "why-do-i-feel-anxious": { en: "chrysanthemum and dried tangerine peel tea", zh: "菊花陈皮茶", timing_en: "after lunch", timing_zh: "午饭后喝" },
+  "why-do-i-have-brain-fog": { en: "job's tears and poria soup", zh: "薏米茯苓汤", timing_en: "at lunch", timing_zh: "午饭时喝" },
+  "why-cant-i-fall-asleep": { en: "lily bulb and lotus seed tea", zh: "百合莲子茶", timing_en: "an hour before bed", timing_zh: "睡前一小时喝" },
+  "why-do-i-keep-gaining-weight": { en: "job's tears and adzuki bean tea", zh: "薏米赤小豆茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-are-my-moods-all-over-the-place": { en: "rose and longan tea", zh: "玫瑰花桂圆茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-get-sick-so-often": { en: "astragalus and red dates tea", zh: "黄芪红枣茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-my-hands-and-feet-go-numb": { en: "black sesame and walnut drink", zh: "黑芝麻核桃糊", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-is-my-skin-so-dry": { en: "tremella and goji soup", zh: "银耳枸杞汤", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-crave-sweets": { en: "yam and red dates porridge", zh: "山药红枣粥", timing_en: "for breakfast", timing_zh: "当早餐吃" },
+  "why-do-i-overthink-everything": { en: "rose and lotus seed tea", zh: "玫瑰莲子茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-am-i-always-unmotivated": { en: "astragalus and honey tea", zh: "黄芪蜂蜜茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-keep-breaking-out": { en: "mung bean and chrysanthemum tea", zh: "绿豆菊花茶", timing_en: "after lunch", timing_zh: "午饭后喝" },
+  "why-is-my-hair-falling-out": { en: "black sesame and mulberry tea", zh: "黑芝麻桑葚茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-am-i-so-irritable": { en: "chrysanthemum and mint tea", zh: "菊花薄荷茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-cant-i-lose-weight": { en: "job's tears and winter melon tea", zh: "薏米冬瓜茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-acid-reflux": { en: "mung bean and pear tea", zh: "绿豆梨水", timing_en: "after meals", timing_zh: "饭后喝" },
+  "why-do-i-have-headaches": { en: "chrysanthemum and mint tea", zh: "菊花薄荷茶", timing_en: "when it starts", timing_zh: "头痛时喝" },
+  "why-do-i-feel-dizzy": { en: "red dates and longan tea", zh: "红枣桂圆茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-am-i-always-thirsty": { en: "goji and ophiopogon tea", zh: "枸杞麦冬茶", timing_en: "throughout the day", timing_zh: "白天随时喝" },
+  "why-do-i-have-lower-back-pain": { en: "chestnut and walnut soup", zh: "栗子核桃汤", timing_en: "at dinner", timing_zh: "晚饭时喝" },
+  "why-do-i-have-eczema": { en: "mung bean and lotus root soup", zh: "绿豆莲藕汤", timing_en: "at lunch", timing_zh: "午饭时喝" },
+  "why-do-i-sweat-so-much": { en: "goji and lily bulb tea", zh: "枸杞百合茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-joint-pain": { en: "ginger and brown sugar tea", zh: "生姜红糖茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-am-i-always-thirsty-at-night": { en: "lily bulb and ophiopogon tea", zh: "百合麦冬茶", timing_en: "before bed", timing_zh: "睡前喝" },
+  "why-do-i-have-hot-flashes": { en: "goji and chrysanthemum tea", zh: "枸杞菊花茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-water-retention": { en: "job's tears and adzuki bean tea", zh: "薏米赤小豆茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-am-i-always-constipated": { en: "honey and ginger tea", zh: "蜂蜜生姜茶", timing_en: "on an empty stomach", timing_zh: "空腹喝" },
+  "why-is-my-libido-low": { en: "black sesame and chestnut porridge", zh: "黑芝麻栗子粥", timing_en: "for breakfast", timing_zh: "当早餐吃" },
+  "why-do-i-have-pms": { en: "rose and brown sugar tea", zh: "玫瑰红糖茶", timing_en: "a week before your period", timing_zh: "经期前一周喝" },
+  "why-is-my-metabolism-so-slow": { en: "ginger and cinnamon tea", zh: "生姜肉桂茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-poor-circulation": { en: "ginger and brown sugar tea", zh: "生姜红糖茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-seasonal-allergies": { en: "astragalus and schisandra tea", zh: "黄芪五味子茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-dark-circles": { en: "goji and black sesame tea", zh: "枸杞黑芝麻茶", timing_en: "before bed", timing_zh: "睡前喝" },
+  "why-am-i-always-hungry": { en: "yam and millet porridge", zh: "山药小米粥", timing_en: "for breakfast", timing_zh: "当早餐吃" },
+  "why-do-i-have-period-cramps": { en: "ginger and brown sugar tea", zh: "生姜红糖茶", timing_en: "when it starts", timing_zh: "痛的时候喝" },
+  "why-is-my-period-irregular": { en: "red dates and longan tea", zh: "红枣桂圆茶", timing_en: "daily in the morning", timing_zh: "每天早上喝" },
+  "why-is-my-period-so-heavy": { en: "lotus seed and lily bulb tea", zh: "莲子百合茶", timing_en: "during your period", timing_zh: "经期喝" },
+  "why-do-i-have-breast-tenderness": { en: "rose and dried tangerine peel tea", zh: "玫瑰陈皮茶", timing_en: "a week before your period", timing_zh: "经期前一周喝" },
+  "why-do-i-have-menopause-symptoms": { en: "goji and lily bulb tea", zh: "枸杞百合茶", timing_en: "twice a day", timing_zh: "每天两次" },
+  "why-do-i-have-nausea": { en: "ginger and tangerine peel tea", zh: "生姜陈皮茶", timing_en: "when nauseous", timing_zh: "恶心时喝" },
+  "why-do-i-have-diarrhea": { en: "yam and millet porridge", zh: "山药小米粥", timing_en: "for breakfast", timing_zh: "当早餐吃" },
+  "why-do-i-feel-sick-after-eating": { en: "dried tangerine peel and ginger tea", zh: "陈皮生姜茶", timing_en: "before meals", timing_zh: "饭前喝" },
+  "why-do-i-have-bad-breath": { en: "mung bean and mint tea", zh: "绿豆薄荷茶", timing_en: "after meals", timing_zh: "饭后喝" },
+  "why-is-my-face-so-oily": { en: "chrysanthemum and mung bean tea", zh: "菊花绿豆茶", timing_en: "after lunch", timing_zh: "午饭后喝" },
+  "why-do-i-have-rosacea": { en: "mung bean and lotus root tea", zh: "绿豆莲藕茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-brittle-nails": { en: "black sesame and red dates tea", zh: "黑芝麻红枣茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-is-my-complexion-dull": { en: "red dates and goji tea", zh: "红枣枸杞茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-cellulite": { en: "job's tears and winter melon tea", zh: "薏米冬瓜茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-have-neck-pain": { en: "rose and mint tea", zh: "玫瑰薄荷茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-are-my-shoulders-always-tense": { en: "chrysanthemum and rose tea", zh: "菊花玫瑰花茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-stomach-pain": { en: "ginger and brown sugar tea", zh: "生姜红糖茶", timing_en: "when it hurts", timing_zh: "痛的时候喝" },
+  "why-am-i-always-stiff": { en: "ginger and cinnamon tea", zh: "生姜肉桂茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-do-i-keep-forgetting-things": { en: "walnut and goji tea", zh: "核桃枸杞茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-cant-i-focus": { en: "job's tears and poria soup", zh: "薏米茯苓汤", timing_en: "at lunch", timing_zh: "午饭时喝" },
+  "why-do-i-cry-so-easily": { en: "rose and lotus seed tea", zh: "玫瑰莲子茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-no-patience": { en: "chrysanthemum and mint tea", zh: "菊花薄荷茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-have-a-chronic-cough": { en: "pear and lily bulb tea", zh: "梨百合茶", timing_en: "throughout the day", timing_zh: "白天随时喝" },
+  "why-do-i-always-have-a-sore-throat": { en: "pear and honey tea", zh: "梨蜂蜜水", timing_en: "when it's dry", timing_zh: "嗓子干时喝" },
+  "why-do-i-have-post-nasal-drip": { en: "job's tears and dried tangerine peel tea", zh: "薏米陈皮茶", timing_en: "after lunch", timing_zh: "午饭后喝" },
+  "why-do-i-wake-up-to-pee": { en: "goji and schisandra tea", zh: "枸杞五味子茶", timing_en: "in the afternoon, not before bed", timing_zh: "下午喝，别睡前喝" },
+  "why-do-i-have-tinnitus": { en: "black sesame and mulberry tea", zh: "黑芝麻桑葚茶", timing_en: "in the morning", timing_zh: "早上喝" },
+  "why-am-i-so-sensitive-to-heat": { en: "mung bean and chrysanthemum tea", zh: "绿豆菊花茶", timing_en: "afternoon", timing_zh: "下午喝" },
+  "why-do-i-wake-up-tired": { en: "red dates and longan tea", zh: "红枣桂圆茶", timing_en: "before bed", timing_zh: "睡前喝" },
+  "why-do-i-have-cold-sweats": { en: "astragalus and red dates tea", zh: "黄芪红枣茶", timing_en: "in the morning", timing_zh: "早上喝" },
+}
+
+interface MythbustContrast {
+  slug: string
+  symptom_en: string
+  symptom_zh: string
+  typeA_en: string
+  typeA_zh: string
+  causeA_en: string
+  causeA_zh: string
+  fixA_en: string
+  fixA_zh: string
+  typeB_en: string
+  typeB_zh: string
+  causeB_en: string
+  causeB_zh: string
+  fixB_en: string
+  fixB_zh: string
+}
+
+const MYTHBUST_CONTRASTS: MythbustContrast[] = [
+  {
+    slug: "why-am-i-always-tired",
+    symptom_en: "always tired", symptom_zh: "总是累",
+    typeA_en: "your body has no charge", typeA_zh: "身体没电了",
+    causeA_en: "You sleep fine but still wake up drained", causeA_zh: "睡了还是醒不来",
+    fixA_en: "sweet potato and red dates tea to slowly recharge", fixA_zh: "红薯红枣茶慢慢充电",
+    typeB_en: "your body has no fire", typeB_zh: "身体没火了",
+    causeB_en: "You're always cold on top of being tired", causeB_zh: "累的同时还总是冷",
+    fixB_en: "ginger cinnamon tea to reignite the inner furnace", fixB_zh: "生姜肉桂茶重新点燃内火",
+  },
+  {
+    slug: "why-cant-i-fall-asleep",
+    symptom_en: "can't fall asleep", symptom_zh: "睡不着",
+    typeA_en: "your body is too hot inside", typeA_zh: "身体内部太热",
+    causeA_en: "You feel hot and restless under the covers", causeA_zh: "盖被子觉得热，翻来覆去",
+    fixA_en: "lily bulb and lotus seed tea to cool down", fixA_zh: "百合莲子茶降降火",
+    typeB_en: "your mind can't stop running", typeB_zh: "脑子停不下来",
+    causeB_en: "Your body is tired but your thoughts keep spinning", causeB_zh: "身体很累但脑子一直转",
+    fixB_en: "rose and longan tea to settle the mind", fixB_zh: "玫瑰桂圆茶安安心",
+  },
+  {
+    slug: "why-do-i-wake-up-at-3am",
+    symptom_en: "waking up at 3am", symptom_zh: "凌晨3点醒",
+    typeA_en: "something is stuck in your chest", typeA_zh: "胸口堵着东西",
+    causeA_en: "You wake up with racing thoughts and chest tightness", causeA_zh: "醒来脑子乱转，胸口闷",
+    fixA_en: "chrysanthemum and tangerine peel tea to unblock", fixA_zh: "菊花陈皮茶疏通一下",
+    typeB_en: "your body is burning from the inside", typeB_zh: "身体内部在烧",
+    causeB_en: "You wake up hot and dry, mouth parched", causeB_zh: "醒来觉得热，嘴巴干",
+    fixB_en: "goji and lily bulb tea to cool and moisturize", fixB_zh: "枸杞百合茶滋阴降火",
+  },
+  {
+    slug: "why-am-i-always-cold",
+    symptom_en: "always cold", symptom_zh: "总是冷",
+    typeA_en: "your inner furnace has gone out", typeA_zh: "内在火炉灭了",
+    causeA_en: "Cold from the inside out, lower back aches, craving warm drinks", causeA_zh: "从里冷到外，腰酸，想喝热饮",
+    fixA_en: "ginger cinnamon tea to restart the furnace", fixA_zh: "生姜肉桂茶重新生火",
+    typeB_en: "your blood can't circulate", typeB_zh: "血液循环不了",
+    causeB_en: "Cold hands and feet, bruising easily, numb patches", causeB_zh: "手脚冰凉，容易淤青，发麻",
+    fixB_en: "brown sugar and ginger tea to get blood moving", fixB_zh: "红糖生姜茶让血动起来",
+  },
+  {
+    slug: "why-do-i-keep-breaking-out",
+    symptom_en: "breaking out", symptom_zh: "长痘",
+    typeA_en: "internal heat pushing through your skin", typeA_zh: "内部热气往外冒",
+    causeA_en: "Oily skin, worse after spicy food, red inflamed pimples", causeA_zh: "皮肤出油，吃辣更严重，红肿痘痘",
+    fixA_en: "mung bean and chrysanthemum tea to clear the heat", fixA_zh: "绿豆菊花茶清清热",
+    typeB_en: "stagnation trapped under the skin", typeB_zh: "堵在皮肤下面出不来",
+    causeB_en: "Dark spots, slow healing, dull complexion with breakouts", causeB_zh: "暗沉痘印，好得慢，脸色发暗",
+    fixB_en: "hawthorn and rose tea to unblock from within", fixB_zh: "山楂玫瑰花茶从内部疏通",
+  },
+  {
+    slug: "why-do-i-keep-gaining-weight",
+    symptom_en: "gaining weight", symptom_zh: "体重增加",
+    typeA_en: "your body is holding water it can't drain", typeA_zh: "身体积水排不出",
+    causeA_en: "Puffy not fat, heavy and sluggish, worse in humid weather", causeA_zh: "肿不是胖，身体沉重，潮湿天更严重",
+    fixA_en: "job's tears and adzuki bean tea to drain the water", fixA_zh: "薏米赤小豆茶排排水",
+    typeB_en: "your metabolism is too cold to burn", typeB_zh: "代谢太冷烧不动",
+    causeB_en: "Always cold, gaining on small portions, no energy to move", causeB_zh: "总是冷，吃得少也胖，不想动",
+    fixB_en: "ginger and cinnamon tea to warm up the engine", fixB_zh: "生姜肉桂茶把引擎暖起来",
+  },
+  {
+    slug: "always-bloated-after-eating",
+    symptom_en: "bloated after eating", symptom_zh: "饭后胀气",
+    typeA_en: "your digestion is too cold to process", typeA_zh: "消化太冷运不动",
+    causeA_en: "Heavy feeling after meals, no appetite for the next one, worse with cold food", causeA_zh: "饭后觉得重，下一顿没胃口，吃冷的更严重",
+    fixA_en: "tangerine peel and ginger tea to warm up digestion", fixA_zh: "陈皮生姜茶暖一暖消化",
+    typeB_en: "energy is stuck in your chest and won't go down", typeB_zh: "气堵在胸口下不去",
+    causeB_en: "Bloating with mood swings, sighing a lot, worse when stressed", causeB_zh: "胀气加情绪波动，老叹气，压力大更严重",
+    fixB_en: "rose and mint tea to move the energy down", fixB_zh: "玫瑰薄荷茶把气往下顺",
+  },
+  {
+    slug: "why-do-i-feel-anxious",
+    symptom_en: "anxious for no reason", symptom_zh: "无缘无故焦虑",
+    typeA_en: "something is stuck in your chest", typeA_zh: "胸口堵着气",
+    causeA_en: "Racing heart, can't sit still, overthinking everything", causeA_zh: "心跳加速，坐不住，脑子停不下来",
+    fixA_en: "chrysanthemum and tangerine peel tea to unblock", fixA_zh: "菊花陈皮茶疏通一下",
+    typeB_en: "your heart is running too hot", typeB_zh: "心火太旺",
+    causeB_en: "Night sweats, hot palms, can't fall asleep", causeB_zh: "盗汗，手心烫，睡不着",
+    fixB_en: "lily bulb and lotus seed tea to cool the heart", fixB_zh: "百合莲子茶给心降降温",
+  },
+  {
+    slug: "why-do-i-have-period-cramps",
+    symptom_en: "period cramps", symptom_zh: "经期疼痛",
+    typeA_en: "cold is freezing the blood", typeA_zh: "冷把血冻住了",
+    causeA_en: "Worse with cold, dark clots, pain radiating to back", causeA_zh: "受冷更痛，有血块，痛到后腰",
+    fixA_en: "ginger brown sugar tea to warm and unblock", fixA_zh: "生姜红糖茶暖一暖通一通",
+    typeB_en: "blood is stuck and can't flow", typeB_zh: "血堵住了流不动",
+    causeB_en: "Sharp stabbing pain, dark blood, getting worse over time", causeB_zh: "刺痛，颜色暗，越来越严重",
+    fixB_en: "rose and hawthorn tea to get blood moving", fixB_zh: "玫瑰山楂茶活血化瘀",
+  },
+  {
+    slug: "why-do-i-have-headaches",
+    symptom_en: "headaches", symptom_zh: "头痛",
+    typeA_en: "heat is rising to your head", typeA_zh: "热气往上冲",
+    causeA_en: "Pressure behind eyes, worse when hot, red face", causeA_zh: "眼眶胀痛，热的时候更痛，脸红",
+    fixA_en: "chrysanthemum and mint tea to bring the heat down", fixA_zh: "菊花薄荷茶把热降下来",
+    typeB_en: "stagnation is pressurizing your head", typeB_zh: "堵住了，头在加压",
+    causeB_en: "Stiff neck, tension at base of skull, worse with stress", causeB_zh: "脖子僵硬，后脑勺紧，压力大更痛",
+    fixB_en: "rose and tangerine peel tea to release the pressure", fixB_zh: "玫瑰陈皮茶释放压力",
+  },
+  {
+    slug: "why-do-i-have-brain-fog",
+    symptom_en: "brain fog", symptom_zh: "脑子不清醒",
+    typeA_en: "your brain is wrapped in moisture", typeA_zh: "脑子被湿气蒙住了",
+    causeA_en: "Heavy head, can't think clearly, worse in humid weather", causeA_zh: "头重，想不清，潮湿天更严重",
+    fixA_en: "job's tears and poria soup to drain the fog", fixA_zh: "薏米茯苓汤散散雾",
+    typeB_en: "your brain isn't getting enough fuel", typeB_zh: "脑子供不上能量",
+    causeB_en: "Forgetful, can't focus, worse when tired", causeB_zh: "健忘，集中不了，累的时候更严重",
+    fixB_en: "walnut and goji tea to fuel the brain", fixB_zh: "核桃枸杞茶给大脑加加油",
+  },
+  {
+    slug: "why-do-i-sweat-so-much",
+    symptom_en: "sweating too much", symptom_zh: "爱出汗",
+    typeA_en: "internal heat is pushing sweat out", typeA_zh: "内部热气逼汗出来",
+    causeA_en: "Hot all the time, sweating without effort, night sweats", causeA_zh: "总是热，不动也出汗，晚上盗汗",
+    fixA_en: "goji and lily bulb tea to cool from within", fixA_zh: "枸杞百合茶从内部降温",
+    typeB_en: "your pores can't close properly", typeB_zh: "毛孔关不上",
+    causeB_en: "Sweating from slight movement, cold after sweating, easily winded", causeB_zh: "稍微一动就出汗，出汗后怕冷，容易喘",
+    fixB_en: "astragalus and red dates tea to strengthen the door", fixB_zh: "黄芪红枣茶把门加固",
+  },
+  {
+    slug: "why-am-i-always-thirsty",
+    symptom_en: "always thirsty", symptom_zh: "总是口渴",
+    typeA_en: "your internal reservoir has evaporated", typeA_zh: "内部水库蒸发了",
+    causeA_en: "Dry mouth, water doesn't help, waking up thirsty", causeA_zh: "嘴巴干，喝水不管用，醒来就渴",
+    fixA_en: "goji and ophiopogon tea to refill the reservoir", fixA_zh: "枸杞麦冬茶把水库加满",
+    typeB_en: "heat is baking your body dry", typeB_zh: "热气把身体烤干了",
+    causeB_en: "Thirst with bitter taste, yellow urine, feeling hot", causeB_zh: "口渴还口苦，尿黄，觉得热",
+    fixB_en: "mung bean and chrysanthemum tea to clear the heat", fixB_zh: "绿豆菊花茶清清热",
+  },
+  {
+    slug: "why-do-i-get-sick-so-often",
+    symptom_en: "getting sick often", symptom_zh: "经常感冒",
+    typeA_en: "your shield has cracks in it", typeA_zh: "防护盾有裂缝",
+    causeA_en: "Catching every cold, slow to recover, always sniffling", causeA_zh: "每次感冒都中招，恢复慢，总在抽鼻子",
+    fixA_en: "astragalus and red dates tea to patch the shield", fixA_zh: "黄芪红枣茶修补防护盾",
+    typeB_en: "your shield overreacts to everything", typeB_zh: "防护盾反应过度",
+    causeB_en: "Allergies, sneezing, itchy eyes, reacting to everything", causeB_zh: "过敏，打喷嚏，眼睛痒，什么都反应",
+    fixB_en: "schisandra and yam tea to calm the system", fixB_zh: "五味子山药茶让系统安静下来",
+  },
+  {
+    slug: "why-do-i-have-lower-back-pain",
+    symptom_en: "lower back pain", symptom_zh: "腰痛",
+    typeA_en: "your deepest battery is dying", typeA_zh: "最深处的电池快没电了",
+    causeA_en: "Aching after rest, worse in cold, weak knees too", causeA_zh: "休息后酸痛，冷天更严重，膝盖也软",
+    fixA_en: "chestnut and walnut soup to recharge the battery", fixA_zh: "栗子核桃汤给电池充电",
+    typeB_en: "something is blocked in your lower back", typeB_zh: "腰那里堵住了",
+    causeB_en: "Sharp pain, worse with pressure, dark bruises easily", causeB_zh: "刺痛，按压更痛，容易淤青",
+    fixB_en: "hawthorn and rose tea to unblock the area", fixB_zh: "山楂玫瑰茶通一通",
+  },
+  {
+    slug: "why-is-my-skin-so-dry",
+    symptom_en: "dry skin", symptom_zh: "皮肤干",
+    typeA_en: "your internal moisturizer is empty", typeA_zh: "内部保湿器空了",
+    causeA_en: "Dry all over, itchy after shower, drinking water doesn't help", causeA_zh: "全身干，洗澡后痒，喝水没用",
+    fixA_en: "tremella and goji soup to moisturize from within", fixA_zh: "银耳枸杞汤从内部保湿",
+    typeB_en: "moisture can't reach the surface", typeB_zh: "水分到不了皮肤表面",
+    causeB_en: "Dry with dark spots, dull complexion, cold hands", causeB_zh: "干还长斑，脸色暗，手脚冷",
+    fixB_en: "rose and brown sugar tea to get moisture moving", fixB_zh: "玫瑰红糖茶让水分流动起来",
+  },
+  {
+    slug: "why-am-i-always-hungry",
+    symptom_en: "always hungry", symptom_zh: "总是饿",
+    typeA_en: "your body can't absorb what you eat", typeA_zh: "吃进去吸收不了",
+    causeA_en: "Eating but never full, snacking all day, still empty after meals", causeA_zh: "吃了不饱，一天到晚零食，饭后还空",
+    fixA_en: "yam and millet porridge to strengthen absorption", fixA_zh: "山药小米粥增强吸收",
+    typeB_en: "your stomach is burning through food too fast", typeB_zh: "胃火太旺烧太快",
+    causeB_en: "Hungry right after eating, mouth dry, craving cold drinks", causeB_zh: "刚吃完就饿，口干，想喝冷饮",
+    fixB_en: "pear and mung bean tea to cool the stomach fire", fixB_zh: "梨绿豆水降降胃火",
+  },
+  {
+    slug: "why-do-i-have-diarrhea",
+    symptom_en: "diarrhea", symptom_zh: "拉肚子",
+    typeA_en: "your intestines don't have the energy to hold", typeA_zh: "肠子没力气兜住",
+    causeA_en: "Loose stools after eating cold, worse when tired, no pain", causeA_zh: "吃冷的后拉，累的时候更严重，不太痛",
+    fixA_en: "yam and millet porridge to strengthen the gut", fixA_zh: "山药小米粥把肠子加固",
+    typeB_en: "heat and dampness are rushing downward", typeB_zh: "湿热往下冲",
+    causeB_en: "Urgent, burning sensation, foul smell, worse with spicy food", causeB_zh: "急，灼热感，味道重，吃辣更严重",
+    fixB_en: "job's tears and mung bean tea to clear and drain", fixB_zh: "薏米绿豆茶清热排水",
+  },
+  {
+    slug: "why-am-i-so-irritable",
+    symptom_en: "irritable", symptom_zh: "爱发火",
+    typeA_en: "something is stuck and pressing on your mood", typeA_zh: "堵着的东西压着情绪",
+    causeA_en: "Snapping at people, sighing a lot, chest tightness", causeA_zh: "对人发火，老叹气，胸口闷",
+    fixA_en: "chrysanthemum and mint tea to release the pressure", fixA_zh: "菊花薄荷茶释放压力",
+    typeB_en: "your body is running too hot", typeB_zh: "身体跑太热了",
+    causeB_en: "Hot tempered, red face, can't sleep, dry mouth", causeB_zh: "脾气暴，脸红，睡不着，口干",
+    fixB_en: "lily bulb and chrysanthemum tea to cool down", fixB_zh: "百合菊花茶降降温",
+  },
+  {
+    slug: "why-is-my-period-irregular",
+    symptom_en: "irregular period", symptom_zh: "经期不规律",
+    typeA_en: "your body doesn't have enough energy to run on schedule", typeA_zh: "身体没力气按时运行",
+    causeA_en: "Skipping months, light flow, exhausted all the time", causeA_zh: "跳月，量少，总是累",
+    fixA_en: "red dates and longan tea to build up energy", fixA_zh: "红枣桂圆茶补补能量",
+    typeB_en: "something is blocking the flow", typeB_zh: "有什么东西堵住了",
+    causeB_en: "Dark clots, painful, unpredictable timing, mood swings", causeB_zh: "有血块，痛，时间不定，情绪波动",
+    fixB_en: "rose and hawthorn tea to unblock the path", fixB_zh: "玫瑰山楂茶把路通开",
+  },
+]
 
 const CAUSE_MAP: Record<string, string> = {
   "why-am-i-always-tired": "Your body is running on the wrong fuel.",
@@ -306,4 +688,42 @@ export function getSlugsByType(typeId: ConstitutionId, doneSlugs: Set<string>): 
   return Object.entries(SYMPTOMS)
     .filter(([_, s]) => s.relatedTypes.includes(typeId) && !doneSlugs.has(_))
     .map(([slug]) => slug)
+}
+
+export function generateVideoScript(slug: string, type: ScriptType): GeneratedScript | null {
+  const symptom = SYMPTOMS[slug]
+  if (!symptom) return null
+
+  const title = symptom.h1.en.split("?")[0] + "?"
+
+  if (type === "daily") {
+    const cause = CAUSE_MAP[slug] || "Your body type is creating this pattern."
+    const symptoms = SYMPTOM_LISTS[slug] || []
+    const twoSymptoms = symptoms.slice(0, 2).map((s) => s.toLowerCase())
+    const emotion = EMOTION_MAP[slug] || "broken"
+    const remedy = REMEDY_MAP[slug]
+
+    const remedyLine = remedy
+      ? `Try this: ${remedy.en}, ${remedy.timing_en}, ${cause.split(".")[0].toLowerCase() === cause.split(".")[0] ? "to help your body rebalance" : "to help your body rebalance"}.`
+      : "Try adjusting your daily food to match what your body actually needs."
+
+    const remedyLineZh = remedy
+      ? `试试这个：${remedy.zh}，${remedy.timing_zh}，帮身体调一调。`
+      : "试试调整每天的食物，给身体真正需要的。"
+
+    const en = `${title}\nAnother body signal — let's decode it.\n${twoSymptoms.join(". And ")}.\n${cause}\n${remedyLine}\nRemember — you're not ${emotion}. Your body is sending you a signal.\nOne body signal decoded every day. Follow me.`
+
+    const zh = `${symptom.title["zh-TW"]}\n又是一个身体信号，我们来解读一下。\n${twoSymptoms.join("，")}。\n${cause}\n${remedyLineZh}\n记住——你不是${emotion}，是身体在给你发信号。\n每天解读一个身体信号，关注我。`
+
+    return { slug, type, en, zh }
+  }
+
+  const contrast = MYTHBUST_CONTRASTS.find((c) => c.slug === slug)
+  if (!contrast) return null
+
+  const en = `Everyone thinks ${contrast.symptom_en} is just one thing. It's not.\nIn Eastern wellness, ${contrast.symptom_en} can come from two completely different causes.\nOne: ${contrast.typeA_en}. ${contrast.causeA_en}. The fix? ${contrast.fixA_en}.\nTwo: ${contrast.typeB_en}. ${contrast.causeB_en}. The fix? ${contrast.fixB_en}.\nSame symptom. Completely different body. Completely different fix.\nKnow your body type first. Everything else follows.\nI'm practicing using English to translate my body. You can tell me if my English is off, but trust the logic.`
+
+  const zh = `大家都以为${contrast.symptom_zh}就一种情况。不是的。\n在中式养生里，${contrast.symptom_zh}可能来自两种完全不同的原因。\n第一种：${contrast.typeA_zh}。${contrast.causeA_zh}。怎么办？${contrast.fixA_zh}。\n第二种：${contrast.typeB_zh}。${contrast.causeB_zh}。怎么办？${contrast.fixB_zh}。\n同一个症状，完全不同的身体，完全不同的解法。\n先搞懂你的体质，其他的才有意义。\n我在练习用英语来做身体的翻译，你可以告诉我我的英语哪里不好，但是要相信我讲的道理。`
+
+  return { slug, type, en, zh }
 }

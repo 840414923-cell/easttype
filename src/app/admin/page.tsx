@@ -7,11 +7,14 @@ import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import {
   generateSymptomCard,
+  generateVideoScript,
   getRandomUnusedSlug,
   getSlugsByType,
   type CtaType,
   type AspectRatio,
+  type ScriptType,
   type GeneratedCard,
+  type GeneratedScript,
 } from "@/lib/prompt-generator"
 
 const ContentStudio = dynamic(() => import("@/components/content-studio"), { ssr: false })
@@ -58,6 +61,8 @@ export default function AdminPage() {
   const [genRatio, setGenRatio] = useState<AspectRatio>("9:16")
   const [genFilter, setGenFilter] = useState<ConstitutionId | "all">("all")
   const [genResult, setGenResult] = useState<GeneratedCard | null>(null)
+  const [genScriptType, setGenScriptType] = useState<ScriptType>("daily")
+  const [genScript, setGenScript] = useState<GeneratedScript | null>(null)
   const [genDone, setGenDone] = useState<Set<string>>(() => {
     if (typeof window === "undefined") return new Set()
     try {
@@ -224,6 +229,8 @@ export default function AdminPage() {
         return
       }
       setGenResult(result)
+      const script = generateVideoScript(slug, genScriptType)
+      setGenScript(script)
     } catch (err: any) {
       setGenError(`生成出错：${err?.message || err}`)
     }
@@ -582,6 +589,29 @@ export default function AdminPage() {
                 </div>
               </div>
 
+              <div>
+                <label className="text-xs text-[#7a6e5e] mb-2 block">口播稿类型</label>
+                <div className="flex gap-2">
+                  {([
+                    ["daily", "日常解读型", "症状→道理→茶饮→金句"],
+                    ["mythbust", "认知颠覆型", "同一症状两种体质两种解法"],
+                  ] as [ScriptType, string, string][]).map(([val, label, hint]) => (
+                    <button
+                      key={val}
+                      onClick={() => setGenScriptType(val)}
+                      className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
+                        genScriptType === val
+                          ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                          : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
+                      }`}
+                    >
+                      {label}
+                      <span className="block text-[9px] opacity-60">{hint}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
               <div className="flex gap-3">
                 <button
                   onClick={handleGenerateCard}
@@ -672,6 +702,28 @@ export default function AdminPage() {
                     </pre>
                     <p className="text-[10px] text-[#7a6e5e] mt-1">{genResult.xHashtags}</p>
                   </div>
+
+                  {genScript && (
+                    <div>
+                      <div className="flex items-center justify-between mb-1">
+                        <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">
+                          口播稿 {genScript.type === "daily" ? "（日常解读型）" : "（认知颠覆型）"}
+                        </span>
+                        <button
+                          onClick={() => handleCopyGen("script", `${genScript.en}\n\n---\n\n${genScript.zh}`)}
+                          className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                        >
+                          {copiedGen === "script" ? "已复制 ✓" : "复制全文"}
+                        </button>
+                      </div>
+                      <pre className="text-xs text-[#b5a890] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap mb-2">
+{genScript.en}
+                      </pre>
+                      <pre className="text-xs text-[#7a6e5e] bg-[#0f0d0a] rounded p-3 leading-relaxed whitespace-pre-wrap">
+{genScript.zh}
+                      </pre>
+                    </div>
+                  )}
 
                   <button
                     onClick={() => markCardDone(genResult.slug, genResult.foods.map((f) => f.en))}
