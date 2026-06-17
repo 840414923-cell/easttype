@@ -177,6 +177,22 @@ export default function AcidRefluxArticle() {
       </section>
 
       <FaqSection faqs={SYMPTOM_FAQS[slug]} />
+
+      <section className="mt-10 mb-4">
+        <div className="bg-cream/30 border border-border rounded-xl p-5">
+          <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
+            What Foods May Help
+          </h2>
+          <p className="text-text2 text-sm leading-relaxed mb-3">
+            We put together a full food guide for this symptom, including what to eat, what to avoid, and a simple daily meal plan.
+          </p>
+          <Link href="/foods-for/when-you-have-acid-reflux" className="text-accent hover:underline text-[0.95rem] font-medium">
+            See the food guide →
+          </Link>
+        </div>
+      </section>
+
+
       <SymptomCta />
     </main>
   )
