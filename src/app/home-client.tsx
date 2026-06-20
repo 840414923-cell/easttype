@@ -126,6 +126,34 @@ export default function HomeClient() {
           <span className="text-accent text-xs opacity-40">✦</span>
         </div>
 
+        <section className="max-w-4xl mx-auto px-6 py-8">
+          <h2 className="font-[family-name:var(--font-display)] text-lg sm:text-xl tracking-wide text-center mb-6 text-text2">
+            Browse All Guides
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <Link href="/symptoms" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Symptoms</span>
+              <span className="block text-accent text-xs mt-1">70 guides</span>
+            </Link>
+            <Link href="/foods-for" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Food Guides</span>
+              <span className="block text-accent text-xs mt-1">10 guides</span>
+            </Link>
+            <Link href="/patterns" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Patterns</span>
+              <span className="block text-accent text-xs mt-1">9 patterns</span>
+            </Link>
+            <Link href="/wellness" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Body Types</span>
+              <span className="block text-accent text-xs mt-1">9 types</span>
+            </Link>
+          </div>
+        </section>
+
+        <div className="lotus-divider max-w-4xl mx-auto px-6">
+          <span className="text-accent text-xs opacity-40">✦</span>
+        </div>
+
         <section className="max-w-4xl mx-auto px-6 py-8 sm:py-10">
           <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-6">
             {LL.symptomsTitle}
@@ -141,6 +169,11 @@ export default function HomeClient() {
                 <span className="block text-accent text-xs mt-1">Learn more →</span>
               </Link>
             ))}
+          </div>
+          <div className="text-center mt-4">
+            <Link href="/symptoms" className="text-sm text-accent hover:underline tracking-wide">
+              View all 70 symptom guides →
+            </Link>
           </div>
         </section>
 
