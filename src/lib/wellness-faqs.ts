@@ -184,4 +184,32 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "A midline crack is one of the most common tongue features. In Chinese medicine, a shallow crack in the center often relates to Spleen or Stomach patterns, because the center of the tongue corresponds to those organs. A deeper crack may suggest a longer-standing deficiency. Some people have a natural midline groove that is present from childhood, which is simply their baseline. If the crack appeared recently or is deepening, it may be worth paying attention to your digestion and eating warm, nourishing foods.", "zh-TW": "中線裂紋是最常見的舌象之一。在中醫裡，中央淺裂紋常與脾胃模式有關，因為舌中對應這些臟腑。更深的裂紋可能表示更長期的虛損。有些人從小就有天然的中線溝紋，那只是他們的基線。如果裂紋最近出現或正在加深，可能值得關注消化和食用溫熱滋養的食物。", ja: "正中線の亀裂は最も一般的な舌の特徴の一つです。中医学では、中央の浅い亀裂は脾・胃のパターンに関連することが多いです。深い亀裂は長期的な虚損を示唆する可能性があります。最近出現したり深くなっている場合は、消化に注意し温かい滋養食をとることをお勧めします。" },
     },
   ],
+  "cooling-foods-chinese-medicine": [
+    {
+      q: { en: "Are cooling foods the same as cold foods?", "zh-TW": "涼性食物和冷的食物一樣嗎？", ja: "涼性食材は冷たい食べ物と同じですか？" },
+      a: { en: "No. In Chinese medicine, 'cooling' refers to the internal thermal effect a food has after digestion, not its physical temperature. A bowl of mung bean soup served warm is still a cooling food. An ice-cold piece of roasted lamb is still a warming food. The cooking method matters too: steaming and boiling are more neutral, while deep-frying adds heat. This is why Chinese medicine often recommends cooking cooling ingredients before eating them rather than eating them raw.", "zh-TW": "不是。在中醫裡，「涼性」指食物消化後對身體產生的內部熱效應，不是物理溫度。一碗溫熱的綠豆湯仍然是涼性食物。冰冷的烤羊肉仍然是溫性食物。烹飪方式也很重要：蒸和煮比較中性，油炸會增加熱性。這就是為什麼中醫常建議涼性食材煮熟吃，而不是生吃。", ja: "いいえ。中医学の「涼性」は消化後に体内に与える熱効果を指し、物理的温度ではありません。温かい緑豆スープも涼性です。冷たいローストラム肉も温性です。調理法も影響します：蒸す・煮るは中性、揚げるは熱性を加えます。" },
+    },
+    {
+      q: { en: "Can I eat cooling foods in winter?", "zh-TW": "冬天可以吃涼性食物嗎？", ja: "冬に涼性食材を食べてもいいですか？" },
+      a: { en: "Yes, but in moderation and preferably cooked. If you have a hot body type, you still need cooling foods in winter. The key is adjusting preparation: have warm mung bean soup instead of cold mung bean water. Steam your pear instead of eating it raw. Add a slice of ginger to balance the cooling effect. Your body type does not change with the seasons, but the way you prepare foods can shift to match the weather.", "zh-TW": "可以，但要適量且最好煮熟。如果你是熱性體質，冬天仍然需要涼性食物。關鍵是調整做法：喝溫熱的綠豆湯而不是涼的。蒸梨而不是生吃。加一片薑來平衡涼性。你的體質不會隨季節改變，但食物的準備方式可以配合天氣調整。", ja: "はい、適度に調理して食べるのが良いでしょう。熱性体質なら冬も涼性食材が必要です。準備方法を調整：冷たい緑豆水ではなく温かい緑豆スープに。生の梨ではなく蒸し梨に。涼性効果のバランスにしょうがを一枚追加。" },
+    },
+    {
+      q: { en: "What if I am both cold and hot at different times?", "zh-TW": "如果我同時有時冷有時熱怎麼辦？", ja: "冷えとほてりが交互に来る場合は？" },
+      a: { en: "This is common and usually indicates a mixed body type, such as Yin Deficiency with some Yang Deficiency. In practice, this means you may need warming foods in the morning when you feel cold and cooling foods in the evening when you feel hot. Follow your body's signals rather than sticking rigidly to one category. A practitioner can help you identify which pattern is dominant so you know which direction to lean.", "zh-TW": "這很常見，通常表示混合體質，如陰虛合併部分陽虛。實際上，這意味著你可能早上覺得冷時需要溫性食物，晚上覺得熱時需要涼性食物。跟隨身體信號，不要固守一類。從業者可以幫你找出主導模式，知道往哪個方向傾斜。", ja: "これは一般的で、通常は混合体質（陰虚＋一部陽虚など）を示します。朝は温性、夜は涼性というように体の信号に従ってください。実践者が優勢なパターンを特定するのを手伝えます。" },
+    },
+  ],
+  "eastern-vs-western-medicine": [
+    {
+      q: { en: "Can I use both Eastern and Western medicine at the same time?", "zh-TW": "我可以同時使用中醫和西醫嗎？", ja: "中医学と西洋医学を同時に使えますか？" },
+      a: { en: "Yes, and many practitioners encourage it. Use Western medicine for diagnosis and acute conditions. Use Eastern wellness approaches for daily management, prevention, and chronic low-grade symptoms. The key is keeping both practitioners informed about what the other is recommending, especially if you are taking herbs alongside prescription medications, as some interactions are possible.", "zh-TW": "可以，許多從業者鼓勵這樣做。用西醫做診斷和急性問題。用東方養生方法做日常管理、預防和慢性輕微症狀。關鍵是讓兩邊的從業者都知道對方的建議，特別是如果你在服用處方藥的同時使用草藥，因為有些交互作用是可能的。", ja: "はい、多くの実践者が推奨しています。西洋医学は診断と急性症状に。東洋養生法は日常管理、予防、慢性の軽い症状に。両方の実践者に互いの推奨を伝えることが重要です。処方薬とハーブの併用時は相互作用に注意。" },
+    },
+    {
+      q: { en: "Is Eastern medicine scientifically validated?", "zh-TW": "東方醫學有科學驗證嗎？", ja: "東洋医学は科学的に検証されていますか？" },
+      a: { en: "Parts of it are being studied and some findings are promising. Acupuncture has the strongest evidence base, with WHO recognizing it for dozens of conditions. Herbal medicine research is growing but complicated by the fact that Chinese medicine rarely uses single herbs in isolation. Food therapy is harder to study in randomized trials but aligns with nutritional science in many areas. The observational framework, refined over 3,000 years across millions of patients, provides a different kind of evidence: empirical rather than experimental. Both types of evidence have value.", "zh-TW": "部分正在被研究，有些發現很有前景。針灸的證據基礎最強，WHO認可它用於數十種病症。草藥研究在增長，但因為中醫很少單獨使用單一草藥而變得複雜。食療在隨機試驗中較難研究，但在許多方面與營養科學一致。觀察框架經過3000年數百萬患者的精煉，提供了不同類型的證據：經驗性的而非實驗性的。兩種證據都有價值。", ja: "一部は研究されており有望な結果もあります。鍼灸のエビデンスが最も強く、WHOが数十の状態に認めています。漢方薬研究は成長中ですが、単独で使われることが少ないため複雑です。食療はランダム化試験が難しいですが、栄養科学と一致する部分が多いです。3000年の観察フレームワークは経験的証拠を提供します。" },
+    },
+    {
+      q: { en: "Why does my doctor dismiss Eastern medicine?", "zh-TW": "為什麼我的醫生不認可東方醫學？", ja: "なぜ医師は東洋医学を否定するのですか？" },
+      a: { en: "Most Western-trained doctors have little education in Eastern medicine because it operates outside the framework they were trained in. Their concern is usually about patients delaying proven treatments for unproven alternatives. This is a valid concern. However, an increasing number of doctors are open to complementary approaches, especially for chronic conditions where conventional options are limited. The best approach is honest communication: tell your doctor what Eastern approaches you are trying and why, and listen to their concerns.", "zh-TW": "大多數西醫對東方醫學了解很少，因為它在他們受訓的框架之外。他們的擔憂通常是病人延遲已證實的治療而嘗試未證實的替代方案。這是合理的擔憂。但越來越多的醫生對輔助方法持開放態度，特別是在常規選擇有限的慢性病中。最好的方法是誠實溝通：告訴你的醫生你在嘗試什麼東方方法以及為什麼，並聽取他們的擔憂。", ja: "多くの西洋医学の医師は東洋医学の教育を受けていないためです。懸念は通常、実証された治療を遅らせることについてです。これは妥当な懸念です。しかし慢性疾患では補完的アプローチに開放的な医師も増えています。正直なコミュニケーションが最善です。" },
+    },
+  ],
 }
