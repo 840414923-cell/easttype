@@ -148,4 +148,22 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "You don't need to eliminate all cold foods, but minimize them significantly. Prioritize warm, cooked meals. Even drinking room-temperature water instead of ice water makes a noticeable difference for Yang Deficient types.", "zh-TW": "不需要完全消除寒涼食物，但要大幅減少。優先吃溫熱煮熟的餐點。甚至用常溫水代替冰水，對陽虛體質就有明顯改善。", ja: "全ての冷たい食材を排除する必要はありませんが、大幅に減らしてください。温かい調理済みの食事を優先しましょう。氷水の代わりに常温の水を飲むだけでも、陽虚タイプには顕著な違いがあります。" },
     },
   ],
+  "what-is-qi": [
+    {
+      q: { en: "Is qi a real thing or just a philosophical concept?", "zh-TW": "氣是真實的還是哲學概念？", ja: "気は実在するものですか、それとも哲学的概念ですか？" },
+      a: { en: "Qi is a practical framework for understanding how your body produces and uses energy. Whether you view it as literal energy flow or as a metaphor for metabolic function, the dietary and lifestyle recommendations based on qi theory have been tested across millions of people over thousands of years. Many modern practitioners see qi as an early way of describing what we now study as cellular metabolism, nervous system function, and circulatory dynamics.", "zh-TW": "氣是理解身體如何產生和使用能量的實用框架。無論你把它看作字面上的能量流動還是代謝功能的隱喻，基於氣理論的飲食和生活方式建議已經經過數千年數百萬人的驗人的驗證。許多現代從業者將氣視為描述細胞代謝、神經系統功能和循環動力學的早期方式。", ja: "気は体がエネルギーを生成・使用する仕組みを理解するための実用的枠組みです。文字通りのエネルギーの流れと見るか、代謝機能の隠喩と見るかにかかわらず、気理論に基づく食事・生活習慣の提案は数千年来何百万もの人々で検証されています。" },
+    },
+    {
+      q: { en: "How is qi different from calories or energy from food?", "zh-TW": "氣和食物的卡路里有什麼不同？", ja: "気はカロリーとどう違いますか？" },
+      a: { en: "Calories measure the potential energy stored in food. Qi describes how effectively your body converts that potential energy into usable fuel. Two people can eat the same meal with the same calories, but if one has strong Spleen qi and the other has weak Spleen qi, the first person extracts more energy from the meal. This is why calorie counting alone does not explain why some people feel energized after eating and others feel bloated and tired.", "zh-TW": "卡路里衡量食物中儲存的潛在能量。氣描述你的身體將潛在能量轉化為可用燃料的效率。兩個人可以吃同樣的餐點，但如果一個脾氣強、一個脾氣弱，前者從餐點中提取更多能量。這就是為什麼單靠計算卡路里不能解釋為什麼有些人吃完精力充沛，有些人卻脹氣疲憊。", ja: "カロリーは食材に蓄えられた潜在的エネルギーを測ります。気は体がその潜在的エネルギーを利用可能な燃料に変換する効率を表します。同じ食事でも、脾の気が強い人と弱い人では、前者がより多くのエネルギーを抽出します。" },
+    },
+    {
+      q: { en: "Can I build more qi, or am I stuck with what I was born with?", "zh-TW": "我可以補更多氣嗎，還是天生就定了？", ja: "気を増やすことはできますか？" },
+      a: { en: "You cannot increase the inherited qi you were born with, but you can maximize the qi you produce daily from food and air. This is the qi you have the most control over. Eating warm, easily digested meals at regular times, breathing deeply, and avoiding activities that waste qi (like excessive worry, overwork, or eating cold food) all help you get the most from your daily qi production.", "zh-TW": "你無法增加先天的元氣，但可以最大化每天從食物和空氣中產生的氣。這是你最能掌控的氣。按時吃溫熱易消化的餐點、深呼吸、避免耗氣的活動（如過度憂慮、過勞或吃冷食）都有助於最大化日常氣的產生。", ja: "生まれつきの元気を増やすことはできませんが、食事と呼吸から毎日生み出す気を最大化できます。温かく消化の良い食事を規則正しくとり、深呼吸し、気を浪費する活動を避けることで、毎日の気の生産を最大限にできます。" },
+    },
+    {
+      q: { en: "What is the relationship between qi and blood in Chinese medicine?", "zh-TW": "中醫裡氣和血的關係是什麼？", ja: "中医学で気と血の関係は？" },
+      a: { en: "Chinese medicine says qi is the commander of blood, and blood is the mother of qi. Qi provides the force that pushes blood through your vessels. Without enough qi, circulation becomes sluggish. Blood, in turn, carries the nutrients that produce qi. They depend on each other in a continuous cycle. This is why qi deficiency and blood deficiency often appear together: weak qi cannot produce enough blood, and insufficient blood cannot nourish the organs that make qi.", "zh-TW": "中醫說氣為血之帥，血為氣之母。氣提供推動血液在血管中流動的力量。氣不足時，循環變得遲緩。血液則攜帶產生氣的營養。它們在持續的循環中互相依賴。這就是為什麼氣虛和血虛常同時出現：弱氣不能產生足夠的血，不足的血不能滋養產生氣的臟腑。", ja: "中医学では「気は血の帥、血は気の母」と言います。気は血を血管内に押し出す力を提供し、血は気を生み出す栄養を運びます。相互依存の継続的なサイクルです。" },
+    },
+  ],
 }
