@@ -166,4 +166,22 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Chinese medicine says qi is the commander of blood, and blood is the mother of qi. Qi provides the force that pushes blood through your vessels. Without enough qi, circulation becomes sluggish. Blood, in turn, carries the nutrients that produce qi. They depend on each other in a continuous cycle. This is why qi deficiency and blood deficiency often appear together: weak qi cannot produce enough blood, and insufficient blood cannot nourish the organs that make qi.", "zh-TW": "中醫說氣為血之帥，血為氣之母。氣提供推動血液在血管中流動的力量。氣不足時，循環變得遲緩。血液則攜帶產生氣的營養。它們在持續的循環中互相依賴。這就是為什麼氣虛和血虛常同時出現：弱氣不能產生足夠的血，不足的血不能滋養產生氣的臟腑。", ja: "中医学では「気は血の帥、血は気の母」と言います。気は血を血管内に押し出す力を提供し、血は気を生み出す栄養を運びます。相互依存の継続的なサイクルです。" },
     },
   ],
+  "tcm-tongue-diagnosis": [
+    {
+      q: { en: "Can I diagnose myself by looking at my tongue?", "zh-TW": "我可以通過看舌頭自我診斷嗎？", ja: "舌を見て自己診断できますか？" },
+      a: { en: "You can get useful clues from your tongue, but self-diagnosis has limits. A trained practitioner considers the tongue alongside pulse reading, symptom history, and palpation. Your tongue gives one piece of the puzzle, not the whole picture. Use it as a personal wellness indicator, not a definitive diagnosis. If you notice concerning changes, consult a healthcare provider.", "zh-TW": "你可以從舌頭得到有用的線索，但自我診斷有局限。訓練有素的從業者會結合舌診、脈診、症狀歷史和觸診。舌頭只是拼圖的一塊，不是全貌。把它當作個人健康指標，而不是確定性診斷。", ja: "舌から有用な手がかりは得られますが、自己診断には限界があります。訓練された実践者は舌診を脈診、症状歴、触診と併用します。舌はパズルの1ピースに過ぎません。" },
+    },
+    {
+      q: { en: "Why does my tongue look different in the morning vs evening?", "zh-TW": "為什麼早上和晚上的舌頭看起來不同？", ja: "なぜ朝と夜で舌の見た目が違う？" },
+      a: { en: "Your tongue is most accurate first thing in the morning before eating or drinking. Throughout the day, food colors, beverages, and physical activity all change how your tongue looks. Coffee darkens the coating. Spicy food reddens the body. Dehydration makes it drier. That is why practitioners prefer morning readings. If you want to track changes over time, look at the same time each day for consistency.", "zh-TW": "舌頭在早上吃東西前最準確。一天中，食物、飲料和體力活動都會改變舌頭的外觀。咖啡使舌苔變深，辛辣食物使舌體變紅，脫水使舌頭變乾。這就是為什麼從業者偏好早上看舌。如果你想追蹤變化，每天同一時間看以保持一致性。", ja: "舌は朝食前が最も正確です。一日を通して、食べ物、飲み物、身体活動が舌の見た目を変えます。コーヒーは舌苔を濃くし、辛い食べ物は舌体を赤くし、脱水は乾燥させます。変化を追跡するなら毎日同じ時間に見てください。" },
+    },
+    {
+      q: { en: "What does a geographic tongue mean in Chinese medicine?", "zh-TW": "地圖舌在中醫裡意味著什麼？", ja: "地図状舌は中医学でどう意味されますか？" },
+      a: { en: "A geographic tongue, with patchy areas where the coating is missing, often corresponds to Yin Deficiency in Chinese medicine. The patchy, peeled areas indicate that the protective coating is not being sustained because internal moisture is depleted. This pattern is common in people who run warm at night, have dry mouth, or tend toward anxiety. Moistening foods like tremella, pear, and lily bulb may help.", "zh-TW": "地圖舌，舌苔缺失的斑塊區域，在中醫中常對應陰虛。斑塊狀剝落區域表示保護性舌苔無法維持，因為內部水分耗盡。這種模式常見於夜間偏熱、口乾或容易焦慮的人。銀耳、梨和百合等滋潤食物可能有幫助。", ja: "舌苔が欠けている地図状舌は、中医学では陰虚に対応することが多いです。斑状に剥がれた部分は、内部の水分が枯渇し保護的な舌苔が維持できないことを示します。白木耳、梨、百合根などの潤い食材が役立つかもしれません。" },
+    },
+    {
+      q: { en: "My tongue has a crack down the middle. Is that normal?", "zh-TW": "我的舌頭中間有一條裂紋，這正常嗎？", ja: "舌の真ん中に亀裂があります。正常ですか？" },
+      a: { en: "A midline crack is one of the most common tongue features. In Chinese medicine, a shallow crack in the center often relates to Spleen or Stomach patterns, because the center of the tongue corresponds to those organs. A deeper crack may suggest a longer-standing deficiency. Some people have a natural midline groove that is present from childhood, which is simply their baseline. If the crack appeared recently or is deepening, it may be worth paying attention to your digestion and eating warm, nourishing foods.", "zh-TW": "中線裂紋是最常見的舌象之一。在中醫裡，中央淺裂紋常與脾胃模式有關，因為舌中對應這些臟腑。更深的裂紋可能表示更長期的虛損。有些人從小就有天然的中線溝紋，那只是他們的基線。如果裂紋最近出現或正在加深，可能值得關注消化和食用溫熱滋養的食物。", ja: "正中線の亀裂は最も一般的な舌の特徴の一つです。中医学では、中央の浅い亀裂は脾・胃のパターンに関連することが多いです。深い亀裂は長期的な虚損を示唆する可能性があります。最近出現したり深くなっている場合は、消化に注意し温かい滋養食をとることをお勧めします。" },
+    },
+  ],
 }
