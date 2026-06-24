@@ -2,22 +2,22 @@ import type { Metadata } from "next"
 import HomeClient from "./home-client"
 
 export const metadata: Metadata = {
-  title: "EastType — Discover Your Eastern Body Type",
+  title: "EastType — Chinese Medicine Body Types & Wellness Quiz",
   description:
-    "Why are you always tired, cold, or bloated? Your Eastern body type has the answer. Take a free 5-min quiz and get personalized food maps and wellness guides.",
+    "Why are you always tired, cold, or bloated? Your Chinese medicine body type has the answer. Take a free 5-min quiz and get personalized food maps and TCM wellness guides.",
   openGraph: {
-    title: "Why Are You Always Tired, Cold, Stressed, or Bloated?",
+    title: "Chinese Medicine Body Types: Why Are You Always Tired, Cold, or Bloated?",
     description:
-      "Discover your Eastern body type in 5 minutes. Personalized food maps and wellness guidance based on 3,000 years of Eastern wellness.",
+      "Discover your Chinese medicine body type in 5 minutes. Personalized food maps and wellness guidance based on 3,000 years of TCM wisdom.",
     type: "website",
     url: "https://www.myeasterntype.com",
     siteName: "EastType",
   },
   twitter: {
     card: "summary_large_image",
-    title: "EastType — What's Your Eastern Body Type?",
+    title: "EastType — What's Your Chinese Medicine Body Type?",
     description:
-      "Why are you always tired, cold, or bloated? Take our free 5-minute quiz to discover your Eastern body type.",
+      "Why are you always tired, cold, or bloated? Take our free 5-minute quiz to discover your Chinese medicine body type.",
   },
   alternates: {
     canonical: "https://www.myeasterntype.com",
@@ -30,7 +30,7 @@ const ORG_SCHEMA = {
   name: "EastType",
   url: "https://www.myeasterntype.com",
   logo: "https://www.myeasterntype.com/favicon.svg",
-  description: "Discover your Eastern body type with a free 5-minute quiz. Personalized food maps, seasonal guides, and wellness recipe plans.",
+  description: "Discover your Chinese medicine body type with a free 5-minute quiz. Personalized food maps, seasonal guides, and TCM wellness recipe plans.",
   sameAs: [],
 }
 

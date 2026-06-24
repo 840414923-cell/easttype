@@ -30,18 +30,18 @@ export const metadata: Metadata = {
   verification: {
     google: "MiP1PyAbOojiLM7jlUAb8a1ZiSRPzqdyXJTdgWvGFYQ",
   },
-  title: "EastType — Discover Your Eastern Body Type",
+  title: "EastType — Chinese Medicine Body Types & Wellness Guides",
   description:
-    "Eastern wellness identifies 9 body types — each with unique patterns and needs. Discover yours in a free 5-minute assessment.",
+    "Chinese medicine identifies 9 body types — each with unique patterns and needs. Discover yours in a free 5-minute body type quiz with personalized food maps.",
   icons: {
     icon: "/favicon.svg",
     apple: "/favicon.svg",
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "EastType — Discover Your Eastern Body Type",
+    title: "EastType — Chinese Medicine Body Types & Wellness Guides",
     description:
-      "Eastern wellness identifies 9 body types. Discover yours in a free 5-minute assessment.",
+      "Chinese medicine identifies 9 body types. Discover yours in a free 5-minute quiz with personalized food maps and TCM wellness guidance.",
     type: "website",
     url: "https://www.myeasterntype.com",
     images: [
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "EastType — Discover Your Eastern Body Type",
+        alt: "EastType — Chinese Medicine Body Types & Wellness Quiz",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "EastType — Discover Your Eastern Body Type",
+    title: "EastType — Chinese Medicine Body Types & Wellness Guides",
     description:
-      "Eastern wellness identifies 9 body types. Discover yours in a free 5-minute assessment.",
+      "Chinese medicine identifies 9 body types. Discover yours in a free 5-minute quiz with personalized food maps.",
     images: ["/og-image.png"],
   },
   robots: {

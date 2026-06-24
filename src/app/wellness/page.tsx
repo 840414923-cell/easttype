@@ -2,8 +2,8 @@ import type { Metadata } from "next"
 import Link from "next/link"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Wellness Guides — Eastern Body Type Nutrition"
-const DESC = "Free wellness guides based on Eastern wellness. Understand why you're always tired, always cold, can't sleep, and what to eat for your body type."
+const TITLE = "Chinese Medicine Wellness Guides — Body Types, Foods & TCM"
+const DESC = "Free Chinese medicine wellness guides. Understand why you're always tired, always cold, can't sleep, and what to eat for your TCM body type. 3,000 years of wisdom explained in plain English."
 const URL = "https://www.myeasterntype.com/wellness"
 
 export const metadata: Metadata = {
@@ -26,15 +26,57 @@ export const metadata: Metadata = {
 
 const articles = [
   {
-    slug: "chinese-medicine-body-types",
-    title: "The 9 Eastern Body Types — A Complete Guide",
-    excerpt: "Eastern wellness identifies 9 body constitutions — each with unique physical patterns, emotional tendencies, and ideal foods.",
+    slug: "what-is-chinese-medicine",
+    title: "What Is Chinese Medicine? A Complete Beginner's Guide to TCM",
+    excerpt: "Everything you need to know about TCM: what it is, how it works, the 5 branches, 9 body types, and how it differs from Western medicine.",
+    tag: "Overview",
+    readTime: "12 min",
+  },
+  {
+    slug: "chinese-medicine-for-beginners",
+    title: "Chinese Medicine for Beginners: A Practical Starter Guide",
+    excerpt: "New to Chinese medicine? Learn the 3 key concepts, 5 must-know foods, a simple 7-day starter plan, and common mistakes to avoid.",
     tag: "Overview",
     readTime: "10 min",
   },
   {
+    slug: "chinese-medicine-body-types",
+    title: "The 9 Chinese Medicine Body Types — A Complete Guide",
+    excerpt: "Chinese medicine identifies 9 body constitutions — each with unique physical patterns, emotional tendencies, and ideal foods.",
+    tag: "Overview",
+    readTime: "10 min",
+  },
+  {
+    slug: "what-is-qi",
+    title: "What Is Qi (Chi) Energy? Chinese Medicine's Core Concept Explained",
+    excerpt: "Qi is the vital energy behind every function in your body. Learn what it is, how it moves, and what happens when it goes wrong.",
+    tag: "Overview",
+    readTime: "9 min",
+  },
+  {
+    slug: "tcm-tongue-diagnosis",
+    title: "Tongue Diagnosis in Chinese Medicine: What Your Tongue Reveals",
+    excerpt: "Your tongue is a daily health dashboard. Learn what color, coating, and shape mean in Chinese medicine.",
+    tag: "Overview",
+    readTime: "8 min",
+  },
+  {
+    slug: "cooling-foods-chinese-medicine",
+    title: "Cooling Foods in Chinese Medicine: What to Eat When You Run Hot",
+    excerpt: "Mung beans, pear, lotus root, and more. A complete guide to cooling foods and how to use them.",
+    tag: "Nutrition",
+    readTime: "8 min",
+  },
+  {
+    slug: "eastern-vs-western-medicine",
+    title: "Eastern vs Western Medicine: What Each System Does Best",
+    excerpt: "A practical comparison of Chinese medicine and Western medicine, and how to use both together.",
+    tag: "Overview",
+    readTime: "7 min",
+  },
+  {
     slug: "chinese-medicine-foods-for-energy",
-    title: "Eastern Wellness Foods for Energy: What to Eat When You're Always Tired",
+    title: "Chinese Medicine Foods for Energy: What to Eat When You're Always Tired",
     excerpt: "The right foods can rebuild your Qi. Warm, cooked, easy-to-digest meals are the foundation of energy recovery.",
     tag: "Nutrition",
     readTime: "7 min",
@@ -81,7 +123,7 @@ export default function WellnessIndexPage() {
         Wellness Guides
       </h1>
       <p className="text-text2 text-base mb-10 leading-relaxed max-w-xl">
-        Free guides based on Eastern wellness. Understand your body&apos;s signals through 3,000 years of body type wisdom.
+        Free Chinese medicine guides. Understand your body&apos;s signals through 3,000 years of TCM body type wisdom, explained in plain English.
       </p>
 
       <div className="space-y-4">
