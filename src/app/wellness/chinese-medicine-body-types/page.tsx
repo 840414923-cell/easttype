@@ -5,8 +5,8 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-body-types"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "The 9 Eastern Body Types Explained"
-const DESC = "Eastern wellness identifies 9 body constitutions — from Balanced to Sensitive. Each type has unique strengths, weaknesses, and ideal foods. Learn all 9 types and find yours."
+const TITLE = "9 Chinese Medicine Body Types Explained (Free Quiz)"
+const DESC = "Chinese medicine identifies 9 body constitutions — each with unique patterns in energy, digestion, sleep, and emotions. Learn all 9 types and find yours with our free quiz."
 
 export const metadata: Metadata = {
   title: TITLE,

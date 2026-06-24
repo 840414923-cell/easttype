@@ -629,7 +629,9 @@ ${foods.map((f) => f.en).join(", ")}
 ${ctaLine}
 
 Style:
-modern medical wellness app UI, clean editorial infographic, high readability, structured like a health explanation card, calm neutral aesthetic, soft beige background, minimal green accents, lots of white space. Include small realistic food photos for each item in WHAT HELPS section, arranged in a neat horizontal row with labels below each food. No people, no clutter, Instagram shareable, UI-based design.`
+modern medical wellness app UI, clean editorial infographic, high readability, structured like a health explanation card, calm neutral aesthetic, soft beige background, minimal green accents, lots of white space. Include small realistic food photos for each item in WHAT HELPS section, arranged in a neat horizontal row with labels below each food. No people, no clutter, Instagram shareable, UI-based design.
+
+IMPORTANT: ALL TEXT MUST BE IN ENGLISH ONLY. No Chinese characters. No Japanese. No Korean. Every single word on this card must be in English.`
 
   const foodBenefitLines = foods.map((f) => `${f.en} — ${f.benefit}`).join("\n")
   const typeHashtags = typeIds.flatMap((t) => TYPE_HASHTAGS[t] || [])

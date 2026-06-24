@@ -33,25 +33,15 @@ export default function BodyTypesArticle() {
       <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-3 leading-tight">
         {"The 9 Chinese Medicine Body Types — A Complete Guide"}
       </h1>
-      <p className="text-text2 text-sm mb-6">{"10 min read · Based on 3,000 years of Eastern body wisdom"}</p>
+      <p className="text-text2 text-sm mb-6">{"10 min read · Based on 3,000 years of Chinese medicine practice"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
-        <h2 className="font-[family-name:var(--font-display)] text-lg text-accent mb-2">
-          {"TL;DR"}
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          {"Quick Answer"}
         </h2>
-        <ul className="text-text2 text-sm space-y-1.5">
-          {[
-            "Chinese medicine identifies 9 distinct body constitutions — each with unique physical patterns, emotional tendencies, and dietary needs",
-            "Unlike Ayurveda's 3 doshas, this system offers more precise personalization for diet, lifestyle, and wellness strategies",
-            "Most people are a mix — one dominant type with influences from 1-2 others, which can shift with age, season, and lifestyle",
-            "Knowing your type helps you choose foods that support your body and avoid those that create imbalance",
-          ].map((item, i) => (
-            <li key={i} className="flex items-start gap-2">
-              <span className="text-accent/60 mt-0.5 flex-shrink-0">•</span>
-              <span>{item}</span>
-            </li>
-          ))}
-        </ul>
+        <p className="text-text leading-relaxed text-[0.95rem]">
+          {"Chinese medicine identifies 9 body constitutions (平和, 氣虚, 阳虚, 阴虚, 痰湿, 湿热, 血瘀, 气郁, 特禀) — each with distinct patterns in energy, digestion, temperature preference, emotional tendencies, and dietary needs. Unlike Ayurveda's 3 doshas, this system offers 9 categories for more precise personalization. Most people have one dominant type with secondary influences."}
+        </p>
       </div>
 
       <section className="mb-10">
@@ -81,6 +71,74 @@ export default function BodyTypesArticle() {
         <p className="text-text2 text-sm mb-4">
           {"Each type has a poetic name that captures its essence, along with practical signs you can recognize in yourself. Remember: most people are a mix, so you might see yourself in several of these."}
         </p>
+        <div className="overflow-x-auto mb-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left py-2 pr-3 text-text font-medium">Type</th>
+                <th className="text-left py-2 pr-3 text-text font-medium">Core Pattern</th>
+                <th className="text-left py-2 pr-3 text-text font-medium">Key Signs</th>
+                <th className="text-left py-2 text-text font-medium">Food Focus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Still Lake (Balanced)</td>
+                <td className="py-2 pr-3 text-text2">Self-regulating, steady</td>
+                <td className="py-2 pr-3 text-text2">Sleeps well, adapts easily</td>
+                <td className="py-2 text-text2">Variety, moderation</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Gentle Breeze (Qi Deficient)</td>
+                <td className="py-2 pr-3 text-text2">Low energy, easily depleted</td>
+                <td className="py-2 pr-3 text-text2">Always tired, soft voice</td>
+                <td className="py-2 text-text2">Energy-building, sweet</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Moonlit Garden (Yang Deficient)</td>
+                <td className="py-2 pr-3 text-text2">Underpowered inner furnace</td>
+                <td className="py-2 pr-3 text-text2">Cold hands/feet, prefers heat</td>
+                <td className="py-2 text-text2">Warming, yang foods</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Volcanic Spring (Yin Deficient)</td>
+                <td className="py-2 pr-3 text-text2">Internal heat, low moisture</td>
+                <td className="py-2 pr-3 text-text2">Night heat, dry mouth</td>
+                <td className="py-2 text-text2">Cooling, moistening</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Mossy Stone (Phlegm Damp)</td>
+                <td className="py-2 pr-3 text-text2">Holds moisture, sluggish</td>
+                <td className="py-2 pr-3 text-text2">Heavy feeling, weight gain</td>
+                <td className="py-2 text-text2">Draining, drying</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Summer Storm (Damp Heat)</td>
+                <td className="py-2 pr-3 text-text2">Hot and sticky internally</td>
+                <td className="py-2 pr-3 text-text2">Acne, irritability in heat</td>
+                <td className="py-2 text-text2">Cooling, draining</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Frozen Stream (Blood Stasis)</td>
+                <td className="py-2 pr-3 text-text2">Sluggish circulation</td>
+                <td className="py-2 pr-3 text-text2">Easy bruising, dark spots</td>
+                <td className="py-2 text-text2">Circulation-supporting</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Clouded Peak (Qi Stagnant)</td>
+                <td className="py-2 pr-3 text-text2">Stuck energy, tension</td>
+                <td className="py-2 pr-3 text-text2">Chest tightness, mood swings</td>
+                <td className="py-2 text-text2">Flow-supporting, sour</td>
+              </tr>
+              <tr className="border-b border-border/50">
+                <td className="py-2 pr-3 font-medium">Wild Orchid (Sensitive)</td>
+                <td className="py-2 pr-3 text-text2">Heightened reactivity</td>
+                <td className="py-2 pr-3 text-text2">Allergies, strong reactions</td>
+                <td className="py-2 text-text2">Gentle, stabilizing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <div className="space-y-4">
           {Object.entries(TYPES).map(([id, t]) => {
             const summary = TYPE_SUMMARY[id as ConstitutionId].en
@@ -153,6 +211,10 @@ export default function BodyTypesArticle() {
           {"Related Symptoms & Patterns"}
         </h2>
         <div className="space-y-3">
+          <Link href="/foods-for" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium mb-1">{"Food Guides by Symptom"}</h3>
+            <p className="text-text2 text-sm">{"What to eat and what to avoid for common symptoms, based on your body type"}</p>
+          </Link>
           <Link href="/symptoms" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
             <h3 className="text-text font-medium mb-1">{"Browse All Symptoms"}</h3>
             <p className="text-text2 text-sm">{"Explore all symptoms to find which ones match your body type"}</p>
