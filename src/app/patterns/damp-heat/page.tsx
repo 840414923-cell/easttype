@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "damp-heat"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Always Breaking Out? Your Body Type Runs Hot and Sticky"
-const DESC = "The Damp Heat pattern links persistent acne, acid reflux, and irritability in humid weather to Damp Heat in Eastern wellness. Learn which cooling foods and habits may help clear the stickiness."
+const DESC = "The Damp Heat pattern links persistent acne, acid reflux, and irritability in humid weather to Damp Heat in Chinese medicine. Learn which cooling foods and habits may help clear the stickiness."
 
 export const metadata: Metadata = {
   title: TITLE,

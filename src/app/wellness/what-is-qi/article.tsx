@@ -32,7 +32,7 @@ export default function WhatIsQiArticle() {
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">
-          If you have ever visited an acupuncturist, a Chinese herbalist, or even just read about Eastern wellness online, you have encountered the word &quot;qi.&quot; It shows up everywhere in Chinese medicine because it is the framework on which everything else hangs. Understanding qi is not about believing in something mystical. It is about recognizing that your body runs on energy, and that energy can be strong or weak, flowing or stuck, hot or cold.
+          If you have ever visited an acupuncturist, a Chinese herbalist, or even just read about Chinese medicine online, you have encountered the word &quot;qi.&quot; It shows up everywhere in Chinese medicine because it is the framework on which everything else hangs. Understanding qi is not about believing in something mystical. It is about recognizing that your body runs on energy, and that energy can be strong or weak, flowing or stuck, hot or cold.
         </p>
         <p className="text-text2 leading-relaxed">
           This guide explains qi in plain English: what it is, how it moves through your body, what happens when it goes wrong, and what you can do about it through food and daily habits.

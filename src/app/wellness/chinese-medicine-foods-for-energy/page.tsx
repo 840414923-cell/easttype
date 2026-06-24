@@ -5,22 +5,22 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-foods-for-energy"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Eastern Wellness Foods for Energy: What to Eat When You're Always Tired"
-const DESC = "Eastern wellness says fatigue is often an energy problem — your body's fuel is low. These 10+ foods have been used for centuries to restore energy naturally. Plus: foods that secretly drain your energy."
+const TITLE = "Chinese Medicine Foods for Energy: What to Eat When You're Always Tired"
+const DESC = "Chinese medicine says fatigue is often an energy problem — your body's fuel is low. These 10+ foods have been used for centuries to restore energy naturally. Plus: foods that secretly drain your energy."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Always tired? Eastern wellness says your fuel is low. These traditional foods restore energy from the inside out.",
+    description: "Always tired? Chinese medicine says your fuel is low. These traditional foods restore energy from the inside out.",
     url: URL,
     type: "article",
     siteName: "EastType",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eastern Wellness Foods for Energy",
+    title: "Chinese Medicine Foods for Energy",
     description: "Always tired? These traditional foods restore energy from the inside out.",
   },
   alternates: { canonical: URL },

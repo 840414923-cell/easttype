@@ -241,7 +241,7 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
   "eastern-vs-western-medicine": [
     {
       q: { en: "Can I use both Eastern and Western medicine at the same time?", "zh-TW": "我可以同時使用中醫和西醫嗎？", ja: "中医学と西洋医学を同時に使えますか？" },
-      a: { en: "Yes, and many practitioners encourage it. Use Western medicine for diagnosis and acute conditions. Use Eastern wellness approaches for daily management, prevention, and chronic low-grade symptoms. The key is keeping both practitioners informed about what the other is recommending, especially if you are taking herbs alongside prescription medications, as some interactions are possible.", "zh-TW": "可以，許多從業者鼓勵這樣做。用西醫做診斷和急性問題。用東方養生方法做日常管理、預防和慢性輕微症狀。關鍵是讓兩邊的從業者都知道對方的建議，特別是如果你在服用處方藥的同時使用草藥，因為有些交互作用是可能的。", ja: "はい、多くの実践者が推奨しています。西洋医学は診断と急性症状に。東洋養生法は日常管理、予防、慢性の軽い症状に。両方の実践者に互いの推奨を伝えることが重要です。処方薬とハーブの併用時は相互作用に注意。" },
+      a: { en: "Yes, and many practitioners encourage it. Use Western medicine for diagnosis and acute conditions. Use Chinese medicine approaches for daily management, prevention, and chronic low-grade symptoms. The key is keeping both practitioners informed about what the other is recommending, especially if you are taking herbs alongside prescription medications, as some interactions are possible.", "zh-TW": "可以，許多從業者鼓勵這樣做。用西醫做診斷和急性問題。用東方養生方法做日常管理、預防和慢性輕微症狀。關鍵是讓兩邊的從業者都知道對方的建議，特別是如果你在服用處方藥的同時使用草藥，因為有些交互作用是可能的。", ja: "はい、多くの実践者が推奨しています。西洋医学は診断と急性症状に。東洋養生法は日常管理、予防、慢性の軽い症状に。両方の実践者に互いの推奨を伝えることが重要です。処方薬とハーブの併用時は相互作用に注意。" },
     },
     {
       q: { en: "Is Eastern medicine scientifically validated?", "zh-TW": "東方醫學有科學驗證嗎？", ja: "東洋医学は科学的に検証されていますか？" },
@@ -250,6 +250,28 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
     {
       q: { en: "Why does my doctor dismiss Eastern medicine?", "zh-TW": "為什麼我的醫生不認可東方醫學？", ja: "なぜ医師は東洋医学を否定するのですか？" },
       a: { en: "Most Western-trained doctors have little education in Eastern medicine because it operates outside the framework they were trained in. Their concern is usually about patients delaying proven treatments for unproven alternatives. This is a valid concern. However, an increasing number of doctors are open to complementary approaches, especially for chronic conditions where conventional options are limited. The best approach is honest communication: tell your doctor what Eastern approaches you are trying and why, and listen to their concerns.", "zh-TW": "大多數西醫對東方醫學了解很少，因為它在他們受訓的框架之外。他們的擔憂通常是病人延遲已證實的治療而嘗試未證實的替代方案。這是合理的擔憂。但越來越多的醫生對輔助方法持開放態度，特別是在常規選擇有限的慢性病中。最好的方法是誠實溝通：告訴你的醫生你在嘗試什麼東方方法以及為什麼，並聽取他們的擔憂。", ja: "多くの西洋医学の医師は東洋医学の教育を受けていないためです。懸念は通常、実証された治療を遅らせることについてです。これは妥当な懸念です。しかし慢性疾患では補完的アプローチに開放的な医師も増えています。正直なコミュニケーションが最善です。" },
+    },
+  ],
+  "spleen-qi-deficiency": [
+    {
+      q: { en: "What are the main symptoms of spleen qi deficiency?", "zh-TW": "脾氣虛的主要症狀是什麼？", ja: "脾気虚の主な症状は？" },
+      a: { en: "The most common signs include fatigue after eating, bloating and fullness even after small meals, loose stools, poor appetite, difficulty concentrating, and a pale complexion. You may also feel heaviness in your limbs and have a weak desire to move. These signs tend to worsen with cold drinks, raw foods, and irregular eating patterns.", "zh-TW": "最常見的跡象包括飯後疲勞、即使吃少量也腹脹、大便稀軟、食慾差、注意力不集中和面色蒼白。四肢也可能感到沉重，不想動。喝冷飲、吃生食和不規律飲食會加重這些症狀。", ja: "最も一般的な兆候には、食後の疲労、少量でも満腹感、軟便、食欲不振、集中力の低下、青白い顔色があります。四肢の重さも感じることがあります。冷たい飲み物、生野菜、不規則な食事で悪化する傾向があります。" },
+    },
+    {
+      q: { en: "What foods should I eat for spleen qi deficiency?", "zh-TW": "脾氣虛應該吃什麼食物？", ja: "脾気虚には何を食べるべき？" },
+      a: { en: "Focus on warm, cooked, easy-to-digest foods. The best options include rice congee, sweet potato, Chinese dates (jujube), ginger tea, Chinese yam, pumpkin, millet porridge, and chicken broth. Cook all vegetables rather than eating them raw. Drink warm or room-temperature water instead of iced drinks. These foods gently support the Spleen without overwhelming it.", "zh-TW": "以溫熱、煮熟、易消化的食物為主。最佳選擇包括米粥、地瓜、紅棗、薑茶、山藥、南瓜、小米粥和雞湯。蔬菜要煮熟而非生吃。喝溫水或常溫水而非冰飲。這些食物溫和地支持脾臟，不會造成負擔。", ja: "温かく、加熱調理された、消化しやすい食品を中心に。最適な選択肢はお粥、さつまいも、なつめ、しょうが茶、山芋、かぼちゃ、きび粥、鶏スープです。野菜は生ではなく加熱して。氷水ではなく常温の水を飲んでください。" },
+    },
+    {
+      q: { en: "Is spleen qi deficiency the same as IBS?", "zh-TW": "脾氣虛和腸躁症一樣嗎？", ja: "脾気虚は過敏性腸症候群と同じですか？" },
+      a: { en: "Not exactly, but they can overlap. IBS is a Western medical diagnosis based on symptom patterns. Spleen Qi Deficiency is a Chinese medicine pattern based on functional energy. Some people with IBS may fit the Spleen Qi Deficiency pattern, especially those with diarrhea-predominant IBS, fatigue after eating, and bloating. Others may fit different TCM patterns. The Chinese medicine approach does not replace medical diagnosis but may offer dietary strategies that complement conventional management.", "zh-TW": "不完全一樣，但可以重疊。腸躁症是基於症狀模式的西醫診斷。脾氣虛是基於功能能量的中醫模式。一些腸躁症患者可能符合脾氣虛的模式，特別是腹瀉型、飯後疲勞和腹脹的人。中醫方法不替代醫學診斷，但可能提供輔助的飲食策略。", ja: "完全には同じではありませんが、重なる部分があります。過敏性腸症候群は西洋医学の診断で、脾気虚は中医学のパターンです。一部の過敏性腸症候群患者、特に下痢型で食後の疲労や膨満感がある人は脾気虚に当てはまることがあります。" },
+    },
+    {
+      q: { en: "Which body type is associated with spleen qi deficiency?", "zh-TW": "脾氣虛對應什麼體質？", ja: "脾気虚はどの体質に関連していますか？" },
+      a: { en: "Spleen Qi Deficiency most closely aligns with the Qi Deficient body type (气虚质) in the nine-type system. About 15 percent of people share this type. Key traits include chronic low energy, a soft voice, sweating with little exertion, and a tendency to catch colds easily. Take our free 5-minute quiz to discover if this is your primary type.", "zh-TW": "脾氣虛最接近九種體質中的氣虛質（气虚质）。約15%的人屬於此類。主要特徵包括長期精力不足、聲音低弱、稍微活動就出汗、容易感冒。做我們的免費5分鐘測驗，確認你的主要體質。", ja: "脾気虚は9つの体質の中で気虚タイプ（気虚質）に最も近いです。約15%の人がこのタイプです。主な特徴は慢性的なエネルギー不足、声が小さい、少しの運動で汗をかく、風邪をひきやすいことです。無料の5分クイズであなたの体質を確認してください。" },
+    },
+    {
+      q: { en: "How long does it take to improve spleen qi deficiency with food?", "zh-TW": "用食物改善脾氣虛需要多長時間？", ja: "食事で脾気虚を改善するのにどのくらいかかりますか？" },
+      a: { en: "Most people notice improvements in digestion and energy within two to three weeks of consistent dietary changes. Significant improvement in chronic symptoms may take two to three months. The key is consistency: eating warm foods at regular times every day produces better results than occasional perfect meals mixed with old habits. Chinese medicine views food therapy as a gradual process of rebuilding, not a quick fix.", "zh-TW": "大多數人在持續改變飲食兩到三週後注意到消化和精力的改善。慢性症狀的顯著改善可能需要兩到三個月。關鍵是堅持：每天定時吃溫食比偶爾完美一餐效果好得多。中醫認為食療是漸進的重建過程，不是速效方法。", ja: "ほとんどの人は食事の変更を2〜3週間続けると消化とエネルギーの改善に気づきます。慢性的な症状の大幅な改善には2〜3ヶ月かかる場合があります。鍵は継続です。毎日決まった時間に温かい食事をとることが、たまの完璧な食事よりも良い結果をもたらします。" },
     },
   ],
 }

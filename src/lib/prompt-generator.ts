@@ -723,7 +723,7 @@ export function generateVideoScript(slug: string, type: ScriptType): GeneratedSc
   const contrast = MYTHBUST_CONTRASTS.find((c) => c.slug === slug)
   if (!contrast) return null
 
-  const en = `Everyone thinks ${contrast.symptom_en} is just one thing. It's not.\nIn Eastern wellness, ${contrast.symptom_en} can come from two completely different causes.\nOne: ${contrast.typeA_en}. ${contrast.causeA_en}. The fix? ${contrast.fixA_en}.\nTwo: ${contrast.typeB_en}. ${contrast.causeB_en}. The fix? ${contrast.fixB_en}.\nSame symptom. Completely different body. Completely different fix.\nKnow your body type first. Everything else follows.\nI'm practicing using English to translate my body. You can tell me if my English is off, but trust the logic.`
+  const en = `Everyone thinks ${contrast.symptom_en} is just one thing. It's not.\nIn Chinese medicine, ${contrast.symptom_en} can come from two completely different causes.\nOne: ${contrast.typeA_en}. ${contrast.causeA_en}. The fix? ${contrast.fixA_en}.\nTwo: ${contrast.typeB_en}. ${contrast.causeB_en}. The fix? ${contrast.fixB_en}.\nSame symptom. Completely different body. Completely different fix.\nKnow your body type first. Everything else follows.\nI'm practicing using English to translate my body. You can tell me if my English is off, but trust the logic.`
 
   const zh = `大家都以为${contrast.symptom_zh}就一种情况。不是的。\n在中式养生里，${contrast.symptom_zh}可能来自两种完全不同的原因。\n第一种：${contrast.typeA_zh}。${contrast.causeA_zh}。怎么办？${contrast.fixA_zh}。\n第二种：${contrast.typeB_zh}。${contrast.causeB_zh}。怎么办？${contrast.fixB_zh}。\n同一个症状，完全不同的身体，完全不同的解法。\n先搞懂你的体质，其他的才有意义。\n我在练习用英语来做身体的翻译，你可以告诉我我的英语哪里不好，但是要相信我讲的道理。`
 

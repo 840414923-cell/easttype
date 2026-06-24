@@ -6,14 +6,14 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-am-i-always-tired"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Tired? Your Body Type Is the Missing Piece"
-const DESC = "Always tired even after sleeping well? Learn why from an Eastern wellness perspective — and which body type may be connected to your chronic fatigue."
+const DESC = "Always tired even after sleeping well? Learn why from an Chinese medicine perspective — and which body type may be connected to your chronic fatigue."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Sleeping well but still exhausted? Eastern wellness says your body type may explain why.",
+    description: "Sleeping well but still exhausted? Chinese medicine says your body type may explain why.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Sleeping well but still exhausted? Eastern wellness says your body type may explain why.",
+    description: "Sleeping well but still exhausted? Chinese medicine says your body type may explain why.",
   },
   alternates: { canonical: URL },
 }

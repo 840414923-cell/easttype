@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { cookies } from "next/headers"
 import ReportClient from "./report-client"
+import { signCheckout } from "@/lib/checkout-auth"
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -9,19 +10,17 @@ export const metadata: Metadata = {
 export default async function ReportV2Page({
   searchParams,
 }: {
-  searchParams: Promise<{ plan?: string; type?: string; sex?: string }>
+  searchParams: Promise<{ type?: string; sex?: string }>
 }) {
   const params = await searchParams
-  const plan = params.plan ?? "basic"
   const type = params.type ?? "qi_deficient"
   const sex = params.sex ?? "female"
 
   const cookieStore = await cookies()
   const purchased = cookieStore.get("et_plan")
 
-  const hasAccess = plan === "pro"
-    ? purchased?.value === "pro"
-    : purchased?.value === "basic" || purchased?.value === "pro"
+  const isPro = purchased?.value === "pro"
+  const hasAccess = purchased?.value === "basic" || purchased?.value === "pro"
 
   if (!hasAccess) {
     return (
@@ -39,5 +38,7 @@ export default async function ReportV2Page({
     )
   }
 
-  return <ReportClient />
+  const upgradeToken = signCheckout("pro", type, sex)
+
+  return <ReportClient isPro={isPro} upgradeToken={upgradeToken} />
 }

@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-do-i-have-brain-fog"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Brain Fog? Your Body Type Might Be Clouding Your Mind"
-const DESC = "Can't think clearly? Brain fog may be connected to your Eastern body type. Learn which Eastern wellness patterns are linked to mental fogginess and what may help clear it."
+const DESC = "Can't think clearly? Brain fog may be connected to your Eastern body type. Learn which Chinese medicine patterns are linked to mental fogginess and what may help clear it."
 
 export const metadata: Metadata = {
   title: TITLE,

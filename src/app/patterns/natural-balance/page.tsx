@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "natural-balance"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "The Body Type That Just Works (Is It Yours?)"
-const DESC = "The Natural Balance pattern represents the baseline constitution in Eastern wellness. Learn what a balanced body feels like, how to recognize it, and how to protect it from drifting off course."
+const DESC = "The Natural Balance pattern represents the baseline constitution in Chinese medicine. Learn what a balanced body feels like, how to recognize it, and how to protect it from drifting off course."
 
 export const metadata: Metadata = {
   title: TITLE,

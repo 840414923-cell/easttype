@@ -40,7 +40,7 @@ function buildFullScores(
   phase1Answers: number[],
   phase2Answers: number[],
 ): number[] {
-  const full27: number[] = new Array(27).fill(0)
+  const full27: number[] = new Array(27).fill(-1)
   QUIZ_15_INDICES.forEach((origIdx, i) => {
     if (i < phase1Answers.length) full27[origIdx] = phase1Answers[i]
   })
@@ -367,7 +367,7 @@ function Nav({ right }: { right?: React.ReactNode }) {
   )
 }
 
-function CompletionAnimation() {
+function CompletionAnimation({ signalCount = 27 }: { signalCount?: number }) {
   const [step, setStep] = useState(0)
 
   useEffect(() => {
@@ -390,7 +390,7 @@ function CompletionAnimation() {
             Analysis Complete
           </div>
           <div className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text">
-            27 Body Signals Collected
+            {signalCount} Body Signals Collected
           </div>
         </div>
 

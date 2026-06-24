@@ -527,7 +527,7 @@ export function calculate27Scores(answers: number[]): Record<ConstitutionId, num
   }
 
   QUIZ_27.forEach((q, i) => {
-    if (i < answers.length) {
+    if (i < answers.length && answers[i] >= 1) {
       let score = answers[i]
       if (q.reverse) score = 6 - score
       raw[q.constitution].push(score)

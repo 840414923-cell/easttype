@@ -18,7 +18,7 @@ const FOODS: Food[] = [
     num: 1,
     name: "Ginger",
     aka: "Sheng Jiang (Chinese), Shoga (Japanese), Adrak (Hindi), Khing (Thai)",
-    desc: "Ginger is the most widely used warming food in Eastern wellness. If your hands and feet tend to run cold, or if you feel heavy and slow after meals, ginger may be one of the simplest things you can add to your daily routine.",
+    desc: "Ginger is the most widely used warming food in Chinese medicine. If your hands and feet tend to run cold, or if you feel heavy and slow after meals, ginger may be one of the simplest things you can add to your daily routine.",
     suits: "Cold Sensitivity and Low Vitality body types (people who tend to run cold, feel fatigued, or have slow digestion).",
     benefits: [
       "Warming the body from the inside",
@@ -36,7 +36,7 @@ const FOODS: Food[] = [
     num: 2,
     name: "Goji Berries",
     aka: "Wolfberries, Gou Qi Zi (Chinese), Kuko no Mi (Japanese), Boxthorn Berries",
-    desc: "Goji berries are small, sweet, red dried fruits that look similar to raisins but have a distinct tart-sweet flavor. In Eastern wellness, they are associated with eye health, liver support, and healthy aging.",
+    desc: "Goji berries are small, sweet, red dried fruits that look similar to raisins but have a distinct tart-sweet flavor. In Chinese medicine, they are associated with eye health, liver support, and healthy aging.",
     suits: "Internal Heat body types (people who tend to feel warm at night, have dry skin, or wake up between 1 AM and 3 AM). Also suitable for people concerned about eye strain from screens.",
     benefits: [
       "Supporting eye comfort during long screen hours",
@@ -54,7 +54,7 @@ const FOODS: Food[] = [
     num: 3,
     name: "Red Dates (Jujube)",
     aka: "Chinese Dates, Hong Zao (Chinese), Natsume (Japanese), Injeol (Korean)",
-    desc: "Red dates are dried jujube fruits, not related to the Middle Eastern dates you find in most Western supermarkets. They are sweet, slightly chewy, and have been used in Eastern wellness for thousands of years to support calm sleep and steady energy.",
+    desc: "Red dates are dried jujube fruits, not related to the Middle Eastern dates you find in most Western supermarkets. They are sweet, slightly chewy, and have been used in Chinese medicine for thousands of years to support calm sleep and steady energy.",
     suits: "Low Vitality and Stuck Energy body types (people who feel chronically tired, anxious, or have trouble falling asleep).",
     benefits: [
       "Supporting calm and restful sleep",
@@ -72,7 +72,7 @@ const FOODS: Food[] = [
     num: 4,
     name: "Black Sesame Seeds",
     aka: "Hei Zhi Ma (Chinese), Kuro Goma (Japanese), Gingili (Indian)",
-    desc: "Black sesame seeds look like tiny dark pearls and have a rich, nutty, slightly smoky flavor. In Eastern wellness, their dark color connects them to the body's deepest energy reserves. They are associated with healthy hair, skin, and the body's foundational vitality.",
+    desc: "Black sesame seeds look like tiny dark pearls and have a rich, nutty, slightly smoky flavor. In Chinese medicine, their dark color connects them to the body's deepest energy reserves. They are associated with healthy hair, skin, and the body's foundational vitality.",
     suits: "Internal Heat and Blood Stasis body types (people concerned about hair thinning, dry skin, premature aging, or dark circles under the eyes).",
     benefits: [
       "Supporting hair strength and skin moisture",
@@ -90,7 +90,7 @@ const FOODS: Food[] = [
     num: 5,
     name: "Mung Beans",
     aka: "Lu Dou (Chinese), Ryokuto (Japanese), Moong Dal (Hindi), Green Gram (English)",
-    desc: "Mung beans are small, green legumes that cook quickly and have a mild, slightly sweet flavor. In Eastern wellness, they are considered one of the most cooling foods available. They are traditionally eaten during hot summer months to help the body manage internal heat.",
+    desc: "Mung beans are small, green legumes that cook quickly and have a mild, slightly sweet flavor. In Chinese medicine, they are considered one of the most cooling foods available. They are traditionally eaten during hot summer months to help the body manage internal heat.",
     suits: "Damp Heat body types (people who tend to feel hot and sticky, have oily skin, breakouts, or acid reflux). Also suitable for anyone during hot weather.",
     benefits: [
       "Supporting the body's natural cooling processes",
@@ -108,7 +108,7 @@ const FOODS: Food[] = [
     num: 6,
     name: "Walnuts",
     aka: "He Tao (Chinese), Kurumi (Japanese), Akhrot (Hindi), Nuez (Spanish)",
-    desc: "Walnuts look like tiny brains, and in Eastern wellness, this visual resemblance is taken seriously. Walnuts are associated with brain function, memory, and the body's deepest warmth reserves. They are also one of the most accessible ingredients on this list.",
+    desc: "Walnuts look like tiny brains, and in Chinese medicine, this visual resemblance is taken seriously. Walnuts are associated with brain function, memory, and the body's deepest warmth reserves. They are also one of the most accessible ingredients on this list.",
     suits: "Cold Sensitivity and Internal Heat body types concerned about memory, focus, or lower back discomfort. Also suitable for older adults.",
     benefits: [
       "Supporting memory and mental clarity",
@@ -126,7 +126,7 @@ const FOODS: Food[] = [
     num: 7,
     name: "Chinese Yam",
     aka: "Shan Yao (Chinese), Nagaimo (Japanese), Ma (Korean), Mexican Yam",
-    desc: "Chinese yam is a long, cylindrical root with a pale interior. When raw, it feels slippery and slightly sticky when cut. When cooked, it becomes tender and mildly sweet. In Eastern wellness, it is one of the most recommended foods for people with sensitive digestion.",
+    desc: "Chinese yam is a long, cylindrical root with a pale interior. When raw, it feels slippery and slightly sticky when cut. When cooked, it becomes tender and mildly sweet. In Chinese medicine, it is one of the most recommended foods for people with sensitive digestion.",
     suits: "Heavy and Sluggish body types (people who bloat after meals, feel heavy and tired, or have irregular digestion). Also suitable for anyone recovering from illness.",
     benefits: [
       "Strengthening digestive function over time",
@@ -144,7 +144,7 @@ const FOODS: Food[] = [
     num: 8,
     name: "Chrysanthemum Flowers",
     aka: "Ju Hua (Chinese), Kikka (Japanese), Gul-e-Daudi (Hindi)",
-    desc: "Dried chrysanthemum flowers are brewed into a light, floral tea that has been consumed in East Asia for centuries. The tea is golden-colored, delicate in flavor, and naturally caffeine-free. In Eastern wellness, chrysanthemum is associated with cooling internal heat, especially in the head and eyes.",
+    desc: "Dried chrysanthemum flowers are brewed into a light, floral tea that has been consumed in East Asia for centuries. The tea is golden-colored, delicate in flavor, and naturally caffeine-free. In Chinese medicine, chrysanthemum is associated with cooling internal heat, especially in the head and eyes.",
     suits: "Internal Heat and Stuck Energy body types (people who get headaches, eye strain, feel hot and irritable, or have trouble sleeping). Also ideal for office workers who stare at screens all day.",
     benefits: [
       "Soothing tired, dry, or strained eyes",
@@ -162,7 +162,7 @@ const FOODS: Food[] = [
     num: 9,
     name: "Longan",
     aka: "Dragon's Eye, Gui Yuan (Chinese), Ryugan (Japanese), Lamyai (Thai)",
-    desc: "Dried longan is a small, round, dark brown fruit that looks like a tiny pearl when shelled. It gets its English name, \"Dragon's Eye,\" from the fresh fruit, which has a dark seed visible through the translucent white flesh. Dried longan is sweet, warm in nature, and has been used in Eastern wellness to support calm energy and restful sleep.",
+    desc: "Dried longan is a small, round, dark brown fruit that looks like a tiny pearl when shelled. It gets its English name, \"Dragon's Eye,\" from the fresh fruit, which has a dark seed visible through the translucent white flesh. Dried longan is sweet, warm in nature, and has been used in Chinese medicine to support calm energy and restful sleep.",
     suits: "Low Vitality body types (people who feel chronically tired, anxious, or have trouble sleeping due to an overactive mind).",
     benefits: [
       "Supporting calm, settled energy during the day",
@@ -180,7 +180,7 @@ const FOODS: Food[] = [
     num: 10,
     name: "Lotus Seeds",
     aka: "Lian Zi (Chinese), Hasu no Mi (Japanese), Bikh (Hindi)",
-    desc: "Lotus seeds are small, ivory-colored seeds harvested from the seed pod of the lotus flower. They have a mild, slightly sweet, and slightly nutty flavor. In Eastern wellness, they are associated with calm, steady energy and clear thinking. They are one of the key ingredients in traditional East Asian desserts and savory dishes alike.",
+    desc: "Lotus seeds are small, ivory-colored seeds harvested from the seed pod of the lotus flower. They have a mild, slightly sweet, and slightly nutty flavor. In Chinese medicine, they are associated with calm, steady energy and clear thinking. They are one of the key ingredients in traditional East Asian desserts and savory dishes alike.",
     suits: "Stuck Energy and Heavy and Sluggish body types (people who overthink, feel mentally scattered, or have trouble concentrating).",
     benefits: [
       "Supporting mental calm and clear focus",
@@ -394,11 +394,11 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
         <div style={S.brand}>EastType</div>
         <div style={S.goldLine} />
         <div style={S.coverTitle}>10 Foods Your Body Type Will Love</div>
-        <div style={S.coverSub}>A Practical Eastern Wellness Guide</div>
+        <div style={S.coverSub}>A Practical Chinese Medicine Guide</div>
         <div style={S.goldLine} />
         <div style={{ fontSize: "14px", color: "#8A7D6B", maxWidth: "440px", lineHeight: 1.7 }}>
-          Eastern wellness identifies 9 body types. Each type has foods that suit it well.
-          This guide covers 10 ingredients used in Eastern wellness traditions for centuries.
+          Chinese medicine identifies 9 body types. Each type has foods that suit it well.
+          This guide covers 10 ingredients used in Chinese medicine traditions for centuries.
         </div>
         <div style={S.coverFoot}>myeasterntype.com</div>
       </div>
@@ -446,7 +446,7 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
           "Pick 2 ingredients from this guide that suit your type.",
           'Start with one habit from the "Simple Habit" section of each food.',
           "Give it 2 to 3 weeks. Notice how your body responds.",
-          "Adjust from there. Eastern wellness is about consistent, small adjustments, not dramatic overhauls.",
+          "Adjust from there. Chinese medicine is about consistent, small adjustments, not dramatic overhauls.",
         ].map((step, i) => (
           <div key={i} style={{ marginBottom: "12px", display: "flex", alignItems: "flex-start" }}>
             <span style={S.stepNum}>{i + 1}</span>
@@ -468,7 +468,7 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
         ))}
         <p style={{ ...S.desc, marginTop: "10px" }}>
           Most of these ingredients cost between $3 and $10 and last for weeks or months.
-          Eastern wellness eating does not need to be expensive.
+          Chinese medicine eating does not need to be expensive.
         </p>
       </div>
 
@@ -481,10 +481,10 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
         </p>
         <p style={S.desc}>
           Individual responses to foods vary. The information in this guide reflects traditional
-          Eastern wellness principles, which focus on patterns and tendencies rather than medical diagnoses.
+          Chinese medicine principles, which focus on patterns and tendencies rather than medical diagnoses.
         </p>
         <div style={S.disclaimerBox}>
-          Listen to your body. Start small. Be consistent. That is the Eastern wellness way.
+          Listen to your body. Start small. Be consistent. That is the Chinese medicine way.
         </div>
         <div style={S.ctaBox}>
           <div style={S.ctaTitle}>Ready to Find Your Body Type?</div>

@@ -9,12 +9,12 @@ const SITE = "https://www.myeasterntype.com"
 export const metadata: Metadata = {
   title: "Food Guides: What to Eat for Common Symptoms | EastType",
   description:
-    "Practical Eastern wellness food guides for fatigue, insomnia, bloating, anxiety, brain fog, and more. Learn which foods may help your body type and which to avoid.",
+    "Practical Chinese medicine food guides for fatigue, insomnia, bloating, anxiety, brain fog, and more. Learn which foods may help your body type and which to avoid.",
   alternates: { canonical: `${SITE}/foods-for` },
   openGraph: {
     title: "Food Guides: What to Eat for Common Symptoms | EastType",
     description:
-      "Practical Eastern wellness food guides for fatigue, insomnia, bloating, anxiety, brain fog, and more.",
+      "Practical Chinese medicine food guides for fatigue, insomnia, bloating, anxiety, brain fog, and more.",
     url: `${SITE}/foods-for`,
     type: "website",
     siteName: "EastType",

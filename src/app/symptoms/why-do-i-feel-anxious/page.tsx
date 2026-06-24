@@ -6,14 +6,14 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-do-i-feel-anxious"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Anxious for No Reason? Your Body Type Might Be Fueling It"
-const DESC = "Anxious all the time for no clear reason? Eastern wellness connects chronic anxiety to specific body types. Learn what your body may be telling you."
+const DESC = "Anxious all the time for no clear reason? Chinese medicine connects chronic anxiety to specific body types. Learn what your body may be telling you."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Anxious but nothing is wrong? Eastern wellness says your body type may explain it.",
+    description: "Anxious but nothing is wrong? Chinese medicine says your body type may explain it.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Anxious but nothing is wrong? Eastern wellness says your body type may explain it.",
+    description: "Anxious but nothing is wrong? Chinese medicine says your body type may explain it.",
   },
   alternates: { canonical: URL },
 }

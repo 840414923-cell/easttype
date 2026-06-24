@@ -26,6 +26,13 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "spleen-qi-deficiency",
+    title: "Spleen Qi Deficiency: Signs, Causes, and Foods That May Help",
+    excerpt: "Fatigue after meals, bloating, and brain fog may point to Spleen Qi Deficiency. Learn the signs, what causes it, and which warm foods can help.",
+    tag: "Qi Deficient",
+    readTime: "10 min",
+  },
+  {
     slug: "what-is-chinese-medicine",
     title: "What Is Chinese Medicine? A Complete Beginner's Guide to TCM",
     excerpt: "Everything you need to know about TCM: what it is, how it works, the 5 branches, 9 body types, and how it differs from Western medicine.",

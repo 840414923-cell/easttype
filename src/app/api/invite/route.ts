@@ -57,7 +57,15 @@ export async function POST(request: Request) {
 
     await redis.set(key, JSON.stringify(invite))
 
-    return NextResponse.json({ success: true })
+    const response = NextResponse.json({ success: true })
+    response.cookies.set("et_plan", "basic", {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365,
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "lax",
+    })
+    return response
   } catch (err: any) {
     return NextResponse.json({ error: `${err?.message || err}` }, { status: 500 })
   }

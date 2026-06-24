@@ -1,6 +1,8 @@
 import type { Metadata } from "next"
 import { cookies } from "next/headers"
+import { redirect } from "next/navigation"
 import SuccessClient from "./success-client"
+import { verifyCheckout } from "@/lib/checkout-auth"
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -9,17 +11,26 @@ export const metadata: Metadata = {
 export default async function SuccessPage({
   searchParams,
 }: {
-  searchParams: Promise<{ plan?: string; type?: string; sex?: string }>
+  searchParams: Promise<{ plan?: string; type?: string; sex?: string; token?: string }>
 }) {
   const params = await searchParams
-  const plan = params.plan ?? "basic"
+
+  if (!params.token) {
+    redirect("/")
+  }
+
+  const payload = verifyCheckout(params.token)
+
+  if (!payload) {
+    redirect("/")
+  }
 
   const cookieStore = await cookies()
-  cookieStore.set("et_plan", plan, {
+  cookieStore.set("et_plan", payload.plan, {
     path: "/",
     maxAge: 60 * 60 * 24 * 365,
-    httpOnly: false,
-    secure: true,
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
     sameSite: "lax",
   })
 

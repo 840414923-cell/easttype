@@ -65,7 +65,7 @@ export default function PatternsHubPage() {
           can help you make sense of symptoms that seem unrelated.
         </p>
         <p className="text-text2 text-sm mb-10 leading-relaxed max-w-xl">
-          These patterns are based on 3,000 years of Eastern wellness observation.
+          These patterns are based on 3,000 years of Chinese medicine observation.
           They connect what you feel to what your body may need.
         </p>
 
@@ -100,7 +100,7 @@ export default function PatternsHubPage() {
             How Patterns Connect to Your Body Type
           </h2>
           <p className="text-text2 text-sm leading-relaxed mb-3">
-            Eastern wellness identifies 9 distinct body types. Each pattern on this page
+            Chinese medicine identifies 9 distinct body types. Each pattern on this page
             connects to one or more body types. Once you understand your pattern, the next step
             is discovering your full body type profile.
           </p>

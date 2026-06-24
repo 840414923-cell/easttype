@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "internal-heat"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Night Sweats and Insomnia? Your Body Type Overheats at Night"
-const DESC = "The Internal Heat pattern links night sweats, insomnia, and feeling hot at night to Yin Deficiency in Eastern wellness. Learn which cooling foods and habits may help restore balance."
+const DESC = "The Internal Heat pattern links night sweats, insomnia, and feeling hot at night to Yin Deficiency in Chinese medicine. Learn which cooling foods and habits may help restore balance."
 
 export const metadata: Metadata = {
   title: TITLE,

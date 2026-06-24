@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "high-sensitivity"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Allergies Won't Quit? Your Body Type Reacts to Everything"
-const DESC = "The High Sensitivity pattern links allergies, strong reactions to smells and sounds, and emotional sensitivity to the Sensitive constitution in Eastern wellness. Learn which habits may help build resilience."
+const DESC = "The High Sensitivity pattern links allergies, strong reactions to smells and sounds, and emotional sensitivity to the Sensitive constitution in Chinese medicine. Learn which habits may help build resilience."
 
 export const metadata: Metadata = {
   title: TITLE,

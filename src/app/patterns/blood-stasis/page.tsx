@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "blood-stasis"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Numbness and Headaches? Your Body Type Slows Your Circulation"
-const DESC = "The Blood Stasis pattern links numbness, recurring headaches, and easy bruising to Blood Stagnation in Eastern wellness. Learn which foods and habits may help get things moving."
+const DESC = "The Blood Stasis pattern links numbness, recurring headaches, and easy bruising to Blood Stagnation in Chinese medicine. Learn which foods and habits may help get things moving."
 
 export const metadata: Metadata = {
   title: TITLE,

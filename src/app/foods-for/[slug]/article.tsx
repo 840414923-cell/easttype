@@ -30,7 +30,7 @@ export default function FoodComboArticle({ slug }: { slug: string }) {
         {page.h1}
       </h1>
       <p className="text-text2 text-sm mb-10">
-        {page.readTime} read · Eastern wellness food guide
+        {page.readTime} read · Chinese medicine food guide
       </p>
 
       <section className="mb-10">

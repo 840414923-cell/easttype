@@ -6,14 +6,14 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-do-i-have-night-sweats"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Night Sweats? Your Body Type Overheats While You Sleep"
-const DESC = "Waking up drenched in sweat? Eastern wellness connects night sweats to specific body types. Learn what your body may be telling you."
+const DESC = "Waking up drenched in sweat? Chinese medicine connects night sweats to specific body types. Learn what your body may be telling you."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Waking up drenched? Eastern wellness says your body type may explain night sweats.",
+    description: "Waking up drenched? Chinese medicine says your body type may explain night sweats.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Waking up drenched? Eastern wellness says your body type may explain night sweats.",
+    description: "Waking up drenched? Chinese medicine says your body type may explain night sweats.",
   },
   alternates: { canonical: URL },
 }

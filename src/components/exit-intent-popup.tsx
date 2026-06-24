@@ -247,7 +247,7 @@ export function ExitIntentPopup() {
               </h2>
 
               <p className="text-sm mb-6" style={{ color: "var(--color-text2)", lineHeight: 1.6 }}>
-                A practical Eastern wellness guide with 10 ingredients, their body type matches, and simple daily habits.
+                A practical Chinese medicine guide with 10 ingredients, their body type matches, and simple daily habits.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-3">

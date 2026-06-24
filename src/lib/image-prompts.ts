@@ -30,7 +30,7 @@ export const CATEGORY_META: Record<PromptCategory, { label: string; icon: string
 }
 
 const STYLE =
-  "Premium dark warm background (#1A1410 deep brown-black), gold accent (#C9A355), Eastern wellness aesthetic, elegant serif font for headlines, clean sans-serif for body text, gold foil decorative line elements, luxury wellness brand style, high contrast, minimalist layout with breathing space"
+  "Premium dark warm background (#1A1410 deep brown-black), gold accent (#C9A355), Chinese medicine aesthetic, elegant serif font for headlines, clean sans-serif for body text, gold foil decorative line elements, luxury wellness brand style, high contrast, minimalist layout with breathing space"
 
 const PIN_SIZE = "1000×1500px (2:3)"
 const IG_SIZE = "1080×1080px (1:1)"
@@ -69,7 +69,7 @@ export const IMAGE_PROMPTS: PromptEntry[] = [
     size: PIN_SIZE,
     sizeNote: "Pinterest 长图",
     platforms: ["Pinterest", "Instagram", "Facebook"],
-    caption: "Waking at 3 AM isn't insomnia. In Eastern wellness, your Liver is talking. 🌙\n\nLearn more → myeasterntype.com",
+    caption: "Waking at 3 AM isn't insomnia. In Chinese medicine, your Liver is talking. 🌙\n\nLearn more → myeasterntype.com",
     hashtags: "#easternwellness #insomnia #3am #liver #chinesemedicine #sleep #wellness",
   },
   {
@@ -236,11 +236,11 @@ export const IMAGE_PROMPTS: PromptEntry[] = [
     id: "sn-01",
     category: "seasonal",
     titleZh: "春季 · 疏肝理气",
-    prompt: `${STYLE}. Pinterest seasonal card. Spring theme with subtle cherry blossom elements. Title: "SPRING" in gold serif. Subtitle: "Time to Move What's Stuck" in white. Content: "Spring = Liver season in Eastern wellness. Your Liver wants to flow. Let it." 3 tips: "Walk 20 min daily", "Add citrus & rose tea", "Light, warm meals — no heavy food". Gold decorative line. EastType logo.`,
+    prompt: `${STYLE}. Pinterest seasonal card. Spring theme with subtle cherry blossom elements. Title: "SPRING" in gold serif. Subtitle: "Time to Move What's Stuck" in white. Content: "Spring = Liver season in Chinese medicine. Your Liver wants to flow. Let it." 3 tips: "Walk 20 min daily", "Add citrus & rose tea", "Light, warm meals — no heavy food". Gold decorative line. EastType logo.`,
     size: PIN_SIZE,
     sizeNote: "Pinterest 长图，季节元素",
     platforms: ["Pinterest", "Instagram", "Facebook"],
-    caption: "Spring = Liver season in Eastern wellness. Your Liver wants to flow. Let it. 🌸\n\n3 spring habits: daily walks, citrus & rose tea, light warm meals\n\nDiscover your body type → myeasterntype.com",
+    caption: "Spring = Liver season in Chinese medicine. Your Liver wants to flow. Let it. 🌸\n\n3 spring habits: daily walks, citrus & rose tea, light warm meals\n\nDiscover your body type → myeasterntype.com",
     hashtags: "#spring #easternwellness #liver #seasonal #wellness #detox #bodytype",
   },
   {
@@ -363,22 +363,22 @@ export const IMAGE_PROMPTS: PromptEntry[] = [
     id: "ff-01",
     category: "fun-fact",
     titleZh: "核桃为什么像大脑",
-    prompt: `${STYLE}. Pinterest fun fact card. Large walnut illustration at center with brain overlay hint. Headline: "WHY DO WALNUTS LOOK LIKE BRAINS?" in gold serif. Answer: "In Eastern wellness, this isn't coincidence. It's called 'like shapes nourish like shapes.' Walnuts nourish the brain, strengthen memory, and support the Kidney." in white. Bottom: "3,000 years of observation > 1 coincidence" in gold italic. EastType logo.`,
+    prompt: `${STYLE}. Pinterest fun fact card. Large walnut illustration at center with brain overlay hint. Headline: "WHY DO WALNUTS LOOK LIKE BRAINS?" in gold serif. Answer: "In Chinese medicine, this isn't coincidence. It's called 'like shapes nourish like shapes.' Walnuts nourish the brain, strengthen memory, and support the Kidney." in white. Bottom: "3,000 years of observation > 1 coincidence" in gold italic. EastType logo.`,
     size: PIN_SIZE,
     sizeNote: "Pinterest 长图，冷知识互动",
     platforms: ["Pinterest", "Instagram", "X", "Facebook"],
-    caption: "Why do walnuts look like brains? In Eastern wellness, it's not coincidence. 🧠\n\n\"Like shapes nourish like shapes.\" Walnuts → brain → memory → Kidney energy.\n\nDiscover your body type → myeasterntype.com",
+    caption: "Why do walnuts look like brains? In Chinese medicine, it's not coincidence. 🧠\n\n\"Like shapes nourish like shapes.\" Walnuts → brain → memory → Kidney energy.\n\nDiscover your body type → myeasterntype.com",
     hashtags: "#walnuts #brainfood #easternwellness #funfact #chinesemedicine #wellness",
   },
   {
     id: "ff-02",
     category: "fun-fact",
     titleZh: "凌晨3点醒 = 肝在说话",
-    prompt: `${STYLE}. Pinterest fun fact card. Clock showing 3 AM in gold. Headline: "WHY 3 AM?" in gold serif. Answer: "In Eastern wellness, 1-3 AM is Liver time. Your Liver is trying to repair but something is stuck. Waking at the same time every night isn't random insomnia — it's your Liver talking." in white. Bottom: "Not melatonin. Movement." in gold. EastType logo.`,
+    prompt: `${STYLE}. Pinterest fun fact card. Clock showing 3 AM in gold. Headline: "WHY 3 AM?" in gold serif. Answer: "In Chinese medicine, 1-3 AM is Liver time. Your Liver is trying to repair but something is stuck. Waking at the same time every night isn't random insomnia — it's your Liver talking." in white. Bottom: "Not melatonin. Movement." in gold. EastType logo.`,
     size: PIN_SIZE,
     sizeNote: "Pinterest 长图",
     platforms: ["Pinterest", "Instagram", "X", "Facebook"],
-    caption: "Waking at 3 AM every night? It's not random insomnia. Your Liver is talking. 🌙\n\n1-3 AM = Liver time in Eastern wellness. Something is stuck.\n\nFree quiz → myeasterntype.com",
+    caption: "Waking at 3 AM every night? It's not random insomnia. Your Liver is talking. 🌙\n\n1-3 AM = Liver time in Chinese medicine. Something is stuck.\n\nFree quiz → myeasterntype.com",
     hashtags: "#3am #insomnia #easternwellness #liver #sleep #funfact #wellness",
   },
   {

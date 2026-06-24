@@ -183,7 +183,7 @@ export default function EasternVsWesternArticle() {
             <p className="text-sm text-text leading-relaxed"><span className="text-accent font-medium">It is not anti-science. </span><span className="text-text2">Chinese medicine is based on thousands of years of careful observation. The language and framework are different from modern science, but the observations are empirical. Modern research is increasingly studying Chinese medicine concepts: qi has parallels in cellular metabolism, meridians correlate with fascia planes, and tongue diagnosis shows correlations with gut microbiome patterns.</span></p>
           </div>
           <div className="bg-cream/30 border border-border rounded-xl p-4">
-            <p className="text-sm text-text leading-relaxed"><span className="text-accent font-medium">It is not a replacement for Western medicine. </span><span className="text-text2">Eastern medicine works best as a complement, not a substitute. If you have a serious medical condition, see a doctor. If you have chronic low-grade symptoms that do not respond to conventional treatment, explore Eastern wellness approaches alongside your medical care.</span></p>
+            <p className="text-sm text-text leading-relaxed"><span className="text-accent font-medium">It is not a replacement for Western medicine. </span><span className="text-text2">Eastern medicine works best as a complement, not a substitute. If you have a serious medical condition, see a doctor. If you have chronic low-grade symptoms that do not respond to conventional treatment, explore Chinese medicine approaches alongside your medical care.</span></p>
           </div>
           <div className="bg-cream/30 border border-border rounded-xl p-4">
             <p className="text-sm text-text leading-relaxed"><span className="text-accent font-medium">It is not one-size-fits-all. </span><span className="text-text2">The 9 body type system exists precisely because Eastern medicine recognizes that different people need different approaches. What helps a cold body type may harm a hot body type. The personalization is the point.</span></p>
@@ -194,7 +194,7 @@ export default function EasternVsWesternArticle() {
       <section className="mb-10 bg-cream/30 border border-border rounded-xl p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">Important Note</h2>
         <p className="text-sm text-text2 leading-relaxed">
-          This article is for informational and educational purposes only and is not medical advice. Neither Eastern nor Western medicine should be followed blindly. Always consult qualified healthcare providers for medical concerns. If you are experiencing severe or urgent symptoms, seek emergency medical care immediately. Eastern wellness approaches may complement but should never replace professional medical treatment for serious conditions.
+          This article is for informational and educational purposes only and is not medical advice. Neither Eastern nor Western medicine should be followed blindly. Always consult qualified healthcare providers for medical concerns. If you are experiencing severe or urgent symptoms, seek emergency medical care immediately. Chinese medicine approaches may complement but should never replace professional medical treatment for serious conditions.
         </p>
       </section>
 

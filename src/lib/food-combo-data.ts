@@ -45,7 +45,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "5 Foods That May Help When You're Always Tired (Free Body Type Quiz)",
     metaDesc: "Tired all the time no matter how much you sleep? Warming foods like congee, sweet potato, and red date tea may help your body convert meals into steady energy. Free quiz.",
     h1: "5 Foods That May Help When You're Always Tired",
-    intro: "Fatigue that sleep does not fix often points to a digestive system struggling to convert food into usable energy. In Eastern wellness, this pattern relates to qi deficiency: your body has fuel but cannot extract it efficiently. The foods below are chosen because they require minimal digestive effort while providing maximum building material.",
+    intro: "Fatigue that sleep does not fix often points to a digestive system struggling to convert food into usable energy. In Chinese medicine, this pattern relates to qi deficiency: your body has fuel but cannot extract it efficiently. The foods below are chosen because they require minimal digestive effort while providing maximum building material.",
     quickAnswer: "If you are always tired, warming and easily digested foods like rice porridge, sweet potato, and red date tea may help your body extract more energy from meals. The key is choosing foods that require little digestive effort so your body can focus on recovery instead of processing.",
     foods: [
       {
@@ -134,10 +134,10 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
 
   "when-you-cant-fall-asleep": {
     slug: "when-you-cant-fall-asleep",
-    metaTitle: "Foods That May Help You Fall Asleep Faster (Eastern Wellness Guide)",
+    metaTitle: "Foods That May Help You Fall Asleep Faster (Chinese Medicine Guide)",
     metaDesc: "Body exhausted but mind won't stop at night? Calming foods like lily bulb soup, warm milk with honey, and walnuts may quiet your nervous system. Free body type quiz.",
     h1: "5 Foods That May Help When You Can't Fall Asleep",
-    intro: "Lying in bed with your body exhausted but your mind racing is one of the most frustrating experiences. Eastern wellness often links this pattern to internal heat that keeps your nervous system from settling. The foods below are chosen for their cooling, calming properties.",
+    intro: "Lying in bed with your body exhausted but your mind racing is one of the most frustrating experiences. Chinese medicine often links this pattern to internal heat that keeps your nervous system from settling. The foods below are chosen for their cooling, calming properties.",
     quickAnswer: "If you cannot fall asleep, cooling and calming foods like lily bulb soup, warm milk with honey, and walnuts may help quiet an overactive mind. Eating a light early dinner and avoiding stimulating foods after midday can also make a significant difference.",
     foods: [
       {
@@ -226,10 +226,10 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
 
   "when-youre-always-cold": {
     slug: "when-youre-always-cold",
-    metaTitle: "Always Cold? 5 Warming Foods That May Help (Eastern Wellness)",
+    metaTitle: "Always Cold? 5 Warming Foods That May Help (Chinese Medicine)",
     metaDesc: "Wearing 3 layers while others are fine? Warming foods like ginger, lamb, and cinnamon may rebuild your internal heat. See which foods match your body type. Free quiz.",
     h1: "5 Foods That May Help When You're Always Cold",
-    intro: "Feeling cold when everyone around you is comfortable is more than a preference for warmer weather. In Eastern wellness, this often signals that your internal heating system, what the tradition calls yang energy, is underpowered. The foods below add warmth from the inside out.",
+    intro: "Feeling cold when everyone around you is comfortable is more than a preference for warmer weather. In Chinese medicine, this often signals that your internal heating system, what the tradition calls yang energy, is underpowered. The foods below add warmth from the inside out.",
     quickAnswer: "If you are always cold, warming foods like ginger, lamb, and cinnamon may help rebuild your internal heat. Eating cooked warm meals consistently and avoiding raw cold foods is just as important as which specific warming ingredients you choose.",
     foods: [
       {
@@ -321,7 +321,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "Bloated After Every Meal? 5 Foods That May Help Your Digestion",
     metaDesc: "Feel like a balloon after normal meals? Millet porridge, fennel tea, and ginger can reduce the burden on your digestion. Simple food swaps that may help. Free body type quiz.",
     h1: "5 Foods That May Help When You're Always Bloated",
-    intro: "That uncomfortable balloon feeling after meals is not always about what you ate. It is often about whether your digestive system had enough energy to process it properly. Eastern wellness calls this spleen qi deficiency, and the foods below are chosen to lighten the digestive workload.",
+    intro: "That uncomfortable balloon feeling after meals is not always about what you ate. It is often about whether your digestive system had enough energy to process it properly. Chinese medicine calls this spleen qi deficiency, and the foods below are chosen to lighten the digestive workload.",
     quickAnswer: "If you feel bloated after eating, warm and easily digested foods like millet porridge, fennel tea, and cooked vegetables may reduce the burden on your digestion. Eating slowly and choosing cooked over raw foods makes the biggest immediate difference for most people.",
     foods: [
       {
@@ -417,7 +417,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaDesc: "Can't think clearly? Foods that clear dampness like white radish soup, green tea, and Job's tears may lift the fog from within. Plus what to cut out. Free quiz.",
     metaTitle: "Brain Fog? 5 Foods That May Help Clear Your Mind Naturally",
     h1: "5 Foods That May Help When You Have Brain Fog",
-    intro: "When your thoughts feel cloudy and your focus keeps slipping, the problem may not be in your head alone. Eastern wellness connects mental clarity directly to the digestive system, specifically to how well your body processes and clears what it calls dampness: heavy, sluggish internal moisture that weighs down thinking.",
+    intro: "When your thoughts feel cloudy and your focus keeps slipping, the problem may not be in your head alone. Chinese medicine connects mental clarity directly to the digestive system, specifically to how well your body processes and clears what it calls dampness: heavy, sluggish internal moisture that weighs down thinking.",
     quickAnswer: "If you have brain fog, foods that help clear dampness may lift the cloud. White radish soup, green tea, and Job's tears porridge support your body in processing the heavy residues that cloud your thinking. Cutting sugar and fried foods is equally important.",
     foods: [
       {
@@ -510,10 +510,10 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
 
   "when-you-feel-anxious": {
     slug: "when-you-feel-anxious",
-    metaTitle: "Anxious for No Reason? 5 Calming Foods From Eastern Wellness",
+    metaTitle: "Anxious for No Reason? 5 Calming Foods From Chinese Medicine",
     metaDesc: "Racing heart and tight chest with no obvious cause? Calming foods like lotus seeds, longan, and bone broth may steady your nervous system from within. Free body type quiz.",
     h1: "5 Foods That May Help When You Feel Anxious",
-    intro: "Anxiety that appears without a clear trigger can feel overwhelming and confusing. Eastern wellness offers a different perspective: it often links ungrounded anxiety to the heart and digestive system not receiving enough steady, calm nourishment. The foods below are chosen for their grounding and settling properties.",
+    intro: "Anxiety that appears without a clear trigger can feel overwhelming and confusing. Chinese medicine offers a different perspective: it often links ungrounded anxiety to the heart and digestive system not receiving enough steady, calm nourishment. The foods below are chosen for their grounding and settling properties.",
     quickAnswer: "If you feel anxious for no clear reason, calming and grounding foods like lotus seeds, whole grains, and bone broth may help steady your nervous system. Limiting caffeine and sugar is often the single most impactful dietary change for reducing anxiety symptoms.",
     foods: [
       {
@@ -605,7 +605,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "Can't Lose Weight? 5 Foods That May Help (It May Be Water)",
     metaDesc: "Dieting but the scale won't move? Your body might be holding water, not fat. Draining foods like adzuki beans and Job's tears may help release it. Free body type quiz.",
     h1: "5 Foods That May Help When You Can't Lose Weight",
-    intro: "When the scale will not move despite eating carefully, Eastern wellness suggests looking at a different question entirely: is your body holding water and dampness rather than storing excess fat? The foods below help your body release retained fluid and support a more efficient metabolism.",
+    intro: "When the scale will not move despite eating carefully, Chinese medicine suggests looking at a different question entirely: is your body holding water and dampness rather than storing excess fat? The foods below help your body release retained fluid and support a more efficient metabolism.",
     quickAnswer: "If you cannot lose weight despite careful eating, foods that drain dampness like adzuki beans, Job's tears, and winter melon may help your body release retained water. Avoiding cold drinks and eating warm meals at regular times supports your metabolism from another angle.",
     foods: [
       {
@@ -701,7 +701,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "Dry Skin That Lotion Won't Fix? 5 Foods for Internal Moisture",
     metaDesc: "Moisturizing every day and still flaky? Your body may lack internal moisture. Tremella, black sesame, and pears hydrate from within in ways lotion cannot. Free quiz.",
     h1: "5 Foods That May Help When Your Skin Is Always Dry",
-    intro: "Moisturizers help temporarily, but if your skin stays dry no matter how much lotion you apply, the issue is likely internal. Eastern wellness often links chronic dry skin to a lack of internal moisture that comes from specific nourishing foods, not from drinking more water alone.",
+    intro: "Moisturizers help temporarily, but if your skin stays dry no matter how much lotion you apply, the issue is likely internal. Chinese medicine often links chronic dry skin to a lack of internal moisture that comes from specific nourishing foods, not from drinking more water alone.",
     quickAnswer: "If your skin is persistently dry, moistening foods like tremella soup, black sesame paste, and steamed pears may help hydrate from within. These foods provide a type of internal moisture that plain water and topical lotion cannot replicate.",
     foods: [
       {
@@ -797,7 +797,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "Acid Reflux? 5 Cooling Foods That May Calm the Burn Naturally",
     metaDesc: "Burning chest after meals? Internal heat may be pushing acid upward. Cooling foods like mung bean soup, oatmeal, and banana may help where antacids only mask it. Free quiz.",
     h1: "5 Foods That May Help When You Have Acid Reflux",
-    intro: "That burning sensation rising from your stomach is more than just uncomfortable. Eastern wellness often views acid reflux as internal heat pushing upward when it should be moving down. The foods below are chosen for their cooling, soothing properties that help redirect that energy.",
+    intro: "That burning sensation rising from your stomach is more than just uncomfortable. Chinese medicine often views acid reflux as internal heat pushing upward when it should be moving down. The foods below are chosen for their cooling, soothing properties that help redirect that energy.",
     quickAnswer: "If you have acid reflux, cooling and soothing foods like mung bean soup, oatmeal, and ripe banana may help calm the heat rising from your stomach. Eating earlier and lighter dinners while avoiding spicy food can bring noticeable relief within days.",
     foods: [
       {
@@ -893,7 +893,7 @@ export const FOOD_COMBO_PAGES: Record<string, FoodComboPageData> = {
     metaTitle: "Always Irritable? 5 Foods That May Help You Stay Calm Naturally",
     metaDesc: "Snapping at everyone and everything annoys you? Your body type might be behind the short fuse. Chrysanthemum tea, citrus peel, and mint may help. Free body type quiz.",
     h1: "5 Foods That May Help When You're Always Irritable",
-    intro: "When everything gets on your nerves and patience feels impossible, Eastern wellness looks to the liver rather than the mind. In this tradition, irritability often stems from energy that should flow smoothly getting stuck and creating internal pressure that leaks out as anger and frustration.",
+    intro: "When everything gets on your nerves and patience feels impossible, Chinese medicine looks to the liver rather than the mind. In this tradition, irritability often stems from energy that should flow smoothly getting stuck and creating internal pressure that leaks out as anger and frustration.",
     quickAnswer: "If you feel constantly irritable, foods that help energy flow smoothly like chrysanthemum tea, aged citrus peel, and mint may relieve internal pressure. Sour flavors and regular meal timing are particularly important for keeping the system that governs mood running smoothly.",
     foods: [
       {

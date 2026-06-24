@@ -15,7 +15,7 @@ import { CreemCheckout } from "@creem_io/nextjs"
 const CREEM_PRODUCT_BASIC = process.env.NEXT_PUBLIC_CREEM_PRODUCT_BASIC!
 const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
 
-function ResultContent() {
+function ResultContent({ proToken, basicToken }: { proToken: string; basicToken: string }) {
   const params = useSearchParams()
   const router = useRouter()
   const primaryId = (params.get("primary") ?? "balanced") as ConstitutionId
@@ -49,11 +49,13 @@ function ResultContent() {
 
   const reportBase = `/report-v2?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
   const successBase = `/success?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
+  const proSuccessUrl = `${successBase}&plan=pro&token=${proToken}`
+  const basicSuccessUrl = `${successBase}&plan=basic&token=${basicToken}`
 
   const ProCta = ({ className = "" }: { className?: string }) => (
     <CreemCheckout
       productId={CREEM_PRODUCT_PRO}
-      successUrl={`${successBase}&plan=pro`}
+      successUrl={proSuccessUrl}
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "pro" }}
     >
       <div
@@ -68,7 +70,7 @@ function ResultContent() {
   const BasicCta = ({ className = "" }: { className?: string }) => (
     <CreemCheckout
       productId={CREEM_PRODUCT_BASIC}
-      successUrl={`${successBase}&plan=basic`}
+      successUrl={basicSuccessUrl}
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
       <div
@@ -97,7 +99,6 @@ function ResultContent() {
         return
       }
       setInviteStatus("success")
-      document.cookie = "et_plan=basic; path=/; max-age=31536000; secure; samesite=lax"
       const reportUrl = `/report-v2?type=${primaryId}${sex ? `&sex=${sex}` : ""}`
       setTimeout(() => router.push(reportUrl), 800)
     } catch {
@@ -333,7 +334,7 @@ function ResultContent() {
   )
 }
 
-export default function ResultPage() {
+export default function ResultPage({ proToken, basicToken }: { proToken: string; basicToken: string }) {
   return (
     <Suspense
       fallback={
@@ -342,7 +343,7 @@ export default function ResultPage() {
         </div>
       }
     >
-      <ResultContent />
+      <ResultContent proToken={proToken} basicToken={basicToken} />
     </Suspense>
   )
 }

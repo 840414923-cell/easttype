@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "cold-sensitivity"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
 const TITLE = "Always Cold? Your Body Type Runs the Inner Furnace"
-const DESC = "The Cold Sensitivity pattern links chronically cold hands and feet to Yang Deficiency in Eastern wellness. Learn which warming foods and habits may help stoke your inner furnace."
+const DESC = "The Cold Sensitivity pattern links chronically cold hands and feet to Yang Deficiency in Chinese medicine. Learn which warming foods and habits may help stoke your inner furnace."
 
 export const metadata: Metadata = {
   title: TITLE,

@@ -60,10 +60,10 @@ const UI: Record<string, Record<string, string>> = {
 
 /* ── Mobile Reading View ── */
 
-function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
+function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro, upgradeToken }: {
   report: ReportBasic; pro: ReportPro | null; lc: string;
   ui: Record<string, string>; ct: typeof TYPES.balanced; sex: Sex;
-  typeId: ConstitutionId; isPro: boolean
+  typeId: ConstitutionId; isPro: boolean; upgradeToken: string
 }) {
   const seasonLabels = SEASON_LABELS[lc]
   const typeName = lc === "en" ? ct.en : lc === "zh-TW" ? ct.zh.replace("质", "質") : ct.zh
@@ -267,7 +267,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro }: {
           <p className="text-[15px] text-text2 mb-3">{ui.proUpgradeDesc}</p>
           <CreemCheckout
             productId={CREEM_PRODUCT_PRO}
-            successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro`}
+            successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro&token=${upgradeToken}`}
             metadata={{ type: typeId, sex, plan: "pro" }}
           >
             <div className="inline-flex items-center px-5 py-2 rounded-full text-sm font-semibold cursor-pointer bg-gradient-to-r from-accent to-accent2 text-bg">
@@ -333,7 +333,7 @@ function MobileRecipe({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
   )
 }
 
-function ReportV2Content() {
+function ReportV2Content({ isPro, upgradeToken }: { isPro: boolean; upgradeToken: string }) {
   const params = useSearchParams()
   const locale = { types: {} as Record<string, { nickname: string }> }
   const lc = "en"
@@ -341,7 +341,6 @@ function ReportV2Content() {
 
   const typeId = (params.get("type") ?? "qi_deficient") as ConstitutionId
   const sex = (params.get("sex") ?? "female") as Sex
-  const isPro = params.get("plan") === "pro"
 
   const ct = TYPES[typeId] ?? TYPES.qi_deficient
 
@@ -349,8 +348,8 @@ function ReportV2Content() {
   const [proReport, setProReport] = useState<ReportPro | null>(null)
 
   useEffect(() => {
-    getJsonReport(typeId, sex).then(setReport)
-    if (isPro) getProJsonReport(typeId, sex).then(setProReport)
+    getJsonReport(typeId, sex).then(setReport).catch(() => setReport(null))
+    if (isPro) getProJsonReport(typeId, sex).then(setProReport).catch(() => setProReport(null))
   }, [typeId, sex, isPro])
 
   if (!report) {
@@ -378,6 +377,8 @@ function ReportV2Content() {
         pagebreak: { mode: ["avoid-all", "css", "legacy"] },
       }
       html2pdf().set(opt as any).from(el).save()
+    }).catch(() => {
+      alert("Failed to generate PDF. Please try the Print button instead.")
     })
   }
 
@@ -423,7 +424,7 @@ function ReportV2Content() {
         <div className="max-w-lg mx-auto">
           <MobileReading
             report={report} pro={proReport} lc={lc} ui={ui}
-            ct={ct} sex={sex} typeId={typeId} isPro={isPro}
+            ct={ct} sex={sex} typeId={typeId} isPro={isPro} upgradeToken={upgradeToken}
           />
         </div>
       </div>
@@ -433,7 +434,7 @@ function ReportV2Content() {
         <A4Report
           report={report} pro={proReport} lc={lc} ui={ui}
           ct={ct} sex={sex} typeId={typeId} isPro={isPro}
-          locale={locale}
+          locale={locale} upgradeToken={upgradeToken}
         />
       </div>
 
@@ -567,11 +568,12 @@ function A4RecipeCard({ recipe, lc, ui }: { recipe: { title: { en: string; "zh-T
   )
 }
 
-function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
+function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgradeToken }: {
   report: ReportBasic; pro: ReportPro | null; lc: string;
   ui: Record<string, string>; ct: typeof TYPES.balanced; sex: Sex;
   typeId: ConstitutionId; isPro: boolean;
-  locale: { types: Record<string, { nickname: string }> }
+  locale: { types: Record<string, { nickname: string }> };
+  upgradeToken: string
 }) {
   const a4ui = A4_UI[lc]
   const hdr = HEADER_TEXT[lc]
@@ -720,7 +722,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
               <p className="text-[13px] text-[#444] mb-3 max-w-md mx-auto">{a4ui.proUpgradeDesc}</p>
               <CreemCheckout
                 productId={CREEM_PRODUCT_PRO}
-                successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro`}
+                successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro&token=${upgradeToken}`}
                 metadata={{ type: typeId, sex, plan: "pro" }}
               >
                 <div className="inline-flex items-center px-5 py-1.5 rounded text-[13px] font-semibold cursor-pointer bg-[#C9A96E] text-white">
@@ -741,12 +743,12 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale }: {
   )
 }
 
-export default function ReportV2Page() {
+export default function ReportV2Page({ isPro, upgradeToken }: { isPro: boolean; upgradeToken: string }) {
   return (
     <Suspense
       fallback={<div className="min-h-screen flex items-center justify-center text-text2">Loading report...</div>}
     >
-      <ReportV2Content />
+      <ReportV2Content isPro={isPro} upgradeToken={upgradeToken} />
     </Suspense>
   )
 }

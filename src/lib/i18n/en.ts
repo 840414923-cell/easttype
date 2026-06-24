@@ -96,7 +96,7 @@ const en = {
     discover4: "Personalized wellness suggestions",
     discover5: "Practical lifestyle recommendations",
     archetypeTitle: "Which Body Type Matches You?",
-    archetypeLine1: "Traditional Eastern wellness identifies 9 constitutional patterns.",
+    archetypeLine1: "Traditional Chinese medicine identifies 9 constitutional patterns.",
     archetypeLine2: "Each type has unique tendencies in energy, digestion, sleep, emotional balance, and overall wellbeing.",
     howTitle: "How It Works",
     how1Title: "Answer Simple Questions",

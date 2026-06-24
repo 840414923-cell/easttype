@@ -6,14 +6,14 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-do-i-wake-up-at-3am"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Waking Up at 3AM Every Night? Your Body Type Is Running the Clock"
-const DESC = "Waking up at 3AM every night? Eastern wellness connects this to specific body types. Learn what your sleep pattern may mean."
+const DESC = "Waking up at 3AM every night? Chinese medicine connects this to specific body types. Learn what your sleep pattern may mean."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "3AM wakeups every night? Eastern wellness says your body type may be the reason.",
+    description: "3AM wakeups every night? Chinese medicine says your body type may be the reason.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "3AM wakeups every night? Eastern wellness says your body type may be the reason.",
+    description: "3AM wakeups every night? Chinese medicine says your body type may be the reason.",
   },
   alternates: { canonical: URL },
 }
