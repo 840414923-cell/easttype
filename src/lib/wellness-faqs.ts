@@ -274,4 +274,202 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Most people notice improvements in digestion and energy within two to three weeks of consistent dietary changes. Significant improvement in chronic symptoms may take two to three months. The key is consistency: eating warm foods at regular times every day produces better results than occasional perfect meals mixed with old habits. Chinese medicine views food therapy as a gradual process of rebuilding, not a quick fix.", "zh-TW": "大多數人在持續改變飲食兩到三週後注意到消化和精力的改善。慢性症狀的顯著改善可能需要兩到三個月。關鍵是堅持：每天定時吃溫食比偶爾完美一餐效果好得多。中醫認為食療是漸進的重建過程，不是速效方法。", ja: "ほとんどの人は食事の変更を2〜3週間続けると消化とエネルギーの改善に気づきます。慢性的な症状の大幅な改善には2〜3ヶ月かかる場合があります。鍵は継続です。毎日決まった時間に温かい食事をとることが、たまの完璧な食事よりも良い結果をもたらします。" },
     },
   ],
+  "kidney-yin-deficiency": [
+    {
+      q: { en: "What are the main symptoms of Kidney Yin Deficiency?", "zh-TW": "腎陰虛的主要症狀有哪些？", ja: "腎陰虚の主な症状は何ですか？" },
+      a: { en: "The most common signs may include night sweats, hot flashes in the afternoon or evening, a dry mouth or throat, low back ache that worsens at night, ringing in the ears, and waking around 3 AM. Some people also notice warm palms and soles or a flushed face. These symptoms tend to appear together over time rather than all at once.", "zh-TW": "最常見的症狀可能包括盜汗、午後或傍晚的潮熱、口乾或喉嚨乾、夜間加重的腰痛、耳鳴，以及凌晨三點左右醒來。有些人也會發現手腳心發熱或臉色潮紅。", ja: "最も一般的な症状には、寝汗、午後や夕方のほてり、口や喉の乾き、夜に悪化する腰痛、耳鳴り、午前3時頃の目覚めが含まれることがあります。" },
+    },
+    {
+      q: { en: "Which foods are best for Kidney Yin Deficiency?", "zh-TW": "腎陰虛最適合吃哪些食物？", ja: "腎陰虚に最適な食べ物は何ですか？" },
+      a: { en: "Cooling and moistening foods are preferred. Good choices may include black sesame seeds, goji berries, Chinese yam (shan yao), black beans, mulberries, pears, lotus seeds, duck, and mung beans. Eating small amounts of these regularly tends to be more effective than large occasional servings.", "zh-TW": "涼潤的食物最為適合。好的選擇可能包括黑芝麻、枸杞、山藥、黑豆、桑葚、梨子、蓮子、鴨肉和綠豆。少量經常食用比偶爾大量食用更有效。", ja: "冷性で潤いを与える食べ物が適しています。黒ごま、クコの実、山芋、黒豆、クワの実、梨、蓮の実、鴨肉、緑豆などが良い選択肢です。" },
+    },
+    {
+      q: { en: "How is Kidney Yin Deficiency related to menopause?", "zh-TW": "腎陰虛與更年期有什麼關係？", ja: "腎陰虚は更年期とどのように関係していますか？" },
+      a: { en: "In Chinese medicine, Kidney Yin naturally declines with age, and menopause is a classic trigger. As estrogen levels fall, many women experience the signs of empty heat, such as hot flashes and night sweats. TCM frames these changes as a drop in cooling Yin that allows the body's warmth to rise unchecked.", "zh-TW": "在中醫裡，腎陰會隨年齡自然衰退，而更年期是常見的觸發因素。隨著雌激素下降，許多女性會出現虛熱的徵兆，如潮熱和盜汗。", ja: "中医学では、腎陰は年齢とともに自然に衰退し、更年期は典型的な引き金です。エストロゲン値が下がると、ほてりや寝汗などの虚熱のサインが現れる女性が多くいます。" },
+    },
+    {
+      q: { en: "Which body type is associated with Kidney Yin Deficiency?", "zh-TW": "腎陰虛對應哪種體質？", ja: "腎陰虚はどの体質に関連していますか？" },
+      a: { en: "Kidney Yin Deficiency is closely linked to the Yin Deficient body type in the nine-constitution system. People with this type tend to run warm, feel dry, and sweat easily at night. You can take our free 5-minute quiz to see if this matches your overall constitution.", "zh-TW": "腎陰虛與九種體質中的陰虛體質密切相關。屬於此類型的人往往怕熱、容易口乾，且從年輕時就容易夜間盜汗。", ja: "腎陰虚は、九つの体質システムの陰虚タイプと密接に関連しています。このタイプの人は、暑がり、乾きやすく、若い頃から夜に寝汗をかきやすい傾向があります。" },
+    },
+    {
+      q: { en: "How long does it take to rebuild Kidney Yin?", "zh-TW": "重建腎陰需要多長時間？", ja: "腎陰を回復させるのにどのくらい時間がかかりますか？" },
+      a: { en: "Kidney Yin is considered a deep reserve, so rebuilding it tends to take time. With consistent food therapy, better sleep habits, and reduced stress, many people notice gradual improvement over three to six months. Because the depletion often builds over years, patience and daily consistency matter more than quick fixes.", "zh-TW": "腎陰被視為深層的儲備，因此重建它通常需要時間。透過持續的食療、改善睡眠習慣和減少壓力，許多人在三到六個月內會感受到逐漸改善。", ja: "腎陰は深い備蓄と見なされるため、回復には時間がかかる傾向があります。継続的な食事療法、睡眠習慣の改善、ストレスの軽減により、多くの人は3〜6ヶ月で徐々に改善を実感します。" },
+    },
+  ],
+  "liver-qi-stagnation": [
+    {
+      q: { en: "What are the main symptoms of Liver Qi Stagnation?", "zh-TW": "肝氣鬱結的主要症狀是什麼？", ja: "肝気鬱結の主な症状は何ですか？" },
+      a: { en: "The most common signs include frequent sighing, irritability or a short temper, tightness or aching along the rib sides, breast tenderness before your period, irregular or painful periods, a lump-like feeling in the throat, and bloating that worsens with stress. These signs tend to cluster together and often fluctuate with mood.", "zh-TW": "最常見的症狀包括經常嘆氣、煩躁易怒、兩側肋骨緊繃或脹痛、經前乳房脹痛、月經不規則或痛經、喉嚨有異物感，以及隨情緒加劇的腹脹。", ja: "最も一般的な症状は、ため息、イライラや短気、肋骨沿いの張りや痛み、生理前の乳房の張り、不規則な生理や生理痛、喉のつかえ感、ストレスで悪化するお腹の張りです。" },
+    },
+    {
+      q: { en: "What foods help move Liver Qi?", "zh-TW": "什麼食物有助於疏通肝氣？", ja: "肝気を巡らせる食材は？" },
+      a: { en: "Foods that move energy tend to be light, pungent, or aromatic. Helpful options include green tea, mint tea, chrysanthemum tea, a squeeze of lemon in warm water, small amounts of vinegar, celery, radish (daikon), rose petal tea, and kelp or seaweed.", "zh-TW": "有助於行氣的食物通常偏清淡、辛香。包括綠茶、薄荷茶、菊花茶、溫水加檸檬汁、少量醋、芹菜、白蘿蔔、玫瑰花茶，以及海帶或海藻。", ja: "気を巡らせる食材は軽く、辛味や香りのあるものが中心です。緑茶、ミントティー、菊茶、ぬるま湯にレモン、少量のお酢、セロリ、大根、ローズティー、昆布や海藻が役立ちます。" },
+    },
+    {
+      q: { en: "How is Liver Qi Stagnation connected to stress and PMS?", "zh-TW": "肝氣鬱結與壓力和經前症候群有什麼關係？", ja: "肝気鬱結はストレスやPMSとどう関係しますか？" },
+      a: { en: "In TCM, the Liver governs the smooth flow of both energy and emotion. Chronic stress, repressed frustration, and bottled-up anger directly stagnate Liver Qi. Because the Liver also regulates the monthly release of blood, this stagnation often shows up as PMS symptoms.", "zh-TW": "中醫認為肝負責氣血和情緒的順暢流動。長期壓力、壓抑的挫折和悶在心裡的憤怒會直接導致肝氣鬱結。", ja: "中医学では、肝は気と感情の両方のスムーズな流れを管理します。慢性的なストレス、抑え込んだ欲求不満、溜め込んだ怒りは肝気を直接鬱滞させます。" },
+    },
+    {
+      q: { en: "Which body type is associated with Liver Qi Stagnation?", "zh-TW": "肝氣鬱結對應哪種中醫體質？", ja: "肝気鬱結はどの中医学の体質に関連しますか？" },
+      a: { en: "Liver Qi Stagnation maps most closely to the Qi Stagnant (气郁) body type. People with this type tend to be sensitive to stress, prone to frustration, and hold tension rather than release it. You can check whether this is your type with our free 5-minute body type quiz.", "zh-TW": "肝氣鬱結最接近氣鬱體質。這類型的人通常對壓力敏感、容易煩躁，且傾向把緊張悶在心裡。", ja: "肝気鬱結は気鬱（気鬱質）の体質に最も近いです。このタイプの人はストレスに敏感で、苛立ちやすく、緊張を発散させず溜め込む傾向があります。" },
+    },
+    {
+      q: { en: "How long does it take for Liver Qi Stagnation to improve?", "zh-TW": "肝氣鬱結需要多久才能改善？", ja: "肝気鬱結が改善するまでどのくらいかかりますか？" },
+      a: { en: "Because Liver Qi Stagnation is driven heavily by daily stress and lifestyle, it can shift faster than deeply depleted patterns. With regular gentle exercise, emotional release, foods that move Qi, and consistent daily rhythms, many people notice less tension within a few weeks.", "zh-TW": "肝氣鬱結主要受日常壓力和生活習慣影響，因此改善速度可能比深度虛損的體質快。透過規律的溫和運動、情緒釋放、行氣食物和穩定的作息，許多人在幾週內就感到改善。", ja: "肝気鬱結は日々のストレスや生活習慣に大きく左右されるため、深く枯渇した体質より早く改善することもあります。定期的な軽い運動、感情の発散、気を巡らせる食事、規則正しい生活リズムにより、多くの人は数週間で改善を実感します。" },
+    },
+  ],
+  "kidney-yang-deficiency": [
+    {
+      q: { en: "What are the main symptoms of Kidney Yang Deficiency?", "zh-TW": "腎陽虛的主要症狀有哪些？", ja: "腎陽虚の主な症状は何ですか？" },
+      a: { en: "The most common signs include feeling cold, especially in the lower body, low back, and knees, frequent pale urination at night, deep fatigue, low libido, loose stools in the morning, and sometimes swelling in the lower legs. The unifying theme is cold combined with slowing and sinking.", "zh-TW": "最常見的徵兆包括怕冷（尤其是下半身、腰部和膝蓋）、夜間頻尿且尿液清澈、深度疲勞、性慾低落、早晨腹瀉，有時伴隨下肢水腫。", ja: "最も一般的な兆候には、特に下半身、腰部、膝の冷え、夜間の頻尿（淡い尿）、深い疲労、性欲低下、朝の軟便、時には下肢のむくみがあります。" },
+    },
+    {
+      q: { en: "Which foods are best for warming Kidney Yang?", "zh-TW": "哪些食物最能溫補腎陽？", ja: "腎陽を温めるのに最適な食材は？" },
+      a: { en: "The most strongly warming foods include lamb, walnuts, cinnamon bark (rou gui), dried ginger, shrimp, leeks and chives, fennel, chestnuts, and venison or beef. Small, regular portions tend to work better than large occasional meals.", "zh-TW": "最能溫補的食物包括羊肉、核桃、肉桂、乾薑、蝦、韭菜、茴香、栗子和鹿肉或牛肉。少量規律地吃比偶爾大量吃更有效。", ja: "最も体を温める食材には、羊肉、クルミ、シナモン、乾燥しょうが、エビ、ニラ、フェンネル、栗、鹿肉や牛肉があります。" },
+    },
+    {
+      q: { en: "What is the difference between Kidney Yang and Kidney Yin deficiency?", "zh-TW": "腎陽虛和腎陰虛有什麼不同？", ja: "腎陽虚と腎陰虚の違いは？" },
+      a: { en: "Kidney Yang Deficiency is a pattern of cold: you feel chilled, urinate frequently with pale urine, and lack warming energy. Kidney Yin Deficiency is a pattern of heat: you may experience night sweats, a dry throat, afternoon hot flashes, and restlessness. They are opposite poles of the same Kidney system.", "zh-TW": "腎陽虛是「寒」的體質：怕冷、頻尿且尿液清澈、缺乏溫熱能量。腎陰虛則是「熱」的體質：可能出現盜汗、口乾、午後潮熱和煩躁。", ja: "腎陽虚は「寒」のパターンで、寒がり、淡い尿の頻尿、温める力の不足が見られます。腎陰虚は「熱」のパターンで、寝汗、喉の渇き、午後のほてり、焦燥感が現れることがあります。" },
+    },
+    {
+      q: { en: "Which body type is associated with Kidney Yang Deficiency?", "zh-TW": "腎陽虛對應哪種體質？", ja: "腎陽虚はどの体質に関連しますか？" },
+      a: { en: "It can be associated with the Yang Deficient body type, one of the nine constitutions in Chinese medicine. People with this type tend to feel cold easily, prefer warm drinks and food, and recover slowly from chills. The free body type quiz can show whether this is your primary constitution.", "zh-TW": "它可對應中醫九種體質中的陽虛體質。這類型的人容易怕冷、偏好溫熱飲食、受寒後恢復緩慢。", ja: "中医学の九つの体質のひとつ、陽虚タイプ（陽虚質）と関連します。このタイプの人は寒がりで、温かい飲食を好み、冷えからの回復が遅い傾向があります。" },
+    },
+    {
+      q: { en: "How can I warm up Kidney Yang quickly?", "zh-TW": "如何快速溫補腎陽？", ja: "腎陽をすばやく温めるには？" },
+      a: { en: "The fastest everyday steps are to drink only warm fluids, eat a cooked warming meal at midday, keep your lower back and abdomen covered, soak your feet in warm water before bed, and get gentle morning movement and sunlight.", "zh-TW": "最快的方法是只喝溫飲、中午吃一頓煮熟的溫熱餐、保暖腰腹、睡前用溫水泡腳，並在早晨做溫和運動和曬太陽。", ja: "最も早い日常の方法は、温かい飲み物だけにする、昼に温かい調理食を食べる、腰と腹部を保温する、寝前に足湯をする、朝に軽い運動と日光浴をする、です。" },
+    },
+  ],
+  "lung-qi-deficiency": [
+    {
+      q: { en: "What are the main symptoms of lung qi deficiency?", "zh-TW": "肺氣虛的主要症狀是什麼？", ja: "肺気虚の主な症状は？" },
+      a: { en: "The most common signs include shortness of breath with light exertion, a weak or low voice that trails off, frequent colds that are slow to clear, spontaneous sweating with little effort, a pale complexion, and a reluctance to speak because talking feels tiring. Some people also notice chronic nasal congestion.", "zh-TW": "最常見的跡象包括稍微活動就氣短、聲音低弱且越說越小聲、頻繁感冒且不易好、稍微動就出汗、面色蒼白，以及不想說話因為開口覺得累。", ja: "最も一般的な兆候は、軽い運動での息切れ、途切れ途切れになる弱い声、なかなか治らない頻繁な風邪、少しの努力で出る発汗、青白い顔色、話すのが疲れて話したがらないことです。" },
+    },
+    {
+      q: { en: "What foods should I eat for lung qi deficiency?", "zh-TW": "肺氣虛應該吃什麼食物？", ja: "肺気虚には何を食べるべき？" },
+      a: { en: "Focus on warm, moistening foods. Helpful choices include pear (steamed with honey), lily bulb (bai he), white fungus (yin er), Chinese yam (shan yao), honey in warm water, sweet almond, lotus root, goji berries, and rice congee.", "zh-TW": "以溫熱、潤澤的食物為主。有益的選擇包括梨（加蜂蜜蒸）、百合、銀耳、山藥、溫蜂蜜水、甜杏仁、蓮藕、枸杞和米粥。", ja: "温かく潤いのある食材を中心に。役立つ選択肢は梨（はちみつ蒸し）、ゆり根、白木耳、山芋、温かいはちみつ水、甜杏仁、蓮根、クコの実、お粥です。" },
+    },
+    {
+      q: { en: "Why do I catch colds so often in Chinese medicine?", "zh-TW": "中醫認為為什麼我老是感冒？", ja: "中医学ではなぜよく風邪をひくのか？" },
+      a: { en: "In TCM, your ability to block colds depends on Wei Qi, the defensive energy produced by the Lung. When Lung Qi is weak, Wei Qi cannot guard the body's surface well, so external pathogens get through more easily. This is why frequent colds are a hallmark of Lung Qi Deficiency.", "zh-TW": "在中醫裡，抵擋感冒的能力取決於衛氣，這是由肺產生的防禦能量。肺氣虛時，衛氣無法好好保護體表，外邪就容易入侵。", ja: "中医学では、風邪を防ぐ力は肺が作る防御エネルギー、衛気に依存します。肺気が弱いと衛気が体表を十分に守れず、外邪が入りやすくなります。" },
+    },
+    {
+      q: { en: "Which body type is associated with lung qi deficiency?", "zh-TW": "肺氣虛對應什麼體質？", ja: "肺気虚はどの体質に関連していますか？" },
+      a: { en: "Lung Qi Deficiency most closely aligns with the Qi Deficient body type (气虚质). About 15 percent of people share this type. Key traits include chronic low energy, a soft voice, sweating with little exertion, and a tendency to catch colds easily.", "zh-TW": "肺氣虛最接近九種體質中的氣虛質（气虚质）。約15%的人屬於此類。", ja: "肺気虚は9つの体質の中で気虚タイプ（気虚質）に最も近いです。約15%の人がこのタイプです。" },
+    },
+    {
+      q: { en: "Do breathing exercises help lung qi deficiency?", "zh-TW": "呼吸練習對肺氣虛有幫助嗎？", ja: "呼吸法は肺気虚に効果がありますか？" },
+      a: { en: "Yes, gentle breathing exercises may help. Slow abdominal breathing for five to ten minutes a day can strengthen Lung Qi over time. Let your belly rise on the inhale and fall on the exhale, keeping each breath long and smooth.", "zh-TW": "有幫助。每天五到十分鐘的緩慢腹式呼吸，長期下來可以增強肺氣。吸氣時腹部隆起，呼氣時腹部回落，每次呼吸保持細長平順。", ja: "はい、穏やかな呼吸法が役立つ可能性があります。1日5〜10分のゆっくりした腹式呼吸を続けると、時間とともに肺気が強くなります。" },
+    },
+  ],
+  "stomach-heat": [
+    {
+      q: { en: "What are the main symptoms of stomach heat in Chinese medicine?", "zh-TW": "中醫裡胃熱的主要症狀是什麼？", ja: "中医学で胃熱の主な症状は？" },
+      a: { en: "The most common signs include a burning sensation in the stomach, excessive hunger even after eating, foul bad breath, mouth ulcers or canker sores, acid reflux, a strong thirst for cold drinks, and red or swollen gums that may bleed.", "zh-TW": "最常見的跡象包括胃部灼熱感、即使吃過也一直覺得餓、難聞的口臭、口腔潰瘍或嘴破、胃酸倒流、強烈想喝冷飲，以及牙齦紅腫可能出血。", ja: "最も一般的な兆候は、胃の灼熱感、食べてもすぐ空腹になる、口臭、口内炎やアフタ、胃酸の逆流、冷たい飲み物を強く欲する、赤く腫れた歯ぐきです。" },
+    },
+    {
+      q: { en: "What are the best cooling foods for stomach heat?", "zh-TW": "胃熱最好的清涼食物是什麼？", ja: "胃熱に良い清涼食材は？" },
+      a: { en: "Mung beans are considered the strongest cooling food for Stomach Heat. Other helpful options include cucumber, pear, lotus root, watermelon, bitter gourd, green tea, tomato, and millet congee. These foods are best steamed, boiled lightly, or served at room temperature.", "zh-TW": "綠豆被認為是清胃熱最強的食物。其他有益的選擇包括黃瓜、梨、蓮藕、西瓜、苦瓜、綠茶、番茄和小米粥。", ja: "緑豆が胃熱を清す最も強い食材とされています。他にはきゅうり、梨、レンコン、スイカ、ゴーヤ、緑茶、トマト、きび粥が役立ちます。" },
+    },
+    {
+      q: { en: "Is stomach heat the same as acid reflux?", "zh-TW": "胃熱和胃酸倒流一樣嗎？", ja: "胃熱は胃酸の逆流と同じですか？" },
+      a: { en: "Not exactly. Acid reflux is a Western medical diagnosis based on stomach acid flowing upward. Stomach Heat is a Chinese medicine pattern of excessive digestive fire. The two often overlap, since reflux is one of the most common signs of Stomach Heat, but they are not identical.", "zh-TW": "不完全一樣。胃酸倒流是西醫的診斷。胃熱是中醫的模式，指消化之火過旺。兩者常重疊，但並不相同。", ja: "正確には違います。胃酸の逆流は西洋医学の診断です。胃熱は中医学のパターンで、消化の火が強すぎる状態です。両者は重なることが多いですが同一ではありません。" },
+    },
+    {
+      q: { en: "Which body type is associated with stomach heat?", "zh-TW": "胃熱對應什麼體質？", ja: "胃熱はどの体質に関連していますか？" },
+      a: { en: "Stomach Heat most often appears in people who run warm overall. It can show up as part of the Damp Heat body type, which tends to feel hot and sticky. Take our free 5-minute quiz to find out if a heat-related type matches your constitution.", "zh-TW": "胃熱最常出現在整體偏熱的人身上。它可以是濕熱體質的一部分。做我們的免費5分鐘測驗，看看熱性體質是否符合你的體質。", ja: "胃熱は全体的に暑がりの人に最もよく現れます。湿熱タイプの一部として現れることが多いです。無料の5分クイズで熱関連の体質が当てはまるか確認できます。" },
+    },
+    {
+      q: { en: "How long does it take to cool stomach heat with food?", "zh-TW": "用食物清胃熱需要多久？", ja: "食事で胃熱を清すのにどのくらいかかりますか？" },
+      a: { en: "Many people notice less burning and better breath within one to two weeks of consistent dietary changes. Deeper relief, such as fewer mouth ulcers and steadier digestion, may take three to four weeks. The key is consistency.", "zh-TW": "許多人持續改變飲食一到兩週後注意到灼熱感減輕、口氣改善。更深層的改善可能需要三到四週。關鍵是堅持。", ja: "多くの人は食事の変更を1〜2週間続けると灼熱感の軽減や口臭の改善に気づきます。深い改善には3〜4週間かかることがあります。" },
+    },
+  ],
+  "spleen-dampness": [
+    {
+      q: { en: "What are the main symptoms of Spleen Dampness?", "zh-TW": "脾濕的主要症狀有哪些？", ja: "脾湿の主な症状は何ですか？" },
+      a: { en: "The main signs may include a heavy feeling in the body and limbs, brain fog, sticky or sluggish stools, bloating, stubborn weight gain, a thick greasy tongue coating, and cloudy urine. The shared quality is that everything feels heavy, slow, and sticky rather than sharp.", "zh-TW": "主要症狀可能包括身體和四肢沉重、腦霧、黏膩或遲滯的大便、腹脹、頑固的體重增加、厚膩的舌苔和混濁的尿液。", ja: "主な症状には、体と四肢の重さ、脳の霧、ねばついたまたは遅い排便、膨満感、頑固な体重増加、厚くねばついた舌苔、濁った尿が含まれることがあります。" },
+    },
+    {
+      q: { en: "What are the best foods to drain dampness?", "zh-TW": "什麼食物最能祛濕？", ja: "湿気を取り除く最も良い食材は？" },
+      a: { en: "The strongest damp-draining foods in Chinese medicine are adzuki beans, coix seed (yi yi ren), and winter melon. Radish, Chinese celery, lotus leaf tea, barley tea, Chen Pi (aged tangerine peel), and ginger tea may also help.", "zh-TW": "中醫裡最強的祛濕食物是紅豆、薏仁和冬瓜。白蘿蔔、芹菜、荷葉茶、大麥茶、陳皮和薑茶也可能有幫助。", ja: "中医学で最も強い祛湿食材は小豆、ハトムギ、トウガンです。大根、セロリ、蓮の葉茶、大麦茶、陳皮、しょうが茶も役立つことがあります。" },
+    },
+    {
+      q: { en: "Is Spleen Dampness related to weight gain?", "zh-TW": "脾濕和體重增加有關嗎？", ja: "脾湿は体重増加と関係ありますか？" },
+      a: { en: "It can be. In TCM theory, dampness and phlegm add dense, heavy mass that the body holds onto. This can be associated with weight gain that resists diet and exercise, especially around the middle.", "zh-TW": "有可能。中醫理論中，濕氣和痰會增加身體留住的緻密厚重質量。這可能與節食和運動都難以減掉的體重增加有關。", ja: "関係することがあります。中医学の理論では、湿気と痰は体が保持する密度の高い重い塊を加えます。これは食事や運動でも落ちにくい体重増加に関連することがあります。" },
+    },
+    {
+      q: { en: "Which body type is linked to Spleen Dampness?", "zh-TW": "脾濕對應哪種體質？", ja: "脾湿はどの体質に当てはまりますか？" },
+      a: { en: "Spleen Dampness aligns most closely with the Phlegm Damp body type in the nine-type system. People with this type tend to feel heavy, carry extra weight, and react strongly to damp-forming foods like dairy and sweets.", "zh-TW": "脾濕與九種體質中的痰濕體質最為吻合。這類型的人容易覺得沉重、體重偏重，並對乳製品和甜食等生濕食物反應明顯。", ja: "脾湿は9つの体質の中で痰湿体質に最も近いです。このタイプの人は重く感じやすく、体重が増えやすく、乳製品や甘いものに強く反応します。" },
+    },
+    {
+      q: { en: "How long does it take to clear dampness?", "zh-TW": "祛濕需要多長時間？", ja: "湿気を取り除くのにどのくらいかかりますか？" },
+      a: { en: "Dampness is sticky and slow, so it usually takes longer to clear than simple fatigue. With consistent dietary and lifestyle changes, many people notice lighter, clearer energy within 2 to 4 weeks, while deeper changes may take 1 to 3 months.", "zh-TW": "濕氣黏膩緩慢，所以通常比單純疲勞需要更久才能清除。持續的飲食和生活方式改變，許多人會在2到4週內感到更輕盈清醒，更深的改變可能需要1到3個月。", ja: "湿気はねばつき遅いため、単なる疲労よりも除くのに時間がかかるのが一般的です。一貫した食事と生活の変化で、多くの人は2〜4週間で軽く澄んだエネルギーを感じます。" },
+    },
+  ],
+  "blood-deficiency": [
+    {
+      q: { en: "What are the main symptoms of Blood Deficiency?", "zh-TW": "血虛的主要症狀是什麼？", ja: "血虚の主な症状は？" },
+      a: { en: "Classic signs include pale lips and complexion, brittle nails, dry hair and skin, dizziness (especially when standing up quickly), numbness or tingling in the limbs, difficulty falling asleep, and poor memory. These can be associated with the nourishing substance not reaching your tissues and mind.", "zh-TW": "典型症狀包括唇色與面色蒼白、指甲易脆、頭髮與皮膚乾燥、頭暈（尤其快速站起時）、四肢麻木或刺痛、難以入睡，以及記憶力差。", ja: "典型的な症状には、蒼白な唇と顔色、割れやすい爪、乾燥した髪と肌、めまい、手足のしびれやピリピリ感、入眠困難、記憶力の低下があります。" },
+    },
+    {
+      q: { en: "What are the best foods to build Blood in Chinese medicine?", "zh-TW": "中醫補血最好的食物是什麼？", ja: "中医学で血を補う最も良い食材は？" },
+      a: { en: "Top blood-building foods include red dates (jujube), goji berries, black sesame seeds, bone broth, dark leafy greens like spinach, animal liver, longan fruit, black beans, and cherries. Warm, protein-rich, iron-containing foods that are easy to digest may help most.", "zh-TW": "最佳補血食物包括紅棗、枸杞、黑芝麻、骨頭湯、菠菜等深色葉菜、動物肝臟、龍眼、黑豆和櫻桃。溫熱、富含蛋白質和鐵質且易消化的食物可能最有幫助。", ja: "血を補うトップ食材は、なつめ、クコの実、黒ゴマ、骨スープ、ほうれん草などの濃い色の葉物、レバー、竜眼、黒豆、さくらんぼです。" },
+    },
+    {
+      q: { en: "Is Blood Deficiency the same as iron-deficiency anemia?", "zh-TW": "血虛和缺鐵性貧血一樣嗎？", ja: "血虚は鉄欠乏性貧血と同じですか？" },
+      a: { en: "They overlap but are not identical. Iron-deficiency anemia is a medical diagnosis based on low iron and abnormal blood counts. Blood Deficiency is a broader TCM pattern that may include the oxygen-carrying role plus the nourishing and grounding functions. You can have normal iron panels yet still show signs of Blood Deficiency.", "zh-TW": "兩者重疊但不相同。缺鐵性貧血是基於低鐵和異常血液指標的醫學診斷。血虛是更廣義的中醫體質模式。你的鐵指標可能正常卻仍有血虛跡象。", ja: "重なりますが同一ではありません。鉄欠乏性貧血は低鉄と異常な血液数値に基づく医学的診断です。血虚はより広い中医学のパターンです。" },
+    },
+    {
+      q: { en: "Which Chinese medicine body type is linked to Blood Deficiency?", "zh-TW": "血虛和哪種中醫體質有關？", ja: "血虚はどの中医学の体質と関連していますか？" },
+      a: { en: "Blood Deficiency often overlaps with the Yin Deficient body type, since both involve a lack of moistening and nourishing reserve. About 10 percent of people share the Yin Deficient type. Take our free 5-minute quiz to see if it matches your constitution.", "zh-TW": "血虛常與陰虛體質重疊，因為兩者都涉及滋潤與滋養儲備不足。約10%的人屬於陰虛體質。", ja: "血虚は陰虚の体質と重なることが多く、どちらも潤いと栄養の蓄えが不足していることが関係します。約10%の人が陰虚タイプです。" },
+    },
+    {
+      q: { en: "How long does it take to rebuild Blood?", "zh-TW": "補血需要多久？", ja: "血を回復するのにどのくらいかかりますか？" },
+      a: { en: "It varies. Because Blood is built gradually from food and rest, most people notice changes over 4 to 8 weeks of consistent nourishing meals, adequate protein and iron, and better sleep. Deeper depletion from long-term blood loss may take several months.", "zh-TW": "因人而異。因為血是從食物和休息中逐漸生成的，多數人在持續攝取滋補飲食、充足蛋白質與鐵質，以及改善睡眠後，4到8週內會感受到變化。嚴重耗損可能需要數個月。", ja: "人によります。血は食事と休息から徐々に作られるため、栄養のある食事、十分なタンパク質と鉄分、より良い睡眠を継続すれば、多くの人は4〜8週間で変化を実感します。" },
+    },
+  ],
+  "liver-fire": [
+    {
+      q: { en: "What are the main symptoms of Liver Fire?", "zh-TW": "肝火的主要症狀是什麼？", ja: "肝火の主な症状は？" },
+      a: { en: "The hallmark signs of Liver Fire include red or bloodshot eyes, sharp headaches at the temples or top of the head, intense irritability or sudden rage, a bitter taste in the mouth, dry mouth, loud ringing in the ears, a flushed red face, and insomnia with racing thoughts. These signs tend to feel hot and intense, and they often flare during periods of stress or after poor sleep.", "zh-TW": "肝火的典型症狀包括眼睛紅或血絲、太陽穴或頭頂的劇烈頭痛、強烈煩躁或突然暴怒、口苦、口乾、耳鳴聲大、面部潮紅，以及思緒奔湧的失眠。這些症狀通常感覺燥熱強烈，常在壓力期或睡眠不足後發作。", ja: "肝火の代表的な症状は、赤いまたは充血した目、こめかみや頭頂部の鋭い頭痛、強いイライラや突然の怒り、口の中の苦み、口の渇き、大きな耳鳴り、ほてった赤い顔、思考が止まらない不眠です。これらは暑く激しく感じられ、ストレス時や睡眠不足後に悪化することが多いです。" },
+    },
+    {
+      q: { en: "What are the best cooling foods for Liver Fire?", "zh-TW": "肝火最好的清涼食物是什麼？", ja: "肝火に最適な涼性食材は？" },
+      a: { en: "Chrysanthemum tea (ju hua) is considered the classic Liver Fire remedy, prized for cooling heat and soothing the eyes. Other helpful foods include celery, mung beans, bitter gourd, lotus root, pear, seaweed and kelp, cucumber, and watermelon. Prepare them by steaming or light boiling and avoid roasting and deep-frying, which add heat back in. Small amounts taken regularly tend to work best.", "zh-TW": "菊花茶是經典的肝火食療，以清熱明目著稱。其他有益食物包括芹菜、綠豆、苦瓜、蓮藕、梨、海帶海藻、黃瓜和西瓜。以蒸或輕煮方式準備，避免烤和油炸（會增加熱性）。少量經常食用效果最好。", ja: "菊茶（菊花）は肝火の古典的な療法で、熱を冷やし目を和らげることで知られています。他にはセロリ、緑豆、ゴーヤ、レンコン、梨、海藻・昆布、きゅうり、スイカが役立ちます。蒸すか軽く煮て調理し、熱を加える焼き物や揚げ物は避けてください。少量を毎日食べるのが最も効果的です。" },
+    },
+    {
+      q: { en: "How are anger and headaches connected to Liver Fire?", "zh-TW": "憤怒和頭痛與肝火有什麼關係？", ja: "怒りと頭痛は肝火とどう関係していますか？" },
+      a: { en: "In TCM, anger is the emotion most closely tied to the Liver. When frustration is held in rather than expressed, Liver Qi stagnates and the pressure generates heat, which becomes Liver Fire. Because heat rises, Liver Fire flares upward to the head, which can show up as sharp headaches at the temples or top of the head along with intense irritability or rage. This is why chronic anger and headache so often appear together in this pattern.", "zh-TW": "中醫認為憤怒與肝關係最密切。當挫敗感被壓抑而非表達時，肝氣鬱結，壓力產生熱，成為肝火。因為熱會上升，肝火往上衝到頭部，表現為太陽穴或頭頂的劇烈頭痛，以及強烈煩躁或暴怒。這就是為什麼長期憤怒和頭痛常同時出現。", ja: "中医学では、怒りは肝に最も密接に関わる感情です。欲求不満を表現せず抱え込むと、肝気のうつ滞が生じて圧力が熱となり、肝火になります。熱は上昇するため肝火は頭に向かい、こめかみや頭頂部の鋭い頭痛と強いイライラや怒りとして現れます。だから慢性的な怒りと頭痛が一緒に現れることが多いのです。" },
+    },
+    {
+      q: { en: "Which body type is associated with Liver Fire?", "zh-TW": "肝火對應什麼體質？", ja: "肝火はどの体質に関連していますか？" },
+      a: { en: "Liver Fire most closely aligns with the Damp Heat body type (湿热质) in the nine-constitution system. People of this type tend to run warm, feel sticky in hot weather, and are prone to skin reactions and irritability. The Qi Stagnant type (气郁质) may also develop Liver Fire, since stagnation is the pattern that fire grows out of. Take our free 5-minute quiz to discover your primary type.", "zh-TW": "肝火最接近九種體質中的濕熱質（湿热质）。這類人通常偏熱、在炎熱天氣覺得黏膩，容易有皮膚反應和煩躁。氣鬱質（气郁质）也可能發展成肝火，因為氣鬱是肝火的根源。做我們的免費5分鐘測驗，確認你的主要體質。", ja: "肝火は9つの体質の中で湿熱タイプ（湿熱質）に最も近いです。このタイプは暑がりで蒸し暑い日にネバネバし、肌の反応やイライラが出やすいです。気鬱タイプ（気鬱質）も、気うつが肝火の源であるため肝火を発症しやすいです。無料の5分クイズであなたの主要体質を確認してください。" },
+    },
+    {
+      q: { en: "What is the difference between Liver Fire and Liver Qi Stagnation?", "zh-TW": "肝火和肝氣鬱結有什麼不同？", ja: "肝火と肝気鬱結の違いは？" },
+      a: { en: "Liver Qi Stagnation is the earlier stage, where energy is stuck but no real heat has developed yet. It tends to feel like pressure, tightness, sighing, and mood swings. Liver Fire is what happens when that stagnation is left unresolved long enough to ignite. The symptoms shift from tightness to heat: red eyes, sharp headaches, rage, bitter taste, and ringing in the ears. In short, Liver Qi Stagnation is the kindling and Liver Fire is the flame.", "zh-TW": "肝氣鬱結是早期階段，能量堵塞但尚未產生真正的熱。通常感覺像壓力、緊繃、嘆息和情緒波動。肝火是氣鬱長期未解決而點燃的結果。症狀從緊繃轉為燥熱：眼睛紅、劇烈頭痛、暴怒、口苦和耳鳴。簡言之，肝氣鬱結是柴火，肝火是火焰。", ja: "肝気鬱結はより初期の段階で、エネルギーは停滞していますがまだ本当の熱は生じていません。圧力、緊張、ため息、気分の波として感じられます。肝火は、その鬱結が長期間解消されずに点火した状態です。症状は緊張から熱へと変化し、目の充血、鋭い頭痛、激怒、口の苦み、耳鳴りが現れます。要するに、肝気鬱結は薪で、肝火は炎です。" },
+    },
+  ],
+  "heart-yin-deficiency": [
+    {
+      q: { en: "What are the main symptoms of Heart Yin Deficiency?", "zh-TW": "心陰虛的主要症狀是什麼？", ja: "心陰虚の主な症状は？" },
+      a: { en: "The hallmark signs include difficulty falling asleep, palpitations or a fluttering chest, anxiety, vivid dreams, night sweats, and a red flushed face, especially on the cheeks. The mind may feel restless and unable to switch off at night. These signs tend to cluster together and often worsen with stress or during menopause.", "zh-TW": "主要症狀包括入睡困難、心悸或胸口撲通跳、焦慮、多夢、夜間盜汗和面部潮紅（尤其雙頰）。夜間思緒可能煩躁無法平靜。這些症狀常成群出現，並在壓力或更年期時加重。", ja: "主な症状は、入眠困難、動悸や胸のドキドキ、不安、鮮明な夢、寝汗、ほてり（特にもほほ）です。夜は心が落ち着かず休まらない傾向があります。これらは一緒に現れ、ストレスや更年期で悪化することがあります。" },
+    },
+    {
+      q: { en: "Which foods are best for calming Heart Yin Deficiency?", "zh-TW": "哪些食物最能安撫心陰虛？", ja: "心陰虚を鎮めるのに最適な食材は？" },
+      a: { en: "Traditional choices include lotus seed (lian zi), lily bulb (bai he), floating wheat, red dates (jujube), longan fruit, and goji berries. These are often simmered into sweet soups or congee taken in the evening. The goal is cooling, calming nourishment rather than heavy or heating foods.", "zh-TW": "傳統選擇包括蓮子、百合、浮小麥、紅棗、龍眼和枸杞。這些常在晚上煮成甜湯或粥。目標是清涼安神的滋養，而非油膩或燥熱的食物。", ja: "伝統的な選択は蓮の実（蓮子）、ゆり根（百合）、浮小麦、なつめ（紅棗）、竜眼肉、クコの実です。これらは夕方に甘いスープやお粥として煮込まれます。ねっとりした暑い食材ではなく、冷やし鎮める滋養が目的です。" },
+    },
+    {
+      q: { en: "How are insomnia and anxiety connected to Heart Yin Deficiency?", "zh-TW": "失眠和焦慮與心陰虛有什麼關係？", ja: "不眠や不安は心陰虚とどう関係していますか？" },
+      a: { en: "In TCM, the Heart houses the mind (Shen). Heart Yin is the cooling fluid that keeps the mind settled. When Yin is low, empty heat rises and disturbs the Shen, which can show up as a racing mind at bedtime, anxiety, and broken sleep. This is why Heart Yin Deficiency and nighttime anxiety so often appear together.", "zh-TW": "中醫認為心藏神。心陰是讓心神安定的冷卻液體。陰不足時，虛熱上升擾動心神，表現為睡前思緒奔湧、焦慮和睡眠中斷。這就是心陰虛和夜間焦慮常同時出現的原因。", ja: "中医学では心は神（精神）を蔵します。心陰は心を鎮める冷却液です。陰が不足すると虚熱が上がり神を乱し、寝る前の思考の奔走、不安、途中覚醒として現れます。だから心陰虚と夜間の不安は一緒に現れることが多いのです。" },
+    },
+    {
+      q: { en: "Which body type is associated with Heart Yin Deficiency?", "zh-TW": "心陰虛對應什麼體質？", ja: "心陰虚はどの体質に関連していますか？" },
+      a: { en: "Heart Yin Deficiency most closely aligns with the Yin Deficient body type (阴虚质) in the nine-constitution system. People of this type tend to run warm, feel dry, and have a sensitive, active mind. Take our free 5-minute quiz to discover if this is your primary type.", "zh-TW": "心陰虛最接近九種體質中的陰虛質（阴虚质）。這類人通常偏熱、乾燥，心思敏感活躍。做我們的免費5分鐘測驗，確認你的主要體質。", ja: "心陰虚は9つの体質の中で陰虚タイプ（陰虚質）に最も近いです。このタイプは暑がりで乾燥し、感受性が高く活発な心を持ちます。無料の5分クイズであなたの主要体質を確認してください。" },
+    },
+    {
+      q: { en: "How long does it take to rebuild Heart Yin with food?", "zh-TW": "用食物修復心陰需要多長時間？", ja: "食事で心陰を回復するのにどのくらいかかりますか？" },
+      a: { en: "Most people notice calmer sleep and less anxiety within two to four weeks of consistent dietary changes, while deeper improvement in night sweats and palpitations may take two to three months. Chinese medicine food therapy works gradually by rebuilding the cooling reserve, so consistency matters more than occasional perfect meals.", "zh-TW": "大多數人在持續改變飲食兩到四週後感到睡眠較安穩、焦慮減輕，而盜汗和心悸的深層改善可能需要兩到三個月。中醫食療通過重建冷卻儲備逐步起效，因此堅持比偶爾完美一餐更重要。", ja: "多くの人は食事を2〜4週間続けると睡眠が穏やかになり不安が軽減しますが、寝汗や動悸の深い改善には2〜3ヶ月かかることがあります。中医学の食療は冷却の蓄えを徐々に再構築するため、たまの完璧な食事より継続が重要です。" },
+    },
+  ],
 }
