@@ -27,7 +27,7 @@ function SuccessContent() {
         </h1>
         <p className="text-text2 mb-4 leading-relaxed">
           {isPro
-            ? "Your Full Transformation Kit is ready. Let's start your wellness journey."
+            ? "Your Full Transformation Kit is ready. Let's begin your personalized wellness plan."
             : "Your Body Profile Report is ready. Let's explore your constitution."}
         </p>
         <div className="text-sm text-text2 mb-6">

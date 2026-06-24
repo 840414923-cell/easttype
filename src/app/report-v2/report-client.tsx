@@ -356,14 +356,6 @@ function ReportV2Content() {
   if (!report) {
     return (
       <div className="min-h-screen flex items-center justify-center text-text2">
-        Loading report...
-      </div>
-    )
-  }
-
-  if (!report) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-text2">
         Report not found. <Link href="/quiz" className="text-accent ml-2">Take the quiz</Link>
       </div>
     )

@@ -90,9 +90,10 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Symptoms | 70 | Active, Sprint 13 expanded from 40 to 70 |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 3 (7 redirected) | 7 duplicate wellness pages 301 to symptoms, 3 unique remain |
-| Sitemap URLs | 100 | Hand-maintained |
-| Total static pages | 115 | Build verified |
+| Wellness | 10 (7 redirected) | Active: 10 unique pillar/guide pages. 7 old duplicates 301 to symptoms |
+| Food Combos | 10 | `/foods-for/[slug]` dynamic route |
+| Sitemap URLs | 113 | Hand-maintained |
+| Total static pages | 125+ | Build verified |
 
 ### Published Symptoms (70)
 
@@ -112,7 +113,15 @@ natural-balance (Balanced -> balanced)
 
 ### Coverage Gaps
 
-无。所有 9 种体质都有模式页。
+无。所有 9 种体质都有模式页。Wellness 层已从 3 页扩展到 10 页，覆盖核心 TCM 关键词。
+
+---
+
+# Brand Positioning (Updated 2026-06-24)
+
+站点定位已从 "Eastern wellness" 转向 "Chinese medicine / TCM"。原因：用户搜索量集中在 "Chinese medicine"（110K/mo），而非 "Eastern wellness"。所有新页面直接使用 "Chinese medicine" 关键词。现有旧页面保留原措辞，不回溯修改。
+
+首页 title/description/schema 全部使用 "Chinese Medicine Body Types"。
 
 ---
 
@@ -149,9 +158,9 @@ Hero (symptoms-first) -> Common Symptoms Grid -> Connect the Dots (3-step) -> Bo
 
 # Frozen
 
-/wellness 路径部分冻结。
+/wellness 路径冻结已于 Sprint 15 解除。Wellness 层现在是内容扩展主阵地。
 
-7 篇与症状页重复的 wellness 文章已 301 重定向到对应 symptoms 页：
+7 篇与症状页重复的 wellness 文章仍保持 301 重定向到对应 symptoms 页：
 - why-am-i-always-tired → /symptoms/why-am-i-always-tired
 - cold-hands-and-feet → /symptoms/why-am-i-always-cold
 - night-sweats-chinese-medicine → /symptoms/why-do-i-have-night-sweats
@@ -160,37 +169,44 @@ Hero (symptoms-first) -> Common Symptoms Grid -> Connect the Dots (3-step) -> Bo
 - anxiety-chinese-medicine → /symptoms/why-do-i-feel-anxious
 - insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 
-3 篇无重复的 wellness 文章保留：
-- chinese-medicine-body-types
+10 篇活跃 wellness 页面：
+- chinese-medicine-body-types (optimized, 18K/mo)
 - chinese-medicine-foods-for-energy
 - foods-that-warm-your-body
-
-原因：7 篇与 symptoms 页争同一关键词，导致关键词自相残杀。301 重定向消除重复，保留 SEO 权重。
+- what-is-qi (14K/mo)
+- tcm-tongue-diagnosis (12K/mo)
+- cooling-foods-chinese-medicine (6K/mo)
+- eastern-vs-western-medicine (6K/mo)
+- what-is-chinese-medicine (110K/mo) — 新增支柱页
+- chinese-medicine-for-beginners (5K/mo) — 新增入门指南
+- chinese-medicine-body-types (已优化)
 
 ---
 
 # Current Sprint
 
-Sprint 13 — Content Expansion + SEO Fix
+Sprint 15 — Brand Repositioning to Chinese Medicine + Pillar Pages
 
 Done:
-1. 补完第 9 个模式页（natural-balance）✅
-2. 新增 30 个症状页（女性健康、消化、皮肤、疼痛、认知、呼吸、泌尿/感官/睡眠）✅
-3. 补建 7 个缺失的旧症状页（always-hungry, dark-circles, PMS, poor-circulation, seasonal-allergies, libido-low, metabolism-slow）✅
-4. 70 个症状页标题差异化 — 去掉统一 "Eastern Body Type Insights" 后缀 ✅
-5. 7 个重复 wellness 页 301 重定向到对应 symptoms 页 ✅
-6. Sitemap 从 69 → 107 → 100（移除重定向 URL）✅
-7. Push 到 Vercel，重新提交 sitemap ✅
+1. 首页 meta 全部从 "Eastern Body Type" 改为 "Chinese Medicine Body Types" ✅
+2. layout.tsx 默认 meta 同步更新 ✅
+3. home-client.tsx 可见文字改为 "Chinese medicine" ✅
+4. What Is Chinese Medicine 支柱页 (110K/mo) — ~1800词，3个表格，5个FAQ ✅
+5. Chinese Medicine for Beginners 入门指南 (5K/mo) — ~2000词，2个表格，7天计划，4个FAQ ✅
+6. Wellness hub 页面扩展到 8 篇文章 + meta 更新 ✅
+7. Sitemap 更新 (100 → 113 URLs) ✅
+8. Push 到 Vercel (commit d925732) ✅
 
 Pending:
-- 等待 Google 重新收录（从 1 页恢复）
-- 监控 Search Console 展示/点击数据
+- 提交新 URL 到 GSC + IndexNow
+- 继续 content-expansion-plan.md Week 2 (PCOS, Menopause, etc.)
+- 监控 GSC 是否出现 "Chinese medicine" 关键词
 
 ---
 
 # Do Not Do
 
-**不要重建 wellness。** /wellness/ 路径冻结。不新增、不删除、不改 URL、不重构。等数据再决定。
+**不要重建已 301 的 wellness 页。** 7 篇与症状页重复的 wellness 文章已 301 重定向。不要恢复。
 
 **不要国际化。** zh-TW 和 ja 已完全移除（Sprint 05）。不加回。产品定位是 English-only。所有面向用户的文案、SEO、内容都是英文。接口仍需 { en; "zh-TW"; ja } 形状（新页面传入空字符串）。
 
@@ -210,11 +226,13 @@ Pending:
 
 **不要让重复内容共存。** 同一关键词对应多个页面会造成关键词自相残杀。发现重复必须 301 重定向。
 
-**不要用 PowerShell 处理 UTF-8 .tsx 文件。** 会损坏编码。用 Node.js 脚本代替。
+**不要用 PowerShell 处理 UTF-8 .tsx 文件。** 会损坏编码。用 Node.js 脚本或 Write 工具代替。
 
 **不要在 @theme inline 里用 var() 自引用。** 会造成循环引用导致 502。
 
 **不要在没确认 Vercel Production 域名的情况下设置 canonical URL。** www vs 非 www 不匹配会阻止 Google 抓取。
+
+**不要在没有医疗免责声明的情况下发布 wellness 页。** 所有新 wellness 页必须包含 "for informational and educational purposes only, not medical advice" 免责声明。
 
 ---
 
@@ -222,29 +240,32 @@ Pending:
 
 | File | Purpose |
 |---|---|
-| src/lib/symptoms-data.ts | 70 症状页元数据 |
+| src/lib/symptoms-data.ts | 70 症状页元数据 (CTR-optimized metaTitle/metaDesc) |
 | src/lib/symptom-faqs.ts | 70 x 4 FAQ |
 | src/lib/pattern-data.ts | 9 模式页元数据 |
 | src/lib/pattern-faqs.ts | 9 x 4 FAQ |
 | src/lib/type-details.ts | 9 类型 + relatedPatterns + relatedSymptoms |
+| src/lib/food-combo-data.ts | 10 食物组合页数据 |
+| src/lib/wellness-faqs.ts | Wellness 页 FAQ (含 15+ 条目) |
 | src/lib/free-layer-data.ts | 免费层症状信号 + 摘要 |
-| src/lib/json-ld.ts | Article / BreadcrumbList 构建器 |
+| src/lib/json-ld.ts | Article / FAQPage / BreadcrumbList 构建器 |
 | src/app/globals.css | CSS 变量 (light/dark theme) |
-| src/components/nav.tsx | 共享导航 + ThemeToggle |
-| src/components/footer.tsx | 共享页脚 |
+| src/components/nav.tsx | 共享导航 + hamburger menu + Food Guides link |
+| src/components/footer.tsx | 共享页脚 (含所有 hub 链接) |
 | src/components/theme-toggle.tsx | 浅色/深色切换组件 |
 | src/components/share-card.tsx | 体质分享卡片 |
-| src/app/home-client.tsx | 首页 |
-| src/app/layout.tsx | 根布局 + 防闪烁脚本 |
+| src/app/home-client.tsx | 首页 (Chinese Medicine 定位) |
+| src/app/layout.tsx | 根布局 + 防闪烁脚本 + 默认 meta |
+| src/app/page.tsx | 首页 metadata + schema |
 | src/app/symptoms/layout.tsx | symptoms Nav + Footer wrapper |
 | src/app/patterns/layout.tsx | patterns Nav + Footer wrapper |
 | src/app/wellness/layout.tsx | wellness Nav + Footer wrapper |
-| src/app/about/page.tsx | About 服务器组件 + Organization schema |
-| src/app/about/article.tsx | About 文章内容 |
-| src/app/not-found.tsx | 自定义 404 页面 |
-| src/app/result/result-client.tsx | 测试结果页 |
-| src/app/report-v2/report-client.tsx | 付费报告页 |
-| public/sitemap.xml | 100 URLs (www), 手动维护 |
+| src/app/wellness/what-is-chinese-medicine/ | TCM 支柱页 (110K/mo) |
+| src/app/wellness/chinese-medicine-for-beginners/ | 入门指南 (5K/mo) |
+| src/app/foods-for/[slug]/ | 食物组合页动态路由 |
+| public/sitemap.xml | 113 URLs (www), 手动维护 |
+| public/62b701021d242b39a739ee629f462a69.txt | IndexNow key |
+| scripts/submit-indexnow.ts | IndexNow 批量提交脚本 |
 | public/robots.txt | 指向 www sitemap |
 
 ---

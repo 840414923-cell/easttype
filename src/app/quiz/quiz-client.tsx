@@ -218,7 +218,7 @@ export default function QuizClient() {
             What&apos;s your biological sex?
           </h1>
           <p className="text-text2 text-center mb-12 leading-relaxed max-w-sm">
-            This helps us account for gender-specific patterns in Eastern wellness. Your data stays private.
+            This helps us account for gender-specific patterns in Chinese medicine. Your data stays private.
           </p>
           <div className="flex gap-4 w-full max-w-xs">
             <button

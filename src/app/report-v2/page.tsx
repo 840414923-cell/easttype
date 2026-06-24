@@ -16,24 +16,27 @@ export default async function ReportV2Page({
   const type = params.type ?? "qi_deficient"
   const sex = params.sex ?? "female"
 
-  if (plan === "pro") {
-    const cookieStore = await cookies()
-    const purchased = cookieStore.get("et_plan")
-    if (!purchased || purchased.value !== "pro") {
-      return (
-        <div className="min-h-screen flex items-center justify-center text-text2 text-center px-6">
-          <div>
-            <p className="text-lg mb-2">This report requires a purchase.</p>
-            <a
-              href={`/result?primary=${type}&sex=${sex}`}
-              className="text-accent underline"
-            >
-              Take the quiz to get your result
-            </a>
-          </div>
+  const cookieStore = await cookies()
+  const purchased = cookieStore.get("et_plan")
+
+  const hasAccess = plan === "pro"
+    ? purchased?.value === "pro"
+    : purchased?.value === "basic" || purchased?.value === "pro"
+
+  if (!hasAccess) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-text2 text-center px-6">
+        <div>
+          <p className="text-lg mb-2">This report requires a purchase.</p>
+          <a
+            href={`/result?primary=${type}&sex=${sex}`}
+            className="text-accent underline"
+          >
+            Take the quiz to get your result
+          </a>
         </div>
-      )
-    }
+      </div>
+    )
   }
 
   return <ReportClient />

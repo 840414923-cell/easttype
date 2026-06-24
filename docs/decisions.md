@@ -213,3 +213,35 @@ Reason: All 70 symptom pages had the identical suffix "Eastern Body Type Insight
 Decision: Always push code to Vercel before submitting sitemap to Google.
 
 Reason: Google indexed 4 pages, then dropped to 1. Root cause: sitemap was updated locally with 107 URLs but code wasn't pushed to Vercel. Google found URLs in sitemap that returned 404, causing it to lose trust and de-index pages. Lesson: every sitemap URL must return 200 before submission.
+
+---
+
+## 2026-06-24
+
+Decision: Rebrand site positioning from "Eastern wellness" to "Chinese medicine / TCM".
+
+Reason: Keyword analysis showed "Chinese medicine" has 110K/mo search volume vs ~5K/mo for "Eastern wellness". The site was invisible to users searching for "Chinese medicine body types", "what is qi", "TCM tongue diagnosis", etc. All new pages and homepage metadata now use "Chinese medicine". Old pages retain "Eastern wellness" — no retroactive changes needed as Google understands them as related concepts.
+
+---
+
+## 2026-06-24
+
+Decision: Lift /wellness/ path freeze. Wellness is now the primary content expansion surface.
+
+Reason: The freeze (Sprint 06) was made when the site had zero indexed pages and no data. Now 34 pages are indexed, and keyword analysis shows the highest-value targets are Chinese medicine topics that belong in /wellness/. The /wellness/ path is where pillar pages, comparison guides, and TCM concept explanations live. The old rule "don't add wellness pages" is replaced with "don't create wellness pages that duplicate symptom page keywords".
+
+---
+
+## 2026-06-24
+
+Decision: Create pillar page + beginner guide as a pair for each major topic.
+
+Reason: "What Is Chinese Medicine" (pillar) and "Chinese Medicine for Beginners" (guide) target different user intents. The pillar page is a comprehensive reference for someone researching the topic. The beginner guide is an actionable starter plan for someone who wants to try it. Both rank for overlapping but distinct keyword sets. This pattern will be repeated for future topics (e.g., "What Is Acupuncture" + "Acupuncture for Beginners").
+
+---
+
+## 2026-06-24
+
+Decision: All new wellness pages must include a medical disclaimer.
+
+Reason: Chinese medicine content walks a fine line between educational and medical advice. Including a disclaimer ("for informational and educational purposes only, not medical advice") on every page protects against both legal risk and Google's YMYL (Your Money Your Life) quality signals that can suppress health content lacking appropriate disclaimers.

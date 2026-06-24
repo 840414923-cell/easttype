@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-04
+Last updated: 2026-06-24
 
 ---
 
@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (100 in sitemap)
+## Published URLs (113 in sitemap)
 
 ### Core Pages (5)
 
@@ -117,10 +117,19 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, blood_stasis, qi_stagnant, sensitive
 
-### Wellness Pages (3 active, 7 redirected)
+### Wellness Pages (10 active, 7 redirected)
 
 Active (no duplicate):
-chinese-medicine-body-types, chinese-medicine-foods-for-energy, foods-that-warm-your-body
+- what-is-chinese-medicine (110K/mo pillar, NEW)
+- chinese-medicine-for-beginners (5K/mo guide, NEW)
+- chinese-medicine-body-types (18K/mo, optimized)
+- what-is-qi (14K/mo)
+- tcm-tongue-diagnosis (12K/mo)
+- cooling-foods-chinese-medicine (6K/mo)
+- eastern-vs-western-medicine (6K/mo)
+- chinese-medicine-foods-for-energy
+- foods-that-warm-your-body
+- (wellness hub page)
 
 301 redirected to symptoms:
 why-am-i-always-tired → /symptoms/why-am-i-always-tired
@@ -148,15 +157,17 @@ insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 | Symptom pages | 70 |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages (active) | 3 |
+| Wellness pages (active) | 10 |
 | Wellness pages (redirected) | 7 |
-| Hub pages | 3 (symptoms, patterns, wellness) |
+| Food combo pages | 10 |
+| Hub pages | 4 (symptoms, patterns, wellness, foods-for) |
 | Utility pages | 4 |
-| Sitemap URLs | 100 |
-| Total build pages | 115 |
+| Sitemap URLs | 113 |
+| Total build pages | 125+ |
 | Internal links (verified) | 400+ cross-references, 0 dead links |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
+| Wellness keyword coverage | ~175K/mo targeted |
 
 ---
 
@@ -176,12 +187,13 @@ insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 ## Google Indexing Status
 
 - Search Console resource: https://www.myeasterntype.com (www)
-- Sitemap submitted: 100 URLs
+- Sitemap submitted: 113 URLs
 - First indexing request submitted: 2026-06-02
-- 4 pages indexed by 2026-06-03: homepage, /patterns/low-vitality, /patterns/stuck-energy, /wellness/anxiety-chinese-medicine
-- Dropped to 1 page (homepage only) by 2026-06-04 — likely caused by deploying sitemap with URLs that returned 404
-- Re-pushed all content 2026-06-04, sitemap resubmitted
-- Waiting for Google to re-crawl and re-index
+- Indexing progress: 7 pages (6/2) → 15 → 23 → 34 → 44 pages (6/24) — accelerating
+- GSC keywords showing: "crave sweets" (1 imp), "craving sweets why" (1 imp) — from why-do-i-crave-sweets page
+- GSC metrics: 3 clicks total, ~55 impressions total since launch (very early stage)
+- IndexNow integrated: key file live at production, but batch submission returns 403 from server/datacenter IP — user needs to run locally
+- IndexNow key: 62b701021d242b39a739ee629f462a69
 
 ---
 
@@ -189,12 +201,16 @@ insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 
 | Hash | Message |
 |---|---|
+| d925732 | feat: rebrand homepage to Chinese Medicine, add pillar + beginner guides (115K/mo) |
+| 17c3113 | feat: add cooling foods and eastern vs western medicine pages |
+| ddef65f | feat: add TCM Tongue Diagnosis Guide (12K/mo keyword) |
+| 74b1990 | feat: add What Is Qi page (14K/mo keyword) |
+| a17c8eb | feat: optimize Chinese Medicine Body Types page for 18K/mo keyword |
+| 3190765 | feat: add IndexNow integration for Bing/Yandex indexing |
+| 038e181 | feat: internal linking fixes (nav, homepage, footer, sitemap) |
+| 03e3bde | feat: add 10 food combo pages with dynamic route |
+| e77b50c | feat: CTR optimization of all 70 symptom pages |
 | bed8bd1 | fix: unique symptom titles, 301 redirect 7 duplicate wellness pages, remove redirected URLs from sitemap |
-| 93aa4b7 | feat: Sprint 13 content expansion - 30 new symptom pages, natural-balance pattern, sitemap to 107 URLs |
-| 623fe02 | Shorten homepage meta description to 158 chars |
-| d11f7a0 | Add 301 redirect from non-www to www domain |
-| 4f41f4d | fix: update all URLs to www.myeasterntype.com to match Vercel Production domain |
-| c2cce54 | fix: resolve CSS circular reference in @theme inline that caused 502 |
 
 ---
 
@@ -202,22 +218,34 @@ insomnia-chinese-medicine → /symptoms/why-cant-i-fall-asleep
 
 | Issue | Severity | Status |
 |---|---|---|
-| Google indexing dropped from 4 to 1 | High | Re-pushed content, sitemap resubmitted, waiting for re-crawl |
+| Google indexing growing (44 pages, 6/24) | Monitoring | Accelerating, ~10/mo new pages indexed |
+| Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", but quiz/result pages still say "Eastern Body Type". Creates mixed signal |
+| Quiz page not rebranded | Medium | quiz/page.tsx title, quiz-client.tsx body text, result badge all still say "Eastern" |
+| Basic report access control gap | High | report-v2 only checks cookie for pro plan. Anyone with URL can see basic report without paying |
+| IndexNow 403 from server IP | Medium | Key file is live (200). Server/datacenter IP blocked by IndexNow. User must run script locally |
+| No purchase recovery mechanism | Low | If user clears cookies, reports are lost. Webhook only logs, doesn't store purchase records |
+| Banned word in success page | Low | "wellness journey" in success-client.tsx — "journey" is banned |
+| Dead code in report-client.tsx | Low | Duplicate `if (!report)` check, second is unreachable |
 | No conversion tracking | Medium | Need to set up quiz-to-checkout funnel analytics |
 | Cookie paywall not bulletproof | Low | Can be manually set. Sufficient for current traffic. |
-| Programmatic SEO risk resolved | Medium → Fixed | Titles differentiated, duplicate content 301'd |
+| Google Indexing API not configured | Low | Needs GOOGLE_INDEXING_TOKEN env var for automated submission |
+| Programmatic SEO risk resolved | Fixed | Titles differentiated, duplicate content 301'd |
 
 ---
 
 ## Next Sprint
 
-Sprint 14 — Indexing Recovery + Data-Driven Optimization
+Sprint 16 — Content Expansion Week 2 + Index Submission
 
 ### Tasks
 
-1. Monitor Google re-indexing daily (site:www.myeasterntype.com)
-2. Once indexed, analyze Search Console for top queries/impressions
-3. Optimize meta descriptions for pages with impressions but no clicks
-4. Set up conversion funnel tracking (quiz -> result -> checkout)
-5. Consider adding more internal links between symptom pages that share patterns
-6. Evaluate if any new symptom pages need content depth improvement (word count, unique analogies)
+1. Submit 3 new Sprint 15 URLs to GSC (homepage, what-is-chinese-medicine, chinese-medicine-for-beginners)
+2. Run IndexNow batch submission for all 113 URLs
+3. Continue content-expansion-plan.md Week 2:
+   - Day 6: PCOS and Chinese Medicine (8K/mo)
+   - Day 7: Menopause Natural Remedies food combo (8K/mo)
+   - Day 8: Herbal Tea for Sleep (6K/mo)
+   - Day 9: Why Do I Have Dry Mouth symptom page (10K/mo)
+   - Day 10: Why Do I Have Chest Tightness symptom page (6K/mo)
+4. Monitor GSC for "Chinese medicine" keyword appearances
+5. Set up Bing Webmaster Tools (import from GSC)

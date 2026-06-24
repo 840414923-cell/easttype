@@ -24,6 +24,53 @@ Goals:
 
 ---
 
+## Sprint 15
+
+Goal: Rebrand site positioning from "Eastern wellness" to "Chinese medicine" + create pillar pages
+
+Completed:
+
+- Homepage meta fully rebranded: title, description, OG, Twitter, schema → "Chinese Medicine Body Types"
+- layout.tsx default meta updated to Chinese Medicine
+- home-client.tsx visible text: badge, subtitle, connect section, SEO section all changed from "Eastern wellness" to "Chinese medicine"
+- What Is Chinese Medicine pillar page created (110K/mo keyword, ~1800 words, 3 tables, 5 unique FAQs)
+- Chinese Medicine for Beginners guide created (5K/mo keyword, ~2000 words, 7-day starter plan, 2 tables, 4 unique FAQs)
+- Wellness hub expanded from 3 to 8 articles, meta updated to "Chinese Medicine Wellness Guides"
+- 9 unique FAQs added to wellness-faqs.ts
+- Sitemap: 111 → 113 URLs (2 new pages at priority 0.9)
+- Push to Vercel: commit d925732
+
+Key metrics:
+- Total keyword volume targeted this sprint: ~115K/mo (110K + 5K)
+- Wellness pages: 8 → 10 active
+- Total content added: ~3,800 words across 2 new pages
+- Commit: d925732
+
+Learnings:
+
+- Brand positioning (how Google categorizes your site) matters more than incremental content volume
+- "Chinese medicine" has 20x more search volume than "Eastern wellness" (110K vs 5K/mo)
+- Pillar pages (what is X) and beginner guides (how to start X) serve fundamentally different user intents and should both exist
+- Wellness hub pages should always list all available articles — was listing 3 of 8 existing
+- Content quality rules (unique intros, tables, FAQs, disclaimers, 1500+ words) are now institutionalized and working well
+
+---
+
+## Sprint 14
+
+Goal: CTR optimization + food combo pages + internal linking + IndexNow + content expansion Week 1
+
+Completed:
+
+- CTR optimization of all 70 symptom pages (metaTitle + metaDesc rewritten)
+- 10 symptom+food combo pages created (/foods-for/[slug] dynamic route)
+- Internal linking fixes (nav hamburger menu, homepage Browse All Guides, footer hub links)
+- IndexNow integration (113 URLs submitted to Bing/Yandex, 202 Accepted)
+- 5 pillar pages published (body types, qi, tongue diagnosis, cooling foods, eastern vs western)
+- 70 symptom card Word doc generated for Pinterest
+
+---
+
 ## Sprint 13
 
 Completed:

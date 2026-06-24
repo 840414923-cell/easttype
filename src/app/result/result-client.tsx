@@ -121,7 +121,7 @@ function ResultContent() {
         {/* ━━ 1. Type Reveal — the "aha" moment ━━ */}
         <div className="text-center mb-3">
           <div className="inline-flex items-center gap-1.5 bg-[rgba(201,163,85,0.06)] border border-[rgba(201,163,85,0.12)] rounded-full px-3.5 py-1 text-[10px] font-semibold text-accent uppercase tracking-[0.2em] mb-3">
-            {"YOUR EASTERN TYPE"}
+            {"YOUR BODY TYPE"}
           </div>
           <h1
             className="font-[family-name:var(--font-display)] text-3xl font-bold leading-tight"
