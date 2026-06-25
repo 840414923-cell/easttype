@@ -582,4 +582,158 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Surface changes, like less oiliness and fewer new blemishes, may appear within one to three weeks of consistent cooling foods and steadier sleep. Deeper changes, such as fewer cystic breakouts and lighter marks, usually take two to three months because the work happens from the inside out.", "zh-TW": "出油減少、新痘痘變少等表面變化，可能在持續一到三週內出現。更深層的改變通常需要兩到三個月。", ja: "皮脂の減少や新しいニキビの減少など表面の変化は、1〜3週間で現れることがあります。より深い変化には通常2〜3ヶ月かかります。" },
     },
   ],
+  "chinese-medicine-for-menopause": [
+    {
+      q: { en: "How does Chinese medicine view menopause?", "zh-TW": "中醫如何看待更年期？", ja: "中医学では更年期をどう捉えていますか？" },
+      a: { en: "Chinese medicine sees menopause as a natural transition, not a disease. It is linked to a gradual decline of Kidney Yin, the body's cooling and moistening energy. As Yin thins, internal heat has less restraint, which can produce hot flashes, night sweats, and dryness. Food therapy, rest, and calmer routines are the traditional ways to ease the shift.", "zh-TW": "中醫將更年期視為自然的過渡，而非疾病。它與腎陰逐漸衰退有關。陰一減少，內熱便缺少制約。", ja: "中医学では更年期を病気ではなく自然な移行とみなします。体を冷やし潤すエネルギーである腎陰の低下と関係しています。" },
+    },
+    {
+      q: { en: "What are the best foods for hot flashes in TCM?", "zh-TW": "中醫裡緩解潮熱最好的食物是什麼？", ja: "中医学でほてりに良い食材は何ですか？" },
+      a: { en: "Cooling and moistening foods are the first choice. Black sesame seeds, tofu and soy products, goji berries, mung beans, pear, and mulberry may help reduce internal heat. Avoid spicy food, alcohol, and excess coffee.", "zh-TW": "清涼滋潤的食物是首選。黑芝麻、豆腐、枸杞、綠豆、梨子和桑椹。", ja: "体を冷やし潤す食材が第一の選択です。黒ゴマ、豆腐、クコの実、緑豆、梨、クワの実など。" },
+    },
+    {
+      q: { en: "How long does the menopause transition last?", "zh-TW": "更年期過渡期會持續多久？", ja: "更年期の移行期間はどのくらい続きますか？" },
+      a: { en: "The transition often lasts several years. Perimenopause can begin in the early 40s, and the full process may span 7 to 10 years. Symptoms tend to peak around the final period and then ease.", "zh-TW": "通常持續數年。圍絕經期可能從四十歲出頭開始。", ja: "移行はたいてい数年続きます。40代前半に始まることもあります。" },
+    },
+    {
+      q: { en: "Which Chinese medicine body type is most linked to menopause symptoms?", "zh-TW": "哪一種中醫體質與更年期症狀最相關？", ja: "更年期症状と最も関連しやすい中医学の体質はどれですか？" },
+      a: { en: "The Yin Deficient body type. Women with this constitution tend to run warm, sleep lightly, and sweat easily even before midlife. Take our free body type quiz to see if this matches your baseline.", "zh-TW": "是陰虛體質。這類體質的女性偏怕熱、睡得淺。", ja: "陰虚タイプです。この体質の方は暑がりで眠りが浅い傾向があります。" },
+    },
+    {
+      q: { en: "How is Chinese medicine different from HRT for menopause?", "zh-TW": "中醫與荷爾蒙療法治療更年期有何不同？", ja: "更年期に対する中医学とホルモン補充療法の違いは？" },
+      a: { en: "HRT uses estrogen or other hormones to adjust the body's chemistry directly. Chinese medicine instead works with food, lifestyle, and constitution to cool heat and rebuild moistening energy. TCM may complement HRT but does not replace medical treatment.", "zh-TW": "荷爾蒙療法直接調節身體的化學狀態。中醫則透過飲食和生活方式來清熱。中醫可作為輔助。", ja: "ホルモン補充療法はホルモンで直接調整します。中医学は食事と生活習慣で熱を冷やします。" },
+    },
+  ],
+  "chinese-medicine-for-constipation": [
+    {
+      q: { en: "How does Chinese medicine treat constipation differently from laxatives?", "zh-TW": "中醫治療便秘和吃瀉藥有什麼不同？", ja: "中医学は便秘を下剤とどう違う方法で治療しますか？" },
+      a: { en: "Laxatives usually force a bowel movement without asking why it is slow. Chinese medicine first asks which pattern is behind it. Hard dry stools with thirst may point to Heat, straining with fatigue may point to Qi Deficiency, and a tense bloated gut may point to Qi Stagnation. Each calls for different foods.", "zh-TW": "瀉藥直接促進排便而不探究原因。中醫則先找出背後的模式。", ja: "下剤は理由を問わず排便を促します。中医学はまず背後にあるパターンを問います。" },
+    },
+    {
+      q: { en: "What are the best moistening foods for constipation?", "zh-TW": "中醫裡對便秘最好的潤腸食物有哪些？", ja: "中医学で便秘に最も良い潤い食材は？" },
+      a: { en: "For dry-type constipation, black sesame seeds, honey in warm water, pear, ripe banana, and sweet almond are among the most used moistening foods. They add fluids to the intestine and help soften the stool.", "zh-TW": "黑芝麻、溫水蜂蜜、梨、熟香蕉和甜杏仁是最常用的潤腸食物。", ja: "黒ごま、ぬるま湯の蜂蜜、梨、熟したバナナ、甜杏仁がよく使われます。" },
+    },
+    {
+      q: { en: "Why am I always constipated according to Chinese medicine?", "zh-TW": "為什麼中醫說我總是便秘？", ja: "中医学では、なぜいつも便秘なのですか？" },
+      a: { en: "Chronic constipation in TCM usually traces to too little warmth and moisture, too little Qi to push, or blocked flow from stress and sitting. Identifying which dominates helps guide the right foods and habits.", "zh-TW": "通常源自溫度和水分不足、推動力不夠，或壓力和久坐造成的氣滯。", ja: "温さと水分の不足、気の不足、またはストレスや座りすぎによる気の滞りに遡ります。" },
+    },
+    {
+      q: { en: "Which body type is most prone to constipation?", "zh-TW": "哪種體質最容易便秘？", ja: "どの体質が最も便秘になりやすいですか？" },
+      a: { en: "Constipation is common in the Qi Deficient type (low pushing power) and the Qi Stagnant type (tension blocks flow). Dry-type can also show up in types that run warm and dry.", "zh-TW": "氣虛質和氣鬱質最常見。", ja: "気虚タイプと気鬱タイプに多いです。" },
+    },
+    {
+      q: { en: "How long does it take to improve constipation with Chinese medicine foods?", "zh-TW": "用中醫食療改善便秘需要多久？", ja: "中医学の食事で便秘が改善するまでどのくらいかかりますか？" },
+      a: { en: "Many people notice small shifts in ease and regularity within one to two weeks. Deeper improvement may take one to two months, since the body is rebuilding fluids and pushing power rather than forcing a result.", "zh-TW": "一到兩週內可能察覺改善。深層改善可能需要一到兩個月。", ja: "1〜2週間で小さな変化を感じることが多いです。深い改善には1〜2ヶ月かかることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-pcos": [
+    {
+      q: { en: "How does Chinese medicine view PCOS?", "zh-TW": "中醫如何看待 PCOS？", ja: "中医学はPCOSをどう見ていますか？" },
+      a: { en: "TCM does not use the term PCOS. It reads the symptom cluster as a Phlegm Dampness pattern obstructing the lower body, often combined with Kidney deficiency and Liver Qi stagnation. A weak Spleen produces dampness that may settle in the pelvic region.", "zh-TW": "中醫不使用 PCOS 這個詞。它把症狀群看成痰濕阻滯下半身。", ja: "TCMはPCOSという言葉を使いません。症状のセットを痰湿のパターンとして読みます。" },
+    },
+    {
+      q: { en: "What are the best damp-draining foods for PCOS?", "zh-TW": "對 PCOS 最好的利濕食物是什麼？", ja: "PCOSに最適な湿を除く食材は？" },
+      a: { en: "Adzuki beans, coix seed (Job's tears), winter melon, and barley tea are among the most-used foods for draining dampness. Limiting dairy and refined sugar is just as important as what you add.", "zh-TW": "紅豆、薏仁、冬瓜和大麥茶是最常用的利濕食物。", ja: "小豆、ハトムギ、冬瓜、麦茶がよく使われます。" },
+    },
+    {
+      q: { en: "Can Chinese medicine cure PCOS?", "zh-TW": "中醫能治癒 PCOS 嗎？", ja: "中医学はPCOSを治癒できますか？" },
+      a: { en: "No. PCOS requires medical diagnosis and management. TCM food therapy may complement your medical care and support how your body feels, but it does not replace endocrinology care.", "zh-TW": "不能。PCOS 需要醫療診斷和管理。中醫食療可以輔助。", ja: "いいえ。PCOSは医療の診断と管理が必要です。中医学は補助となります。" },
+    },
+    {
+      q: { en: "Which body type is associated with PCOS?", "zh-TW": "PCOS 對應哪種體質？", ja: "PCOSはどの体質に関連していますか？" },
+      a: { en: "PCOS is most often associated with the Phlegm Damp body type. Take our free 5-minute quiz to see whether this matches your constitution.", "zh-TW": "最常對應痰濕體質。", ja: "最も多く痰湿タイプに関連します。" },
+    },
+    {
+      q: { en: "How long might it take to see cycle improvement with TCM foods?", "zh-TW": "中醫食療多久可能改善月經週期？", ja: "中医学の食事療法で周期が改善するまでどのくらいかかりますか？" },
+      a: { en: "Changes tend to appear over weeks or months. Some people notice lighter fluid retention within weeks, while cycle timing may take months. Results vary, and consistency matters more than any single food.", "zh-TW": "變化通常在幾週到幾個月內出現。", ja: "変化は数週間から数ヶ月で現れる傾向があります。" },
+    },
+  ],
+  "chinese-medicine-for-digestion": [
+    {
+      q: { en: "How does Chinese medicine treat digestion problems?", "zh-TW": "中醫如何治療消化問題？", ja: "中医学は消化の問題をどのように治療しますか？" },
+      a: { en: "TCM treats digestion by strengthening the Spleen and Stomach rather than only easing symptoms. Most cases are Spleen Qi Deficiency, so treatment focuses on warm, cooked foods, regular meal times, and avoiding ice water and raw salads.", "zh-TW": "從健脾和胃著手。多數屬脾氣虛，重點是溫熱熟食和定時用餐。", ja: "脾と胃を強めることで治療します。多くは脾気虚なので、温かい食材と規則正しい食事が中心です。" },
+    },
+    {
+      q: { en: "What are the best Chinese medicine foods for bloating?", "zh-TW": "中醫最好的消脹食物有哪些？", ja: "中医学で膨満感に最も良い食材は？" },
+      a: { en: "Warm, cooked foods that strengthen the Spleen and move Qi may help most. Rice congee, ginger tea, fennel seed tea, cooked Chinese yam, and millet porridge are common choices.", "zh-TW": "米粥、薑茶、茴香籽茶、煮熟的山藥和小米粥。", ja: "お粥、しょうが茶、フェンネルティー、山芋、粟粥が一般的です。" },
+    },
+    {
+      q: { en: "Why do I feel tired after eating in Chinese medicine?", "zh-TW": "中醫為什麼飯後會累？", ja: "中医学で食後に疲れるのはなぜ？" },
+      a: { en: "Feeling heavy and tired after meals is a classic sign of Spleen Qi Deficiency. The Spleen lacks the strength to process food efficiently. Smaller warm meals and thorough chewing may help.", "zh-TW": "飯後疲倦是脾氣虛的典型表現。少量溫熱餐點和充分咀嚼有幫助。", ja: "食後のだるさは脾気虚の典型的なサインです。" },
+    },
+    {
+      q: { en: "Which body type has the weakest digestion?", "zh-TW": "哪種體質消化最弱？", ja: "消化が最も弱い体質はどれ？" },
+      a: { en: "The Qi Deficient body type tends to have the most sensitive digestion, with easy bloating, loose stools, and tiredness after eating. Take our free quiz to check.", "zh-TW": "氣虛體質通常消化最敏感。", ja: "気虚タイプが最も消化が敏感な傾向があります。" },
+    },
+    {
+      q: { en: "How long does it take to fix digestion with Chinese medicine?", "zh-TW": "中醫調理消化要多久？", ja: "中医学で消化を改善するのにどのくらいかかりますか？" },
+      a: { en: "Many people notice less bloating within 2 to 4 weeks. Deeper changes like stronger appetite and regular bowel habits may take 2 to 3 months.", "zh-TW": "2到4週內可能減少腹脹。深層改善需要2到3個月。", ja: "2〜4週間で膨満感が軽減することが多いです。深い変化には2〜3ヶ月かかる場合があります。" },
+    },
+  ],
+  "chinese-medicine-for-hot-flashes": [
+    {
+      q: { en: "What causes hot flashes in Chinese medicine?", "zh-TW": "中醫認為熱潮紅是什麼原因？", ja: "中医学ではほてりの原因は何ですか？" },
+      a: { en: "TCM attributes most hot flashes to Yin Deficiency with empty heat. When Kidney Yin runs low, the warming force of Yang has nothing to anchor it, and heat rises upward suddenly. This is most common during perimenopause and menopause.", "zh-TW": "多數來自陰虛伴隨虛熱。腎陰不足時陽熱無所依附。", ja: "多くは陰虚に伴う虚熱に起因します。" },
+    },
+    {
+      q: { en: "What are the best cooling foods for hot flashes?", "zh-TW": "中醫裡對熱潮紅最好的清熱食物是什麼？", ja: "中医学でほてりに最も良い冷性食材は？" },
+      a: { en: "Mung beans, cucumber, pear, watermelon, lotus root, black sesame, tofu, mulberry, and mint tea are among the most used cooling foods. Small regular portions work better than large occasional ones.", "zh-TW": "綠豆、黃瓜、梨、西瓜、蓮藕、黑芝麻、豆腐、桑椹和薄荷茶。", ja: "緑豆、きゅうり、梨、スイカ、レンコン、黒ゴマ、豆腐、クワの実、ミント茶です。" },
+    },
+    {
+      q: { en: "How long do hot flashes last?", "zh-TW": "熱潮紅會持續多久？", ja: "ほてりはどのくらい続きますか？" },
+      a: { en: "Hot flashes often last several years around menopause. Chinese medicine focuses on rebuilding cooling reserves, since the flashes tend to ease as Yin is gradually restored through food and rest.", "zh-TW": "常在更年期前後持續數年。中醫著重逐步修復降溫儲備。", ja: "更年期前後で数年続くことが多いです。" },
+    },
+    {
+      q: { en: "Which body type is most prone to hot flashes?", "zh-TW": "哪種體質最容易有熱潮紅？", ja: "どの体質が最もほてりが出やすいですか？" },
+      a: { en: "The Yin Deficient body type. People with this constitution tend to run warm, feel dry, and sweat easily even before midlife.", "zh-TW": "陰虛體質。偏熱偏乾。", ja: "陰虚タイプです。" },
+    },
+    {
+      q: { en: "What is the difference between hot flashes and night sweats in TCM?", "zh-TW": "中醫裡熱潮紅和夜間盜汗有什麼不同？", ja: "中医学でほてりと寝汗の違いは？" },
+      a: { en: "Both stem from empty heat rising when Yin is low. Hot flashes are sudden waves during the day. Night sweats are the same heat breaking out as sweating during sleep.", "zh-TW": "都源自陰虛虛熱。熱潮紅在白天，盜汗在夜間睡眠時。", ja: "どちらも陰虚の虚熱に由来します。ほてりは日中、寝汗は睡眠中です。" },
+    },
+  ],
+  "chinese-medicine-for-acid-reflux": [
+    {
+      q: { en: "What does Chinese medicine say causes acid reflux?", "zh-TW": "中醫認為胃酸倒流是什麼原因？", ja: "中医学では胃酸逆流の原因を何としていますか？" },
+      a: { en: "In TCM, acid reflux usually means the Stomach's downward flow has reversed. The most common patterns are Stomach Heat and Liver Qi invading the Stomach from stress.", "zh-TW": "通常表示胃氣反向上逆。最常見的是胃熱和肝氣犯胃。", ja: "通常、胃の下降流が逆転した状態を意味します。最も多いのは胃熱と肝気の胃への侵入です。" },
+    },
+    {
+      q: { en: "What foods help acid reflux in Chinese medicine?", "zh-TW": "中醫說胃酸倒流吃什麼好？", ja: "中医学で胃酸逆流に良い食材は？" },
+      a: { en: "Cooling, moistening foods like mung bean soup, pear, lotus root, and millet porridge may help calm stomach fire. Chinese yam and papaya are gentler options.", "zh-TW": "綠豆湯、梨、蓮藕和小米粥。山藥和木瓜較溫和。", ja: "緑豆スープ、梨、レンコン、粟粥が胃火を鎮めるのに役立ちます。" },
+    },
+    {
+      q: { en: "Is acid reflux always Stomach Heat in TCM?", "zh-TW": "胃酸倒流在中醫一定是胃熱嗎？", ja: "中医学で胃酸逆流は必ず胃熱ですか？" },
+      a: { en: "No. Stomach Heat is most common, but reflux can also come from Liver Qi invading the Stomach, food stagnation, or Spleen Qi Deficiency. The right foods depend on the pattern.", "zh-TW": "不一定。也可能是肝氣犯胃、食積或脾氣虛。", ja: "いいえ。肝気の侵入、食滞、脾気虚からも来ます。" },
+    },
+    {
+      q: { en: "What foods should I avoid with acid reflux?", "zh-TW": "胃酸倒流要避免什麼食物？", ja: "胃酸逆流で避けるべき食材は？" },
+      a: { en: "Limit spicy food, alcohol, strong coffee, fried dishes, and excessive citrus. Finish dinner at least three hours before bed to reduce night-time reflux.", "zh-TW": "限制辛辣食物、酒精、濃咖啡、油炸食物。睡前至少三小時吃完晚餐。", ja: "辛いもの、アルコール、濃いコーヒー、揚げ物を控えてください。" },
+    },
+    {
+      q: { en: "When should I see a doctor for acid reflux?", "zh-TW": "胃酸倒流何時該看醫生？", ja: "胃酸逆流でいつ医師に診てもらうべき？" },
+      a: { en: "See a doctor if reflux is frequent, wakes you at night, or does not improve with diet changes. Chronic acid exposure can be associated with GERD or Barrett's esophagus.", "zh-TW": "如果頻繁、夜間痛醒或改變飲食後仍無改善，請看醫生。", ja: "頻繁な場合や夜間に目が覚める場合は医師にご相談ください。" },
+    },
+  ],
+  "chinese-medicine-for-bloating": [
+    {
+      q: { en: "Why am I always bloated according to Chinese medicine?", "zh-TW": "中醫認為為什麼總是腹脹？", ja: "中医学では、なぜいつもお腹が張るのですか？" },
+      a: { en: "Chronic bloating usually means the Spleen cannot fully process food and fluids. The two main patterns are Spleen Qi Deficiency and Liver Qi Stagnation, each needing different foods.", "zh-TW": "通常表示脾無法完全處理食物和水分。兩大主證是脾氣虛和肝氣鬱結。", ja: "通常、脾が完全に処理できないことを意味します。主な二つは脾気虚と肝気鬱結です。" },
+    },
+    {
+      q: { en: "What foods help reduce bloating in Chinese medicine?", "zh-TW": "中醫說腹脹吃什麼好？", ja: "中医学でお腹の張りに良い食材は？" },
+      a: { en: "Warm, cooked, gently moving foods are the main direction. Ginger tea, fennel seed tea, millet porridge, and Chinese yam may help the Spleen digest and move gas.", "zh-TW": "薑茶、茴香籽茶、小米粥和山藥。", ja: "しょうが茶、フェンネルティー、粟粥、山芋などです。" },
+    },
+    {
+      q: { en: "Is bloating a sign of Spleen Qi Deficiency?", "zh-TW": "腹脹是脾氣虛的徵兆嗎？", ja: "お腹の張りは脾気虚の兆候ですか？" },
+      a: { en: "It can be. Bloating after eating with fatigue and loose stools may point to Spleen Qi Deficiency. Bloating that fluctuates with mood is more likely Liver Qi Stagnation.", "zh-TW": "有可能。飯後腹脹伴疲勞可能是脾氣虛。隨情緒變化的腹脹更可能是肝氣鬱結。", ja: "可能性があります。食後の張りに疲労を伴う場合は脾気虚のことがあります。" },
+    },
+    {
+      q: { en: "What foods cause bloating in TCM?", "zh-TW": "中醫認為什麼食物會引起腹脹？", ja: "中医学で腹張りの原因となる食材は？" },
+      a: { en: "Ice water, raw cold salads, excessive unsoaked beans, dairy, carbonated drinks, and chewing gum tend to cause bloating. Eating too fast and irregular meal times also contribute.", "zh-TW": "冰水、生冷沙拉、豆類、乳製品、碳酸飲料。", ja: "氷水、生野菜サラダ、豆類、乳製品、炭酸飲料などです。" },
+    },
+    {
+      q: { en: "Does stress cause bloating in Chinese medicine?", "zh-TW": "中醫認為壓力會引起腹脹嗎？", ja: "中医学ではストレスは腹張りの原因になりますか？" },
+      a: { en: "Yes. The Liver keeps energy flowing and is sensitive to mood. Stress can tighten that flow so energy stagnates around the gut, producing bloating that comes and goes with emotion.", "zh-TW": "會。壓力讓肝氣鬱結，能量在腸胃周圍停滯。", ja: "はい。ストレスが気の流れを締め付け、腸の周りで滞らせます。" },
+    },
+  ],
 }
