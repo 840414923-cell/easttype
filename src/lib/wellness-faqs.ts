@@ -472,4 +472,26 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Most people notice calmer sleep and less anxiety within two to four weeks of consistent dietary changes, while deeper improvement in night sweats and palpitations may take two to three months. Chinese medicine food therapy works gradually by rebuilding the cooling reserve, so consistency matters more than occasional perfect meals.", "zh-TW": "大多數人在持續改變飲食兩到四週後感到睡眠較安穩、焦慮減輕，而盜汗和心悸的深層改善可能需要兩到三個月。中醫食療通過重建冷卻儲備逐步起效，因此堅持比偶爾完美一餐更重要。", ja: "多くの人は食事を2〜4週間続けると睡眠が穏やかになり不安が軽減しますが、寝汗や動悸の深い改善には2〜3ヶ月かかることがあります。中医学の食療は冷却の蓄えを徐々に再構築するため、たまの完璧な食事より継続が重要です。" },
     },
   ],
+  "chinese-medicine-for-insomnia": [
+    {
+      q: { en: "How does Chinese medicine treat insomnia differently from Western medicine?", "zh-TW": "中醫治療失眠和西醫有什麼不同？", ja: "中医学は不眠を西洋医学とどう違う方法で治療しますか？" },
+      a: { en: "Western medicine typically treats insomnia with sleep hygiene, CBT, or medications that target the nervous system. Chinese medicine first identifies the underlying pattern causing the mind to stay restless. For example, Heart Yin Deficiency, Liver Fire, or Blood Deficiency each require different foods and habits. The goal is to restore balance so sleep comes naturally rather than forcing the body to shut down.", "zh-TW": "西醫通常用睡眠衛生、認知行為治療或藥物來治療失眠。中醫則先找出讓心神不寧的根本模式。例如心陰虛、肝火或血虛，每種需要不同的食物和習慣。", ja: "西洋医学は通常、睡眠衛生、認知行動療法、または神経系に作用する薬で不眠を治療します。中医学はまず、心神を落ち着かせない根本的なパターンを特定します。" },
+    },
+    {
+      q: { en: "Why do I keep waking up at 3 AM in Chinese medicine?", "zh-TW": "中醫認為為什麼我老是凌晨三點醒來？", ja: "中医学ではなぜ午前3時に目が覚めるのですか？" },
+      a: { en: "In the TCM organ clock, 1 to 3 AM is Liver time. Waking during this window may suggest Liver Fire or Liver Qi Stagnation, where stress and frustration held in the body generate heat that disturbs sleep. Waking around 3 to 5 AM is associated with Lung time. Identifying your exact waking time can help narrow down which pattern is involved.", "zh-TW": "在中醫子午流注中，凌晨1到3點是肝經時間。這時段醒來可能表示肝火或肝氣鬱結。3到5點醒來則與肺經有關。", ja: "中医学の経絡時計では、午前1時から3時は肝の時間です。この時間に目が覚めるのは、肝火や肝気鬱結を示唆することがあります。" },
+    },
+    {
+      q: { en: "What foods help with insomnia in Chinese medicine?", "zh-TW": "中醫裡什麼食物有助於睡眠？", ja: "中医学で不眠に良い食材は？" },
+      a: { en: "It depends on the pattern. For Heart Yin Deficiency, lotus seed, lily bulb, and wheat may help. For Blood Deficiency, red dates and longan fruit are classic choices. For Liver Fire, chrysanthemum tea is traditionally used. A small bowl of warm millet porridge 1-2 hours before bed may support digestion and sleep for most patterns.", "zh-TW": "取決於體質。心陰虛可用蓮子、百合和小麥。血虛可用紅棗和龍眼。肝火可用菊花茶。睡前1-2小時一小碗溫小米粥適合大多數體質。", ja: "パターンによります。心陰虚には蓮子、ゆり根、小麦が役立つことがあります。血虚にはなつめと竜眼が古典的な選択です。肝火には菊茶が伝統的に使われます。" },
+    },
+    {
+      q: { en: "Can Chinese medicine cure insomnia completely?", "zh-TW": "中醫能完全治癒失眠嗎？", ja: "中医学で不眠を完全に治せますか？" },
+      a: { en: "Chinese medicine does not promise a cure for all types of insomnia. For sleep issues related to stress, dietary habits, aging, or constitutional tendencies, food therapy and lifestyle adjustments may lead to significant improvement over weeks to months. For insomnia caused by medical conditions like sleep apnea or thyroid disorders, professional medical treatment is essential and TCM approaches may only serve as a complement.", "zh-TW": "中醫不保證治癒所有類型的失眠。對於與壓力、飲食、老化或體質相關的睡眠問題，食療和生活方式調整可能在數週到數月內帶來顯著改善。對於睡眠呼吸中止症或甲狀腺疾病等引起的失眠，必須接受專業醫療。", ja: "中医学はあらゆるタイプの不眠の治癒を約束するものではありません。ストレス、食習慣、加齢、体質に関連する睡眠問題には、食事療法と生活習慣の調整が数週間から数ヶ月で大幅な改善をもたらす可能性があります。" },
+    },
+    {
+      q: { en: "Which body type is most prone to insomnia?", "zh-TW": "哪種體質最容易失眠？", ja: "どの体質が最も不眠になりやすいですか？" },
+      a: { en: "The Yin Deficient and Qi Stagnant body types are most commonly associated with insomnia. Yin Deficient types tend toward Heart Yin patterns with racing mind and night sweats. Qi Stagnant types more often develop Liver-based insomnia with waking between 1 and 3 AM. Take our free 5-minute quiz to discover your type.", "zh-TW": "陰虛質和氣鬱質最常與失眠相關。陰虛質傾向心陰虛模式，思緒奔湧和盜汗。氣鬱質則常發展為肝型失眠，凌晨1到3點醒來。", ja: "陰虚タイプと気鬱タイプが最も不眠と関連しやすいです。陰虚タイプは心陰虚パターンに傾き、気鬱タイプは午前1時から3時の覚醒を伴う肝型不眠を発症しやすいです。" },
+    },
+  ],
 }

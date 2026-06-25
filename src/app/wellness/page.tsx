@@ -96,6 +96,13 @@ const articles = [
     readTime: "10 min",
   },
   {
+    slug: "chinese-medicine-for-insomnia",
+    title: "Chinese Medicine for Insomnia: Why You Can&apos;t Sleep and What May Help",
+    excerpt: "Falling asleep or staying asleep? Chinese medicine identifies four insomnia patterns. Learn which foods and habits match your type.",
+    tag: "Nutrition",
+    readTime: "12 min",
+  },
+  {
     slug: "what-is-chinese-medicine",
     title: "What Is Chinese Medicine? A Complete Beginner's Guide to TCM",
     excerpt: "Everything you need to know about TCM: what it is, how it works, the 5 branches, 9 body types, and how it differs from Western medicine.",
