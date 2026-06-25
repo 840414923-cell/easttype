@@ -494,4 +494,92 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Yin Deficient and Qi Stagnant body types are most commonly associated with insomnia. Yin Deficient types tend toward Heart Yin patterns with racing mind and night sweats. Qi Stagnant types more often develop Liver-based insomnia with waking between 1 and 3 AM. Take our free 5-minute quiz to discover your type.", "zh-TW": "陰虛質和氣鬱質最常與失眠相關。陰虛質傾向心陰虛模式，思緒奔湧和盜汗。氣鬱質則常發展為肝型失眠，凌晨1到3點醒來。", ja: "陰虚タイプと気鬱タイプが最も不眠と関連しやすいです。陰虚タイプは心陰虚パターンに傾き、気鬱タイプは午前1時から3時の覚醒を伴う肝型不眠を発症しやすいです。" },
     },
   ],
+  "chinese-medicine-for-anxiety": [
+    {
+      q: { en: "How does Chinese medicine treat anxiety differently from Western medicine?", "zh-TW": "中醫治療焦慮和西醫有什麼不同？", ja: "中医学は不安を西洋医学とどう違う方法で治療しますか？" },
+      a: { en: "Western medicine typically treats anxiety with therapy or medications that target neurotransmitters in the brain. Chinese medicine first identifies which organ pattern is involved, such as Liver Qi Stagnation or Heart Yin Deficiency, then uses foods and habits aimed at that specific imbalance. The goal is to restore internal balance so the mind settles naturally, rather than only quieting the alarm signal.", "zh-TW": "西醫通常用心理治療或作用於大腦神經傳導物質的藥物來治療焦慮。中醫則先辨別涉及的臟腑模式，例如肝氣鬱結或心陰虛，再用針對該失衡的食物和習慣來調理。目標是恢復內在平衡，讓心神自然安寧，而不只是壓制警報訊號。", ja: "西洋医学は通常、脳の神経伝達物質に作用する心理療法や薬で不安を治療します。中医学はまず肝気鬱結や心陰虚など、どの臓腑パターンが関与しているかを特定し、その不均衡に合わせた食材と習慣を用います。目的は内側のバランスを整えて心神が自然に落ち着くようにすることであり、警報信号を静めるだけではありません。" },
+    },
+    {
+      q: { en: "What are the best calming foods for anxiety in Chinese medicine?", "zh-TW": "中醫裡什麼食物最能安撫焦慮？", ja: "中医学で不安を鎮める最も良い食材は？" },
+      a: { en: "It depends on the pattern. For Liver Qi Stagnation, chrysanthemum tea may help move stuck energy. For Heart Yin Deficiency, lotus seed and lily bulb are traditional choices. For Blood Deficiency, red dates and longan fruit help build the Blood that grounds the mind. Warm, simple meals also support the Spleen, which stabilizes the mind through the day.", "zh-TW": "取決於體質。肝氣鬱結可用菊花茶幫助疏通鬱結的能量。心陰虛可用蓮子和百合。血虛可用紅棗和龍眼來生養安神所需的血。溫熱清淡的餐食也能健運脾胃，讓心神在白天保持安穩。", ja: "パターンによります。肝気鬱結には菊茶が滞った気を動かすのに役立つことがあります。心陰虚には蓮子とゆり根が伝統的な選択です。血虚には、心神を安定させる血を作るなつめと竜眼が役立ちます。温かくシンプルな食事は脾も支え、一日を通して心神を安定させます。" },
+    },
+    {
+      q: { en: "Which body type is most prone to anxiety?", "zh-TW": "哪種體質最容易焦慮？", ja: "どの体質が最も不安になりやすいですか？" },
+      a: { en: "The Qi Stagnant body type (气郁质) is most commonly associated with anxiety, especially forms that come with irritability, chest tightness, and mood swings. The Yin Deficient type may also experience anxiety with palpitations and a racing mind at night. Take our free 5-minute quiz to find your type.", "zh-TW": "氣鬱體質（气郁质）最常與焦慮相關，尤其是伴隨煩躁、胸悶和情緒波動的類型。陰虛質也可能出現焦慮，伴隨心悸和夜間思緒奔湧。做我們的免費5分鐘測驗，找出你的體質。", ja: "気鬱タイプ（気鬱質）が最も不安と関連しやすく、特にイライラ、胸の圧迫感、気分の波を伴う場合に多いです。陰虚タイプも動悸や夜間の思考の加速を伴う不安を経験することがあります。無料の5分クイズであなたの体質を確認してください。" },
+    },
+    {
+      q: { en: "Can Chinese medicine replace anxiety medication?", "zh-TW": "中醫能取代焦慮藥物嗎？", ja: "中医学は不安の薬に代われますか？" },
+      a: { en: "No. Chinese medicine should not replace prescribed anxiety medication or professional therapy. Anxiety disorders are serious medical conditions. Food therapy and lifestyle adjustments may complement professional care, but any change to medication should always be discussed with your prescribing doctor first.", "zh-TW": "不能。中醫不應取代處方焦慮藥物或專業心理治療。焦慮症是嚴重的醫療狀況。食療和生活方式調整可作為專業治療的輔助，但任何藥物調整都應先與開藥醫師討論。", ja: "いいえ。中医学は処方された不安薬や専門的な心理療法に代わるものではありません。不安障害は深刻な医療状態です。食事療法や生活習慣の調整は専門治療を補完する可能性がありますが、薬の変更は必ず処方医と相談してください。" },
+    },
+    {
+      q: { en: "How long does it take to see improvement with Chinese medicine for anxiety?", "zh-TW": "中醫改善焦慮需要多久？", ja: "中医学で不安が改善するまでどのくらいかかりますか？" },
+      a: { en: "Many people notice subtle shifts in sleep and tension within two to four weeks of consistent dietary and lifestyle changes. Deeper improvement in patterns like Heart Yin Deficiency may take two to three months. Chinese medicine food therapy works gradually by rebuilding balance, so steady daily practice matters more than occasional effort.", "zh-TW": "許多人持續調整飲食和生活兩到四週後，會感覺睡眠和緊繃感有細微變化。心陰虛等模式的深層改善可能需要兩到三個月。中醫食療通過重建平衡逐步起效，因此每日穩定堅持比偶爾努力更重要。", ja: "多くの人は食事と生活を2〜4週間続けると睡眠や緊張にわずかな変化を感じます。心陰虚などのパターンの深い改善には2〜3ヶ月かかることがあります。中医学の食療はバランスを徐々に再構築するため、たまの努力より毎日の継続が重要です。" },
+    },
+  ],
+  "chinese-medicine-for-fatigue": [
+    {
+      q: { en: "How does Chinese medicine treat fatigue differently from Western medicine?", "zh-TW": "中醫治療疲勞和西醫有什麼不同？", ja: "中医学は疲労を西洋医学とどう違う方法で治療しますか？" },
+      a: { en: "Western medicine tends to look for a specific disease or deficiency, such as a thyroid disorder or low iron. Chinese medicine first asks which organ system is struggling and why. Chronic tiredness may be Spleen Qi Deficiency, Kidney Yang Deficiency, or another pattern entirely, and each calls for different foods and habits. The goal is to rebuild the body's ability to generate energy rather than only masking the tiredness.", "zh-TW": "西醫傾向尋找特定疾病或缺乏，例如甲狀腺問題或缺鐵。中醫則先問哪個臟腑失調以及原因。慢性疲倦可能是脾氣虛、腎陽虛或其他完全不同的模式，每種都需要不同的食物和習慣。目標是重建身體產生能量的能力，而不只是掩蓋疲倦。", ja: "西洋医学は通常、甲状腺の障害や鉄不足など、特定の疾患や欠乏を探します。中医学はまずどの臓腑が弱っているか、そしてその理由を問います。慢性の疲労は脾気虚、腎陽虚、あるいはまったく別のパターンの可能性があり、それぞれに異なる食材と習慣が必要です。目的は、疲労を隠すことではなく、体がエネルギーを生み出す力を再構築することです。" },
+    },
+    {
+      q: { en: "What are the best energy foods for fatigue in Chinese medicine?", "zh-TW": "中醫裡什麼食物最能補充能量？", ja: "中医学で疲労に最も良いエネルギー食材は？" },
+      a: { en: "For most Qi and Yang deficient patterns, warm and easily digested foods are the foundation. Rice congee, sweet potato, Chinese dates (jujube), Chinese yam, and ginger tea are traditional choices. Chicken broth and millet porridge may also support the Spleen. Cold drinks, raw salads, and excessive coffee tend to do the opposite and may worsen tiredness over time.", "zh-TW": "對大多數氣虛和陽虛體質來說，溫熱且易消化的食物是基礎。米粥、地瓜、紅棗、山藥和薑茶是傳統選擇。雞湯和小米粥也能健運脾胃。冰水、生沙拉和過量咖啡則相反，長期可能加重疲倦。", ja: "ほとんどの気虚および陽虚パターンでは、温かく消化しやすい食材が基本です。お粥、さつまいも、なつめ、山芋、しょうが茶が伝統的な選択です。鶏スープやきび粥も脾を支えることがあります。冷水、生野菜サラダ、過度なコーヒーは逆効果となり、長期的には疲労を悪化させる可能性があります。" },
+    },
+    {
+      q: { en: "Why am I always tired even after a full night of sleep?", "zh-TW": "為什麼睡滿一整晚還是累？", ja: "たっぷり眠ったのにいつも疲れているのはなぜですか？" },
+      a: { en: "In TCM, sleep does not create new energy by itself; the Spleen creates energy from food, and the Kidneys store the body's reserve. If the Spleen is weak, eating may leave you more tired. If the Kidney reserve is depleted, no amount of sleep feels restorative. This is why tiredness that persists despite sleep can be associated with Qi or Yang Deficiency rather than a lack of hours in bed.", "zh-TW": "在中醫裡，睡眠本身不會產生新能量；脾從食物產生能量，腎則儲存身體的儲備。如果脾弱，吃飯反而更累。如果腎的儲備耗盡，再多的睡眠也不覺得恢復。這就是為什麼睡滿了還是累，可能與氣虛或陽虛有關，而不是臥床時數不夠。", ja: "中医学では、睡眠そのものが新しいエネルギーを作るわけではありません。脾が食材からエネルギーを作り、腎が体の予備を蓄えます。脾が弱ければ、食事の後にさらに疲れを感じることがあります。腎の予備が枯渇していれば、どれほど眠っても回復しません。十分眠っても疲れが残るのは、睡眠時間の不足ではなく気虚や陽虚に関連していることがあります。" },
+    },
+    {
+      q: { en: "Which body type is most prone to chronic fatigue?", "zh-TW": "哪種體質最容易慢性疲勞？", ja: "どの体質が最も慢性疲労になりやすいですか？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with chronic low energy, especially tiredness after eating, a soft voice, and easy sweating. The Yang Deficient type may feel exhausted and cold at the same time. Take our free 5-minute quiz to find your type and the foods that match it.", "zh-TW": "氣虛體質最常與慢性低能量相關，尤其是飯後疲倦、聲音低弱和容易出汗。陽虛質則可能同時感到疲憊和怕冷。做我們的免費5分鐘測驗，找出你的體質和適合的食物。", ja: "気虚タイプが最も慢性の低エネルギーと関連しやすく、特に食後の疲労、弱い声、汗をかきやすい傾向があります。陽虚タイプは疲労と同時に寒がりです。無料の5分クイズであなたの体質と合う食材を確認してください。" },
+    },
+    {
+      q: { en: "How long does it take to rebuild Qi and energy with food?", "zh-TW": "靠食療重建氣和能量需要多久？", ja: "食事で気とエネルギーを回復するのにどのくらいかかりますか？" },
+      a: { en: "Chinese medicine food therapy works gradually by rebuilding the Spleen's ability to generate energy. Many people notice small shifts in morning energy and post-meal heaviness within two to four weeks of consistent warm meals and regular rhythms. Deeper improvement in long-standing Kidney or Spleen patterns may take two to three months. Steady daily practice matters more than occasional effort.", "zh-TW": "中醫食療通過重建脾產生能量的能力而逐步起效。許多人持續溫熱飲食和規律作息兩到四週後，會感覺早晨精神和飯後沉重感有細微變化。長期腎或脾模式的深層改善可能需要兩到三個月。每日穩定堅持比偶爾努力更重要。", ja: "中医学の食療は、脾がエネルギーを作り出す力を徐々に再構築することで作用します。温かい食事と規則正しいリズムを2〜4週間続けると、朝のエネルギーや食後の重さに小さな変化を感じる人が多いです。長年の腎や脾のパターンの深い改善には2〜3ヶ月かかることがあります。たまの努力より毎日の継続が重要です。" },
+    },
+  ],
+  "chinese-medicine-for-weight-loss": [
+    {
+      q: { en: "How does Chinese medicine approach weight loss?", "zh-TW": "中醫如何看待減重？", ja: "中医学は減量にどのようにアプローチしますか？" },
+      a: { en: "TCM does not focus on calorie counting. It looks at why your body holds onto weight, usually pointing to Spleen Dampness, Yang Deficiency, or Qi Stagnation. Food therapy, warm cooked meals, and habits that move fluids are the main tools, and the goal is steadier energy and lighter limbs rather than rapid loss.", "zh-TW": "中醫不著重計算卡路里。它會找出身體留住體重的原因，通常指向脾濕、陽虛或氣滯。", ja: "中医学はカロリー計算に重点を置きません。体が体重を溜め込む理由を探り、通常は脾湿、陽虚、気鬱を指し示します。" },
+    },
+    {
+      q: { en: "Which foods drain dampness best in Chinese medicine?", "zh-TW": "中醫中哪些食物最能排濕？", ja: "中医学で湿気を除くのに最も適した食材は？" },
+      a: { en: "Adzuki beans, coix seed (Job's tears), winter melon, lotus leaf tea, and barley tea are among the most commonly recommended damp-draining foods. They are usually eaten warm and cooked, since raw and cold items can add to the very dampness you are trying to clear.", "zh-TW": "紅豆、薏仁、冬瓜、荷葉茶和大麥茶是最常推薦的排濕食物。", ja: "小豆、ハトムギ、冬瓜、蓮葉茶、麦茶が、湿気を除く食材として最もよく勧められます。" },
+    },
+    {
+      q: { en: "Which Chinese medicine body type tends to hold weight?", "zh-TW": "哪種中醫體質容易囤積體重？", ja: "体重を溜め込みやすい中医学の体質は？" },
+      a: { en: "The Phlegm Damp body type is most prone to holding weight, because its constitution processes fluids more slowly and dampness builds easily. Yang Deficient types can also carry cold-type weight, and Qi Stagnant types may gain weight through emotional eating. Our free body type quiz can help identify your pattern.", "zh-TW": "痰濕體質最容易囤積體重。陽虛體質也可能帶有寒性體重，氣鬱體質則可能因情緒性進食而增重。", ja: "痰湿タイプが最も体重を溜め込みやすいです。陽虚タイプも寒性の体重を抱えやすく、気鬱タイプは感情的な食べ過ぎで太ることがあります。" },
+    },
+    {
+      q: { en: "Is acupuncture helpful for weight loss?", "zh-TW": "針灸對減重有幫助嗎？", ja: "鍼灸は減量に効果がありますか？" },
+      a: { en: "Acupuncture is sometimes used alongside food therapy to support digestion and reduce cravings, though results vary and it is not a standalone solution. If you try it, look for a licensed practitioner and pair it with diet and lifestyle changes rather than expecting results on its own.", "zh-TW": "針灸有時會與食療搭配，用來支持消化並減少嘴饞，但效果因人而異，並非獨立的解決方案。", ja: "鍼灸は食養生と併せて消化を支え、食欲を抑えるために使われることがありますが、効果には個人差があり、単独の解決策ではありません。" },
+    },
+    {
+      q: { en: "How long does it take to see results with Chinese medicine for weight loss?", "zh-TW": "用中醫減重多久能看到效果？", ja: "中医学での減量は結果が出るまでどのくらいかかりますか？" },
+      a: { en: "TCM works gradually, and most people notice changes in energy, digestion, and the feeling of heaviness over several weeks to a few months before seeing shifts on the scale. Rapid loss is not the aim, and consistency with foods and habits matters more than any single remedy.", "zh-TW": "中醫作用溫和，多數人在幾週到幾個月內會先察覺到能量、消化和沉重感改善。快速減重並非目標。", ja: "中医学はゆっくりと働き、ほとんどの人は体重計の変化よりも先に、数週間から数か月でエネルギー、消化、だるさの改善に気づきます。" },
+    },
+  ],
+  "chinese-medicine-for-acne": [
+    {
+      q: { en: "How does Chinese medicine treat acne differently from Western skincare?", "zh-TW": "中醫治療痘痘和西醫保養有什麼不同？", ja: "中医学はニキビを西洋のスキンケアとどう違う方法で扱いますか？" },
+      a: { en: "Western skincare usually targets the surface, drying out each blemish with topical products. Chinese medicine looks at the internal pattern behind the breakout, most often Heat and Damp-Heat rising to the face, and uses cooling foods and habits to address that root. The two approaches can work well together.", "zh-TW": "西醫保養通常針對表面。中醫看痘痘背後的內在模式，最常見的是熱和濕熱上蒸到臉部。", ja: "西洋のスキンケアは通常、表面を狙います。中医学はニキビの背後にある内側のパターンを見ます。" },
+    },
+    {
+      q: { en: "What are the best cooling foods for acne in Chinese medicine?", "zh-TW": "中醫裡對痘痘最好的清熱食物是什麼？", ja: "中医学でニキビに最も良い冷性食材は？" },
+      a: { en: "Mung beans, green tea, cucumber, pear, lotus root, bitter gourd, and winter melon are among the most used cooling foods. They help clear Heat and drain Dampness, the two forces most often linked to inflamed breakouts. Small regular portions work better than occasional large ones.", "zh-TW": "綠豆、綠茶、黃瓜、梨、蓮藕、苦瓜和冬瓜是最常用的清熱食物。", ja: "緑豆、緑茶、きゅうり、梨、レンコン、ゴーヤ、トウガンは最もよく使われる冷性食材です。" },
+    },
+    {
+      q: { en: "Which Chinese medicine body type is most prone to acne?", "zh-TW": "哪種中醫體質最容易長痘？", ja: "どの中医学の体質が最もニキビが出やすいですか？" },
+      a: { en: "The Damp Heat body type is the constitution most prone to acne. People with this type tend to run warm and slightly sticky, especially in humid weather. About 8 percent of people fall into this group. You can check your own type with our free body type quiz.", "zh-TW": "濕熱體質最容易長痘。約8%的人屬於這一類。", ja: "湿熱タイプが最もニキビが出やすい体質です。約8%の人がこのグループに入ります。" },
+    },
+    {
+      q: { en: "Why do I get acne on my jaw line before my period?", "zh-TW": "為什麼經期前會在顎線長痘？", ja: "なぜ生理前に顎ラインにニキビができるのですか？" },
+      a: { en: "In Chinese medicine, the jaw line and chin map to the Liver and Kidney systems, which shift with the menstrual cycle. Hormonal changes before a period can stir up Liver Fire or add to Damp-Heat. Tracking breakouts alongside your cycle may help reduce flare-ups.", "zh-TW": "在中醫裡，下巴和顎線對應肝和腎，會隨月經週期變化。經期前的荷爾蒙波動可能助長肝火或加重濕熱。", ja: "中医学では、顎ラインとあごは肝と腎の系統に対応し、月経周期で変化します。生理前のホルモンの変動が肝火を煽ったり湿熱を加えたりします。" },
+    },
+    {
+      q: { en: "How long does it take to see clearer skin with Chinese medicine foods?", "zh-TW": "吃中醫食療多久能看到膚質改善？", ja: "中医学の食事で肌がきれいになるまでどのくらいかかりますか？" },
+      a: { en: "Surface changes, like less oiliness and fewer new blemishes, may appear within one to three weeks of consistent cooling foods and steadier sleep. Deeper changes, such as fewer cystic breakouts and lighter marks, usually take two to three months because the work happens from the inside out.", "zh-TW": "出油減少、新痘痘變少等表面變化，可能在持續一到三週內出現。更深層的改變通常需要兩到三個月。", ja: "皮脂の減少や新しいニキビの減少など表面の変化は、1〜3週間で現れることがあります。より深い変化には通常2〜3ヶ月かかります。" },
+    },
+  ],
 }
