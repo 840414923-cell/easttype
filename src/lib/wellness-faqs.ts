@@ -860,4 +860,112 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Pre-Heaven Jing cannot be replaced. Post-Heaven Jing can be supplemented. The aim is to slow depletion through nourishing food and rest.", "zh-TW": "先天之精無法替換。後天之精可補充。", ja: "先天の精は取り戻せませんが、後天の精は補えます。" },
     },
   ],
+  "chinese-herbs-for-energy": [
+    {
+      q: { en: "What is the best Chinese herb for energy?", "zh-TW": "什麼中藥材最補氣？", ja: "エネルギーに最も良い生薬は？" },
+      a: { en: "There is no single best herb. Ginseng is strongest for true deficiency, astragalus is gentler for fatigue with weak digestion, and jujube dates with goji are mild enough for daily use. Match the herb to your pattern.", "zh-TW": "沒有單一最好的藥材。人參最強，黃耆較溫和，紅棗與枸杞可每天用。", ja: "最も良い生薬は一つではありません。体質に合わせて選んでください。" },
+    },
+    {
+      q: { en: "Do Chinese herbs work as fast as caffeine?", "zh-TW": "中藥和咖啡因一樣快嗎？", ja: "生薬はカフェインと同じくらい速効しますか？" },
+      a: { en: "No. Caffeine stimulates in minutes then crashes. Chinese tonic herbs work gradually, taking weeks of consistent use. The benefit is steadier because herbs rebuild your body's own energy rather than borrowing from tomorrow.", "zh-TW": "咖啡因幾分鐘見效但隨後崩潰。中藥作用緩慢，需要數週。", ja: "カフェインは数分で効いて急降下しますが、生薬は徐々に働きます。" },
+    },
+    {
+      q: { en: "Can I take Chinese herbs for energy every day?", "zh-TW": "補氣中藥可以每天吃嗎？", ja: "生薬は毎日飲めますか？" },
+      a: { en: "Mild food-like tonics such as jujube dates, goji berries, and Chinese yam are generally safe daily. Stronger herbs like ginseng should not be taken long-term without guidance.", "zh-TW": "紅棗、枸杞、山藥等溫和補品可每天用。人參等強藥不宜長期自行服用。", ja: "なつめやクコの実は毎日安全ですが、人参は指導なしの長期服用を避けてください。" },
+    },
+    {
+      q: { en: "Are Chinese energy herbs safe?", "zh-TW": "補氣中藥安全嗎？", ja: "生薬は安全ですか？" },
+      a: { en: "Generally gentler than pharmaceuticals, but gentle does not mean harmless. Ginseng may interact with blood thinners. Licorice in excess may raise blood pressure. Consult a licensed practitioner.", "zh-TW": "通常比西藥溫和，但溫和不等於無害。請諮詢合格中醫師。", ja: "西洋薬より穏やかですが、無害ではありません。有資格の中医師に相談してください。" },
+    },
+  ],
+  "tcm-diet": [
+    {
+      q: { en: "What is a TCM diet?", "zh-TW": "什麼是中醫飲食？", ja: "中医学の食事とは？" },
+      a: { en: "A TCM diet is not about counting calories. It is about eating warm, cooked, seasonal foods matched to your body type. The Spleen thrives on warmth and regularity.", "zh-TW": "不在計算熱量，而在吃溫熱、煮熟、當季且符合體質的食物。", ja: "カロリー計算ではなく、温かく調理した旬の食材を体質に合わせて食べることです。" },
+    },
+    {
+      q: { en: "Why does Chinese medicine say to avoid raw food?", "zh-TW": "為什麼中醫說少吃生食？", ja: "なぜ生食を避けるのか？" },
+      a: { en: "Raw foods require more digestive energy because the body must warm them first. Cooked foods are easier to digest and preserve energy.", "zh-TW": "生食需要更多消化能量。熟食更易消化。", ja: "生食は体が温め直す必要があり消化エネルギーを多く使います。" },
+    },
+    {
+      q: { en: "What foods are considered warm in Chinese medicine?", "zh-TW": "哪些食物屬於溫性？", ja: "温性の食材は？" },
+      a: { en: "Ginger, cinnamon, lamb, chicken, leeks, walnuts, dates, and black pepper. They form the center of a daily TCM diet.", "zh-TW": "薑、肉桂、羊肉、雞肉、韭菜、核桃、紅棗。", ja: "しょうが、シナモン、羊肉、鶏肉、ニラ、クルミ、なつめなどです。" },
+    },
+    {
+      q: { en: "Should I drink warm water according to TCM?", "zh-TW": "中醫建議喝溫水嗎？", ja: "お湯を飲むべきですか？" },
+      a: { en: "Yes. TCM favors room-temperature or warm drinks over iced ones. Cold drinks blunt the Spleen's digestive fire.", "zh-TW": "是。中醫偏好常溫或溫飲，而非冰飲。", ja: "はい。氷飲み物より常温または温かい飲み物を好みます。" },
+    },
+  ],
+  "chinese-medicine-for-cold-hands": [
+    {
+      q: { en: "Why are my hands and feet always cold in Chinese medicine?", "zh-TW": "中醫認為手腳為什麼冰冷？", ja: "なぜ手足が冷えるのか？" },
+      a: { en: "Cold extremities usually point to Yang Deficiency. The internal warming force is too low to push heat to the limbs. The body conserves warmth for core organs.", "zh-TW": "通常指向陽虛。體內溫煦之力不足。身體把熱留給核心器官。", ja: "通常、陽虚を示します。温める力が弱く四肢まで届きません。" },
+    },
+    {
+      q: { en: "What foods warm your hands and feet?", "zh-TW": "什麼食物能溫暖手腳？", ja: "手足を温める食材は？" },
+      a: { en: "Lamb, ginger, cinnamon, walnuts, leeks, chestnuts, dried tangerine peel, fennel, and shrimp. Avoid ice water, watermelon, and excessive raw foods.", "zh-TW": "羊肉、薑、肉桂、核桃、韭菜、栗子。避免冰水和西瓜。", ja: "羊肉、しょうが、シナモン、クルミ、ニラ、栗などです。" },
+    },
+    {
+      q: { en: "Is cold hands a thyroid problem?", "zh-TW": "手腳冰冷是甲狀腺問題嗎？", ja: "甲状腺の問題ですか？" },
+      a: { en: "It can be. Hypothyroidism, anemia, and Raynaud's can cause cold extremities. But if blood work is normal, TCM frames this as Yang Deficiency.", "zh-TW": "有可能。但血液正常卻仍怕冷，中醫視為陽虛。", ja: "可能性はあります。血液検査が正常なら中医学は陽虚と捉えます。" },
+    },
+    {
+      q: { en: "Which body type has cold hands and feet?", "zh-TW": "哪種體質手腳冰冷？", ja: "どの体質が冷えやすい？" },
+      a: { en: "The Yang Deficient body type. Take our free 5-minute quiz to check.", "zh-TW": "陽虛體質。做免費測驗確認。", ja: "陽虚タイプです。無料クイズで確認できます。" },
+    },
+  ],
+  "chinese-medicine-for-night-sweats": [
+    {
+      q: { en: "What is the main Chinese medicine cause of night sweats?", "zh-TW": "中醫認為盜汗主因是什麼？", ja: "寝汗の主な原因は？" },
+      a: { en: "Most night sweats are seen as Yin Deficiency with empty heat. The body's cooling reserve is too low to hold warmth settled at night, so heat breaks out as sweat.", "zh-TW": "多為陰虛伴虛熱。降溫儲備不足。", ja: "多くは陰虚に伴う虚熱です。" },
+    },
+    {
+      q: { en: "Which foods help reduce night sweats?", "zh-TW": "哪些食物減少盜汗？", ja: "寝汗を減らす食材は？" },
+      a: { en: "Cooling and moistening foods: floating wheat, black sesame, mulberry, lily bulb, pear, lotus seed, mung beans, and goji berries.", "zh-TW": "浮小麥、黑芝麻、桑椹、百合、梨。", ja: "浮き麦、黒ゴマ、クワの実、ゆり根、梨などです。" },
+    },
+    {
+      q: { en: "Is it normal to have night sweats during menopause?", "zh-TW": "更年期盜汗正常嗎？", ja: "更年期の寝汗は正常ですか？" },
+      a: { en: "Yes. Yin naturally thins with age and menopause accelerates the decline. It is a normal shift that can be eased with food and lifestyle.", "zh-TW": "是的。陰隨年齡減少，更年期加速下降。", ja: "はい。陰は加齢で減少し、更年期で加速します。" },
+    },
+    {
+      q: { en: "When should night sweats be checked by a doctor?", "zh-TW": "盜汗何時該就醫？", ja: "いつ医師に診せるべき？" },
+      a: { en: "Persistent drenching sweats, or sweats with weight loss or fever, should be evaluated. May relate to infections, thyroid issues, or medications.", "zh-TW": "持續大汗或伴體重減輕、發燒應就醫。", ja: "ひどい寝汗や体重減少、発熱を伴う場合は受診してください。" },
+    },
+  ],
+  "chinese-medicine-for-brain-fog": [
+    {
+      q: { en: "What causes brain fog in Chinese medicine?", "zh-TW": "中醫認為腦霧是什麼原因？", ja: "脳の霧の原因は？" },
+      a: { en: "Either the Spleen is too weak to produce enough energy for the mind, or dampness is clouding the head. Both create that heavy, unclear feeling.", "zh-TW": "脾太弱或濕氣蒙蔽頭部。", ja: "脾が弱いか、湿邪が頭を曇らせています。" },
+    },
+    {
+      q: { en: "What foods clear brain fog?", "zh-TW": "什麼食物清除腦霧？", ja: "脳の霧を晴らす食材は？" },
+      a: { en: "Rice congee, sweet potato, Chinese yam, walnuts, goji berries, black sesame, green tea, and adzuki beans.", "zh-TW": "米粥、地瓜、山藥、核桃、枸杞。", ja: "お粥、さつまいも、山芋、クルミ、クコの実などです。" },
+    },
+    {
+      q: { en: "Why does brain fog get worse after eating?", "zh-TW": "為什麼飯後腦霧加重？", ja: "食後に悪化するのはなぜ？" },
+      a: { en: "Fog after meals is a classic sign of Spleen Qi Deficiency. The Spleen cannot turn food into energy fast enough. Eat warm simple meals and chew well.", "zh-TW": "飯後腦霧是脾氣虛的典型表現。", ja: "脾気虚の典型的なサインです。" },
+    },
+    {
+      q: { en: "Can Chinese medicine help with poor memory?", "zh-TW": "中醫能改善記憶力嗎？", ja: "記憶力を改善できる？" },
+      a: { en: "When the cause is functional, nourishing Blood and Kidney with walnuts, goji berries, and black sesame may help. Sudden severe memory loss needs medical evaluation.", "zh-TW": "功能性原因時可能有幫助。突然嚴重記憶下降需就醫。", ja: "機能性の場合、役立つことがあります。突然の重度の記憶低下は要受診。" },
+    },
+  ],
+  "food-therapy-chinese-medicine": [
+    {
+      q: { en: "What is food therapy (Shi Liao) in Chinese medicine?", "zh-TW": "什麼是食療？", ja: "食療とは？" },
+      a: { en: "Shi Liao means food healing. It is the oldest branch of Chinese medicine. Every food has energetic properties, and choosing the right foods for your constitution may help prevent imbalances.", "zh-TW": "以食為療，是中醫最古老的分支。", ja: "食による癒しで、中医学で最も古い分野です。" },
+    },
+    {
+      q: { en: "How are foods classified in TCM?", "zh-TW": "中醫如何分類食物？", ja: "食材をどう分類する？" },
+      a: { en: "By temperature (hot, warm, neutral, cool, cold), taste (sweet, sour, bitter, pungent, salty), and direction (upward, downward, inward, outward).", "zh-TW": "依溫度、味道和走向分類。", ja: "温度、味、方向で分類します。" },
+    },
+    {
+      q: { en: "What is the difference between food therapy and herbal medicine?", "zh-TW": "食療和中藥有什麼不同？", ja: "食事療法と漢方薬の違いは？" },
+      a: { en: "Food therapy is gentle, slow, and preventive. Herbal medicine is stronger and more targeted. Food can be done daily by anyone. Herbs need professional guidance.", "zh-TW": "食療溫和緩慢。中藥更強效。食療可自行日常使用。", ja: "食事療法は穏やかで予防的。漢方薬はより強力です。" },
+    },
+    {
+      q: { en: "How do I start food therapy?", "zh-TW": "如何開始食療？", ja: "どう始める？" },
+      a: { en: "Switch cold water for warm, add ginger tea, replace raw salads with cooked vegetables, eat warm breakfast between 7-9 AM, and stop at 70 percent full.", "zh-TW": "冰水改溫水、加薑茶、熟菜替生沙拉、7-9點吃溫早餐、七分飽。", ja: "冷水をお湯に、しょうが茶を加える、生野菜を加熱野菜に変えるなどから。" },
+    },
+  ],
 }
