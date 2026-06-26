@@ -736,4 +736,128 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Yes. The Liver keeps energy flowing and is sensitive to mood. Stress can tighten that flow so energy stagnates around the gut, producing bloating that comes and goes with emotion.", "zh-TW": "會。壓力讓肝氣鬱結，能量在腸胃周圍停滯。", ja: "はい。ストレスが気の流れを締め付け、腸の周りで滞らせます。" },
     },
   ],
+  "yin-and-yang": [
+    {
+      q: { en: "What is the difference between Yin and Yang in Chinese medicine?", "zh-TW": "中醫裡陰和陽有什麼不同？", ja: "中医学における陰と陽の違いは何ですか？" },
+      a: { en: "Yin is the cooling, moistening, calming, and resting side. Yang is the warming, activating, moving, and energizing side. Health is the dynamic balance between them. When Yin is low you may run hot and dry; when Yang is low you may run cold and tired.", "zh-TW": "陰是清涼、潤澤、安靜的一面。陽是溫暖、活躍、供能的一面。", ja: "陰は冷やし潤し鎮める側面、陽は温め活発にしエネルギーを与える側面です。" },
+    },
+    {
+      q: { en: "Am I Yin deficient or Yang deficient?", "zh-TW": "我是陰虛還是陽虛？", ja: "私は陰虚ですか、それとも陽虚ですか？" },
+      a: { en: "Yin Deficiency tends to show as night sweats, hot flashes, dry mouth, insomnia. Yang Deficiency tends to show as feeling cold, fatigue, pale face, frequent urination. Our free quiz may help you tell them apart.", "zh-TW": "陰虛常表現為盜汗、潮熱、口乾。陽虛常表現為怕冷、疲勞。", ja: "陰虚は寝汗やほてり、陽虚は冷えや疲労として現れる傾向があります。" },
+    },
+    {
+      q: { en: "What are warming and cooling foods?", "zh-TW": "什麼是溫性和涼性食物？", ja: "体を温める食材と冷やす食材は？" },
+      a: { en: "Yang foods include lamb, ginger, cinnamon, walnuts, leeks. Yin foods include watermelon, pear, mung beans, cucumber, tofu, mint tea.", "zh-TW": "陽性食物包括羊肉、薑、肉桂。陰性食物包括西瓜、梨、綠豆。", ja: "陽性食材は羊肉、しょうが、シナモン。陰性食材はスイカ、梨、緑豆などです。" },
+    },
+    {
+      q: { en: "How do I balance Yin and Yang in daily life?", "zh-TW": "如何平衡陰陽？", ja: "陰陽のバランスをとるには？" },
+      a: { en: "Match food to season (cooling in summer, warming in winter) and to your body. Rest when tired, move when sluggish, sleep before 11 PM.", "zh-TW": "順應季節和體質選擇食物。累時休息，遲鈍時活動。", ja: "季節と体質に合わせた食事を心がけましょう。" },
+    },
+    {
+      q: { en: "Is Yin and Yang the same as being hot or cold?", "zh-TW": "陰陽和怕冷怕熱一樣嗎？", ja: "陰陽は暑がり・寒がりと同じですか？" },
+      a: { en: "They overlap but are not identical. Temperature is one part, but Yin and Yang also cover energy, moisture, and sleep patterns.", "zh-TW": "有重疊但不完全相同。體溫只是其中一部分。", ja: "重なる部分はありますが同じではありません。" },
+    },
+  ],
+  "five-elements-theory": [
+    {
+      q: { en: "What are the five elements in Chinese medicine?", "zh-TW": "中醫的五行是什麼？", ja: "中医学の五行とは？" },
+      a: { en: "Wood, Fire, Earth, Metal, and Water. They are dynamic phases that generate and control each other in cycles. Each maps to organs, emotions, seasons, tastes, and colors.", "zh-TW": "木、火、土、金、水。相互資生與制約的動態過程。", ja: "木、火、土、金、水です。互いに生み出し合い制御し合います。" },
+    },
+    {
+      q: { en: "Which element is associated with which organ?", "zh-TW": "每一行對應哪些臟腑？", ja: "各行はどの臓腑に対応しますか？" },
+      a: { en: "Wood pairs with Liver/Gallbladder, Fire with Heart/Small Intestine, Earth with Spleen/Stomach, Metal with Lungs/Large Intestine, Water with Kidneys/Bladder.", "zh-TW": "木對應肝膽，火對應心小腸，土對應脾胃，金對應肺大腸，水對應腎膀胱。", ja: "木は肝・胆、火は心・小腸、土は脾・胃、金は肺・大腸、水は腎・膀胱です。" },
+    },
+    {
+      q: { en: "How do the five elements interact?", "zh-TW": "五行如何相互作用？", ja: "五行はどう相互作用しますか？" },
+      a: { en: "Through two cycles. The generating cycle feeds each element to the next. The controlling cycle keeps each in check. When broken, symptoms appear.", "zh-TW": "透過相生和相剋兩個循環。", ja: "相生と相剋の二つのサイクルを通じて作用します。" },
+    },
+    {
+      q: { en: "Which foods support each element?", "zh-TW": "哪些食物對應五行？", ja: "各行を支える食材は？" },
+      a: { en: "Wood: greens, sour foods. Fire: bitter greens, green tea. Earth: sweet potato, rice, pumpkin. Metal: pear, white fungus. Water: black beans, walnuts, seaweed.", "zh-TW": "木：綠色蔬菜。火：苦味青菜。土：地瓜、米。金：梨、銀耳。水：黑豆、核桃。", ja: "木：青菜。火：苦味の青菜。土：さつまいも、米。金：梨、白きくらげ。水：黒豆、クルミです。" },
+    },
+    {
+      q: { en: "How do I know which element is out of balance?", "zh-TW": "如何知道哪一行失衡？", ja: "どの行が乱れているか？" },
+      a: { en: "Look for clusters. Wood: frustration, PMS. Fire: anxiety, insomnia. Earth: bloating, worry. Metal: colds, dry skin. Water: back ache, fatigue. Take our free quiz.", "zh-TW": "留意症狀群。木：煩躁。火：焦慮。土：腹脹。金：易感冒。水：腰痠。", ja: "症状のまとまりに注目しましょう。" },
+    },
+  ],
+  "meridians-chinese-medicine": [
+    {
+      q: { en: "What are the 12 main meridians in Chinese medicine?", "zh-TW": "12條主要經絡是什麼？", ja: "12の主要な経絡とは？" },
+      a: { en: "Lung, Large Intestine, Stomach, Spleen, Heart, Small Intestine, Bladder, Kidney, Pericardium, Triple Burner, Gallbladder, and Liver channels. Each pairs with an organ and peaks at a set two-hour window.", "zh-TW": "肺、大腸、胃、脾、心、小腸、膀胱、腎、心包、三焦、膽和肝經。", ja: "肺、大腸、胃、脾、心、小腸、膀胱、腎、心包、三焦、胆、肝の経絡です。" },
+    },
+    {
+      q: { en: "Are meridians real if they cannot be seen on an X-ray?", "zh-TW": "經絡是真的嗎？", ja: "経絡は実在するのか？" },
+      a: { en: "Meridians are functional pathways, not physical structures, so they do not show on X-rays. They were mapped over thousands of years through observation.", "zh-TW": "經絡是功能性路徑，不是物理結構。", ja: "経絡は機能的な経路であり、物理的構造ではありません。" },
+    },
+    {
+      q: { en: "Why do I keep waking up at the same time every night?", "zh-TW": "為什麼每天同一時間醒來？", ja: "毎晩同じ時刻に目が覚めるのはなぜ？" },
+      a: { en: "Each meridian peaks at a fixed two-hour window. Waking consistently may point to the active channel. 1-3 AM is often Liver, 3-5 AM is often Lung.", "zh-TW": "每條經絡在固定時段活躍。1-3點常是肝，3-5點常是肺。", ja: "午前1〜3時は肝、3〜5時は肺に関連することが多いです。" },
+    },
+    {
+      q: { en: "Can I keep my meridians healthy without acupuncture?", "zh-TW": "不做針灸也能保持經絡健康嗎？", ja: "鍼灸なしで経絡を健康に保てる？" },
+      a: { en: "Yes. Stretching, acupressure self-massage, regular exercise, warm foods, managing stress, and sleeping before 11 PM may all support flow.", "zh-TW": "可以。伸展、穴位按摩、運動、溫食、壓力管理都有幫助。", ja: "はい。ストレッチ、セルフマッサージ、運動、温かい食事が役立ちます。" },
+    },
+  ],
+  "what-is-dampness": [
+    {
+      q: { en: "What does dampness mean in Chinese medicine?", "zh-TW": "中醫的「濕」是什麼？", ja: "中医学の「湿」とは？" },
+      a: { en: "Dampness refers to fluid your body cannot properly metabolize. It accumulates and creates heavy, sticky, sluggish feelings. Usually caused by a weak Spleen.", "zh-TW": "身體無法代謝的液體。產生沉重黏膩感。通常因脾虛。", ja: "体が代謝できない液体が蓄積し、重く粘る感覚を生みます。" },
+    },
+    {
+      q: { en: "What are common signs of dampness?", "zh-TW": "濕的常見症狀？", ja: "湿の一般的なサインは？" },
+      a: { en: "Heavy limbs, brain fog, sticky stools, bloating, weight hard to lose, thick tongue coating, and cloudy urine.", "zh-TW": "四肢沉重、腦霧、黏膩大便、腹脹、體重難減、厚舌苔。", ja: "だるさ、ブレインフォグ、ねばついた便、膨満感などです。" },
+    },
+    {
+      q: { en: "Which foods clear dampness?", "zh-TW": "哪些食物祛濕？", ja: "湿を取り除く食材は？" },
+      a: { en: "Adzuki beans, coix seed, winter melon, lotus leaf tea, barley tea, white radish, celery, and ginger tea.", "zh-TW": "紅豆、薏仁、冬瓜、荷葉茶、大麥茶。", ja: "小豆、ハトムギ、冬瓜、蓮葉茶、麦茶などです。" },
+    },
+    {
+      q: { en: "What foods cause dampness?", "zh-TW": "什麼食物產生濕氣？", ja: "湿を生む食材は？" },
+      a: { en: "Dairy, refined sugar, cold drinks, fried foods, excessive raw foods, and alcohol.", "zh-TW": "乳製品、糖、冷飲、油炸食物、過量生食、酒精。", ja: "乳製品、砂糖、冷たい飲み物、揚げ物、生野菜、アルコールです。" },
+    },
+    {
+      q: { en: "How long does it take to clear dampness?", "zh-TW": "祛濕需要多久？", ja: "湿を取り除くのにどのくらい？" },
+      a: { en: "Dampness is sticky and slow. It usually takes weeks of consistent warm meals, damp-draining foods, and exercise to notice real change.", "zh-TW": "通常需要數週的持續努力。", ja: "通常、数週間の継続が必要です。" },
+    },
+  ],
+  "what-is-shen": [
+    {
+      q: { en: "What is Shen in Chinese medicine?", "zh-TW": "中醫的「神」是什麼？", ja: "中医学の「神」とは？" },
+      a: { en: "Shen is translated as spirit or consciousness. The Heart houses the Shen. When settled, you sleep well and think clearly. When disturbed, insomnia and anxiety may appear.", "zh-TW": "神是精神或意識。心藏神。神安定則睡眠好、思緒清。", ja: "神は精神や意識です。心に宿り、安定すれば睡眠も思考も整います。" },
+    },
+    {
+      q: { en: "What are signs of disturbed Shen?", "zh-TW": "神不安的表現？", ja: "神が乱れるサインは？" },
+      a: { en: "Insomnia, vivid dreams, anxiety, palpitations, foggy thinking, and restless eyes.", "zh-TW": "失眠、多夢、焦慮、心悸。", ja: "不眠、鮮明な夢、不安、動悸などです。" },
+    },
+    {
+      q: { en: "Which foods calm the Shen?", "zh-TW": "哪些食物安神？", ja: "神を鎮める食材は？" },
+      a: { en: "Lotus seed, lily bulb, red dates, wheat, longan fruit, mulberry, and goji berries. Best as a light evening soup.", "zh-TW": "蓮子、百合、紅棗、小麥、龍眼。", ja: "蓮の実、ゆり根、なつめ、竜眼肉などです。" },
+    },
+    {
+      q: { en: "How is Shen different from Qi?", "zh-TW": "神和氣有什麼不同？", ja: "神と気の違いは？" },
+      a: { en: "Qi is daily energy. Shen is consciousness and spirit. Qi is consumed and rebuilt each day; Shen reflects how settled the mind feels.", "zh-TW": "氣是日常能量。神是意識和精神。", ja: "気は日々のエネルギー、神は意識です。" },
+    },
+  ],
+  "what-is-jing": [
+    {
+      q: { en: "What is Jing in Chinese medicine?", "zh-TW": "中醫的「精」是什麼？", ja: "中医学の「精」とは？" },
+      a: { en: "Jing is your deepest energy reserve, stored in the Kidneys. It governs growth, reproduction, aging, and longevity. You are born with a fixed amount and supplement it through food.", "zh-TW": "精是最深層的能量儲備，藏於腎。主宰生長、生殖、衰老。", ja: "精は腎に蓄えられる最も深いエネルギー備蓄です。" },
+    },
+    {
+      q: { en: "What is the difference between Pre-Heaven and Post-Heaven Jing?", "zh-TW": "先天之精和後天之精？", ja: "先天の精と後天の精の違いは？" },
+      a: { en: "Pre-Heaven Jing is inherited from parents and cannot be replaced. Post-Heaven Jing is extracted from food and lifestyle, sparing the original reserve.", "zh-TW": "先天之精來自父母無法替換。後天之精來自飲食和生活方式。", ja: "先天の精は両親から、後天の精は食事から得られます。" },
+    },
+    {
+      q: { en: "What depletes Jing?", "zh-TW": "什麼消耗精？", ja: "精を消耗する要因は？" },
+      a: { en: "Chronic overwork, insufficient sleep, substance abuse, severe illness, and constitutional factors.", "zh-TW": "過勞、睡眠不足、物質濫用、重病。", ja: "過労、睡眠不足、物質乱用、重病などです。" },
+    },
+    {
+      q: { en: "Which foods nourish Jing?", "zh-TW": "哪些食物補精？", ja: "精を養う食材は？" },
+      a: { en: "Black sesame, black beans, walnuts, Chinese yam, goji berries, mulberry, bone broth, and seaweed.", "zh-TW": "黑芝麻、黑豆、核桃、山藥、枸杞。", ja: "黒ゴマ、黒豆、クルミ、山芋などです。" },
+    },
+    {
+      q: { en: "Can Jing be rebuilt once lost?", "zh-TW": "精能補回嗎？", ja: "精は取り戻せる？" },
+      a: { en: "Pre-Heaven Jing cannot be replaced. Post-Heaven Jing can be supplemented. The aim is to slow depletion through nourishing food and rest.", "zh-TW": "先天之精無法替換。後天之精可補充。", ja: "先天の精は取り戻せませんが、後天の精は補えます。" },
+    },
+  ],
 }
