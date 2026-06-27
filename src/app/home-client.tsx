@@ -8,7 +8,7 @@ import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 
 const LL = {
-  badge: "Chinese Medicine · 70 Symptom Guides · 9 Body Types",
+  badge: "Chinese Medicine · 43 Wellness Guides · 70 Symptom Guides",
   title1: "Why Are You Always Tired, Bloated, Anxious, or Struggling to Sleep?",
   subtitle: "Your Chinese medicine body type holds the answer. Discover the pattern behind recurring symptoms and get personalized food guidance.",
   cta: "Take the Free 5-Min Quiz",
@@ -127,6 +127,10 @@ export default function HomeClient() {
             Browse All Guides
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <Link href="/wellness" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
+              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Wellness Guides</span>
+              <span className="block text-accent text-xs mt-1">43 guides</span>
+            </Link>
             <Link href="/symptoms" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Symptoms</span>
               <span className="block text-accent text-xs mt-1">70 guides</span>
@@ -138,10 +142,6 @@ export default function HomeClient() {
             <Link href="/patterns" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Patterns</span>
               <span className="block text-accent text-xs mt-1">9 patterns</span>
-            </Link>
-            <Link href="/wellness" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
-              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Body Types</span>
-              <span className="block text-accent text-xs mt-1">9 types</span>
             </Link>
           </div>
         </section>
