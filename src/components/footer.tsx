@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="text-center py-12 px-6 border-t border-[rgba(201,163,85,0.12)] text-sm text-text2 leading-relaxed">
+    <footer className="text-center py-12 px-6 border-t border-[rgba(168,135,64,0.12)] text-sm text-text2 leading-relaxed">
       <div className="mb-4">
         <span className="font-[family-name:var(--font-display)] text-base text-accent tracking-widest">
           ◇ East<span className="text-accent2">Type</span> ◇

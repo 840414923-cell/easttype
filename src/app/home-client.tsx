@@ -65,7 +65,7 @@ export default function HomeClient() {
 
         <section className="relative max-w-4xl mx-auto px-6 pt-12 pb-6 text-center hero-radial dunhuang-border-top">
 
-          <div className="inline-flex items-center gap-2 bg-[rgba(201,163,85,0.06)] border border-[rgba(201,163,85,0.15)] rounded-full px-5 py-2 text-[11px] font-semibold text-accent uppercase tracking-[0.2em] mb-6">
+          <div className="inline-flex items-center gap-2 bg-[rgba(168,135,64,0.08)] border border-[rgba(168,135,64,0.25)] rounded-full px-5 py-2 text-[11px] font-semibold text-accent uppercase tracking-[0.2em] mb-6">
             <span className="text-accent text-[8px]">◇</span>
             {LL.badge}
             <span className="text-accent text-[8px]">◇</span>
@@ -82,7 +82,7 @@ export default function HomeClient() {
           <div className="flex flex-col items-center gap-2 mb-6">
             <Link
               href="/quiz"
-              className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+              className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_40px_rgba(168,135,64,0.35)] shadow-[0_4px_20px_rgba(168,135,64,0.15)] border border-[rgba(168,135,64,0.3)]"
               style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
             >
               {LL.cta}
@@ -127,19 +127,19 @@ export default function HomeClient() {
             Browse All Guides
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <Link href="/symptoms" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+            <Link href="/symptoms" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Symptoms</span>
               <span className="block text-accent text-xs mt-1">70 guides</span>
             </Link>
-            <Link href="/foods-for" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+            <Link href="/foods-for" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Food Guides</span>
               <span className="block text-accent text-xs mt-1">10 guides</span>
             </Link>
-            <Link href="/patterns" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+            <Link href="/patterns" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Patterns</span>
               <span className="block text-accent text-xs mt-1">9 patterns</span>
             </Link>
-            <Link href="/wellness" className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all no-underline text-center">
+            <Link href="/wellness" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
               <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Body Types</span>
               <span className="block text-accent text-xs mt-1">9 types</span>
             </Link>
@@ -159,7 +159,7 @@ export default function HomeClient() {
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all duration-300 no-underline"
+                className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
               >
                 <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide">{s.label}</span>
                 <span className="block text-accent text-xs mt-1">Learn more →</span>
@@ -188,21 +188,21 @@ export default function HomeClient() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
-            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
               <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
                 1
               </div>
               <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Symptoms</h3>
               <p className="text-xs text-text2 leading-relaxed">Fatigue, brain fog, bloating, anxiety, poor sleep</p>
             </div>
-            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
               <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
                 2
               </div>
               <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Patterns</h3>
               <p className="text-xs text-text2 leading-relaxed">Low Vitality, Internal Heat, Heavy &amp; Sluggish, Stuck Energy</p>
             </div>
-            <div className="text-center border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg">
+            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
               <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
                 3
               </div>
@@ -216,7 +216,7 @@ export default function HomeClient() {
               <Link
                 key={p.slug}
                 href={`/patterns/${p.slug}`}
-                className="block border border-[rgba(201,163,85,0.12)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(201,163,85,0.35)] transition-all duration-300 no-underline"
+                className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
               >
                 <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block mb-1">{p.name}</span>
                 <span className="text-xs text-text2 leading-relaxed block">{p.desc}</span>
@@ -258,7 +258,7 @@ export default function HomeClient() {
                   className="group block"
                 >
                   <div
-                    className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.12)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(201,163,85,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(0,0,0,0.5)]"
+                    className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(201,163,85,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(0,0,0,0.5)]"
                     style={{
                       background: `linear-gradient(170deg, ${t.color}10 0%, var(--color-type-card-base) 40%, var(--color-type-card-base) 100%)`,
                     }}
@@ -339,7 +339,7 @@ export default function HomeClient() {
           </p>
           <Link
             href="/quiz"
-            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(201,163,85,0.15)]"
+            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(168,135,64,0.25)] shadow-[0_4px_20px_rgba(168,135,64,0.1)] border border-[rgba(168,135,64,0.2)]"
             style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
           >
             Quick Quiz · ~5 min

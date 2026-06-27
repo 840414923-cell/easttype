@@ -18,22 +18,22 @@
 }
 
 :root {
-  --color-bg: #FAF6F0;
-  --color-bg2: #F0EBE3;
+  --color-bg: #F5EFE6;
+  --color-bg2: #EDE5D8;
   --color-cream: #E8E0D4;
   --color-text: #2A1F14;
   --color-text2: #6B5D4D;
   --color-accent: #A88740;
   --color-accent2: #C9A355;
   --color-border: #D4C9B8;
-  --color-gold-glow: rgba(168, 135, 64, 0.1);
-  --color-card-bg: #FFFFFF;
+  --color-gold-glow: rgba(168, 135, 64, 0.08);
+  --color-card-bg: #FDFBF7;
   --color-card-border: #D4C9B8;
-  --color-card-hover: #F5F0E8;
+  --color-card-hover: #F5EFE6;
   --color-ink: #A88740;
-  --color-nav-bg: rgba(250, 246, 240, 0.92);
-  --color-overlay: rgba(250, 246, 240, 0.95);
-  --color-type-card-base: #FAF6F0;
+  --color-nav-bg: rgba(245, 239, 230, 0.85);
+  --color-overlay: rgba(245, 239, 230, 0.95);
+  --color-type-card-base: #F5EFE6;
 }
 
 .dark {
