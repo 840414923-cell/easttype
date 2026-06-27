@@ -43,13 +43,9 @@ const LL = {
 
 const COMMON_SYMPTOMS = [
   { slug: "why-am-i-always-tired", label: "Always Tired" },
-  { slug: "why-do-i-have-brain-fog", label: "Brain Fog" },
-  { slug: "why-do-i-feel-anxious", label: "Anxiety" },
-  { slug: "why-do-i-have-night-sweats", label: "Night Sweats" },
-  { slug: "why-do-i-have-acid-reflux", label: "Acid Reflux" },
-  { slug: "why-do-i-keep-gaining-weight", label: "Weight Gain" },
   { slug: "why-cant-i-fall-asleep", label: "Poor Sleep" },
-  { slug: "why-am-i-always-constipated", label: "Constipation" },
+  { slug: "why-do-i-feel-anxious", label: "Anxiety" },
+  { slug: "why-do-i-have-acid-reflux", label: "Acid Reflux" },
 ]
 
 const PATTERN_CARDS = [
@@ -156,7 +152,7 @@ export default function HomeClient() {
 
         <section className="max-w-4xl mx-auto px-6 py-8 sm:py-10">
           <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-6">
-            {LL.symptomsTitle}
+            What Brings People Here
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {COMMON_SYMPTOMS.map((s) => (
@@ -172,7 +168,7 @@ export default function HomeClient() {
           </div>
           <div className="text-center mt-4">
             <Link href="/symptoms" className="text-sm text-accent hover:underline tracking-wide">
-              View all 70 symptom guides →
+              Browse all 70 symptom guides →
             </Link>
           </div>
         </section>
@@ -334,69 +330,6 @@ export default function HomeClient() {
           <span className="text-accent text-xs opacity-40">✦</span>
         </div>
 
-        <section className="max-w-3xl mx-auto px-6 py-6 sm:py-8">
-          <div className="text-center mb-5">
-            <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide">
-              What&apos;s Inside Each Report
-            </h2>
-            <p className="text-text2 text-sm mt-1">
-              Free quiz, then unlock the depth you want
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
-              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">Quiz Result</div>
-              <div className="font-[family-name:var(--font-display)] text-3xl font-bold text-text mb-0.5">Free</div>
-              <div className="text-[10px] text-text2 mb-4">No credit card needed</div>
-              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Your primary + secondary type</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Shareable type card</li>
-                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">No food map</span></li>
-                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">No recipe plan</span></li>
-              </ul>
-            </div>
-
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
-              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">Body Profile Report</div>
-              <div className="flex items-baseline gap-1 mb-0.5">
-                <span className="font-[family-name:var(--font-display)] text-3xl font-bold text-text">$4.99</span>
-                <span className="text-xs text-text2">USD</span>
-              </div>
-              <div className="text-[10px] text-text2 mb-4">One-time payment</div>
-              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Deep type explanation</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Personal Food Map (25+ foods)</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Seasonal guide + daily rhythm</li>
-                <li className="flex items-start gap-1.5"><span className="text-text2/30 text-[9px] mt-0.5">&#10005;</span><span className="text-text2/50">No 28-day recipe plan</span></li>
-              </ul>
-            </div>
-
-            <div className="border border-[rgba(201,163,85,0.12)] rounded-xl p-5 bg-card-bg flex flex-col">
-              <div className="text-xs text-text2 font-semibold mb-2 uppercase tracking-wide">Full Transformation Kit</div>
-              <div className="flex items-baseline gap-1 mb-0.5">
-                <span className="font-[family-name:var(--font-display)] text-3xl font-bold text-text">$12.99</span>
-                <span className="text-xs text-text2">USD</span>
-              </div>
-              <div className="text-[10px] text-text2 mb-4">One-time payment</div>
-              <ul className="text-[11px] text-text2 space-y-1.5 flex-1">
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Everything in Body Profile</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>28-day wellness recipe plan</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Weekly grocery lists</li>
-                <li className="flex items-start gap-1.5"><span className="text-accent/70 text-[9px] mt-0.5">&#10003;</span>Seasonal adjustments</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="text-center text-[10px] text-text2 mt-3">
-            30-day money-back guarantee · Questions? 840414923@qq.com
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
         <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12 text-center">
           <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-4xl mb-3 tracking-wide">
             Ready to Meet Yourself?
@@ -406,7 +339,7 @@ export default function HomeClient() {
           </p>
           <Link
             href="/quiz"
-            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(201,163,85,0.15)]"
             style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
           >
             Quick Quiz · ~5 min
@@ -415,42 +348,6 @@ export default function HomeClient() {
           <span className="text-xs text-text2/70 mt-2 block">
             Free quiz · Detailed reports from $4.99 USD
           </span>
-        </section>
-
-        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
-          <div className="mb-10">
-            <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl tracking-wide mb-4 text-center">
-              {LL.seoTitle}
-            </h2>
-            <div className="space-y-3 text-sm text-text2 leading-relaxed text-center max-w-xl mx-auto">
-              <p>{LL.seoP1}</p>
-              <p>{LL.seoP2}</p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl tracking-wide mb-6 text-center">
-              {LL.faqTitle}
-            </h2>
-            <div className="space-y-3">
-              {[
-                { q: LL.faq1Q, a: LL.faq1A },
-                { q: LL.faq2Q, a: LL.faq2A },
-                { q: LL.faq3Q, a: LL.faq3A },
-                { q: LL.faq4Q, a: LL.faq4A },
-              ].map((faq) => (
-                <details key={faq.q} className="group border border-[rgba(201,163,85,0.12)] rounded-xl bg-card-bg">
-                  <summary className="flex items-center justify-between px-5 py-3.5 cursor-pointer text-sm text-text font-medium list-none">
-                    {faq.q}
-                    <span className="text-accent/50 text-xs transition-transform duration-200 group-open:rotate-180">▾</span>
-                  </summary>
-                  <div className="px-5 pb-3.5 text-sm text-text2 leading-relaxed">
-                    {faq.a}
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
         </section>
 
       </main>

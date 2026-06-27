@@ -74,14 +74,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} h-full antialiased dark`}
+      className={`${playfair.variable} ${dmSans.variable} h-full antialiased light`}
       suppressHydrationWarning
     >
       <head>
         <meta name="p:domain_verify" content="82661edd6f43ed8e5c001734b3736525" />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem("et-theme");if(t==="light"){document.documentElement.classList.remove("dark");document.documentElement.classList.add("light");}else{document.documentElement.classList.add("dark");}}catch(e){}})()`,
+            __html: `(function(){try{var t=localStorage.getItem("et-theme");if(t==="dark"){document.documentElement.classList.remove("light");document.documentElement.classList.add("dark");}else{document.documentElement.classList.add("light");}}catch(e){}})()`,
           }}
         />
       </head>
