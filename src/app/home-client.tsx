@@ -96,11 +96,11 @@ export default function HomeClient() {
             </span>
           </div>
 
-          <div className="max-w-md mx-auto">
-            <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-[0.15em] text-accent mb-3">
+          <div className="max-w-lg mx-auto">
+            <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-[0.15em] text-accent mb-4 text-center">
               {LL.discoverTitle}
             </h2>
-            <ul className="space-y-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
               {[
                 LL.discover1,
                 LL.discover2,
@@ -108,12 +108,12 @@ export default function HomeClient() {
                 LL.discover4,
                 LL.discover5,
               ].map((item) => (
-                <li key={item} className="flex items-center gap-2 text-sm text-text2">
-                  <span className="text-accent text-xs">&#10003;</span>
-                  {item}
-                </li>
+                <div key={item} className="flex items-start gap-2 text-sm text-text2 bg-[rgba(168,135,64,0.04)] rounded-lg px-3 py-2.5 border border-[rgba(168,135,64,0.1)]">
+                  <span className="text-accent text-xs mt-0.5 flex-shrink-0">&#10003;</span>
+                  <span className="leading-snug">{item}</span>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
 
         </section>
