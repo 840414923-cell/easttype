@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import { Nav as SharedNav } from "@/components/nav"
 import { LIKERT_OPTIONS, calculate27Scores, getPrimaryAndSecondary } from "@/lib/quiz-27"
 import { QUIZ_15, QUIZ_15_INDICES, QUIZ_12, calculate15Scores } from "@/lib/quiz-15"
 import type { ConstitutionId } from "@/lib/types"
@@ -186,7 +187,7 @@ export default function QuizClient() {
   if (phase === "completion") {
     return (
       <>
-        <Nav />
+        <SharedNav />
         <CompletionAnimation />
       </>
     )
@@ -195,7 +196,7 @@ export default function QuizClient() {
   if (phase === "mid-reveal" && midRevealScores && midRevealPrimary) {
     return (
       <>
-        <Nav />
+        <SharedNav />
         <MidReveal
           scores={midRevealScores}
           primaryId={midRevealPrimary}
@@ -209,7 +210,7 @@ export default function QuizClient() {
   if (phase === "sex") {
     return (
       <>
-        <Nav />
+        <SharedNav />
         <div className="max-w-lg mx-auto px-6 py-20 min-h-screen flex flex-col items-center justify-center">
           <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4">
             Step 1 of 2
@@ -247,7 +248,7 @@ export default function QuizClient() {
 
   return (
     <>
-      <Nav
+      <SharedNav
         right={
           <div className="flex items-center gap-4">
             <span className="text-xs text-text2">
@@ -347,23 +348,6 @@ export default function QuizClient() {
         </div>
       </div>
     </>
-  )
-}
-
-function Nav({ right }: { right?: React.ReactNode }) {
-  return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[rgba(10,15,30,0.92)] backdrop-blur-xl border-b border-border px-6 py-4 flex justify-between items-center">
-      <Link href="/" className="font-[family-name:var(--font-display)] text-xl font-bold text-text no-underline tracking-wide">
-        East<span className="text-accent">Type</span>
-      </Link>
-      <div className="flex items-center gap-3">
-        {right ?? (
-          <Link href="/" className="text-sm text-text2 hover:text-accent px-4 py-2 no-underline transition-colors">
-            Exit
-          </Link>
-        )}
-      </div>
-    </nav>
   )
 }
 
