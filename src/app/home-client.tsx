@@ -40,7 +40,7 @@ const CONTENT_BLOCKS = [
   },
   {
     title: "Food Guides",
-    heading: "Foods That Match Your Type",
+    heading: "10 Food Therapy Guides",
     description: "What to eat when you are always tired, always cold, or struggling with sleep. Chinese medicine food therapy matches ingredients to your constitution for gentle, gradual support.",
     link: "/foods-for",
     linkText: "Browse Food Guides",
