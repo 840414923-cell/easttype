@@ -80,6 +80,18 @@ h1, h2, h3 {
   line-height: 1.2;
 }
 
+/* Article page breathing room */
+main.max-w-2xl section { margin-bottom: 3.5rem; }
+main.max-w-2xl section:last-of-type { margin-bottom: 0; }
+main.max-w-2xl section h2 { margin-bottom: 1.25rem; }
+main.max-w-2xl section h3 { margin-top: 1.75rem; margin-bottom: 0.75rem; }
+main.max-w-2xl section p { margin-bottom: 1.25rem; line-height: 1.8; }
+main.max-w-2xl section ul { margin-bottom: 1.25rem; }
+main.max-w-2xl section ol { margin-bottom: 1.25rem; }
+main.max-w-2xl section table { margin-bottom: 1.25rem; }
+main.max-w-2xl section li { margin-bottom: 0.5rem; line-height: 1.75; }
+main.max-w-2xl h1 { margin-bottom: 0.75rem; }
+
 ::selection {
   background: rgba(201, 163, 85, 0.3);
   color: var(--color-text);

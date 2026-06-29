@@ -34,6 +34,28 @@ const tagColors: Record<string, string> = {
   "Nutrition": "bg-lime-900/10 text-lime-600",
 }
 
+const tagBgColors: Record<string, string> = {
+  "Overview": "rgba(168,135,64,0.08)",
+  "Qi Deficient": "rgba(217,119,6,0.08)",
+  "Yang Deficient": "rgba(2,132,199,0.08)",
+  "Yin Deficient": "rgba(220,38,38,0.08)",
+  "Phlegm Damp": "rgba(5,150,105,0.08)",
+  "Damp Heat": "rgba(234,88,12,0.08)",
+  "Qi Stagnant": "rgba(147,51,234,0.08)",
+  "Nutrition": "rgba(132,204,22,0.08)",
+}
+
+const tagIcons: Record<string, string> = {
+  "Overview": "\u269B",
+  "Qi Deficient": "\u26A1",
+  "Yang Deficient": "\u2600",
+  "Yin Deficient": "\u263E",
+  "Phlegm Damp": "\u2609",
+  "Damp Heat": "\u2668",
+  "Qi Stagnant": "\u2742",
+  "Nutrition": "\u2698",
+}
+
 export function WellnessList({ articles }: { articles: Article[] }) {
   const [filter, setFilter] = useState("All")
   const filtered = filter === "All" ? articles : articles.filter((a) => a.tag === filter)
@@ -56,25 +78,30 @@ export function WellnessList({ articles }: { articles: Article[] }) {
         ))}
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         {filtered.map((article) => (
           <Link
             key={article.slug}
             href={`/wellness/${article.slug}`}
-            className="group block border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
+            className="group flex gap-4 border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
           >
-            <div className="flex items-center gap-2 mb-2">
-              <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${tagColors[article.tag] || tagColors["Overview"]}`}>
-                {article.tag}
-              </span>
-              <span className="text-[10px] text-text2/50">{article.readTime} read</span>
+            <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center text-2xl" style={{ background: tagBgColors[article.tag] || tagBgColors["Overview"] }}>
+              {tagIcons[article.tag] || tagIcons["Overview"]}
             </div>
-            <h2 className="font-[family-name:var(--font-display)] text-lg text-text group-hover:text-accent transition-colors mb-1.5 leading-snug">
-              {article.title}
-            </h2>
-            <p className="text-text2 text-sm leading-relaxed">
-              {article.excerpt}
-            </p>
+            <div className="flex-1 min-w-0">
+              <div className="flex items-center gap-2 mb-1.5">
+                <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${tagColors[article.tag] || tagColors["Overview"]}`}>
+                  {article.tag}
+                </span>
+                <span className="text-[10px] text-text2/50">{article.readTime} read</span>
+              </div>
+              <h2 className="font-[family-name:var(--font-display)] text-base sm:text-lg text-text group-hover:text-accent transition-colors mb-1 leading-snug">
+                {article.title}
+              </h2>
+              <p className="text-text2 text-xs sm:text-sm leading-relaxed line-clamp-2">
+                {article.excerpt}
+              </p>
+            </div>
           </Link>
         ))}
       </div>
