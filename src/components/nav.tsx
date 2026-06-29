@@ -70,13 +70,6 @@ export function Nav({ right }: { right?: React.ReactNode }) {
           </Link>
 
           <Link
-            href="/herbs"
-            className="text-sm text-text2 no-underline hover:text-accent transition-colors tracking-wide font-medium"
-          >
-            Herbs
-          </Link>
-
-          <Link
             href="/about"
             className="text-sm text-text2 no-underline hover:text-accent transition-colors tracking-wide font-medium"
           >
@@ -114,13 +107,6 @@ export function Nav({ right }: { right?: React.ReactNode }) {
               </Link>
             ))}
           </div>
-          <Link
-            href="/herbs"
-            className="text-sm text-text2 no-underline hover:text-accent transition-colors"
-            onClick={() => setMobileOpen(false)}
-          >
-            Herbs
-          </Link>
           <Link
             href="/about"
             className="text-sm text-text2 no-underline hover:text-accent transition-colors"
