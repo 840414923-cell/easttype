@@ -1,0 +1,87 @@
+"use client"
+
+import { useState } from "react"
+import Link from "next/link"
+
+interface Article {
+  slug: string
+  title: string
+  excerpt: string
+  tag: string
+  readTime: string
+}
+
+const FILTERS = [
+  "All",
+  "Overview",
+  "Qi Deficient",
+  "Yang Deficient",
+  "Yin Deficient",
+  "Phlegm Damp",
+  "Damp Heat",
+  "Qi Stagnant",
+  "Nutrition",
+]
+
+const tagColors: Record<string, string> = {
+  "Overview": "bg-[rgba(168,135,64,0.12)] text-accent",
+  "Qi Deficient": "bg-amber-900/10 text-amber-600",
+  "Yang Deficient": "bg-sky-900/10 text-sky-600",
+  "Yin Deficient": "bg-red-900/10 text-red-600",
+  "Phlegm Damp": "bg-emerald-900/10 text-emerald-600",
+  "Damp Heat": "bg-orange-900/10 text-orange-600",
+  "Qi Stagnant": "bg-purple-900/10 text-purple-600",
+  "Nutrition": "bg-lime-900/10 text-lime-600",
+}
+
+export function WellnessList({ articles }: { articles: Article[] }) {
+  const [filter, setFilter] = useState("All")
+  const filtered = filter === "All" ? articles : articles.filter((a) => a.tag === filter)
+
+  return (
+    <div>
+      <div className="flex flex-wrap gap-2 mb-8">
+        {FILTERS.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setFilter(cat)}
+            className={`px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all no-underline ${
+              filter === cat
+                ? "bg-[rgba(168,135,64,0.15)] text-accent border border-[rgba(168,135,64,0.4)]"
+                : "bg-card-bg text-text2 border border-[rgba(168,135,64,0.1)] hover:border-[rgba(168,135,64,0.3)]"
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <div className="space-y-4">
+        {filtered.map((article) => (
+          <Link
+            key={article.slug}
+            href={`/wellness/${article.slug}`}
+            className="group block border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${tagColors[article.tag] || tagColors["Overview"]}`}>
+                {article.tag}
+              </span>
+              <span className="text-[10px] text-text2/50">{article.readTime} read</span>
+            </div>
+            <h2 className="font-[family-name:var(--font-display)] text-lg text-text group-hover:text-accent transition-colors mb-1.5 leading-snug">
+              {article.title}
+            </h2>
+            <p className="text-text2 text-sm leading-relaxed">
+              {article.excerpt}
+            </p>
+          </Link>
+        ))}
+      </div>
+
+      <p className="text-center text-xs text-text2/50 mt-8">
+        Showing {filtered.length} of {articles.length} guides
+      </p>
+    </div>
+  )
+}

@@ -36,6 +36,11 @@ export default function SymptomsHubPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <main className="max-w-3xl mx-auto px-6 py-12">
+      <nav className="text-xs text-text2/60 mb-8">
+        <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
+        <span className="mx-1.5">{'>'}</span>
+        <span className="text-text2">Symptoms</span>
+      </nav>
       <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-4 leading-tight">
         Explore Common Wellness Symptoms
       </h1>

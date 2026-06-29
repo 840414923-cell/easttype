@@ -52,7 +52,7 @@ export default function PatternsHubPage() {
           <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">
             EastType
           </Link>
-          <span className="mx-1.5">›</span>
+          <span className="mx-1.5">{'>'}</span>
           <span className="text-text2">Patterns</span>
         </nav>
 

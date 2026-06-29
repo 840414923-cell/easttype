@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
+import { WellnessList } from "./wellness-list"
 
 const TITLE = "Chinese Medicine Wellness Guides — Body Types, Foods & TCM"
 const DESC = "Free Chinese medicine wellness guides. Understand why you're always tired, always cold, can't sleep, and what to eat for your TCM body type. 3,000 years of wisdom explained in plain English."
@@ -353,7 +354,7 @@ export default function WellnessIndexPage() {
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">
           EastType
         </Link>
-        <span className="mx-1.5">›</span>
+        <span className="mx-1.5">{'>'}</span>
         <span className="text-text2">Wellness</span>
       </nav>
 
@@ -364,28 +365,7 @@ export default function WellnessIndexPage() {
         Free Chinese medicine guides. Understand your body&apos;s signals through 3,000 years of TCM body type wisdom, explained in plain English.
       </p>
 
-      <div className="space-y-4">
-        {articles.map((article) => (
-          <Link
-            key={article.slug}
-            href={`/wellness/${article.slug}`}
-            className="group block border border-border rounded-xl p-5 bg-cream/5 hover:bg-cream/10 hover:border-accent/30 transition-all duration-300 no-underline"
-          >
-            <div className="flex items-center gap-2 mb-2">
-              <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${tagColors[article.tag] || "bg-accent/15 text-accent"}`}>
-                {article.tag}
-              </span>
-              <span className="text-[10px] text-text2/50">{article.readTime} read</span>
-            </div>
-            <h2 className="font-[family-name:var(--font-display)] text-lg text-text group-hover:text-accent transition-colors mb-1.5 leading-snug">
-              {article.title}
-            </h2>
-            <p className="text-text2 text-sm leading-relaxed">
-              {article.excerpt}
-            </p>
-          </Link>
-        ))}
-      </div>
+      <WellnessList articles={articles} />
 
       <div className="mt-12 text-center">
         <p className="text-text2 text-sm mb-4">

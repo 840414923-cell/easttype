@@ -34,9 +34,9 @@ export default function FoodsForHub() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <main className="max-w-3xl mx-auto px-6 py-12">
-        <nav className="text-sm text-text2 mb-8 flex items-center gap-2">
-          <Link href="/" className="hover:text-accent transition-colors">EastType</Link>
-          <span className="text-text2/40">›</span>
+        <nav className="text-xs text-text2/60 mb-8">
+          <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
+          <span className="mx-1.5">{'>'}</span>
           <span className="text-text2">Food Guides</span>
         </nav>
 
