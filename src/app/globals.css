@@ -59,7 +59,6 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   color-scheme: light;
-  overflow-x: clip;
 }
 
 html.dark {
@@ -71,6 +70,8 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
+  overflow-x: hidden;
+  padding-top: 64px;
 }
 
 h1, h2, h3 {

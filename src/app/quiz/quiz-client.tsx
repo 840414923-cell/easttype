@@ -352,7 +352,7 @@ export default function QuizClient() {
 
 function Nav({ right }: { right?: React.ReactNode }) {
   return (
-    <nav className="sticky top-0 z-50 bg-[rgba(10,15,30,0.92)] backdrop-blur-xl border-b border-border px-6 py-4 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[rgba(10,15,30,0.92)] backdrop-blur-xl border-b border-border px-6 py-4 flex justify-between items-center">
       <Link href="/" className="font-[family-name:var(--font-display)] text-xl font-bold text-text no-underline tracking-wide">
         East<span className="text-accent">Type</span>
       </Link>

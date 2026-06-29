@@ -17,7 +17,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
   ]
 
   return (
-    <nav className="sticky top-0 z-50 bg-nav-bg backdrop-blur-xl border-b border-[rgba(168,135,64,0.12)] px-6 py-4 flex justify-between items-center shadow-[0_1px_20px_rgba(168,135,64,0.05)]" style={{ paddingTop: "max(1rem, env(safe-area-inset-top))" }}>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-nav-bg backdrop-blur-xl border-b border-[rgba(168,135,64,0.12)] px-6 py-4 flex justify-between items-center shadow-[0_1px_20px_rgba(168,135,64,0.05)]" style={{ paddingTop: "max(1rem, env(safe-area-inset-top))" }}>
       <div className="flex items-center gap-6">
         <Link
           href="/"
