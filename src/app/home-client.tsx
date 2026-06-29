@@ -1,354 +1,119 @@
 "use client"
 
 import Link from "next/link"
-import Image from "next/image"
-import { TYPES } from "@/lib/constitution-data"
-import { TYPE_VIRAL } from "@/lib/type-viral"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
+import { SearchBar } from "@/components/search-bar"
 
-const LL = {
-  badge: "Chinese Medicine · 43 Wellness Guides · 70 Symptom Guides",
-  title1: "Why Are You Always Tired, Bloated, Anxious, or Struggling to Sleep?",
-  subtitle: "Your Chinese medicine body type holds the answer. Discover the pattern behind recurring symptoms and get personalized food guidance.",
-  cta: "Take the Free 5-Min Quiz",
-  ctaSub: "Free · No Sign-up Required",
-  ctaSecondary: "Quiz reviewed by licensed TCM hospital doctors",
-  discoverTitle: "What You'll Discover",
-  discover1: "Which Chinese medicine body type drives your recurring symptoms",
-  discover2: "Why certain symptoms keep coming back",
-  discover3: "Foods that may suit your constitution",
-  discover4: "Personalized wellness suggestions",
-  discover5: "Practical lifestyle recommendations",
-  symptomsTitle: "Common Symptoms People Explore",
-  connectTitle: "How Chinese Medicine Connects the Dots",
-  connectBody: "Recurring symptoms rarely happen in isolation. Chinese medicine looks for deeper patterns behind fatigue, poor sleep, digestive issues, and emotional imbalance. Those patterns often point to a broader body type tendency.",
-  archetypeTitle: "Which Body Type Matches You?",
-  archetypeLine1: "Traditional Chinese medicine identifies 9 constitutional patterns.",
-  archetypeLine2: "Each type has unique tendencies in energy, digestion, sleep, emotional balance, and overall wellbeing.",
-  seoTitle: "What Are Chinese Medicine Body Types?",
-  seoP1: "Chinese medicine identifies 9 body types — each with unique patterns related to energy, digestion, sleep, emotional tendencies and overall wellbeing.",
-  seoP2: "This assessment helps identify which pattern best reflects your current constitution and provides personalized food and lifestyle guidance.",
-  faqTitle: "Frequently Asked Questions",
-  faq1Q: "Is this a medical diagnosis?",
-  faq1A: "No. This assessment is designed for educational and wellness purposes only.",
-  faq2Q: "How long does it take?",
-  faq2A: "Approximately 5 minutes.",
-  faq3Q: "Do I need to create an account?",
-  faq3A: "No.",
-  faq4Q: "Can I retake the assessment?",
-  faq4A: "Yes, anytime.",
-  readySubtitleBefore: "27 questions. ~5 min. A food map your body has been waiting 3,000 years for.",
-}
-
-const COMMON_SYMPTOMS = [
-  { slug: "why-am-i-always-tired", label: "Always Tired" },
-  { slug: "why-cant-i-fall-asleep", label: "Poor Sleep" },
-  { slug: "why-do-i-feel-anxious", label: "Anxiety" },
-  { slug: "why-do-i-have-acid-reflux", label: "Acid Reflux" },
+const SYMPTOM_LIST = [
+  "Why are you always tired?",
+  "Why do you wake up at 3 AM?",
+  "Why are you always cold?",
+  "Why do you feel bloated?",
+  "Why do you crave sweets?",
+  "Why is your skin breaking out?",
+  "Why do you have night sweats?",
+  "Why do you feel anxious?",
 ]
 
-const PATTERN_CARDS = [
-  { slug: "low-vitality", name: "Low Vitality", desc: "Chronic fatigue, low energy, and afternoon crashes that sleep doesn't fix." },
-  { slug: "heavy-and-sluggish", name: "Heavy & Sluggish", desc: "Bloating, heaviness, and brain fog from moisture your body can't process." },
-  { slug: "internal-heat", name: "Internal Heat", desc: "Night sweats, insomnia, and feeling hot when your cooling system is undercharged." },
-  { slug: "stuck-energy", name: "Stuck Energy", desc: "Anxiety, mood swings, and chest tightness from energy that can't flow freely." },
+const CONTENT_BLOCKS = [
+  {
+    title: "Body Types",
+    heading: "9 Chinese Medicine Body Types",
+    description: "Chinese medicine identifies 9 constitutional patterns. Each type has unique tendencies in energy, digestion, sleep, and emotional balance. Discover yours and get personalized food guidance.",
+    link: "/wellness/chinese-medicine-body-types",
+    linkText: "Explore Body Types",
+    imagePlaceholder: "Body Types illustration - 9 constitutional patterns",
+    reverse: false,
+  },
+  {
+    title: "Symptoms",
+    heading: "70 Symptom Guides Explained",
+    description: "Why are you always tired? Why do you wake up at 3 AM? Why do you crave sweets? Each symptom has a Chinese medicine explanation that connects it to your body type and offers food-based approaches.",
+    link: "/symptoms",
+    linkText: "Browse All Symptoms",
+    imagePlaceholder: "Symptoms illustration - Chinese medicine diagnosis",
+    reverse: true,
+  },
+  {
+    title: "Food Guides",
+    heading: "Foods That Match Your Type",
+    description: "What to eat when you are always tired, always cold, or struggling with sleep. Chinese medicine food therapy matches ingredients to your constitution for gentle, gradual support.",
+    link: "/foods-for",
+    linkText: "Browse Food Guides",
+    imagePlaceholder: "Food therapy illustration - Chinese medicine foods",
+    reverse: false,
+  },
+  {
+    title: "Wellness Guides",
+    heading: "43 TCM Wellness Guides",
+    description: "From Spleen Qi Deficiency to Yin and Yang, explore in-depth guides on Chinese medicine patterns, concepts, and remedies. Each guide includes food recommendations, daily habits, and FAQs.",
+    link: "/wellness",
+    linkText: "Browse Wellness Guides",
+    imagePlaceholder: "Wellness illustration - TCM concepts and patterns",
+    reverse: true,
+  },
 ]
 
 export default function HomeClient() {
-  const typeList = Object.values(TYPES)
-
   return (
     <>
       <Nav />
       <main className="flex-1">
 
-        <section className="relative max-w-4xl mx-auto px-6 pt-12 pb-6 text-center hero-radial dunhuang-border-top">
-
-          <div className="inline-flex items-center gap-2 bg-[rgba(168,135,64,0.08)] border border-[rgba(168,135,64,0.25)] rounded-full px-5 py-2 text-[11px] font-semibold text-accent uppercase tracking-[0.2em] mb-6">
-            <span className="text-accent text-[8px]">◇</span>
-            {LL.badge}
-            <span className="text-accent text-[8px]">◇</span>
-          </div>
-
-          <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl md:text-6xl mb-4 leading-[1.15] tracking-wide text-text max-w-3xl mx-auto">
-            {LL.title1}
+        <section className="relative max-w-4xl mx-auto px-6 pt-16 pb-12 text-center hero-radial dunhuang-border-top">
+          <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl md:text-6xl mb-4 leading-[1.15] tracking-wide text-text max-w-2xl mx-auto">
+            What&apos;s Your Chinese Medicine Body Type?
           </h1>
 
-          <p className="text-base sm:text-lg text-text2 max-w-xl mx-auto mb-8 leading-relaxed tracking-wide">
-            {LL.subtitle}
+          <p className="text-base sm:text-lg text-text2 max-w-xl mx-auto mb-8 leading-relaxed">
+            {SYMPTOM_LIST.join("  ·  ")}
           </p>
 
-          <div className="flex flex-col items-center gap-2 mb-6">
+          <SearchBar />
+
+          <div className="mt-6">
             <Link
               href="/quiz"
-              className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_40px_rgba(168,135,64,0.35)] shadow-[0_4px_20px_rgba(168,135,64,0.15)] border border-[rgba(168,135,64,0.3)]"
+              className="group relative inline-flex items-center justify-center px-10 py-4 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(168,135,64,0.25)] shadow-[0_4px_20px_rgba(168,135,64,0.1)] border border-[rgba(168,135,64,0.2)]"
               style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
             >
-              {LL.cta}
+              Take the Free Quiz
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </Link>
-            <span className="text-sm text-text2 tracking-wide">
-              {LL.ctaSub}
-            </span>
-            <span className="text-xs text-text2/70 tracking-wide">
-              {LL.ctaSecondary}
-            </span>
-          </div>
-
-          <div className="max-w-lg mx-auto">
-            <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-[0.15em] text-accent mb-4 text-center">
-              {LL.discoverTitle}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              {[
-                LL.discover1,
-                LL.discover2,
-                LL.discover3,
-                LL.discover4,
-                LL.discover5,
-              ].map((item) => (
-                <div key={item} className="flex items-start gap-2 text-sm text-text2 bg-[rgba(168,135,64,0.04)] rounded-lg px-3 py-2.5 border border-[rgba(168,135,64,0.1)]">
-                  <span className="text-accent text-xs mt-0.5 flex-shrink-0">&#10003;</span>
-                  <span className="leading-snug">{item}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-4xl mx-auto px-6 py-8">
-          <h2 className="font-[family-name:var(--font-display)] text-lg sm:text-xl tracking-wide text-center mb-6 text-text2">
-            Browse All Guides
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <Link href="/wellness" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
-              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Wellness Guides</span>
-              <span className="block text-accent text-xs mt-1">43 guides</span>
-            </Link>
-            <Link href="/symptoms" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
-              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Symptoms</span>
-              <span className="block text-accent text-xs mt-1">70 guides</span>
-            </Link>
-            <Link href="/foods-for" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
-              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Food Guides</span>
-              <span className="block text-accent text-xs mt-1">10 guides</span>
-            </Link>
-            <Link href="/patterns" className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-4 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all no-underline text-center">
-              <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block">Patterns</span>
-              <span className="block text-accent text-xs mt-1">9 patterns</span>
-            </Link>
+            <p className="text-xs text-text2/60 mt-2">5 minutes · No sign-up required</p>
           </div>
         </section>
 
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-4xl mx-auto px-6 py-8 sm:py-10">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide text-center mb-6">
-            What Brings People Here
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            {COMMON_SYMPTOMS.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/symptoms/${s.slug}`}
-                className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
-              >
-                <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide">{s.label}</span>
-                <span className="block text-accent text-xs mt-1">Learn more →</span>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-4">
-            <Link href="/symptoms" className="text-sm text-accent hover:underline tracking-wide">
-              Browse all 70 symptom guides →
-            </Link>
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12">
-          <div className="text-center mb-8">
-            <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl tracking-wide mb-4">
-              {LL.connectTitle}
-            </h2>
-            <p className="text-sm sm:text-base text-text2 leading-relaxed max-w-xl mx-auto">
-              {LL.connectBody}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
-            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
-                1
-              </div>
-              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Symptoms</h3>
-              <p className="text-xs text-text2 leading-relaxed">Fatigue, brain fog, bloating, anxiety, poor sleep</p>
-            </div>
-            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
-                2
-              </div>
-              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Patterns</h3>
-              <p className="text-xs text-text2 leading-relaxed">Low Vitality, Internal Heat, Heavy &amp; Sluggish, Stuck Energy</p>
-            </div>
-            <div className="text-center border border-[rgba(168,135,64,0.15)] rounded-xl p-5 bg-card-bg">
-              <div className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-[rgba(201,163,85,0.25)] bg-[rgba(201,163,85,0.08)] text-accent font-[family-name:var(--font-display)] text-lg font-bold mb-3">
-                3
-              </div>
-              <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 tracking-wide">Body Types</h3>
-              <p className="text-xs text-text2 leading-relaxed">Qi Deficient, Yin Deficient, Phlegm Damp, and 6 more</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-3">
-            {PATTERN_CARDS.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/patterns/${p.slug}`}
-                className="block border border-[rgba(168,135,64,0.15)] rounded-xl px-4 py-3 bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
-              >
-                <span className="font-[family-name:var(--font-display)] text-sm text-text tracking-wide block mb-1">{p.name}</span>
-                <span className="text-xs text-text2 leading-relaxed block">{p.desc}</span>
-              </Link>
-            ))}
-          </div>
-
-          <div className="text-center mt-5">
-            <Link href="/patterns" className="text-sm text-accent no-underline hover:underline tracking-wide">
-              Explore All Patterns →
-            </Link>
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-4xl mx-auto px-4 sm:px-6 pt-2 pb-6 sm:pb-10">
-          <div className="text-center mb-4 sm:mb-6">
-            <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-4xl mb-2 tracking-wide">
-              {LL.archetypeTitle}
-            </h2>
-            <p className="text-text2 text-sm sm:text-base tracking-wide max-w-lg mx-auto">
-              {LL.archetypeLine1}
-              <br />
-              <span className="text-text2/80">{LL.archetypeLine2}</span>
-            </p>
-          </div>
-
-          <div className="grid grid-cols-3 gap-1.5 sm:gap-4">
-            {typeList.map((t) => {
-              const viral = TYPE_VIRAL[t.id]
-              const imgSrc = `/types/${t.id}.webp`
-              return (
+        {CONTENT_BLOCKS.map((block, i) => (
+          <section key={i} className="max-w-4xl mx-auto px-6 py-10 sm:py-14">
+            <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 items-center ${block.reverse ? "sm:grid-flow-col-dense" : ""}`}>
+              <div className={block.reverse ? "sm:col-start-2 sm:row-start-1" : ""}>
+                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent block mb-2">
+                  {block.title}
+                </span>
+                <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text mb-4 leading-tight tracking-wide">
+                  {block.heading}
+                </h2>
+                <p className="text-text2 text-sm sm:text-base leading-relaxed mb-6">
+                  {block.description}
+                </p>
                 <Link
-                  key={t.id}
-                  href={`/types/${t.id}`}
-                  className="group block"
+                  href={block.link}
+                  className="inline-flex items-center gap-1 text-accent text-sm font-semibold hover:underline tracking-wide no-underline"
                 >
-                  <div
-                    className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(201,163,85,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_12px_40px_rgba(0,0,0,0.5)]"
-                    style={{
-                      background: `linear-gradient(170deg, ${t.color}10 0%, var(--color-type-card-base) 40%, var(--color-type-card-base) 100%)`,
-                    }}
-                  >
-                    <Image
-                      src={imgSrc}
-                      alt={t.en}
-                      width={400}
-                      height={600}
-                      className="w-full h-auto block opacity-60 group-hover:opacity-80 transition-opacity duration-500"
-                      sizes="(max-width: 640px) 33vw, 200px"
-                    />
-
-                    <div className="absolute inset-0 bg-gradient-to-t from-type-card-base/90 via-type-card-base/20 to-transparent" />
-
-                    <div className="absolute bottom-0 left-0 right-0 p-2 sm:hidden">
-                      <span
-                        className="font-[family-name:var(--font-display)] text-xs font-bold block mb-0.5 truncate"
-                        style={{ color: t.color }}
-                      >
-                        {t.en}
-                      </span>
-                      <span
-                        className="font-[family-name:var(--font-display)] text-xs font-bold"
-                        style={{ color: t.color }}
-                      >
-                        {t.pct}
-                      </span>
-                      <span className="text-[7px] text-text2/60 ml-0.5">
-                        of people
-                      </span>
-                    </div>
-
-                    <div className="hidden sm:block absolute bottom-0 left-0 right-0 p-4">
-                      <div className="mb-1">
-                        <span
-                          className="font-[family-name:var(--font-display)] text-xl font-bold tracking-wide"
-                          style={{ color: t.color }}
-                        >
-                          {t.en}
-                        </span>
-                      </div>
-                      <div className="text-[11px] text-text2 mb-1.5">
-                        {t.zh} · {t.zhPy}
-                      </div>
-                      <div className="text-xs text-text/90 font-medium leading-snug mb-2 line-clamp-2">
-                        {viral?.cardHeadline ?? ""}
-                      </div>
-                      <div>
-                        <span
-                          className="font-[family-name:var(--font-display)] text-lg font-bold"
-                          style={{ color: t.color }}
-                        >
-                          {t.pct}
-                        </span>
-                        <span className="text-[10px] text-text2 ml-1">
-                          of people
-                        </span>
-                      </div>
-                    </div>
-                  </div>
+                  {block.linkText}
+                  <span>&#8594;</span>
                 </Link>
-              )
-            })}
-          </div>
-        </section>
-
-        <div className="lotus-divider max-w-4xl mx-auto px-6">
-          <span className="text-accent text-xs opacity-40">✦</span>
-        </div>
-
-        <section className="max-w-3xl mx-auto px-6 py-8 sm:py-12 text-center">
-          <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-4xl mb-3 tracking-wide">
-            Ready to Meet Yourself?
-          </h2>
-          <p className="text-text2 text-base sm:text-lg mb-8 leading-relaxed max-w-lg mx-auto tracking-wide">
-            {LL.readySubtitleBefore}
-          </p>
-          <Link
-            href="/quiz"
-            className="group relative inline-flex items-center justify-center px-12 py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(168,135,64,0.25)] shadow-[0_4px_20px_rgba(168,135,64,0.1)] border border-[rgba(168,135,64,0.2)]"
-            style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
-          >
-            Quick Quiz · ~5 min
-            <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
-          </Link>
-          <span className="text-xs text-text2/70 mt-2 block">
-            Free quiz · Detailed reports from $4.99 USD
-          </span>
-        </section>
+              </div>
+              <div className={block.reverse ? "sm:col-start-1 sm:row-start-1" : ""}>
+                <div className="aspect-square rounded-2xl border border-[rgba(168,135,64,0.15)] bg-[rgba(168,135,64,0.04)] flex items-center justify-center p-8">
+                  <span className="text-text2/30 text-xs text-center">{block.imagePlaceholder}</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        ))}
 
       </main>
       <Footer />
