@@ -1,0 +1,1461 @@
+[
+  {
+    "slug": "ginseng-ren-shen",
+    "nameEn": "Ginseng",
+    "nameZh": "ren shen",
+    "pinyin": "ren shen",
+    "category": "Qi Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet, slightly bitter",
+    "channels": "Spleen, Lung, Heart",
+    "summary": "The strongest Qi tonic in Chinese medicine. Used for deep exhaustion, weak digestion, and recovery from illness.",
+    "actions": [
+      "Strongly tonifies Qi and restores energy",
+      "Strengthens the Spleen and improves digestion",
+      "Nourishes the Lung and calms breathing",
+      "Calms the mind and improves focus"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yang_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "goji berries",
+      "rice congee",
+      "chicken broth"
+    ],
+    "howToUse": "Steep 2-3 thin slices in hot water for 10 minutes as tea. Or add to chicken soup and simmer for 2 hours.",
+    "dosage": "1-3g per day for general use. Up to 5g for deficiency.",
+    "cautions": [
+      "Avoid during colds, flu, or fever",
+      "Do not combine with radish or strong tea",
+      "May cause insomnia if taken late at night",
+      "Not suitable for people with excess Heat"
+    ],
+    "faqs": [
+      {
+        "q": "Can I take ginseng every day?",
+        "a": "Small amounts (1-2 slices in tea) are generally safe for daily use by truly deficient types. Pause during colds or fever."
+      },
+      {
+        "q": "Does ginseng work as fast as caffeine?",
+        "a": "No. Caffeine stimulates in minutes then crashes. Ginseng works gradually over weeks, rebuilding energy production."
+      },
+      {
+        "q": "Which body type benefits most from ginseng?",
+        "a": "Qi Deficient and Yang Deficient types benefit most. Take the free body type quiz to check your type."
+      }
+    ]
+  },
+  {
+    "slug": "astragalus-huang-qi",
+    "nameEn": "Astragalus",
+    "nameZh": "huang qi",
+    "pinyin": "huang qi",
+    "category": "Qi Tonic",
+    "temperature": "Slightly warm",
+    "taste": "Sweet",
+    "channels": "Spleen, Lung",
+    "summary": "A gentler Qi tonic than ginseng, often chosen for people who catch colds easily or have weak digestion. Good for daily use.",
+    "actions": [
+      "Tonifies Spleen Qi and lifts energy",
+      "Strengthens the body defensive energy (Wei Qi)",
+      "Reduces sweating from weakness",
+      "Supports the immune system"
+    ],
+    "bodyTypes": [
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "chicken broth",
+      "rice congee",
+      "goji berries"
+    ],
+    "howToUse": "Simmer 5-10g in soup for 1-2 hours. Often added to chicken soup or bone broth.",
+    "dosage": "5-10g in food. Up to 15g for deficiency.",
+    "cautions": [
+      "Avoid during acute colds or infections",
+      "Not suitable for Yin Deficiency with heat signs",
+      "May worsen bloating if digestion is very weak",
+      "Stop if you develop a fever"
+    ],
+    "faqs": [
+      {
+        "q": "Is astragalus safer than ginseng?",
+        "a": "Generally yes. Astragalus is gentler and more suitable for daily use, especially for people who catch colds easily."
+      },
+      {
+        "q": "How long until I feel the effects?",
+        "a": "Most people notice steadier energy and fewer colds after 2-3 weeks of consistent use in soups or tea."
+      },
+      {
+        "q": "Can I use astragalus if I am always tired?",
+        "a": "Yes, if your tiredness comes from Qi deficiency. Take the free body type quiz to confirm."
+      }
+    ]
+  },
+  {
+    "slug": "jujube-da-zao",
+    "nameEn": "Red Dates (Jujube)",
+    "nameZh": "da zao",
+    "pinyin": "da zao",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Spleen, Stomach, Heart",
+    "summary": "The most commonly used food-herb in Chinese medicine. Sweet, nourishing, and gentle enough for daily use. Builds Qi and Blood, calms the mind.",
+    "actions": [
+      "Tonifies Spleen Qi and strengthens digestion",
+      "Nourishes Blood and improves complexion",
+      "Calms the mind and supports sleep",
+      "Harmonizes other herbs in formulas"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "longan fruit",
+      "rice congee",
+      "ginger"
+    ],
+    "howToUse": "Simmer 5-6 pitted dates in water for 15 minutes as tea. Add to congee, soup, or oatmeal.",
+    "dosage": "5-10 dates daily. Up to 15 for deficiency.",
+    "cautions": [
+      "Avoid if you have dampness or bloating",
+      "Too many may cause sluggish digestion",
+      "Remove pits before cooking for better effect",
+      "Not suitable for Damp Heat patterns"
+    ],
+    "faqs": [
+      {
+        "q": "Can I eat red dates every day?",
+        "a": "Yes, 5-8 dates daily is safe for most people. They are gentle enough for daily use."
+      },
+      {
+        "q": "Are red dates the same as Middle Eastern dates?",
+        "a": "No. Chinese red dates (jujube) are a different fruit, used specifically in Chinese medicine for building Qi and Blood."
+      },
+      {
+        "q": "Do red dates help with sleep?",
+        "a": "Yes, especially when brewed as tea and drunk 30 minutes before bed. They calm the mind through nourishing the Heart."
+      }
+    ]
+  },
+  {
+    "slug": "goji-gou-qi-zi",
+    "nameEn": "Goji Berries",
+    "nameZh": "gou qi zi",
+    "pinyin": "gou qi zi",
+    "category": "Yin Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Liver, Kidney, Lung",
+    "summary": "Small sweet red berries that nourish Liver and Kidney Yin. Popular worldwide for eye health, anti-aging, and gentle energy support.",
+    "actions": [
+      "Nourishes Liver and Kidney Yin",
+      "Benefits the eyes and vision",
+      "Moistens the Lung",
+      "Supports healthy aging"
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "blood_stasis"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "red dates",
+      "walnuts",
+      "rice congee"
+    ],
+    "howToUse": "Eat 10-15 berries as a snack. Steep in hot water as tea. Add to oatmeal, congee, or soup.",
+    "dosage": "10-15g (about a small handful) daily.",
+    "cautions": [
+      "Avoid during acute diarrhea",
+      "Not suitable for Damp Heat patterns in excess",
+      "May cause mild stomach upset in large amounts",
+      "Stop if you develop a sore throat"
+    ],
+    "faqs": [
+      {
+        "q": "Can I eat goji berries raw?",
+        "a": "Yes, dried goji berries can be eaten raw as a snack. They can also be steeped in tea or cooked in soups."
+      },
+      {
+        "q": "Do goji berries help with eye strain?",
+        "a": "In Chinese medicine, goji berries nourish Liver Yin which governs eye health. Many notice less eye strain with regular use."
+      },
+      {
+        "q": "Are goji berries the same as wolfberries?",
+        "a": "Yes. Goji berries are also called wolfberries. They are the same fruit."
+      }
+    ]
+  },
+  {
+    "slug": "ginger-sheng-jiang",
+    "nameEn": "Fresh Ginger",
+    "nameZh": "sheng jiang",
+    "pinyin": "sheng jiang",
+    "category": "Warming Herb",
+    "temperature": "Warm",
+    "taste": "Pungent",
+    "channels": "Lung, Spleen, Stomach",
+    "summary": "The most widely used warming food in Chinese medicine. Warms digestion, reduces nausea, and supports the body during colds.",
+    "actions": [
+      "Warms the Spleen and Stomach",
+      "Reduces nausea and vomiting",
+      "Releases cold from the body surface",
+      "Aids digestion of heavy foods"
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "brown sugar",
+      "rice congee",
+      "chicken soup"
+    ],
+    "howToUse": "Slice 3-4 thin pieces and steep in hot water for 5 minutes. Add to soups, stir-fries, and congee.",
+    "dosage": "3-10g fresh daily. Dried ginger is stronger and used differently.",
+    "cautions": [
+      "Avoid if you have internal Heat or Yin Deficiency",
+      "Do not use large amounts at night",
+      "Not suitable for people with hot flashes or night sweats",
+      "Reduce if you experience dry mouth"
+    ],
+    "faqs": [
+      {
+        "q": "Is dried ginger the same as fresh ginger?",
+        "a": "No. Fresh ginger warms the surface and releases cold. Dried ginger warms the interior more strongly."
+      },
+      {
+        "q": "Can ginger help with morning sickness?",
+        "a": "Yes, ginger tea is one of the most effective natural remedies for nausea, including morning sickness."
+      },
+      {
+        "q": "Why should I avoid ginger at night?",
+        "a": "Ginger is warming and energizing. Taking it late at night may interfere with sleep, especially for those who run warm."
+      }
+    ]
+  },
+  {
+    "slug": "chrysanthemum-ju-hua",
+    "nameEn": "Chrysanthemum",
+    "nameZh": "ju hua",
+    "pinyin": "ju hua",
+    "category": "Cooling Herb",
+    "temperature": "Slightly cold",
+    "taste": "Sweet, bitter, pungent",
+    "channels": "Liver, Lung",
+    "summary": "A delicate floral tea that cools internal heat, especially in the head and eyes. Caffeine-free and perfect for afternoon relaxation.",
+    "actions": [
+      "Cools Liver heat and calms frustration",
+      "Benefits the eyes and reduces redness",
+      "Clears heat from the head",
+      "Calms the mind without drowsiness"
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "mint",
+      "green tea",
+      "honey"
+    ],
+    "howToUse": "Steep 8-10 dried flowers in hot water for 5 minutes. Drink as tea, 2-3 cups daily.",
+    "dosage": "5-10g dried flowers per day.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not suitable for Yang Deficient types who run cold",
+      "May cause loose stools in excess",
+      "Use caution during pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Is chrysanthemum tea good for headaches?",
+        "a": "Yes, especially headaches caused by stress, frustration, or Liver heat."
+      },
+      {
+        "q": "Can I drink chrysanthemum tea every day?",
+        "a": "Yes, 2-3 cups daily is safe for most people, especially those who run warm or use screens extensively."
+      },
+      {
+        "q": "Does chrysanthemum tea have caffeine?",
+        "a": "No, chrysanthemum tea is naturally caffeine-free."
+      }
+    ]
+  },
+  {
+    "slug": "black-sesame-hei-zhi-ma",
+    "nameEn": "Black Sesame Seeds",
+    "nameZh": "hei zhi ma",
+    "pinyin": "hei zhi ma",
+    "category": "Blood Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Liver, Kidney, Large Intestine",
+    "summary": "Tiny dark seeds that nourish the deepest energy reserves. Used for hair health, skin moisture, and gentle constipation relief.",
+    "actions": [
+      "Nourishes Liver and Kidney essence",
+      "Benefits hair and skin from within",
+      "Moistens the intestines for gentle bowel movements",
+      "Supports healthy aging"
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "blood_stasis"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "goji berries",
+      "rice",
+      "honey"
+    ],
+    "howToUse": "Grind 2 tablespoons and mix with honey. Sprinkle on rice, salads, or toast.",
+    "dosage": "10-15g (about 2 tablespoons) daily.",
+    "cautions": [
+      "Avoid if you have loose stools or diarrhea",
+      "Too much may cause greasy feeling or bloating",
+      "Best ground, not whole, for absorption",
+      "Store in a cool dry place to prevent rancidity"
+    ],
+    "faqs": [
+      {
+        "q": "Do black sesame seeds help with hair loss?",
+        "a": "In Chinese medicine, black sesame nourishes Kidney essence which governs hair. Regular use may support hair health over months."
+      },
+      {
+        "q": "Should I grind black sesame seeds?",
+        "a": "Yes. Whole seeds pass through undigested. Grinding releases the nutrients for better absorption."
+      },
+      {
+        "q": "Black vs white sesame?",
+        "a": "In Chinese medicine, black sesame is preferred for medicinal use as it specifically nourishes Kidney essence."
+      }
+    ]
+  },
+  {
+    "slug": "walnuts-he-tao",
+    "nameEn": "Walnuts",
+    "nameZh": "he tao",
+    "pinyin": "he tao",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Kidney, Lung, Large Intestine",
+    "summary": "Brain-shaped nuts that warm the Kidney, strengthen the lower back, and support memory. Also moisten the intestines.",
+    "actions": [
+      "Warms and strengthens Kidney Yang",
+      "Supports brain function and memory",
+      "Strengthens the lower back and knees",
+      "Moistens the intestines"
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "black sesame",
+      "red dates",
+      "rice congee",
+      "goji berries"
+    ],
+    "howToUse": "Eat 5-8 walnuts daily, chew thoroughly. Add to oatmeal, congee, or trail mix.",
+    "dosage": "5-15g (about 5-8 walnuts) daily.",
+    "cautions": [
+      "Avoid if you have damp-heat or oily skin",
+      "Too many may cause throat irritation",
+      "Not suitable for people with internal Heat",
+      "May worsen acne in Damp Heat types"
+    ],
+    "faqs": [
+      {
+        "q": "Why do walnuts look like brains?",
+        "a": "In Chinese medicine, this visual resemblance is taken seriously. Walnuts are classified as a brain tonic and support memory."
+      },
+      {
+        "q": "Can walnuts help with lower back pain?",
+        "a": "In Chinese medicine, lower back pain from Kidney deficiency may benefit from walnuts."
+      },
+      {
+        "q": "How many walnuts should I eat daily?",
+        "a": "5-8 walnuts per day is a good amount. Chew thoroughly for best absorption."
+      }
+    ]
+  },
+  {
+    "slug": "chinese-yam-shan-yao",
+    "nameEn": "Chinese Yam",
+    "nameZh": "shan yao",
+    "pinyin": "shan yao",
+    "category": "Qi Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Spleen, Lung, Kidney",
+    "summary": "A versatile root that simultaneously strengthens three organs: Spleen for digestion, Lung for immunity, and Kidney for reserves.",
+    "actions": [
+      "Strengthens Spleen and improves digestion",
+      "Supports Lung Qi and immune function",
+      "Gently tonifies Kidney without being heavy",
+      "Nourishes Yin without causing dampness"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "rice congee",
+      "goji berries",
+      "chicken broth"
+    ],
+    "howToUse": "Peel, slice, and stir-fry with salt and sesame oil. Add to soups and stews. Steam and drizzle with honey.",
+    "dosage": "15-30g dried, or 100-200g fresh per day.",
+    "cautions": [
+      "Avoid if you have severe dampness or bloating",
+      "May cause mild constipation in excess",
+      "Not suitable for acute infections",
+      "Reduce if you feel overly full"
+    ],
+    "faqs": [
+      {
+        "q": "Is Chinese yam the same as sweet potato?",
+        "a": "No. Chinese yam (shan yao) is a different root, specifically strengthens the Spleen and Kidney."
+      },
+      {
+        "q": "Can Chinese yam help with bloating?",
+        "a": "Yes. Chinese yam strengthens the Spleen which is responsible for digestion."
+      },
+      {
+        "q": "Should I cook Chinese yam or eat it raw?",
+        "a": "Always cook it. Raw Chinese yam can cause skin irritation and is harder to digest."
+      }
+    ]
+  },
+  {
+    "slug": "longan-gui-yuan",
+    "nameEn": "Longan",
+    "nameZh": "gui yuan",
+    "pinyin": "gui yuan",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Heart, Spleen",
+    "summary": "Small sweet dried fruit that builds Blood, calms the mind, and supports restful sleep. Called Dragon Eye in English.",
+    "actions": [
+      "Nourishes Heart Blood and calms the spirit",
+      "Strengthens the Spleen",
+      "Supports restful sleep",
+      "Eases anxiety and overthinking"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "goji berries",
+      "rice congee",
+      "ginger"
+    ],
+    "howToUse": "Simmer 10-15 dried longan in water for 10 minutes as tea. Add to congee with red dates.",
+    "dosage": "10-15g dried daily.",
+    "cautions": [
+      "Not suitable for Damp Heat or phlegm patterns",
+      "May cause bloating in excess",
+      "Avoid if you have a sore throat or fever",
+      "Not for people who run warm internally"
+    ],
+    "faqs": [
+      {
+        "q": "What does longan taste like?",
+        "a": "Dried longan is sweet and rich, similar to a date but with a floral note."
+      },
+      {
+        "q": "Does longan help with sleep?",
+        "a": "Yes. Longan nourishes Heart Blood which anchors the mind. A tea before bed may help calm racing thoughts."
+      },
+      {
+        "q": "Longan vs red dates?",
+        "a": "They work well together. Red dates strengthen Qi and Blood, while longan specifically calms the mind."
+      }
+    ]
+  },
+  {
+    "slug": "mung-bean-lu-dou",
+    "nameEn": "Mung Beans",
+    "nameZh": "lu dou",
+    "pinyin": "lu dou",
+    "category": "Cooling Herb",
+    "temperature": "Cool",
+    "taste": "Sweet",
+    "channels": "Heart, Stomach",
+    "summary": "The strongest cooling food in Chinese medicine. Clears internal heat, supports skin health, and is eaten during hot summer months.",
+    "actions": [
+      "Clears internal heat and toxins",
+      "Supports skin health from within",
+      "Helps the body process excess fluids",
+      "Cooling remedy for summer heat"
+    ],
+    "bodyTypes": [
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "rock sugar",
+      "lotus seed",
+      "pear",
+      "winter melon"
+    ],
+    "howToUse": "Simmer 1 cup mung beans in 4 cups water for 30 minutes. Add rock sugar for sweet soup.",
+    "dosage": "30-50g per serving, 1-2 times per week.",
+    "cautions": [
+      "Avoid if you have cold-type digestion or diarrhea",
+      "Not suitable for Yang Deficient types",
+      "May cause bloating if undercooked",
+      "Do not eat raw"
+    ],
+    "faqs": [
+      {
+        "q": "Are mung beans good for acne?",
+        "a": "Yes. In Chinese medicine, acne often relates to damp-heat. Mung beans clear heat and dampness, which may help skin."
+      },
+      {
+        "q": "How do I cook mung beans?",
+        "a": "Simmer in water for 30 minutes until soft. Add rock sugar for a sweet soup."
+      },
+      {
+        "q": "Can I eat mung beans every day?",
+        "a": "Daily is fine in summer for heat types, but reduce in winter or if you tend to run cold."
+      }
+    ]
+  },
+  {
+    "slug": "adzuki-bean-chi-xiao-dou",
+    "nameEn": "Adzuki Beans",
+    "nameZh": "chi xiao dou",
+    "pinyin": "chi xiao dou",
+    "category": "Dampness Draining",
+    "temperature": "Neutral",
+    "taste": "Sweet, sour",
+    "channels": "Heart, Small Intestine",
+    "summary": "The strongest damp-draining food in Chinese medicine. Reduces water retention, supports weight management, and clears heat.",
+    "actions": [
+      "Drains dampness and reduces edema",
+      "Supports healthy fluid metabolism",
+      "Clears mild heat",
+      "May help with weight management when combined with diet"
+    ],
+    "bodyTypes": [
+      "phlegm_damp"
+    ],
+    "foodPairings": [
+      "coix seed",
+      "winter melon",
+      "brown sugar",
+      "lotus leaf"
+    ],
+    "howToUse": "Boil 50g adzuki beans in 3 cups water for 45 minutes. Drink the water or eat the beans.",
+    "dosage": "30-50g per serving, 2-3 times per week.",
+    "cautions": [
+      "Avoid if you have severe cold-type digestion",
+      "Not suitable for frequent urination from Yang Deficiency",
+      "May cause bloating if not cooked thoroughly",
+      "Do not eat raw"
+    ],
+    "faqs": [
+      {
+        "q": "Are adzuki beans good for weight loss?",
+        "a": "In Chinese medicine, stubborn weight may relate to dampness. Adzuki beans drain dampness and may support healthy weight management."
+      },
+      {
+        "q": "Adzuki vs mung beans?",
+        "a": "Adzuki beans drain dampness and reduce water retention. Mung beans clear heat. They serve different purposes."
+      },
+      {
+        "q": "How do I cook adzuki beans?",
+        "a": "Soak overnight, then boil for 45 minutes until soft. Can be made into paste, soup, or tea."
+      }
+    ]
+  },
+  {
+    "slug": "coix-seed-yi-yi-ren",
+    "nameEn": "Coix Seed (Jobs Tears)",
+    "nameZh": "yi yi ren",
+    "pinyin": "yi yi ren",
+    "category": "Dampness Draining",
+    "temperature": "Slightly cool",
+    "taste": "Sweet, bland",
+    "channels": "Spleen, Lung, Kidney",
+    "summary": "A grain that drains dampness while strengthening the Spleen. Used for water retention, skin issues, and digestive support.",
+    "actions": [
+      "Drains dampness and strengthens Spleen",
+      "Supports healthy fluid metabolism",
+      "May help clear skin issues like acne",
+      "Gentle daily food for damp types"
+    ],
+    "bodyTypes": [
+      "phlegm_damp"
+    ],
+    "foodPairings": [
+      "adzuki beans",
+      "winter melon",
+      "mung beans",
+      "rice"
+    ],
+    "howToUse": "Cook as porridge with rice (1 part coix seed to 3 parts rice). Or boil in water as tea.",
+    "dosage": "30-50g per day, cooked.",
+    "cautions": [
+      "Not suitable during early pregnancy",
+      "Avoid if you have severe Yin Deficiency",
+      "May cause dry mouth in excess",
+      "Cook thoroughly, do not eat raw"
+    ],
+    "faqs": [
+      {
+        "q": "Is coix seed the same as barley?",
+        "a": "No. Coix seed (Jobs tears) is a different grain from barley. It is specifically used in Chinese medicine for draining dampness."
+      },
+      {
+        "q": "Can coix seed help with acne?",
+        "a": "Yes. Coix seed drains damp-heat which may contribute to acne. It is often combined with mung beans."
+      },
+      {
+        "q": "How do I cook coix seed?",
+        "a": "Soak for 2 hours, then cook as porridge with rice. Or boil in water for 1 hour as tea."
+      }
+    ]
+  },
+  {
+    "slug": "lotus-seed-lian-zi",
+    "nameEn": "Lotus Seeds",
+    "nameZh": "lian zi",
+    "pinyin": "lian zi",
+    "category": "Calming Herb",
+    "temperature": "Neutral",
+    "taste": "Sweet, astringent",
+    "channels": "Spleen, Heart, Kidney",
+    "summary": "Small ivory seeds that calm the mind, support sleep, and strengthen digestion. A key ingredient in Chinese dessert soups.",
+    "actions": [
+      "Calms the Heart and settles the mind",
+      "Strengthens the Spleen and aids digestion",
+      "Supports restful sleep",
+      "Reduces diarrhea from weakness"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "lily bulb",
+      "red dates",
+      "longan",
+      "rock sugar"
+    ],
+    "howToUse": "Soak dried lotus seeds overnight, then simmer 30 minutes. Add rock sugar for sweet soup.",
+    "dosage": "10-15g dried daily.",
+    "cautions": [
+      "Avoid if you have severe constipation",
+      "Not suitable for early-stage colds",
+      "May cause bloating in excess",
+      "Remove the bitter green center before use"
+    ],
+    "faqs": [
+      {
+        "q": "Do lotus seeds help with sleep?",
+        "a": "Yes. Lotus seeds calm the Heart and settle the mind. They are often combined with lily bulb in sleep-supporting soup."
+      },
+      {
+        "q": "Where can I buy lotus seeds?",
+        "a": "Asian grocery stores, usually in the dried goods section. Also available online."
+      },
+      {
+        "q": "Do I need to remove the center?",
+        "a": "Yes, the green embryo in the center is very bitter. Most dried lotus seeds sold have it removed already."
+      }
+    ]
+  },
+  {
+    "slug": "lily-bulb-bai-he",
+    "nameEn": "Lily Bulb",
+    "nameZh": "bai he",
+    "pinyin": "bai he",
+    "category": "Yin Tonic",
+    "temperature": "Slightly cool",
+    "taste": "Sweet, bitter",
+    "channels": "Heart, Lung",
+    "summary": "A pale scaly bulb that nourishes Heart and Lung Yin. Calms the mind, reduces dry cough, and supports restful sleep.",
+    "actions": [
+      "Nourishes Heart Yin and calms the mind",
+      "Moistens the Lung and reduces dry cough",
+      "Supports restful sleep",
+      "Clears mild heart heat"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "lotus seed",
+      "pear",
+      "rock sugar",
+      "goji berries"
+    ],
+    "howToUse": "Simmer 10-15g dried lily bulb with lotus seeds and rock sugar for 30 minutes as sweet soup.",
+    "dosage": "10-15g dried daily.",
+    "cautions": [
+      "Not suitable for cold-type cough with clear phlegm",
+      "Avoid if you have wind-cold symptoms",
+      "May cause loose stools in excess",
+      "Use caution during early pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Is lily bulb the same as the flower?",
+        "a": "No. The medicinal lily bulb (bai he) is the fleshy underground bulb, not the flower petals. It is eaten as food in Chinese cuisine."
+      },
+      {
+        "q": "Does lily bulb help with insomnia?",
+        "a": "Yes. Lily bulb nourishes Heart Yin which helps calm the mind for sleep. Combine with lotus seeds for best effect."
+      },
+      {
+        "q": "Where can I buy lily bulb?",
+        "a": "Asian grocery stores in the dried goods section. Look for white, papery, scaly bulbs."
+      }
+    ]
+  },
+  {
+    "slug": "white-fungus-yin-er",
+    "nameEn": "White Fungus",
+    "nameZh": "yin er",
+    "pinyin": "yin er",
+    "category": "Yin Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Lung, Stomach",
+    "summary": "A gelatinous fungus that deeply moistens the body. Used for dry skin, dry cough, and as a natural skin moisturizer from within.",
+    "actions": [
+      "Moistens the Lung and relieves dry cough",
+      "Nourishes body fluids and skin",
+      "Supports Yin without being heavy",
+      "Traditional beauty food for skin"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "rock sugar",
+      "pear",
+      "goji berries",
+      "red dates"
+    ],
+    "howToUse": "Soak 10g dried white fungus for 2 hours, tear into pieces, simmer with rock sugar for 1 hour.",
+    "dosage": "10-15g dried per serving, 2-3 times per week.",
+    "cautions": [
+      "Avoid if you have cold-type digestion",
+      "Not suitable during acute cold with clear phlegm",
+      "May cause bloating if not cooked long enough",
+      "Do not eat raw"
+    ],
+    "faqs": [
+      {
+        "q": "Is white fungus good for skin?",
+        "a": "Yes. White fungus is considered a natural moisturizer from within. It generates fluids that may help dry skin."
+      },
+      {
+        "q": "How do I prepare white fungus?",
+        "a": "Soak in cold water for 2 hours until it expands. Tear into small pieces. Simmer with rock sugar for 1 hour until gelatinous."
+      },
+      {
+        "q": "White fungus vs bird nest?",
+        "a": "White fungus is sometimes called the poor mans bird nest because it has similar moisturizing properties at a fraction of the cost."
+      }
+    ]
+  },
+  {
+    "slug": "mint-bo-he",
+    "nameEn": "Mint",
+    "nameZh": "bo he",
+    "pinyin": "bo he",
+    "category": "Cooling Herb",
+    "temperature": "Cool",
+    "taste": "Pungent",
+    "channels": "Lung, Liver",
+    "summary": "A refreshing herb that cools the body, moves stuck energy, and opens the sinuses. Used for stress, headaches, and sore throat.",
+    "actions": [
+      "Cools heat and releases stagnation",
+      "Moves Liver Qi and eases frustration",
+      "Opens the sinuses and clears the head",
+      "Soothes sore throat when brewed as tea"
+    ],
+    "bodyTypes": [
+      "qi_stagnant",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "green tea",
+      "honey",
+      "pear"
+    ],
+    "howToUse": "Steep 5-10 fresh leaves or 3-5g dried mint in hot water for 5 minutes. Drink as tea.",
+    "dosage": "3-10g dried, or a small handful of fresh leaves daily.",
+    "cautions": [
+      "Avoid if you are always cold or have weak digestion",
+      "Not suitable for nursing mothers (may reduce milk)",
+      "May cause sweating in excess",
+      "Do not use with warming tonics like ginseng"
+    ],
+    "faqs": [
+      {
+        "q": "Is mint tea good for stress?",
+        "a": "Yes. In Chinese medicine, mint moves Liver Qi which governs emotional flow. It may ease frustration and tension."
+      },
+      {
+        "q": "Can mint help with headaches?",
+        "a": "Yes, especially tension headaches from stress. The cooling and moving action helps release head tension."
+      },
+      {
+        "q": "Fresh vs dried mint?",
+        "a": "Both work. Fresh mint is milder and more aromatic. Dried mint is more concentrated. Use more fresh leaves than dried."
+      }
+    ]
+  },
+  {
+    "slug": "rose-mei-gui",
+    "nameEn": "Rose Petals",
+    "nameZh": "mei gui",
+    "pinyin": "mei gui",
+    "category": "Qi Regulating",
+    "temperature": "Slightly warm",
+    "taste": "Sweet, slightly bitter",
+    "channels": "Liver, Spleen",
+    "summary": "Dried rose petals brewed as tea that moves Liver Qi and eases emotional tension. The classic PMS mood swing remedy.",
+    "actions": [
+      "Moves Liver Qi and releases emotional tension",
+      "Eases PMS mood swings and breast tenderness",
+      "Promotes blood circulation",
+      "Calms without causing drowsiness"
+    ],
+    "bodyTypes": [
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "red dates",
+      "mint",
+      "honey"
+    ],
+    "howToUse": "Steep 5-8 dried rose buds in hot water for 5 minutes. Drink 1-2 cups daily, especially before periods.",
+    "dosage": "3-6g dried buds per day.",
+    "cautions": [
+      "Avoid during pregnancy",
+      "Not suitable for people with heavy menstrual bleeding",
+      "May cause mild stomach upset in excess",
+      "Do not use with blood-thinning medications"
+    ],
+    "faqs": [
+      {
+        "q": "Is rose tea good for PMS?",
+        "a": "Yes. In Chinese medicine, rose petals move Liver Qi which is the root of PMS mood swings and breast tenderness."
+      },
+      {
+        "q": "Can men drink rose tea?",
+        "a": "Yes. Rose tea is not gender-specific. It moves Liver Qi for anyone experiencing stress, frustration, or irritability."
+      },
+      {
+        "q": "Where can I buy dried rose buds?",
+        "a": "Asian grocery stores, tea shops, and online. Look for food-grade dried rose buds, not decorative ones."
+      }
+    ]
+  },
+  {
+    "slug": "cinnamon-rou-gui",
+    "nameEn": "Cinnamon",
+    "nameZh": "rou gui",
+    "pinyin": "rou gui",
+    "category": "Warming Herb",
+    "temperature": "Hot",
+    "taste": "Sweet, pungent",
+    "channels": "Kidney, Spleen, Heart",
+    "summary": "A deeply warming bark that warms the Kidney, strengthens Yang, and improves circulation. Used for cold extremities and lower back ache.",
+    "actions": [
+      "Warms Kidney Yang and strengthens reserves",
+      "Improves circulation to extremities",
+      "Warms the Spleen and aids digestion",
+      "Relieves cold-type pain"
+    ],
+    "bodyTypes": [
+      "yang_deficient"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "brown sugar",
+      "ginger",
+      "lamb"
+    ],
+    "howToUse": "Add a small stick to tea, congee, or stew. Use 1-2g powdered in warm milk or oatmeal.",
+    "dosage": "1-3g powdered, or 1-2 small sticks per day.",
+    "cautions": [
+      "Avoid if you have internal Heat or Yin Deficiency",
+      "Not suitable during pregnancy in medicinal doses",
+      "May interact with blood-thinning medications",
+      "Do not use if you have hot flashes or night sweats"
+    ],
+    "faqs": [
+      {
+        "q": "Is cinnamon the same as cassia?",
+        "a": "In Chinese medicine, rou gui is specifically cinnamon bark (cassia bark). It is warmer and more medicinal than common ground cinnamon."
+      },
+      {
+        "q": "Can cinnamon help with cold hands and feet?",
+        "a": "Yes. Cinnamon warms Kidney Yang and improves circulation to the extremities. It is one of the strongest warming herbs."
+      },
+      {
+        "q": "Can I use regular cinnamon powder?",
+        "a": "For cooking yes, but for medicinal purposes, Chinese cinnamon bark (rou gui) is preferred as it is stronger and targets the Kidney."
+      }
+    ]
+  },
+  {
+    "slug": "dried-tangerine-chen-pi",
+    "nameEn": "Aged Tangerine Peel",
+    "nameZh": "chen pi",
+    "pinyin": "chen pi",
+    "category": "Qi Regulating",
+    "temperature": "Warm",
+    "taste": "Pungent, bitter",
+    "channels": "Spleen, Lung",
+    "summary": "Dried citrus peel that moves Qi, reduces bloating, and transforms phlegm. The older the peel, the more valuable in Chinese medicine.",
+    "actions": [
+      "Moves Spleen and Stomach Qi",
+      "Reduces bloating and fullness",
+      "Transforms phlegm and reduces mucus",
+      "Aids digestion of heavy or greasy foods"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "ginger",
+      "red dates",
+      "rice congee",
+      "green tea"
+    ],
+    "howToUse": "Add 3-5g dried peel to tea, congee, or soup. Simmer for 10 minutes. Can also be ground and added to cooking.",
+    "dosage": "3-6g dried per day.",
+    "cautions": [
+      "Avoid if you have Yin Deficiency with dry mouth",
+      "Not suitable for people with internal Heat",
+      "May cause dryness in excess",
+      "Use aged peel, not fresh peel, for best effect"
+    ],
+    "faqs": [
+      {
+        "q": "Why is aged tangerine peel better?",
+        "a": "In Chinese medicine, the aging process mellows the harshness and enhances the Qi-moving properties. The name chen pi literally means old peel."
+      },
+      {
+        "q": "Can I make my own chen pi?",
+        "a": "Yes. Save tangerine peels, dry them thoroughly in the sun, and store in an airtight container. The longer they age, the better."
+      },
+      {
+        "q": "Does chen pi help with bloating?",
+        "a": "Yes. Chen pi moves Spleen and Stomach Qi, which may relieve bloating and fullness after eating."
+      }
+    ]
+  },
+  {
+    "slug": "pear-li",
+    "nameEn": "Pear",
+    "nameZh": "li",
+    "pinyin": "li",
+    "category": "Cooling Herb",
+    "temperature": "Cool",
+    "taste": "Sweet, sour",
+    "channels": "Lung, Stomach",
+    "summary": "A cooling fruit that moistens the Lung, relieves dry cough, and generates fluids.",
+    "actions": [
+      "Moistens the Lung and relieves dry cough",
+      "Generates fluids and relieves thirst",
+      "Clears mild heat",
+      "Supports voice and throat health"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "honey",
+      "rock sugar",
+      "lily bulb",
+      "white fungus"
+    ],
+    "howToUse": "Steam with rock sugar for 30 minutes. Slice in tea. Eat fresh in summer.",
+    "dosage": "1 pear per day.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not suitable for Yang Deficient types in winter",
+      "May cause diarrhea if eaten on empty stomach",
+      "Reduce if you have dampness"
+    ],
+    "faqs": [
+      {
+        "q": "Should I cook pear or eat it raw?",
+        "a": "Cooking pear enhances its moistening effect. Raw pear is fine in summer."
+      },
+      {
+        "q": "Does pear help with cough?",
+        "a": "Yes, for dry cough. Steamed pear with rock sugar is a classic Chinese remedy."
+      },
+      {
+        "q": "Is pear good for sore throat?",
+        "a": "Yes. Pear generates fluids and cools heat, which may help soothe a dry throat."
+      }
+    ]
+  },
+  {
+    "slug": "winter-melon-dong-gua",
+    "nameEn": "Winter Melon",
+    "nameZh": "dong gua",
+    "pinyin": "dong gua",
+    "category": "Dampness Draining",
+    "temperature": "Cool",
+    "taste": "Sweet",
+    "channels": "Lung, Small Intestine, Stomach",
+    "summary": "A mild melon that drains dampness, reduces swelling, and clears heat.",
+    "actions": [
+      "Drains dampness and reduces edema",
+      "Clears heat",
+      "Supports healthy fluid metabolism",
+      "May help with weight management"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "adzuki beans",
+      "mung beans",
+      "barley",
+      "lotus seed"
+    ],
+    "howToUse": "Slice and cook in soup for 30-40 minutes. Add to stews.",
+    "dosage": "100-200g per serving.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not suitable for Yang Deficient types in winter",
+      "May cause loose stools if overeaten",
+      "Reduce in cold weather"
+    ],
+    "faqs": [
+      {
+        "q": "Is winter melon the same as watermelon?",
+        "a": "No. Winter melon is a large mild gourd used in savory soups."
+      },
+      {
+        "q": "Does winter melon help with water retention?",
+        "a": "Yes. Winter melon promotes urination and drains dampness."
+      },
+      {
+        "q": "How do I cook winter melon?",
+        "a": "Slice and simmer in soup for 30-40 minutes."
+      }
+    ]
+  },
+  {
+    "slug": "barley-da-mai",
+    "nameEn": "Barley",
+    "nameZh": "da mai",
+    "pinyin": "da mai",
+    "category": "Dampness Draining",
+    "temperature": "Cool",
+    "taste": "Sweet, salty",
+    "channels": "Spleen, Stomach",
+    "summary": "A grain that drains dampness, supports digestion, and clears mild heat. Barley tea is a popular daily drink in East Asia.",
+    "actions": [
+      "Drains dampness",
+      "Supports healthy digestion",
+      "Clears mild heat",
+      "Gentle daily beverage base"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "adzuki beans",
+      "winter melon",
+      "mung beans",
+      "rice"
+    ],
+    "howToUse": "Roast barley grains and brew as tea. Cook with adzuki beans for damp-draining soup.",
+    "dosage": "10-30g roasted barley for tea daily.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not suitable for Yang Deficient types in winter",
+      "May reduce milk supply in nursing mothers",
+      "Use in moderation if you have gluten sensitivity"
+    ],
+    "faqs": [
+      {
+        "q": "Is barley tea good for dampness?",
+        "a": "Yes. Barley tea is one of the gentlest daily drinks for draining dampness."
+      },
+      {
+        "q": "Does barley tea have caffeine?",
+        "a": "No, barley tea is naturally caffeine-free."
+      },
+      {
+        "q": "Can I drink barley tea every day?",
+        "a": "Yes, barley tea is gentle enough for daily use, especially in summer."
+      }
+    ]
+  },
+  {
+    "slug": "lotus-root-lian-ou",
+    "nameEn": "Lotus Root",
+    "nameZh": "lian ou",
+    "pinyin": "lian ou",
+    "category": "Cooling Herb",
+    "temperature": "Cool",
+    "taste": "Sweet",
+    "channels": "Heart, Spleen, Stomach",
+    "summary": "A crunchy aquatic root that clears heat, generates fluids, and supports digestion.",
+    "actions": [
+      "Clears heat and generates fluids",
+      "May help stop minor bleeding",
+      "Supports digestion",
+      "Cooling for summer heat"
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "pear",
+      "mung beans",
+      "pork",
+      "rock sugar"
+    ],
+    "howToUse": "Slice and stir-fry. Cook in soup for 1 hour. Juice fresh lotus root for heat clearing.",
+    "dosage": "100-200g fresh per serving.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not suitable for Yang Deficient types in winter",
+      "Raw lotus root is very cooling",
+      "May cause bloating if undercooked"
+    ],
+    "faqs": [
+      {
+        "q": "Can I eat lotus root raw?",
+        "a": "Yes, but it is very cooling. Cook it if digestion is weak."
+      },
+      {
+        "q": "Does lotus root help with nosebleeds?",
+        "a": "In Chinese medicine, lotus root clears heat from blood and may help with minor bleeding."
+      },
+      {
+        "q": "How do I cook lotus root?",
+        "a": "Slice and stir-fry with vinegar, or simmer in soup for 1 hour."
+      }
+    ]
+  },
+  {
+    "slug": "honeysuckle-jin-yin-hua",
+    "nameEn": "Honeysuckle",
+    "nameZh": "jin yin hua",
+    "pinyin": "jin yin hua",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "channels": "Lung, Stomach, Large Intestine",
+    "summary": "A powerful heat-clearing flower used for sore throats, early colds, and skin inflammation.",
+    "actions": [
+      "Clears heat and relieves toxicity",
+      "Soothes sore throat",
+      "May help early stage colds",
+      "Clears damp-heat from skin"
+    ],
+    "bodyTypes": [
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "mint",
+      "mung beans",
+      "licorice"
+    ],
+    "howToUse": "Steep 6-10g dried flowers in hot water for 5 minutes as tea.",
+    "dosage": "6-15g per day for short-term use.",
+    "cautions": [
+      "Avoid if you have cold-type digestive issues",
+      "Not for long-term daily use",
+      "Not suitable for Yang Deficient types",
+      "Stop once symptoms improve"
+    ],
+    "faqs": [
+      {
+        "q": "Is honeysuckle good for sore throat?",
+        "a": "Yes. Honeysuckle clears heat and toxicity, making it effective for sore throat."
+      },
+      {
+        "q": "Can I drink honeysuckle tea every day?",
+        "a": "No. Honeysuckle is cold and meant for short-term use during heat conditions."
+      },
+      {
+        "q": "When should I take honeysuckle?",
+        "a": "At the first sign of a sore throat or heat-type cold. Use for 2-3 days then stop."
+      }
+    ]
+  },
+  {
+    "slug": "dong-quai-dang-gui",
+    "nameEn": "Dong Quai (Angelica)",
+    "nameZh": "dang gui",
+    "pinyin": "dang gui",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet, pungent, bitter",
+    "channels": "Heart, Liver, Spleen",
+    "summary": "The premier Blood tonic in Chinese medicine. Often called female ginseng. Used for menstrual issues and Blood deficiency.",
+    "actions": [
+      "Nourishes Blood",
+      "May regulate menstrual cycle",
+      "Supports postpartum recovery",
+      "Invigorates Blood circulation"
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "black beans",
+      "chicken",
+      "ginger"
+    ],
+    "howToUse": "Simmer 5-10g in chicken soup for 2 hours. Brew with red dates as tea.",
+    "dosage": "5-10g in food. Up to 15g for deficiency.",
+    "cautions": [
+      "Avoid during pregnancy",
+      "Not suitable during heavy menstrual bleeding",
+      "May increase bleeding risk, stop before surgery",
+      "Avoid if you have diarrhea or bloating"
+    ],
+    "faqs": [
+      {
+        "q": "Is dong quai good for periods?",
+        "a": "In Chinese medicine, dong quai nourishes and regulates Blood. Always consult a practitioner."
+      },
+      {
+        "q": "Can I take dong quai during pregnancy?",
+        "a": "No. Dong quai is contraindicated during pregnancy."
+      },
+      {
+        "q": "Is dong quai the same as ginseng?",
+        "a": "No. Dong quai is a Blood tonic, while ginseng is a Qi tonic."
+      }
+    ]
+  },
+  {
+    "slug": "rehmannia-di-huang",
+    "nameEn": "Rehmannia",
+    "nameZh": "di huang",
+    "pinyin": "di huang",
+    "category": "Yin Tonic",
+    "temperature": "Cool",
+    "taste": "Sweet, bitter",
+    "channels": "Heart, Liver, Kidney",
+    "summary": "A root that nourishes Kidney and Liver Yin, clears heat, and builds Blood.",
+    "actions": [
+      "Nourishes Kidney and Liver Yin",
+      "Clears deficiency heat",
+      "Builds Blood",
+      "May help with hot flashes and night sweats"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "black sesame",
+      "goji berries",
+      "mung beans",
+      "pear"
+    ],
+    "howToUse": "Usually used in herbal formulas. Prepared rehmannia can be added to soups.",
+    "dosage": "10-15g prepared, in soups or formulas.",
+    "cautions": [
+      "Avoid if you have dampness or bloating",
+      "May cause loose stools",
+      "Not suitable for Yang Deficient types",
+      "Consult a practitioner for proper use"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between raw and prepared rehmannia?",
+        "a": "Raw rehmannia is cooling and clears heat. Prepared rehmannia is warmer and builds Blood and Yin."
+      },
+      {
+        "q": "Is rehmannia good for menopause?",
+        "a": "In Chinese medicine, rehmannia nourishes Kidney Yin which declines during menopause."
+      },
+      {
+        "q": "Can I cook with rehmannia at home?",
+        "a": "Prepared rehmannia can be added to soups. Raw rehmannia is usually used in formulas."
+      }
+    ]
+  },
+  {
+    "slug": "poria-fu-ling",
+    "nameEn": "Poria (Fu Ling)",
+    "nameZh": "fu ling",
+    "pinyin": "fu ling",
+    "category": "Dampness Draining",
+    "temperature": "Neutral",
+    "taste": "Sweet, bland",
+    "channels": "Heart, Spleen, Kidney",
+    "summary": "A medicinal mushroom that drains dampness, strengthens the Spleen, and calms the mind.",
+    "actions": [
+      "Drains dampness",
+      "Strengthens the Spleen",
+      "Calms the mind and supports sleep",
+      "Gentle and suitable for long-term use"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "chinese yam",
+      "rice congee",
+      "lotus seed"
+    ],
+    "howToUse": "Cook 10-15g in soup or congee. Often combined with red dates and Chinese yam.",
+    "dosage": "10-15g per day in food.",
+    "cautions": [
+      "Avoid if you have Yin Deficiency with dryness",
+      "May worsen frequent urination",
+      "Not suitable for very dry constitution",
+      "Generally very safe"
+    ],
+    "faqs": [
+      {
+        "q": "What is poria?",
+        "a": "Poria (fu ling) is a medicinal fungus that grows on pine tree roots."
+      },
+      {
+        "q": "Does poria help with sleep?",
+        "a": "Yes. Poria calms the mind and is often included in sleep-supporting formulas."
+      },
+      {
+        "q": "Can I use poria every day?",
+        "a": "Yes. Poria is neutral and gentle, suitable for regular use."
+      }
+    ]
+  },
+  {
+    "slug": "fennel-xiao-hui-xiang",
+    "nameEn": "Fennel",
+    "nameZh": "xiao hui xiang",
+    "pinyin": "xiao hui xiang",
+    "category": "Warming Herb",
+    "temperature": "Warm",
+    "taste": "Pungent",
+    "channels": "Kidney, Stomach, Liver",
+    "summary": "Warming seeds that dispel cold, reduce gas, and support digestion. Common kitchen spice.",
+    "actions": [
+      "Disperses cold and warms the middle",
+      "Reduces gas and bloating",
+      "May ease menstrual cramps from cold",
+      "Warms the Kidney"
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "ginger",
+      "rice congee",
+      "lamb",
+      "red dates"
+    ],
+    "howToUse": "Brew 3-5g seeds as tea. Add to soups and stews. Use as spice in cooking.",
+    "dosage": "3-6g per day.",
+    "cautions": [
+      "Avoid if you have internal Heat or Yin Deficiency",
+      "May worsen hot flashes",
+      "Not suitable for Damp Heat types",
+      "Use in moderation"
+    ],
+    "faqs": [
+      {
+        "q": "Can fennel help with bloating?",
+        "a": "Yes. Fennel reduces gas and bloating by warming the digestive system."
+      },
+      {
+        "q": "Is fennel good for menstrual cramps?",
+        "a": "In Chinese medicine, fennel warms the lower abdomen and may help with cold-type cramps."
+      },
+      {
+        "q": "Can I use kitchen fennel seeds?",
+        "a": "Yes. The fennel seeds in your spice cabinet are the same herb used in Chinese medicine."
+      }
+    ]
+  },
+  {
+    "slug": "brown-sugar-hong-tang",
+    "nameEn": "Brown Sugar",
+    "nameZh": "hong tang",
+    "pinyin": "hong tang",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Liver, Spleen",
+    "summary": "Unrefined sugar that warms, builds Blood, and eases menstrual cramps. Used in traditional Chinese remedies.",
+    "actions": [
+      "Warms and builds Blood",
+      "May ease menstrual cramps",
+      "Supports postpartum recovery",
+      "Warms the middle"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "blood_stasis"
+    ],
+    "foodPairings": [
+      "ginger",
+      "red dates",
+      "longan",
+      "black sesame"
+    ],
+    "howToUse": "Dissolve 1-2 tablespoons in hot ginger tea. Add to red date tea. Use in cooking instead of white sugar.",
+    "dosage": "10-20g per day.",
+    "cautions": [
+      "Avoid if you have damp-heat",
+      "Not suitable for diabetes",
+      "May worsen acne in excess",
+      "Use in moderation"
+    ],
+    "faqs": [
+      {
+        "q": "Is brown sugar better than white sugar?",
+        "a": "In Chinese medicine, brown sugar (unrefined) is warming and builds Blood, while white sugar is considered empty sweetness."
+      },
+      {
+        "q": "Does brown sugar help with period cramps?",
+        "a": "Yes. Ginger brown sugar tea is the most common Chinese remedy for menstrual cramps."
+      },
+      {
+        "q": "Can I use brown sugar every day?",
+        "a": "In small amounts (10-15g) it is fine, especially in tea. Avoid excess if you have damp-heat."
+      }
+    ]
+  }
+]
