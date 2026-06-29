@@ -63,6 +63,13 @@ export function Nav({ right }: { right?: React.ReactNode }) {
           </div>
 
           <Link
+            href="/quiz"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)] whitespace-nowrap"
+          >
+            Start Quiz
+          </Link>
+
+          <Link
             href="/herbs"
             className="text-sm text-text2 no-underline hover:text-accent transition-colors tracking-wide font-medium"
           >
@@ -80,14 +87,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
 
       <div className="flex items-center gap-3">
         <ThemeToggle />
-        {right || (
-          <Link
-            href="/quiz"
-            className="hidden sm:inline-flex items-center justify-center px-5 py-2 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)]"
-          >
-            Start Quiz
-          </Link>
-        )}
+        {right}
         <button
           className="sm:hidden flex flex-col gap-1 p-2"
           onClick={() => setMobileOpen(!mobileOpen)}
