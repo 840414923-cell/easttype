@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { SearchBar } from "@/components/search-bar"
@@ -23,7 +24,8 @@ const CONTENT_BLOCKS = [
     description: "Chinese medicine identifies 9 constitutional patterns. Each type has unique tendencies in energy, digestion, sleep, and emotional balance. Discover yours and get personalized food guidance.",
     link: "/wellness/chinese-medicine-body-types",
     linkText: "Explore Body Types",
-    imagePlaceholder: "Body Types illustration - 9 constitutional patterns",
+    image: "/images/home/body-types.png",
+    alt: "Nine Chinese medicine body type stones on an open book with tea",
     reverse: false,
   },
   {
@@ -32,7 +34,8 @@ const CONTENT_BLOCKS = [
     description: "Why are you always tired? Why do you wake up at 3 AM? Why do you crave sweets? Each symptom has a Chinese medicine explanation that connects it to your body type and offers food-based approaches.",
     link: "/symptoms",
     linkText: "Browse All Symptoms",
-    imagePlaceholder: "Symptoms illustration - Chinese medicine diagnosis",
+    image: "/images/home/symptoms.png",
+    alt: "Lotus leaf with herbal tea and Chinese medicine ingredients on slate stone",
     reverse: true,
   },
   {
@@ -41,7 +44,8 @@ const CONTENT_BLOCKS = [
     description: "What to eat when you are always tired, always cold, or struggling with sleep. Chinese medicine food therapy matches ingredients to your constitution for gentle, gradual support.",
     link: "/foods-for",
     linkText: "Browse Food Guides",
-    imagePlaceholder: "Food therapy illustration - Chinese medicine foods",
+    image: "/images/home/food-guides.png",
+    alt: "Rice congee bowl with ginger, red dates, and goji berries on linen",
     reverse: false,
   },
   {
@@ -50,7 +54,8 @@ const CONTENT_BLOCKS = [
     description: "From Spleen Qi Deficiency to Yin and Yang, explore in-depth guides on Chinese medicine patterns, concepts, and remedies. Each guide includes food recommendations, daily habits, and FAQs.",
     link: "/wellness",
     linkText: "Browse Wellness Guides",
-    imagePlaceholder: "Wellness illustration - TCM concepts and patterns",
+    image: "/images/home/wellness.png",
+    alt: "Traditional Chinese medicine apothecary shelf with dried herbs",
     reverse: true,
   },
 ]
@@ -107,8 +112,15 @@ export default function HomeClient() {
                 </Link>
               </div>
               <div className={block.reverse ? "sm:col-start-1 sm:row-start-1" : ""}>
-                <div className="aspect-square rounded-2xl border border-[rgba(168,135,64,0.15)] bg-[rgba(168,135,64,0.04)] flex items-center justify-center p-8">
-                  <span className="text-text2/30 text-xs text-center">{block.imagePlaceholder}</span>
+                <div className="aspect-square rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)]">
+                  <Image
+                    src={block.image}
+                    alt={block.alt}
+                    width={600}
+                    height={600}
+                    className="w-full h-full object-cover"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                  />
                 </div>
               </div>
             </div>
