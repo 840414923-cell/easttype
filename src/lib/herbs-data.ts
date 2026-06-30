@@ -17,6 +17,7 @@ export interface HerbData {
   dosage: string
   cautions: string[]
   faqs: { q: string; a: string }[]
+  image: string
 }
 
 export const HERBS: Record<string, HerbData> = Object.fromEntries(

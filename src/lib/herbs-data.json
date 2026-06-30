@@ -46,7 +46,8 @@
         "q": "Which body type benefits most from ginseng?",
         "a": "Qi Deficient and Yang Deficient types benefit most. Take the free body type quiz to check your type."
       }
-    ]
+    ],
+    "image": "/images/herbs/ginseng-ren-shen.jpg"
   },
   {
     "slug": "astragalus-huang-qi",
@@ -94,7 +95,8 @@
         "q": "Can I use astragalus if I am always tired?",
         "a": "Yes, if your tiredness comes from Qi deficiency. Take the free body type quiz to confirm."
       }
-    ]
+    ],
+    "image": "/images/herbs/astragalus-huang-qi.jpg"
   },
   {
     "slug": "jujube-da-zao",
@@ -143,7 +145,8 @@
         "q": "Do red dates help with sleep?",
         "a": "Yes, especially when brewed as tea and drunk 30 minutes before bed. They calm the mind through nourishing the Heart."
       }
-    ]
+    ],
+    "image": "/images/herbs/jujube-da-zao.jpg"
   },
   {
     "slug": "goji-gou-qi-zi",
@@ -192,7 +195,8 @@
         "q": "Are goji berries the same as wolfberries?",
         "a": "Yes. Goji berries are also called wolfberries. They are the same fruit."
       }
-    ]
+    ],
+    "image": "/images/herbs/goji-gou-qi-zi.jpg"
   },
   {
     "slug": "ginger-sheng-jiang",
@@ -241,7 +245,8 @@
         "q": "Why should I avoid ginger at night?",
         "a": "Ginger is warming and energizing. Taking it late at night may interfere with sleep, especially for those who run warm."
       }
-    ]
+    ],
+    "image": "/images/herbs/ginger-sheng-jiang.jpg"
   },
   {
     "slug": "chrysanthemum-ju-hua",
@@ -290,7 +295,8 @@
         "q": "Does chrysanthemum tea have caffeine?",
         "a": "No, chrysanthemum tea is naturally caffeine-free."
       }
-    ]
+    ],
+    "image": "/images/herbs/chrysanthemum-ju-hua.jpg"
   },
   {
     "slug": "black-sesame-hei-zhi-ma",
@@ -339,7 +345,8 @@
         "q": "Black vs white sesame?",
         "a": "In Chinese medicine, black sesame is preferred for medicinal use as it specifically nourishes Kidney essence."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "walnuts-he-tao",
@@ -388,7 +395,8 @@
         "q": "How many walnuts should I eat daily?",
         "a": "5-8 walnuts per day is a good amount. Chew thoroughly for best absorption."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "chinese-yam-shan-yao",
@@ -437,7 +445,8 @@
         "q": "Should I cook Chinese yam or eat it raw?",
         "a": "Always cook it. Raw Chinese yam can cause skin irritation and is harder to digest."
       }
-    ]
+    ],
+    "image": "/images/herbs/chinese-yam-shan-yao.jpg"
   },
   {
     "slug": "longan-gui-yuan",
@@ -486,7 +495,8 @@
         "q": "Longan vs red dates?",
         "a": "They work well together. Red dates strengthen Qi and Blood, while longan specifically calms the mind."
       }
-    ]
+    ],
+    "image": "/images/herbs/longan-gui-yuan.jpg"
   },
   {
     "slug": "mung-bean-lu-dou",
@@ -534,7 +544,8 @@
         "q": "Can I eat mung beans every day?",
         "a": "Daily is fine in summer for heat types, but reduce in winter or if you tend to run cold."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "adzuki-bean-chi-xiao-dou",
@@ -582,7 +593,8 @@
         "q": "How do I cook adzuki beans?",
         "a": "Soak overnight, then boil for 45 minutes until soft. Can be made into paste, soup, or tea."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "coix-seed-yi-yi-ren",
@@ -630,7 +642,8 @@
         "q": "How do I cook coix seed?",
         "a": "Soak for 2 hours, then cook as porridge with rice. Or boil in water for 1 hour as tea."
       }
-    ]
+    ],
+    "image": "/images/herbs/coix-seed-yi-yi-ren.jpg"
   },
   {
     "slug": "lotus-seed-lian-zi",
@@ -679,7 +692,8 @@
         "q": "Do I need to remove the center?",
         "a": "Yes, the green embryo in the center is very bitter. Most dried lotus seeds sold have it removed already."
       }
-    ]
+    ],
+    "image": "/images/herbs/lotus-seed-lian-zi.jpg"
   },
   {
     "slug": "lily-bulb-bai-he",
@@ -727,7 +741,8 @@
         "q": "Where can I buy lily bulb?",
         "a": "Asian grocery stores in the dried goods section. Look for white, papery, scaly bulbs."
       }
-    ]
+    ],
+    "image": "/images/herbs/lily-bulb-bai-he.jpg"
   },
   {
     "slug": "white-fungus-yin-er",
@@ -775,7 +790,8 @@
         "q": "White fungus vs bird nest?",
         "a": "White fungus is sometimes called the poor mans bird nest because it has similar moisturizing properties at a fraction of the cost."
       }
-    ]
+    ],
+    "image": "/images/herbs/white-fungus-yin-er.jpg"
   },
   {
     "slug": "mint-bo-he",
@@ -824,7 +840,8 @@
         "q": "Fresh vs dried mint?",
         "a": "Both work. Fresh mint is milder and more aromatic. Dried mint is more concentrated. Use more fresh leaves than dried."
       }
-    ]
+    ],
+    "image": "/images/herbs/mint-bo-he.jpg"
   },
   {
     "slug": "rose-mei-gui",
@@ -872,7 +889,8 @@
         "q": "Where can I buy dried rose buds?",
         "a": "Asian grocery stores, tea shops, and online. Look for food-grade dried rose buds, not decorative ones."
       }
-    ]
+    ],
+    "image": "/images/herbs/rose-mei-gui.jpg"
   },
   {
     "slug": "cinnamon-rou-gui",
@@ -920,7 +938,8 @@
         "q": "Can I use regular cinnamon powder?",
         "a": "For cooking yes, but for medicinal purposes, Chinese cinnamon bark (rou gui) is preferred as it is stronger and targets the Kidney."
       }
-    ]
+    ],
+    "image": "/images/herbs/cinnamon-rou-gui.jpg"
   },
   {
     "slug": "dried-tangerine-chen-pi",
@@ -969,7 +988,8 @@
         "q": "Does chen pi help with bloating?",
         "a": "Yes. Chen pi moves Spleen and Stomach Qi, which may relieve bloating and fullness after eating."
       }
-    ]
+    ],
+    "image": "/images/herbs/dried-tangerine-chen-pi.jpg"
   },
   {
     "slug": "pear-li",
@@ -1017,7 +1037,8 @@
         "q": "Is pear good for sore throat?",
         "a": "Yes. Pear generates fluids and cools heat, which may help soothe a dry throat."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "winter-melon-dong-gua",
@@ -1066,7 +1087,8 @@
         "q": "How do I cook winter melon?",
         "a": "Slice and simmer in soup for 30-40 minutes."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "barley-da-mai",
@@ -1115,7 +1137,8 @@
         "q": "Can I drink barley tea every day?",
         "a": "Yes, barley tea is gentle enough for daily use, especially in summer."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "lotus-root-lian-ou",
@@ -1164,7 +1187,8 @@
         "q": "How do I cook lotus root?",
         "a": "Slice and stir-fry with vinegar, or simmer in soup for 1 hour."
       }
-    ]
+    ],
+    "image": ""
   },
   {
     "slug": "honeysuckle-jin-yin-hua",
@@ -1212,7 +1236,8 @@
         "q": "When should I take honeysuckle?",
         "a": "At the first sign of a sore throat or heat-type cold. Use for 2-3 days then stop."
       }
-    ]
+    ],
+    "image": "/images/herbs/honeysuckle-jin-yin-hua.jpg"
   },
   {
     "slug": "dong-quai-dang-gui",
@@ -1261,7 +1286,8 @@
         "q": "Is dong quai the same as ginseng?",
         "a": "No. Dong quai is a Blood tonic, while ginseng is a Qi tonic."
       }
-    ]
+    ],
+    "image": "/images/herbs/dong-quai-dang-gui.jpg"
   },
   {
     "slug": "rehmannia-di-huang",
@@ -1309,7 +1335,8 @@
         "q": "Can I cook with rehmannia at home?",
         "a": "Prepared rehmannia can be added to soups. Raw rehmannia is usually used in formulas."
       }
-    ]
+    ],
+    "image": "/images/herbs/rehmannia-di-huang.jpg"
   },
   {
     "slug": "poria-fu-ling",
@@ -1358,7 +1385,8 @@
         "q": "Can I use poria every day?",
         "a": "Yes. Poria is neutral and gentle, suitable for regular use."
       }
-    ]
+    ],
+    "image": "/images/herbs/poria-fu-ling.jpg"
   },
   {
     "slug": "fennel-xiao-hui-xiang",
@@ -1407,7 +1435,8 @@
         "q": "Can I use kitchen fennel seeds?",
         "a": "Yes. The fennel seeds in your spice cabinet are the same herb used in Chinese medicine."
       }
-    ]
+    ],
+    "image": "/images/herbs/fennel-xiao-hui-xiang.jpg"
   },
   {
     "slug": "brown-sugar-hong-tang",
@@ -1456,6 +1485,7 @@
         "q": "Can I use brown sugar every day?",
         "a": "In small amounts (10-15g) it is fine, especially in tea. Avoid excess if you have damp-heat."
       }
-    ]
+    ],
+    "image": ""
   }
 ]

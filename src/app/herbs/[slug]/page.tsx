@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { HERBS } from "@/lib/herbs-data"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 import { Nav } from "@/components/nav"
@@ -80,6 +81,19 @@ export default function HerbDetailPage({ params }: { params: { slug: string } })
             {herb.nameEn}
           </h1>
           <p className="text-text2 text-sm mb-6">{herb.nameZh} &middot; {herb.pinyin}</p>
+
+          {herb.image && (
+            <div className="relative w-full max-w-sm mx-auto mb-10 rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)]">
+              <Image
+                src={herb.image}
+                alt={herb.nameEn}
+                width={400}
+                height={300}
+                className="w-full h-auto"
+                sizes="(max-width: 640px) 100vw, 400px"
+              />
+            </div>
+          )}
 
           <div className="bg-[rgba(168,135,64,0.06)] border border-[rgba(168,135,64,0.2)] rounded-xl p-5 mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
