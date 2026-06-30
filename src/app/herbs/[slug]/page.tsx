@@ -20,13 +20,25 @@ export async function generateMetadata({
   const herb = HERBS[slug]
   if (!herb) return {}
   const title = `${herb.nameEn} (${herb.nameZh}) — TCM Herb Properties & Uses`
-  const desc = herb.summary
+  const desc = `${herb.nameEn} (${herb.nameZhTrad}): ${herb.category}, ${herb.temperature}. ${herb.summary}`.substring(0, 155)
   const url = `https://www.myeasterntype.com/herbs/${herb.slug}`
   return {
     title,
     description: desc,
-    openGraph: { title, description: desc, url, type: "article", siteName: "EastType" },
-    twitter: { card: "summary_large_image", title, description: desc },
+    openGraph: {
+      title,
+      description: desc,
+      url,
+      type: "article",
+      siteName: "EastType",
+      ...(herb.image ? { images: [{ url: `https://www.myeasterntype.com${herb.image}`, width: 1200, height: 800, alt: herb.nameEn }] } : {}),
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: desc,
+      ...(herb.image ? { images: [`https://www.myeasterntype.com${herb.image}`] } : {}),
+    },
     alternates: { canonical: url },
   }
 }
@@ -121,7 +133,10 @@ export default async function HerbDetailPage({
           <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-2 leading-tight tracking-wide">
             {herb.nameEn}
           </h1>
-          <p className="text-text2 text-sm mb-8">{herb.nameZh} &middot; {herb.pinyin}</p>
+          <p className="text-text2 text-sm mb-2">{herb.nameZh} &middot; {herb.pinyin}</p>
+          {herb.botanicalName && (
+            <p className="text-text2/50 text-xs italic mb-6">{herb.botanicalName}</p>
+          )}
 
           <div className="bg-[rgba(168,135,64,0.06)] border border-[rgba(168,135,64,0.2)] rounded-xl p-5 mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
@@ -137,6 +152,12 @@ export default async function HerbDetailPage({
             <div className="overflow-x-auto">
               <table className="w-full border-collapse text-sm">
                 <tbody className="text-text2">
+                  {herb.botanicalName && (
+                    <tr className="border-b border-[rgba(168,135,64,0.1)]">
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(168,135,64,0.03)]">Botanical Name</td>
+                      <td className="px-3 py-3 italic">{herb.botanicalName}</td>
+                    </tr>
+                  )}
                   <tr className="border-b border-[rgba(168,135,64,0.1)]">
                     <td className="px-3 py-3 font-medium text-text bg-[rgba(168,135,64,0.03)]">Category</td>
                     <td className="px-3 py-3">{herb.category}</td>

@@ -4,7 +4,9 @@ export interface HerbData {
   slug: string
   nameEn: string
   nameZh: string
+  nameZhTrad: string
   pinyin: string
+  botanicalName: string
   category: string
   temperature: string
   taste: string
@@ -17,7 +19,7 @@ export interface HerbData {
   dosage: string
   cautions: string[]
   faqs: { q: string; a: string }[]
-  image: string
+  image?: string
 }
 
 export const HERBS: Record<string, HerbData> = Object.fromEntries(

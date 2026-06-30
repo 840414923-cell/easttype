@@ -47,7 +47,8 @@
         "a": "Qi Deficient and Yang Deficient types benefit most. Take the free body type quiz to check your type."
       }
     ],
-    "image": "/images/herbs/ginseng-ren-shen.jpg"
+    "image": "/images/herbs/ginseng-ren-shen.jpg",
+    "botanicalName": "Panax ginseng C.A. Mey."
   },
   {
     "slug": "astragalus-huang-qi",
@@ -93,10 +94,11 @@
       },
       {
         "q": "Can I use astragalus if I am always tired?",
-        "a": "Yes, if your tiredness comes from Qi deficiency. Take the free body type quiz to confirm."
+        "a": "Yes, if your tiredness comes from Qi deficiency. Take the free body type quiz to confirm. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/astragalus-huang-qi.jpg"
+    "image": "/images/herbs/astragalus-huang-qi.jpg",
+    "botanicalName": "Astragalus membranaceus (Fisch.) Bunge"
   },
   {
     "slug": "jujube-da-zao",
@@ -135,7 +137,7 @@
     "faqs": [
       {
         "q": "Can I eat red dates every day?",
-        "a": "Yes, 5-8 dates daily is safe for most people. They are gentle enough for daily use."
+        "a": "Yes, 5-8 dates daily is safe for most people. They are gentle enough for daily use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Are red dates the same as Middle Eastern dates?",
@@ -146,7 +148,8 @@
         "a": "Yes, especially when brewed as tea and drunk 30 minutes before bed. They calm the mind through nourishing the Heart."
       }
     ],
-    "image": "/images/herbs/jujube-da-zao.jpg"
+    "image": "/images/herbs/jujube-da-zao.jpg",
+    "botanicalName": "Ziziphus jujuba Mill."
   },
   {
     "slug": "goji-gou-qi-zi",
@@ -193,10 +196,11 @@
       },
       {
         "q": "Are goji berries the same as wolfberries?",
-        "a": "Yes. Goji berries are also called wolfberries. They are the same fruit."
+        "a": "Yes. Goji berries are also called wolfberries. They are the same fruit. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/goji-gou-qi-zi.jpg"
+    "image": "/images/herbs/goji-gou-qi-zi.jpg",
+    "botanicalName": "Lycium barbarum L."
   },
   {
     "slug": "ginger-sheng-jiang",
@@ -246,7 +250,8 @@
         "a": "Ginger is warming and energizing. Taking it late at night may interfere with sleep, especially for those who run warm."
       }
     ],
-    "image": "/images/herbs/ginger-sheng-jiang.jpg"
+    "image": "/images/herbs/ginger-sheng-jiang.jpg",
+    "botanicalName": "Zingiber officinale Roscoe"
   },
   {
     "slug": "chrysanthemum-ju-hua",
@@ -285,7 +290,7 @@
     "faqs": [
       {
         "q": "Is chrysanthemum tea good for headaches?",
-        "a": "Yes, especially headaches caused by stress, frustration, or Liver heat."
+        "a": "Yes, especially headaches caused by stress, frustration, or Liver heat. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I drink chrysanthemum tea every day?",
@@ -293,10 +298,11 @@
       },
       {
         "q": "Does chrysanthemum tea have caffeine?",
-        "a": "No, chrysanthemum tea is naturally caffeine-free."
+        "a": "No, chrysanthemum tea is naturally caffeine-free. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/chrysanthemum-ju-hua.jpg"
+    "image": "/images/herbs/chrysanthemum-ju-hua.jpg",
+    "botanicalName": "Chrysanthemum morifolium Ramat."
   },
   {
     "slug": "chinese-yam-shan-yao",
@@ -335,18 +341,19 @@
     "faqs": [
       {
         "q": "Is Chinese yam the same as sweet potato?",
-        "a": "No. Chinese yam (shan yao) is a different root, specifically strengthens the Spleen and Kidney."
+        "a": "No. Chinese yam (shan yao) is a different root, specifically strengthens the Spleen and Kidney. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can Chinese yam help with bloating?",
-        "a": "Yes. Chinese yam strengthens the Spleen which is responsible for digestion."
+        "a": "Yes. Chinese yam strengthens the Spleen which is responsible for digestion. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Should I cook Chinese yam or eat it raw?",
-        "a": "Always cook it. Raw Chinese yam can cause skin irritation and is harder to digest."
+        "a": "Always cook it. Raw Chinese yam can cause skin irritation and is harder to digest. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/chinese-yam-shan-yao.jpg"
+    "image": "/images/herbs/chinese-yam-shan-yao.jpg",
+    "botanicalName": "Dioscorea opposita Thunb."
   },
   {
     "slug": "longan-gui-yuan",
@@ -385,7 +392,7 @@
     "faqs": [
       {
         "q": "What does longan taste like?",
-        "a": "Dried longan is sweet and rich, similar to a date but with a floral note."
+        "a": "Dried longan is sweet and rich, similar to a date but with a floral note. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Does longan help with sleep?",
@@ -396,7 +403,8 @@
         "a": "They work well together. Red dates strengthen Qi and Blood, while longan specifically calms the mind."
       }
     ],
-    "image": "/images/herbs/longan-gui-yuan.jpg"
+    "image": "/images/herbs/longan-gui-yuan.jpg",
+    "botanicalName": "Dimocarpus longan Lour."
   },
   {
     "slug": "coix-seed-yi-yi-ren",
@@ -438,14 +446,15 @@
       },
       {
         "q": "Can coix seed help with acne?",
-        "a": "Yes. Coix seed drains damp-heat which may contribute to acne. It is often combined with mung beans."
+        "a": "Yes. Coix seed drains damp-heat which may contribute to acne. It is often combined with mung beans. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How do I cook coix seed?",
-        "a": "Soak for 2 hours, then cook as porridge with rice. Or boil in water for 1 hour as tea."
+        "a": "Soak for 2 hours, then cook as porridge with rice. Or boil in water for 1 hour as tea. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/coix-seed-yi-yi-ren.jpg"
+    "image": "/images/herbs/coix-seed-yi-yi-ren.jpg",
+    "botanicalName": "Coix lacryma-jobi L. var. ma-yuen"
   },
   {
     "slug": "lotus-seed-lian-zi",
@@ -488,14 +497,15 @@
       },
       {
         "q": "Where can I buy lotus seeds?",
-        "a": "Asian grocery stores, usually in the dried goods section. Also available online."
+        "a": "Asian grocery stores, usually in the dried goods section. Also available online. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Do I need to remove the center?",
         "a": "Yes, the green embryo in the center is very bitter. Most dried lotus seeds sold have it removed already."
       }
     ],
-    "image": "/images/herbs/lotus-seed-lian-zi.jpg"
+    "image": "/images/herbs/lotus-seed-lian-zi.jpg",
+    "botanicalName": "Nelumbo nucifera Gaertn."
   },
   {
     "slug": "lily-bulb-bai-he",
@@ -541,10 +551,11 @@
       },
       {
         "q": "Where can I buy lily bulb?",
-        "a": "Asian grocery stores in the dried goods section. Look for white, papery, scaly bulbs."
+        "a": "Asian grocery stores in the dried goods section. Look for white, papery, scaly bulbs. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/lily-bulb-bai-he.jpg"
+    "image": "/images/herbs/lily-bulb-bai-he.jpg",
+    "botanicalName": "Lilium lancifolium Thunb."
   },
   {
     "slug": "white-fungus-yin-er",
@@ -593,7 +604,8 @@
         "a": "White fungus is sometimes called the poor mans bird nest because it has similar moisturizing properties at a fraction of the cost."
       }
     ],
-    "image": "/images/herbs/white-fungus-yin-er.jpg"
+    "image": "/images/herbs/white-fungus-yin-er.jpg",
+    "botanicalName": "Tremella fuciformis Berk."
   },
   {
     "slug": "mint-bo-he",
@@ -643,7 +655,8 @@
         "a": "Both work. Fresh mint is milder and more aromatic. Dried mint is more concentrated. Use more fresh leaves than dried."
       }
     ],
-    "image": "/images/herbs/mint-bo-he.jpg"
+    "image": "/images/herbs/mint-bo-he.jpg",
+    "botanicalName": "Mentha haplocalyx Briq."
   },
   {
     "slug": "rose-mei-gui",
@@ -692,7 +705,8 @@
         "a": "Asian grocery stores, tea shops, and online. Look for food-grade dried rose buds, not decorative ones."
       }
     ],
-    "image": "/images/herbs/rose-mei-gui.jpg"
+    "image": "/images/herbs/rose-mei-gui.jpg",
+    "botanicalName": "Rosa rugosa Thunb."
   },
   {
     "slug": "cinnamon-rou-gui",
@@ -741,7 +755,8 @@
         "a": "For cooking yes, but for medicinal purposes, Chinese cinnamon bark (rou gui) is preferred as it is stronger and targets the Kidney."
       }
     ],
-    "image": "/images/herbs/cinnamon-rou-gui.jpg"
+    "image": "/images/herbs/cinnamon-rou-gui.jpg",
+    "botanicalName": "Cinnamomum cassia Presl"
   },
   {
     "slug": "dried-tangerine-chen-pi",
@@ -788,10 +803,11 @@
       },
       {
         "q": "Does chen pi help with bloating?",
-        "a": "Yes. Chen pi moves Spleen and Stomach Qi, which may relieve bloating and fullness after eating."
+        "a": "Yes. Chen pi moves Spleen and Stomach Qi, which may relieve bloating and fullness after eating. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/dried-tangerine-chen-pi.jpg"
+    "image": "/images/herbs/dried-tangerine-chen-pi.jpg",
+    "botanicalName": "Citrus reticulata Blanco"
   },
   {
     "slug": "honeysuckle-jin-yin-hua",
@@ -829,18 +845,19 @@
     "faqs": [
       {
         "q": "Is honeysuckle good for sore throat?",
-        "a": "Yes. Honeysuckle clears heat and toxicity, making it effective for sore throat."
+        "a": "Yes. Honeysuckle clears heat and toxicity, making it effective for sore throat. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I drink honeysuckle tea every day?",
-        "a": "No. Honeysuckle is cold and meant for short-term use during heat conditions."
+        "a": "No. Honeysuckle is cold and meant for short-term use during heat conditions. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "When should I take honeysuckle?",
-        "a": "At the first sign of a sore throat or heat-type cold. Use for 2-3 days then stop."
+        "a": "At the first sign of a sore throat or heat-type cold. Use for 2-3 days then stop. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/honeysuckle-jin-yin-hua.jpg"
+    "image": "/images/herbs/honeysuckle-jin-yin-hua.jpg",
+    "botanicalName": "Lonicera japonica Thunb."
   },
   {
     "slug": "dong-quai-dang-gui",
@@ -879,18 +896,19 @@
     "faqs": [
       {
         "q": "Is dong quai good for periods?",
-        "a": "In Chinese medicine, dong quai nourishes and regulates Blood. Always consult a practitioner."
+        "a": "In Chinese medicine, dong quai nourishes and regulates Blood. Always consult a practitioner. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I take dong quai during pregnancy?",
-        "a": "No. Dong quai is contraindicated during pregnancy."
+        "a": "No. Dong quai is contraindicated during pregnancy. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Is dong quai the same as ginseng?",
-        "a": "No. Dong quai is a Blood tonic, while ginseng is a Qi tonic."
+        "a": "No. Dong quai is a Blood tonic, while ginseng is a Qi tonic. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/dong-quai-dang-gui.jpg"
+    "image": "/images/herbs/dong-quai-dang-gui.jpg",
+    "botanicalName": "Angelica sinensis (Oliv.) Diels"
   },
   {
     "slug": "rehmannia-di-huang",
@@ -928,18 +946,19 @@
     "faqs": [
       {
         "q": "What is the difference between raw and prepared rehmannia?",
-        "a": "Raw rehmannia is cooling and clears heat. Prepared rehmannia is warmer and builds Blood and Yin."
+        "a": "Raw rehmannia is cooling and clears heat. Prepared rehmannia is warmer and builds Blood and Yin. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Is rehmannia good for menopause?",
-        "a": "In Chinese medicine, rehmannia nourishes Kidney Yin which declines during menopause."
+        "a": "In Chinese medicine, rehmannia nourishes Kidney Yin which declines during menopause. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I cook with rehmannia at home?",
-        "a": "Prepared rehmannia can be added to soups. Raw rehmannia is usually used in formulas."
+        "a": "Prepared rehmannia can be added to soups. Raw rehmannia is usually used in formulas. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/rehmannia-di-huang.jpg"
+    "image": "/images/herbs/rehmannia-di-huang.jpg",
+    "botanicalName": "Rehmannia glutinosa Libosch."
   },
   {
     "slug": "poria-fu-ling",
@@ -978,18 +997,19 @@
     "faqs": [
       {
         "q": "What is poria?",
-        "a": "Poria (fu ling) is a medicinal fungus that grows on pine tree roots."
+        "a": "Poria (fu ling) is a medicinal fungus that grows on pine tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Does poria help with sleep?",
-        "a": "Yes. Poria calms the mind and is often included in sleep-supporting formulas."
+        "a": "Yes. Poria calms the mind and is often included in sleep-supporting formulas. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I use poria every day?",
-        "a": "Yes. Poria is neutral and gentle, suitable for regular use."
+        "a": "Yes. Poria is neutral and gentle, suitable for regular use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/poria-fu-ling.jpg"
+    "image": "/images/herbs/poria-fu-ling.jpg",
+    "botanicalName": "Wolfiporia cocos (Schwein.) Ryvarden"
   },
   {
     "slug": "fennel-xiao-hui-xiang",
@@ -1028,18 +1048,19 @@
     "faqs": [
       {
         "q": "Can fennel help with bloating?",
-        "a": "Yes. Fennel reduces gas and bloating by warming the digestive system."
+        "a": "Yes. Fennel reduces gas and bloating by warming the digestive system. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Is fennel good for menstrual cramps?",
-        "a": "In Chinese medicine, fennel warms the lower abdomen and may help with cold-type cramps."
+        "a": "In Chinese medicine, fennel warms the lower abdomen and may help with cold-type cramps. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I use kitchen fennel seeds?",
-        "a": "Yes. The fennel seeds in your spice cabinet are the same herb used in Chinese medicine."
+        "a": "Yes. The fennel seeds in your spice cabinet are the same herb used in Chinese medicine. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/fennel-xiao-hui-xiang.jpg"
+    "image": "/images/herbs/fennel-xiao-hui-xiang.jpg",
+    "botanicalName": "Foeniculum vulgare Mill."
   },
   {
     "slug": "gan-cao-gan-cao",
@@ -1079,18 +1100,19 @@
     "faqs": [
       {
         "q": "Is licorice root the same as candy?",
-        "a": "No. Medicinal licorice is much stronger. Candy contains sugar and flavorings."
+        "a": "No. Medicinal licorice is much stronger. Candy contains sugar and flavorings. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I drink licorice tea daily?",
-        "a": "Small amounts short-term are safe. Prolonged use may raise blood pressure."
+        "a": "Small amounts short-term are safe. Prolonged use may raise blood pressure. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Why is licorice in formulas?",
-        "a": "It harmonizes other herbs, reducing side effects."
+        "a": "It harmonizes other herbs, reducing side effects. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/gan-cao-gan-cao.jpg"
+    "image": "/images/herbs/gan-cao-gan-cao.jpg",
+    "botanicalName": "Glycyrrhiza uralensis Fisch."
   },
   {
     "slug": "huang-jing-huang-jing",
@@ -1130,18 +1152,19 @@
     "faqs": [
       {
         "q": "Is huang jing good for aging?",
-        "a": "In TCM, it nourishes Kidney essence which relates to aging."
+        "a": "In TCM, it nourishes Kidney essence which relates to aging. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Steamed is better. Simmer in soup for 1 hour."
+        "a": "Steamed is better. Simmer in soup for 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Is it same as yu zhu?",
-        "a": "No, different Polygonatum species with different uses."
+        "a": "No, different Polygonatum species with different uses. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/huang-jing-huang-jing.jpg"
+    "image": "/images/herbs/huang-jing-huang-jing.jpg",
+    "botanicalName": "Polygonatum sibiricum Redoute"
   },
   {
     "slug": "mai-dong-mai-dong",
@@ -1180,18 +1203,19 @@
     "faqs": [
       {
         "q": "Good for dry cough?",
-        "a": "Yes, mai dong moistens the Lung for dry cough."
+        "a": "Yes, mai dong moistens the Lung for dry cough. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for sleep?",
-        "a": "Yes, nourishes Heart Yin to calm the mind."
+        "a": "Yes, nourishes Heart Yin to calm the mind. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Soak briefly, simmer in tea 20 min."
+        "a": "Soak briefly, simmer in tea 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/mai-dong-mai-dong.jpg"
+    "image": "/images/herbs/mai-dong-mai-dong.jpg",
+    "botanicalName": "Ophiopogon japonicus (Thunb.) Ker-Gawl."
   },
   {
     "slug": "yu-zhu-yu-zhu",
@@ -1230,18 +1254,19 @@
     "faqs": [
       {
         "q": "Good for dry skin?",
-        "a": "Yes, nourishes Stomach Yin for fluid distribution."
+        "a": "Yes, nourishes Stomach Yin for fluid distribution. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as huang jing?",
-        "a": "No, different species, yu zhu moistens, huang jing tonifies."
+        "a": "No, different species, yu zhu moistens, huang jing tonifies. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Add to pork soup, simmer 1 hour."
+        "a": "Add to pork soup, simmer 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/yu-zhu-yu-zhu.jpg"
+    "image": "/images/herbs/yu-zhu-yu-zhu.jpg",
+    "botanicalName": "Polygonatum odoratum (Mill.) Druce"
   },
   {
     "slug": "shi-hu-shi-hu",
@@ -1280,18 +1305,19 @@
     "faqs": [
       {
         "q": "Is shi hu an orchid?",
-        "a": "Yes, Dendrobium is a type of orchid used medicinally."
+        "a": "Yes, Dendrobium is a type of orchid used medicinally. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Drink daily?",
-        "a": "Yes for Yin deficient types."
+        "a": "Yes for Yin deficient types. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Why expensive?",
-        "a": "Premium grows slowly, hand-harvested."
+        "a": "Premium grows slowly, hand-harvested. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shi-hu-shi-hu.jpg"
+    "image": "/images/herbs/shi-hu-shi-hu.jpg",
+    "botanicalName": "Dendrobium nobile Lindl."
   },
   {
     "slug": "tian-ma-tian-ma",
@@ -1331,18 +1357,19 @@
     "faqs": [
       {
         "q": "Good for headaches?",
-        "a": "Yes, one of the most used herbs for Liver-type headaches."
+        "a": "Yes, one of the most used herbs for Liver-type headaches. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Cook in soup?",
-        "a": "Yes, tian ma chicken soup is classic."
+        "a": "Yes, tian ma chicken soup is classic. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Daily use?",
-        "a": "Best as needed, not daily long-term."
+        "a": "Best as needed, not daily long-term. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/tian-ma-tian-ma.jpg"
+    "image": "/images/herbs/tian-ma-tian-ma.jpg",
+    "botanicalName": "Gastrodia elata Blume"
   },
   {
     "slug": "he-shou-wu-he-shou-wu",
@@ -1382,18 +1409,19 @@
     "faqs": [
       {
         "q": "Good for hair?",
-        "a": "In TCM, nourishes Kidney essence which governs hair."
+        "a": "In TCM, nourishes Kidney essence which governs hair. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can use raw?",
-        "a": "No, raw may be toxic. Only use processed."
+        "a": "No, raw may be toxic. Only use processed. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How long for results?",
-        "a": "2-3 months of consistent use."
+        "a": "2-3 months of consistent use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/he-shou-wu-he-shou-wu.jpg"
+    "image": "/images/herbs/he-shou-wu-he-shou-wu.jpg",
+    "botanicalName": "Polygonum multiflorum Thunb."
   },
   {
     "slug": "du-zhong-du-zhong",
@@ -1432,18 +1460,19 @@
     "faqs": [
       {
         "q": "Good for back pain?",
-        "a": "Yes, strengthens Kidney which governs lower back."
+        "a": "Yes, strengthens Kidney which governs lower back. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Lowers blood pressure?",
-        "a": "Research suggests it may help. Consult doctor."
+        "a": "Research suggests it may help. Consult doctor. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Simmer in pork spine soup 1-2 hours."
+        "a": "Simmer in pork spine soup 1-2 hours. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/du-zhong-du-zhong.jpg"
+    "image": "/images/herbs/du-zhong-du-zhong.jpg",
+    "botanicalName": "Eucommia ulmoides Oliv."
   },
   {
     "slug": "rou-cong-rong-rou-cong-rong",
@@ -1483,18 +1512,19 @@
     "faqs": [
       {
         "q": "Good for energy?",
-        "a": "Yes, gently warms Kidney Yang for energy."
+        "a": "Yes, gently warms Kidney Yang for energy. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe long-term?",
-        "a": "Gentler than others but consult practitioner."
+        "a": "Gentler than others but consult practitioner. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps constipation?",
-        "a": "Yes, moistens intestines for Yang-deficient constipation."
+        "a": "Yes, moistens intestines for Yang-deficient constipation. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/rou-cong-rong-rou-cong-rong.jpg"
+    "image": "/images/herbs/rou-cong-rong-rou-cong-rong.jpg",
+    "botanicalName": "Cistanche deserticola Y.C. Ma"
   },
   {
     "slug": "yin-yang-huo-yin-yang-huo",
@@ -1533,18 +1563,19 @@
     "faqs": [
       {
         "q": "Same as horny goat weed?",
-        "a": "Yes, yin yang huo is Chinese for Epimedium."
+        "a": "Yes, yin yang huo is Chinese for Epimedium. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps joint pain?",
-        "a": "Yes, disperses wind-damp for cold-weather joint pain."
+        "a": "Yes, disperses wind-damp for cold-weather joint pain. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Daily use?",
-        "a": "Use under practitioner guidance."
+        "a": "Use under practitioner guidance. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/yin-yang-huo-yin-yang-huo.jpg"
+    "image": "/images/herbs/yin-yang-huo-yin-yang-huo.jpg",
+    "botanicalName": "Epimedium brevicornu Maxim."
   },
   {
     "slug": "ba-ji-tian-ba-ji-tian",
@@ -1583,18 +1614,19 @@
     "faqs": [
       {
         "q": "Good for back pain?",
-        "a": "Yes, strengthens Kidney Yang for lower back."
+        "a": "Yes, strengthens Kidney Yang for lower back. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Women can use?",
-        "a": "Yes, both genders for Kidney Yang deficiency."
+        "a": "Yes, both genders for Kidney Yang deficiency. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Simmer in chicken or lamb soup 1 hour."
+        "a": "Simmer in chicken or lamb soup 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ba-ji-tian-ba-ji-tian.jpg"
+    "image": "/images/herbs/ba-ji-tian-ba-ji-tian.jpg",
+    "botanicalName": "Morinda officinalis How"
   },
   {
     "slug": "xuan-shen-xuan-shen",
@@ -1634,18 +1666,19 @@
     "faqs": [
       {
         "q": "Same as ginseng?",
-        "a": "No, xuan shen is Scrophularia, different plant."
+        "a": "No, xuan shen is Scrophularia, different plant. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps sore throat?",
-        "a": "Yes, clears heat for sore throat with swelling."
+        "a": "Yes, clears heat for sore throat with swelling. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Simmer in tea or soup 20 min."
+        "a": "Simmer in tea or soup 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/xuan-shen-xuan-shen.jpg"
+    "image": "/images/herbs/xuan-shen-xuan-shen.jpg",
+    "botanicalName": "Scrophularia ningpoensis Hemsl."
   },
   {
     "slug": "dang-shen-dang-shen",
@@ -1684,18 +1717,19 @@
     "faqs": [
       {
         "q": "Is dang shen a ginseng substitute?",
-        "a": "Yes, it is gentler and cheaper, often used instead of ginseng for daily use."
+        "a": "Yes, it is gentler and cheaper, often used instead of ginseng for daily use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I use daily?",
-        "a": "Yes, dang shen is gentle enough for regular use in soups and tea."
+        "a": "Yes, dang shen is gentle enough for regular use in soups and tea. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Add to chicken soup or congee, simmer 30 min."
+        "a": "Add to chicken soup or congee, simmer 30 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/dang-shen-dang-shen.jpg"
+    "image": "/images/herbs/dang-shen-dang-shen.jpg",
+    "botanicalName": "Codonopsis pilosula (Franch.) Nannf."
   },
   {
     "slug": "bai-zhu-bai-zhu",
@@ -1735,18 +1769,19 @@
     "faqs": [
       {
         "q": "Is bai zhu good for bloating?",
-        "a": "Yes. Bai zhu strengthens Spleen and dries dampness for bloating."
+        "a": "Yes. Bai zhu strengthens Spleen and dries dampness for bloating. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I use daily?",
-        "a": "In food amounts it is fine. For medicinal use consult a practitioner."
+        "a": "In food amounts it is fine. For medicinal use consult a practitioner. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Simmer in soup with poria and red dates."
+        "a": "Simmer in soup with poria and red dates. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/bai-zhu-bai-zhu.jpg"
+    "image": "/images/herbs/bai-zhu-bai-zhu.jpg",
+    "botanicalName": "Atractylodes macrocephala Koidz."
   },
   {
     "slug": "bai-shao-bai-shao",
@@ -1786,18 +1821,19 @@
     "faqs": [
       {
         "q": "Is bai shao good for periods?",
-        "a": "Yes. It nourishes Blood and regulates Liver for menstrual issues."
+        "a": "Yes. It nourishes Blood and regulates Liver for menstrual issues. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps with cramps?",
-        "a": "Yes. Bai shao softens the Liver and relieves muscle spasms and cramps."
+        "a": "Yes. Bai shao softens the Liver and relieves muscle spasms and cramps. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Simmer with dong quai and red dates in chicken soup."
+        "a": "Simmer with dong quai and red dates in chicken soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/bai-shao-bai-shao.jpg"
+    "image": "/images/herbs/bai-shao-bai-shao.jpg",
+    "botanicalName": "Paeonia lactiflora Pall."
   },
   {
     "slug": "shu-di-huang-shu-di-huang",
@@ -1837,18 +1873,19 @@
     "faqs": [
       {
         "q": "Difference from raw rehmannia?",
-        "a": "Raw rehmannia clears heat. Prepared rehmannia nourishes Blood and Yin."
+        "a": "Raw rehmannia clears heat. Prepared rehmannia nourishes Blood and Yin. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for anemia?",
-        "a": "In TCM it nourishes Blood. It complements but does not replace iron therapy."
+        "a": "In TCM it nourishes Blood. It complements but does not replace iron therapy. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
-        "a": "Simmer in soup with goji and red dates for 1 hour."
+        "a": "Simmer in soup with goji and red dates for 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shu-di-huang-shu-di-huang.jpg"
+    "image": "/images/herbs/shu-di-huang-shu-di-huang.jpg",
+    "botanicalName": "Rehmannia glutinosa (processed) Libosch."
   },
   {
     "slug": "e-jiao-e-jiao",
@@ -1888,18 +1925,19 @@
     "faqs": [
       {
         "q": "What is e jiao?",
-        "a": "E jiao is a gelatin made from donkey hide, used in TCM for centuries to nourish Blood."
+        "a": "E jiao is a gelatin made from donkey hide, used in TCM for centuries to nourish Blood. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for anemia?",
-        "a": "In TCM, e jiao is one of the strongest Blood tonics. Consult a doctor for anemia."
+        "a": "In TCM, e jiao is one of the strongest Blood tonics. Consult a doctor for anemia. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to use?",
-        "a": "Dissolve in warm water or rice wine, or melt into soup."
+        "a": "Dissolve in warm water or rice wine, or melt into soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/e-jiao-e-jiao.jpg"
+    "image": "/images/herbs/e-jiao-e-jiao.jpg",
+    "botanicalName": "Equus asinus L. (colla corii asini)"
   },
   {
     "slug": "ling-zhi-ling-zhi",
@@ -1939,18 +1977,19 @@
     "faqs": [
       {
         "q": "Is ling zhi the same as reishi?",
-        "a": "Yes. Ling zhi is the Chinese name for Ganoderma, known as reishi in Japanese."
+        "a": "Yes. Ling zhi is the Chinese name for Ganoderma, known as reishi in Japanese. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for sleep?",
-        "a": "Yes. Ling zhi calms the mind and is used for insomnia and anxiety."
+        "a": "Yes. Ling zhi calms the mind and is used for insomnia and anxiety. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I drink daily?",
-        "a": "Yes, reishi tea is safe for daily use in moderate amounts."
+        "a": "Yes, reishi tea is safe for daily use in moderate amounts. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ling-zhi-ling-zhi.jpg"
+    "image": "/images/herbs/ling-zhi-ling-zhi.jpg",
+    "botanicalName": "Ganoderma lucidum (Leyss. ex Fr.) Karst."
   },
   {
     "slug": "sang-ye-sang-ye",
@@ -1990,18 +2029,19 @@
     "faqs": [
       {
         "q": "Is sang ye good for cough?",
-        "a": "Yes. Sang ye clears Lung heat and relieves dry cough."
+        "a": "Yes. Sang ye clears Lung heat and relieves dry cough. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can it lower blood sugar?",
-        "a": "Modern research suggests mulberry leaf may help. Consult your doctor."
+        "a": "Modern research suggests mulberry leaf may help. Consult your doctor. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to use?",
-        "a": "Steep as tea, or add to soup."
+        "a": "Steep as tea, or add to soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/sang-ye-sang-ye.jpg"
+    "image": "/images/herbs/sang-ye-sang-ye.jpg",
+    "botanicalName": "Morus alba L."
   },
   {
     "slug": "jue-ming-zi-jue-ming-zi",
@@ -2041,18 +2081,19 @@
     "faqs": [
       {
         "q": "Good for eyes?",
-        "a": "Yes. Jue ming zi clears Liver heat which benefits the eyes."
+        "a": "Yes. Jue ming zi clears Liver heat which benefits the eyes. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps constipation?",
-        "a": "Yes. It moistens intestines for heat-type constipation."
+        "a": "Yes. It moistens intestines for heat-type constipation. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Roast lightly, then steep as tea."
+        "a": "Roast lightly, then steep as tea. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/jue-ming-zi-jue-ming-zi.jpg"
+    "image": "/images/herbs/jue-ming-zi-jue-ming-zi.jpg",
+    "botanicalName": "Cassia obtusifolia L."
   },
   {
     "slug": "ban-lan-gen-ban-lan-gen",
@@ -2091,18 +2132,19 @@
     "faqs": [
       {
         "q": "Good for sore throat?",
-        "a": "Yes, powerful heat-clearing for sore throat and viruses."
+        "a": "Yes, powerful heat-clearing for sore throat and viruses. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Use during flu?",
-        "a": "Common in China during flu season. Short-term only."
+        "a": "Common in China during flu season. Short-term only. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe for daily use?",
-        "a": "No, too cold for daily use. Use short-term only."
+        "a": "No, too cold for daily use. Use short-term only. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ban-lan-gen-ban-lan-gen.jpg"
+    "image": "/images/herbs/ban-lan-gen-ban-lan-gen.jpg",
+    "botanicalName": "Isatis indigotica Fort."
   },
   {
     "slug": "lian-qiao-lian-qiao",
@@ -2141,18 +2183,19 @@
     "faqs": [
       {
         "q": "Good for sore throat?",
-        "a": "Yes, clears heat and toxicity for sore throat."
+        "a": "Yes, clears heat and toxicity for sore throat. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as honeysuckle?",
-        "a": "No, but often paired together for heat-clearing."
+        "a": "No, but often paired together for heat-clearing. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Daily use?",
-        "a": "No, short-term for acute conditions only."
+        "a": "No, short-term for acute conditions only. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/lian-qiao-lian-qiao.jpg"
+    "image": "/images/herbs/lian-qiao-lian-qiao.jpg",
+    "botanicalName": "Forsythia suspensa (Thunb.) Vahl"
   },
   {
     "slug": "zhi-mu-zhi-mu",
@@ -2192,18 +2235,19 @@
     "faqs": [
       {
         "q": "Good for hot flashes?",
-        "a": "Yes, clears deficiency heat from Yin deficiency."
+        "a": "Yes, clears deficiency heat from Yin deficiency. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for dry cough?",
-        "a": "Yes, moistens Lung for dry cough."
+        "a": "Yes, moistens Lung for dry cough. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Simmer in tea or soup for 20 min."
+        "a": "Simmer in tea or soup for 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/zhi-mu-zhi-mu.jpg"
+    "image": "/images/herbs/zhi-mu-zhi-mu.jpg",
+    "botanicalName": "Anemarrhena asphodeloides Bunge"
   },
   {
     "slug": "che-qian-zi-che-qian-zi",
@@ -2243,18 +2287,19 @@
     "faqs": [
       {
         "q": "Good for water retention?",
-        "a": "Yes, che qian zi promotes urination and drains dampness."
+        "a": "Yes, che qian zi promotes urination and drains dampness. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe for daily use?",
-        "a": "Short-term use is fine. Not for long-term without guidance."
+        "a": "Short-term use is fine. Not for long-term without guidance. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Wrap in cloth bag, simmer in tea 20 min."
+        "a": "Wrap in cloth bag, simmer in tea 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/che-qian-zi-che-qian-zi.jpg"
+    "image": "/images/herbs/che-qian-zi-che-qian-zi.jpg",
+    "botanicalName": "Plantago asiatica L."
   },
   {
     "slug": "di-gu-pi-di-gu-pi",
@@ -2293,18 +2338,19 @@
     "faqs": [
       {
         "q": "Good for night sweats?",
-        "a": "Yes, di gu pi clears deficiency heat that causes night sweats."
+        "a": "Yes, di gu pi clears deficiency heat that causes night sweats. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as goji?",
-        "a": "No, di gu pi is the root bark of the wolfberry plant, not the berry."
+        "a": "No, di gu pi is the root bark of the wolfberry plant, not the berry. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to prepare?",
-        "a": "Simmer in tea or soup for 20 minutes."
+        "a": "Simmer in tea or soup for 20 minutes. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/di-gu-pi-di-gu-pi.jpg"
+    "image": "/images/herbs/di-gu-pi-di-gu-pi.jpg",
+    "botanicalName": "Lycium chinense Mill."
   },
   {
     "slug": "shan-zha-shan-zha",
@@ -2344,18 +2390,19 @@
     "faqs": [
       {
         "q": "Good for digestion?",
-        "a": "Yes, shan zha is the best herb for digesting heavy meat meals."
+        "a": "Yes, shan zha is the best herb for digesting heavy meat meals. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for heart?",
-        "a": "Modern research suggests hawthorn may support cardiovascular health."
+        "a": "Modern research suggests hawthorn may support cardiovascular health. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I eat daily?",
-        "a": "In moderation as tea or snack, yes for most people."
+        "a": "In moderation as tea or snack, yes for most people. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shan-zha-shan-zha.jpg"
+    "image": "/images/herbs/shan-zha-shan-zha.jpg",
+    "botanicalName": "Crataegus pinnatifida Bunge"
   },
   {
     "slug": "suan-zao-ren-suan-zao-ren",
@@ -2395,18 +2442,19 @@
     "faqs": [
       {
         "q": "Good for insomnia?",
-        "a": "Yes, suan zao ren is the most used herb for sleep in TCM."
+        "a": "Yes, suan zao ren is the most used herb for sleep in TCM. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "When to take?",
-        "a": "30-60 minutes before bed for sleep support."
+        "a": "30-60 minutes before bed for sleep support. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe long-term?",
-        "a": "Generally safe but consult a practitioner for extended use."
+        "a": "Generally safe but consult a practitioner for extended use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/suan-zao-ren-suan-zao-ren.jpg"
+    "image": "/images/herbs/suan-zao-ren-suan-zao-ren.jpg",
+    "botanicalName": "Ziziphus jujuba Mill. var. spinosa"
   },
   {
     "slug": "wu-wei-zi-wu-wei-zi",
@@ -2446,18 +2494,19 @@
     "faqs": [
       {
         "q": "What are the five flavors?",
-        "a": "Sweet, sour, bitter, acrid, and salty. Schisandra contains all five."
+        "a": "Sweet, sour, bitter, acrid, and salty. Schisandra contains all five. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Good for liver?",
-        "a": "Modern research suggests schisandra may support liver health."
+        "a": "Modern research suggests schisandra may support liver health. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Helps with sweating?",
-        "a": "Yes, wu wei zi astringes and may reduce excessive sweating."
+        "a": "Yes, wu wei zi astringes and may reduce excessive sweating. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/wu-wei-zi-wu-wei-zi.jpg"
+    "image": "/images/herbs/wu-wei-zi-wu-wei-zi.jpg",
+    "botanicalName": "Schisandra chinensis (Turcz.) Baill."
   },
   {
     "slug": "ze-xie-ze-xie",
@@ -2497,18 +2546,19 @@
     "faqs": [
       {
         "q": "Good for water retention?",
-        "a": "Yes, ze xie promotes urination and drains dampness."
+        "a": "Yes, ze xie promotes urination and drains dampness. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as poria?",
-        "a": "No, both drain dampness but poria also calms mind. Ze xie is colder."
+        "a": "No, both drain dampness but poria also calms mind. Ze xie is colder. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe daily?",
-        "a": "Short-term is fine. Not for long-term without guidance."
+        "a": "Short-term is fine. Not for long-term without guidance. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ze-xie-ze-xie.jpg"
+    "image": "/images/herbs/ze-xie-ze-xie.jpg",
+    "botanicalName": "Alisma plantago-aquatica L. var. orientale"
   },
   {
     "slug": "zhu-ling-zhu-ling",
@@ -2547,17 +2597,18 @@
     "faqs": [
       {
         "q": "What is zhu ling?",
-        "a": "Zhu ling is a medicinal mushroom (Polyporus) that grows on tree roots."
+        "a": "Zhu ling is a medicinal mushroom (Polyporus) that grows on tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as poria?",
-        "a": "No, both are fungi but different species. Zhu ling focuses on draining dampness."
+        "a": "No, both are fungi but different species. Zhu ling focuses on draining dampness. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Safe for daily use?",
-        "a": "Generally safe for short-term use in damp patterns."
+        "a": "Generally safe for short-term use in damp patterns. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/zhu-ling-zhu-ling.jpg"
+    "image": "/images/herbs/zhu-ling-zhu-ling.jpg",
+    "botanicalName": "Polyporus umbellatus (Pers.) Fries"
   }
 ]
