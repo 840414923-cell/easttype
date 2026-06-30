@@ -13,8 +13,9 @@ export function generateStaticParams() {
   return SOLUTION_LIST.map((s) => ({ slug: s.slug }))
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const solution = SOLUTIONS[params.slug]
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params
+  const solution = SOLUTIONS[slug]
   if (!solution) return {}
 
   const url = `${SITE_URL}/solutions/${solution.slug}`
@@ -33,8 +34,9 @@ const FORMULA_COLORS: Record<string, string> = {
   "Qi Stagnant": "bg-purple-100 text-purple-800 border-purple-200",
 }
 
-export default function SolutionPage({ params }: { params: { slug: string } }) {
-  const solution = SOLUTIONS[params.slug]
+export default async function SolutionPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const solution = SOLUTIONS[slug]
   if (!solution) notFound()
 
   const jsonLdArticle = {
