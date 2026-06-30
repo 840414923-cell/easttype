@@ -47,7 +47,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
             </button>
             {guidesOpen && (
               <div className="absolute top-full left-0 pt-2 w-64">
-                <div className="bg-card-bg border border-[rgba(168,135,64,0.15)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden">
+                <div className="bg-[var(--color-card-bg)] border border-[rgba(168,135,64,0.15)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden">
                   {GUIDE_LINKS.map((link) => (
                     <Link
                       key={link.href}
