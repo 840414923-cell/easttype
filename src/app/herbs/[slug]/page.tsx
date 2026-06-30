@@ -183,17 +183,62 @@ export default async function HerbDetailPage({
             <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
               What This Herb Does
             </h2>
-            <ul className="space-y-3 text-text2">
-              {herb.actions.map((action, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(168,135,64,0.1)] flex items-center justify-center text-accent text-xs font-bold mt-0.5">
-                    {i + 1}
+            {herb.therapeuticFocus && herb.therapeuticFocus.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-6">
+                {herb.therapeuticFocus.map((focus, i) => (
+                  <span key={i} className="text-[10px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[rgba(168,135,64,0.08)] text-accent border border-[rgba(168,135,64,0.15)]">
+                    {focus}
                   </span>
-                  <span className="leading-relaxed">{action}</span>
-                </li>
-              ))}
-            </ul>
+                ))}
+              </div>
+            )}
+            {herb.actionDetails && herb.actionDetails.length > 0 ? (
+              <div className="space-y-6">
+                {herb.actionDetails.map((detail, i) => (
+                  <div key={i} className="border-l-2 border-[rgba(168,135,64,0.2)] pl-4">
+                    <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 font-semibold">
+                      {detail.action}
+                    </h3>
+                    <p className="text-text2 text-sm leading-relaxed">{detail.explanation}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <ul className="space-y-3 text-text2">
+                {herb.actions.map((action, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(168,135,64,0.1)] flex items-center justify-center text-accent text-xs font-bold mt-0.5">
+                      {i + 1}
+                    </span>
+                    <span className="leading-relaxed">{action}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
           </section>
+
+          {herb.commonlyUsedFor && herb.commonlyUsedFor.length > 0 && (
+            <section className="mb-10">
+              <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+                Commonly Used For
+              </h2>
+              <div className="space-y-5">
+                {herb.commonlyUsedFor.map((item, i) => (
+                  <div key={i} className="bg-card-bg border border-[rgba(168,135,64,0.12)] rounded-xl p-5">
+                    <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-3 font-semibold">
+                      {item.condition}
+                    </h3>
+                    <p className="text-text2 text-sm leading-relaxed mb-3">
+                      <strong className="text-text">TCM Interpretation:</strong> {item.tcmInterpretation}
+                    </p>
+                    <p className="text-text2 text-sm leading-relaxed">
+                      <strong className="text-text">Why {herb.nameEn} Helps:</strong> {item.whyItHelps}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
@@ -220,12 +265,30 @@ export default async function HerbDetailPage({
               How to Use
             </h2>
             <p className="text-text2 leading-relaxed mb-4">{herb.howToUse}</p>
-            <div className="bg-card-bg border border-[rgba(168,135,64,0.12)] rounded-xl px-4 py-3">
+            <div className="bg-card-bg border border-[rgba(168,135,64,0.12)] rounded-xl px-4 py-3 mb-4">
               <p className="text-text2 text-sm">
                 <strong className="text-text">Dosage:</strong> {herb.dosage}
               </p>
             </div>
+            {herb.preparationNotes && (
+              <div className="bg-[rgba(168,135,64,0.04)] border border-[rgba(168,135,64,0.1)] rounded-xl px-4 py-3">
+                <p className="text-text2 text-sm leading-relaxed">
+                  <strong className="text-text">Preparation Notes:</strong> {herb.preparationNotes}
+                </p>
+              </div>
+            )}
           </section>
+
+          {herb.dietaryAdvice && (
+            <section className="mb-10">
+              <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+                Dietary Advice
+              </h2>
+              <div className="bg-[rgba(168,135,64,0.04)] border border-[rgba(168,135,64,0.12)] rounded-xl p-5">
+                <p className="text-text2 text-sm leading-relaxed">{herb.dietaryAdvice}</p>
+              </div>
+            </section>
+          )}
 
           <section className="mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

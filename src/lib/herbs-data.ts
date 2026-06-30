@@ -13,10 +13,15 @@ export interface HerbData {
   channels: string
   summary: string
   actions: string[]
+  actionDetails?: { action: string; explanation: string }[]
   bodyTypes: string[]
+  commonlyUsedFor?: { condition: string; tcmInterpretation: string; whyItHelps: string }[]
+  therapeuticFocus?: string[]
   foodPairings: string[]
   howToUse: string
   dosage: string
+  preparationNotes?: string
+  dietaryAdvice?: string
   cautions: string[]
   faqs: { q: string; a: string }[]
   image?: string
