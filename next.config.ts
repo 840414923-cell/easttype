@@ -28,6 +28,9 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  images: {
+    dangerouslyAllowSVG: true,
+  },
   headers: async () => [
     {
       source: "/(.*)",
