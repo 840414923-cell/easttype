@@ -5,7 +5,7 @@ import { Footer } from "@/components/footer"
 import { SOLUTION_LIST } from "@/lib/solutions-data"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "TCM Solutions — Herbal Formula Guides by Body Type"
+const TITLE = "TCM Solutions: Herbal Formula Guides by Body Type"
 const DESC = "Actionable Chinese medicine herbal formula guides for common health concerns. Each formula includes ingredients, preparation steps, and body type matching."
 const URL = "https://www.myeasterntype.com/solutions"
 
