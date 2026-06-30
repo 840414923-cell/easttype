@@ -85,7 +85,8 @@
       }
     ],
     "preparationNotes": "Because Ginseng is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Ginseng, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Ginseng, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "人蔘"
   },
   {
     "slug": "astragalus-huang-qi",
@@ -167,7 +168,8 @@
       }
     ],
     "preparationNotes": "Astragalus is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Astragalus is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Astragalus is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "黃耆"
   },
   {
     "slug": "jujube-da-zao",
@@ -255,7 +257,8 @@
       }
     ],
     "preparationNotes": "Because Red Dates (Jujube) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Red Dates (Jujube), avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Red Dates (Jujube), avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "大棗"
   },
   {
     "slug": "goji-gou-qi-zi",
@@ -343,7 +346,8 @@
       }
     ],
     "preparationNotes": "Goji Berries is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Goji Berries is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Goji Berries is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "枸杞子"
   },
   {
     "slug": "ginger-sheng-jiang",
@@ -431,7 +435,8 @@
       }
     ],
     "preparationNotes": "Because Fresh Ginger is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Fresh Ginger, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Fresh Ginger, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "生薑"
   },
   {
     "slug": "chrysanthemum-ju-hua",
@@ -519,7 +524,8 @@
       }
     ],
     "preparationNotes": "Chrysanthemum is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Chrysanthemum is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Chrysanthemum is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "菊花"
   },
   {
     "slug": "chinese-yam-shan-yao",
@@ -607,7 +613,8 @@
       }
     ],
     "preparationNotes": "Chinese Yam is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Chinese Yam is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Chinese Yam is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "山藥"
   },
   {
     "slug": "longan-gui-yuan",
@@ -695,7 +702,8 @@
       }
     ],
     "preparationNotes": "Because Longan is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Longan, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Longan, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "龍眼乾"
   },
   {
     "slug": "coix-seed-yi-yi-ren",
@@ -777,7 +785,8 @@
       }
     ],
     "preparationNotes": "Coix Seed (Jobs Tears) is slightly cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Coix Seed (Jobs Tears) is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Coix Seed (Jobs Tears) is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "薏苡仁"
   },
   {
     "slug": "lotus-seed-lian-zi",
@@ -865,7 +874,8 @@
       }
     ],
     "preparationNotes": "Lotus Seeds is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Lotus Seeds is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Lotus Seeds is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "蓮子"
   },
   {
     "slug": "lily-bulb-bai-he",
@@ -947,7 +957,8 @@
       }
     ],
     "preparationNotes": "Lily Bulb is slightly cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Lily Bulb is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Lily Bulb is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "百合"
   },
   {
     "slug": "white-fungus-yin-er",
@@ -1029,7 +1040,8 @@
       }
     ],
     "preparationNotes": "White Fungus is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "White Fungus is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "White Fungus is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "銀耳"
   },
   {
     "slug": "mint-bo-he",
@@ -1117,7 +1129,8 @@
       }
     ],
     "preparationNotes": "Mint is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "When taking Mint, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort."
+    "dietaryAdvice": "When taking Mint, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort.",
+    "nameZhTrad": "薄荷"
   },
   {
     "slug": "rose-mei-gui",
@@ -1199,7 +1212,8 @@
       }
     ],
     "preparationNotes": "Rose Petals is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Rose Petals is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Rose Petals is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "玫瑰花"
   },
   {
     "slug": "cinnamon-rou-gui",
@@ -1281,7 +1295,8 @@
       }
     ],
     "preparationNotes": "Because Cinnamon is hot, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Cinnamon, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Cinnamon, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "肉桂"
   },
   {
     "slug": "dried-tangerine-chen-pi",
@@ -1369,7 +1384,8 @@
       }
     ],
     "preparationNotes": "Because Aged Tangerine Peel is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Aged Tangerine Peel, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Aged Tangerine Peel, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "陳皮"
   },
   {
     "slug": "honeysuckle-jin-yin-hua",
@@ -1451,7 +1467,8 @@
       }
     ],
     "preparationNotes": "Because Honeysuckle is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
-    "dietaryAdvice": "When taking Honeysuckle, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort."
+    "dietaryAdvice": "When taking Honeysuckle, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort.",
+    "nameZhTrad": "金銀花"
   },
   {
     "slug": "dong-quai-dang-gui",
@@ -1539,7 +1556,8 @@
       }
     ],
     "preparationNotes": "Because Dong Quai (Angelica) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Dong Quai (Angelica), avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Dong Quai (Angelica), avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "當歸"
   },
   {
     "slug": "rehmannia-di-huang",
@@ -1621,7 +1639,8 @@
       }
     ],
     "preparationNotes": "Rehmannia is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "When taking Rehmannia, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort."
+    "dietaryAdvice": "When taking Rehmannia, avoid very spicy foods that compound its cooling effect. Warm, cooked meals are preferred. If you experience loose stools or chilliness, reduce the dose or add warming foods like ginger tea. Do not take on an empty stomach to avoid digestive discomfort.",
+    "nameZhTrad": "地黃"
   },
   {
     "slug": "poria-fu-ling",
@@ -1709,7 +1728,8 @@
       }
     ],
     "preparationNotes": "Poria (Fu Ling) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
-    "dietaryAdvice": "Poria (Fu Ling) is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects."
+    "dietaryAdvice": "Poria (Fu Ling) is neutral in temperature and can be taken with most foods. Warm, cooked meals are generally recommended in Chinese medicine. Avoid taking any herb with very cold or icy drinks. Consistent timing (same time each day) helps the body adapt to the herb effects.",
+    "nameZhTrad": "茯苓"
   },
   {
     "slug": "fennel-xiao-hui-xiang",
@@ -1797,7 +1817,8 @@
       }
     ],
     "preparationNotes": "Because Fennel is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "When taking Fennel, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+    "dietaryAdvice": "When taking Fennel, avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect.",
+    "nameZhTrad": "茴香"
   },
   {
     "slug": "gan-cao-gan-cao",

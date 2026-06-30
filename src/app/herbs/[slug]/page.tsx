@@ -20,7 +20,8 @@ export async function generateMetadata({
   const herb = HERBS[slug]
   if (!herb) return {}
   const title = `${herb.nameEn} (${herb.nameZh}) — TCM Herb Properties & Uses`
-  const desc = `${herb.nameEn} (${herb.nameZhTrad}): ${herb.category}, ${herb.temperature}. ${herb.summary}`.substring(0, 155)
+  const zhName = herb.nameZhTrad || herb.nameZh || herb.nameEn
+  const desc = `${herb.nameEn} (${zhName}): ${herb.category}, ${herb.temperature}. ${herb.summary}`.substring(0, 155)
   const url = `https://www.myeasterntype.com/herbs/${herb.slug}`
   return {
     title,
@@ -76,6 +77,11 @@ export default async function HerbDetailPage({
   if (!herb) return null
 
   const url = `https://www.myeasterntype.com/herbs/${herb.slug}`
+
+  const relatedHerbs = Object.values(HERBS)
+    .filter((h) => h.slug !== herb.slug && (h.category === herb.category || h.bodyTypes.some((bt) => herb.bodyTypes.includes(bt))))
+    .slice(0, 6)
+
   const title = `${herb.nameEn} (${herb.nameZh}) — TCM Herb Properties & Uses`
 
   const faqs = herb.faqs.map((f) => ({
@@ -335,6 +341,50 @@ export default async function HerbDetailPage({
                     {faq.a}
                   </div>
                 </details>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+              Related Herbs
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {Object.values(HERBS)
+                .filter((h) => h.slug !== herb.slug && h.category === herb.category)
+                .slice(0, 6)
+                .map((related) => (
+                  <Link
+                    key={related.slug}
+                    href={`/herbs/${related.slug}`}
+                    className="block border border-[rgba(168,135,64,0.12)] rounded-lg p-3 bg-card-bg hover:border-[rgba(168,135,64,0.3)] transition-all no-underline"
+                  >
+                    <span className="text-sm text-text font-medium block">{related.nameEn}</span>
+                    <span className="text-[10px] text-text2/50">{related.nameZhTrad || related.nameZh}</span>
+                  </Link>
+                ))}
+            </div>
+            <div className="mt-4">
+              <Link href="/herbs" className="text-sm text-accent hover:underline">
+                Browse all herbs {'>'}
+              </Link>
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+              Related Herbs
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {relatedHerbs.map((r) => (
+                <Link
+                  key={r.slug}
+                  href={`/herbs/${r.slug}`}
+                  className="block border border-[rgba(168,135,64,0.12)] rounded-xl p-3 bg-card-bg hover:border-[rgba(168,135,64,0.3)] transition-all no-underline"
+                >
+                  <span className="text-sm text-text font-medium block">{r.nameEn}</span>
+                  <span className="text-[10px] text-text2/50">{r.nameZhTrad || r.nameZh}</span>
+                </Link>
               ))}
             </div>
           </section>
