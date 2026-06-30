@@ -5,6 +5,7 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 
 const GUIDE_LINKS = [
+  { href: "/solutions", label: "Herbal Solutions", count: "Formulas" },
   { href: "/symptoms", label: "Symptoms", count: "70 guides" },
   { href: "/wellness", label: "Wellness Guides", count: "43 guides" },
   { href: "/foods-for", label: "Food Guides", count: "10 guides" },
