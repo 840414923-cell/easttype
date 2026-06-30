@@ -1040,5 +1040,1524 @@
       }
     ],
     "image": "/images/herbs/fennel-xiao-hui-xiang.jpg"
+  },
+  {
+    "slug": "gan-cao-gan-cao",
+    "nameEn": "Licorice Root",
+    "nameZh": "gan cao",
+    "nameZhTrad": "甘草",
+    "pinyin": "gan cao",
+    "category": "Qi Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Spleen, Lung, Heart, Stomach",
+    "summary": "A harmonizing herb that tonifies Qi, moistens the Lung, and balances other herbs in formulas.",
+    "actions": [
+      "Tonifies Spleen Qi",
+      "Moistens the Lung and stops cough",
+      "Clears heat and relieves toxicity",
+      "Harmonizes other herbs in formulas"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "honey",
+      "rice congee",
+      "jujube tea"
+    ],
+    "howToUse": "Simmer 3-5g in tea or soup.",
+    "dosage": "3-6g per day.",
+    "cautions": [
+      "Avoid long-term high dose use",
+      "May raise blood pressure in excess",
+      "Not for damp patterns",
+      "Avoid if hypertensive"
+    ],
+    "faqs": [
+      {
+        "q": "Is licorice root the same as candy?",
+        "a": "No. Medicinal licorice is much stronger. Candy contains sugar and flavorings."
+      },
+      {
+        "q": "Can I drink licorice tea daily?",
+        "a": "Small amounts short-term are safe. Prolonged use may raise blood pressure."
+      },
+      {
+        "q": "Why is licorice in formulas?",
+        "a": "It harmonizes other herbs, reducing side effects."
+      }
+    ],
+    "image": "/images/herbs/gan-cao-gan-cao.jpg"
+  },
+  {
+    "slug": "huang-jing-huang-jing",
+    "nameEn": "Solomon Seal (Huang Jing)",
+    "nameZh": "huang jing",
+    "nameZhTrad": "黄精",
+    "pinyin": "huang jing",
+    "category": "Qi Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Spleen, Lung, Kidney",
+    "summary": "A gentle tonic that nourishes Qi, Yin, and essence simultaneously. Good for long-term vitality.",
+    "actions": [
+      "Tonifies Qi and nourishes Yin",
+      "Strengthens the Spleen",
+      "Nourishes the Lung",
+      "Supports Kidney essence"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "red dates",
+      "rice congee",
+      "chicken broth"
+    ],
+    "howToUse": "Simmer 10-15g in soup or congee.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "Avoid if damp-phlegm",
+      "May cause bloating in excess",
+      "Not for acute colds",
+      "Best steamed before use"
+    ],
+    "faqs": [
+      {
+        "q": "Is huang jing good for aging?",
+        "a": "In TCM, it nourishes Kidney essence which relates to aging."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Steamed is better. Simmer in soup for 1 hour."
+      },
+      {
+        "q": "Is it same as yu zhu?",
+        "a": "No, different Polygonatum species with different uses."
+      }
+    ],
+    "image": "/images/herbs/huang-jing-huang-jing.jpg"
+  },
+  {
+    "slug": "mai-dong-mai-dong",
+    "nameEn": "Ophiopogon (Mai Dong)",
+    "nameZh": "mai dong",
+    "nameZhTrad": "麦冬",
+    "pinyin": "mai dong",
+    "category": "Yin Tonic",
+    "temperature": "Slightly cold",
+    "taste": "Sweet, bitter",
+    "channels": "Heart, Lung, Stomach",
+    "summary": "Nourishes Heart and Lung Yin, moistens dryness, calms the mind. Used for dry cough and insomnia.",
+    "actions": [
+      "Nourishes Heart and Lung Yin",
+      "Moistens dryness",
+      "Clears mild heat",
+      "Calms the mind"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "lily bulb",
+      "pear",
+      "lotus seed",
+      "rock sugar"
+    ],
+    "howToUse": "Soak 10g, simmer in tea or soup 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if damp-phlegm",
+      "Not for cold digestion",
+      "May cause loose stools",
+      "Not for Spleen deficiency alone"
+    ],
+    "faqs": [
+      {
+        "q": "Good for dry cough?",
+        "a": "Yes, mai dong moistens the Lung for dry cough."
+      },
+      {
+        "q": "Good for sleep?",
+        "a": "Yes, nourishes Heart Yin to calm the mind."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Soak briefly, simmer in tea 20 min."
+      }
+    ],
+    "image": "/images/herbs/mai-dong-mai-dong.jpg"
+  },
+  {
+    "slug": "yu-zhu-yu-zhu",
+    "nameEn": "Solomon Seal (Yu Zhu)",
+    "nameZh": "yu zhu",
+    "nameZhTrad": "玉竹",
+    "pinyin": "yu zhu",
+    "category": "Yin Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Lung, Stomach",
+    "summary": "Gentle Yin tonic that moistens Lung and Stomach. Used for dry throat and dry skin.",
+    "actions": [
+      "Nourishes Lung and Stomach Yin",
+      "Moistens dryness",
+      "May support skin",
+      "Gentle for daily use"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "pear",
+      "lily bulb",
+      "pork",
+      "rock sugar"
+    ],
+    "howToUse": "Cook 10-15g in soup or congee with pork.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "Avoid if damp-phlegm",
+      "Not for Spleen deficiency",
+      "Generally very safe",
+      "May cause mild bloating"
+    ],
+    "faqs": [
+      {
+        "q": "Good for dry skin?",
+        "a": "Yes, nourishes Stomach Yin for fluid distribution."
+      },
+      {
+        "q": "Same as huang jing?",
+        "a": "No, different species, yu zhu moistens, huang jing tonifies."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Add to pork soup, simmer 1 hour."
+      }
+    ],
+    "image": "/images/herbs/yu-zhu-yu-zhu.jpg"
+  },
+  {
+    "slug": "shi-hu-shi-hu",
+    "nameEn": "Dendrobium (Shi Hu)",
+    "nameZh": "shi hu",
+    "nameZhTrad": "石斛",
+    "pinyin": "shi hu",
+    "category": "Yin Tonic",
+    "temperature": "Slightly cold",
+    "taste": "Sweet",
+    "channels": "Stomach, Kidney, Lung",
+    "summary": "Premium Yin tonic that nourishes Stomach and Kidney Yin, generates fluids, clears deficiency heat.",
+    "actions": [
+      "Nourishes Stomach and Kidney Yin",
+      "Generates fluids",
+      "Clears deficiency heat",
+      "May support aging"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "mai dong",
+      "pear",
+      "rock sugar"
+    ],
+    "howToUse": "Steep 3-5g in hot water as tea.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if damp-cold",
+      "Not for early colds",
+      "May cause loose stools",
+      "Premium grade expensive"
+    ],
+    "faqs": [
+      {
+        "q": "Is shi hu an orchid?",
+        "a": "Yes, Dendrobium is a type of orchid used medicinally."
+      },
+      {
+        "q": "Drink daily?",
+        "a": "Yes for Yin deficient types."
+      },
+      {
+        "q": "Why expensive?",
+        "a": "Premium grows slowly, hand-harvested."
+      }
+    ],
+    "image": "/images/herbs/shi-hu-shi-hu.jpg"
+  },
+  {
+    "slug": "tian-ma-tian-ma",
+    "nameEn": "Gastrodia (Tian Ma)",
+    "nameZh": "tian ma",
+    "nameZhTrad": "天麻",
+    "pinyin": "tian ma",
+    "category": "Calming Herb",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Liver",
+    "summary": "Calms internal Wind, relieves headaches and dizziness, supports brain function.",
+    "actions": [
+      "Calms Liver Wind",
+      "Relieves headaches and dizziness",
+      "May support brain function",
+      "Calms spasms"
+    ],
+    "bodyTypes": [
+      "qi_stagnant",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "chicken",
+      "goji berries",
+      "red dates",
+      "rice congee"
+    ],
+    "howToUse": "Slice 3-6g, simmer in chicken soup 2 hours.",
+    "dosage": "3-9g per day.",
+    "cautions": [
+      "Avoid if low blood pressure",
+      "Not for Yin deficiency without Wind",
+      "Use moderately",
+      "Consult for headaches"
+    ],
+    "faqs": [
+      {
+        "q": "Good for headaches?",
+        "a": "Yes, one of the most used herbs for Liver-type headaches."
+      },
+      {
+        "q": "Cook in soup?",
+        "a": "Yes, tian ma chicken soup is classic."
+      },
+      {
+        "q": "Daily use?",
+        "a": "Best as needed, not daily long-term."
+      }
+    ],
+    "image": "/images/herbs/tian-ma-tian-ma.jpg"
+  },
+  {
+    "slug": "he-shou-wu-he-shou-wu",
+    "nameEn": "Fo-Ti (He Shou Wu)",
+    "nameZh": "he shou wu",
+    "nameZhTrad": "何首乌",
+    "pinyin": "he shou wu",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Bitter, sweet",
+    "channels": "Liver, Kidney",
+    "summary": "Famous anti-aging herb for hair health, Blood deficiency, and Kidney essence.",
+    "actions": [
+      "Nourishes Liver and Kidney essence",
+      "May support hair",
+      "Nourishes Blood",
+      "May support aging"
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "black sesame",
+      "goji berries",
+      "red dates",
+      "rice congee"
+    ],
+    "howToUse": "Use processed only. Simmer 10-15g in soup.",
+    "dosage": "10-15g processed per day.",
+    "cautions": [
+      "Must be processed",
+      "Raw form may cause liver damage",
+      "Not for diarrhea",
+      "Consult for long-term use"
+    ],
+    "faqs": [
+      {
+        "q": "Good for hair?",
+        "a": "In TCM, nourishes Kidney essence which governs hair."
+      },
+      {
+        "q": "Can use raw?",
+        "a": "No, raw may be toxic. Only use processed."
+      },
+      {
+        "q": "How long for results?",
+        "a": "2-3 months of consistent use."
+      }
+    ],
+    "image": "/images/herbs/he-shou-wu-he-shou-wu.jpg"
+  },
+  {
+    "slug": "du-zhong-du-zhong",
+    "nameEn": "Eucommia Bark (Du Zhong)",
+    "nameZh": "du zhong",
+    "nameZhTrad": "杜仲",
+    "pinyin": "du zhong",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet, slightly acrid",
+    "channels": "Liver, Kidney",
+    "summary": "Strengthens Kidney Yang, supports lower back and knees, may help blood pressure.",
+    "actions": [
+      "Strengthens Kidney Yang",
+      "Supports lower back and knees",
+      "May support blood pressure",
+      "Strengthens tendons and bones"
+    ],
+    "bodyTypes": [
+      "yang_deficient"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "black beans",
+      "pork",
+      "ginger"
+    ],
+    "howToUse": "Simmer 6-12g in pork spine soup 1 hour.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency with heat",
+      "Not for acute infections",
+      "Generally safe",
+      "Consult for blood pressure"
+    ],
+    "faqs": [
+      {
+        "q": "Good for back pain?",
+        "a": "Yes, strengthens Kidney which governs lower back."
+      },
+      {
+        "q": "Lowers blood pressure?",
+        "a": "Research suggests it may help. Consult doctor."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Simmer in pork spine soup 1-2 hours."
+      }
+    ],
+    "image": "/images/herbs/du-zhong-du-zhong.jpg"
+  },
+  {
+    "slug": "rou-cong-rong-rou-cong-rong",
+    "nameEn": "Cistanche (Rou Cong Rong)",
+    "nameZh": "rou cong rong",
+    "nameZhTrad": "肉苁蓉",
+    "pinyin": "rou cong rong",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet, salty",
+    "channels": "Kidney, Large Intestine",
+    "summary": "Gentle Yang tonic that warms Kidney, supports vitality, moistens intestines.",
+    "actions": [
+      "Warms Kidney Yang",
+      "May support vitality",
+      "Moistens intestines",
+      "Gentler than other Yang tonics"
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "lamb",
+      "walnuts",
+      "black beans",
+      "rice congee"
+    ],
+    "howToUse": "Simmer 6-12g in lamb soup 1 hour.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency with heat",
+      "Not for acute diarrhea",
+      "Use moderately",
+      "Not during colds"
+    ],
+    "faqs": [
+      {
+        "q": "Good for energy?",
+        "a": "Yes, gently warms Kidney Yang for energy."
+      },
+      {
+        "q": "Safe long-term?",
+        "a": "Gentler than others but consult practitioner."
+      },
+      {
+        "q": "Helps constipation?",
+        "a": "Yes, moistens intestines for Yang-deficient constipation."
+      }
+    ],
+    "image": "/images/herbs/rou-cong-rong-rou-cong-rong.jpg"
+  },
+  {
+    "slug": "yin-yang-huo-yin-yang-huo",
+    "nameEn": "Horny Goat Weed (Yin Yang Huo)",
+    "nameZh": "yin yang huo",
+    "nameZhTrad": "淫羊藿",
+    "pinyin": "yin yang huo",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Acrid, sweet",
+    "channels": "Liver, Kidney",
+    "summary": "Yang tonic that strengthens Kidney Yang, supports joints, helps cold-related pain.",
+    "actions": [
+      "Strengthens Kidney Yang",
+      "May support vitality",
+      "Disperses wind-damp",
+      "Strengthens bones and tendons"
+    ],
+    "bodyTypes": [
+      "yang_deficient"
+    ],
+    "foodPairings": [
+      "du zhong",
+      "walnuts",
+      "lamb",
+      "ginger"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup 30 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency",
+      "Not for people who run hot",
+      "May cause restlessness",
+      "Not for acute infections"
+    ],
+    "faqs": [
+      {
+        "q": "Same as horny goat weed?",
+        "a": "Yes, yin yang huo is Chinese for Epimedium."
+      },
+      {
+        "q": "Helps joint pain?",
+        "a": "Yes, disperses wind-damp for cold-weather joint pain."
+      },
+      {
+        "q": "Daily use?",
+        "a": "Use under practitioner guidance."
+      }
+    ],
+    "image": "/images/herbs/yin-yang-huo-yin-yang-huo.jpg"
+  },
+  {
+    "slug": "ba-ji-tian-ba-ji-tian",
+    "nameEn": "Morinda (Ba Ji Tian)",
+    "nameZh": "ba ji tian",
+    "nameZhTrad": "巴戟天",
+    "pinyin": "ba ji tian",
+    "category": "Yang Tonic",
+    "temperature": "Slightly warm",
+    "taste": "Acrid, sweet",
+    "channels": "Kidney",
+    "summary": "Kidney Yang tonic that supports vitality, strengthens lower back, disperses cold-damp.",
+    "actions": [
+      "Strengthens Kidney Yang",
+      "Supports lower back and knees",
+      "Disperses cold-damp",
+      "May support vitality"
+    ],
+    "bodyTypes": [
+      "yang_deficient"
+    ],
+    "foodPairings": [
+      "du zhong",
+      "walnuts",
+      "lamb",
+      "ginger"
+    ],
+    "howToUse": "Simmer 6-12g in soup 30 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency",
+      "Not for internal heat",
+      "May worsen hot flashes",
+      "Consult practitioner"
+    ],
+    "faqs": [
+      {
+        "q": "Good for back pain?",
+        "a": "Yes, strengthens Kidney Yang for lower back."
+      },
+      {
+        "q": "Women can use?",
+        "a": "Yes, both genders for Kidney Yang deficiency."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Simmer in chicken or lamb soup 1 hour."
+      }
+    ],
+    "image": "/images/herbs/ba-ji-tian-ba-ji-tian.jpg"
+  },
+  {
+    "slug": "xuan-shen-xuan-shen",
+    "nameEn": "Red Ginseng (Xuan Shen)",
+    "nameZh": "xuan shen",
+    "nameZhTrad": "玄参",
+    "pinyin": "xuan shen",
+    "category": "Yin Tonic",
+    "temperature": "Slightly cold",
+    "taste": "Bitter, sweet",
+    "channels": "Lung, Stomach, Kidney",
+    "summary": "Clears heat and nourishes Yin. Used for sore throat, dry mouth, deficiency heat.",
+    "actions": [
+      "Clears heat and nourishes Yin",
+      "Relieves sore throat",
+      "Reduces swelling",
+      "Cools the blood"
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "mai dong",
+      "pear",
+      "mung beans",
+      "honeysuckle"
+    ],
+    "howToUse": "Simmer 6-12g in tea 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Spleen deficiency with cold",
+      "Not for damp patterns",
+      "May cause loose stools",
+      "Not for pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Same as ginseng?",
+        "a": "No, xuan shen is Scrophularia, different plant."
+      },
+      {
+        "q": "Helps sore throat?",
+        "a": "Yes, clears heat for sore throat with swelling."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Simmer in tea or soup 20 min."
+      }
+    ],
+    "image": "/images/herbs/xuan-shen-xuan-shen.jpg"
+  },
+  {
+    "slug": "dang-shen-dang-shen",
+    "nameEn": "Codonopsis (Dang Shen)",
+    "nameZh": "dang shen",
+    "nameZhTrad": "党参",
+    "pinyin": "dang shen",
+    "category": "Qi Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Spleen, Lung",
+    "summary": "A gentler alternative to ginseng. Tonifies Spleen and Lung Qi. Good for daily use.",
+    "actions": [
+      "Tonifies Spleen and Lung Qi",
+      "Gentler than ginseng",
+      "Supports digestion",
+      "May support immune function"
+    ],
+    "bodyTypes": [
+      "qi_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "goji berries",
+      "rice congee",
+      "chicken broth"
+    ],
+    "howToUse": "Simmer 10-15g in soup or tea for 30 min.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "Avoid if damp-heat",
+      "Not for acute infections",
+      "Generally very safe",
+      "May cause mild bloating"
+    ],
+    "faqs": [
+      {
+        "q": "Is dang shen a ginseng substitute?",
+        "a": "Yes, it is gentler and cheaper, often used instead of ginseng for daily use."
+      },
+      {
+        "q": "Can I use daily?",
+        "a": "Yes, dang shen is gentle enough for regular use in soups and tea."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Add to chicken soup or congee, simmer 30 min."
+      }
+    ],
+    "image": "/images/herbs/dang-shen-dang-shen.jpg"
+  },
+  {
+    "slug": "bai-zhu-bai-zhu",
+    "nameEn": "Atractylodes (Bai Zhu)",
+    "nameZh": "bai zhu",
+    "nameZhTrad": "白术",
+    "pinyin": "bai zhu",
+    "category": "Qi Tonic",
+    "temperature": "Warm",
+    "taste": "Bitter, sweet",
+    "channels": "Spleen, Stomach",
+    "summary": "Strengthens Spleen Qi, dries dampness, supports digestion. A key herb for Spleen deficiency.",
+    "actions": [
+      "Strengthens Spleen Qi",
+      "Dries dampness",
+      "Supports digestion",
+      "May reduce water retention"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "phlegm_damp"
+    ],
+    "foodPairings": [
+      "red dates",
+      "chinese yam",
+      "poria",
+      "rice congee"
+    ],
+    "howToUse": "Simmer 6-12g in soup or tea 30 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency with dryness",
+      "Not for internal heat",
+      "May cause dry mouth",
+      "Use in moderation"
+    ],
+    "faqs": [
+      {
+        "q": "Is bai zhu good for bloating?",
+        "a": "Yes. Bai zhu strengthens Spleen and dries dampness for bloating."
+      },
+      {
+        "q": "Can I use daily?",
+        "a": "In food amounts it is fine. For medicinal use consult a practitioner."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Simmer in soup with poria and red dates."
+      }
+    ],
+    "image": "/images/herbs/bai-zhu-bai-zhu.jpg"
+  },
+  {
+    "slug": "bai-shao-bai-shao",
+    "nameEn": "White Peony (Bai Shao)",
+    "nameZh": "bai shao",
+    "nameZhTrad": "白芍",
+    "pinyin": "bai shao",
+    "category": "Blood Tonic",
+    "temperature": "Slightly cold",
+    "taste": "Sour, sweet",
+    "channels": "Liver, Spleen",
+    "summary": "Nourishes Blood, regulates Liver, softens pain. Used for menstrual issues and muscle cramps.",
+    "actions": [
+      "Nourishes Liver Blood",
+      "Regulates Liver Qi",
+      "Softens the Liver and relieves pain",
+      "May support menstrual health"
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "dong quai",
+      "red dates",
+      "goji berries",
+      "chicken"
+    ],
+    "howToUse": "Simmer 6-12g in soup or tea 30 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if cold-damp patterns",
+      "Not for diarrhea",
+      "May interact with some medications",
+      "Consult for pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Is bai shao good for periods?",
+        "a": "Yes. It nourishes Blood and regulates Liver for menstrual issues."
+      },
+      {
+        "q": "Helps with cramps?",
+        "a": "Yes. Bai shao softens the Liver and relieves muscle spasms and cramps."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Simmer with dong quai and red dates in chicken soup."
+      }
+    ],
+    "image": "/images/herbs/bai-shao-bai-shao.jpg"
+  },
+  {
+    "slug": "shu-di-huang-shu-di-huang",
+    "nameEn": "Prepared Rehmannia (Shu Di Huang)",
+    "nameZh": "shu di huang",
+    "nameZhTrad": "熟地黄",
+    "pinyin": "shu di huang",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Heart, Liver, Kidney",
+    "summary": "The premier Blood and Kidney Yin tonic. Nourishes deeply for deficiency patterns.",
+    "actions": [
+      "Nourishes Blood",
+      "Nourishes Kidney Yin",
+      "May support hair and vitality",
+      "Deeply tonifying"
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "red dates",
+      "black beans",
+      "chicken"
+    ],
+    "howToUse": "Simmer 10-15g in soup for 1 hour.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "May cause bloating",
+      "Avoid if damp patterns",
+      "Heavy and cloying",
+      "Not for Spleen deficiency alone"
+    ],
+    "faqs": [
+      {
+        "q": "Difference from raw rehmannia?",
+        "a": "Raw rehmannia clears heat. Prepared rehmannia nourishes Blood and Yin."
+      },
+      {
+        "q": "Good for anemia?",
+        "a": "In TCM it nourishes Blood. It complements but does not replace iron therapy."
+      },
+      {
+        "q": "How to cook?",
+        "a": "Simmer in soup with goji and red dates for 1 hour."
+      }
+    ],
+    "image": "/images/herbs/shu-di-huang-shu-di-huang.jpg"
+  },
+  {
+    "slug": "e-jiao-e-jiao",
+    "nameEn": "Donkey-Hide Gelatin (E Jiao)",
+    "nameZh": "e jiao",
+    "nameZhTrad": "阿胶",
+    "pinyin": "e jiao",
+    "category": "Blood Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Lung, Liver, Kidney",
+    "summary": "A premium Blood tonic that nourishes Blood, stops bleeding, and moistens the Lung.",
+    "actions": [
+      "Nourishes Blood",
+      "May stop bleeding",
+      "Moistens the Lung",
+      "Supports Yin"
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "red dates",
+      "goji berries",
+      "black sesame",
+      "rice wine"
+    ],
+    "howToUse": "Dissolve 3-6g in warm water or rice wine. Often melted into soup.",
+    "dosage": "3-6g per day.",
+    "cautions": [
+      "Avoid if damp patterns",
+      "May cause indigestion",
+      "Not for early colds",
+      "Premium and expensive"
+    ],
+    "faqs": [
+      {
+        "q": "What is e jiao?",
+        "a": "E jiao is a gelatin made from donkey hide, used in TCM for centuries to nourish Blood."
+      },
+      {
+        "q": "Good for anemia?",
+        "a": "In TCM, e jiao is one of the strongest Blood tonics. Consult a doctor for anemia."
+      },
+      {
+        "q": "How to use?",
+        "a": "Dissolve in warm water or rice wine, or melt into soup."
+      }
+    ],
+    "image": "/images/herbs/e-jiao-e-jiao.jpg"
+  },
+  {
+    "slug": "ling-zhi-ling-zhi",
+    "nameEn": "Reishi Mushroom (Ling Zhi)",
+    "nameZh": "ling zhi",
+    "nameZhTrad": "灵芝",
+    "pinyin": "ling zhi",
+    "category": "Calming Herb",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Heart, Liver, Lung",
+    "summary": "A prized medicinal mushroom that calms the mind, supports immunity, and nourishes Qi and Blood.",
+    "actions": [
+      "Calms the mind and spirit",
+      "May support immune function",
+      "Nourishes Qi and Blood",
+      "May support healthy aging"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "red dates",
+      "mai dong",
+      "rice congee"
+    ],
+    "howToUse": "Simmer 3-6g slices in tea or soup for 1 hour.",
+    "dosage": "3-6g per day.",
+    "cautions": [
+      "Generally very safe",
+      "May cause mild digestive upset",
+      "Not for acute colds",
+      "Quality varies widely"
+    ],
+    "faqs": [
+      {
+        "q": "Is ling zhi the same as reishi?",
+        "a": "Yes. Ling zhi is the Chinese name for Ganoderma, known as reishi in Japanese."
+      },
+      {
+        "q": "Good for sleep?",
+        "a": "Yes. Ling zhi calms the mind and is used for insomnia and anxiety."
+      },
+      {
+        "q": "Can I drink daily?",
+        "a": "Yes, reishi tea is safe for daily use in moderate amounts."
+      }
+    ],
+    "image": "/images/herbs/ling-zhi-ling-zhi.jpg"
+  },
+  {
+    "slug": "sang-ye-sang-ye",
+    "nameEn": "Mulberry Leaf (Sang Ye)",
+    "nameZh": "sang ye",
+    "nameZhTrad": "桑叶",
+    "pinyin": "sang ye",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Sweet, bitter",
+    "channels": "Lung, Liver",
+    "summary": "A cooling leaf that clears Lung heat, relieves cough, and may support healthy blood sugar.",
+    "actions": [
+      "Clears Lung heat",
+      "Relieves cough",
+      "May support blood sugar",
+      "Clears Liver heat for eyes"
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "mint",
+      "pear",
+      "honey"
+    ],
+    "howToUse": "Steep 5-10g in hot water as tea.",
+    "dosage": "5-10g per day.",
+    "cautions": [
+      "Avoid if cold-type digestion",
+      "Not for Spleen deficiency",
+      "May cause loose stools",
+      "Not for pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Is sang ye good for cough?",
+        "a": "Yes. Sang ye clears Lung heat and relieves dry cough."
+      },
+      {
+        "q": "Can it lower blood sugar?",
+        "a": "Modern research suggests mulberry leaf may help. Consult your doctor."
+      },
+      {
+        "q": "How to use?",
+        "a": "Steep as tea, or add to soup."
+      }
+    ],
+    "image": "/images/herbs/sang-ye-sang-ye.jpg"
+  },
+  {
+    "slug": "jue-ming-zi-jue-ming-zi",
+    "nameEn": "Cassia Seed (Jue Ming Zi)",
+    "nameZh": "jue ming zi",
+    "nameZhTrad": "决明子",
+    "pinyin": "jue ming zi",
+    "category": "Cooling Herb",
+    "temperature": "Slightly cold",
+    "taste": "Sweet, bitter",
+    "channels": "Liver, Large Intestine",
+    "summary": "A seed that clears Liver heat, benefits the eyes, and moistens the intestines for constipation.",
+    "actions": [
+      "Clears Liver heat for eyes",
+      "May support vision",
+      "Moistens intestines",
+      "May support blood pressure"
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "qi_stagnant"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "goji berries",
+      "mint",
+      "green tea"
+    ],
+    "howToUse": "Roast 10g and steep as tea.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "Avoid if diarrhea",
+      "Not for cold-type digestion",
+      "May cause loose stools",
+      "Not for pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "Good for eyes?",
+        "a": "Yes. Jue ming zi clears Liver heat which benefits the eyes."
+      },
+      {
+        "q": "Helps constipation?",
+        "a": "Yes. It moistens intestines for heat-type constipation."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Roast lightly, then steep as tea."
+      }
+    ],
+    "image": "/images/herbs/jue-ming-zi-jue-ming-zi.jpg"
+  },
+  {
+    "slug": "ban-lan-gen-ban-lan-gen",
+    "nameEn": "Isatis Root (Ban Lan Gen)",
+    "nameZh": "ban lan gen",
+    "nameZhTrad": "板蓝根",
+    "pinyin": "ban lan gen",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Bitter",
+    "channels": "Heart, Stomach",
+    "summary": "Powerful heat-clearing herb for sore throat, viral infections, and skin eruptions. Used during flu season.",
+    "actions": [
+      "Clears heat and toxicity",
+      "Cools blood",
+      "Soothes sore throat",
+      "May support immune response"
+    ],
+    "bodyTypes": [
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "honeysuckle",
+      "chrysanthemum",
+      "mung beans",
+      "mint"
+    ],
+    "howToUse": "Steep 10-15g in hot water as tea for 10 min.",
+    "dosage": "10-15g per day, short-term.",
+    "cautions": [
+      "Very cold, not for daily use",
+      "Avoid if Spleen deficiency",
+      "Not for cold-type illness",
+      "Stop when symptoms improve"
+    ],
+    "faqs": [
+      {
+        "q": "Good for sore throat?",
+        "a": "Yes, powerful heat-clearing for sore throat and viruses."
+      },
+      {
+        "q": "Use during flu?",
+        "a": "Common in China during flu season. Short-term only."
+      },
+      {
+        "q": "Safe for daily use?",
+        "a": "No, too cold for daily use. Use short-term only."
+      }
+    ],
+    "image": "/images/herbs/ban-lan-gen-ban-lan-gen.jpg"
+  },
+  {
+    "slug": "lian-qiao-lian-qiao",
+    "nameEn": "Forsythia (Lian Qiao)",
+    "nameZh": "lian qiao",
+    "nameZhTrad": "连翘",
+    "pinyin": "lian qiao",
+    "category": "Cooling Herb",
+    "temperature": "Slightly cold",
+    "taste": "Bitter",
+    "channels": "Heart, Liver",
+    "summary": "Clears heat and toxicity, reduces swelling. Used for sore throat, skin eruptions, and early-stage infections.",
+    "actions": [
+      "Clears heat and toxicity",
+      "Reduces swelling",
+      "Disperses lumps",
+      "May support immune response"
+    ],
+    "bodyTypes": [
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "honeysuckle",
+      "mint",
+      "chrysanthemum",
+      "mung beans"
+    ],
+    "howToUse": "Simmer 6-12g in tea for 15 min.",
+    "dosage": "6-12g per day, short-term.",
+    "cautions": [
+      "Avoid if Spleen deficiency",
+      "Not for cold patterns",
+      "May cause nausea",
+      "Stop when symptoms improve"
+    ],
+    "faqs": [
+      {
+        "q": "Good for sore throat?",
+        "a": "Yes, clears heat and toxicity for sore throat."
+      },
+      {
+        "q": "Same as honeysuckle?",
+        "a": "No, but often paired together for heat-clearing."
+      },
+      {
+        "q": "Daily use?",
+        "a": "No, short-term for acute conditions only."
+      }
+    ],
+    "image": "/images/herbs/lian-qiao-lian-qiao.jpg"
+  },
+  {
+    "slug": "zhi-mu-zhi-mu",
+    "nameEn": "Anemarrhena (Zhi Mu)",
+    "nameZh": "zhi mu",
+    "nameZhTrad": "知母",
+    "pinyin": "zhi mu",
+    "category": "Yin Tonic",
+    "temperature": "Cold",
+    "taste": "Bitter, sweet",
+    "channels": "Lung, Stomach, Kidney",
+    "summary": "Clears heat and nourishes Yin. Used for hot flashes, night sweats, and dry cough from Yin deficiency.",
+    "actions": [
+      "Clears heat and nourishes Yin",
+      "Moistens Lung dryness",
+      "Clears deficiency heat",
+      "May help hot flashes"
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "rehmannia",
+      "mai dong",
+      "pear",
+      "mung beans"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup for 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Spleen deficiency",
+      "Not for cold patterns",
+      "May cause loose stools",
+      "Not for damp patterns"
+    ],
+    "faqs": [
+      {
+        "q": "Good for hot flashes?",
+        "a": "Yes, clears deficiency heat from Yin deficiency."
+      },
+      {
+        "q": "Good for dry cough?",
+        "a": "Yes, moistens Lung for dry cough."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Simmer in tea or soup for 20 min."
+      }
+    ],
+    "image": "/images/herbs/zhi-mu-zhi-mu.jpg"
+  },
+  {
+    "slug": "che-qian-zi-che-qian-zi",
+    "nameEn": "Plantain Seed (Che Qian Zi)",
+    "nameZh": "che qian zi",
+    "nameZhTrad": "车前子",
+    "pinyin": "che qian zi",
+    "category": "Dampness Draining",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "channels": "Kidney, Liver, Lung",
+    "summary": "Drains dampness, promotes urination, clears heat. Used for edema and urinary issues.",
+    "actions": [
+      "Drains dampness",
+      "Promotes urination",
+      "Clears heat",
+      "May support eye health"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "coix seed",
+      "winter melon",
+      "mung beans",
+      "barley tea"
+    ],
+    "howToUse": "Wrap 6-12g in cloth, simmer in tea or soup 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if pregnant",
+      "Not for Kidney Yang deficiency",
+      "May cause loose stools",
+      "Not for cold without dampness"
+    ],
+    "faqs": [
+      {
+        "q": "Good for water retention?",
+        "a": "Yes, che qian zi promotes urination and drains dampness."
+      },
+      {
+        "q": "Safe for daily use?",
+        "a": "Short-term use is fine. Not for long-term without guidance."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Wrap in cloth bag, simmer in tea 20 min."
+      }
+    ],
+    "image": "/images/herbs/che-qian-zi-che-qian-zi.jpg"
+  },
+  {
+    "slug": "di-gu-pi-di-gu-pi",
+    "nameEn": "Wolfberry Bark (Di Gu Pi)",
+    "nameZh": "di gu pi",
+    "nameZhTrad": "地骨皮",
+    "pinyin": "di gu pi",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "channels": "Lung, Liver, Kidney",
+    "summary": "Clears deficiency heat, cools the blood, reduces night sweats. From the wolfberry plant root bark.",
+    "actions": [
+      "Clears deficiency heat",
+      "Cools the blood",
+      "Reduces night sweats",
+      "May support lung health"
+    ],
+    "bodyTypes": [
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "pear",
+      "mung beans",
+      "chrysanthemum"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if cold-type digestion",
+      "Not for Spleen deficiency",
+      "May cause loose stools",
+      "Not for acute colds"
+    ],
+    "faqs": [
+      {
+        "q": "Good for night sweats?",
+        "a": "Yes, di gu pi clears deficiency heat that causes night sweats."
+      },
+      {
+        "q": "Same as goji?",
+        "a": "No, di gu pi is the root bark of the wolfberry plant, not the berry."
+      },
+      {
+        "q": "How to prepare?",
+        "a": "Simmer in tea or soup for 20 minutes."
+      }
+    ],
+    "image": "/images/herbs/di-gu-pi-di-gu-pi.jpg"
+  },
+  {
+    "slug": "shan-zha-shan-zha",
+    "nameEn": "Hawthorn (Shan Zha)",
+    "nameZh": "shan zha",
+    "nameZhTrad": "山楂",
+    "pinyin": "shan zha",
+    "category": "Qi Regulating",
+    "temperature": "Slightly warm",
+    "taste": "Sour, sweet",
+    "channels": "Spleen, Stomach, Liver",
+    "summary": "Aids digestion of heavy meals, especially meat. Moves blood, may support heart health.",
+    "actions": [
+      "Aids digestion of food stagnation",
+      "Moves blood circulation",
+      "May support heart health",
+      "Transforms stasis"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "blood_stasis"
+    ],
+    "foodPairings": [
+      "red dates",
+      "rice congee",
+      "ginger",
+      "brown sugar"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup. Common in sour plum drink.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if stomach acid excess",
+      "Not for pregnant women",
+      "May worsen ulcers",
+      "Use in moderation"
+    ],
+    "faqs": [
+      {
+        "q": "Good for digestion?",
+        "a": "Yes, shan zha is the best herb for digesting heavy meat meals."
+      },
+      {
+        "q": "Good for heart?",
+        "a": "Modern research suggests hawthorn may support cardiovascular health."
+      },
+      {
+        "q": "Can I eat daily?",
+        "a": "In moderation as tea or snack, yes for most people."
+      }
+    ],
+    "image": "/images/herbs/shan-zha-shan-zha.jpg"
+  },
+  {
+    "slug": "suan-zao-ren-suan-zao-ren",
+    "nameEn": "Sour Jujube Seed (Suan Zao Ren)",
+    "nameZh": "suan zao ren",
+    "nameZhTrad": "酸枣仁",
+    "pinyin": "suan zao ren",
+    "category": "Calming Herb",
+    "temperature": "Neutral",
+    "taste": "Sweet, sour",
+    "channels": "Heart, Liver",
+    "summary": "Calms the mind, nourishes Heart and Liver, supports restful sleep. The premier sleep herb in TCM.",
+    "actions": [
+      "Calms the mind",
+      "Nourishes Heart Yin",
+      "Supports restful sleep",
+      "May reduce anxiety"
+    ],
+    "bodyTypes": [
+      "qi_stagnant",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "lily bulb",
+      "lotus seed",
+      "longan",
+      "red dates"
+    ],
+    "howToUse": "Crush 10-15g, simmer in tea 20 min before bed.",
+    "dosage": "10-15g per day.",
+    "cautions": [
+      "Not for excess sleepiness",
+      "May cause drowsiness",
+      "Not for Spleen deficiency with damp",
+      "Use before bed only"
+    ],
+    "faqs": [
+      {
+        "q": "Good for insomnia?",
+        "a": "Yes, suan zao ren is the most used herb for sleep in TCM."
+      },
+      {
+        "q": "When to take?",
+        "a": "30-60 minutes before bed for sleep support."
+      },
+      {
+        "q": "Safe long-term?",
+        "a": "Generally safe but consult a practitioner for extended use."
+      }
+    ],
+    "image": "/images/herbs/suan-zao-ren-suan-zao-ren.jpg"
+  },
+  {
+    "slug": "wu-wei-zi-wu-wei-zi",
+    "nameEn": "Schisandra (Wu Wei Zi)",
+    "nameZh": "wu wei zi",
+    "nameZhTrad": "五味子",
+    "pinyin": "wu wei zi",
+    "category": "Qi Tonic",
+    "temperature": "Warm",
+    "taste": "Sour",
+    "channels": "Lung, Heart, Kidney",
+    "summary": "Five-flavor berry that tonifies Qi, supports liver, calms the mind, and astringes fluids.",
+    "actions": [
+      "Tonifies Qi and Kidney",
+      "Supports liver health",
+      "Calms the mind",
+      "Astringes sweating and fluids"
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yin_deficient"
+    ],
+    "foodPairings": [
+      "goji berries",
+      "red dates",
+      "rice congee",
+      "honey"
+    ],
+    "howToUse": "Simmer 3-6g in tea. Or grind to powder.",
+    "dosage": "3-6g per day.",
+    "cautions": [
+      "Not for excess heat",
+      "Avoid if early-stage cold",
+      "May cause heartburn",
+      "Not for internal damp-heat"
+    ],
+    "faqs": [
+      {
+        "q": "What are the five flavors?",
+        "a": "Sweet, sour, bitter, acrid, and salty. Schisandra contains all five."
+      },
+      {
+        "q": "Good for liver?",
+        "a": "Modern research suggests schisandra may support liver health."
+      },
+      {
+        "q": "Helps with sweating?",
+        "a": "Yes, wu wei zi astringes and may reduce excessive sweating."
+      }
+    ],
+    "image": "/images/herbs/wu-wei-zi-wu-wei-zi.jpg"
+  },
+  {
+    "slug": "ze-xie-ze-xie",
+    "nameEn": "Alisma (Ze Xie)",
+    "nameZh": "ze xie",
+    "nameZhTrad": "泽泻",
+    "pinyin": "ze xie",
+    "category": "Dampness Draining",
+    "temperature": "Cold",
+    "taste": "Sweet, bland",
+    "channels": "Kidney, Bladder",
+    "summary": "Drains dampness, promotes urination, clears heat. Used for edema and damp-heat patterns.",
+    "actions": [
+      "Drains dampness",
+      "Promotes urination",
+      "Clears damp-heat",
+      "May support lipid metabolism"
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "damp_heat"
+    ],
+    "foodPairings": [
+      "poria",
+      "coix seed",
+      "adzuki beans",
+      "mung beans"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup 20 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Kidney Yin deficiency",
+      "Not for cold without damp",
+      "May cause loose stools",
+      "Not for long-term use alone"
+    ],
+    "faqs": [
+      {
+        "q": "Good for water retention?",
+        "a": "Yes, ze xie promotes urination and drains dampness."
+      },
+      {
+        "q": "Same as poria?",
+        "a": "No, both drain dampness but poria also calms mind. Ze xie is colder."
+      },
+      {
+        "q": "Safe daily?",
+        "a": "Short-term is fine. Not for long-term without guidance."
+      }
+    ],
+    "image": "/images/herbs/ze-xie-ze-xie.jpg"
+  },
+  {
+    "slug": "zhu-ling-zhu-ling",
+    "nameEn": "Polyporus (Zhu Ling)",
+    "nameZh": "zhu ling",
+    "nameZhTrad": "猪苓",
+    "pinyin": "zhu ling",
+    "category": "Dampness Draining",
+    "temperature": "Neutral",
+    "taste": "Sweet, bland",
+    "channels": "Kidney, Bladder",
+    "summary": "A medicinal mushroom that drains dampness and promotes urination. Gentler than ze xie.",
+    "actions": [
+      "Drains dampness",
+      "Promotes urination",
+      "May support immune function",
+      "Gentler than similar herbs"
+    ],
+    "bodyTypes": [
+      "phlegm_damp"
+    ],
+    "foodPairings": [
+      "poria",
+      "ze xie",
+      "coix seed",
+      "adzuki beans"
+    ],
+    "howToUse": "Simmer 6-12g in tea or soup 30 min.",
+    "dosage": "6-12g per day.",
+    "cautions": [
+      "Avoid if Yin deficiency",
+      "Not for cold without damp",
+      "Generally safe",
+      "May cause mild loose stools"
+    ],
+    "faqs": [
+      {
+        "q": "What is zhu ling?",
+        "a": "Zhu ling is a medicinal mushroom (Polyporus) that grows on tree roots."
+      },
+      {
+        "q": "Same as poria?",
+        "a": "No, both are fungi but different species. Zhu ling focuses on draining dampness."
+      },
+      {
+        "q": "Safe for daily use?",
+        "a": "Generally safe for short-term use in damp patterns."
+      }
+    ],
+    "image": "/images/herbs/zhu-ling-zhu-ling.jpg"
   }
 ]
