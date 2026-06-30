@@ -17,6 +17,54 @@ const CATEGORY_COLORS: Record<string, string> = {
   "Qi Regulating": "bg-purple-900/10 text-purple-700",
 }
 
+const NAME_ZH_SIMP: Record<string, string> = {
+  "ginseng-ren-shen": "人参",
+  "astragalus-huang-qi": "黄芪",
+  "jujube-da-zao": "大枣",
+  "goji-gou-qi-zi": "枸杞子",
+  "ginger-sheng-jiang": "生姜",
+  "chrysanthemum-ju-hua": "菊花",
+  "chinese-yam-shan-yao": "山药",
+  "longan-gui-yuan": "龙眼肉",
+  "coix-seed-yi-yi-ren": "薏苡仁",
+  "lotus-seed-lian-zi": "莲子",
+  "lily-bulb-bai-he": "百合",
+  "white-fungus-yin-er": "银耳",
+  "mint-bo-he": "薄荷",
+  "rose-mei-gui": "玫瑰花",
+  "cinnamon-rou-gui": "肉桂",
+  "dried-tangerine-chen-pi": "陈皮",
+  "honeysuckle-jin-yin-hua": "金银花",
+  "dong-quai-dang-gui": "当归",
+  "rehmannia-di-huang": "地黄",
+  "poria-fu-ling": "茯苓",
+  "fennel-xiao-hui-xiang": "小茴香",
+}
+
+const NAME_ZH_TRAD: Record<string, string> = {
+  "ginseng-ren-shen": "人蔘",
+  "astragalus-huang-qi": "黃耆",
+  "jujube-da-zao": "大棗",
+  "goji-gou-qi-zi": "枸杞子",
+  "ginger-sheng-jiang": "生薑",
+  "chrysanthemum-ju-hua": "菊花",
+  "chinese-yam-shan-yao": "山藥",
+  "longan-gui-yuan": "龍眼肉",
+  "coix-seed-yi-yi-ren": "薏苡仁",
+  "lotus-seed-lian-zi": "蓮子",
+  "lily-bulb-bai-he": "百合",
+  "white-fungus-yin-er": "銀耳",
+  "mint-bo-he": "薄荷",
+  "rose-mei-gui": "玫瑰花",
+  "cinnamon-rou-gui": "肉桂",
+  "dried-tangerine-chen-pi": "陳皮",
+  "honeysuckle-jin-yin-hua": "金銀花",
+  "dong-quai-dang-gui": "當歸",
+  "rehmannia-di-huang": "地黃",
+  "poria-fu-ling": "茯苓",
+  "fennel-xiao-hui-xiang": "小茴香",
+}
+
 export function HerbsList({ herbs }: { herbs: HerbData[] }) {
   const [filter, setFilter] = useState("All")
 
@@ -40,57 +88,70 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {filtered.map((herb) => (
-          <Link
-            key={herb.slug}
-            href={`/herbs/${herb.slug}`}
-            className="group block border border-[rgba(168,135,64,0.15)] rounded-2xl overflow-hidden bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
-          >
-            {herb.image ? (
-              <div className="relative w-full aspect-[16/10] overflow-hidden bg-[rgba(168,135,64,0.04)]">
-                <Image
-                  src={herb.image}
-                  alt={herb.nameEn}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                />
-                <div className="absolute top-4 left-4">
-                  <span className={`text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"} backdrop-blur-md`}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        {filtered.map((herb) => {
+          const simp = NAME_ZH_SIMP[herb.slug] || herb.nameZh
+          const trad = NAME_ZH_TRAD[herb.slug] || herb.nameZh
+          return (
+            <Link
+              key={herb.slug}
+              href={`/herbs/${herb.slug}`}
+              className="group block border border-[rgba(168,135,64,0.15)] rounded-2xl overflow-hidden bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
+            >
+              {herb.image ? (
+                <div className="relative w-full aspect-[3/2] overflow-hidden bg-[rgba(168,135,64,0.04)]">
+                  <Image
+                    src={herb.image}
+                    alt={herb.nameEn}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    priority
+                  />
+                  <div className="absolute top-4 left-4">
+                    <span className={`text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"} backdrop-blur-md`}>
+                      {herb.category}
+                    </span>
+                  </div>
+                </div>
+              ) : (
+                <div className="w-full aspect-[3/2] bg-[rgba(168,135,64,0.04)] flex items-center justify-center">
+                  <span className={`text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"}`}>
                     {herb.category}
                   </span>
                 </div>
-              </div>
-            ) : (
-              <div className="w-full aspect-[16/10] bg-[rgba(168,135,64,0.04)] flex items-center justify-center">
-                <span className={`text-[11px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"}`}>
-                  {herb.category}
-                </span>
-              </div>
-            )}
+              )}
 
-            <div className="p-6">
-              <div className="flex items-center justify-between mb-1.5">
-                <h3 className="font-[family-name:var(--font-display)] text-xl text-text group-hover:text-accent transition-colors tracking-wide">
+              <div className="p-8">
+                <h3 className="font-[family-name:var(--font-display)] text-2xl text-text group-hover:text-accent transition-colors tracking-wide mb-1">
                   {herb.nameEn}
                 </h3>
-                <span className="text-xs text-text2/40 flex-shrink-0 ml-2">{herb.temperature}</span>
+                <p className="text-base text-text2/60 mb-1">
+                  <span className="font-[family-name:var(--font-display)]">{simp}</span>
+                  <span className="mx-2 text-text2/20">|</span>
+                  <span className="font-[family-name:var(--font-display)]">{trad}</span>
+                  <span className="mx-2 text-text2/20">|</span>
+                  <span className="italic">{herb.pinyin}</span>
+                </p>
+                <div className="flex items-center gap-3 mb-4 text-xs text-text2/50">
+                  <span>Temperature: <strong className="text-text2/80">{herb.temperature}</strong></span>
+                  <span className="text-text2/20">|</span>
+                  <span>Taste: <strong className="text-text2/80">{herb.taste}</strong></span>
+                </div>
+                <p className="text-sm text-text2 leading-relaxed line-clamp-3 mb-5">
+                  {herb.summary}
+                </p>
+                <div className="flex flex-wrap items-center gap-2">
+                  {herb.actions.slice(0, 3).map((action, i) => (
+                    <span key={i} className="text-[10px] text-text2/60 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.08)] px-2.5 py-1 rounded-md">
+                      {action.length > 35 ? action.substring(0, 35) + "..." : action}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <p className="text-sm text-text2/50 mb-4">{herb.nameZh} &middot; {herb.pinyin}</p>
-              <p className="text-sm text-text2 leading-relaxed line-clamp-2 mb-4">
-                {herb.summary}
-              </p>
-              <div className="flex flex-wrap items-center gap-2">
-                {herb.actions.slice(0, 3).map((action, i) => (
-                  <span key={i} className="text-[10px] text-text2/60 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.08)] px-2.5 py-1 rounded-md">
-                    {action.length > 35 ? action.substring(0, 35) + "..." : action}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </Link>
-        ))}
+            </Link>
+          )
+        })}
       </div>
 
       <p className="text-center text-xs text-text2/50 mt-10">
