@@ -40,42 +40,54 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {filtered.map((herb) => (
           <Link
             key={herb.slug}
             href={`/herbs/${herb.slug}`}
-            className="flex gap-4 border border-[rgba(168,135,64,0.15)] rounded-xl overflow-hidden bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_4px_20px_rgba(168,135,64,0.08)] transition-all duration-300 no-underline"
+            className="group block border border-[rgba(168,135,64,0.15)] rounded-2xl overflow-hidden bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.1)] transition-all duration-300 no-underline"
           >
             {herb.image ? (
-              <div className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28 relative">
+              <div className="relative w-full aspect-[4/3] overflow-hidden bg-[rgba(168,135,64,0.04)]">
                 <Image
                   src={herb.image}
                   alt={herb.nameEn}
                   fill
-                  className="object-cover"
-                  sizes="112px"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
+                <div className="absolute top-3 left-3">
+                  <span className={`text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"} backdrop-blur-sm`}>
+                    {herb.category}
+                  </span>
+                </div>
               </div>
             ) : (
-              <div className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28 bg-[rgba(168,135,64,0.06)] flex items-center justify-center">
-                <span className="text-xs text-text2/30">No image</span>
-              </div>
-            )}
-            <div className="flex-1 min-w-0 py-4 pr-4">
-              <div className="flex items-center gap-2 mb-1">
-                <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"}`}>
+              <div className="w-full aspect-[4/3] bg-[rgba(168,135,64,0.04)] flex items-center justify-center">
+                <span className={`text-[10px] font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"}`}>
                   {herb.category}
                 </span>
-                <span className="text-[10px] text-text2/50">{herb.temperature}</span>
               </div>
-              <h3 className="font-[family-name:var(--font-display)] text-base sm:text-lg text-text mb-0.5 tracking-wide">
-                {herb.nameEn}
-              </h3>
-              <p className="text-xs text-text2/60 mb-1.5">{herb.nameZh} &middot; {herb.pinyin}</p>
-              <p className="text-xs sm:text-sm text-text2 leading-relaxed line-clamp-2">
+            )}
+
+            <div className="p-5">
+              <div className="flex items-center justify-between mb-1">
+                <h3 className="font-[family-name:var(--font-display)] text-lg text-text group-hover:text-accent transition-colors tracking-wide">
+                  {herb.nameEn}
+                </h3>
+                <span className="text-[10px] text-text2/40 flex-shrink-0 ml-2">{herb.temperature}</span>
+              </div>
+              <p className="text-xs text-text2/50 mb-3">{herb.nameZh} &middot; {herb.pinyin}</p>
+              <p className="text-sm text-text2 leading-relaxed line-clamp-3">
                 {herb.summary}
               </p>
+              <div className="mt-4 flex items-center gap-2">
+                {herb.actions.slice(0, 2).map((action, i) => (
+                  <span key={i} className="text-[9px] text-text2/60 bg-[rgba(168,135,64,0.04)] px-2 py-0.5 rounded">
+                    {action.length > 30 ? action.substring(0, 30) + "..." : action}
+                  </span>
+                ))}
+              </div>
             </div>
           </Link>
         ))}
