@@ -58,7 +58,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine Weight Loss: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine Weight Loss: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for weight loss, each suited to a different body type. Learn why TCM sees weight differently and find your match.",
-    heroImage: "/images/solutions/weight-loss-hero.svg",
+    heroImage: "/images/solutions/weight-loss-hero.jpg",
     intro: "Chinese medicine approaches weight loss by restoring your body's natural fluid metabolism rather than restricting calories. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of weight gain.",
     tcmVsModern: [
       {
@@ -175,7 +175,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Discontinue during acute colds, flu, or fever.",
           "This formula is cooling. If you already feel cold most of the time, use it every other day rather than daily.",
         ],
-        image: "/images/solutions/formula-lotus-hawthorn.svg",
+        image: "/images/solutions/formula-lotus-hawthorn.jpg",
       },
       {
         slug: "coix-seed-poria-soup",
@@ -241,7 +241,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Best avoided during acute colds with chills and clear mucus.",
           "If using fresh Chinese yam, wear gloves while peeling. Raw yam sap can cause skin irritation in some people.",
         ],
-        image: "/images/solutions/formula-coix-poria.svg",
+        image: "/images/solutions/formula-coix-poria.jpg",
       },
       {
         slug: "rose-cassia-tea",
@@ -298,7 +298,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Cassia seed may lower blood pressure. Monitor closely if you take blood pressure medications.",
           "If you experience drowsiness or low blood pressure symptoms, reduce the frequency.",
         ],
-        image: "/images/solutions/formula-rose-cassia.svg",
+        image: "/images/solutions/formula-rose-cassia.jpg",
       },
     ],
     faqs: [

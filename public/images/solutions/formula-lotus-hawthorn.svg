@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect width="1600" height="900" fill="#f5f0e8"/>
-  <rect x="100" y="350" width="1400" height="3" fill="#C9A355" opacity="0.3"/>
-  <text x="800" y="420" font-family="serif" font-size="48" fill="#8a8580" text-anchor="middle">EastType</text>
-  <text x="800" y="480" font-family="sans-serif" font-size="24" fill="#b0aaa0" text-anchor="middle">Lotus Leaf and Hawthorn Tea</text>
-  <text x="800" y="520" font-family="sans-serif" font-size="16" fill="#c0b8a8" text-anchor="middle">Image placeholder</text>
-</svg>
