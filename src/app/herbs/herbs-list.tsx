@@ -15,60 +15,37 @@ const CATEGORY_COLORS: Record<string, string> = {
   "Cooling Herb": "bg-teal-900/10 text-teal-700",
   "Dampness Draining": "bg-emerald-900/10 text-emerald-700",
   "Qi Regulating": "bg-purple-900/10 text-purple-700",
+  "Calming Herb": "bg-indigo-900/10 text-indigo-700",
+  "Digestive Support": "bg-green-900/10 text-green-700",
 }
 
-const NAME_ZH_SIMP: Record<string, string> = {
-  "ginseng-ren-shen": "人参",
-  "astragalus-huang-qi": "黄芪",
-  "jujube-da-zao": "大枣",
-  "goji-gou-qi-zi": "枸杞子",
-  "ginger-sheng-jiang": "生姜",
-  "chrysanthemum-ju-hua": "菊花",
-  "chinese-yam-shan-yao": "山药",
-  "longan-gui-yuan": "龙眼肉",
-  "coix-seed-yi-yi-ren": "薏苡仁",
-  "lotus-seed-lian-zi": "莲子",
-  "lily-bulb-bai-he": "百合",
-  "white-fungus-yin-er": "银耳",
-  "mint-bo-he": "薄荷",
-  "rose-mei-gui": "玫瑰花",
-  "cinnamon-rou-gui": "肉桂",
-  "dried-tangerine-chen-pi": "陈皮",
-  "honeysuckle-jin-yin-hua": "金银花",
-  "dong-quai-dang-gui": "当归",
-  "rehmannia-di-huang": "地黄",
-  "poria-fu-ling": "茯苓",
-  "fennel-xiao-hui-xiang": "小茴香",
+const TRAD_TO_SIMP: Record<string, string> = {
+  "參": "参", "黃": "黄", "薑": "姜", "藥": "药", "當": "当", "歸": "归",
+  "蔘": "参", "銀": "银", "陳": "陈", "蓮": "莲", "藍": "蓝", "蘆": "芦",
+  "齒": "齿", "廣": "广", "蒼": "苍", "羅": "罗", "無": "无", "絲": "丝",
+  "貝": "贝", "梔": "栀", "澤": "泽", "豬": "猪", "雞": "鸡", "實": "实",
+  "葉": "叶", "膠": "胶", "鬱": "郁", "條": "条", "滿": "满",
+  "濕": "湿", "瀉": "泻", "獨": "独", "蘇": "苏", "紅": "红",
+  "細": "细", "結": "结", "絡": "络", "經": "经", "腎": "肾", "腸": "肠",
+  "膽": "胆", "臟": "脏", "臺": "台", "與": "与", "舊": "旧",
 }
 
-const NAME_ZH_TRAD: Record<string, string> = {
-  "ginseng-ren-shen": "人蔘",
-  "astragalus-huang-qi": "黃耆",
-  "jujube-da-zao": "大棗",
-  "goji-gou-qi-zi": "枸杞子",
-  "ginger-sheng-jiang": "生薑",
-  "chrysanthemum-ju-hua": "菊花",
-  "chinese-yam-shan-yao": "山藥",
-  "longan-gui-yuan": "龍眼肉",
-  "coix-seed-yi-yi-ren": "薏苡仁",
-  "lotus-seed-lian-zi": "蓮子",
-  "lily-bulb-bai-he": "百合",
-  "white-fungus-yin-er": "銀耳",
-  "mint-bo-he": "薄荷",
-  "rose-mei-gui": "玫瑰花",
-  "cinnamon-rou-gui": "肉桂",
-  "dried-tangerine-chen-pi": "陳皮",
-  "honeysuckle-jin-yin-hua": "金銀花",
-  "dong-quai-dang-gui": "當歸",
-  "rehmannia-di-huang": "地黃",
-  "poria-fu-ling": "茯苓",
-  "fennel-xiao-hui-xiang": "小茴香",
+function toSimplified(trad: string): string {
+  return trad
+    .split("")
+    .map((ch) => TRAD_TO_SIMP[ch] || ch)
+    .join("")
 }
 
 export function HerbsList({ herbs }: { herbs: HerbData[] }) {
   const [filter, setFilter] = useState("All")
 
   const filtered = filter === "All" ? herbs : herbs.filter((h) => h.category === filter)
+
+  const counts = HERB_CATEGORIES.reduce<Record<string, number>>((acc, cat) => {
+    acc[cat] = cat === "All" ? herbs.length : herbs.filter((h) => h.category === cat).length
+    return acc
+  }, {})
 
   return (
     <div>
@@ -83,15 +60,15 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
                 : "bg-card-bg text-text2 border border-[rgba(168,135,64,0.1)] hover:border-[rgba(168,135,64,0.3)]"
             }`}
           >
-            {cat}
+            {cat} <span className="opacity-50">({counts[cat] ?? 0})</span>
           </button>
         ))}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {filtered.map((herb) => {
-          const simp = NAME_ZH_SIMP[herb.slug] || herb.nameZh
-          const trad = NAME_ZH_TRAD[herb.slug] || herb.nameZh
+          const simp = toSimplified(herb.nameZhTrad || herb.nameZh)
+          const trad = herb.nameZhTrad || herb.nameZh
           return (
             <Link
               key={herb.slug}
