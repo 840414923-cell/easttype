@@ -96,10 +96,10 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
             <Link
               key={herb.slug}
               href={`/herbs/${herb.slug}`}
-              className="group block border border-[rgba(168,135,64,0.15)] rounded-2xl overflow-hidden bg-card-bg hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
+              className="group block rounded-2xl overflow-hidden bg-card-bg border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
             >
               {herb.image ? (
-                <div className="relative w-full aspect-[3/2] overflow-hidden bg-[rgba(168,135,64,0.04)]">
+                <div className="relative w-full aspect-[3/2] overflow-hidden bg-[#1a1a1a]">
                   <Image
                     src={herb.image}
                     alt={herb.nameEn}
@@ -115,7 +115,7 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
                   </div>
                 </div>
               ) : (
-                <div className="w-full aspect-[3/2] bg-[rgba(168,135,64,0.04)] flex items-center justify-center">
+                <div className="w-full aspect-[3/2] bg-[#1a1a1a] flex items-center justify-center">
                   <span className={`text-xs font-semibold uppercase tracking-wider px-3 py-1.5 rounded-full ${CATEGORY_COLORS[herb.category] || "bg-accent/10 text-accent"}`}>
                     {herb.category}
                   </span>
