@@ -41,4 +41,6 @@ export const HERB_CATEGORIES = [
   "Cooling Herb",
   "Dampness Draining",
   "Qi Regulating",
+  "Calming Herb",
+  "Digestive Support",
 ]
