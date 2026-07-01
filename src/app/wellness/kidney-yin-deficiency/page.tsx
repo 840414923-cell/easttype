@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "kidney-yin-deficiency"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Kidney Yin Deficiency in Chinese Medicine: Signs, Causes & Foods"
+const TITLE = "Kidney Yin Deficiency Symptoms in Chinese Medicine: Causes & Foods"
 const DESC = "Night sweats, hot flashes, dry mouth, and low back pain at night may signal Kidney Yin Deficiency. Learn the signs, what causes it, and which foods may help restore cooling energy."
 
 export const metadata: Metadata = {

@@ -183,7 +183,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-crave-sweets": {
     slug: "why-do-i-crave-sweets",
     title: { en: "Why Do I Crave Sweets?", "zh-TW": "", ja: "" },
-    metaTitle: "Can't Stop Craving Sweets? Your Body Type Might Be Begging for Fuel",
+    metaTitle: "Craving Sweets in Chinese Medicine: What Your Body Wants",
     metaDesc: "Need dessert every night? 3PM sugar crash? Your body type might be driving the craving, not your willpower. Free quiz.",
     ogDesc: "Always reaching for something sweet? Your body type may explain why.",
     h1: { en: "Why Do I Crave Sweets? The Sweet Tooth That Runs Deeper Than Willpower", "zh-TW": "", ja: "" },
@@ -387,7 +387,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-water-retention": {
     slug: "why-do-i-have-water-retention",
     title: { en: "Why Do I Have Water Retention?", "zh-TW": "", ja: "" },
-    metaTitle: "Puffy and Swollen? Your Body Might Be Holding Water It Can't Drain",
+    metaTitle: "Water Retention in Chinese Medicine: Why Your Body Holds Fluid",
     metaDesc: "Rings tight, face puffy, legs heavy? Your body type might be why your drainage system is clogged. Free quiz.",
     ogDesc: "Rings tight, face puffy, legs heavy? Your body type may explain why your body holds onto water it should be releasing.",
     h1: { en: "Why Do I Have Water Retention? The Sponge That Won't Wring Out", "zh-TW": "", ja: "" },
@@ -447,7 +447,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-poor-circulation": {
     slug: "why-do-i-have-poor-circulation",
     title: { en: "Why Do I Have Poor Circulation?", "zh-TW": "", ja: "" },
-    metaTitle: "Poor Circulation? Your Blood River Might Have Too Many Dams",
+    metaTitle: "Poor Circulation in Chinese Medicine: Why Blood Flow Slows",
     metaDesc: "Cold hands, cold feet, bruises easily? Your body type might be why blood can't flow freely. Free quiz.",
     ogDesc: "Hands blue, feet numb, always freezing? Your body type may explain why your circulation is running on low.",
     h1: { en: "Why Do I Have Poor Circulation? The River That Slowed to a Trickle", "zh-TW": "", ja: "" },
@@ -459,7 +459,7 @@ export const SYMPTOMS: Record<string, SymptomPage> = {
   "why-do-i-have-seasonal-allergies": {
     slug: "why-do-i-have-seasonal-allergies",
     title: { en: "Why Do I Have Seasonal Allergies?", "zh-TW": "", ja: "" },
-    metaTitle: "Allergies Won't Quit? Your Body Type Might Be Overreacting",
+    metaTitle: "Seasonal Allergies in Chinese Medicine: Why Your Body Overreacts",
     metaDesc: "Every spring your body fights pollen like a war? Your body type might be why your defenses overreact. Free quiz.",
     ogDesc: "Every spring your body declares war on pollen? Your body type may explain why your immune system overreacts.",
     h1: { en: "Why Do I Have Seasonal Allergies? The Body That Overreacts to Every Season", "zh-TW": "", ja: "" },
