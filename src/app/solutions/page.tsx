@@ -43,11 +43,11 @@ export default function SolutionsHubPage() {
           </p>
 
           <div className="grid gap-6">
-            {SOLUTION_LIST.map((s) => (
+            {SOLUTION_LIST.map((s, idx) => (
               <Link
                 key={s.slug}
                 href={`/solutions/${s.slug}`}
-                className="group block rounded-2xl overflow-hidden bg-card-bg border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
+                className={`group block rounded-2xl overflow-hidden border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline ${idx % 2 === 0 ? "bg-card-bg" : "bg-[var(--color-bg2)]"}`}
               >
                 <div className="flex flex-col sm:flex-row">
                   <div className="relative w-full sm:w-2/5 aspect-[16/9] sm:aspect-auto flex-shrink-0 overflow-hidden">
