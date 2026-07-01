@@ -4,6 +4,7 @@ import Image from "next/image"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { SOLUTIONS, SOLUTION_LIST } from "@/lib/solutions-data"
+import { HERBS } from "@/lib/herbs-data"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 import { notFound } from "next/navigation"
 
@@ -295,13 +296,34 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
                     </tr>
                   </thead>
                   <tbody>
-                    {formula.ingredients.map((ing, i) => (
+                    {formula.ingredients.map((ing, i) => {
+                      const herb = ing.herbSlug ? HERBS[ing.herbSlug] : undefined
+                      return (
                       <tr key={i} className="border-b border-[rgba(168,135,64,0.08)]">
                         <td className="py-2 px-3">
-                          <span className="font-medium text-text">{ing.nameEn}</span>
-                          <span className="text-text2/50 ml-1">({ing.nameZh})</span>
-                          {ing.herbSlug && (
-                            <Link href={`/herbs/${ing.herbSlug}`} className="ml-1 text-xs text-accent hover:underline">details</Link>
+                          {herb && herb.image ? (
+                            <Link href={`/herbs/${ing.herbSlug}`} className="inline-flex items-center gap-2 group no-underline">
+                              <span className="relative w-8 h-8 rounded-full overflow-hidden border border-[rgba(168,135,64,0.2)] flex-shrink-0">
+                                <Image
+                                  src={herb.image}
+                                  alt={ing.nameEn}
+                                  fill
+                                  className="object-cover"
+                                  sizes="32px"
+                                />
+                              </span>
+                              <span className="font-medium text-text group-hover:text-accent transition-colors">{ing.nameEn}</span>
+                              <span className="text-text2/50 text-xs">({ing.nameZh})</span>
+                              <span className="text-accent/40 text-xs group-hover:text-accent transition-colors">{"\u2192"}</span>
+                            </Link>
+                          ) : (
+                            <>
+                              <span className="font-medium text-text">{ing.nameEn}</span>
+                              <span className="text-text2/50 ml-1">({ing.nameZh})</span>
+                              {ing.herbSlug && (
+                                <Link href={`/herbs/${ing.herbSlug}`} className="ml-1 text-xs text-accent hover:underline">details</Link>
+                              )}
+                            </>
                           )}
                         </td>
                         <td className="py-2 px-3 text-text2">{ing.amount}</td>
@@ -310,7 +332,8 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
                         </td>
                         <td className="py-2 px-3 text-text2 text-sm">{ing.why}</td>
                       </tr>
-                    ))}
+                      )
+                    })}
                   </tbody>
                 </table>
               </div>
