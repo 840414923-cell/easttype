@@ -58,7 +58,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine Weight Loss: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine Weight Loss: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for weight loss, each suited to a different body type. Learn why TCM sees weight differently and find your match.",
-    heroImage: "/images/solutions/weight-loss-hero.jpg",
+    heroImage: "/images/solutions/weight-loss-hero.png",
     intro: "Chinese medicine approaches weight loss by restoring your body's natural fluid metabolism rather than restricting calories. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of weight gain.",
     tcmVsModern: [
       {
