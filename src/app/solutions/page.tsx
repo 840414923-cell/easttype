@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import Image from "next/image"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { SOLUTION_LIST } from "@/lib/solutions-data"
@@ -27,7 +28,7 @@ export default function SolutionsHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
       <main className="flex-1">
-        <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="max-w-6xl mx-auto px-6 py-12">
           <nav className="text-xs text-text2/60 mb-8">
             <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
             <span className="mx-1.5">{'>'}</span>
@@ -48,19 +49,30 @@ export default function SolutionsHubPage() {
                 href={`/solutions/${s.slug}`}
                 className="group block rounded-2xl overflow-hidden bg-card-bg border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
               >
-                <div className="p-6">
-                  <h2 className="font-[family-name:var(--font-display)] text-xl text-text group-hover:text-accent transition-colors tracking-wide mb-2">
-                    {s.title}
-                  </h2>
-                  <p className="text-sm text-text2 leading-relaxed mb-4">
-                    {s.intro}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {s.formulas.map((f) => (
-                      <span key={f.slug} className="text-xs text-text2/70 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.1)] px-2.5 py-1 rounded-md">
-                        {f.nameEn.split(" & ")[0]} - {f.bodyType}
-                      </span>
-                    ))}
+                <div className="flex flex-col sm:flex-row">
+                  <div className="relative w-full sm:w-2/5 aspect-[16/9] sm:aspect-auto flex-shrink-0 overflow-hidden">
+                    <Image
+                      src={s.heroImage}
+                      alt={s.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, 400px"
+                    />
+                  </div>
+                  <div className="p-6 flex-1 flex flex-col justify-center">
+                    <h2 className="font-[family-name:var(--font-display)] text-xl text-text group-hover:text-accent transition-colors tracking-wide mb-2">
+                      {s.title}
+                    </h2>
+                    <p className="text-sm text-text2 leading-relaxed mb-4 line-clamp-3">
+                      {s.intro}
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {s.formulas.map((f) => (
+                        <span key={f.slug} className="text-xs text-text2/70 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.1)] px-2.5 py-1 rounded-md">
+                          {f.nameEn.split(" & ")[0]} - {f.bodyType}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </Link>
