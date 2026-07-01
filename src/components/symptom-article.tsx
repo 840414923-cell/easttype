@@ -49,9 +49,9 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         ))}
       </section>
 
-      {/* Body Type Cards */}
+      {/* Body Type Cards — darker bg block */}
       {data.bodyTypes.length > 0 && (
-        <section className="mb-10">
+        <section className="mb-10 -mx-6 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
           <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
             Which Body Types Are Most Affected
           </h2>
@@ -60,7 +60,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           </p>
           <div className="space-y-4">
             {data.bodyTypes.map((bt, i) => (
-              <div key={bt.slug} className="rounded-xl border border-[rgba(201,163,85,0.12)] bg-card-bg p-5">
+              <div key={bt.slug} className="rounded-xl border border-[rgba(201,163,85,0.15)] bg-[var(--color-card-bg)] p-5">
                 <div className="flex items-center gap-3 mb-3">
                   <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full border ${TYPE_COLORS[bt.slug] || "bg-gray-100 text-gray-700 border-gray-200"}`}>
                     Type {i + 1}
@@ -103,27 +103,27 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         ))}
       </section>
 
-      {/* Metaphor */}
+      {/* Metaphor — accent bg block */}
       {data.metaphor && (
         <section className="mb-10">
-          <div className="bg-[rgba(201,163,85,0.04)] rounded-xl border border-[rgba(201,163,85,0.12)] p-5">
+          <div className="rounded-xl bg-gradient-to-br from-[rgba(201,163,85,0.1)] to-[rgba(201,163,85,0.03)] border border-[rgba(201,163,85,0.2)] p-6">
             <p className="text-xs font-semibold text-accent mb-2 uppercase tracking-wider">A Simple Analogy</p>
             <p className="text-sm text-text2 italic leading-relaxed">{data.metaphor}</p>
           </div>
         </section>
       )}
 
-      {/* TCM vs Modern Table */}
+      {/* TCM vs Modern Table — darker bg block */}
       {data.tcmVsModern && data.tcmVsModern.length > 0 && (
-        <section className="mb-10">
+        <section className="mb-10 -mx-6 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
           <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
             Eastern vs. Western Perspective
           </h2>
-          <p className="text-text2 text-sm mb-4">Two different lenses on the same symptom.</p>
+          <p className="text-text2 text-sm mb-5">Two different lenses on the same symptom.</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="border-b-2 border-[rgba(201,163,85,0.2)]">
+                <tr className="border-b-2 border-[rgba(201,163,85,0.25)]">
                   <th className="text-left py-3 px-4 font-semibold text-text">Topic</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Western Medicine</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Chinese Medicine</th>
@@ -131,7 +131,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
               </thead>
               <tbody>
                 {data.tcmVsModern.map((row, i) => (
-                  <tr key={i} className="border-b border-[rgba(201,163,85,0.08)]">
+                  <tr key={i} className="border-b border-[rgba(201,163,85,0.1)]">
                     <td className="py-3 px-4 font-medium text-text whitespace-nowrap">{row.aspect}</td>
                     <td className="py-3 px-4 text-text2">{row.westernView}</td>
                     <td className="py-3 px-4 text-text2">{row.tcmView}</td>
@@ -143,7 +143,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
-      {/* What May Help */}
+      {/* What May Help — light card grid */}
       {data.whatMayHelp.length > 0 && (
         <section className="mb-10">
           <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
@@ -154,9 +154,9 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {data.whatMayHelp.map((item, i) => (
-              <div key={i} className="rounded-lg border border-[rgba(201,163,85,0.1)] bg-card-bg p-4">
+              <div key={i} className="rounded-lg border border-[rgba(201,163,85,0.12)] bg-[var(--color-card-bg)] p-4">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(201,163,85,0.1)] text-accent font-semibold text-xs flex items-center justify-center">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(201,163,85,0.12)] text-accent font-semibold text-xs flex items-center justify-center">
                     {i + 1}
                   </span>
                   <h3 className="font-[family-name:var(--font-display)] text-sm text-text">{item.title}</h3>
@@ -168,11 +168,14 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
-      {/* When to See a Doctor */}
+      {/* When to See a Doctor — warning bg */}
       {data.whenToSeeDoctor && (
         <section className="mb-10">
-          <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
-            <p className="text-xs font-semibold text-amber-700 uppercase tracking-wider mb-2">When to See a Doctor</p>
+          <div className="rounded-lg border border-amber-300 bg-amber-50 p-5">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-amber-600 text-base">{'\u26A0'}</span>
+              <p className="text-xs font-semibold text-amber-700 uppercase tracking-wider">When to See a Doctor</p>
+            </div>
             <p className="text-sm text-amber-900/80 leading-relaxed">{data.whenToSeeDoctor}</p>
           </div>
         </section>
@@ -187,7 +190,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           {data.relatedPattern && (
             <Link
               href={`/patterns/${data.relatedPattern.slug}`}
-              className="group block rounded-lg border border-[rgba(201,163,85,0.1)] bg-card-bg p-4 no-underline hover:border-[rgba(201,163,85,0.35)] transition-all"
+              className="group block rounded-lg border border-[rgba(201,163,85,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(201,163,85,0.4)] transition-all"
             >
               <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">Pattern</p>
               <p className="text-sm text-text group-hover:text-accent transition-colors">{data.relatedPattern.name} {'>'}</p>
@@ -197,7 +200,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
             <Link
               key={s.slug}
               href={`/symptoms/${s.slug}`}
-              className="group block rounded-lg border border-[rgba(201,163,85,0.1)] bg-card-bg p-4 no-underline hover:border-[rgba(201,163,85,0.35)] transition-all"
+              className="group block rounded-lg border border-[rgba(201,163,85,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(201,163,85,0.4)] transition-all"
             >
               <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">Related Symptom</p>
               <p className="text-sm text-text group-hover:text-accent transition-colors">{s.title} {'>'}</p>
@@ -209,10 +212,10 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       {/* FAQ */}
       {faqs && <FaqSection faqs={faqs} />}
 
-      {/* Food Guide Link */}
+      {/* Food Guide Link — accent bg */}
       {data.foodsForSlug && (
         <section className="mt-10 mb-4">
-          <div className="bg-cream/30 border border-border rounded-xl p-5">
+          <div className="rounded-xl bg-gradient-to-br from-[rgba(201,163,85,0.1)] to-[rgba(201,163,85,0.03)] border border-[rgba(201,163,85,0.2)] p-6">
             <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
               What Foods May Help
             </h2>
@@ -229,9 +232,9 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       <SymptomCta />
 
       {/* Disclaimer */}
-      <div className="mt-8 rounded-xl bg-[rgba(201,169,110,0.03)] border border-[rgba(201,169,110,0.1)] p-5">
+      <div className="mt-8 rounded-xl bg-[var(--color-bg2)] border border-[rgba(201,163,85,0.08)] p-5">
         <p className="text-xs text-text2 leading-relaxed text-center">
-          This content is for educational and informational purposes only and is not medical advice. Always consult a qualified healthcare professional before making changes to your diet or lifestyle, especially if you are managing a health condition. Individual results may vary.
+          This content is for educational and informational purposes only and is not medical advice. Always consult a qualified healthcare professional before making changes to your diet or lifestyle, especially if you managing a health condition. Individual results may vary.
         </p>
       </div>
     </main>
