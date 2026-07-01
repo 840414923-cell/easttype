@@ -371,24 +371,6 @@ export default async function HerbDetailPage({
             </div>
           </section>
 
-          <section className="mb-10">
-            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
-              Related Herbs
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {relatedHerbs.map((r) => (
-                <Link
-                  key={r.slug}
-                  href={`/herbs/${r.slug}`}
-                  className="block border border-[rgba(168,135,64,0.12)] rounded-xl p-3 bg-card-bg hover:border-[rgba(168,135,64,0.3)] transition-all no-underline"
-                >
-                  <span className="text-sm text-text font-medium block">{r.nameEn}</span>
-                  <span className="text-[10px] text-text2/50">{r.nameZhTrad || r.nameZh}</span>
-                </Link>
-              ))}
-            </div>
-          </section>
-
           <SymptomCta />
 
           <div className="mt-8 mb-4 px-4 py-3 rounded-xl bg-[rgba(201,169,110,0.03)] border border-[rgba(201,169,110,0.1)]">
