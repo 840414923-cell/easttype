@@ -56,6 +56,57 @@ const TYPE_NAMES: Record<string, string> = {
   balanced: "Balanced",
 }
 
+const SYMPTOM_LINKS: Record<string, string> = {
+  "Energy Support": "/symptoms/why-am-i-always-tired",
+  "Vitality": "/symptoms/why-am-i-always-unmotivated",
+  "Cold Sensitivity": "/symptoms/why-am-i-always-cold",
+  "Circulation": "/symptoms/why-do-i-have-poor-circulation",
+  "Sleep Support": "/symptoms/why-cant-i-fall-asleep",
+  "Anxiety Relief": "/symptoms/why-do-i-feel-anxious",
+  "Stress Relief": "/symptoms/why-do-i-overthink-everything",
+  "Mood Balance": "/symptoms/why-are-my-moods-all-over-the-place",
+  "Mental Clarity": "/symptoms/why-do-i-have-brain-fog",
+  "Cognitive Support": "/symptoms/why-cant-i-focus",
+  "Digestion": "/symptoms/why-do-i-feel-sick-after-eating",
+  "Digestive Health": "/symptoms/always-bloated-after-eating",
+  "Digestive Comfort": "/symptoms/always-bloated-after-eating",
+  "Digestive Warmth": "/symptoms/why-do-i-have-stomach-pain",
+  "Stomach Comfort": "/symptoms/why-do-i-have-stomach-pain",
+  "Nausea Relief": "/symptoms/why-do-i-have-nausea",
+  "Weight Management": "/symptoms/why-cant-i-lose-weight",
+  "Metabolic Support": "/symptoms/why-is-my-metabolism-so-slow",
+  "Water Retention": "/symptoms/why-do-i-have-water-retention",
+  "Skin Health": "/symptoms/why-do-i-keep-breaking-out",
+  "Complexion": "/symptoms/why-is-my-complexion-dull",
+  "Dry Skin Relief": "/symptoms/why-is-my-skin-so-dry",
+  "Cough Relief": "/symptoms/why-do-i-have-a-chronic-cough",
+  "Throat Relief": "/symptoms/why-do-i-always-have-a-sore-throat",
+  "Sinus Relief": "/symptoms/why-do-i-have-post-nasal-drip",
+  "Cold Relief": "/symptoms/why-do-i-get-sick-so-often",
+  "Allergy Support": "/symptoms/why-do-i-have-seasonal-allergies",
+  "Immune Support": "/symptoms/why-do-i-get-sick-so-often",
+  "Headache Relief": "/symptoms/why-do-i-have-headaches",
+  "Joint Support": "/symptoms/why-do-i-have-joint-pain",
+  "Muscle Relaxation": "/symptoms/why-are-my-shoulders-always-tense",
+  "Lower Back Support": "/symptoms/why-do-i-have-lower-back-pain",
+  "Menstrual Support": "/symptoms/why-do-i-have-period-cramps",
+  "Women's Health": "/symptoms/why-is-my-period-irregular",
+  "Women Health": "/symptoms/why-is-my-period-irregular",
+  "Urinary Health": "/symptoms/why-do-i-wake-up-to-pee",
+  "Eye Health": "/symptoms/why-do-i-have-dark-circles",
+  "Fresh Breath": "/symptoms/why-do-i-have-bad-breath",
+  "Heart Health": "/symptoms/why-do-i-have-poor-circulation",
+  "Liver Health": "/symptoms/why-am-i-so-irritable",
+  "Respiratory Health": "/symptoms/why-do-i-have-a-chronic-cough",
+  "Sugar Balance": "/symptoms/why-do-i-crave-sweets",
+  "Thyroid Support": "/symptoms/why-is-my-metabolism-so-slow",
+  "Hydration": "/symptoms/why-am-i-always-thirsty",
+  "Heat Relief": "/symptoms/why-am-i-so-sensitive-to-heat",
+  "Pain Relief": "/symptoms/why-do-i-have-joint-pain",
+  "Wound Healing": "/symptoms/why-is-my-skin-so-dry",
+  "Men's Health": "/symptoms/why-is-my-libido-low",
+}
+
 const CATEGORY_COLOR: Record<string, string> = {
   "Qi Tonic": "bg-amber-900/10 text-amber-700",
   "Blood Tonic": "bg-red-900/10 text-red-700",
@@ -265,6 +316,34 @@ export default async function HerbDetailPage({
               Not sure which type you are? <Link href="/quiz" className="text-accent hover:underline">Take the free 5-minute quiz</Link>.
             </p>
           </section>
+
+          {(() => {
+            const symptomLinks = (herb.therapeuticFocus || [])
+              .map((f) => ({ focus: f, slug: SYMPTOM_LINKS[f] }))
+              .filter((s) => s.slug)
+              .filter((s, i, arr) => arr.findIndex((x) => x.slug === s.slug) === i)
+              .slice(0, 6)
+            if (symptomLinks.length === 0) return null
+            return (
+              <section className="mb-10">
+                <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+                  Related Symptom Guides
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {symptomLinks.map((s) => (
+                    <Link
+                      key={s.slug}
+                      href={s.slug}
+                      className="flex items-center justify-between px-4 py-3 rounded-lg border border-[rgba(168,135,64,0.12)] bg-card-bg hover:border-[rgba(168,135,64,0.3)] transition-all no-underline"
+                    >
+                      <span className="text-sm text-text font-medium">{s.focus}</span>
+                      <span className="text-accent text-xs">{'>'}</span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )
+          })()}
 
           <section className="mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
