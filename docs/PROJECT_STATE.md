@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-06-30
+Last updated: 2026-07-02
 
 ---
 
@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (254 in sitemap)
+## Published URLs (271 in sitemap)
 
 ### Core Pages (8)
 
@@ -30,6 +30,8 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 ### Symptom Pages (70)
 
 70 individual symptom pages. Format: `/symptoms/why-am-i-always-tired`, etc.
+
+**Architecture upgrade (2026-07-02):** All 70 symptom pages converted from hand-written article.tsx files to structured data + shared SymptomArticle component. Content extracted into `symptom-articles-data.ts` (523KB). Each page now renders: tag badge, body type cards (colored badges + keySigns pills), TCM explanation, metaphor box, TCM vs Western comparison table, whatMayHelp card grid, whenToSeeDoctor warning box, related links cards, FAQ, food guide link, CTA, disclaimer. Alternating bg colors for visual rhythm.
 
 ### Pattern Pages (9)
 
@@ -76,11 +78,14 @@ balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, b
 - Botanical name
 - 11 categories: Tonifying, Calming, Heat Clearing, Digestive Support, etc.
 
-### Solutions Pages (2)
+### Solutions Pages (5)
 
-New section: TCM herbal formula guides by health concern.
-- `/solutions` hub page
-- `/solutions/chinese-medicine-weight-loss` detail page with 3 formulas (Lotus Leaf & Hawthorn Tea, Coix Seed & Poria Soup, Rose & Cassia Seed Tea)
+TCM herbal formula guides by health concern.
+- `/solutions` hub page (left-image right-text layout, alternating bg colors)
+- `/solutions/chinese-medicine-weight-loss` — 3 formulas (Lotus Leaf & Hawthorn, Coix Seed & Poria, Rose & Cassia Seed)
+- `/solutions/chinese-medicine-for-energy` — 3 formulas (Ginseng & Jujube, Astragalus & Ginger, American Ginseng & Ophiopogon)
+- `/solutions/chinese-medicine-for-sleep` — 3 formulas (Sour Jujube & Longan, Lily & Lotus, Rose & Chrysanthemum)
+- `/solutions/chinese-medicine-for-digestion` — 3 formulas (Yam & Poria, Dendrobium & Ophiopogon, Tangerine Peel & Hawthorn)
 
 Each formula includes classical source citation, ingredients with amounts, step-by-step preparation, dosage, duration, taste profile, cautions, and body type matching.
 
@@ -98,64 +103,95 @@ Each formula includes classical source citation, ingredients with amounts, step-
 
 | Metric | Count |
 |---|---|
-| Symptom pages | 70 |
+| Symptom pages | 70 (all converted to structured data + shared component) |
 | Pattern pages | 9 |
 | Type pages | 9 |
 | Wellness pages | 43 (+ 7 redirected) |
 | Food combo pages | 10 |
 | Herb pages | 100 |
-| Solutions pages | 2 (hub + 1 detail) |
+| Solutions pages | 5 (hub + 4 detail) |
 | Hub pages | 5 (symptoms, patterns, wellness, foods-for, herbs) |
 | Utility pages | 4 |
-| Sitemap URLs | 254 |
-| Total build pages | 268 |
+| Sitemap URLs | 257 |
+| Total build pages | 271 |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 
 ---
 
+## Symptoms Hub Page (2026-07-02 redesign)
+
+`/symptoms` redesigned with:
+- 11 category filter tags (clickable, with symptom counts)
+- Real-time search box (client component, filters by title/tag/description)
+- Default view: symptoms grouped by category sections
+- Filtered view: flat list with result count
+- max-w-3xl, clean row-based layout
+
+---
+
+## Symptom Detail Page Architecture (2026-07-02)
+
+All 70 symptom pages use shared rendering:
+
+| File | Purpose |
+|---|---|
+| `src/lib/symptom-article-types.ts` | TypeScript interfaces (SymptomArticleData, etc.) |
+| `src/lib/symptom-articles-data.ts` | 70 entries structured data (523KB) |
+| `src/components/symptom-article.tsx` | Shared rendering component |
+| `src/app/symptoms/[slug]/page.tsx` | Each page imports data + renders SymptomArticle |
+
+Page structure: tag badge + readTime → intro → body type cards (dark bg block) → TCM explanation → metaphor box (gradient bg) → TCM vs Western table (dark bg block) → whatMayHelp card grid → whenToSeeDoctor (amber box) → related links cards → FAQ → food guide link → CTA → disclaimer (dark bg).
+
+**Upgrade plan documented:** `docs/symptom-page-upgrade-plan.md` — 5 modules to surpass meandqi (self-check checklist, match hints, related symptoms grid, solutions/foods recommendation, comparison collapsibles). Edit 2-3 pages/day, ~4-5 weeks.
+
+---
+
 ## Performance
 
-| Metric | Before Sprint 11 | Current |
+| Metric | Before | Current |
 |---|---|---|
 | Type images total | 13.1MB (PNG) | 946KB (WebP) |
+| Herb images total | 850MB | 6.7MB (99.2% reduction, sharp) |
 | Noto_Serif_SC font | 1-2MB loaded | Removed |
 | Article components | 55 "use client" | 55 server components |
 | html-to-image | Eager import (50KB) | Lazy dynamic import |
 | OG image | SVG (incompatible) | PNG 53KB |
 | Image optimization | unoptimized flag | Vercel auto WebP/AVIF |
+| Symptom pages | 70 individual article.tsx | 1 shared component + structured data |
 
 ---
 
 ## Google Indexing Status
 
 - Search Console resource: https://www.myeasterntype.com (www)
-- Sitemap submitted: 254 URLs
+- Sitemap submitted: 257 URLs
 - First indexing request submitted: 2026-06-02
-- Indexing progress: 7 pages (6/2) -> 15 -> 23 -> 34 -> 44 pages (6/24) -> 60+ pages (6/30)
-- GSC keywords showing: "crave sweets", "craving sweets why", growing
-- GSC metrics: clicks increasing, impressions growing steadily
+- Indexing progress: 7 pages (6/2) -> 15 -> 23 -> 34 -> 44 -> 60+ (6/30) -> 70 (7/2)
+- GSC metrics (early July 2026): 70 pages indexed, 124 queries matching, 283 monthly impressions, 1 click, avg position 65
+- Top impression page: /symptoms/kidney-yin-deficiency (62 impressions)
+- Best ranking page: /patterns/low-vitality at position 5.5 (page 1!)
+- First click: /symptoms/why-do-i-have-seasonal-allergies
+- Bing: sitemap + 100 URLs submitted, waiting for indexing
 - IndexNow integrated: key file live, batch submission needs local run
 - IndexNow key: 62b701021d242b39a739ee629f462a69
-- Ranking: keywords appearing at positions 60-96, first clicks generated
 
 ---
 
-## Recent Commits
+## Recent Commits (2026-07-02)
 
 | Hash | Message |
 |---|---|
-| d455658 | fix: dropdown menu background was transparent, use CSS variable directly |
-| ea5cf59 | fix: add 4 missing URLs to sitemap (herbs hub + 3 wellness pages) |
-| 2a3d738 | feat: replace placeholder images with real formula photos |
-| acefaf4 | fix: use async params for Next.js 16 in solutions detail page |
-| cd63d55 | fix: add Herbal Solutions to nav Guides dropdown |
-| 06bacb2 | feat: add TCM Solutions section with weight loss formula guide |
-| a8a5767 | fix: update herbs page to show 100 herbs with category counts |
-| c251b70 | feat: expand herb library from 51 to 100 herbs with real photos |
-| cc3124d | feat: massively expand herb detail pages with 5 new content sections |
-| 1900085 | feat: add botanical names, expand meta descriptions and FAQs for all 51 herbs |
-| b1428fd | feat: add 30 new herbs with real photos, total 51 herbs |
+| bd1d806 | docs: add symptom page upgrade plan for surpassing meandqi |
+| 61b438b | fix: replace all corrupted Chinese parentheses across 70 symptom articles |
+| 6f5a946 | fix: remove corrupted unicode chars (FFFD and stray ?) in symptom data |
+| 046924e | feat: convert all 70 symptom pages to structured data + shared SymptomArticle component |
+| 28896a9 | fix: add alternating bg colors to symptom article sections for visual rhythm |
+| 9d29294 | feat: structured symptom article component with sample page (why-am-i-always-tired) |
+| 597b3f5 | refactor: symptoms hub with search and category filter tags |
+| 57f5509 | refactor: redesign symptoms hub with category groups and quick nav |
+| 574e5c7 | fix: digestion solution hero image |
+| 01e2701 | feat: digestion solution (chinese-medicine-for-digestion) |
 
 ---
 
@@ -163,7 +199,7 @@ Each formula includes classical source citation, ingredients with amounts, step-
 
 | Issue | Severity | Status |
 |---|---|---|
-| Google indexing growing (60+ pages, 6/30) | Monitoring | Accelerating, ~10/mo new pages indexed |
+| Google ranking still page 6-10 | Monitoring | Needs backlinks and domain age. /patterns/low-vitality at position 5.5 is promising |
 | Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", quiz/result pages still say "Eastern Body Type" |
 | Quiz page not rebranded | Medium | quiz/page.tsx title, quiz-client.tsx body text, result badge all still say "Eastern" |
 | Basic report access control gap | High | report-v2 only checks cookie for pro plan. Anyone with URL can see basic report |
@@ -171,28 +207,62 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | No purchase recovery mechanism | Low | If user clears cookies, reports are lost |
 | No conversion tracking | Medium | Need to set up quiz-to-checkout funnel analytics |
 | Em dashes in older content | Low | layout.tsx, older article.tsx files contain em dashes. New content is clean |
-| Google ranking still page 8-10 | Monitoring | Needs backlinks and domain age. Organic growth strategy in progress |
-| Pinterest content pipeline | Active | 49 food pins + 30 recipe pins + 20 short video scripts in progress |
+| Pinterest content pipeline | Active | Daily 3 pins scheduled |
+| Symptom article content quality | Medium | Batch-extracted by AI, some tcmVsModern tables feel forced. Needs manual polish per page |
+| Domain authority very low | High | Domain age <1 year, backlinks ~0. Biggest SEO bottleneck |
+
+---
+
+## Competitive Position (July 2026)
+
+**EastType score: 5.8/10** (see analysis below)
+
+### Top 5 TCM English sites
+1. sacredlotus.com (~500K/mo) — 40yr clinical, deep formula/acupoint DB, practitioner-focused
+2. yinyanghouse.com (~300K/mo) — largest acupuncture/formula encyclopedia, academic
+3. meandqi.com (~150K/mo) — modern structured DB, practitioner+patient
+4. shen-nong.com (~100K/mo) — legacy TCM education, outdated UI
+5. tcmwiki.com (~80K/mo) — wiki community, mixed quality
+
+### EastType advantages (moat)
+- Body Type Quiz with paid tiers — no competitor has this
+- Solutions column (food-grade recipes with images) — actionable, not theoretical
+- Conversational tone for non-practitioners — competitors can't/won't do this
+- 100-herb database with real photos + cross-linking
+- Problem-format URLs ("why-am-i-always-tired") targeting long-tail search intent
+
+### Key gaps to close
+- Domain authority (need backlinks + time)
+- Content scale (271 pages vs 5000-20000)
+- Content depth per page (upgrade plan in docs/symptom-page-upgrade-plan.md)
+- Acupressure content missing (high search volume, not covered)
+
+### Strategy
+Don't compete on database size. Compete on accessibility: "user searches symptom in plain English -> gets TCM perspective in plain English -> finds body type -> gets actionable recipe." No competitor serves this path.
 
 ---
 
 ## Next Steps
 
 ### Content
-1. Solutions section: add more topics (fatigue, insomnia, digestion, cold sensitivity, constipation, skin, water retention, menstrual, anxiety, hair loss, night sweats) - one at a time
-2. Continue Pinterest pin publishing + short video creation
-3. Consider cleaning up em dashes in older content
+1. **Symptom page upgrades** — 2-3 pages/day per `docs/symptom-page-upgrade-plan.md`, starting with highest GSC impression pages
+2. **Solutions section** — continue adding topics (next: cold sensitivity, constipation, skin, anxiety)
+3. Continue Pinterest pin publishing (3/day)
+4. Consider acupressure content as future expansion
 
 ### SEO
 1. Submit new URLs to GSC regularly
-2. Run IndexNow batch submission locally for all 254 URLs
-3. Monitor GSC for "Chinese medicine" keyword appearances
-4. Continue building organic backlinks
+2. Run IndexNow batch submission locally for all 257 URLs
+3. Monitor GSC for keyword appearances and ranking changes
+4. Start Reddit/Quora backlink building
+5. Check ChatGPT/Perplexity for citation presence weekly
 
 ### Product
 1. AI online consultation feature (RAG + DeepSeek, $9.99/session) - deferred
 2. Rebrand quiz/result pages to "Chinese medicine" consistently
+3. Training camp planning (Phase 5, target: 3000+ monthly traffic + 50+ daily quiz completions)
 
 ### Data Assets
-- 84,295 formula database available at `D:\EastType\【A04】中医方剂数据库` for future Solutions content
-- 200+ herb reference photos at `D:\EastType\图片参考\中药图片`
+- 84,295 formula database at `D:\EastType\【A04】中医方剂数据库`
+- 332 unused herb photos at `D:\EastType\图片参考\中药图片\A017-中医药材图片`
+- Formula illustration source: `D:\EastType\图片参考\方剂配图\`

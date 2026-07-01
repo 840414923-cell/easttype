@@ -100,15 +100,15 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 
 | Layer | Count | Status |
 |---|---|---|
-| Symptoms | 70 | Active |
+| Symptoms | 70 | All converted to structured data + shared SymptomArticle component (2026-07-02) |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
 | Wellness | 43 (+ 7 redirected) | 43 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
 | Herbs | 100 | `/herbs/[slug]` dynamic route, real photos |
-| Solutions | 2 | Hub + 1 detail (weight loss). More planned |
-| Sitemap URLs | 254 | Hand-maintained |
-| Total static pages | 268 | Build verified |
+| Solutions | 5 | Hub + 4 detail (weight loss, energy, sleep, digestion). More planned |
+| Sitemap URLs | 257 | Hand-maintained |
+| Total static pages | 271 | Build verified |
 
 ### Published Patterns (9)
 
@@ -242,6 +242,10 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 | File | Purpose |
 |---|---|
 | src/lib/symptoms-data.ts | 70 症状页元数据 |
+| src/lib/symptom-article-types.ts | 症状页结构化数据接口定义 |
+| src/lib/symptom-articles-data.ts | 70 症状页完整结构化内容 (523KB) |
+| src/components/symptom-article.tsx | 症状页共享渲染组件 (改一次=70页更新) |
+| src/app/symptoms/symptom-explorer.tsx | 症状hub页搜索+分类筛选 (client component) |
 | src/lib/symptom-faqs.ts | 70 x 4 FAQ |
 | src/lib/pattern-data.ts | 9 模式页元数据 |
 | src/lib/pattern-faqs.ts | 9 x 4 FAQ |
@@ -293,9 +297,13 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 
 # Next Steps
 
-1. Solutions 专栏继续添加专题（疲劳 -> 失眠 -> 消化不良...）
-2. 继续 Pinterest Pin 发布 + 短视频制作
-3. 定期提交新 URL 到 GSC
-4. 清理老内容中的 em dash
-5. 统一 quiz/result 页面的品牌措辞
-6. AI 在线问诊功能（之后再做）
+1. **Symptom page upgrades** — 2-3 pages/day per `docs/symptom-page-upgrade-plan.md`, 5 modules (self-check checklist, match hints, related symptoms grid, solutions/foods recommendation, comparison collapsibles). Start with highest GSC impression pages.
+2. Solutions 专栏继续添加专题（cold sensitivity -> constipation -> skin -> anxiety...）
+3. 继续 Pinterest Pin 发布（3图/天）
+4. Reddit/Quora 外链建设（用户知道方法但尚未开始）
+5. 定期提交新 URL 到 GSC
+6. 每周检查 GSC 热门查询，优化 metaTitle
+7. 每周去 ChatGPT/Perplexity 搜索核心问题，检查是否被引用
+8. 统一 quiz/result 页面的品牌措辞
+9. AI 在线问诊功能（之后再做）
+10. 训练营内容规划（Phase 5，等流量达3000+/月）
