@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
-import ThirstyArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-thirsty"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Always Thirsty? Your Body Type Can't Hold Onto Water"
-const DESC = "Can't quench your thirst no matter how much you drink? Your Eastern body type may explain constant thirst. Learn which Eastern body types are linked to dry mouth."
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Always Thirsty? Your Body Type Can"
+const DESC = "Can"
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <ThirstyArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

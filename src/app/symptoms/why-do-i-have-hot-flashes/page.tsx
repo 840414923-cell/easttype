@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import HotFlashesArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-hot-flashes"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Hot Flashes? Your Body Type Sends Heat Without Warning"
 const DESC = "Sudden waves of heat rushing through your body? Your Eastern body type may explain hot flashes. Learn which Eastern body types are linked to heat surges."
 
@@ -35,7 +36,7 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Hot Flashes", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <HotFlashesArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

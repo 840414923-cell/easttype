@@ -1,19 +1,20 @@
 import type { Metadata } from "next"
-import WhyOilyFaceArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-face-so-oily"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Oily Face by Noon? Your Body Type Controls the Oil Faucet"
-const DESC = "Shiny forehead by noon and blotting sheets don't help? Your Eastern body type may explain oily skin. Learn which Eastern body types are linked to excess facial oil."
+const DESC = "Shiny forehead by noon and blotting sheets don"
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Wash your face and it's oily again an hour later? Your body type may explain why your skin produces too much oil.",
+    description: "Wash your face and it",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Wash your face and it's oily again an hour later? Your body type may explain why your skin produces too much oil.",
+    description: "Wash your face and it",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyOilyFaceArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

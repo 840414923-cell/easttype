@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyWakeUpTiredArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-tired"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Wake Up Tired After 8 Hours? Your Body Type Decides If Sleep Works"
 const DESC = "Waking up exhausted despite sleeping enough hours? Your Eastern body type may explain morning fatigue. Learn which Eastern body types are linked to unrefreshing sleep."
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "You slept 8 hours and still feel like you didn't sleep at all? Your body type may explain why rest doesn't equal recovery.",
+    description: "You slept 8 hours and still feel like you didn",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "You slept 8 hours and still feel like you didn't sleep at all? Your body type may explain why rest doesn't equal recovery.",
+    description: "You slept 8 hours and still feel like you didn",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyWakeUpTiredArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

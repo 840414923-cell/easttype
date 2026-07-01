@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
-import WhyChronicCoughArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-a-chronic-cough"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Chronic Cough Won't Stop? Your Body Type Keeps the Tickles"
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Chronic Cough Won"
 const DESC = "A cough that lingers for weeks or months? Your Eastern body type may explain it. Learn which Eastern body types are linked to persistent coughing."
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "That cough just won't go away no matter what you try? Your body type may explain why it keeps coming back.",
+    description: "That cough just won",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "That cough just won't go away no matter what you try? Your body type may explain why it keeps coming back.",
+    description: "That cough just won",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyChronicCoughArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

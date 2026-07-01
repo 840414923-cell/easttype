@@ -1,12 +1,14 @@
 import type { Metadata } from "next"
-import ExcessiveSweatingArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-sweat-so-much"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Sweating Too Much? Your Body Type's Thermostat May Be Stuck"
-const DESC = "Sweating excessively even when it's not hot? Your Eastern body type may explain heavy sweating. Learn which Eastern body types are linked to excessive perspiration."
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Sweating Too Much? Your Body Type"
+const DESC = "Sweating excessively even when it"
+
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
@@ -24,6 +26,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: URL },
 }
+
 const jsonLd = buildArticleJsonLd({
   title: TITLE,
   description: DESC,
@@ -33,9 +36,10 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Excessive Sweating", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
+
 export default function Page() {
   return (
     <>
@@ -43,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <ExcessiveSweatingArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

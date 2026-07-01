@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
-import BreakingOutArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-breaking-out"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Keep Breaking Out? Your Body Type Might Be Behind Your Skin"
-const DESC = "Persistent acne that won't respond to skincare? Your Eastern body type may explain recurring breakouts. Learn which Eastern body types are linked to skin issues."
+const DESC = "Persistent acne that won"
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <BreakingOutArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

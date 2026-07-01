@@ -1,19 +1,20 @@
 import type { Metadata } from "next"
-import WhySensitiveToHeatArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-sensitive-to-heat"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Always Too Hot? Your Body Type's Cooling System May Be Off"
-const DESC = "Can't tolerate warm weather or heated rooms? Your Eastern body type may explain heat sensitivity. Learn which Eastern body types are linked to heat intolerance."
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Always Too Hot? Your Body Type"
+const DESC = "Can"
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Everyone else is fine but you're melting? Your body type may explain why your internal AC is broken.",
+    description: "Everyone else is fine but you",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Everyone else is fine but you're melting? Your body type may explain why your internal AC is broken.",
+    description: "Everyone else is fine but you",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhySensitiveToHeatArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
-import LoseWeightArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-lose-weight"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Can't Lose Weight? Your Body Type Might Be Blocking You"
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Can"
 const DESC = "Trying to lose weight but nothing works? Your Eastern body type may explain a sluggish metabolism. Learn which Eastern body types are linked to stubborn weight."
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Dieting but the scale won't move? Your body type may explain why your metabolism is stuck.",
+    description: "Dieting but the scale won",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Dieting but the scale won't move? Your body type may explain why your metabolism is stuck.",
+    description: "Dieting but the scale won",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <LoseWeightArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyAreMyMoodsAllOverArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-are-my-moods-all-over-the-place"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Mood Swings Out of Nowhere? Your Body Type Might Be the Cause"
 const DESC = "Mood swings that come out of nowhere? Your Eastern body type may explain unpredictable emotions. Learn which Eastern body types are linked to emotional instability and what may help."
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyAreMyMoodsAllOverArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

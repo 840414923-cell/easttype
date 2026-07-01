@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyMetabolismSlowArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-metabolism-so-slow"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Slow Metabolism? Your Body Type Runs the Engine"
 const DESC = "Eating less but still not losing weight? Your Eastern body type may explain a slow metabolism. Learn which Eastern body types are linked to sluggish metabolic function."
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyMetabolismSlowArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

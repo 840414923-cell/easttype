@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import UnmotivatedArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-unmotivated"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "No Motivation? Your Body Type Might Be the Reason"
 const DESC = "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which Eastern body types are linked to apathy."
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Can't get going no matter what? Your body type may explain why motivation feels out of reach.",
+    description: "Can",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Can't get going no matter what? Your body type may explain why motivation feels out of reach.",
+    description: "Can",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <UnmotivatedArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

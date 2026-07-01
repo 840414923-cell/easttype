@@ -1,19 +1,20 @@
 import type { Metadata } from "next"
-import WhyBadBreathArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-bad-breath"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Bad Breath Won't Go Away? Your Body Type Might Be the Hidden Cause"
-const DESC = "Persistent bad breath that brushing doesn't fix? Your Eastern body type may explain halitosis. Learn which Eastern body types are linked to chronic bad breath."
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Bad Breath Won"
+const DESC = "Persistent bad breath that brushing doesn"
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Brushing doesn't help? Your body type may explain why bad breath keeps coming back.",
+    description: "Brushing doesn",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Brushing doesn't help? Your body type may explain why bad breath keeps coming back.",
+    description: "Brushing doesn",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyBadBreathArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

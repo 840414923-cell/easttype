@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyBreastTendernessArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-breast-tenderness"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Breast Tenderness Before Your Period? Your Body Type Causes the Swelling"
 const DESC = "Sore and swollen breasts before your period? Your Eastern body type may explain breast tenderness. Learn which Eastern body types are linked to cyclic breast pain."
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Breasts sore and swollen every month before your period? Your body type may explain the tenderness.",
+    description: "Breasts sore and swollen every month before your period? Your body type may explain why the tenderness keeps coming back on schedule.",
   },
   alternates: { canonical: URL },
 }
@@ -35,7 +36,7 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Breast Tenderness", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyBreastTendernessArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

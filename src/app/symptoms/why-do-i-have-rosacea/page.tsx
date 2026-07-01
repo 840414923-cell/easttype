@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
-import WhyRosaceaArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-rosacea"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Rosacea Won't Fade? Your Body Type Sends Heat to Your Face"
-const DESC = "Redness and flushing that won't go away? Your Eastern body type may explain rosacea. Learn which Eastern body types are linked to facial redness and what may help."
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Rosacea Won"
+const DESC = "Redness and flushing that won"
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyRosaceaArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

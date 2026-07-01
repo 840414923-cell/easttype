@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyPeriodIrregularArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-period-irregular"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Irregular Periods? Your Body Type Disrupts the Clock"
 const DESC = "Skipping periods or unpredictable cycle length? Your Eastern body type may explain irregular menstruation. Learn which Eastern body types are linked to cycle disruption."
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Your cycle keeps shifting and you never know when it's coming? Your body type may explain why your period won't stick to a schedule.",
+    description: "Your cycle keeps shifting and you never know when it",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Your cycle keeps shifting and you never know when it's coming? Your body type may explain why.",
+    description: "Your cycle keeps shifting and you never know when it",
   },
   alternates: { canonical: URL },
 }
@@ -35,7 +36,7 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Irregular Period", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyPeriodIrregularArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

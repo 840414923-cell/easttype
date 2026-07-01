@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyNeckPainArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-neck-pain"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Chronic Neck Pain? Your Body Type Carries Tension There"
 const DESC = "Stiff, aching neck with no injury? Your Eastern body type may explain chronic neck pain. Learn which Eastern body types are linked to neck tension and stiffness."
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Your neck feels like it's carrying the weight of the world? Your body type may explain why the tension lives there.",
+    description: "Your neck feels like it",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Your neck feels like it's carrying the weight of the world? Your body type may explain why the tension lives there.",
+    description: "Your neck feels like it",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyNeckPainArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

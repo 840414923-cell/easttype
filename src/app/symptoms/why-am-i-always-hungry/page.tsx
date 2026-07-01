@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyAlwaysHungryArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-hungry"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Always Hungry? Your Body Type Might Not Send Full Signals"
 const DESC = "Never feel full no matter how much you eat? Your Eastern body type may explain constant hunger. Learn which Eastern body types are linked to an unsatisfiable appetite."
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyAlwaysHungryArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

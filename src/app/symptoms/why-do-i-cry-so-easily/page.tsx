@@ -1,23 +1,37 @@
 import type { Metadata } from "next"
-import WhyCryEasilyArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-cry-so-easily"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Cry Too Easily? Your Body Type Might Be Why Tears Flow Fast"
 const DESC = "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which Eastern body types are linked to emotional sensitivity."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
-  openGraph: { title: TITLE, description: "A sad commercial and you're reaching for tissues? Your body type may explain why your tear ducts are always on standby.", url: URL, type: "article", siteName: "EastType" },
-  twitter: { card: "summary_large_image", title: TITLE, description: "A sad commercial and you're reaching for tissues? Your body type may explain why your tear ducts are always on standby." },
+  openGraph: {
+    title: TITLE,
+    description: "A sad commercial and you",
+    url: URL,
+    type: "article",
+    siteName: "EastType",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: TITLE,
+    description: "A sad commercial and you",
+  },
   alternates: { canonical: URL },
 }
 
 const jsonLd = buildArticleJsonLd({
-  title: TITLE, description: DESC, url: URL, datePublished: "2026-06-04",
+  title: TITLE,
+  description: DESC,
+  url: URL,
+  datePublished: "2026-06-04",
   faqs: SYMPTOM_FAQS[SLUG],
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
@@ -29,8 +43,11 @@ const jsonLd = buildArticleJsonLd({
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <WhyCryEasilyArticle />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

@@ -2,7 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
-import type { SymptomArticleData } from "@/lib/symptom-articles-data"
+import type { SymptomArticleData } from "@/lib/symptom-article-types"
 
 const TYPE_COLORS: Record<string, string> = {
   qi_deficient: "bg-amber-100 text-amber-800 border-amber-200",

@@ -1,19 +1,20 @@
 import type { Metadata } from "next"
-import WhyCelluliteArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-cellulite"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Stubborn Cellulite? Your Body Type Might Explain Those Dimples"
-const DESC = "Stubborn cellulite that creams and exercise don't fix? Your Eastern body type may explain it. Learn which Eastern body types are linked to cellulite from an Eastern perspective."
+const DESC = "Stubborn cellulite that creams and exercise don"
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Cellulite that won't budge no matter what you try? Your body type may explain why those dimples settled in.",
+    description: "Cellulite that won",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Cellulite that won't budge no matter what you try? Your body type may explain why those dimples settled in.",
+    description: "Cellulite that won",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyCelluliteArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

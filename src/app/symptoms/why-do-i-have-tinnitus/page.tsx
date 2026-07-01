@@ -1,19 +1,20 @@
 import type { Metadata } from "next"
-import WhyTinnitusArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-tinnitus"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Ringing in Your Ears? Your Body Type Rings the Bell Nobody Hears"
-const DESC = "Ringing or buzzing in your ears that won't stop? Your Eastern body type may explain tinnitus. Learn which Eastern body types are linked to ear ringing."
+const DESC = "Ringing or buzzing in your ears that won"
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "That high-pitched ringing that nobody else can hear? Your body type may explain why your ears won't go quiet.",
+    description: "That high-pitched ringing that nobody else can hear? Your body type may explain why your ears won",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "That high-pitched ringing that nobody else can hear? Your body type may explain why your ears won't go quiet.",
+    description: "That high-pitched ringing that nobody else can hear? Your body type may explain why your ears won",
   },
   alternates: { canonical: URL },
 }
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyTinnitusArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

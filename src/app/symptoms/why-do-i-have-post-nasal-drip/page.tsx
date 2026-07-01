@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
-import WhyPostNasalDripArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-post-nasal-drip"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Post-Nasal Drip? Your Body Type Won't Stop the Flow"
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Post-Nasal Drip? Your Body Type Won"
 const DESC = "Constant need to clear your throat or feeling of mucus in the back of your throat? Your Eastern body type may explain post-nasal drip from an Chinese medicine perspective."
 
 export const metadata: Metadata = {
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyPostNasalDripArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

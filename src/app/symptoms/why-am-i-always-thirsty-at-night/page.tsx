@@ -1,18 +1,20 @@
 import type { Metadata } from "next"
-import NightThirstArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-thirsty-at-night"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Thirsty All Night? Your Body Type Dries Out While You Sleep"
 const DESC = "Waking up thirsty every night? Your Eastern body type may explain nighttime thirst. Learn which Eastern body types are linked to dry mouth that disrupts sleep."
+
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Can't sleep because you're always reaching for water? Your body type may explain why nighttime thirst won't quit.",
+    description: "Can",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -20,10 +22,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Can't sleep because you're always reaching for water? Your body type may explain why nighttime thirst won't quit.",
+    description: "Can",
   },
   alternates: { canonical: URL },
 }
+
 const jsonLd = buildArticleJsonLd({
   title: TITLE,
   description: DESC,
@@ -33,9 +36,10 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Night Thirst", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
+
 export default function Page() {
   return (
     <>
@@ -43,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <NightThirstArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

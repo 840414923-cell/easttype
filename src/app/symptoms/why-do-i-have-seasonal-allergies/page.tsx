@@ -1,11 +1,12 @@
 import type { Metadata } from "next"
-import WhySeasonalAllergiesArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-seasonal-allergies"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
-const TITLE = "Seasonal Allergies Won't Quit? Your Body Type Overreacts"
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const TITLE = "Seasonal Allergies Won"
 const DESC = "Sneezing and congestion every spring or fall? Your Eastern body type may explain seasonal allergies. Learn which Eastern body types are linked to recurring allergy symptoms."
 
 export const metadata: Metadata = {
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhySeasonalAllergiesArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

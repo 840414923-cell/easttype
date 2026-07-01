@@ -1,12 +1,14 @@
 import type { Metadata } from "next"
-import EczemaArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-eczema"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Eczema Keeps Coming Back? Your Body Type May Be Behind It"
 const DESC = "Eczema that keeps coming back no matter what you apply? Your Eastern body type may explain recurring eczema. Learn which Eastern body types are linked to skin flare-ups."
+
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
@@ -24,6 +26,7 @@ export const metadata: Metadata = {
   },
   alternates: { canonical: URL },
 }
+
 const jsonLd = buildArticleJsonLd({
   title: TITLE,
   description: DESC,
@@ -33,9 +36,10 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Eczema", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
+
 export default function Page() {
   return (
     <>
@@ -43,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <EczemaArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

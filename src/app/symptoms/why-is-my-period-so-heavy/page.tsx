@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyPeriodHeavyArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-period-so-heavy"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Heavy Periods? Your Body Type Might Not Stop the Flow"
 const DESC = "Soaking through pads or passing clots? Your Eastern body type may explain heavy menstrual bleeding. Learn which Eastern body types are linked to menorrhagia."
 
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Bleeding through pads and passing clots every month? Your body type may explain why your period won't stop flooding.",
+    description: "Bleeding through pads and passing clots every month? Your body type may explain why your period won",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Bleeding through pads and passing clots every month? Your body type may explain the flood.",
+    description: "Bleeding through pads and passing clots every month? Your body type may explain why your period won",
   },
   alternates: { canonical: URL },
 }
@@ -35,7 +36,7 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Heavy Period", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyPeriodHeavyArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

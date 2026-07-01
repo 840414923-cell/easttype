@@ -1,12 +1,13 @@
 import type { Metadata } from "next"
-import WhyLibidoLowArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-libido-low"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Low Libido? Your Body Type Might Be the Reason"
-const DESC = "Lost interest in intimacy and don't know why? Your Eastern body type may explain low libido. Learn which Eastern body types are linked to reduced desire and what may help."
+const DESC = "Lost interest in intimacy and don"
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyLibidoLowArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }

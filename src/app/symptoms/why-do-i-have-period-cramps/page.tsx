@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
-import WhyPeriodCrampsArticle from "./article"
+import SymptomArticle from "@/components/symptom-article"
+import { SYMPTOM_ARTICLES } from "@/lib/symptom-articles-data"
 import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-period-cramps"
-const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
 const TITLE = "Painful Period Cramps? Your Body Type Might Be Behind the Pain"
 const DESC = "Painful period cramps every month? Your Eastern body type may explain dysmenorrhea. Learn which Eastern body types are linked to menstrual pain and what may help."
 
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Monthly cramps that knock you out? Your body type may explain why your period brings pain.",
+    description: "Monthly cramps that knock you out? Your body type may explain why your period brings pain and what Eastern medicine suggests.",
   },
   alternates: { canonical: URL },
 }
@@ -35,7 +36,7 @@ const jsonLd = buildArticleJsonLd({
   breadcrumb: [
     { name: "EastType", url: "https://www.myeasterntype.com" },
     { name: "Symptoms", url: "https://www.myeasterntype.com/symptoms" },
-    { name: "Period Cramps", url: URL },
+    { name: TITLE, url: URL },
   ],
 })
 
@@ -46,7 +47,7 @@ export default function Page() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <WhyPeriodCrampsArticle />
+      <SymptomArticle data={SYMPTOM_ARTICLES[SLUG]} />
     </>
   )
 }
