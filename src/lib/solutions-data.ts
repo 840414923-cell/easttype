@@ -329,7 +329,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine for Energy: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine for Energy: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for chronic fatigue and low energy, each suited to a different body type. Learn why TCM sees tiredness differently and find your match.",
-    heroImage: "/images/solutions/energy-hero.jpg",
+    heroImage: "/images/solutions/energy-hero.png",
     intro: "Chinese medicine does not treat fatigue with stimulants. Instead, it identifies which type of energy your body is lacking and uses specific herbs to rebuild it. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of chronic tiredness.",
     tcmVsModern: [
       { aspect: "Root cause of fatigue", westernView: "Poor sleep, nutrient deficiencies, thyroid imbalance, or stress", tcmView: "Qi Deficiency, Yang Deficiency, or Yin Deficiency depending on which energy system is depleted" },
@@ -401,7 +401,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Not recommended for those with high blood pressure without consulting a doctor.",
           "This formula is warming. If you already feel hot and restless, choose Formula 3 instead.",
         ],
-        image: "/images/solutions/formula-ginseng-jujube.jpg",
+        image: "/images/solutions/formula-ginseng-jujube.png",
       },
       {
         slug: "astragalus-ginger-warming-tea",
@@ -439,7 +439,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Not recommended during pregnancy without consulting a healthcare provider.",
           "Astragalus may interact with immunosuppressant medications. Consult your doctor if applicable.",
         ],
-        image: "/images/solutions/formula-astragalus-ginger.jpg",
+        image: "/images/solutions/formula-astragalus-ginger.png",
       },
       {
         slug: "american-ginseng-ophiopogon-tea",
@@ -475,7 +475,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "If you feel more tired or cold after 3 days, discontinue. You may be Yang deficient rather than Yin deficient.",
           "Not recommended for those with diarrhea or loose stools as a regular pattern.",
         ],
-        image: "/images/solutions/formula-american-ginseng-ophiopogon.jpg",
+        image: "/images/solutions/formula-american-ginseng-ophiopogon.png",
       },
     ],
     faqs: [
