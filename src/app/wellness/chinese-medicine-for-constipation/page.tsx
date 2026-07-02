@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-for-constipation"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Chinese Medicine for Constipation: Patterns & Moistening Foods"
+const TITLE = "Chinese Medicine for Constipation: 3 Types & Food Fixes"
 const DESC = "Constipation may signal Heat, Dryness, or Qi deficiency in Chinese medicine. Learn which patterns cause hard stools and which moistening foods may help restore regular digestion."
 
 export const metadata: Metadata = {

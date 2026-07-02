@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "spleen-qi-deficiency"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Spleen Qi Deficiency in Chinese Medicine: Signs, Causes & Foods"
+const TITLE = "Spleen Qi Deficiency: Signs, Causes & Healing Foods"
 const DESC = "Always tired after eating? Bloated? Brain fog? Chinese medicine calls this Spleen Qi Deficiency. Learn the signs, what causes it, and which foods may help restore your digestive energy."
 
 export const metadata: Metadata = {

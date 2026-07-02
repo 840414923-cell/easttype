@@ -5,7 +5,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "blood-deficiency"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Blood Deficiency in Chinese Medicine: Signs, Causes & Foods"
+const TITLE = "Blood Deficiency Symptoms: Signs, Causes & Nourishing Foods"
 const DESC = "Pale skin, dizziness, brittle nails, dry hair, and poor sleep may signal Blood Deficiency. Learn the signs, what causes it, and which iron-rich foods may help nourish your Blood in TCM."
 
 export const metadata: Metadata = {

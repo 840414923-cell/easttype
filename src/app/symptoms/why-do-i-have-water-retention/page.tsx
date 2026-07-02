@@ -6,7 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-water-retention"
 const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Puffy and Swollen? Your Body Type Holds Onto Moisture"
+const TITLE = "Water Retention in Chinese Medicine: Causes & Draining Foods"
 const DESC = "Puffy, swollen, or heavy from fluid buildup? Your Eastern body type may explain water retention. Learn which Eastern body types are linked to holding onto moisture."
 
 export const metadata: Metadata = {

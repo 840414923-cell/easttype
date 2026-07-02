@@ -6,8 +6,8 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-crave-sweets"
 const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Can"
-const DESC = "Can"
+const TITLE = "Craving Sweets in Chinese Medicine: Why & What to Eat"
+const DESC = "Always craving sugar and sweets? Chinese medicine says your Spleen may be asking for help. Learn which body types are linked to sugar cravings and which foods may help."
 
 export const metadata: Metadata = {
   title: TITLE,
