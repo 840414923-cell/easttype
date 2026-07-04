@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Stuck in a mental loop you can",
+    description: "Stuck in a mental loop you can't escape? Your body type might be keeping your mind in overdrive. Learn which body types are linked to overthinking.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Stuck in a mental loop you can",
+    description: "Stuck in a mental loop you can't escape? Your body type might be keeping your mind in overdrive. Learn which body types are linked to overthinking.",
   },
   alternates: { canonical: URL },
 }

@@ -7,7 +7,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-am-i-always-constipated"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Constipated? Your Body Type Slows Everything Down"
-const DESC = "Chronic constipation that fiber doesn"
+const DESC = "Chronic constipation that fiber doesn't fix? Your body type may be slowing your digestion. Learn which body types are linked to stubborn constipation."
 
 export const metadata: Metadata = {
   title: TITLE,

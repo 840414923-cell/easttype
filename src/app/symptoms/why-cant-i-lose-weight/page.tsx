@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Dieting but the scale won",
+    description: "Dieting but the scale won't budge? Your body type might be slowing your metabolism. Learn which body types make weight loss stubborn.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Dieting but the scale won",
+    description: "Dieting but the scale won't budge? Your body type might be slowing your metabolism. Learn which body types make weight loss stubborn.",
   },
   alternates: { canonical: URL },
 }

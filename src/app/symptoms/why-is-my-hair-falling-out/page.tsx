@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Watching your hair thin and don",
+    description: "Watching your hair thin and don't know why? Your body type might be behind it. Learn which body types are linked to hair loss.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Watching your hair thin and don",
+    description: "Watching your hair thin and don't know why? Your body type might be behind it. Learn which body types are linked to hair loss.",
   },
   alternates: { canonical: URL },
 }

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Your face looks tired even when you",
+    description: "Your face looks tired even when you're well-rested? Your body type might be dulling your natural glow. Learn which body types affect your complexion.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Your face looks tired even when you",
+    description: "Your face looks tired even when you're well-rested? Your body type might be dulling your natural glow. Learn which body types affect your complexion.",
   },
   alternates: { canonical: URL },
 }

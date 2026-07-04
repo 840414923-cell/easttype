@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "One more slow walker and you",
+    description: "One more slow walker and you might explode? Your body type might be behind your short fuse. Learn which body types are linked to impatience.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "One more slow walker and you",
+    description: "One more slow walker and you might explode? Your body type might be behind your short fuse. Learn which body types are linked to impatience.",
   },
   alternates: { canonical: URL },
 }

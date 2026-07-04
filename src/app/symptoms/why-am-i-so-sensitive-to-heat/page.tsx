@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Everyone else is fine but you",
+    description: "Everyone else is fine but you're melting? Your body type may be running too hot. Find out which body type makes you heat-sensitive.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Everyone else is fine but you",
+    description: "Everyone else is fine but you're melting? Your body type may be running too hot. Find out which body type makes you heat-sensitive.",
   },
   alternates: { canonical: URL },
 }

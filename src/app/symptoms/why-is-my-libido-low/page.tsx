@@ -7,7 +7,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-is-my-libido-low"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Low Libido? Your Body Type Might Be the Reason"
-const DESC = "Lost interest in intimacy and don"
+const DESC = "Lost interest in intimacy and don't know why? Your body type may be draining your vital energy. Learn which body types are linked to low libido."
 
 export const metadata: Metadata = {
   title: TITLE,

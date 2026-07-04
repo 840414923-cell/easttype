@@ -7,7 +7,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 const SLUG = "why-do-i-sweat-so-much"
 const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Sweating Too Much? Your Body Type Opens the Floodgates"
-const DESC = "Sweating excessively even when it"
+const DESC = "Sweating excessively even when it's not hot? Your body type may have your internal thermostat stuck on high. Learn which body types are linked to heavy sweating."
 
 export const metadata: Metadata = {
   title: TITLE,
