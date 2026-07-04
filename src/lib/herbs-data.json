@@ -8779,5 +8779,450 @@
     ],
     "preparationNotes": "Because Aged Tangerine Peel (Guang Chen Pi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "When taking Aged Tangerine Peel (Guang Chen Pi), avoid cold and raw foods that counteract its warming effect. Limit iced drinks and excessive fruit. Warm, cooked meals complement this herb best. If you experience dry mouth or restlessness, reduce the dose or add cooling foods like pear or mung beans to balance the warming effect."
+  },
+  {
+    "slug": "saffron-zang-hong-hua",
+    "nameEn": "Saffron",
+    "nameZh": "zang hong hua",
+    "nameZhTrad": "藏紅花",
+    "pinyin": "zang hong hua",
+    "botanicalName": "Crocus sativus L.",
+    "category": "Blood Tonic",
+    "temperature": "Cool",
+    "taste": "Sweet",
+    "channels": "Heart, Liver",
+    "summary": "One of the most precious spices in the world, prized in Chinese medicine for invigorating blood circulation, lifting mood, and supporting women's health.",
+    "actions": [
+      "Invigorates blood circulation and dispels stasis",
+      "Cools the blood and resolves toxicity",
+      "Calms the mind and eases emotional tension",
+      "Supports menstrual regularity and women's health"
+    ],
+    "actionDetails": [
+      {
+        "action": "Invigorates blood circulation and dispels stasis",
+        "explanation": "In Chinese medicine, Saffron enters the Heart and Liver channels. Its cool nature and sweet taste allow it to promote blood movement without causing excessive dryness. Blood stasis patterns may manifest as dark spots, dull pain, or poor circulation. Saffron has been used for centuries in both Eastern and Western traditions to support healthy blood flow."
+      },
+      {
+        "action": "Cools the blood and resolves toxicity",
+        "explanation": "Unlike warming blood invigorators, Saffron has a cooling quality. This makes it suitable for patterns where blood heat produces skin eruptions, dark urine, or feelings of internal warmth. The cooling blood action may help soothe inflammatory skin conditions from a TCM perspective."
+      },
+      {
+        "action": "Calms the mind and eases emotional tension",
+        "explanation": "Modern research has explored saffron's potential mood benefits. In TCM theory, the Heart governs the mind (Shen), and Saffron's affinity for the Heart channel may explain its traditional use for emotional unease, mild anxiety, and low mood. Regular small doses over weeks tend to produce more noticeable effects than single large doses."
+      },
+      {
+        "action": "Supports menstrual regularity and women's health",
+        "explanation": "Saffron has a long history of use for menstrual discomfort, irregular cycles, and postpartum recovery. From a TCM standpoint, blood stasis and Liver qi stagnation often contribute to menstrual issues. Saffron addresses both by moving blood and easing emotional tension that may worsen symptoms."
+      }
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "qi_stagnant"
+    ],
+    "therapeuticFocus": [
+      "Women's Health",
+      "Mood Support",
+      "Heart Health"
+    ],
+    "foodPairings": [
+      "rice",
+      "milk",
+      "honey",
+      "chicken soup"
+    ],
+    "howToUse": "Steep 5-10 threads in hot water for 5 minutes for a golden tea. Or infuse in warm milk with honey before bed. Also used in cooking rice dishes and soups.",
+    "dosage": "5-10 threads per day. Do not exceed 1.5g daily. A little goes a long way.",
+    "preparationNotes": "Steep in warm (not boiling) water to preserve active compounds. The water should turn pale gold. If the color is very dark red, you may be using too much. Store in an airtight container away from light.",
+    "dietaryAdvice": "Saffron pairs well with warm milk or rice for a nurturing evening drink. Avoid combining with strong blood-thinning medications. If you experience dry mouth or headache, reduce the dose.",
+    "cautions": [
+      "Avoid during pregnancy unless prescribed by a qualified practitioner",
+      "Do not exceed recommended dosage (high doses can be toxic)",
+      "Avoid if taking blood-thinning medications without consulting a doctor",
+      "Not suitable for people with bleeding disorders"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Blood Stasis types with poor circulation or dark spots",
+        "tcmInterpretation": "In TCM theory, blood stasis means blood is not flowing smoothly through the body's channels. Saffron's blood-invigorating properties may help restore healthy circulation. The cool nature differentiates it from warming blood movers like peach kernel or chuan xiong.",
+        "whyItHelps": "Saffron enters the Heart and Liver channels, both closely tied to blood in Chinese medicine. Its sweet taste and cool temperature make it gentle enough for regular use in small amounts."
+      },
+      {
+        "condition": "Qi Stagnant types with mood swings or emotional tension",
+        "tcmInterpretation": "The Heart governs the Shen (mind) in TCM. Saffron's Heart channel affinity and calming properties may help stabilize mood. Unlike strong sedatives, saffron works gently by supporting blood nourishment to the Heart.",
+        "whyItHelps": "When Liver qi stagnation affects the Heart through the generating cycle, emotional tension can disrupt sleep and mood. Saffron addresses both the Liver (blood) and Heart (Shen) simultaneously."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the saffron used in cooking the same as medicinal saffron?",
+        "a": "Yes, culinary saffron threads are the same plant. For daily wellness use, a few threads in tea or milk provide a gentle dose. Medicinal preparations may use higher concentrations under professional guidance."
+      },
+      {
+        "q": "How can I tell if my saffron is real?",
+        "a": "Real saffron threads are deep red with a slightly lighter orange-red tip. When steeped in warm water, the color releases slowly (not instantly). Fake saffron often dyes water immediately and may be corn silk or dyed threads."
+      },
+      {
+        "q": "Which body type benefits most from saffron?",
+        "a": "Blood Stasis and Qi Stagnant types may benefit most. Take the free body type quiz to check your type and get personalized herb recommendations."
+      }
+    ],
+    "image": "/images/herbs/saffron-zang-hong-hua.jpg"
+  },
+  {
+    "slug": "malva-nut-pang-da-hai",
+    "nameEn": "Malva Nut",
+    "nameZh": "pang da hai",
+    "nameZhTrad": "胖大海",
+    "pinyin": "pang da hai",
+    "botanicalName": "Sterculia lychnophora Hance",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "channels": "Lung, Large Intestine",
+    "summary": "A popular throat remedy in Chinese medicine. These seeds swell dramatically in water, creating a gel that soothes the throat, quiets a cough, and moistens dryness.",
+    "actions": [
+      "Clears heat from the Lungs and soothes the throat",
+      "Moistens the intestines and eases constipation",
+      "Opens the voice and reduces hoarseness",
+      "Resolves dry cough with scant phlegm"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears heat from the Lungs and soothes the throat",
+        "explanation": "Malva Nut is one of the most commonly used herbs for sore throat in Chinese medicine. When steeped in hot water, the seed expands and releases mucilage that coats and soothes irritated throat tissues. The cold nature makes it particularly suited for heat-type sore throats rather than cold-type."
+      },
+      {
+        "action": "Moistens the intestines and eases constipation",
+        "explanation": "The same mucilaginous quality that soothes the throat also benefits the intestines. Malva Nut may help with dry, difficult bowel movements by providing lubrication. This action is most relevant for dryness-type constipation rather than other patterns."
+      },
+      {
+        "action": "Opens the voice and reduces hoarseness",
+        "explanation": "Teachers, singers, and public speakers in China commonly keep Malva Nut tea on hand. The gel-like substance coats the vocal cords and throat, which may help restore a lost or raspy voice. This is especially useful after excessive talking or singing."
+      },
+      {
+        "action": "Resolves dry cough with scant phlegm",
+        "explanation": "A dry, tickling cough with little phlegm often indicates Lung dryness or Lung heat. Malva Nut's moistening and cooling qualities address both. The gel coats the throat to reduce the tickle that triggers coughing."
+      }
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "damp_heat"
+    ],
+    "therapeuticFocus": [
+      "Respiratory Health",
+      "Throat & Voice",
+      "Digestive Health"
+    ],
+    "foodPairings": [
+      "honey",
+      "pear",
+      "rock sugar",
+      "chrysanthemum"
+    ],
+    "howToUse": "Place 2-4 seeds in a large glass of hot water. Let sit for 10 minutes until the seeds expand and the water becomes gelatinous. Drink the liquid and eat the softened seeds if desired. Add honey or rock sugar to taste.",
+    "dosage": "2-4 seeds per day, no more than 7 days continuously.",
+    "preparationNotes": "Use hot (not boiling) water. The seeds will expand to several times their original size. Do not reuse the same seeds more than twice. The gel texture is normal and indicates the active mucilage has been released.",
+    "dietaryAdvice": "Malva Nut tea pairs well with pear or honey for enhanced throat-soothing effects. Avoid spicy, fried, or overly salty foods when treating a sore throat. Drink plenty of warm water throughout the day.",
+    "cautions": [
+      "Do not use long-term (more than 7 consecutive days)",
+      "Avoid if you have chronic diarrhea or a cold-type sore throat",
+      "Not suitable for people with Spleen deficiency and loose stools",
+      "Discontinue if you experience abdominal bloating"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Yin Deficient types with dry throat or chronic cough",
+        "tcmInterpretation": "Yin deficiency often manifests as dryness in the upper body, especially the throat and lungs. Malva Nut's moistening cold nature directly addresses this pattern. The gel-like mucilage physically coats dry tissues while the medicinal properties work systemically.",
+        "whyItHelps": "The Lung channel affinity and cold temperature make Malva Nut ideal for heat and dryness patterns. For Yin Deficient types who naturally lack moisture, this herb provides targeted lubrication."
+      },
+      {
+        "condition": "Damp Heat types with sore throat and phlegm",
+        "tcmInterpretation": "Damp Heat in the Lung produces a sore throat with sticky yellow phlegm. Malva Nut clears heat while its mucilage helps expel phlegm. The cold nature counteracts the heat component of the pattern.",
+        "whyItHelps": "For acute flare-ups of throat discomfort, Malva Nut acts quickly. Most people feel throat relief within hours of drinking the tea. However, it should not replace medical treatment for bacterial infections."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Why do the seeds get so big in water?",
+        "a": "Malva Nut seeds contain natural mucilage that absorbs water and expands. This gel is the active soothing compound. The expansion is completely normal and indicates good quality seeds."
+      },
+      {
+        "q": "Can I drink Malva Nut tea every day?",
+        "a": "No. It is meant for short-term use (3-7 days) when symptoms are active. Long-term daily use may weaken the Spleen and cause digestive issues."
+      },
+      {
+        "q": "Which body type benefits most from Malva Nut?",
+        "a": "Yin Deficient and Damp Heat types may benefit most, especially for throat and respiratory issues. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/malva-nut-pang-da-hai.jpg"
+  },
+  {
+    "slug": "sweet-wormwood-qing-hao",
+    "nameEn": "Sweet Wormwood",
+    "nameZh": "qing hao",
+    "nameZhTrad": "青蒿",
+    "pinyin": "qing hao",
+    "botanicalName": "Artemisia annua L.",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Bitter, pungent",
+    "channels": "Liver, Gallbladder",
+    "summary": "The herb behind a Nobel Prize. Artemisinin, extracted from Sweet Wormwood, revolutionized malaria treatment worldwide and made this plant one of the most celebrated herbs in modern medical history.",
+    "actions": [
+      "Clears deficiency heat and night fevers",
+      "Cools the blood and reduces feverish sensations",
+      "Resolves summer heat and damp heat patterns",
+      "Supports the Liver and gallbladder function"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears deficiency heat and night fevers",
+        "explanation": "In TCM, deficiency heat (also called empty heat) arises when Yin is too low to anchor Yang, producing afternoon flushes, night sweats, and a feeling of heat in the palms and soles. Sweet Wormwood is one of the primary herbs for this pattern. Its cold nature and aromatic quality allow it to vent heat outward."
+      },
+      {
+        "action": "Cools the blood and reduces feverish sensations",
+        "explanation": "Blood heat can produce nosebleeds, rashes, and a sensation of internal warmth. Sweet Wormwood's cold nature and Liver channel affinity make it effective for cooling blood-level heat. This is distinct from surface-level cooling herbs that only address exterior heat."
+      },
+      {
+        "action": "Resolves summer heat and damp heat patterns",
+        "explanation": "Summer heat combined with dampness is a common pattern in hot, humid weather. Symptoms include fatigue, nausea, headache, and low appetite. Sweet Wormwood's aromatic pungent quality helps disperse heat while its bitter taste drains dampness."
+      },
+      {
+        "action": "Supports the Liver and gallbladder function",
+        "explanation": "Sweet Wormwood enters the Liver and Gallbladder channels, making it relevant for patterns involving these organ systems. In modern research, artemisinin and its derivatives have been studied extensively for various applications beyond malaria."
+      }
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "damp_heat"
+    ],
+    "therapeuticFocus": [
+      "Immune Support",
+      "Liver Health",
+      "Fever & Heat Patterns"
+    ],
+    "foodPairings": [
+      "mint",
+      "chrysanthemum",
+      "green tea",
+      "pear"
+    ],
+    "howToUse": "Steep 3-6g in hot water for 10 minutes as tea. Often combined with other yin-nourishing herbs for deficiency heat. Best used under professional guidance for therapeutic purposes.",
+    "dosage": "3-6g per day in decoction. Do not self-prescribe for malaria or serious infections.",
+    "preparationNotes": "In TCM practice, Sweet Wormwood is often decocted briefly (5-10 minutes) rather than simmered for long periods, as prolonged heat may reduce the volatile active compounds. Store in a cool, dry place away from direct sunlight.",
+    "dietaryAdvice": "When using Sweet Wormwood for heat patterns, avoid spicy foods, alcohol, and heavy fried foods that increase internal heat. Cooling foods like cucumber, watermelon, and mung bean soup complement the herb's effects.",
+    "cautions": [
+      "Do not use during pregnancy",
+      "Avoid for people with cold-type patterns or Spleen deficiency with loose stools",
+      "Consult a healthcare professional before using alongside prescription medications",
+      "Not a substitute for conventional malaria treatment without medical supervision"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Yin Deficient types with night sweats and afternoon heat",
+        "tcmInterpretation": "Yin deficiency produces a specific type of heat called deficiency heat, characterized by afternoon fevers, night sweats, and hot palms. Sweet Wormwood is one of the most targeted herbs for this pattern in the TCM pharmacopeia.",
+        "whyItHelps": "The Liver and Gallbladder channel affinity and cold nature make Sweet Wormwood ideal for deep, chronic heat patterns. Unlike surface-cooling herbs, it addresses heat at the blood and deficiency levels."
+      },
+      {
+        "condition": "Damp Heat types with feverish sensations and sluggishness",
+        "tcmInterpretation": "Damp Heat patterns often produce a feeling of heavy, feverish discomfort, especially in summer. Sweet Wormwood's combination of bitter (drying) and pungent (dispersing) qualities addresses both the damp and heat components.",
+        "whyItHelps": "The aromatic quality of Sweet Wormwood helps penetrate and disperse damp heat that other cooling herbs may not reach. This makes it valuable for complex patterns involving both dampness and heat."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is this the same herb that won the Nobel Prize?",
+        "a": "Yes. Youyou Tu won the 2015 Nobel Prize in Physiology or Medicine for discovering artemisinin, the active compound extracted from Sweet Wormwood (Artemisia annua). This discovery saved millions of lives from malaria."
+      },
+      {
+        "q": "Can I use Sweet Wormwood instead of malaria medication?",
+        "a": "No. The whole herb and the purified drug are very different. Artemisinin-based drugs are highly concentrated and clinically tested. Raw Sweet Wormwood tea does not contain enough active compound to treat malaria."
+      },
+      {
+        "q": "Which body type benefits most from Sweet Wormwood?",
+        "a": "Yin Deficient and Damp Heat types may benefit most. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/sweet-wormwood-qing-hao.jpg"
+  },
+  {
+    "slug": "black-goji-hei-gou-qi",
+    "nameEn": "Black Goji",
+    "nameZh": "hei gou qi",
+    "nameZhTrad": "黑枸杞",
+    "pinyin": "hei gou qi",
+    "botanicalName": "Lycium ruthenicum Murray",
+    "category": "Yin Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Liver, Kidney",
+    "summary": "A rare, nutrient-dense berry from the high plateaus of China. Unlike red goji berries, black goji is rich in anthocyanins and has become a trending superfood for vision, skin, and anti-aging support.",
+    "actions": [
+      "Nourishes Liver and Kidney Yin",
+      "Benefits vision and protects eye health",
+      "Clears heat and supports skin radiance",
+      "Rich in antioxidants that combat oxidative stress"
+    ],
+    "actionDetails": [
+      {
+        "action": "Nourishes Liver and Kidney Yin",
+        "explanation": "Black Goji enters the Liver and Kidney channels, the two organ systems most associated with aging and deep vitality in TCM. Its neutral temperature and sweet taste make it gentle enough for long-term use. Regular consumption may help replenish the deep reserves that decline with age and stress."
+      },
+      {
+        "action": "Benefits vision and protects eye health",
+        "explanation": "The Liver opens into the eyes in TCM theory. By nourishing Liver Yin and blood, Black Goji supports clear vision. Modern science attributes the eye benefits to high anthocyanin content, the same compound found in blueberries. The dark purple color of the berry signals its dense antioxidant profile."
+      },
+      {
+        "action": "Clears heat and supports skin radiance",
+        "explanation": "Despite being a Yin tonic, Black Goji also has a gentle heat-clearing quality. This dual action makes it suitable for people who have both dryness and low-grade heat. Skin benefits may include improved elasticity and a brighter complexion."
+      },
+      {
+        "action": "Rich in antioxidants that combat oxidative stress",
+        "explanation": "Black Goji contains exceptionally high levels of anthocyanins, proanthocyanidins, and other polyphenols. These compounds neutralize free radicals that contribute to aging and cellular damage. From a TCM perspective, this aligns with the herb's traditional use as a longevity tonic."
+      }
+    ],
+    "bodyTypes": [
+      "yin_deficient",
+      "blood_deficient"
+    ],
+    "therapeuticFocus": [
+      "Eye Health",
+      "Skin Health",
+      "Anti-Aging"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "rose tea",
+      "longan",
+      "jujube"
+    ],
+    "howToUse": "Steep 10-15 berries in warm (not hot) water for 5 minutes. The water will turn a stunning blue or purple. Drink daily as a wellness tea. Avoid water above 60C to preserve anthocyanins.",
+    "dosage": "10-20 berries per day for general wellness.",
+    "preparationNotes": "Use warm water below 60C (140F). Boiling water destroys the anthocyanins that give black goji its signature blue-purple color and much of its antioxidant power. The color change in water is a natural indicator of the active compounds being released.",
+    "dietaryAdvice": "Black Goji pairs well with other Yin and Blood tonics like red goji, longan, or walnuts. Avoid combining with strong stimulants like coffee or energy drinks. The berries can be eaten after steeping for full nutritional benefit.",
+    "cautions": [
+      "Generally safe for most adults in recommended amounts",
+      "Avoid if you have Spleen deficiency with cold, loose stools",
+      "Do not exceed 30 berries per day",
+      "Store in a sealed container away from light to preserve antioxidants"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Yin Deficient types with dry eyes and skin",
+        "tcmInterpretation": "Yin deficiency often manifests as dryness in the eyes, skin, and mouth. Black Goji's Yin-nourishing and moisture-supporting properties directly address these symptoms. The high antioxidant content may complement the TCM action at a cellular level.",
+        "whyItHelps": "The Liver and Kidney channel affinities make Black Goji suited for the deep dryness that characterizes Yin deficiency. The neutral temperature allows daily use without aggravating cold or heat patterns."
+      },
+      {
+        "condition": "Blood Deficient types with dull complexion",
+        "tcmInterpretation": "Blood deficiency in TCM often shows on the face as a pale or dull complexion. Black Goji nourishes Liver blood through its Kidney and Liver channel affinities. The antioxidant content may also support circulation and skin health from a modern perspective.",
+        "whyItHelps": "The dark color of Black Goji reflects its dense nutrient profile. In TCM dietary therapy, dark-colored foods often nourish blood and essence. The berry's traditional use for skin radiance aligns with both TCM and modern nutritional science."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is black goji better than red goji?",
+        "a": "They serve different purposes. Red goji (goji berry) is more warming and focuses on Liver blood and Kidney Jing. Black goji is richer in anthocyanins, more cooling, and excels for eye health and antioxidants. Many people alternate between the two."
+      },
+      {
+        "q": "Why does the water turn blue or purple?",
+        "a": "The color comes from anthocyanins, natural pigments that change color based on pH. In neutral water, you get blue. In slightly alkaline water, you get purple. In acidic water, it turns pink. This is normal and indicates active compounds."
+      },
+      {
+        "q": "Which body type benefits most from black goji?",
+        "a": "Yin Deficient and Blood Deficient types may benefit most, especially for eye and skin health. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/black-goji-hei-gou-qi.jpg"
+  },
+  {
+    "slug": "szechwan-lovage-chuan-xiong",
+    "nameEn": "Szechwan Lovage Root",
+    "nameZh": "chuan xiong",
+    "nameZhTrad": "川芎",
+    "pinyin": "chuan xiong",
+    "botanicalName": "Ligusticum chuanxiong Hort.",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Pungent",
+    "channels": "Liver, Gallbladder, Pericardium",
+    "summary": "The premier herb for moving blood and relieving pain in Chinese medicine. Szechwan Lovage Root is the go-to herb for headaches, menstrual pain, and any condition involving stuck blood and qi.",
+    "actions": [
+      "Invigorates blood circulation and dispels stasis",
+      "Promotes qi movement and relieves pain",
+      "Dispels wind and alleviates headaches",
+      "Supports menstrual comfort and regularity"
+    ],
+    "actionDetails": [
+      {
+        "action": "Invigorates blood circulation and dispels stasis",
+        "explanation": "Szechwan Lovage Root is considered the most important blood-invigorating herb in Chinese medicine. Unlike purely breaking herbs, it both moves blood and has a gentle nourishing quality. This makes it suitable for patterns where blood is stuck but not severely depleted."
+      },
+      {
+        "action": "Promotes qi movement and relieves pain",
+        "explanation": "In TCM theory, where qi goes, blood follows. Szechwan Lovage Root's pungent taste and warm nature help move qi, which in turn helps move blood. This dual action on qi and blood explains why it is so effective for pain, especially pain that feels fixed, stabbing, or worsening with pressure."
+      },
+      {
+        "action": "Dispels wind and alleviates headaches",
+        "explanation": "Szechwan Lovage Root has a special affinity for the head and is considered the premier herb for headaches in TCM. Whether the headache is from wind-cold, wind-heat, blood stasis, or blood deficiency, this herb may be included in formulas because it both reaches the head and addresses multiple headache mechanisms."
+      },
+      {
+        "action": "Supports menstrual comfort and regularity",
+        "explanation": "Many menstrual pains involve blood stasis and qi stagnation in the lower abdomen. Szechwan Lovage Root's blood-moving and qi-regulating actions directly address this pattern. It is one of the most common ingredients in classical formulas for menstrual discomfort."
+      }
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "qi_stagnant"
+    ],
+    "therapeuticFocus": [
+      "Pain Relief",
+      "Women's Health",
+      "Headache & Migraine"
+    ],
+    "foodPairings": [
+      "angelica (dang gui)",
+      "red dates",
+      "ginger",
+      "brown sugar"
+    ],
+    "howToUse": "Typically used in decoction (simmered) rather than as a simple tea. 3-9g per day in formula with other herbs. Often combined with Dang Gui for blood, or Bai Zhi for headaches.",
+    "dosage": "3-9g per day in decoction. Best used in formula rather than alone.",
+    "preparationNotes": "Slice thinly and decoct (simmer) for 20-30 minutes with other herbs. The warm pungent nature means it should be used cautiously in heat patterns. Store in a dry, ventilated container.",
+    "dietaryAdvice": "When taking Szechwan Lovage Root formulas, avoid cold and raw foods that can slow blood circulation. Warm soups, ginger tea, and brown sugar water complement its blood-moving action. Light exercise such as walking enhances the circulatory benefits.",
+    "cautions": [
+      "Avoid during pregnancy",
+      "Do not use with heavy menstrual bleeding",
+      "Not suitable for people with bleeding disorders or on blood thinners",
+      "Avoid in cases of Yin deficiency with fire (dry, hot patterns without stasis)"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Blood Stasis types with chronic pain or dark spots",
+        "tcmInterpretation": "Blood stasis is a key pattern in chronic pain conditions. The pain tends to be fixed, stabbing, and worse at night. Szechwan Lovage Root's blood-invigorating action directly targets this pattern. It is often the lead herb in classical stasis-resolving formulas.",
+        "whyItHelps": "The warm, pungent nature of Szechwan Lovage Root allows it to penetrate deeply and move stagnant blood in the channels. Its affinity for the Liver channel (which stores blood) and the head makes it versatile for pain throughout the body."
+      },
+      {
+        "condition": "Qi Stagnant types with tension headaches or menstrual pain",
+        "tcmInterpretation": "Liver qi stagnation often produces tension-type headaches and menstrual discomfort. When qi stagnation leads to blood stasis, the pain becomes more fixed and severe. Szechwan Lovage Root addresses both the qi and blood aspects of this pattern.",
+        "whyItHelps": "As a herb that moves both qi and blood, Szechwan Lovage Root is uniquely suited for patterns where stagnation involves both substances. Its upward-reaching nature helps it reach the head for headache treatment."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Szechwan Lovage Root the same as regular lovage?",
+        "a": "No. Szechwan Lovage Root (Ligusticum chuanxiong) is specific to Chinese medicine and differs from European lovage (Levisticum officinale). They belong to different plant families despite the similar common name."
+      },
+      {
+        "q": "Can I use this herb for migraines?",
+        "a": "Szechwan Lovage Root is traditionally used for many types of headaches, including migraine-like patterns in TCM diagnosis. However, it works best in formula with other herbs tailored to your specific headache pattern. Consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from Szechwan Lovage Root?",
+        "a": "Blood Stasis and Qi Stagnant types may benefit most, especially for pain and circulation. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/szechwan-lovage-chuan-xiong.jpg"
   }
 ]
