@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-complexion-dull"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Dull Complexion? Your Body Type Affects Your Skin"
 const DESC = "Skin that looks gray, tired, or lifeless no matter what you apply? Your Eastern body type may explain a dull complexion. Learn which Eastern body types are involved."
 

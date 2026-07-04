@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-night-sweats"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Night Sweats? Your Body Type Overheats While You Sleep"
 const DESC = "Waking up drenched in sweat? Chinese medicine connects night sweats to specific body types. Learn what your body may be telling you."
 

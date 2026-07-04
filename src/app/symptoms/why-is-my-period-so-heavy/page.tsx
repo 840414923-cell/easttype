@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-period-so-heavy"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Heavy Periods? Your Body Type Might Not Stop the Flow"
 const DESC = "Soaking through pads or passing clots? Your Eastern body type may explain heavy menstrual bleeding. Learn which Eastern body types are linked to menorrhagia."
 

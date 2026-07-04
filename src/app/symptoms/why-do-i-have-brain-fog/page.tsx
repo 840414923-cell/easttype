@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-brain-fog"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Brain Fog? Your Body Type Might Be Clouding Your Mind"
-const DESC = "Can"
+const DESC = "Can't think clearly or remember things? Your body type may be clouding your mind. Learn which body types are linked to brain fog and mental fatigue."
 
 export const metadata: Metadata = {
   title: TITLE,

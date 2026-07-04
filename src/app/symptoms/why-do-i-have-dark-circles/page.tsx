@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-dark-circles"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Dark Circles Won"
-const DESC = "Dark circles that sleep doesn"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Dark Circles Won't Fade? Your Body Type Shows Through Thin Skin"
+const DESC = "Dark circles that sleep doesn't fix? Your body type may be showing through your skin. Learn which body types are linked to persistent dark circles under the eyes."
 
 export const metadata: Metadata = {
   title: TITLE,

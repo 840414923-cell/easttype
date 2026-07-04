@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-sleepy"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Sleepy? Your Body Type Drains Your Daytime Energy"
-const DESC = "Can"
+const DESC = "Can't stay awake during the day no matter how much you sleep? Your body type may be draining your daytime energy. Learn which body types are linked to chronic daytime sleepiness."
 
 export const metadata: Metadata = {
   title: TITLE,

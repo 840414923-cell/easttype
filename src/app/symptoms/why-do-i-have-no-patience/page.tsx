@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-no-patience"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "No Patience? Your Body Type Might Be Behind the Short Fuse"
 const DESC = "Everything and everyone getting on your nerves? Your Eastern body type may explain chronic impatience. Learn which Eastern body types are linked to a short fuse."
 

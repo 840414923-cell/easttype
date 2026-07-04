@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-skin-so-dry"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Dry Skin That Lotion Won"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Dry Skin That Lotion Won't Fix? Your Body Type Is Running Low on Moisture"
 const DESC = "Dry skin that no moisturizer fixes? Your Eastern body type may explain it. Learn which Eastern body types are linked to chronic dryness and what may help hydrate from within."
 
 export const metadata: Metadata = {

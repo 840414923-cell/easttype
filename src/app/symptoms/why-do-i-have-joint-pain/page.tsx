@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-joint-pain"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Aching Joints? Your Body Type Stiffens the Hinges"
 const DESC = "Aching joints with no injury or arthritis diagnosis? Your Eastern body type may explain joint pain. Learn which Eastern body types are linked to stiff, achy joints."
 

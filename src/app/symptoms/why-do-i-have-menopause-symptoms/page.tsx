@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-menopause-symptoms"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Menopause Symptoms? Your Body Type Turns Up the Heat"
 const DESC = "Hot flashes, night sweats, and mood changes during menopause? Your Eastern body type may explain why. Learn which Eastern body types are linked to menopausal transition."
 

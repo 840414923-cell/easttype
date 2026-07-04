@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-lose-weight"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Can't Lose Weight? Your Body Type Might Be Slowing You Down"
 const DESC = "Trying to lose weight but nothing works? Your Eastern body type may explain a sluggish metabolism. Learn which Eastern body types are linked to stubborn weight."
 
 export const metadata: Metadata = {

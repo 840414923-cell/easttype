@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-sweat-so-much"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Sweating Too Much? Your Body Type"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Sweating Too Much? Your Body Type Opens the Floodgates"
 const DESC = "Sweating excessively even when it"
 
 export const metadata: Metadata = {

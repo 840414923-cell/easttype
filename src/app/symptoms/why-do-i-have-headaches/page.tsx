@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-headaches"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Frequent Headaches? Your Body Type Builds the Pressure"
 const DESC = "Frequent headaches with no clear cause? Your Eastern body type may explain recurring head pain. Learn which Eastern body types are linked to headaches."
 

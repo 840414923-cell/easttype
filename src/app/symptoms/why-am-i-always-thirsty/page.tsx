@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-thirsty"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Always Thirsty? Your Body Type Can"
-const DESC = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Always Thirsty? Your Body Type Can't Hold Onto Its Water"
+const DESC = "Can't seem to drink enough water? Your body type may not be holding onto its fluids. Learn which body types are linked to constant thirst and internal dryness."
 
 export const metadata: Metadata = {
   title: TITLE,

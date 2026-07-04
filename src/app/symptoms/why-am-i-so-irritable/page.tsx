@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-irritable"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Irritable? Your Body Type Might Be the Short Fuse"
 const DESC = "Snapping at people for no reason? Your Eastern body type may explain chronic irritability. Learn which Eastern body types are linked to a short fuse."
 

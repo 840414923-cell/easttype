@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-rosacea"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Rosacea Won"
-const DESC = "Redness and flushing that won"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Rosacea Won't Calm Down? Your Body Type Flushes With Internal Heat"
+const DESC = "Redness and flushing that won't go away? Your body type may be generating internal heat. Learn which body types are linked to rosacea and facial redness."
 
 export const metadata: Metadata = {
   title: TITLE,

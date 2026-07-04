@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-feel-sick-after-eating"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Sick After Eating? Your Body Type Decides What Foods Work"
 const DESC = "Feeling unwell after every meal? Your Eastern body type may explain post-meal sickness. Learn which Eastern body types are linked to feeling sick after eating."
 

@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-poor-circulation"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Poor Circulation in Chinese Medicine: Causes & Warming Foods"
 const DESC = "Cold extremities, tingling, or discoloration? Your Eastern body type may explain poor circulation. Learn which Eastern body types are linked to sluggish blood flow."
 

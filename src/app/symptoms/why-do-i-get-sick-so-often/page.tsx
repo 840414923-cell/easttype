@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-get-sick-so-often"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Always Catching Colds? Your Body Type May Have Weak Defenses"
 const DESC = "Always catching every cold going around? Your Eastern body type may explain low immunity. Learn which Eastern body types are linked to frequent illness and what may help strengthen your defenses."
 

@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-fall-asleep"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Can't Fall Asleep? Your Body Type Might Be Keeping You Awake"
 const DESC = "Lying awake for hours? Your Eastern body type may explain why you can"
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Can",
+    description: "Can't fall asleep even when you're exhausted? Your body type might be keeping you wired. Learn which body types are linked to trouble falling asleep.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Can",
+    description: "Can't fall asleep even when you're exhausted? Your body type might be keeping you wired. Learn which body types are linked to trouble falling asleep.",
   },
   alternates: { canonical: URL },
 }

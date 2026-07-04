@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-brittle-nails"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Brittle Nails? Your Body Type Affects Nail Strength"
 const DESC = "Nails that split, peel, or break easily? Your Eastern body type may explain brittle nails. Learn which Eastern body types are linked to nail weakness."
 

@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-a-chronic-cough"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Chronic Cough Won"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Chronic Cough Won't Go Away? Your Body Type Traps Heat in Your Lungs"
 const DESC = "A cough that lingers for weeks or months? Your Eastern body type may explain it. Learn which Eastern body types are linked to persistent coughing."
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "That cough just won",
+    description: "That cough just won't go away? Your body type might be trapping heat in your lungs. Learn which body types are linked to chronic coughing.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "That cough just won",
+    description: "That cough just won't go away? Your body type might be trapping heat in your lungs. Learn which body types are linked to chronic coughing.",
   },
   alternates: { canonical: URL },
 }

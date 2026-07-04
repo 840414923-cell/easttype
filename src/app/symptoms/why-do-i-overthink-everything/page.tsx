@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-overthink-everything"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Can"
-const DESC = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Can't Stop Overthinking? Your Body Type Won't Let Your Mind Rest"
+const DESC = "Can't stop your racing thoughts? Your body type may be keeping your mind in overdrive. Learn which body types are linked to overthinking and mental restlessness."
 
 export const metadata: Metadata = {
   title: TITLE,

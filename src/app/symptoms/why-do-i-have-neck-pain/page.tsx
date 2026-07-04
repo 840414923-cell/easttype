@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-neck-pain"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Chronic Neck Pain? Your Body Type Carries Tension There"
 const DESC = "Stiff, aching neck with no injury? Your Eastern body type may explain chronic neck pain. Learn which Eastern body types are linked to neck tension and stiffness."
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Your neck feels like it",
+    description: "Your neck feels like it's made of stone? Your body type carries tension in your upper body. Learn which body types are linked to chronic neck pain.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Your neck feels like it",
+    description: "Your neck feels like it's made of stone? Your body type carries tension in your upper body. Learn which body types are linked to chronic neck pain.",
   },
   alternates: { canonical: URL },
 }

@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-at-3am"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Waking Up at 3AM Every Night? Your Body Type Is Running the Clock"
 const DESC = "Waking up at 3AM every night? Chinese medicine connects this to specific body types. Learn what your sleep pattern may mean."
 

@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-period-cramps"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Painful Period Cramps? Your Body Type Might Be Behind the Pain"
 const DESC = "Painful period cramps every month? Your Eastern body type may explain dysmenorrhea. Learn which Eastern body types are linked to menstrual pain and what may help."
 

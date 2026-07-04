@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-lower-back-pain"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Lower Back Pain? Your Body Type Weakens the Foundation"
 const DESC = "Chronic lower back pain with no clear injury? Your Eastern body type may explain it. Learn which Eastern body types are linked to persistent lower back ache."
 

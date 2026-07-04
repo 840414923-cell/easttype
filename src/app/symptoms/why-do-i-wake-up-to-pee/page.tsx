@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-to-pee"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Waking Up to Pee Every Night? Your Body Type Runs the Night Shift"
 const DESC = "Getting up multiple times every night to urinate? Your Eastern body type may explain nocturia. Learn which Eastern body types are linked to frequent nighttime urination."
 

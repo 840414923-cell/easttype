@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-breast-tenderness"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Breast Tenderness Before Your Period? Your Body Type Causes the Swelling"
 const DESC = "Sore and swollen breasts before your period? Your Eastern body type may explain breast tenderness. Learn which Eastern body types are linked to cyclic breast pain."
 

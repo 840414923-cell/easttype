@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-cant-i-focus"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Can"
-const DESC = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Can't Focus? Your Body Type Might Be Clouding Your Mind"
+const DESC = "Can't concentrate or stay on task? Your body type may be clouding your mental clarity. Learn which body types are linked to poor focus and scattered attention."
 
 export const metadata: Metadata = {
   title: TITLE,

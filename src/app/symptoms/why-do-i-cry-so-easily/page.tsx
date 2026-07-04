@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-cry-so-easily"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Cry Too Easily? Your Body Type Might Be Why Tears Flow Fast"
 const DESC = "Tears at commercials, songs, or small frustrations? Your Eastern body type may explain easy crying. Learn which Eastern body types are linked to emotional sensitivity."
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "A sad commercial and you",
+    description: "A sad commercial and you're in tears? Your body type might make you emotionally sensitive. Learn which body types are linked to crying easily.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "A sad commercial and you",
+    description: "A sad commercial and you're in tears? Your body type might make you emotionally sensitive. Learn which body types are linked to crying easily.",
   },
   alternates: { canonical: URL },
 }

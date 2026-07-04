@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-wake-up-tired"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Wake Up Tired After 8 Hours? Your Body Type Decides If Sleep Works"
 const DESC = "Waking up exhausted despite sleeping enough hours? Your Eastern body type may explain morning fatigue. Learn which Eastern body types are linked to unrefreshing sleep."
 

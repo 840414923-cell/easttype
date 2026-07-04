@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-hot-flashes"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Hot Flashes? Your Body Type Sends Heat Without Warning"
 const DESC = "Sudden waves of heat rushing through your body? Your Eastern body type may explain hot flashes. Learn which Eastern body types are linked to heat surges."
 

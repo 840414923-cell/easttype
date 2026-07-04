@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-breaking-out"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Keep Breaking Out? Your Body Type Might Be Behind Your Skin"
-const DESC = "Persistent acne that won"
+const DESC = "Persistent acne that won't clear up? Your body type may be behind your skin issues. Learn which body types are linked to chronic breakouts and inflamed skin."
 
 export const metadata: Metadata = {
   title: TITLE,

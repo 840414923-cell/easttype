@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-bad-breath"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Bad Breath Won"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Bad Breath Won't Go Away? Your Body Type Heats Up Your Stomach"
 const DESC = "Persistent bad breath that brushing doesn"
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Brushing doesn",
+    description: "Brushing doesn't help your breath? Your body type might be heating up your stomach. Learn which body types are linked to persistent bad breath.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Brushing doesn",
+    description: "Brushing doesn't help your breath? Your body type might be heating up your stomach. Learn which body types are linked to persistent bad breath.",
   },
   alternates: { canonical: URL },
 }

@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-is-my-hair-falling-out"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Hair Falling Out? Your Body Type Might Be the Hidden Cause"
 const DESC = "More hair in the brush than on your head? Your Eastern body type may explain hair thinning. Learn which Eastern body types are linked to hair loss."
 

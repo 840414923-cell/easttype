@@ -5,8 +5,8 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-have-acid-reflux"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Acid Reflux Won"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Acid Reflux Won't Stop? Your Body Type Sends Stomach Heat Upward"
 const DESC = "Burning in your chest after meals? Your Eastern body type may explain chronic acid reflux. Learn which Eastern body types are linked to heartburn."
 
 export const metadata: Metadata = {

@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-gaining-weight"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Keep Gaining Weight? Your Body Type Might Be Slowing You Down"
 const DESC = "Gaining weight despite eating the same? Your Eastern body type may explain it. Learn which Eastern body types are linked to weight gain and what may help your metabolism."
 

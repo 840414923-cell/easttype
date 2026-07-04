@@ -5,9 +5,9 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-so-sensitive-to-heat"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
-const TITLE = "Always Too Hot? Your Body Type"
-const DESC = "Can"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
+const TITLE = "Always Too Hot? Your Body Type Runs Hotter Than It Should"
+const DESC = "Can't tolerate heat and feel overheated when others are fine? Your body type may be running too warm. Learn which body types are linked to heat sensitivity."
 
 export const metadata: Metadata = {
   title: TITLE,

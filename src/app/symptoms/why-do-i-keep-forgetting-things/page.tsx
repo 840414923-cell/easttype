@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-i-keep-forgetting-things"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Keep Forgetting Things? Your Body Type Might Be the Sieve"
 const DESC = "Walking into rooms and forgetting why? Your Eastern body type may explain memory issues. Learn which Eastern body types are linked to forgetfulness."
 

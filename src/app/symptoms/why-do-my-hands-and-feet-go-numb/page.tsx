@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-do-my-hands-and-feet-go-numb"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "Numb Hands and Feet? Your Body Type Slows Your Circulation"
 const DESC = "Numb or tingling hands and feet? Your Eastern body type may explain poor circulation. Learn which Eastern body types are linked to numbness and what may help restore warmth and flow."
 

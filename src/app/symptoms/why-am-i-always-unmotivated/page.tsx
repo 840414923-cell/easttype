@@ -5,7 +5,7 @@ import { SYMPTOM_FAQS } from "@/lib/symptom-faqs"
 import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "why-am-i-always-unmotivated"
-const URL = "https://www.myeasterntype.com/symptoms/${SLUG}"
+const URL = `https://www.myeasterntype.com/symptoms/${SLUG}`
 const TITLE = "No Motivation? Your Body Type Might Be the Reason"
 const DESC = "No drive to do anything, even things you used to enjoy? Your Eastern body type may explain chronic low motivation. Learn which Eastern body types are linked to apathy."
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Can",
+    description: "Can't find the motivation to do anything? Your body type might be draining your drive. Learn which body types are linked to chronic low motivation.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Can",
+    description: "Can't find the motivation to do anything? Your body type might be draining your drive. Learn which body types are linked to chronic low motivation.",
   },
   alternates: { canonical: URL },
 }
