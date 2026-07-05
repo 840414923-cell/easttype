@@ -144,8 +144,8 @@ export function SymptomExplorer({
                   <Link
                     key={s.slug}
                     href={`/symptoms/${s.slug}`}
-                    className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.06)] transition-colors ${
-                      index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.03)]"
+                    className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.08)] transition-colors ${
+                      index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.07)]"
                     }`}
                   >
                     <div className="min-w-0 flex-1">
@@ -181,8 +181,8 @@ export function SymptomExplorer({
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.06)] transition-colors ${
-                  index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.03)]"
+                className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.08)] transition-colors ${
+                  index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.07)]"
                 }`}
               >
                 <div className="min-w-0 flex-1">
