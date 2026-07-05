@@ -28,7 +28,7 @@ const CHANNELS: Record<string, string> = {
   F2: "其他/手动",
 }
 
-type Tab = "codes" | "studio" | "leads" | "cardgen"
+type Tab = "codes" | "studio" | "leads" | "cardgen" | "orders"
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false)
@@ -56,6 +56,18 @@ export default function AdminPage() {
 
   const [leads, setLeads] = useState<Array<{ email: string; source: string; timestamp: string }> | null>(null)
   const [leadsLoading, setLeadsLoading] = useState(false)
+
+  const [orders, setOrders] = useState<Array<{
+    id: string
+    plan: string
+    type: string
+    sex: string
+    email: string
+    status: string
+    product: string
+    createdAt: string
+  }> | null>(null)
+  const [ordersLoading, setOrdersLoading] = useState(false)
 
   const [genCta, setGenCta] = useState<CtaType>("none")
   const [genRatio, setGenRatio] = useState<AspectRatio>("9:16")
@@ -176,10 +188,47 @@ export default function AdminPage() {
     URL.revokeObjectURL(url)
   }
 
+  async function fetchOrders() {
+    setOrdersLoading(true)
+    try {
+      const res = await fetch("/api/admin/orders", { headers: headers() })
+      if (res.status === 401) {
+        setAuthed(false)
+        return
+      }
+      const data = await res.json()
+      setOrders(data.orders || [])
+    } catch {
+      console.error("获取订单失败")
+    } finally {
+      setOrdersLoading(false)
+    }
+  }
+
+  function exportOrdersCsv() {
+    if (!orders || orders.length === 0) return
+    const csv = [
+      "Plan,Type,Sex,Email,Status,Product,Date",
+      ...orders.map((o) =>
+        `"${o.plan}","${o.type}","${o.sex}","${o.email}","${o.status}","${o.product}","${new Date(o.createdAt).toLocaleString("zh-CN")}"`
+      ),
+    ].join("\n")
+    const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8" })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = url
+    a.download = `orders-${new Date().toISOString().slice(0, 10)}.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
   function switchTab(t: Tab) {
     setTab(t)
     if (t === "leads" && leads === null) {
       fetchLeads()
+    }
+    if (t === "orders" && orders === null) {
+      fetchOrders()
     }
   }
 
@@ -285,8 +334,9 @@ export default function AdminPage() {
             <div className="flex bg-[#1e1a14] rounded-lg border border-[#2a2418] overflow-hidden">
               {([
                 ["codes", "激活码管理"],
-                ["studio", "内容工厂"],
+                ["orders", "订单管理"],
                 ["leads", "邮件列表"],
+                ["studio", "内容工厂"],
                 ["cardgen", "症状卡生成器"],
               ] as [Tab, string][]).map(([id, label]) => (
                 <button
@@ -491,6 +541,100 @@ export default function AdminPage() {
                   </tbody>
                 </table>
               </div>
+            )}
+          </div>
+        )}
+
+        {tab === "orders" && (
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-lg font-semibold">
+                订单管理 {orders && <span className="text-[#7a6e5e] text-sm">({orders.length})</span>}
+              </h2>
+              <div className="flex gap-2">
+                {orders && orders.length > 0 && (
+                  <button
+                    onClick={exportOrdersCsv}
+                    className="px-4 py-2 rounded bg-[#C9A355] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
+                  >
+                    导出 CSV
+                  </button>
+                )}
+                <button
+                  onClick={fetchOrders}
+                  className="px-4 py-2 rounded bg-[#2a2418] text-sm cursor-pointer hover:bg-[#3a3428]"
+                >
+                  刷新
+                </button>
+              </div>
+            </div>
+
+            {ordersLoading && <p className="text-[#7a6e5e] text-center py-8">加载中...</p>}
+
+            {!ordersLoading && orders && orders.length === 0 && (
+              <p className="text-[#7a6e5e] text-center py-8">暂无订单</p>
+            )}
+
+            {orders && orders.length > 0 && (
+              <>
+                <div className="grid grid-cols-3 gap-3 mb-4">
+                  <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
+                    <div className="text-xs text-[#7a6e5e]">总收入</div>
+                    <div className="text-2xl font-bold text-[#C9A355] mt-1">
+                      ${orders.filter((o) => o.status === "active").reduce((sum, o) => sum + (o.plan === "pro" ? 12.99 : 4.99), 0).toFixed(2)}
+                    </div>
+                  </div>
+                  <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
+                    <div className="text-xs text-[#7a6e5e]">Pro 计划</div>
+                    <div className="text-2xl font-bold text-[#e8dcc8] mt-1">
+                      {orders.filter((o) => o.plan === "pro").length}
+                    </div>
+                  </div>
+                  <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
+                    <div className="text-xs text-[#7a6e5e]">Basic 计划</div>
+                    <div className="text-2xl font-bold text-[#e8dcc8] mt-1">
+                      {orders.filter((o) => o.plan === "basic").length}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="text-[#7a6e5e] text-left border-b border-[#2a2418]">
+                        <th className="py-2 px-3">邮箱</th>
+                        <th className="py-2 px-3">计划</th>
+                        <th className="py-2 px-3">体质</th>
+                        <th className="py-2 px-3">性别</th>
+                        <th className="py-2 px-3">状态</th>
+                        <th className="py-2 px-3">时间</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {orders.map((o, i) => (
+                        <tr key={i} className="border-b border-[#1e1a14]">
+                          <td className="py-2 px-3 text-[#e8dcc8]">{o.email}</td>
+                          <td className="py-2 px-3">
+                            <span className={o.plan === "pro" ? "text-[#C9A355] font-bold" : "text-[#7a6e5e]"}>
+                              {o.plan === "pro" ? "Pro $12.99" : "Basic $4.99"}
+                            </span>
+                          </td>
+                          <td className="py-2 px-3 text-[#7a6e5e]">{o.type}</td>
+                          <td className="py-2 px-3 text-[#7a6e5e]">{o.sex}</td>
+                          <td className="py-2 px-3">
+                            <span className={o.status === "refunded" ? "text-red-400" : "text-green-400"}>
+                              {o.status === "refunded" ? "已退款" : "有效"}
+                            </span>
+                          </td>
+                          <td className="py-2 px-3 text-[#7a6e5e]">
+                            {new Date(o.createdAt).toLocaleString("zh-CN")}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </>
             )}
           </div>
         )}

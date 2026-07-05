@@ -26,6 +26,7 @@ const webhookHandler = Webhook({
       }
 
       await redis.set(`purchase:${checkoutId}`, JSON.stringify(record))
+      await redis.sadd("purchase:all", checkoutId)
 
       if (email && email !== "unknown") {
         await redis.set(`purchase:email:${email}`, checkoutId)
