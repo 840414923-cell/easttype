@@ -51,7 +51,7 @@ export default function PatternsHubPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <main className="max-w-3xl mx-auto px-6 py-12">
+      <main className="max-w-5xl mx-auto px-6 py-12">
         <nav className="text-xs text-text2/60 mb-8">
           <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">
             EastType

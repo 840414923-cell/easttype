@@ -31,7 +31,7 @@ export default function HerbsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
       <main className="flex-1">
-        <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="max-w-5xl mx-auto px-6 py-12">
           <nav className="text-xs text-text2/60 mb-8">
             <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
             <span className="mx-1.5">{'>'}</span>
