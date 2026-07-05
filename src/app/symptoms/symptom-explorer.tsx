@@ -139,12 +139,14 @@ export function SymptomExplorer({
               <h2 className="font-[family-name:var(--font-display)] text-sm font-semibold text-text2/70 uppercase tracking-wider mb-3">
                 {g.name} <span className="text-text2/40 normal-case font-normal">({g.items.length})</span>
               </h2>
-              <div className="divide-y divide-[rgba(201,163,85,0.08)]">
-                {g.items.map((s) => (
+              <div className="rounded-2xl border border-[rgba(201,163,85,0.15)] overflow-hidden">
+                {g.items.map((s, index) => (
                   <Link
                     key={s.slug}
                     href={`/symptoms/${s.slug}`}
-                    className="group flex items-center justify-between gap-4 py-3 no-underline hover:bg-[rgba(201,163,85,0.03)] -mx-2 px-2 rounded transition-colors"
+                    className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.06)] transition-colors ${
+                      index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.03)]"
+                    }`}
                   >
                     <div className="min-w-0 flex-1">
                       <h3 className="font-[family-name:var(--font-display)] text-sm text-text group-hover:text-accent transition-colors truncate">
@@ -163,7 +165,7 @@ export function SymptomExplorer({
           ))}
         </div>
       ) : (
-        <div className="divide-y divide-[rgba(201,163,85,0.08)]">
+        <div className="rounded-2xl border border-[rgba(201,163,85,0.15)] overflow-hidden">
           {filtered.length === 0 ? (
             <div className="py-12 text-center">
               <p className="text-text2/50 text-sm">No symptoms found. Try a different search.</p>
@@ -175,11 +177,13 @@ export function SymptomExplorer({
               </button>
             </div>
           ) : (
-            filtered.map((s) => (
+            filtered.map((s, index) => (
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className="group flex items-center justify-between gap-4 py-3 no-underline hover:bg-[rgba(201,163,85,0.03)] -mx-2 px-2 rounded transition-colors"
+                className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(201,163,85,0.06)] transition-colors ${
+                  index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(201,163,85,0.03)]"
+                }`}
               >
                 <div className="min-w-0 flex-1">
                   <h3 className="font-[family-name:var(--font-display)] text-sm text-text group-hover:text-accent transition-colors truncate">

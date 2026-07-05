@@ -100,7 +100,7 @@ export default function SymptomsHubPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative overflow-hidden rounded-3xl mb-16 bg-gradient-to-br from-[rgba(201,163,85,0.08)] via-[rgba(201,163,85,0.04)] to-transparent border border-[rgba(201,163,85,0.1)]">
+        <section className="relative overflow-hidden rounded-3xl mb-16 bg-gradient-to-br from-[rgba(201,163,85,0.08)] via-[rgba(201,163,85,0.04)] to-transparent border border-[rgba(201,163,85,0.2)]">
           <div className="absolute top-0 right-0 w-72 h-72 bg-[rgba(201,163,85,0.06)] rounded-full blur-3xl -translate-y-1/3 translate-x-1/3 pointer-events-none" />
           <div className="relative px-8 py-14 sm:px-14 sm:py-16">
             <div className="grid lg:grid-cols-[1fr_320px] gap-10 items-center">
@@ -160,7 +160,7 @@ export default function SymptomsHubPage() {
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className="group block no-underline rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.12)] bg-card-bg hover:border-[rgba(201,163,85,0.3)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,163,85,0.08)]"
+                className="group block no-underline rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.2)] bg-card-bg hover:border-[rgba(201,163,85,0.4)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,163,85,0.08)]"
               >
                 <div className="relative aspect-video overflow-hidden">
                   <Image
@@ -196,7 +196,7 @@ export default function SymptomsHubPage() {
               <a
                 key={c.anchor}
                 href="#all-symptoms"
-                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-[rgba(201,163,85,0.1)] bg-card-bg hover:border-[rgba(201,163,85,0.3)] hover:bg-[rgba(201,163,85,0.03)] transition-all duration-300 no-underline"
+                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-[rgba(201,163,85,0.2)] bg-card-bg hover:border-[rgba(201,163,85,0.4)] hover:bg-[rgba(201,163,85,0.03)] transition-all duration-300 no-underline"
               >
                 <div className="w-12 h-12 rounded-full bg-[rgba(201,163,85,0.08)] flex items-center justify-center mb-3 group-hover:bg-[rgba(201,163,85,0.15)] transition-colors">
                   <CategoryIcon name={c.icon} className="w-6 h-6 text-accent" />
@@ -211,7 +211,7 @@ export default function SymptomsHubPage() {
         </section>
 
         {/* Full List */}
-        <section id="all-symptoms" className="scroll-mt-8 max-w-3xl">
+        <section id="all-symptoms" className="scroll-mt-8">
           <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl text-text mb-6">
             All Symptom Guides
           </h2>
