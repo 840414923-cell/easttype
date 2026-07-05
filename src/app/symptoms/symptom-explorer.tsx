@@ -100,7 +100,7 @@ export function SymptomExplorer({
           placeholder="Search symptoms..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full px-4 py-3 pl-11 rounded-xl border border-[rgba(201,163,85,0.15)] bg-card-bg text-text placeholder:text-text2/40 outline-none focus:border-[rgba(201,163,85,0.4)] transition-colors text-sm"
+          className="w-full px-4 py-3 pl-11 rounded-xl border border-[rgba(201,163,85,0.15)] bg-card-bg text-text placeholder:text-text2/40 outline-none focus:border-[rgba(201,163,85,0.4)] transition-colors text-base"
         />
         <svg
           className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text2/40"
@@ -136,7 +136,7 @@ export function SymptomExplorer({
         <div className="space-y-8">
           {grouped.map((g) => (
             <div key={g.anchor}>
-              <h2 className="font-[family-name:var(--font-display)] text-sm font-semibold text-text2/70 uppercase tracking-wider mb-3">
+              <h2 className="font-[family-name:var(--font-display)] text-base font-semibold text-text2/70 uppercase tracking-wider mb-3">
                 {g.name} <span className="text-text2/40 normal-case font-normal">({g.items.length})</span>
               </h2>
               <div className="rounded-2xl border border-[rgba(201,163,85,0.15)] overflow-hidden">
@@ -149,14 +149,14 @@ export function SymptomExplorer({
                     }`}
                   >
                     <div className="min-w-0 flex-1">
-                      <h3 className="font-[family-name:var(--font-display)] text-sm text-text group-hover:text-accent transition-colors truncate">
+                      <h3 className="font-[family-name:var(--font-display)] text-base text-text group-hover:text-accent transition-colors truncate">
                         {s.title}
                       </h3>
-                      <p className="text-xs text-text2/50 truncate mt-0.5">{s.metaDesc}</p>
+                      <p className="text-sm text-text2/50 truncate mt-0.5">{s.metaDesc}</p>
                     </div>
                     <div className="flex items-center gap-2 flex-shrink-0">
-                      <span className="text-[10px] text-accent/80 uppercase tracking-wider font-medium whitespace-nowrap">{s.tag}</span>
-                      <span className="text-[10px] text-text2/30">{s.readTime}</span>
+                      <span className="text-xs text-accent/80 uppercase tracking-wider font-medium whitespace-nowrap">{s.tag}</span>
+                      <span className="text-xs text-text2/30">{s.readTime}</span>
                     </div>
                   </Link>
                 ))}
@@ -186,14 +186,14 @@ export function SymptomExplorer({
                 }`}
               >
                 <div className="min-w-0 flex-1">
-                  <h3 className="font-[family-name:var(--font-display)] text-sm text-text group-hover:text-accent transition-colors truncate">
+                  <h3 className="font-[family-name:var(--font-display)] text-base text-text group-hover:text-accent transition-colors truncate">
                     {s.title}
                   </h3>
-                  <p className="text-xs text-text2/50 truncate mt-0.5">{s.metaDesc}</p>
+                  <p className="text-sm text-text2/50 truncate mt-0.5">{s.metaDesc}</p>
                 </div>
                 <div className="flex items-center gap-2 flex-shrink-0">
-                  <span className="text-[10px] text-accent/80 uppercase tracking-wider font-medium whitespace-nowrap">{s.tag}</span>
-                  <span className="text-[10px] text-text2/30">{s.readTime}</span>
+                  <span className="text-xs text-accent/80 uppercase tracking-wider font-medium whitespace-nowrap">{s.tag}</span>
+                  <span className="text-xs text-text2/30">{s.readTime}</span>
                 </div>
               </Link>
             ))
