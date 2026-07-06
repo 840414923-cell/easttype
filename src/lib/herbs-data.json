@@ -9224,5 +9224,454 @@
       }
     ],
     "image": "/images/herbs/szechwan-lovage-chuan-xiong.jpg"
+  },
+  {
+    "slug": "dandelion-pu-gong-ying",
+    "nameEn": "Dandelion",
+    "nameZh": "pu gong ying",
+    "nameZhTrad": "蒲公英",
+    "pinyin": "pu gong ying",
+    "botanicalName": "Taraxacum mongolicum Hand.-Mazz.",
+    "category": "Heat Clearing",
+    "temperature": "Cold",
+    "taste": "Bitter, Sweet",
+    "channels": "Liver, Stomach",
+    "summary": "A powerful yet gentle heat-clearing herb that supports liver detoxification, reduces inflammation, and promotes healthy urination. Dandelion is one of the most accessible and widely used medicinal plants in both Eastern and Western herbal traditions.",
+    "actions": [
+      "Clears heat and detoxifies fire toxicity",
+      "Reduces swelling and dissipates nodules",
+      "Promotes urination and resolves dampness",
+      "Supports liver function and bile flow"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears heat and detoxifies fire toxicity",
+        "explanation": "Dandelion's cold nature makes it ideal for inflammatory and heat-related conditions. In TCM, heat toxicity manifests as red, swollen, painful conditions such as boils, sore throat, and skin eruptions. Dandelion draws heat out through urination and gently cools the system without damaging the spleen."
+      },
+      {
+        "action": "Reduces swelling and dissipates nodules",
+        "explanation": "For stubborn swellings, lymph node enlargement, or breast tenderness, dandelion's bitter cold nature helps break up stagnant heat and phlegm. It is commonly included in formulas for mastitis and skin abscesses."
+      },
+      {
+        "action": "Promotes urination and resolves dampness",
+        "explanation": "Dandelion acts as a natural diuretic, helping the body eliminate excess fluids and dampness through urine. This action makes it useful for edema, urinary tract infections, and damp-heat conditions."
+      },
+      {
+        "action": "Supports liver function and bile flow",
+        "explanation": "In TCM, dandelion enters the Liver channel and clears liver heat. Modern research confirms it stimulates bile production, which aids digestion and supports the liver's detoxification pathways."
+      }
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "yin_deficient"
+    ],
+    "therapeuticFocus": [
+      "Skin Health",
+      "Detox & Cleansing",
+      "Liver Support"
+    ],
+    "foodPairings": [
+      "honeysuckle",
+      "chrysanthemum",
+      "licorice root",
+      "mint"
+    ],
+    "howToUse": "Steep 10-15g dried dandelion in boiling water for 10 minutes as tea. Can also be added to soups or stir-fried as a vegetable. Fresh dandelion leaves can be used in salads.",
+    "dosage": "10-30g dried per day. For tea, use 10-15g. For stronger decoction, up to 30g.",
+    "preparationNotes": "Rinse dried dandelion briefly before steeping. For tea, use water just off the boil and cover for 10 minutes. The dried form is more concentrated than fresh. Store in a cool, dry place.",
+    "dietaryAdvice": "While using dandelion, avoid spicy, greasy, and deep-fried foods that generate more heat. Include cooling foods such as cucumber, mung beans, and celery. Drink plenty of water to support the diuretic action.",
+    "cautions": [
+      "Not suitable for people with cold and weak digestion (Qi Deficient or Yang Deficient types with loose stools)",
+      "May cause mild stomach discomfort in sensitive individuals",
+      "Avoid if you have gallbladder obstruction or bile duct issues",
+      "Dandelion may interact with diuretic medications and lithium",
+      "Discontinue use if you experience excessive urination or electrolyte imbalance"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Damp Heat types with skin breakouts, acne, or boils",
+        "tcmInterpretation": "Damp Heat creates red, inflamed, and sometimes pus-filled skin eruptions. Dandelion's heat-clearing and detoxifying action directly targets this pattern.",
+        "whyItHelps": "The cold, bitter nature of dandelion is perfectly suited to damp heat patterns. Unlike some heat-clearing herbs that are too harsh, dandelion is gentle enough for regular use while still being effective."
+      },
+      {
+        "condition": "Yin Deficient types with internal heat and dry mouth",
+        "tcmInterpretation": "When Yin is low, internal heat rises unchecked. Dandelion helps clear this empty heat through its cooling nature, while its gentle moisture-preserving quality prevents further Yin damage.",
+        "whyItHelps": "Dandelion is one of the few heat-clearing herbs that does not excessively dry the body, making it more suitable for Yin deficient individuals who need heat cleared without losing moisture."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I drink dandelion tea every day?",
+        "a": "For heat and damp-heat patterns, dandelion tea can be consumed daily for 2-3 weeks at a time. If you have a cold or weak digestion, daily use is not recommended. Take a break after 3 weeks and reassess."
+      },
+      {
+        "q": "Is dandelion the same as the weed in my yard?",
+        "a": "The TCM variety (Taraxacum mongolicum) is closely related to the common dandelion (Taraxacum officinale). While they share similar properties, the TCM variety is standardized for medicinal use. Yard dandelions may have pesticide exposure and are not recommended for medicinal use."
+      },
+      {
+        "q": "Which body type benefits most from dandelion?",
+        "a": "Damp Heat and Yin Deficient types may benefit most, especially for skin, liver, and heat-related concerns. If you tend to run cold or have weak digestion, dandelion may be too cooling. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/dandelion-pu-gong-ying.jpg"
+  },
+  {
+    "slug": "euryale-seed-qian-shi",
+    "nameEn": "Euryale Seed",
+    "nameZh": "qian shi",
+    "nameZhTrad": "芡实",
+    "pinyin": "qian shi",
+    "botanicalName": "Euryale ferox Salisb.",
+    "category": "Astringent Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet, Astringent",
+    "channels": "Spleen, Kidney",
+    "summary": "A gentle food-grade herb that strengthens the spleen, stops chronic diarrhea, and anchors kidney energy. Euryale seed is a popular ingredient in Chinese wellness soups and congees, valued for being both nourishing and stabilizing.",
+    "actions": [
+      "Strengthens the spleen and stops diarrhea",
+      "Anchors kidney qi and reduces frequent urination",
+      "Stops excessive vaginal discharge and sweating",
+      "Nourishes without causing stagnation"
+    ],
+    "actionDetails": [
+      {
+        "action": "Strengthens the spleen and stops diarrhea",
+        "explanation": "Euryale seed's sweet and astringent nature makes it ideal for chronic digestive weakness. It tonifies the spleen while simultaneously holding things in, making it one of the few herbs that both strengthens and stabilizes."
+      },
+      {
+        "action": "Anchors kidney qi and reduces frequent urination",
+        "explanation": "When kidney qi is weak, the body cannot retain fluids properly, leading to frequent urination, especially at night. Euryale seed's astringent quality helps anchor kidney energy and reduce these symptoms."
+      },
+      {
+        "action": "Stops excessive vaginal discharge and sweating",
+        "explanation": "In TCM, excessive discharge and spontaneous sweating often indicate qi deficiency with instability. Euryale seed's astringent nature helps the body retain what it should and release only what it should."
+      },
+      {
+        "action": "Nourishes without causing stagnation",
+        "explanation": "Unlike some tonics that can feel heavy or clogging, euryale seed is known for being light and easy to digest. It nourishes the spleen without creating dampness or stagnation, making it safe for long-term use."
+      }
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "phlegm_damp"
+    ],
+    "therapeuticFocus": [
+      "Digestion",
+      "Energy",
+      "Kidney Health"
+    ],
+    "foodPairings": [
+      "Chinese yam",
+      "lotus seed",
+      "coix seed",
+      "white fungus"
+    ],
+    "howToUse": "Cook 15-30g in soups, congees, or stews. Commonly combined with Chinese yam and lotus seed in Four Herbs Soup (Si Shen Tang). Can also be ground into powder and mixed into warm water.",
+    "dosage": "15-30g per day in food preparations. Up to 50g in therapeutic decoction.",
+    "preparationNotes": "Soak dried euryale seeds for 2-4 hours before cooking to soften. They are very hard when dry. In soups and congees, simmer for at least 30 minutes. Ground powder form can be added directly to hot liquids.",
+    "dietaryAdvice": "Euryale seed pairs well with warm, cooked foods. Avoid cold and raw foods that weaken the spleen. Congee with euryale seed, Chinese yam, and lotus seed makes an excellent breakfast for spleen-strengthening.",
+    "cautions": [
+      "Not suitable during acute colds, flu, or fever",
+      "Avoid if you have constipation, as the astringent nature may worsen it",
+      "May cause bloating if eaten in large quantities without adequate cooking",
+      "Do not use during acute food poisoning or infectious diarrhea"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Qi Deficient types with chronic loose stools and fatigue",
+        "tcmInterpretation": "When spleen qi is too weak to transform and transport, food passes through without being properly processed, resulting in chronic loose stools. Euryale seed strengthens the spleen while its astringent quality helps firm the stool.",
+        "whyItHelps": "Euryale seed is uniquely dual-action: it tonifies and astringes simultaneously. For the exhausted person whose digestion cannot hold anything in, this combination is more effective than tonics alone."
+      },
+      {
+        "condition": "Phlegm Damp types with water retention and sluggishness",
+        "tcmInterpretation": "Phlegm damp types often have both spleen weakness and fluid retention. Euryale seed strengthens the spleen to transform fluids while its stabilizing nature prevents excessive fluid loss.",
+        "whyItHelps": "Unlike harsh draining herbs that can deplete the system, euryale seed gently supports the spleen's natural fluid metabolism. It is food-grade and safe for regular use in soups and congees."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I eat euryale seed as a regular food?",
+        "a": "Yes. Euryale seed is a food-grade herb commonly used in Chinese cooking. It is a popular ingredient in wellness soups, congees, and sweet desserts. Regular dietary use is safe for most people."
+      },
+      {
+        "q": "How is euryale seed different from lotus seed?",
+        "a": "Both strengthen the spleen and stop diarrhea, but euryale seed is more astringent and better for kidney-related issues like frequent urination, while lotus seed is better for calming the mind and heart. They are often used together."
+      },
+      {
+        "q": "Which body type benefits most from euryale seed?",
+        "a": "Qi Deficient and Phlegm Damp types may benefit most, especially for digestive weakness and fluid retention. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/euryale-seed-qian-shi.jpg"
+  },
+  {
+    "slug": "burdock-root-niu-bang-gen",
+    "nameEn": "Burdock Root",
+    "nameZh": "niu bang gen",
+    "nameZhTrad": "牛蒡根",
+    "pinyin": "niu bang gen",
+    "botanicalName": "Arctium lappa L.",
+    "category": "Heat Clearing",
+    "temperature": "Cold",
+    "taste": "Bitter",
+    "channels": "Lung, Stomach",
+    "summary": "A versatile heat-clearing root that excels at skin conditions, throat inflammation, and detoxification. Burdock root bridges Eastern and Western herbal medicine, being used in both TCM formulas and European folk remedies.",
+    "actions": [
+      "Clears heat and detoxifies the skin",
+      "Disperses wind-heat and soothes the throat",
+      "Promotes rash eruption and skin clearing",
+      "Supports lymphatic drainage and detoxification"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears heat and detoxifies the skin",
+        "explanation": "Burdock root is one of the premier skin herbs in both TCM and Western herbalism. Its bitter cold nature clears toxic heat from the blood, which is often the root cause of acne, boils, and inflammatory skin conditions."
+      },
+      {
+        "action": "Disperses wind-heat and soothes the throat",
+        "explanation": "For sore throats, early-stage colds with heat signs, and swollen lymph nodes, burdock root helps vent heat outward. It is particularly effective when heat is trapped in the throat and upper respiratory tract."
+      },
+      {
+        "action": "Promotes rash eruption and skin clearing",
+        "explanation": "In TCM, some rashes are trapped heat that needs to come out. Burdock root helps the body push these eruptions to the surface so they can resolve, rather than suppressing them inward."
+      },
+      {
+        "action": "Supports lymphatic drainage and detoxification",
+        "explanation": "Burdock root promotes the movement of lymph and supports the body's natural detoxification pathways. This action is valued in both TCM, where it clears damp-heat, and in Western herbalism, where it is used as a blood purifier."
+      }
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "phlegm_damp"
+    ],
+    "therapeuticFocus": [
+      "Skin Health",
+      "Detox & Cleansing",
+      "Immunity"
+    ],
+    "foodPairings": [
+      "dandelion",
+      "honeysuckle",
+      "licorice root",
+      "mung bean"
+    ],
+    "howToUse": "Cook 10-15g dried burdock root in soups or decoctions. Fresh burdock root (gobo) can be stir-fried, added to stews, or made into tea. Peel and soak in water to prevent oxidation before cooking.",
+    "dosage": "10-15g dried per day in decoction. 30-60g fresh root as vegetable.",
+    "preparationNotes": "Dried burdock root needs 20-30 minutes of simmering. Fresh root should be scrubbed, peeled, and immediately placed in water with a splash of vinegar to prevent browning. Slice thinly for faster cooking.",
+    "dietaryAdvice": "While using burdock root, avoid spicy and greasy foods that add heat. Include cooling foods such as mung beans, cucumber, and lotus root. Drink plenty of water to support the detoxification process.",
+    "cautions": [
+      "Not suitable for people with cold and weak digestion or chronic diarrhea",
+      "Avoid during pregnancy without consulting a healthcare provider",
+      "May cause allergic reactions in people sensitive to plants in the daisy family",
+      "Burdock may interact with blood sugar medications and diuretics",
+      "Discontinue use if you experience skin rash or digestive upset"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Damp Heat types with acne, boils, or skin inflammation",
+        "tcmInterpretation": "Damp heat in the blood creates red, inflamed, and sometimes painful skin eruptions. Burdock root clears blood heat and detoxifies, directly addressing the root cause rather than just the surface symptom.",
+        "whyItHelps": "Burdock root's bitter cold nature enters the Lung and Stomach channels, which govern the skin and the middle digestive region. This dual action makes it effective for skin conditions that originate from internal heat."
+      },
+      {
+        "condition": "Phlegm Damp types with sluggish lymph and skin oiliness",
+        "tcmInterpretation": "Phlegm damp types often have oily skin, cystic acne, and swollen lymph nodes. Burdock root helps drain dampness and move stuck lymph, reducing the heavy, sluggish feeling.",
+        "whyItHelps": "Burdock's detoxifying and lymph-moving actions help clear the phlegm damp accumulation that shows up on the skin. It can be used as a daily tea during active breakouts."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is burdock root the same as gobo?",
+        "a": "Yes. Gobo is the Japanese name for burdock root, commonly sold in Asian grocery stores as a vegetable. The TCM variety uses the same plant species (Arctium lappa). Fresh gobo can be used in cooking, while dried burdock root is used in herbal decoctions."
+      },
+      {
+        "q": "Can I use burdock root for acne?",
+        "a": "Burdock root is one of the most popular TCM herbs for acne, especially the red, inflamed, cystic type. It works best for damp heat patterns. If your acne is pale, cystic, and not very red, the pattern may be different and burdock might not be the best choice. Take the free body type quiz to check."
+      },
+      {
+        "q": "Which body type benefits most from burdock root?",
+        "a": "Damp Heat and Phlegm Damp types may benefit most, especially for skin conditions, detox, and lymphatic support. If you tend to run cold or have weak digestion, burdock may be too cooling. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/burdock-root-niu-bang-gen.jpg"
+  },
+  {
+    "slug": "pumpkin-seeds-nan-gua-zi",
+    "nameEn": "Pumpkin Seeds",
+    "nameZh": "nan gua zi",
+    "nameZhTrad": "南瓜子",
+    "pinyin": "nan gua zi",
+    "botanicalName": "Cucurbita moschata Duch.",
+    "category": "Parasite Killer & Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Large Intestine, Spleen",
+    "summary": "A food-grade herb that kills intestinal parasites, supports prostate health, and provides gentle daily nutrition. Pumpkin seeds are one of the safest and most accessible medicinal foods in Chinese medicine.",
+    "actions": [
+      "Kills intestinal parasites without toxicity",
+      "Supports prostate health and reduces urinary frequency",
+      "Nourishes the spleen and provides gentle energy",
+      "Rich in zinc, magnesium, and healthy fats"
+    ],
+    "actionDetails": [
+      {
+        "action": "Kills intestinal parasites without toxicity",
+        "explanation": "Pumpkin seeds contain compounds that paralyze intestinal parasites, particularly tapeworms and roundworms, allowing them to be expelled from the body. Unlike harsh chemical anti-parasitics, pumpkin seeds are non-toxic and safe for children and the elderly."
+      },
+      {
+        "action": "Supports prostate health and reduces urinary frequency",
+        "explanation": "In TCM, frequent urination in older men often relates to kidney qi deficiency. Pumpkin seeds tonify kidney qi and their high zinc content supports prostate function. Modern research confirms their benefit for benign prostatic hyperplasia (BPH)."
+      },
+      {
+        "action": "Nourishes the spleen and provides gentle energy",
+        "explanation": "Pumpkin seeds are sweet and warm, entering the spleen channel. They provide sustainable energy through their rich content of healthy fats, protein, and minerals. They are gentle enough for daily use as a food."
+      },
+      {
+        "action": "Rich in zinc, magnesium, and healthy fats",
+        "explanation": "From a nutritional perspective, pumpkin seeds are one of the best plant sources of zinc (important for immunity and prostate health), magnesium (important for sleep and muscle relaxation), and omega fatty acids."
+      }
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "balanced"
+    ],
+    "therapeuticFocus": [
+      "Men's Health",
+      "Digestion",
+      "Daily Nutrition"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "goji berries",
+      "black sesame",
+      "jujube"
+    ],
+    "howToUse": "Eat 20-30g raw or lightly roasted pumpkin seeds daily as a snack. Can also be ground into powder and added to congee, smoothies, or oatmeal. For parasite cleansing, eat 50g on an empty stomach for 3-5 days.",
+    "dosage": "20-30g daily as food. 50g for therapeutic parasite use. Up to 100g in divided doses for prostate support.",
+    "preparationNotes": "Raw pumpkin seeds can be eaten directly. For roasting, spread on a baking sheet and bake at 160C (320F) for 10-15 minutes. Avoid adding excess salt. Store in an airtight container in a cool, dry place.",
+    "dietaryAdvice": "Pumpkin seeds make an excellent afternoon snack for sustained energy. Combine with goji berries and walnuts for a kidney-nourishing trail mix. Avoid eating large quantities at night as the protein and fat content may interfere with sleep.",
+    "cautions": [
+      "Very safe as a food. Excessive consumption may cause mild digestive discomfort",
+      "Not suitable during acute diarrhea",
+      "May interact with diuretic medications",
+      "Choose raw or lightly roasted seeds over heavily salted commercial varieties",
+      "People with nut or seed allergies should consult their doctor before use"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Qi Deficient types with fatigue and weak digestion",
+        "tcmInterpretation": "Qi deficient types benefit from gentle, sweet, warm foods that strengthen the spleen without creating stagnation. Pumpkin seeds provide easily absorbed nutrition that supports energy production.",
+        "whyItHelps": "The sweet warm nature of pumpkin seeds enters the spleen channel and provides gentle tonification. Unlike some tonics that can feel heavy, pumpkin seeds are a food that can be eaten daily without burden."
+      },
+      {
+        "condition": "Balanced types looking for daily nutritional support",
+        "tcmInterpretation": "Even balanced types need regular nourishment to maintain their equilibrium. Pumpkin seeds offer a broad spectrum of minerals and healthy fats that support overall constitution.",
+        "whyItHelps": "As a food-grade herb, pumpkin seeds are ideal for the balanced type who wants to maintain wellness through diet. Their high zinc content supports immunity, while magnesium supports relaxation and sleep."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Should I eat raw or roasted pumpkin seeds?",
+        "a": "Both are beneficial. Raw seeds retain more of the heat-sensitive nutrients and enzymes. Lightly roasted seeds are easier to digest and have a nuttier flavor. Avoid heavily salted or oil-roasted commercial varieties, as excess sodium and poor-quality oils counteract the health benefits."
+      },
+      {
+        "q": "Can pumpkin seeds really kill parasites?",
+        "a": "Yes, pumpkin seeds contain cucurbitacin, a compound that paralyzes intestinal parasites. For active parasite cleansing, eat 50g of raw seeds on an empty stomach for 3-5 days, followed by a mild laxative to help expel them. This is one of the safest natural anti-parasitic methods."
+      },
+      {
+        "q": "Which body type benefits most from pumpkin seeds?",
+        "a": "Qi Deficient and Balanced types may benefit most as a daily nutritional supplement. The warming nature may add slight heat for those who already run hot. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/pumpkin-seeds-nan-gua-zi.jpg"
+  },
+  {
+    "slug": "black-jujube-hei-zao",
+    "nameEn": "Black Jujube",
+    "nameZh": "hei zao",
+    "nameZhTrad": "黑枣",
+    "pinyin": "hei zao",
+    "botanicalName": "Diospyros lotus L.",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Spleen, Heart, Liver",
+    "summary": "A deeply nourishing blood tonic that warms the middle, calms the heart, and supports women's wellness. Black jujube is darker and richer than red jujube, with a stronger warming and blood-building effect.",
+    "actions": [
+      "Nourishes blood and builds reserves",
+      "Warms the spleen and strengthens digestion",
+      "Calms the heart and supports sleep",
+      "Supplements kidney yang and warms the core"
+    ],
+    "actionDetails": [
+      {
+        "action": "Nourishes blood and builds reserves",
+        "explanation": "Black jujube is richer in iron and darker in color than red jujube, reflecting its stronger blood-building action. It is particularly valued for post-menstrual recovery, postpartum nourishment, and chronic blood deficiency with cold signs."
+      },
+      {
+        "action": "Warms the spleen and strengthens digestion",
+        "explanation": "The warm, sweet nature of black jujube directly supports spleen function. Unlike red jujube which is neutral, black jujube adds warmth, making it better for people whose digestion runs cold and slow."
+      },
+      {
+        "action": "Calms the heart and supports sleep",
+        "explanation": "By nourishing blood and warming the middle, black jujube helps anchor the heart and calm the spirit. It is used for insomnia and anxiety that come from blood deficiency with cold, particularly in depleted individuals."
+      },
+      {
+        "action": "Supplements kidney yang and warms the core",
+        "explanation": "Black jujube has a gentle warming effect on the kidney yang, making it useful for people who feel cold internally, have weak lower back and knees, or frequent urination at night. It is milder than kidney yang tonics but safer for regular use."
+      }
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yang_deficient"
+    ],
+    "therapeuticFocus": [
+      "Blood Building",
+      "Energy",
+      "Women's Health"
+    ],
+    "foodPairings": [
+      "dong quai",
+      "longan",
+      "ginger",
+      "brown sugar"
+    ],
+    "howToUse": "Eat 5-8 pieces daily as a snack, or cook in soups, congees, and teas. Commonly paired with dong quai and longan for blood-building. Can be steeped with ginger for a warming digestive tea.",
+    "dosage": "5-10 pieces per day as food. 10-15 pieces in therapeutic decoction.",
+    "preparationNotes": "Rinse before use. For tea, steep 5-8 pieces in hot water for 10 minutes. For soups and congees, add whole or halved and simmer for 30 minutes. Can be pitted for easier eating. Store in a cool, dry place.",
+    "dietaryAdvice": "Black jujube pairs well with warming foods such as ginger tea, brown sugar water, and lamb stew. Avoid cold and raw foods that counteract the warming action. For blood building, combine with longan and dong quai in the week after menstruation.",
+    "cautions": [
+      "Not suitable for damp-heat patterns with thick tongue coating and oily skin",
+      "Avoid during acute colds with sore throat or fever",
+      "Excessive consumption may cause bloating or constipation",
+      "Not recommended for people with diabetes due to high sugar content",
+      "Do not eat the pits, which can cause intestinal obstruction"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Qi Deficient types with cold digestion and fatigue",
+        "tcmInterpretation": "Qi deficient types with cold signs benefit from black jujube's warming, sweet nature. It strengthens the spleen while adding gentle warmth, improving both energy production and digestive comfort.",
+        "whyItHelps": "Unlike red jujube which is neutral, black jujube adds warmth. For the qi deficient person who also feels cold, this dual action of tonifying and warming is more effective than neutral tonics."
+      },
+      {
+        "condition": "Yang Deficient types with cold hands, feet, and lower back weakness",
+        "tcmInterpretation": "Yang deficiency creates internal cold that affects the core and extremities. Black jujube's warming nature helps supplement kidney yang gently, making it suitable for long-term dietary use.",
+        "whyItHelps": "Black jujube is food-grade and safe for daily use, making it ideal for gradually warming the body without the risk of overheating. It can be eaten as a daily snack or cooked into warming soups."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between black jujube and red jujube?",
+        "a": "Black jujube (hei zao) is smoked or dried longer than red jujube (da zao), giving it a darker color, richer flavor, and stronger warming effect. Red jujube is neutral and better for general spleen tonification, while black jujube is warm and better for blood building and warming cold constitutions."
+      },
+      {
+        "q": "Can I eat black jujube every day?",
+        "a": "Yes, 5-8 pieces per day is safe for most people. It is a food-grade herb commonly eaten as a snack or cooked in soups. If you tend to run hot or have damp-heat signs, reduce to 2-3 pieces or avoid."
+      },
+      {
+        "q": "Which body type benefits most from black jujube?",
+        "a": "Qi Deficient and Yang Deficient types may benefit most, especially for cold digestion, fatigue, and blood deficiency with cold signs. If you tend to run hot, red jujube may be more suitable. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/black-jujube-hei-zao.jpg"
   }
 ]
