@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-07-02
+Last updated: 2026-07-06
 
 ---
 
@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (271 in sitemap)
+## Published URLs (274 in sitemap, 289 build pages)
 
 ### Core Pages (8)
 
@@ -51,11 +51,11 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, blood_stasis, qi_stagnant, sensitive
 
-### Wellness Pages (43)
+### Wellness Pages (48)
 
-43 in-depth wellness guides covering TCM patterns, concepts, conditions, and remedies. Organized in 4 clusters:
+48 in-depth wellness guides covering TCM patterns, concepts, conditions, and remedies. Organized in 4 clusters:
 - TCM Organ Patterns (10): spleen-qi-deficiency, kidney-yin-deficiency, liver-qi-stagnation, etc.
-- Chinese Medicine For X (12): chinese-medicine-for-insomnia, -anxiety, -weight-loss, -acne, -fatigue, etc.
+- Chinese Medicine For X (17): chinese-medicine-for-insomnia, -anxiety, -weight-loss, -acne, -fatigue, -depression, -migraines, -eczema, -hair-loss, -pms, etc.
 - TCM Fundamentals (6): what-is-qi, what-is-shen, what-is-jing, yin-and-yang, five-elements-theory, etc.
 - Long-tail Supplements (15): chinese-herbs-for-energy, tcm-diet, cooling-foods-chinese-medicine, etc.
 
@@ -65,9 +65,9 @@ balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, b
 
 `/foods-for/[slug]` dynamic route. 10 food therapy guides matching ingredients to body type.
 
-### Herb Pages (100)
+### Herb Pages (110)
 
-`/herbs/[slug]` dynamic route. 100 TCM herbs with real photos, each containing:
+`/herbs/[slug]` dynamic route. 110 TCM herbs with real photos, each containing:
 - Properties (temperature, flavor, meridian entry)
 - Benefits and action details
 - Commonly used for (conditions)
@@ -78,7 +78,7 @@ balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, b
 - Botanical name
 - 11 categories: Tonifying, Calming, Heat Clearing, Digestive Support, etc.
 
-### Solutions Pages (5)
+### Solutions Pages (7)
 
 TCM herbal formula guides by health concern.
 - `/solutions` hub page (left-image right-text layout, alternating bg colors)
@@ -86,6 +86,8 @@ TCM herbal formula guides by health concern.
 - `/solutions/chinese-medicine-for-energy` — 3 formulas (Ginseng & Jujube, Astragalus & Ginger, American Ginseng & Ophiopogon)
 - `/solutions/chinese-medicine-for-sleep` — 3 formulas (Sour Jujube & Longan, Lily & Lotus, Rose & Chrysanthemum)
 - `/solutions/chinese-medicine-for-digestion` — 3 formulas (Yam & Poria, Dendrobium & Ophiopogon, Tangerine Peel & Hawthorn)
+- `/solutions/chinese-medicine-for-constipation` — 3 formulas
+- `/solutions/chinese-medicine-for-anxiety` — 3 formulas (Rose & Citrus Bloom, Lily & Lotus Heart-Calming, Jujube & Longan Serenity)
 
 Each formula includes classical source citation, ingredients with amounts, step-by-step preparation, dosage, duration, taste profile, cautions, and body type matching.
 
@@ -106,14 +108,14 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Symptom pages | 70 (all converted to structured data + shared component) |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages | 43 (+ 7 redirected) |
+| Wellness pages | 48 (+ 7 redirected) |
 | Food combo pages | 10 |
-| Herb pages | 100 |
-| Solutions pages | 5 (hub + 4 detail) |
-| Hub pages | 5 (symptoms, patterns, wellness, foods-for, herbs) |
+| Herb pages | 110 |
+| Solutions pages | 7 (hub + 6 detail) |
+| Hub pages | 6 (symptoms, patterns, wellness, foods-for, herbs, solutions) |
 | Utility pages | 4 |
-| Sitemap URLs | 257 |
-| Total build pages | 271 |
+| Sitemap URLs | 274 |
+| Total build pages | 289 |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 
@@ -162,6 +164,18 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 ---
 
+## Critical CSS Fix (2026-07-06)
+
+**Root cause:** All custom theme colors (`--color-text`, `--color-accent`, `--color-nav-bg`, `--color-card-bg`, etc.) were defined in `:root` but NOT registered in `@theme`. Tailwind v4 only generates utilities for colors in `@theme`. Result: **8,865 color utility classes silently dropped** across the entire site.
+
+**Symptoms:** Mobile hamburger menu invisible (3 lines used `bg-text` with no generated CSS), all gold accent colors missing, card backgrounds transparent, button gradients absent. Site was readable (body CSS set base text/bg colors) but completely unstyled.
+
+**Fix:** Changed `:root {` to `@theme {` in `globals.css` (1 line). All 16 dynamic colors now registered. Utilities use `var()` references, `.dark` overrides work correctly. Commit: fac94f6.
+
+**Verification:** 289-page build passed, verify-pages 0 issues, confirmed all utilities (`bg-text`, `text-accent`, `bg-card-bg`, `bg-nav-bg`, `from-accent`, etc.) exist in compiled CSS. `.dark` block confirmed after `:root` in cascade.
+
+---
+
 ## Google Indexing Status
 
 - Search Console resource: https://www.myeasterntype.com (www)
@@ -199,16 +213,17 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 | Issue | Severity | Status |
 |---|---|---|
-| Google ranking still page 6-10 | Monitoring | Needs backlinks and domain age. /patterns/low-vitality at position 5.5 is promising |
+| Custom colors not in @theme (site unstyled) | Critical | **FIXED 2026-07-06** (fac94f6) |
+| Symptom canonical bug (111 URLs affected) | Critical | **FIXED 2026-07-04**, waiting Google recrawl |
+| Google ranking still page 5-10 | Monitoring | Needs backlinks and domain age. Sandbox effect |
+| Bing: 25 impressions, 4 AI citations (7/3-4) | Promising | Acid reflux page cited by Bing Copilot 4x |
 | Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", quiz/result pages still say "Eastern Body Type" |
-| Quiz page not rebranded | Medium | quiz/page.tsx title, quiz-client.tsx body text, result badge all still say "Eastern" |
-| Basic report access control gap | High | report-v2 only checks cookie for pro plan. Anyone with URL can see basic report |
-| IndexNow 403 from server IP | Medium | Key file is live (200). Server/datacenter IP blocked by IndexNow. User must run script locally |
+| Quiz page not rebranded | Medium | quiz-client.tsx body text, result badge still say "Eastern" |
+| Basic report access control gap | High | report-v2 only checks cookie for pro plan |
+| IndexNow 403 from server IP | Medium | Key file live (200). User must run script locally |
 | No purchase recovery mechanism | Low | If user clears cookies, reports are lost |
-| No conversion tracking | Medium | Need to set up quiz-to-checkout funnel analytics |
-| Em dashes in older content | Low | layout.tsx, older article.tsx files contain em dashes. New content is clean |
+| No conversion tracking | Medium | Need quiz-to-checkout funnel analytics |
 | Pinterest content pipeline | Active | Daily 3 pins scheduled |
-| Symptom article content quality | Medium | Batch-extracted by AI, some tcmVsModern tables feel forced. Needs manual polish per page |
 | Domain authority very low | High | Domain age <1 year, backlinks ~0. Biggest SEO bottleneck |
 
 ---

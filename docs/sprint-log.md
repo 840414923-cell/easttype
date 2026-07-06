@@ -1,6 +1,48 @@
 # Sprint Log
 
-## Sprint 01
+## Sprint 17 (2026-07-06)
+
+Goal: Fix mobile navigation + site-wide color system
+
+Completed:
+
+- **Critical CSS bug discovered and fixed**: All 16 custom theme colors were in `:root` instead of `@theme`. Tailwind v4 silently dropped 8,865 color utility classes across 289 pages. Mobile hamburger menu was invisible (`bg-text` generated no CSS). Fix: 1 line change `:root {` to `@theme {` in globals.css.
+- Verified: 289-page build passed, verify-pages 0 issues, all utilities confirmed in compiled CSS, `.dark` overrides working.
+- Commit: fac94f6
+
+Key metrics:
+- Total pages: 289 (110 herbs + 7 solutions + 70 symptoms + 48 wellness + 9 patterns + 9 types + 10 foods + core)
+- Sitemap URLs: 274
+- Color classes fixed: 8,865 occurrences across entire codebase
+
+Learnings:
+
+- Tailwind v4 only generates color utilities from `@theme`, NOT from `:root`. This is a breaking change from v3 that is easy to miss.
+- The `@theme inline` directive inlines values (static colors), while `@theme` (without inline) generates `var()` references (needed for light/dark switching).
+- A site can appear "functional" with completely broken CSS colors if body text/bg are set via regular CSS rules — but interactive elements like hamburger menus become invisible.
+- Always verify compiled CSS output, not just source code.
+
+---
+
+## Sprint 16 (2026-07-04 to 2026-07-05)
+
+Goal: Visual polish + content expansion
+
+Completed:
+
+- Symptom hub page redesigned: Hero section + 6 featured symptom cards (flat design) + 11 category SVG icons + full list with alternating rows
+- 6 hub pages unified to max-w-5xl (solutions, herbs, patterns, wellness, foods-for, solutions detail)
+- Wellness hub upgraded: emoji to 8 SVG icons, alternating row backgrounds, deeper borders
+- CTA button optimized: persistent shadow, larger radius, bold font, "Take the Free Quiz"
+- Font sizes increased to match Healthline/WebMD standards
+- Anxiety & Stress solution added (6th): 3 formulas, 4 images
+- 5 new herbs added (105 to 110): Dandelion, Euryale Seed, Burdock Root, Pumpkin Seeds, Black Jujube
+- 5 new wellness articles added (43 to 48): Depression, Migraines, Eczema, Hair Loss, PMS
+- Symptom canonical URL bug fixed (111 occurrences across 69 pages)
+
+Commits: 0088dc6, 9b4f2d4, 548da4f, ef59786, + visual polish commits
+
+---
 
 Completed:
 
