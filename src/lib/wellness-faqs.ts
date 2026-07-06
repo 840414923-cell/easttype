@@ -1,4 +1,4 @@
-export interface FaqItem {
+﻿export interface FaqItem {
   q: { en: string; "zh-TW": string; ja: string }
   a: { en: string; "zh-TW": string; ja: string }
 }
@@ -968,4 +968,115 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Switch cold water for warm, add ginger tea, replace raw salads with cooked vegetables, eat warm breakfast between 7-9 AM, and stop at 70 percent full.", "zh-TW": "冰水改溫水、加薑茶、熟菜替生沙拉、7-9點吃溫早餐、七分飽。", ja: "冷水をお湯に、しょうが茶を加える、生野菜を加熱野菜に変えるなどから。" },
     },
   ],
+  "chinese-medicine-for-depression": [
+    {
+      q: { en: "Can Chinese medicine help with depression?", "zh-TW": "中醫能幫助抑鬱嗎？", ja: "中医学は抑うつに効果がありますか？" },
+      a: { en: "Chinese medicine views depression as a pattern of stuck or depleted energy, not just a brain disorder. Foods that move Liver Qi or nourish Blood may help alongside professional care.", "zh-TW": "中醫將抑鬱視為氣滯或氣血不足。疏肝或補血的食物可輔助專業治療。", ja: "中医学では抑うつを気滞や気血不足と見ます。" },
+    },
+    {
+      q: { en: "What foods help depression in Chinese medicine?", "zh-TW": "中醫說抑鬱吃什麼好？", ja: "抑うつに良い食材は？" },
+      a: { en: "For stuck Liver Qi, rose tea and tangerine peel may help. For depletion, jujube dates, longan, and walnuts may help nourish Blood and Kidney Yang.", "zh-TW": "肝氣鬱結用玫瑰花和陳皮。氣血不足用紅棗、桂圓和核桃。", ja: "肝気鬱結には玫瑰花と陳皮。気血不足にはなつめ、桂円、胡桃。" },
+    },
+    {
+      q: { en: "Is depression always Liver Qi Stagnation in TCM?", "zh-TW": "抑鬱在中醫一定是肝氣鬱結嗎？", ja: "抑うつは必ず肝気鬱結ですか？" },
+      a: { en: "No. Liver Qi Stagnation is most common, but depression can also come from Spleen Qi and Blood Deficiency, Kidney Yang Deficiency, or Phlegm Damp obstructing the mind.", "zh-TW": "不一定。也可能是脾氣血虛、腎陽虛或痰濕蒙蔽心竅。", ja: "いいえ。脾気血虚、腎陽虚、痰湿も原因になります。" },
+    },
+    {
+      q: { en: "Should I stop my antidepressants to try Chinese medicine?", "zh-TW": "我應該停抗抑鬱藥來試中醫嗎？", ja: "抗うつ薬を止めて中医学を試すべき？" },
+      a: { en: "No. Never stop prescribed antidepressants without consulting your doctor. Chinese medicine food therapy may complement but should never replace professional mental health treatment.", "zh-TW": "不應該。請勿未經醫生同意停藥。", ja: "いいえ。医師に相談せずに薬を止めないでください。" },
+    },
+    {
+      q: { en: "Which body type is most associated with depression?", "zh-TW": "哪種體質最容易抑鬱？", ja: "どの体質が抑うつに関連しますか？" },
+      a: { en: "Qi Stagnant and Qi Deficient types are most commonly associated. Take the free body type quiz to check your constitution.", "zh-TW": "氣鬱和氣虛體質最常見。做免費測驗確認。", ja: "気鬱と気虚タイプが最も関連します。" },
+    },
+  ],
+  "chinese-medicine-for-migraines": [
+    {
+      q: { en: "What does Chinese medicine say causes migraines?", "zh-TW": "中醫認為偏頭痛是什麼原因？", ja: "中医学では片頭痛の原因は？" },
+      a: { en: "Migraines are most often caused by Liver Fire rising to the head, Blood Deficiency failing to nourish the head, or Phlegm Damp clouding the head.", "zh-TW": "最常見是肝火上炎、血虛不能養頭、或痰濕蒙蔽。", ja: "肝火の上炎、血虚、痰湿が主な原因です。" },
+    },
+    {
+      q: { en: "What foods help migraines in Chinese medicine?", "zh-TW": "中醫說偏頭痛吃什麼好？", ja: "片頭痛に良い食材は？" },
+      a: { en: "For Liver Fire, chrysanthemum tea and mung beans may help cool heat. For Blood Deficiency, goji berries and black sesame may nourish the head.", "zh-TW": "肝火用菊花茶和綠豆。血虛用枸杞和黑芝麻。", ja: "肝火には菊花茶と緑豆。血虚にはクコの実と黒胡麻。" },
+    },
+    {
+      q: { en: "Why do my migraines happen before my period?", "zh-TW": "為什麼偏頭痛在經前發作？", ja: "なぜ月経前に片頭痛が起きる？" },
+      a: { en: "Before menstruation, Blood moves downward and the Liver works harder to manage the shift. If Blood is low or Liver Qi is stuck, this creates migraine conditions.", "zh-TW": "經前血下行，肝需更努力調節。若血不足或肝氣鬱結，就容易偏頭痛。", ja: "月経前に血が下行し、肝の負担が増えるためです。" },
+    },
+    {
+      q: { en: "What foods should I avoid with migraines?", "zh-TW": "偏頭痛要避免什麼食物？", ja: "片頭痛で避けるべき食材は？" },
+      a: { en: "Limit spicy foods, alcohol, coffee, chocolate, and cold drinks. These may trigger or worsen migraines.", "zh-TW": "限制辛辣、酒精、咖啡、巧克力和冷飲。", ja: "辛いもの、アルコール、コーヒー、チョコレート、冷たい飲み物を控えてください。" },
+    },
+    {
+      q: { en: "When should I see a doctor for migraines?", "zh-TW": "偏頭痛何時該看醫生？", ja: "片頭痛でいつ医師に？" },
+      a: { en: "Seek emergency care for the worst headache of your life, headache with fever or stiff neck, or headache after head injury.", "zh-TW": "劇烈頭痛、伴隨發燒或頸部僵硬應急診。", ja: "人生最悪の頭痛、発熱や首の硬直を伴う頭痛は救急受診してください。" },
+    },
+  ],
+  "chinese-medicine-for-eczema": [
+    {
+      q: { en: "What does Chinese medicine say causes eczema?", "zh-TW": "中醫認為濕疹是什麼原因？", ja: "中医学では湿疹の原因は？" },
+      a: { en: "Eczema is most often caused by Damp Heat pushing outward through the skin. Chronic eczema may involve Blood Deficiency.", "zh-TW": "最常見是濕熱外發。慢性濕疹可能涉及血虛。", ja: "最も多いのは湿熱の外発です。" },
+    },
+    {
+      q: { en: "What foods help eczema in Chinese medicine?", "zh-TW": "中醫說濕疹吃什麼好？", ja: "湿疹に良い食材は？" },
+      a: { en: "For acute Damp Heat, mung beans and coix seed may help. For chronic dry eczema, black sesame and goji may nourish Blood and skin.", "zh-TW": "急性濕熱用綠豆和薏米。慢性乾燥用黑芝麻和枸杞。", ja: "急性には緑豆と薏苡仁。慢性には黒胡麻とクコの実。" },
+    },
+    {
+      q: { en: "What foods should I avoid with eczema?", "zh-TW": "濕疹要避免什麼食物？", ja: "湿疹で避けるべき食材は？" },
+      a: { en: "Limit spicy foods, alcohol, dairy, excessive sweets, and shellfish. These may generate damp-heat and trigger flare-ups.", "zh-TW": "限制辛辣、酒精、乳製品、甜食和海鮮。", ja: "辛いもの、アルコール、乳製品、甘いもの、甲殻類を控えてください。" },
+    },
+    {
+      q: { en: "Can Chinese medicine cure eczema permanently?", "zh-TW": "中醫能根治濕疹嗎？", ja: "中医学で湿疹は完治しますか？" },
+      a: { en: "Chinese medicine aims to manage eczema by addressing the internal pattern rather than suppressing symptoms. Results vary and food therapy works best alongside professional treatment.", "zh-TW": "中醫透過調理體質來管理濕疹，而非壓制症狀。", ja: "中医学は体質を調整して管理することを目指します。" },
+    },
+    {
+      q: { en: "Which body type is most associated with eczema?", "zh-TW": "哪種體質最容易濕疹？", ja: "どの体質が湿疹に関連しますか？" },
+      a: { en: "Damp Heat and Blood Deficient types are most commonly associated. Take the free body type quiz to check your constitution.", "zh-TW": "濕熱和血虛體質最常見。做免費測驗確認。", ja: "湿熱と血虚タイプが最も関連します。" },
+    },
+  ],
+  "chinese-medicine-for-hair-loss": [
+    {
+      q: { en: "What does Chinese medicine say causes hair loss?", "zh-TW": "中醫認為脫髮是什麼原因？", ja: "中医学では脱毛の原因は？" },
+      a: { en: "Hair loss is most often traced to Kidney Essence depletion or Blood Deficiency. The Kidneys nourish the hair, and Blood feeds the scalp.", "zh-TW": "最常見是腎精不足或血虛。腎其華在髮。", ja: "腎精の不足や血虚が主な原因です。" },
+    },
+    {
+      q: { en: "What foods help hair loss in Chinese medicine?", "zh-TW": "中醫說脫髮吃什麼好？", ja: "脱毛に良い食材は？" },
+      a: { en: "Black sesame, goji berries, walnuts, and dong quai are classic hair-nourishing foods. They support Kidney Essence and Blood production.", "zh-TW": "黑芝麻、枸杞、核桃和當歸是經典養髮食物。", ja: "黒胡麻、クコの実、胡桃、当归が代表的です。" },
+    },
+    {
+      q: { en: "How long until I see results with food therapy for hair loss?", "zh-TW": "食療改善脫髮要多久？", ja: "食事療法で脱毛改善までどのくらい？" },
+      a: { en: "Hair grows slowly. Most food-based approaches need 3 to 6 months of consistent use to show visible improvement.", "zh-TW": "通常需要3到6個月持續食療才能看到改善。", ja: "3〜6ヶ月の継続が必要です。" },
+    },
+    {
+      q: { en: "Can Chinese medicine help with stress-related hair loss?", "zh-TW": "中醫能幫助壓力性脫髮嗎？", ja: "ストレス性脱毛に中医学は効く？" },
+      a: { en: "Yes. Stress restricts blood flow to the scalp. Foods and habits that move Qi and Blood, such as rose tea and daily scalp massage, may help.", "zh-TW": "可以。玫瑰花茶和頭皮按摩可能有幫助。", ja: "はい。玫瑰花茶や頭皮マッサージが役立ちます。" },
+    },
+    {
+      q: { en: "Which body type is most associated with hair loss?", "zh-TW": "哪種體質最容易脫髮？", ja: "どの体質が脱毛に関連しますか？" },
+      a: { en: "Qi Deficient and Blood Deficient types are most commonly associated. Take the free body type quiz to check your constitution.", "zh-TW": "氣虛和血虛體質最常見。做免費測驗確認。", ja: "気虚と血虚タイプが最も関連します。" },
+    },
+  ],
+  "chinese-medicine-for-pms": [
+    {
+      q: { en: "What does Chinese medicine say causes PMS?", "zh-TW": "中醫認為經前症候群是什麼原因？", ja: "中医学ではPMSの原因は？" },
+      a: { en: "PMS is most often caused by Liver Qi Stagnation. Before menstruation, energy gathers in the lower abdomen, and if Liver Qi is stuck, this creates pressure and emotional symptoms.", "zh-TW": "最常見是肝氣鬱結。經前氣血下行，若肝氣不暢就會產生壓力和情緒症狀。", ja: "最も多いのは肝気鬱結です。" },
+    },
+    {
+      q: { en: "What foods help PMS in Chinese medicine?", "zh-TW": "中醫說經前症候群吃什麼好？", ja: "PMSに良い食材は？" },
+      a: { en: "For Liver Qi Stagnation, rose tea and tangerine peel may help. For Blood Deficiency, jujube and dong quai. For cold cramps, ginger brown sugar tea.", "zh-TW": "肝氣鬱結用玫瑰花和陳皮。血虛用紅棗和當歸。寒痛用薑糖茶。", ja: "肝気鬱結には玫瑰花と陳皮。血虚にはなつめと当归。" },
+    },
+    {
+      q: { en: "Why do I get so irritable before my period?", "zh-TW": "為什麼經前容易煩躁？", ja: "なぜ月経前にイライラする？" },
+      a: { en: "The Liver governs the smooth flow of emotion. Before your period, Liver Qi gathers and if it is stuck from stress, the pressure manifests as irritability.", "zh-TW": "肝主疏泄情緒。經前肝氣聚於下，若已鬱結就會煩躁易怒。", ja: "肝は感情の流れを管理します。月経前に気が集まり、滞るとイライラします。" },
+    },
+    {
+      q: { en: "What foods should I avoid before my period?", "zh-TW": "經前要避免什麼食物？", ja: "月経前に避けるべき食材は？" },
+      a: { en: "Limit ice water, cold drinks, excessive caffeine, alcohol, raw foods, and sugar. These worsen stagnation, cold, and mood swings.", "zh-TW": "限制冰水、冷飲、咖啡、酒精、生冷食物和甜食。", ja: "氷水、冷たい飲み物、カフェイン、アルコール、生もの、砂糖を控えてください。" },
+    },
+    {
+      q: { en: "Which body type is most associated with PMS?", "zh-TW": "哪種體質最容易經前症候群？", ja: "どの体質がPMSに関連しますか？" },
+      a: { en: "Qi Stagnant and Blood Deficient types are most commonly associated. Take the free body type quiz to check your constitution.", "zh-TW": "氣鬱和血虛體質最常見。做免費測驗確認。", ja: "気鬱と血虚タイプが最も関連します。" },
+    },
+  ],
+
 }
