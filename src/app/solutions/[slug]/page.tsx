@@ -32,7 +32,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const FORMULA_COLORS: Record<string, string> = {
   "Phlegm Damp": "bg-emerald-100 text-emerald-800 border-emerald-200",
   "Spleen Qi Deficient": "bg-amber-100 text-amber-800 border-amber-200",
+  "Qi Deficient": "bg-amber-100 text-amber-800 border-amber-200",
   "Qi Stagnant": "bg-purple-100 text-purple-800 border-purple-200",
+  "Yin Deficient": "bg-rose-100 text-rose-800 border-rose-200",
+  "Yang Deficient": "bg-sky-100 text-sky-800 border-sky-200",
+  "Blood Deficient": "bg-red-100 text-red-800 border-red-200",
 }
 
 export default async function SolutionPage({ params }: { params: Promise<{ slug: string }> }) {
