@@ -17,7 +17,7 @@
   --font-body: "DM Sans", system-ui, sans-serif;
 }
 
-:root {
+@theme {
   --color-bg: #F5EFE6;
   --color-bg2: #EDE5D8;
   --color-cream: #E8E0D4;
