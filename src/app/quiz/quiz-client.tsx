@@ -8,6 +8,7 @@ import { LIKERT_OPTIONS, calculate27Scores, getPrimaryAndSecondary } from "@/lib
 import { QUIZ_15, QUIZ_15_INDICES, QUIZ_12, calculate15Scores } from "@/lib/quiz-15"
 import type { ConstitutionId } from "@/lib/types"
 import MidReveal from "@/components/mid-reveal"
+import Reveal from "@/components/reveal"
 
 function Collapsible({ label, children }: { label: string; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
@@ -254,7 +255,7 @@ export default function QuizClient() {
     return (
       <>
         <SharedNav />
-        <div className="max-w-3xl mx-auto px-5 sm:px-8 py-10 sm:py-14">
+        <div className="max-w-3xl mx-auto px-5 sm:px-8 py-10 sm:py-14 mesh-hero">
           {/* Hero */}
           <div className="text-center mb-8">
             <div className="text-accent text-xs uppercase tracking-[0.2em] mb-3">
@@ -287,6 +288,7 @@ export default function QuizClient() {
           </div>
 
           {/* Pricing Tiers */}
+          <Reveal>
           <div className="mb-12">
             <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-6">
               What You Can Unlock
@@ -295,9 +297,9 @@ export default function QuizClient() {
               {tiers.map((tier) => (
                 <div
                   key={tier.name}
-                  className={`relative rounded-xl p-5 border transition-all ${
+                  className={`relative rounded-xl p-5 border card-elevated ${
                     tier.featured
-                      ? "border-accent bg-[rgba(201,163,85,0.06)] shadow-[0_4px_20px_rgba(201,163,85,0.12)]"
+                      ? "border-accent bg-[rgba(201,163,85,0.06)]"
                       : "border-card-border bg-card-bg"
                   }`}
                 >
@@ -325,8 +327,10 @@ export default function QuizClient() {
               Quiz is always free. Upgrade only after seeing your result.
             </p>
           </div>
+          </Reveal>
 
           {/* Report Preview Carousel */}
+          <Reveal delay={1}>
           <div>
             <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-1">
               Report Preview
@@ -557,6 +561,7 @@ export default function QuizClient() {
               <div className="text-center text-xs text-text2 mt-2">{previewSlide + 1} / 5</div>
             </div>
           </div>
+          </Reveal>
 
           {/* Bottom CTA */}
           <div className="text-center mt-10">

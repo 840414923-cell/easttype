@@ -5,6 +5,7 @@ import Image from "next/image"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { SearchBar } from "@/components/search-bar"
+import Reveal from "@/components/reveal"
 
 const SYMPTOM_LIST = [
   "Why are you always tired?",
@@ -66,65 +67,70 @@ export default function HomeClient() {
       <Nav />
       <main className="flex-1">
 
-        <section className="relative max-w-4xl mx-auto px-6 pt-16 pb-12 text-center hero-radial dunhuang-border-top">
-          <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl md:text-6xl mb-4 leading-[1.15] tracking-wide text-text max-w-2xl mx-auto">
+        <section className="relative mesh-hero max-w-4xl mx-auto px-6 pt-20 pb-16 text-center">
+          <div className="lotus-divider mb-6">
+            <span className="text-accent text-xs tracking-[0.3em] uppercase font-semibold">EastType</span>
+          </div>
+          <h1 className="font-[family-name:var(--font-display)] text-hero text-text mb-5 max-w-2xl mx-auto">
             What&apos;s Your Chinese Medicine Body Type?
           </h1>
 
-          <p className="text-base sm:text-lg text-text2 max-w-xl mx-auto mb-8 leading-relaxed">
+          <p className="text-sm sm:text-base text-text2 max-w-xl mx-auto mb-8 leading-relaxed">
             {SYMPTOM_LIST.join("  ·  ")}
           </p>
 
           <SearchBar />
 
-          <div className="mt-6">
+          <div className="mt-8">
             <Link
               href="/quiz"
-              className="group relative inline-flex items-center justify-center px-10 py-4 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(168,135,64,0.25)] shadow-[0_4px_20px_rgba(168,135,64,0.1)] border border-[rgba(168,135,64,0.2)]"
+              className="group relative inline-flex items-center justify-center px-12 py-4 rounded-2xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-1 shadow-[0_4px_24px_rgba(168,135,64,0.2)] hover:shadow-[0_12px_40px_rgba(168,135,64,0.3)]"
               style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
             >
               Take the Free Quiz
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </Link>
-            <p className="text-xs text-text2/60 mt-2">5 minutes · No sign-up required</p>
+            <p className="text-xs text-text2/60 mt-3">5 minutes · No sign-up required</p>
           </div>
         </section>
 
         {CONTENT_BLOCKS.map((block, i) => (
-          <section key={i} className="max-w-4xl mx-auto px-6 py-10 sm:py-14">
-            <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 items-center ${block.reverse ? "sm:grid-flow-col-dense" : ""}`}>
-              <div className={block.reverse ? "sm:col-start-2 sm:row-start-1" : ""}>
-                <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent block mb-2">
-                  {block.title}
-                </span>
-                <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text mb-4 leading-tight tracking-wide">
-                  {block.heading}
-                </h2>
-                <p className="text-text2 text-sm sm:text-base leading-relaxed mb-6">
-                  {block.description}
-                </p>
-                <Link
-                  href={block.link}
-                  className="inline-flex items-center gap-1 text-accent text-sm font-semibold hover:underline tracking-wide no-underline"
-                >
-                  {block.linkText}
-                  <span>&#8594;</span>
-                </Link>
-              </div>
-              <div className={block.reverse ? "sm:col-start-1 sm:row-start-1" : ""}>
-                <div className="aspect-square rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)]">
-                  <Image
-                    src={block.image}
-                    alt={block.alt}
-                    width={600}
-                    height={600}
-                    className="w-full h-full object-cover"
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                  />
+          <Reveal key={i} delay={((i % 3) + 1) as 1 | 2 | 3}>
+            <section className="max-w-4xl mx-auto px-6 py-10 sm:py-14">
+              <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 items-center ${block.reverse ? "sm:grid-flow-col-dense" : ""}`}>
+                <div className={block.reverse ? "sm:col-start-2 sm:row-start-1" : ""}>
+                  <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent block mb-2">
+                    {block.title}
+                  </span>
+                  <h2 className="font-[family-name:var(--font-display)] text-display text-text mb-4">
+                    {block.heading}
+                  </h2>
+                  <p className="text-text2 text-sm sm:text-base leading-relaxed mb-6">
+                    {block.description}
+                  </p>
+                  <Link
+                    href={block.link}
+                    className="inline-flex items-center gap-1 text-accent text-sm font-semibold hover:underline tracking-wide no-underline"
+                  >
+                    {block.linkText}
+                    <span>&#8594;</span>
+                  </Link>
+                </div>
+                <div className={block.reverse ? "sm:col-start-1 sm:row-start-1" : ""}>
+                  <div className="aspect-square rounded-2xl overflow-hidden card-elevated">
+                    <Image
+                      src={block.image}
+                      alt={block.alt}
+                      width={600}
+                      height={600}
+                      className="w-full h-full object-cover"
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
+          </Reveal>
         ))}
 
       </main>
