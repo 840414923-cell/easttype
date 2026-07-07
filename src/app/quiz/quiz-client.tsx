@@ -30,7 +30,7 @@ function Collapsible({ label, children }: { label: string; children: React.React
 }
 
 type Sex = "female" | "male"
-type Phase = "sex" | "phase1" | "mid-reveal" | "phase2" | "completion"
+type Phase = "intro" | "sex" | "phase1" | "mid-reveal" | "phase2" | "completion"
 
 const GENDER_WEIGHTS: Record<Sex, Partial<Record<ConstitutionId, number>>> = {
   female: { blood_stasis: 1.1, qi_stagnant: 1.1, qi_deficient: 1.1 },
@@ -56,7 +56,7 @@ export default function QuizClient() {
   const router = useRouter()
 
   const [sex, setSex] = useState<Sex | null>(null)
-  const [phase, setPhase] = useState<Phase>("sex")
+  const [phase, setPhase] = useState<Phase>("intro")
   const [currentQ, setCurrentQ] = useState(0)
   const [phase1Answers, setPhase1Answers] = useState<number[]>([])
   const [phase2Answers, setPhase2Answers] = useState<number[]>([])
@@ -102,6 +102,10 @@ export default function QuizClient() {
   const handleSexSelect = useCallback((s: Sex) => {
     setSex(s)
     setPhase("phase1")
+  }, [])
+
+  const handleStart = useCallback(() => {
+    setPhase("sex")
   }, [])
 
   const handleLikert = useCallback(
@@ -173,7 +177,6 @@ export default function QuizClient() {
       setSelectedValue(null)
       setPhase1Answers(phase1Answers.slice(0, -1))
     } else if (isPhase1 && currentQ === 0) {
-      setSex(null)
       setPhase("sex")
       setPhase1Answers([])
       setSelectedValue(null)
@@ -207,6 +210,73 @@ export default function QuizClient() {
     )
   }
 
+  if (phase === "intro") {
+    return (
+      <>
+        <SharedNav />
+        <div className="max-w-xl mx-auto px-6 py-12 sm:py-16 min-h-screen flex flex-col justify-center">
+          <div className="text-center mb-8">
+            <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4">
+              EastType · Free Body Type Assessment
+            </div>
+            <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-4 leading-tight">
+              Discover Your<br className="sm:hidden" /> Chinese Medicine Body Type
+            </h1>
+            <p className="text-text2 leading-relaxed max-w-md mx-auto">
+              Chinese medicine recognizes 9 distinct body types, each with unique patterns, strengths, and vulnerabilities. Knowing yours changes everything about how you eat, rest, and care for yourself.
+            </p>
+          </div>
+
+          <div className="space-y-3 mb-10">
+            {[
+              { icon: "\u2705", title: "Your Body Type Profile", desc: "Which of the 9 TCM constitutions matches you and what it means" },
+              { icon: "\u2705", title: "Personalized Food Therapy", desc: "Exactly which foods nourish your type and which to limit" },
+              { icon: "\u2705", title: "Herbs & Lifestyle Matched to You", desc: "Targeted herbal teas, recipes, and daily habits for your constitution" },
+            ].map((item) => (
+              <div
+                key={item.title}
+                className="flex items-start gap-3 bg-card-bg border border-card-border rounded-xl px-4 py-3"
+              >
+                <span className="text-sm mt-0.5">{item.icon}</span>
+                <div>
+                  <div className="text-sm font-semibold text-text">{item.title}</div>
+                  <div className="text-xs text-text2 mt-0.5 leading-relaxed">{item.desc}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mb-6">
+            <div className="flex items-center justify-center gap-4 sm:gap-6 text-xs text-text2">
+              <span className="flex items-center gap-1.5">
+                <span className="text-accent">&#9201;</span> 5 min
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="text-accent">&#9281;</span> 27 questions
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="text-accent">&#9919;</span> 100% private
+              </span>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <button
+              onClick={handleStart}
+              className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(201,163,85,0.3)] hover:shadow-[0_8px_30px_rgba(201,163,85,0.4)] bg-gradient-to-r from-accent to-accent2 text-bg"
+            >
+              Begin Assessment
+              <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
+            </button>
+            <p className="text-xs text-text2 mt-4">
+              No signup required. Results are free.
+            </p>
+          </div>
+        </div>
+      </>
+    )
+  }
+
   if (phase === "sex") {
     return (
       <>
@@ -219,7 +289,7 @@ export default function QuizClient() {
             What&apos;s your biological sex?
           </h1>
           <p className="text-text2 text-center mb-12 leading-relaxed max-w-sm">
-            This helps us account for gender-specific patterns in Chinese medicine. Your data stays private.
+            TCM patterns differ between male and female bodies. This helps personalize your results. Your data stays on your device.
           </p>
           <div className="flex gap-4 w-full max-w-xs">
             <button

@@ -10,6 +10,7 @@ import type { ConstitutionId } from "@/lib/types"
 import type { ReportBasic, ReportPro } from "@/lib/reports-json"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
+import ExploreMore from "@/components/explore-more"
 import { CreemCheckout } from "@creem_io/nextjs"
 
 const CREEM_PRODUCT_PRO = process.env.NEXT_PUBLIC_CREEM_PRODUCT_PRO!
@@ -437,6 +438,8 @@ function ReportV2Content({ isPro, upgradeToken }: { isPro: boolean; upgradeToken
           locale={locale} upgradeToken={upgradeToken}
         />
       </div>
+
+      <ExploreMore typeId={typeId} />
 
       <Footer />
     </>
