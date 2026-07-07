@@ -128,6 +128,59 @@ pnpm build
 
 Types: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `ci`
 
+### 9. 新页面上线前检查清单（最高优先级）
+
+**新建任何页面（药材、wellness文章、症状页、solutions等）后，push 之前必须完成以下全部检查，经用户确认后才能 push。**
+
+#### 检查 1: URL 格式一致性
+
+- 新 URL 的 slug 格式是否与同类型现有页面一致？
+- 例如药材页格式：`english-name-pinyin`（如 `burdock-root-niu-bang-gen`）
+- 验证方法：列出同类页面 slug，对比格式
+
+#### 检查 2: 关键词蚕食检测（Keyword Cannibalization）
+
+**这是最重要的检查。** 新页面的目标关键词是否与现有页面冲突？
+
+验证步骤：
+1. 提取新页面的核心关键词（title, summary, actions 中的主要英文词）
+2. 在整个 `src/` 目录搜索这些关键词
+3. 确认没有现有页面已经针对同一关键词优化
+4. 特别注意跨栏目冲突（herbs vs wellness vs symptoms vs solutions）
+
+判定标准：
+- 新页面主关键词在现有页面仅"提及"（1-2句）= **低风险**，安全
+- 新页面主关键词在现有页面有独立章节或表格行 = **中高风险**，需要处理
+- 新页面与现有页面针对完全相同的搜索意图 = **高风险**，必须修改或取消
+
+如果发现中高风险冲突：
+- 方案 A：修改新页面的关键词定位，与现有页面差异化
+- 方案 B：在现有页面添加一行内链指向新页面，帮助 Google 区分
+- 方案 C：如果两个页面完全重叠，取消新页面
+
+#### 检查 3: Sitemap 更新
+
+- 新 URL 是否已添加到 `public/sitemap.xml`？
+- lastmod 日期是否正确？
+
+#### 检查 4: 图片验证
+
+- 图片是否已复制到 `public/images/` 对应目录？
+- 图片是否经过 sharp 压缩（目标 < 200KB）？
+- JSON/data 中的 image 路径是否正确？
+
+#### 检查 5: 构建验证
+
+```bash
+node scripts/verify-pages.mjs    # 0 issues
+pnpm build                        # 编译成功，新页面 HTML 已生成
+```
+
+#### 检查 6: 内链机会
+
+- 列出可以从现有页面指向新页面的内链机会
+- 这些内链可以在后续逐步添加（不需要本次 push 就加）
+
 ---
 
 ## 项目概况

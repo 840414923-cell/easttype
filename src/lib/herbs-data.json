@@ -9673,5 +9673,288 @@
       }
     ],
     "image": "/images/herbs/black-jujube-hei-zao.jpg"
+  },
+  {
+    "slug": "mugwort-ai-ye",
+    "nameEn": "Mugwort",
+    "nameZh": "ai ye",
+    "nameZhTrad": "艾叶",
+    "pinyin": "ai ye",
+    "botanicalName": "Artemisia argyi Levl. et Vant.",
+    "category": "Warming Herb",
+    "temperature": "Warm",
+    "taste": "Bitter, pungent, aromatic",
+    "channels": "Liver, Spleen, Kidney",
+    "summary": "One of the most revered herbs in Chinese medicine for women's wellness. Mugwort warms the lower abdomen, supports menstrual comfort, and has been used for centuries in both internal remedies and moxibustion therapy.",
+    "actions": [
+      "Warms the uterus and regulates menstruation",
+      "Dispels cold dampness and stops pain",
+      "Stops bleeding and calms the fetus",
+      "Supports moxibustion therapy for deep warming"
+    ],
+    "actionDetails": [
+      {
+        "action": "Warms the uterus and regulates menstruation",
+        "explanation": "In TCM, a cold uterus is considered a root cause of menstrual cramps, irregular cycles, and fertility challenges. Mugwort's warm nature penetrates the lower abdomen and disperses cold. This is why moxibustion (burning mugwort near the skin) is traditionally applied to the lower belly for menstrual issues."
+      },
+      {
+        "action": "Dispels cold dampness and stops pain",
+        "explanation": "Cold and dampness lodging in the joints and lower body can cause aching, stiffness, and heaviness. Mugwort's aromatic, warm, and bitter qualities help dry dampness and push out cold. Many older Chinese households brew mugwort foot baths for winter joint discomfort."
+      },
+      {
+        "action": "Stops bleeding and calms the fetus",
+        "explanation": "Mugwort has a dual action: it warms and moves, yet also helps stabilize against certain types of bleeding. In TCM practice, charred mugwort (ai ye tan) is used for abnormal uterine bleeding related to cold patterns. It is also traditionally used to help calm a restless fetus in specific deficiency patterns."
+      },
+      {
+        "action": "Supports moxibustion therapy for deep warming",
+        "explanation": "Mugwort is the herb used in moxibustion, a core TCM therapy. The dried leaves are rolled into sticks or cones and burned near acupuncture points. The penetrating warmth delivers the herb's properties deep into the body through the skin and meridians."
+      }
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_stagnant"
+    ],
+    "therapeuticFocus": [
+      "Women's Health",
+      "Pain Relief",
+      "Warming & Circulation"
+    ],
+    "foodPairings": [
+      "ginger",
+      "brown sugar",
+      "red dates",
+      "motherwort (yi mu cao)"
+    ],
+    "howToUse": "Steep 3-9g dried mugwort leaves in hot water for 10 minutes as tea. Often combined with ginger and brown sugar for menstrual pain. For external use, add 30-50g to a hot foot bath.",
+    "dosage": "3-9g per day as tea. For external foot baths, 30-50g per session.",
+    "preparationNotes": "Use dried leaves, not fresh, for tea. The flavor is strong and slightly bitter, so adding ginger and brown sugar improves the taste. For foot baths, simmer the leaves for 10 minutes before adding to warm water.",
+    "dietaryAdvice": "While taking mugwort internally, avoid cold and raw foods such as salads and iced drinks, as they counteract the warming action. Warm soups, ginger tea, and cooked grains complement mugwort well. During winter, a weekly mugwort foot bath may support overall circulation.",
+    "cautions": [
+      "Avoid during pregnancy without professional guidance",
+      "Not suitable for people with yin deficiency with heat signs",
+      "May cause allergic skin reactions in people sensitive to plants in the daisy family",
+      "Do not use internally if you have heavy bleeding of unknown cause",
+      "External use (foot baths, moxibustion) is generally safe but avoid open wounds"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Yang Deficient types with cold hands, feet, and lower abdomen",
+        "tcmInterpretation": "Yang deficiency creates internal cold that pools in the lower body and abdomen. Mugwort's penetrating warmth directly addresses this pattern. The Liver, Spleen, and Kidney channel affinities target the three organ systems most affected by cold accumulation.",
+        "whyItHelps": "For the person who always feels cold, especially from the waist down, mugwort provides a deep warming action that goes beyond surface heat. The aromatic nature helps move stagnant qi while the warm temperature dispels cold."
+      },
+      {
+        "condition": "Qi Stagnant types with menstrual discomfort and tension",
+        "tcmInterpretation": "Liver qi stagnation often contributes to menstrual pain, breast tenderness, and mood swings. Cold worsens stagnation by causing contraction. Mugwort warms and moves, helping qi and blood flow freely in the lower abdomen.",
+        "whyItHelps": "Mugwort's dual action of warming and qi-regulating makes it particularly useful for menstrual pain that worsens with cold and improves with warmth. A cup of mugwort ginger tea before the cycle may help prepare the body."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can I drink mugwort tea every day?",
+        "a": "Mugwort tea is best used periodically rather than daily. For menstrual support, drink it for the week before your period. For general warming, 2-3 cups per week during cold months is common. Long-term daily use is not recommended without professional guidance."
+      },
+      {
+        "q": "Is mugwort the same herb used in moxibustion?",
+        "a": "Yes. Moxibustion uses dried mugwort leaves (Artemisia argyi) rolled into sticks or cones. The smoldering herb produces a deep, penetrating warmth that delivers the plant's properties through the skin. You can experience mugwort benefits either as a tea or through moxibustion therapy."
+      },
+      {
+        "q": "Can I take a mugwort foot bath?",
+        "a": "Yes. Simmering 30-50g of dried mugwort in water and adding it to a foot bath is a popular home remedy in Chinese households. The warmth and aromatic oils are absorbed through the feet. A 15-20 minute soak before bed during cold months may improve sleep and circulation."
+      },
+      {
+        "q": "Which body type benefits most from mugwort?",
+        "a": "Yang Deficient and Qi Stagnant types may benefit most, especially for menstrual comfort and cold sensitivity. If you tend to run hot or have yin deficiency signs, mugwort may be too warming. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/mugwort-ai-ye.jpg"
+  },
+  {
+    "slug": "cordyceps-flower-chong-cao-hua",
+    "nameEn": "Cordyceps Flower",
+    "nameZh": "chong cao hua",
+    "nameZhTrad": "虫草花",
+    "pinyin": "chong cao hua",
+    "botanicalName": "Cordyceps militaris",
+    "category": "Qi Tonic",
+    "temperature": "Neutral",
+    "taste": "Sweet",
+    "channels": "Lung, Kidney",
+    "summary": "An affordable cultivated mushroom that delivers many benefits of wild cordyceps. Cordyceps Flower is widely used in Chinese home cooking to support energy, respiratory health, and immune function without the high cost of wild cordyceps.",
+    "actions": [
+      "Tonifies lung qi and supports respiratory health",
+      "Strengthens kidney function and replenishes essence",
+      "Supports immune system resilience",
+      "Provides adaptogenic support for chronic fatigue"
+    ],
+    "actionDetails": [
+      {
+        "action": "Tonifies lung qi and supports respiratory health",
+        "explanation": "In TCM, the lungs govern qi and breathing. Cordyceps Flower enters the Lung channel and helps strengthen respiratory capacity. It is traditionally used for chronic cough, shortness of breath, and weakness after illness. Modern research suggests cordycepin content may support lung tissue health."
+      },
+      {
+        "action": "Strengthens kidney function and replenishes essence",
+        "explanation": "Cordyceps Flower enters the Kidney channel, the organ system associated with deep energy reserves and aging. By gently tonifying kidney yang and essence, it may help address lower back weakness, frequent urination, and the deep fatigue that comes from depletion."
+      },
+      {
+        "action": "Supports immune system resilience",
+        "explanation": "Cordyceps Flower contains polysaccharides that research suggests may modulate immune function. In TCM, this reflects its ability to both tonify lung qi (defensive qi originates in the lungs) and strengthen kidney yang. Regular dietary use during cold and flu season is common."
+      },
+      {
+        "action": "Provides adaptogenic support for chronic fatigue",
+        "explanation": "As a neutral temperature herb, Cordyceps Flower can be used by people who are depleted without adding excessive heat or cold. It supports the body's ability to handle stress and recover from exhaustion. This makes it suitable for post-illness recovery and burnout."
+      }
+    ],
+    "bodyTypes": [
+      "qi_deficient",
+      "yang_deficient"
+    ],
+    "therapeuticFocus": [
+      "Energy & Vitality",
+      "Respiratory Health",
+      "Immune Support"
+    ],
+    "foodPairings": [
+      "chicken",
+      "goji berries",
+      "Chinese yam",
+      "red dates"
+    ],
+    "howToUse": "Cook 10-15g in soups, stews, or congees. Simmer for at least 30 minutes to extract the active compounds. Commonly paired with chicken, goji berries, and Chinese yam in nourishing soups.",
+    "dosage": "10-15g per day in food preparations. Up to 30g in therapeutic soups.",
+    "preparationNotes": "Rinse dried cordyceps flowers briefly before cooking. They do not need soaking. Add to soups and stews at the beginning of cooking. The flowers are fully edible and can be eaten after cooking. A bright golden color in the soup indicates the active compounds have been released.",
+    "dietaryAdvice": "Cordyceps Flower pairs well with protein-rich foods like chicken or pork in slow-cooked soups. For a vegetarian version, combine with Chinese yam, lotus seed, and goji berries. Avoid combining with very spicy or hot foods when using for respiratory support.",
+    "cautions": [
+      "Generally safe as a food-grade herb for most adults",
+      "Avoid during acute infections with fever",
+      "Not suitable for people with autoimmune conditions without consulting a healthcare provider",
+      "May interact with immunosuppressant medications",
+      "If you have a mushroom allergy, consult your doctor before use"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Qi Deficient types with chronic fatigue and weak immunity",
+        "tcmInterpretation": "Qi deficiency manifests as persistent tiredness, weak voice, and frequent colds. Cordyceps Flower tonifies lung qi and supports the body's defensive qi. Regular use in soups may help build resilience over time.",
+        "whyItHelps": "The neutral temperature and sweet taste make Cordyceps Flower gentle enough for depleted individuals. Unlike strong yang tonics that can cause heat, it builds energy gradually through food-based nourishment."
+      },
+      {
+        "condition": "Yang Deficient types with cold sensitivity and lower back weakness",
+        "tcmInterpretation": "Kidney yang deficiency often presents as cold lower back, weak knees, and frequent urination. Cordyceps Flower enters the Kidney channel and gently warms yang. Its neutral temperature makes it safer for long-term use than hot yang tonics.",
+        "whyItHelps": "For the person who feels deeply tired and cold, cordyceps soup provides warming nourishment that supports the kidney foundation. The food-grade nature means it can be consumed regularly without side effects."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Cordyceps Flower the same as wild cordyceps?",
+        "a": "No, but they are related. Wild cordyceps (Cordyceps sinensis) grows on caterpillars at high altitudes and costs thousands of dollars per pound. Cordyceps Flower (Cordyceps militaris) is cultivated on grain substrate in controlled environments. It contains similar active compounds including cordycepin, but at a fraction of the cost."
+      },
+      {
+        "q": "Is Cordyceps Flower vegetarian?",
+        "a": "Yes. Despite the name suggesting insects, cultivated Cordyceps Flower is grown on plant-based grain substrate, not on caterpillars. It is a mushroom suitable for vegetarian and vegan diets. The name references its historical connection to wild cordyceps."
+      },
+      {
+        "q": "How often should I cook with Cordyceps Flower?",
+        "a": "For general wellness, cooking with Cordyceps Flower 2-3 times per week in soups is common in Chinese households. For recovery from illness or during cold and flu season, you may use it more frequently. It is a food-grade herb suitable for regular dietary use."
+      },
+      {
+        "q": "Which body type benefits most from Cordyceps Flower?",
+        "a": "Qi Deficient and Yang Deficient types may benefit most, especially for energy, respiratory health, and immune support. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/cordyceps-flower-chong-cao-hua.jpg"
+  },
+  {
+    "slug": "senna-leaf-fan-xie-ye",
+    "nameEn": "Senna Leaf",
+    "nameZh": "fan xie ye",
+    "nameZhTrad": "番泻叶",
+    "pinyin": "fan xie ye",
+    "botanicalName": "Cassia angustifolia Vahl",
+    "category": "Digestive Support",
+    "temperature": "Cold",
+    "taste": "Bitter, sweet",
+    "channels": "Large Intestine",
+    "summary": "One of the most effective natural laxatives in both Chinese and Western herbal medicine. Senna Leaf provides reliable relief for occasional constipation by stimulating the large intestine to move.",
+    "actions": [
+      "Promotes bowel movement by stimulating the large intestine",
+      "Clears heat and resolves accumulation",
+      "Provides fast-acting relief for occasional constipation",
+      "Supports short-term cleansing protocols"
+    ],
+    "actionDetails": [
+      {
+        "action": "Promotes bowel movement by stimulating the large intestine",
+        "explanation": "Senna contains compounds called sennosides that directly stimulate the muscles of the large intestine, increasing peristalsis. This makes it one of the most reliable natural laxatives available. In TCM, this action is described as draining downward and clearing accumulated heat in the intestines."
+      },
+      {
+        "action": "Clears heat and resolves accumulation",
+        "explanation": "Constipation in TCM often involves heat drying out the intestines, making stool hard and difficult to pass. Senna's cold nature helps clear this heat while its downward-draining action moves the stuck accumulation. This dual action addresses both the symptom and the underlying heat pattern."
+      },
+      {
+        "action": "Provides fast-acting relief for occasional constipation",
+        "explanation": "Senna typically produces a bowel movement within 6-12 hours of consumption. This makes it suitable for short-term, occasional use when fast relief is needed. Most people take it in the evening before bed for results the next morning."
+      },
+      {
+        "action": "Supports short-term cleansing protocols",
+        "explanation": "In TCM, regular bowel movements are considered essential for overall health. When waste accumulates, it can generate heat and toxins that affect other systems. Short-term use of senna may help reset digestive function when combined with dietary changes."
+      }
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "balanced"
+    ],
+    "therapeuticFocus": [
+      "Digestion",
+      "Constipation Relief",
+      "Cleansing"
+    ],
+    "foodPairings": [
+      "mint",
+      "chrysanthemum",
+      "honey",
+      "green tea"
+    ],
+    "howToUse": "Steep 1-3g dried senna leaves in hot water for 5-10 minutes. Drink in the evening before bed for a morning bowel movement. Add honey or mint to improve the taste. Do not exceed 3 days of continuous use.",
+    "dosage": "1-3g per day as tea. Start with 1g to assess your response. Do not exceed 7 days of continuous use.",
+    "preparationNotes": "Use water just off the boil and steep for 5-10 minutes. Longer steeping increases potency but also the risk of cramping. Strain the leaves after steeping. The taste is bitter, so adding honey or mint helps.",
+    "dietaryAdvice": "While using senna, drink plenty of warm water throughout the day. Avoid cold and greasy foods that slow digestion. After the constipation resolves, focus on high-fiber foods such as sweet potato, oats, and leafy greens to maintain regularity naturally.",
+    "cautions": [
+      "Do not use for more than 7 consecutive days as dependency may develop",
+      "Not suitable for people with spleen qi deficiency or chronic loose stools",
+      "Avoid during pregnancy and breastfeeding",
+      "Do not use if you have intestinal obstruction, appendicitis, or inflammatory bowel disease",
+      "May cause abdominal cramping, especially at higher doses",
+      "Long-term use may cause electrolyte imbalance and dependency"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "Damp Heat types with dry, difficult stools and abdominal fullness",
+        "tcmInterpretation": "Damp heat in the intestines can produce sticky or dry stools that are hard to pass, along with bloating and discomfort. Senna's cold nature clears heat while its downward-draining action moves the accumulation. This makes it well-suited for short-term relief in heat-type constipation.",
+        "whyItHelps": "The cold temperature and bitter taste of senna directly address the heat component. The Large Intestine channel affinity means the action is targeted and efficient for this specific organ system."
+      },
+      {
+        "condition": "Balanced types with occasional constipation from travel or dietary changes",
+        "tcmInterpretation": "Even balanced constitutions can experience temporary constipation from travel, stress, or dietary changes. Senna provides reliable short-term relief without requiring a complex diagnosis. It is best used as an occasional aid rather than a regular solution.",
+        "whyItHelps": "For otherwise healthy individuals, senna offers a natural alternative to over-the-counter laxatives. The key is short duration use and addressing the underlying dietary or lifestyle factors that caused the constipation."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How quickly does senna tea work?",
+        "a": "Senna typically produces a bowel movement within 6-12 hours. Most people take it before bed and have results the next morning. If you do not get results within 12 hours, do not increase the dose. Instead, consult a healthcare provider."
+      },
+      {
+        "q": "Is senna safe for long-term use?",
+        "a": "No. Senna is intended for short-term use only, typically 3-7 days. The colon can become dependent on stimulant laxatives with regular use. For chronic constipation, focus on dietary fiber, hydration, and addressing the root cause. Consider taking the body type quiz to understand your digestive pattern."
+      },
+      {
+        "q": "Will senna cause cramping?",
+        "a": "Some people experience mild abdominal cramping, especially at higher doses. Starting with a low dose (1g) and steeping for a shorter time (5 minutes) can reduce this risk. If cramping is severe, discontinue use."
+      },
+      {
+        "q": "Which body type benefits most from senna?",
+        "a": "Damp Heat types with heat-pattern constipation may benefit most. For Qi Deficient or Yang Deficient types with cold-pattern constipation, senna's cold nature may be too harsh. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/senna-leaf-fan-xie-ye.jpg"
   }
 ]
