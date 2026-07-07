@@ -211,66 +211,204 @@ export default function QuizClient() {
   }
 
   if (phase === "intro") {
+    const tiers = [
+      {
+        name: "Free",
+        price: "$0",
+        features: [
+          "Your body type identification",
+          "Brief type description",
+          "Top 5 recommended foods",
+        ],
+      },
+      {
+        name: "Body Profile",
+        price: "$4.99",
+        featured: true,
+        features: [
+          "Everything in Free",
+          "Constitution Identity analysis",
+          "Food Therapy Guide (eat / limit)",
+          "Seasonal Protocol (4 seasons)",
+          "Daily Meridian Schedule",
+          "Recommended Recipe",
+          "Printable PDF",
+        ],
+      },
+      {
+        name: "Full Report",
+        price: "$12.99",
+        features: [
+          "Everything in Body Profile",
+          "Origin Story & Emotional Blueprint",
+          "Acupoint Massage Guide",
+          "Multiple TCM Recipes",
+          "30-Day Lifestyle Plan",
+          "30-Day Body Monitor tracker",
+          "Printable PDF",
+        ],
+      },
+    ]
+
     return (
       <>
         <SharedNav />
-        <div className="max-w-xl mx-auto px-6 py-12 sm:py-16 min-h-screen flex flex-col justify-center">
+        <div className="max-w-3xl mx-auto px-5 sm:px-8 py-10 sm:py-14">
+          {/* Hero */}
           <div className="text-center mb-8">
-            <div className="text-accent text-xs uppercase tracking-[0.2em] mb-4">
+            <div className="text-accent text-xs uppercase tracking-[0.2em] mb-3">
               EastType · Free Body Type Assessment
             </div>
-            <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-4 leading-tight">
-              Discover Your<br className="sm:hidden" /> Chinese Medicine Body Type
+            <h1 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text mb-3 leading-tight">
+              Discover Your Chinese Medicine Body Type
             </h1>
-            <p className="text-text2 leading-relaxed max-w-md mx-auto">
-              Chinese medicine recognizes 9 distinct body types, each with unique patterns, strengths, and vulnerabilities. Knowing yours changes everything about how you eat, rest, and care for yourself.
+            <p className="text-sm text-text2 leading-relaxed max-w-lg mx-auto">
+              9 body types. 27 questions. 5 minutes. Find out which constitution shapes your energy, digestion, sleep, and emotions.
             </p>
           </div>
 
-          <div className="space-y-3 mb-10">
-            {[
-              { icon: "\u2705", title: "Your Body Type Profile", desc: "Which of the 9 TCM constitutions matches you and what it means" },
-              { icon: "\u2705", title: "Personalized Food Therapy", desc: "Exactly which foods nourish your type and which to limit" },
-              { icon: "\u2705", title: "Herbs & Lifestyle Matched to You", desc: "Targeted herbal teas, recipes, and daily habits for your constitution" },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="flex items-start gap-3 bg-card-bg border border-card-border rounded-xl px-4 py-3"
-              >
-                <span className="text-sm mt-0.5">{item.icon}</span>
-                <div>
-                  <div className="text-sm font-semibold text-text">{item.title}</div>
-                  <div className="text-xs text-text2 mt-0.5 leading-relaxed">{item.desc}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mb-6">
-            <div className="flex items-center justify-center gap-4 sm:gap-6 text-xs text-text2">
-              <span className="flex items-center gap-1.5">
-                <span className="text-accent">&#9201;</span> 5 min
-              </span>
-              <span className="flex items-center gap-1.5">
-                <span className="text-accent">&#9281;</span> 27 questions
-              </span>
-              <span className="flex items-center gap-1.5">
-                <span className="text-accent">&#9919;</span> 100% private
-              </span>
-            </div>
-          </div>
-
-          <div className="text-center">
+          {/* CTA */}
+          <div className="text-center mb-3">
             <button
               onClick={handleStart}
               className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(201,163,85,0.3)] hover:shadow-[0_8px_30px_rgba(201,163,85,0.4)] bg-gradient-to-r from-accent to-accent2 text-bg"
             >
-              Begin Assessment
+              Begin Free Assessment
               <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </button>
-            <p className="text-xs text-text2 mt-4">
-              No signup required. Results are free.
+          </div>
+          <div className="flex items-center justify-center gap-4 sm:gap-6 text-xs text-text2 mb-12">
+            <span>5 min</span>
+            <span className="text-border">|</span>
+            <span>27 questions</span>
+            <span className="text-border">|</span>
+            <span>No signup</span>
+          </div>
+
+          {/* Pricing Tiers */}
+          <div className="mb-12">
+            <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-6">
+              What You Can Unlock
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+              {tiers.map((tier) => (
+                <div
+                  key={tier.name}
+                  className={`relative rounded-xl p-5 border transition-all ${
+                    tier.featured
+                      ? "border-accent bg-[rgba(201,163,85,0.06)] shadow-[0_4px_20px_rgba(201,163,85,0.12)]"
+                      : "border-card-border bg-card-bg"
+                  }`}
+                >
+                  {tier.featured && (
+                    <div className="absolute -top-2.5 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-accent text-bg text-[10px] font-bold uppercase tracking-wider">
+                      Most Popular
+                    </div>
+                  )}
+                  <div className="text-sm font-bold text-text mb-1">{tier.name}</div>
+                  <div className="font-[family-name:var(--font-display)] text-2xl text-text mb-4">
+                    {tier.price}
+                  </div>
+                  <ul className="space-y-2">
+                    {tier.features.map((f) => (
+                      <li key={f} className="flex items-start gap-2 text-xs text-text2 leading-relaxed">
+                        <span className="text-accent mt-0.5 shrink-0">&#10003;</span>
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            <p className="text-center text-xs text-text2 mt-4">
+              Quiz is always free. Upgrade only after seeing your result.
             </p>
+          </div>
+
+          {/* Report Preview */}
+          <div>
+            <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-1">
+              Report Preview
+            </h2>
+            <p className="text-center text-xs text-text2 mb-6">
+              A glimpse of what the paid report looks like
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+              {/* Sample Page 1 */}
+              <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden">
+                <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
+                  <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
+                  <div className="text-[9px] text-[#bbb]">BODY PROFILE REPORT</div>
+                </div>
+                <div className="px-5 py-4">
+                  <div className="text-[11px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">CONSTITUTION IDENTITY</div>
+                  <div className="space-y-2">
+                    <div className="h-2 bg-[#f0ebe3] rounded w-full" />
+                    <div className="h-2 bg-[#f0ebe3] rounded w-5/6" />
+                    <div className="h-2 bg-[#f0ebe3] rounded w-4/5" />
+                    <div className="h-2 bg-[#f0ebe3] rounded w-full" />
+                    <div className="h-2 bg-[#f0ebe3] rounded w-3/4" />
+                  </div>
+                  <div className="mt-4 grid grid-cols-2 gap-2">
+                    <div className="border border-[#e0d8cc] rounded p-2">
+                      <div className="text-[8px] font-bold text-[#C9A96E] uppercase">Type</div>
+                      <div className="text-[10px] font-bold text-[#1a1a1a] mt-0.5">Qi Deficient</div>
+                    </div>
+                    <div className="border border-[#e0d8cc] rounded p-2">
+                      <div className="text-[8px] font-bold text-[#C9A96E] uppercase">Nickame</div>
+                      <div className="text-[10px] font-bold text-[#1a1a1a] mt-0.5">The Depleted Engine</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">
+                  www.myeasterntype.com
+                </div>
+              </div>
+
+              {/* Sample Page 2 */}
+              <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden">
+                <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
+                  <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
+                  <div className="text-[9px] text-[#bbb]">FOOD THERAPY GUIDE</div>
+                </div>
+                <div className="px-5 py-4">
+                  <div className="text-[11px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">RECOMMENDED FOODS</div>
+                  <div className="space-y-1.5">
+                    {[
+                      { f: "Sweet Potato", a: "Tonifies Spleen Qi" },
+                      { f: "Jujube Dates", a: "Nourishes Blood" },
+                      { f: "Chinese Yam", a: "Strengthens Digestion" },
+                      { f: "Goji Berries", a: "Builds Liver Blood" },
+                    ].map((row) => (
+                      <div key={row.f} className="flex items-center justify-between text-[10px] py-1 border-b border-[#f0ebe3]">
+                        <span className="font-semibold text-[#1a1a1a]">{row.f}</span>
+                        <span className="text-[#7a6535]">{row.a}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-3 text-[11px] font-bold text-[#7a6535] uppercase tracking-wider mb-2">DAILY SCHEDULE</div>
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2 text-[10px]"><span className="font-bold text-[#C9A96E] w-12">5-7 AM</span><span className="text-[#444]">Large Intestine</span></div>
+                    <div className="flex items-center gap-2 text-[10px]"><span className="font-bold text-[#C9A96E] w-12">7-9 AM</span><span className="text-[#444]">Stomach</span></div>
+                    <div className="flex items-center gap-2 text-[10px]"><span className="font-bold text-[#C9A96E] w-12">11-1 PM</span><span className="text-[#444]">Heart</span></div>
+                  </div>
+                </div>
+                <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">
+                  www.myeasterntype.com
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom CTA */}
+          <div className="text-center mt-10">
+            <button
+              onClick={handleStart}
+              className="group inline-flex items-center gap-2 px-8 py-3 rounded-xl font-[family-name:var(--font-body)] text-sm font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 border-2 border-accent text-accent hover:bg-accent hover:text-bg"
+            >
+              Start Your Free Quiz
+              <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
+            </button>
           </div>
         </div>
       </>
