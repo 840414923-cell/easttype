@@ -9,6 +9,7 @@ import { QUIZ_15, QUIZ_15_INDICES, QUIZ_12, calculate15Scores } from "@/lib/quiz
 import type { ConstitutionId } from "@/lib/types"
 import MidReveal from "@/components/mid-reveal"
 import Reveal from "@/components/reveal"
+import ReportPreview from "@/components/report-preview"
 
 function Collapsible({ label, children }: { label: string; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
@@ -65,7 +66,6 @@ export default function QuizClient() {
   const [isTransitioning, setIsTransitioning] = useState(false)
   const [midRevealScores, setMidRevealScores] = useState<Record<ConstitutionId, number> | null>(null)
   const [midRevealPrimary, setMidRevealPrimary] = useState<ConstitutionId | null>(null)
-  const [previewSlide, setPreviewSlide] = useState(0)
 
   const isPhase1 = phase === "phase1"
   const isPhase2 = phase === "phase2"
@@ -76,8 +76,8 @@ export default function QuizClient() {
   const currentQuestion = questions[currentQ]
 
   const phaseLabel = isPhase1
-    ? "Quick Scan · ~3 min"
-    : "Deep Analysis · ~2 min"
+    ? "Quick Scan \u00B7 ~3 min"
+    : "Deep Analysis \u00B7 ~2 min"
 
   const finishAndNavigate = useCallback(
     (fullAnswers: number[]) => {
@@ -259,7 +259,7 @@ export default function QuizClient() {
           {/* Hero */}
           <div className="text-center mb-8">
             <div className="text-accent text-xs uppercase tracking-[0.2em] mb-3">
-              EastType · Free Body Type Assessment
+              EastType &middot; Free Body Type Assessment
             </div>
             <h1 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-text mb-3 leading-tight">
               Discover Your Chinese Medicine Body Type
@@ -329,239 +329,7 @@ export default function QuizClient() {
           </div>
           </Reveal>
 
-          {/* Report Preview Carousel */}
-          <Reveal delay={1}>
-          <div>
-            <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-1">
-              Report Preview
-            </h2>
-            <p className="text-center text-xs text-text2 mb-6">
-              Hover to zoom. Swipe through real report pages.
-            </p>
-
-            {/* Carousel */}
-            <div className="relative max-w-sm mx-auto">
-              {/* Arrows */}
-              <button
-                onClick={() => setPreviewSlide((p) => (p - 1 + 5) % 5)}
-                className="absolute left-[-12px] sm:left-[-20px] top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-card-bg border border-card-border flex items-center justify-center cursor-pointer transition-all hover:border-accent hover:text-accent text-text2"
-                aria-label="Previous"
-              >
-                &#8249;
-              </button>
-              <button
-                onClick={() => setPreviewSlide((p) => (p + 1) % 5)}
-                className="absolute right-[-12px] sm:right-[-20px] top-1/2 -translate-y-1/2 z-30 w-8 h-8 rounded-full bg-card-bg border border-card-border flex items-center justify-center cursor-pointer transition-all hover:border-accent hover:text-accent text-text2"
-                aria-label="Next"
-              >
-                &#8250;
-              </button>
-
-              {/* Slides viewport */}
-              <div className="overflow-visible py-8" style={{ perspective: "1000px" }}>
-                <div
-                  className="transition-transform duration-500 ease-out"
-                  style={{ transform: `translateX(-${previewSlide * 100}%)` }}
-                >
-                  <div className="flex" style={{ width: "500%" }}>
-                    {/* Slide 1: Constitution Identity */}
-                    <div className="px-2" style={{ width: "20%" }}>
-                      <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden transition-all duration-300 hover:scale-[1.4] hover:z-50 hover:shadow-2xl relative origin-center cursor-pointer">
-                        <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
-                          <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
-                          <div className="text-[9px] text-[#bbb]">BODY PROFILE REPORT</div>
-                        </div>
-                        <div className="px-5 py-4">
-                          <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">Constitution Identity</div>
-                          <div className="text-center mb-3 pb-3 border-b border-[#f0ebe3]">
-                            <div className="text-[14px] font-bold text-[#1a1a1a]">The Gentle Breeze</div>
-                            <div className="text-[10px] text-[#7a6535] mt-0.5">Qi Deficient</div>
-                          </div>
-                          <div className="space-y-1.5 text-[9px] text-[#444] leading-[1.6]">
-                            <p>Your energy tank is elegantly smaller. You are a hybrid car, not a truck. Incredibly efficient, but with a smaller battery.</p>
-                            <p>You likely prefer smaller gatherings, thoughtful conversation, and a good book over a night out.</p>
-                          </div>
-                          <div className="mt-3 grid grid-cols-2 gap-1.5">
-                            <div className="border border-[#e0d8cc] rounded p-1.5">
-                              <div className="text-[7px] font-bold text-[#C9A96E] uppercase">Strength</div>
-                              <div className="text-[8px] text-[#444] mt-0.5">Deep perception</div>
-                            </div>
-                            <div className="border border-[#e0d8cc] rounded p-1.5">
-                              <div className="text-[7px] font-bold text-[#C9A96E] uppercase">Drains Fast</div>
-                              <div className="text-[8px] text-[#444] mt-0.5">Skipping meals</div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
-                      </div>
-                    </div>
-
-                    {/* Slide 2: Food Therapy */}
-                    <div className="px-2" style={{ width: "20%" }}>
-                      <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden transition-all duration-300 hover:scale-[1.4] hover:z-50 hover:shadow-2xl relative origin-center cursor-pointer">
-                        <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
-                          <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
-                          <div className="text-[9px] text-[#bbb]">FOOD THERAPY</div>
-                        </div>
-                        <div className="px-5 py-4">
-                          <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">Recommended Foods</div>
-                          <div className="space-y-1">
-                            {[
-                              { f: "Chinese Yam", a: "Tonifies Spleen & Lung Qi" },
-                              { f: "Red Dates", a: "Nourishes Blood & Qi" },
-                              { f: "Chicken", a: "Tonifies Qi & Blood" },
-                              { f: "Millet", a: "Strengthens Spleen" },
-                              { f: "Goji Berries", a: "Nourishes Liver Blood" },
-                              { f: "Pumpkin", a: "Warms the Middle" },
-                            ].map((row) => (
-                              <div key={row.f} className="flex items-center justify-between text-[9px] py-1 border-b border-[#f0ebe3]">
-                                <span className="font-semibold text-[#1a1a1a]">{row.f}</span>
-                                <span className="text-[#7a6535] text-right">{row.a}</span>
-                              </div>
-                            ))}
-                          </div>
-                          <div className="mt-3 text-[10px] font-bold text-[#b85450] uppercase tracking-wider mb-1">Foods to Limit</div>
-                          <div className="text-[8px] text-[#666] leading-relaxed">Raw salads, ice-cold drinks, watermelon, bitter gourd, excessive peppermint</div>
-                        </div>
-                        <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
-                      </div>
-                    </div>
-
-                    {/* Slide 3: Daily Schedule */}
-                    <div className="px-2" style={{ width: "20%" }}>
-                      <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden transition-all duration-300 hover:scale-[1.4] hover:z-50 hover:shadow-2xl relative origin-center cursor-pointer">
-                        <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
-                          <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
-                          <div className="text-[9px] text-[#bbb]">DAILY SCHEDULE</div>
-                        </div>
-                        <div className="px-5 py-4">
-                          <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">Meridian Rhythm</div>
-                          <div className="space-y-1.5">
-                            {[
-                              { t: "7-8 AM", m: "Stomach", d: "Warm water with red dates" },
-                              { t: "8-9 AM", m: "Spleen", d: "Congee with yam" },
-                              { t: "9-11 AM", m: "Spleen (peak)", d: "Best focus window" },
-                              { t: "1-3 PM", m: "Small Intestine", d: "Rest or nap" },
-                              { t: "5-7 PM", m: "Kidney", d: "Early warm dinner" },
-                              { t: "10 PM", m: "Bedtime", d: "Non-negotiable" },
-                            ].map((row) => (
-                              <div key={row.t} className="flex items-start gap-2 text-[9px]">
-                                <span className="font-bold text-[#C9A96E] w-14 shrink-0">{row.t}</span>
-                                <div>
-                                  <span className="font-semibold text-[#1a1a1a]">{row.m}</span>
-                                  <span className="text-[#666]"> — {row.d}</span>
-                                </div>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                        <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
-                      </div>
-                    </div>
-
-                    {/* Slide 4: Recipe */}
-                    <div className="px-2" style={{ width: "20%" }}>
-                      <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden transition-all duration-300 hover:scale-[1.4] hover:z-50 hover:shadow-2xl relative origin-center cursor-pointer">
-                        <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
-                          <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
-                          <div className="text-[9px] text-[#bbb]">RECOMMENDED RECIPE</div>
-                        </div>
-                        <div className="px-5 py-4">
-                          <div className="text-center mb-3 pb-2 border-b border-[#f0ebe3]">
-                            <div className="text-[12px] font-bold text-[#1a1a1a]">Red Date &amp; Yam Recovery Congee</div>
-                            <div className="text-[8px] text-[#7a6535] mt-0.5">Qi-Building Breakfast</div>
-                          </div>
-                          <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-2">Ingredients</div>
-                          <div className="space-y-0.5">
-                            {[
-                              { n: "White Rice", a: "80 g" },
-                              { n: "Chinese Yam (fresh)", a: "150 g" },
-                              { n: "Red Dates", a: "8 pieces" },
-                              { n: "Goji Berries", a: "10 g" },
-                              { n: "Fresh Ginger", a: "1 slice" },
-                              { n: "Water", a: "1200 ml" },
-                            ].map((ing) => (
-                              <div key={ing.n} className="flex justify-between text-[9px] py-0.5 border-b border-[#f5f2ed]">
-                                <span className="text-[#1a1a1a]">{ing.n}</span>
-                                <span className="text-[#7a6535]">{ing.a}</span>
-                              </div>
-                            ))}
-                          </div>
-                          <div className="mt-2 text-[8px] text-[#666] leading-relaxed italic">
-                            Combines four Qi-building ingredients: rice, yam, red dates, and ginger.
-                          </div>
-                        </div>
-                        <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
-                      </div>
-                    </div>
-
-                    {/* Slide 5: 30-Day Plan (Pro) */}
-                    <div className="px-2" style={{ width: "20%" }}>
-                      <div className="bg-white rounded-lg shadow-lg border border-[#e0d8cc] overflow-hidden transition-all duration-300 hover:scale-[1.4] hover:z-50 hover:shadow-2xl relative origin-center cursor-pointer">
-                        <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between">
-                          <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</div>
-                          <div className="text-[9px] text-[#bbb]">30-DAY PLAN</div>
-                        </div>
-                        <div className="px-5 py-4">
-                          <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-3">Lifestyle Tracker</div>
-                          <div className="overflow-hidden">
-                            <table className="w-full text-[8px]">
-                              <thead>
-                                <tr className="bg-[#f8f6f2]">
-                                  <th className="text-left px-1.5 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">Day</th>
-                                  <th className="text-left px-1.5 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">Wake</th>
-                                  <th className="text-left px-1.5 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">Breakfast</th>
-                                  <th className="text-left px-1.5 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">Exercise</th>
-                                  <th className="text-left px-1.5 py-1 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">Bed</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                {[
-                                  { d: 1, w: "7:00", b: "Congee", e: "Walk 20m", bed: "10:00" },
-                                  { d: 2, w: "7:00", b: "Oatmeal", e: "Stretch", bed: "10:00" },
-                                  { d: 3, w: "6:50", b: "Congee", e: "Tai Chi", bed: "9:50" },
-                                  { d: 7, w: "7:00", b: "Congee", e: "Yoga", bed: "10:00" },
-                                  { d: 14, w: "6:45", b: "Congee", e: "Walk 30m", bed: "9:45" },
-                                  { d: 30, w: "6:30", b: "Congee", e: "Tai Chi", bed: "9:30" },
-                                ].map((row) => (
-                                  <tr key={row.d} className={row.d % 2 === 0 ? "bg-[#fcfaf7]" : "bg-white"}>
-                                    <td className="px-1.5 py-1 border border-[#e0d8cc] font-bold text-center text-[#1a1a1a]">{row.d}</td>
-                                    <td className="px-1.5 py-1 border border-[#e0d8cc] text-[#444]">{row.w}</td>
-                                    <td className="px-1.5 py-1 border border-[#e0d8cc] text-[#444]">{row.b}</td>
-                                    <td className="px-1.5 py-1 border border-[#e0d8cc] text-[#444]">{row.e}</td>
-                                    <td className="px-1.5 py-1 border border-[#e0d8cc] text-[#444]">{row.bed}</td>
-                                  </tr>
-                                ))}
-                              </tbody>
-                            </table>
-                          </div>
-                          <div className="mt-2 text-[8px] text-[#666] italic">Full plan includes daily targets for 30 days</div>
-                          <div className="mt-2 inline-block px-2 py-0.5 rounded bg-[rgba(201,169,110,0.1)] text-[7px] font-bold text-[#C9A96E] uppercase tracking-wider">Full Report Only</div>
-                        </div>
-                        <div className="bg-[#f8f6f2] px-5 py-1.5 text-center text-[8px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Dots */}
-              <div className="flex items-center justify-center gap-2 mt-2">
-                {[0, 1, 2, 3, 4].map((i) => (
-                  <button
-                    key={i}
-                    onClick={() => setPreviewSlide(i)}
-                    className={`rounded-full transition-all duration-200 cursor-pointer ${
-                      i === previewSlide ? "w-6 h-2 bg-accent" : "w-2 h-2 bg-border hover:bg-text2"
-                    }`}
-                    aria-label={`Slide ${i + 1}`}
-                  />
-                ))}
-              </div>
-              <div className="text-center text-xs text-text2 mt-2">{previewSlide + 1} / 5</div>
-            </div>
-          </div>
-          </Reveal>
+          <ReportPreview />
 
           {/* Bottom CTA */}
           <div className="text-center mt-10">
@@ -597,7 +365,7 @@ export default function QuizClient() {
               onClick={() => handleSexSelect("female")}
               className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(201,163,85,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,163,85,0.6)] hover:bg-[rgba(201,163,85,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(201,163,85,0.15)]"
             >
-              <div className="text-3xl mb-2">♀</div>
+              <div className="text-3xl mb-2">&#9792;</div>
               <div className="font-semibold text-base">
                 Female
               </div>
@@ -606,7 +374,7 @@ export default function QuizClient() {
               onClick={() => handleSexSelect("male")}
               className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(201,163,85,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(201,163,85,0.6)] hover:bg-[rgba(201,163,85,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(201,163,85,0.15)]"
             >
-              <div className="text-3xl mb-2">♂</div>
+              <div className="text-3xl mb-2">&#9794;</div>
               <div className="font-semibold text-base">
                 Male
               </div>
