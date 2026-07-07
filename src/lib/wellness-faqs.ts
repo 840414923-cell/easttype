@@ -1078,5 +1078,27 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Qi Stagnant and Blood Deficient types are most commonly associated. Take the free body type quiz to check your constitution.", "zh-TW": "氣鬱和血虛體質最常見。做免費測驗確認。", ja: "気鬱と血虚タイプが最も関連します。" },
     },
   ],
+  "chinese-medicine-for-high-blood-pressure": [
+    {
+      q: { en: "What does Chinese medicine say causes high blood pressure?", "zh-TW": "中醫認為高血壓是什麼原因？", ja: "中医学では高血圧の原因を何としていますか？" },
+      a: { en: "TCM most often attributes high blood pressure to Liver Yang Rising, where stress and frustration push energy and blood toward the head. Kidney Yin Deficiency and Phlegm-Blood Stasis are two other common patterns.", "zh-TW": "中醫最常歸因於肝陽上亢，壓力和怒氣推動氣血上行。腎陰虛和痰瘀是另外兩個常見證型。", ja: "中医学では最も多く肝陽上亢に帰し、ストレスと怒りが気血を頭に押し上げます。腎陰虚と痰瘀も一般的な証型です。" },
+    },
+    {
+      q: { en: "What foods lower blood pressure in Chinese medicine?", "zh-TW": "中醫說降血壓吃什麼？", ja: "中医学で血圧を下げる食材は？" },
+      a: { en: "Celery, chrysanthemum tea, mung beans, and cassia seed tea may help cool Liver heat. Black sesame and mulberry nourish Kidney Yin. Hawthorn and coix seed help transform phlegm and improve circulation.", "zh-TW": "芹菜、菊花茶、綠豆、決明子茶可清肝熱。黑芝麻和桑椹滋腎陰。山楂和薏仁化痰活血。", ja: "セロリ、菊茶、緑豆、決明子茶が肝熱を冷やします。黒ごまと桑の実は腎陰を養います。" },
+    },
+    {
+      q: { en: "Can I use Chinese herbs instead of blood pressure medication?", "zh-TW": "可以用中藥代替降壓藥嗎？", ja: "降圧薬の代わりに漢方薬を使えますか？" },
+      a: { en: "No. Chinese herbs may complement but should never replace prescribed blood pressure medication. Tian Ma and Du Zhong are traditionally used for support, but always consult your doctor before adding herbs to a medication regimen.", "zh-TW": "不可以。中藥可輔助但不能替代降壓藥。天麻和杜仲傳統上用於輔助，但加藥前必須諮詢醫生。", ja: "いいえ。漢方薬は補助的に使われるもので、降圧薬の代わりにはなりません。" },
+    },
+    {
+      q: { en: "Does stress cause high blood pressure in TCM?", "zh-TW": "中醫認為壓力會引起高血壓嗎？", ja: "中医学ではストレスは高血圧の原因になりますか？" },
+      a: { en: "Yes. Chronic stress and suppressed anger tighten Liver energy, which pushes upward as Liver Yang Rising. This is why blood pressure often spikes during arguments and settles on calmer days.", "zh-TW": "會。長期壓力和壓抑憤怒讓肝氣緊張，肝陽上亢。這就是為什麼血壓在爭吵時升高、平靜時下降。", ja: "はい。慢性的ストレスと抑えられた怒りが肝気を緊張させ、肝陽上亢となります。" },
+    },
+    {
+      q: { en: "Which acupressure point helps with high blood pressure?", "zh-TW": "降血壓按什麼穴位？", ja: "血圧を下げるツボは？" },
+      a: { en: "Tai Chong (LR3), on the top of the foot between the big toe and second toe, is the primary point for calming Liver Yang. Gentle pressure for 1-2 minutes on each foot may help ease tension and headaches.", "zh-TW": "太沖穴，在腳背大趾和二趾之間，是平肝陽的主要穴位。每側輕按1-2分鐘。", ja: "太衝穴（LR3）、足の甲の親指と人差し指の間が肝陽を鎮める主要なツボです。" },
+    },
+  ],
 
 }
