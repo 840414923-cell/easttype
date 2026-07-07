@@ -85,6 +85,11 @@ const nextConfig: NextConfig = {
         destination: "/symptoms/why-cant-i-fall-asleep",
         permanent: true,
       },
+      {
+        source: "/solutions/chinese-medicine-for-constipation",
+        destination: "/wellness/chinese-medicine-for-constipation",
+        permanent: true,
+      },
     ];
   },
 };
