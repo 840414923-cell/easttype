@@ -1100,5 +1100,49 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Tai Chong (LR3), on the top of the foot between the big toe and second toe, is the primary point for calming Liver Yang. Gentle pressure for 1-2 minutes on each foot may help ease tension and headaches.", "zh-TW": "太沖穴，在腳背大趾和二趾之間，是平肝陽的主要穴位。每側輕按1-2分鐘。", ja: "太衝穴（LR3）、足の甲の親指と人差し指の間が肝陽を鎮める主要なツボです。" },
     },
   ],
+  "tcm-body-clock": [
+    {
+      q: { en: "What is the Chinese medicine body clock?", "zh-TW": "什麼是中醫生物時鐘？", ja: "中医学の生物時計とは？" },
+      a: { en: "The Chinese medicine body clock maps each 2-hour period of the day to a specific organ system. There are 12 organ time slots in a 24-hour cycle. Each organ has a peak energy window for maintenance and repair, and a low-energy window for rest. This concept is over 2,000 years old.", "zh-TW": "中醫生物時鐘將每天每2小時對應一個特定器官系統。24小時循環有12個器官時段。每個器官有高峰修復期和低谷休息期。此概念超過2000年歷史。", ja: "中医学の生物時計は1日を2時間ごとに12の器官系統に対応させます。各器官にはメンテナンスと修復のピーク時間帯と休息時間帯があります。この概念は2000年以上の歴史があります。" },
+    },
+    {
+      q: { en: "Why do I wake up at 3 AM every night?", "zh-TW": "為什麼我每天凌晨3點醒來？", ja: "なぜ毎夜3時に目が覚めるのですか？" },
+      a: { en: "In the TCM body clock, 1 AM to 3 AM belongs to the Liver meridian. If your Liver Qi is stagnant from stress or your Liver Yin is depleted from poor sleep, this meridian becomes overactive during its peak window and wakes you up. This is one of the most common body clock disruptions.", "zh-TW": "在中醫時鐘中，凌晨1-3點屬於肝經。如果肝氣因壓力鬱結或肝陰因睡眠不足而耗損，經絡在其高峰時段過度活躍而醒來。這是最常見的時鐘失調之一。", ja: "中医学の時計では午前1-3時は肝経の時間です。ストレスで肝気鬱滞や睡眠不足で肝陰虚耗があると、ピーク時に経絡が過活発になり目が覚めます。" },
+    },
+    {
+      q: { en: "Is the TCM body clock scientifically proven?", "zh-TW": "中醫生物時鐘有科學依據嗎？", ja: "中医学の生物時計に科学的根拠はありますか？" },
+      a: { en: "The TCM body clock predates modern chronobiology by centuries, but the concept aligns with circadian rhythm science. Research confirms that hormone levels, body temperature, and cellular repair follow 24-hour cycles. The specific organ-to-time mappings in TCM are traditional rather than empirically tested, but the overall principle of biological timing is well established.", "zh-TW": "中醫時鐘早於現代時間生物學數百年，但概念與晝夜節律科學一致。研究證實荷爾蒙、體溫和細胞修復遵循24小時循環。具體器官對應時間是傳統的而非實證的，但生物節律的整體原則已確立。", ja: "中医学の時計は現代の時間生物学より数百年先行しますが、概日リズム科学と一致します。ホルモン、体温、細胞修復が24時間周期に従うことは研究で確認されています。" },
+    },
+    {
+      q: { en: "What time should I go to sleep according to Chinese medicine?", "zh-TW": "中醫建議幾點睡覺？", ja: "中医学では何時に寝るべきですか？" },
+      a: { en: "Chinese medicine recommends being asleep before 11 PM. The Gallbladder meridian runs from 11 PM to 1 AM and the Liver from 1 AM to 3 AM. These are the body's primary detoxification and energy restoration windows. Missing them regularly may lead to fatigue, irritability, and weakened immunity over time.", "zh-TW": "中醫建議11點前入睡。膽經運行於晚上11-1點，肝經於凌晨1-3點。這是身體主要的排毒和能量修復時段。經常錯過可能導致疲勞、易怒和免疫力下降。", ja: "中医学では午後11時までに寝ることを推奨します。胆経は午後11-午前1時、肝経は午前1-3時に運行します。" },
+    },
+    {
+      q: { en: "Which body type is most affected by body clock disruptions?", "zh-TW": "哪種體質最受時鐘失調影響？", ja: "どの体質が時計の乱れの影響を最も受けますか？" },
+      a: { en: "The Yin Deficient and Qi Stagnant types are most sensitive to body clock disruptions. Yin Deficient types lack the cooling force to keep organs quiet during their peak hours, while Qi Stagnant types have stuck energy that flares up during meridian activation. Take the free EastType quiz to discover your type.", "zh-TW": "陰虛和氣鬱體質對時鐘失調最敏感。陰虛缺乏冷卻力，氣鬱有阻塞能量在經絡活躍時爆發。做免費測驗了解你的體質。", ja: "陰虚と気鬱の体質が時計の乱れに最も敏感です。無料クイズであなたの体質を確認してください。" },
+    },
+  ],
+  "chinese-face-mapping": [
+    {
+      q: { en: "What is Chinese face mapping?", "zh-TW": "什麼是中醫面診？", ja: "中医学の顔面診断とは？" },
+      a: { en: "Chinese face mapping, or mian zhen, is a diagnostic method that reads facial zones, colors, and features to assess internal organ health. Each area of the face corresponds to a specific organ system. Breakouts, redness, puffiness, or color changes in a particular zone may reflect imbalances in the related organ.", "zh-TW": "面診是通過面部區域、顏色和特徵評估內臟健康的診斷方法。面部每個區域對應特定器官系統。某區域的痘痘、發紅、腫脹或顏色變化可能反映相關器官失衡。", ja: "顔面診断（面診）は、顔の部位、色、特徴を読んで内臓の健康を評価する診断方法です。" },
+    },
+    {
+      q: { en: "Can Chinese face mapping diagnose health conditions?", "zh-TW": "面診能診斷疾病嗎？", ja: "顔面診断で病気を診断できますか？" },
+      a: { en: "No. Face mapping in Chinese medicine is a traditional assessment tool that identifies patterns and tendencies, not medical diagnoses. It cannot replace blood tests, imaging, or professional medical evaluation. If you have a specific health concern, always consult a licensed healthcare provider for proper diagnosis.", "zh-TW": "不能。面診是傳統評估工具，識別模式和傾向，不是醫學診斷。不能替代血液檢查、影像或專業醫療評估。有健康問題請諮詢醫生。", ja: "いいえ。顔面診断は伝統的な評価ツールであり、医学的診断ではありません。" },
+    },
+    {
+      q: { en: "What does acne on different parts of the face mean in Chinese medicine?", "zh-TW": "中醫認為面部不同位置的痘痘代表什麼？", ja: "中医学では顔の部位別のニキビは何を意味しますか？" },
+      a: { en: "In TCM face mapping, forehead breakouts may relate to digestive issues or stress. Nose breakouts may indicate stomach heat or poor digestion. Cheek breakouts can be associated with lung or liver imbalances. Chin and jawline breakouts are often linked to hormonal cycles and kidney energy. These are traditional correlations, not medical diagnoses.", "zh-TW": "額頭痘痘可能與消化或壓力有關。鼻子痘痘可能表示胃熱或消化不良。臉頰痘痘可能與肺或肝失衡有關。下巴痘痘常與荷爾蒙週期和腎氣有關。", ja: "額のニキビは消化やストレス、鼻のニキビは胃熱、頬のニキビは肺や肝、あごのニキビはホルモンや腎気に関連する可能性があります。" },
+    },
+    {
+      q: { en: "How is Chinese face mapping different from Western dermatology?", "zh-TW": "中醫面診和西醫皮膚科有什麼不同？", ja: "中医学の顔面診断と西洋皮膚科の違いは？" },
+      a: { en: "Western dermatology treats skin conditions topically and identifies specific causes like bacteria, hormones, or allergens. Chinese face mapping looks at the face as a reflection of internal organ systems and seeks to address the root imbalance underneath the skin symptom. Both approaches can complement each other.", "zh-TW": "西醫皮膚科局部治療皮膚，找出細菌、荷爾蒙或過敏等原因。中醫面診將面部視為內臟系統的反映，尋求解決皮膚症狀下的根本失衡。兩者可以互補。", ja: "西洋皮膚科は皮膚を局所的に治療します。中医学は顔を内臓系統の反映として扱い、根本的な不均衡を解決しようとします。" },
+    },
+    {
+      q: { en: "Can I do Chinese face mapping on myself at home?", "zh-TW": "我可以自己在家做面診嗎？", ja: "自宅で顔面診断をできますか？" },
+      a: { en: "You can observe basic facial signals at home using a mirror in natural light. Look for persistent color changes, recurring breakout zones, puffiness, or unusual features. These observations may give you clues about your internal patterns. For a full assessment, take the free EastType quiz to identify your body type.", "zh-TW": "可以在家以自然光觀察基本面部信號。注意持續的顏色變化、反覆痘痘區域、腫脹或異常特徵。這些觀察可提供內在模式的線索。", ja: "自然光の下で鏡を使って基本的な顔の信号を観察できます。" },
+    },
+  ],
 
 }
