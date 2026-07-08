@@ -413,7 +413,7 @@ export default function ReportPreview() {
 
         {modal !== null && (
           <div
-            className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4 overflow-y-auto"
+            className="fixed inset-0 z-50 bg-black/80 flex items-start justify-center p-4 overflow-y-auto"
             onClick={closeModal}
           >
             <button
@@ -437,7 +437,7 @@ export default function ReportPreview() {
             >
               &#8250;
             </button>
-            <div onClick={(e) => e.stopPropagation()} className="py-6">
+            <div onClick={(e) => e.stopPropagation()} className="py-6 my-auto">
               <A4Page section={PAGES[modal].section} variant="modal">
                 <PageContent index={modal} />
               </A4Page>
