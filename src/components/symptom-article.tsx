@@ -93,6 +93,21 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
+      {/* Inline Quiz CTA */}
+      <section className="mb-10 print:hidden">
+        <div className="flex flex-col sm:flex-row items-center gap-4 rounded-xl border border-[rgba(201,163,85,0.15)] bg-[rgba(201,163,85,0.06)] p-5">
+          <p className="text-sm text-text2 leading-relaxed flex-1 text-center sm:text-left">
+            Curious which body type you are? Take the free 5-minute quiz.
+          </p>
+          <Link
+            href="/quiz"
+            className="flex-shrink-0 inline-flex items-center px-6 py-2.5 rounded-lg text-sm font-semibold no-underline transition-all duration-300 hover:-translate-y-0.5 bg-gradient-to-r from-accent to-accent2 text-bg"
+          >
+            Take the Free Quiz <span className="ml-1.5">&#8594;</span>
+          </Link>
+        </div>
+      </section>
+
       {/* TCM Explanation */}
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
