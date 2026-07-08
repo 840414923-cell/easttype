@@ -9956,5 +9956,153 @@
       }
     ],
     "image": "/images/herbs/senna-leaf-fan-xie-ye.jpg"
+  },
+  {
+    "slug": "turmeric-jiang-huang",
+    "nameEn": "Turmeric",
+    "nameZh": "jiang huang",
+    "nameZhTrad": "\u859f\u9ec3",
+    "pinyin": "jiang huang",
+    "botanicalName": "Curcuma longa L.",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Pungent, bitter",
+    "channels": "Spleen, Liver, Heart",
+    "summary": "A golden root that invigorates blood circulation and reduces pain. One of the most studied herbs in modern wellness, used in Chinese medicine for centuries to break up stagnation and ease inflammation.",
+    "actions": [
+      "Invigorates blood and promotes circulation",
+      "Reduces pain and swelling from stagnation",
+      "Supports liver and gallbladder function",
+      "Helps dissolve stagnant blood and clots"
+    ],
+    "actionDetails": [
+      { "action": "Invigorates blood and promotes circulation", "explanation": "In Chinese medicine, Turmeric is warm and enters the Liver channel, which governs blood flow. Its pungent nature moves stuck blood, making it useful for patterns where circulation is poor, such as cold extremities or menstrual pain with clots." },
+      { "action": "Reduces pain and swelling from stagnation", "explanation": "When blood and Qi stagnate, pain follows. Turmeric's warming, moving quality helps unblock these stagnations, which is why it is traditionally used for joint pain, bruises, and chest tightness associated with Blood Stasis patterns." },
+      { "action": "Supports liver and gallbladder function", "explanation": "Turmeric's affinity for the Liver channel means it helps the Liver perform its job of ensuring smooth energy flow. It also supports bile production, which aids digestion of fats and reduces stagnation in the digestive system." },
+      { "action": "Helps dissolve stagnant blood and clots", "explanation": "For the Blood Stasis body type, Turmeric is one of the primary food-grade herbs. Its warm, moving nature gradually breaks up old, stagnant blood that causes sharp pain, dark spots, or menstrual irregularities." }
+    ],
+    "bodyTypes": ["blood_stasis", "qi_stagnant"],
+    "commonlyUsedFor": [
+      { "condition": "Joint pain and stiffness from cold", "tcmInterpretation": "Cold congeals blood, causing stagnation and pain in joints. Turmeric warms and moves, helping restore circulation to affected areas.", "whyItHelps": "Its warm, blood-invigorating nature targets the root cause of cold-type joint pain rather than just masking symptoms." },
+      { "condition": "Menstrual pain with dark clots", "tcmInterpretation": "Blood stasis in the lower abdomen causes sharp, fixed menstrual pain with clots. Turmeric helps move stagnant blood and ease the pain.", "whyItHelps": "The warming, moving quality specifically addresses the stasis pattern, unlike cold herbs which could worsen it." },
+      { "condition": "Chest tightness and irritability", "tcmInterpretation": "Liver Qi stagnation can cause a feeling of constriction in the chest. Turmeric supports Liver blood flow, which indirectly helps Qi move more freely.", "whyItHelps": "By improving blood circulation through the Liver channel, it helps relieve the pressure and tightness of stuck energy." }
+    ],
+    "therapeuticFocus": ["Pain Relief", "Inflammation Support", "Liver Health"],
+    "foodPairings": ["black pepper", "ginger", "coconut milk", "warm soups"],
+    "howToUse": "Add 1 teaspoon of turmeric powder to warm milk or soup. For tea, simmer 2 slices of fresh turmeric root in water for 10 minutes. Always pair with a pinch of black pepper to enhance absorption.",
+    "dosage": "1-3g of powder per day. Up to 5g for acute pain patterns.",
+    "preparationNotes": "Turmeric is fat-soluble, so taking it with a small amount of healthy fat (coconut oil, milk) improves absorption. Adding black pepper increases curcumin absorption significantly.",
+    "dietaryAdvice": "For Blood Stasis types, turmeric pairs well with warming, cooked foods. Avoid combining with excessive cold foods like ice water or raw salads, which counteract its warming, circulating effect.",
+    "cautions": [
+      "Avoid during pregnancy in medicinal doses",
+      "May interact with blood-thinning medications",
+      "Do not use during acute bleeding",
+      "Excess use may cause stomach discomfort in sensitive individuals",
+      "Not suitable for people with severe Yin Deficiency with empty Heat"
+    ],
+    "faqs": [
+      { "q": "Is turmeric the same as curcumin?", "a": "Curcumin is the most active compound inside turmeric root. Whole turmeric contains about 2-5% curcumin, plus other beneficial compounds. Chinese medicine uses the whole root, believing the combined compounds work better together than curcumin alone." },
+      { "q": "Can I take turmeric every day?", "a": "Yes, in food amounts (1-2 teaspoons daily). It is a common cooking spice in South Asian and Chinese cuisine. For therapeutic doses, take for 2-3 weeks, then pause for a week to assess how your body responds." },
+      { "q": "Which body type benefits most from turmeric?", "a": "Blood Stasis and Qi Stagnant types benefit most, because turmeric's warm, moving nature directly addresses their core pattern of stagnation. Take the free EastType quiz to find your type." }
+    ],
+    "image": "/images/herbs/turmeric-jiang-huang.jpg"
+  },
+  {
+    "slug": "mulberry-sang-shen",
+    "nameEn": "Mulberry",
+    "nameZh": "sang shen",
+    "nameZhTrad": "\u6851\u69cf",
+    "pinyin": "sang shen",
+    "botanicalName": "Morus alba L.",
+    "category": "Blood Tonic",
+    "temperature": "Cold",
+    "taste": "Sweet, sour",
+    "channels": "Heart, Liver, Kidney",
+    "summary": "A dark purple berry that nourishes blood and Yin. In Chinese medicine, mulberry is used to support healthy aging, hair color, and restful sleep. It is one of the most accessible Yin-nourishing foods.",
+    "actions": [
+      "Nourishes Yin and generates fluids",
+      "Tonifies Blood and supports hair health",
+      "Moistens the intestines and relieves dryness",
+      "Supports Kidney essence and healthy aging"
+    ],
+    "actionDetails": [
+      { "action": "Nourishes Yin and generates fluids", "explanation": "Mulberry is cool and sweet, entering the Kidney and Liver channels. It replenishes the cooling, moistening aspect of the body that runs low in Yin Deficient types, helping with night sweats, dry mouth, and restlessness." },
+      { "action": "Tonifies Blood and supports hair health", "explanation": "In TCM, hair is considered an extension of Blood and Kidney essence. Mulberry nourishes both, which is why it is traditionally used for premature graying, hair thinning, and dry scalp associated with Blood Deficiency." },
+      { "action": "Moistens the intestines and relieves dryness", "explanation": "The moist, sweet nature of mulberry helps lubricate the intestines. For people with dry-type constipation (common in Yin Deficient and Blood Deficient types), mulberry may provide gentle relief." },
+      { "action": "Supports Kidney essence and healthy aging", "explanation": "Mulberry enters the Kidney channel and is considered a longevity food in TCM. It supports the body's deepest energy reserves, which gradually decline with age, stress, and overwork." }
+    ],
+    "bodyTypes": ["yin_deficient", "blood_stasis"],
+    "commonlyUsedFor": [
+      { "condition": "Premature graying and hair thinning", "tcmInterpretation": "Hair depends on Blood and Kidney essence for nourishment. When these are depleted, hair loses color and strength. Mulberry nourishes both directly.", "whyItHelps": "Its sweet, nourishing nature targets the root cause rather than just the surface symptom." },
+      { "condition": "Dry mouth and night sweats", "tcmInterpretation": "These are classic Yin Deficiency signs. The body lacks cooling, moistening fluids. Mulberry's cool, fluid-generating quality directly replenishes what is missing.", "whyItHelps": "Unlike warming herbs that could worsen dryness, mulberry is cooling and moistening, making it ideal for Yin Deficient patterns." },
+      { "condition": "Dry, difficult constipation", "tcmInterpretation": "When Yin and Blood are depleted, the intestines lack moisture and stool becomes dry and hard. Mulberry moistens the intestines gently without harsh stimulation.", "whyItHelps": "It provides lubrication rather than stimulation, which is the correct approach for deficiency-type constipation." }
+    ],
+    "therapeuticFocus": ["Anti-Aging", "Hair Health", "Sleep Support"],
+    "foodPairings": ["goji berries", "black sesame", "red dates", "walnuts"],
+    "howToUse": "Eat a small handful (10-15g) of dried mulberries as a snack. Or steep in hot water with goji berries for 10 minutes as a nourishing tea. Add to oatmeal or yogurt for breakfast.",
+    "dosage": "10-15g per day for general use. Up to 30g for Yin nourishing therapy.",
+    "preparationNotes": "Dried mulberries are sweeter and more concentrated than fresh. Store in an airtight container away from light. They can be rehydrated in warm water before adding to recipes.",
+    "dietaryAdvice": "For Yin Deficient types, mulberry pairs well with other moistening foods like black sesame, lily bulb, and white fungus. Avoid combining with drying, spicy foods that could counteract its moistening effect.",
+    "cautions": [
+      "Avoid in large amounts during digestive coldness or diarrhea",
+      "Do not use with cold-type diarrhea or Spleen deficiency with dampness",
+      "May lower blood sugar, use caution with diabetes medications",
+      "Excess consumption may cause mild digestive discomfort"
+    ],
+    "faqs": [
+      { "q": "Are mulberries the same as blackberries?", "a": "No. While they look similar, mulberries grow on trees (Morus species) and blackberries grow on bushes. In Chinese medicine, mulberries specifically nourish Kidney Yin and Blood, while blackberries do not have the same traditional use." },
+      { "q": "Can mulberries help with gray hair?", "a": "In TCM, premature graying is linked to Blood and Kidney essence depletion. Mulberry nourishes both, which is why it has been used traditionally for hair health. Results take 2-3 months of consistent use and work best for deficiency-type graying, not genetic graying." },
+      { "q": "Which body type benefits most from mulberries?", "a": "Yin Deficient and Blood Deficient types benefit most, because mulberry's cooling, nourishing nature directly addresses their core pattern of dryness and depletion. Take the free EastType quiz to find your type." }
+    ],
+    "image": "/images/herbs/mulberry-sang-shen.jpg"
+  },
+  {
+    "slug": "jasmine-mo-li",
+    "nameEn": "Jasmine",
+    "nameZh": "mo li",
+    "nameZhTrad": "\u8309\u8389",
+    "pinyin": "mo li",
+    "botanicalName": "Jasminum sambac (L.) Aiton",
+    "category": "Qi Regulating",
+    "temperature": "Warm",
+    "taste": "Pungent, sweet",
+    "channels": "Spleen, Stomach, Liver",
+    "summary": "A fragrant flower that soothes the Liver and calms the mind. In Chinese medicine, jasmine is used to ease emotional tension, support digestion, and lift the spirits. It is one of the most popular tea flowers in East Asia.",
+    "actions": [
+      "Soothes the Liver and regulates Qi flow",
+      "Calms the mind and eases emotional tension",
+      "Supports digestion and reduces bloating",
+      "Lifts the spirit and relieves mild melancholy"
+    ],
+    "actionDetails": [
+      { "action": "Soothes the Liver and regulates Qi flow", "explanation": "In TCM, the Liver ensures smooth flow of energy and emotions. When Liver Qi stagnates from stress or frustration, jasmine's warm, aromatic nature helps restore flow, easing chest tightness, sighing, and irritability." },
+      { "action": "Calms the mind and eases emotional tension", "explanation": "Jasmine's sweet, fragrant quality has a naturally calming effect on the Heart and Liver. Unlike heavy sedating herbs, it gently relaxes without causing drowsiness, making it ideal for daytime stress relief." },
+      { "action": "Supports digestion and reduces bloating", "explanation": "The Liver and Spleen work together in digestion. When Liver Qi is stuck, it can attack the Spleen and cause bloating, belching, or irregular appetite. Jasmine helps keep Liver Qi flowing smoothly, which protects digestive function." },
+      { "action": "Lifts the spirit and relieves mild melancholy", "explanation": "In TCM, prolonged Qi stagnation can lead to a heavy, low mood. Jasmine's upward, outward fragrance naturally lifts the energy, making it useful for mild seasonal sadness or emotional heaviness." }
+    ],
+    "bodyTypes": ["qi_stagnant"],
+    "commonlyUsedFor": [
+      { "condition": "Stress-related chest tightness and sighing", "tcmInterpretation": "These are classic Liver Qi Stagnation signs. Emotional stress blocks the free flow of Liver energy, creating physical pressure in the chest.", "whyItHelps": "Jasmine's aromatic, moving nature directly targets Liver Qi stagnation, the root cause of stress-related chest symptoms." },
+      { "condition": "Mood swings and irritability before menstruation", "tcmInterpretation": "Before menstruation, Blood moves downward and Liver Qi tends to rise, creating emotional volatility. Jasmine helps keep Liver Qi flowing smoothly.", "whyItHelps": "Its gentle, warming Qi-regulating action is safe for regular use during sensitive hormonal periods." },
+      { "condition": "Stress-related bloating and irregular appetite", "tcmInterpretation": "When Liver Qi is stuck, it can interfere with Stomach and Spleen function, causing bloating, belching, or loss of appetite. Jasmine addresses both the Liver (root) and the digestive system (branch).", "whyItHelps": "By soothing Liver Qi while supporting the Spleen and Stomach channels, jasmine treats both the cause and the symptom simultaneously." }
+    ],
+    "therapeuticFocus": ["Stress Relief", "Mood Support", "Digestive Health"],
+    "foodPairings": ["green tea", "rose petals", "chrysanthemum", "honey"],
+    "howToUse": "Steep 5-8 dried jasmine flowers in hot water for 3-5 minutes. Or blend with green tea leaves for a classic jasmine tea. Drink 1-2 cups in the afternoon for stress relief.",
+    "dosage": "3-6g of dried flowers per day. 1-2 cups of jasmine tea daily.",
+    "preparationNotes": "Jasmine flowers are delicate. Do not use boiling water, as it destroys the fragrance. Water at 80-85 degrees Celsius (175-185 F) is ideal. Cover while steeping to retain the aromatic oils.",
+    "dietaryAdvice": "For Qi Stagnant types, jasmine tea in the afternoon can help move stuck energy before it builds up. Avoid drinking jasmine tea on an empty stomach, as the pungent nature may irritate sensitive digestion.",
+    "cautions": [
+      "Avoid before bedtime if sensitive to caffeine in jasmine tea blends",
+      "Do not use in large amounts during pregnancy",
+      "May cause mild stomach upset if taken on an empty stomach",
+      "Not suitable for people with Qi Deficiency without Qi stagnation"
+    ],
+    "faqs": [
+      { "q": "Is jasmine tea caffeinated?", "a": "Pure jasmine flower tea is caffeine-free. However, most commercial jasmine tea is blended with green tea leaves, which do contain caffeine. If you are sensitive to caffeine, look for pure jasmine flower tea or brew it lighter." },
+      { "q": "Can jasmine help with anxiety?", "a": "In TCM, jasmine soothes Liver Qi and calms the mind, which may help with mild stress and tension. It is not a treatment for clinical anxiety. For persistent anxiety, please consult a healthcare provider. As a daily tea, many people find it gently supportive of emotional balance." },
+      { "q": "Which body type benefits most from jasmine?", "a": "The Qi Stagnant type benefits most, because jasmine's warm, aromatic nature directly addresses their core pattern of stuck energy and emotional tension. Take the free EastType quiz to find your type." }
+    ],
+    "image": "/images/herbs/jasmine-mo-li.jpg"
   }
 ]
