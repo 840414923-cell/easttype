@@ -10005,7 +10005,7 @@
       { "q": "Can I take turmeric every day?", "a": "Yes, in food amounts (1-2 teaspoons daily). It is a common cooking spice in South Asian and Chinese cuisine. For therapeutic doses, take for 2-3 weeks, then pause for a week to assess how your body responds." },
       { "q": "Which body type benefits most from turmeric?", "a": "Blood Stasis and Qi Stagnant types benefit most, because turmeric's warm, moving nature directly addresses their core pattern of stagnation. Take the free EastType quiz to find your type." }
     ],
-    "image": "/images/herbs/turmeric-jiang-huang.jpg"
+    "image": "/images/herbs/turmeric-jiang-huang.png"
   },
   {
     "slug": "mulberry-sang-shen",
@@ -10054,7 +10054,7 @@
       { "q": "Can mulberries help with gray hair?", "a": "In TCM, premature graying is linked to Blood and Kidney essence depletion. Mulberry nourishes both, which is why it has been used traditionally for hair health. Results take 2-3 months of consistent use and work best for deficiency-type graying, not genetic graying." },
       { "q": "Which body type benefits most from mulberries?", "a": "Yin Deficient and Blood Deficient types benefit most, because mulberry's cooling, nourishing nature directly addresses their core pattern of dryness and depletion. Take the free EastType quiz to find your type." }
     ],
-    "image": "/images/herbs/mulberry-sang-shen.jpg"
+    "image": "/images/herbs/mulberry-sang-shen.png"
   },
   {
     "slug": "jasmine-mo-li",
@@ -10103,6 +10103,6 @@
       { "q": "Can jasmine help with anxiety?", "a": "In TCM, jasmine soothes Liver Qi and calms the mind, which may help with mild stress and tension. It is not a treatment for clinical anxiety. For persistent anxiety, please consult a healthcare provider. As a daily tea, many people find it gently supportive of emotional balance." },
       { "q": "Which body type benefits most from jasmine?", "a": "The Qi Stagnant type benefits most, because jasmine's warm, aromatic nature directly addresses their core pattern of stuck energy and emotional tension. Take the free EastType quiz to find your type." }
     ],
-    "image": "/images/herbs/jasmine-mo-li.jpg"
+    "image": "/images/herbs/jasmine-mo-li.png"
   }
 ]
