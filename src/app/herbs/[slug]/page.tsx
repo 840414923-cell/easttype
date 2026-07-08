@@ -231,6 +231,26 @@ export default async function HerbDetailPage({
                     <td className="px-3 py-3 font-medium text-text bg-[rgba(168,135,64,0.03)]">Channels Entered</td>
                     <td className="px-3 py-3">{herb.channels}</td>
                   </tr>
+                  {herb.classicalSource && (
+                    <tr className="border-b border-[rgba(168,135,64,0.1)]">
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(168,135,64,0.03)]">Classical Source</td>
+                      <td className="px-3 py-3 text-sm">{herb.classicalSource}</td>
+                    </tr>
+                  )}
+                  {herb.safetyRating && (
+                    <tr>
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(168,135,64,0.03)]">Safety Rating</td>
+                      <td className="px-3 py-3">
+                        <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${
+                          herb.safetyRating === "Non-toxic" ? "bg-green-100 text-green-700" :
+                          herb.safetyRating === "Use with caution" ? "bg-amber-100 text-amber-700" :
+                          "bg-red-100 text-red-700"
+                        }`}>
+                          {herb.safetyRating}
+                        </span>
+                      </td>
+                    </tr>
+                  )}
                 </tbody>
               </table>
             </div>
