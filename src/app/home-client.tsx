@@ -66,7 +66,7 @@ export default function HomeClient() {
                   <Link
                     href="/quiz"
                     className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                    style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
+                    style={{ background: "linear-gradient(135deg, #A63A3A, #B84A4A, #A63A3A)", color: "#FFFFFF" }}
                   >
                     Take the Free Quiz
                     <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -74,7 +74,7 @@ export default function HomeClient() {
                   <p className="text-xs text-text2/60">5 min &middot; No sign-up</p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#F9F6F1] border border-[rgba(200,16,46,0.12)]">
+              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#F9F6F1] border border-[rgba(140,45,42,0.12)]">
                 <Image
                   src="/images/home/body-types.png"
                   alt="Chinese medicine body types"
@@ -161,7 +161,7 @@ export default function HomeClient() {
               <Link
                 href="/quiz"
                 className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
+                style={{ background: "linear-gradient(135deg, #A63A3A, #B84A4A, #A63A3A)", color: "#FFFFFF" }}
               >
                 Find Your Type
                 <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -224,7 +224,7 @@ export default function HomeClient() {
         {/* ═══ Final CTA ═══ */}
         <section
           className="py-20 sm:py-28"
-          style={{ background: "linear-gradient(135deg, #B91C1C, #C8102E)" }}
+          style={{ background: "linear-gradient(135deg, #8C2D2A, #A63A3A)" }}
         >
           <div className="max-w-2xl mx-auto px-6 text-center">
             <h2 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl text-white mb-4 tracking-tight">
@@ -237,7 +237,7 @@ export default function HomeClient() {
             </p>
             <Link
               href="/quiz"
-              className="group inline-flex items-center justify-center px-10 py-4 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl bg-white text-[#C8102E]"
+              className="group inline-flex items-center justify-center px-10 py-4 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl bg-white text-[#A63A3A]"
             >
               Take the Free Quiz
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>

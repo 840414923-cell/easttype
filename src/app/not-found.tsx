@@ -20,7 +20,7 @@ export default function NotFound() {
           <Link
             key={link.href}
             href={link.href}
-            className="block border border-[rgba(200,16,46,0.12)] rounded-xl px-5 py-4 bg-card-bg hover:border-[rgba(200,16,46,0.35)] transition-all duration-300 no-underline"
+            className="block border border-[rgba(140,45,42,0.12)] rounded-xl px-5 py-4 bg-card-bg hover:border-[rgba(140,45,42,0.35)] transition-all duration-300 no-underline"
           >
             <span className="font-[family-name:var(--font-display)] text-lg text-text tracking-wide block mb-1">
               {link.label}

@@ -115,7 +115,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           </p>
 
           {/* Hero image placeholder */}
-          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden bg-card-bg border border-[rgba(185,28,28,0.12)] mb-12">
+          <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden bg-card-bg border border-[rgba(140,45,42,0.12)] mb-12">
             <Image
               src={solution.heroImage}
               alt={solution.title}
@@ -136,7 +136,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           <div className="overflow-x-auto mb-12">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="border-b-2 border-[rgba(185,28,28,0.2)]">
+                <tr className="border-b-2 border-[rgba(140,45,42,0.2)]">
                   <th className="text-left py-3 px-4 font-semibold text-text">Formula</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Best For</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Key Herbs</th>
@@ -146,7 +146,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               </thead>
               <tbody>
                 {solution.formulas.map((f) => (
-                  <tr key={f.slug} className="border-b border-[rgba(185,28,28,0.08)]">
+                  <tr key={f.slug} className="border-b border-[rgba(140,45,42,0.08)]">
                     <td className="py-3 px-4">
                       <a href={`#${f.slug}`} className="text-accent hover:underline font-medium">{f.nameEn.split(" & ")[0]}</a>
                     </td>
@@ -174,7 +174,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           <div className="overflow-x-auto mb-12">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="border-b-2 border-[rgba(185,28,28,0.2)]">
+                <tr className="border-b-2 border-[rgba(140,45,42,0.2)]">
                   <th className="text-left py-3 px-4 font-semibold text-text">Topic</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Western Medicine</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Chinese Medicine</th>
@@ -182,7 +182,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               </thead>
               <tbody>
                 {solution.tcmVsModern.map((row, i) => (
-                  <tr key={i} className="border-b border-[rgba(185,28,28,0.08)]">
+                  <tr key={i} className="border-b border-[rgba(140,45,42,0.08)]">
                     <td className="py-3 px-4 font-medium text-text">{row.aspect}</td>
                     <td className="py-3 px-4 text-text2">{row.westernView}</td>
                     <td className="py-3 px-4 text-text2">{row.tcmView}</td>
@@ -201,7 +201,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           </p>
           <div className="space-y-6 mb-12">
             {solution.bodyTypeExplanations.map((bt, i) => (
-              <div key={i} className="rounded-xl border border-[rgba(185,28,28,0.12)] bg-card-bg p-6">
+              <div key={i} className="rounded-xl border border-[rgba(140,45,42,0.12)] bg-card-bg p-6">
                 <div className="flex items-center gap-3 mb-3">
                   <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full border ${FORMULA_COLORS[bt.bodyType] || "bg-gray-100 text-gray-700"}`}>
                     Type {i + 1}
@@ -230,13 +230,13 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-1">Common Signs</p>
                   <div className="flex flex-wrap gap-2">
                     {bt.symptoms.map((s, j) => (
-                      <span key={j} className="text-xs text-text2/70 bg-[rgba(185,28,28,0.05)] border border-[rgba(185,28,28,0.1)] px-2.5 py-1 rounded-md">
+                      <span key={j} className="text-xs text-text2/70 bg-[rgba(140,45,42,0.05)] border border-[rgba(140,45,42,0.1)] px-2.5 py-1 rounded-md">
                         {s}
                       </span>
                     ))}
                   </div>
                 </div>
-                <div className="bg-[rgba(185,28,28,0.04)] rounded-lg p-3">
+                <div className="bg-[rgba(140,45,42,0.04)] rounded-lg p-3">
                   <p className="text-xs font-semibold text-accent mb-1">A Simple Analogy</p>
                   <p className="text-sm text-text2 italic leading-relaxed">{bt.metaphor}</p>
                 </div>
@@ -264,7 +264,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               </p>
 
               {/* Source */}
-              <div className="bg-[rgba(185,28,28,0.04)] border border-[rgba(185,28,28,0.1)] rounded-lg px-4 py-2 mb-4">
+              <div className="bg-[rgba(140,45,42,0.04)] border border-[rgba(140,45,42,0.1)] rounded-lg px-4 py-2 mb-4">
                 <p className="text-xs text-text2/60">
                   <span className="font-semibold text-accent">Classical Source: </span>
                   {formula.classicalSourceEn}
@@ -272,7 +272,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               </div>
 
               {/* Formula image placeholder */}
-              <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-card-bg border border-[rgba(185,28,28,0.12)] mb-6">
+              <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-card-bg border border-[rgba(140,45,42,0.12)] mb-6">
                 <Image
                   src={formula.image}
                   alt={formula.nameEn}
@@ -292,7 +292,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               <div className="overflow-x-auto mb-6">
                 <table className="w-full text-sm border-collapse">
                   <thead>
-                    <tr className="border-b-2 border-[rgba(185,28,28,0.2)]">
+                    <tr className="border-b-2 border-[rgba(140,45,42,0.2)]">
                       <th className="text-left py-2 px-3 font-semibold text-text">Ingredient</th>
                       <th className="text-left py-2 px-3 font-semibold text-text">Amount</th>
                       <th className="text-left py-2 px-3 font-semibold text-text">Role</th>
@@ -303,11 +303,11 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
                     {formula.ingredients.map((ing, i) => {
                       const herb = ing.herbSlug ? HERBS[ing.herbSlug] : undefined
                       return (
-                      <tr key={i} className="border-b border-[rgba(185,28,28,0.08)]">
+                      <tr key={i} className="border-b border-[rgba(140,45,42,0.08)]">
                         <td className="py-2 px-3">
                           {herb && herb.image ? (
                             <Link href={`/herbs/${ing.herbSlug}`} className="inline-flex items-center gap-2 group no-underline">
-                              <span className="relative w-8 h-8 rounded-full overflow-hidden border border-[rgba(185,28,28,0.2)] flex-shrink-0">
+                              <span className="relative w-8 h-8 rounded-full overflow-hidden border border-[rgba(140,45,42,0.2)] flex-shrink-0">
                                 <Image
                                   src={herb.image}
                                   alt={ing.nameEn}
@@ -347,7 +347,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               <ol className="space-y-2 mb-6">
                 {formula.preparationSteps.map((step, i) => (
                   <li key={i} className="flex gap-3 text-sm text-text2 leading-relaxed">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(185,28,28,0.1)] text-accent font-semibold text-xs flex items-center justify-center">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(140,45,42,0.1)] text-accent font-semibold text-xs flex items-center justify-center">
                       {i + 1}
                     </span>
                     <span className="pt-0.5">{step}</span>
@@ -357,19 +357,19 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
 
               {/* Usage details */}
               <div className="grid sm:grid-cols-2 gap-4 mb-6">
-                <div className="bg-card-bg rounded-lg border border-[rgba(185,28,28,0.1)] p-4">
+                <div className="bg-card-bg rounded-lg border border-[rgba(140,45,42,0.1)] p-4">
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-1">How to Take</p>
                   <p className="text-sm text-text2 leading-relaxed">{formula.howToTake}</p>
                 </div>
-                <div className="bg-card-bg rounded-lg border border-[rgba(185,28,28,0.1)] p-4">
+                <div className="bg-card-bg rounded-lg border border-[rgba(140,45,42,0.1)] p-4">
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-1">How Long</p>
                   <p className="text-sm text-text2 leading-relaxed">{formula.duration}</p>
                 </div>
-                <div className="bg-card-bg rounded-lg border border-[rgba(185,28,28,0.1)] p-4">
+                <div className="bg-card-bg rounded-lg border border-[rgba(140,45,42,0.1)] p-4">
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-1">Taste</p>
                   <p className="text-sm text-text2 leading-relaxed">{formula.tasteProfile}</p>
                 </div>
-                <div className="bg-card-bg rounded-lg border border-[rgba(185,28,28,0.1)] p-4">
+                <div className="bg-card-bg rounded-lg border border-[rgba(140,45,42,0.1)] p-4">
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-1">Yield</p>
                   <p className="text-sm text-text2 leading-relaxed">{formula.yield} | Prep time: {formula.prepTime}</p>
                 </div>
@@ -391,7 +391,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           ))}
 
           {/* Quiz CTA */}
-          <div className="rounded-2xl bg-gradient-to-br from-[rgba(200,16,46,0.08)] to-[rgba(200,16,46,0.02)] border border-[rgba(185,28,28,0.2)] p-8 text-center mb-12">
+          <div className="rounded-2xl bg-gradient-to-br from-[rgba(140,45,42,0.08)] to-[rgba(140,45,42,0.02)] border border-[rgba(140,45,42,0.2)] p-8 text-center mb-12">
             <h2 className="font-[family-name:var(--font-display)] text-2xl text-text mb-3 tracking-wide">
               Which Formula Is Right for You?
             </h2>
@@ -400,7 +400,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
             </p>
             <Link
               href="/quiz"
-              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(200,16,46,0.2)]"
+              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(140,45,42,0.2)]"
             >
               Take the Free Body Type Quiz {'>'}
             </Link>
@@ -412,7 +412,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           </h2>
           <div className="space-y-4 mb-12">
             {solution.faqs.map((faq, i) => (
-              <div key={i} className="rounded-xl border border-[rgba(185,28,28,0.12)] bg-card-bg p-5">
+              <div key={i} className="rounded-xl border border-[rgba(140,45,42,0.12)] bg-card-bg p-5">
                 <h3 className="font-semibold text-text mb-2 text-base">{faq.q}</h3>
                 <p className="text-sm text-text2 leading-relaxed">{faq.a}</p>
               </div>
@@ -420,7 +420,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
           </div>
 
           {/* Disclaimer */}
-          <div className="rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.1)] p-5">
+          <div className="rounded-xl bg-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.1)] p-5">
             <p className="text-xs text-text2 leading-relaxed text-center">
               This content is for educational and informational purposes only and is not medical advice. The herbal formulas described here use food-grade ingredients traditionally consumed in Chinese culture. Always consult a qualified healthcare professional before starting any herbal regimen, especially if you are pregnant, nursing, taking medications, or managing a health condition. Individual results may vary.
             </p>

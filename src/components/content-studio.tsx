@@ -183,13 +183,13 @@ export default function ContentStudio({ unusedCodes }: Props) {
         <div className="flex gap-2 mb-4">
           <button
             onClick={() => handleBrowseModeChange("template")}
-            className={`px-4 py-2 rounded-lg text-sm cursor-pointer transition-all ${browseMode === "template" ? "bg-[#C8102E] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
+            className={`px-4 py-2 rounded-lg text-sm cursor-pointer transition-all ${browseMode === "template" ? "bg-[#A63A3A] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
           >
             按模板浏览
           </button>
           <button
             onClick={() => handleBrowseModeChange("bodytype")}
-            className={`px-4 py-2 rounded-lg text-sm cursor-pointer transition-all ${browseMode === "bodytype" ? "bg-[#C8102E] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
+            className={`px-4 py-2 rounded-lg text-sm cursor-pointer transition-all ${browseMode === "bodytype" ? "bg-[#A63A3A] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
           >
             按体质浏览
           </button>
@@ -203,7 +203,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 onClick={() => handleTemplateChange(id)}
                 className={`flex items-center gap-2 px-4 py-2.5 rounded-lg cursor-pointer transition-all whitespace-nowrap ${
                   templateType === id
-                    ? "bg-[#C8102E] text-[#0f0d0a] font-bold"
+                    ? "bg-[#A63A3A] text-[#0f0d0a] font-bold"
                     : "bg-[#1e1a14] text-[#7a6e5e] hover:text-[#e8dcc8] border border-[#2a2418]"
                 }`}
               >
@@ -221,7 +221,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
         <div className="flex gap-1.5 overflow-x-auto pb-2">
           <button
             onClick={() => handleBgTypeChange("all")}
-            className={`px-3 py-1.5 rounded text-xs cursor-pointer transition-all whitespace-nowrap ${selectedBgType === "all" ? "bg-[#C8102E] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
+            className={`px-3 py-1.5 rounded text-xs cursor-pointer transition-all whitespace-nowrap ${selectedBgType === "all" ? "bg-[#A63A3A] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
           >
             全部
           </button>
@@ -229,7 +229,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
             <button
               key={t.id}
               onClick={() => handleBgTypeChange(t.id)}
-              className={`flex items-center gap-1 px-3 py-1.5 rounded text-xs cursor-pointer transition-all whitespace-nowrap ${selectedBgType === t.id ? "bg-[#C8102E] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
+              className={`flex items-center gap-1 px-3 py-1.5 rounded text-xs cursor-pointer transition-all whitespace-nowrap ${selectedBgType === t.id ? "bg-[#A63A3A] text-[#0f0d0a] font-bold" : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"}`}
             >
               {t.zh}
             </button>
@@ -245,7 +245,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
             onClick={() => setCustomMode(!customMode)}
             className={`px-3 py-1.5 rounded text-sm cursor-pointer transition-all ${
               customMode
-                ? "bg-[#C8102E] text-[#0f0d0a] font-bold"
+                ? "bg-[#A63A3A] text-[#0f0d0a] font-bold"
                 : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
             }`}
           >
@@ -262,7 +262,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 value={customHeadline}
                 onChange={(e) => setCustomHeadline(e.target.value)}
                 placeholder="Ginger isn't good for everyone."
-                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C8102E] text-sm"
+                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#A63A3A] text-sm"
               />
             </div>
             <div>
@@ -272,7 +272,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 value={customSubtext}
                 onChange={(e) => setCustomSubtext(e.target.value)}
                 placeholder="If your body runs hot, ginger can make things worse."
-                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C8102E] text-sm"
+                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#A63A3A] text-sm"
               />
             </div>
             <div>
@@ -282,7 +282,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 value={customEmoji}
                 onChange={(e) => setCustomEmoji(e.target.value)}
                 placeholder="🫚"
-                className="w-20 px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C8102E] text-sm"
+                className="w-20 px-3 py-2 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#A63A3A] text-sm"
               />
             </div>
           </div>
@@ -294,7 +294,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 onClick={() => setSelectedIdx(i)}
                 className={`p-3 rounded-lg text-left cursor-pointer transition-all border-2 ${
                   selectedIdx === i
-                    ? "border-[#C8102E] bg-[rgba(200,16,46,0.08)]"
+                    ? "border-[#A63A3A] bg-[rgba(140,45,42,0.08)]"
                     : "border-[#2a2418] hover:border-[#3a3428] bg-[#1e1a14]"
                 }`}
               >
@@ -303,7 +303,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                   <div className="text-sm font-bold text-[#e8dcc8] line-clamp-2">{card.headline}</div>
                 </div>
                 <div className="flex items-center gap-2 mt-1">
-                  <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#C8102E]">{TEMPLATE_META[card.type].label}</span>
+                  <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#A63A3A]">{TEMPLATE_META[card.type].label}</span>
                   <span className="text-[10px] text-[#7a6e5e] line-clamp-1">{card.zh}</span>
                 </div>
               </button>
@@ -322,7 +322,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
               onClick={() => setBgOverride(opt.id)}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-lg cursor-pointer transition-all whitespace-nowrap ${
                 effectiveBg === opt.id
-                  ? "border-2 border-[#C8102E] bg-[rgba(200,16,46,0.08)] text-[#C8102E] font-semibold"
+                  ? "border-2 border-[#A63A3A] bg-[rgba(140,45,42,0.08)] text-[#A63A3A] font-semibold"
                   : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
               }`}
             >
@@ -347,7 +347,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
             id="useCode2"
             checked={useCode}
             onChange={(e) => setUseCode(e.target.checked)}
-            className="accent-[#C8102E]"
+            className="accent-[#A63A3A]"
           />
           <label htmlFor="useCode2" className="text-sm text-[#e8dcc8] cursor-pointer">在图片上添加激活码</label>
         </div>
@@ -357,7 +357,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
               <select
                 value={selectedCode}
                 onChange={(e) => setSelectedCode(e.target.value)}
-                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#C8102E] border border-[#3a3428] outline-none font-mono text-sm"
+                className="w-full px-3 py-2 rounded bg-[#2a2418] text-[#A63A3A] border border-[#3a3428] outline-none font-mono text-sm"
               >
                 <option value="">选择激活码</option>
                 {unusedCodes.map((c) => (<option key={c} value={c}>{c}</option>))}
@@ -374,7 +374,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
         <button
           onClick={generateSelected}
           disabled={generating || !currentContent?.headline}
-          className="flex-1 py-3 rounded-lg bg-[#C8102E] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] disabled:opacity-50 text-sm"
+          className="flex-1 py-3 rounded-lg bg-[#A63A3A] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] disabled:opacity-50 text-sm"
         >
           {generating ? "生成中..." : "生成 (4种尺寸)"}
         </button>
@@ -382,7 +382,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
           <button
             onClick={generateAll}
             disabled={generating}
-            className="flex-1 py-3 rounded-lg bg-[#2a2418] text-[#C8102E] font-bold cursor-pointer hover:bg-[#3a3428] border border-[#3a3428] disabled:opacity-50 text-sm"
+            className="flex-1 py-3 rounded-lg bg-[#2a2418] text-[#A63A3A] font-bold cursor-pointer hover:bg-[#3a3428] border border-[#3a3428] disabled:opacity-50 text-sm"
           >
             {generating ? "批量中..." : `全部生成 (${displayedContent.length}×4)`}
           </button>
@@ -398,7 +398,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
             </h3>
             <button
               onClick={downloadAll}
-              className="px-3 py-1.5 rounded text-xs bg-[#C8102E] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853]"
+              className="px-3 py-1.5 rounded text-xs bg-[#A63A3A] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853]"
             >
               一键下载全部
             </button>
@@ -421,7 +421,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                   {items.map((item) => (
                     <div key={item.platformId} className="space-y-1.5">
-                      <div className="text-xs text-[#C8102E] font-semibold">
+                      <div className="text-xs text-[#A63A3A] font-semibold">
                         {PLATFORM_SIZES.find((p) => p.id === item.platformId)?.label}
                       </div>
                       <button
@@ -431,7 +431,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                         <img
                           src={item.dataUrl}
                           alt={item.content.headline}
-                          className="w-full h-auto rounded border border-[#2a2418] hover:border-[#C8102E] transition-colors"
+                          className="w-full h-auto rounded border border-[#2a2418] hover:border-[#A63A3A] transition-colors"
                         />
                       </button>
                       <div className="flex gap-1.5">
@@ -443,7 +443,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
                         </button>
                         <button
                           onClick={() => copyPlatformCopy(item)}
-                          className="flex-1 py-1 rounded text-xs bg-[#2a2418] text-[#C8102E] cursor-pointer hover:bg-[#3a3428]"
+                          className="flex-1 py-1 rounded text-xs bg-[#2a2418] text-[#A63A3A] cursor-pointer hover:bg-[#3a3428]"
                         >
                           {copiedKey === `${item.contentIdx}-${item.platformId}` ? "已复制 ✓" : "复制文案"}
                         </button>
@@ -458,7 +458,7 @@ export default function ContentStudio({ unusedCodes }: Props) {
       )}
 
       {generating && (
-        <div className="text-center text-[#C8102E] text-sm py-8">
+        <div className="text-center text-[#A63A3A] text-sm py-8">
           正在生成，请稍候...
         </div>
       )}

@@ -25,7 +25,7 @@ const FILTERS = [
 ]
 
 const tagColors: Record<string, string> = {
-  "Overview": "bg-[rgba(185,28,28,0.12)] text-accent",
+  "Overview": "bg-[rgba(140,45,42,0.12)] text-accent",
   "Qi Deficient": "bg-amber-900/10 text-amber-600",
   "Yang Deficient": "bg-sky-900/10 text-sky-600",
   "Yin Deficient": "bg-red-900/10 text-red-600",
@@ -47,7 +47,7 @@ const tagIconColors: Record<string, string> = {
 }
 
 const tagBgColors: Record<string, string> = {
-  "Overview": "rgba(185,28,28,0.08)",
+  "Overview": "rgba(140,45,42,0.08)",
   "Qi Deficient": "rgba(217,119,6,0.08)",
   "Yang Deficient": "rgba(2,132,199,0.08)",
   "Yin Deficient": "rgba(220,38,38,0.08)",
@@ -70,8 +70,8 @@ export function WellnessList({ articles }: { articles: Article[] }) {
             onClick={() => setFilter(cat)}
             className={`px-3 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all no-underline ${
               filter === cat
-                ? "bg-[rgba(185,28,28,0.15)] text-accent border border-[rgba(185,28,28,0.4)]"
-                : "bg-card-bg text-text2 border border-[rgba(185,28,28,0.2)] hover:border-[rgba(185,28,28,0.4)]"
+                ? "bg-[rgba(140,45,42,0.15)] text-accent border border-[rgba(140,45,42,0.4)]"
+                : "bg-card-bg text-text2 border border-[rgba(140,45,42,0.2)] hover:border-[rgba(140,45,42,0.4)]"
             }`}
           >
             {cat}
@@ -84,8 +84,8 @@ export function WellnessList({ articles }: { articles: Article[] }) {
           <Link
             key={article.slug}
             href={`/wellness/${article.slug}`}
-            className={`group flex gap-4 border border-[rgba(185,28,28,0.2)] rounded-xl p-5 hover:border-[rgba(185,28,28,0.4)] hover:shadow-[0_4px_20px_rgba(185,28,28,0.08)] transition-all duration-300 no-underline ${
-              index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(185,28,28,0.03)]"
+            className={`group flex gap-4 border border-[rgba(140,45,42,0.2)] rounded-xl p-5 hover:border-[rgba(140,45,42,0.4)] hover:shadow-[0_4px_20px_rgba(140,45,42,0.08)] transition-all duration-300 no-underline ${
+              index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(140,45,42,0.03)]"
             }`}
           >
             <div className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center" style={{ background: tagBgColors[article.tag] || tagBgColors["Overview"] }}>

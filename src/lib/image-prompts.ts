@@ -30,7 +30,7 @@ export const CATEGORY_META: Record<PromptCategory, { label: string; icon: string
 }
 
 const STYLE =
-  "Premium dark warm background (#1A1410 deep brown-black), gold accent (#C8102E), Chinese medicine aesthetic, elegant serif font for headlines, clean sans-serif for body text, gold foil decorative line elements, luxury wellness brand style, high contrast, minimalist layout with breathing space"
+  "Premium dark warm background (#1A1410 deep brown-black), gold accent (#A63A3A), Chinese medicine aesthetic, elegant serif font for headlines, clean sans-serif for body text, gold foil decorative line elements, luxury wellness brand style, high contrast, minimalist layout with breathing space"
 
 const PIN_SIZE = "1000×1500px (2:3)"
 const IG_SIZE = "1080×1080px (1:1)"

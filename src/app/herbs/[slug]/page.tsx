@@ -168,7 +168,7 @@ export default async function HerbDetailPage({
           </nav>
 
           {herb.image && (
-            <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-[rgba(185,28,28,0.15)] mb-8">
+            <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden border border-[rgba(140,45,42,0.15)] mb-8">
               <Image
                 src={herb.image}
                 alt={herb.nameEn}
@@ -195,7 +195,7 @@ export default async function HerbDetailPage({
             <p className="text-text2/50 text-xs italic mb-6">{herb.botanicalName}</p>
           )}
 
-          <div className="bg-[rgba(185,28,28,0.06)] border border-[rgba(185,28,28,0.2)] rounded-xl p-5 mb-10">
+          <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
               Summary
             </h2>
@@ -210,36 +210,36 @@ export default async function HerbDetailPage({
               <table className="w-full border-collapse text-sm">
                 <tbody className="text-text2">
                   {herb.botanicalName && (
-                    <tr className="border-b border-[rgba(185,28,28,0.1)]">
-                      <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Botanical Name</td>
+                    <tr className="border-b border-[rgba(140,45,42,0.1)]">
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Botanical Name</td>
                       <td className="px-3 py-3 italic">{herb.botanicalName}</td>
                     </tr>
                   )}
-                  <tr className="border-b border-[rgba(185,28,28,0.1)]">
-                    <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Category</td>
+                  <tr className="border-b border-[rgba(140,45,42,0.1)]">
+                    <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Category</td>
                     <td className="px-3 py-3">{herb.category}</td>
                   </tr>
-                  <tr className="border-b border-[rgba(185,28,28,0.1)]">
-                    <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Temperature</td>
+                  <tr className="border-b border-[rgba(140,45,42,0.1)]">
+                    <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Temperature</td>
                     <td className="px-3 py-3">{herb.temperature}</td>
                   </tr>
-                  <tr className="border-b border-[rgba(185,28,28,0.1)]">
-                    <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Taste</td>
+                  <tr className="border-b border-[rgba(140,45,42,0.1)]">
+                    <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Taste</td>
                     <td className="px-3 py-3">{herb.taste}</td>
                   </tr>
                   <tr>
-                    <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Channels Entered</td>
+                    <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Channels Entered</td>
                     <td className="px-3 py-3">{herb.channels}</td>
                   </tr>
                   {herb.classicalSource && (
-                    <tr className="border-b border-[rgba(185,28,28,0.1)]">
-                      <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Classical Source</td>
+                    <tr className="border-b border-[rgba(140,45,42,0.1)]">
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Classical Source</td>
                       <td className="px-3 py-3 text-sm">{herb.classicalSource}</td>
                     </tr>
                   )}
                   {herb.safetyRating && (
                     <tr>
-                      <td className="px-3 py-3 font-medium text-text bg-[rgba(185,28,28,0.03)]">Safety Rating</td>
+                      <td className="px-3 py-3 font-medium text-text bg-[rgba(140,45,42,0.03)]">Safety Rating</td>
                       <td className="px-3 py-3">
                         <span className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${
                           herb.safetyRating === "Non-toxic" ? "bg-green-100 text-green-700" :
@@ -263,7 +263,7 @@ export default async function HerbDetailPage({
             {herb.therapeuticFocus && herb.therapeuticFocus.length > 0 && (
               <div className="flex flex-wrap gap-2 mb-6">
                 {herb.therapeuticFocus.map((focus, i) => (
-                  <span key={i} className="text-[10px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[rgba(185,28,28,0.08)] text-accent border border-[rgba(185,28,28,0.15)]">
+                  <span key={i} className="text-[10px] font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-[rgba(140,45,42,0.08)] text-accent border border-[rgba(140,45,42,0.15)]">
                     {focus}
                   </span>
                 ))}
@@ -272,7 +272,7 @@ export default async function HerbDetailPage({
             {herb.actionDetails && herb.actionDetails.length > 0 ? (
               <div className="space-y-6">
                 {herb.actionDetails.map((detail, i) => (
-                  <div key={i} className="border-l-2 border-[rgba(185,28,28,0.2)] pl-4">
+                  <div key={i} className="border-l-2 border-[rgba(140,45,42,0.2)] pl-4">
                     <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-2 font-semibold">
                       {detail.action}
                     </h3>
@@ -284,7 +284,7 @@ export default async function HerbDetailPage({
               <ul className="space-y-3 text-text2">
                 {herb.actions.map((action, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(185,28,28,0.1)] flex items-center justify-center text-accent text-xs font-bold mt-0.5">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(140,45,42,0.1)] flex items-center justify-center text-accent text-xs font-bold mt-0.5">
                       {i + 1}
                     </span>
                     <span className="leading-relaxed">{action}</span>
@@ -301,7 +301,7 @@ export default async function HerbDetailPage({
               </h2>
               <div className="space-y-5">
                 {herb.commonlyUsedFor.map((item, i) => (
-                  <div key={i} className="bg-card-bg border border-[rgba(185,28,28,0.12)] rounded-xl p-5">
+                  <div key={i} className="bg-card-bg border border-[rgba(140,45,42,0.12)] rounded-xl p-5">
                     <h3 className="font-[family-name:var(--font-display)] text-base text-text mb-3 font-semibold">
                       {item.condition}
                     </h3>
@@ -326,7 +326,7 @@ export default async function HerbDetailPage({
                 <Link
                   key={typeId}
                   href={`/types/${typeId}`}
-                  className="inline-block px-4 py-2 rounded-lg border border-[rgba(185,28,28,0.2)] bg-card-bg text-sm text-text hover:border-[rgba(185,28,28,0.4)] hover:shadow-[0_2px_12px_rgba(185,28,28,0.06)] transition-all no-underline"
+                  className="inline-block px-4 py-2 rounded-lg border border-[rgba(140,45,42,0.2)] bg-card-bg text-sm text-text hover:border-[rgba(140,45,42,0.4)] hover:shadow-[0_2px_12px_rgba(140,45,42,0.06)] transition-all no-underline"
                 >
                   {TYPE_NAMES[typeId] || typeId}
                 </Link>
@@ -354,7 +354,7 @@ export default async function HerbDetailPage({
                     <Link
                       key={s.slug}
                       href={s.slug}
-                      className="flex items-center justify-between px-4 py-3 rounded-lg border border-[rgba(185,28,28,0.12)] bg-card-bg hover:border-[rgba(185,28,28,0.3)] transition-all no-underline"
+                      className="flex items-center justify-between px-4 py-3 rounded-lg border border-[rgba(140,45,42,0.12)] bg-card-bg hover:border-[rgba(140,45,42,0.3)] transition-all no-underline"
                     >
                       <span className="text-sm text-text font-medium">{s.focus}</span>
                       <span className="text-accent text-xs">{'>'}</span>
@@ -370,13 +370,13 @@ export default async function HerbDetailPage({
               How to Use
             </h2>
             <p className="text-text2 leading-relaxed mb-4">{herb.howToUse}</p>
-            <div className="bg-card-bg border border-[rgba(185,28,28,0.12)] rounded-xl px-4 py-3 mb-4">
+            <div className="bg-card-bg border border-[rgba(140,45,42,0.12)] rounded-xl px-4 py-3 mb-4">
               <p className="text-text2 text-sm">
                 <strong className="text-text">Dosage:</strong> {herb.dosage}
               </p>
             </div>
             {herb.preparationNotes && (
-              <div className="bg-[rgba(185,28,28,0.04)] border border-[rgba(185,28,28,0.1)] rounded-xl px-4 py-3">
+              <div className="bg-[rgba(140,45,42,0.04)] border border-[rgba(140,45,42,0.1)] rounded-xl px-4 py-3">
                 <p className="text-text2 text-sm leading-relaxed">
                   <strong className="text-text">Preparation Notes:</strong> {herb.preparationNotes}
                 </p>
@@ -389,7 +389,7 @@ export default async function HerbDetailPage({
               <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
                 Dietary Advice
               </h2>
-              <div className="bg-[rgba(185,28,28,0.04)] border border-[rgba(185,28,28,0.12)] rounded-xl p-5">
+              <div className="bg-[rgba(140,45,42,0.04)] border border-[rgba(140,45,42,0.12)] rounded-xl p-5">
                 <p className="text-text2 text-sm leading-relaxed">{herb.dietaryAdvice}</p>
               </div>
             </section>
@@ -401,7 +401,7 @@ export default async function HerbDetailPage({
             </h2>
             <div className="grid grid-cols-2 gap-2">
               {herb.foodPairings.map((food, i) => (
-                <div key={i} className="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-[rgba(185,28,28,0.04)] border border-[rgba(185,28,28,0.1)]">
+                <div key={i} className="flex items-center gap-2 px-3 py-2.5 rounded-lg bg-[rgba(140,45,42,0.04)] border border-[rgba(140,45,42,0.1)]">
                   <span className="text-accent text-xs">{'\u2022'}</span>
                   <span className="text-sm text-text2">{food}</span>
                 </div>
@@ -431,7 +431,7 @@ export default async function HerbDetailPage({
             </h2>
             <div className="space-y-3">
               {herb.faqs.map((faq, i) => (
-                <details key={i} className="group border border-[rgba(185,28,28,0.12)] rounded-xl bg-card-bg">
+                <details key={i} className="group border border-[rgba(140,45,42,0.12)] rounded-xl bg-card-bg">
                   <summary className="flex items-center justify-between cursor-pointer p-4 text-text font-medium text-[0.95rem] leading-relaxed list-none">
                     {faq.q}
                     <span className="text-accent/50 ml-3 shrink-0 transition-transform duration-200 group-open:rotate-45 text-lg">+</span>
@@ -456,7 +456,7 @@ export default async function HerbDetailPage({
                   <Link
                     key={related.slug}
                     href={`/herbs/${related.slug}`}
-                    className="block border border-[rgba(185,28,28,0.12)] rounded-lg p-3 bg-card-bg hover:border-[rgba(185,28,28,0.3)] transition-all no-underline"
+                    className="block border border-[rgba(140,45,42,0.12)] rounded-lg p-3 bg-card-bg hover:border-[rgba(140,45,42,0.3)] transition-all no-underline"
                   >
                     <span className="text-sm text-text font-medium block">{related.nameEn}</span>
                     <span className="text-[10px] text-text2/50">{related.nameZhTrad || related.nameZh}</span>
@@ -472,7 +472,7 @@ export default async function HerbDetailPage({
 
           <SymptomCta />
 
-          <div className="mt-8 mb-4 px-4 py-3 rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.1)]">
+          <div className="mt-8 mb-4 px-4 py-3 rounded-xl bg-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.1)]">
             <p className="text-[10px] text-text2 leading-relaxed text-center">
               This article is for informational and educational purposes only and is not medical advice. Always consult a qualified healthcare professional before using any herb, especially if you are pregnant, nursing, or taking medication.
             </p>

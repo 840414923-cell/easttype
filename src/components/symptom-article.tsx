@@ -32,7 +32,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
 
       {/* Title */}
       <div className="flex items-center gap-3 mb-3">
-        <span className="text-xs font-semibold text-accent uppercase tracking-wider bg-[rgba(200,16,46,0.08)] px-2.5 py-1 rounded-full">
+        <span className="text-xs font-semibold text-accent uppercase tracking-wider bg-[rgba(140,45,42,0.08)] px-2.5 py-1 rounded-full">
           {data.tag}
         </span>
         <span className="text-xs text-text2/50">{data.readTime} read</span>
@@ -60,7 +60,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           </p>
           <div className="space-y-4">
             {data.bodyTypes.map((bt, i) => (
-              <div key={bt.slug} className="rounded-xl border border-[rgba(200,16,46,0.15)] bg-[var(--color-card-bg)] p-5">
+              <div key={bt.slug} className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[var(--color-card-bg)] p-5">
                 <div className="flex items-center gap-3 mb-3">
                   <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full border ${TYPE_COLORS[bt.slug] || "bg-gray-100 text-gray-700 border-gray-200"}`}>
                     Type {i + 1}
@@ -81,7 +81,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
                   <p className="text-xs font-semibold text-text2/50 uppercase tracking-wider mb-2">Common Signs</p>
                   <div className="flex flex-wrap gap-2">
                     {bt.keySigns.map((s, j) => (
-                      <span key={j} className="text-xs text-text2/70 bg-[rgba(200,16,46,0.05)] border border-[rgba(200,16,46,0.1)] px-2.5 py-1 rounded-md">
+                      <span key={j} className="text-xs text-text2/70 bg-[rgba(140,45,42,0.05)] border border-[rgba(140,45,42,0.1)] px-2.5 py-1 rounded-md">
                         {s}
                       </span>
                     ))}
@@ -95,7 +95,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
 
       {/* Inline Quiz CTA */}
       <section className="mb-10 print:hidden">
-        <div className="flex flex-col sm:flex-row items-center gap-4 rounded-xl border border-[rgba(200,16,46,0.15)] bg-[rgba(200,16,46,0.06)] p-5">
+        <div className="flex flex-col sm:flex-row items-center gap-4 rounded-xl border border-[rgba(140,45,42,0.15)] bg-[rgba(140,45,42,0.06)] p-5">
           <p className="text-sm text-text2 leading-relaxed flex-1 text-center sm:text-left">
             Curious which body type you are? Take the free 5-minute quiz.
           </p>
@@ -121,7 +121,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       {/* Metaphor — accent bg block */}
       {data.metaphor && (
         <section className="mb-10">
-          <div className="rounded-xl bg-gradient-to-br from-[rgba(200,16,46,0.1)] to-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.2)] p-6">
+          <div className="rounded-xl bg-gradient-to-br from-[rgba(140,45,42,0.1)] to-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.2)] p-6">
             <p className="text-xs font-semibold text-accent mb-2 uppercase tracking-wider">A Simple Analogy</p>
             <p className="text-sm text-text2 italic leading-relaxed">{data.metaphor}</p>
           </div>
@@ -138,7 +138,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
-                <tr className="border-b-2 border-[rgba(200,16,46,0.25)]">
+                <tr className="border-b-2 border-[rgba(140,45,42,0.25)]">
                   <th className="text-left py-3 px-4 font-semibold text-text">Topic</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Western Medicine</th>
                   <th className="text-left py-3 px-4 font-semibold text-text">Chinese Medicine</th>
@@ -146,7 +146,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
               </thead>
               <tbody>
                 {data.tcmVsModern.map((row, i) => (
-                  <tr key={i} className="border-b border-[rgba(200,16,46,0.1)]">
+                  <tr key={i} className="border-b border-[rgba(140,45,42,0.1)]">
                     <td className="py-3 px-4 font-medium text-text whitespace-nowrap">{row.aspect}</td>
                     <td className="py-3 px-4 text-text2">{row.westernView}</td>
                     <td className="py-3 px-4 text-text2">{row.tcmView}</td>
@@ -169,9 +169,9 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {data.whatMayHelp.map((item, i) => (
-              <div key={i} className="rounded-lg border border-[rgba(200,16,46,0.12)] bg-[var(--color-card-bg)] p-4">
+              <div key={i} className="rounded-lg border border-[rgba(140,45,42,0.12)] bg-[var(--color-card-bg)] p-4">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(200,16,46,0.12)] text-accent font-semibold text-xs flex items-center justify-center">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[rgba(140,45,42,0.12)] text-accent font-semibold text-xs flex items-center justify-center">
                     {i + 1}
                   </span>
                   <h3 className="font-[family-name:var(--font-display)] text-sm text-text">{item.title}</h3>
@@ -205,7 +205,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
           {data.relatedPattern && (
             <Link
               href={`/patterns/${data.relatedPattern.slug}`}
-              className="group block rounded-lg border border-[rgba(200,16,46,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(200,16,46,0.4)] transition-all"
+              className="group block rounded-lg border border-[rgba(140,45,42,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(140,45,42,0.4)] transition-all"
             >
               <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">Pattern</p>
               <p className="text-sm text-text group-hover:text-accent transition-colors">{data.relatedPattern.name} {'>'}</p>
@@ -215,7 +215,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
             <Link
               key={s.slug}
               href={`/symptoms/${s.slug}`}
-              className="group block rounded-lg border border-[rgba(200,16,46,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(200,16,46,0.4)] transition-all"
+              className="group block rounded-lg border border-[rgba(140,45,42,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(140,45,42,0.4)] transition-all"
             >
               <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">Related Symptom</p>
               <p className="text-sm text-text group-hover:text-accent transition-colors">{s.title} {'>'}</p>
@@ -230,7 +230,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       {/* Food Guide Link — accent bg */}
       {data.foodsForSlug && (
         <section className="mt-10 mb-4">
-          <div className="rounded-xl bg-gradient-to-br from-[rgba(200,16,46,0.1)] to-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.2)] p-6">
+          <div className="rounded-xl bg-gradient-to-br from-[rgba(140,45,42,0.1)] to-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.2)] p-6">
             <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
               What Foods May Help
             </h2>
@@ -247,7 +247,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       <SymptomCta />
 
       {/* Disclaimer */}
-      <div className="mt-8 rounded-xl bg-[var(--color-bg2)] border border-[rgba(200,16,46,0.08)] p-5">
+      <div className="mt-8 rounded-xl bg-[var(--color-bg2)] border border-[rgba(140,45,42,0.08)] p-5">
         <p className="text-xs text-text2 leading-relaxed text-center">
           This content is for educational and informational purposes only and is not medical advice. Always consult a qualified healthcare professional before making changes to your diet or lifestyle, especially if you managing a health condition. Individual results may vary.
         </p>

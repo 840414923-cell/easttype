@@ -79,7 +79,7 @@ export async function renderWhichCard(
   ctx.fillStyle = "rgba(10,8,5,0.5)"
   roundRect(ctx, listX, listY - listPad, listW, listH, 14 * s)
   ctx.fill()
-  ctx.strokeStyle = "rgba(200,16,46,0.12)"
+  ctx.strokeStyle = "rgba(140,45,42,0.12)"
   ctx.lineWidth = 1
   roundRect(ctx, listX, listY - listPad, listW, listH, 14 * s)
   ctx.stroke()
@@ -90,7 +90,7 @@ export async function renderWhichCard(
 
   for (let i = 0; i < items.length; i++) {
     const itemY = listY + i * itemH
-    ctx.fillStyle = "#C8102E"
+    ctx.fillStyle = "#A63A3A"
     ctx.fillText("\u25C6", listX + 32 * s, itemY)
     ctx.fillStyle = "rgba(255,255,255,0.88)"
     ctx.fillText(items[i], listX + 60 * s, itemY)
@@ -98,7 +98,7 @@ export async function renderWhichCard(
 
   const ctaY = listY + listH + (wide ? 12 * s : 35 * s)
   ctx.font = `bold ${wide ? 16 * s : 22 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "#C8102E"
+  ctx.fillStyle = "#A63A3A"
   ctx.textAlign = "center"
   ctx.letterSpacing = `${4 * s}px`
   ctx.fillText("WHICH ONE ARE YOU?", W / 2, ctaY)

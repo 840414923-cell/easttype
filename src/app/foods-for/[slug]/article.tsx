@@ -62,7 +62,7 @@ function HerbThumb({ slug, name }: { slug: string; name: string }) {
       href={`/herbs/${slug}`}
       className="inline-flex items-center gap-1.5 group no-underline"
     >
-      <span className="relative w-8 h-8 rounded-full overflow-hidden border border-[rgba(185,28,28,0.2)] flex-shrink-0">
+      <span className="relative w-8 h-8 rounded-full overflow-hidden border border-[rgba(140,45,42,0.2)] flex-shrink-0">
         <Image
           src={herb.image}
           alt={herb.nameEn}

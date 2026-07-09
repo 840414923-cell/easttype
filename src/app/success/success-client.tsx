@@ -35,7 +35,7 @@ function SuccessContent() {
         </div>
         <Link
           href={reportUrl}
-          className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_40px_rgba(200,16,46,0.3)] hover:-translate-y-0.5"
+          className="inline-flex items-center justify-center px-8 py-3.5 rounded-lg font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_40px_rgba(140,45,42,0.3)] hover:-translate-y-0.5"
         >
           View My Report →
         </Link>

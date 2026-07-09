@@ -39,7 +39,7 @@ export async function renderFoodCard(
 
   const labelY = emojiY + emojiSize * 0.6
   ctx.font = `bold ${14 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(200,16,46,0.6)"
+  ctx.fillStyle = "rgba(140,45,42,0.6)"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   ctx.letterSpacing = `${5 * s}px`

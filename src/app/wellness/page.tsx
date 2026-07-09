@@ -408,7 +408,7 @@ export default function WellnessIndexPage() {
         </p>
         <Link
           href="/quiz"
-          className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_30px_rgba(200,16,46,0.2)]"
+          className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_30px_rgba(140,45,42,0.2)]"
         >
           Take the Free Quiz →
         </Link>

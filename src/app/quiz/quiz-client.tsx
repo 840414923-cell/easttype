@@ -17,13 +17,13 @@ function Collapsible({ label, children }: { label: string; children: React.React
     <div className="mb-3">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full text-left px-4 py-2.5 rounded-xl bg-[rgba(200,16,46,0.05)] border border-[rgba(200,16,46,0.12)] cursor-pointer transition-colors hover:border-[rgba(200,16,46,0.25)] flex items-center justify-between gap-2"
+        className="w-full text-left px-4 py-2.5 rounded-xl bg-[rgba(140,45,42,0.05)] border border-[rgba(140,45,42,0.12)] cursor-pointer transition-colors hover:border-[rgba(140,45,42,0.25)] flex items-center justify-between gap-2"
       >
         <span className="text-xs text-accent tracking-wide">{label}</span>
         <span className={`text-accent text-xs transition-transform duration-200 ${open ? "rotate-180" : ""}`}>&#9662;</span>
       </button>
       {open && (
-        <div className="px-4 py-3 mt-1.5 rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.08)]">
+        <div className="px-4 py-3 mt-1.5 rounded-xl bg-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.08)]">
           {children}
         </div>
       )}
@@ -273,7 +273,7 @@ export default function QuizClient() {
           <div className="text-center mb-3">
             <button
               onClick={handleStart}
-              className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(200,16,46,0.3)] hover:shadow-[0_8px_30px_rgba(200,16,46,0.4)] bg-gradient-to-r from-accent to-accent2 text-white"
+              className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(140,45,42,0.3)] hover:shadow-[0_8px_30px_rgba(140,45,42,0.4)] bg-gradient-to-r from-accent to-accent2 text-white"
             >
               Begin Free Assessment
               <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -299,7 +299,7 @@ export default function QuizClient() {
                   key={tier.name}
                   className={`relative rounded-xl p-5 border card-elevated ${
                     tier.featured
-                      ? "border-accent bg-[rgba(200,16,46,0.06)]"
+                      ? "border-accent bg-[rgba(140,45,42,0.06)]"
                       : "border-card-border bg-card-bg"
                   }`}
                 >
@@ -363,7 +363,7 @@ export default function QuizClient() {
           <div className="flex gap-4 w-full max-w-xs">
             <button
               onClick={() => handleSexSelect("female")}
-              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(200,16,46,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(200,16,46,0.6)] hover:bg-[rgba(200,16,46,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(200,16,46,0.15)]"
+              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(140,45,42,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(140,45,42,0.6)] hover:bg-[rgba(140,45,42,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(140,45,42,0.15)]"
             >
               <div className="text-3xl mb-2">&#9792;</div>
               <div className="font-semibold text-base">
@@ -372,7 +372,7 @@ export default function QuizClient() {
             </button>
             <button
               onClick={() => handleSexSelect("male")}
-              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(200,16,46,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(200,16,46,0.6)] hover:bg-[rgba(200,16,46,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(200,16,46,0.15)]"
+              className="flex-1 py-4 rounded-2xl border-[1.5px] border-[rgba(140,45,42,0.25)] bg-card-bg text-text cursor-pointer transition-all duration-250 hover:border-[rgba(140,45,42,0.6)] hover:bg-[rgba(140,45,42,0.08)] hover:-translate-y-0.5 hover:shadow-[0_4px_20px_rgba(140,45,42,0.15)]"
             >
               <div className="text-3xl mb-2">&#9794;</div>
               <div className="font-semibold text-base">
@@ -405,7 +405,7 @@ export default function QuizClient() {
           <button
             onClick={handleBack}
             disabled={isTransitioning}
-            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-card-border bg-card-bg cursor-pointer transition-all text-sm text-text2 hover:text-accent hover:border-[rgba(200,16,46,0.3)]"
+            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-card-border bg-card-bg cursor-pointer transition-all text-sm text-text2 hover:text-accent hover:border-[rgba(140,45,42,0.3)]"
           >
             &#8592;
           </button>
@@ -414,7 +414,7 @@ export default function QuizClient() {
               className="h-full rounded transition-all duration-500"
               style={{
                 width: `${progress}%`,
-                background: "linear-gradient(90deg, #C8102E, #FCA5A5)",
+                background: "linear-gradient(90deg, #A63A3A, #FCA5A5)",
               }}
             />
           </div>
@@ -466,8 +466,8 @@ export default function QuizClient() {
                   disabled={isTransitioning}
                   className={`w-full text-left p-4 rounded-2xl border-[1.5px] cursor-pointer transition-all duration-200 flex items-center gap-4 min-h-[56px] ${
                     selectedValue === opt.value
-                      ? "border-accent bg-[rgba(200,16,46,0.15)] text-accent shadow-[0_0_20px_rgba(200,16,46,0.1)]"
-                      : "border-[rgba(200,16,46,0.2)] bg-[rgba(200,16,46,0.04)] text-text hover:border-accent hover:bg-[rgba(200,16,46,0.1)] hover:shadow-[0_2px_12px_rgba(200,16,46,0.08)]"
+                      ? "border-accent bg-[rgba(140,45,42,0.15)] text-accent shadow-[0_0_20px_rgba(140,45,42,0.1)]"
+                      : "border-[rgba(140,45,42,0.2)] bg-[rgba(140,45,42,0.04)] text-text hover:border-accent hover:bg-[rgba(140,45,42,0.1)] hover:shadow-[0_2px_12px_rgba(140,45,42,0.08)]"
                   } disabled:cursor-default`}
                 >
                   <span className="flex-shrink-0 w-8 h-8 rounded-full border border-accent/40 flex items-center justify-center text-sm font-semibold text-accent/70">

@@ -70,7 +70,7 @@ export function SymptomExplorer({
           className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all no-underline ${
             !activeCategory
               ? "bg-accent text-bg"
-              : "border border-[rgba(200,16,46,0.2)] bg-card-bg text-text2 hover:border-[rgba(200,16,46,0.5)]"
+              : "border border-[rgba(140,45,42,0.2)] bg-card-bg text-text2 hover:border-[rgba(140,45,42,0.5)]"
           }`}
         >
           All <span className="opacity-60">{symptoms.length}</span>
@@ -85,7 +85,7 @@ export function SymptomExplorer({
               className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all ${
                 activeCategory === c.anchor
                   ? "bg-accent text-bg"
-                  : "border border-[rgba(200,16,46,0.2)] bg-card-bg text-text2 hover:border-[rgba(200,16,46,0.5)]"
+                  : "border border-[rgba(140,45,42,0.2)] bg-card-bg text-text2 hover:border-[rgba(140,45,42,0.5)]"
               }`}
             >
               {c.name} <span className="opacity-60">{c.count}</span>
@@ -100,7 +100,7 @@ export function SymptomExplorer({
           placeholder="Search symptoms..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full px-4 py-3 pl-11 rounded-xl border border-[rgba(200,16,46,0.15)] bg-card-bg text-text placeholder:text-text2/40 outline-none focus:border-[rgba(200,16,46,0.4)] transition-colors text-base"
+          className="w-full px-4 py-3 pl-11 rounded-xl border border-[rgba(140,45,42,0.15)] bg-card-bg text-text placeholder:text-text2/40 outline-none focus:border-[rgba(140,45,42,0.4)] transition-colors text-base"
         />
         <svg
           className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text2/40"
@@ -139,13 +139,13 @@ export function SymptomExplorer({
               <h2 className="font-[family-name:var(--font-display)] text-base font-semibold text-text2/70 uppercase tracking-wider mb-3">
                 {g.name} <span className="text-text2/40 normal-case font-normal">({g.items.length})</span>
               </h2>
-              <div className="rounded-2xl border border-[rgba(200,16,46,0.15)] overflow-hidden">
+              <div className="rounded-2xl border border-[rgba(140,45,42,0.15)] overflow-hidden">
                 {g.items.map((s, index) => (
                   <Link
                     key={s.slug}
                     href={`/symptoms/${s.slug}`}
-                    className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(200,16,46,0.08)] transition-colors ${
-                      index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(200,16,46,0.07)]"
+                    className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(140,45,42,0.08)] transition-colors ${
+                      index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(140,45,42,0.07)]"
                     }`}
                   >
                     <div className="min-w-0 flex-1">
@@ -165,7 +165,7 @@ export function SymptomExplorer({
           ))}
         </div>
       ) : (
-        <div className="rounded-2xl border border-[rgba(200,16,46,0.15)] overflow-hidden">
+        <div className="rounded-2xl border border-[rgba(140,45,42,0.15)] overflow-hidden">
           {filtered.length === 0 ? (
             <div className="py-12 text-center">
               <p className="text-text2/50 text-sm">No symptoms found. Try a different search.</p>
@@ -181,8 +181,8 @@ export function SymptomExplorer({
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(200,16,46,0.08)] transition-colors ${
-                  index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(200,16,46,0.07)]"
+                className={`group flex items-center justify-between gap-4 py-3 px-4 no-underline hover:bg-[rgba(140,45,42,0.08)] transition-colors ${
+                  index % 2 === 0 ? "bg-card-bg" : "bg-[rgba(140,45,42,0.07)]"
                 }`}
               >
                 <div className="min-w-0 flex-1">

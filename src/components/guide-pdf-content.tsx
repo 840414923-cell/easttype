@@ -222,7 +222,7 @@ const S = {
     fontFamily: "'Playfair Display', Georgia, serif",
     fontSize: "26px",
     fontWeight: 700,
-    color: "#C8102E",
+    color: "#A63A3A",
     letterSpacing: "2px",
     marginBottom: "40px",
   } as React.CSSProperties,
@@ -244,7 +244,7 @@ const S = {
   goldLine: {
     width: "80px",
     height: "2px",
-    background: "linear-gradient(90deg, transparent, #C8102E, transparent)",
+    background: "linear-gradient(90deg, transparent, #A63A3A, transparent)",
     margin: "0 auto 50px",
   } as React.CSSProperties,
   coverFoot: {
@@ -256,7 +256,7 @@ const S = {
     fontFamily: "'Playfair Display', Georgia, serif",
     fontSize: "56px",
     fontWeight: 700,
-    color: "#C8102E",
+    color: "#A63A3A",
     lineHeight: 1,
     opacity: 0.85,
   } as React.CSSProperties,
@@ -280,7 +280,7 @@ const S = {
     fontWeight: 700,
     textTransform: "uppercase" as const,
     letterSpacing: "1px",
-    color: "#B91C1C",
+    color: "#8C2D2A",
     marginBottom: "4px",
     marginTop: "14px",
   } as React.CSSProperties,
@@ -300,7 +300,7 @@ const S = {
   } as React.CSSProperties,
   habitBox: {
     background: "#FAF6F0",
-    borderLeft: "3px solid #C8102E",
+    borderLeft: "3px solid #A63A3A",
     borderRadius: "0 6px 6px 0",
     padding: "14px 18px",
     marginTop: "14px",
@@ -310,7 +310,7 @@ const S = {
   } as React.CSSProperties,
   habitLabel: {
     fontWeight: 700,
-    color: "#B91C1C",
+    color: "#8C2D2A",
     fontSize: "12px",
     textTransform: "uppercase" as const,
     letterSpacing: "1px",
@@ -331,7 +331,7 @@ const S = {
     lineHeight: "28px",
     textAlign: "center" as const,
     borderRadius: "50%",
-    background: "#C8102E",
+    background: "#A63A3A",
     color: "#FFFFFF",
     fontSize: "14px",
     fontWeight: 700,
@@ -358,7 +358,7 @@ const S = {
     fontFamily: "'Playfair Display', Georgia, serif",
     fontSize: "22px",
     fontWeight: 600,
-    color: "#C8102E",
+    color: "#A63A3A",
     marginBottom: "8px",
   } as React.CSSProperties,
   ctaText: {
@@ -368,7 +368,7 @@ const S = {
   ctaLink: {
     fontSize: "16px",
     fontWeight: 700,
-    color: "#C8102E",
+    color: "#A63A3A",
     marginTop: "10px",
     display: "block",
   } as React.CSSProperties,
@@ -418,14 +418,14 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
           <div style={S.label}>What It May Help With</div>
           {food.benefits.map((b, i) => (
             <div key={i} style={S.bullet}>
-              <span style={{ position: "absolute", left: 0, color: "#C8102E" }}>&bull;</span>
+              <span style={{ position: "absolute", left: 0, color: "#A63A3A" }}>&bull;</span>
               {b}
             </div>
           ))}
           <div style={S.label}>How to Use</div>
           {food.usage.map((u, i) => (
             <div key={i} style={S.bullet}>
-              <span style={{ position: "absolute", left: 0, color: "#C8102E" }}>&bull;</span>
+              <span style={{ position: "absolute", left: 0, color: "#A63A3A" }}>&bull;</span>
               {u}
             </div>
           ))}
@@ -462,7 +462,7 @@ export const GuidePdfContent = forwardRef<HTMLDivElement>(function GuidePdfConte
           "Regular supermarkets (ginger, walnuts, and mung beans are usually in stock)",
         ].map((item, i) => (
           <div key={i} style={S.bullet}>
-            <span style={{ position: "absolute", left: 0, color: "#C8102E" }}>&bull;</span>
+            <span style={{ position: "absolute", left: 0, color: "#A63A3A" }}>&bull;</span>
             {item}
           </div>
         ))}

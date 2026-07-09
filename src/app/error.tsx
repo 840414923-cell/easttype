@@ -31,7 +31,7 @@ export default function Error({
         </button>
         <Link
           href="/"
-          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold no-underline border border-accent text-accent transition-all duration-300 hover:bg-[rgba(200,16,46,0.1)]"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold no-underline border border-accent text-accent transition-all duration-300 hover:bg-[rgba(140,45,42,0.1)]"
         >
           Go Home
         </Link>
