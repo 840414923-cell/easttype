@@ -74,7 +74,7 @@ export default function HomeClient() {
                   <p className="text-xs text-text2/60">5 min &middot; No sign-up</p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#F9F6F1] border border-[rgba(140,45,42,0.12)]">
+              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
                 <Image
                   src="/images/home/body-types.png"
                   alt="Chinese medicine body types"
@@ -82,6 +82,12 @@ export default function HomeClient() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
+                />
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    background: "radial-gradient(ellipse 95% 95% at center, transparent 55%, var(--color-bg) 100%)",
+                  }}
                 />
               </div>
             </div>
