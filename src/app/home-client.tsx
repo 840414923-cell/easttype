@@ -7,6 +7,15 @@ import { Footer } from "@/components/footer"
 import { SearchBar } from "@/components/search-bar"
 import Reveal from "@/components/reveal"
 
+const SYMPTOM_QUESTIONS = [
+  "Why are you always tired?",
+  "Why do you wake up at 3 AM?",
+  "Why are you always cold?",
+  "Why do you feel bloated?",
+  "Why do you crave sweets?",
+  "Why do you feel anxious?",
+]
+
 const STEPS = [
   {
     num: "01",
@@ -91,7 +100,7 @@ export default function HomeClient() {
 
         {/* ── Hero ── */}
         <section className="relative mesh-hero overflow-hidden">
-          <div className="max-w-5xl mx-auto px-6 pt-20 pb-24">
+          <div className="max-w-6xl mx-auto px-6 pt-20 pb-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <div className="text-center lg:text-left">
                 <div className="lotus-divider mb-6 justify-center lg:justify-start">
@@ -100,8 +109,11 @@ export default function HomeClient() {
                 <h1 className="font-[family-name:var(--font-display)] text-hero text-text mb-5">
                   What&apos;s Your Chinese Medicine Body Type?
                 </h1>
-                <p className="text-text2 text-sm sm:text-base max-w-md mx-auto lg:mx-0 mb-8 leading-relaxed">
-                  Why are you always tired, cold, or bloated? Your body type has the answer. Take a free 5-minute quiz based on 3,000 years of Eastern body wisdom.
+                <p className="text-text2 text-sm sm:text-base max-w-lg mx-auto lg:mx-0 mb-3 leading-relaxed">
+                  {SYMPTOM_QUESTIONS.join("  \u00b7  ")}
+                </p>
+                <p className="text-text2/80 text-sm sm:text-base max-w-md mx-auto lg:mx-0 mb-8 leading-relaxed">
+                  Your body type has the answer. Take a free 5-minute quiz based on 3,000 years of Eastern body wisdom.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
                   <Link
@@ -133,7 +145,7 @@ export default function HomeClient() {
 
         {/* ── Three-step flow: 问 辨 调 ── */}
         <section className="py-20 sm:py-24">
-          <div className="max-w-4xl mx-auto px-6">
+          <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-16">
               <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent mb-3">How It Works</p>
               <h2 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl text-text mb-4 tracking-tight">
@@ -179,7 +191,7 @@ export default function HomeClient() {
 
         {/* ── 辨: Body Types ── */}
         <section className="mesh-section py-20 sm:py-24">
-          <div className="max-w-4xl mx-auto px-6">
+          <div className="max-w-6xl mx-auto px-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent mb-3">辨 &middot; Identify</p>
@@ -215,7 +227,7 @@ export default function HomeClient() {
 
         {/* ── 调: Stats / Library ── */}
         <section className="py-20 sm:py-24">
-          <div className="max-w-5xl mx-auto px-6">
+          <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-12">
               <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent mb-3">调 &middot; Adjust</p>
               <h2 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl text-text mb-4 tracking-tight">
@@ -247,7 +259,7 @@ export default function HomeClient() {
         {/* ── Content blocks ── */}
         {CONTENT_BLOCKS.map((block, i) => (
           <Reveal key={i} delay={((i % 3) + 1) as 1 | 2 | 3}>
-            <section className="max-w-4xl mx-auto px-6 py-10 sm:py-14">
+            <section className="max-w-6xl mx-auto px-6 py-10 sm:py-14">
               <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 items-center ${block.reverse ? "sm:grid-flow-col-dense" : ""}`}>
                 <div className={block.reverse ? "sm:col-start-2 sm:row-start-1" : ""}>
                   <span className="text-xs font-semibold uppercase tracking-[0.2em] text-accent block mb-2">
