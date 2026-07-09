@@ -91,7 +91,7 @@ export default function HomeClient() {
         </section>
 
         {/* ═══ Transition: 问辨调 stepper ═══ */}
-        <section className="bg-[var(--color-bg2)] py-16">
+        <section className="bg-[var(--color-bg)] py-16">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <p className="text-xs font-bold uppercase tracking-[0.3em] text-accent mb-2">How It Works</p>
             <h2 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-3 tracking-tight">
@@ -101,14 +101,14 @@ export default function HomeClient() {
               Chinese medicine uses four diagnostic methods. We modernized the most important one.
             </p>
 
-            <div className="relative max-w-2xl mx-auto">
-              {/* Connecting line */}
-              <div className="hidden md:block absolute top-7 left-[16%] right-[16%] h-px bg-accent/20" />
+            <div className="relative">
+              {/* Connecting line - 3x thicker, full accent color, full content width */}
+              <div className="hidden md:block absolute top-7 left-[16.66%] right-[16.66%] h-[3px] bg-accent rounded-full" />
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
                 {/* Step 1: Ask */}
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-2 border-accent/30 text-accent mb-4 relative z-10">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-[6px] border-accent text-accent mb-4 relative z-10">
                     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
                     </svg>
@@ -120,7 +120,7 @@ export default function HomeClient() {
 
                 {/* Step 2: Identify */}
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-2 border-accent/30 text-accent mb-4 relative z-10">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-[6px] border-accent text-accent mb-4 relative z-10">
                     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <circle cx="12" cy="12" r="10" />
                       <circle cx="12" cy="12" r="6" />
@@ -134,7 +134,7 @@ export default function HomeClient() {
 
                 {/* Step 3: Adjust */}
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-2 border-accent/30 text-accent mb-4 relative z-10">
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-[var(--color-card-bg)] border-[6px] border-accent text-accent mb-4 relative z-10">
                     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z" />
                       <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 12 13" />
