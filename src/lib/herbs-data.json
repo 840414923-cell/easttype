@@ -10470,5 +10470,307 @@
         "image":  "/images/herbs/jasmine-mo-li.png",
         "classicalSource":  "Bencao Gangmu Shiyi (1765 CE)",
         "safetyRating":  "Non-toxic"
+    },
+    {
+        "slug":  "deer-antler-velvet-lu-rong",
+        "nameEn":  "Deer Antler Velvet",
+        "nameZh":  "lu rong",
+        "nameZhTrad":  "鹿茸",
+        "pinyin":  "lu rong",
+        "botanicalName":  "Cervus nippon Temminck",
+        "category":  "Yang Tonic",
+        "temperature":  "Warm",
+        "taste":  "Sweet, salty",
+        "channels":  "Kidney, Liver",
+        "summary":  "One of the most prized yang tonics in Chinese medicine, deer antler velvet strengthens kidney yang, builds essence, and supports deep vitality. It is traditionally used for cold sensitivity, lower back weakness, and recovery from exhaustion.",
+        "actions":  [
+            "Tonifies kidney yang and replenishes essence",
+            "Strengthens sinews and bones",
+            "Nourishes blood and supports vitality",
+            "Aids tissue repair and recovery from depletion"
+        ],
+        "actionDetails":  [
+            {
+                "action":  "Tonifies kidney yang and replenishes essence",
+                "explanation":  "In TCM, kidney yang is the body's foundational fire, warming and energizing all other systems. Deer antler velvet directly supplements this fire, making it one of the strongest yang tonics available. Kidney essence (jing) is the body's deepest reserve, and deer antler's sweet and salty nature enters the Kidney channel to replenish what prolonged stress, aging, or overwork has depleted."
+            },
+            {
+                "action":  "Strengthens sinews and bones",
+                "explanation":  "The Kidney governs bones and marrow in TCM theory. By tonifying kidney yang and essence, deer antler velvet supports skeletal strength, joint integrity, and the tendons and ligaments connected to the Kidney and Liver channels. This is why it is traditionally used for lower back weakness, knee problems, and slow-healing bone injuries."
+            },
+            {
+                "action":  "Nourishes blood and supports vitality",
+                "explanation":  "Although classified as a yang tonic, deer antler velvet also has a blood-nourishing component. The Liver stores blood and the Kidney essence can transform into blood. By supporting both systems, deer antler helps address the deep fatigue and pale complexion that accompany combined kidney yang and blood deficiency."
+            },
+            {
+                "action":  "Aids tissue repair and recovery from depletion",
+                "explanation":  "Deer antler is unique among TCM tonics for its association with growth and regeneration, as it comes from one of the fastest-growing tissues in the animal kingdom. In TCM practice, it is used after prolonged illness, surgery, or deep exhaustion to help the body rebuild its reserves more quickly than standard dietary tonics."
+            }
+        ],
+        "bodyTypes":  [
+            "yang_deficient",
+            "qi_deficient"
+        ],
+        "commonlyUsedFor":  [
+            {
+                "condition":  "Yang Deficient types with cold limbs, lower back weakness, and low drive",
+                "tcmInterpretation":  "Kidney yang deficiency creates internal cold that settles in the lower body, producing cold hands and feet, aching lower back, weak knees, and reduced motivation. Deer antler velvet's warm, sweet, and salty nature directly supplements kidney yang and essence, addressing the root of this cold depletion pattern.",
+                "whyItHelps":  "For the person who feels deeply cold and depleted, deer antler provides a concentrated warming and building action that few other tonics can match. Its affinity for the Kidney channel targets the exact system responsible for foundational warmth and energy."
+            },
+            {
+                "condition":  "Qi Deficient types with chronic fatigue and weak immunity",
+                "tcmInterpretation":  "Qi deficiency and kidney yang deficiency often overlap, especially when tiredness has persisted for months or years. The kidneys are the root of yang qi for the entire body. Deer antler velvet strengthens this root, which in turn supports the production and circulation of qi throughout the system.",
+                "whyItHelps":  "Unlike general qi tonics such as ginseng, deer antler works at a deeper level by replenishing essence. This makes it suitable for the fatigue that comes from long-term depletion rather than simple overexertion."
+            },
+            {
+                "condition":  "Recovery from prolonged illness or deep exhaustion",
+                "tcmInterpretation":  "After a long illness or period of overwork, kidney essence and yang are often depleted. The body struggles to rebuild its reserves through diet alone. Deer antler velvet is traditionally used in this recovery phase to accelerate the rebuilding process.",
+                "whyItHelps":  "Its dual action of warming yang and nourishing essence addresses both the energetic and structural depletion that follows extended stress on the body."
+            }
+        ],
+        "therapeuticFocus":  [
+            "Energy Support",
+            "Men's Health",
+            "Lower Back Support"
+        ],
+        "foodPairings":  [
+            "chicken",
+            "goji berries",
+            "red dates",
+            "ginseng"
+        ],
+        "howToUse":  "Take 0.5 to 1g of deer antler velvet powder dissolved in warm water or rice wine, once daily. For soups, simmer 1 to 2g of sliced antler with chicken and goji berries for 20 minutes. Do not boil for extended periods.",
+        "dosage":  "0.5 to 2g per day as powder or slices. Start with a small amount and assess your response.",
+        "preparationNotes":  "Use the powdered or thinly sliced form. Add to soups in the last 15 to 20 minutes of cooking. A small amount of warm rice wine is traditionally combined to enhance absorption. Avoid prolonged high-heat boiling.",
+        "dietaryAdvice":  "While taking deer antler velvet, focus on warm, nourishing foods such as bone broth, slow-cooked stews, and cooked root vegetables. Avoid cold, raw foods and excessive caffeine, which may counteract the warming and building nature of this tonic.",
+        "cautions":  [
+            "Not suitable for people with yin deficiency with heat signs",
+            "Avoid during acute infections, fever, or active inflammation",
+            "Not recommended for people with high blood pressure without professional guidance",
+            "May affect hormone-sensitive conditions; consult a healthcare provider if applicable",
+            "Avoid during pregnancy and breastfeeding",
+            "Excess use may cause nosebleeds, headache, or irritability"
+        ],
+        "faqs":  [
+            {
+                "q":  "What is deer antler velvet?",
+                "a":  "Deer antler velvet is the soft, growing antler of male deer, harvested before it calcifies into hard bone. In TCM, it is considered one of the most potent yang tonics, used to strengthen kidney yang, replenish essence, and support vitality. The term velvet refers to the soft fuzzy covering of the growing antler, which is rich in growth factors and nutrients."
+            },
+            {
+                "q":  "Is deer antler velvet the same as deer antler slices?",
+                "a":  "They come from the same source but at different stages. Velvet is the early, soft stage considered most potent. Slices (lu rong pian) are dried sections of the antler, more commonly used in home cooking and soups. Both share similar warming and yang-tonifying properties, with whole velvet regarded as stronger."
+            },
+            {
+                "q":  "Can I take deer antler velvet every day?",
+                "a":  "In small food-grade amounts (0.5 to 1g), daily use for 2 to 3 weeks is common in TCM, followed by a break. Long-term daily use without professional guidance is not recommended, as it is a strong warming tonic that can build excess heat in the body over time."
+            },
+            {
+                "q":  "Which body type benefits most from deer antler velvet?",
+                "a":  "Yang Deficient and Qi Deficient types may benefit most, especially for cold sensitivity, low energy, and lower back weakness. If you tend to run hot or have yin deficiency signs such as night sweats and dry mouth, deer antler velvet may be too warming. Take the free EastType quiz to find your type."
+            }
+        ],
+        "image":  "/images/herbs/deer-antler-velvet-lu-rong.jpg",
+        "classicalSource":  "Shennong Bencao Jing (circa 200 BCE)",
+        "safetyRating":  "Use with caution"
+    },
+    {
+        "slug":  "cyperus-xiang-fu",
+        "nameEn":  "Cyperus",
+        "nameZh":  "xiang fu",
+        "nameZhTrad":  "香附",
+        "pinyin":  "xiang fu",
+        "botanicalName":  "Cyperus rotundus L.",
+        "category":  "Qi Regulating",
+        "temperature":  "Neutral",
+        "taste":  "Pungent, slightly bitter, sweet",
+        "channels":  "Liver, Spleen, Triple Burner",
+        "summary":  "Known in TCM as the chief of qi-regulating herbs, cyperus moves stagnant energy, soothes the liver, and eases stress-related tension. It is one of the most important herbs for menstrual comfort and emotional balance.",
+        "actions":  [
+            "Regulates qi and relieves pain throughout the body",
+            "Soothes the liver and resolves emotional stagnation",
+            "Regulates menstruation and eases premenstrual tension",
+            "Harmonizes liver and spleen for digestive comfort"
+        ],
+        "actionDetails":  [
+            {
+                "action":  "Regulates qi and relieves pain throughout the body",
+                "explanation":  "In TCM, pain is often caused by qi that has stopped flowing freely. Cyperus is pungent and moving, helping stagnant qi resume its natural circulation. This is why it is used for a wide range of pain that shifts location, comes and goes with stress, or feels like pressure and tightness rather than sharp injury pain."
+            },
+            {
+                "action":  "Soothes the liver and resolves emotional stagnation",
+                "explanation":  "The Liver in TCM is responsible for the smooth flow of qi and emotions. When stress, frustration, or suppressed anger blocks this flow, symptoms such as chest tightness, frequent sighing, irritability, and a feeling of something stuck in the throat can appear. Cyperus enters the Liver channel and gently restores flow, easing these signs of liver qi stagnation."
+            },
+            {
+                "action":  "Regulates menstruation and eases premenstrual tension",
+                "explanation":  "In TCM, the Liver stores blood and governs its flow during menstruation. When liver qi stagnates before the period, it can cause mood swings, breast tenderness, bloating, and cramping. Cyperus is one of the most commonly used herbs in menstrual formulas because it addresses this stagnation pattern directly. The physician Li Shizhen called it the commander of women's medicine for this reason."
+            },
+            {
+                "action":  "Harmonizes liver and spleen for digestive comfort",
+                "explanation":  "The Liver and Spleen work together in digestion. When liver qi is stuck, it can overflow and constrain the Spleen, causing bloating, belching, irregular appetite, and discomfort after eating. Cyperus enters both the Liver and Spleen channels, helping liver qi flow smoothly so the Spleen can digest without interference."
+            }
+        ],
+        "bodyTypes":  [
+            "qi_stagnant"
+        ],
+        "commonlyUsedFor":  [
+            {
+                "condition":  "Qi Stagnant types with chest tightness, sighing, and irritability",
+                "tcmInterpretation":  "Liver qi stagnation is the core pattern of the Qi Stagnant body type. Emotional stress blocks the free flow of liver energy, creating physical pressure in the chest, a need to sigh, and a short temper. Cyperus directly moves this stagnant liver qi, addressing the root pattern rather than just the symptoms.",
+                "whyItHelps":  "Its pungent, moving nature is specifically suited to the stuck, tense quality of qi stagnation. Unlike heavy sedating herbs, cyperus works by restoring flow, which is the correct approach for this pattern."
+            },
+            {
+                "condition":  "Menstrual discomfort with mood swings and breast tenderness",
+                "tcmInterpretation":  "Before menstruation, blood moves downward and liver qi tends to become more volatile. If the liver is already prone to stagnation, premenstrual tension intensifies. Cyperus regulates liver qi flow in the lower abdomen, which may ease the emotional and physical tension of the premenstrual phase.",
+                "whyItHelps":  "Cyperus is gentle enough for regular use during sensitive hormonal periods. Its neutral temperature means it does not add heat or cold, making it suitable for most menstrual patterns driven by qi stagnation."
+            },
+            {
+                "condition":  "Stress-related bloating and irregular appetite",
+                "tcmInterpretation":  "When liver qi stagnates, it can press on the Spleen and Stomach, disrupting digestion. This produces bloating, belching, or appetite that changes with mood. Cyperus addresses both the liver (root) and the digestive system (branch) by keeping qi flowing between the two.",
+                "whyItHelps":  "By soothing liver qi while supporting the Spleen channel, cyperus addresses the cause and the symptom at the same time. This dual action makes it efficient for stress-related digestive complaints."
+            }
+        ],
+        "therapeuticFocus":  [
+            "Stress Relief",
+            "Women's Health",
+            "Mood Balance"
+        ],
+        "foodPairings":  [
+            "rose petals",
+            "chrysanthemum",
+            "dried tangerine peel",
+            "brown sugar"
+        ],
+        "howToUse":  "Steep 6 to 10g of dried cyperus rhizome in hot water for 10 minutes as tea. Often combined with rose petals and dried tangerine peel for stress relief. A small amount can also be added to soups for digestive support.",
+        "dosage":  "6 to 10g per day as tea. Up to 15g in therapeutic decoctions.",
+        "preparationNotes":  "Briefly rinse the dried rhizome before use. For tea, lightly crush the rhizome to release the aromatic oils before steeping. The vinegar-prepared form (zhi xiang fu) is traditionally considered more effective for liver qi regulation and is available from herb shops.",
+        "dietaryAdvice":  "For Qi Stagnant types, cyperus tea in the afternoon may help move stuck energy before it accumulates. Pair with light, warm meals and avoid heavy, greasy foods that slow digestion and worsen stagnation. Regular gentle movement such as walking complements the qi-regulating action.",
+        "cautions":  [
+            "Generally safe in food-grade amounts",
+            "Not suitable for people with qi deficiency without stagnation, as its moving nature may further deplete qi",
+            "Avoid in large amounts during pregnancy",
+            "May affect blood sugar levels; use caution with diabetes medications",
+            "Excess use may cause dry mouth or mild dizziness"
+        ],
+        "faqs":  [
+            {
+                "q":  "Why is cyperus called the chief of qi herbs?",
+                "a":  "In Bencao Gangmu (1578), the physician Li Shizhen described cyperus as the chief of qi-regulating herbs and the commander of women's medicine. This is because its primary action is to move stagnant qi throughout the body, addressing the root cause of many stress, mood, and menstrual complaints. No other qi-regulating herb in TCM carries this level of prominence."
+            },
+            {
+                "q":  "Is cyperus the same as nut grass?",
+                "a":  "Yes. Cyperus rotundus is known as nut grass or nut sedge in English. In TCM, the dried rhizome is called xiang fu. While nut grass is considered an invasive weed in many parts of the world, Chinese medicine values its rhizome for its powerful qi-regulating properties, especially for stress and menstrual comfort."
+            },
+            {
+                "q":  "Can cyperus help with PMS?",
+                "a":  "In TCM, premenstrual tension is often linked to liver qi stagnation. Cyperus soothes the liver and regulates qi flow, which may help ease mood swings, breast tenderness, and irritability before menstruation. A cup of cyperus and rose petal tea in the week before your cycle may provide gentle support."
+            },
+            {
+                "q":  "Which body type benefits most from cyperus?",
+                "a":  "The Qi Stagnant type benefits most, because cyperus directly addresses their core pattern of stuck energy, emotional tension, and stress-related symptoms. If you tend toward qi deficiency with fatigue rather than tension, cyperus may be too moving. Take the free EastType quiz to find your type."
+            }
+        ],
+        "image":  "/images/herbs/cyperus-xiang-fu.jpg",
+        "classicalSource":  "Mingyi Bielu (3rd century CE)",
+        "safetyRating":  "Non-toxic"
+    },
+    {
+        "slug":  "birds-nest-yan-wo",
+        "nameEn":  "Bird's Nest",
+        "nameZh":  "yan wo",
+        "nameZhTrad":  "燕窩",
+        "pinyin":  "yan wo",
+        "botanicalName":  "Aerodramus fuciphagus (swiftlet nest)",
+        "category":  "Yin Tonic",
+        "temperature":  "Neutral",
+        "taste":  "Sweet",
+        "channels":  "Lung, Stomach, Kidney",
+        "summary":  "A premium tonic food prized in Chinese wellness for centuries, bird's nest nourishes yin, moistens the lungs, and supports skin vitality. It is traditionally used for dry skin, dry cough, and post-illness recovery.",
+        "actions":  [
+            "Nourishes yin and moistens the lungs",
+            "Supports skin elasticity and complexion",
+            "Tonifies the stomach and improves appetite",
+            "Supports immune resilience and recovery"
+        ],
+        "actionDetails":  [
+            {
+                "action":  "Nourishes yin and moistens the lungs",
+                "explanation":  "In TCM, yin represents the cooling, moistening, and resting aspect of the body. Bird's nest is sweet and neutral, entering the Lung channel to replenish the moistening fluids that keep the respiratory system supple. This makes it valuable for dry cough, dry throat, and the lingering dryness that follows a respiratory illness."
+            },
+            {
+                "action":  "Supports skin elasticity and complexion",
+                "explanation":  "The Lung governs the skin in TCM theory, and yin nourishment directly affects skin hydration and elasticity. Bird's nest contains glycoproteins and sialic acid that modern research suggests may support skin structure. In TCM terms, its yin-nourishing action helps the skin retain moisture and a healthy glow from within."
+            },
+            {
+                "action":  "Tonifies the stomach and improves appetite",
+                "explanation":  "Bird's nest enters the Stomach channel, where it gently tonifies stomach yin. Stomach yin deficiency can cause dry mouth, reduced appetite, and a feeling of empty discomfort. As a mild, sweet, and easily digested food, bird's nest helps restore the stomach's moistening and receptive function."
+            },
+            {
+                "action":  "Supports immune resilience and recovery",
+                "explanation":  "The Lung governs defensive qi, the body's first line of resistance against external influences. By nourishing lung yin and supporting the Lung channel, bird's nest helps maintain the integrity of this defensive barrier. It is traditionally consumed after illness to help the body rebuild respiratory and immune strength."
+            }
+        ],
+        "bodyTypes":  [
+            "yin_deficient"
+        ],
+        "commonlyUsedFor":  [
+            {
+                "condition":  "Yin Deficient types with dry skin, dry cough, and thirst",
+                "tcmInterpretation":  "Yin deficiency means the body lacks cooling, moistening fluids. This produces dryness in the skin, throat, and lungs, along with a feeling of thirst that water alone does not relieve. Bird's nest nourishes lung and stomach yin, directly replenishing the moistening fluids that are depleted.",
+                "whyItHelps":  "Unlike plain water, which passes through quickly, bird's nest provides a food-based form of yin nourishment that the body can absorb and retain. Its neutral temperature makes it suitable for long-term use without creating heat or cold imbalance."
+            },
+            {
+                "condition":  "Post-illness recovery and immune support",
+                "tcmInterpretation":  "After a respiratory illness, lung yin is often depleted, leaving a dry cough, reduced stamina, and weakened defensive qi. Bird's nest enters the Lung channel and gently rebuilds what the illness has consumed, supporting a more complete recovery.",
+                "whyItHelps":  "Its mild, sweet nature is easy on a recovering digestive system. The combination of lung yin nourishment and immune support makes it a traditional choice for the convalescent phase."
+            },
+            {
+                "condition":  "Skin nourishment for dull or aging complexion",
+                "tcmInterpretation":  "In TCM, the skin reflects the state of lung yin and overall yin reserves. When yin declines through aging, stress, or dry environments, the skin loses its moisture and radiance. Bird's nest nourishes the lung yin that governs the skin, supporting hydration from within.",
+                "whyItHelps":  "Rather than acting on the surface, bird's nest works through the Lung channel to support the skin's foundational moisture. This internal approach is central to the TCM understanding of skin vitality."
+            }
+        ],
+        "therapeuticFocus":  [
+            "Skin Health",
+            "Respiratory Health",
+            "Hydration"
+        ],
+        "foodPairings":  [
+            "rock sugar",
+            "goji berries",
+            "red dates",
+            "pear"
+        ],
+        "howToUse":  "Soak dried bird's nest in clean water for 4 to 6 hours until softened. Pick out any impurities. Double-boil with rock sugar and water for 30 to 45 minutes until soft and gelatinous. Consume warm.",
+        "dosage":  "3 to 5g of dried bird's nest per serving, 2 to 3 times per week.",
+        "preparationNotes":  "Soaking is essential and cannot be skipped. Use room-temperature filtered water for soaking. Avoid hot water, which may cause the proteins to coagulate prematurely. The double-boiling method, where a bowl of the nest sits inside a pot of simmering water, preserves the delicate nutrients.",
+        "dietaryAdvice":  "Bird's nest is best consumed on an empty stomach in the morning or before bed for optimal absorption. For Yin Deficient types, pair with pear, lily bulb, or white fungus for enhanced moistening. Avoid spicy and drying foods that counteract its nourishing nature.",
+        "cautions":  [
+            "Generally safe as a food-grade tonic",
+            "Avoid during acute cold or flu with fever",
+            "Not suitable for people with phlegm-dampness or heavy spleen dampness",
+            "May cause allergic reactions in people sensitive to bird proteins",
+            "Quality varies widely; ensure the source is reputable and free from additives"
+        ],
+        "faqs":  [
+            {
+                "q":  "What exactly is edible bird's nest?",
+                "a":  "Edible bird's nest is made from the solidified saliva of swiftlet birds, primarily found in Southeast Asia. The nests are harvested from caves or purpose-built houses, then cleaned and dried. In TCM, bird's nest has been prized for centuries as a premium yin-nourishing tonic for the lungs, skin, and overall vitality."
+            },
+            {
+                "q":  "Is bird's nest worth the high price?",
+                "a":  "In TCM, bird's nest is valued for its unique combination of glycoproteins and sialic acid, which are believed to support skin elasticity and immune function. While it is expensive, even small amounts taken regularly may provide nourishing benefits. For those seeking similar yin-nourishing effects at lower cost, white fungus and lily bulb offer more affordable alternatives."
+            },
+            {
+                "q":  "How often should I eat bird's nest?",
+                "a":  "For general wellness, 3 to 5g consumed 2 to 3 times per week is common. Consistency matters more than quantity. Many people take it for 3 to 4 weeks, then pause. It is a gentle tonic that works gradually through regular dietary use rather than producing immediate effects."
+            },
+            {
+                "q":  "Which body type benefits most from bird's nest?",
+                "a":  "The Yin Deficient type benefits most, especially for dry skin, dry cough, and signs of depletion. If you tend toward phlegm-dampness or have slow digestion with heavy dampness, bird's nest may be too moistening. Take the free EastType quiz to find your type."
+            }
+        ],
+        "image":  "/images/herbs/birds-nest-yan-wo.jpg",
+        "classicalSource":  "Bencao Gangmu Shiyi (1765 CE)",
+        "safetyRating":  "Non-toxic"
     }
 ]

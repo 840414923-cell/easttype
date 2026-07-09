@@ -6,8 +6,9 @@ import { HERBS, HERB_CATEGORIES } from "@/lib/herbs-data"
 import { HerbsList } from "./herbs-list"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Chinese Medicine Herbs Database — 100 TCM Herbs Explained"
-const DESC = "Search 100 essential Chinese medicine herbs. Learn properties, benefits, food pairings, and which body type each herb suits."
+const herbCount = Object.keys(HERBS).length
+const TITLE = `Chinese Medicine Herbs Database — ${herbCount} TCM Herbs Explained`
+const DESC = `Search ${herbCount} essential Chinese medicine herbs. Learn properties, benefits, food pairings, and which body type each herb suits.`
 const URL = "https://www.myeasterntype.com/herbs"
 
 export const metadata: Metadata = {
@@ -42,7 +43,7 @@ export default function HerbsPage() {
             Chinese Medicine Herbs Database
           </h1>
           <p className="text-text2 text-base mb-8 leading-relaxed max-w-2xl">
-            100 essential Chinese medicine herbs explained in plain English. Learn each herb&apos;s properties, benefits, food pairings, and which body type it suits best.
+            {herbCount} essential Chinese medicine herbs explained in plain English. Learn each herb&apos;s properties, benefits, food pairings, and which body type it suits best.
           </p>
 
           <HerbsList herbs={herbs} />
