@@ -48,25 +48,25 @@ export default function HomeClient() {
         {/* ═══ Hero ═══ */}
         <section className="relative mesh-hero overflow-hidden">
           {/* Desktop: full-height image on right side */}
-          <div className="hidden lg:block absolute top-0 right-0 bottom-0 w-[55%]">
+          <div className="hidden lg:block absolute top-0 right-0 bottom-0 w-[62%]">
             <Image
               src="/images/home/hero-wellness.png"
               alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
               fill
               className="object-cover"
-              sizes="55vw"
+              sizes="62vw"
               priority
             />
             <div
               className="absolute inset-0 pointer-events-none"
               style={{
-                background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.7) 8%, rgba(250,246,238,0.3) 18%, transparent 35%, transparent 100%)",
+                background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.98) 4%, rgba(250,246,238,0.9) 10%, rgba(250,246,238,0.7) 18%, rgba(250,246,238,0.45) 28%, rgba(250,246,238,0.2) 38%, rgba(250,246,238,0.05) 48%, transparent 55%, transparent 100%)",
               }}
             />
           </div>
 
           <div className="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-24 lg:py-32">
-            <div className="lg:w-[45%] text-center lg:text-left">
+            <div className="lg:w-[42%] text-center lg:text-left">
               <div className="lotus-divider mb-6 justify-center lg:justify-start">
                 <span className="text-accent text-xs tracking-[0.3em] uppercase font-semibold">EastType</span>
               </div>
