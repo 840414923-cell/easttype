@@ -103,7 +103,7 @@ export default function HomeClient() {
 
             <div className="relative">
               {/* Connecting line - 3x thicker, full accent color, full content width */}
-              <div className="hidden md:block absolute top-7 left-[16.66%] right-[16.66%] h-[3px] bg-accent rounded-full" />
+              <div className="hidden md:block absolute top-7 left-[5%] right-[5%] h-[3px] bg-accent rounded-full" />
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
                 {/* Step 1: Ask */}
