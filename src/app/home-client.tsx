@@ -75,8 +75,8 @@ export default function HomeClient() {
                 </div>
               </div>
 
-              {/* Hero image - original size, warm-toned edge fade */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              {/* Hero image */}
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
                   src="/images/home/hero-wellness.jpg"
                   alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
@@ -84,12 +84,6 @@ export default function HomeClient() {
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
-                />
-                <div
-                  className="absolute inset-0 pointer-events-none"
-                  style={{
-                    background: "linear-gradient(to right, rgba(245,236,222,0.9) 0%, rgba(243,230,210,0.5) 6%, transparent 14%, transparent 88%, rgba(243,230,210,0.3) 96%, rgba(245,236,222,0.6) 100%), linear-gradient(to bottom, rgba(245,236,222,0.3) 0%, transparent 8%, transparent 92%, rgba(245,236,222,0.3) 100%)",
-                  }}
                 />
               </div>
             </div>
