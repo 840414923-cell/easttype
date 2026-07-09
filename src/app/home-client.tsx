@@ -50,7 +50,7 @@ export default function HomeClient() {
           {/* Desktop: full-width background image, left side masked by gradient */}
           <div className="hidden lg:block absolute inset-0">
             <Image
-              src="/images/home/hero-wellness.png"
+              src="/images/home/hero-wellness.jpg"
               alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
               fill
               className="object-cover object-right"
@@ -95,7 +95,7 @@ export default function HomeClient() {
             {/* Mobile: image below text */}
             <div className="lg:hidden relative aspect-[4/3] mt-10 overflow-hidden rounded-2xl">
               <Image
-                src="/images/home/hero-wellness.png"
+                src="/images/home/hero-wellness.jpg"
                 alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
                 fill
                 className="object-cover"
