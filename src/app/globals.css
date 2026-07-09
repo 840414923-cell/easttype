@@ -305,6 +305,18 @@ main.max-w-2xl h1 { margin-bottom: 0.75rem; }
   animation-play-state: paused;
 }
 
+@keyframes marqueeX {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-x {
+  animation: marqueeX 60s linear infinite;
+}
+.animate-marquee-x:hover {
+  animation-play-state: paused;
+}
+
 .mask-fade-y {
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%);
   mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 85%, transparent 100%);
