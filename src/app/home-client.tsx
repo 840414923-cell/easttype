@@ -76,7 +76,7 @@ export default function HomeClient() {
               </div>
 
               {/* Hero image */}
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <div className="relative aspect-[3/2] rounded-2xl overflow-hidden border border-[rgba(140,45,42,0.12)] shadow-lg">
                 <Image
                   src="/images/home/hero-wellness.jpg"
                   alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
