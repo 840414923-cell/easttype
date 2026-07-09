@@ -47,20 +47,20 @@ export default function HomeClient() {
 
         {/* ═══ Hero ═══ */}
         <section className="relative mesh-hero overflow-hidden">
-          {/* Desktop: full-height image on right side */}
-          <div className="hidden lg:block absolute top-0 right-0 bottom-0 w-[62%]">
+          {/* Desktop: full-width background image, left side masked by gradient */}
+          <div className="hidden lg:block absolute inset-0">
             <Image
               src="/images/home/hero-wellness.png"
               alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
               fill
-              className="object-cover"
-              sizes="62vw"
+              className="object-cover object-right"
+              sizes="100vw"
               priority
             />
             <div
               className="absolute inset-0 pointer-events-none"
               style={{
-                background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.98) 4%, rgba(250,246,238,0.9) 10%, rgba(250,246,238,0.7) 18%, rgba(250,246,238,0.45) 28%, rgba(250,246,238,0.2) 38%, rgba(250,246,238,0.05) 48%, transparent 55%, transparent 100%)",
+                background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.98) 15%, rgba(250,246,238,0.92) 22%, rgba(250,246,238,0.75) 32%, rgba(250,246,238,0.5) 40%, rgba(250,246,238,0.25) 48%, rgba(250,246,238,0.08) 56%, transparent 63%, transparent 100%)",
               }}
             />
           </div>
