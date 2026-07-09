@@ -47,61 +47,51 @@ export default function HomeClient() {
 
         {/* ═══ Hero ═══ */}
         <section className="relative mesh-hero overflow-hidden">
-          {/* Desktop: full-width background image, left side masked by gradient */}
-          <div className="hidden lg:block absolute inset-0">
-            <Image
-              src="/images/home/hero-wellness.jpg"
-              alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
-              fill
-              className="object-cover object-right"
-              sizes="100vw"
-              priority
-            />
-            <div
-              className="absolute inset-0 pointer-events-none"
-              style={{
-                background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.98) 15%, rgba(250,246,238,0.92) 22%, rgba(250,246,238,0.75) 32%, rgba(250,246,238,0.5) 40%, rgba(250,246,238,0.25) 48%, rgba(250,246,238,0.08) 56%, transparent 63%, transparent 100%)",
-              }}
-            />
-          </div>
-
-          <div className="relative z-10 max-w-6xl mx-auto px-6 pt-20 pb-24 lg:py-32">
-            <div className="lg:w-[42%] text-center lg:text-left">
-              <div className="lotus-divider mb-6 justify-center lg:justify-start">
-                <span className="text-accent text-xs tracking-[0.3em] uppercase font-semibold">EastType</span>
+          <div className="max-w-6xl mx-auto px-6 pt-20 pb-24 lg:py-28">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
+              <div className="text-center lg:text-left">
+                <div className="lotus-divider mb-6 justify-center lg:justify-start">
+                  <span className="text-accent text-xs tracking-[0.3em] uppercase font-semibold">EastType</span>
+                </div>
+                <h1 className="font-[family-name:var(--font-display)] text-hero text-text mb-5">
+                  What&apos;s Your Chinese Medicine Body Type?
+                </h1>
+                <p className="text-text2 text-sm sm:text-base max-w-lg mx-auto lg:mx-0 mb-3 leading-relaxed">
+                  {SYMPTOM_QUESTIONS.join("  \u00b7  ")}
+                </p>
+                <p className="text-text2/80 text-sm sm:text-base max-w-md mx-auto lg:mx-0 mb-8 leading-relaxed">
+                  Your body type has the answer. Take a free 5-minute quiz based on 3,000 years of Eastern body wisdom.
+                </p>
+                <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                  <Link
+                    href="/quiz"
+                    className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+                    style={{ background: "linear-gradient(135deg, #A63A3A, #B84A4A, #A63A3A)", color: "#FFFFFF" }}
+                  >
+                    Take the Free Quiz
+                    <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
+                  </Link>
+                  <p className="text-xs text-text2/60">5 min &middot; No sign-up</p>
+                </div>
               </div>
-              <h1 className="font-[family-name:var(--font-display)] text-hero text-text mb-5">
-                What&apos;s Your Chinese Medicine Body Type?
-              </h1>
-              <p className="text-text2 text-sm sm:text-base max-w-lg mx-auto lg:mx-0 mb-3 leading-relaxed">
-                {SYMPTOM_QUESTIONS.join("  \u00b7  ")}
-              </p>
-              <p className="text-text2/80 text-sm sm:text-base max-w-md mx-auto lg:mx-0 mb-8 leading-relaxed">
-                Your body type has the answer. Take a free 5-minute quiz based on 3,000 years of Eastern body wisdom.
-              </p>
-              <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-                <Link
-                  href="/quiz"
-                  className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                  style={{ background: "linear-gradient(135deg, #A63A3A, #B84A4A, #A63A3A)", color: "#FFFFFF" }}
-                >
-                  Take the Free Quiz
-                  <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
-                </Link>
-                <p className="text-xs text-text2/60">5 min &middot; No sign-up</p>
-              </div>
-            </div>
 
-            {/* Mobile: image below text */}
-            <div className="lg:hidden relative aspect-[4/3] mt-10 overflow-hidden rounded-2xl">
-              <Image
-                src="/images/home/hero-wellness.jpg"
-                alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
-                fill
-                className="object-cover"
-                sizes="100vw"
-                priority
-              />
+              {/* Hero image - original size, warm-toned edge fade */}
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src="/images/home/hero-wellness.jpg"
+                  alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                />
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{
+                    background: "linear-gradient(to right, rgba(245,236,222,0.9) 0%, rgba(243,230,210,0.5) 6%, transparent 14%, transparent 88%, rgba(243,230,210,0.3) 96%, rgba(245,236,222,0.6) 100%), linear-gradient(to bottom, rgba(245,236,222,0.3) 0%, transparent 8%, transparent 92%, rgba(245,236,222,0.3) 100%)",
+                  }}
+                />
+              </div>
             </div>
           </div>
         </section>
