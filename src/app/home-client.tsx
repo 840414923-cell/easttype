@@ -46,10 +46,10 @@ export default function HomeClient() {
       <main className="flex-1">
 
         {/* ═══ Hero ═══ */}
-        <section className="relative mesh-hero overflow-hidden">
+        <section className="bg-[var(--color-bg2)] overflow-hidden">
           <div className="max-w-6xl mx-auto px-6 pt-20 pb-24 lg:py-28">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
-              <div className="text-center lg:text-left">
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-10 items-center">
+              <div className="lg:col-span-2 text-center lg:text-left">
                 <div className="lotus-divider mb-6 justify-center lg:justify-start">
                   <span className="text-accent text-xs tracking-[0.3em] uppercase font-semibold">EastType</span>
                 </div>
@@ -76,7 +76,7 @@ export default function HomeClient() {
               </div>
 
               {/* Hero image */}
-              <div className="relative aspect-[3/2] rounded-2xl overflow-hidden border border-[rgba(140,45,42,0.12)] shadow-lg">
+              <div className="lg:col-span-3 relative aspect-[3/2] rounded-2xl overflow-hidden border border-[rgba(140,45,42,0.12)] shadow-lg">
                 <Image
                   src="/images/home/hero-wellness.jpg"
                   alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
