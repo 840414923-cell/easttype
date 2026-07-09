@@ -145,21 +145,21 @@ export default function HomeClient() {
             </div>
 
             {/* Step flow */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6">
               {STEPS.map((s, i) => (
                 <div key={s.num} className="relative text-center">
                   {/* Connector line */}
                   {i < STEPS.length - 1 && (
-                    <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-px bg-[rgba(200,16,46,0.2)]" />
+                    <div className="hidden md:block absolute top-14 left-[55%] w-[90%] h-0.5 bg-accent/25 rounded-full" />
                   )}
 
-                  <div className="relative inline-flex flex-col items-center mb-4">
-                    <span className="font-[family-name:var(--font-display)] text-xs text-accent/40 font-bold mb-1">{s.num}</span>
-                    <span className="font-[family-name:var(--font-display)] text-5xl text-text font-bold leading-none">{s.char}</span>
-                    <span className="text-[10px] text-text2/40 uppercase tracking-wider mt-1">{s.pinyin}</span>
+                  <div className="relative inline-flex flex-col items-center mb-5">
+                    <span className="font-[family-name:var(--font-display)] text-sm font-bold text-accent mb-2">{s.num}</span>
+                    <span className="font-[family-name:var(--font-display)] text-6xl text-text font-bold leading-none">{s.char}</span>
+                    <span className="text-xs text-text2/60 uppercase tracking-wider mt-2">{s.pinyin}</span>
                   </div>
                   <h3 className="font-[family-name:var(--font-display)] text-lg text-text font-semibold mb-2">{s.title}</h3>
-                  <p className="text-text2 text-sm leading-relaxed max-w-[200px] mx-auto">{s.desc}</p>
+                  <p className="text-text2 text-sm leading-relaxed max-w-[220px] mx-auto">{s.desc}</p>
                 </div>
               ))}
             </div>
