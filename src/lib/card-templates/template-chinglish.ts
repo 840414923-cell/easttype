@@ -39,7 +39,7 @@ export async function renderChinglishCard(
 
   const tagY = emojiY + emojiSize * 0.55
   ctx.font = `bold ${14 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(201,163,85,0.5)"
+  ctx.fillStyle = "rgba(200,16,46,0.5)"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   ctx.letterSpacing = `${4 * s}px`
@@ -74,7 +74,7 @@ export async function renderChinglishCard(
 
   const zhLabelY = wide ? H * 0.74 : H * 0.68
   ctx.font = `${20 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(201,163,85,0.35)"
+  ctx.fillStyle = "rgba(200,16,46,0.35)"
   ctx.textAlign = "center"
   ctx.fillText(content.zh, W / 2, zhLabelY)
 

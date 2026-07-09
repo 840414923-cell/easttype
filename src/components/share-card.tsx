@@ -48,7 +48,7 @@ export function ShareCardImage({
           style={{
             aspectRatio: "3/5",
             padding: "3px",
-            background: `linear-gradient(145deg, #C9A355, #E0C878, #C9A355, #A88740, #C9A355)`,
+            background: `linear-gradient(145deg, #C8102E, #DC2626, #C8102E, #B91C1C, #C8102E)`,
           }}
         >
           <div
@@ -139,7 +139,7 @@ export function ShareCardImage({
       <div className="flex justify-center mt-4">
         <button
           onClick={handleDownload}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-gradient-to-r from-accent to-accent2 text-bg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer transition-all duration-300 hover:shadow-[0_0_20px_rgba(201,163,85,0.2)] hover:-translate-y-0.5"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-gradient-to-r from-accent to-accent2 text-white font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer transition-all duration-300 hover:shadow-[0_0_20px_rgba(200,16,46,0.2)] hover:-translate-y-0.5"
         >
           Save Image
         </button>

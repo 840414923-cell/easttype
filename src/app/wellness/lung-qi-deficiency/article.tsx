@@ -254,7 +254,7 @@ export default function LungQiDeficiencyArticle() {
 
       <SymptomCta />
 
-      <div className="mt-8 mb-4 px-4 py-3 rounded-xl bg-[rgba(201,169,110,0.03)] border border-[rgba(201,169,110,0.1)]">
+      <div className="mt-8 mb-4 px-4 py-3 rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.1)]">
         <p className="text-[10px] text-text2 leading-relaxed text-center">
           This article is for informational and educational purposes only and is not medical advice. Always consult a qualified healthcare professional for medical concerns.
         </p>

@@ -55,8 +55,8 @@ export function drawGradientBg(ctx: CanvasRenderingContext2D, size: PlatformSize
   ctx.fillRect(0, 0, W, H)
 
   const accent = ctx.createRadialGradient(W * 0.5, H * 0.3, 0, W * 0.5, H * 0.3, W * 0.7)
-  accent.addColorStop(0, "rgba(201,163,85,0.06)")
-  accent.addColorStop(1, "rgba(201,163,85,0)")
+  accent.addColorStop(0, "rgba(200,16,46,0.06)")
+  accent.addColorStop(1, "rgba(200,16,46,0)")
   ctx.fillStyle = accent
   ctx.fillRect(0, 0, W, H)
 }
@@ -68,11 +68,11 @@ export function drawGoldBorder(ctx: CanvasRenderingContext2D, size: PlatformSize
   const inset = 28 * s
   const cornerLen = 55 * s
 
-  ctx.strokeStyle = "rgba(201,163,85,0.3)"
+  ctx.strokeStyle = "rgba(200,16,46,0.3)"
   ctx.lineWidth = 1
   ctx.strokeRect(inset, inset, W - inset * 2, H - inset * 2)
 
-  ctx.strokeStyle = "rgba(201,163,85,0.65)"
+  ctx.strokeStyle = "rgba(200,16,46,0.65)"
   ctx.lineWidth = 2.5 * s
 
   const corners = [
@@ -92,9 +92,9 @@ export function drawGoldBorder(ctx: CanvasRenderingContext2D, size: PlatformSize
 
 export function drawEmojiGlow(ctx: CanvasRenderingContext2D, x: number, y: number, radius: number) {
   const glow = ctx.createRadialGradient(x, y, 0, x, y, radius)
-  glow.addColorStop(0, "rgba(201,163,85,0.18)")
-  glow.addColorStop(0.5, "rgba(201,163,85,0.06)")
-  glow.addColorStop(1, "rgba(201,163,85,0)")
+  glow.addColorStop(0, "rgba(200,16,46,0.18)")
+  glow.addColorStop(0.5, "rgba(200,16,46,0.06)")
+  glow.addColorStop(1, "rgba(200,16,46,0)")
   ctx.fillStyle = glow
   ctx.fillRect(x - radius, y - radius, radius * 2, radius * 2)
 }
@@ -106,7 +106,7 @@ export function drawGoldDivider(ctx: CanvasRenderingContext2D, y: number, size: 
   const right = W * 0.88
   const mid = W / 2
 
-  ctx.strokeStyle = "rgba(201,163,85,0.35)"
+  ctx.strokeStyle = "rgba(200,16,46,0.35)"
   ctx.lineWidth = 1
   ctx.beginPath()
   ctx.moveTo(left, y)
@@ -117,7 +117,7 @@ export function drawGoldDivider(ctx: CanvasRenderingContext2D, y: number, size: 
   ctx.lineTo(right, y)
   ctx.stroke()
 
-  ctx.fillStyle = "rgba(201,163,85,0.5)"
+  ctx.fillStyle = "rgba(200,16,46,0.5)"
   ctx.font = `${14 * s}px serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "middle"
@@ -142,7 +142,7 @@ export function drawSubtextCard(
   ctx.fillStyle = "rgba(10,8,5,0.55)"
   roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 14 * s)
   ctx.fill()
-  ctx.strokeStyle = "rgba(201,163,85,0.12)"
+  ctx.strokeStyle = "rgba(200,16,46,0.12)"
   ctx.lineWidth = 1
   roundRect(ctx, x - maxWidth / 2, y - pad, maxWidth, cardH, 14 * s)
   ctx.stroke()
@@ -170,14 +170,14 @@ export function drawFooter(ctx: CanvasRenderingContext2D, size: PlatformSize, co
   const textS = wide ? 0.7 : 1
 
   ctx.font = `bold ${28 * s * textS}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "#C9A355"
+  ctx.fillStyle = "#C8102E"
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   ctx.fillText("Free 5-min quiz \u2192 myeasterntype.com", W / 2, footerY + 22 * s * textS)
 
   if (code && !wide) {
     ctx.font = `bold ${38 * s}px "DM Sans", monospace`
-    ctx.shadowColor = "rgba(201,163,85,0.35)"
+    ctx.shadowColor = "rgba(200,16,46,0.35)"
     ctx.shadowBlur = 20
     ctx.fillText(code, W / 2, footerY + 65 * s)
     ctx.shadowBlur = 0
@@ -187,7 +187,7 @@ export function drawFooter(ctx: CanvasRenderingContext2D, size: PlatformSize, co
     ctx.fillText("Use this code to unlock your free report", W / 2, footerY + 110 * s)
   } else if (code && wide) {
     ctx.font = `bold ${22 * s}px "DM Sans", monospace`
-    ctx.shadowColor = "rgba(201,163,85,0.35)"
+    ctx.shadowColor = "rgba(200,16,46,0.35)"
     ctx.shadowBlur = 12
     ctx.fillText(`Code: ${code}`, W / 2, footerY + 45 * s * textS)
     ctx.shadowBlur = 0
@@ -205,14 +205,14 @@ export function drawBrandHeader(ctx: CanvasRenderingContext2D, size: PlatformSiz
   const wide = isWideFormat(size)
   const topY = wide ? 38 * s : 85 * s
 
-  ctx.fillStyle = "rgba(201,163,85,0.5)"
+  ctx.fillStyle = "rgba(200,16,46,0.5)"
   ctx.font = `${12 * s}px serif`
   ctx.textAlign = "center"
   ctx.textBaseline = "top"
   ctx.fillText("\u25C7", W / 2, topY - 20 * s)
 
   ctx.font = `bold ${16 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(201,163,85,0.7)"
+  ctx.fillStyle = "rgba(200,16,46,0.7)"
   ctx.letterSpacing = `${4 * s}px`
   ctx.fillText("EASTTYPE", W / 2, topY)
   ctx.letterSpacing = "0px"
@@ -314,8 +314,8 @@ export function wrapLines(ctx: CanvasRenderingContext2D, text: string, maxWidth:
 
 export function makeGoldGradient(ctx: CanvasRenderingContext2D, x1: number, x2: number, y: number) {
   const grad = ctx.createLinearGradient(x1, y, x2, y)
-  grad.addColorStop(0, "#C9A355")
-  grad.addColorStop(0.5, "#E0C878")
-  grad.addColorStop(1, "#C9A355")
+  grad.addColorStop(0, "#C8102E")
+  grad.addColorStop(0.5, "#DC2626")
+  grad.addColorStop(1, "#C8102E")
   return grad
 }

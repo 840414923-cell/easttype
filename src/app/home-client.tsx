@@ -107,7 +107,7 @@ export default function HomeClient() {
                   <Link
                     href="/quiz"
                     className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                    style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+                    style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
                   >
                     Take the Free Quiz
                     <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -117,7 +117,7 @@ export default function HomeClient() {
               </div>
 
               {/* Hero image placeholder */}
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#F9F6F1] border border-[rgba(201,163,85,0.12)]">
+              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-[#F9F6F1] border border-[rgba(200,16,46,0.12)]">
                 <Image
                   src="/images/home/body-types.png"
                   alt="Chinese medicine body types"
@@ -150,7 +150,7 @@ export default function HomeClient() {
                 <div key={s.num} className="relative text-center">
                   {/* Connector line */}
                   {i < STEPS.length - 1 && (
-                    <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-px bg-[rgba(201,163,85,0.2)]" />
+                    <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-px bg-[rgba(200,16,46,0.2)]" />
                   )}
 
                   <div className="relative inline-flex flex-col items-center mb-4">
@@ -168,7 +168,7 @@ export default function HomeClient() {
               <Link
                 href="/quiz"
                 className="group inline-flex items-center justify-center px-8 py-3.5 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-                style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+                style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
               >
                 Start with the Quiz
                 <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
@@ -298,7 +298,7 @@ export default function HomeClient() {
             <Link
               href="/quiz"
               className="group inline-flex items-center justify-center px-10 py-4 rounded-full font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg"
-              style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+              style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
             >
               Take the Free Quiz
               <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>

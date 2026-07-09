@@ -67,7 +67,7 @@ export function SearchBar() {
           onKeyDown={handleKeyDown}
           onFocus={() => query.trim() && setIsOpen(true)}
           placeholder="Search symptoms, foods, body types..."
-          className="w-full px-5 py-3.5 pl-12 rounded-xl border border-[rgba(168,135,64,0.2)] bg-card-bg text-text placeholder:text-text2/50 text-sm focus:outline-none focus:border-[rgba(168,135,64,0.5)] focus:shadow-[0_0_20px_rgba(168,135,64,0.1)] transition-all"
+          className="w-full px-5 py-3.5 pl-12 rounded-xl border border-[rgba(185,28,28,0.2)] bg-card-bg text-text placeholder:text-text2/50 text-sm focus:outline-none focus:border-[rgba(185,28,28,0.5)] focus:shadow-[0_0_20px_rgba(185,28,28,0.1)] transition-all"
         />
         <svg
           className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-text2/50"
@@ -80,7 +80,7 @@ export function SearchBar() {
       </div>
 
       {isOpen && results.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-card-bg border border-[rgba(168,135,64,0.2)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden z-50 max-h-80 overflow-y-auto">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-card-bg border border-[rgba(185,28,28,0.2)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] overflow-hidden z-50 max-h-80 overflow-y-auto">
           {results.map((item, i) => (
             <Link
               key={`${item.url}-${i}`}
@@ -90,7 +90,7 @@ export function SearchBar() {
                 setQuery("")
               }}
               className={`flex items-center justify-between px-4 py-3 no-underline transition-colors ${
-                i === activeIndex ? "bg-[rgba(168,135,64,0.08)]" : "hover:bg-[rgba(168,135,64,0.04)]"
+                i === activeIndex ? "bg-[rgba(185,28,28,0.08)]" : "hover:bg-[rgba(185,28,28,0.04)]"
               }`}
             >
               <div className="flex-1 min-w-0">
@@ -105,7 +105,7 @@ export function SearchBar() {
       )}
 
       {isOpen && query.trim() && results.length === 0 && (
-        <div className="absolute top-full left-0 right-0 mt-2 bg-card-bg border border-[rgba(168,135,64,0.2)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] px-4 py-6 text-center z-50">
+        <div className="absolute top-full left-0 right-0 mt-2 bg-card-bg border border-[rgba(185,28,28,0.2)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] px-4 py-6 text-center z-50">
           <span className="text-sm text-text2">No results found. Try another keyword.</span>
         </div>
       )}

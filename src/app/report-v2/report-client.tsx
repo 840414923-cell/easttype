@@ -263,7 +263,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro, upgradeTok
 
       {/* Upgrade banner for basic */}
       {!isPro && (
-        <div className="border-2 border-dashed border-accent rounded-xl p-5 text-center bg-[rgba(201,163,85,0.04)]">
+        <div className="border-2 border-dashed border-accent rounded-xl p-5 text-center bg-[rgba(200,16,46,0.04)]">
           <div className="text-accent text-xs font-bold uppercase tracking-wider mb-1">{ui.proUpgradeTitle}</div>
           <p className="text-[15px] text-text2 mb-3">{ui.proUpgradeDesc}</p>
           <CreemCheckout
@@ -271,7 +271,7 @@ function MobileReading({ report, pro, lc, ui, ct, sex, typeId, isPro, upgradeTok
             successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro&token=${upgradeToken}`}
             metadata={{ type: typeId, sex, plan: "pro" }}
           >
-            <div className="inline-flex items-center px-5 py-2 rounded-full text-sm font-semibold cursor-pointer bg-gradient-to-r from-accent to-accent2 text-bg">
+            <div className="inline-flex items-center px-5 py-2 rounded-full text-sm font-semibold cursor-pointer bg-gradient-to-r from-accent to-accent2 text-white">
               {ui.proUpgradeCta}
             </div>
           </CreemCheckout>
@@ -395,7 +395,7 @@ function ReportV2Content({ isPro, upgradeToken }: { isPro: boolean; upgradeToken
               </Link>
               <button
                 onClick={handleSavePdf}
-                className="text-sm text-accent font-semibold px-3 py-1.5 cursor-pointer bg-transparent border border-accent rounded-full hover:bg-[rgba(201,169,110,0.1)]"
+                className="text-sm text-accent font-semibold px-3 py-1.5 cursor-pointer bg-transparent border border-accent rounded-full hover:bg-[rgba(200,16,46,0.1)]"
               >
                 {ui.downloadBtn}
               </button>
@@ -510,7 +510,7 @@ function renderMd(text: string) {
 function SectionHeader({ num, title }: { num: number; title: string }) {
   return (
     <div className="flex items-center gap-2 mb-3 pb-1.5 border-b border-[#e0d8cc]" style={{ breakAfter: "avoid" }}>
-      <span className="text-[10px] font-bold text-white bg-[#C9A96E] w-5 h-5 rounded flex items-center justify-center flex-shrink-0">{num}</span>
+      <span className="text-[10px] font-bold text-white bg-[#C8102E] w-5 h-5 rounded flex items-center justify-center flex-shrink-0">{num}</span>
       <span className="text-sm font-bold text-[#1a1a1a] tracking-wide">{title}</span>
     </div>
   )
@@ -587,7 +587,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgrade
     <div className="max-w-[210mm] mx-auto my-8 print:my-0 print:max-w-none">
       <div className="bg-white text-black shadow-2xl print:shadow-none rounded-lg overflow-hidden" id="report-a4">
         {/* Header */}
-        <div className="border-b-2 border-[#C9A96E] px-12 py-6" style={{ breakAfter: "avoid", breakInside: "avoid" }}>
+        <div className="border-b-2 border-[#C8102E] px-12 py-6" style={{ breakAfter: "avoid", breakInside: "avoid" }}>
           <div className="flex justify-between items-start">
             <div>
               <div className="text-[10px] text-[#999] tracking-[0.2em] uppercase mb-1">{hdr.institution}</div>
@@ -624,7 +624,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgrade
               <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={1} title={a4ui.section1} /><div dangerouslySetInnerHTML={{ __html: renderMd(t(report.ch1Identity)) }} /></div>
               <div className="mb-6" style={{ breakInside: "avoid" }}>
                 <SectionHeader num={2} title={a4ui.section2} />
-                <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-2">{a4ui.recommended}</div>
+                <div className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider mb-2">{a4ui.recommended}</div>
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[13px] mb-4 min-w-[500px]">
                   <thead><tr className="bg-[#f8f6f2]">{[a4ui.foodCol, a4ui.aliasCol, a4ui.tcmCol, a4ui.guideCol].map((h, i) => <th key={i} className="text-left px-3 py-1.5 border border-[#e0d8cc] font-semibold text-[#1a1a1a]">{h}</th>)}</tr></thead>
                   <tbody>{report.ch2FoodsLove.map((food, i) => (
@@ -681,10 +681,10 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgrade
                 <div key={s} className="flex gap-3"><span className="shrink-0 w-16 text-[12px] font-bold px-2 py-0.5 rounded bg-[#f8f6f2] text-center" style={{ color: "#7a6535" }}>{seasonLabels[s]}</span><p className="text-[13px] text-[#444] leading-[1.7]">{t(pro.ch3SeasonNotes[s])}</p></div>
               ))}</div></div>
               <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={6} title={a4ui.proCh4Acupoints} /><div className="space-y-3">{pro.ch4Acupoints.map((point, i) => (
-                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#C9A96E]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(point)) }} /></div>
+                <div key={i} className="border border-[#e0d8cc] rounded px-4 py-2.5 border-l-[3px] border-l-[#C8102E]"><div className="text-[13px] text-[#444] leading-[1.7]" dangerouslySetInnerHTML={{ __html: renderMd(t(point)) }} /></div>
               ))}</div></div>
               <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={7} title={a4ui.proCh6Recipes} /><div className="space-y-4">{pro.ch6Recipes.map((recipe, i) => (
-                <div key={i} style={{ breakInside: "avoid" }}><div className="text-[12px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">{a4ui.proRecipeN} {i + 1}</div><A4RecipeCard recipe={recipe} lc={lc} ui={a4ui} /></div>
+                <div key={i} style={{ breakInside: "avoid" }}><div className="text-[12px] font-bold text-[#C8102E] uppercase tracking-wider mb-1.5">{a4ui.proRecipeN} {i + 1}</div><A4RecipeCard recipe={recipe} lc={lc} ui={a4ui} /></div>
               ))}</div></div>
               <div className="mb-6" style={{ breakInside: "avoid" }}><SectionHeader num={8} title={a4ui.proCh7Schedule} />
                 <div className="overflow-x-auto"><table className="w-full border-collapse text-[11px]">
@@ -720,15 +720,15 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgrade
           )}
           {/* Upgrade for basic */}
           {!isPro && (
-            <div className="print:hidden border-2 border-dashed border-[#C9A96E] rounded-lg px-6 py-4 mt-6 text-center bg-[#fdf9f3]">
-              <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1">{a4ui.proUpgradeTitle}</div>
+            <div className="print:hidden border-2 border-dashed border-[#C8102E] rounded-lg px-6 py-4 mt-6 text-center bg-[#fdf9f3]">
+              <div className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider mb-1">{a4ui.proUpgradeTitle}</div>
               <p className="text-[13px] text-[#444] mb-3 max-w-md mx-auto">{a4ui.proUpgradeDesc}</p>
               <CreemCheckout
                 productId={CREEM_PRODUCT_PRO}
                 successUrl={`/success?type=${typeId}&sex=${sex}&plan=pro&token=${upgradeToken}`}
                 metadata={{ type: typeId, sex, plan: "pro" }}
               >
-                <div className="inline-flex items-center px-5 py-1.5 rounded text-[13px] font-semibold cursor-pointer bg-[#C9A96E] text-white">
+                <div className="inline-flex items-center px-5 py-1.5 rounded text-[13px] font-semibold cursor-pointer bg-[#C8102E] text-white">
                   {a4ui.proUpgradeCta}
                 </div>
               </CreemCheckout>
@@ -740,7 +740,7 @@ function A4Report({ report, pro, lc, ui, ct, sex, typeId, isPro, locale, upgrade
           <div>EastType Constitution Report · {isPro ? "Full Diagnosis" : "Body Profile"}</div>
           <div>{a4ui.footer}</div>
         </div>
-        <div className="bg-[#f8f6f2] px-12 py-1.5 text-center text-[11px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
+        <div className="bg-[#f8f6f2] px-12 py-1.5 text-center text-[11px] text-[#C8102E] font-semibold tracking-wider border-t border-[#e0d8cc]">www.myeasterntype.com</div>
       </div>
     </div>
   )

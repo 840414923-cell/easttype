@@ -47,7 +47,7 @@ export default function SolutionsHubPage() {
               <Link
                 key={s.slug}
                 href={`/solutions/${s.slug}`}
-                className={`group block rounded-2xl overflow-hidden border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline ${idx % 2 === 0 ? "bg-card-bg" : "bg-[var(--color-bg2)]"}`}
+                className={`group block rounded-2xl overflow-hidden border-2 border-[rgba(185,28,28,0.12)] hover:border-[rgba(185,28,28,0.4)] hover:shadow-[0_8px_30px_rgba(185,28,28,0.12)] transition-all duration-300 no-underline ${idx % 2 === 0 ? "bg-card-bg" : "bg-[var(--color-bg2)]"}`}
               >
                 <div className="flex flex-col sm:flex-row">
                   <div className="relative w-full sm:w-2/5 aspect-[16/9] sm:aspect-auto flex-shrink-0 overflow-hidden">
@@ -68,7 +68,7 @@ export default function SolutionsHubPage() {
                     </p>
                     <div className="flex flex-wrap gap-2">
                       {s.formulas.map((f) => (
-                        <span key={f.slug} className="text-xs text-text2/70 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.1)] px-2.5 py-1 rounded-md">
+                        <span key={f.slug} className="text-xs text-text2/70 bg-[rgba(185,28,28,0.05)] border border-[rgba(185,28,28,0.1)] px-2.5 py-1 rounded-md">
                           {f.nameEn.split(" & ")[0]} - {f.bodyType}
                         </span>
                       ))}
@@ -85,7 +85,7 @@ export default function SolutionsHubPage() {
             </p>
             <Link
               href="/quiz"
-              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)]"
+              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(200,16,46,0.2)]"
             >
               Take the Free Quiz {'>'}
             </Link>

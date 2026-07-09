@@ -59,7 +59,7 @@ export async function renderQuoteCard(
 
   const attrY = bottomDividerY + (wide ? 18 * s : 40 * s)
   ctx.font = `${wide ? 14 * s : 20 * s}px "DM Sans", system-ui, sans-serif`
-  ctx.fillStyle = "rgba(201,163,85,0.5)"
+  ctx.fillStyle = "rgba(200,16,46,0.5)"
   ctx.letterSpacing = `${5 * s}px`
   ctx.fillText("\u2014  EASTERN MEDICINE", W / 2, attrY)
   ctx.letterSpacing = "0px"

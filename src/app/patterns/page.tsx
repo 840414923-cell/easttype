@@ -120,7 +120,7 @@ export default function PatternsHubPage() {
                   className="group block"
                 >
                   <div
-                    className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(168,135,64,0.15)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(168,135,64,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_8px_24px_rgba(168,135,64,0.12)]"
+                    className="relative rounded-xl sm:rounded-2xl overflow-hidden border border-[rgba(185,28,28,0.15)] bg-card-bg transition-all duration-500 group-hover:border-[rgba(185,28,28,0.4)] group-hover:-translate-y-1 group-hover:shadow-[0_8px_24px_rgba(185,28,28,0.12)]"
                     style={{
                       background: `linear-gradient(170deg, ${t.color}10 0%, var(--color-card-bg) 40%, var(--color-card-bg) 100%)`,
                     }}
@@ -193,7 +193,7 @@ export default function PatternsHubPage() {
             </p>
             <Link
               href="/quiz"
-              className="inline-flex items-center justify-center px-8 py-3 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_4px_20px_rgba(168,135,64,0.2)]"
+              className="inline-flex items-center justify-center px-8 py-3 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_4px_20px_rgba(185,28,28,0.2)]"
             >
               Take the Free Quiz {'>'}
             </Link>

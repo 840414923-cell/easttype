@@ -25,13 +25,13 @@ export default function Error({
       <div className="flex gap-4 justify-center">
         <button
           onClick={() => unstable_retry()}
-          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold cursor-pointer transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white"
         >
           Try Again
         </button>
         <Link
           href="/"
-          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold no-underline border border-accent text-accent transition-all duration-300 hover:bg-[rgba(201,169,110,0.1)]"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-full text-sm font-semibold no-underline border border-accent text-accent transition-all duration-300 hover:bg-[rgba(200,16,46,0.1)]"
         >
           Go Home
         </Link>

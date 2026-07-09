@@ -13,13 +13,13 @@ function Collapsible({ label, children }: { label: string; children: React.React
     <div className="mb-3">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full text-left px-4 py-2.5 rounded bg-[rgba(201,163,85,0.05)] border border-[rgba(201,163,85,0.12)] cursor-pointer transition-colors hover:border-[rgba(201,163,85,0.25)] flex items-center justify-between gap-2"
+        className="w-full text-left px-4 py-2.5 rounded bg-[rgba(200,16,46,0.05)] border border-[rgba(200,16,46,0.12)] cursor-pointer transition-colors hover:border-[rgba(200,16,46,0.25)] flex items-center justify-between gap-2"
       >
         <span className="text-xs text-accent tracking-wide">{label}</span>
         <span className={`text-accent text-xs transition-transform duration-200 ${open ? "rotate-180" : ""}`}>&#9662;</span>
       </button>
       {open && (
-        <div className="px-4 py-3 mt-1.5 rounded bg-[rgba(201,163,85,0.03)] border border-[rgba(201,163,85,0.08)]">
+        <div className="px-4 py-3 mt-1.5 rounded bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.08)]">
           {children}
         </div>
       )}
@@ -74,7 +74,7 @@ function RadarChart({ scores, primaryId, animated }: RadarChartProps) {
             return `${cx + r * Math.cos(angle)},${cy + r * Math.sin(angle)}`
           }).join(" ")}
           fill="none"
-          stroke="rgba(201,163,85,0.12)"
+          stroke="rgba(200,16,46,0.12)"
           strokeWidth="1"
         />
       ))}
@@ -86,7 +86,7 @@ function RadarChart({ scores, primaryId, animated }: RadarChartProps) {
             x1={cx} y1={cy}
             x2={cx + radius * Math.cos(angle)}
             y2={cy + radius * Math.sin(angle)}
-            stroke="rgba(201,163,85,0.08)"
+            stroke="rgba(200,16,46,0.08)"
             strokeWidth="1"
           />
         )
@@ -186,7 +186,7 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
               }
             }}
             disabled={isTransitioning}
-            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-card-border bg-card-bg cursor-pointer transition-all text-sm text-text2 hover:text-accent hover:border-[rgba(201,163,85,0.3)]"
+            className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full border border-card-border bg-card-bg cursor-pointer transition-all text-sm text-text2 hover:text-accent hover:border-[rgba(200,16,46,0.3)]"
           >
             &#8592;
           </button>
@@ -195,7 +195,7 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
               className="h-full rounded transition-all duration-500"
               style={{
                 width: `${progress}%`,
-                background: "linear-gradient(90deg, #C9A355, #E0C878)",
+                background: "linear-gradient(90deg, #C8102E, #DC2626)",
               }}
             />
           </div>
@@ -230,8 +230,8 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
                 disabled={isTransitioning}
                 className={`w-full text-left p-4 rounded-2xl border-[1.5px] cursor-pointer transition-all duration-200 flex items-center gap-4 min-h-[56px] ${
                   selectedValue === opt.value
-                    ? "border-accent bg-[rgba(201,163,85,0.15)] text-accent shadow-[0_0_20px_rgba(201,163,85,0.1)]"
-                    : "border-[rgba(201,163,85,0.2)] bg-[rgba(201,163,85,0.04)] text-text hover:border-accent hover:bg-[rgba(201,163,85,0.1)] hover:shadow-[0_2px_12px_rgba(201,163,85,0.08)]"
+                    ? "border-accent bg-[rgba(200,16,46,0.15)] text-accent shadow-[0_0_20px_rgba(200,16,46,0.1)]"
+                    : "border-[rgba(200,16,46,0.2)] bg-[rgba(200,16,46,0.04)] text-text hover:border-accent hover:bg-[rgba(200,16,46,0.1)] hover:shadow-[0_2px_12px_rgba(200,16,46,0.08)]"
                 } disabled:cursor-default`}
               >
                 <span className="flex-shrink-0 w-8 h-8 rounded-full border border-accent/40 flex items-center justify-center text-sm font-semibold text-accent/70">
@@ -303,8 +303,8 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
       <div className={`mt-5 w-full max-w-md transition-all duration-700 delay-600 ${animated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
         <button
           onClick={handleStartPhase2}
-          className="w-full py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_30px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
-          style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+          className="w-full py-5 rounded-2xl font-[family-name:var(--font-body)] text-lg font-bold cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(200,16,46,0.4)] shadow-[0_0_30px_rgba(200,16,46,0.15)] border-2 border-[rgba(255,255,255,0.15)]"
+          style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
         >
           Unlock 95% Accuracy →
         </button>

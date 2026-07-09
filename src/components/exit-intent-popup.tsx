@@ -204,8 +204,8 @@ export function ExitIntentPopup() {
           style={{
             background: "var(--color-bg2)",
             borderRadius: "16px",
-            border: "1px solid rgba(201, 163, 85, 0.25)",
-            boxShadow: "0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(201, 163, 85, 0.08)",
+            border: "1px solid rgba(200, 16, 46, 0.25)",
+            boxShadow: "0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(200, 16, 46, 0.08)",
             overflow: "hidden",
           }}
           onClick={(e) => e.stopPropagation()}
@@ -309,7 +309,7 @@ export function ExitIntentPopup() {
               <div
                 className="w-14 h-14 mx-auto mb-4 rounded-full flex items-center justify-center"
                 style={{
-                  background: "rgba(201, 163, 85, 0.15)",
+                  background: "rgba(200, 16, 46, 0.15)",
                   border: "2px solid var(--color-accent)",
                 }}
               >
@@ -367,7 +367,7 @@ export function ExitIntentPopup() {
               <div
                 className="w-14 h-14 mx-auto mb-4 rounded-full flex items-center justify-center"
                 style={{
-                  background: "rgba(201, 163, 85, 0.15)",
+                  background: "rgba(200, 16, 46, 0.15)",
                 }}
               >
                 <svg
@@ -377,7 +377,7 @@ export function ExitIntentPopup() {
                   viewBox="0 0 28 28"
                   fill="none"
                 >
-                  <circle cx="14" cy="14" r="11" stroke="rgba(201,163,85,0.2)" strokeWidth="3" />
+                  <circle cx="14" cy="14" r="11" stroke="rgba(200,16,46,0.2)" strokeWidth="3" />
                   <path
                     d="M25 14C25 8.47715 20.5228 4 15 4"
                     stroke="var(--color-accent)"

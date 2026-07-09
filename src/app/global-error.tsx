@@ -28,7 +28,7 @@ export default function GlobalError({
         padding: "2rem",
       }}>
         <div>
-          <h1 style={{ fontSize: "1.5rem", color: "#C9A96E", marginBottom: "1rem" }}>
+          <h1 style={{ fontSize: "1.5rem", color: "#C8102E", marginBottom: "1rem" }}>
             Something went wrong
           </h1>
           <p style={{ color: "#8B95A8", marginBottom: "2rem" }}>
@@ -40,7 +40,7 @@ export default function GlobalError({
               padding: "0.75rem 2rem",
               borderRadius: "9999px",
               border: "none",
-              background: "linear-gradient(to right, #C9A96E, #D4B87A)",
+              background: "linear-gradient(to right, #C8102E, #D4B87A)",
               color: "#0A0F1E",
               fontWeight: 600,
               cursor: "pointer",

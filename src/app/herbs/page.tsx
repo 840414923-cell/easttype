@@ -53,13 +53,13 @@ export default function HerbsPage() {
             </p>
             <Link
               href="/quiz"
-              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)]"
+              className="inline-flex items-center justify-center px-8 py-3 rounded font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(200,16,46,0.2)]"
             >
               Take the Free Quiz {'>'}
             </Link>
           </div>
 
-          <div className="mt-8 px-4 py-3 rounded-xl bg-[rgba(201,169,110,0.03)] border border-[rgba(201,169,110,0.1)]">
+          <div className="mt-8 px-4 py-3 rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.1)]">
             <p className="text-[10px] text-text2 leading-relaxed text-center">
               This database is for informational and educational purposes only and is not medical advice. Always consult a qualified healthcare professional before using any herb.
             </p>

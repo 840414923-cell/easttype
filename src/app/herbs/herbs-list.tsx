@@ -56,8 +56,8 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
             onClick={() => setFilter(cat)}
             className={`px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide transition-all no-underline ${
               filter === cat
-                ? "bg-[rgba(168,135,64,0.15)] text-accent border border-[rgba(168,135,64,0.4)]"
-                : "bg-card-bg text-text2 border border-[rgba(168,135,64,0.1)] hover:border-[rgba(168,135,64,0.3)]"
+                ? "bg-[rgba(185,28,28,0.15)] text-accent border border-[rgba(185,28,28,0.4)]"
+                : "bg-card-bg text-text2 border border-[rgba(185,28,28,0.1)] hover:border-[rgba(185,28,28,0.3)]"
             }`}
           >
             {cat} <span className="opacity-50">({counts[cat] ?? 0})</span>
@@ -73,7 +73,7 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
             <Link
               key={herb.slug}
               href={`/herbs/${herb.slug}`}
-              className="group block rounded-2xl overflow-hidden bg-card-bg border-2 border-[rgba(168,135,64,0.12)] hover:border-[rgba(168,135,64,0.4)] hover:shadow-[0_8px_30px_rgba(168,135,64,0.12)] transition-all duration-300 no-underline"
+              className="group block rounded-2xl overflow-hidden bg-card-bg border-2 border-[rgba(185,28,28,0.12)] hover:border-[rgba(185,28,28,0.4)] hover:shadow-[0_8px_30px_rgba(185,28,28,0.12)] transition-all duration-300 no-underline"
             >
               {herb.image ? (
                 <div className="relative w-full aspect-[3/2] overflow-hidden bg-[#1a1a1a]">
@@ -120,7 +120,7 @@ export function HerbsList({ herbs }: { herbs: HerbData[] }) {
                 </p>
                 <div className="flex flex-wrap items-center gap-2">
                   {herb.actions.slice(0, 3).map((action, i) => (
-                    <span key={i} className="text-[10px] text-text2/60 bg-[rgba(168,135,64,0.05)] border border-[rgba(168,135,64,0.08)] px-2.5 py-1 rounded-md">
+                    <span key={i} className="text-[10px] text-text2/60 bg-[rgba(185,28,28,0.05)] border border-[rgba(185,28,28,0.08)] px-2.5 py-1 rounded-md">
                       {action.length > 35 ? action.substring(0, 35) + "..." : action}
                     </span>
                   ))}

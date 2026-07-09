@@ -59,8 +59,8 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "pro" }}
     >
       <div
-        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(201,163,85,0.4)] shadow-[0_0_25px_rgba(201,163,85,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
-        style={{ background: "linear-gradient(135deg, #C9A355, #E0C878, #C9A355)", color: "#1A1410" }}
+        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(200,16,46,0.4)] shadow-[0_0_25px_rgba(200,16,46,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
+        style={{ background: "linear-gradient(135deg, #C8102E, #DC2626, #C8102E)", color: "#FFFFFF" }}
       >
         <span className="text-[10px] font-semibold uppercase tracking-wide opacity-70">Recommended</span>
         <span className="text-base font-bold mt-0.5">Full Kit — $12.99</span>
@@ -74,7 +74,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
       metadata={{ type: primaryId, sex: sex ?? "female", plan: "basic" }}
     >
       <div
-        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_40px_rgba(201,163,85,0.2)] border-2 border-[rgba(201,163,85,0.35)] bg-[rgba(201,163,85,0.06)] ${className}`}
+        className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_40px_rgba(200,16,46,0.2)] border-2 border-[rgba(200,16,46,0.35)] bg-[rgba(200,16,46,0.06)] ${className}`}
       >
         <span className="text-[10px] font-semibold uppercase tracking-wide text-text2/50">Starter</span>
         <span className="text-base font-bold mt-0.5 text-accent">Body Profile — $4.99</span>
@@ -111,7 +111,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
     <>
       <Nav
         right={
-          <Link href="/quiz" className="inline-flex items-center justify-center px-4 py-2 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)]">
+          <Link href="/quiz" className="inline-flex items-center justify-center px-4 py-2 rounded font-[family-name:var(--font-body)] text-xs font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(200,16,46,0.2)]">
             {"Retake Quiz"}
           </Link>
         }
@@ -121,7 +121,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
 
         {/* ━━ 1. Type Reveal — the "aha" moment ━━ */}
         <div className="text-center mb-3">
-          <div className="inline-flex items-center gap-1.5 bg-[rgba(201,163,85,0.06)] border border-[rgba(201,163,85,0.12)] rounded-full px-3.5 py-1 text-[10px] font-semibold text-accent uppercase tracking-[0.2em] mb-3">
+          <div className="inline-flex items-center gap-1.5 bg-[rgba(200,16,46,0.06)] border border-[rgba(200,16,46,0.12)] rounded-full px-3.5 py-1 text-[10px] font-semibold text-accent uppercase tracking-[0.2em] mb-3">
             {"YOUR BODY TYPE"}
           </div>
           <h1
@@ -166,7 +166,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
             <button
               key={p}
               onClick={() => handleShare(p)}
-              className="px-3 py-1.5 rounded border border-[rgba(201,163,85,0.1)] bg-card-bg text-[11px] font-medium cursor-pointer transition-all duration-200 hover:border-[rgba(201,163,85,0.25)] text-text2 hover:text-text"
+              className="px-3 py-1.5 rounded border border-[rgba(200,16,46,0.1)] bg-card-bg text-[11px] font-medium cursor-pointer transition-all duration-200 hover:border-[rgba(200,16,46,0.25)] text-text2 hover:text-text"
             >
               {p === "twitter" ? "Twitter / X"
                 : p === "facebook" ? "Facebook"
@@ -235,14 +235,14 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
 
         {/* ━━ Pricing comparison table ━━ */}
         <div className="mb-5">
-          <div className="rounded-xl border border-[rgba(201,163,85,0.15)] overflow-hidden">
+          <div className="rounded-xl border border-[rgba(200,16,46,0.15)] overflow-hidden">
             <div className="grid grid-cols-3 text-center bg-card-bg">
               <div className="py-2 px-2 text-[11px] font-semibold text-text2 border-b border-card-border" />
               <div className="py-2 px-2 text-[11px] font-semibold text-text border-b border-card-border">
                 <div>{"Basic"}</div>
                 <div className="text-accent font-bold">$4.99</div>
               </div>
-              <div className="py-2 px-2 text-[11px] font-semibold border-b border-card-border bg-[rgba(201,163,85,0.04)]">
+              <div className="py-2 px-2 text-[11px] font-semibold border-b border-card-border bg-[rgba(200,16,46,0.04)]">
                 <div className="text-accent">{"Pro"}</div>
                 <div className="gold-gradient-text font-bold">$12.99</div>
               </div>
@@ -263,7 +263,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
               <div key={i} className={`grid grid-cols-3 text-center ${i % 2 === 0 ? "bg-card-bg" : ""}`}>
                 <div className="py-1.5 px-2 text-[11px] text-text2 text-left border-b border-card-border/50">{feature as string}</div>
                 <div className="py-1.5 px-2 border-b border-card-border/50 text-accent">{basic ? "✓" : "—"}</div>
-                <div className="py-1.5 px-2 border-b border-card-border/50 bg-[rgba(201,163,85,0.02)] text-accent">{pro ? "✓" : "—"}</div>
+                <div className="py-1.5 px-2 border-b border-card-border/50 bg-[rgba(200,16,46,0.02)] text-accent">{pro ? "✓" : "—"}</div>
               </div>
             ))}
           </div>
@@ -293,12 +293,12 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
                   placeholder="ET-XXXXXXXX"
                   maxLength={11}
                   disabled={inviteStatus === "loading" || inviteStatus === "success"}
-                  className="flex-1 px-3 py-2 rounded bg-[rgba(201,163,85,0.05)] text-text2 border border-[rgba(201,163,85,0.15)] outline-none focus:border-accent/40 font-mono text-sm placeholder:text-text2/30"
+                  className="flex-1 px-3 py-2 rounded bg-[rgba(200,16,46,0.05)] text-text2 border border-[rgba(200,16,46,0.15)] outline-none focus:border-accent/40 font-mono text-sm placeholder:text-text2/30"
                 />
                 <button
                   onClick={handleInviteRedeem}
                   disabled={inviteStatus === "loading" || inviteStatus === "success" || !inviteCode.trim()}
-                  className="px-4 py-2 rounded bg-[rgba(201,163,85,0.1)] text-accent text-sm font-semibold cursor-pointer hover:bg-[rgba(201,163,85,0.2)] transition-colors disabled:opacity-40"
+                  className="px-4 py-2 rounded bg-[rgba(200,16,46,0.1)] text-accent text-sm font-semibold cursor-pointer hover:bg-[rgba(200,16,46,0.2)] transition-colors disabled:opacity-40"
                 >
                   {inviteStatus === "loading" ? "..." : inviteStatus === "success" ? "✓" : "Unlock"}
                 </button>
@@ -322,7 +322,7 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
         </div>
 
         {/* ━━ Disclaimer ━━ */}
-        <div className="mb-5 px-4 py-3 rounded-xl bg-[rgba(201,169,110,0.03)] border border-[rgba(201,169,110,0.1)]">
+        <div className="mb-5 px-4 py-3 rounded-xl bg-[rgba(200,16,46,0.03)] border border-[rgba(200,16,46,0.1)]">
           <p className="text-[10px] text-text2 leading-relaxed text-center">
             {"This assessment is for wellness and self-awareness purposes only. It does not constitute medical diagnosis or treatment. Always consult a qualified healthcare professional for medical concerns."}
           </p>

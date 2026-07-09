@@ -18,7 +18,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 bg-nav-bg backdrop-blur-xl border-b border-[rgba(168,135,64,0.12)] px-6 py-3 flex justify-between items-center shadow-[0_1px_20px_rgba(168,135,64,0.05)]"
+      className="fixed top-0 left-0 right-0 z-50 bg-nav-bg backdrop-blur-xl border-b border-[rgba(185,28,28,0.12)] px-6 py-3 flex justify-between items-center shadow-[0_1px_20px_rgba(185,28,28,0.05)]"
       style={{ paddingTop: "max(0.875rem, env(safe-area-inset-top))" }}
     >
       <div className="flex items-center gap-8">
@@ -47,12 +47,12 @@ export function Nav({ right }: { right?: React.ReactNode }) {
             </button>
             {guidesOpen && (
               <div className="absolute top-full left-0 pt-2 w-64">
-                <div className="bg-[var(--color-card-bg)] border border-[rgba(168,135,64,0.15)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden">
+                <div className="bg-[var(--color-card-bg)] border border-[rgba(185,28,28,0.15)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] overflow-hidden">
                   {GUIDE_LINKS.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="flex items-center justify-between px-4 py-3 no-underline hover:bg-[rgba(168,135,64,0.06)] transition-colors"
+                      className="flex items-center justify-between px-4 py-3 no-underline hover:bg-[rgba(185,28,28,0.06)] transition-colors"
                     >
                       <span className="text-sm text-text font-medium">{link.label}</span>
                       <span className="text-[10px] text-text2/50">{link.count}</span>
@@ -65,7 +65,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
 
           <Link
             href="/quiz"
-            className="inline-flex items-center justify-center px-4 py-2 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-bg hover:shadow-[0_0_20px_rgba(201,163,85,0.2)] whitespace-nowrap"
+            className="inline-flex items-center justify-center px-4 py-2 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(200,16,46,0.2)] whitespace-nowrap"
           >
             Start Quiz
           </Link>
@@ -101,7 +101,7 @@ export function Nav({ right }: { right?: React.ReactNode }) {
       </div>
 
       {mobileOpen && (
-        <div className="absolute top-full left-0 right-0 bg-nav-bg border-b border-[rgba(168,135,64,0.15)] px-6 py-4 flex flex-col gap-3 sm:hidden">
+        <div className="absolute top-full left-0 right-0 bg-nav-bg border-b border-[rgba(185,28,28,0.15)] px-6 py-4 flex flex-col gap-3 sm:hidden">
           <div className="flex flex-col gap-2">
             <span className="text-[10px] text-text2/50 uppercase tracking-wider font-semibold">Guides</span>
             {GUIDE_LINKS.map((link) => (

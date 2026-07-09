@@ -100,12 +100,12 @@ export default function SymptomsHubPage() {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative overflow-hidden rounded-3xl mb-16 bg-gradient-to-br from-[rgba(201,163,85,0.08)] via-[rgba(201,163,85,0.04)] to-transparent border border-[rgba(201,163,85,0.2)]">
-          <div className="absolute top-0 right-0 w-72 h-72 bg-[rgba(201,163,85,0.06)] rounded-full blur-3xl -translate-y-1/3 translate-x-1/3 pointer-events-none" />
+        <section className="relative overflow-hidden rounded-3xl mb-16 bg-gradient-to-br from-[rgba(200,16,46,0.08)] via-[rgba(200,16,46,0.04)] to-transparent border border-[rgba(200,16,46,0.2)]">
+          <div className="absolute top-0 right-0 w-72 h-72 bg-[rgba(200,16,46,0.06)] rounded-full blur-3xl -translate-y-1/3 translate-x-1/3 pointer-events-none" />
           <div className="relative px-8 py-14 sm:px-14 sm:py-16">
             <div className="grid lg:grid-cols-[1fr_320px] gap-10 items-center">
               <div>
-                <div className="inline-block px-3 py-1 rounded-full bg-[rgba(201,163,85,0.12)] text-accent text-xs font-medium uppercase tracking-wider mb-5">
+                <div className="inline-block px-3 py-1 rounded-full bg-[rgba(200,16,46,0.12)] text-accent text-xs font-medium uppercase tracking-wider mb-5">
                   Symptom Library
                 </div>
                 <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-5xl text-text mb-5 leading-tight">
@@ -119,12 +119,12 @@ export default function SymptomsHubPage() {
                     <div className="font-[family-name:var(--font-display)] text-3xl text-accent font-semibold">{SYMPTOM_SLUGS.length}</div>
                     <div className="text-xs text-text2/60 uppercase tracking-wider mt-1">Symptom Guides</div>
                   </div>
-                  <div className="w-px bg-[rgba(201,163,85,0.15)]" />
+                  <div className="w-px bg-[rgba(200,16,46,0.15)]" />
                   <div>
                     <div className="font-[family-name:var(--font-display)] text-3xl text-accent font-semibold">{CATEGORY_GROUPS.length}</div>
                     <div className="text-xs text-text2/60 uppercase tracking-wider mt-1">Categories</div>
                   </div>
-                  <div className="w-px bg-[rgba(201,163,85,0.15)]" />
+                  <div className="w-px bg-[rgba(200,16,46,0.15)]" />
                   <div>
                     <div className="font-[family-name:var(--font-display)] text-3xl text-accent font-semibold">9</div>
                     <div className="text-xs text-text2/60 uppercase tracking-wider mt-1">Body Types</div>
@@ -160,7 +160,7 @@ export default function SymptomsHubPage() {
               <Link
                 key={s.slug}
                 href={`/symptoms/${s.slug}`}
-                className="group block no-underline rounded-2xl overflow-hidden border border-[rgba(201,163,85,0.2)] bg-card-bg hover:border-[rgba(201,163,85,0.4)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,163,85,0.08)]"
+                className="group block no-underline rounded-2xl overflow-hidden border border-[rgba(200,16,46,0.2)] bg-card-bg hover:border-[rgba(200,16,46,0.4)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(200,16,46,0.08)]"
               >
                 <div className="relative aspect-video overflow-hidden">
                   <Image
@@ -173,7 +173,7 @@ export default function SymptomsHubPage() {
                 </div>
                 <div className="p-5">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-[10px] text-accent/80 uppercase tracking-wider font-medium px-2 py-0.5 rounded-full bg-[rgba(201,163,85,0.08)]">{s.tag}</span>
+                    <span className="text-[10px] text-accent/80 uppercase tracking-wider font-medium px-2 py-0.5 rounded-full bg-[rgba(200,16,46,0.08)]">{s.tag}</span>
                     <span className="text-[10px] text-text2/40">{s.readTime}</span>
                   </div>
                   <h3 className="font-[family-name:var(--font-display)] text-base text-text group-hover:text-accent transition-colors leading-snug">
@@ -196,9 +196,9 @@ export default function SymptomsHubPage() {
               <a
                 key={c.anchor}
                 href="#all-symptoms"
-                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-[rgba(201,163,85,0.2)] bg-card-bg hover:border-[rgba(201,163,85,0.4)] hover:bg-[rgba(201,163,85,0.03)] transition-all duration-300 no-underline"
+                className="group flex flex-col items-center text-center p-5 rounded-2xl border border-[rgba(200,16,46,0.2)] bg-card-bg hover:border-[rgba(200,16,46,0.4)] hover:bg-[rgba(200,16,46,0.03)] transition-all duration-300 no-underline"
               >
-                <div className="w-12 h-12 rounded-full bg-[rgba(201,163,85,0.08)] flex items-center justify-center mb-3 group-hover:bg-[rgba(201,163,85,0.15)] transition-colors">
+                <div className="w-12 h-12 rounded-full bg-[rgba(200,16,46,0.08)] flex items-center justify-center mb-3 group-hover:bg-[rgba(200,16,46,0.15)] transition-colors">
                   <CategoryIcon name={c.icon} className="w-6 h-6 text-accent" />
                 </div>
                 <span className="font-[family-name:var(--font-display)] text-sm text-text group-hover:text-accent transition-colors">

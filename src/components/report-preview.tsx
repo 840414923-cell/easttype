@@ -19,18 +19,18 @@ function PageContent({ index }: { index: number }) {
     case 0:
       return (
         <div className="h-full flex flex-col items-center justify-center text-center px-2">
-          <div className="text-[10px] uppercase tracking-[0.3em] text-[#C9A96E] mb-4">Personalized Report</div>
-          <div className="w-12 h-px bg-[#C9A96E] mb-4" />
+          <div className="text-[10px] uppercase tracking-[0.3em] text-[#C8102E] mb-4">Personalized Report</div>
+          <div className="w-12 h-px bg-[#C8102E] mb-4" />
           <div className="text-xl font-bold text-[#1a1a1a] mb-1 leading-tight">The Gentle Breeze</div>
           <div className="text-xs text-[#7a6535] mb-5">Qi Deficient</div>
-          <div className="w-12 h-px bg-[#C9A96E] mb-4" />
+          <div className="w-12 h-px bg-[#C8102E] mb-4" />
           <p className="text-[11px] text-[#666] leading-relaxed max-w-[240px] mb-5">
             Your personalized guide to food therapy, daily rhythm, recipes, acupressure, and seasonal wellness based on your unique constitution.
           </p>
           <div className="grid grid-cols-2 gap-2 w-full max-w-[260px] text-left">
             {["Constitution Identity", "Food Therapy Guide", "Daily Meridian Schedule", "Recommended Recipes", "Seasonal Protocol", "Acupoint Massage Guide", "30-Day Lifestyle Plan", "Printable PDF"].map((x) => (
               <div key={x} className="flex items-center gap-1.5 text-[9px] text-[#444]">
-                <span className="text-[#C9A96E]">&#10003;</span>
+                <span className="text-[#C8102E]">&#10003;</span>
                 <span>{x}</span>
               </div>
             ))}
@@ -52,7 +52,7 @@ function PageContent({ index }: { index: number }) {
             &quot;Deficiency&quot; doesn&apos;t mean broken. It means you notice things others miss. You can&apos;t afford to waste energy, so you&apos;ve become a master of efficiency and observation. You likely prefer smaller gatherings, thoughtful conversation, and a good book over a night out.
           </p>
           <div>
-            <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">Your Natural Strengths</div>
+            <div className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider mb-1.5">Your Natural Strengths</div>
             <ul className="space-y-1">
               {[
                 "Deep perception: you see layers others miss",
@@ -62,7 +62,7 @@ function PageContent({ index }: { index: number }) {
                 "Creative depth: rich inner world",
               ].map((x) => (
                 <li key={x} className="text-[10px] text-[#444] leading-[1.5] flex gap-1.5">
-                  <span className="text-[#C9A96E] shrink-0">&#9670;</span>
+                  <span className="text-[#C8102E] shrink-0">&#9670;</span>
                   <span>{x}</span>
                 </li>
               ))}
@@ -103,7 +103,7 @@ function PageContent({ index }: { index: number }) {
               <div key={row.f} className="border border-[#e0d8cc] rounded p-2 bg-[#fcfaf7]">
                 <div className="flex items-center justify-between mb-0.5">
                   <span className="text-[10px] font-bold text-[#1a1a1a]">{row.f}</span>
-                  <span className="text-[9px] text-[#C9A96E] font-medium">{row.a}</span>
+                  <span className="text-[9px] text-[#C8102E] font-medium">{row.a}</span>
                 </div>
                 <div className="text-[9px] text-[#666] leading-[1.5]">{row.d}</div>
               </div>
@@ -142,8 +142,8 @@ function PageContent({ index }: { index: number }) {
               { t: "10 PM", m: "Triple Heater", d: "Asleep. You need 8-9 hours. Body does deepest repair 10 PM-2 AM. Missing this costs you days." },
             ].map((row) => (
               <div key={row.t} className="flex items-start gap-2.5 pb-2 border-b border-[#f0ebe3]">
-                <div className="shrink-0 w-[60px] bg-[rgba(201,169,110,0.08)] rounded px-1.5 py-0.5 text-center">
-                  <div className="text-[9px] font-bold text-[#C9A96E]">{row.t}</div>
+                <div className="shrink-0 w-[60px] bg-[rgba(200,16,46,0.08)] rounded px-1.5 py-0.5 text-center">
+                  <div className="text-[9px] font-bold text-[#C8102E]">{row.t}</div>
                 </div>
                 <div className="flex-1">
                   <div className="text-[10px] font-bold text-[#1a1a1a]">{row.m}</div>
@@ -152,7 +152,7 @@ function PageContent({ index }: { index: number }) {
               </div>
             ))}
           </div>
-          <div className="p-2.5 rounded bg-[rgba(201,169,110,0.06)] border border-[rgba(201,169,110,0.12)]">
+          <div className="p-2.5 rounded bg-[rgba(200,16,46,0.06)] border border-[rgba(200,16,46,0.12)]">
             <div className="text-[9px] text-[#7a6535] leading-[1.6] font-medium">
               Your peak performance window is 9-11 AM. Schedule demanding tasks here. After this, energy starts its slow decline.
             </div>
@@ -187,16 +187,16 @@ function PageContent({ index }: { index: number }) {
           <div>
             <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider mb-1.5">Method</div>
             <ol className="space-y-1.5 text-[10px] text-[#444] leading-[1.6]">
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">1.</span><span>Rinse rice under cold water 2-3 times until water runs clear. Drain.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">2.</span><span>Peel Chinese yam, cut into 2cm cubes. Wear gloves: the sap can irritate skin.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">3.</span><span>Place rice in pot with 1200ml water and ginger. Bring to rolling boil.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">4.</span><span>Reduce heat to low. Simmer 30 minutes, stirring every 5 minutes.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">5.</span><span>Add yam cubes and red dates. Simmer 20 more minutes until creamy.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">6.</span><span>Add goji berries, stir gently. Cook 2 more minutes. Do not overcook.</span></li>
-              <li className="flex gap-2"><span className="text-[#C9A96E] font-bold shrink-0">7.</span><span>Remove ginger. Serve warm. Reheats beautifully with a splash of water.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">1.</span><span>Rinse rice under cold water 2-3 times until water runs clear. Drain.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">2.</span><span>Peel Chinese yam, cut into 2cm cubes. Wear gloves: the sap can irritate skin.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">3.</span><span>Place rice in pot with 1200ml water and ginger. Bring to rolling boil.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">4.</span><span>Reduce heat to low. Simmer 30 minutes, stirring every 5 minutes.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">5.</span><span>Add yam cubes and red dates. Simmer 20 more minutes until creamy.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">6.</span><span>Add goji berries, stir gently. Cook 2 more minutes. Do not overcook.</span></li>
+              <li className="flex gap-2"><span className="text-[#C8102E] font-bold shrink-0">7.</span><span>Remove ginger. Serve warm. Reheats beautifully with a splash of water.</span></li>
             </ol>
           </div>
-          <div className="p-2 rounded bg-[rgba(201,169,110,0.06)] border border-[rgba(201,169,110,0.12)]">
+          <div className="p-2 rounded bg-[rgba(200,16,46,0.06)] border border-[rgba(200,16,46,0.12)]">
             <div className="text-[9px] text-[#7a6535] leading-[1.5]">
               <span className="font-bold">TCM Principle:</span> Combines four Qi-building ingredients: rice strengthens Spleen, yam tonifies Spleen and Lung Qi, red dates nourish Blood, ginger warms the middle.
             </div>
@@ -228,7 +228,7 @@ function PageContent({ index }: { index: number }) {
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider">Acupressure Points</div>
-            <span className="px-2 py-0.5 rounded bg-[rgba(201,169,110,0.1)] text-[8px] font-bold text-[#C9A96E] uppercase tracking-wider">Full Report</span>
+            <span className="px-2 py-0.5 rounded bg-[rgba(200,16,46,0.1)] text-[8px] font-bold text-[#C8102E] uppercase tracking-wider">Full Report</span>
           </div>
           <div className="space-y-2">
             {[
@@ -240,7 +240,7 @@ function PageContent({ index }: { index: number }) {
             ].map((x) => (
               <div key={x.n} className="border border-[#e0d8cc] rounded p-2 bg-[#fcfaf7]">
                 <div className="text-[10px] font-bold text-[#1a1a1a]">{x.n}</div>
-                <div className="text-[9px] text-[#C9A96E] mt-0.5"><span className="font-medium">Location: </span><span dangerouslySetInnerHTML={{ __html: x.loc }} /></div>
+                <div className="text-[9px] text-[#C8102E] mt-0.5"><span className="font-medium">Location: </span><span dangerouslySetInnerHTML={{ __html: x.loc }} /></div>
                 <div className="text-[9px] text-[#7a6535] mt-0.5"><span className="font-medium">Method: </span><span dangerouslySetInnerHTML={{ __html: x.m }} /></div>
                 <div className="text-[9px] text-[#666] mt-0.5 leading-[1.5]"><span dangerouslySetInnerHTML={{ __html: x.e }} /></div>
               </div>
@@ -253,7 +253,7 @@ function PageContent({ index }: { index: number }) {
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <div className="text-[10px] font-bold text-[#7a6535] uppercase tracking-wider">30-Day Lifestyle Plan</div>
-            <span className="px-2 py-0.5 rounded bg-[rgba(201,169,110,0.1)] text-[8px] font-bold text-[#C9A96E] uppercase tracking-wider">Full Report</span>
+            <span className="px-2 py-0.5 rounded bg-[rgba(200,16,46,0.1)] text-[8px] font-bold text-[#C8102E] uppercase tracking-wider">Full Report</span>
           </div>
           <div className="overflow-hidden rounded">
             <table className="w-full text-[9px] border-collapse">
@@ -291,7 +291,7 @@ function PageContent({ index }: { index: number }) {
             Your plan gradually shifts wake time from 7:00 to 6:30 AM, builds gentle exercise habits (walking, Tai Chi, yoga), and establishes a consistent early bedtime. Never HIIT. Never cold drinks.
           </p>
           <div>
-            <div className="text-[10px] font-bold text-[#C9A96E] uppercase tracking-wider mb-1.5">Daily Non-Negotiables</div>
+            <div className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider mb-1.5">Daily Non-Negotiables</div>
             <div className="grid grid-cols-1 gap-0.5">
               {[
                 "Warm water or red date tea within 10 min of waking",
@@ -304,7 +304,7 @@ function PageContent({ index }: { index: number }) {
                 "In bed by 10 PM. Non-negotiable for your type",
               ].map((x) => (
                 <div key={x} className="text-[9px] text-[#444] flex gap-1.5 leading-[1.4]">
-                  <span className="text-[#C9A96E] shrink-0">&#10003;</span>
+                  <span className="text-[#C8102E] shrink-0">&#10003;</span>
                   <span>{x}</span>
                 </div>
               ))}
@@ -333,11 +333,11 @@ function A4Page({
         style={{ aspectRatio: "210 / 297" }}
       >
         <div className="bg-[#f8f6f2] px-3 py-1.5 border-b border-[#e0d8cc] flex items-center justify-between shrink-0">
-          <span className="text-[8px] font-bold text-[#C9A96E] uppercase tracking-wider">EastType</span>
+          <span className="text-[8px] font-bold text-[#C8102E] uppercase tracking-wider">EastType</span>
           <span className="text-[7px] text-[#bbb]">{section}</span>
         </div>
         <div className="flex-1 px-3 py-2 overflow-hidden">{children}</div>
-        <div className="bg-[#f8f6f2] px-3 py-0.5 text-center text-[6px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc] shrink-0">
+        <div className="bg-[#f8f6f2] px-3 py-0.5 text-center text-[6px] text-[#C8102E] font-semibold tracking-wider border-t border-[#e0d8cc] shrink-0">
           www.myeasterntype.com
         </div>
       </div>
@@ -349,13 +349,13 @@ function A4Page({
       style={{ height: "82vh", maxHeight: "760px" }}
     >
       <div className="bg-[#f8f6f2] px-5 py-3 border-b border-[#e0d8cc] flex items-center justify-between shrink-0">
-        <span className="text-xs font-bold text-[#C9A96E] uppercase tracking-wider">EastType</span>
+        <span className="text-xs font-bold text-[#C8102E] uppercase tracking-wider">EastType</span>
         <span className="text-[10px] text-[#bbb]">{section}</span>
       </div>
       <div className="flex-1 px-5 py-4 overflow-y-auto overscroll-contain">
         {children}
       </div>
-      <div className="bg-[#f8f6f2] px-5 py-2 text-center text-[9px] text-[#C9A96E] font-semibold tracking-wider border-t border-[#e0d8cc] shrink-0">
+      <div className="bg-[#f8f6f2] px-5 py-2 text-center text-[9px] text-[#C8102E] font-semibold tracking-wider border-t border-[#e0d8cc] shrink-0">
         www.myeasterntype.com
       </div>
     </div>

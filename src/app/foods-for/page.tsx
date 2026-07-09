@@ -77,7 +77,7 @@ export default function FoodsForHub() {
           })}
         </div>
 
-        <section className="mt-16 mb-4 border border-[rgba(201,163,85,0.2)] rounded-2xl p-8 text-center bg-[rgba(201,163,85,0.04)]">
+        <section className="mt-16 mb-4 border border-[rgba(200,16,46,0.2)] rounded-2xl p-8 text-center bg-[rgba(200,16,46,0.04)]">
           <h2 className="font-[family-name:var(--font-display)] text-xl sm:text-2xl text-text mb-3 tracking-wide">
             Not Sure Which Foods Are Right for You?
           </h2>

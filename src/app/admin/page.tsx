@@ -310,12 +310,12 @@ export default function AdminPage() {
             onChange={(e) => setPassword(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleLogin()}
             placeholder="输入密码"
-            className="w-full px-4 py-2.5 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C9A355]"
+            className="w-full px-4 py-2.5 rounded bg-[#2a2418] text-[#e8dcc8] border border-[#3a3428] outline-none focus:border-[#C8102E]"
           />
           {loginError && <p className="text-red-400 text-sm text-center">{loginError}</p>}
           <button
             onClick={handleLogin}
-            className="w-full py-2.5 rounded bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853]"
+            className="w-full py-2.5 rounded bg-[#C8102E] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853]"
           >
             登录
           </button>
@@ -329,7 +329,7 @@ export default function AdminPage() {
       <div className="max-w-5xl mx-auto space-y-8">
 
         <div className="flex items-center justify-between flex-wrap gap-3">
-          <h1 className="text-2xl font-bold text-[#C9A355]">EastType 后台管理</h1>
+          <h1 className="text-2xl font-bold text-[#C8102E]">EastType 后台管理</h1>
           <div className="flex items-center gap-3">
             <div className="flex bg-[#1e1a14] rounded-lg border border-[#2a2418] overflow-hidden">
               {([
@@ -342,7 +342,7 @@ export default function AdminPage() {
                 <button
                   key={id}
                   onClick={() => switchTab(id)}
-                  className={`px-5 py-2.5 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C9A355] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
+                  className={`px-5 py-2.5 text-sm cursor-pointer transition-colors ${tab === id ? "bg-[#C8102E] text-[#0f0d0a] font-bold" : "text-[#7a6e5e] hover:text-[#e8dcc8]"}`}
                 >
                   {label}
                 </button>
@@ -366,7 +366,7 @@ export default function AdminPage() {
               {Object.entries(stats).map(([ch, s]) => (
                 <div key={ch} className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
                   <div className="text-sm text-[#7a6e5e]">{ch} ({CHANNELS[ch] || "未知"})</div>
-                  <div className="text-2xl font-bold text-[#C9A355] mt-1">已用 {s.used} / 总计 {s.total}</div>
+                  <div className="text-2xl font-bold text-[#C8102E] mt-1">已用 {s.used} / 总计 {s.total}</div>
                   <div className="text-xs text-[#7a6e5e] mt-1">剩余 {s.unused} 个</div>
                 </div>
               ))}
@@ -406,7 +406,7 @@ export default function AdminPage() {
             <button
               onClick={handleGenerate}
               disabled={generating}
-              className="px-6 py-2 rounded bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] disabled:opacity-50"
+              className="px-6 py-2 rounded bg-[#C8102E] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] disabled:opacity-50"
             >
               {generating ? "生成中..." : "生成"}
             </button>
@@ -416,7 +416,7 @@ export default function AdminPage() {
             <div className="mt-4 bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-sm font-semibold">已生成 ({genChannel})：</span>
-                <button onClick={copyCodes} className="text-xs text-[#C9A355] cursor-pointer hover:underline">复制全部</button>
+                <button onClick={copyCodes} className="text-xs text-[#C8102E] cursor-pointer hover:underline">复制全部</button>
               </div>
               <div className="space-y-1">
                 {generatedCodes.map((c) => (
@@ -441,7 +441,7 @@ export default function AdminPage() {
               return Object.entries(groups).map(([date, group]) => (
                 <div key={date} className="mb-4">
                   <div className="flex items-center justify-between mb-2 px-3">
-                    <span className="text-sm font-bold text-[#C9A355]">{date}</span>
+                    <span className="text-sm font-bold text-[#C8102E]">{date}</span>
                     <span className="text-xs text-[#7a6e5e]">
                       {group.filter((c) => c.status === "unused").length} 未使用 / {group.length} 总计
                     </span>
@@ -498,7 +498,7 @@ export default function AdminPage() {
                 {leads && leads.length > 0 && (
                   <button
                     onClick={exportLeadsCsv}
-                    className="px-4 py-2 rounded bg-[#C9A355] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
+                    className="px-4 py-2 rounded bg-[#C8102E] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
                   >
                     导出 CSV
                   </button>
@@ -555,7 +555,7 @@ export default function AdminPage() {
                 {orders && orders.length > 0 && (
                   <button
                     onClick={exportOrdersCsv}
-                    className="px-4 py-2 rounded bg-[#C9A355] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
+                    className="px-4 py-2 rounded bg-[#C8102E] text-[#0f0d0a] text-sm font-bold cursor-pointer hover:bg-[#d4a853]"
                   >
                     导出 CSV
                   </button>
@@ -580,7 +580,7 @@ export default function AdminPage() {
                 <div className="grid grid-cols-3 gap-3 mb-4">
                   <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
                     <div className="text-xs text-[#7a6e5e]">总收入</div>
-                    <div className="text-2xl font-bold text-[#C9A355] mt-1">
+                    <div className="text-2xl font-bold text-[#C8102E] mt-1">
                       ${orders.filter((o) => o.status === "active").reduce((sum, o) => sum + (o.plan === "pro" ? 12.99 : 4.99), 0).toFixed(2)}
                     </div>
                   </div>
@@ -615,7 +615,7 @@ export default function AdminPage() {
                         <tr key={i} className="border-b border-[#1e1a14]">
                           <td className="py-2 px-3 text-[#e8dcc8]">{o.email}</td>
                           <td className="py-2 px-3">
-                            <span className={o.plan === "pro" ? "text-[#C9A355] font-bold" : "text-[#7a6e5e]"}>
+                            <span className={o.plan === "pro" ? "text-[#C8102E] font-bold" : "text-[#7a6e5e]"}>
                               {o.plan === "pro" ? "Pro $12.99" : "Basic $4.99"}
                             </span>
                           </td>
@@ -662,7 +662,7 @@ export default function AdminPage() {
                         localStorage.removeItem("et_cardgen_foods")
                       } catch { /* noop */ }
                     }}
-                    className="text-xs text-[#7a6e5e] cursor-pointer hover:text-[#C9A355]"
+                    className="text-xs text-[#7a6e5e] cursor-pointer hover:text-[#C8102E]"
                   >
                     重置进度
                   </button>
@@ -683,7 +683,7 @@ export default function AdminPage() {
                         onClick={() => setGenCta(val)}
                         className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
                           genCta === val
-                            ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                            ? "bg-[#C8102E] text-[#0f0d0a] font-bold"
                             : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
                         }`}
                       >
@@ -707,7 +707,7 @@ export default function AdminPage() {
                         onClick={() => setGenRatio(val)}
                         className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
                           genRatio === val
-                            ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                            ? "bg-[#C8102E] text-[#0f0d0a] font-bold"
                             : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
                         }`}
                       >
@@ -745,7 +745,7 @@ export default function AdminPage() {
                       onClick={() => setGenScriptType(val)}
                       className={`flex-1 py-2 rounded-lg text-xs cursor-pointer transition-all ${
                         genScriptType === val
-                          ? "bg-[#C9A355] text-[#0f0d0a] font-bold"
+                          ? "bg-[#C8102E] text-[#0f0d0a] font-bold"
                           : "bg-[#1e1a14] text-[#7a6e5e] border border-[#2a2418] hover:text-[#e8dcc8]"
                       }`}
                     >
@@ -759,7 +759,7 @@ export default function AdminPage() {
               <div className="flex gap-3">
                 <button
                   onClick={handleGenerateCard}
-                  className="flex-1 py-3 rounded-lg bg-[#C9A355] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] text-sm"
+                  className="flex-1 py-3 rounded-lg bg-[#C8102E] text-[#0f0d0a] font-bold cursor-pointer hover:bg-[#d4a853] text-sm"
                 >
                   {remaining === 0 ? "全部已完成！" : "换一条"}
                 </button>
@@ -774,22 +774,22 @@ export default function AdminPage() {
               {genResult && (
                 <div className="space-y-4 bg-[#1e1a14] border border-[#2a2418] rounded-lg p-5">
                   <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-bold text-[#C9A355]">{genResult.title}</h3>
+                    <h3 className="text-sm font-bold text-[#C8102E]">{genResult.title}</h3>
                     <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#2a2418] text-[#7a6e5e]">{genResult.slug}</span>
                   </div>
 
                   <div className="text-xs text-[#7a6e5e] space-y-1">
-                    <p><span className="text-[#C9A355] font-bold">Cause:</span> {genResult.cause}</p>
-                    <p><span className="text-[#C9A355] font-bold">Symptoms:</span> {genResult.symptoms.join(" · ")}</p>
-                    <p><span className="text-[#C9A355] font-bold">Foods:</span> {genResult.foods.map((f) => `${f.en} (${f.zh})`).join(", ")}</p>
+                    <p><span className="text-[#C8102E] font-bold">Cause:</span> {genResult.cause}</p>
+                    <p><span className="text-[#C8102E] font-bold">Symptoms:</span> {genResult.symptoms.join(" · ")}</p>
+                    <p><span className="text-[#C8102E] font-bold">Foods:</span> {genResult.foods.map((f) => `${f.en} (${f.zh})`).join(", ")}</p>
                   </div>
 
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Image2 画图提示词</span>
+                      <span className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider">Image2 画图提示词</span>
                       <button
                         onClick={() => handleCopyGen("prompt", genResult.imagePrompt)}
-                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                        className="text-[10px] text-[#C8102E] cursor-pointer hover:underline"
                       >
                         {copiedGen === "prompt" ? "已复制 ✓" : "复制"}
                       </button>
@@ -801,10 +801,10 @@ export default function AdminPage() {
 
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Pinterest 文案</span>
+                      <span className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider">Pinterest 文案</span>
                       <button
                         onClick={() => handleCopyGen("pin", `${genResult.caption}\n\n${genResult.hashtags}`)}
-                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                        className="text-[10px] text-[#C8102E] cursor-pointer hover:underline"
                       >
                         {copiedGen === "pin" ? "已复制 ✓" : "复制"}
                       </button>
@@ -817,10 +817,10 @@ export default function AdminPage() {
 
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">Instagram 文案</span>
+                      <span className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider">Instagram 文案</span>
                       <button
                         onClick={() => handleCopyGen("ig", `${genResult.igCaption}\n\n${genResult.igHashtags}`)}
-                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                        className="text-[10px] text-[#C8102E] cursor-pointer hover:underline"
                       >
                         {copiedGen === "ig" ? "已复制 ✓" : "复制"}
                       </button>
@@ -833,10 +833,10 @@ export default function AdminPage() {
 
                   <div>
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">X (Twitter) 文案</span>
+                      <span className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider">X (Twitter) 文案</span>
                       <button
                         onClick={() => handleCopyGen("x", `${genResult.xCaption}\n\n${genResult.xHashtags}`)}
-                        className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                        className="text-[10px] text-[#C8102E] cursor-pointer hover:underline"
                       >
                         {copiedGen === "x" ? "已复制 ✓" : "复制"}
                       </button>
@@ -850,12 +850,12 @@ export default function AdminPage() {
                   {genScript && (
                     <div>
                       <div className="flex items-center justify-between mb-1">
-                        <span className="text-[10px] font-bold text-[#C9A355] uppercase tracking-wider">
+                        <span className="text-[10px] font-bold text-[#C8102E] uppercase tracking-wider">
                           口播稿 {genScript.type === "daily" ? "（日常解读型）" : "（认知颠覆型）"}
                         </span>
                         <button
                           onClick={() => handleCopyGen("script", `${genScript.en}\n\n---\n\n${genScript.zh}`)}
-                          className="text-[10px] text-[#C9A355] cursor-pointer hover:underline"
+                          className="text-[10px] text-[#C8102E] cursor-pointer hover:underline"
                         >
                           {copiedGen === "script" ? "已复制 ✓" : "复制全文"}
                         </button>
