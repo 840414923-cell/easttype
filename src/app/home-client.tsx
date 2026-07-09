@@ -74,10 +74,10 @@ export default function HomeClient() {
                   <p className="text-xs text-text2/60">5 min &middot; No sign-up</p>
                 </div>
               </div>
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
+              <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src="/images/home/body-types.png"
-                  alt="Chinese medicine body types"
+                  src="/images/home/hero-wellness.png"
+                  alt="Woman meditating on a mountain at sunrise, embodying TCM wellness"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -86,7 +86,7 @@ export default function HomeClient() {
                 <div
                   className="absolute inset-0 pointer-events-none"
                   style={{
-                    background: "radial-gradient(ellipse 95% 95% at center, transparent 55%, var(--color-bg) 100%)",
+                    background: "linear-gradient(to right, var(--color-bg) 0%, rgba(250,246,238,0.6) 8%, transparent 25%, transparent 100%)",
                   }}
                 />
               </div>
