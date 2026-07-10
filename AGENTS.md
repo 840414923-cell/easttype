@@ -183,6 +183,52 @@ pnpm build                        # 编译成功，新页面 HTML 已生成
 
 ---
 
+## 10. 批量改动安全规则（防止 canonical 事故重演）
+
+**背景：2026-07-02，70 个症状页转为共享组件时，canonical URL 被弄坏 2 天，导致 Google 大规模去索引。此规则防止同类事故。**
+
+### 核心禁令
+
+- **禁止一次性修改超过 5 个已上线页面的 canonical URL / title / description / JSON-LD**
+- 如果必须批量修改（如组件迁移、数据结构变更），必须分批：
+  1. 先改 1 个页面 -> `verify-pages` + `pnpm build` 通过
+  2. 再改 5 个页面 -> `verify-pages` + `pnpm build` 通过
+  3. 最后改剩余页面 -> `verify-pages` + `pnpm build` 通过
+- **push 前必须抽查 5+ 个页面的线上 canonical 是否正确**（用 curl 或浏览器检查）
+
+### 组件迁移专项规则
+
+- 将页面迁移到共享组件时，必须逐页验证 metadata（title / description / canonical / openGraph）正确渲染
+- 迁移后必须对比迁移前后的 HTML 输出，确认 `<link rel="canonical">` 和 `<title>` 没有变化
+- **禁止在迁移同一次提交中修改 canonical URL**（迁移是迁移，改 URL 是改 URL，分开做）
+
+---
+
+## 11. 内容反模板化规则（防止程序化内容判定）
+
+**背景：119 个药材页的 actionDetails / dietaryAdvice / commonlyUsedFor 使用了固定句式模板，只替换药材名。Google 可能判定为程序化低质量内容，导致去索引。此规则防止同类问题。**
+
+### 核心禁令
+
+- **禁止跨页面复用相同句式结构**，即使只换了名字/关键词
+- 以下内容必须每页完全独特：
+  - `actionDetails` 的 `explanation`（禁止 "In Chinese medicine, this action relates to the herb X..." 这种模板开头）
+  - `dietaryAdvice`（禁止 "X is neutral in temperature and can be taken..." 这种固定句式）
+  - `commonlyUsedFor` 的 `condition`（不同药材不能用完全相同的 condition 描述）
+  - `summary`（每页概述必须有独特角度和措辞）
+  - `cautions`（不能多个药材共享完全相同的注意事项文本）
+- **新增页面时**，不得从现有页面复制句式结构再替换关键词
+- **批量生成内容时**，每条必须有独特的信息角度，而非模板填充
+
+### 查重检查
+
+- 提交前运行内容查重：检查任意两个页面的 `actionDetails[0].explanation` 开头 20 词是否相同
+- 检查任意两个页面的 `dietaryAdvice` 开头 10 词是否相同
+- 检查任意两个页面的 `commonlyUsedFor[0].condition` 是否完全相同
+- 发现重复必须修改后才可提交
+
+---
+
 ## 项目概况
 
 - **单一代码库**：Next.js 16 + React 19 + Tailwind 4 + pnpm
