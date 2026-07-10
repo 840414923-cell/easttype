@@ -298,7 +298,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Cassia seed may lower blood pressure. Monitor closely if you take blood pressure medications.",
           "If you experience drowsiness or low blood pressure symptoms, reduce the frequency.",
         ],
-        image: "/images/solutions/formula-rose-cassia.jpg",
+        image: "/images/solutions/formula-dan-shen-peach-gum.jpg",
       },
     ],
     faqs: [
@@ -329,7 +329,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine for Energy: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine for Energy: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for chronic fatigue and low energy, each suited to a different body type. Learn why TCM sees tiredness differently and find your match.",
-    heroImage: "/images/solutions/energy-hero.png",
+    heroImage: "/images/solutions/hair-loss-hero.jpg",
     intro: "Chinese medicine does not treat fatigue with stimulants. Instead, it identifies which type of energy your body is lacking and uses specific herbs to rebuild it. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of chronic tiredness.",
     tcmVsModern: [
       { aspect: "Root cause of fatigue", westernView: "Poor sleep, nutrient deficiencies, thyroid imbalance, or stress", tcmView: "Qi Deficiency, Yang Deficiency, or Yin Deficiency depending on which energy system is depleted" },
@@ -652,7 +652,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "If you feel more energized rather than calmer, drink it earlier in the evening, right after dinner.",
           "Not recommended for those with severe Qi deficiency as a primary pattern.",
         ],
-        image: "/images/solutions/formula-rose-chrysanthemum.png",
+        image: "/images/solutions/formula-honeysuckle-dandelion.jpg",
       },
     ],
     faqs: [
@@ -683,7 +683,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine for Digestion: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine for Digestion: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for bloating, indigestion, and weak digestion, each suited to a different body type. Learn why TCM sees digestion differently and find your match.",
-    heroImage: "/images/solutions/digestion-hero.png",
+    heroImage: "/images/solutions/acne-hero.jpg",
     intro: "Chinese medicine sees the digestive system as a cooking pot. If the fire under the pot is too weak, food sits and ferments. If the pot is too hot, fluids dry up. If the flow is stuck, pressure builds. Three common body types need three completely different approaches to digestion.",
     tcmVsModern: [
       { aspect: "Root cause of indigestion", westernView: "Acid reflux, H. pylori, food intolerances, or stress", tcmView: "Spleen Qi deficiency, Stomach heat, or Liver Qi invading the Stomach depending on the pattern" },
@@ -862,7 +862,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Medicine for Anxiety: 3 Calming Herbal Teas by Body Type",
     metaTitle: "Chinese Medicine for Anxiety: 3 Calming Herbal Teas by Body Type",
     metaDescription: "Three Chinese medicine herbal tea formulas for anxiety and stress, each suited to a different body type. Learn why TCM sees anxiety differently and find your match.",
-    heroImage: "/images/solutions/anxiety-hero.png",
+    heroImage: "/images/solutions/pms-hero.jpg",
     intro: "Chinese medicine does not see anxiety as a disorder of the brain alone. It sees it as a signal that the body's internal flow is stuck, overheating, or too depleted to anchor the mind. Three common body types may experience anxiety for completely different reasons, and each responds to a different herbal approach.",
     tcmVsModern: [
       { aspect: "Root cause of anxiety", westernView: "Neurochemical imbalance, particularly serotonin and GABA dysfunction", tcmView: "Liver Qi stagnation, Heart Yin deficiency, or Spleen Qi deficiency depending on which organ system fails to anchor the spirit" },
@@ -933,7 +933,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Do not drink on an empty stomach, as the moving nature of this formula may cause mild nausea.",
           "This formula is best for tension and stuck energy. If your anxiety comes with exhaustion rather than frustration, choose Formula 3 instead.",
         ],
-        image: "/images/solutions/formula-rose-citrus.png",
+        image: "/images/solutions/formula-rose-mint.jpg",
       },
 ﻿      {
         slug: "lily-lotus-heart-calming-tea",
@@ -1040,7 +1040,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Herbs for Acne: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Herbs for Acne: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese herbal tea formulas for acne, each suited to a different body type. Learn why TCM sees skin breakouts as internal heat and find your match.",
-    heroImage: "/images/solutions/digestion-hero.png",
+    heroImage: "/images/solutions/acne-hero.jpg",
     intro: "Chinese medicine views acne not as a surface problem but as a sign of internal heat and dampness rising to the skin. Where Western dermatology focuses on pores and bacteria, TCM asks why the body is pushing heat upward in the first place. Three common body type patterns may contribute to persistent breakouts, and each responds to a different combination of cooling and blood-moving herbs.",
     tcmVsModern: [
       {
@@ -1125,7 +1125,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Reduce or discontinue if you experience loose stools or stomach discomfort",
           "Not suitable during pregnancy without professional guidance",
         ],
-        image: "/images/solutions/formula-rose-chrysanthemum.png",
+        image: "/images/solutions/formula-honeysuckle-dandelion.jpg",
       },
       {
         slug: "dan-shen-peach-gum-complexion-tea",
@@ -1161,7 +1161,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Discontinue during menstruation if flow becomes heavier",
           "Not suitable for those with no blood stasis pattern",
         ],
-        image: "/images/solutions/formula-rose-cassia.jpg",
+        image: "/images/solutions/formula-dan-shen-peach-gum.jpg",
       },
       {
         slug: "rose-mint-stress-breakout-tea",
@@ -1197,7 +1197,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Safe for regular use during non-pregnant periods",
           "Discontinue during acute cold with chills",
         ],
-        image: "/images/solutions/formula-rose-citrus.png",
+        image: "/images/solutions/formula-rose-mint.jpg",
       },
     ],
     faqs: [
@@ -1229,7 +1229,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Herbs for PMS: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Herbs for PMS: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese herbal tea formulas for PMS symptoms, each matched to a different body type. Learn why TCM links premenstrual tension to liver qi and find your formula.",
-    heroImage: "/images/solutions/anxiety-hero.png",
+    heroImage: "/images/solutions/pms-hero.jpg",
     intro: "In Chinese medicine, the premenstrual phase is governed by the Liver, which ensures the smooth flow of qi and blood. When liver qi stagnates in the days before menstruation, it produces the familiar cluster of PMS symptoms: mood swings, breast tenderness, bloating, and irritability. Three body type patterns underlie these symptoms, and each responds to different herbs that move qi and nourish blood.",
     tcmVsModern: [
       {
@@ -1313,7 +1313,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Safe for regular cyclical use",
           "Reduce cyperus if you experience dry mouth",
         ],
-        image: "/images/solutions/formula-rose-citrus.png",
+        image: "/images/solutions/formula-rose-cyperus.jpg",
       },
       {
         slug: "dong-quai-jujube-nourishing-tea",
@@ -1349,7 +1349,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Do not take during acute colds or flu",
           "Safe for regular cyclical use over multiple months",
         ],
-        image: "/images/solutions/formula-ginseng-jujube.png",
+        image: "/images/solutions/formula-dong-quai-jujube.jpg",
       },
       {
         slug: "saffron-dong-quai-comfort-tea",
@@ -1385,7 +1385,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Avoid if you have a bleeding disorder",
           "Not suitable for those taking blood-thinning medications",
         ],
-        image: "/images/solutions/formula-rose-cassia.jpg",
+        image: "/images/solutions/formula-saffron-dong-quai.jpg",
       },
     ],
     faqs: [
@@ -1417,7 +1417,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     title: "Chinese Herbs for Hair Loss: 3 Herbal Teas by Body Type",
     metaTitle: "Chinese Herbs for Hair Loss: 3 Herbal Teas by Body Type",
     metaDescription: "Three Chinese herbal tea formulas for hair health, each matched to a different body type. Learn why TCM connects hair to kidney essence and blood, and find your formula.",
-    heroImage: "/images/solutions/energy-hero.png",
+    heroImage: "/images/solutions/hair-loss-hero.jpg",
     intro: "Chinese medicine sees hair as an extension of the Kidneys and Blood. When kidney essence declines through stress, aging, or overwork, the hair loses its nourishment from within. Unlike topical treatments that work on the scalp surface, TCM herbs work from the inside, rebuilding the deep reserves that feed the hair. Three body type patterns contribute to hair thinning, and each responds to different nourishing herbs.",
     tcmVsModern: [
       {
@@ -1503,7 +1503,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Discontinue if you experience loose stools or stomach discomfort",
           "Consult a healthcare provider for long-term use beyond 3 months",
         ],
-        image: "/images/solutions/formula-ginseng-jujube.png",
+        image: "/images/solutions/formula-he-shou-wu-rehmannia.jpg",
       },
       {
         slug: "dong-quai-dates-hair-tea",
@@ -1539,7 +1539,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Avoid during pregnancy",
           "Safe for long-term use in moderate amounts",
         ],
-        image: "/images/solutions/formula-ginseng-jujube.png",
+        image: "/images/solutions/formula-dong-quai-black-jujube.jpg",
       },
       {
         slug: "astragalus-he-shou-wu-qi-tea",
@@ -1575,7 +1575,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           "Safe for long-term use in moderate amounts",
           "Reduce dosage if you experience bloating from the tonifying herbs",
         ],
-        image: "/images/solutions/formula-astragalus-ginger.png",
+        image: "/images/solutions/formula-astragalus-he-shou-wu.jpg",
       },
     ],
     faqs: [
