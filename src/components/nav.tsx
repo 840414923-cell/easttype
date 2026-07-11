@@ -64,6 +64,13 @@ export function Nav({ right }: { right?: React.ReactNode }) {
           </div>
 
           <Link
+            href="/journal"
+            className="text-sm text-text2 no-underline hover:text-accent transition-colors tracking-wide font-medium"
+          >
+            Journal
+          </Link>
+
+          <Link
             href="/quiz"
             className="inline-flex items-center justify-center px-4 py-2 rounded-lg font-[family-name:var(--font-body)] text-sm font-semibold cursor-pointer no-underline transition-all duration-300 bg-gradient-to-r from-accent to-accent2 text-white hover:shadow-[0_0_20px_rgba(140,45,42,0.2)] whitespace-nowrap"
           >
@@ -115,6 +122,13 @@ export function Nav({ right }: { right?: React.ReactNode }) {
               </Link>
             ))}
           </div>
+          <Link
+            href="/journal"
+            className="text-sm text-text2 no-underline hover:text-accent transition-colors"
+            onClick={() => setMobileOpen(false)}
+          >
+            Journal
+          </Link>
           <Link
             href="/herbs"
             className="text-sm text-text2 no-underline hover:text-accent transition-colors"
