@@ -232,8 +232,12 @@ export default function CoolingFoodsArticle() {
             <p className="text-text2/70 text-xs mt-1">Understanding qi helps explain why cooling and warming foods have different effects.</p>
           </Link>
           <Link href="/foods-for/when-you-have-acid-reflux" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
-            <h3 className="text-text font-medium text-sm">Foods for Acid Reflux →</h3>
+            <h3 className="text-text font-medium text-sm">Foods for Acid Reflux {'->'}</h3>
             <p className="text-text2/70 text-xs mt-1">A detailed food guide for one of the most common heat-related symptoms.</p>
+          </Link>
+          <Link href="/wellness/kidney-yin-deficiency" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium text-sm">Kidney Yin Deficiency {'->'}</h3>
+            <p className="text-text2/70 text-xs mt-1">Why the body runs hot at night, and the cooling foods that may help restore balance.</p>
           </Link>
         </div>
       </section>

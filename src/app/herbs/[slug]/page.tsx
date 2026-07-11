@@ -107,6 +107,16 @@ const SYMPTOM_LINKS: Record<string, string> = {
   "Men's Health": "/symptoms/why-is-my-libido-low",
 }
 
+const WELLNESS_LINKS: Record<string, { title: string; description: string; slug: string }[]> = {
+  "luo-han-guo-luo-han-guo": [
+    { title: "Cooling Foods in Chinese Medicine", description: "A full guide to foods that clear heat and restore cooling balance.", slug: "cooling-foods-chinese-medicine" },
+    { title: "Kidney Yin Deficiency", description: "Why the body runs hot at night, and the cooling foods that may help restore balance.", slug: "kidney-yin-deficiency" },
+  ],
+  "senna-leaf-fan-xie-ye": [
+    { title: "Chinese Medicine for Constipation", description: "How TCM understands constipation and the foods that may support regularity.", slug: "chinese-medicine-for-constipation" },
+  ],
+}
+
 const CATEGORY_COLOR: Record<string, string> = {
   "Qi Tonic": "bg-amber-900/10 text-amber-700",
   "Blood Tonic": "bg-red-900/10 text-red-700",
@@ -365,8 +375,32 @@ export default async function HerbDetailPage({
             )
           })()}
 
+          {(() => {
+            const wellnessLinks = WELLNESS_LINKS[herb.slug]
+            if (!wellnessLinks || wellnessLinks.length === 0) return null
+            return (
+              <section className="mb-10">
+                <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-4">
+                  Related Wellness Articles
+                </h2>
+                <div className="space-y-3">
+                  {wellnessLinks.map((w) => (
+                    <Link
+                      key={w.slug}
+                      href={`/wellness/${w.slug}`}
+                      className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline"
+                    >
+                      <h3 className="text-text font-medium text-sm">{w.title} {'->'}</h3>
+                      <p className="text-text2/70 text-xs mt-1">{w.description}</p>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )
+          })()}
+
           <section className="mb-10">
-            <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+            <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-4">
               How to Use
             </h2>
             <p className="text-text2 leading-relaxed mb-4">{herb.howToUse}</p>

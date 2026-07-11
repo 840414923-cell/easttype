@@ -38,7 +38,7 @@ export default function KidneyYinDeficiencyArticle() {
           In Chinese medicine, the Kidney (肾, shèn) is regarded as the root of life force. It stores what TCM calls essence (jing), the foundational reserve you inherit from your parents and replenish slowly through food and rest. Within the Kidney system there are two complementary forces: Kidney Yin and Kidney Yang. Kidney Yang is the warming, activating spark that keeps metabolism moving. Kidney Yin is the cooling, moistening counterpart. Think of Kidney Yin as your body&apos;s internal coolant system. It keeps tissues lubricated, tempers excess heat, and provides the resting, restoring quality that lets you recover from exertion.
         </p>
         <p className="text-text2 leading-relaxed mb-4">
-          When Kidney Yin becomes depleted, a specific phenomenon appears that Chinese medicine calls empty heat, or deficiency heat. Because Yin normally restrains and cools the body&apos;s Yang warmth, a drop in Yin allows that warmth to rise unchecked. The heat you feel is not coming from a fever or an external source. It is the body&apos;s own warmth, now unbalanced and unmoored. This is why people with Kidney Yin Deficiency often feel heat in the palms, soles, and chest, or experience flushing in the afternoon and evening, even though a thermometer reads normal.
+          When Kidney Yin becomes depleted, a specific phenomenon appears that Chinese medicine calls <Link href="/patterns/internal-heat" className="text-accent hover:underline">empty heat</Link>, or deficiency heat. Because Yin normally restrains and cools the body&apos;s Yang warmth, a drop in Yin allows that warmth to rise unchecked. The heat you feel is not coming from a fever or an external source. It is the body&apos;s own warmth, now unbalanced and unmoored. This is why people with Kidney Yin Deficiency often feel heat in the palms, soles, and chest, or experience flushing in the afternoon and evening, even though a thermometer reads normal.
         </p>
         <p className="text-text2 leading-relaxed">
           It is important to separate this concept from the Western kidney. In Western medicine, the kidneys are two specific organs that filter waste from the blood. The TCM Kidney is a broader functional system that governs the lower back, the bones, the ears, the hair, reproduction, growth, and aging. This understanding has developed through roughly two thousand years of careful clinical observation. To understand the foundational energy that powers all of this, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
@@ -156,7 +156,7 @@ export default function KidneyYinDeficiencyArticle() {
                 <td className="px-3 py-2">Classic Kidney Yin tonic; also supports hair and joints</td>
               </tr>
               <tr className="border-b border-border/50 bg-card-bg/30">
-                <td className="px-3 py-2 font-medium text-text">Goji berries (wolfberries)</td>
+                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/goji-gou-qi-zi" className="text-accent hover:underline">Goji berries (wolfberries)</Link></td>
                 <td className="px-3 py-2">Neutral, sweet</td>
                 <td className="px-3 py-2">A small handful in tea, congee, or water</td>
                 <td className="px-3 py-2">Moistens and gently nourishes Kidney and Liver Yin</td>
@@ -250,6 +250,20 @@ export default function KidneyYinDeficiencyArticle() {
         <p className="text-text2 leading-relaxed">
           The signs of Kidney Yin Deficiency overlap with several medical conditions, including hyperthyroidism, perimenopause and menopause, chronic kidney disease, and certain autoimmune disorders. If your symptoms are severe, persistent, getting worse, or accompanied by unexplained weight loss, palpitations, or high blood pressure, please see a qualified healthcare professional for a proper evaluation. Chinese medicine food therapy and lifestyle adjustments may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-3">Related Articles</h2>
+        <div className="space-y-3">
+          <Link href="/wellness/cooling-foods-chinese-medicine" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium text-sm">Cooling Foods in Chinese Medicine {'->'}</h3>
+            <p className="text-text2/70 text-xs mt-1">A full guide to foods that clear heat and restore cooling balance.</p>
+          </Link>
+          <Link href="/wellness/kidney-yang-deficiency" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium text-sm">Kidney Yang Deficiency {'->'}</h3>
+            <p className="text-text2/70 text-xs mt-1">The warming counterpart: cold sensitivity, frequent urination, and warming foods.</p>
+          </Link>
+        </div>
       </section>
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />

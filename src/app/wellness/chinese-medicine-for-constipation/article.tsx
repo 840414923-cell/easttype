@@ -259,6 +259,16 @@ export default function ChineseMedicineForConstipationArticle() {
         </p>
       </section>
 
+      <section className="mb-10">
+        <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-3">Related Articles</h2>
+        <div className="space-y-3">
+          <Link href="/wellness/chinese-medicine-for-digestion" className="block bg-cream/30 border border-border rounded-xl p-4 hover:bg-cream/50 transition-colors no-underline">
+            <h3 className="text-text font-medium text-sm">Chinese Medicine for Digestion {'->'}</h3>
+            <p className="text-text2/70 text-xs mt-1">The broader picture: Spleen health, gut foods, and how digestion works in TCM.</p>
+          </Link>
+        </div>
+      </section>
+
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 
       <SymptomCta />
