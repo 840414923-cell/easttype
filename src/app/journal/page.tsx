@@ -4,6 +4,7 @@ import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import { JOURNAL_ARTICLES } from "@/lib/journal-data"
 import JournalList from "./journal-list"
+import JournalSubscribe from "./subscribe"
 
 const SITE = "https://www.myeasterntype.com"
 
@@ -50,6 +51,8 @@ export default function JournalHubPage() {
           </p>
 
           <JournalList articles={sortedArticles} />
+
+          <JournalSubscribe />
         </div>
       </main>
       <Footer />
