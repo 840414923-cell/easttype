@@ -35,12 +35,24 @@ export async function GET(request: Request) {
       return NextResponse.json({ message: "No journal subscribers" })
     }
 
-    const now = new Date()
-    const lastMonth = new Date(now.getFullYear(), now.getMonth() - 1, 1)
-    const monthlyArticles = JOURNAL_ARTICLES.filter((a) => {
-      const d = new Date(a.date)
-      return d.getMonth() === lastMonth.getMonth() && d.getFullYear() === lastMonth.getFullYear()
-    })
+    const url = new URL(request.url)
+    const isTest = url.searchParams.get("test") === "true"
+
+    let monthlyArticles: JournalArticle[]
+    let monthName: string
+
+    if (isTest) {
+      monthlyArticles = JOURNAL_ARTICLES.slice(0, 2)
+      monthName = "Test Digest"
+    } else {
+      const now = new Date()
+      const lastMonth = new Date(now.getFullYear(), now.getMonth() - 1, 1)
+      monthlyArticles = JOURNAL_ARTICLES.filter((a) => {
+        const d = new Date(a.date)
+        return d.getMonth() === lastMonth.getMonth() && d.getFullYear() === lastMonth.getFullYear()
+      })
+      monthName = lastMonth.toLocaleDateString("en-US", { month: "long", year: "numeric" })
+    }
 
     if (monthlyArticles.length === 0) {
       return NextResponse.json({
@@ -50,7 +62,6 @@ export async function GET(request: Request) {
     }
 
     const html = generateDigestHTML(monthlyArticles)
-    const monthName = lastMonth.toLocaleDateString("en-US", { month: "long", year: "numeric" })
 
     const resend = new Resend(process.env.RESEND_API_KEY!)
     let sent = 0
