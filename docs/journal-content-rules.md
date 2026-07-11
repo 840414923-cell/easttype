@@ -1,27 +1,198 @@
-# Journal 高流量写作规则
+# Journal 文章标准化创作手册
 
+> 基于第一篇标杆文章 "Heatwave Survival by Body Type" 总结。后续每篇文章按此标准创作。
 > 每篇 journal 文章必须同时服务三个目标：AI 抓取、媒体引用、搜索流量。
 
 ---
 
-## 1. 必须包含的数据化元素
+## 1. 文章结构模板
 
-每篇文章至少包含以下 3 种：
+标杆文章的 14 个 section 按以下顺序排列，后续文章按需调整但保持核心节奏：
 
-| 元素 | 作用 | AI引用 | 媒体引用 | 搜索流量 |
-|---|---|---|---|---|
-| 表格/矩阵 | 结构化对比，可截图 | 直接抓取 | 直接截图 | 中 |
-| 条形图(barchart) | 可视化数据，直观 | 数据可解析 | 可截图 | 中 |
-| 步骤列表(steps) | 具体可操作 | 直接抓取 | 引用步骤 | 高(recipe类词) |
-| FAQ | 问答式，匹配搜索意图 | 直接抓取 | 中 | 高(长尾词) |
-| 五星评级 | 视觉化判断 | 数据可解析 | 可截图 | 低 |
-| 配图占位(image) | 信息图，供后续绘制 | - | 可截图 | - |
+| 序号 | Section 类型 | 作用 | 标杆文章对应 |
+|---|---|---|---|
+| 1 | text | 导语：场景化开头，引入主题 + 关键词 | "Why Heat Hits Different Bodies Differently" |
+| 2 | image | 配图：视觉总览信息图 | 9体质热反应矩阵图 |
+| 3 | table | 表格：结构化对比矩阵（含五星评级） | 9体质 × 热耐受度 × 感受 × 风险 |
+| 4 | barchart | 条形图：数据可视化 + 可引用金句 | 热耐受度 2-9/10 条形图 |
+| 5 | cta | 引导卡片：链到 /quiz | "Want to know your body type?" |
+| 6 | text | 分组介绍：高风险/核心群体 | "The High-Risk Types" |
+| 7-8 | text × 2-3 | 详解：带趣味标签 + 带入感描述 | "Yin Deficient: The Human Furnace" |
+| 9 | text | 分组介绍：低风险/对比群体 | "The Low-Risk Types" |
+| 10-11 | text × 1-2 | 详解：带趣味标签 | "Yang Deficient: The One Who Enjoys It" |
+| 12 | image | 配图：法则/实操信息图 | 5条通用法则图 |
+| 13 | list | 法则清单：粗体标题 + 说明 | 5条降温法则 |
+| 14 | steps | 步骤教程：具体到用量/时间/工具 | 绿豆汤8步食谱 |
+| 15 | list | 补充注意事项 | 绿豆汤4条注意事项 |
+| 16 | image | 配图：禁忌/避坑信息图 | 6个禁忌图 |
+| 17 | list | 禁忌清单：粗体标题 + 说明 | 7个热浪禁忌 |
+| - | relatedLinks | 内链区：3-4条链到 wellness/symptoms/herbs | 4条内链 |
+| - | faqs | FAQ：5-7问，覆盖长尾搜索词 | 7个FAQ |
+
+**核心节奏**：场景引入 -> 数据总览 -> 引导测试 -> 分组详解 -> 实操法则 -> 食谱教程 -> 避坑指南 -> 内链 -> FAQ
 
 ---
 
-## 2. 可引用金句规则
+## 2. 数据结构字段标准
 
-每篇至少 2-3 句"可引用金句"。金句的标准：
+每篇文章在 `src/lib/journal-data.ts` 中按以下结构填写：
+
+```typescript
+{
+  slug: "heatwave-survival-by-body-type",        // URL slug，英文短横线连接
+  title: "Heatwave Survival: How Your Body...",  // SEO标题，含热点词+差异化词
+  description: "When the next heatwave hits...",  // meta description，含关键词，>= 40字符
+  date: "2026-07-11",                             // 发布日期 YYYY-MM-DD
+  category: "weather",                            // seasonal | holiday | event | weather
+  tags: ["heatwave", "summer", "body-type"],      // 搜索标签
+  excerpt: "A 40 degree day feels different...",  // hub页列表摘要，1-2句
+  thumbnail: "/images/journal/heatwave-cover.jpg",// hub页缩略图路径
+  sections: [ ... ],                              // 正文内容（见第3节）
+  relatedLinks: [                                 // 内链，3-4条
+    { title: "Cooling Foods in Chinese Medicine", slug: "cooling-foods-chinese-medicine", type: "wellness" },
+    { title: "Why Am I So Sensitive to Heat", slug: "why-am-i-so-sensitive-to-heat", type: "symptoms" },
+  ],
+  faqs: [                                         // FAQ，5-7个
+    { q: "Which body type is most at risk?", a: "Yin Deficient and Damp Heat types tend to..." },
+  ],
+}
+```
+
+### 字段填写规则
+- **slug**：全小写，短横线连接，含热点词
+- **title**：不超过 60 字符，格式为"热点词 + 差异化角度"
+- **description**：不超过 155 字符，含热点词 + 长尾词，末尾不加点
+- **excerpt**：1-2 句，hub 页卡片显示，要有画面感
+- **thumbnail**：杂志封面风格图，3:4 比例，路径 `/images/journal/{slug}-cover.jpg`
+- **tags**：3-5 个，含热点词 + 差异化词 + 长尾词
+
+---
+
+## 3. Section 类型标准
+
+共 7 种 section 类型，每种有固定字段和渲染效果：
+
+### text（默认，可省略 type）
+纯文字段落，用于导语、体质详解、分组介绍。
+```typescript
+{
+  heading: "Why Heat Hits Different Bodies Differently",
+  body: "When the temperature hits 40 degrees and the air feels like..."
+}
+```
+**写作要求**：开头要有画面感，体质详解要有带入感（"If you..."句式），heading 可含趣味标签（如 "Yin Deficient: The Human Furnace"）。
+
+### table
+结构化数据表格，用于对比矩阵。表格可用五星字符（★★★★★）做视觉化评级。
+```typescript
+{
+  heading: "The Nine Body Types in a Heatwave",
+  type: "table",
+  table: {
+    headers: ["Body Type", "Heat Tolerance", "How It Feels", "Heat Risk"],
+    rows: [
+      ["Yin Deficient", "Very Low", "Internal heat compounds...", "★★★★★"],
+      ["Balanced", "High", "Adapts well...", "★☆☆☆☆"],
+    ]
+  }
+}
+```
+
+### barchart
+CSS 水平条形图，用于可视化数据。body 字段放可引用金句。颜色自动按值分配（红/琥珀/绿）。
+```typescript
+{
+  heading: "Heat Tolerance by Body Type: The Full Spectrum",
+  body: "Across the nine body types, nearly two-thirds face moderate to high risk...",
+  type: "barchart",
+  barchart: {
+    items: [
+      { label: "Yin Deficient", value: 2, displayValue: "2/10" },
+      { label: "Balanced", value: 9, displayValue: "9/10" },
+    ]
+  }
+}
+```
+**value 范围**：0-10。<=3 红色（高风险），4-6 琥珀色（中风险），>=7 绿色（低风险）。
+
+### steps
+有序步骤列表，用于食谱、教程。每步有粗体标题 + 详细说明。
+```typescript
+{
+  heading: "How to Make Mung Bean Soup: A Step-by-Step Cooling Recipe",
+  body: "Mung bean soup is arguably the most iconic of all Chinese cooling drinks...",
+  type: "steps",
+  steps: [
+    { title: "Pick the right beans", detail: "Choose mung beans that are plump..." },
+    { title: "Soak before cooking", detail: "Rinse the beans thoroughly..." },
+  ]
+}
+```
+**写作要求**：具体到用量、时间、工具。指出常见错误（如"煮过头汤变红就失去清热效果"）。
+
+### list
+无序列表，用于法则、禁忌、注意事项。每项有粗体标题 + 说明。
+```typescript
+{
+  heading: "Heatwave Mistakes to Avoid",
+  type: "list",
+  list: [
+    { bold: "Drinking ice water after sun exposure.", text: "The cold shocks the Spleen..." },
+    { bold: "Standing in front of blasting AC while sweating.", text: "The sudden cold..." },
+  ]
+}
+```
+
+### image
+配图。有 imagePath 显示真实图片，无则显示虚线占位框 + 描述文字。
+```typescript
+{
+  heading: "The Nine Body Types in a Heatwave",
+  type: "image",
+  imageAlt: "Heatwave body type risk matrix",
+  imageDescription: "An infographic showing all nine body types...",
+  imagePath: "/images/journal/heatwave-body-type-matrix.jpg"  // 画好后填写
+}
+```
+**配图标准**：统一 16:9 比例，JPG < 200KB，路径 `/images/journal/{slug}-{描述}.jpg`。未画好时只填 imageDescription，不填 imagePath。
+
+### cta
+引导测试的横条卡片，链到 /quiz。
+```typescript
+{
+  heading: "",
+  type: "cta",
+  body: "Want to know which of the nine body types you are? Take the free 5-minute quiz..."
+}
+```
+**位置**：放在表格/条形图之后，读者刚看完数据时引导测试。
+
+---
+
+## 4. 关键词策略
+
+每篇必须覆盖三类词：
+
+| 类型 | 数量 | 作用 | 标杆文章示例 |
+|---|---|---|---|
+| 热点词 | 1个 | 抓时效性流量 | heatwave |
+| 体质差异化词 | 1-2个 | 抓独家角度 | heat intolerance, body type |
+| 长尾搜索词 | 2-3个 | 抓持续流量 | how to cool down, cooling drinks, mung bean soup |
+
+**填写位置**：
+- 热点词：title + tags + 导语
+- 差异化词：title + description + 导语 + 详解
+- 长尾词：tags + 正文自然融入（section heading 或 body）
+
+长尾词必须自然融入正文至少 1 次，不要堆砌。
+
+---
+
+## 5. 可引用金句规则
+
+每篇至少 2-3 句"可引用金句"。金句放在 barchart 的 body 或重要 section 的 body 中。
+
+金句标准：
 - 果断判断（带对冲语言，但语感果断）
 - 包含具体数字或比例
 - 独家观点（只有这篇文章能说的）
@@ -29,91 +200,122 @@
 示例：
 - ✅ "In TCM theory, Yin Deficient types have the lowest heat tolerance of all nine constitutions."
 - ✅ "Across the nine body types, nearly two-thirds face moderate to high risk during a heatwave."
-- ❌ "Yin Deficient types may experience some discomfort in heat."（太模糊，没人引用）
+- ❌ "Yin Deficient types may experience some discomfort in heat."（太模糊）
 
 ---
 
-## 3. 关键词策略
+## 6. 带入感写作技巧
 
-每篇必须覆盖三类词：
+体质详解要用"如果你..."句式，让读者对号入座：
 
-| 类型 | 数量 | 作用 | 示例 |
-|---|---|---|---|
-| 热点词 | 1个 | 抓时效性流量 | heatwave, back to school, Christmas |
-| 体质差异化词 | 1-2个 | 抓独家角度 | heat intolerance, body type |
-| 长尾搜索词 | 2-3个 | 抓持续流量 | how to cool down, cooling drinks, mung bean soup recipe |
+**标杆示例（阴虚）**：
+> "If you wake up at 3 AM drenched in sweat, if your throat feels dry no matter how much water you drink, and if the mere thought of a hot summer night makes you dread bedtime, you may well belong to this group."
 
-长尾词必须自然融入正文至少 1 次，不要堆砌。
+**标杆示例（湿热）**：
+> "If your skin breaks out the moment the weather turns hot and sticky, if you feel irritable and heavy for no clear reason, and if your body feels like it is wrapped in a hot, damp cloth that will not come off, this may be your pattern."
 
----
+### 体质趣味标签
+每个详解 section 的 heading 加趣味标签：
+- Yin Deficient: The Human Furnace
+- Damp Heat: The Summer Sticky Trap
+- Yang Deficient: The One Who Enjoys It
+- Balanced: The Naturally Adaptable
 
-## 4. AI 抓取优化
-
-AI 搜索（Google AI Overviews, Bing Chat）引用内容的特点：
-- 偏好结构化内容（表格 > 列表 > 段落）
-- 偏好问答式（FAQ 直接匹配用户提问）
-- 偏好有明确判断的内容
-- 偏好有数据的判断（"nearly two-thirds" 比 "many" 更容易被引用）
-
-每篇必须：
-- 至少 1 个表格或条形图
-- 至少 5 个 FAQ
-- 至少 2-3 句金句
+后续文章的标签按主题重新设计，保持"体质名: 趣味标签"格式。
 
 ---
 
-## 5. 媒体引用优化
+## 7. 配图标准
 
-媒体引用内容的特点：
-- 需要可截图的视觉化内容
-- 需要独家角度（别人没有的）
-- 需要权威感（中医理论 + 具体数据）
+### 文章内配图（3张）
+- 比例：统一 16:9
+- 风格：扁平化、精致、权威（premium medical infographic）
+- 配色：暖米色底 #FAF7F2 + 金色点缀 #C9A355 + 红色警示 #C72D2D
+- 格式：JPG，< 200KB
+- 命名：`{slug}-{描述}.jpg`（如 `heatwave-body-type-matrix.jpg`）
+- 路径：`public/images/journal/`
 
-每篇必须：
-- 至少 1 个独家数据化内容（如 9 体质矩阵、热耐受度条形图）
-- 至少 2-3 个配图占位（信息图，供后续绘制）
-- 配图描述要详细（画什么、每个元素代表什么）
+### 封面缩略图（1张）
+- 比例：3:4（杂志封面）
+- 风格：扁平化杂志封面
+- 命名：`{slug}-cover.jpg`
+- 用于 hub 页卡片缩略图
+
+### 配图流程
+1. 写文章时标注 image section（填 imageDescription，不填 imagePath）
+2. 用户根据 imageDescription 画图
+3. 图片放到 `public/images/journal/`，文件名 `{slug}-{描述}.png`
+4. 用 sharp 压缩为 JPG（resize 1600px 宽，质量 85）
+5. 在数据里填 imagePath 字段，自动从占位符切换为真实图片
 
 ---
 
-## 6. 内链策略
+## 8. 内链策略
 
-每篇至少 3-4 条内链到现有页面：
+每篇至少 3-4 条内链，放在 relatedLinks 字段：
 - wellness 页（深度资源）
 - symptoms 页（搜索入口）
 - herbs 页（具体草药）
 - patterns 页（TCM 桥接）
 
-内链放在 Related Articles 区。
+```typescript
+relatedLinks: [
+  { title: "Cooling Foods in Chinese Medicine", slug: "cooling-foods-chinese-medicine", type: "wellness" },
+  { title: "Kidney Yin Deficiency", slug: "kidney-yin-deficiency", type: "wellness" },
+  { title: "Why Am I So Sensitive to Heat", slug: "why-am-i-so-sensitive-to-heat", type: "symptoms" },
+  { title: "Why Do I Sweat So Much", slug: "why-do-i-sweat-so-much", type: "symptoms" },
+]
+```
 
 ---
 
-## 7. 写作风格
+## 9. 写作风格规则
 
-### 既有规则（AGENTS.md）
-- 禁用 AI 套话词（moreover, furthermore, additionally, in conclusion, delve, embark, journey, tapestry, vibrant, realm, harness, unlock, cultivate, nurture, elevate, transform, discover, revolutionize）
+### 既有规则（AGENTS.md，必须遵守）
+- 禁用 AI 套话词：moreover, furthermore, additionally, in conclusion, delve, embark, journey, tapestry, vibrant, realm, harness, unlock, cultivate, nurture, elevate, transform, discover, revolutionize
 - 禁用破折号（em dash）
-- 健康表述用对冲语言（may / might / can be associated with）
-- 禁用诊疗词（treat, cure, healing, remedy, medicinal）
+- 健康表述用对冲语言：may / might / can be associated with
+- 禁用诊疗词：treat, cure, healing, remedy, medicinal
 
 ### Journal 特有规则
 - 开头要有画面感（具体场景，不要泛泛而谈）
 - 每段长短交替（短句 + 长句，有节奏感）
-- 金句要果断（带对冲语言但语感果断）
+- 体质详解要有带入感（"If you..."句式）
+- heading 可含趣味标签（"体质名: 趣味标签"）
 - 食谱/步骤要非常详细（具体到用量、时间、工具）
+- 指出常见错误（增加含金量和可信度）
 - 避免"教科书感"（像一个懂中医的人在跟你聊天）
 
 ---
 
-## 8. 发布前检查清单
+## 10. 创作流程
+
+1. **选题讨论**：每周与用户讨论，结合当下热点（季节/节日/事件/天气）
+2. **关键词规划**：确定 1 个热点词 + 1-2 个差异化词 + 2-3 个长尾词
+3. **结构设计**：按第1节模板设计 sections 顺序
+4. **内容写作**：在 `journal-data.ts` 中填写文章数据，遵守第9节风格规则
+5. **配图规划**：标注 image section，写详细 imageDescription
+6. **验证**：`node scripts/verify-pages.mjs`（0 issues）+ `pnpm build`（无错误）
+7. **本地预览**：`pnpm dev`，用户确认效果
+8. **配图替换**：用户画图后，压缩为 JPG，在数据里填 imagePath
+9. **更新 sitemap**：在 `public/sitemap.xml` 加新文章 URL
+10. **发布**：`git add` + `git commit` + `git push`
+
+---
+
+## 11. 发布前检查清单
 
 - [ ] 至少 1 个表格或条形图
 - [ ] 至少 2-3 句可引用金句
 - [ ] 至少 5 个 FAQ
 - [ ] 覆盖热点词 + 差异化词 + 长尾词
 - [ ] 至少 3-4 条内链
-- [ ] 至少 2-3 个配图占位
+- [ ] 至少 2-3 个配图（image section）
+- [ ] 体质详解有带入感（"If you..."句式）+ 趣味标签
 - [ ] 食谱/步骤详细到可操作
-- [ ] 遵守 AGENTS.md 写作规则
+- [ ] 遵守 AGENTS.md 写作规则（禁用词、对冲语言、无破折号）
+- [ ] canonical URL 用反引号模板字符串
 - [ ] verify-pages 0 issues
 - [ ] pnpm build 无错误
+- [ ] sitemap.xml 已更新
+- [ ] 配图 < 200KB
