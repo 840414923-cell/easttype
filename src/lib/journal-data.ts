@@ -248,28 +248,5 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
   },
-  {
-    slug: "back-to-school-tcm-tips",
-    title: "Back to School: TCM Tips for the New Academic Season",
-    description: "How Chinese medicine views the transition back to school, and what foods and habits may support focus, energy, and stress balance during the academic year.",
-    date: "2026-09-01",
-    category: "holiday",
-    tags: ["back-to-school", "focus", "students"],
-    excerpt: "The return to classrooms demands focus and energy. Here is how TCM may help smooth the transition.",
-    sections: [
-      {
-        heading: "The Transition Back to Routine",
-        body: "After weeks of unstructured summer days, returning to a school schedule can be a shock to the system. Chinese medicine views this transition as a shift from the expansive, outward energy of summer to the more concentrated, inward focus of autumn. Supporting this shift with the right foods and sleep habits may help students adjust more smoothly.",
-      },
-    ],
-    relatedLinks: [
-      { title: "Chinese Medicine Foods for Energy", slug: "chinese-medicine-foods-for-energy", type: "wellness" },
-    ],
-    faqs: [
-      {
-        q: "What foods may help students focus?",
-        a: "Foods that gently nourish Qi and support the Spleen, such as sweet potato, rice porridge, and walnuts, may help sustain concentration through the school day.",
-      },
-    ],
-  },
+
 ]
