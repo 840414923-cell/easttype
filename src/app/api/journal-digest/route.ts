@@ -66,6 +66,7 @@ export async function GET(request: Request) {
     const resend = new Resend(process.env.RESEND_API_KEY!)
     let sent = 0
     let failed = 0
+    const errors: string[] = []
 
     for (const email of journalEmails) {
       try {
@@ -77,11 +78,13 @@ export async function GET(request: Request) {
         })
         if (error) {
           failed++
+          errors.push(`${email}: ${error.message || JSON.stringify(error)}`)
         } else {
           sent++
         }
-      } catch {
+      } catch (err: any) {
         failed++
+        errors.push(`${email}: ${err.message}`)
       }
     }
 
@@ -91,6 +94,7 @@ export async function GET(request: Request) {
       total: journalEmails.length,
       articles: monthlyArticles.length,
       month: monthName,
+      errors: errors.length > 0 ? errors : undefined,
     })
   } catch (err: any) {
     return NextResponse.json({ error: err?.message || err }, { status: 500 })
