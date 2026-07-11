@@ -35,7 +35,11 @@ export const metadata: Metadata = {
   description:
     "Chinese medicine identifies 9 body types — each with unique patterns and needs. Discover yours in a free 5-minute body type quiz with personalized food maps.",
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "32x32" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/favicon.svg",
   },
   manifest: "/site.webmanifest",
