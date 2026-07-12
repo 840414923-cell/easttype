@@ -103,12 +103,12 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Symptoms | 70 | All converted to structured data + shared SymptomArticle component (2026-07-02) |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 43 (+ 7 redirected) | 43 active guides, 7 old duplicates 301 to symptoms |
+| Wellness | 51 (+ 7 redirected) | 51 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
-| Herbs | 100 | `/herbs/[slug]` dynamic route, real photos |
-| Solutions | 5 | Hub + 4 detail (weight loss, energy, sleep, digestion). More planned |
-| Sitemap URLs | 257 | Hand-maintained |
-| Total static pages | 271 | Build verified |
+| Herbs | 122 | `/herbs/[slug]` dynamic route, real photos |
+| Solutions | 7 | Hub + 6 detail (weight loss, energy, sleep, digestion, constipation, anxiety, acne, PMS, hair loss). More planned |
+| Sitemap URLs | 293 | Hand-maintained |
+| Total build pages | 314 | Build verified (2026-07-12) |
 
 ### Published Patterns (9)
 

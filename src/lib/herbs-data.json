@@ -943,7 +943,7 @@
     "faqs": [
       {
         "q": "Is lily bulb the same as the flower?",
-        "a": "No. The medicinal lily bulb (bai he) is the fleshy underground bulb, not the flower petals. It is eaten as food in Chinese cuisine."
+        "a": "No. The traditional lily bulb (bai he) is the fleshy underground bulb, not the flower petals. It is eaten as food in Chinese cuisine."
       },
       {
         "q": "Does lily bulb help with insomnia?",
@@ -1297,14 +1297,14 @@
     "dosage": "1-3g powdered, or 1-2 small sticks per day.",
     "cautions": [
       "Avoid if you have internal Heat or Yin Deficiency",
-      "Not suitable during pregnancy in medicinal doses",
+      "Not suitable during pregnancy in large amounts",
       "May interact with blood-thinning medications",
       "Do not use if you have hot flashes or night sweats"
     ],
     "faqs": [
       {
         "q": "Is cinnamon the same as cassia?",
-        "a": "In Chinese medicine, rou gui is specifically cinnamon bark (cassia bark). It is warmer and more medicinal than common ground cinnamon."
+        "a": "In Chinese medicine, rou gui is specifically cinnamon bark (cassia bark). It is warmer and stronger than common ground cinnamon."
       },
       {
         "q": "Can cinnamon help with cold hands and feet?",
@@ -1312,7 +1312,7 @@
       },
       {
         "q": "Can I use regular cinnamon powder?",
-        "a": "For cooking yes, but for medicinal purposes, Chinese cinnamon bark (rou gui) is preferred as it is stronger and targets the Kidney."
+        "a": "For cooking yes, but for therapeutic purposes, Chinese cinnamon bark (rou gui) is preferred as it is stronger and targets the Kidney."
       }
     ],
     "image": "/images/herbs/cinnamon-rou-gui.jpg",
@@ -1729,7 +1729,7 @@
     "temperature": "Neutral",
     "taste": "Sweet, bland",
     "channels": "Heart, Spleen, Kidney",
-    "summary": "A medicinal mushroom that drains dampness, strengthens the Spleen, and calms the mind.",
+    "summary": "A traditional mushroom that drains dampness, strengthens the Spleen, and calms the mind.",
     "actions": [
       "Drains dampness",
       "Strengthens the Spleen",
@@ -1757,7 +1757,7 @@
     "faqs": [
       {
         "q": "What is poria?",
-        "a": "Poria (fu ling) is a medicinal fungus that grows on pine tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
+        "a": "Poria (fu ling) is a traditional fungus that grows on pine tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Does poria help with sleep?",
@@ -1897,7 +1897,7 @@
       }
     ],
     "preparationNotes": "Because Fennel is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "Crush a teaspoon of fennel seeds lightly and steep in hot water for 5 minutes for a digestive tea. For cooking, toast the seeds briefly to release their aroma and add to soups, stews, or roasted vegetables. For menstrual support, combine with ginger and brown sugar. Avoid taking fennel in large medicinal amounts during pregnancy, though culinary amounts are safe.",
+    "dietaryAdvice": "Crush a teaspoon of fennel seeds lightly and steep in hot water for 5 minutes for a digestive tea. For cooking, toast the seeds briefly to release their aroma and add to soups, stews, or roasted vegetables. For menstrual support, combine with ginger and brown sugar. Avoid taking fennel in large large amounts during pregnancy, though culinary amounts are safe.",
     "nameZhTrad": "茴香",
     "classicalSource": "Xinxiu Bencao (659 CE)",
     "safetyRating": "Non-toxic"
@@ -1940,7 +1940,7 @@
     "faqs": [
       {
         "q": "Is licorice root the same as candy?",
-        "a": "No. Medicinal licorice is much stronger. Candy contains sugar and flavorings. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
+        "a": "No. Therapeutic licorice is much stronger. Candy contains sugar and flavorings. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Can I drink licorice tea daily?",
@@ -3120,7 +3120,7 @@
       },
       {
         "q": "Can I use daily?",
-        "a": "In food amounts it is fine. For medicinal use consult a practitioner. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
+        "a": "In food amounts it is fine. For therapeutic use consult a practitioner. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "How to cook?",
@@ -3452,7 +3452,7 @@
     "temperature": "Neutral",
     "taste": "Sweet",
     "channels": "Heart, Liver, Lung",
-    "summary": "A prized medicinal mushroom that calms the mind, supports immunity, and nourishes Qi and Blood.",
+    "summary": "A prized traditional mushroom that calms the mind, supports immunity, and nourishes Qi and Blood.",
     "actions": [
       "Calms the mind and spirit",
       "May support immune function",
@@ -4541,7 +4541,7 @@
     "temperature": "Neutral",
     "taste": "Sweet, bland",
     "channels": "Kidney, Bladder",
-    "summary": "A medicinal mushroom that drains dampness and promotes urination. Gentler than ze xie.",
+    "summary": "A traditional mushroom that drains dampness and promotes urination. Gentler than ze xie.",
     "actions": [
       "Drains dampness",
       "Promotes urination",
@@ -4568,7 +4568,7 @@
     "faqs": [
       {
         "q": "What is zhu ling?",
-        "a": "Zhu ling is a medicinal mushroom (Polyporus) that grows on tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
+        "a": "Zhu ling is a traditional mushroom (Polyporus) that grows on tree roots. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       },
       {
         "q": "Same as poria?",
@@ -5706,7 +5706,7 @@
       }
     ],
     "preparationNotes": "Because Acanthopanax Bark (Wu Jia Pi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "Wu jia pi is most traditionally prepared as a medicinal wine, steeped in rice wine for 2 to 3 weeks. Take a small cup (15 to 30 ml) daily. Alternatively, simmer 10 to 15 grams in soup with pork or chicken for 1 hour. The taste is pungent and slightly bitter. Avoid if you have yin deficiency with heat signs, as its warming nature may aggravate internal heat. Do not confuse with bei wu jia (Siberian ginseng), which is a different herb with different properties.",
+    "dietaryAdvice": "Wu jia pi is most traditionally prepared as a traditional wine, steeped in rice wine for 2 to 3 weeks. Take a small cup (15 to 30 ml) daily. Alternatively, simmer 10 to 15 grams in soup with pork or chicken for 1 hour. The taste is pungent and slightly bitter. Avoid if you have yin deficiency with heat signs, as its warming nature may aggravate internal heat. Do not confuse with bei wu jia (Siberian ginseng), which is a different herb with different properties.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
     "safetyRating": "Non-toxic"
   },
@@ -5877,7 +5877,7 @@
     "commonlyUsedFor": [
       {
         "condition": "People with dry skin and dry throat seeking food-grade yin nourishment",
-        "tcmInterpretation": "For mild yin deficiency that does not require medicinal herbs, peach gum provides a food-based approach. Its gelatinous texture directly moistens the body's fluid reserves.",
+        "tcmInterpretation": "For mild yin deficiency that does not require therapeutic herbs, peach gum provides a food-based approach. Its gelatinous texture directly moistens the body's fluid reserves.",
         "whyItHelps": "A sweet soup of peach gum with rock sugar and goji berries, eaten 2 to 3 times per week, provides consistent, gentle moistening. The effect is cumulative and pleasant."
       },
       {
@@ -5954,7 +5954,7 @@
       },
       {
         "action": "Moistens the intestines and relieves dry constipation",
-        "explanation": "The slippery, gelatinous texture of wood ear mushroom provides natural lubrication for the intestines. For dry-type constipation, regular inclusion in the diet offers gentle, sustainable relief without any medicinal intervention."
+        "explanation": "The slippery, gelatinous texture of wood ear mushroom provides natural lubrication for the intestines. For dry-type constipation, regular inclusion in the diet offers gentle, sustainable relief without any stronger intervention."
       },
       {
         "action": "May support circulation through blood nourishment",
@@ -5962,7 +5962,7 @@
       },
       {
         "action": "Provides accessible daily blood nourishment as food",
-        "explanation": "What makes wood ear mushroom practically important is its accessibility and versatility in cooking. It can be added to stir-fries, soups, and stews daily, providing consistent blood-nourishing benefits without the cost or preparation required of medicinal tonics."
+        "explanation": "What makes wood ear mushroom practically important is its accessibility and versatility in cooking. It can be added to stir-fries, soups, and stews daily, providing consistent blood-nourishing benefits without the cost or preparation required of traditional tonics."
       }
     ],
     "commonlyUsedFor": [
@@ -6045,7 +6045,7 @@
       },
       {
         "action": "Moistens the intestines and promotes bowel movements",
-        "explanation": "The natural sugars and fiber in figs, combined with their moistening quality in TCM, make them effective for dry-type constipation. Two or three dried figs eaten as a snack provide gentle, natural relief without any medicinal intervention."
+        "explanation": "The natural sugars and fiber in figs, combined with their moistening quality in TCM, make them effective for dry-type constipation. Two or three dried figs eaten as a snack provide gentle, natural relief without any stronger intervention."
       },
       {
         "action": "May support digestive health through gentle nourishment",
@@ -7690,7 +7690,7 @@
       },
       {
         "action": "Provides antimicrobial properties as a culinary spice",
-        "explanation": "Star anise contains shikimic acid, which has been the basis for modern antiviral medications. While the culinary spice does not provide medicinal doses, this compound validates the traditional use of star anise during epidemic conditions."
+        "explanation": "Star anise contains shikimic acid, which has been the basis for modern antiviral medications. While the culinary spice does not provide large amounts, this compound validates the traditional use of star anise during epidemic conditions."
       }
     ],
     "commonlyUsedFor": [
@@ -7979,7 +7979,7 @@
       }
     ],
     "preparationNotes": "Because Clove (Mu Ding Xiang) is hot, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
-    "dietaryAdvice": "Use cloves sparingly in cooking due to their intense potency. For toothache, apply a single clove or a small amount of clove oil directly to the affected tooth. For stomach cold, steep 1 to 2 cloves in hot water for 5 minutes. Avoid if you have heat-type conditions, as clove's intense heat can worsen internal fire. Not recommended during pregnancy in medicinal amounts.",
+    "dietaryAdvice": "Use cloves sparingly in cooking due to their intense potency. For toothache, apply a single clove or a small amount of clove oil directly to the affected tooth. For stomach cold, steep 1 to 2 cloves in hot water for 5 minutes. Avoid if you have heat-type conditions, as clove's intense heat can worsen internal fire. Not recommended during pregnancy in large amounts.",
     "classicalSource": "Yaoxing Lun (7th century CE)",
     "safetyRating": "Use with caution"
   },
@@ -8497,7 +8497,7 @@
     "actionDetails": [
       {
         "action": "Warms the Lungs and soothes the throat",
-        "explanation": "Osmanthus flower's warm, sweet, aromatic nature makes it a popular tea flower in China. For the mild sore throat and dry cough that accompany cold in the lungs, its gentle warming provides soothing relief without the intensity of medicinal herbs."
+        "explanation": "Osmanthus flower's warm, sweet, aromatic nature makes it a popular tea flower in China. For the mild sore throat and dry cough that accompany cold in the lungs, its gentle warming provides soothing relief without the intensity of therapeutic herbs."
       },
       {
         "action": "Warms the Stomach and relieves cold-type stomach pain",
@@ -8515,13 +8515,13 @@
     "commonlyUsedFor": [
       {
         "condition": "People with mild cold-type stomach discomfort and dry throat",
-        "tcmInterpretation": "Mild cold in the stomach and lungs produces a dry throat and slight stomach discomfort that is not severe enough for medicinal herbs. Osmanthus tea provides gentle, food-grade warming.",
+        "tcmInterpretation": "Mild cold in the stomach and lungs produces a dry throat and slight stomach discomfort that is not severe enough for therapeutic herbs. Osmanthus tea provides gentle, food-grade warming.",
         "whyItHelps": "A cup of osmanthus tea, drunk warm, provides soothing warmth for both the throat and stomach. The sweet aroma also has a calming, comforting effect."
       },
       {
         "condition": "Those seeking a warming, aromatic daily tea for autumn and winter",
         "tcmInterpretation": "In TCM, seasonal transitions benefit from gentle warming. Osmanthus blooms in autumn, and its warm, sweet nature is perfectly suited for the seasonal transition from warm to cold.",
-        "whyItHelps": "Daily osmanthus tea during autumn and winter provides gentle, consistent warming that helps the body adjust to the cooling weather without the intensity of medicinal warming herbs."
+        "whyItHelps": "Daily osmanthus tea during autumn and winter provides gentle, consistent warming that helps the body adjust to the cooling weather without the intensity of traditional warming herbs."
       }
     ],
     "preparationNotes": "Because Osmanthus Flower (Gui Hua) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
@@ -9150,8 +9150,8 @@
     ],
     "faqs": [
       {
-        "q": "Is the saffron used in cooking the same as medicinal saffron?",
-        "a": "Yes, culinary saffron threads are the same plant. For daily wellness use, a few threads in tea or milk provide a gentle dose. Medicinal preparations may use higher concentrations under professional guidance."
+        "q": "Is the saffron used in cooking the same as therapeutic saffron?",
+        "a": "Yes, culinary saffron threads are the same plant. For daily wellness use, a few threads in tea or milk provide a gentle dose. Stronger preparations may use higher concentrations under professional guidance."
       },
       {
         "q": "How can I tell if my saffron is real?",
@@ -9230,7 +9230,7 @@
     "commonlyUsedFor": [
       {
         "condition": "Yin Deficient types with dry throat or chronic cough",
-        "tcmInterpretation": "Yin deficiency often manifests as dryness in the upper body, especially the throat and lungs. Malva Nut's moistening cold nature directly addresses this pattern. The gel-like mucilage physically coats dry tissues while the medicinal properties work systemically.",
+        "tcmInterpretation": "Yin deficiency often manifests as dryness in the upper body, especially the throat and lungs. Malva Nut's moistening cold nature directly addresses this pattern. The gel-like mucilage physically coats dry tissues while the active properties work systemically.",
         "whyItHelps": "The Lung channel affinity and cold temperature make Malva Nut ideal for heat and dryness patterns. For Yin Deficient types who naturally lack moisture, this herb provides targeted lubrication."
       },
       {
@@ -9541,7 +9541,7 @@
     "temperature": "Cold",
     "taste": "Bitter, Sweet",
     "channels": "Liver, Stomach",
-    "summary": "A powerful yet gentle heat-clearing herb that supports liver detoxification, reduces inflammation, and promotes healthy urination. Dandelion is one of the most accessible and widely used medicinal plants in both Eastern and Western herbal traditions.",
+    "summary": "A powerful yet gentle heat-clearing herb that supports liver detoxification, reduces inflammation, and promotes healthy urination. Dandelion is one of the most accessible and widely used traditional plants in both Eastern and Western herbal traditions.",
     "actions": [
       "Clears heat and detoxifies fire toxicity",
       "Reduces swelling and dissipates nodules",
@@ -9611,7 +9611,7 @@
       },
       {
         "q": "Is dandelion the same as the weed in my yard?",
-        "a": "The TCM variety (Taraxacum mongolicum) is closely related to the common dandelion (Taraxacum officinale). While they share similar properties, the TCM variety is standardized for medicinal use. Yard dandelions may have pesticide exposure and are not recommended for medicinal use."
+        "a": "The TCM variety (Taraxacum mongolicum) is closely related to the common dandelion (Taraxacum officinale). While they share similar properties, the TCM variety is standardized for therapeutic use. Yard dandelions may have pesticide exposure and are not recommended for therapeutic use."
       },
       {
         "q": "Which body type benefits most from dandelion?",
@@ -9816,7 +9816,7 @@
     "temperature": "Warm",
     "taste": "Sweet",
     "channels": "Large Intestine, Spleen",
-    "summary": "A food-grade herb that kills intestinal parasites, supports prostate health, and provides gentle daily nutrition. Pumpkin seeds are one of the safest and most accessible medicinal foods in Chinese medicine.",
+    "summary": "A food-grade herb that kills intestinal parasites, supports prostate health, and provides gentle daily nutrition. Pumpkin seeds are one of the safest and most accessible traditional foods in Chinese medicine.",
     "actions": [
       "Kills intestinal parasites without toxicity",
       "Supports prostate health and reduces urinary frequency",
@@ -10351,7 +10351,7 @@
     "preparationNotes": "Turmeric is fat-soluble, so taking it with a small amount of healthy fat (coconut oil, milk) improves absorption. Adding black pepper increases curcumin absorption significantly.",
     "dietaryAdvice": "For Blood Stasis types, turmeric pairs well with warming, cooked foods. Avoid combining with excessive cold foods like ice water or raw salads, which counteract its warming, circulating effect.",
     "cautions": [
-      "Avoid during pregnancy in medicinal doses",
+      "Avoid during pregnancy in large amounts",
       "May interact with blood-thinning medications",
       "Do not use during acute bleeding",
       "Excess use may cause stomach discomfort in sensitive individuals",

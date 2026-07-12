@@ -486,7 +486,7 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "It depends on the pattern. For Heart Yin Deficiency, lotus seed, lily bulb, and wheat may help. For Blood Deficiency, red dates and longan fruit are classic choices. For Liver Fire, chrysanthemum tea is traditionally used. A small bowl of warm millet porridge 1-2 hours before bed may support digestion and sleep for most patterns.", "zh-TW": "取決於體質。心陰虛可用蓮子、百合和小麥。血虛可用紅棗和龍眼。肝火可用菊花茶。睡前1-2小時一小碗溫小米粥適合大多數體質。", ja: "パターンによります。心陰虚には蓮子、ゆり根、小麦が役立つことがあります。血虚にはなつめと竜眼が古典的な選択です。肝火には菊茶が伝統的に使われます。" },
     },
     {
-      q: { en: "Can Chinese medicine cure insomnia completely?", "zh-TW": "中醫能完全治癒失眠嗎？", ja: "中医学で不眠を完全に治せますか？" },
+      q: { en: "Can Chinese medicine help with insomnia?", "zh-TW": "中醫能完全治癒失眠嗎？", ja: "中医学で不眠を完全に治せますか？" },
       a: { en: "Chinese medicine does not promise a cure for all types of insomnia. For sleep issues related to stress, dietary habits, aging, or constitutional tendencies, food therapy and lifestyle adjustments may lead to significant improvement over weeks to months. For insomnia caused by medical conditions like sleep apnea or thyroid disorders, professional medical treatment is essential and TCM approaches may only serve as a complement.", "zh-TW": "中醫不保證治癒所有類型的失眠。對於與壓力、飲食、老化或體質相關的睡眠問題，食療和生活方式調整可能在數週到數月內帶來顯著改善。對於睡眠呼吸中止症或甲狀腺疾病等引起的失眠，必須接受專業醫療。", ja: "中医学はあらゆるタイプの不眠の治癒を約束するものではありません。ストレス、食習慣、加齢、体質に関連する睡眠問題には、食事療法と生活習慣の調整が数週間から数ヶ月で大幅な改善をもたらす可能性があります。" },
     },
     {
@@ -636,7 +636,7 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Adzuki beans, coix seed (Job's tears), winter melon, and barley tea are among the most-used foods for draining dampness. Limiting dairy and refined sugar is just as important as what you add.", "zh-TW": "紅豆、薏仁、冬瓜和大麥茶是最常用的利濕食物。", ja: "小豆、ハトムギ、冬瓜、麦茶がよく使われます。" },
     },
     {
-      q: { en: "Can Chinese medicine cure PCOS?", "zh-TW": "中醫能治癒 PCOS 嗎？", ja: "中医学はPCOSを治癒できますか？" },
+      q: { en: "Can Chinese medicine help manage PCOS?", "zh-TW": "中醫能治癒 PCOS 嗎？", ja: "中医学はPCOSを治癒できますか？" },
       a: { en: "No. PCOS requires medical diagnosis and management. TCM food therapy may complement your medical care and support how your body feels, but it does not replace endocrinology care.", "zh-TW": "不能。PCOS 需要醫療診斷和管理。中醫食療可以輔助。", ja: "いいえ。PCOSは医療の診断と管理が必要です。中医学は補助となります。" },
     },
     {
@@ -1026,7 +1026,7 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Limit spicy foods, alcohol, dairy, excessive sweets, and shellfish. These may generate damp-heat and trigger flare-ups.", "zh-TW": "限制辛辣、酒精、乳製品、甜食和海鮮。", ja: "辛いもの、アルコール、乳製品、甘いもの、甲殻類を控えてください。" },
     },
     {
-      q: { en: "Can Chinese medicine cure eczema permanently?", "zh-TW": "中醫能根治濕疹嗎？", ja: "中医学で湿疹は完治しますか？" },
+      q: { en: "Can Chinese medicine help manage eczema?", "zh-TW": "中醫能根治濕疹嗎？", ja: "中医学で湿疹は完治しますか？" },
       a: { en: "Chinese medicine aims to manage eczema by addressing the internal pattern rather than suppressing symptoms. Results vary and food therapy works best alongside professional treatment.", "zh-TW": "中醫透過調理體質來管理濕疹，而非壓制症狀。", ja: "中医学は体質を調整して管理することを目指します。" },
     },
     {

@@ -229,6 +229,85 @@ pnpm build                        # 编译成功，新页面 HTML 已生成
 
 ---
 
+## 12. 文档与实际同步（防止文档失信）
+
+**背景：2026-07-12 复盘发现 AI_CONTEXT.md 显示 257 URL/271 页，实际已 274/314；herbs 计数 100 vs 实际 122，偏差严重。文档自称"真相源"但已过时。**
+
+### 核心规则
+
+- **每次有计数变化的改动（新增/删除页面、URL），必须同步更新相关文档**：
+  - `docs/AI_CONTEXT.md`（Current Counts 表）
+  - `docs/PROJECT_STATE.md`（Content Counts 表 + Published URLs 标题）
+  - `public/sitemap.xml`（URL 列表）
+- 同一次提交内完成代码改动 + 文档更新，**不要"下次再补"**
+- 提交信息里注明计数变化（如 "herbs 119→122"）
+
+### 验证方法
+
+每月月初跑一次计数核对：
+- `git log` 统计实际页面数 vs 文档声称数
+- build 输出的页面总数 vs 文档
+- 发现偏差立即修文档
+
+---
+
+## 13. 功能性死链检查（防止"假表单"事故重演）
+
+**背景：2026-07-12 发现首页 NewsletterForm 是假表单（setDone(true) 显示"Check your inbox"但从不调 API），上线数周未被发现。同类风险：exit-intent 订阅者进了 Redis 却永远收不到邮件（邮件死胡同）。**
+
+### 核心规则
+
+- **任何表单（订阅、联系、checkout、quiz 提交）上线前，必须验证它真的调用了后端 API**
+- 验证方法：提交后检查（1）网络请求发出（2）数据写入存储（3）预期的下游动作（邮件/数据库）触发
+- **不能只看 UI 成功状态就判定通过**——UI 显示 success 不代表后端真的执行了
+- 新增任何"用户留资/付费/提交"入口，必须本地跑通完整链路再上线
+
+### 定期排查
+
+每月检查一次所有 `fetch("/api/...")` 调用点：
+- 是否每个表单都有真实 API 调用（grep 假的 `setDone(true)` / `setSubmitted(true)` 但无 fetch）
+- 是否每个收集到的数据都有明确的下游用途（不要"收了不用"的死数据）
+
+---
+
+## 14. AEO 优先（答案引擎优化是新站的弯道赛道）
+
+**背景：截至 2026-07-12，EastType 在 Bing AI 引用中拿到 19 次引用，这是不依赖外链和域名年龄的赛道。Google 沙盒期可能持续 6-12 个月，但 AI 搜索引擎（Bing Copilot、ChatGPT、Perplexity、Claude）更愿意引用结构清晰、答案明确的内容，对域名权威度要求较低。**
+
+### 核心策略
+
+- **每周去 ChatGPT / Perplexity / Bing Copilot 搜索核心症状和体质问题，检查是否被引用**
+- 被 AI 引用的内容通常具备：清晰的问题陈述（h1 问句）、结构化答案（列表/表格）、明确的 TCM 体质归因
+- **AEO 优化方向**：
+  - 症状页 h1 已是问句格式（"Why Am I Always Tired?"）——继续保持，这对 AI 引用极友好
+  - 每页应有可直接被摘录的"一句话答案"（放在开头摘要）
+  - JSON-LD 结构化数据（FAQPage / Article）帮助 AI 解析
+- **不要为了 SEO 堆砌关键词而破坏 AI 可读性**——两者在症状页设计上是一致的
+
+### 记录
+
+- AI 引用次数（Bing Copilot / Perplexity / ChatGPT）应纳入每周运营检查
+- 当某页被 AI 引用，分析其内容特征，复制到其他页
+
+---
+
+## 15. 提交前必须本地渲染验证（静态校验不够）
+
+**背景：2026-07-12 新增 3 个药材页，verify-pages + build 全过，但实际渲染才发现标题重复 bug（"Cardamom (Sha Ren) (sha ren)"）。静态校验查不出的 bug：标题拼接重复、数据字段冲突、内容显示异常。**
+
+### 核心规则
+
+- **新增任何动态渲染页面（药材、症状、wellness 等），提交前必须本地 `pnpm dev` 启动并用 curl 抓取实际 HTML**
+- 检查项：
+  - `<title>` 是否正确（无重复、无截断）
+  - `<link rel="canonical">` 是否正确
+  - JSON-LD 是否输出
+  - 图片路径是否能加载（检查 HTML 里 image src）
+  - 关键内容是否渲染（不能是空白）
+- `verify-pages` 和 `pnpm build` 是必要条件，但**不是充分条件**
+
+---
+
 ## 项目概况
 
 - **单一代码库**：Next.js 16 + React 19 + Tailwind 4 + pnpm
