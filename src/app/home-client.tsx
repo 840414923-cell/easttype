@@ -61,7 +61,7 @@ const TESTIMONIALS = [
 
 const LIBRARY = [
   { num: "70", label: "Symptom Guides", items: ["Always Tired", "Wake at 3 AM", "Brain Fog", "Night Sweats", "Cold Hands", "Anxious", "Bloated", "Crave Sweets", "Dark Circles", "Joint Pain"], link: "/symptoms" },
-  { num: "119", label: "Herb Profiles", items: ["Ginseng", "Goji", "Astragalus", "Dong Quai", "Rehmannia", "Chrysanthemum", "Deer Antler", "Reishi", "Turmeric", "Jasmine"], link: "/herbs" },
+  { num: "122", label: "Herb Profiles", items: ["Ginseng", "Goji", "Astragalus", "Dong Quai", "Rehmannia", "Chrysanthemum", "Deer Antler", "Reishi", "Turmeric", "Jasmine"], link: "/herbs" },
   { num: "53", label: "Wellness Articles", items: ["Spleen Qi Deficiency", "Kidney Yin Deficiency", "Liver Qi Stagnation", "Yin and Yang", "Five Elements", "What is Qi", "Meridians", "TCM Diet", "Body Clock", "Face Mapping"], link: "/wellness" },
 ]
 

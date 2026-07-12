@@ -115,6 +115,19 @@ const WELLNESS_LINKS: Record<string, { title: string; description: string; slug:
   "senna-leaf-fan-xie-ye": [
     { title: "Chinese Medicine for Constipation", description: "How TCM understands constipation and the foods that may support regularity.", slug: "chinese-medicine-for-constipation" },
   ],
+  "albizzia-flower-he-huan-hua": [
+    { title: "Chinese Medicine for Anxiety", description: "How TCM views anxiety through the lens of stuck Liver energy and what may help.", slug: "chinese-medicine-for-anxiety" },
+    { title: "Chinese Medicine for Insomnia", description: "Why the mind races at night and the calming approaches TCM suggests.", slug: "chinese-medicine-for-insomnia" },
+    { title: "Chinese Medicine for Depression", description: "A TCM perspective on low mood and the patterns behind emotional heaviness.", slug: "chinese-medicine-for-depression" },
+  ],
+  "cardamom-sha-ren": [
+    { title: "Chinese Medicine for Digestion", description: "How TCM sees the digestive fire and the herbs that may support it.", slug: "chinese-medicine-for-digestion" },
+    { title: "Chinese Medicine for Bloating", description: "Why meals sit heavy and what TCM suggests for a sluggish stomach.", slug: "chinese-medicine-for-bloating" },
+  ],
+  "gynostemma-jiao-gu-lan": [
+    { title: "Chinese Herbs for Energy", description: "A guide to the herbs TCM uses to gently rebuild depleted energy reserves.", slug: "chinese-herbs-for-energy" },
+    { title: "Chinese Medicine for Fatigue", description: "Why you feel drained and the TCM patterns that may be behind it.", slug: "chinese-medicine-for-fatigue" },
+  ],
 }
 
 const CATEGORY_COLOR: Record<string, string> = {
