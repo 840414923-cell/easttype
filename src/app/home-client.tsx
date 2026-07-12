@@ -67,32 +67,59 @@ const LIBRARY = [
 
 function NewsletterForm() {
   const [email, setEmail] = useState("")
-  const [done, setDone] = useState(false)
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle")
 
-  if (done) {
-    return <p className="text-white/80 text-sm">Thank you! Check your inbox to confirm.</p>
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!email.trim()) return
+    setStatus("loading")
+    try {
+      const res = await fetch("/api/lead-magnet", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email.trim(), source: "homepage" }),
+      })
+      if (res.ok) {
+        setStatus("success")
+        setEmail("")
+      } else {
+        setStatus("error")
+      }
+    } catch {
+      setStatus("error")
+    }
+  }
+
+  if (status === "success") {
+    return <p className="text-white/80 text-sm">Check your inbox. Your body type guide is on its way.</p>
   }
 
   return (
-    <form
-      onSubmit={(e) => { e.preventDefault(); if (email.trim()) setDone(true) }}
-      className="flex gap-2 max-w-sm mx-auto"
-    >
-      <input
-        type="email"
-        required
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        placeholder="your@email.com"
-        className="flex-1 px-4 py-3 rounded-full text-sm bg-white/10 border border-white/20 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
-      />
-      <button
-        type="submit"
-        className="px-5 py-3 rounded-full text-sm font-semibold bg-white text-[#A63A3A] hover:shadow-lg transition-all whitespace-nowrap"
+    <>
+      <form
+        onSubmit={handleSubmit}
+        className="flex gap-2 max-w-sm mx-auto"
       >
-        Subscribe
-      </button>
-    </form>
+        <input
+          type="email"
+          required
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="your@email.com"
+          className="flex-1 px-4 py-3 rounded-full text-sm bg-white/10 border border-white/20 text-white placeholder:text-white/40 focus:outline-none focus:border-white/40 transition-colors"
+        />
+        <button
+          type="submit"
+          disabled={status === "loading"}
+          className="px-5 py-3 rounded-full text-sm font-semibold bg-white text-[#A63A3A] hover:shadow-lg transition-all whitespace-nowrap disabled:opacity-50"
+        >
+          {status === "loading" ? "..." : "Subscribe"}
+        </button>
+      </form>
+      {status === "error" && (
+        <p className="text-white/60 text-xs mt-3 text-center">Something went wrong. Please try again.</p>
+      )}
+    </>
   )
 }
 
@@ -448,7 +475,7 @@ export default function HomeClient() {
             </Link>
             <p className="text-white/60 text-xs mt-3">5 min &middot; No sign-up &middot; Free results</p>
             <div className="mt-10 pt-8 border-t border-white/15 max-w-md mx-auto">
-              <p className="text-white/60 text-xs mb-4 uppercase tracking-wider">Get weekly tips for your body type</p>
+              <p className="text-white/60 text-xs mb-4 uppercase tracking-wider">Get our 9 body types guide + monthly insights</p>
               <NewsletterForm />
             </div>
           </div>

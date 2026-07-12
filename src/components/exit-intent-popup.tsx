@@ -332,7 +332,7 @@ export function ExitIntentPopup() {
               </h2>
 
               <p className="text-sm mb-6" style={{ color: "var(--color-text2)", lineHeight: 1.6 }}>
-                Download your free 10 foods guide below.
+                Download your free 10 foods guide below. We've also sent a body type guide to your inbox.
               </p>
 
               <button

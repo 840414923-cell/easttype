@@ -1,4 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server"
+import { sendWelcomeEmail } from "@/lib/emails/welcome-email"
 
 export const runtime = "nodejs"
 
@@ -34,6 +35,9 @@ export async function POST(request: NextRequest) {
 
     const normalizedEmail = email.trim().toLowerCase()
 
+    const existed = await redis.sismember("lead:emails", normalizedEmail)
+    const isNew = existed === 0
+
     await redis.sadd("lead:emails", normalizedEmail)
 
     await redis.set(
@@ -42,10 +46,25 @@ export async function POST(request: NextRequest) {
         email: normalizedEmail,
         source: source || "exit-intent-popup",
         timestamp: new Date().toISOString(),
+        welcomeSent: isNew ? "pending" : "existing",
       })
     )
 
-    return NextResponse.json({ success: true })
+    if (isNew) {
+      const result = await sendWelcomeEmail(normalizedEmail)
+      await redis.set(
+        `lead:${normalizedEmail}`,
+        JSON.stringify({
+          email: normalizedEmail,
+          source: source || "exit-intent-popup",
+          timestamp: new Date().toISOString(),
+          welcomeSent: result.success ? "sent" : "failed",
+          welcomeError: result.success ? undefined : result.error,
+        })
+      )
+    }
+
+    return NextResponse.json({ success: true, welcomeEmail: isNew ? "sent" : "skipped" })
   } catch (err: any) {
     return NextResponse.json({ error: `${err?.message || err}` }, { status: 500 })
   }

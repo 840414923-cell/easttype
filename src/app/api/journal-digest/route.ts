@@ -18,21 +18,10 @@ export async function GET(request: Request) {
     })
 
     const allEmails = await redis.smembers("lead:emails")
-    const emailList: string[] = Array.isArray(allEmails) ? allEmails : []
-
-    const journalEmails: string[] = []
-    for (const email of emailList) {
-      const data = await redis.get(`lead:${email}`)
-      if (data) {
-        const record = typeof data === "string" ? JSON.parse(data) : data
-        if (record.source === "journal") {
-          journalEmails.push(email)
-        }
-      }
-    }
+    const journalEmails: string[] = Array.isArray(allEmails) ? allEmails : []
 
     if (journalEmails.length === 0) {
-      return NextResponse.json({ message: "No journal subscribers" })
+      return NextResponse.json({ message: "No subscribers" })
     }
 
     const url = new URL(request.url)

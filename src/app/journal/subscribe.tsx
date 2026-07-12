@@ -31,7 +31,7 @@ export default function JournalSubscribe() {
     return (
       <section className="mt-12 border border-accent/20 rounded-2xl p-8 text-center bg-accent/5">
         <p className="text-text font-medium text-sm">
-          You are subscribed. Watch your inbox for our monthly journal digest.
+          Your welcome email is on its way, plus a monthly digest starting next month.
         </p>
       </section>
     )
