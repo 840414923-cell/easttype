@@ -5711,7 +5711,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ren-shen-pian-hong-shen-pian",
+    "slug": "hong-shen-pian",
     "nameEn": "Red Ginseng Slice (Hong Shen Pian)",
     "nameZh": "hong shen pian",
     "nameZhTrad": "紅參片",
@@ -5759,7 +5759,7 @@
         "a": "Red ginseng may affect blood pressure. Consult your doctor if you have hypertension before use."
       }
     ],
-    "image": "/images/herbs/ren-shen-pian-hong-shen-pian.jpg",
+    "image": "/images/herbs/hong-shen-pian.jpg",
     "botanicalName": "Panax ginseng C.A. Mey. (steamed)",
     "therapeuticFocus": [
       "Energy Support",
@@ -7984,7 +7984,7 @@
     "safetyRating": "Use with caution"
   },
   {
-    "slug": "huo-xiang-guang-huo-xiang",
+    "slug": "guang-huo-xiang",
     "nameEn": "Patchouli (Guang Huo Xiang)",
     "nameZh": "guang huo xiang",
     "nameZhTrad": "廣藿香",
@@ -8032,7 +8032,7 @@
         "a": "Steep 5g of dried leaves in hot water for 10 minutes. It has a pleasant aromatic flavor, often combined with ginger."
       }
     ],
-    "image": "/images/herbs/huo-xiang-guang-huo-xiang.jpg",
+    "image": "/images/herbs/guang-huo-xiang.jpg",
     "botanicalName": "Pogostemon cablin (Blanco) Benth.",
     "therapeuticFocus": [
       "Digestive Health",

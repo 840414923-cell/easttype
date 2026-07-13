@@ -808,7 +808,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         ingredients: [
           { nameEn: "Aged Tangerine Peel", nameZh: "\u9648\u76ae", amount: "5g (about 2 small pieces)", role: "Primary", why: "The signature herb for regulating Qi and supporting digestion. Aged tangerine peel moves stuck energy in the digestive tract and prevents food from sitting and fermenting.", herbSlug: "dried-tangerine-chen-pi" },
           { nameEn: "Hawthorn (Shan Zha)", nameZh: "\u5c71\u69d0", amount: "10g (about 8-10 dried berries)", role: "Support", why: "Helps digest fats and heavy foods. In TCM, hawthorn is the go-to herb for food stagnation, especially from meat and rich meals.", herbSlug: "shan-zha" },
-          { nameEn: "Patchouli (Guang Huo Xiang)", nameZh: "\u5e7f\u85ff\u9999", amount: "3g (about 1 small pinch)", role: "Harmony", why: "Transforms dampness and harmonizes the middle. Patchouli helps settle the stomach when stress has disrupted its normal rhythm.", herbSlug: "huo-xiang-guang-huo-xiang" },
+          { nameEn: "Patchouli (Guang Huo Xiang)", nameZh: "\u5e7f\u85ff\u9999", amount: "3g (about 1 small pinch)", role: "Harmony", why: "Transforms dampness and harmonizes the middle. Patchouli helps settle the stomach when stress has disrupted its normal rhythm.", herbSlug: "guang-huo-xiang" },
         ],
         preparationSteps: [
           "Rinse all ingredients briefly under cool water.",

@@ -470,6 +470,16 @@ const nextConfig: NextConfig = {
         destination: "/herbs/guang-chen-pi",
         permanent: true,
       },
+      {
+        source: "/herbs/ren-shen-pian-hong-shen-pian",
+        destination: "/herbs/hong-shen-pian",
+        permanent: true,
+      },
+      {
+        source: "/herbs/huo-xiang-guang-huo-xiang",
+        destination: "/herbs/guang-huo-xiang",
+        permanent: true,
+      },
     ];
   },
 };
