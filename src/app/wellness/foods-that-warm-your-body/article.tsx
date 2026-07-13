@@ -267,7 +267,7 @@ export default function FoodsThatWarmArticle() {
         </p>
         <div className="space-y-3">
           <Link
-            href="/wellness/cold-hands-and-feet"
+            href="/symptoms/why-am-i-always-cold"
             className="block bg-cream/30 border border-border rounded-xl p-4 hover:border-accent/40 transition-colors no-underline"
           >
             <h3 className="text-sm font-semibold text-text mb-1">
@@ -278,7 +278,7 @@ export default function FoodsThatWarmArticle() {
             </p>
           </Link>
           <Link
-            href="/wellness/why-am-i-always-tired"
+            href="/symptoms/why-am-i-always-tired"
             className="block bg-cream/30 border border-border rounded-xl p-4 hover:border-accent/40 transition-colors no-underline"
           >
             <h3 className="text-sm font-semibold text-text mb-1">

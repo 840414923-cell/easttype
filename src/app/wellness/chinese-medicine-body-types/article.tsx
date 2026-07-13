@@ -233,7 +233,7 @@ export default function BodyTypesArticle() {
         </p>
         <div className="space-y-3">
           <Link
-            href="/wellness/insomnia-chinese-medicine"
+            href="/symptoms/why-cant-i-fall-asleep"
             className="block bg-cream/30 border border-border/60 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline"
           >
             <span className="text-text font-medium text-sm">
@@ -244,7 +244,7 @@ export default function BodyTypesArticle() {
             </p>
           </Link>
           <Link
-            href="/wellness/cold-hands-and-feet"
+            href="/symptoms/why-am-i-always-cold"
             className="block bg-cream/30 border border-border/60 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline"
           >
             <span className="text-text font-medium text-sm">
@@ -255,7 +255,7 @@ export default function BodyTypesArticle() {
             </p>
           </Link>
           <Link
-            href="/wellness/anxiety-chinese-medicine"
+            href="/symptoms/why-do-i-feel-anxious"
             className="block bg-cream/30 border border-border/60 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline"
           >
             <span className="text-text font-medium text-sm">

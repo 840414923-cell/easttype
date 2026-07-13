@@ -156,7 +156,7 @@ export default function FoodsForEnergyArticle() {
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">{"Related Articles"}</h2>
         <div className="space-y-3">
-          <Link href="/wellness/why-am-i-always-tired" className="block bg-cream/20 border border-border/50 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline">
+          <Link href="/symptoms/why-am-i-always-tired" className="block bg-cream/20 border border-border/50 rounded-xl p-4 hover:border-accent/40 transition-colors no-underline">
             <span className="font-semibold text-accent text-sm">{"Why Am I Always Tired? A Chinese Medicine Perspective"}</span>
             <p className="text-sm text-text2 mt-1 leading-relaxed">{"Understand the root patterns behind chronic fatigue — and why more sleep alone might not fix it."}</p>
           </Link>
