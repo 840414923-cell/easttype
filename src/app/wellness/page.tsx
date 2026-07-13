@@ -3,8 +3,8 @@ import Link from "next/link"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 import { WellnessList } from "./wellness-list"
 
-const TITLE = "Chinese Medicine Wellness Guides — Body Types, Foods & TCM"
-const DESC = "Free Chinese medicine wellness guides. Understand why you're always tired, always cold, can't sleep, and what to eat for your TCM body type. 3,000 years of wisdom explained in plain English."
+const TITLE = "Chinese Medicine Guides: Body Types, Foods & Natural Health"
+const DESC = "Always tired, cold, or can't sleep? Free Chinese medicine guides explain why in plain English. Find your body type and the foods that may help."
 const URL = "https://www.myeasterntype.com/wellness"
 
 export const metadata: Metadata = {

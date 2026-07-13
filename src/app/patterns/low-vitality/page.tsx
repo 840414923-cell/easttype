@@ -5,15 +5,15 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "low-vitality"
 const URL = `https://www.myeasterntype.com/patterns/${SLUG}`
-const TITLE = "Qi Deficiency (Low Vitality) in Chinese Medicine: Signs & Foods"
-const DESC = "Sleep 8 hours and still exhausted? Your body type might be the reason. Discover which Eastern body pattern causes chronic fatigue and what you can eat to get your energy back."
+const TITLE = "Qi Deficiency: Why You're Always Tired and What to Eat"
+const DESC = "Sleep 8 hours and still exhausted? Qi Deficiency may be why. Learn the signs, which foods may help rebuild your energy, and how it links to your body type."
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESC,
   openGraph: {
     title: TITLE,
-    description: "Sleep 8 hours and still exhausted? Your body type might be the reason. Discover which Eastern pattern causes chronic fatigue.",
+    description: "Sleep 8 hours and still exhausted? Qi Deficiency may be why. Learn the signs and which foods may help rebuild your energy.",
     url: URL,
     type: "article",
     siteName: "EastType",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: TITLE,
-    description: "Sleep 8 hours and still exhausted? Your body type might be the reason.",
+    description: "Sleep 8 hours and still exhausted? Qi Deficiency may be why.",
   },
   alternates: { canonical: URL },
 }

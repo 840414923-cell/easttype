@@ -7,8 +7,8 @@ import { TYPE_VIRAL } from "@/lib/type-viral"
 import SymptomCta from "@/components/symptom-cta"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 
-const TITLE = "Wellness Patterns — Connect Your Symptoms to Your Body Type"
-const DESC = "Explore wellness patterns that bridge everyday symptoms like fatigue, cold sensitivity, and poor sleep with Eastern body types. Understand what your body may be telling you."
+const TITLE = "9 Chinese Medicine Patterns: What Your Symptoms Mean"
+const DESC = "Fatigue, cold hands, poor sleep? Your symptoms may form a pattern. Explore 9 Chinese medicine body patterns and find which one matches what you feel."
 const URL = "https://www.myeasterntype.com/patterns"
 
 export const metadata: Metadata = {
