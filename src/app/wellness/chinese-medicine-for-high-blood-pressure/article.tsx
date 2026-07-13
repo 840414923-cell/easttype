@@ -186,7 +186,7 @@ export default function ChineseMedicineForHighBloodPressureArticle() {
           </table>
         </div>
         <p className="text-text2 text-sm leading-relaxed">
-          Several of these foods overlap with <Link href="/herbs/shan-zha-shan-zha" className="text-accent hover:underline">Hawthorn (shan zha)</Link> and <Link href="/herbs/chrysanthemum-ju-hua" className="text-accent hover:underline">Chrysanthemum (ju hua)</Link>, which have long TCM histories for circulation and Liver heat.
+          Several of these foods overlap with <Link href="/herbs/shan-zha" className="text-accent hover:underline">Hawthorn (shan zha)</Link> and <Link href="/herbs/chrysanthemum-ju-hua" className="text-accent hover:underline">Chrysanthemum (ju hua)</Link>, which have long TCM histories for circulation and Liver heat.
         </p>
       </section>
 
@@ -208,22 +208,22 @@ export default function ChineseMedicineForHighBloodPressureArticle() {
             </thead>
             <tbody className="text-text2">
               <tr className="border-b border-border/50">
-                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/tian-ma-tian-ma" className="text-accent hover:underline">Tian Ma (Gastrodia)</Link></td>
+                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/tian-ma" className="text-accent hover:underline">Tian Ma (Gastrodia)</Link></td>
                 <td className="px-3 py-2">Calms Liver Wind; relieves dizziness and headaches</td>
                 <td className="px-3 py-2">Liver Yang Rising</td>
               </tr>
               <tr className="border-b border-border/50 bg-card-bg/30">
-                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/du-zhong-du-zhong" className="text-accent hover:underline">Du Zhong (Eucommia Bark)</Link></td>
+                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/du-zhong" className="text-accent hover:underline">Du Zhong (Eucommia Bark)</Link></td>
                 <td className="px-3 py-2">Tonifies Kidney Yang and Yin; supports lower back</td>
                 <td className="px-3 py-2">Kidney Yin/Yang Deficiency</td>
               </tr>
               <tr className="border-b border-border/50">
-                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/jue-ming-zi-jue-ming-zi" className="text-accent hover:underline">Jue Ming Zi (Cassia Seed)</Link></td>
+                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/jue-ming-zi" className="text-accent hover:underline">Jue Ming Zi (Cassia Seed)</Link></td>
                 <td className="px-3 py-2">Clears Liver Heat; supports vision and bowel movement</td>
                 <td className="px-3 py-2">Liver Yang Rising</td>
               </tr>
               <tr className="border-b border-border/50 bg-card-bg/30">
-                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/xia-ku-cao-xia-ku-cao" className="text-accent hover:underline">Xia Ku Cao (Prunella)</Link></td>
+                <td className="px-3 py-2 font-medium text-text"><Link href="/herbs/xia-ku-cao" className="text-accent hover:underline">Xia Ku Cao (Prunella)</Link></td>
                 <td className="px-3 py-2">Clears Liver Fire; reduces nodules and swelling</td>
                 <td className="px-3 py-2">Liver Yang Rising</td>
               </tr>
@@ -251,7 +251,7 @@ export default function ChineseMedicineForHighBloodPressureArticle() {
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Excess salt.</strong> In TCM, salt is cold and can injure Kidney function when overused. It also retains fluids, which increases pressure.</span></li>
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Alcohol.</strong> Heating and damp-forming. Regular drinking adds fuel to Liver fire and worsens both Liver Yang Rising and Phlegm patterns.</span></li>
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Spicy and fried foods.</strong> Chili, heavy curries, and deep-fried dishes generate internal heat that feeds the upward surge.</span></li>
-          <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Coffee in excess.</strong> Strong coffee stimulates the Liver and can raise tension and heart rate. Switch to chrysanthemum or <Link href="/herbs/jue-ming-zi-jue-ming-zi" className="text-accent hover:underline">cassia seed tea</Link> as a gentler alternative.</span></li>
+          <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Coffee in excess.</strong> Strong coffee stimulates the Liver and can raise tension and heart rate. Switch to chrysanthemum or <Link href="/herbs/jue-ming-zi" className="text-accent hover:underline">cassia seed tea</Link> as a gentler alternative.</span></li>
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Fatty meats and processed foods.</strong> These create damp phlegm that thickens the blood and slows circulation.</span></li>
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">{'\u2022'}</span><span><strong className="text-text">Smoking.</strong> Tobacco introduces heat and toxins into the blood, contributing to blood stasis over time.</span></li>
         </ul>

@@ -1903,7 +1903,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "gan-cao-gan-cao",
+    "slug": "gan-cao",
     "nameEn": "Licorice Root",
     "nameZh": "gan cao",
     "nameZhTrad": "甘草",
@@ -1951,7 +1951,7 @@
         "a": "It harmonizes other herbs, reducing side effects. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/gan-cao-gan-cao.jpg",
+    "image": "/images/herbs/gan-cao.jpg",
     "botanicalName": "Glycyrrhiza uralensis Fisch.",
     "therapeuticFocus": [
       "Energy Support",
@@ -1994,7 +1994,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "huang-jing-huang-jing",
+    "slug": "huang-jing",
     "nameEn": "Solomon Seal (Huang Jing)",
     "nameZh": "huang jing",
     "nameZhTrad": "黄精",
@@ -2042,7 +2042,7 @@
         "a": "No, different Polygonatum species with different uses. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/huang-jing-huang-jing.jpg",
+    "image": "/images/herbs/huang-jing.jpg",
     "botanicalName": "Polygonatum sibiricum Redoute",
     "therapeuticFocus": [
       "Energy Support",
@@ -2085,7 +2085,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "mai-dong-mai-dong",
+    "slug": "mai-dong",
     "nameEn": "Ophiopogon (Mai Dong)",
     "nameZh": "mai dong",
     "nameZhTrad": "麦冬",
@@ -2132,7 +2132,7 @@
         "a": "Soak briefly, simmer in tea 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/mai-dong-mai-dong.jpg",
+    "image": "/images/herbs/mai-dong.jpg",
     "botanicalName": "Ophiopogon japonicus (Thunb.) Ker-Gawl.",
     "therapeuticFocus": [
       "Sleep Support",
@@ -2175,7 +2175,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "yu-zhu-yu-zhu",
+    "slug": "yu-zhu",
     "nameEn": "Solomon Seal (Yu Zhu)",
     "nameZh": "yu zhu",
     "nameZhTrad": "玉竹",
@@ -2222,7 +2222,7 @@
         "a": "Add to pork soup, simmer 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/yu-zhu-yu-zhu.jpg",
+    "image": "/images/herbs/yu-zhu.jpg",
     "botanicalName": "Polygonatum odoratum (Mill.) Druce",
     "therapeuticFocus": [
       "Sleep Support",
@@ -2265,7 +2265,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "shi-hu-shi-hu",
+    "slug": "shi-hu",
     "nameEn": "Dendrobium (Shi Hu)",
     "nameZh": "shi hu",
     "nameZhTrad": "石斛",
@@ -2312,7 +2312,7 @@
         "a": "Premium grows slowly, hand-harvested. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shi-hu-shi-hu.jpg",
+    "image": "/images/herbs/shi-hu.jpg",
     "botanicalName": "Dendrobium nobile Lindl.",
     "therapeuticFocus": [
       "Sleep Support",
@@ -2355,7 +2355,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "tian-ma-tian-ma",
+    "slug": "tian-ma",
     "nameEn": "Gastrodia (Tian Ma)",
     "nameZh": "tian ma",
     "nameZhTrad": "天麻",
@@ -2403,7 +2403,7 @@
         "a": "Best as needed, not daily long-term. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/tian-ma-tian-ma.jpg",
+    "image": "/images/herbs/tian-ma.jpg",
     "botanicalName": "Gastrodia elata Blume",
     "therapeuticFocus": [
       "Sleep Support",
@@ -2446,7 +2446,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "he-shou-wu-he-shou-wu",
+    "slug": "he-shou-wu",
     "nameEn": "Fo-Ti (He Shou Wu)",
     "nameZh": "he shou wu",
     "nameZhTrad": "何首乌",
@@ -2494,7 +2494,7 @@
         "a": "2-3 months of consistent use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/he-shou-wu-he-shou-wu.jpg",
+    "image": "/images/herbs/he-shou-wu.jpg",
     "botanicalName": "Polygonum multiflorum Thunb.",
     "therapeuticFocus": [
       "Women Health",
@@ -2537,7 +2537,7 @@
     "safetyRating": "Use with caution"
   },
   {
-    "slug": "du-zhong-du-zhong",
+    "slug": "du-zhong",
     "nameEn": "Eucommia Bark (Du Zhong)",
     "nameZh": "du zhong",
     "nameZhTrad": "杜仲",
@@ -2584,7 +2584,7 @@
         "a": "Simmer in pork spine soup 1-2 hours. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/du-zhong-du-zhong.jpg",
+    "image": "/images/herbs/du-zhong.jpg",
     "botanicalName": "Eucommia ulmoides Oliv.",
     "therapeuticFocus": [
       "Cold Sensitivity",
@@ -2627,7 +2627,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "rou-cong-rong-rou-cong-rong",
+    "slug": "rou-cong-rong",
     "nameEn": "Cistanche (Rou Cong Rong)",
     "nameZh": "rou cong rong",
     "nameZhTrad": "肉苁蓉",
@@ -2675,7 +2675,7 @@
         "a": "Yes, moistens intestines for Yang-deficient constipation. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/rou-cong-rong-rou-cong-rong.jpg",
+    "image": "/images/herbs/rou-cong-rong.jpg",
     "botanicalName": "Cistanche deserticola Y.C. Ma",
     "therapeuticFocus": [
       "Cold Sensitivity",
@@ -2718,7 +2718,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "yin-yang-huo-yin-yang-huo",
+    "slug": "yin-yang-huo",
     "nameEn": "Horny Goat Weed (Yin Yang Huo)",
     "nameZh": "yin yang huo",
     "nameZhTrad": "淫羊藿",
@@ -2765,7 +2765,7 @@
         "a": "Use under practitioner guidance. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/yin-yang-huo-yin-yang-huo.jpg",
+    "image": "/images/herbs/yin-yang-huo.jpg",
     "botanicalName": "Epimedium brevicornu Maxim.",
     "therapeuticFocus": [
       "Cold Sensitivity",
@@ -2808,7 +2808,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ba-ji-tian-ba-ji-tian",
+    "slug": "ba-ji-tian",
     "nameEn": "Morinda (Ba Ji Tian)",
     "nameZh": "ba ji tian",
     "nameZhTrad": "巴戟天",
@@ -2855,7 +2855,7 @@
         "a": "Simmer in chicken or lamb soup 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ba-ji-tian-ba-ji-tian.jpg",
+    "image": "/images/herbs/ba-ji-tian.jpg",
     "botanicalName": "Morinda officinalis How",
     "therapeuticFocus": [
       "Cold Sensitivity",
@@ -2898,7 +2898,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "xuan-shen-xuan-shen",
+    "slug": "xuan-shen",
     "nameEn": "Red Ginseng (Xuan Shen)",
     "nameZh": "xuan shen",
     "nameZhTrad": "玄参",
@@ -2946,7 +2946,7 @@
         "a": "Simmer in tea or soup 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/xuan-shen-xuan-shen.jpg",
+    "image": "/images/herbs/xuan-shen.jpg",
     "botanicalName": "Scrophularia ningpoensis Hemsl.",
     "therapeuticFocus": [
       "Sleep Support",
@@ -2989,7 +2989,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "dang-shen-dang-shen",
+    "slug": "dang-shen",
     "nameEn": "Codonopsis (Dang Shen)",
     "nameZh": "dang shen",
     "nameZhTrad": "党参",
@@ -3036,7 +3036,7 @@
         "a": "Add to chicken soup or congee, simmer 30 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/dang-shen-dang-shen.jpg",
+    "image": "/images/herbs/dang-shen.jpg",
     "botanicalName": "Codonopsis pilosula (Franch.) Nannf.",
     "therapeuticFocus": [
       "Energy Support",
@@ -3079,7 +3079,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "bai-zhu-bai-zhu",
+    "slug": "bai-zhu",
     "nameEn": "Atractylodes (Bai Zhu)",
     "nameZh": "bai zhu",
     "nameZhTrad": "白术",
@@ -3127,7 +3127,7 @@
         "a": "Simmer in soup with poria and red dates. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/bai-zhu-bai-zhu.jpg",
+    "image": "/images/herbs/bai-zhu.jpg",
     "botanicalName": "Atractylodes macrocephala Koidz.",
     "therapeuticFocus": [
       "Energy Support",
@@ -3170,7 +3170,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "bai-shao-bai-shao",
+    "slug": "bai-shao",
     "nameEn": "White Peony (Bai Shao)",
     "nameZh": "bai shao",
     "nameZhTrad": "白芍",
@@ -3218,7 +3218,7 @@
         "a": "Simmer with dong quai and red dates in chicken soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/bai-shao-bai-shao.jpg",
+    "image": "/images/herbs/bai-shao.jpg",
     "botanicalName": "Paeonia lactiflora Pall.",
     "therapeuticFocus": [
       "Women Health",
@@ -3261,7 +3261,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "shu-di-huang-shu-di-huang",
+    "slug": "shu-di-huang",
     "nameEn": "Prepared Rehmannia (Shu Di Huang)",
     "nameZh": "shu di huang",
     "nameZhTrad": "熟地黄",
@@ -3309,7 +3309,7 @@
         "a": "Simmer in soup with goji and red dates for 1 hour. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shu-di-huang-shu-di-huang.jpg",
+    "image": "/images/herbs/shu-di-huang.jpg",
     "botanicalName": "Rehmannia glutinosa (processed) Libosch.",
     "therapeuticFocus": [
       "Women Health",
@@ -3352,7 +3352,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "e-jiao-e-jiao",
+    "slug": "e-jiao",
     "nameEn": "Donkey-Hide Gelatin (E Jiao)",
     "nameZh": "e jiao",
     "nameZhTrad": "阿胶",
@@ -3400,7 +3400,7 @@
         "a": "Dissolve in warm water or rice wine, or melt into soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/e-jiao-e-jiao.jpg",
+    "image": "/images/herbs/e-jiao.jpg",
     "botanicalName": "Equus asinus L. (colla corii asini)",
     "therapeuticFocus": [
       "Women Health",
@@ -3443,7 +3443,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ling-zhi-ling-zhi",
+    "slug": "ling-zhi",
     "nameEn": "Reishi Mushroom (Ling Zhi)",
     "nameZh": "ling zhi",
     "nameZhTrad": "灵芝",
@@ -3491,7 +3491,7 @@
         "a": "Yes, reishi tea is safe for daily use in moderate amounts. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ling-zhi-ling-zhi.jpg",
+    "image": "/images/herbs/ling-zhi.jpg",
     "botanicalName": "Ganoderma lucidum (Leyss. ex Fr.) Karst.",
     "therapeuticFocus": [
       "Sleep Support",
@@ -3534,7 +3534,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "sang-ye-sang-ye",
+    "slug": "sang-ye",
     "nameEn": "Mulberry Leaf (Sang Ye)",
     "nameZh": "sang ye",
     "nameZhTrad": "桑叶",
@@ -3582,7 +3582,7 @@
         "a": "Steep as tea, or add to soup. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/sang-ye-sang-ye.jpg",
+    "image": "/images/herbs/sang-ye.jpg",
     "botanicalName": "Morus alba L.",
     "therapeuticFocus": [
       "Heat Relief",
@@ -3625,7 +3625,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "jue-ming-zi-jue-ming-zi",
+    "slug": "jue-ming-zi",
     "nameEn": "Cassia Seed (Jue Ming Zi)",
     "nameZh": "jue ming zi",
     "nameZhTrad": "决明子",
@@ -3673,7 +3673,7 @@
         "a": "Roast lightly, then steep as tea. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/jue-ming-zi-jue-ming-zi.jpg",
+    "image": "/images/herbs/jue-ming-zi.jpg",
     "botanicalName": "Cassia obtusifolia L.",
     "therapeuticFocus": [
       "Heat Relief",
@@ -3716,7 +3716,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ban-lan-gen-ban-lan-gen",
+    "slug": "ban-lan-gen",
     "nameEn": "Isatis Root (Ban Lan Gen)",
     "nameZh": "ban lan gen",
     "nameZhTrad": "板蓝根",
@@ -3763,7 +3763,7 @@
         "a": "No, too cold for daily use. Use short-term only. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ban-lan-gen-ban-lan-gen.jpg",
+    "image": "/images/herbs/ban-lan-gen.jpg",
     "botanicalName": "Isatis indigotica Fort.",
     "therapeuticFocus": [
       "Heat Relief",
@@ -3806,7 +3806,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "lian-qiao-lian-qiao",
+    "slug": "lian-qiao",
     "nameEn": "Forsythia (Lian Qiao)",
     "nameZh": "lian qiao",
     "nameZhTrad": "连翘",
@@ -3853,7 +3853,7 @@
         "a": "No, short-term for acute conditions only. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/lian-qiao-lian-qiao.jpg",
+    "image": "/images/herbs/lian-qiao.jpg",
     "botanicalName": "Forsythia suspensa (Thunb.) Vahl",
     "therapeuticFocus": [
       "Heat Relief",
@@ -3896,7 +3896,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zhi-mu-zhi-mu",
+    "slug": "zhi-mu",
     "nameEn": "Anemarrhena (Zhi Mu)",
     "nameZh": "zhi mu",
     "nameZhTrad": "知母",
@@ -3944,7 +3944,7 @@
         "a": "Simmer in tea or soup for 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/zhi-mu-zhi-mu.jpg",
+    "image": "/images/herbs/zhi-mu.jpg",
     "botanicalName": "Anemarrhena asphodeloides Bunge",
     "therapeuticFocus": [
       "Sleep Support",
@@ -3987,7 +3987,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "che-qian-zi-che-qian-zi",
+    "slug": "che-qian-zi",
     "nameEn": "Plantain Seed (Che Qian Zi)",
     "nameZh": "che qian zi",
     "nameZhTrad": "车前子",
@@ -4035,7 +4035,7 @@
         "a": "Wrap in cloth bag, simmer in tea 20 min. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/che-qian-zi-che-qian-zi.jpg",
+    "image": "/images/herbs/che-qian-zi.jpg",
     "botanicalName": "Plantago asiatica L.",
     "therapeuticFocus": [
       "Water Retention",
@@ -4078,7 +4078,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "di-gu-pi-di-gu-pi",
+    "slug": "di-gu-pi",
     "nameEn": "Wolfberry Bark (Di Gu Pi)",
     "nameZh": "di gu pi",
     "nameZhTrad": "地骨皮",
@@ -4125,7 +4125,7 @@
         "a": "Simmer in tea or soup for 20 minutes. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/di-gu-pi-di-gu-pi.jpg",
+    "image": "/images/herbs/di-gu-pi.jpg",
     "botanicalName": "Lycium chinense Mill.",
     "therapeuticFocus": [
       "Heat Relief",
@@ -4168,7 +4168,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "shan-zha-shan-zha",
+    "slug": "shan-zha",
     "nameEn": "Hawthorn (Shan Zha)",
     "nameZh": "shan zha",
     "nameZhTrad": "山楂",
@@ -4216,7 +4216,7 @@
         "a": "In moderation as tea or snack, yes for most people. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/shan-zha-shan-zha.jpg",
+    "image": "/images/herbs/shan-zha.jpg",
     "botanicalName": "Crataegus pinnatifida Bunge",
     "therapeuticFocus": [
       "Stress Relief",
@@ -4259,7 +4259,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "suan-zao-ren-suan-zao-ren",
+    "slug": "suan-zao-ren",
     "nameEn": "Sour Jujube Seed (Suan Zao Ren)",
     "nameZh": "suan zao ren",
     "nameZhTrad": "酸枣仁",
@@ -4307,7 +4307,7 @@
         "a": "Generally safe but consult a practitioner for extended use. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/suan-zao-ren-suan-zao-ren.jpg",
+    "image": "/images/herbs/suan-zao-ren.jpg",
     "botanicalName": "Ziziphus jujuba Mill. var. spinosa",
     "therapeuticFocus": [
       "Sleep Support",
@@ -4350,7 +4350,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "wu-wei-zi-wu-wei-zi",
+    "slug": "wu-wei-zi",
     "nameEn": "Schisandra (Wu Wei Zi)",
     "nameZh": "wu wei zi",
     "nameZhTrad": "五味子",
@@ -4398,7 +4398,7 @@
         "a": "Yes, wu wei zi astringes and may reduce excessive sweating. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/wu-wei-zi-wu-wei-zi.jpg",
+    "image": "/images/herbs/wu-wei-zi.jpg",
     "botanicalName": "Schisandra chinensis (Turcz.) Baill.",
     "therapeuticFocus": [
       "Energy Support",
@@ -4441,7 +4441,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ze-xie-ze-xie",
+    "slug": "ze-xie",
     "nameEn": "Alisma (Ze Xie)",
     "nameZh": "ze xie",
     "nameZhTrad": "泽泻",
@@ -4489,7 +4489,7 @@
         "a": "Short-term is fine. Not for long-term without guidance. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/ze-xie-ze-xie.jpg",
+    "image": "/images/herbs/ze-xie.jpg",
     "botanicalName": "Alisma plantago-aquatica L. var. orientale",
     "therapeuticFocus": [
       "Water Retention",
@@ -4532,7 +4532,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zhu-ling-zhu-ling",
+    "slug": "zhu-ling",
     "nameEn": "Polyporus (Zhu Ling)",
     "nameZh": "zhu ling",
     "nameZhTrad": "猪苓",
@@ -4579,7 +4579,7 @@
         "a": "Generally safe for short-term use in damp patterns. In Chinese medicine, herbs are selected based on your individual pattern rather than used universally. The effects depend on your body type, current symptoms, and constitution. Take our free body type quiz to understand which herbs may suit you best."
       }
     ],
-    "image": "/images/herbs/zhu-ling-zhu-ling.jpg",
+    "image": "/images/herbs/zhu-ling.jpg",
     "botanicalName": "Polyporus umbellatus (Pers.) Fries",
     "therapeuticFocus": [
       "Water Retention",
@@ -4622,7 +4622,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "chai-hu-chai-hu",
+    "slug": "chai-hu",
     "nameEn": "Bupleurum (Chai Hu)",
     "nameZh": "chai hu",
     "nameZhTrad": "柴胡",
@@ -4669,7 +4669,7 @@
         "a": "Chai hu is typically used in formulas rather than alone, for limited periods. Consult a qualified practitioner for extended use."
       }
     ],
-    "image": "/images/herbs/chai-hu-chai-hu.jpg",
+    "image": "/images/herbs/chai-hu.jpg",
     "botanicalName": "Bupleurum chinense DC.",
     "therapeuticFocus": [
       "Stress Relief",
@@ -4712,7 +4712,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "dan-shen-dan-shen",
+    "slug": "dan-shen",
     "nameEn": "Salvia Root (Dan Shen)",
     "nameZh": "dan shen",
     "nameZhTrad": "丹參",
@@ -4760,7 +4760,7 @@
         "a": "Dan shen may interact with blood-thinning medications. Consult your doctor before combining with any prescription drugs."
       }
     ],
-    "image": "/images/herbs/dan-shen-dan-shen.jpg",
+    "image": "/images/herbs/dan-shen.jpg",
     "botanicalName": "Salvia miltiorrhiza Bunge",
     "therapeuticFocus": [
       "Heart Health",
@@ -4803,7 +4803,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "hua-qi-shen-hua-qi-shen",
+    "slug": "hua-qi-shen",
     "nameEn": "American Ginseng (Hua Qi Shen)",
     "nameZh": "hua qi shen",
     "nameZhTrad": "花旗參",
@@ -4851,7 +4851,7 @@
         "a": "Yes, American ginseng gently restores Qi without causing heat buildup. Take the body type quiz to see if Qi deficiency is your pattern."
       }
     ],
-    "image": "/images/herbs/hua-qi-shen-hua-qi-shen.jpg",
+    "image": "/images/herbs/hua-qi-shen.jpg",
     "botanicalName": "Panax quinquefolius L.",
     "therapeuticFocus": [
       "Energy Support",
@@ -4894,7 +4894,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ge-gen-ge-gen",
+    "slug": "ge-gen",
     "nameEn": "Kudzu Root (Ge Gen)",
     "nameZh": "ge gen",
     "nameZhTrad": "葛根",
@@ -4942,7 +4942,7 @@
         "a": "Simmer 10g of ge gen in water for 30 minutes. It has a mild starchy, slightly sweet taste."
       }
     ],
-    "image": "/images/herbs/ge-gen-ge-gen.jpg",
+    "image": "/images/herbs/ge-gen.jpg",
     "botanicalName": "Pueraria lobata (Willd.) Ohwi",
     "therapeuticFocus": [
       "Muscle Relaxation",
@@ -4985,7 +4985,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "gan-jiang-gan-jiang",
+    "slug": "gan-jiang",
     "nameEn": "Dried Ginger (Gan Jiang)",
     "nameZh": "gan jiang",
     "nameZhTrad": "乾薑",
@@ -5033,7 +5033,7 @@
         "a": "Small amounts in cooking are fine for cold types. Avoid if you tend to run hot or have dry conditions."
       }
     ],
-    "image": "/images/herbs/gan-jiang-gan-jiang.jpg",
+    "image": "/images/herbs/gan-jiang.jpg",
     "botanicalName": "Zingiber officinale Roscoe",
     "therapeuticFocus": [
       "Digestive Health",
@@ -5076,7 +5076,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "gao-liang-jiang-gao-liang-jiang",
+    "slug": "gao-liang-jiang",
     "nameEn": "Galangal (Gao Liang Jiang)",
     "nameZh": "gao liang jiang",
     "nameZhTrad": "高良薑",
@@ -5124,7 +5124,7 @@
         "a": "Yes, it is a common spice in Southeast Asian cuisine. Small amounts in soup or curry are fine for cold-type constitutions."
       }
     ],
-    "image": "/images/herbs/gao-liang-jiang-gao-liang-jiang.jpg",
+    "image": "/images/herbs/gao-liang-jiang.jpg",
     "botanicalName": "Alpinia officinarum Hance",
     "therapeuticFocus": [
       "Digestive Health",
@@ -5167,7 +5167,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "sha-shen-sha-shen",
+    "slug": "sha-shen",
     "nameEn": "Glehnia Root (Sha Shen)",
     "nameZh": "sha shen",
     "nameZhTrad": "沙參",
@@ -5214,7 +5214,7 @@
         "a": "Add 10g to pork or chicken soup and simmer 1-2 hours. It pairs well with lily bulb and ophiopogon."
       }
     ],
-    "image": "/images/herbs/sha-shen-sha-shen.jpg",
+    "image": "/images/herbs/sha-shen.jpg",
     "botanicalName": "Glehnia littoralis F. Schmidt ex Miq.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -5257,7 +5257,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "tian-dong-tian-dong",
+    "slug": "tian-dong",
     "nameEn": "Asparagus Root (Tian Dong)",
     "nameZh": "tian dong",
     "nameZhTrad": "天冬",
@@ -5304,7 +5304,7 @@
         "a": "Yes, tian dong generates fluids and is used for Yin deficient dry mouth. Take the quiz to check your type."
       }
     ],
-    "image": "/images/herbs/tian-dong-tian-dong.jpg",
+    "image": "/images/herbs/tian-dong.jpg",
     "botanicalName": "Asparagus cochinchinensis (Lour.) Merr.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -5347,7 +5347,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "shan-zhu-yu-shan-zhu-yu",
+    "slug": "shan-zhu-yu",
     "nameEn": "Asiatic Cornelian Cherry (Shan Zhu Yu)",
     "nameZh": "shan zhu yu",
     "nameZhTrad": "山茱萸",
@@ -5395,7 +5395,7 @@
         "a": "Yes, shan zhu yu comes from the Asiatic cornelian cherry, a relative of dogwood. The dried fruit is used medicinally."
       }
     ],
-    "image": "/images/herbs/shan-zhu-yu-shan-zhu-yu.jpg",
+    "image": "/images/herbs/shan-zhu-yu.jpg",
     "botanicalName": "Cornus officinalis Siebold & Zucc.",
     "therapeuticFocus": [
       "Energy Support",
@@ -5438,7 +5438,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "sha-ji-sha-ji",
+    "slug": "sha-ji",
     "nameEn": "Sea Buckthorn (Sha Ji)",
     "nameZh": "sha ji",
     "nameZhTrad": "沙棘",
@@ -5486,7 +5486,7 @@
         "a": "Yes, moderate daily use as tea is generally safe and provides antioxidants and vitamin C."
       }
     ],
-    "image": "/images/herbs/sha-ji-sha-ji.jpg",
+    "image": "/images/herbs/sha-ji.jpg",
     "botanicalName": "Hippophae rhamnoides L.",
     "therapeuticFocus": [
       "Skin Health",
@@ -5529,7 +5529,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "hong-jing-tian-hong-jing-tian",
+    "slug": "hong-jing-tian",
     "nameEn": "Rhodiola (Hong Jing Tian)",
     "nameZh": "hong jing tian",
     "nameZhTrad": "紅景天",
@@ -5577,7 +5577,7 @@
         "a": "Both are stimulating. Combining may cause overstimulation or insomnia. Consider taking rhodiola in the morning without caffeine."
       }
     ],
-    "image": "/images/herbs/hong-jing-tian-hong-jing-tian.jpg",
+    "image": "/images/herbs/hong-jing-tian.jpg",
     "botanicalName": "Rhodiola crenulata (Hook.f. & Thomson) H.Ohba",
     "therapeuticFocus": [
       "Energy Support",
@@ -5620,7 +5620,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "wu-jia-pi-wu-jia-pi",
+    "slug": "wu-jia-pi",
     "nameEn": "Acanthopanax Bark (Wu Jia Pi)",
     "nameZh": "wu jia pi",
     "nameZhTrad": "五加皮",
@@ -5668,7 +5668,7 @@
         "a": "Yes, wine extraction is a traditional method. Soak 30g in 500ml rice wine for 2 weeks. Take 10-20ml daily."
       }
     ],
-    "image": "/images/herbs/wu-jia-pi-wu-jia-pi.jpg",
+    "image": "/images/herbs/wu-jia-pi.jpg",
     "botanicalName": "Acanthopanax gracilistylus W.W.Sm.",
     "therapeuticFocus": [
       "Joint Support",
@@ -5802,7 +5802,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "tao-jiao-tao-jiao",
+    "slug": "tao-jiao",
     "nameEn": "Peach Gum (Tao Jiao)",
     "nameZh": "tao jiao",
     "nameZhTrad": "桃膠",
@@ -5849,7 +5849,7 @@
         "a": "Peach gum is popular in Chinese beauty traditions for its moisturizing properties. It is rich in plant polysaccharides that may support skin hydration."
       }
     ],
-    "image": "/images/herbs/tao-jiao-tao-jiao.jpg",
+    "image": "/images/herbs/tao-jiao.jpg",
     "botanicalName": "Prunus persica (L.) Batsch (resin)",
     "therapeuticFocus": [
       "Skin Health",
@@ -5892,7 +5892,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "mu-er-mu-er",
+    "slug": "mu-er",
     "nameEn": "Wood Ear Mushroom (Mu Er)",
     "nameZh": "mu er",
     "nameZhTrad": "木耳",
@@ -5940,7 +5940,7 @@
         "a": "Yes, its fiber content and moistening properties may help dry-type constipation. It pairs well with sesame oil for this purpose."
       }
     ],
-    "image": "/images/herbs/mu-er-mu-er.jpg",
+    "image": "/images/herbs/mu-er.jpg",
     "botanicalName": "Auricularia auricula-judae (Bull.) J.Schröt.",
     "therapeuticFocus": [
       "Heart Health",
@@ -5983,7 +5983,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "wu-hua-guo-wu-hua-guo",
+    "slug": "wu-hua-guo",
     "nameEn": "Fig (Wu Hua Guo)",
     "nameZh": "wu hua guo",
     "nameZhTrad": "無花果",
@@ -6031,7 +6031,7 @@
         "a": "Add to pork soup with Chinese yam, or simmer with rock sugar and snow pear for a lung-moistening dessert."
       }
     ],
-    "image": "/images/herbs/wu-hua-guo-wu-hua-guo.jpg",
+    "image": "/images/herbs/wu-hua-guo.jpg",
     "botanicalName": "Ficus carica L.",
     "therapeuticFocus": [
       "Throat Relief",
@@ -6074,7 +6074,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "luo-han-guo-luo-han-guo",
+    "slug": "luo-han-guo",
     "nameEn": "Monk Fruit (Luo Han Guo)",
     "nameZh": "luo han guo",
     "nameZhTrad": "羅漢果",
@@ -6122,7 +6122,7 @@
         "a": "Crack one dried fruit and simmer in 1 liter of water for 20 minutes. The resulting tea can be drunk warm or cold throughout the day."
       }
     ],
-    "image": "/images/herbs/luo-han-guo-luo-han-guo.jpg",
+    "image": "/images/herbs/luo-han-guo.jpg",
     "botanicalName": "Siraitia grosvenorii (Swingle) C.Jeffrey ex A.M.Lu & Zhi Y.Zhang",
     "therapeuticFocus": [
       "Throat Relief",
@@ -6165,7 +6165,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "huang-bo-huang-bo",
+    "slug": "huang-bo",
     "nameEn": "Phellodendron Bark (Huang Bo)",
     "nameZh": "huang bo",
     "nameZhTrad": "黃柏",
@@ -6213,7 +6213,7 @@
         "a": "Yes, huang bo is used in both internal formulas and topical preparations for damp-heat type skin conditions."
       }
     ],
-    "image": "/images/herbs/huang-bo-huang-bo.jpg",
+    "image": "/images/herbs/huang-bo.jpg",
     "botanicalName": "Phellodendron amurense Rupr.",
     "therapeuticFocus": [
       "Digestive Health",
@@ -6256,7 +6256,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "huang-zhi-zi-huang-zhi-zi",
+    "slug": "huang-zhi-zi",
     "nameEn": "Cape Jasmine Fruit (Huang Zhi Zi)",
     "nameZh": "huang zhi zi",
     "nameZhTrad": "黃梔子",
@@ -6304,7 +6304,7 @@
         "a": "Crush 5g of dried fruits and simmer in water for 15 minutes. It has a bitter taste, so add honey if desired."
       }
     ],
-    "image": "/images/herbs/huang-zhi-zi-huang-zhi-zi.jpg",
+    "image": "/images/herbs/huang-zhi-zi.jpg",
     "botanicalName": "Gardenia jasminoides J.Ellis",
     "therapeuticFocus": [
       "Heat Relief",
@@ -6347,7 +6347,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "xia-ku-cao-xia-ku-cao",
+    "slug": "xia-ku-cao",
     "nameEn": "Prunella Spike (Xia Ku Cao)",
     "nameZh": "xia ku cao",
     "nameZhTrad": "夏枯草",
@@ -6395,7 +6395,7 @@
         "a": "Yes, prunella is commonly brewed as a summer cooling tea in southern China, often combined with sugar cane or honey."
       }
     ],
-    "image": "/images/herbs/xia-ku-cao-xia-ku-cao.jpg",
+    "image": "/images/herbs/xia-ku-cao.jpg",
     "botanicalName": "Prunella vulgaris L.",
     "therapeuticFocus": [
       "Eye Health",
@@ -6438,7 +6438,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "yin-chen-yin-chen",
+    "slug": "yin-chen",
     "nameEn": "Capillary Wormwood (Yin Chen)",
     "nameZh": "yin chen",
     "nameZhTrad": "茵陳",
@@ -6485,7 +6485,7 @@
         "a": "In tradition, yin chen is harvested in early spring when the shoots are tender. This is when it is considered most effective for liver conditions."
       }
     ],
-    "image": "/images/herbs/yin-chen-yin-chen.jpg",
+    "image": "/images/herbs/yin-chen.jpg",
     "botanicalName": "Artemisia capillaris Thunb.",
     "therapeuticFocus": [
       "Liver Health",
@@ -6528,7 +6528,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "da-qing-ye-da-qing-ye",
+    "slug": "da-qing-ye",
     "nameEn": "Isatis Leaf (Da Qing Ye)",
     "nameZh": "da qing ye",
     "nameZhTrad": "大青葉",
@@ -6576,7 +6576,7 @@
         "a": "Isatis is used during active heat-toxin conditions. Long-term preventive use is not recommended due to its cold nature."
       }
     ],
-    "image": "/images/herbs/da-qing-ye-da-qing-ye.jpg",
+    "image": "/images/herbs/da-qing-ye.jpg",
     "botanicalName": "Isatis indigotica Fortune",
     "therapeuticFocus": [
       "Immune Support",
@@ -6619,7 +6619,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zhe-er-gen-zhe-er-gen",
+    "slug": "zhe-er-gen",
     "nameEn": "Houttuynia (Zhe Er Gen)",
     "nameZh": "zhe er gen",
     "nameZhTrad": "折耳根",
@@ -6667,7 +6667,7 @@
         "a": "Yes, houttuynia clears Lung heat and resolves phlegm. It is especially useful for yellow phlegm cough. Check your type with the quiz."
       }
     ],
-    "image": "/images/herbs/zhe-er-gen-zhe-er-gen.jpg",
+    "image": "/images/herbs/zhe-er-gen.jpg",
     "botanicalName": "Houttuynia cordata Thunb.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -6710,7 +6710,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ma-chi-xian-ma-chi-xian",
+    "slug": "ma-chi-xian",
     "nameEn": "Purslane (Ma Chi Xian)",
     "nameZh": "ma chi xian",
     "nameZhTrad": "馬齒莧",
@@ -6758,7 +6758,7 @@
         "a": "Lightly blanch and dress with garlic and sesame oil, or add to soups. The leaves are slightly tangy and crunchy."
       }
     ],
-    "image": "/images/herbs/ma-chi-xian-ma-chi-xian.jpg",
+    "image": "/images/herbs/ma-chi-xian.jpg",
     "botanicalName": "Portulaca oleracea L.",
     "therapeuticFocus": [
       "Skin Health",
@@ -6801,7 +6801,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "lu-hui-lu-hui",
+    "slug": "lu-hui",
     "nameEn": "Aloe (Lu Hui)",
     "nameZh": "lu hui",
     "nameZhTrad": "蘆薈",
@@ -6849,7 +6849,7 @@
         "a": "Yes, aloe has a strong laxative effect for heat-type constipation. Use sparingly and do not take long-term."
       }
     ],
-    "image": "/images/herbs/lu-hui-lu-hui.jpg",
+    "image": "/images/herbs/lu-hui.jpg",
     "botanicalName": "Aloe vera (L.) Burm.f.",
     "therapeuticFocus": [
       "Skin Health",
@@ -6892,7 +6892,7 @@
     "safetyRating": "Use with caution"
   },
   {
-    "slug": "chuan-bei-chuan-bei",
+    "slug": "chuan-bei",
     "nameEn": "Sichuan Fritillary Bulb (Chuan Bei)",
     "nameZh": "chuan bei",
     "nameZhTrad": "川貝",
@@ -6940,7 +6940,7 @@
         "a": "Chuan bei pear tea is traditionally given to children for dry cough. Consult a pediatric practitioner for proper dosing."
       }
     ],
-    "image": "/images/herbs/chuan-bei-chuan-bei.jpg",
+    "image": "/images/herbs/chuan-bei.jpg",
     "botanicalName": "Fritillaria cirrhosa D.Don",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -6983,7 +6983,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "xing-ren-xing-ren",
+    "slug": "xing-ren",
     "nameEn": "Apricot Kernel (Xing Ren)",
     "nameZh": "xing ren",
     "nameZhTrad": "杏仁",
@@ -7031,7 +7031,7 @@
         "a": "Crush 5g of kernels and simmer in water for 15 minutes. Add honey for taste. Good for dry cough and dry constipation."
       }
     ],
-    "image": "/images/herbs/xing-ren-xing-ren.jpg",
+    "image": "/images/herbs/xing-ren.jpg",
     "botanicalName": "Prunus armeniaca L.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -7074,7 +7074,7 @@
     "safetyRating": "Mildly toxic"
   },
   {
-    "slug": "gua-lou-gua-lou",
+    "slug": "gua-lou",
     "nameEn": "Trichosanthes Fruit (Gua Lou)",
     "nameZh": "gua lou",
     "nameZhTrad": "瓜蔞",
@@ -7122,7 +7122,7 @@
         "a": "Yes, gua lou ren (seeds) are especially good for moistening the intestines, while the whole fruit is better for clearing phlegm from the chest."
       }
     ],
-    "image": "/images/herbs/gua-lou-gua-lou.jpg",
+    "image": "/images/herbs/gua-lou.jpg",
     "botanicalName": "Trichosanthes kirilowii Maxim.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -7165,7 +7165,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zhu-ye-zhu-ye",
+    "slug": "zhu-ye",
     "nameEn": "Bamboo Leaf (Zhu Ye)",
     "nameZh": "zhu ye",
     "nameZhTrad": "竹葉",
@@ -7213,7 +7213,7 @@
         "a": "Yes, it is mild and safe for regular use in warm weather. It has a light, pleasant flavor."
       }
     ],
-    "image": "/images/herbs/zhu-ye-zhu-ye.jpg",
+    "image": "/images/herbs/zhu-ye.jpg",
     "botanicalName": "Phyllostachys nigra (Lodd. ex Lindl.) Munro",
     "therapeuticFocus": [
       "Heat Relief",
@@ -7256,7 +7256,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ban-xia-ban-xia",
+    "slug": "ban-xia",
     "nameEn": "Pinellia Tuberr (Ban Xia)",
     "nameZh": "ban xia",
     "nameZhTrad": "半夏",
@@ -7304,7 +7304,7 @@
         "a": "Processed ban xia is used in formulas for nausea, but it should only be used during pregnancy under professional supervision."
       }
     ],
-    "image": "/images/herbs/ban-xia-ban-xia.jpg",
+    "image": "/images/herbs/ban-xia.jpg",
     "botanicalName": "Pinellia ternata (Thunb.) Makino",
     "therapeuticFocus": [
       "Digestive Health",
@@ -7347,7 +7347,7 @@
     "safetyRating": "Mildly toxic"
   },
   {
-    "slug": "qian-hu-qian-hu",
+    "slug": "qian-hu",
     "nameEn": "Peucedanum Root (Qian Hu)",
     "nameZh": "qian hu",
     "nameZhTrad": "前胡",
@@ -7395,7 +7395,7 @@
         "a": "In TCM practice, qian hu is included in formulas for phlegm-heat cough patterns. Consult a practitioner for guidance."
       }
     ],
-    "image": "/images/herbs/qian-hu-qian-hu.jpg",
+    "image": "/images/herbs/qian-hu.jpg",
     "botanicalName": "Peucedanum praeruptorum Dunn",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -7438,7 +7438,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "sheng-ma-sheng-ma",
+    "slug": "sheng-ma",
     "nameEn": "Cimicifuga (Sheng Ma)",
     "nameZh": "sheng ma",
     "nameZhTrad": "升麻",
@@ -7486,7 +7486,7 @@
         "a": "In TCM, lifting Yang means raising the upward-moving energy. This can help with organ prolapse and fatigue in Qi deficient types."
       }
     ],
-    "image": "/images/herbs/sheng-ma-sheng-ma.jpg",
+    "image": "/images/herbs/sheng-ma.jpg",
     "botanicalName": "Cimicifuga heracleifolia Kom.",
     "therapeuticFocus": [
       "Immune Support",
@@ -7529,7 +7529,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "mu-hu-die-mu-hu-die",
+    "slug": "mu-hu-die",
     "nameEn": "Oroxylum Seed (Mu Hu Die)",
     "nameZh": "mu hu die",
     "nameZhTrad": "木蝴蝶",
@@ -7577,7 +7577,7 @@
         "a": "Yes, mu hu die is traditionally used by singers and speakers to protect the voice and soothe vocal strain."
       }
     ],
-    "image": "/images/herbs/mu-hu-die-mu-hu-die.jpg",
+    "image": "/images/herbs/mu-hu-die.jpg",
     "botanicalName": "Oroxylum indicum (L.) Kurz",
     "therapeuticFocus": [
       "Throat Relief",
@@ -7711,7 +7711,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "bai-guo-ren-bai-guo-ren",
+    "slug": "bai-guo-ren",
     "nameEn": "Ginkgo Nut (Bai Guo Ren)",
     "nameZh": "bai guo ren",
     "nameZhTrad": "白果仁",
@@ -7759,7 +7759,7 @@
         "a": "Crack the shell, remove the inner skin by soaking in hot water, then cook in congee or stir-fry. Never eat raw."
       }
     ],
-    "image": "/images/herbs/bai-guo-ren-bai-guo-ren.jpg",
+    "image": "/images/herbs/bai-guo-ren.jpg",
     "botanicalName": "Ginkgo biloba L.",
     "therapeuticFocus": [
       "Respiratory Health",
@@ -7802,7 +7802,7 @@
     "safetyRating": "Mildly toxic"
   },
   {
-    "slug": "hua-jiao-hua-jiao",
+    "slug": "hua-jiao",
     "nameEn": "Sichuan Peppercorn (Hua Jiao)",
     "nameZh": "hua jiao",
     "nameZhTrad": "花椒",
@@ -7850,7 +7850,7 @@
         "a": "Yes, its warming and Qi-moving properties may help cold-type stomach cramps. A few peppercorns in tea can be soothing."
       }
     ],
-    "image": "/images/herbs/hua-jiao-hua-jiao.jpg",
+    "image": "/images/herbs/hua-jiao.jpg",
     "botanicalName": "Zanthoxylum bungeanum Maxim.",
     "therapeuticFocus": [
       "Digestive Health",
@@ -7893,7 +7893,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "mu-ding-xiang-mu-ding-xiang",
+    "slug": "mu-ding-xiang",
     "nameEn": "Clove (Mu Ding Xiang)",
     "nameZh": "mu ding xiang",
     "nameZhTrad": "母丁香",
@@ -7941,7 +7941,7 @@
         "a": "Add 1-2 whole cloves to stews, rice, or tea. A little goes a long way due to the strong flavor."
       }
     ],
-    "image": "/images/herbs/mu-ding-xiang-mu-ding-xiang.jpg",
+    "image": "/images/herbs/mu-ding-xiang.jpg",
     "botanicalName": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
     "therapeuticFocus": [
       "Digestive Health",
@@ -8075,7 +8075,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "ji-nei-jin-ji-nei-jin",
+    "slug": "ji-nei-jin",
     "nameEn": "Chicken Gizzard Lining (Ji Nei Jin)",
     "nameZh": "ji nei jin",
     "nameZhTrad": "雞內金",
@@ -8123,7 +8123,7 @@
         "a": "Roast dry until crisp, then grind to powder. Take 3g with warm water, or add 10g to chicken soup for digestive support."
       }
     ],
-    "image": "/images/herbs/ji-nei-jin-ji-nei-jin.jpg",
+    "image": "/images/herbs/ji-nei-jin.jpg",
     "botanicalName": "Gallus gallus domesticus (internal lining)",
     "therapeuticFocus": [
       "Digestive Health",
@@ -8166,7 +8166,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zhi-shi-zhi-shi",
+    "slug": "zhi-shi",
     "nameEn": "Immature Bitter Orange (Zhi Shi)",
     "nameZh": "zhi shi",
     "nameZhTrad": "枳實",
@@ -8214,7 +8214,7 @@
         "a": "Zhi shi is unripe bitter orange, stronger and more downward-directing. Chen pi is dried tangerine peel, milder and also transforms phlegm."
       }
     ],
-    "image": "/images/herbs/zhi-shi-zhi-shi.jpg",
+    "image": "/images/herbs/zhi-shi.jpg",
     "botanicalName": "Citrus aurantium L.",
     "therapeuticFocus": [
       "Digestive Health",
@@ -8257,7 +8257,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "san-qi-san-qi",
+    "slug": "san-qi",
     "nameEn": "Notoginseng (San Qi)",
     "nameZh": "san qi",
     "nameZhTrad": "三七",
@@ -8305,7 +8305,7 @@
         "a": "Take 1-3g of fine powder mixed with warm water. For external use, apply powder directly to minor wounds to stop bleeding."
       }
     ],
-    "image": "/images/herbs/san-qi-san-qi.jpg",
+    "image": "/images/herbs/san-qi.jpg",
     "botanicalName": "Panax notoginseng (Burkill) F.H.Chen",
     "therapeuticFocus": [
       "Heart Health",
@@ -8348,7 +8348,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "yi-mu-cao-yi-mu-cao",
+    "slug": "yi-mu-cao",
     "nameEn": "Motherwort (Yi Mu Cao)",
     "nameZh": "yi mu cao",
     "nameZhTrad": "益母草",
@@ -8396,7 +8396,7 @@
         "a": "No, yi mu cao should be avoided during pregnancy as it invigorates blood and may stimulate the uterus."
       }
     ],
-    "image": "/images/herbs/yi-mu-cao-yi-mu-cao.jpg",
+    "image": "/images/herbs/yi-mu-cao.jpg",
     "botanicalName": "Leonurus japonicus Houtt.",
     "therapeuticFocus": [
       "Menstrual Support",
@@ -8439,7 +8439,7 @@
     "safetyRating": "Use with caution"
   },
   {
-    "slug": "gui-hua-gui-hua",
+    "slug": "gui-hua",
     "nameEn": "Osmanthus Flower (Gui Hua)",
     "nameZh": "gui hua",
     "nameZhTrad": "桂花",
@@ -8487,7 +8487,7 @@
         "a": "Yes, the aromatic compounds in osmanthus freshen breath naturally. It is a gentle, pleasant-tasting remedy."
       }
     ],
-    "image": "/images/herbs/gui-hua-gui-hua.jpg",
+    "image": "/images/herbs/gui-hua.jpg",
     "botanicalName": "Osmanthus fragrans Lour.",
     "therapeuticFocus": [
       "Digestive Health",
@@ -8530,7 +8530,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "he-ye-cha-he-ye-cha",
+    "slug": "he-ye-cha",
     "nameEn": "Lotus Leaf (He Ye)",
     "nameZh": "he ye",
     "nameZhTrad": "荷葉",
@@ -8578,7 +8578,7 @@
         "a": "Rinse 5g of dried lotus leaf, tear into pieces, and steep in boiling water for 10 minutes. Has a mild, earthy flavor."
       }
     ],
-    "image": "/images/herbs/he-ye-cha-he-ye-cha.jpg",
+    "image": "/images/herbs/he-ye-cha.jpg",
     "botanicalName": "Nelumbo nucifera Gaertn.",
     "therapeuticFocus": [
       "Weight Management",
@@ -8621,7 +8621,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "tan-xiang-tan-xiang",
+    "slug": "tan-xiang",
     "nameEn": "Sandalwood (Tan Xiang)",
     "nameZh": "tan xiang",
     "nameZhTrad": "檀香",
@@ -8669,7 +8669,7 @@
         "a": "Use 1-3g of wood shavings simmered in water for 15 minutes. The tea has a warm, woody aroma."
       }
     ],
-    "image": "/images/herbs/tan-xiang-tan-xiang.jpg",
+    "image": "/images/herbs/tan-xiang.jpg",
     "botanicalName": "Santalum album L.",
     "therapeuticFocus": [
       "Heart Health",
@@ -8712,7 +8712,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "cang-er-zi-cang-er-zi",
+    "slug": "cang-er-zi",
     "nameEn": "Cocklebur Fruit (Cang Er Zi)",
     "nameZh": "cang er zi",
     "nameZhTrad": "蒼耳子",
@@ -8760,7 +8760,7 @@
         "a": "Raw cocklebur can be toxic to the liver. Always use properly roasted and processed forms. Do not exceed recommended doses."
       }
     ],
-    "image": "/images/herbs/cang-er-zi-cang-er-zi.jpg",
+    "image": "/images/herbs/cang-er-zi.jpg",
     "botanicalName": "Xanthium sibiricum Patr.",
     "therapeuticFocus": [
       "Sinus Relief",
@@ -8803,7 +8803,7 @@
     "safetyRating": "Mildly toxic"
   },
   {
-    "slug": "sang-zhi-sang-zhi",
+    "slug": "sang-zhi",
     "nameEn": "Mulberry Twig (Sang Zhi)",
     "nameZh": "sang zhi",
     "nameZhTrad": "桑枝",
@@ -8851,7 +8851,7 @@
         "a": "Yes, sang zhi is traditionally used for wind-damp type arthritis, particularly when the upper body joints are affected."
       }
     ],
-    "image": "/images/herbs/sang-zhi-sang-zhi.jpg",
+    "image": "/images/herbs/sang-zhi.jpg",
     "botanicalName": "Morus alba L.",
     "therapeuticFocus": [
       "Joint Support",
@@ -8894,7 +8894,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "zi-su-zi-su",
+    "slug": "zi-su",
     "nameEn": "Perilla Leaf (Zi Su Ye)",
     "nameZh": "zi su ye",
     "nameZhTrad": "紫蘇",
@@ -8942,7 +8942,7 @@
         "a": "Fresh leaves can wrap grilled meats, be added to soups, or tempura-fried. The seeds are pressed for a nutritious oil."
       }
     ],
-    "image": "/images/herbs/zi-su-zi-su.jpg",
+    "image": "/images/herbs/zi-su.jpg",
     "botanicalName": "Perilla frutescens (L.) Britton",
     "therapeuticFocus": [
       "Cold Relief",
@@ -8985,7 +8985,7 @@
     "safetyRating": "Non-toxic"
   },
   {
-    "slug": "guang-chen-pi-guang-chen-pi",
+    "slug": "guang-chen-pi",
     "nameEn": "Aged Tangerine Peel (Guang Chen Pi)",
     "nameZh": "guang chen pi",
     "nameZhTrad": "廣陳皮",
@@ -9033,7 +9033,7 @@
         "a": "Rinse 5g of peel, simmer in water for 15 minutes. It has a warm citrus aroma. Pairs well with pu-erh tea."
       }
     ],
-    "image": "/images/herbs/guang-chen-pi-guang-chen-pi.jpg",
+    "image": "/images/herbs/guang-chen-pi.jpg",
     "botanicalName": "Citrus reticulata 'Chachi' (aged)",
     "therapeuticFocus": [
       "Digestive Health",

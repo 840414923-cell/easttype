@@ -23,7 +23,7 @@ Object.values(HERBS).forEach((h) => {
 
 const EXTRA_MAP: Record<string, string> = {
   "ginger tea": "ginger-sheng-jiang",
-  "hawthorn tea": "shan-zha-shan-zha",
+  "hawthorn tea": "shan-zha",
   "tremella mushroom": "white-fungus-yin-er",
   "tremella mushroom dessert": "white-fungus-yin-er",
   "red date and goji tea": "goji-gou-qi-zi",

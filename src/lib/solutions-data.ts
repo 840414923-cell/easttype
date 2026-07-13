@@ -136,7 +136,7 @@ export const SOLUTIONS: Record<string, Solution> = {
             amount: "5g (about 1 large piece)",
             role: "Primary",
             why: "Drains dampness and helps the body vaporize retained fluids rather than storing them.",
-            herbSlug: "he-ye-cha-he-ye-cha",
+            herbSlug: "he-ye-cha",
           },
           {
             nameEn: "Hawthorn Berry",
@@ -144,7 +144,7 @@ export const SOLUTIONS: Record<string, Solution> = {
             amount: "10g (about 8-10 dried berries)",
             role: "Support",
             why: "Helps digest fats and heavy foods. In TCM, hawthorn is the go-to herb for food stagnation, especially from meat.",
-            herbSlug: "shan-zha-shan-zha",
+            herbSlug: "shan-zha",
           },
           {
             nameEn: "Aged Tangerine Peel",
@@ -268,7 +268,7 @@ export const SOLUTIONS: Record<string, Solution> = {
             amount: "10g (about 1 tablespoon)",
             role: "Support",
             why: "Clears Liver heat and supports healthy bowel function. Also traditionally used to support vision.",
-            herbSlug: "jue-ming-zi-jue-ming-zi",
+            herbSlug: "jue-ming-zi",
           },
           {
             nameEn: "Aged Tangerine Peel",
@@ -452,7 +452,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         bodyTypeSlug: "yin_deficient",
         description: "This cooling and moistening tea is for the person who is tired but wired. American ginseng replenishes Qi without adding heat, while ophiopogon root restores the body's cooling fluids. Goji berries add gentle nourishment. Together they rebuild the Yin that prevents internal heat from burning through your energy reserves.",
         ingredients: [
-          { nameEn: "American Ginseng", nameZh: "\u897f\u6d0b\u53c2", amount: "3g (about 5-6 thin slices)", role: "Primary", why: "Unlike Asian ginseng which is warming, American ginseng replenishes Qi while cooling the body. It is ideal for those who feel exhausted but also run hot or restless.", herbSlug: "hua-qi-shen-hua-qi-shen" },
+          { nameEn: "American Ginseng", nameZh: "\u897f\u6d0b\u53c2", amount: "3g (about 5-6 thin slices)", role: "Primary", why: "Unlike Asian ginseng which is warming, American ginseng replenishes Qi while cooling the body. It is ideal for those who feel exhausted but also run hot or restless.", herbSlug: "hua-qi-shen" },
           { nameEn: "Ophiopogon (Mai Dong)", nameZh: "\u9ea6\u51ac", amount: "5g (about 8-10 small pieces)", role: "Support", why: "Nourishes Yin and generates fluids. Ophiopogon moistens dryness and helps the body retain the cooling moisture that prevents overheating and night sweats." },
           { nameEn: "Goji Berries", nameZh: "\u6784\u679e", amount: "10 pieces", role: "Harmony", why: "Gently nourishes Liver and Kidney Yin, supporting deeper restoration. Adds natural sweetness and antioxidants.", herbSlug: "goji-gou-qi-zi" },
         ],
@@ -554,7 +554,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         bodyTypeSlug: "qi_deficient",
         description: "This tea nourishes the Heart and Spleen so the mind has a place to rest. Sour jujube seed is the premier calm-sleep herb in Chinese medicine, while longan fruit nourishes Heart Blood. Poria grounds the formula and helps the mind settle into deep rest.",
         ingredients: [
-          { nameEn: "Sour Jujube Seed", nameZh: "\u9178\u67a3\u4ec1", amount: "10g (about 1 tablespoon)", role: "Primary", why: "The most trusted herb for calming the mind and promoting sleep in Chinese medicine. Sour jujube seed nourishes Heart Blood and anchors the mind so it can settle.", herbSlug: "suan-zao-ren-suan-zao-ren" },
+          { nameEn: "Sour Jujube Seed", nameZh: "\u9178\u67a3\u4ec1", amount: "10g (about 1 tablespoon)", role: "Primary", why: "The most trusted herb for calming the mind and promoting sleep in Chinese medicine. Sour jujube seed nourishes Heart Blood and anchors the mind so it can settle.", herbSlug: "suan-zao-ren" },
           { nameEn: "Longan", nameZh: "\u9f99\u773c\u8089", amount: "8 pieces, dried", role: "Support", why: "Nourishes Heart Blood and gently calms the spirit. Longan adds natural sweetness and works synergistically with sour jujube seed to replenish the Heart.", herbSlug: "longan-gui-yuan" },
           { nameEn: "Poria", nameZh: "\u832f\u82b2", amount: "5g (about 4-5 small pieces)", role: "Harmony", why: "Strengthens the Spleen and calms the mind. Poria helps the body process the other herbs without causing dampness.", herbSlug: "poria-fu-ling" },
         ],
@@ -770,8 +770,8 @@ export const SOLUTIONS: Record<string, Solution> = {
         bodyTypeSlug: "yin_deficient",
         description: "This cooling and moistening tea replenishes the Stomach's protective fluids. Dendrobium is the premier herb for nourishing Stomach Yin, while ophiopogon adds deep moistening. Goji berries provide gentle nourishment and natural sweetness. Together they restore the cooling moisture that protects the stomach lining.",
         ingredients: [
-          { nameEn: "Dendrobium (Shi Hu)", nameZh: "\u77f3\u659b", amount: "5g (about 3-4 small pieces)", role: "Primary", why: "The foremost herb for nourishing Stomach Yin in Chinese medicine. Dendrobium generates fluids and cools the stomach, helping restore the protective moisture lining.", herbSlug: "shi-hu-shi-hu" },
-          { nameEn: "Ophiopogon (Mai Dong)", nameZh: "\u9ea6\u51ac", amount: "5g (about 8-10 small pieces)", role: "Support", why: "Nourishes Yin and generates fluids. Ophiopogon works alongside dendrobium to restore the body's cooling, moistening systems.", herbSlug: "mai-dong-mai-dong" },
+          { nameEn: "Dendrobium (Shi Hu)", nameZh: "\u77f3\u659b", amount: "5g (about 3-4 small pieces)", role: "Primary", why: "The foremost herb for nourishing Stomach Yin in Chinese medicine. Dendrobium generates fluids and cools the stomach, helping restore the protective moisture lining.", herbSlug: "shi-hu" },
+          { nameEn: "Ophiopogon (Mai Dong)", nameZh: "\u9ea6\u51ac", amount: "5g (about 8-10 small pieces)", role: "Support", why: "Nourishes Yin and generates fluids. Ophiopogon works alongside dendrobium to restore the body's cooling, moistening systems.", herbSlug: "mai-dong" },
           { nameEn: "Goji Berries", nameZh: "\u6784\u679e", amount: "10 pieces", role: "Harmony", why: "Gently nourishes Liver and Kidney Yin while adding natural sweetness. Goji berries support the deeper Yin reserves that feed Stomach Yin.", herbSlug: "goji-gou-qi-zi" },
         ],
         preparationSteps: [
@@ -807,7 +807,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         description: "This tea releases stuck energy and helps food move through the digestive tract. Aged tangerine peel regulates Qi and prevents stagnation, hawthorn helps break down accumulated food, and the combination is especially effective when stress is causing your bloating and discomfort.",
         ingredients: [
           { nameEn: "Aged Tangerine Peel", nameZh: "\u9648\u76ae", amount: "5g (about 2 small pieces)", role: "Primary", why: "The signature herb for regulating Qi and supporting digestion. Aged tangerine peel moves stuck energy in the digestive tract and prevents food from sitting and fermenting.", herbSlug: "dried-tangerine-chen-pi" },
-          { nameEn: "Hawthorn (Shan Zha)", nameZh: "\u5c71\u69d0", amount: "10g (about 8-10 dried berries)", role: "Support", why: "Helps digest fats and heavy foods. In TCM, hawthorn is the go-to herb for food stagnation, especially from meat and rich meals.", herbSlug: "shan-zha-shan-zha" },
+          { nameEn: "Hawthorn (Shan Zha)", nameZh: "\u5c71\u69d0", amount: "10g (about 8-10 dried berries)", role: "Support", why: "Helps digest fats and heavy foods. In TCM, hawthorn is the go-to herb for food stagnation, especially from meat and rich meals.", herbSlug: "shan-zha" },
           { nameEn: "Patchouli (Guang Huo Xiang)", nameZh: "\u5e7f\u85ff\u9999", amount: "3g (about 1 small pinch)", role: "Harmony", why: "Transforms dampness and harmonizes the middle. Patchouli helps settle the stomach when stress has disrupted its normal rhythm.", herbSlug: "huo-xiang-guang-huo-xiang" },
         ],
         preparationSteps: [
@@ -948,7 +948,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         ingredients: [
           { nameEn: "Lily Bulb", nameZh: "\u767e\u5408", amount: "15g (about 10-12 dried petals)", role: "Primary", why: "Nourishes Heart and Lung Yin, clears heat, and calms the spirit. Lily bulb is one of the most gentle and trusted herbs for anxiety that comes with a hot, restless feeling.", herbSlug: "lily-bulb-bai-he" },
           { nameEn: "Lotus Seed", nameZh: "\u83b2\u5b50", amount: "15g (about 15 seeds)", role: "Support", why: "Nourishes the Heart and calms the mind. Lotus seed helps anchor the spirit and reduce palpitations. It also strengthens the Spleen, supporting the body's ability to produce Blood.", herbSlug: "lotus-seed-lian-zi" },
-          { nameEn: "Ophiopogon (Mai Dong)", nameZh: "\u9ea6\u51ac", amount: "5g (about 8-10 small pieces)", role: "Harmony", why: "Nourishes Heart and Lung Yin, generates fluids, and clears empty heat. Ophiopogon restores the cooling reserve that prevents internal heat from rising and disturbing the mind.", herbSlug: "mai-dong-mai-dong" },
+          { nameEn: "Ophiopogon (Mai Dong)", nameZh: "\u9ea6\u51ac", amount: "5g (about 8-10 small pieces)", role: "Harmony", why: "Nourishes Heart and Lung Yin, generates fluids, and clears empty heat. Ophiopogon restores the cooling reserve that prevents internal heat from rising and disturbing the mind.", herbSlug: "mai-dong" },
         ],
         preparationSteps: [
           "Rinse all ingredients under cool water.",
@@ -1105,7 +1105,7 @@ export const SOLUTIONS: Record<string, Solution> = {
           { nameEn: "Honeysuckle", nameZh: "jin yin hua", amount: "10g", role: "Chief", why: "The primary heat-clearing and toxin-resolving herb for skin conditions. Honeysuckle specifically targets heat in the blood level that manifests as red, inflamed skin eruptions.", herbSlug: "honeysuckle-jin-yin-hua" },
           { nameEn: "Dandelion", nameZh: "pu gong ying", amount: "10g", role: "Deputy", why: "Strengthens the heat-clearing action of honeysuckle while adding a specific affinity for skin and breast tissue. Dandelion also drains dampness through urination, addressing the sticky component of damp-heat acne.", herbSlug: "dandelion-pu-gong-ying" },
           { nameEn: "Chrysanthemum", nameZh: "ju hua", amount: "6g", role: "Assistant", why: "Guides the cooling herbs upward to the head and face where acne manifests. Chrysanthemum also clears liver heat that may be contributing to stress-related skin inflammation.", herbSlug: "chrysanthemum-ju-hua" },
-          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the three cooling herbs and moderates their cold nature to protect the stomach. Licorice also has anti-inflammatory properties that complement the skin-clearing action.", herbSlug: "gan-cao-gan-cao" },
+          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the three cooling herbs and moderates their cold nature to protect the stomach. Licorice also has anti-inflammatory properties that complement the skin-clearing action.", herbSlug: "gan-cao" },
         ],
         preparationSteps: [
           "Rinse all herbs briefly under cold water.",
@@ -1138,8 +1138,8 @@ export const SOLUTIONS: Record<string, Solution> = {
         bodyTypeSlug: "blood_stasis",
         description: "A tea that addresses deep, slow-healing acne by improving blood circulation to the skin. Dan shen moves stagnant blood while peach gum provides deep moistening, and saffron targets the specific blood stasis that produces dark, purplish acne marks.",
         ingredients: [
-          { nameEn: "Salvia Root", nameZh: "dan shen", amount: "6g", role: "Chief", why: "The primary blood-invigorating herb for the skin. Dan shen moves stagnant blood in the smaller vessels that nourish the face, helping dark marks and deep cysts resolve faster.", herbSlug: "dan-shen-dan-shen" },
-          { nameEn: "Peach Gum", nameZh: "tao jiao", amount: "5g", role: "Deputy", why: "Provides gelatinous moistening that counteracts the drying nature of blood-moving herbs. Peach gum also helps the skin retain moisture from within, supporting the healing of acne scars.", herbSlug: "tao-jiao-tao-jiao" },
+          { nameEn: "Salvia Root", nameZh: "dan shen", amount: "6g", role: "Chief", why: "The primary blood-invigorating herb for the skin. Dan shen moves stagnant blood in the smaller vessels that nourish the face, helping dark marks and deep cysts resolve faster.", herbSlug: "dan-shen" },
+          { nameEn: "Peach Gum", nameZh: "tao jiao", amount: "5g", role: "Deputy", why: "Provides gelatinous moistening that counteracts the drying nature of blood-moving herbs. Peach gum also helps the skin retain moisture from within, supporting the healing of acne scars.", herbSlug: "tao-jiao" },
           { nameEn: "Saffron", nameZh: "zang hong hua", amount: "5-10 threads", role: "Assistant", why: "A potent blood-moving herb that specifically targets blood stasis in the face. Saffron helps break down the dark, purplish pigmentation that lingers after deep acne heals.", herbSlug: "saffron-zang-hong-hua" },
           { nameEn: "Goji Berries", nameZh: "gou qi zi", amount: "10g", role: "Envoy", why: "Nourishes the blood and liver to support the overall circulation improvement. Goji also adds natural sweetness to balance the slightly bitter taste of dan shen.", herbSlug: "goji-gou-qi-zi" },
         ],
@@ -1176,8 +1176,8 @@ export const SOLUTIONS: Record<string, Solution> = {
         ingredients: [
           { nameEn: "Rose Petals", nameZh: "mei gui", amount: "5g", role: "Chief", why: "The primary liver-soothing herb for stress-related conditions. Rose petals move the stuck liver qi that generates the internal pressure behind stress acne, particularly along the jawline.", herbSlug: "rose-mei-gui" },
           { nameEn: "Mint", nameZh: "bo he", amount: "6g", role: "Deputy", why: "Disperses the heat that liver stagnation generates, pushing it outward through the surface rather than letting it accumulate in the face. Mint also has a refreshing, lifting quality that relieves the foggy-headedness of stress.", herbSlug: "mint-bo-he" },
-          { nameEn: "Cassia Seed", nameZh: "jue ming zi", amount: "10g", role: "Assistant", why: "Clears liver heat specifically, addressing the root of stress-driven skin inflammation. Cassia seed also benefits the eyes, which are often strained during periods of stress that trigger breakouts.", herbSlug: "jue-ming-zi-jue-ming-zi" },
-          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the formula and supports the spleen, which can be weakened by the liver qi stagnation pattern.", herbSlug: "gan-cao-gan-cao" },
+          { nameEn: "Cassia Seed", nameZh: "jue ming zi", amount: "10g", role: "Assistant", why: "Clears liver heat specifically, addressing the root of stress-driven skin inflammation. Cassia seed also benefits the eyes, which are often strained during periods of stress that trigger breakouts.", herbSlug: "jue-ming-zi" },
+          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the formula and supports the spleen, which can be weakened by the liver qi stagnation pattern.", herbSlug: "gan-cao" },
         ],
         preparationSteps: [
           "Lightly roast cassia seeds in a dry pan until fragrant, about 2 minutes.",
@@ -1293,8 +1293,8 @@ export const SOLUTIONS: Record<string, Solution> = {
         ingredients: [
           { nameEn: "Rose Petals", nameZh: "mei gui", amount: "6g", role: "Chief", why: "The gentlest liver-soothing herb in TCM. Rose petals move the stuck liver qi that produces premenstrual irritability and breast tenderness, without the drying or warming intensity of stronger qi-regulating herbs.", herbSlug: "rose-mei-gui" },
           { nameEn: "Cyperus", nameZh: "xiang fu", amount: "6g", role: "Deputy", why: "Known as the chief of qi-regulating herbs, cyperus specifically targets the lower abdomen and the menstrual cycle. It works alongside rose to move the stuck energy that causes premenstrual tension and cramping.", herbSlug: "cyperus-xiang-fu" },
-          { nameEn: "White Peony", nameZh: "bai shao", amount: "10g", role: "Assistant", why: "Softens the liver and relieves pain. White peony's sour, sweet nature relaxes the muscle tension that accompanies liver qi stagnation, particularly in the breast and lower abdomen.", herbSlug: "bai-shao-bai-shao" },
-          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the formula and pairs with white peony to relieve pain, a classical combination known as Shao Yao Gan Cao Tang.", herbSlug: "gan-cao-gan-cao" },
+          { nameEn: "White Peony", nameZh: "bai shao", amount: "10g", role: "Assistant", why: "Softens the liver and relieves pain. White peony's sour, sweet nature relaxes the muscle tension that accompanies liver qi stagnation, particularly in the breast and lower abdomen.", herbSlug: "bai-shao" },
+          { nameEn: "Licorice Root", nameZh: "gan cao", amount: "3g", role: "Envoy", why: "Harmonizes the formula and pairs with white peony to relieve pain, a classical combination known as Shao Yao Gan Cao Tang.", herbSlug: "gan-cao" },
         ],
         preparationSteps: [
           "Place white peony, cyperus, and licorice in a pot with 500ml of water.",
@@ -1479,8 +1479,8 @@ export const SOLUTIONS: Record<string, Solution> = {
         bodyTypeSlug: "yin_deficient",
         description: "The primary formula for hair loss accompanied by dryness, night sweats, and internal heat. He shou wu is the most famous hair herb in TCM, nourishing kidney essence directly. Prepared rehmannia provides deep yin nourishment, and goji berries support the liver and kidney channels that govern hair health.",
         ingredients: [
-          { nameEn: "Fo-Ti (He Shou Wu)", nameZh: "he shou wu", amount: "10g", role: "Chief", why: "The most renowned herb for hair in Chinese medicine. He shou wu nourishes kidney essence and liver blood simultaneously, the two reserves most directly connected to hair color and strength. Its legend of restoring gray hair to black reflects its deep nourishing action on the hair's root.", herbSlug: "he-shou-wu-he-shou-wu" },
-          { nameEn: "Prepared Rehmannia", nameZh: "shu di huang", amount: "10g", role: "Deputy", why: "The deepest yin tonic in the pharmacopoeia. Prepared rehmannia replenishes the kidney yin that moisturizes hair from within. Its rich, nourishing nature complements he shou wu's essence-building action.", herbSlug: "shu-di-huang-shu-di-huang" },
+          { nameEn: "Fo-Ti (He Shou Wu)", nameZh: "he shou wu", amount: "10g", role: "Chief", why: "The most renowned herb for hair in Chinese medicine. He shou wu nourishes kidney essence and liver blood simultaneously, the two reserves most directly connected to hair color and strength. Its legend of restoring gray hair to black reflects its deep nourishing action on the hair's root.", herbSlug: "he-shou-wu" },
+          { nameEn: "Prepared Rehmannia", nameZh: "shu di huang", amount: "10g", role: "Deputy", why: "The deepest yin tonic in the pharmacopoeia. Prepared rehmannia replenishes the kidney yin that moisturizes hair from within. Its rich, nourishing nature complements he shou wu's essence-building action.", herbSlug: "shu-di-huang" },
           { nameEn: "Goji Berries", nameZh: "gou qi zi", amount: "10g", role: "Assistant", why: "Nourishes liver yin and kidney essence, supporting the two organ systems most involved in hair health. Goji also adds natural sweetness and is easy to incorporate into daily use.", herbSlug: "goji-gou-qi-zi" },
           { nameEn: "Black Jujube", nameZh: "hei zao", amount: "5 pieces", role: "Envoy", why: "Warming blood tonic that supports the production of new blood to feed the hair. Black jujube also moderates the cooling nature of prepared rehmannia, making the formula suitable for daily use.", herbSlug: "black-jujube-hei-zao" },
         ],
@@ -1553,7 +1553,7 @@ export const SOLUTIONS: Record<string, Solution> = {
         description: "A formula for hair loss from chronic fatigue and depletion. Astragalus provides the gentle, consistent qi that powers the delivery of nourishment to the hair follicles. He shou wu adds the kidney essence that the qi system needs to transport, and Chinese yam supports the spleen so the body can sustain the process over time.",
         ingredients: [
           { nameEn: "Astragalus", nameZh: "huang qi", amount: "10g", role: "Chief", why: "The gentlest and most practical qi tonic for daily use. Astragalus strengthens the spleen and lung qi that power the body's nourishment delivery system. For hair loss from general depletion, restoring qi is the first step to restoring hair growth.", herbSlug: "astragalus-huang-qi" },
-          { nameEn: "Fo-Ti (He Shou Wu)", nameZh: "he shou wu", amount: "8g", role: "Deputy", why: "Provides the essence and blood nourishment that the qi system will deliver to the hair. Without this, astragalus would strengthen the delivery system but have nothing to deliver.", herbSlug: "he-shou-wu-he-shou-wu" },
+          { nameEn: "Fo-Ti (He Shou Wu)", nameZh: "he shou wu", amount: "8g", role: "Deputy", why: "Provides the essence and blood nourishment that the qi system will deliver to the hair. Without this, astragalus would strengthen the delivery system but have nothing to deliver.", herbSlug: "he-shou-wu" },
           { nameEn: "Chinese Yam", nameZh: "shan yao", amount: "10g", role: "Assistant", why: "Gentle, food-grade qi and yin tonic that supports the spleen's ability to process the other herbs. Chinese yam's mild nature makes the formula suitable for long-term use by depleted individuals.", herbSlug: "chinese-yam-shan-yao" },
           { nameEn: "Red Dates", nameZh: "da zao", amount: "5 pieces", role: "Envoy", why: "Supports both qi and blood production, and adds natural sweetness. Red dates also harmonize the formula, making it gentle on a weak digestive system.", herbSlug: "jujube-da-zao" },
         ],

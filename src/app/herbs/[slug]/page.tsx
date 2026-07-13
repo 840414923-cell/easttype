@@ -108,7 +108,7 @@ const SYMPTOM_LINKS: Record<string, string> = {
 }
 
 const WELLNESS_LINKS: Record<string, { title: string; description: string; slug: string }[]> = {
-  "luo-han-guo-luo-han-guo": [
+  "luo-han-guo": [
     { title: "Cooling Foods in Chinese Medicine", description: "A full guide to foods that clear heat and restore cooling balance.", slug: "cooling-foods-chinese-medicine" },
     { title: "Kidney Yin Deficiency", description: "Why the body runs hot at night, and the cooling foods that may help restore balance.", slug: "kidney-yin-deficiency" },
   ],
