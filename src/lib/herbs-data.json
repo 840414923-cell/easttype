@@ -9066,7 +9066,7 @@
       },
       {
         "condition": "Those with cough producing sticky, damp phlegm",
-        "tcmInterpretation": "Damp phlegm is sticky, sometimes white, and obstructs the chest and throat. Guang chen pi's drying warmth helps transform this phlegm so it can be cleared.",
+        "tcmInterpretation": "Damp phlegm is sticky, sometimes white, and obstructs the chest and throat. Guang chen pi's drying warmth helps resolve this phlegm so it can be cleared.",
         "whyItHelps": "Simmered with sheng jiang (fresh ginger) and brown sugar, guang chen pi creates a traditional cough remedy for damp-phlegm patterns. The premium variety provides stronger aromatic action."
       }
     ],
@@ -11170,5 +11170,956 @@
     "classicalSource": "Jiuhuang Bencao (1406 CE)",
     "safetyRating": "Non-toxic",
     "image": "/images/herbs/gynostemma-jiao-gu-lan.jpg"
+  },
+  {
+    "slug": "cordyceps-dong-chong-xia-cao",
+    "nameEn": "Cordyceps (Dong Chong Xia Cao)",
+    "nameZh": "dong chong xia cao",
+    "nameZhTrad": "冬虫夏草",
+    "pinyin": "dong chong xia cao",
+    "botanicalName": "Ophiocordyceps sinensis (Berk.) G.H. Sung et al.",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Kidney, Lung",
+    "summary": "A fungus that emerges from caterpillar larvae in high-altitude plateaus, valued for simultaneously warming kidney yang and strengthening lung qi. Its rarity and dual-system action make it the most prized yang tonic in Chinese medicine.",
+    "actions": [
+      "Tonifies kidney yang and replenishes deep essence",
+      "Strengthens lung qi and supports respiratory function",
+      "Nourishes yin when paired with appropriate herbs",
+      "Supports recovery from profound depletion"
+    ],
+    "actionDetails": [
+      {
+        "action": "Tonifies kidney yang and replenishes deep essence",
+        "explanation": "Few substances bridge two organ systems the way cordyceps does. Its warm, sweet nature enters the Kidney to warm yang and replenish essence, while simultaneously entering the Lung to strengthen respiratory qi. This dual action comes from its unusual life cycle, beginning as a parasitic fungus on caterpillar larvae in winter, then emerging as a fruiting body in summer, crossing the boundary between animal and plant worlds in a way that fascinated Chinese herbalists for centuries."
+      },
+      {
+        "action": "Strengthens lung qi and supports respiratory function",
+        "explanation": "The Lung governs breathing and defensive qi. When lung qi is weak, a person may experience shortness of breath, a weak voice, and frequent colds. Cordyceps enters the Lung channel and gently strengthens respiratory capacity, which is why it became famous among high-altitude populations who need efficient oxygen use."
+      },
+      {
+        "action": "Nourishes yin when paired with appropriate herbs",
+        "explanation": "Although classified as a yang tonic, cordyceps has a moist quality that prevents it from drying the body the way hotter yang tonics do. When combined with yin-nourishing herbs like mai dong or shi hu, it can be used in formulas that address simultaneous yin and yang deficiency, a pattern common in aging and chronic illness."
+      },
+      {
+        "action": "Supports recovery from profound depletion",
+        "explanation": "After severe illness, surgery, or years of overwork, ordinary tonics may be too harsh or too weak. Cordyceps occupies a middle ground: strong enough to rebuild deep reserves, yet gentle enough for sensitive, depleted systems. This is why it is traditionally reserved for the recovery phase rather than acute conditions."
+      }
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People recovering from prolonged illness or deep exhaustion who need both lung and kidney support",
+        "tcmInterpretation": "When illness or overwork drains both kidney yang and lung qi simultaneously, single-system tonics fall short. The person feels tired at their core, breathes shallowly, and catches colds easily. Cordyceps addresses both systems at once.",
+        "whyItHelps": "Its dual channel entry means it rebuilds the body's deepest fire (kidney yang) and its surface defense (lung qi) in a single herb, which is rare among tonics."
+      },
+      {
+        "condition": "Older adults with chronic weak breathing and low back coldness",
+        "tcmInterpretation": "In older age, kidney yang naturally declines, and lung qi often follows. The result is a pattern where the person feels cold in the lower back, breathes with effort, and lacks stamina for stairs or walks.",
+        "whyItHelps": "Cordyceps warms the kidney to address the cold lower back while strengthening the lung to support breathing, matching the combined pattern that many elderly individuals carry."
+      }
+    ],
+    "therapeuticFocus": [
+      "Energy Support",
+      "Respiratory Health",
+      "Deep Recovery"
+    ],
+    "foodPairings": [
+      "duck",
+      "goji berries",
+      "red dates",
+      "astragalus"
+    ],
+    "howToUse": "Simmer 1 to 3 pieces of whole cordyceps with chicken or duck for 2 hours. For tea, steep ground cordyceps in hot water for 15 minutes. Combine with goji berries and red dates for a strengthening soup.",
+    "dosage": "1 to 3g per day for whole cordyceps. 0.5 to 1g for powder form.",
+    "preparationNotes": "Whole cordyceps should be gently rinsed before use. Avoid high-heat stir-frying, as this may diminish its properties. Slow simmering in soup extracts the active compounds most effectively.",
+    "dietaryAdvice": "For those recovering from deep exhaustion, a small amount of cordyceps in chicken or duck soup, simmered for two hours with goji and red dates, provides a slow, sustained rebuilding of energy reserves. The key is consistency over quantity. Daily small amounts over several weeks are more effective than occasional large doses.",
+    "cautions": [
+      "Not suitable during acute infections or fever",
+      "May be too warming for people with yin deficiency with night sweats",
+      "Avoid during acute cold or flu",
+      "Quality varies enormously. Purchase from reputable sources only."
+    ],
+    "faqs": [
+      {
+        "q": "How is wild cordyceps different from cordyceps flower?",
+        "a": "They are different organisms. Wild cordyceps (Ophiocordyceps sinensis) grows naturally on caterpillar larvae in Tibetan plateaus and is extremely rare and expensive. Cordyceps flower (Cordyceps militaris) is a cultivated mushroom grown on rice or soybean substrate, making it affordable and widely available. Both support energy and respiration, but wild cordyceps has a deeper warming action on kidney yang, while cordyceps flower is gentler and better suited for daily cooking."
+      },
+      {
+        "q": "Why is cordyceps so expensive?",
+        "a": "Wild cordyceps grows only at altitudes above 3,000 meters in Tibet, Nepal, and parts of China. It must be hand-harvested during a brief window each year, and supply has diminished as demand has risen. Cultivated alternatives like cordyceps flower offer a more affordable option for daily use."
+      },
+      {
+        "q": "Can I take cordyceps daily?",
+        "a": "In small food-grade amounts, daily use for 3 to 4 weeks is common, followed by a break. Because it is a strong warming tonic, continuous long-term use without professional guidance is not recommended, especially if you tend to run warm."
+      },
+      {
+        "q": "Which body type benefits most from cordyceps?",
+        "a": "Yang Deficient and Qi Deficient types may benefit most, especially for deep fatigue, cold lower back, and weak breathing. If you tend toward yin deficiency with heat signs such as night sweats and dry mouth, cordyceps may be too warming. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/cordyceps-dong-chong-xia-cao.jpg",
+    "classicalSource": "Bencao Congxin (1751 CE)",
+    "safetyRating": "Non-toxic"
+  },
+  {
+    "slug": "snow-lotus-xue-lian-hua",
+    "nameEn": "Snow Lotus (Xue Lian Hua)",
+    "nameZh": "xue lian hua",
+    "nameZhTrad": "雪莲花",
+    "pinyin": "xue lian hua",
+    "botanicalName": "Saussurea involucrata (Kar. et Kir.) Sch. Bip.",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Bitter, sweet",
+    "channels": "Kidney, Liver, Spleen",
+    "summary": "A rare flower growing above the snow line in Tibetan mountains, where temperatures drop well below freezing. Its ability to survive extreme cold translates in TCM theory to a potent warming effect that dispels deep cold-damp from joints and kidneys.",
+    "actions": [
+      "Warms kidney yang and dispels deep cold",
+      "Dispels wind-damp from joints and meridians",
+      "Warms the uterus and supports menstrual warmth",
+      "Strengthens the lower back and knees"
+    ],
+    "actionDetails": [
+      {
+        "action": "Warms kidney yang and dispels deep cold",
+        "explanation": "The environment where a plant grows shapes its nature in TCM theory. Snow lotus endures temperatures that kill most vegetation, and this cold-surviving quality is understood as a concentrated warmth that can reach cold lodged deep in the body. Where gentler warming herbs fail to penetrate, snow lotus may reach."
+      },
+      {
+        "action": "Dispels wind-damp from joints and meridians",
+        "explanation": "Wind-damp in the joints creates pain that moves around, feels worse in cold or damp weather, and responds poorly to rest alone. Snow lotus enters the meridians that traverse the joints, using its warming quality to dry the dampness and clear the wind pattern that causes the wandering pain."
+      },
+      {
+        "action": "Warms the uterus and supports menstrual warmth",
+        "explanation": "Cold in the uterus can cause menstrual pain with dark clots, a cold lower abdomen, and pain that eases with warmth. Snow lotus warms the lower abdomen directly through its Kidney and Liver channel entry, supporting the body's natural warmth in the reproductive center."
+      },
+      {
+        "action": "Strengthens the lower back and knees",
+        "explanation": "The Kidney governs the lower back and knees in TCM. When kidney yang is depleted by cold, these areas ache and feel weak. Snow lotus warms the Kidney channel specifically, targeting the lower back and knees with a focused warmth that ordinary tonics may not match."
+      }
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_stagnant"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with deep cold in the joints and lower back that does not respond to gentler warming herbs",
+        "tcmInterpretation": "When cold has penetrated deeply into the joints or the kidney channel, it becomes lodged in a way that diet and exercise alone cannot dislodge. The joint pain worsens dramatically in cold weather and may feel as if cold is radiating from inside the bone.",
+        "whyItHelps": "Snow lotus generates a penetrating warmth that reaches cold at its deepest level, beyond what everyday warming foods like ginger or cinnamon can accomplish."
+      },
+      {
+        "condition": "Women with cold-type menstrual pain and a cold lower abdomen",
+        "tcmInterpretation": "Cold in the uterus causes menstrual pain that feels cramping and cold, with dark clots, and the person wants warmth applied to the lower belly. This is different from heat-type menstrual pain, which feels sharp and hot.",
+        "whyItHelps": "Through its Liver channel entry, snow lotus warms the uterus and lower abdomen, supporting the body's natural circulatory warmth in the reproductive system."
+      }
+    ],
+    "therapeuticFocus": [
+      "Joint Support",
+      "Women's Health",
+      "Cold Relief"
+    ],
+    "foodPairings": [
+      "rice wine",
+      "ginger",
+      "red dates",
+      "lamb"
+    ],
+    "howToUse": "Steep 1 to 2g of dried snow lotus in warm rice wine for 2 weeks, then take 10ml daily. Alternatively, simmer 1g in chicken soup with ginger for 1 hour.",
+    "dosage": "1 to 2g per day. Start with a small amount due to its potency.",
+    "preparationNotes": "Due to its rarity and potency, less is more. Avoid boiling at high heat, which may destroy its volatile compounds. Steeping in wine extracts its warming properties gently over time.",
+    "dietaryAdvice": "In high-altitude traditions, snow lotus is steeped in rice wine for weeks, allowing its warming compounds to extract slowly. A small daily cup of this wine, taken before bed, is said to warm the lower back overnight. For those who avoid alcohol, a gentle tea with a pinch of snow lotus and fresh ginger offers a milder alternative.",
+    "cautions": [
+      "Not suitable during pregnancy",
+      "Too warming for people with yin deficiency or heat signs",
+      "Rare and expensive. Ensure ethical sourcing.",
+      "May raise blood pressure. Use with caution if hypertensive."
+    ],
+    "faqs": [
+      {
+        "q": "Where does snow lotus grow?",
+        "a": "Snow lotus grows at altitudes above 3,000 meters in the Tianshan and Himalayan mountain ranges. It survives in conditions where few plants can live, which is why TCM theory associates it with extraordinary warming power."
+      },
+      {
+        "q": "Is snow lotus the same as safflower?",
+        "a": "No. Snow lotus (xue lian hua, Saussurea) and safflower (hong hua, Carthamus) are different plants. Snow lotus is a rare high-altitude warming herb, while safflower is a common blood-moving herb. They are not interchangeable."
+      },
+      {
+        "q": "Can snow lotus help with joint pain?",
+        "a": "In TCM, snow lotus dispels wind-damp-cold from the joints, which may help with pain that worsens in cold or damp weather. It is traditionally used for deep, stubborn joint cold that does not respond to gentler warming approaches. For persistent joint pain, consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from snow lotus?",
+        "a": "Yang Deficient types who feel deep cold in the lower back and joints may benefit most. If you tend to run warm or have yin deficiency signs, snow lotus may be too warming. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/snow-lotus-xue-lian-hua.jpg",
+    "classicalSource": "Jing Zhu Bencao (18th century)",
+    "safetyRating": "Use with caution"
+  },
+  {
+    "slug": "japanese-knotweed-hu-zhang",
+    "nameEn": "Japanese Knotweed (Hu Zhang)",
+    "nameZh": "hu zhang",
+    "nameZhTrad": "虎杖",
+    "pinyin": "hu zhang",
+    "botanicalName": "Polygonum cuspidatum Siebold et Zucc.",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Bitter",
+    "channels": "Liver, Gallbladder, Lung",
+    "summary": "A tenacious root known in the West as a source of resveratrol. In Chinese medicine, its bitter, cold nature clears liver heat, promotes bile flow, and invigorates blood circulation, making it useful for inflammatory skin and liver patterns.",
+    "actions": [
+      "Clears liver heat and reduces inflammation",
+      "Promotes bile flow and supports gallbladder function",
+      "Invigorates blood and reduces swelling",
+      "Clears lung heat and resolves phlegm"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears liver heat and reduces inflammation",
+        "explanation": "Western research identified resveratrol in this plant, but Chinese medicine recognized its heat-clearing properties centuries earlier. The bitter, cold nature descends liver fire, which may manifest as red eyes, irritability, headaches, and skin eruptions. By clearing this heat at its source, hu zhang addresses the root rather than suppressing symptoms."
+      },
+      {
+        "action": "Promotes bile flow and supports gallbladder function",
+        "explanation": "Liver heat often affects the gallbladder, its paired organ. When bile flow becomes sluggish, a person may experience right-side rib discomfort, a bitter taste in the mouth, and yellowing of the skin or eyes. Hu zhang enters the Gallbladder channel and encourages bile to move, which helps clear the heat pattern downstream."
+      },
+      {
+        "action": "Invigorates blood and reduces swelling",
+        "explanation": "Heat and stagnant blood often feed each other. When blood stops flowing smoothly, localized heat builds up, producing redness, swelling, and pain. Hu zhang's bitter coldness clears the heat while its blood-moving quality resolves the stagnation, making it useful for inflammatory skin conditions and traumatic swelling."
+      },
+      {
+        "action": "Clears lung heat and resolves phlegm",
+        "explanation": "Although primarily a liver herb, hu zhang also enters the Lung channel. Lung heat produces a cough with thick yellow phlegm, a dry throat, and sometimes chest discomfort. The cold nature of hu zhang can help clear this heat pattern when respiratory inflammation accompanies liver heat."
+      }
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "blood_stasis"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with liver heat showing as red eyes, irritability, and recurring headaches",
+        "tcmInterpretation": "Liver heat rises upward, producing symptoms in the head and face. The eyes become red and dry, the temper shortens, and headaches throb at the temples. This is the body's internal heat rising, not an external infection.",
+        "whyItHelps": "Hu zhang's bitter cold nature descends this rising heat, addressing the liver fire pattern at its source rather than treating each symptom separately."
+      },
+      {
+        "condition": "People with inflammatory skin conditions involving redness and heat",
+        "tcmInterpretation": "Red, hot, inflamed skin is a sign of heat in the blood level in TCM. The heat pushes outward through the skin, creating redness, swelling, and sometimes pus. Blood stagnation often underlies this, as trapped blood generates local heat.",
+        "whyItHelps": "By both clearing heat and moving stagnant blood, hu zhang addresses both the inflammatory redness and the underlying circulation problem that feeds it."
+      }
+    ],
+    "therapeuticFocus": [
+      "Liver Support",
+      "Skin Health",
+      "Inflammation Relief"
+    ],
+    "foodPairings": [
+      "chrysanthemum",
+      "dandelion",
+      "mint",
+      "honeysuckle"
+    ],
+    "howToUse": "Simmer 9 to 15g of sliced hu zhang in water for 20 minutes. Strain and drink as tea, or combine with chrysanthemum and dandelion for a liver-clearing blend.",
+    "dosage": "9 to 15g per day as decoction.",
+    "preparationNotes": "The root should be sliced thinly before decoction to release its active compounds. Avoid long storage once sliced, as the resveratrol content may degrade. A brief rinse before use is sufficient.",
+    "dietaryAdvice": "As a daily tea, a handful of sliced hu zhang steeped in hot water for fifteen minutes offers a bitter, grounding brew that may help clear low-grade heat. For a more palatable version, blend with chrysanthemum flowers and a teaspoon of honey after straining. Avoid taking on an empty stomach, as its bitter coldness may unsettle sensitive digestion.",
+    "cautions": [
+      "Not suitable during pregnancy",
+      "May worsen spleen deficiency with loose stools",
+      "Avoid in cold patterns without heat signs",
+      "May interact with blood-thinning medications"
+    ],
+    "faqs": [
+      {
+        "q": "Is Japanese knotweed the same as the invasive weed?",
+        "a": "Yes, it is the same plant species, Polygonum cuspidatum. In many countries it is considered an invasive weed, but in Chinese medicine its root has been used for centuries. The root contains the highest concentration of resveratrol, which is the compound that drew Western research attention to this plant."
+      },
+      {
+        "q": "Does hu zhang contain resveratrol?",
+        "a": "Yes, Japanese knotweed root is one of the richest natural sources of resveratrol. In TCM, this plant is used for clearing liver heat and moving blood, which aligns with the anti-inflammatory properties that resveratrol is known for in Western research."
+      },
+      {
+        "q": "Can hu zhang help with skin inflammation?",
+        "a": "In TCM, inflammatory skin conditions with redness and heat are often linked to heat in the blood. Hu zhang clears blood-level heat while promoting circulation, which may help with red, inflamed skin. For persistent skin conditions, consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from hu zhang?",
+        "a": "Damp Heat and Blood Stasis types may benefit most, especially for liver inflammation, skin redness, and hot joint pain. If you tend toward cold patterns or spleen weakness with loose stools, hu zhang may be too cooling. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/japanese-knotweed-hu-zhang.jpg",
+    "classicalSource": "Mingyi Bielu (3rd century CE)",
+    "safetyRating": "Use with caution"
+  },
+  {
+    "slug": "achyranthes-niu-xi",
+    "nameEn": "Achyranthes (Niu Xi)",
+    "nameZh": "niu xi",
+    "nameZhTrad": "牛膝",
+    "pinyin": "niu xi",
+    "botanicalName": "Achyranthes bidentata Blume",
+    "category": "Blood Tonic",
+    "temperature": "Neutral",
+    "taste": "Bitter, sour",
+    "channels": "Liver, Kidney",
+    "summary": "A root whose defining property is directing blood and energy downward. This makes it essential for any formula addressing lower body issues, from knee pain to heavy menstrual bleeding, and gives it a role no other herb can replicate.",
+    "actions": [
+      "Directs blood and qi downward to the lower body",
+      "Strengthens tendons and bones through the Kidney and Liver",
+      "Promotes menstrual flow and resolves blood stagnation",
+      "Reduces swelling in the lower extremities"
+    ],
+    "actionDetails": [
+      {
+        "action": "Directs blood and qi downward to the lower body",
+        "explanation": "Most herbs move energy upward or disperse it outward. Niu xi is distinctive because it pulls downward, guiding blood and qi to the legs, knees, and lower back. This downward-directing property makes it a key ingredient in formulas for lower body pain and reproductive health, where the problem is that energy and blood are not reaching where they need to go."
+      },
+      {
+        "action": "Strengthens tendons and bones through the Kidney and Liver",
+        "explanation": "The Liver governs tendons and the Kidney governs bones. Niu xi enters both channels, providing the raw material that tendons and bones need to maintain strength. This is particularly relevant for knee pain, ankle weakness, and lower back stiffness, where the structural support is failing because the underlying organs are not supplying enough nourishment."
+      },
+      {
+        "action": "Promotes menstrual flow and resolves blood stagnation",
+        "explanation": "When menstrual blood is slow to start, accompanied by dark clots, or associated with lower abdominal pain that radiates downward, blood stagnation in the lower abdomen is often the cause. Niu xi's downward-directing quality helps move this stagnant blood out, while its blood-nourishing aspect ensures that the flow does not deplete the body."
+      },
+      {
+        "action": "Reduces swelling in the lower extremities",
+        "explanation": "Swelling in the legs and ankles, especially that which worsens with standing, can indicate that fluids are pooling because qi is not lifting them back up. Niu xi helps by moving blood and fluids downward and out, while simultaneously strengthening the kidney and liver systems that manage fluid metabolism."
+      }
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "qi_stagnant"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with lower back pain, weak knees, or heavy legs where energy and blood need to be directed downward",
+        "tcmInterpretation": "When blood and qi stagnate in the upper body or fail to reach the lower extremities, the lower back and knees weaken. The legs feel heavy not because of excess weight but because nourishment is not arriving where it is needed.",
+        "whyItHelps": "Niu xi physically redirects blood and qi downward to the lower back, knees, and legs, addressing the root cause of the weakness rather than just the pain."
+      },
+      {
+        "condition": "Women with delayed menstruation with dark clots and lower abdominal pain",
+        "tcmInterpretation": "Blood stagnation in the uterus causes menstrual flow to start late, come with dark clots, and produce pain that feels heavy and bearing-down. The stagnation is often because blood is not moving downward as it should.",
+        "whyItHelps": "By directing blood downward and resolving stagnation, niu xi helps the menstrual flow start more smoothly and reduces the clotting and pain that come from trapped blood."
+      }
+    ],
+    "therapeuticFocus": [
+      "Joint Support",
+      "Lower Back Relief",
+      "Women's Health"
+    ],
+    "foodPairings": [
+      "eucommia bark",
+      "bone broth",
+      "red dates",
+      "dang gui"
+    ],
+    "howToUse": "Simmer 6 to 12g of niu xi root in water for 20 minutes as tea. For bone and joint formulas, combine with du zhong and dang gui in pork bone soup, simmered for 1 hour.",
+    "dosage": "6 to 12g per day in decoction.",
+    "preparationNotes": "The root should be briefly soaked before decoction. Dry-roasting at low heat until fragrant can enhance its liver and kidney tonifying properties. For blood-moving purposes, use raw. For joint-strengthening, use the dry-roasted form.",
+    "dietaryAdvice": "When preparing this root, brief soaking in warm water before decoction helps release its active compounds. For joint issues in the lower body, pair with eucommia bark and cook in bone broth for at least an hour. The long simmering allows the tough, woody root to fully release its properties into the broth.",
+    "cautions": [
+      "Contraindicated during pregnancy",
+      "Avoid during heavy menstrual bleeding without stagnation",
+      "Not suitable for people with diarrhea from spleen deficiency",
+      "Use caution if taking anticoagulant medications"
+    ],
+    "faqs": [
+      {
+        "q": "Why is niu xi called ox knee?",
+        "a": "The Chinese name niu xi literally translates to ox knee. The root's shape resembles a knee joint, and its primary use is for strengthening the knees and lower back. This is an example of the signature theory in Chinese medicine, where a plant's appearance hints at its use."
+      },
+      {
+        "q": "What makes niu xi different from other blood herbs?",
+        "a": "Most blood herbs either nourish blood (like dang gui) or move blood (like dan shen). Niu xi is unique because it directs blood downward. This means it does not just increase blood or move it around, but specifically sends it to the lower body, making it irreplaceable in formulas for lower back, knee, and reproductive issues."
+      },
+      {
+        "q": "Can niu xi help with knee pain?",
+        "a": "In TCM, knee pain often involves weakness of the tendons and bones, which are governed by the Liver and Kidney. Niu xi enters both channels and directs nourishment downward to the knees. It may help with knee pain that feels weak rather than acutely injured, especially when combined with eucommia bark."
+      },
+      {
+        "q": "Which body type benefits most from niu xi?",
+        "a": "Blood Stasis and Qi Stagnant types may benefit most, especially for lower body pain, heavy legs, and menstrual issues with dark clots. If you tend toward spleen deficiency with loose stools, use with caution. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/achyranthes-niu-xi.jpg",
+    "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
+    "safetyRating": "Use with caution"
+  },
+  {
+    "slug": "spatholobus-ji-xue-teng",
+    "nameEn": "Spatholobus (Ji Xue Teng)",
+    "nameZh": "ji xue teng",
+    "nameZhTrad": "鸡血藤",
+    "pinyin": "ji xue teng",
+    "botanicalName": "Spatholobus suberectus Dunn",
+    "category": "Blood Tonic",
+    "temperature": "Warm",
+    "taste": "Bitter, sweet",
+    "channels": "Liver, Kidney",
+    "summary": "A woody vine whose cross-section oozes a red sap resembling blood. This visual signature led to its primary use: nourishing blood while simultaneously keeping it circulating, a rare combination that makes it indispensable for patterns where deficiency and stagnation coexist.",
+    "actions": [
+      "Nourishes blood without causing stagnation",
+      "Invigorates blood circulation while tonifying",
+      "Relaxes tendons and unblocks meridians",
+      "Supports regular menstrual rhythm"
+    ],
+    "actionDetails": [
+      {
+        "action": "Nourishes blood without causing stagnation",
+        "explanation": "Blood tonics tend to be sticky and cloying, which can worsen stagnation. Ji xue teng is unusual because it does both: the sweet taste nourishes blood, and the bitter taste keeps it flowing. This dual action makes it ideal for patterns where a person is blood deficient but also has sluggish circulation, a combination that is more common than it sounds."
+      },
+      {
+        "action": "Invigorates blood circulation while tonifying",
+        "explanation": "Most blood-invigorating herbs are drying and dispersing, which can deplete a deficient person further. Ji xue teng avoids this problem because its nourishing sweet quality offsets the drying tendency of its bitter, moving quality. The result is a herb that improves circulation without sacrificing the body's reserves."
+      },
+      {
+        "action": "Relaxes tendons and unblocks meridians",
+        "explanation": "The Liver governs tendons and ensures smooth energy flow. When liver blood is deficient, tendons become tight and meridians become restricted, producing numbness, tingling, or radiating pain. Ji xue teng nourishes the liver blood that tendons need while unblocking the meridians that carry energy through them."
+      },
+      {
+        "action": "Supports regular menstrual rhythm",
+        "explanation": "Menstrual irregularity often involves both blood deficiency (not enough blood to sustain a normal cycle) and blood stagnation (the blood that is present does not flow smoothly). Ji xue teng addresses both sides of this equation, which is why it is one of the most frequently used herbs in menstrual formulas."
+      }
+    ],
+    "bodyTypes": [
+      "blood_stasis",
+      "yin_deficient"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with pale complexion and dull headaches from blood deficiency who also have numbness or tingling in the limbs",
+        "tcmInterpretation": "Blood deficiency produces paleness, dizziness, and dull headaches. When it is accompanied by stagnation, the person also experiences numbness, tingling, or a pins-and-needles sensation, because the deficient blood is not reaching the extremities.",
+        "whyItHelps": "Ji xue teng nourishes the blood to address the deficiency, while its moving quality ensures that the newly nourished blood actually reaches the limbs and head."
+      },
+      {
+        "condition": "Women with irregular cycles, scanty flow, and menstrual pain with an empty, bearing-down sensation",
+        "tcmInterpretation": "When blood is both deficient and stagnant, menstrual cycles become irregular. The flow is scanty because there is not enough blood, and painful because what blood there is does not move freely. The bearing-down sensation reflects the body struggling with insufficient yet stuck blood.",
+        "whyItHelps": "By nourishing and moving blood simultaneously, ji xue teng addresses both the scantiness and the pain, supporting a more regular and comfortable cycle."
+      }
+    ],
+    "therapeuticFocus": [
+      "Women's Health",
+      "Circulation Support",
+      "Nerve Comfort"
+    ],
+    "foodPairings": [
+      "dang gui",
+      "red dates",
+      "goji berries",
+      "black chicken"
+    ],
+    "howToUse": "Simmer 9 to 15g of sliced ji xue teng vine in water for 30 minutes. The woody texture requires longer cooking than typical herbs. Combine with dang gui and red dates in black chicken soup for a blood-building meal.",
+    "dosage": "9 to 15g per day in decoction.",
+    "preparationNotes": "This vine is woody and dense. Slice thinly and soak for 30 minutes before decoction. Extended simmering of 30 to 60 minutes is necessary to extract the active compounds from the tough vine material.",
+    "dietaryAdvice": "This vine is traditionally steeped in wine or simmered in soup for extended periods, as its woody texture requires patience to extract the active compounds. For a blood-building meal, combine with black chicken, dang gui, and red dates, simmered gently for two hours. The slow cooking allows the vine to release its red sap into the broth, which is where its blood-nourishing properties concentrate.",
+    "cautions": [
+      "Not suitable during pregnancy without professional guidance",
+      "May increase menstrual flow. Use cautiously with heavy periods.",
+      "Avoid in cases of active bleeding",
+      "Quality matters. Look for vines with a deep red cross-section."
+    ],
+    "faqs": [
+      {
+        "q": "Why is it called chicken blood vine?",
+        "a": "When the vine is cut, a thick red sap oozes from the cross-section, resembling blood. The Chinese name ji xue teng literally means chicken blood vine. In TCM signature theory, this red sap signals the herb's affinity for blood, which is why it is used to nourish and invigorate blood."
+      },
+      {
+        "q": "How is ji xue teng different from dang gui?",
+        "a": "Both are blood herbs, but they work differently. Dang gui is stronger at nourishing blood but can be cloying. Ji xue teng is gentler at nourishing but has the added benefit of moving blood, making it better for patterns where deficiency and stagnation coexist. They are often used together in blood-building formulas."
+      },
+      {
+        "q": "Can ji xue teng help with numbness in the hands and feet?",
+        "a": "In TCM, numbness and tingling in the limbs often indicate blood deficiency with stagnation, where there is not enough blood reaching the extremities. Ji xue teng nourishes blood while promoting circulation, which may help with this pattern. For persistent numbness, consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from ji xue teng?",
+        "a": "Blood Stasis and Yin Deficient types may benefit most, especially for menstrual issues, numbness, and pale complexion with poor circulation. If you tend toward bleeding disorders or very heavy periods, use with caution. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/spatholobus-ji-xue-teng.jpg",
+    "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
+    "safetyRating": "Non-toxic"
+  },
+  {
+    "slug": "psoralea-bu-gu-zhi",
+    "nameEn": "Psoralea (Bu Gu Zhi)",
+    "nameZh": "bu gu zhi",
+    "nameZhTrad": "补骨脂",
+    "pinyin": "bu gu zhi",
+    "botanicalName": "Cullen corylifolium (L.) Medik.",
+    "category": "Yang Tonic",
+    "temperature": "Hot",
+    "taste": "Bitter, pungent",
+    "channels": "Kidney, Spleen",
+    "summary": "A small dark seed whose Chinese name means mended bone substance. It warms kidney yang powerfully and is traditionally used for bone weakness, frequent urination, and the kind of deep fatigue that makes the lower back feel hollow.",
+    "actions": [
+      "Warms kidney yang and strengthens bones",
+      "Consolidates essence and reduces frequent urination",
+      "Warms the spleen and stops morning diarrhea",
+      "Supports respiratory function through kidney-warming action"
+    ],
+    "actionDetails": [
+      {
+        "action": "Warms kidney yang and strengthens bones",
+        "explanation": "The name bu gu zhi directly references its traditional use for strengthening bones, which in TCM are governed by the Kidney. By warming kidney yang at its deepest level, it supports the body's foundational fire, which in turn maintains skeletal strength. This is not a calcium supplement approach but rather an energetic one, where warming the source organ helps it supply what bones need."
+      },
+      {
+        "action": "Consolidates essence and reduces frequent urination",
+        "explanation": "When kidney yang is weak, the body loses its ability to hold fluids, resulting in frequent, clear urination, especially at night. Bu gu zhi's warming, consolidating quality helps the kidney retain what it should, reducing the frequency and urgency that disrupt sleep and daily life."
+      },
+      {
+        "action": "Warms the spleen and stops morning diarrhea",
+        "explanation": "Some people experience diarrhea consistently before dawn, a pattern TCM calls chicken crow diarrhea. This occurs when kidney yang is too weak to warm the spleen overnight, allowing fluids to slip through. Bu gu zhi addresses this by warming the kidney fire that the spleen depends on for early morning digestive function."
+      },
+      {
+        "action": "Supports respiratory function through kidney-warming action",
+        "explanation": "In TCM, the kidney helps the lung grasp qi. When kidney yang is deficient, breathing may feel shallow and effortful, particularly during exertion. By warming the kidney, bu gu zhi indirectly supports the lung's ability to receive and hold air, a connection that is central to TCM respiratory theory."
+      }
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with frequent nighttime urination, cold lower back, and deep fatigue from kidney yang depletion",
+        "tcmInterpretation": "Kidney yang deficiency produces a distinctive pattern: the lower back feels cold and weak, urination is frequent and clear, especially at night, and fatigue is deep and unmoving. The body's foundational fire is low, and it shows in the functions that depend on warmth.",
+        "whyItHelps": "Bu gu zhi is one of the strongest kidney yang warming herbs, and its consolidating quality specifically addresses the fluid leakage that causes frequent urination."
+      },
+      {
+        "condition": "People with chronic morning diarrhea before dawn",
+        "tcmInterpretation": "When diarrhea consistently occurs before dawn, it signals that kidney yang is too weak to sustain the spleen's digestive function through the night. The body temperature drops, and the spleen loses its ability to process fluids, leading to urgent, watery stools upon waking.",
+        "whyItHelps": "By warming the kidney fire that the spleen depends on, bu gu zhi addresses the root cause of the pre-dawn diarrhea rather than just binding the bowels."
+      }
+    ],
+    "therapeuticFocus": [
+      "Bone Support",
+      "Kidney Health",
+      "Digestive Recovery"
+    ],
+    "foodPairings": [
+      "walnuts",
+      "chestnuts",
+      "pork",
+      "black sesame"
+    ],
+    "howToUse": "Toast 3 to 6g of bu gu zhi seeds until fragrant, then grind into powder. Mix into warm milk, congee, or soup. Alternatively, decoct 6 to 9g in water for 20 minutes.",
+    "dosage": "3 to 9g per day. Start with a smaller dose due to its hot nature.",
+    "preparationNotes": "The seeds should be dry-roasted until they release a nutty aroma. This toasting process, called pao zhi in TCM, reduces their harshness and improves absorption. Store roasted seeds in an airtight container.",
+    "dietaryAdvice": "Small daily amounts, toasted and ground into powder, can be mixed into warm milk or congee. The toasting reduces its harshness and improves absorption. Pair with walnuts, which also warm the kidneys, for a simple daily tonic. Avoid taking late in the evening, as its warming nature may interfere with sleep.",
+    "cautions": [
+      "Very hot in nature. Not suitable for yin deficiency with heat signs.",
+      "May cause constipation in some people.",
+      "Avoid during acute infections or fever.",
+      "May interact with photosensitive medications.",
+      "Not recommended during pregnancy."
+    ],
+    "faqs": [
+      {
+        "q": "What does bu gu zhi mean?",
+        "a": "The name translates roughly to mended bone substance or bone-strengthener. The gu (bone) in the name reflects its traditional use for strengthening bones through warming kidney yang, since the Kidney governs bones in TCM theory."
+      },
+      {
+        "q": "Can bu gu zhi help with osteoporosis?",
+        "a": "In TCM theory, bone strength depends on kidney yang. Bu gu zhi warms kidney yang and is traditionally used for bone weakness. However, osteoporosis is a medical condition that requires proper medical evaluation and treatment. Bu gu zhi is a food-grade tonic, not a medical treatment."
+      },
+      {
+        "q": "Why is bu gu zhi toasted before use?",
+        "a": "Toasting the seeds, a process called pao zhi, serves two purposes. It reduces the harsh, irritating quality of the raw seed on the digestive system, and it brings out the warming properties that make it effective. This is a standard preparation for many TCM seeds."
+      },
+      {
+        "q": "Which body type benefits most from bu gu zhi?",
+        "a": "Yang Deficient and Qi Deficient types may benefit most, especially for cold lower back, frequent night urination, and deep fatigue. If you tend toward yin deficiency with heat signs, bu gu zhi is too hot for you. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/psoralea-bu-gu-zhi.jpg",
+    "classicalSource": "Yaoxing Lun (7th century CE)",
+    "safetyRating": "Use with caution"
+  },
+  {
+    "slug": "cynomorium-suo-yang",
+    "nameEn": "Cynomorium (Suo Yang)",
+    "nameZh": "suo yang",
+    "nameZhTrad": "锁阳",
+    "pinyin": "suo yang",
+    "botanicalName": "Cynomorium songaricum Rupr.",
+    "category": "Yang Tonic",
+    "temperature": "Warm",
+    "taste": "Sweet",
+    "channels": "Kidney, Large Intestine",
+    "summary": "A parasitic plant growing in desert sands with no chlorophyll. Its Chinese name means locking yang, referring to its dual ability to tonify kidney yang while securing essence against leakage, and its moistening quality that also gently lubricates the intestines.",
+    "actions": [
+      "Tonifies kidney yang and replenishes essence",
+      "Moistens the intestines and supports bowel regularity",
+      "Strengthens tendons and bones",
+      "Consolidates kidney essence to prevent leakage"
+    ],
+    "actionDetails": [
+      {
+        "action": "Tonifies kidney yang and replenishes essence",
+        "explanation": "Most kidney yang tonics grow in lush environments, but suo yang thrives in harsh deserts, drawing its strength from the roots of other plants. This parasitic nature gives it a concentrated warmth that few other herbs match, while its moistening quality sets it apart from drier yang tonics that can constipate or overheat the body."
+      },
+      {
+        "action": "Moistens the intestines and supports bowel regularity",
+        "explanation": "Kidney yang tonics are often drying, which can worsen constipation in older or depleted individuals. Suo yang is the exception. Its sweet, moistening nature enters the Large Intestine channel and helps lubricate the bowels, making it particularly valuable for people who need warming but also suffer from dry-type constipation."
+      },
+      {
+        "action": "Strengthens tendons and bones",
+        "explanation": "Through its Kidney channel entry, suo yang supports the structural system that the Kidney governs, including bones, tendons, and the lower back. This makes it useful for the weakness and coldness in the lower body that accompanies kidney yang deficiency, particularly in older adults."
+      },
+      {
+        "action": "Consolidates kidney essence to prevent leakage",
+        "explanation": "The name suo yang means locking yang, reflecting its consolidating quality. While some tonics simply add energy, suo yang also helps the body retain what it has, reducing patterns of leakage such as frequent urination, spontaneous sweating, or seminal emission that accompany kidney deficiency."
+      }
+    ],
+    "bodyTypes": [
+      "yang_deficient",
+      "qi_deficient"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with cold-type constipation and lower back weakness who need both warming and lubricating",
+        "tcmInterpretation": "In yang deficiency, constipation can develop because the intestine lacks the warmth to move fluids and the kidney lacks the push to move waste downward. The stool is not hard from dryness alone but from cold and lack of propulsion. This is different from heat-type constipation, where the stool is hard and dry from excessive drying.",
+        "whyItHelps": "Suo yang warms the kidney to restore the pushing power while simultaneously moistening the intestine to ease the passage, addressing both sides of the cold-type constipation pattern."
+      },
+      {
+        "condition": "People with kidney yang deficiency showing as cold lower back, weak legs, and low drive",
+        "tcmInterpretation": "Kidney yang deficiency drains the lower body of warmth and power. The lower back feels cold and hollow, the legs feel weak, and the person's overall motivation and drive diminish. This is the foundational energy running low.",
+        "whyItHelps": "Suo yang warms and consolidates kidney yang, replenishing the foundational fire while helping the body retain its reserves, rather than just stimulating them temporarily."
+      }
+    ],
+    "therapeuticFocus": [
+      "Kidney Health",
+      "Digestive Support",
+      "Vitality"
+    ],
+    "foodPairings": [
+      "lamb",
+      "walnuts",
+      "red dates",
+      "ginger"
+    ],
+    "howToUse": "Slice 9 to 15g of suo yang and simmer with lamb, ginger, and red dates for 1 to 2 hours as a warming soup. Alternatively, steep in rice wine for 2 weeks and take 10ml daily.",
+    "dosage": "9 to 15g per day in decoction.",
+    "preparationNotes": "The dried plant should be soaked briefly before slicing. For wine extraction, slice thinly and submerge completely in rice wine for at least 14 days, shaking occasionally.",
+    "dietaryAdvice": "For yang-deficient types with chronic constipation, sliced suo yang simmered with lamb and ginger creates a warming soup that addresses both the deficiency and the dryness. The lamb reinforces the warming action while suo yang provides the moistening quality that most yang tonics lack. This combination is particularly suited to winter use.",
+    "cautions": [
+      "Not suitable for people with yin deficiency with heat signs",
+      "May cause loose stools if overused in spleen deficiency",
+      "Avoid during acute infections or fever",
+      "Not recommended during pregnancy"
+    ],
+    "faqs": [
+      {
+        "q": "What does suo yang mean?",
+        "a": "The name translates to locking yang. This reflects the herb's consolidating quality: it not only tonifies kidney yang but also helps the body retain its yang energy, preventing leakage patterns such as frequent urination or spontaneous sweating."
+      },
+      {
+        "q": "How is suo yang different from rou cong rong?",
+        "a": "Both are kidney yang tonics that moisten the intestines, and they are often used interchangeably. However, rou cong rong is stronger for moistening, while suo yang is stronger for consolidating and locking essence. For constipation with yang deficiency, rou cong rong is slightly better. For leakage patterns with yang deficiency, suo yang is preferred."
+      },
+      {
+        "q": "Can suo yang help with constipation?",
+        "a": "In TCM, certain types of constipation are caused by kidney yang deficiency, where the intestine lacks both the warmth to move and the moisture to lubricate. Suo yang addresses both of these factors, making it particularly suited to cold-type constipation in older or depleted individuals. For persistent constipation, consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from suo yang?",
+        "a": "Yang Deficient and Qi Deficient types may benefit most, especially for cold lower back, weak legs, and constipation with cold signs. If you tend toward yin deficiency or damp-heat, suo yang may be too warming. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/cynomorium-suo-yang.jpg",
+    "classicalSource": "Bencao Yansi (15th century CE)",
+    "safetyRating": "Non-toxic"
+  },
+  {
+    "slug": "radish-seed-lai-fu-zi",
+    "nameEn": "Radish Seed (Lai Fu Zi)",
+    "nameZh": "lai fu zi",
+    "nameZhTrad": "莱菔子",
+    "pinyin": "lai fu zi",
+    "botanicalName": "Raphanus sativus L.",
+    "category": "Digestive Support",
+    "temperature": "Neutral",
+    "taste": "Sweet, pungent",
+    "channels": "Spleen, Stomach, Lung",
+    "summary": "The dried seed of the common radish, promoted from kitchen vegetable to medicine. It resolves food stagnation, moves phlegm, and gently directs qi downward, making it one of the most practical everyday herbs for digestive complaints.",
+    "actions": [
+      "Resolves food stagnation and reduces bloating",
+      "Directs qi downward to relieve belching and hiccups",
+      "Transforms phlegm and reduces chest fullness",
+      "Supports the spleen's digestive function without cloying"
+    ],
+    "actionDetails": [
+      {
+        "action": "Resolves food stagnation and reduces bloating",
+        "explanation": "The radish itself is food, but its seed concentrates the plant's downward-moving, stagnation-resolving properties into a form that works quickly on digestive distress. This relationship between a common vegetable and its therapeutic seed illustrates how TCM finds therapeutic value in ordinary things that most people overlook."
+      },
+      {
+        "action": "Directs qi downward to relieve belching and hiccups",
+        "explanation": "Stomach qi should naturally descend. When it rebels upward instead, the result is belching, hiccups, acid regurgitation, and a feeling of food stuck in the chest. Lai fu zi's pungent, downward-directing nature helps restore the normal downward flow, relieving these upward symptoms."
+      },
+      {
+        "action": "Transforms phlegm and reduces chest fullness",
+        "explanation": "Phlegm in the digestive system produces a heavy, full sensation in the chest and upper abdomen, sometimes with a cough that brings up sticky mucus. Lai fu zi enters the Lung channel and helps resolve this phlegm, while its downward direction helps move it out of the system."
+      },
+      {
+        "action": "Supports the spleen's digestive function without cloying",
+        "explanation": "Many spleen-supporting herbs are sweet and cloying, which can actually worsen stagnation if the digestion is already stuck. Lai fu zi is different: it helps the spleen function by removing what is blocking it, rather than by adding more nourishment that the system cannot process."
+      }
+    ],
+    "bodyTypes": [
+      "phlegm_damp",
+      "qi_stagnant"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People who feel bloated and distended after eating, with belching or a sensation of food sitting in the stomach",
+        "tcmInterpretation": "Food stagnation occurs when the stomach cannot process what has been eaten, often after heavy meals, eating too quickly, or eating while stressed. The food sits and ferments, producing gas, bloating, belching, and a heavy, uncomfortable fullness that does not ease with time.",
+        "whyItHelps": "Lai fu zi directly resolves the stagnation by moving food downward and breaking up the accumulation, providing relatively quick relief compared to tonifying approaches."
+      },
+      {
+        "condition": "People with chest fullness and a cough with sticky phlegm after heavy eating",
+        "tcmInterpretation": "In TCM, the spleen and lung are connected through fluid metabolism. When the spleen is overwhelmed by heavy food, it produces dampness that rises to the lung as phlegm. The result is chest fullness and a productive cough, especially after eating.",
+        "whyItHelps": "By resolving the food stagnation at its source and transforming the phlegm it has produced, lai fu zi addresses both the digestive and respiratory aspects of this pattern."
+      }
+    ],
+    "therapeuticFocus": [
+      "Digestion",
+      "Bloating Relief",
+      "Phlegm Resolution"
+    ],
+    "foodPairings": [
+      "hawthorn",
+      "tangerine peel",
+      "fresh radish",
+      "ginger"
+    ],
+    "howToUse": "Dry-roast 6 to 12g of lai fu zi seeds until fragrant, then crush and steep in hot water for 10 minutes. Or add crushed seeds to congee in the last 10 minutes of cooking.",
+    "dosage": "6 to 12g per day.",
+    "preparationNotes": "The seeds should be dry-roasted before use, as raw seeds may cause nausea. Crush lightly after roasting to release the active oils. Add to cooking in the last 10 minutes, as prolonged boiling diminishes the volatile compounds.",
+    "dietaryAdvice": "After heavy meals, a tea made from crushed lai fu zi seeds, brewed for ten minutes, can help settle a distended stomach. The seeds should be dry-roasted first to reduce their tendency to cause gas. This simple tea is one of the most practical everyday digestive aids in Chinese herbalism, and it costs very little.",
+    "cautions": [
+      "Avoid use with ginseng, as they may counteract each other",
+      "May lower blood pressure. Use with caution if hypotensive.",
+      "Excessive use may deplete qi in deficiency patterns",
+      "Not recommended for people with gastric ulcers"
+    ],
+    "faqs": [
+      {
+        "q": "Can I just eat radish instead of using the seeds?",
+        "a": "Radish and its seeds share some properties, but they are not identical. The radish root is food-grade and gentle, good for everyday digestion. The seeds concentrate the downward-moving and phlegm-resolving properties, making them stronger for actual stagnation. For mild bloating, eating radish may help. For stronger stagnation, the seeds are more effective."
+      },
+      {
+        "q": "Why should lai fu zi not be used with ginseng?",
+        "a": "This is a classical TCM contraindication. Ginseng strongly tonifies qi, while lai fu zi moves qi downward and resolves stagnation. In theory, lai fu zi may disperse the qi that ginseng is trying to build. In practice, this means they are not typically combined in the same formula, though modern practitioners sometimes use them together with care."
+      },
+      {
+        "q": "How quickly does lai fu zi work for bloating?",
+        "a": "As a tea after a heavy meal, lai fu zi may produce relief within 30 to 60 minutes by helping food move downward. It works faster than tonifying herbs because its action is to remove stagnation rather than to build strength."
+      },
+      {
+        "q": "Which body type benefits most from lai fu zi?",
+        "a": "Phlegm Damp and Qi Stagnant types may benefit most, especially for bloating after meals, belching, and chest fullness with phlegm. If you tend toward qi deficiency with chronic loose stools, use sparingly. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/radish-seed-lai-fu-zi.jpg",
+    "classicalSource": "Ri Hua Zi Bencao (10th century CE)",
+    "safetyRating": "Non-toxic"
+  },
+  {
+    "slug": "belamcanda-she-gan",
+    "nameEn": "Belamcanda (She Gan)",
+    "nameZh": "she gan",
+    "nameZhTrad": "射干",
+    "pinyin": "she gan",
+    "botanicalName": "Iris domestica (Belamcanda chinensis) Goldblatt et Mabb.",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Bitter",
+    "channels": "Lung",
+    "summary": "A plant with sword-shaped leaves whose root clears heat and phlegm from the throat and lungs. Its bitter, cold nature targets the respiratory tract specifically, making it a focused herb for sore throat with sticky, yellow phlegm.",
+    "actions": [
+      "Clears lung heat and resolves phlegm",
+      "Soothes the throat and reduces swelling",
+      "Dissolves accumulated phlegm in the chest",
+      "Clears heat-toxin from the upper respiratory tract"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears lung heat and resolves phlegm",
+        "explanation": "The Chinese name she gan means arrow shaft, referring to the plant's flat, sword-like leaves. In TCM theory, this shape corresponds to the Lung meridian's pathway, and the herb's bitter, cold nature clears the specific type of heat that accumulates in the throat and upper respiratory tract, producing sore throat with thick yellow phlegm."
+      },
+      {
+        "action": "Soothes the throat and reduces swelling",
+        "explanation": "Heat in the throat causes redness, swelling, and pain that makes swallowing difficult. She gan's cold nature directly counteracts this heat, while its phlegm-resolving quality helps clear the sticky mucus that often accompanies throat inflammation. This makes it particularly useful for the acute phase of a sore throat."
+      },
+      {
+        "action": "Dissolves accumulated phlegm in the chest",
+        "explanation": "When lung heat condenses fluids into thick, sticky phlegm, it can feel as if something is lodged in the chest, producing a productive cough that requires effort to clear. She gan's bitter taste breaks down this thickened phlegm, making it easier to expectorate and relieving the chest congestion."
+      },
+      {
+        "action": "Clears heat-toxin from the upper respiratory tract",
+        "explanation": "Heat-toxin is the TCM term for the deep, intense heat that accompanies severe throat infections. Unlike mild heat that causes discomfort, heat-toxin produces severe pain, swelling, and sometimes fever. She gan is strong enough to address this level of heat, which is why it appears in classical throat formulas."
+      }
+    ],
+    "bodyTypes": [
+      "damp_heat",
+      "yin_deficient"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with sore throat accompanied by sticky yellow phlegm and a sensation of heat in the chest",
+        "tcmInterpretation": "When lung heat combines with phlegm, the throat becomes sore and red, the cough produces thick yellow mucus, and the chest feels warm and full. This is an excess heat pattern, different from the dry, scratchy throat of yin deficiency.",
+        "whyItHelps": "She gan directly clears the lung heat that is producing the sore throat, while simultaneously breaking down the phlegm that is causing the chest fullness and cough."
+      },
+      {
+        "condition": "People with acute laryngitis or hoarseness from heat and phlegm",
+        "tcmInterpretation": "Heat affecting the vocal cords and larynx produces sudden hoarseness, a feeling of obstruction in the throat, and sometimes pain when speaking. In TCM, this is phlegm-heat obstructing the throat, and it requires a cooling, phlegm-clearing approach.",
+        "whyItHelps": "By clearing heat and reducing phlegm in the throat specifically, she gan may help restore voice and reduce the obstruction that is causing hoarseness."
+      }
+    ],
+    "therapeuticFocus": [
+      "Respiratory Health",
+      "Throat Relief",
+      "Phlegm Resolution"
+    ],
+    "foodPairings": [
+      "honeysuckle",
+      "licorice root",
+      "pear",
+      "loquat leaf"
+    ],
+    "howToUse": "Simmer 3 to 6g of sliced she gan with honeysuckle and a small piece of licorice root for 15 minutes. Strain and drink warm. A teaspoon of honey can be added after straining.",
+    "dosage": "3 to 6g per day in decoction.",
+    "preparationNotes": "The rhizome should be sliced thinly before decoction. Brief soaking is not necessary. Avoid prolonged boiling beyond 20 minutes, as the volatile components may dissipate. The taste is quite bitter, so combining with licorice improves palatability.",
+    "dietaryAdvice": "For throat comfort, a small amount of sliced she gan simmered with honeysuckle and licorice for fifteen minutes creates a cooling, throat-soothing tea. The taste is bitter, so a teaspoon of honey can be added after straining. This combination is most effective when taken warm, in small sips, allowing the tea to coat the throat as it goes down.",
+    "cautions": [
+      "Not suitable for sore throat from cold patterns without heat signs",
+      "May cause loose stools in people with spleen deficiency",
+      "Avoid during pregnancy",
+      "Do not use long-term. Intended for acute phases only."
+    ],
+    "faqs": [
+      {
+        "q": "What does she gan mean?",
+        "a": "The name she gan translates to shooting arrow or arrow shaft, referring to the plant's flat, sword-shaped leaves that grow in a fan pattern like arrows. In TCM signature theory, this pointed shape suggests the herb's ability to target specific areas, in this case the throat and upper respiratory tract."
+      },
+      {
+        "q": "When should I use she gan versus honeysuckle for sore throat?",
+        "a": "Both clear heat from the throat, but they have different strengths. Honeysuckle is broader, clearing heat-toxin throughout the body. She gan is more focused on the lung and throat specifically, and it has the added ability to resolve phlegm. For sore throat with sticky yellow phlegm, she gan is often preferred. For sore throat without much phlegm, honeysuckle may suffice."
+      },
+      {
+        "q": "Can she gan help with a cough?",
+        "a": "In TCM, she gan is used for coughs that involve heat and phlegm, where the cough produces thick yellow mucus and is accompanied by a sore throat and chest heat. It is not suitable for dry coughs without phlegm or for cold-type coughs. For persistent cough, consult a qualified practitioner."
+      },
+      {
+        "q": "Which body type benefits most from she gan?",
+        "a": "Damp Heat and Yin Deficient types with heat signs may benefit most, especially for sore throat with yellow phlegm. If you have a cold-type sore throat without heat, she gan may be too cooling. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/belamcanda-she-gan.jpg",
+    "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
+    "safetyRating": "Use with caution"
+  },
+  {
+    "slug": "acorus-shi-chang-pu",
+    "nameEn": "Acorus (Shi Chang Pu)",
+    "nameZh": "shi chang pu",
+    "nameZhTrad": "石菖蒲",
+    "pinyin": "shi chang pu",
+    "botanicalName": "Acorus tatarinowii Schott",
+    "category": "Calming Herb",
+    "temperature": "Warm",
+    "taste": "Pungent, bitter",
+    "channels": "Heart, Stomach",
+    "summary": "An aromatic rhizome that grows among rocks near water. Its strong fragrance opens the senses and clears mental fog, making it the primary herb in TCM for awakening the mind and dissolving the invisible phlegm that clouds consciousness.",
+    "actions": [
+      "Opens the orifices and clears mental fog",
+      "Transforms damp-phlegm that obstructs the head",
+      "Calms the spirit and stabilizes the heart",
+      "Promotes appetite by awakening the spleen"
+    ],
+    "actionDetails": [
+      {
+        "action": "Opens the orifices and clears mental fog",
+        "explanation": "Phlegm in TCM is not always visible. When it obstructs the orifices of the head, it can manifest as confusion, forgetfulness, or a foggy sense of unreality that no amount of sleep clears. Shi chang pu's strong aromatic quality cuts through this invisible obstruction, reopening the sensory orifices and restoring clear perception in a way that few other herbs can."
+      },
+      {
+        "action": "Transforms damp-phlegm that obstructs the head",
+        "explanation": "The spleen produces dampness when it is weak, and this dampness can rise to the head as phlegm, creating a heavy, foggy sensation. Shi chang pu enters the Stomach channel and helps resolve this dampness at its source, while its aromatic nature rises to the head to clear the phlegm that has already accumulated there."
+      },
+      {
+        "action": "Calms the spirit and stabilizes the heart",
+        "explanation": "In TCM, the Heart houses the spirit. When phlegm obstructs the heart orifice, the spirit becomes unsettled, producing anxiety, restlessness, insomnia, or a sense of being not quite present. Shi chang pu opens the heart orifice and allows the spirit to settle, which is why it appears in classical formulas for mental unrest."
+      },
+      {
+        "action": "Promotes appetite by awakening the spleen",
+        "explanation": "The spleen can become sluggish from dampness, producing a loss of appetite and a feeling of heaviness after eating. Shi chang pu's aromatic, pungent quality wakes up the spleen, stimulating appetite and helping the digestive system overcome the dampness that is slowing it down."
+      }
+    ],
+    "bodyTypes": [
+      "qi_stagnant",
+      "phlegm_damp"
+    ],
+    "commonlyUsedFor": [
+      {
+        "condition": "People with persistent mental fogginess, forgetfulness, or a sense of heaviness in the head",
+        "tcmInterpretation": "When damp-phlegm obstructs the head, thinking becomes slow and cloudy. The person may describe feeling as if their head is stuffed with cotton, or that they cannot think clearly no matter how much they rest. This is phlegm clouding the orifices.",
+        "whyItHelps": "Shi chang pu's aromatic quality specifically opens the orifices and transforms the phlegm, providing a clarity that sleep and rest alone cannot achieve."
+      },
+      {
+        "condition": "People with anxiety, restlessness, or insomnia accompanied by chest fullness and phlegm",
+        "tcmInterpretation": "When phlegm obstructs the heart orifice, the spirit cannot settle. This produces a specific type of anxiety that feels physical, as if something is lodged in the chest, accompanied by restlessness and difficulty falling asleep. The phlegm is the physical substrate of the mental unease.",
+        "whyItHelps": "By transforming the phlegm and opening the heart orifice, shi chang pu allows the spirit to settle naturally, addressing both the physical obstruction and the mental symptom."
+      }
+    ],
+    "therapeuticFocus": [
+      "Mental Clarity",
+      "Anxiety Relief",
+      "Digestive Support"
+    ],
+    "foodPairings": [
+      "pu er tea",
+      "dried tangerine peel",
+      "poria",
+      "fresh ginger"
+    ],
+    "howToUse": "Steep 3 to 6g of dried shi chang pu in hot water for 10 minutes. Cover while steeping to retain the aromatic oils. Combine with pu er tea for a morning clarity brew.",
+    "dosage": "3 to 6g per day as tea.",
+    "preparationNotes": "The rhizome should be sliced thinly. Cover tightly while steeping, as the volatile aromatic oils that give shi chang pu its opening quality escape easily into the air. Avoid high-heat boiling, which destroys these compounds.",
+    "dietaryAdvice": "When mental clarity is needed, a pinch of dried shi chang pu steeped with green tea in the morning provides a subtle, aromatic lift that is gentler than caffeine. The key is to cover the cup while steeping, so the aromatic oils that carry the opening quality do not escape. This tea is best sipped slowly, allowing the aroma to reach the senses before the liquid reaches the stomach.",
+    "cautions": [
+      "Avoid in people with yin deficiency with dryness without dampness",
+      "May cause sweating in some people due to its aromatic nature",
+      "Not suitable for irritability and insomnia from yin deficiency",
+      "Use cautiously with sedating medications"
+    ],
+    "faqs": [
+      {
+        "q": "What are the orifices in TCM?",
+        "a": "In TCM, the orifices refer to the sensory openings of the head: the eyes, ears, nose, and mouth. When phlegm or dampness obstructs these orifices, the senses become dulled and thinking becomes foggy. Herbs that open the orifices, like shi chang pu, are used to clear this obstruction and restore sharp perception."
+      },
+      {
+        "q": "How is shi chang pu different from other calming herbs?",
+        "a": "Most calming herbs in TCM work by nourishing the heart or sedating the spirit. Shi chang pu is different because it works by clearing phlegm obstruction. If the restlessness is caused by phlegm clouding the heart, nourishing herbs will not help. Shi chang pu removes the obstruction so the spirit can settle on its own."
+      },
+      {
+        "q": "Can shi chang pu help with brain fog?",
+        "a": "In TCM, brain fog is often understood as phlegm obstructing the head's orifices. Shi chang pu's aromatic quality is specifically used to open these orifices and clear the fog. It may help when the foggy feeling is accompanied by heaviness, phlegm, or sluggish digestion, which are signs of dampness."
+      },
+      {
+        "q": "Which body type benefits most from shi chang pu?",
+        "a": "Qi Stagnant and Phlegm Damp types may benefit most, especially for mental fog, heaviness in the head, and anxiety with chest fullness. If you tend toward yin deficiency with dryness, shi chang pu may be too drying. Take the free EastType quiz to find your type."
+      }
+    ],
+    "image": "/images/herbs/acorus-shi-chang-pu.jpg",
+    "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
+    "safetyRating": "Use with caution"
   }
 ]
