@@ -61,7 +61,7 @@ const TESTIMONIALS = [
 
 const LIBRARY = [
   { num: "70", label: "Symptom Guides", items: ["Always Tired", "Wake at 3 AM", "Brain Fog", "Night Sweats", "Cold Hands", "Anxious", "Bloated", "Crave Sweets", "Dark Circles", "Joint Pain"], link: "/symptoms" },
-  { num: "122", label: "Herb Profiles", items: ["Ginseng", "Goji", "Astragalus", "Dong Quai", "Rehmannia", "Chrysanthemum", "Deer Antler", "Reishi", "Turmeric", "Jasmine"], link: "/herbs" },
+  { num: "132", label: "Herb Profiles", items: ["Ginseng", "Goji", "Astragalus", "Dong Quai", "Rehmannia", "Chrysanthemum", "Deer Antler", "Reishi", "Turmeric", "Jasmine"], link: "/herbs" },
   { num: "53", label: "Wellness Articles", items: ["Spleen Qi Deficiency", "Kidney Yin Deficiency", "Liver Qi Stagnation", "Yin and Yang", "Five Elements", "What is Qi", "Meridians", "TCM Diet", "Body Clock", "Face Mapping"], link: "/wellness" },
 ]
 
@@ -373,7 +373,7 @@ export default function HomeClient() {
                 Personalized guidance for your type
               </h2>
               <p className="text-text2 text-sm sm:text-base max-w-lg mx-auto leading-relaxed">
-                From food pairings and herb profiles to daily rhythms and seasonal habits, 242 guides rooted in 3,000 years of Chinese wellness tradition, all organized by your body type.
+                From food pairings and herb profiles to daily rhythms and seasonal habits, 252 guides rooted in 3,000 years of Chinese wellness tradition, all organized by your body type.
               </p>
             </div>
 
