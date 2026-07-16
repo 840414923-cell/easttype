@@ -4,6 +4,7 @@ export interface SymptomBodyType {
   percentage?: string
   description: string
   keySigns: string[]
+  matchHint?: string
 }
 
 export interface SymptomHelpCard {
@@ -15,6 +16,24 @@ export interface SymptomTcmVsModern {
   aspect: string
   westernView: string
   tcmView: string
+}
+
+export interface SymptomChecklist {
+  title?: string
+  items: string[]
+  resultHint?: string
+}
+
+export interface SymptomRelatedSolution {
+  slug: string
+  title: string
+  image: string
+  prepNote?: string
+}
+
+export interface SymptomComparison {
+  label: string
+  answer: string
 }
 
 export interface SymptomArticleData {
@@ -30,6 +49,9 @@ export interface SymptomArticleData {
   whatMayHelp: SymptomHelpCard[]
   whenToSeeDoctor?: string
   relatedPattern?: { name: string; slug: string }
-  relatedSymptoms: { slug: string; title: string }[]
+  relatedSymptoms: { slug: string; title: string; tag?: string }[]
   foodsForSlug?: string
+  checklist?: SymptomChecklist
+  relatedSolution?: SymptomRelatedSolution
+  howIsItDifferent?: SymptomComparison[]
 }

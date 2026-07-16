@@ -49,6 +49,28 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         ))}
       </section>
 
+      {/* Module 1: Self-check checklist */}
+      {data.checklist && data.checklist.items.length > 0 && (
+        <section className="mb-10">
+          <div className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[rgba(140,45,42,0.04)] p-5">
+            <h2 className="font-[family-name=var(--font-display)] text-lg text-text mb-3">
+              {data.checklist.title || "Does any of this sound familiar?"}
+            </h2>
+            <ul className="space-y-2 mb-3">
+              {data.checklist.items.map((item, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-text2">
+                  <span className="text-accent mt-0.5 flex-shrink-0">{"\u2610"}</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            {data.checklist.resultHint && (
+              <p className="text-xs text-accent font-medium">{data.checklist.resultHint}</p>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* Body Type Cards — darker bg block */}
       {data.bodyTypes.length > 0 && (
         <section className="mb-10 -mx-6 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
@@ -87,6 +109,14 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
                     ))}
                   </div>
                 </div>
+                {bt.matchHint && (
+                  <div className="mt-3 pt-3 border-t border-[rgba(140,45,42,0.1)]">
+                    <p className="text-xs text-text2 mb-2">{bt.matchHint}</p>
+                    <Link href="/quiz" className="inline-flex items-center text-xs font-semibold text-accent hover:underline">
+                      Take the Quiz to confirm <span className="ml-1">{'>'}</span>
+                    </Link>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -183,6 +213,29 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
+      {/* Module 4: Related Solution/foods recommendation */}
+      {data.relatedSolution && (
+        <section className="mb-10">
+          <div className="rounded-xl border border-[rgba(140,45,42,0.15)] overflow-hidden">
+            <div className="flex flex-col sm:flex-row">
+              <div className="sm:w-1/3 bg-[rgba(140,45,42,0.05)] flex items-center justify-center p-4">
+                <img src={data.relatedSolution.image} alt={data.relatedSolution.title} className="rounded-lg w-full h-32 object-cover" />
+              </div>
+              <div className="sm:w-2/3 p-5">
+                <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-1">Try This</p>
+                <h3 className="font-[family-name=var(--font-display)] text-lg text-text mb-1">{data.relatedSolution.title}</h3>
+                {data.relatedSolution.prepNote && (
+                  <p className="text-xs text-text2/50 mb-3">{data.relatedSolution.prepNote}</p>
+                )}
+                <Link href={`/solutions/${data.relatedSolution.slug}`} className="text-sm text-accent hover:underline font-medium">
+                  Get the recipe {'>'}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* When to See a Doctor — warning bg */}
       {data.whenToSeeDoctor && (
         <section className="mb-10">
@@ -196,9 +249,31 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
+      {/* Module 5: How is this different from... */}
+      {data.howIsItDifferent && data.howIsItDifferent.length > 0 && (
+        <section className="mb-10">
+          <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-4">
+            Common Questions About This Symptom
+          </h2>
+          <div className="space-y-3">
+            {data.howIsItDifferent.map((item, i) => (
+              <details key={i} className="group border border-[rgba(140,45,42,0.12)] rounded-xl bg-[var(--color-card-bg)]">
+                <summary className="flex items-center justify-between cursor-pointer p-4 text-text font-medium text-[0.95rem] leading-relaxed list-none">
+                  {item.label}
+                  <span className="text-accent/50 ml-3 shrink-0 transition-transform duration-200 group-open:rotate-45 text-lg">+</span>
+                </summary>
+                <div className="px-4 pb-4 text-text2 text-sm leading-relaxed">
+                  {item.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Related Links */}
       <section className="mb-10">
-        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
+        <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-4">
           Related Guides
         </h2>
         <div className="grid sm:grid-cols-2 gap-3">
@@ -217,7 +292,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
               href={`/symptoms/${s.slug}`}
               className="group block rounded-lg border border-[rgba(140,45,42,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(140,45,42,0.4)] transition-all"
             >
-              <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">Related Symptom</p>
+              <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">{s.tag || "Related Symptom"}</p>
               <p className="text-sm text-text group-hover:text-accent transition-colors">{s.title} {'>'}</p>
             </Link>
           ))}
