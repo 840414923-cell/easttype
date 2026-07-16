@@ -212,8 +212,16 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 ### Infrastructure
 
 - Search Console resource: https://www.myeasterntype.com (www)
-- Sitemap submitted: 303 URLs
+- Sitemap submitted: 306 URLs
 - IndexNow integrated: key file live, key 62b701021d242b39a739ee629f462a69
+
+### Backlinks
+
+- toolyhealth.io: 8 links (discovered via Bing Webmaster Tools, 2026-07-16)
+  - AI health & wellness tools directory (1,099+ tools), relevant niche
+  - First external backlink
+- Total referring domains: 1
+- Target: 10+ referring domains to meaningfully reduce Google sandbox period
 
 ---
 
@@ -249,7 +257,7 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 | No purchase recovery mechanism | Low | If user clears cookies, reports are lost |
 | Conversion tracking | Medium | **FIXED 2026-07-16** (GA4 with consent-gated loading + conversion events) |
 | Pinterest content pipeline | Active | Daily 3 pins scheduled |
-| Domain authority very low | High | Domain age <1 year, backlinks ~0. Biggest SEO bottleneck |
+| Domain authority very low | High | Domain age <2 months, 1 referring domain (toolyhealth.io). Biggest SEO bottleneck. Need 10+ referring domains |
 
 ---
 

@@ -186,6 +186,7 @@ Hero (split: "What's Your Chinese Medicine Body Type?" + hero image) -> Trust Ba
 - Top Google pages: kidney-yin-deficiency (80 imp), constipation (44+43), chinese-face-mapping (27)
 - Top Bing pages: yin-and-yang (21 imp, pos 5.6), cooling-foods (11 imp, pos 5.0), what-is-jing (pos 4.67)
 - AEO: 22 AI citations across 11 pages. Most cited: chinese-medicine-for-bloating (4), acid-reflux (4), cold-hands (3)
+- Backlinks: 1 referring domain (toolyhealth.io, 8 links). Target: 10+ domains
 - Strategy: organic search + AEO only, no paid ads. Near-term focus on Bing + AI citations
 
 ---
