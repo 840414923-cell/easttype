@@ -235,12 +235,14 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 8% of people",
         description: "The Yang Deficient type (阳虚） is the main one. These people feel cold from the inside out. Cold hands, cold feet, cold lower back. They crave warmth and feel their best during summer. About 8% of people have this as their primary type. Their internal furnace simply doesn't produce enough heat, so they're always reaching for another layer.",
         keySigns: ["Cold hands and feet", "Cold lower back", "Craves warmth", "Best in summer", "Worse in cold"],
+        matchHint: "When your coldness comes with a craving for warmth and feels worst in your lower back and limbs, Yang is likely the bottleneck.",
       },
       {
         name: "Qi Deficient",
         slug: "qi_deficient",
         description: "The Qi Deficient type (气虚） can also feel cold, but the main complaint is fatigue rather than temperature. Qi is the fuel, and Yang is the fire. You need fuel to make fire, so sometimes low Qi leads to low Yang over time. If you're both tired AND cold, you might have elements of both patterns.",
         keySigns: ["Fatigue primary", "Low energy", "Both tired and cold", "Fuel for fire", "Possible overlap"],
+        matchHint: "If tiredness outranks the coldness but both are present, your body may lack the fuel needed to generate warmth in the first place.",
       },
     ],
     tcmVsModern: [
@@ -289,10 +291,36 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     ],
     relatedPattern: { name: "Cold Sensitivity", slug: "cold-sensitivity" },
     relatedSymptoms: [
-      { slug: "why-am-i-always-tired", title: "Why Am I Always Tired?" },
-      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3 AM?" },
+      { slug: "why-am-i-always-tired", title: "Why Am I Always Tired?", tag: "Energy" },
+      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3 AM?", tag: "Sleep" },
     ],
     foodsForSlug: "when-youre-always-cold",
+    checklist: {
+      title: "Sound like your daily reality?",
+      items: [
+        "Your hands and feet feel like ice blocks even when the room is warm",
+        "You wear socks to bed every single night, including summer",
+        "Friends stop sitting next to you because your hands are too cold to touch",
+        "Hot drinks feel less like a preference and more like a survival strategy",
+        "Your lower back aches with a dull coldness that warmth barely touches",
+        "Air conditioning everywhere feels like a personal attack",
+      ],
+      resultHint: "If three or more fit, your internal furnace may be running low on fuel. The quiz can pinpoint whether it is a Yang or Qi issue.",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this just poor circulation?",
+        answer: "Poor circulation often improves with movement and warmth. The coldness described here persists regardless, rooted in the body's heating capacity rather than blood flow alone. Moving helps, but the underlying furnace still runs low.",
+      },
+      {
+        label: "How is this different from Raynaud's?",
+        answer: "Raynaud's is a specific condition where fingers and toes change color (white, then blue, then red) in response to cold or stress. It needs medical evaluation. The cold sensitivity discussed here is more constant and diffuse, without those color changes, pointing to a constitutional heating pattern rather than a vascular event.",
+      },
+      {
+        label: "Could it be anemia?",
+        answer: "Anemia can cause cold sensitivity and a simple blood test can detect it. Low iron shares signs with Yang deficiency: fatigue, pale complexion, feeling cold. If iron levels are normal but the coldness persists, the body type lens offers a different explanation rooted in how your body generates and distributes warmth.",
+      },
+    ],
   },
 
   "why-am-i-always-constipated": {
@@ -1525,6 +1553,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 10% of people",
         description: "The Phlegm Damp type (痰湿） is the most prone to sugar cravings. Their Spleen is already struggling, and the sweet craving is its distress signal. About 10% of people have this pattern. They tend to carry weight around the middle, feel sluggish after meals, and notice that the more sugar they eat, the more they want.",
         keySigns: ["Spleen struggling", "Weight around middle", "Sluggish after meals", "More sugar = more craving", "Distress signal from Spleen"],
+        matchHint: "When the cravings come with heaviness, sluggishness after meals, and weight around your middle, dampness is likely feeding the loop.",
       },
       {
         name: "Qi Deficient",
@@ -1532,6 +1561,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 15% of people",
         description: "The Qi Deficient type (气虚） craves sweets for a different reason. Their overall energy is low, and sugar provides a quick (but temporary) boost. They reach for sweets because their body is desperate for fuel, not because their Spleen is specifically asking for it. About 15% of people have this pattern.",
         keySigns: ["Low overall energy", "Sugar for quick boost", "Body desperate for fuel", "Temporary energy from sweets", "Craves sweets for fuel"],
+        matchHint: "If the sweet craving is really a desperate grab for energy rather than a love of sugar, low Qi may be the root.",
       },
     ],
     tcmVsModern: [
@@ -1573,8 +1603,34 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If your sugar cravings are extreme, accompanied by excessive thirst or urination, or if you have a family history of diabetes, please consult a licensed healthcare provider for a blood glucose evaluation.",
     relatedPattern: { name: "Heavy & Sluggish", slug: "heavy-and-sluggish" },
     relatedSymptoms: [
-      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating" },
-      { slug: "why-do-i-keep-gaining-weight", title: "Why Do I Keep Gaining Weight?" },
+      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating", tag: "Digestion" },
+      { slug: "why-do-i-keep-gaining-weight", title: "Why Do I Keep Gaining Weight?", tag: "Weight" },
+    ],
+    checklist: {
+      title: "Recognize the pattern?",
+      items: [
+        "Three PM hits and your hand finds the candy jar before your brain catches up",
+        "You finish a full meal but something still feels missing without sweetness",
+        "The more sugar you eat, the more sugar you seem to want",
+        "You have tried quitting sugar cold turkey and lasted maybe two days",
+        "Cravings spike when you are tired, stressed, or skipping meals",
+        "Healthy snacks like nuts and fruit do not satisfy the way a cookie does",
+      ],
+      resultHint: "Four or more may point to a Spleen running low on the support it craves. The quiz shows whether dampness or low Qi is driving it.",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this just a sweet tooth?",
+        answer: "A sweet tooth is a preference: you enjoy sweets but can take them or leave them. The pattern described here feels more like a demand the body makes, one that willpower alone struggles to override because it stems from an internal signal the Spleen is sending.",
+      },
+      {
+        label: "How is this different from emotional eating?",
+        answer: "Emotional eating is driven by feelings: stress, boredom, sadness. It can happen with any food. Sweet cravings tied to a Spleen pattern show up on a schedule (often mid-afternoon) and feel physical rather than emotional, though the two can overlap.",
+      },
+      {
+        label: "Could this be prediabetes?",
+        answer: "Persistent sugar cravings alongside excessive thirst or frequent urination warrant a blood glucose check, as they can signal blood sugar regulation issues. If glucose is normal but cravings persist, the Spleen pattern offers an explanation rooted in digestive function rather than metabolism alone.",
+      },
     ],
   },
 
@@ -2079,12 +2135,14 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 10% of people",
         description: "The Phlegm Damp type (痰湿） is prone to reflux because their body holds onto moisture. This internal dampness creates the conditions for Heat to rise. They often feel heavy after meals, carry weight around the middle, and notice their reflux is worse after greasy or heavy foods. About 10% of people fall into this category.",
         keySigns: ["Holds onto moisture", "Heavy after meals", "Weight around middle", "Worse after greasy foods", "Internal dampness creates conditions for Heat"],
+        matchHint: "When the reflux is heaviest after greasy meals and comes with a stuffed, sluggish feeling, dampness is creating the sludge that lets heat rise.",
       },
       {
         name: "Damp Heat",
         slug: "damp_heat",
         description: "The Damp Heat type is a variation where Heat and Dampness have combined into a single pattern. These people run warm, feel sticky and uncomfortable in humid weather, and may have skin issues or strong body odor alongside their reflux. Their reflux tends to be more intense, with a stronger burning sensation.",
         keySigns: ["Runs warm", "Sticky in humid weather", "Skin issues", "Strong body odor", "More intense burning reflux"],
+        matchHint: "If the burning is intense, you run warm overall, and humid weather makes everything worse, heat and dampness have likely merged into one pattern.",
       },
     ],
     tcmVsModern: [
@@ -2130,11 +2188,43 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If your reflux is severe, getting worse, or accompanied by difficulty swallowing, unintentional weight loss, chest pain, or black or bloody stools, please consult a licensed healthcare provider. Chronic reflux can sometimes lead to complications that need proper medical attention.",
     relatedPattern: { name: "Heavy & Sluggish", slug: "heavy-and-sluggish" },
     relatedSymptoms: [
-      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating" },
-      { slug: "why-am-i-always-sleepy", title: "Why Am I Always Sleepy?" },
-      { slug: "why-do-i-have-brain-fog", title: "Why Do I Have Brain Fog?" },
+      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating", tag: "Digestion" },
+      { slug: "why-am-i-always-sleepy", title: "Why Am I Always Sleepy?", tag: "Energy" },
+      { slug: "why-do-i-have-brain-fog", title: "Why Do I Have Brain Fog?", tag: "Mental Clarity" },
     ],
     foodsForSlug: "when-you-have-acid-reflux",
+    checklist: {
+      title: "Any of these hit close to home?",
+      items: [
+        "You sleep propped up on three pillows and still wake up tasting sour",
+        "Heavy, greasy meals guarantee a burning chest within the hour",
+        "The burning gets worse when you lie flat, even hours after eating",
+        "Antacids help for an hour, then the fire climbs back up",
+        "You have memorized which restaurants are safe and which are not",
+        "Morning brings a raw throat and a sour taste that brushing does not fix",
+      ],
+      resultHint: "If three or more sound familiar, your Stomach may be sending heat upward instead of down. The quiz can clarify whether dampness or heat dominates your pattern.",
+    },
+    relatedSolution: {
+      slug: "chinese-medicine-for-digestion",
+      title: "Dendrobium & Ophiopogon Stomach Tea",
+      image: "/images/solutions/formula-dendrobium-ophiopogon.png",
+      prepNote: "gentle steep · cools stomach heat",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this just heartburn from spicy food?",
+        answer: "Occasional heartburn after a particularly spicy or heavy meal is normal and passes. The reflux described here is recurring, pattern-based, and happens even with mild food. It points to a directional issue in how your Stomach moves content, not just a one-off reaction.",
+      },
+      {
+        label: "How is this different from GERD?",
+        answer: "GERD is a medical diagnosis based on frequent acid reflux damaging the esophagus, confirmed by a doctor. The patterns discussed here describe why that upward movement happens in the first place. They are complementary, not contradictory: GERD names the problem, the body type lens explores the underlying tendency.",
+      },
+      {
+        label: "Do I just have too much stomach acid?",
+        answer: "Not necessarily. Reflux can occur with normal or even low acid levels when the Stomach's downward function is compromised. That is why simply suppressing acid does not always resolve the burning. The issue may be direction, not quantity.",
+      },
+    ],
   },
 
   "why-do-i-have-bad-breath": {
@@ -5511,6 +5601,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         slug: "sensitive",
         description: "The Sensitive type (特禀) is the classic allergy-prone body type. These people's bodies react to things that pass right through other people without a problem. Pollen, dust, certain foods, temperature changes, even emotional shifts. Their threshold for external stimuli is simply lower. Their security system is jumpy, like a smoke detector that goes off when you toast bread. Sensitive types often have a history of allergies, asthma, or eczema going back to childhood. They may also be emotionally sensitive, picking up on other people's moods easily and getting overwhelmed in crowded or chaotic environments.",
         keySigns: ["Reacts to things others ignore", "Low threshold for external stimuli", "Jumpy security system", "History of allergies asthma or eczema", "Emotionally sensitive"],
+        matchHint: "If you have reacted to pollen, dust, or certain foods since childhood and your body treats mild stimuli as threats, the Sensitive type is likely your baseline.",
       },
     ],
     tcmVsModern: [
@@ -5556,8 +5647,34 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If your allergy symptoms are severe, worsening each year, accompanied by wheezing or shortness of breath, or if over-the-counter medications aren't helping, please consult a licensed healthcare provider. Severe allergic reactions can sometimes be associated with asthma or anaphylaxis, which need proper medical management.",
     relatedPattern: { name: "High Sensitivity", slug: "high-sensitivity" },
     relatedSymptoms: [
-      { slug: "why-do-i-get-sick-so-often", title: "Why Do I Get Sick So Often?" },
-      { slug: "why-do-i-have-eczema", title: "Why Do I Have Eczema?" },
+      { slug: "why-do-i-get-sick-so-often", title: "Why Do I Get Sick So Often?", tag: "Immunity" },
+      { slug: "why-do-i-have-eczema", title: "Why Do I Have Eczema?", tag: "Skin" },
+    ],
+    checklist: {
+      title: "Do these sound like your season?",
+      items: [
+        "The first warm day of spring fills you with dread instead of joy",
+        "You can predict a high-pollen day by your sinuses before checking the app",
+        "Antihistamines take the edge off but leave you foggy and dry",
+        "Your nose runs so much during peak season that you keep tissues in every room",
+        "Friends enjoy picnics while you calculate wind direction and tree density",
+        "Every year feels worse than the last, and the season seems to last longer",
+      ],
+      resultHint: "If four or more ring true, your Wei Qi may be overreacting to harmless visitors. The quiz can show whether your defensive energy needs support.",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this just a normal reaction to pollen?",
+        answer: "A normal reaction means mild, brief discomfort that passes as your body adjusts. The response described here is disproportionate: sneezing fits, streaming eyes, and congestion that last for weeks whenever pollen is present. It signals a defensive system set too sensitive rather than a proportional reaction.",
+      },
+      {
+        label: "How is this different from a cold?",
+        answer: "A cold comes on gradually, often with a sore throat, body aches, and low-grade fever, and resolves within a week or two. Allergies strike suddenly when exposed to a trigger, lack the fever and aches, and persist as long as the trigger remains. The absence of fever and the timing with pollen season are key clues.",
+      },
+      {
+        label: "Can you outgrow seasonal allergies?",
+        answer: "Some people see allergies lessen over time, particularly children who may outgrow certain sensitivities. Others find allergies appear or worsen in adulthood. The trajectory depends on immune regulation, which the body type approach aims to support through strengthening defensive energy rather than suppressing symptoms.",
+      },
     ],
   },
 
