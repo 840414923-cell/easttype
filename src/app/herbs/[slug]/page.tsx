@@ -158,6 +158,9 @@ export default async function HerbDetailPage({
 
   const title = `${herb.nameEn} (${herb.nameZh}) — TCM Herb Properties & Uses`
 
+  const mediaUrl = herb.image ? `https://www.myeasterntype.com${herb.image}` : "https://www.myeasterntype.com/og-image.png"
+  const pinterestUrl = `https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(url)}&media=${encodeURIComponent(mediaUrl)}&description=${encodeURIComponent(title)}`
+
   const faqs = herb.faqs.map((f) => ({
     q: { en: f.q, "zh-TW": f.q, ja: f.q },
     a: { en: f.a, "zh-TW": f.a, ja: f.a },
@@ -208,6 +211,18 @@ export default async function HerbDetailPage({
               {herb.category}
             </span>
             <span className="text-[10px] text-text2/50">{herb.temperature}</span>
+            <a
+              href={pinterestUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Save to Pinterest"
+              className="ml-auto inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold text-white bg-[#E60023] hover:bg-[#AD0019] transition-colors no-underline"
+            >
+              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 0C5.4 0 0 5.4 0 12c0 5.1 3.2 9.4 7.6 11.1-.1-.9-.2-2.4 0-3.4.2-.9 1.4-5.7 1.4-5.7s-.4-.7-.4-1.8c0-1.7 1-3 2.2-3 1 0 1.5.8 1.5 1.7 0 1-.7 2.6-1 4-.3 1.2.6 2.2 1.8 2.2 2.1 0 3.8-2.2 3.8-5.5 0-2.9-2.1-4.9-5-4.9-3.4 0-5.4 2.6-5.4 5.2 0 1 .4 2.1.9 2.7.1.1.1.2.1.3-.1.4-.3 1.2-.3 1.4-.1.2-.2.3-.4.2-1.5-.7-2.4-2.9-2.4-4.6 0-3.8 2.8-7.2 8-7.2 4.2 0 7.4 3 7.4 6.9 0 4.1-2.6 7.5-6.2 7.5-1.2 0-2.4-.6-2.7-1.4l-.7 2.8c-.3 1.1-1 2.4-1.5 3.2 1.1.3 2.3.5 3.5.5 6.6 0 12-5.4 12-12C24 5.4 18.6 0 12 0z"/>
+              </svg>
+              Save
+            </a>
           </div>
 
           <h1 className="font-[family-name:var(--font-display)] text-3xl sm:text-4xl text-text mb-2 leading-tight tracking-wide">
