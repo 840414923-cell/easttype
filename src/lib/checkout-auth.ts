@@ -38,3 +38,32 @@ export function verifyCheckout(token: string): CheckoutPayload | null {
     return null
   }
 }
+
+interface ReportAccessPayload {
+  plan: string
+  type: string
+  sex: string
+}
+
+export function signReportAccess(plan: string, type: string, sex: string): string {
+  const payload: ReportAccessPayload = { plan, type, sex }
+  const data = JSON.stringify(payload)
+  const hmac = createHmac("sha256", SECRET).update(data).digest("hex")
+  return Buffer.from(`${data}:${hmac}`).toString("base64url")
+}
+
+export function verifyReportAccess(token: string): ReportAccessPayload | null {
+  try {
+    const decoded = Buffer.from(token, "base64url").toString()
+    const sep = decoded.lastIndexOf(":")
+    if (sep === -1) return null
+    const data = decoded.slice(0, sep)
+    const sig = decoded.slice(sep + 1)
+    const expectedSig = createHmac("sha256", SECRET).update(data).digest("hex")
+    if (sig.length !== expectedSig.length) return null
+    if (!timingSafeEqual(Buffer.from(sig), Buffer.from(expectedSig))) return null
+    return JSON.parse(data) as ReportAccessPayload
+  } catch {
+    return null
+  }
+}

@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server"
+import { signReportAccess } from "@/lib/checkout-auth"
 
 export const runtime = "nodejs"
 
@@ -58,7 +59,7 @@ export async function POST(request: Request) {
     await redis.set(key, JSON.stringify(invite))
 
     const response = NextResponse.json({ success: true })
-    response.cookies.set("et_plan", "basic", {
+    response.cookies.set("et_plan", signReportAccess("basic", type ?? "unknown", sex ?? "unknown"), {
       path: "/",
       maxAge: 60 * 60 * 24 * 365,
       httpOnly: true,

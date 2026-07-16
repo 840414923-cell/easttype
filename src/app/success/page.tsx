@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
 import SuccessClient from "./success-client"
-import { verifyCheckout } from "@/lib/checkout-auth"
+import { verifyCheckout, signReportAccess } from "@/lib/checkout-auth"
 
 export const metadata: Metadata = {
   robots: { index: false, follow: false },
@@ -26,7 +26,7 @@ export default async function SuccessPage({
   }
 
   const cookieStore = await cookies()
-  cookieStore.set("et_plan", payload.plan, {
+  cookieStore.set("et_plan", signReportAccess(payload.plan, payload.type, payload.sex), {
     path: "/",
     maxAge: 60 * 60 * 24 * 365,
     httpOnly: true,

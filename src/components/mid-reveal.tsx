@@ -135,6 +135,8 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
   const [extraAnswers, setExtraAnswers] = useState<number[]>([])
   const [selectedValue, setSelectedValue] = useState<number | null>(null)
   const [isTransitioning, setIsTransitioning] = useState(false)
+  const [email, setEmail] = useState("")
+  const [emailState, setEmailState] = useState<"idle" | "submitting" | "sent" | "error">("idle")
 
   const primaryType = TYPES[primaryId]
   const viral = TYPE_VIRAL[primaryId] ?? TYPE_VIRAL.balanced
@@ -148,6 +150,27 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
   const handleStartPhase2 = () => {
     setPhase("quiz")
     setAnimated(false)
+  }
+
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    const trimmed = email.trim()
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmed)) {
+      setEmailState("error")
+      return
+    }
+    setEmailState("submitting")
+    try {
+      const res = await fetch("/api/lead-magnet", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: trimmed, source: "quiz-mid-reveal" }),
+      })
+      if (!res.ok) throw new Error("failed")
+      setEmailState("sent")
+    } catch {
+      setEmailState("error")
+    }
   }
 
   const handleLikert = (value: number) => {
@@ -316,8 +339,34 @@ export default function MidReveal({ scores, primaryId, onComplete, onSkip }: Mid
           onClick={onSkip}
           className="w-full mt-3 py-2 text-text2 text-xs cursor-pointer hover:text-accent transition-colors bg-transparent border-none"
         >
-          Skip — show basic result
+          Skip - show basic result
         </button>
+
+        {emailState !== "sent" && (
+          <form onSubmit={handleEmailSubmit} className="mt-3 flex gap-2">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => { setEmail(e.target.value); if (emailState === "error") setEmailState("idle") }}
+              placeholder="Email my full result"
+              disabled={emailState === "submitting"}
+              className="flex-1 px-3 py-2 rounded-lg text-xs bg-[rgba(140,45,42,0.05)] border border-[rgba(140,45,42,0.15)] text-text placeholder:text-text2/40 outline-none focus:border-accent/40"
+            />
+            <button
+              type="submit"
+              disabled={emailState === "submitting"}
+              className="px-3 py-2 rounded-lg text-xs font-medium text-accent border border-[rgba(140,45,42,0.2)] cursor-pointer hover:bg-[rgba(140,45,42,0.08)] transition-colors disabled:opacity-50 bg-transparent"
+            >
+              {emailState === "submitting" ? "..." : "Send"}
+            </button>
+          </form>
+        )}
+        {emailState === "sent" && (
+          <p className="mt-3 text-xs text-center text-accent">Result sent! Check your inbox.</p>
+        )}
+        {emailState === "error" && (
+          <p className="mt-2 text-xs text-center text-red-400">Please enter a valid email</p>
+        )}
 
         <div className="mt-3 flex justify-center">
           <a
