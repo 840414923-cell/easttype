@@ -53,6 +53,14 @@ const WELLNESS_ARTICLES: { slug: string; title: string; excerpt: string }[] = [
   { slug: "what-is-qi", title: "What Is Qi (Chi) Energy?", excerpt: "Chinese medicine's core concept" },
   { slug: "foods-that-warm-your-body", title: "Foods That Warm Your Body", excerpt: "From the inside" },
   { slug: "chinese-medicine-foods-for-energy", title: "Chinese Medicine Foods for Energy", excerpt: "What to eat when you're always tired" },
+  { slug: "chinese-face-mapping", title: "Chinese Face Mapping: What Your Face Says About Your Health", excerpt: "Chinese face mapping reads facial zones, colors, and features to assess internal health" },
+  { slug: "chinese-medicine-for-depression", title: "Chinese Medicine for Depression: Qi Stagnation, Spleen, and Foods That May Help", excerpt: "Depression in Chinese medicine may involve stuck Liver Qi, Spleen deficiency, or phlegm" },
+  { slug: "chinese-medicine-for-eczema", title: "Chinese Medicine for Eczema: Damp Heat, Blood Deficiency, and Foods That May Help", excerpt: "Eczema in Chinese medicine may involve Damp Heat, Blood Deficiency, or Wind" },
+  { slug: "chinese-medicine-for-hair-loss", title: "Chinese Medicine for Hair Loss: Kidney Essence, Blood, and Foods That May Help", excerpt: "Hair loss in Chinese medicine may signal Kidney Essence depletion or Blood Deficiency" },
+  { slug: "chinese-medicine-for-high-blood-pressure", title: "Chinese Medicine for High Blood Pressure: Liver Yang & Foods That May Help", excerpt: "High blood pressure in TCM often reflects Liver Yang Rising or Kidney Yin Deficiency" },
+  { slug: "chinese-medicine-for-migraines", title: "Chinese Medicine for Migraines: Liver Fire, Blood Deficiency, and Foods That May Help", excerpt: "Migraines in Chinese medicine may involve Liver Fire rising upward, Blood Deficiency" },
+  { slug: "chinese-medicine-for-pms", title: "Chinese Medicine for PMS: Liver Qi, Blood, and Foods That May Help", excerpt: "PMS in Chinese medicine may involve Liver Qi Stagnation, Blood Deficiency, or Cold" },
+  { slug: "tcm-body-clock", title: "TCM Body Clock: The Chinese Medicine Organ Time Chart", excerpt: "The Chinese medicine body clock maps each 2-hour window to a specific organ" },
 ]
 
 export const SEARCH_INDEX: SearchItem[] = [

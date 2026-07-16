@@ -39,11 +39,6 @@ const WEB_SCHEMA = {
   "@type": "WebSite",
   name: "EastType",
   url: "https://www.myeasterntype.com",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: "https://www.myeasterntype.com/quiz",
-    queryInput: "required name=search_string",
-  },
 }
 
 const FAQ_SCHEMA = {

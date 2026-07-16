@@ -13,7 +13,13 @@ const CATEGORY_COLORS: Record<string, string> = {
   "Browse": "text-text2",
 }
 
-export function SearchBar() {
+export function SearchBar({
+  autoFocus = false,
+  onNavigate,
+}: {
+  autoFocus?: boolean
+  onNavigate?: () => void
+}) {
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<SearchItem[]>([])
   const [isOpen, setIsOpen] = useState(false)
@@ -51,6 +57,7 @@ export function SearchBar() {
       setActiveIndex((prev) => Math.max(prev - 1, 0))
     } else if (e.key === "Enter" && activeIndex >= 0) {
       e.preventDefault()
+      onNavigate?.()
       window.location.href = results[activeIndex].url
     } else if (e.key === "Escape") {
       setIsOpen(false)
@@ -62,6 +69,7 @@ export function SearchBar() {
       <div className="relative">
         <input
           type="text"
+          autoFocus={autoFocus}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={handleKeyDown}
@@ -88,6 +96,7 @@ export function SearchBar() {
               onClick={() => {
                 setIsOpen(false)
                 setQuery("")
+                onNavigate?.()
               }}
               className={`flex items-center justify-between px-4 py-3 no-underline transition-colors ${
                 i === activeIndex ? "bg-[rgba(140,45,42,0.08)]" : "hover:bg-[rgba(140,45,42,0.04)]"

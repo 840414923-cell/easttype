@@ -1,13 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
+import { SearchModal } from "@/components/search-modal"
 
 const GUIDE_LINKS = [
   { href: "/solutions", label: "Herbal Solutions", count: "Formulas" },
   { href: "/symptoms", label: "Symptoms", count: "70 guides" },
-  { href: "/wellness", label: "Wellness Guides", count: "43 guides" },
+  { href: "/wellness", label: "Wellness Guides", count: "51 guides" },
   { href: "/foods-for", label: "Food Guides", count: "10 guides" },
   { href: "/patterns", label: "Patterns", count: "9 patterns" },
 ]
@@ -15,6 +16,18 @@ const GUIDE_LINKS = [
 export function Nav({ right }: { right?: React.ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [guidesOpen, setGuidesOpen] = useState(false)
+  const [searchOpen, setSearchOpen] = useState(false)
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault()
+        setSearchOpen((o) => !o)
+      }
+    }
+    document.addEventListener("keydown", handler)
+    return () => document.removeEventListener("keydown", handler)
+  }, [])
 
   return (
     <nav
@@ -94,6 +107,15 @@ export function Nav({ right }: { right?: React.ReactNode }) {
       </div>
 
       <div className="flex items-center gap-3">
+        <button
+          onClick={() => setSearchOpen(true)}
+          aria-label="Search"
+          className="text-text2 hover:text-accent transition-colors p-1 cursor-pointer bg-transparent border-none"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+          </svg>
+        </button>
         <ThemeToggle />
         {right}
         <button
@@ -109,6 +131,15 @@ export function Nav({ right }: { right?: React.ReactNode }) {
 
       {mobileOpen && (
         <div className="absolute top-full left-0 right-0 bg-nav-bg border-b border-[rgba(140,45,42,0.15)] px-6 py-4 flex flex-col gap-3 sm:hidden">
+          <button
+            onClick={() => { setSearchOpen(true); setMobileOpen(false) }}
+            className="flex items-center gap-2 text-sm text-text2 no-underline hover:text-accent transition-colors pl-2 pb-3 border-b border-[rgba(140,45,42,0.1)]"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+            </svg>
+            Search articles...
+          </button>
           <div className="flex flex-col gap-2">
             <span className="text-[10px] text-text2/50 uppercase tracking-wider font-semibold">Guides</span>
             {GUIDE_LINKS.map((link) => (
@@ -152,6 +183,8 @@ export function Nav({ right }: { right?: React.ReactNode }) {
           </Link>
         </div>
       )}
+
+      <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
     </nav>
   )
 }
