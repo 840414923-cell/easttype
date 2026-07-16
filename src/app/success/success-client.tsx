@@ -1,10 +1,11 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { Suspense } from "react"
+import { Suspense, useEffect } from "react"
 import Link from "next/link"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
+import { track } from "@/lib/analytics"
 
 function SuccessContent() {
   const params = useSearchParams()
@@ -16,6 +17,21 @@ function SuccessContent() {
 
   const reportUrl = `/report-v2?type=${type}&sex=${sex}${isPro ? "&plan=pro" : ""}`
   const priceLabel = isPro ? "$12.99" : "$4.99"
+  const token = params.get("token") ?? ""
+
+  useEffect(() => {
+    const flag = `et_purchase_sent_${token || plan}`
+    if (sessionStorage.getItem(flag)) return
+    sessionStorage.setItem(flag, "1")
+    track("purchase", {
+      transaction_id: token || `web-${Date.now()}`,
+      value: isPro ? 12.99 : 4.99,
+      currency: "USD",
+      plan,
+      type,
+      sex,
+    })
+  }, [token, plan, type, sex, isPro])
 
   return (
     <>

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next"
 import Script from "next/script"
 import { Playfair_Display, DM_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/react"
+import { AnalyticsLoader } from "@/components/analytics-loader"
 import { CookieConsent } from "@/components/cookie-consent"
 import { ExitIntentPopup } from "@/components/exit-intent-popup"
 import "./globals.css"
@@ -93,6 +94,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col font-[family-name:var(--font-body)]">
         {children}
         <Analytics />
+        <AnalyticsLoader />
         <Script id="microsoft-clarity" strategy="afterInteractive">{`
           (function(c,l,a,r,i,t,y){
               c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

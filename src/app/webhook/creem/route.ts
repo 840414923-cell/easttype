@@ -1,4 +1,5 @@
 import { Webhook } from "@creem_io/nextjs"
+import { trackPurchaseServer } from "@/lib/analytics"
 
 const webhookHandler = Webhook({
   webhookSecret: process.env.CREEM_WEBHOOK_SECRET!,
@@ -32,8 +33,16 @@ const webhookHandler = Webhook({
         await redis.set(`purchase:email:${email}`, checkoutId)
       }
     } catch {
-      // Redis errors are non-fatal — webhook still returns 200
+      // Redis errors are non-fatal - webhook still returns 200
     }
+
+    await trackPurchaseServer({
+      transactionId: data.id,
+      value: ((data.metadata?.plan as string) ?? "basic") === "pro" ? 12.99 : 4.99,
+      currency: "USD",
+      plan: (data.metadata?.plan as string) ?? "basic",
+      clientId: (data.metadata?._ga as string | undefined) || undefined,
+    })
   },
   onRefundCreated: async (data) => {
     try {

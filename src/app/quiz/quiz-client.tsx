@@ -10,6 +10,7 @@ import type { ConstitutionId } from "@/lib/types"
 import MidReveal from "@/components/mid-reveal"
 import Reveal from "@/components/reveal"
 import ReportPreview from "@/components/report-preview"
+import { track } from "@/lib/analytics"
 
 function Collapsible({ label, children }: { label: string; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
@@ -96,6 +97,7 @@ export default function QuizClient() {
       p.set("scores", Object.entries(weighted).map(([k, v]) => `${k}:${v}`).join(","))
       p.set("lang", "en")
       if (sex) p.set("sex", sex)
+      track("quiz_completed", { primary_type: primary, sex: sex ?? "unknown" })
       router.push(`/result?${p.toString()}`)
     },
     [sex, router],
