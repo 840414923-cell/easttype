@@ -1,6 +1,6 @@
 # Project State
 
-Last updated: 2026-07-12
+Last updated: 2026-07-16
 
 ---
 
@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (303 in sitemap, 314 build pages)
+## Published URLs (303 in sitemap, 324 build pages)
 
 ### Core Pages (8)
 
@@ -51,13 +51,13 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, blood_stasis, qi_stagnant, sensitive
 
-### Wellness Pages (48)
+### Wellness Pages (51)
 
-48 in-depth wellness guides covering TCM patterns, concepts, conditions, and remedies. Organized in 4 clusters:
+51 in-depth wellness guides covering TCM patterns, concepts, conditions, and remedies. Organized in 4 clusters:
 - TCM Organ Patterns (10): spleen-qi-deficiency, kidney-yin-deficiency, liver-qi-stagnation, etc.
-- Chinese Medicine For X (17): chinese-medicine-for-insomnia, -anxiety, -weight-loss, -acne, -fatigue, -depression, -migraines, -eczema, -hair-loss, -pms, etc.
-- TCM Fundamentals (6): what-is-qi, what-is-shen, what-is-jing, yin-and-yang, five-elements-theory, etc.
-- Long-tail Supplements (15): chinese-herbs-for-energy, tcm-diet, cooling-foods-chinese-medicine, etc.
+- Chinese Medicine For X (18): chinese-medicine-for-insomnia, -anxiety, -weight-loss, -acne, -fatigue, -depression, -migraines, -eczema, -hair-loss, -pms, -high-blood-pressure, etc.
+- TCM Fundamentals (7): what-is-qi, what-is-shen, what-is-jing, yin-and-yang, five-elements-theory, tcm-body-clock, etc.
+- Long-tail Supplements (16): chinese-herbs-for-energy, tcm-diet, cooling-foods-chinese-medicine, chinese-face-mapping, etc.
 
 7 old duplicate wellness pages are 301 redirected to corresponding symptom pages.
 
@@ -65,9 +65,9 @@ balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, b
 
 `/foods-for/[slug]` dynamic route. 10 food therapy guides matching ingredients to body type.
 
-### Herb Pages (110)
+### Herb Pages (132)
 
-`/herbs/[slug]` dynamic route. 110 TCM herbs with real photos, each containing:
+`/herbs/[slug]` dynamic route. 132 TCM herbs with real photos, each containing:
 - Properties (temperature, flavor, meridian entry)
 - Benefits and action details
 - Commonly used for (conditions)
@@ -78,18 +78,26 @@ balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, b
 - Botanical name
 - 11 categories: Tonifying, Calming, Heat Clearing, Digestive Support, etc.
 
-### Solutions Pages (7)
+### Solutions Pages (9)
 
 TCM herbal formula guides by health concern.
 - `/solutions` hub page (left-image right-text layout, alternating bg colors)
-- `/solutions/chinese-medicine-weight-loss` — 3 formulas (Lotus Leaf & Hawthorn, Coix Seed & Poria, Rose & Cassia Seed)
-- `/solutions/chinese-medicine-for-energy` — 3 formulas (Ginseng & Jujube, Astragalus & Ginger, American Ginseng & Ophiopogon)
-- `/solutions/chinese-medicine-for-sleep` — 3 formulas (Sour Jujube & Longan, Lily & Lotus, Rose & Chrysanthemum)
-- `/solutions/chinese-medicine-for-digestion` — 3 formulas (Yam & Poria, Dendrobium & Ophiopogon, Tangerine Peel & Hawthorn)
-- `/solutions/chinese-medicine-for-constipation` — 3 formulas
-- `/solutions/chinese-medicine-for-anxiety` — 3 formulas (Rose & Citrus Bloom, Lily & Lotus Heart-Calming, Jujube & Longan Serenity)
+- `/solutions/chinese-medicine-weight-loss` - 3 formulas (Lotus Leaf & Hawthorn, Coix Seed & Poria, Rose & Cassia Seed)
+- `/solutions/chinese-medicine-for-energy` - 3 formulas (Ginseng & Jujube, Astragalus & Ginger, American Ginseng & Ophiopogon)
+- `/solutions/chinese-medicine-for-sleep` - 3 formulas (Sour Jujube & Longan, Lily & Lotus, Rose & Chrysanthemum)
+- `/solutions/chinese-medicine-for-digestion` - 3 formulas (Yam & Poria, Dendrobium & Ophiopogon, Tangerine Peel & Hawthorn)
+- `/solutions/chinese-medicine-for-anxiety` - 3 formulas (Rose & Citrus Bloom, Lily & Lotus Heart-Calming, Jujube & Longan Serenity)
+- `/solutions/chinese-herbs-for-acne` - 3 formulas (added Sprint 18)
+- `/solutions/chinese-herbs-for-pms` - 3 formulas (added Sprint 18)
+- `/solutions/chinese-herbs-for-hair-loss` - 3 formulas (added Sprint 18)
+
+Note: `/solutions/chinese-medicine-for-constipation` was 301 redirected to `/wellness/chinese-medicine-for-constipation` (2026-07-07) to resolve keyword cannibalization.
 
 Each formula includes classical source citation, ingredients with amounts, step-by-step preparation, dosage, duration, taste profile, cautions, and body type matching.
+
+### Journal Pages (2)
+
+`/journal` hub + `/journal/heatwave-survival-by-body-type`. Monthly digest email via Resend + Vercel Cron (added Sprint 18).
 
 ### Utility Pages (4)
 
@@ -111,8 +119,9 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Wellness pages | 51 (+ 7 redirected) |
 | Food combo pages | 10 |
 | Herb pages | 132 |
-| Solutions pages | 7 (hub + 6 detail) |
-| Hub pages | 6 (symptoms, patterns, wellness, foods-for, herbs, solutions) |
+| Solutions pages | 9 (hub + 8 detail) |
+| Hub pages | 7 (symptoms, patterns, wellness, foods-for, herbs, solutions, journal) |
+| Journal pages | 2 (hub + 1 article) |
 | Utility pages | 4 |
 | Sitemap URLs | 303 |
 | Total build pages | 324 |
@@ -145,7 +154,7 @@ All 70 symptom pages use shared rendering:
 
 Page structure: tag badge + readTime → intro → body type cards (dark bg block) → TCM explanation → metaphor box (gradient bg) → TCM vs Western table (dark bg block) → whatMayHelp card grid → whenToSeeDoctor (amber box) → related links cards → FAQ → food guide link → CTA → disclaimer (dark bg).
 
-**Upgrade plan documented:** `docs/symptom-page-upgrade-plan.md` — 5 modules to surpass meandqi (self-check checklist, match hints, related symptoms grid, solutions/foods recommendation, comparison collapsibles). Edit 2-3 pages/day, ~4-5 weeks.
+**Upgrade framework implemented (2026-07-16):** 5 conditional modules added to `symptom-article.tsx` (matchHint, checklist, relatedSymptoms, relatedSolution, howIsItDifferent). 5 of 70 pages upgraded so far (tired, colds, sweets, acid-reflux, seasonal-allergies). Rollout continues at 2-3 pages/day per `docs/symptom-page-upgrade-plan.md`.
 
 ---
 
@@ -179,7 +188,7 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 ## Google Indexing Status
 
 - Search Console resource: https://www.myeasterntype.com (www)
-- Sitemap submitted: 257 URLs
+- Sitemap submitted: 303 URLs
 - First indexing request submitted: 2026-06-02
 - Indexing progress: 7 pages (6/2) -> 15 -> 23 -> 34 -> 44 -> 60+ (6/30) -> 70 (7/2)
 - GSC metrics (early July 2026): 70 pages indexed, 124 queries matching, 283 monthly impressions, 1 click, avg position 65
@@ -192,20 +201,20 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 ---
 
-## Recent Commits (2026-07-02)
+## Recent Commits (2026-07-16)
 
 | Hash | Message |
 |---|---|
-| bd1d806 | docs: add symptom page upgrade plan for surpassing meandqi |
-| 61b438b | fix: replace all corrupted Chinese parentheses across 70 symptom articles |
-| 6f5a946 | fix: remove corrupted unicode chars (FFFD and stray ?) in symptom data |
-| 046924e | feat: convert all 70 symptom pages to structured data + shared SymptomArticle component |
-| 28896a9 | fix: add alternating bg colors to symptom article sections for visual rhythm |
-| 9d29294 | feat: structured symptom article component with sample page (why-am-i-always-tired) |
-| 597b3f5 | refactor: symptoms hub with search and category filter tags |
-| 57f5509 | refactor: redesign symptoms hub with category groups and quick nav |
-| 574e5c7 | fix: digestion solution hero image |
-| 01e2701 | feat: digestion solution (chinese-medicine-for-digestion) |
+| 74b6539 | feat: upgrade 4 high-impression symptom pages with 5 content modules |
+| d66b708 | feat: upgrade why-am-i-always-tired with 5 content modules |
+| 706346e | feat: add 5 upgrade modules to symptom article framework (backward compatible) |
+| a9de909 | feat: secure report access with HMAC-signed cookie + quiz mid-reveal email capture |
+| b6cffc4 | feat: add Pinterest Save button to herb pages |
+| 9a001f7 | feat: enable site search with nav modal + Cmd+K, sync wellness index to 51 |
+| 4443b24 | feat: add GA4 analytics with consent-gated loading and conversion tracking |
+| 882638d | feat: add 10 new herb pages (herbs 122->132, sitemap 293->303) |
+| a8f6f16 | fix: rename 76 duplicate herb slugs + add 301 redirects |
+| d5da344 | fix: complete anti-template rewrite for all 119 herb pages (unique content) |
 
 ---
 
@@ -219,10 +228,10 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 | Bing: 25 impressions, 4 AI citations (7/3-4) | Promising | Acid reflux page cited by Bing Copilot 4x |
 | Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", quiz/result pages still say "Eastern Body Type" |
 | Quiz page not rebranded | Medium | quiz-client.tsx body text, result badge still say "Eastern" |
-| Basic report access control gap | High | report-v2 only checks cookie for pro plan |
+| Basic report access control gap | High | **FIXED 2026-07-16** (HMAC-signed cookie replaces bypassable plain cookie) |
 | IndexNow 403 from server IP | Medium | Key file live (200). User must run script locally |
 | No purchase recovery mechanism | Low | If user clears cookies, reports are lost |
-| No conversion tracking | Medium | Need quiz-to-checkout funnel analytics |
+| Conversion tracking | Medium | **FIXED 2026-07-16** (GA4 with consent-gated loading + conversion events) |
 | Pinterest content pipeline | Active | Daily 3 pins scheduled |
 | Domain authority very low | High | Domain age <1 year, backlinks ~0. Biggest SEO bottleneck |
 
@@ -248,7 +257,7 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 ### Key gaps to close
 - Domain authority (need backlinks + time)
-- Content scale (271 pages vs 5000-20000)
+- Content scale (303 pages vs 5000-20000)
 - Content depth per page (upgrade plan in docs/symptom-page-upgrade-plan.md)
 - Acupressure content missing (high search volume, not covered)
 
@@ -267,7 +276,7 @@ Don't compete on database size. Compete on accessibility: "user searches symptom
 
 ### SEO
 1. Submit new URLs to GSC regularly
-2. Run IndexNow batch submission locally for all 257 URLs
+2. Run IndexNow batch submission locally for all 303 URLs
 3. Monitor GSC for keyword appearances and ranking changes
 4. Start Reddit/Quora backlink building
 5. Check ChatGPT/Perplexity for citation presence weekly

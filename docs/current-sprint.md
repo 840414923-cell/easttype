@@ -1,28 +1,56 @@
 # Current Sprint
 
-Sprint 15 — Brand Repositioning to Chinese Medicine + Pillar Pages
+Sprint 19 - Conversion Infrastructure + Symptom Page Upgrade Framework
 
 Status: Complete
 
-Start Date: 2026-06-24
+Start Date: 2026-07-15
 
-End Date: 2026-06-24
+End Date: 2026-07-16
 
 ---
 
-## Sprint 15 Completed
+## Sprint 19 Completed
+
+### A. Herb library expansion + count sync
 
 | Task | Status |
 |---|---|
-| Homepage meta rebrand: "Eastern Body Type" → "Chinese Medicine Body Types" | Done |
-| layout.tsx default meta updated to Chinese Medicine | Done |
-| home-client.tsx visible text: all "Eastern wellness" → "Chinese medicine" | Done |
-| What Is Chinese Medicine pillar page (110K/mo, ~1800 words, 3 tables) | Done |
-| Chinese Medicine for Beginners guide (5K/mo, ~2000 words, 7-day plan) | Done |
-| Wellness hub expanded: 3 → 8 articles + meta updated | Done |
-| 9 unique FAQs added (5 for pillar, 4 for beginners) | Done |
-| Sitemap updated: 111 → 113 URLs | Done |
-| Push to Vercel (commit d925732) | Done |
+| 10 new herb pages (cordyceps, snow lotus, knotweed, achyranthes, spatholobus, psoralea, cynomorium, radish seed, belamcanda, acorus) - herbs 122 -> 132 | Done |
+| Homepage count sync (herbs 122 -> 132, total guides 242 -> 252) | Done |
+| Sitemap 293 -> 303 URLs | Done |
+
+### B. Product + SEO optimization todo (docs/todo-product-seo-optimization.md)
+
+| Task | Status |
+|---|---|
+| GA4 analytics with consent-gated loading + conversion tracking (quiz / result / checkout events) | Done |
+| Site search enabled: nav modal + Cmd+K, search index synced wellness 44 -> 51 | Done |
+| Removed invalid SearchAction from WebSite JSON-LD (was pointing to /quiz) | Done |
+| Pinterest Save button on herb pages (lightweight link, no script) | Done |
+| Report access secured with HMAC-signed cookie (replaces plain et_plan cookie that was bypassable from console) | Done |
+| Quiz mid-reveal email capture (optional email for full results, via Resend) | Done |
+
+### C. Symptom page upgrade framework
+
+| Task | Status |
+|---|---|
+| 5 upgrade modules added to symptom-article component (backward compatible, conditional render): matchHint, checklist, relatedSymptoms, relatedSolution, howIsItDifferent | Done |
+| Upgraded 5 high-impression symptom pages: why-am-i-always-tired, why-do-i-always-catch-colds, why-do-i-crave-sweets, why-do-i-have-acid-reflux, why-do-i-have-seasonal-allergies | Done |
+
+---
+
+## Key Metrics
+
+| Metric | Before (Sprint 18 end) | After (Sprint 19) |
+|---|---|---|
+| Herb pages | 122 | 132 |
+| Sitemap URLs | 293 | 303 |
+| Symptom pages with upgrade modules | 0 | 5 / 70 |
+| Analytics tools | Vercel Analytics + Clarity | + GA4 (consent-gated) |
+| Site search | Written, unused | Live (nav + Cmd+K) |
+| Report access control | Plain cookie (bypassable) | HMAC-signed cookie |
+| Pinterest Save button | None | Herb pages |
 
 ---
 
@@ -30,11 +58,10 @@ End Date: 2026-06-24
 
 | Task | Reason |
 |---|---|
-| GSC URL submission for new pages | User does this manually (~10/day quota) |
-| IndexNow batch submission | Script exists, run after Vercel deploy confirmed |
-| Content expansion Week 2 (PCOS, Menopause, etc.) | Next sprint |
-| Bing Webmaster Tools setup | User needs to set up manually |
-| Google Indexing API automation | Needs GOOGLE_INDEXING_TOKEN env var |
+| Creem purchase event -> GA4 | GA4 conversion tracking added; purchase event on success / webhook not yet wired |
+| Pinterest Save on wellness article pages | Done on herbs only; wellness deferred |
+| Symptom upgrade rollout (65 remaining pages) | Ongoing initiative, 2-3 pages/day per docs/symptom-page-upgrade-plan.md |
+| Training camp | MVP built locally in Sprint 18, not pushed (waiting for traffic threshold) |
 
 ---
 
@@ -42,32 +69,31 @@ End Date: 2026-06-24
 
 | Risk | Severity | Mitigation |
 |---|---|---|
-| Brand positioning shift mid-site (Eastern → Chinese) | Medium | New pages use "Chinese medicine", old pages retain "Eastern wellness". Google needs time to understand the shift. Monitor GSC keyword changes |
-| Homepage title change on already-indexed page | Low | Google re-crawls and updates title within days. Old title wasn't generating clicks anyway (3 clicks total) |
-| Wellness freeze decision overridden | Low | Old "freeze" decision was made when site had no data. Now 34 pages indexed, data supports expansion. Documented in decisions.md |
-| Pillar page targets 110K/mo keyword — high competition | Medium | Page is comprehensive (1800 words, 3 tables, 5 FAQ, JSON-LD). Will take time to rank. Long-term play |
+| GA4 loads with consent gate - may undercount if users decline | Low | Compare with Vercel Analytics baseline; TCM audience skews accepting |
+| HMAC cookie changes report access flow | Medium | Existing paid users with old cookie need re-auth; monitor support requests |
+| Symptom upgrade modules conditional - 65 pages still on old layout | Low | Backward compatible; no canonical / URL / title risk; gradual rollout |
+| Quiz mid-reveal email capture may add friction | Low | Optional field; review GA4 funnel data next sprint |
 
 ---
 
 ## Key Learnings
 
-1. **Brand positioning matters more than content volume.** Adding pages is incremental; changing how Google categorizes your site is transformative. The homepage meta change is the single highest-impact SEO action this sprint.
-2. **"Chinese medicine" has 20x more search volume than "Eastern wellness".** 110K/mo vs ~5K/mo. Aligning site language with search behavior is critical.
-3. **Pillar pages and beginner guides serve different users.** Pillar = comprehensive reference (what is it). Beginner = actionable starter (how to start). Both are needed.
-4. **Wellness hub page was underutilized.** Only 3 articles listed when 7 existed. Hub pages should always list all available content.
-5. **Content quality rules working well.** All new pages follow: unique intro, at least one table, unique FAQs, medical disclaimer, no banned words, 1500+ words.
+1. **The todo-product-seo-optimization.md audit was high-leverage.** One afternoon cleared 6 of 8 items that had been sitting (search bar written but unused for weeks, GA4 missing, cookie bypass known). A structured audit plus prioritized list converts known debt into shipped work.
+2. **Backward-compatible conditional modules beat big-bang rewrites.** Adding 5 upgrade modules with conditional render let 5 pages go live immediately while 65 stay unchanged. No canonical / URL / title risk, no build breakage, incremental rollout.
+3. **HMAC cookie is stronger than plain cookie for paywall.** The plain et_plan=pro cookie was bypassable from the browser console. HMAC signature prevents forgery without needing a Redis lookup on every request.
+4. **Search index drift is a recurring trap.** search-index.ts had wellness hardcoded at 44 while actual was 51. Any time a content type grows, its search index must sync in the same commit.
 
 ---
 
-## Next Sprint: Sprint 16
+## Next Sprint: Sprint 20
 
-Goal: Index submission + Content expansion Week 2
+Goal: Conversion data review + symptom upgrade rollout + brand consistency
 
 Tasks:
-1. Submit new URLs to GSC + IndexNow
-2. PCOS and Chinese Medicine (8K/mo)
-3. Menopause Natural Remedies food combo (8K/mo)
-4. Herbal Tea for Sleep (6K/mo)
-5. Why Do I Have Dry Mouth (10K/mo)
-6. Why Do I Have Chest Tightness (6K/mo)
-7. Monitor GSC for "Chinese medicine" keyword appearances
+1. Continue symptom page upgrades - next batch of high-impression pages (2-3/day)
+2. Wire Creem purchase event to GA4 (complete quiz -> result -> checkout -> purchase funnel)
+3. Add Pinterest Save button to wellness article pages
+4. Rebrand quiz / result / report visible text from "Eastern Body Type" to "Chinese medicine" (consistency with homepage)
+5. Review first GA4 funnel data: quiz completion rate, result -> checkout drop-off
+6. Submit 10 new herb URLs (132 total) to GSC + IndexNow
+7. Monitor GSC + AI citation (Bing Copilot / Perplexity / ChatGPT) for new herb pages

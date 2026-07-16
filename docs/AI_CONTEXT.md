@@ -6,7 +6,7 @@ English-only wellness platform. www.myeasterntype.com. Next.js 16 + React 19 + T
 
 Vercel deploy. Repo: github.com/840414923-cell/easttype.
 
-Brand: gold accent #C9A355, light mode default. Conversational tone, no AI words.
+Brand: Chinese red accent #8C2D2A + cream, light mode default. Conversational tone, no AI words.
 
 Not medical advice. No diagnosis, treatment, cure. Hedge everything: may, might, can be associated with.
 
@@ -38,10 +38,10 @@ Content sections:
 /symptoms (70)  - 搜索入口
 /patterns (9)   - 知识桥梁
 /types (9)      - 完整体质档案
-/wellness (43)  - TCM深度内容
+/wellness (51)  - TCM深度内容
 /foods-for (10) - 食疗指南
-/herbs (100)    - 中药库
-/solutions (2)  - 方剂专题 (新增)
+/herbs (132)    - 中药库
+/solutions (9)  - 方剂专题 (hub + 8 detail)
 ```
 
 四层核心结构 + 三个扩展板块。每层有明确职责：
@@ -54,7 +54,7 @@ Content sections:
 
 **Quiz** — 转化漏斗。/quiz -> /result -> /report-v2 -> /success。三层产品：Free（类型揭示 + 症状共鸣）-> $4.99 Basic（身份 + 食物地图 + 日常节奏）-> $12.99 Pro（完整生活方式系统）。
 
-**Herbs** — 中药库。100味药材，实拍照片，含性味归经、功效、用法、饮食建议。11个分类。面向 "chinese herb" 类搜索词。
+**Herbs** — 中药库。132味药材，实拍照片，含性味归经、功效、用法、饮食建议。11个分类。面向 "chinese herb" 类搜索词。
 
 **Solutions** — 方剂专题。按健康问题组织（减肥、疲劳、失眠等），每个专题含3个配方对应3种体质。药食同源only，无动物原料，材料易获得。含古方出处、详细份量、熬煮步骤、禁忌。引导测试转化。
 
@@ -70,7 +70,7 @@ Content sections:
 
 ### Navigation
 
-Nav bar: Guides dropdown (Herbal Solutions / Symptoms 70 / Wellness 43 / Food Guides 10 / Patterns 9) + Start Quiz + Herbs + About + ThemeToggle
+Nav bar: Guides dropdown (Herbal Solutions / Symptoms 70 / Wellness 51 / Food Guides 10 / Patterns 9) + Start Quiz + Herbs + Journal + About + ThemeToggle
 
 Dropdown background must use `bg-[var(--color-card-bg)]` (not `bg-card-bg`) for Tailwind v4 compatibility.
 
@@ -80,7 +80,7 @@ Dropdown background must use `bg-[var(--color-card-bg)]` (not `bg-card-bg`) for 
 
 ### Paywall
 
-Cookie-based。success 页写 et_plan cookie，report-v2 检查它。
+Cookie-based。success 页写 et_plan cookie，report-v2 用 HMAC 签名 cookie 验证（2026-07-16 升级，防控制台伪造）。
 
 ### Theme
 
@@ -105,10 +105,10 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Types | 9 | Complete |
 | Wellness | 51 (+ 7 redirected) | 51 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
-| Herbs | 122 | `/herbs/[slug]` dynamic route, real photos |
-| Solutions | 7 | Hub + 6 detail (weight loss, energy, sleep, digestion, constipation, anxiety, acne, PMS, hair loss). More planned |
-| Sitemap URLs | 293 | Hand-maintained |
-| Total build pages | 314 | Build verified (2026-07-12) |
+| Herbs | 132 | `/herbs/[slug]` dynamic route, real photos |
+| Solutions | 9 | Hub + 8 detail (weight loss, energy, sleep, digestion, anxiety, acne, PMS, hair loss). constipation moved to wellness. More planned |
+| Sitemap URLs | 303 | Hand-maintained |
+| Total build pages | 324 | Build verified (2026-07-16) |
 
 ### Published Patterns (9)
 
@@ -136,7 +136,7 @@ natural-balance (Balanced -> balanced)
 
 # Homepage Narrative
 
-Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Food Guides / Wellness) -> TCM vs Western comparison -> SEO/FAQ
+Hero (split: "What's Your Chinese Medicine Body Type?" + hero image) -> Trust Bar -> How It Works (3 steps) -> Why questions -> 9 Body Types grid (with images + population %) -> Testimonials -> Newsletter -> SEO/FAQ
 
 ---
 
@@ -179,7 +179,7 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 
 # Google Indexing
 
-- Sitemap: 254 URLs
+- Sitemap: 303 URLs
 - First indexing request: 2026-06-02
 - 60+ pages indexed by 2026-06-30
 - Keywords appearing at positions 60-96
@@ -253,7 +253,7 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 | src/lib/types.ts | ConstitutionId type (9 types) |
 | src/lib/food-combo-data.ts | 10 食物组合页数据 |
 | src/lib/food-map.ts | 各体质食物推荐列表 |
-| src/lib/herbs-data.json | 100味中药完整数据 |
+| src/lib/herbs-data.json | 132味中药完整数据 |
 | src/lib/herbs-data.ts | HerbData接口 + HERBS map + HERB_CATEGORIES (11分类) |
 | src/lib/solutions-data.ts | Solution/SolutionFormula接口 + SOLUTIONS map |
 | src/lib/wellness-faqs.ts | Wellness 页 FAQ |
@@ -272,10 +272,10 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 | src/app/solutions/page.tsx | Solutions hub 页 |
 | src/app/solutions/[slug]/page.tsx | Solutions 详情页 (对比表/体质解释/配方/FAQ) |
 | src/app/foods-for/[slug]/page.tsx | 食物组合页动态路由 |
-| public/sitemap.xml | 254 URLs (www), 手动维护 |
+| public/sitemap.xml | 303 URLs (www), 手动维护 |
 | public/62b701021d242b39a739ee629f462a69.txt | IndexNow key |
-| public/images/herbs/ | 101张药材实拍图 (100已用) |
-| public/images/solutions/ | 方剂配图 (4张JPG) |
+| public/images/herbs/ | 133张药材实拍图 (132已用) |
+| public/images/solutions/ | 方剂配图 (36张JPG) |
 
 ---
 
@@ -297,7 +297,7 @@ Hero (symptoms-first search bar) -> 4 feature blocks (Body Types / Symptoms / Fo
 
 # Next Steps
 
-1. **Symptom page upgrades** — 2-3 pages/day per `docs/symptom-page-upgrade-plan.md`, 5 modules (self-check checklist, match hints, related symptoms grid, solutions/foods recommendation, comparison collapsibles). Start with highest GSC impression pages.
+1. **Symptom page upgrades** — 2-3 pages/day per `docs/symptom-page-upgrade-plan.md`, 5 modules (matchHint / checklist / relatedSymptoms / relatedSolution / howIsItDifferent). 框架已完成，5/70 页已升级。继续从高 GSC 曝光页开始。
 2. Solutions 专栏继续添加专题（cold sensitivity -> constipation -> skin -> anxiety...）
 3. 继续 Pinterest Pin 发布（3图/天）
 4. Reddit/Quora 外链建设（用户知道方法但尚未开始）
