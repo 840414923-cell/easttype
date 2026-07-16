@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseFaceMappingArticle() {
   const slug = "chinese-face-mapping"
@@ -165,6 +166,8 @@ export default function ChineseFaceMappingArticle() {
           <strong className="text-text">When to see a doctor:</strong> This article is for educational purposes only and is not medical advice. Face mapping cannot diagnose medical conditions. If you notice sudden skin changes, persistent rashes, unusual moles, or severe acne that does not respond to over-the-counter treatments, please consult a licensed dermatologist or healthcare provider. Some facial changes can be associated with underlying medical conditions that require proper evaluation.
         </p>
       </div>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
       <SymptomCta />

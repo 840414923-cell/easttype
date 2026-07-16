@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function WhatIsBloodArticle() {
   const slug = "what-is-blood"
@@ -247,6 +248,8 @@ export default function WhatIsBloodArticle() {
           Mild signs of low Blood often respond to steady dietary changes over weeks and months. Certain symptoms, however, deserve prompt attention from a qualified healthcare professional. Please see a doctor if you notice signs of severe anemia such as extreme fatigue, shortness of breath, or chest pain, heavy or prolonged menstrual bleeding, unusual bruising or bleeding that will not stop, or chronic dizziness and fainting. These can be associated with conditions that require blood tests and proper medical evaluation. Chinese medicine food guidance may complement, but should never replace, care from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function WhatIsQiArticle() {
   const slug = "what-is-qi"
@@ -237,6 +238,8 @@ export default function WhatIsQiArticle() {
           </Link>
         </div>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

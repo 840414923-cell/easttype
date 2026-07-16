@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function StomachHeatArticle() {
   const slug = "stomach-heat"
@@ -246,6 +247,8 @@ export default function StomachHeatArticle() {
           The signs of Stomach Heat overlap with several medical conditions, including gastroesophageal reflux disease (GERD), H. pylori infection, peptic ulcer, and gastritis. If your symptoms are severe, persistent, getting worse, or accompanied by unintended weight loss, difficulty swallowing, or dark stools, please see a qualified healthcare professional for a proper evaluation. Chinese medicine food therapy and lifestyle adjustments may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

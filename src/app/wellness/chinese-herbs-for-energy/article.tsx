@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseHerbsForEnergyArticle() {
   const slug = "chinese-herbs-for-energy"
@@ -205,6 +206,8 @@ export default function ChineseHerbsForEnergyArticle() {
           Persistent fatigue can signal real medical conditions. Chronic low energy may be associated with thyroid disorders, iron-deficiency anemia, vitamin deficiencies, sleep apnea, depression, and autoimmune disease. If your tiredness is severe, worsening, or comes with weight loss, fever, or shortness of breath, see a doctor for a proper evaluation. Chinese herbs may complement medical care, but they do not replace diagnosis or treatment.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

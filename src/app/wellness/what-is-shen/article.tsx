@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function WhatIsShenArticle() {
   const slug = "what-is-shen"
@@ -217,6 +218,8 @@ export default function WhatIsShenArticle() {
           Severe anxiety, panic attacks, hallucinations, or insomnia that significantly disrupts daily life calls for professional care. Shen disturbance in Chinese medicine can overlap with several medical conditions, including generalized anxiety disorder, depression, hyperthyroidism, cardiac arrhythmias, and primary sleep disorders. If your symptoms are intense, persistent, or getting worse, please see a qualified healthcare professional for a proper evaluation. Food therapy and lifestyle changes may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

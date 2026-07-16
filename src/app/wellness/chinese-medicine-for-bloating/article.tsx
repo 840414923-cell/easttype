@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForBloatingArticle() {
   const slug = "chinese-medicine-for-bloating"
@@ -241,6 +242,8 @@ export default function ChineseMedicineForBloatingArticle() {
           Most occasional bloating is harmless and tied to a meal or a stressful day. Bloating that is persistent, painful, or getting worse should be checked by a qualified healthcare professional. Please see a doctor if bloating comes with blood in the stool, severe abdominal pain, persistent diarrhea or constipation, or unexplained weight loss. These signs can be associated with conditions such as celiac disease, inflammatory bowel disease, or ovarian issues that need proper diagnosis and treatment. Chinese medicine food therapy may complement, but should never replace, care from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

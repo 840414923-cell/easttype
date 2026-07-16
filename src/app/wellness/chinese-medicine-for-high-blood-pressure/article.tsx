@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForHighBloodPressureArticle() {
   const slug = "chinese-medicine-for-high-blood-pressure"
@@ -323,6 +324,8 @@ export default function ChineseMedicineForHighBloodPressureArticle() {
           High blood pressure is a serious medical condition. If you have been diagnosed with hypertension, or if your readings are consistently above 130/80, work with a qualified healthcare provider. TCM food therapy and acupressure may complement medical treatment but should never replace prescribed medication. Seek immediate medical attention if you experience severe headache, chest pain, vision changes, numbness on one side, difficulty speaking, or sudden dizziness. These can be signs of a hypertensive crisis. For ongoing management, monitor your blood pressure regularly and keep your doctor informed about any herbs or supplements you are considering.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

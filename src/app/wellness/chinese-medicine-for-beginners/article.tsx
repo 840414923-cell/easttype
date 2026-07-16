@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function BeginnersGuideArticle() {
   const slug = "chinese-medicine-for-beginners"
@@ -381,6 +382,8 @@ export default function BeginnersGuideArticle() {
           This guide is for informational and educational purposes only and is not medical advice. Dietary changes based on Chinese medicine may complement but should not replace professional medical care. If you have a health condition, are pregnant, or take prescription medications, please consult a licensed healthcare provider before making significant dietary changes.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForAcneArticle() {
   const slug = "chinese-medicine-for-acne"
@@ -246,6 +247,8 @@ export default function ChineseMedicineForAcneArticle() {
           Chinese medicine food therapy may complement, but should not replace, professional care for severe acne. Cystic, nodular, or scarring breakouts can cause lasting skin changes and may need medical treatment, including prescription options that go beyond what diet and lifestyle can do. If your acne is painful, widespread, leaving scars, or not responding to over-the-counter products after several weeks, please consult a licensed dermatologist. The internal approach described here works best as a steady background layer, while a dermatologist can address the surface, infection, and any risk of permanent scarring directly.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

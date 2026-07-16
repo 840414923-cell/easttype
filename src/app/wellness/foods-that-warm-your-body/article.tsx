@@ -3,6 +3,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function FoodsThatWarmArticle() {
 
@@ -301,6 +302,8 @@ export default function FoodsThatWarmArticle() {
           </Link>
         </div>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS["foods-that-warm-your-body"]} />
 

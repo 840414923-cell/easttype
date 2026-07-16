@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForInsomniaArticle() {
   const slug = "chinese-medicine-for-insomnia"
@@ -226,6 +227,8 @@ export default function ChineseMedicineForInsomniaArticle() {
           Chronic insomnia can be a sign of medical conditions including sleep apnea, thyroid disorders, depression, anxiety disorders, and medication side effects. If your insomnia persists for more than a few weeks, is accompanied by loud snoring, daytime sleepiness, mood changes, or significantly impacts your daily functioning, please consult a healthcare provider. Chinese medicine food therapy and lifestyle adjustments may complement but should not replace professional medical evaluation and treatment for serious sleep disorders.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function LungQiDeficiencyArticle() {
   const slug = "lung-qi-deficiency"
@@ -249,6 +250,8 @@ export default function LungQiDeficiencyArticle() {
           The signs of Lung Qi Deficiency can overlap with several medical conditions, including asthma, chronic obstructive pulmonary disease, chronic bronchitis, immunodeficiency, and anemia. If your shortness of breath is sudden, severe, or worsening, if you cough up blood, or if you experience chest pain, please see a healthcare professional right away. Chinese medicine food therapy may complement but should never replace professional medical care for serious respiratory conditions.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function LiverQiStagnationArticle() {
   const slug = "liver-qi-stagnation"
@@ -246,6 +247,8 @@ export default function LiverQiStagnationArticle() {
           The signs of Liver Qi Stagnation can overlap with several medical conditions, including anxiety and depression, gallbladder disease, hepatitis and other liver conditions, and premenstrual dysphoric disorder (PMDD). If your symptoms are severe, persistent, or getting worse, or if they come with significant pain, jaundice, or changes in mood that concern you, please see a qualified healthcare professional for a proper evaluation. Chinese medicine food therapy and lifestyle adjustments may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

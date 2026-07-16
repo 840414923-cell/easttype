@@ -3,6 +3,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function FoodsForEnergyArticle() {
 
@@ -134,6 +135,8 @@ export default function FoodsForEnergyArticle() {
           {"This information is based on traditional Chinese dietary philosophy and is provided for informational purposes only. It is not medical advice, diagnosis, or treatment. Always consult a licensed healthcare provider for medical concerns."}
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-foods-for-energy"]} />
 

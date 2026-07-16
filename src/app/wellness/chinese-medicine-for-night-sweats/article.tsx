@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForNightSweatsArticle() {
   const slug = "chinese-medicine-for-night-sweats"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForNightSweatsArticle() {
           Night sweats can also relate to conditions that need medical care. Infections such as tuberculosis, lymphoma and other cancers, an overactive thyroid, and certain medication side effects can all cause heavy sweating at night. Persistent drenching sweats, weight loss, fever, or sweats that disrupt sleep on a regular basis warrant evaluation by a qualified healthcare professional. Chinese medicine food therapy may complement conventional care, but it should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -5,6 +5,7 @@ import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 const TYPE_SUMMARY: Record<ConstitutionId, { en: { name: string; desc: string; key: string }; zh: { name: string; desc: string; key: string }; ja: { name: string; desc: string; key: string } }> = {
   balanced: { en: { name: "The Still Lake", desc: "Self-regulating, steady energy, emotionally resilient. The rare baseline — only ~30% of people.", key: "Sleeps well, adapts easily, rarely sick" }, zh: { name: "平和質", desc: "自我調節、能量穩定、情緒韌性強。罕見基準體質，約30%的人。", key: "睡得好、適應力強、很少生病" }, ja: { name: "平和質", desc: "自己調節、安定エネルギー、感情的回復力。稀な基準体質、約30%", key: "よく眠れ、適応力強、病気になりにくい" } },
@@ -267,6 +268,8 @@ export default function BodyTypesArticle() {
           </Link>
         </div>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS["chinese-medicine-body-types"]} />
 

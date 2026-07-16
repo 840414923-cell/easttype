@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForFatigueArticle() {
   const slug = "chinese-medicine-for-fatigue"
@@ -267,6 +268,8 @@ export default function ChineseMedicineForFatigueArticle() {
           Chinese medicine may complement medical care, but it does not replace it. Getting a clear diagnosis first can help you combine the two approaches safely. If you are unsure where your tiredness fits, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> may help you understand your constitution alongside professional guidance.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

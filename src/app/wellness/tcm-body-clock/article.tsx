@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function TcmBodyClockArticle() {
   const slug = "tcm-body-clock"
@@ -156,6 +157,8 @@ export default function TcmBodyClockArticle() {
           <strong className="text-text">When to see a doctor:</strong> This article is for educational purposes only and is not medical advice. If your sleep disruption is new, severe, or accompanied by chest pain, shortness of breath, or significant mood changes, please consult a licensed healthcare provider. Chronic sleep issues can sometimes be associated with conditions that require medical treatment.
         </p>
       </div>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
       <SymptomCta />

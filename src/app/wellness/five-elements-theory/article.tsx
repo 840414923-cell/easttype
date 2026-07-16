@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function FiveElementsTheoryArticle() {
   const slug = "five-elements-theory"
@@ -192,6 +193,8 @@ export default function FiveElementsTheoryArticle() {
           Pair these habits with the supportive foods above and a steady bedtime, and you may notice the struggling element settle over a few weeks. None of this replaces medical care for serious symptoms, but it can be associated with steadier energy and mood.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

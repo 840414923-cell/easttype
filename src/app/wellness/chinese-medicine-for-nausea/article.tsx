@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForNauseaArticle() {
   const slug = "chinese-medicine-for-nausea"
@@ -241,6 +242,8 @@ export default function ChineseMedicineForNauseaArticle() {
           Most occasional nausea is harmless and tied to a heavy meal, a stressful morning, or a bumpy ride. Nausea that is persistent, severe, or getting worse should be checked by a qualified healthcare professional. Please see a doctor if nausea comes with persistent vomiting, blood in vomit, signs of severe dehydration such as dizziness and very little urine, unexplained weight loss, or nausea during pregnancy that makes eating or drinking difficult. These signs can be associated with conditions that need proper diagnosis and care. Chinese medicine food therapy may complement, but should never replace, care from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

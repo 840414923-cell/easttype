@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function WhatIsChineseMedicineArticle() {
   const slug = "what-is-chinese-medicine"
@@ -372,6 +373,8 @@ export default function WhatIsChineseMedicineArticle() {
           This article is for informational and educational purposes only and is not medical advice. Chinese medicine approaches may complement but should not replace professional medical care. If you have a medical condition or are experiencing concerning symptoms, please consult a licensed healthcare provider. Always inform your doctor about any herbs or supplements you are taking, as some may interact with prescription medications.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

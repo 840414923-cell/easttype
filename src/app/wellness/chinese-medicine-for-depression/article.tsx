@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForDepressionArticle() {
   const slug = "chinese-medicine-for-depression"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForDepressionArticle() {
           Depression is a serious condition that may require professional care. If you experience persistent low mood lasting more than two weeks, loss of interest in activities, thoughts of self-harm, or difficulty functioning in daily life, please consult a qualified mental health professional immediately. Chinese medicine food therapy may complement, but should never replace, treatment from a licensed medical provider or therapist. If you are in crisis, contact your local emergency services or a crisis helpline right away.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

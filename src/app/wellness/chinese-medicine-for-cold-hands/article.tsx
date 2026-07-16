@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForColdHandsArticle() {
   const slug = "chinese-medicine-for-cold-hands"
@@ -257,6 +258,8 @@ export default function ChineseMedicineForColdHandsArticle() {
           Cold extremities can sometimes point to medical conditions that food therapy alone cannot address. Persistent coldness may be associated with hypothyroidism, anemia, poor circulation from cardiovascular issues, or Raynaud&apos;s. If your coldness is severe, one-sided, comes with color changes or numbness, or appears suddenly, please see a doctor for evaluation. Our page on <Link href="/symptoms/why-am-i-always-cold" className="text-accent hover:underline">why you are always cold</Link> explores when it is worth investigating further.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

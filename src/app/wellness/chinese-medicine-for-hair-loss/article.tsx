@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForHairLossArticle() {
   const slug = "chinese-medicine-for-hair-loss"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForHairLossArticle() {
           Sudden or patchy hair loss, hair loss with scalp inflammation, or hair loss accompanied by other symptoms like fatigue, weight changes, or irregular periods should be evaluated by a qualified healthcare professional. Thyroid disorders, iron deficiency, hormonal imbalances, and autoimmune conditions can all cause hair loss and need proper medical diagnosis. Chinese medicine food therapy may complement but should never replace treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

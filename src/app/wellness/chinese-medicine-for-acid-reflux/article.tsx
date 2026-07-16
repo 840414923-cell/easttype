@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForAcidRefluxArticle() {
   const slug = "chinese-medicine-for-acid-reflux"
@@ -238,6 +239,8 @@ export default function ChineseMedicineForAcidRefluxArticle() {
           Occasional reflux after a heavy meal is common. Reflux that comes back often, wakes you at night, or resists changes in diet should be evaluated by a qualified healthcare professional. Frequent acid exposure can be associated with GERD, inflammation of the esophagus, Barrett&apos;s esophagus, or ulcers, all of which need proper diagnosis and medical care. Chronic reflux that lasts for weeks warrants an endoscopy to check the lining of the esophagus. Chinese medicine food therapy may complement, but should never replace, treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

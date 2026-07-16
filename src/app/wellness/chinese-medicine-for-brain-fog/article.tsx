@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForBrainFogArticle() {
   const slug = "chinese-medicine-for-brain-fog"
@@ -236,6 +237,8 @@ export default function ChineseMedicineForBrainFogArticle() {
           Persistent brain fog may relate to conditions that need medical care. Thyroid disorders, vitamin B12 deficiency, sleep apnea, depression, and post-viral syndromes can all cause ongoing mental cloudiness and should be evaluated by a qualified healthcare professional. Sudden fog, confusion, or fog with other neurological signs needs prompt attention. Chinese medicine food therapy may complement conventional care, but it should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

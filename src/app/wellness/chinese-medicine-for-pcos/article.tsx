@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForPcosArticle() {
   const slug = "chinese-medicine-for-pcos"
@@ -242,6 +243,8 @@ export default function ChineseMedicineForPcosArticle() {
           PCOS is a hormonal and metabolic condition that requires proper medical diagnosis and ongoing management. It can be associated with a higher risk of type 2 diabetes, cardiovascular concerns, and fertility challenges, which is why working with an endocrinologist or gynecologist matters. Chinese medicine food therapy may complement that care, but it does not replace it. If your cycles are consistently irregular, if you are struggling to conceive, or if lifestyle changes are not helping, please consult a healthcare professional.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

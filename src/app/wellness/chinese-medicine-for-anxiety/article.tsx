@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForAnxietyArticle() {
   const slug = "chinese-medicine-for-anxiety"
@@ -254,6 +255,8 @@ export default function ChineseMedicineForAnxietyArticle() {
           Chinese medicine food therapy and lifestyle adjustments may complement therapy or medication, but they should not replace professional care. If you are unsure where your symptoms fall, our overview on <Link href="/symptoms/why-do-i-feel-anxious" className="text-accent hover:underline">why you feel anxious</Link> may offer useful context, and our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can help you understand your constitution alongside professional guidance.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForWeightLossArticle() {
   const slug = "chinese-medicine-for-weight-loss"
@@ -236,6 +237,8 @@ export default function ChineseMedicineForWeightLossArticle() {
           Sudden or unexplained weight changes can be associated with thyroid conditions, hormonal imbalances, medication effects, or other medical issues that need proper diagnosis. If your weight is changing rapidly, if you have other symptoms such as fatigue, hair loss, or changes in appetite, or if lifestyle changes are not helping, please consult a healthcare professional. Chinese medicine food therapy may complement, but never replaces, professional medical care for serious conditions.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

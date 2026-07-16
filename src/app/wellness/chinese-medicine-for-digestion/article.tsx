@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForDigestionArticle() {
   const slug = "chinese-medicine-for-digestion"
@@ -258,6 +259,8 @@ export default function ChineseMedicineForDigestionArticle() {
           Some signs need prompt medical evaluation rather than food therapy. Seek care for persistent bloating that does not improve, blood in the stool, severe abdominal pain, unexplained weight loss, or chronic diarrhea or constipation that lasts more than a few weeks. These can be associated with conditions that need proper diagnosis, including celiac disease, inflammatory bowel disease, ulcers, infections, and other serious concerns. Chinese medicine food therapy may complement but should never replace professional medical care. If your symptoms feel severe or are getting worse, please see a healthcare provider. For milder, nagging discomfort, our page on <Link href="/symptoms/why-do-i-feel-sick-after-eating" className="text-accent hover:underline">why you feel sick after eating</Link> may offer helpful context.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

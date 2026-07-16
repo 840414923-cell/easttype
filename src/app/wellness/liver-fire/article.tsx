@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function LiverFireArticle() {
   const slug = "liver-fire"
@@ -249,6 +250,8 @@ export default function LiverFireArticle() {
           The signs of Liver Fire can overlap with several medical conditions, including hypertension (high blood pressure), migraines and other headache disorders, eye conditions such as conjunctivitis and glaucoma, anger management issues, and hyperthyroidism. If your symptoms are severe, persistent, getting worse, or accompanied by high blood pressure readings, vision changes, or chest pain, please see a qualified healthcare professional for a proper evaluation. Chinese medicine food therapy and lifestyle adjustments may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

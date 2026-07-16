@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForMigrainesArticle() {
   const slug = "chinese-medicine-for-migraines"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForMigrainesArticle() {
           Migraines that are sudden, severe, or different from your usual pattern need medical evaluation. Seek emergency care for the worst headache of your life, headache with fever or stiff neck, or headache after head injury. Frequent migraines that interfere with daily life should be evaluated by a neurologist. Chinese medicine food therapy may complement but should never replace treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function MeridiansChineseMedicineArticle() {
   const slug = "meridians-chinese-medicine"
@@ -232,6 +233,8 @@ export default function MeridiansChineseMedicineArticle() {
           Meridian-based ideas may help explain patterns that standard tests do not catch, but they do not replace medical diagnosis. Pain that is severe, sudden, or keeps returning in the same spot can sometimes point to an injury or illness that needs prompt attention. Chest pain, neurological symptoms, persistent numbness, weakness, or swelling that worsens should be checked by a licensed healthcare provider before or alongside any self-care. Acupuncture and acupressure may complement professional treatment, but serious symptoms always warrant proper medical evaluation first.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

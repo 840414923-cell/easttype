@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function SpleenDampnessArticle() {
   const slug = "spleen-dampness"
@@ -255,6 +256,8 @@ export default function SpleenDampnessArticle() {
           The signs of Spleen Dampness overlap with several medical conditions. Persistent edema, unexplained weight gain, chronic fatigue, and brain fog can be associated with hypothyroidism, metabolic syndrome, kidney or lymphatic issues, and other conditions that need proper diagnosis. If your symptoms are severe, worsening, or accompanied by shortness of breath, chest tightness, or rapid changes in weight, please consult a healthcare professional. Chinese medicine food therapy may complement, but never replaces, professional medical care for serious conditions.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

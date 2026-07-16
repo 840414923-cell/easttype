@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function SpleenQiDeficiencyArticle() {
   const slug = "spleen-qi-deficiency"
@@ -246,6 +247,8 @@ export default function SpleenQiDeficiencyArticle() {
           The signs of Spleen Qi Deficiency overlap with several medical conditions, including celiac disease, irritable bowel syndrome, chronic fatigue syndrome, and thyroid disorders. If your symptoms are severe, persistent, worsening, or accompanied by unintended weight loss, blood in your stool, or severe pain, please consult a healthcare professional for proper evaluation. Chinese medicine food therapy may complement but should never replace professional medical care for serious conditions.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

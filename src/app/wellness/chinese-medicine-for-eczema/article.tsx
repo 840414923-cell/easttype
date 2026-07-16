@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForEczemaArticle() {
   const slug = "chinese-medicine-for-eczema"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForEczemaArticle() {
           Eczema that is widespread, infected, or not responding to dietary changes should be evaluated by a qualified healthcare professional. Signs of infection include increased pain, warmth, pus, or fever. Severe or chronic eczema may need prescription topical treatments. Chinese medicine food therapy may complement but should never replace treatment from a licensed medical provider or dermatologist.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForTinnitusArticle() {
   const slug = "chinese-medicine-for-tinnitus"
@@ -240,6 +241,8 @@ export default function ChineseMedicineForTinnitusArticle() {
           Most occasional ringing fades on its own and is tied to a loud event, a stressful week, or a cold. Tinnitus that is sudden, one-sided, constant, or getting worse should be assessed by a qualified healthcare professional. Please see a doctor promptly if you notice sudden hearing loss, ringing in only one ear, pulsatile tinnitus that beats in time with your pulse, or ringing paired with dizziness, vertigo, or balance problems. These signs can be associated with conditions that need proper diagnosis and care. Chinese medicine food therapy may complement, but should never replace, guidance from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

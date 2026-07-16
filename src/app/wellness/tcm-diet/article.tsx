@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function TcmDietArticle() {
   const slug = "tcm-diet"
@@ -243,6 +244,8 @@ export default function TcmDietArticle() {
           A TCM diet is educational, not medical treatment. If you have a diagnosed condition, persistent digestive problems, or are managing pregnancy or medication, please consult a qualified practitioner and your doctor before making significant dietary changes. Chinese food therapy may complement medical care, but it does not replace diagnosis or treatment.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

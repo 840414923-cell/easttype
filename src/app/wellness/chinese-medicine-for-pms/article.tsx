@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForPmsArticle() {
   const slug = "chinese-medicine-for-pms"
@@ -233,6 +234,8 @@ export default function ChineseMedicineForPmsArticle() {
           Severe PMS that interferes with daily life, PMS with severe depression or anxiety, or PMS that does not respond to dietary changes should be evaluated by a qualified healthcare professional. PMDD (Premenstrual Dysphoric Disorder) is a more severe form of PMS that may need medical treatment. Extremely painful periods, heavy bleeding, or irregular cycles may indicate underlying conditions such as endometriosis, fibroids, or PCOS. You can read more in our guide on <Link href="/wellness/chinese-medicine-for-pcos" className="text-accent hover:underline">Chinese medicine for PCOS</Link>. Chinese medicine food therapy may complement but should never replace treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

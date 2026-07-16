@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForHotFlashesArticle() {
   const slug = "chinese-medicine-for-hot-flashes"
@@ -249,6 +250,8 @@ export default function ChineseMedicineForHotFlashesArticle() {
           Hot flashes can also relate to conditions beyond the midlife transition. Thyroid disorders, medication side effects, infections, and other medical issues may produce similar waves of heat and should be evaluated by a qualified healthcare professional. Severe or disruptive hot flashes that interfere with sleep, work, or daily life warrant medical attention. Hormone therapy and other medical treatments may be appropriate for some women, depending on history and risk factors. Chinese medicine food therapy and lifestyle changes may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

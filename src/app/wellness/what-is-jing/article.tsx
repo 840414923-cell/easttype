@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function WhatIsJingArticle() {
   const slug = "what-is-jing"
@@ -217,6 +218,8 @@ export default function WhatIsJingArticle() {
           Some signs of Jing depletion can overlap with medical conditions. Premature hair loss, persistent fatigue, low libido, or changes in fertility may point to thyroid disorders, hormonal imbalances, iron or vitamin deficiencies, or other treatable issues. If these signs are severe, persistent, or getting worse, please see a qualified healthcare professional for proper testing. Chinese medicine food therapy and lifestyle changes may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

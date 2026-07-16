@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function FoodTherapyChineseMedicineArticle() {
   const slug = "food-therapy-chinese-medicine"
@@ -232,6 +233,8 @@ export default function FoodTherapyChineseMedicineArticle() {
           Food therapy is educational and preventive, not a replacement for medical care. For diagnosed conditions, ongoing symptoms, or anything that worsens, consult both a qualified medical doctor and a licensed TCM practitioner. A practitioner can read your pattern more precisely and tailor food and herb guidance to your specific situation. Our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can give you a starting point before that conversation.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

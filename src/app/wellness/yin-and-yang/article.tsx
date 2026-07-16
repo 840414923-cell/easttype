@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function YinAndYangArticle() {
   const slug = "yin-and-yang"
@@ -194,6 +195,8 @@ export default function YinAndYangArticle() {
           Feeling too hot or too cold is often a matter of constitution and habit. Still, extreme or persistent heat or cold can sometimes point to a medical condition such as a thyroid disorder, a hormonal imbalance, or an infection. If your symptoms are intense, getting worse, or come with weight loss, fever, or fainting, please see a licensed healthcare provider. Chinese medicine ideas may support, but should never replace, professional medical care.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

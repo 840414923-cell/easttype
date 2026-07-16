@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function BloodDeficiencyArticle() {
   const slug = "blood-deficiency"
@@ -255,6 +256,8 @@ export default function BloodDeficiencyArticle() {
           The signs of Blood Deficiency overlap with several medical conditions, including iron-deficiency anemia, vitamin B12 deficiency, thyroid disorders, peripheral neuropathy, and sleep disorders. If you feel dizzy, weak, numb, or short of breath, please get blood work done. Low iron, low ferritin, or abnormal blood counts need proper medical attention. Chinese medicine food therapy may complement professional care, but it should never replace diagnosis or treatment for a real medical condition. If your symptoms are severe, persistent, or getting worse, consult a qualified healthcare provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

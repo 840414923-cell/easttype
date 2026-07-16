@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function ChineseMedicineForMenopauseArticle() {
   const slug = "chinese-medicine-for-menopause"
@@ -245,6 +246,8 @@ export default function ChineseMedicineForMenopauseArticle() {
           Menopause is natural, but some symptoms warrant medical attention. Severe hot flashes that disrupt daily life, persistent low mood or depression, signs of bone thinning, and any heavy or irregular bleeding should be evaluated by a qualified healthcare professional. Hormone therapy and other medical treatments may be appropriate depending on your history and risk factors. Chinese medicine food therapy and lifestyle changes may complement conventional care, but they should never replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 

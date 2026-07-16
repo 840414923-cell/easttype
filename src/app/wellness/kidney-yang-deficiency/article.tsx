@@ -2,6 +2,7 @@ import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export default function KidneyYangDeficiencyArticle() {
   const slug = "kidney-yang-deficiency"
@@ -251,6 +252,8 @@ export default function KidneyYangDeficiencyArticle() {
           The signs of Kidney Yang Deficiency can be associated with several medical conditions, including hypothyroidism, chronic kidney disease, adrenal insufficiency, and certain forms of anemia. If your symptoms are severe, persistent, steadily worsening, or joined by sudden weight gain, marked swelling, or very low blood pressure, please see a qualified healthcare professional for a proper evaluation. Chinese medicine food therapy and lifestyle adjustments may complement conventional care, but they should not replace diagnosis or treatment from a licensed medical provider.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <FaqSection faqs={WELLNESS_FAQS[slug]} />
 
