@@ -362,6 +362,27 @@ const articles = [
     tag: "Nutrition",
     readTime: "7 min",
   },
+  {
+    slug: "chinese-medicine-for-tinnitus",
+    title: "Chinese Medicine for Tinnitus: Kidney Health & Ear Ringing Foods",
+    excerpt: "Ringing in your ears? Chinese medicine links chronic tinnitus to Kidney weakness and sudden ringing to Liver Fire. Learn which foods may help.",
+    tag: "Yin Deficient",
+    readTime: "8 min",
+  },
+  {
+    slug: "chinese-medicine-for-nausea",
+    title: "Chinese Medicine for Nausea: Stomach Qi & Ginger Relief Foods",
+    excerpt: "Always nauseous? Chinese medicine sees nausea as Stomach Qi rebelling upward. Learn which warm foods like ginger may help settle your stomach.",
+    tag: "Qi Deficient",
+    readTime: "8 min",
+  },
+  {
+    slug: "what-is-blood",
+    title: "What Is Blood in Chinese Medicine? Xue, Nourishment & the Mind",
+    excerpt: "In Chinese medicine, Blood does more than flow through veins. It nourishes the body, moistens tissues, and anchors the mind. Learn which foods build it.",
+    tag: "Overview",
+    readTime: "9 min",
+  },
 ]
 
 const tagColors: Record<string, string> = {

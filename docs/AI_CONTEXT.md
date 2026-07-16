@@ -38,7 +38,7 @@ Content sections:
 /symptoms (70)  - 搜索入口
 /patterns (9)   - 知识桥梁
 /types (9)      - 完整体质档案
-/wellness (51)  - TCM深度内容
+/wellness (54)  - TCM深度内容
 /foods-for (10) - 食疗指南
 /herbs (132)    - 中药库
 /solutions (9)  - 方剂专题 (hub + 8 detail)
@@ -103,12 +103,12 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Symptoms | 70 | All converted to structured data + shared SymptomArticle component (2026-07-02) |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 51 (+ 7 redirected) | 51 active guides, 7 old duplicates 301 to symptoms |
+| Wellness | 54 (+ 7 redirected) | 54 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
 | Herbs | 132 | `/herbs/[slug]` dynamic route, real photos |
 | Solutions | 9 | Hub + 8 detail (weight loss, energy, sleep, digestion, anxiety, acne, PMS, hair loss). constipation moved to wellness. More planned |
-| Sitemap URLs | 303 | Hand-maintained |
-| Total build pages | 324 | Build verified (2026-07-16) |
+| Sitemap URLs | 306 | Hand-maintained |
+| Total build pages | 327 | Build verified (2026-07-16) |
 
 ### Published Patterns (9)
 
@@ -177,15 +177,16 @@ Hero (split: "What's Your Chinese Medicine Body Type?" + hero image) -> Trust Ba
 
 ---
 
-# Google Indexing
+# Search Engine Performance (2026-07-14)
 
-- Sitemap: 303 URLs
-- First indexing request: 2026-06-02
-- 60+ pages indexed by 2026-06-30
-- Keywords appearing at positions 60-96
-- First clicks generated
-- Search Console resource: www.myeasterntype.com
-- Strategy: organic search only, no paid ads
+- 242 / 303 pages indexed (80%) as of 2026-07-10
+- Google (7/8-7/14): 450 impressions, 2 clicks, avg position 75.9 (page 7-8, sandbox)
+- Bing (7/9-7/14): 165 impressions, 5 clicks, positions 3-8 (page 1-2)
+- Bing ranks EastType on page 1-2, Google on page 7-8. Content quality is enough, gap is domain authority
+- Top Google pages: kidney-yin-deficiency (80 imp), constipation (44+43), chinese-face-mapping (27)
+- Top Bing pages: yin-and-yang (21 imp, pos 5.6), cooling-foods (11 imp, pos 5.0), what-is-jing (pos 4.67)
+- AEO: 22 AI citations across 11 pages. Most cited: chinese-medicine-for-bloating (4), acid-reflux (4), cold-hands (3)
+- Strategy: organic search + AEO only, no paid ads. Near-term focus on Bing + AI citations
 
 ---
 

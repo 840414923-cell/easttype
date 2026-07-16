@@ -61,6 +61,9 @@ const WELLNESS_ARTICLES: { slug: string; title: string; excerpt: string }[] = [
   { slug: "chinese-medicine-for-migraines", title: "Chinese Medicine for Migraines: Liver Fire, Blood Deficiency, and Foods That May Help", excerpt: "Migraines in Chinese medicine may involve Liver Fire rising upward, Blood Deficiency" },
   { slug: "chinese-medicine-for-pms", title: "Chinese Medicine for PMS: Liver Qi, Blood, and Foods That May Help", excerpt: "PMS in Chinese medicine may involve Liver Qi Stagnation, Blood Deficiency, or Cold" },
   { slug: "tcm-body-clock", title: "TCM Body Clock: The Chinese Medicine Organ Time Chart", excerpt: "The Chinese medicine body clock maps each 2-hour window to a specific organ" },
+  { slug: "chinese-medicine-for-tinnitus", title: "Chinese Medicine for Tinnitus: Kidney Health & Ear Ringing Foods", excerpt: "Ringing in ears, Kidney weakness, Liver Fire, ear health" },
+  { slug: "chinese-medicine-for-nausea", title: "Chinese Medicine for Nausea: Stomach Qi & Ginger Relief Foods", excerpt: "Nausea, Stomach Qi, ginger, settling stomach, queasy" },
+  { slug: "what-is-blood", title: "What Is Blood in Chinese Medicine?", excerpt: "Blood, Xue, nourishment, mind, blood deficiency, anchoring" },
 ]
 
 export const SEARCH_INDEX: SearchItem[] = [

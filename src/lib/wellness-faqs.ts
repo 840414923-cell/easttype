@@ -1144,5 +1144,59 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "You can observe basic facial signals at home using a mirror in natural light. Look for persistent color changes, recurring breakout zones, puffiness, or unusual features. These observations may give you clues about your internal patterns. For a full assessment, take the free EastType quiz to identify your body type.", "zh-TW": "可以在家以自然光觀察基本面部信號。注意持續的顏色變化、反覆痘痘區域、腫脹或異常特徵。這些觀察可提供內在模式的線索。", ja: "自然光の下で鏡を使って基本的な顔の信号を観察できます。" },
     },
   ],
+  "chinese-medicine-for-tinnitus": [
+    {
+      q: { en: "Can Chinese medicine help with ringing in the ears?", "zh-TW": "中醫能幫助耳鳴嗎？", ja: "中医学は耳鳴りに効果がありますか？" },
+      a: { en: "In TCM, tinnitus connects to two main systems. Chronic, low-pitched ringing often relates to Kidney weakness, since the Kidneys open to the ears. Sudden, loud ringing usually signals excess heat rising, often from Liver Fire. The food approach depends on which pattern fits your symptoms.", "zh-TW": "中醫認為耳鳴與兩個系統有關。慢性低音耳鳴多與腎虛有關，因為腎開竅於耳。突然的大聲耳鳴通常是肝火上炎。食療方向取決於你的模式。", ja: "中医学では耳鳴りは2つの系統に関連します。慢性の低い音は腎虚（腎は耳に開く）、突然の大きな音は肝火の上炎によることが多いです。" },
+    },
+    {
+      q: { en: "What foods help tinnitus in Chinese medicine?", "zh-TW": "中醫什麼食物對耳鳴有幫助？", ja: "中医学で耳鳴りに効く食材は？" },
+      a: { en: "For deficiency-related tinnitus, foods that nourish the Kidneys may help, such as black sesame, walnuts, goji berries, and Chinese yam. For heat-related tinnitus, cooling foods like chrysanthemum tea, celery, and mung beans may help clear excess warmth.", "zh-TW": "虛證耳鳴可食黑芝麻、核桃、枸杞、山藥等補腎食物。熱證耳鳴可飲菊花茶、芹菜、綠豆等清熱食物。", ja: "虚証の耳鳴りには黒ゴマ、クルミ、クコの実、山芋などの補腎食材を。熱証には菊茶、セロリ、緑豆などの清熱食材を。" },
+    },
+    {
+      q: { en: "Which body type is most prone to tinnitus?", "zh-TW": "哪種體質最容易耳鳴？", ja: "どの体質が耳鳴りになりやすい？" },
+      a: { en: "The Yin Deficient body type is most commonly associated with chronic tinnitus, especially when it comes with night sweats or dry mouth. Take the free EastType quiz to check your constitution.", "zh-TW": "陰虛體質最常與慢性耳鳴相關，尤其是伴隨盜汗或口乾時。做免費測驗確認你的體質。", ja: "陰虚タイプが慢性的な耳鳴りに最も関連しやすいです。無料クイズで体質を確認してください。" },
+    },
+    {
+      q: { en: "When should I see a doctor for tinnitus?", "zh-TW": "耳鳴何時該看醫生？", ja: "耳鳴りでいつ医師に診てもらうべき？" },
+      a: { en: "See a doctor if tinnitus appears suddenly, affects only one ear, pulses with your heartbeat, or comes with hearing loss, dizziness, or vertigo. These signs may indicate conditions requiring medical evaluation.", "zh-TW": "如果耳鳴突然出現、只影響一耳、與心跳同步脈動，或伴隨聽力下降、頭暈，請就醫檢查。", ja: "突然の耳鳴り、片耳のみ、脈動する、難聴やめまいを伴う場合は医師に相談してください。" },
+    },
+  ],
+  "chinese-medicine-for-nausea": [
+    {
+      q: { en: "Why do I feel nauseous according to Chinese medicine?", "zh-TW": "中醫認為為什麼會噁心？", ja: "中医学ではなぜ吐き気がする？" },
+      a: { en: "TCM sees nausea as Stomach Qi moving the wrong way. Normally Stomach energy pushes downward to send food along. When it rebels upward, you feel queasy. Common triggers include cold foods, stress tightening the Liver, overeating, or a weak Spleen.", "zh-TW": "中醫認為噁心是胃氣上逆。正常胃氣向下推送食物，反向上行就會噁心。常見原因包括冷食、壓力、過食或脾虛。", ja: "中医学では吐き気は胃気の逆流です。正常は下行する胃気が上行すると吐き気が生じます。冷たい食事、ストレス、過食、脾虚が原因によくあります。" },
+    },
+    {
+      q: { en: "What foods help nausea in Chinese medicine?", "zh-TW": "中醫什麼食物對噁心有幫助？", ja: "中医学で吐き気に効く食材は？" },
+      a: { en: "Ginger is the single most used food for settling the stomach in TCM. Other options include tangerine peel tea, cardamom, rice porridge (congee), and fennel seed tea. Always choose warm, cooked foods over cold or raw options when nauseous.", "zh-TW": "薑是中醫最常用的止吐食物。其他選擇包括陳皮茶、豆蔻、米粥和茴香茶。噁心時應選溫熱熟食，避免生冷。", ja: "しょうがは中医学で最も使われる胃を落ち着かせる食材です。他には陳皮茶、カルダモン、お粥、フェンネルシード茶があります。" },
+    },
+    {
+      q: { en: "Which body type is most prone to nausea?", "zh-TW": "哪種體質最容易噁心？", ja: "どの体質が吐き気になりやすい？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with chronic nausea, especially nausea after eating with fatigue. This reflects a Spleen that lacks energy to support digestion. Take the free EastType quiz to see if this matches.", "zh-TW": "氣虛體質最常與慢性噁心相關，尤其是飯後噁心伴隨疲勞。做免費測驗看看是否符合。", ja: "気虚タイプが慢性的な吐き気に最も関連しやすいです。食後の吐き気と疲労がある場合に特に。無料クイズで確認できます。" },
+    },
+    {
+      q: { en: "Is ginger tea safe for morning sickness?", "zh-TW": "薑茶對孕吐安全嗎？", ja: "しょうが茶はつわりに安全ですか？" },
+      a: { en: "Ginger tea is a traditional option for morning sickness and is generally considered safe in small amounts. However, if you are pregnant, consult your healthcare provider before using any food or herb regularly.", "zh-TW": "薑茶是孕吐的傳統選擇，少量通常被認為安全。但懷孕期間請先諮詢醫生再規律使用。", ja: "しょうが茶はつわりの伝統的な選択で、少量は一般的に安全とされます。妊娠中は医師に相談してから使用してください。" },
+    },
+  ],
+  "what-is-blood": [
+    {
+      q: { en: "What does Blood mean in Chinese medicine?", "zh-TW": "中醫裡的血是什麼意思？", ja: "中医学の血とは何ですか？" },
+      a: { en: "In TCM, Blood (Xue) is broader than the physical blood of Western medicine. It includes the red fluid but also its functions of nourishing tissues, moistening the body, and anchoring the mind. When Blood is sufficient, the body feels strong and the mind is calm.", "zh-TW": "中醫的血比西醫的血液更廣泛。包括紅色液體，也包含滋養組織、潤澤身體和安定心神的功能。血足則身強心安。", ja: "中医学の血（けつ）は西洋医学の血液より広い概念です。組織を養い、体を潤し、心を安定させる機能も含みます。" },
+    },
+    {
+      q: { en: "How is Blood different from Qi?", "zh-TW": "血和氣有什麼不同？", ja: "血と気の違いは？" },
+      a: { en: "Qi is the commander of Blood, and Blood is the mother of Qi. Qi provides the force that pushes Blood through vessels, while Blood carries nutrients that produce Qi. They depend on each other, which is why Qi and Blood deficiency often appear together.", "zh-TW": "氣為血之帥，血為氣之母。氣推動血行，血運載生氣的營養。兩者互相依賴，所以氣血兩虛常同時出現。", ja: "気は血の帥、血は気の母。気が血を推し進め、血が気を生む栄養を運びます。相互依存するため気血両虚は同時に現れることが多いです。" },
+    },
+    {
+      q: { en: "What are the signs of Blood Deficiency?", "zh-TW": "血虛有什麼症狀？", ja: "血虚の症状は？" },
+      a: { en: "Common signs include pale lips and complexion, brittle nails, dry hair and skin, dizziness when standing, numbness in limbs, difficulty sleeping, and poor memory. These reflect the body and mind not receiving enough nourishment.", "zh-TW": "常見症狀包括唇面色淡、指甲易脆、毛髮皮膚乾燥、起身頭暈、四肢麻木、睡眠困難和記憶力差。", ja: "一般的な症状は蒼白な唇と顔色、割れやすい爪、乾燥した髪と肌、立ちくらみ、手足のしびれ、不眠、記憶力の低下です。" },
+    },
+    {
+      q: { en: "What foods nourish Blood in Chinese medicine?", "zh-TW": "中醫什麼食物補血？", ja: "中医学で血を補う食材は？" },
+      a: { en: "Top blood-nourishing foods include red dates (jujube), goji berries, black sesame, dark leafy greens, longan fruit, black beans, and beetroot. Warm, cooked, protein-rich meals that are easy to digest tend to support Blood production best.", "zh-TW": "最佳補血食物包括紅棗、枸杞、黑芝麻、深色葉菜、龍眼、黑豆和甜菜根。溫熱、煮熟、富含蛋白質且易消化的食物最能助血生成。", ja: "血を補うトップ食材はなつめ、クコの実、黒ゴマ、濃い色の葉物、竜眼、黒豆、ビーツです。温かく消化しやすいタンパク質豊富な食事が最適です。" },
+    },
+  ],
 
 }

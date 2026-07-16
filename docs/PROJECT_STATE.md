@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (303 in sitemap, 324 build pages)
+## Published URLs (306 in sitemap, 327 build pages)
 
 ### Core Pages (8)
 
@@ -116,15 +116,15 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Symptom pages | 70 (all converted to structured data + shared component) |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages | 51 (+ 7 redirected) |
+| Wellness pages | 54 (+ 7 redirected) |
 | Food combo pages | 10 |
 | Herb pages | 132 |
 | Solutions pages | 9 (hub + 8 detail) |
 | Hub pages | 7 (symptoms, patterns, wellness, foods-for, herbs, solutions, journal) |
 | Journal pages | 2 (hub + 1 article) |
 | Utility pages | 4 |
-| Sitemap URLs | 303 |
-| Total build pages | 324 |
+| Sitemap URLs | 306 |
+| Total build pages | 327 |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 
@@ -185,19 +185,35 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 ---
 
-## Google Indexing Status
+## Search Engine Performance (updated 2026-07-16, data from 7/8-7/14)
+
+### Google Search Console
+
+- Pages indexed: 242 / 303 (80%) as of 2026-07-10
+- Indexing progress: 7 (6/2) -> 15 -> 23 -> 34 -> 44 -> 60+ (6/30) -> 70 (7/2) -> 242 (7/10)
+- GSC metrics (7/8-7/14): 450 impressions, 2 clicks, avg position 75.9 (page 7-8)
+- Top impression pages: /wellness/kidney-yin-deficiency (80), /solutions/chinese-medicine-for-constipation (44), /wellness/chinese-medicine-for-constipation (43), /herbs/luo-han-guo-luo-han-guo (37), /wellness/chinese-face-mapping (27)
+- Clicks from: /herbs/he-shou-wu-he-shou-wu, /symptoms/why-do-i-keep-gaining-weight, /herbs/hong-jing-tian-hong-jing-tian
+- Google sandbox effect active (position 75.9). Domain authority is the bottleneck
+
+### Bing
+
+- Bing metrics (7/9-7/14): 165 impressions, 5 clicks, positions 3-8 (page 1-2)
+- Top Bing pages: /wellness/yin-and-yang (21 imp, pos 5.6), /wellness/cooling-foods-chinese-medicine (11 imp, pos 5.0), /wellness/what-is-jing (pos 4.67), /about (pos 3.67)
+- Bing ranks EastType on page 1-2 while Google has it on page 7-8. Content quality is sufficient, the gap is domain authority
+
+### Bing AI / AEO Citations
+
+- 22 citations across 11 pages (as of 2026-07-14)
+- Most cited: /wellness/chinese-medicine-for-bloating (4), /wellness/chinese-medicine-for-acid-reflux (4), /wellness/chinese-medicine-for-cold-hands (3)
+- Pattern: "chinese-medicine-for-X" wellness pages with structured Q&A get cited most
+- Also cited: homepage (2), /wellness/tcm-diet (2), herbs: lotus-seed (2), dandelion (1), wu-hua-guo (1), tao-jiao (1), gui-hua (1), /wellness/yin-and-yang (1)
+
+### Infrastructure
 
 - Search Console resource: https://www.myeasterntype.com (www)
 - Sitemap submitted: 303 URLs
-- First indexing request submitted: 2026-06-02
-- Indexing progress: 7 pages (6/2) -> 15 -> 23 -> 34 -> 44 -> 60+ (6/30) -> 70 (7/2)
-- GSC metrics (early July 2026): 70 pages indexed, 124 queries matching, 283 monthly impressions, 1 click, avg position 65
-- Top impression page: /symptoms/kidney-yin-deficiency (62 impressions)
-- Best ranking page: /patterns/low-vitality at position 5.5 (page 1!)
-- First click: /symptoms/why-do-i-have-seasonal-allergies
-- Bing: sitemap + 100 URLs submitted, waiting for indexing
-- IndexNow integrated: key file live, batch submission needs local run
-- IndexNow key: 62b701021d242b39a739ee629f462a69
+- IndexNow integrated: key file live, key 62b701021d242b39a739ee629f462a69
 
 ---
 
@@ -224,8 +240,8 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 |---|---|---|
 | Custom colors not in @theme (site unstyled) | Critical | **FIXED 2026-07-06** (fac94f6) |
 | Symptom canonical bug (111 URLs affected) | Critical | **FIXED 2026-07-04**, waiting Google recrawl |
-| Google ranking still page 5-10 | Monitoring | Needs backlinks and domain age. Sandbox effect |
-| Bing: 25 impressions, 4 AI citations (7/3-4) | Promising | Acid reflux page cited by Bing Copilot 4x |
+| Google ranking page 7-8 (position 75.9) | Monitoring | Needs backlinks and domain age. Bing already page 1-2, Google will follow |
+| Bing: 165 imp/week, 22 AI citations / 11 pages (7/14) | Growing | Bing page 1-2 vs Google page 7-8. AEO working, wellness-for-X format strongest |
 | Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", quiz/result pages still say "Eastern Body Type" |
 | Quiz page not rebranded | Medium | quiz-client.tsx body text, result badge still say "Eastern" |
 | Basic report access control gap | High | **FIXED 2026-07-16** (HMAC-signed cookie replaces bypassable plain cookie) |
