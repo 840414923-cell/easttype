@@ -28,12 +28,14 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 15% of people",
         description: "The primary type behind chronic fatigue. The hallmark is feeling wiped out even after adequate rest. People with this type often have a soft voice, sweat easily, catch colds more often, and prefer sitting over standing. It's like their battery is genuinely smaller than other people's.",
         keySigns: ["Soft voice", "Easy sweating", "Frequent colds", "Prefers sitting", "Pale complexion"],
+        matchHint: "If you also sweat easily with little exertion and your voice fades by afternoon, this pattern is a strong candidate.",
       },
       {
         name: "Yang Deficient",
         slug: "yang_deficient",
         description: "These folks feel tired AND cold. Their internal heater is underpowered, so their body cuts circulation to the extremities to protect core warmth. If you're always tired and your hands are like ice cubes, this might be your pattern.",
         keySigns: ["Cold hands and feet", "Prefers warm drinks", "Pale complexion", "Slow digestion", "Water retention"],
+        matchHint: "When being cold bothers you as much as being tired, your internal heater may be the real bottleneck.",
       },
     ],
     tcmVsModern: [
@@ -83,10 +85,42 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "If your fatigue is severe, worsening, or accompanied by unexplained weight loss, dizziness, or shortness of breath, see a doctor first to rule out underlying medical conditions. TCM constitution patterns complement but do not replace medical evaluation.",
     relatedPattern: { name: "Low Vitality", slug: "low-vitality" },
     relatedSymptoms: [
-      { slug: "why-am-i-always-sleepy", title: "Why Am I Always Sleepy?" },
-      { slug: "why-do-i-feel-anxious", title: "Why Do I Feel Anxious?" },
+      { slug: "why-am-i-always-sleepy", title: "Why Am I Always Sleepy?", tag: "Energy" },
+      { slug: "why-do-i-feel-anxious", title: "Why Do I Feel Anxious?", tag: "Mood" },
     ],
     foodsForSlug: "when-youre-always-tired",
+    checklist: {
+      title: "Quick check: is this your pattern?",
+      items: [
+        "Eight hours of sleep still leaves you reaching for coffee by 10 AM",
+        "Your afternoon slump hits so hard you could nap under your desk",
+        "A single flight of stairs feels like a marathon",
+        "You stopped suggesting plans that require leaving the house",
+        "Colds go around the office and you catch every single one",
+        "By 8 PM you are running on fumes, even on days you did nothing strenuous",
+      ],
+      resultHint: "If four or more resonate, your body may be running on a smaller battery than others. The quiz can confirm which type.",
+    },
+    relatedSolution: {
+      slug: "chinese-medicine-for-energy",
+      title: "Ginseng & Jujube Recovery Tea",
+      image: "/images/solutions/formula-ginseng-jujube.png",
+      prepNote: "3 ingredients · 10 min steep",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this different from just being tired after a long day?",
+        answer: "Yes. Normal tiredness comes after exertion and lifts with a good night's rest. The fatigue described here persists regardless of sleep and shows up even on easy days. It feels more like a battery capacity issue than a battery charge issue.",
+      },
+      {
+        label: "How is this different from chronic fatigue syndrome?",
+        answer: "Chronic fatigue syndrome is a specific medical diagnosis with strict criteria, including fatigue lasting six or more months that significantly reduces activity. The patterns described here are constitutional tendencies, not a disease diagnosis. Many people with low Qi never meet that threshold but still feel run-down daily. A doctor can evaluate whether those criteria apply to you.",
+      },
+      {
+        label: "Could this be a thyroid problem instead?",
+        answer: "It could, and a simple blood test can check. An underactive thyroid shares many signs with Qi or Yang deficiency: fatigue, feeling cold, slow digestion. That is why ruling out thyroid issues first is worthwhile. If thyroid function comes back normal but symptoms persist, the body type perspective offers a different angle on what may be going on underneath.",
+      },
+    ],
   },
   "always-bloated-after-eating": {
     slug: "always-bloated-after-eating",
