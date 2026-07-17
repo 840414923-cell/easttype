@@ -1240,6 +1240,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 10% of people",
         description: "The Yin Deficient type (阴虚） is the classic \"can't fall asleep\" type. They run warm, feel restless at night, and often have dry mouth or night sweats. Their internal cooling system is undercharged, so Yang stays active past bedtime. About 10% of people fall into this category. They tend to be the ones who feel most alert at 10 PM and can't understand why.",
         keySigns: ["Runs warm", "Restless at night", "Dry mouth", "Night sweats", "Alert at 10 PM"],
+        matchHint: "If you also feel warm at night, have a dry mouth, and get a second wind of energy around 10 PM, Yin Deficiency is likely your pattern.",
       },
       {
         name: "Qi Stagnant",
@@ -1247,6 +1248,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 8% of people",
         description: "The Qi Stagnant type (气郁） has trouble falling asleep for a different reason. Their energy is stuck, not overheated. They lie in bed replaying conversations, planning tomorrow, or feeling frustrated about not sleeping. The mental loop is a symptom of energy that can't flow freely. About 8% of people have this pattern.",
         keySigns: ["Energy stuck", "Mental loops", "Replays conversations", "Frustrated in bed", "Can't switch off"],
+        matchHint: "If lying in bed feels like a mental replay loop you cannot switch off, and you sigh or feel chest tightness, stuck Qi may be the culprit.",
       },
     ],
     tcmVsModern: [
@@ -1292,10 +1294,42 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If your sleep problems are severe, persistent, affecting your daily functioning, or accompanied by symptoms like chest pain, shortness of breath, or severe anxiety, please consult a licensed healthcare provider. Chronic insomnia can sometimes be connected to conditions that need proper medical attention.",
     relatedPattern: { name: "Internal Heat", slug: "internal-heat" },
     relatedSymptoms: [
-      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3AM?" },
-      { slug: "why-do-i-have-night-sweats", title: "Why Do I Have Night Sweats?" },
+      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3AM?", tag: "Sleep" },
+      { slug: "why-do-i-have-night-sweats", title: "Why Do I Have Night Sweats?", tag: "Sleep" },
     ],
     foodsForSlug: "when-you-cant-fall-asleep",
+    checklist: {
+      title: "Quick check: is this your pattern?",
+      items: [
+        "Your body is exhausted but your brain fires up the moment you lie down",
+        "You do some of your best thinking at 10 or 11 PM, which is the worst possible time",
+        "You have tried every sleep hygiene tip and the sleep still does not come",
+        "You feel slightly warm or restless at night, not cozy and drowsy",
+        "Your mind replays conversations or makes plans when you want it to stop",
+        "You calculate how many hours of sleep you will get if you fall asleep right now",
+      ],
+      resultHint: "Four or more may mean your internal cooling system or stuck energy is keeping you awake. The quiz can show which pattern is yours.",
+    },
+    relatedSolution: {
+      slug: "chinese-medicine-for-sleep",
+      title: "Sour Jujube & Longan Calm Tea",
+      image: "/images/solutions/formula-sour-jujube-longan.png",
+      prepNote: "3 ingredients · 20 min simmer",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this different from just being a night owl?",
+        answer: "A night owl chooses to stay up late and feels fine doing it. The pattern described here is wanting to sleep but being unable to. Your body is tired; your internal system just will not let you cross over into sleep.",
+      },
+      {
+        label: "How is this different from waking up at 3 AM?",
+        answer: "These are two different problems. Trouble falling asleep means your body cannot transition from wake to sleep. Waking at 3 AM means you fall asleep fine but something interrupts your rest mid-cycle. In TCM, these point to different organ systems and different patterns.",
+      },
+      {
+        label: "Could this be sleep apnea?",
+        answer: "It could, and that is worth discussing with a doctor, especially if you snore loudly or wake gasping. Sleep apnea is a structural breathing issue, not an energy pattern. If a sleep study rules it out but you still cannot fall asleep, the body type perspective may help explain what is keeping your system switched on.",
+      },
+    ],
   },
 "why-cant-i-focus": {
     slug: "why-cant-i-focus",
@@ -1393,6 +1427,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 10% of people",
         description: "The Phlegm Damp type (痰湿） is the classic pattern. Their body holds onto moisture and weight like a sponge. Everything feels heavy and slow. They often carry weight around the midsection, feel worse in humid weather, and notice their thinking gets foggy after heavy meals. About 10% of people fall into this category. For them, weight loss feels like pushing a boulder uphill because their body is actively holding onto what it has.",
         keySigns: ["Holds onto moisture", "Heavy and slow", "Weight around midsection", "Worse in humid weather", "Foggy after heavy meals"],
+        matchHint: "If you also feel heavy and sluggish, carry weight around your middle, and get worse in humid weather, dampness is likely the bottleneck.",
       },
       {
         name: "Qi Deficient",
@@ -1400,6 +1435,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 15% of people",
         description: "The Qi Deficient type (气虚） struggles with weight for a different reason. Their metabolism is underpowered. They're often tired, sweat easily, and catch colds frequently. Their body doesn't have the energy to process food efficiently, so it stores more of it as reserve. About 15% of people have this pattern. They may not be as heavy as Phlegm Damp types, but they still can't seem to lose the weight they want to lose.",
         keySigns: ["Underpowered metabolism", "Often tired", "Sweats easily", "Catches colds frequently", "Stores food as reserve"],
+        matchHint: "If your metabolism feels underpowered rather than clogged, and you are also tired, sweat easily, and catch colds often, low Qi may be the root.",
       },
     ],
     tcmVsModern: [
@@ -1445,11 +1481,43 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If you're experiencing sudden unexplained weight gain, rapid weight loss without trying, or weight changes accompanied by other symptoms like fatigue, hair loss, or changes in appetite, please consult a licensed healthcare provider. These can sometimes be connected to conditions that need proper medical attention.",
     relatedPattern: { name: "Heavy & Sluggish", slug: "heavy-and-sluggish" },
     relatedSymptoms: [
-      { slug: "why-do-i-keep-gaining-weight", title: "Why Do I Keep Gaining Weight?" },
-      { slug: "why-do-i-crave-sweets", title: "Why Do I Crave Sweets?" },
-      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating" },
+      { slug: "why-do-i-keep-gaining-weight", title: "Why Do I Keep Gaining Weight?", tag: "Weight" },
+      { slug: "why-do-i-crave-sweets", title: "Why Do I Crave Sweets?", tag: "Cravings" },
+      { slug: "always-bloated-after-eating", title: "Always Bloated After Eating", tag: "Digestion" },
     ],
     foodsForSlug: "when-you-cant-lose-weight",
+    checklist: {
+      title: "Quick check: is this your pattern?",
+      items: [
+        "You eat less than your thin friends and still cannot lose weight",
+        "Your body feels heavy, especially in the morning, like you are wearing a wet blanket",
+        "You carry weight mostly around your midsection rather than evenly distributed",
+        "Humid weather makes you feel worse: sluggish, puffy, or foggy",
+        "You feel tired after meals instead of energized",
+        "Cold and raw foods seem to make everything slower",
+      ],
+      resultHint: "Four or more may point to a Spleen that cannot process fluids efficiently. The quiz can show whether dampness or low Qi is the root.",
+    },
+    relatedSolution: {
+      slug: "chinese-medicine-weight-loss",
+      title: "Lotus Leaf & Hawthorn Metabolism Tea",
+      image: "/images/solutions/formula-lotus-hawthorn.jpg",
+      prepNote: "3 ingredients · 15 min simmer",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this just a slow metabolism?",
+        answer: "A slow metabolism in Western terms usually means your resting energy expenditure is low. In TCM, the question is why it is low. If dampness is clogging the system, the focus is draining moisture. If Qi is deficient, the focus is building energy. Same symptom, different root, different approach.",
+      },
+      {
+        label: "How is this different from a thyroid problem?",
+        answer: "An underactive thyroid can cause weight gain and sluggishness, and a simple blood test can check for it. If thyroid function is normal but weight still will not budge, the TCM perspective looks at how well your Spleen processes food and whether dampness has accumulated. Both frameworks can coexist.",
+      },
+      {
+        label: "Is this just about eating too much?",
+        answer: "Not necessarily. Many people in this pattern eat less than their peers and still gain weight. The issue in TCM is not the amount of food but how efficiently the body processes it. When the Spleen cannot turn what you eat into clean energy, the leftover becomes dampness and accumulates.",
+      },
+    ],
   },
 
   "why-do-i-always-have-a-sore-throat": {
@@ -1735,6 +1803,7 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
         percentage: "About 8% of people",
         description: "The Qi Stagnant type (气郁） makes up roughly 8% of the population. If you're this type, things tend to feel stuck. Your chest tightens when you're stressed. You sigh without meaning to. Your mood can swing from fine to irritated in a matter of minutes. Your mind races with plans and worries while your body feels like it's standing still, unable to act on any of it. This type is especially prone to anxiety because the stuck energy has nowhere to go but inward. The frustration builds, the chest tightens, the thoughts loop. It's a pattern that feeds on itself. And it can be made worse by suppressing emotions, sitting too much, or eating foods that further clog the system.",
         keySigns: ["Things feel stuck", "Chest tightens when stressed", "Sighs without meaning to", "Mood swings fine to irritated", "Mind races, body stands still"],
+        matchHint: "If you also sigh frequently, feel chest tightness when stressed, and notice that movement eases the tension, stuck Liver Qi is likely at the root.",
       },
     ],
     tcmVsModern: [
@@ -1780,9 +1849,41 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
     whenToSeeDoctor: "This article is for informational purposes only and is not medical advice. If your anxiety is severe, interfering with your daily life, or accompanied by panic attacks, chest pain, or other concerning symptoms, please see a healthcare professional. There is no shame in getting help, and sometimes anxiety is connected to conditions that need proper medical attention, such as thyroid issues, vitamin deficiencies, or hormonal imbalances.",
     relatedPattern: { name: "Stuck Energy", slug: "stuck-energy" },
     relatedSymptoms: [
-      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3 AM?" },
+      { slug: "why-do-i-wake-up-at-3am", title: "Why Do I Wake Up at 3 AM?", tag: "Sleep" },
     ],
     foodsForSlug: "when-you-feel-anxious",
+    checklist: {
+      title: "Quick check: is this your pattern?",
+      items: [
+        "Your chest feels tight or constricted for no obvious medical reason",
+        "You sigh frequently without realizing it, like your body is trying to release pressure",
+        "Your mind races with worst-case scenarios even when things are objectively fine",
+        "Physical movement temporarily makes the anxiety feel better",
+        "You feel worse when you suppress emotions or sit still for too long",
+        "Irritability and anxiety take turns, sometimes within the same hour",
+      ],
+      resultHint: "Four or more may point to stuck energy that cannot flow freely. The quiz can confirm whether Qi Stagnation is your pattern.",
+    },
+    relatedSolution: {
+      slug: "chinese-medicine-for-anxiety",
+      title: "Rose & Citrus Bloom Tea",
+      image: "/images/solutions/formula-rose-mint.jpg",
+      prepNote: "3 ingredients · 5 min steep",
+    },
+    howIsItDifferent: [
+      {
+        label: "Is this different from just being stressed?",
+        answer: "Stress is a response to a specific external situation. The pattern described here is an internal state that persists even when nothing is obviously wrong. Stress usually lifts when the situation resolves. This type of anxiety lingers because the underlying energy pattern has not changed.",
+      },
+      {
+        label: "How is this different from generalized anxiety disorder?",
+        answer: "GAD is a clinical diagnosis based on specific criteria including duration and impact on daily life. The pattern described here is a constitutional tendency, not a diagnosis. Many people with stuck Qi never meet the threshold for GAD but still feel wound up daily. A mental health professional can evaluate whether clinical criteria apply.",
+      },
+      {
+        label: "Could this be a thyroid issue?",
+        answer: "It could, and a blood test can check. An overactive thyroid can cause anxiety, racing thoughts, and a feeling of internal pressure. If thyroid function is normal but symptoms persist, the body type perspective offers a different angle on what may be keeping your system on edge.",
+      },
+    ],
   },
 
   "why-do-i-feel-dizzy": {
