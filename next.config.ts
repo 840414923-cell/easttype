@@ -480,6 +480,11 @@ const nextConfig: NextConfig = {
         destination: "/herbs/guang-huo-xiang",
         permanent: true,
       },
+      {
+        source: "/types/special_diathesis",
+        destination: "/types/sensitive",
+        permanent: true,
+      },
     ];
   },
 };

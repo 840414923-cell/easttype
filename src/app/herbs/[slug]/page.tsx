@@ -128,6 +128,60 @@ const WELLNESS_LINKS: Record<string, { title: string; description: string; slug:
     { title: "Chinese Herbs for Energy", description: "A guide to the herbs TCM uses to gently rebuild depleted energy reserves.", slug: "chinese-herbs-for-energy" },
     { title: "Chinese Medicine for Fatigue", description: "Why you feel drained and the TCM patterns that may be behind it.", slug: "chinese-medicine-for-fatigue" },
   ],
+  "shi-hu": [
+    { title: "Kidney Yin Deficiency", description: "Why the body runs hot at night and dries out, and the cooling herbs that may help restore moisture.", slug: "kidney-yin-deficiency" },
+    { title: "Chinese Medicine for Insomnia", description: "Why the mind races at night and the calming approaches TCM suggests for restless sleep.", slug: "chinese-medicine-for-insomnia" },
+  ],
+  "ge-gen": [
+    { title: "Chinese Medicine for Digestion", description: "How TCM sees the digestive fire and the herbs that may support it.", slug: "chinese-medicine-for-digestion" },
+    { title: "Spleen Qi Deficiency", description: "The root of low energy and loose digestion, and the foods that may gently support it.", slug: "spleen-qi-deficiency" },
+  ],
+  "zi-su": [
+    { title: "Chinese Medicine for Bloating", description: "Why meals sit heavy and what TCM suggests for a sluggish stomach.", slug: "chinese-medicine-for-bloating" },
+    { title: "What Is Dampness", description: "The TCM concept behind heaviness, phlegm, and sticky sluggishness in the body.", slug: "what-is-dampness" },
+  ],
+  "che-qian-zi": [
+    { title: "What Is Dampness", description: "The TCM concept behind fluid retention, heaviness, and the herbs that drain it.", slug: "what-is-dampness" },
+    { title: "Chinese Medicine for Weight Loss", description: "How TCM understands metabolism and the food combinations that may support it.", slug: "chinese-medicine-for-weight-loss" },
+  ],
+  "bai-guo-ren": [
+    { title: "Lung Qi Deficiency", description: "Why breathing feels shallow and the lungs stay vulnerable, and the tonic herbs that may help.", slug: "lung-qi-deficiency" },
+    { title: "Chinese Medicine for Brain Fog", description: "Why the mind feels cloudy and the TCM patterns behind poor concentration.", slug: "chinese-medicine-for-brain-fog" },
+  ],
+  "huang-jing": [
+    { title: "Chinese Herbs for Energy", description: "A guide to the herbs TCM uses to gently rebuild depleted energy reserves.", slug: "chinese-herbs-for-energy" },
+    { title: "Chinese Medicine for Fatigue", description: "Why you feel drained and the TCM patterns that may be behind it.", slug: "chinese-medicine-for-fatigue" },
+  ],
+  "gua-lou": [
+    { title: "Spleen Dampness", description: "How dampness accumulates and the phlegm-clearing approaches TCM suggests.", slug: "spleen-dampness" },
+    { title: "Chinese Medicine for Digestion", description: "How TCM sees the digestive fire and the herbs that may support it.", slug: "chinese-medicine-for-digestion" },
+  ],
+  "qian-hu": [
+    { title: "Lung Qi Deficiency", description: "Why breathing feels shallow and the lungs stay vulnerable, and the tonic herbs that may help.", slug: "lung-qi-deficiency" },
+  ],
+  "zhi-mu": [
+    { title: "Kidney Yin Deficiency", description: "Why the body runs hot at night and dries out, and the cooling herbs that may help restore moisture.", slug: "kidney-yin-deficiency" },
+    { title: "Chinese Medicine for Night Sweats", description: "Why you wake up drenched and the TCM patterns behind nighttime heat.", slug: "chinese-medicine-for-night-sweats" },
+  ],
+  "mai-dong": [
+    { title: "Kidney Yin Deficiency", description: "Why the body runs hot at night and dries out, and the cooling herbs that may help restore moisture.", slug: "kidney-yin-deficiency" },
+    { title: "Chinese Medicine for Insomnia", description: "Why the mind races at night and the calming approaches TCM suggests for restless sleep.", slug: "chinese-medicine-for-insomnia" },
+  ],
+  "chuan-bei": [
+    { title: "Lung Qi Deficiency", description: "Why breathing feels shallow and the lungs stay vulnerable, and the tonic herbs that may help.", slug: "lung-qi-deficiency" },
+  ],
+  "tian-ma": [
+    { title: "Chinese Medicine for Migraines", description: "Why the head pounds and the TCM patterns behind stress-related headaches and dizziness.", slug: "chinese-medicine-for-migraines" },
+    { title: "Chinese Medicine for Anxiety", description: "How TCM views anxiety through the lens of stuck Liver energy and what may help.", slug: "chinese-medicine-for-anxiety" },
+  ],
+  "xia-ku-cao": [
+    { title: "Liver Fire", description: "Why the eyes burn red and the head throbs, and the cooling approaches TCM suggests for excess heat.", slug: "liver-fire" },
+    { title: "Chinese Medicine for Migraines", description: "Why the head pounds and the TCM patterns behind stress-related headaches and dizziness.", slug: "chinese-medicine-for-migraines" },
+  ],
+  "guang-chen-pi": [
+    { title: "Chinese Medicine for Bloating", description: "Why meals sit heavy and what TCM suggests for a sluggish stomach.", slug: "chinese-medicine-for-bloating" },
+    { title: "Spleen Dampness", description: "How dampness accumulates and the phlegm-clearing approaches TCM suggests.", slug: "spleen-dampness" },
+  ],
 }
 
 const CATEGORY_COLOR: Record<string, string> = {

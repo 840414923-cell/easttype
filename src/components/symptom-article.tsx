@@ -12,7 +12,7 @@ const TYPE_COLORS: Record<string, string> = {
   phlegm_damp: "bg-teal-100 text-teal-800 border-teal-200",
   damp_heat: "bg-orange-100 text-orange-800 border-orange-200",
   blood_stasis: "bg-rose-100 text-rose-800 border-rose-200",
-  special_diathesis: "bg-indigo-100 text-indigo-800 border-indigo-200",
+  sensitive: "bg-indigo-100 text-indigo-800 border-indigo-200",
   balanced: "bg-green-100 text-green-800 border-green-200",
 }
 

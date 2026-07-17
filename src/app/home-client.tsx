@@ -30,7 +30,7 @@ const BODY_TYPES = [
   { name: "Phlegm Damp", slug: "phlegm_damp", desc: "Walking through deep mud, everything heavy", char: "痰", pct: "6.3%" },
   { name: "Damp Heat", slug: "damp_heat", desc: "A humid summer day trapped inside", char: "湿", pct: "9.1%" },
   { name: "Blood Stasis", slug: "blood_stasis", desc: "A stream frozen still in places", char: "瘀", pct: "7.3%" },
-  { name: "Sensitive", slug: "special_diathesis", desc: "An alarm system set a touch too high", char: "特", pct: "4.2%" },
+  { name: "Sensitive", slug: "sensitive", desc: "An alarm system set a touch too high", char: "特", pct: "4.2%" },
   { name: "Balanced", slug: "balanced", desc: "A well-tuned instrument in perfect harmony", char: "平", pct: "32.8%" },
 ]
 
@@ -42,7 +42,7 @@ const TYPE_COLORS: Record<string, string> = {
   phlegm_damp: "#047857",
   damp_heat: "#B91C1C",
   blood_stasis: "#BE123C",
-  special_diathesis: "#4338CA",
+  sensitive: "#4338CA",
   balanced: "#15803D",
 }
 

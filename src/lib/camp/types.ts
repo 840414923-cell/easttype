@@ -98,6 +98,6 @@ export const BODY_TYPE_LABELS: Record<string, { name: string; char: string; colo
   phlegm_damp: { name: "Phlegm Damp", char: "痰", color: "#047857" },
   damp_heat: { name: "Damp Heat", char: "湿", color: "#B91C1C" },
   blood_stasis: { name: "Blood Stasis", char: "瘀", color: "#BE123C" },
-  special_diathesis: { name: "Sensitive", char: "特", color: "#4338CA" },
+  sensitive: { name: "Sensitive", char: "特", color: "#4338CA" },
   balanced: { name: "Balanced", char: "平", color: "#15803D" },
 }
