@@ -177,17 +177,18 @@ Hero (split: "What's Your Chinese Medicine Body Type?" + hero image) -> Trust Ba
 
 ---
 
-# Search Engine Performance (2026-07-14)
+# Search Engine Performance (2026-07-18)
 
 - 242 / 303 pages indexed (80%) as of 2026-07-10
 - Google (7/8-7/14): 450 impressions, 2 clicks, avg position 75.9 (page 7-8, sandbox)
-- Bing (7/9-7/14): 165 impressions, 5 clicks, positions 3-8 (page 1-2)
-- Bing ranks EastType on page 1-2, Google on page 7-8. Content quality is enough, gap is domain authority
+- Bing (7/9-7/16): 277 impressions, 8 clicks, positions 3-8 (page 1-2). Exposure accelerating: 112 imp in last 2 days vs 165 in prior 6 days
+- Bing ranks EastType on page 1-2, Google on page 7-8. Bing now clearly outperforming Google
 - Top Google pages: kidney-yin-deficiency (80 imp), constipation (44+43), chinese-face-mapping (27)
 - Top Bing pages: yin-and-yang (21 imp, pos 5.6), cooling-foods (11 imp, pos 5.0), what-is-jing (pos 4.67)
-- AEO: 22 AI citations across 11 pages. Most cited: chinese-medicine-for-bloating (4), acid-reflux (4), cold-hands (3)
+- AEO: 34 AI citations across 16 pages (since 7/3, as of 7/16). Most cited: tcm-diet (5), bloating (4), acid-reflux (4), rose-mei-gui (3), cold-hands (3). TCM-diet jumped 2->5 in 2 days
+- New AI-cited pages since 7/14: rose-mei-gui, lung-qi-deficiency, brain-fog, he-shou-wu, yin-yang-huo
 - Backlinks: 1 referring domain (toolyhealth.io, 8 links). Target: 10+ domains
-- Strategy: organic search + AEO only, no paid ads. Near-term focus on Bing + AI citations
+- Strategy: organic search + AEO only, no paid ads. Near-term focus on Bing + AI citations. Bing is the primary growth channel
 
 ---
 

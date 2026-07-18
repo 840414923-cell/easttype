@@ -185,7 +185,7 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 
 ---
 
-## Search Engine Performance (updated 2026-07-16, data from 7/8-7/14)
+## Search Engine Performance (updated 2026-07-18, data from 7/8-7/16)
 
 ### Google Search Console
 
@@ -199,15 +199,21 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 ### Bing
 
 - Bing metrics (7/9-7/14): 165 impressions, 5 clicks, positions 3-8 (page 1-2)
+- Bing metrics (7/15): 50 impressions, 1 click
+- Bing metrics (7/16): 62 impressions, 2 clicks (single-day high)
+- Bing 7/9-7/16 cumulative: 277 impressions, 8 clicks. Exposure accelerating (112 imp in last 2 days vs 165 in prior 6 days)
 - Top Bing pages: /wellness/yin-and-yang (21 imp, pos 5.6), /wellness/cooling-foods-chinese-medicine (11 imp, pos 5.0), /wellness/what-is-jing (pos 4.67), /about (pos 3.67)
-- Bing ranks EastType on page 1-2 while Google has it on page 7-8. Content quality is sufficient, the gap is domain authority
+- Bing ranks EastType on page 1-2 while Google has it on page 7-8. Bing now clearly outperforming Google in both impressions velocity and clicks
 
 ### Bing AI / AEO Citations
 
-- 22 citations across 11 pages (as of 2026-07-14)
-- Most cited: /wellness/chinese-medicine-for-bloating (4), /wellness/chinese-medicine-for-acid-reflux (4), /wellness/chinese-medicine-for-cold-hands (3)
-- Pattern: "chinese-medicine-for-X" wellness pages with structured Q&A get cited most
-- Also cited: homepage (2), /wellness/tcm-diet (2), herbs: lotus-seed (2), dandelion (1), wu-hua-guo (1), tao-jiao (1), gui-hua (1), /wellness/yin-and-yang (1)
+- 34 citations across 16 pages (as of 2026-07-16, tracked since 2026-07-03)
+- Growth: 22 citations / 11 pages (7/14) -> 34 / 16 (7/16). +12 citations, +5 pages in 2 days
+- Most cited: /wellness/tcm-diet (5), /wellness/chinese-medicine-for-bloating (4), /wellness/chinese-medicine-for-acid-reflux (4), /herbs/rose-mei-gui (3), /wellness/chinese-medicine-for-cold-hands (3)
+- Rising star: /wellness/tcm-diet jumped 2 -> 5 citations in 2 days (biggest gain). Food-therapy / diet pages emerging as strongest AEO signal
+- New pages cited since 7/14: /herbs/rose-mei-gui (3), /wellness/lung-qi-deficiency (2), /wellness/chinese-medicine-for-brain-fog (1), /herbs/he-shou-wu (1), /herbs/yin-yang-huo (1)
+- Pattern: three formats all cited - "chinese-medicine-for-X" wellness Q&A pages, diet/concept pillar pages (tcm-diet, yin-and-yang), and pinyin-named herb pages (rose-mei-gui, lotus-seed)
+- Also cited: homepage (2), /wellness/yin-and-yang (2), /herbs/lotus-seed-lian-zi (2), /herbs/dandelion-pu-gong-ying (1), /herbs/wu-hua-guo-wu-hua-guo (1), /herbs/tao-jiao-tao-jiao (1), /herbs/gui-hua-gui-hua (1)
 
 ### Infrastructure
 
@@ -249,7 +255,7 @@ Page structure: tag badge + readTime → intro → body type cards (dark bg bloc
 | Custom colors not in @theme (site unstyled) | Critical | **FIXED 2026-07-06** (fac94f6) |
 | Symptom canonical bug (111 URLs affected) | Critical | **FIXED 2026-07-04**, waiting Google recrawl |
 | Google ranking page 7-8 (position 75.9) | Monitoring | Needs backlinks and domain age. Bing already page 1-2, Google will follow |
-| Bing: 165 imp/week, 22 AI citations / 11 pages (7/14) | Growing | Bing page 1-2 vs Google page 7-8. AEO working, wellness-for-X format strongest |
+| Bing: 277 imp (7/9-7/16), 34 AI citations / 16 pages (7/16) | Growing fast | Exposure accelerating (112 imp in last 2 days vs 165 in prior 6 days). TCM-diet now top-cited page (5). Bing clearly outperforming Google |
 | Brand positioning shift mid-site | Medium | Homepage + new pages use "Chinese medicine", quiz/result pages still say "Eastern Body Type" |
 | Quiz page not rebranded | Medium | quiz-client.tsx body text, result badge still say "Eastern" |
 | Basic report access control gap | High | **FIXED 2026-07-16** (HMAC-signed cookie replaces bypassable plain cookie) |
