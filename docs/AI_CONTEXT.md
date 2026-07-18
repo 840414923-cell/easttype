@@ -107,8 +107,8 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
 | Herbs | 132 | `/herbs/[slug]` dynamic route, real photos |
 | Solutions | 9 | Hub + 8 detail (weight loss, energy, sleep, digestion, anxiety, acne, PMS, hair loss). constipation moved to wellness. More planned |
-| Sitemap URLs | 308 | Hand-maintained |
-| Total build pages | 329 | Build verified (2026-07-18) |
+| Sitemap URLs | 309 | Hand-maintained |
+| Total build pages | 330 | Build verified (2026-07-18) |
 
 ### Published Patterns (9)
 

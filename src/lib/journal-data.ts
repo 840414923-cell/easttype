@@ -424,4 +424,174 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     ],
   },
 
+  {
+    slug: "office-thermostat-war-by-body-type",
+    title: "The Office Thermostat War: Why Your Colleague Freezes While You Sweat",
+    description: "The average office is set to one temperature and run by nine different bodies. A TCM guide to why your colleague freezes while you sweat, and how to find a setting that actually works.",
+    date: "2026-07-27",
+    category: "weather",
+    tags: ["office", "air-conditioning", "summer", "body-type", "workplace"],
+    excerpt: "One thermostat, nine body types, endless complaints. Here is why your office is always the wrong temperature, and what each constitution can actually do about it.",
+    thumbnail: "/images/journal/office-thermostat-cover.jpg",
+    sections: [
+      {
+        heading: "The Average Office Is Set for Nobody",
+        body: "The average modern office is set to somewhere between 22 and 24 degrees Celsius. This is supposed to be a neutral temperature. It is not. At that setting, one person at the same desk is sweating through their shirt, another is wrapping a scarf around their shoulders, and a third has quietly bought a portable heater for under their desk. The thermostat on the wall has not moved, yet three people are experiencing three completely different offices.\n\nThe standard explanation is personal preference. Chinese medicine frames it differently. The temperature you find comfortable is largely decided by your constitution, what TCM calls your body type. A Yang Deficient person genuinely runs colder than a Yin Deficient person, in the same way that some people are tall and some are short. No amount of arguing about the thermostat will change that.\n\nThis guide is not about winning the office temperature war. It is about understanding why the war exists in the first place, and what each body type can realistically do to make a shared workspace livable.",
+      },
+      {
+        heading: "Why the Same Temperature Feels Completely Different",
+        body: "In Chinese medicine, the body has its own internal temperature baseline, shaped by constitution. A Yin Deficient person runs warm at the core, because the cooling, moistening aspect of their system is lower than average. A Yang Deficient person runs cool, because their warming, activating aspect is lower than average. The same 22 degree room lands on these two systems in very different ways. To the Yin Deficient body it feels warm enough, sometimes too warm. To the Yang Deficient body it feels like a draft that never lets up.\n\nWestern physiology describes the same phenomenon in different language, through metabolic rate, circulation efficiency, and body composition. Both systems are pointing at the same truth: comfortable temperature is not a universal number. It is a personal range, and the range is wider than most office managers assume.\n\nThe practical implication is simple but easily forgotten. When a colleague complains about the temperature, they are probably not being difficult. Their body is sending them a real signal, the same way yours sends you one. The framework that explains why is the same one that runs through all of Chinese medicine. The related guides at the end of this article go deeper if you want the background.",
+      },
+      {
+        heading: "Same Office, Two Different Bodies",
+        type: "image",
+        imageAlt: "Side-by-side infographic showing how Yang Deficient and Yin Deficient office workers experience the same 22C temperature differently",
+        imageDescription: "A detailed educational infographic. Left half shows a fully clothed Yang Deficient office worker feeling cold at 22C with callout labels for cold hands, cold nose, stiff neck, reaches for sweater. Right half shows a fully clothed Yin Deficient worker feeling warm at the same 22C with callouts for warm face, dry throat, removes layer. A small thermometer icon on each side shows the same 22C reading with different color indicators.",
+        imagePath: "/images/journal/office-thermostat-two-bodies.jpg",
+      },
+      {
+        heading: "Nine Body Types, Nine Thermostat Preferences",
+        body: "The table below maps each of the nine body types to the temperature range they tend to find comfortable, the reaction they typically have to a standard 22 degree air-conditioned office, and the signal that tells you the temperature is wrong for them. The ranges are broad, because individual variation still matters, but the pattern is consistent.",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Comfortable Range", "Reaction to Standard 22C Office", "Early Signal"],
+          rows: [
+            ["Yang Deficient", "25 to 28C", "Cold hands, cold face, shivering within an hour", "Reaches for a sweater or scarf"],
+            ["Qi Deficient", "24 to 26C", "Drowsy, heavy limbs, winded by minor tasks", "Yawns repeatedly after lunch"],
+            ["Yin Deficient", "20 to 22C", "Warm face, dry throat, restless by mid-afternoon", "Removes a layer, opens a collar"],
+            ["Damp Heat", "20 to 23C", "Sticky skin, irritability, skin flare-ups", "Wipes forehead, sighs heavily"],
+            ["Phlegm Damp", "23 to 25C", "Heavy head, groggy, nasal congestion", "Clears throat often, looks puffy"],
+            ["Qi Stagnant", "22 to 24C (varies with mood)", "Tension in shoulders, short temper, sighing", "Snaps at small interruptions"],
+            ["Blood Stasis", "23 to 25C", "Cold hands and feet despite a warm trunk", "Rubs hands together, stretches wrists"],
+            ["Sensitive", "22 to 24C (with stable air flow)", "Sneezing, dry eyes, headaches from cold drafts", "Reaches for tissues, blinks often"],
+            ["Balanced", "21 to 25C", "Comfortable across the full range", "Does not complain, rarely adjusts"],
+          ],
+        },
+      },
+      {
+        heading: "Office Air-Con Survival Map",
+        type: "image",
+        imageAlt: "Diagram of an office floor plan showing air flow patterns and the best seats for each body type",
+        imageDescription: "A detailed educational infographic showing a top-down office floor plan with the air conditioning vents marked. Different zones of the office are shaded to show how air flow, temperature, and draft intensity vary by location. Each zone is labeled with the body types that suit it best. A legend on the right lists the nine body types with their ideal seat positions.",
+        imagePath: "/images/journal/office-thermostat-survival-map.jpg",
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "If you want to know which of the nine body types you are before reading further, the free 5-minute quiz will tell you. The result comes with workplace-related notes for your specific constitution, so the parts of the office that will cost you the most energy are not a surprise.",
+      },
+      {
+        heading: "Where You Sit Changes Everything",
+        body: "Before talking about clothing, tea, or thermostat negotiation, the single most underrated lever in office comfort is the seat itself. In most air-conditioned offices, the temperature at any given point can vary by three to five degrees from the temperature on the thermostat. The thermostat measures one location. The people sitting under a vent are living in a different climate.\n\nThe coldest spots in a typical office are directly under or beside the air-conditioning vents, and within about two meters of the unit. Air at the vent is moving fast and is often below the setpoint temperature, because the sensor is somewhere else. A Yang Deficient or Qi Deficient person sitting in this zone will be miserable within the hour, no matter how many layers they add.\n\nThe warmest spots are usually along interior walls away from vents, near windows that get afternoon sun, and around clusters of people or equipment that generate heat. A Yin Deficient or Damp Heat person does better in the cooler zones, and may actively prefer the vent-adjacent seats that others avoid.\n\nIf you have any flexibility over your seat, choose based on your constitution first and your team proximity second. A desk move is often a more effective fix than any amount of clothing or complaint. A Qi Stagnant person, who tends to be sensitive to drafts and temperature swings, benefits most from a stable corner away from vents and doors. A Sensitive person, who reacts to dust and air dryness as much as to temperature, should sit as far from the vent as possible while still getting fresh air return.",
+      },
+      {
+        heading: "The Layering Strategy: What to Keep at Your Desk",
+        body: "Layering is the most reliable fix for a shared office, because it does not require anyone else's cooperation. The goal is not to dress for the office as it is, but to dress for the office as it might become. The list below suggests one or two items per body type that quietly solve the most common complaint.",
+        type: "list",
+        list: [
+          { bold: "Yang Deficient:", text: "A thin wool cardigan in a neutral color, and a large soft scarf that can double as a shoulder wrap. Keep both at the desk permanently." },
+          { bold: "Qi Deficient:", text: "A thin vest that warms the core without restricting movement, and woolen socks to swap in when feet go cold." },
+          { bold: "Yin Deficient:", text: "A breathable cotton layer you can remove without disruption, and a small bottle of throat-moistening syrup or honey water." },
+          { bold: "Damp Heat:", text: "Loose natural-fiber clothing only, and a small pack of oil-blotting sheets. Avoid synthetic layers, which trap heat." },
+          { bold: "Phlegm Damp:", text: "Loose comfortable clothing that does not bind at the waist, and a thin layer you can add if the head feels heavy." },
+          { bold: "Qi Stagnant:", text: "Comfortable clothing that does not constrict the ribcage or waist. Tight layers worsen the tendency toward frustration." },
+          { bold: "Blood Stasis:", text: "Compression socks for under the desk, and fingerless gloves that keep the hands warm while leaving fingers free to type." },
+          { bold: "Sensitive:", text: "A silk or cotton face mask for dusty days, eye drops, and a thin layer you can add or remove as the air shifts." },
+          { bold: "Balanced:", text: "One light layer kept at the desk for unexpected changes. The basics are usually enough." },
+        ],
+      },
+      {
+        heading: "How to Negotiate the Thermostat Without Starting a War",
+        body: "Most thermostat conversations fail because they are framed as a battle with a winner and a loser. Raise the temperature and one colleague boils. Lower it and another reaches for a blanket. The pattern repeats because the underlying problem, that one temperature cannot suit nine body types, is never named. The steps below are not about getting your way. They are about getting a workable compromise without souring the working relationship.",
+        type: "steps",
+        steps: [
+          { title: "Lead with the body, not the complaint", detail: "Open with a specific observation about yourself rather than a demand about the thermostat. Saying \"I run cold and my hands go stiff around 3 PM\" lands very differently than \"It is freezing in here, can someone fix the AC.\" The first invites help, the second picks a fight." },
+          { title: "Bring one specific, small request", detail: "Vague complaints produce vague responses. Bring a single actionable request. \"Could we try 24 degrees for a week and see how it feels\" is workable. \"The temperature is always wrong\" is not." },
+          { title: "Propose a layering-first solution", detail: "Offer to add a layer yourself before asking others to change the setting. \"I will keep a sweater here, and if I am still cold by Thursday, could we nudge it up one degree\" is almost impossible to refuse and almost always effective." },
+          { title: "Find your allies before raising it in a group", detail: "If you run cold, two other people in the office probably do too. Ask around privately first. A request from three people is a preference. A request from one person is a complaint. The same applies to running hot." },
+          { title: "Address the air flow, not just the number", detail: "Often the problem is not the setpoint but the vent direction. Asking facilities to redirect a vent or install a deflector is usually easier than changing the temperature, because it does not require everyone to agree on a new number." },
+          { title: "Escalate to equipment only if all else fails", detail: "Personal desk heaters, small USB fans, and heated mouse pads exist for a reason. They are the last resort, not the first, because they signal that the shared conversation has failed. Use them when nothing else works, not as a substitute for the conversation." },
+        ],
+      },
+      {
+        heading: "Office Tea by Body Type",
+        body: "What you drink through the workday quietly shapes how the air-conditioning feels. Warm drinks support the Spleen and gently raise internal temperature. Cold drinks lower it. The right tea for your constitution can take the edge off a difficult office in a way that clothing alone cannot. The table below matches each body type to one recommended tea, one drink to limit, and the best time of day to drink it.",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Recommended", "Limit", "Best Time"],
+          rows: [
+            ["Yang Deficient", "Ginger tea with brown sugar", "Iced water, iced coffee", "Mid-morning, 10 to 11 AM"],
+            ["Qi Deficient", "Jujube date tea, lightly sweetened", "Strong coffee, energy drinks", "Mid-morning, replaces second coffee"],
+            ["Yin Deficient", "Chrysanthemum tea, lightly honeyed", "Black coffee, spicy teas", "Afternoon, 2 to 4 PM"],
+            ["Damp Heat", "Green tea, unsweetened", "Sweet drinks, alcohol at lunch", "Morning, before 11 AM"],
+            ["Phlegm Damp", "Aged tangerine peel tea (chen pi)", "Dairy drinks, sweet milk tea", "After meals"],
+            ["Qi Stagnant", "Rose tea, or rose and chrysanthemum blend", "Caffeine-heavy drinks", "Mid-afternoon, 3 to 4 PM"],
+            ["Blood Stasis", "Rose tea with a few goji berries", "Cold drinks, especially on arrival", "Morning and late afternoon"],
+            ["Sensitive", "Warm water with a thin slice of ginger", "Strongly scented or caffeinated teas", "Throughout the day, small sips"],
+            ["Balanced", "Any warm tea you enjoy", "Excessive iced drinks", "Any time"],
+          ],
+        },
+      },
+      {
+        heading: "Three Office Personalities You Will Recognize",
+        body: "By this point the pattern should be clear. There is no such thing as a correct office temperature, only a temperature that suits the loudest or most powerful person in the room. The three office personalities below are not exaggerations. If you have spent any time in a shared workspace, you have met all three.",
+      },
+      {
+        heading: "Three Office Personalities, One Shared Office",
+        type: "image",
+        imageAlt: "Three office personality types shown side by side with their characteristic desk items",
+        imageDescription: "A detailed educational infographic with three vertical panels. Panel 1 shows The Cardigan Type (Yang or Qi Deficient) wrapped in layers with steaming tea. Panel 2 shows The Fan Type (Yin Deficient or Damp Heat) with a USB desk fan and open window. Panel 3 shows The Unbothered Type (Balanced) calm with no extra items. Consistent illustration style across all three panels.",
+        imagePath: "/images/journal/office-thermostat-three-personalities.jpg",
+      },
+      {
+        heading: "The Colleague Who Always Has a Sweater",
+        body: "This is the Yang Deficient or Qi Deficient office worker. They have a cardigan draped over their chair, a thin scarf in their bag, and a quiet dislike of the air-conditioning vent above their desk. They are often the first to arrive and the first to feel the cold that builds through the morning. By 3 PM they are wrapped in three layers and still rubbing their hands together.\n\nTheir mistake is usually not speaking up early enough. The cold accumulates, and by the time they mention it, they are already irritable and the conversation comes out wrong. The fix is to raise it on day one, ideally before the temperature becomes a personal grievance, and to keep a written layering strategy at the desk rather than improvising.",
+      },
+      {
+        heading: "The One Who Keeps a Fan at Their Desk",
+        body: "This is the Yin Deficient or Damp Heat worker. They have a small USB fan, a desk that is permanently clear of clutter so air can circulate, and a habit of opening windows that others have quietly closed. They feel the office as warm when everyone else feels it as neutral, and the gap widens through the afternoon.\n\nTheir mistake is assuming everyone shares their experience. The fan that cools them is the same fan that chills the person one desk over. The fix is to direct the fan carefully, to vent the warm air rather than blowing cold air onto a neighbor, and to accept that a personal fan is a better answer than a thermostat battle.",
+      },
+      {
+        heading: "The Lucky Type Who Never Notices",
+        body: "This is the Balanced office worker. They wear the same layer all day, drink whatever is closest, and genuinely do not understand what the rest of the team is arguing about. They are the closest thing the office has to a thermostat neutral, and for that reason they often end up in charge of the dial.\n\nTheir blind spot is assuming the rest of the office is like them. It is not. A Balanced person setting the temperature for the team will almost always set it to their own preference, which by definition is wrong for everyone whose constitution runs hotter or colder. The fix is to delegate the dial to the most temperature-sensitive person on the team, not the least.",
+      },
+      {
+        heading: "There Is No Standard Temperature",
+        body: "The office thermostat war is one of those problems that looks like a personality clash and is actually a physiology clash. Nine body types sharing one dial are bound to disagree, because the dial is calibrated for an average person who does not exist.\n\nThe way out is not to find the right number. It is to accept that the number will be wrong for someone, and to give that someone the tools, the clothing, the tea, the seat, and the language to make a shared space livable without making it a battleground.\n\nIf your office has a chronic temperature war, that is information. It tells you that the team is constitutionally diverse, which is healthy, and that the workspace has not yet caught up to that diversity, which is fixable. The next conversation about the thermostat does not have to be a fight. It can be the first time the underlying problem gets named out loud.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Yin and Yang", slug: "yin-and-yang", type: "wellness" },
+      { title: "Why Am I Always Cold", slug: "why-am-i-always-cold", type: "symptoms" },
+      { title: "Why Am I So Sensitive to Heat", slug: "why-am-i-so-sensitive-to-heat", type: "symptoms" },
+      { title: "Chinese Medicine Body Types", slug: "chinese-medicine-body-types", type: "wellness" },
+    ],
+    faqs: [
+      {
+        q: "Why is my office always cold even when the thermostat reads 22 degrees?",
+        a: "The thermostat measures the temperature at one location, usually on a wall away from vents and people. The actual temperature at your desk can be three to five degrees lower, especially if you sit near an air-conditioning vent. Body type also plays a role. A Yang Deficient person will feel 22 degrees as cold, while a Yin Deficient person at the same desk will feel it as comfortable.",
+      },
+      {
+        q: "What temperature should the office be set to?",
+        a: "There is no single correct number. The commonly cited 22 to 24 degrees Celsius is a compromise that suits no constitution perfectly. A more practical approach is to set the office around 23 to 24 degrees, which is tolerable for most types, and to let individuals adjust through clothing, tea, and desk position rather than fighting over the dial.",
+      },
+      {
+        q: "Which body type struggles most with air conditioning?",
+        a: "Yang Deficient and Qi Deficient types feel air-conditioned offices most acutely, because their internal warming system is already running low. Yin Deficient and Damp Heat types tend to prefer cooler settings and rarely complain. A body type quiz can help you identify your own pattern.",
+      },
+      {
+        q: "Is it bad to sit directly under an air-conditioning vent?",
+        a: "For most body types, yes. The air at the vent is colder and faster-moving than the rest of the office. Yang Deficient, Qi Deficient, and Sensitive types should avoid vent-adjacent seats. Yin Deficient types often actively prefer them.",
+      },
+      {
+        q: "Does drinking warm drinks actually help with office cold?",
+        a: "Yes, modestly but noticeably. Warm drinks support the Spleen in Chinese medicine and gently raise core temperature. Ginger tea, jujube date tea, and warm water with a thin slice of ginger are traditional options for cold-type constitutions. Iced drinks have the opposite effect and tend to make cold-type office workers feel worse.",
+      },
+      {
+        q: "How do I raise the office temperature without annoying my colleagues?",
+        a: "Lead with a personal observation rather than a complaint, bring one specific request, offer to layer up yourself first, and find allies before raising it in a group. The full six-step approach is covered earlier in this guide.",
+      },
+    ],
+  },
+
 ]
