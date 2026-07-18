@@ -1,4 +1,4 @@
-export type JournalCategory = "seasonal" | "holiday" | "event" | "weather"
+﻿export type JournalCategory = "seasonal" | "holiday" | "event" | "weather"
 
 export interface JournalTable {
   headers: string[]
@@ -245,6 +245,181 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       {
         q: "Is it normal to lose my appetite in a heatwave?",
         a: "Yes. Heat redirects the body's energy toward cooling, leaving less for digestion. Eating small, light, cooked meals may help.",
+      },
+    ],
+  },
+  {
+    slug: "summer-travel-by-body-type",
+    title: "Summer Travel by Body Type: Why the Same Trip Exhausts Some People and Energizes Others",
+    description: "Why a holiday invigorates one person and flattens another. A TCM guide to how each of the nine body types handles summer travel, jet lag, and unfamiliar food.",
+    date: "2026-07-20",
+    category: "holiday",
+    tags: ["summer", "travel", "body-type", "jetlag", "vacation"],
+    excerpt: "A 10-day holiday can leave you refreshed or completely drained, depending on your constitution. Here is how each of the nine body types responds to summer travel, and what to do about it.",
+    thumbnail: "/images/journal/summer-travel-cover.jpg",
+    sections: [
+      {
+        heading: "Two Travelers on the Same Flight",
+        body: "Picture two travelers sitting next to each other on a flight from London to Bangkok. Same departure time, same recycled cabin air, same uninspiring meal. One steps off the plane feeling refreshed, ready to drop the bags at the hotel and head straight for the river. The other arrives with a scratchy throat, a faint headache, and a vague sense that something is already off. They will spend the next three days catching up.\n\nWe tend to explain this difference with phrases like good sleeper or bad traveler, but Chinese medicine frames it differently. The body that takes the trip matters more than the trip itself. Each of the nine body types, what TCM calls constitutions, has its own chemistry with change. New time zones, new food, new climate, new daily rhythm. Some constitutions thrive on that stimulus. Others are quietly drained by it.\n\nThis guide is not a list of universal tips. It is a way of reading your own body's travel pattern, so the parts of the trip that will cost you the most energy are not a surprise.",
+      },
+      {
+        heading: "Same Flight, Two Different Bodies",
+        type: "image",
+        imageAlt: "Side-by-side infographic comparing two travelers on the same flight",
+        imageDescription: "A detailed educational infographic showing two fully clothed traveler figures seated side by side in airplane seats. Left figure in cool blue-grey tones labeled YIN DEFICIENT with callouts for dry throat, paper-dry skin, racing mind, restless sleep, lower back fatigue. Right figure in warm gold-cream tones labeled BALANCED with callouts for comfortable temperature and settled mind. Below each figure: three data cards showing Sleep, Hydration, and Energy ratings.",
+        imagePath: "/images/journal/summer-travel-two-travelers.jpg",
+      },
+      {
+        heading: "What Travel Actually Does to a Body",
+        body: "Before talking about constitutions, it helps to name the five things travel does to any body, regardless of type. Most travel discomfort comes from some combination of these, and most can be prepared for.",
+        type: "list",
+        list: [
+          { bold: "Time zone disruption.", text: "The internal clock, tied to sunlight and meal times, takes several days to fully shift. Eastward flights are usually harder than westward, because shortening the day is harder on the body than lengthening it." },
+          { bold: "Cabin dryness.", text: "Airplane humidity sits around 10 to 20 percent, drier than most deserts. Skin, eyes, throat, and lung tissue all lose moisture quietly across a long flight." },
+          { bold: "Prolonged sitting.", text: "Hours of immobility stagnate Qi and Blood. The heavy, stiff feeling on arrival is not just fatigue. It is stagnation that has not yet been moved." },
+          { bold: "Diet disruption.", text: "New food, irregular meal times, restaurant portions, and unfamiliar ingredients all hit the Spleen at once. Most travelers feel the digestive impact on day two, not day one." },
+          { bold: "Climate contrast.", text: "Stepping from a heated airport into tropical heat, or from a warm street into an air-conditioned hotel room, forces the body to constantly recalibrate. Each transition has a small cost." },
+        ],
+      },
+      {
+        heading: "Jet Lag: A 36-Hour Timeline",
+        body: "Most jet lag advice is a list of vague principles. A timeline is more useful. Below is a sequence for a long eastward flight, the kind most people struggle with. For westward flights, the same steps apply, but with sleep shifted later instead of earlier.",
+        type: "steps",
+        steps: [
+          { title: "The Night Before (Hour -12)", detail: "Start hydrated, well before the airport. Drink more water than usual through the day, and add a pinch of sea salt or a teaspoon of honey to one glass to help the body hold onto it. Skip alcohol the night before a flight. It is heating and damp-generating in TCM, and it disrupts the deep sleep you will need." },
+          { title: "At Takeoff (Hour 0)", detail: "Set your watch and phone to the destination time zone the moment you sit down. The mental shift starts on the plane. Decide now whether you should sleep on this flight, based on what time it is where you are going, not where you left." },
+          { title: "Mid-Flight (Hour +4)", detail: "Move every two hours, even just to stand and stretch in the aisle. Walk to the back of the plane and back. Drink warm water or herbal tea, never coffee, never alcohol. If it is night at your destination, put on an eye mask and try to sleep. If it is daytime there, stay awake and read." },
+          { title: "Wheels Down (Hour +10)", detail: "Once landed, switch fully to local time. Stop calculating what time it is back home. That mental habit extends jet lag by days. Move through customs and baggage with the posture of someone at the destination, not the posture your tired body wants." },
+          { title: "First Evening (Hour +16)", detail: "Eat a small, warm, simple meal. Congee, clear soup, or rice with steamed vegetables. Skip the welcome dinner at a famous local restaurant. That pleasure is better saved for day two or three, when your digestion has reset. Take a warm foot soak for ten to fifteen minutes before bed to draw energy down from the head and settle the mind." },
+          { title: "Day Two Morning (Hour +24)", detail: "Get sunlight on your face as early as you can. Fifteen to thirty minutes of outdoor light, ideally while walking, resets the internal clock faster than any supplement. Eat a warm breakfast, even if you are not very hungry, to lock in the local rhythm." },
+          { title: "Day Two Evening (Hour +36)", detail: "By the second evening, most of the heavy lifting is done. Resist the temptation to celebrate with a heavy meal and drinks. One more early night secures the shift, and from day three onward the new rhythm usually holds." },
+        ],
+      },
+      {
+        heading: "Jet Lag Recovery Timeline",
+        type: "image",
+        imageAlt: "36-hour jet lag recovery timeline infographic",
+        imageDescription: "A detailed educational infographic showing a horizontal timeline with seven station cards. Each card has a time label header (Night Before, Takeoff, Mid-Flight, Wheels Down, First Evening, Day 2 Morning, Day 2 Evening), a circular illustrated icon, and a short English instruction. Headers shift from cool blue on the left to warm gold on the right, showing recovery progression.",
+        imagePath: "/images/journal/summer-travel-jetlag-timeline.jpg",
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "If you are not sure which of the nine body types you are, the free 5-minute quiz may help. The result comes with travel-related pointers for your specific constitution, so the parts of the next trip that will cost you the most are not a surprise.",
+      },
+      {
+        heading: "When the Battery Runs Low: Qi Deficient Travelers",
+        body: "There is a particular kind of traveler who falls asleep on the airport bench before the gate is even announced. They start the trip excited, push through the first day with effort, and wake up the next morning feeling as if a week has already passed.\n\nIf that sounds familiar, you likely belong to the Qi Deficient constitution. The internal battery is smaller than average, and every hour of travel draws from it. The cost shows up as heaviness after meals, sensitivity to motion, weak appetite in unfamiliar time zones, and a stubborn tendency to catch whatever cold is circulating in the cabin.\n\nA Qi Deficient traveler is not someone who should avoid long trips. They are someone who should plan as if each travel day costs the energy of two ordinary days. That means sleeping well for several nights before departure, rather than finishing a packed work week and jumping straight on a plane. It means scheduling nothing important on day two. It means carrying ginger tea bags for the nausea that surfaces on long drives and winding mountain roads, and jujube dates for the mid-afternoon energy dip.\n\nThe trap is the temptation to push through. Qi Deficient travelers often describe themselves as lazy, when the truth is their system genuinely runs out of fuel faster than others'. Treating that as information, rather than a personal failing, is the most useful shift they can make before packing.",
+      },
+      {
+        heading: "Dry Air, Dry Body: The Yin Deficient Traveler",
+        body: "If your skin feels paper-dry by the end of a long flight, if you wake at 3 AM with a racing mind even in a comfortable hotel bed, and if the back of your throat feels like sandpaper for days after you arrive somewhere warm, you may belong to the Yin Deficient constitution.\n\nAirplane cabins are the first problem. Cabin humidity sits around ten to twenty percent, drier than most deserts, and Yin Deficient travelers feel it before anyone else. Hotel air conditioning continues the work. By the second night, sleep, already fragile for this type, becomes something of a negotiation.\n\nDestination choice matters more for this constitution than for any other. A humid coastal town in midsummer will treat a Yin Deficient traveler gently. A dry inland city at high altitude will quietly deplete them. The same person who thrives on a beach holiday in Thailand can come back from a desert trip in Arizona feeling ten years older.\n\nA few small things reduce the cost. Sip water steadily rather than in occasional big gulps, and add a pinch of sea salt or honey to support absorption. Carry a small bottle of pear or loquat syrup for the throat. Avoid coffee and alcohol in flight, both are drying, and the cold temperature of an iced drink does not cancel that effect. A thin layer of coconut oil inside the nostrils and a light moisturizer on the face feel small but reduce the dried-out drag that builds across a long flight.",
+      },
+      {
+        heading: "The Other Seven Types: A Quick Read",
+        body: "Not every constitution needs its own section. The table below covers the seven types that tend to sit between the extremes. They travel with some cost but rarely fall apart completely. The right column is the single most useful thing to know.",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Travel Pattern", "Watch Out For"],
+          rows: [
+            ["Yang Deficient", "Often feels better on holiday, especially somewhere warm; external heat balances internal cold", "Air-conditioned restaurants and iced breakfasts that quietly undo the benefit of the warmth"],
+            ["Phlegm Damp", "Heavy and puffy on long flights; groggy mornings are common", "Rich restaurant food day after day; plain warm meals drain the dampness faster"],
+            ["Damp Heat", "Struggles in tropical humidity; skin breakouts and irritability flare within days", "Beach holidays in sticky heat. Dry mountains or deserts suit this type far better"],
+            ["Blood Stasis", "Joint stiffness and poor circulation on long-haul flights; swollen ankles are typical", "Compression socks, aisle walks, and stretching matter more for this type than any other"],
+            ["Qi Stagnant", "Reacts strongly to delays, crowding, and loss of control; mood drives the experience", "A rigid itinerary. Loose plans and daily walks bleed off the tension before it builds"],
+            ["Sensitive", "Picks up on dust, pollen, and unfamiliar food additives quickly; reacts before others notice", "A cotton face mask, familiar tea bags from home, and peppermint oil for mild nausea"],
+            ["Balanced", "Adapts well; usually the traveler who never complains and genuinely enjoys the trip", "Overconfidence. Even a strong constitution has limits across several late nights and irregular meals"],
+          ],
+        },
+      },
+      {
+        heading: "How Fast Each Type Settles In",
+        body: "One of the most useful numbers to know about your own constitution is how long it takes to feel normal after arrival. The chart below is a rough estimate based on common patterns. Age, fitness, hydration, and the direction of travel all shift these numbers, but the relative gap between types tends to hold.",
+        type: "barchart",
+        barchart: {
+          items: [
+            { label: "Balanced", value: 9, displayValue: "~1 day" },
+            { label: "Yang Deficient", value: 8, displayValue: "~1 day" },
+            { label: "Blood Stasis", value: 5, displayValue: "~2 days" },
+            { label: "Qi Stagnant", value: 5, displayValue: "~2 days" },
+            { label: "Phlegm Damp", value: 4, displayValue: "~3 days" },
+            { label: "Sensitive", value: 4, displayValue: "~3 days" },
+            { label: "Damp Heat", value: 4, displayValue: "~3 days" },
+            { label: "Qi Deficient", value: 3, displayValue: "~3-4 days" },
+            { label: "Yin Deficient", value: 3, displayValue: "~3-4 days" },
+          ],
+        },
+      },
+      {
+        heading: "A Small Kit for Each Constitution",
+        body: "These are short, type-specific lists. One or two small items per constitution, all easy to source and pack. None of them replace common sense, but each addresses the complaint most likely to surface for that type.",
+        type: "list",
+        list: [
+          { bold: "Qi Deficient:", text: "Ginger tea bags for motion and fatigue, jujube dates for the mid-afternoon dip, and a sleep mask for naps on travel days." },
+          { bold: "Yang Deficient:", text: "A thin abdominal wrap or scarf for air-conditioned restaurants, ginger tea, and a small packet of brown sugar for warm drinks." },
+          { bold: "Yin Deficient:", text: "Pear or loquat throat syrup, a small jar of honey, and a light facial moisturizer. Skip airplane coffee entirely." },
+          { bold: "Phlegm Damp:", text: "Dried tangerine peel (chen pi) for tea, a packet of coix seed powder, and loose comfortable clothing to reduce the heavy feeling." },
+          { bold: "Damp Heat:", text: "Green tea bags, mung bean powder for a cooling drink, and a light non-greasy skin cream. Stick to breathable cotton clothing." },
+          { bold: "Blood Stasis:", text: "Compression socks for the flight, a small bottle of rose or safflower oil for stiff joints, and a stretch band for short mobility breaks." },
+          { bold: "Qi Stagnant:", text: "Rose tea bags, which move Liver Qi, a small notebook for processing tension, and walking shoes you actually like wearing." },
+          { bold: "Sensitive:", text: "A silk or cotton face mask for dusty destinations, familiar herbal tea bags from home, and a small bottle of peppermint oil for nausea." },
+          { bold: "Balanced:", text: "Ginger tea and a refillable warm water bottle. The basics carry this type a long way." },
+        ],
+      },
+      {
+        heading: "Three Holidays, Three Different Stress Patterns",
+        type: "image",
+        imageAlt: "Three summer holiday scenarios and how each body type responds differently",
+        imageDescription: "A three-panel illustration. Panel 1: a tropical beach with a Yang Deficient traveler smiling in the sun and a Damp Heat traveler with red skin patches in the shade. Panel 2: a European city street with a Qi Stagnant traveler walking briskly and a Qi Deficient traveler sitting tired at a cafe table. Panel 3: an airplane cabin at night with a Balanced traveler sleeping peacefully and a Yin Deficient traveler awake with a dry throat. Each panel has a short caption underneath.",
+        imagePath: "/images/journal/summer-travel-three-holidays.jpg",
+      },
+      {
+        heading: "One Holiday, Three Different Readings",
+        body: "The same summer holiday can mean very different things to different constitutions. The three scenarios below are not mistakes to avoid. They are patterns to recognize. Each one shows how the same situation lands differently depending on the body that meets it.",
+      },
+      {
+        heading: "The Beach Holiday in the Tropics",
+        body: "A Yang Deficient traveler arrives at a humid coastal town and feels better than they have in months. The external warmth meets their internal cold and the two balance out. They eat grilled fish and mango, sleep deeply, and return looking younger.\n\nA Damp Heat traveler arrives at the same beach and within 48 hours has a fresh cluster of skin bumps, a heavy feeling behind the eyes, and a creeping irritability they cannot explain. The same humidity that balances one constitution overloads another.\n\nA Yin Deficient traveler does well on the same trip if the air is humid, and struggles if it is dry. The coast of Thailand in July suits them. The coast of California in September does not.\n\nThe trip is not the variable. The body is.",
+      },
+      {
+        heading: "The Long City Weekend",
+        body: "A long weekend in Rome, Paris, or New York means hours of walking, late dinners, and irregular meals. A Qi Stagnant traveler thrives here, because the constant movement keeps Liver Qi from settling into frustration. A Balanced traveler handles the pace well, as long as sleep is protected.\n\nA Qi Deficient traveler starts strong and fades by day two. The walking is not the problem. The late dinners and skipped breakfasts are. By Saturday afternoon they are running on fumes, and the Sunday flight home feels like a rescue mission.\n\nA Phlegm Damp traveler feels heavy and puffy across the whole trip. Restaurant food, especially the rich sauces and cheese that define these cuisines, builds dampness faster than their system can clear it. Plain meals and morning walks are the difference between a good weekend and a sluggish one.",
+      },
+      {
+        heading: "The Cross-Time-Zone Trip",
+        body: "A long-haul flight to East Asia or the Americas is the ultimate constitution test. Yang Deficient and Balanced travelers usually land, sleep one early night, and are functional the next morning.\n\nQi Deficient travelers need three or four days to feel like themselves again. The fatigue compounds across time zones because they cannot sleep well at the wrong local time, and cannot stay awake at the right one.\n\nYin Deficient travelers struggle most with the dry cabin air and the disrupted sleep cycle. They are the type most likely to come back from a long-haul trip with a cold or a sore throat, because their defensive Qi was thinned across the flight.\n\nKnowing this in advance changes what you pack, what you book for day one, and how early you go to sleep on the first night. None of these are universal tips. They are specific to the constitution taking the trip.",
+      },
+      {
+        heading: "A Note Before You Pack",
+        body: "Travel is one of the most reliable tests of constitution. The body that takes the trip is the body that comes home. The same flight, the same meal, the same climate can restore one person and deplete another, and neither is doing it wrong.\n\nIf your last holiday left you flattened for a week, that is information. If your partner comes back glowing while you come back with a sore throat, that is information too. The next trip does not have to be smaller. It just has to be shaped around what your body actually needs. Warm meals where they matter, sleep where it counts, and a destination that suits the constitution taking you there.",
+      },
+    ],
+    relatedLinks: [
+      { title: "Cooling Foods in Chinese Medicine", slug: "cooling-foods-chinese-medicine", type: "wellness" },
+      { title: "Why Am I Always Tired", slug: "why-am-i-always-tired", type: "symptoms" },
+      { title: "Why Do I Feel Sick After Eating", slug: "why-do-i-feel-sick-after-eating", type: "symptoms" },
+      { title: "TCM Diet: A Complete Guide", slug: "tcm-diet", type: "wellness" },
+    ],
+    faqs: [
+      {
+        q: "Can I figure out my body type from how I react to travel?",
+        a: "Partially. Travel reactions are strong clues. Qi Deficient types consistently run out of energy, Yin Deficient types dry out, Damp Heat types flare in humidity. But a full assessment looks at more signals than travel alone. The free body type quiz is the most reliable starting point.",
+      },
+      {
+        q: "Why do I always catch a cold after flying?",
+        a: "Long flights combine dry cabin air, irregular meals, and disrupted sleep, all of which temporarily thin the body's defensive Qi. The people most affected are usually Yin Deficient, Qi Deficient, or Sensitive constitutions. A warm meal on arrival, gentle movement, and an early night typically prevent the cold from setting in.",
+      },
+      {
+        q: "Is jet lag worse going east or west?",
+        a: "Eastward flights are usually harder on the body, because shortening the day is more disruptive than lengthening it. Westward flights, where the day gets longer, tend to be easier to absorb. The 36-hour timeline in this guide assumes an eastward flight. For westward, the same steps apply but with sleep shifted later instead of earlier.",
+      },
+      {
+        q: "What is the single most useful thing I can pack?",
+        a: "For most people, ginger tea bags. Ginger addresses motion sickness, cold-induced nausea, mild digestive upset, and the chill that builds from airplane air conditioning. It is small, light, and addresses more travel complaints than anything else you can carry.",
+      },
+      {
+        q: "Should I exercise on arrival day?",
+        a: "Gentle movement, yes. A brisk 20 to 30 minute walk after landing moves stagnant Qi and Blood, reduces leg swelling, and clears the heavy fog of a long flight. Intense workouts in the first 24 hours often deepen the fatigue rather than relieving it.",
       },
     ],
   },

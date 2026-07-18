@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (306 in sitemap, 327 build pages)
+## Published URLs (308 in sitemap, 329 build pages)
 
 ### Core Pages (8)
 
@@ -116,15 +116,15 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Symptom pages | 70 (all converted to structured data + shared component) |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages | 54 (+ 7 redirected) |
+| Wellness pages | 55 (+ 7 redirected) |
 | Food combo pages | 10 |
 | Herb pages | 132 |
 | Solutions pages | 9 (hub + 8 detail) |
 | Hub pages | 7 (symptoms, patterns, wellness, foods-for, herbs, solutions, journal) |
-| Journal pages | 2 (hub + 1 article) |
+| Journal pages | 3 (hub + 2 articles) |
 | Utility pages | 4 |
-| Sitemap URLs | 306 |
-| Total build pages | 327 |
+| Sitemap URLs | 308 |
+| Total build pages | 329 |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 

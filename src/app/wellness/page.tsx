@@ -383,6 +383,13 @@ const articles = [
     tag: "Overview",
     readTime: "9 min",
   },
+  {
+    slug: "san-fu-tcm",
+    title: "San Fu Days in TCM: Summer's Window for Winter Wellness",
+    excerpt: "San Fu is the hottest stretch of summer and a key window in Chinese medicine for supporting cold-type winter conditions. Learn the principles, foods, and habits.",
+    tag: "Yang Deficient",
+    readTime: "11 min",
+  },
 ]
 
 const tagColors: Record<string, string> = {

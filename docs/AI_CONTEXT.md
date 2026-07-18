@@ -70,7 +70,7 @@ Content sections:
 
 ### Navigation
 
-Nav bar: Guides dropdown (Herbal Solutions / Symptoms 70 / Wellness 51 / Food Guides 10 / Patterns 9) + Start Quiz + Herbs + Journal + About + ThemeToggle
+Nav bar: Guides dropdown (Herbal Solutions / Symptoms 70 / Wellness 55 / Food Guides 10 / Patterns 9) + Start Quiz + Herbs + Journal + About + ThemeToggle
 
 Dropdown background must use `bg-[var(--color-card-bg)]` (not `bg-card-bg`) for Tailwind v4 compatibility.
 
@@ -103,12 +103,12 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Symptoms | 70 | All converted to structured data + shared SymptomArticle component (2026-07-02) |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 54 (+ 7 redirected) | 54 active guides, 7 old duplicates 301 to symptoms |
+| Wellness | 55 (+ 7 redirected) | 55 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
 | Herbs | 132 | `/herbs/[slug]` dynamic route, real photos |
 | Solutions | 9 | Hub + 8 detail (weight loss, energy, sleep, digestion, anxiety, acne, PMS, hair loss). constipation moved to wellness. More planned |
-| Sitemap URLs | 306 | Hand-maintained |
-| Total build pages | 327 | Build verified (2026-07-16) |
+| Sitemap URLs | 308 | Hand-maintained |
+| Total build pages | 329 | Build verified (2026-07-18) |
 
 ### Published Patterns (9)
 

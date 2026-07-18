@@ -1198,5 +1198,27 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Top blood-nourishing foods include red dates (jujube), goji berries, black sesame, dark leafy greens, longan fruit, black beans, and beetroot. Warm, cooked, protein-rich meals that are easy to digest tend to support Blood production best.", "zh-TW": "最佳補血食物包括紅棗、枸杞、黑芝麻、深色葉菜、龍眼、黑豆和甜菜根。溫熱、煮熟、富含蛋白質且易消化的食物最能助血生成。", ja: "血を補うトップ食材はなつめ、クコの実、黒ゴマ、濃い色の葉物、竜眼、黒豆、ビーツです。温かく消化しやすいタンパク質豊富な食事が最適です。" },
     },
   ],
+  "san-fu-tcm": [
+    {
+      q: { en: "What does \"San Fu\" mean in Chinese medicine?", "zh-TW": "", ja: "" },
+      a: { en: "San Fu (三伏) means \"three hidden periods.\" It refers to the three hottest stretches of summer, between mid-July and mid-August. The character Fu describes how yin energy is forced beneath the surface by peak yang, which leaves the body's interior cooler than expected for the season.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "When does San Fu happen each year?", "zh-TW": "", ja: "" },
+      a: { en: "San Fu falls somewhere between mid-July and mid-August each year. Exact dates shift based on the traditional stem-branch calendar. The window lasts roughly 30 to 40 days and is split into First Fu, Middle Fu, and Last Fu.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What is \"winter disease, summer treatment\"?", "zh-TW": "", ja: "" },
+      a: { en: "It is the practice of using summer's peak yang to support cold-type conditions that tend to flare in winter, such as cold limbs, winter coughs, or cold-type joint discomfort. The idea is that warming inputs reach deeper when the body's surface is open and receptive during the hottest days.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "What should I eat during San Fu days?", "zh-TW": "", ja: "" },
+      a: { en: "Light warming foods form the core: ginger tea in the morning, congee as a base, red dates, longan, and small portions of lamb. Three-bean soup (mung, adzuki, and black bean) is a classic San Fu dish that clears damp-heat without over-cooling. Avoid ice water, raw foods as a daily default, and excessive air-conditioning.", "zh-TW": "", ja: "" },
+    },
+    {
+      q: { en: "Can I apply San Fu patches at home?", "zh-TW": "", ja: "" },
+      a: { en: "Traditional San Fu patches (San Fu Tie) are applied to specific points on the back by trained practitioners. Home use is not recommended. The herb formula, point selection, and duration all depend on your individual pattern, and getting it wrong can cause skin irritation or push the body in the wrong direction for your constitution.", "zh-TW": "", ja: "" },
+    },
+  ],
 
 }
