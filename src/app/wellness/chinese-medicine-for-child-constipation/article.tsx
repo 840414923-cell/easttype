@@ -4,6 +4,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import SaveToPinterest from "@/components/save-to-pinterest"
 
 export default function ChildConstipationArticle() {
 
@@ -241,6 +242,13 @@ export default function ChildConstipationArticle() {
           </ul>
         </div>
       </section>
+
+      <SaveToPinterest
+        slug="chinese-medicine-for-child-constipation"
+        imageSrc="/images/pinterest/child-constipation.jpg"
+        alt="Chinese medicine for child constipation — black sesame pear porridge recipe card"
+        pinDescription="Black sesame pear porridge for child constipation. A gentle Chinese medicine remedy that moistens the intestines without cold fruit."
+      />
 
       <section className="mb-10 bg-cream/30 border border-border rounded-xl p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">{"When to See a Doctor"}</h2>

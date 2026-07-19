@@ -4,6 +4,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import SaveToPinterest from "@/components/save-to-pinterest"
 
 export default function ChildDigestionArticle() {
 
@@ -242,6 +243,13 @@ export default function ChildDigestionArticle() {
           </ul>
         </div>
       </section>
+
+      <SaveToPinterest
+        slug="chinese-medicine-for-child-digestion"
+        imageSrc="/images/pinterest/child-digestion.jpg"
+        alt="Chinese medicine for child digestion — rice congee with Chinese yam recipe card"
+        pinDescription="Gentle rice congee with Chinese yam for child digestion. A time-tested Chinese medicine recipe to strengthen a child's Spleen."
+      />
 
       <section className="mb-10 bg-cream/30 border border-border rounded-xl p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">{"When to See a Doctor"}</h2>

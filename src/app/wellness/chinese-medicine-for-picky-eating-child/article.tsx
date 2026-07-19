@@ -4,6 +4,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import SaveToPinterest from "@/components/save-to-pinterest"
 
 export default function PickyEatingChildArticle() {
 
@@ -239,6 +240,13 @@ export default function PickyEatingChildArticle() {
           </ul>
         </div>
       </section>
+
+      <SaveToPinterest
+        slug="chinese-medicine-for-picky-eating-child"
+        imageSrc="/images/pinterest/picky-eating-child.jpg"
+        alt="Chinese medicine for picky eating child — hawthorn tangerine peel tea recipe card"
+        pinDescription="Hawthorn tangerine peel tea to gently reopen a picky child's appetite. A Chinese medicine approach to weak Spleen and mealtime stress."
+      />
 
       <section className="mb-10 bg-cream/30 border border-border rounded-xl p-5">
         <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">{"When to See a Doctor"}</h2>
