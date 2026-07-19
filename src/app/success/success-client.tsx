@@ -16,7 +16,7 @@ function SuccessContent() {
   const isPro = plan === "pro"
 
   const reportUrl = `/report-v2?type=${type}&sex=${sex}${isPro ? "&plan=pro" : ""}`
-  const priceLabel = isPro ? "$12.99" : "$4.99"
+  const priceLabel = isPro ? "$24.99" : "$9.99"
   const token = params.get("token") ?? ""
 
   useEffect(() => {

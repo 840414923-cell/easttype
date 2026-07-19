@@ -66,10 +66,10 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
       <div
         className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(140,45,42,0.4)] shadow-[0_0_25px_rgba(140,45,42,0.15)] border-2 border-[rgba(255,255,255,0.15)] ${className}`}
         style={{ background: "linear-gradient(135deg, #A63A3A, #B84A4A, #A63A3A)", color: "#FFFFFF" }}
-        onClick={() => track("checkout_started", { plan: "pro", value: 12.99, currency: "USD" })}
+        onClick={() => track("checkout_started", { plan: "pro", value: 24.99, currency: "USD" })}
       >
         <span className="text-[10px] font-semibold uppercase tracking-wide opacity-70">Recommended</span>
-        <span className="text-base font-bold mt-0.5">Full Kit — $12.99</span>
+        <span className="text-base font-bold mt-0.5">Full Kit — $24.99</span>
       </div>
     </CreemCheckout>
   )
@@ -81,10 +81,10 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
     >
       <div
         className={`flex flex-col items-center justify-center w-full py-4 px-3 rounded-2xl font-[family-name:var(--font-body)] cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_0_40px_rgba(140,45,42,0.2)] border-2 border-[rgba(140,45,42,0.35)] bg-[rgba(140,45,42,0.06)] ${className}`}
-        onClick={() => track("checkout_started", { plan: "basic", value: 4.99, currency: "USD" })}
+        onClick={() => track("checkout_started", { plan: "basic", value: 9.99, currency: "USD" })}
       >
         <span className="text-[10px] font-semibold uppercase tracking-wide text-text2/50">Starter</span>
-        <span className="text-base font-bold mt-0.5 text-accent">Body Profile — $4.99</span>
+        <span className="text-base font-bold mt-0.5 text-accent">Body Profile — $9.99</span>
       </div>
     </CreemCheckout>
   )

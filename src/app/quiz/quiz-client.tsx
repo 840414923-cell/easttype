@@ -227,7 +227,7 @@ export default function QuizClient() {
       },
       {
         name: "Body Profile",
-        price: "$4.99",
+        price: "$9.99",
         features: [
           "Everything in Free",
           "Constitution Identity analysis",
@@ -240,7 +240,7 @@ export default function QuizClient() {
       },
       {
         name: "Full Report",
-        price: "$12.99",
+        price: "$24.99",
         featured: true,
         features: [
           "Everything in Body Profile",
