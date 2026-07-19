@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import Image from "next/image"
 import { Nav as SharedNav } from "@/components/nav"
 import { LIKERT_OPTIONS, calculate27Scores, getPrimaryAndSecondary } from "@/lib/quiz-27"
 import { QUIZ_15, QUIZ_15_INDICES, QUIZ_12, calculate15Scores } from "@/lib/quiz-15"
@@ -11,6 +12,7 @@ import MidReveal from "@/components/mid-reveal"
 import Reveal from "@/components/reveal"
 import ReportPreview from "@/components/report-preview"
 import { track } from "@/lib/analytics"
+import { SAMPLE_QUESTIONS, BODY_TYPES, TYPE_COLORS } from "@/lib/quiz-landing-data"
 
 function Collapsible({ label, children }: { label: string; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
@@ -215,45 +217,6 @@ export default function QuizClient() {
   }
 
   if (phase === "intro") {
-    const tiers = [
-      {
-        name: "Free",
-        price: "$0",
-        features: [
-          "Your body type identification",
-          "Brief type description",
-          "Top 5 recommended foods",
-        ],
-      },
-      {
-        name: "Body Profile",
-        price: "$9.99",
-        features: [
-          "Everything in Free",
-          "Constitution Identity analysis",
-          "Food Therapy Guide (eat / limit)",
-          "Seasonal Protocol (4 seasons)",
-          "Daily Meridian Schedule",
-          "Recommended Recipe",
-          "Printable PDF",
-        ],
-      },
-      {
-        name: "Full Report",
-        price: "$24.99",
-        featured: true,
-        features: [
-          "Everything in Body Profile",
-          "Origin Story & Emotional Blueprint",
-          "Acupoint Massage Guide",
-          "Multiple TCM Recipes",
-          "30-Day Lifestyle Plan",
-          "30-Day Body Monitor tracker",
-          "Printable PDF",
-        ],
-      },
-    ]
-
     return (
       <>
         <SharedNav />
@@ -271,17 +234,17 @@ export default function QuizClient() {
             </p>
           </div>
 
-          {/* CTA */}
+          {/* Top CTA */}
           <div className="text-center mb-3">
             <button
               onClick={handleStart}
               className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(140,45,42,0.3)] hover:shadow-[0_8px_30px_rgba(140,45,42,0.4)] bg-gradient-to-r from-accent to-accent2 text-white"
             >
-              Begin Free Assessment
+              Begin Free Quiz
               <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </button>
           </div>
-          <div className="flex items-center justify-center gap-4 sm:gap-6 text-xs text-text2 mb-12">
+          <div className="flex items-center justify-center gap-4 sm:gap-6 text-xs text-text2 mb-14">
             <span>5 min</span>
             <span className="text-border">|</span>
             <span>27 questions</span>
@@ -289,59 +252,105 @@ export default function QuizClient() {
             <span>No signup</span>
           </div>
 
-          {/* Pricing Tiers */}
+          {/* What to Expect */}
           <Reveal>
-          <div className="mb-12">
-            <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-6">
-              What You Can Unlock
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
-              {tiers.map((tier) => (
-                <div
-                  key={tier.name}
-                  className={`relative rounded-xl p-5 border card-elevated ${
-                    tier.featured
-                      ? "border-accent bg-[rgba(140,45,42,0.06)]"
-                      : "border-card-border bg-card-bg"
-                  }`}
-                >
-                  {tier.featured && (
-                    <div className="absolute -top-2.5 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-accent text-bg text-[10px] font-bold uppercase tracking-wider">
-                      Most Popular
-                    </div>
-                  )}
-                  <div className="text-sm font-bold text-text mb-1">{tier.name}</div>
-                  <div className="font-[family-name:var(--font-display)] text-2xl text-text mb-4">
-                    {tier.price}
-                  </div>
-                  <ul className="space-y-2">
-                    {tier.features.map((f) => (
-                      <li key={f} className="flex items-start gap-2 text-xs text-text2 leading-relaxed">
-                        <span className="text-accent mt-0.5 shrink-0">&#10003;</span>
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
+            <div className="mb-14">
+              <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-6">
+                What to Expect
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                <div className="rounded-xl p-5 border border-card-border bg-card-bg text-center">
+                  <div className="font-[family-name:var(--font-display)] text-3xl text-accent mb-2">27</div>
+                  <div className="text-sm font-bold text-text mb-1">Questions</div>
+                  <div className="text-xs text-text2 leading-relaxed">Adapted from TCM inquiry diagnosis</div>
                 </div>
-              ))}
+                <div className="rounded-xl p-5 border border-card-border bg-card-bg text-center">
+                  <div className="font-[family-name:var(--font-display)] text-3xl text-accent mb-2">9</div>
+                  <div className="text-sm font-bold text-text mb-1">Body Types</div>
+                  <div className="text-xs text-text2 leading-relaxed">China&apos;s official constitution standard</div>
+                </div>
+                <div className="rounded-xl p-5 border border-card-border bg-card-bg text-center">
+                  <div className="font-[family-name:var(--font-display)] text-3xl text-accent mb-2">5</div>
+                  <div className="text-sm font-bold text-text mb-1">Minutes</div>
+                  <div className="text-xs text-text2 leading-relaxed">Instant result, no signup</div>
+                </div>
+              </div>
             </div>
-            <p className="text-center text-xs text-text2 mt-4">
-              Quiz is always free. Upgrade only after seeing your result.
-            </p>
-          </div>
           </Reveal>
 
+          {/* Sample Questions */}
+          <Reveal>
+            <div className="mb-14">
+              <h2 className="font-[family-name:var(--font-display)] text-lg text-text text-center mb-2">
+                Real Questions From the Quiz
+              </h2>
+              <p className="text-xs text-text2 text-center mb-6">Answer on a 5-point scale, from &quot;Never&quot; to &quot;Always&quot;</p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                {SAMPLE_QUESTIONS.map((q, i) => (
+                  <div key={i} className="bg-[var(--color-card-bg)] rounded-xl border border-border/50 p-6 text-left relative overflow-hidden">
+                    <span className="absolute -top-2 right-3 text-5xl text-accent/10 font-serif leading-none select-none">&ldquo;</span>
+                    <span className="text-accent text-xs font-bold uppercase tracking-wider">Q{String(i + 1).padStart(2, "0")}</span>
+                    <p className="text-text text-base mt-3 leading-relaxed">{q}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </Reveal>
+
+          {/* 9 Body Types Grid */}
+          <Reveal>
+            <div className="mb-14">
+              <div className="text-center mb-6">
+                <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
+                  Which Sounds Like You?
+                </h2>
+                <p className="text-xs text-text2">All 9 types explored in your result. Tap any card to preview.</p>
+              </div>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {BODY_TYPES.map((bt, i) => (
+                  <Link
+                    key={bt.slug}
+                    href={`/types/${bt.slug}`}
+                    className="group block rounded-xl border border-[rgba(140,45,42,0.18)] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all no-underline"
+                  >
+                    <div className="h-12 relative overflow-hidden">
+                      <Image
+                        src={`/images/home/types/${bt.slug}.jpg`}
+                        alt={bt.name}
+                        fill
+                        className="object-cover object-top"
+                        sizes="(max-width: 640px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 flex items-center justify-center" style={{ background: `linear-gradient(135deg, ${TYPE_COLORS[bt.slug]}33, ${TYPE_COLORS[bt.slug]}11)` }}>
+                        <span className="text-2xl font-[family-name:var(--font-display)] text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.6)]">{bt.char}</span>
+                      </div>
+                    </div>
+                    <div className="p-3 bg-[var(--color-card-bg)]">
+                      <div className="flex items-baseline gap-2 mb-1">
+                        <span className="text-[10px] font-bold tracking-wider" style={{ color: TYPE_COLORS[bt.slug] }}>{String(i + 1).padStart(2, "0")}</span>
+                        <span className="text-sm font-bold text-text">{bt.name}</span>
+                      </div>
+                      <p className="text-xs text-text2 leading-relaxed">{bt.desc}</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </Reveal>
+
+          {/* Report Preview */}
           <ReportPreview />
 
-          {/* Bottom CTA */}
-          <div className="text-center mt-10">
+          {/* Final CTA — outcome-oriented */}
+          <div className="text-center mt-12 mb-4">
             <button
               onClick={handleStart}
-              className="group inline-flex items-center gap-2 px-8 py-3 rounded-xl font-[family-name:var(--font-body)] text-sm font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 border-2 border-accent text-accent hover:bg-accent hover:text-bg"
+              className="group inline-flex items-center gap-2 px-10 py-4 rounded-xl font-[family-name:var(--font-body)] text-base font-bold cursor-pointer no-underline transition-all duration-300 hover:-translate-y-0.5 shadow-[0_4px_20px_rgba(140,45,42,0.3)] hover:shadow-[0_8px_30px_rgba(140,45,42,0.4)] bg-gradient-to-r from-accent to-accent2 text-white"
             >
-              Start Your Free Quiz
+              See My Body Type in 5 Minutes
               <span className="transition-transform duration-300 group-hover:translate-x-1">&#8594;</span>
             </button>
+            <p className="text-xs text-text2 mt-3">Free &middot; No signup &middot; Instant result</p>
           </div>
         </div>
       </>
