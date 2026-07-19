@@ -38,7 +38,7 @@ Content sections:
 /symptoms (70)  - 搜索入口
 /patterns (9)   - 知识桥梁
 /types (9)      - 完整体质档案
-/wellness (55)  - TCM深度内容
+/wellness (57)  - TCM深度内容
 /foods-for (10) - 食疗指南
 /herbs (132)    - 中药库
 /solutions (9)  - 方剂专题 (hub + 8 detail)
@@ -103,7 +103,7 @@ Vercel Production domain is www. All canonical URLs, sitemap URLs, metadata, and
 | Symptoms | 70 | All converted to structured data + shared SymptomArticle component (2026-07-02) |
 | Patterns | 9 | Complete (9/9 types covered) |
 | Types | 9 | Complete |
-| Wellness | 56 (+ 7 redirected) | 56 active guides, 7 old duplicates 301 to symptoms |
+| Wellness | 58 (+ 7 redirected) | 58 active guides, 7 old duplicates 301 to symptoms |
 | Food Combos | 10 | `/foods-for/[slug]` dynamic route |
 | Herbs | 132 | `/herbs/[slug]` dynamic route, real photos |
 | Solutions | 9 | Hub + 8 detail (weight loss, energy, sleep, digestion, anxiety, acne, PMS, hair loss). constipation moved to wellness. More planned |

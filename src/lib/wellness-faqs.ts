@@ -1242,5 +1242,49 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Deficient body type is most often associated with weak digestion, low appetite, and easy fatigue. About 8 percent of adults fit this pattern, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which can offer context for your child's patterns.", "zh-TW": "氣虛體質最常與消化弱、胃口差和易疲勞相關。約 8% 的成人屬於此型，且體質常有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，也能為孩子的狀況提供脈絡。", ja: "気虚タイプは、消化の弱さ、食欲のなさ、疲れやすさと最も関連します。成人の約8%がこのタイプで、体質は家族的に現れることが多いです。無料の5分間体質クイズでご自身の体質を知ると、お子さんの状態を理解する手がかりになります。" },
     },
   ],
+  "chinese-medicine-for-child-constipation": [
+    {
+      q: { en: "Why do bananas make some children's constipation worse?", "zh-TW": "為什麼香蕉會讓某些孩子的便祕更嚴重？", ja: "バナナが子どもの便秘を悪化させることがあるのはなぜですか？" },
+      a: { en: "Bananas are cold and sweet in TCM terms. For a child whose constipation is already a moisture-and-warmth problem, a daily cold banana can further slow the intestines even though it contains fiber. Ripe, room-temperature bananas in small amounts are tolerated better than cold or under-ripe ones. Other warm or moistening foods often help more reliably.", "zh-TW": "在中醫裡，香蕉性寒味甘。對已經是水分與溫度失衡的便祕兒童，每天吃寒涼的香蕉即使含纖維，仍可能讓腸道更慢。熟透、室溫、小份量的香蕉比冰冷或未熟的更易接受，但溫熱或潤腸的食物通常更可靠。", ja: "バナナは中医学では寒性で甘味があります。すでに水分と温めりの問題で便秘している子どもには、繊維があっても毎日冷たいバナナは腸をさらに遅くすることがあります。熟して室温で少量のバナナは、冷たい・未熟なものより耐受性が高いですが、温性または潤いのある食材のほうが確実なことが多いです。" },
+    },
+    {
+      q: { en: "How many days without a bowel movement is too long for a child?", "zh-TW": "孩子幾天不大便算太久？", ja: "子どもが何日出なくなりたら長すぎと判断しますか？" },
+      a: { en: "For most children, fewer than three bowel movements per week, or stools that are hard and difficult to pass, qualifies as constipation. Going four or five days without a stool is a sign to act. If it reaches five or more days, or is paired with pain, vomiting, or blood, contact your pediatrician.", "zh-TW": "對大多數兒童而言，每週少於三次排便，或糞便乾硬難出，即為便祕。四到五天未排便就需要積極處理。如果超過五天，或合併疼痛、嘔吐、出血，請聯絡小兒科醫師。", ja: "多くの子どもでは、1週間に3回未満の排便、または硬くて出にくい便が便秘にあたります。4〜5日出ていない場合は対応が必要です。5日以上の場合や、痛み、嘔吐、出血を伴う場合は小児科医に連絡してください。" },
+    },
+    {
+      q: { en: "Is fiber from raw vegetables better than cooked for constipation?", "zh-TW": "便祕時，生菜的纖維比煮熟的好嗎？", ja: "便秘のとき、生野菜の繊維は加熱したものより良いですか？" },
+      a: { en: "In TCM theory, raw vegetables are colder and harder on the Spleen than cooked ones. For a child whose constipation involves cold or weak digestion, cooked vegetables and warm stews typically work better than large raw salads, even though raw fiber has more bulk. Warmth helps the system move; cold slows it.", "zh-TW": "在中醫看來，生菜性較寒，對脾的負擔比熟菜大。對脾寒或虛弱造成便祕的孩子，煮熟蔬菜和溫燉湯通常比大量生沙拉更有效，即使生纖維體積更大。溫度幫助系統運作，寒冷則讓它變慢。", ja: "中医学では、生野菜は加熱したものより寒性で脾への負担が大きいです。冷えや弱い消化が原因の子どもの便秘には、生サラダより加熱野菜や温かいスープのほうが効果的なことが多いです。生の繊維のほうがかさはありますが、温かさが腸を動かし、冷たさは遅くします。" },
+    },
+    {
+      q: { en: "Can abdominal massage really help a child poop?", "zh-TW": "腹部按摩真的能幫孩子排便嗎？", ja: "腹部マッサージは本当に子どもの排便を助けますか？" },
+      a: { en: "Many families find it helpful as a gentle supportive habit. With warm hands, rub your child's belly in slow clockwise circles for about two minutes before bed or after a warm bath. This follows the natural direction of the colon and may encourage movement. It works best alongside warm fluids and a consistent bathroom routine.", "zh-TW": "許多家庭發現它是有用的輔助習慣。用溫熱的手掌，在孩子睡前或溫水澡後，順時針慢圈按摩腹部約兩分鐘。這個方向順著結腄的走向，可能有助於蠕動。配合溫熱飲品和規律排便習慣效果最佳。", ja: "穏やかなサポート習慣として役立つと多くの家庭が感じています。温かい手で、寝る前や湯上がりの後に、子どものお腹をゆっくり時計回りに約2分円を描くようにさすります。これは結腸の自然な向きに沿うもので、動きを促すことがあります。温かい飲み物と規則正しいトイレ習慣と組み合わせると効果的です。" },
+    },
+    {
+      q: { en: "Which body type is most associated with childhood constipation?", "zh-TW": "兒童便祕最相關的是哪種體質？", ja: "子どもの便秘に最も関連する体質はどれですか？" },
+      a: { en: "The Qi Deficient body type is most commonly linked to sluggish, low-energy constipation in both children and adults. A free 5-minute body type quiz can help you see whether this matches your own constitution, which often runs in families and offers context for your child's patterns.", "zh-TW": "氣虛體質最常與低能量、遲緩型便祕相關，無論兒童或成人都是。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，體質常有家族傾向，也能為孩子的狀況提供脈絡。", ja: "気虚タイプは、低エネルギーで遅いタイプの便秘に最も関連します。子どもにも大人にも当てはまります。無料の5分間体質クイズでご自身の体質を知ると、家族的に現れやすい体質の傾向から、お子さんの状態を理解する手がかりになります。" },
+    },
+  ],
+  "chinese-medicine-for-picky-eating-child": [
+    {
+      q: { en: "Should I force my child to finish their plate?", "zh-TW": "我該強迫孩子把盤子吃光嗎？", ja: "子どもに皿を完食させるべきですか？" },
+      a: { en: "In TCM theory, forced eating tends to backfire. The Spleen has a daily capacity, and food eaten past full becomes dampness, which further slows digestion. The picky child's Spleen is often already tired. A consistent one-bite, no-pressure approach tends to work better over weeks than clean-plate enforcement.", "zh-TW": "中醫認為強迫進食通常適得其反。脾有每日負荷上限，吃超過飽足的食物會變成濕濁，進一步拖慢消化。挑食孩子的脾通常已經疲勞。「試一口、不施壓」的持續做法，幾週下來通常比強制完食有效。", ja: "中医学では、無理に食べさせることは逆効果とされます。脾には1日の処理能力があり、満腹を超えた食べ物は湿濁となり、消化をさらに遅くします。偏食の子どもの脾はすでに疲れていることが多いです。「一口だけ・プレッシャーなし」を継続するほうが、数週間で完食強制よりも効果的です。" },
+    },
+    {
+      q: { en: "Is picky eating always a Spleen problem in Chinese medicine?", "zh-TW": "在中醫看來，挑食一定都是脾的問題嗎？", ja: "中医学で偏食はいつも脾の問題ですか？" },
+      a: { en: "The Spleen is almost always involved, but the Liver plays a major role too. When mealtime is tense, rushed, or pressured, Liver Qi tightens and the Spleen cannot do its job. Picky eating is usually both an organ pattern and a stress pattern. Addressing one without the other tends to be why simple diet changes do not work on their own.", "zh-TW": "脾幾乎一定有關，但肝也扮演關鍵角色。餐桌氣氛緊張、匆忙或被施壓時，肝氣會鬱結，脾就無法運作。挑食通常既是臟腑問題，也是壓力問題。只調整一邊常常是單純飲食改變無效的原因。", ja: "脾はほぼ必ず関わりますが、肝も大きな役割を果たします。食事の時間が緊張・急ぎ・プレッシャーに満ちていると、肝気が滞り、脾は機能できません。偏食は通常、臓腑の問題であると同時にストレスの問題でもあります。片方だけに対処すると、食事変更だけでは効かないことが多いです。" },
+    },
+    {
+      q: { en: "How do I introduce hawthorn tea to a toddler?", "zh-TW": "我該如何讓幼兒開始喝山楂茶？", ja: "幼児にサンザシ茶をどう導入すればいいですか？" },
+      a: { en: "Start with a very small amount, half a small cup, before lunch or dinner. Use 2 dried hawthorn slices in 2 cups of water and add a small piece of rock sugar to balance the sourness. Serve warm. Use for 5 to 7 days, then take a break. Daily use for long periods is not recommended.", "zh-TW": "從極小量開始，半個小杯，午餐或晚餐前喝。用 2 片山楂乾加 2 杯水，加一小塊冰糖平衡酸味。溫熱飲用。連續 5 至 7 天後休息，不建議長期每天飲用。", ja: "ごく少量から始めましょう。小さめのカップ半分を、昼食か夕食前に。乾燥サンザシ2枚を2カップの水で煮出し、酸味を和らげるために氷砂糖を少し加えます。温かくして出します。5〜7日続けたら休み、長期間の毎日使用は推奨されません。" },
+    },
+    {
+      q: { en: "How long does it take to reverse a picky eating pattern?", "zh-TW": "改善挑食需要多久時間？", ja: "偏食のパターンを改善するのにどのくらいかかりますか？" },
+      a: { en: "Most families see meaningful change within two to three weeks of consistent habit shifts: removing pressure, setting clear meal and snack times, and pulling back on between-meal snacks. The Spleen recovers gradually, and appetite returns as the system stops bracing itself. Long-standing patterns may take a few months to fully settle.", "zh-TW": "大多數家庭在持續改變習慣兩到三週後會看到明顯變化：移除壓力、設定明確用餐和點心時間、減少餐間零食。脾會逐步恢復，當系統不再緊繃，胃口自然回來。長期形成的模式可能需要幾個月才能完全穩定。", ja: "多くの家庭は、習慣を一貫して変える（プレッシャーを除く、食事と間食の時間を明確にする、間食を減らす）2〜3週間で大きな変化を実感します。脾は徐々に回復し、からだが身構えなくなると食欲が戻ります。長年築かれたパターンは、完全に落ち着くまでに数か月かかることがあります。" },
+    },
+    {
+      q: { en: "Which body type is most linked to picky eating in children?", "zh-TW": "孩子挑食最相關的是哪種體質？", ja: "子どもの偏食に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with low appetite and picky eating, often combined with Liver-related sensitivity to pressure. Constitution tends to run in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which often offers useful context for your child's patterns.", "zh-TW": "氣虛體質最常與胃口差、挑食相關，常合併對壓力敏感的肝氣因素。體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，常為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは食欲のなさや偏食に最も関連し、プレッシャーへの感受性という肝の要因と組み合わさることが多いです。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する有用な手がかりになります。" },
+    },
+  ],
 
 }
