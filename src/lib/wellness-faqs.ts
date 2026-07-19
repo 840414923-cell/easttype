@@ -1220,5 +1220,27 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "Traditional San Fu patches (San Fu Tie) are applied to specific points on the back by trained practitioners. Home use is not recommended. The herb formula, point selection, and duration all depend on your individual pattern, and getting it wrong can cause skin irritation or push the body in the wrong direction for your constitution.", "zh-TW": "", ja: "" },
     },
   ],
+  "chinese-medicine-for-child-digestion": [
+    {
+      q: { en: "At what age is a child's Spleen considered fully developed in TCM?", "zh-TW": "中醫認為兒童的脾何時發育成熟？", ja: "中医学では子どもの脾は何歳で成熟するとされていますか？" },
+      a: { en: "Around 6 to 7 years old. Classical Chinese pediatric texts describe this as the age when digestion settles. Before that, children are considered to have a naturally immature Spleen, which is why warm, soft, and easily digested foods are emphasized for young children.", "zh-TW": "大約 6 到 7 歲。古代中醫兒科文獻將這個年齡描述為「脾氣漸充」。在此之前，兒童被認為脾常不足，所以飲食強調溫熱、柔軟、易消化的食物。", ja: "6〜7歳ごろです。古典的な中医学の小児科文献では、この年齢を「脾が落ち着く」と記述しています。それまでは脾が未熟とされ、温かく柔らかく消化しやすい食べ物が重視されます。" },
+    },
+    {
+      q: { en: "Is rice congee enough for breakfast for a growing child?", "zh-TW": "成長中的孩子早餐吃粥夠嗎？", ja: "成長期の子どもが朝食にお粥だけで足りますか？" },
+      a: { en: "Plain congee on its own is gentle but light. Adding 2 to 3 pitted red dates and a few slices of Chinese yam gives it more nourishment. For growing children, congee pairs well with a small portion of cooked vegetables or a soft egg. Variety across the day matters more than packing everything into one meal.", "zh-TW": "白粥本身性質溫和但偏輕。加入 2 至 3 顆去籽紅棗和幾片中藥山藥可以增加營養。對成長中的兒童，粥搭配一小份煮熟蔬菜或一顆嫩蛋更完整。一天中的多樣性比一餐塞滿更重要。", ja: "白粥だけでは穏やかですが軽すぎます。種なし紅棗を2〜3個と山芋を数切れ加えると栄養が増します。成長期の子どもには、温野菜や柔らかい卵を少し添えると良いです。1食に詰め込むより、1日を通じた多様性が大切です。" },
+    },
+    {
+      q: { en: "How long until I notice improvement with traditional Chinese foods?", "zh-TW": "用中醫食療多久能看到改善？", ja: "中医食事療法で改善がみられるまでどのくらいかかりますか？" },
+      a: { en: "Traditionally, appetite and stool changes show up in 3 to 7 days. Energy and resilience tend to take 2 to 3 weeks of consistent habits. Children with weak digestion often benefit from ongoing, gentle support rather than a quick reset. Consistency matters more than intensity.", "zh-TW": "傳統上，胃口和排便的變化通常在 3 至 7 天內出現。精力和抵抗力則需要 2 至 3 週的持續習慣。脾虛的孩子通常需要長期、溫和的調理，而不是一次性的快速修復。", ja: "伝統的には食欲や便の変化は3〜7日で現れます。元気さや抵抗力には2〜3週間の継続が必要です。脾が弱い子どもは、早急な改善より、継続的な穏やかなサポートが有効です。" },
+    },
+    {
+      q: { en: "My child refuses warm porridge. What can I do?", "zh-TW": "孩子不肯喝溫熱的粥，怎麼辦？", ja: "子どもが温かいお粥を嫌がります。どうすればいいですか？" },
+      a: { en: "Start with very small portions alongside familiar foods. Try a thinner texture at first, or stir in something recognizable like mashed sweet potato. Forcing it tends to backfire. Offering it consistently without pressure often works within a week or two, and the Spleen has time to adjust gradually.", "zh-TW": "從極小的份量開始，搭配孩子熟悉的食物一起給。可以先試比較稀的質地，或拌入地瓜泥等熟悉食材。勉強通常適得其反。無壓力地持續供應，通常一兩週內會被接受，脾也能慢慢適應。", ja: "まずはごく少量を、子どもが慣れた食べ物と一緒に出しましょう。最初はゆるい食感にしたり、さつまいものペーストなど馴染みのあるものを混ぜるのも有効です。無理強いは逆効果です。プレッシャーなく継続して出すことで、1〜2週間で受け入れることが多く、脾も少しずつ慣れていきます。" },
+    },
+    {
+      q: { en: "Which body type is associated with weak digestion in children?", "zh-TW": "兒童消化弱對應什麼體質？", ja: "消化の弱い子どもはどの体質に関連しますか？" },
+      a: { en: "The Qi Deficient body type is most often associated with weak digestion, low appetite, and easy fatigue. About 8 percent of adults fit this pattern, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which can offer context for your child's patterns.", "zh-TW": "氣虛體質最常與消化弱、胃口差和易疲勞相關。約 8% 的成人屬於此型，且體質常有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，也能為孩子的狀況提供脈絡。", ja: "気虚タイプは、消化の弱さ、食欲のなさ、疲れやすさと最も関連します。成人の約8%がこのタイプで、体質は家族的に現れることが多いです。無料の5分間体質クイズでご自身の体質を知ると、お子さんの状態を理解する手がかりになります。" },
+    },
+  ],
 
 }

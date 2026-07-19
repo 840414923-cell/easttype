@@ -12,7 +12,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 ---
 
-## Published URLs (309 in sitemap, 330 build pages)
+## Published URLs (310 in sitemap, 331 build pages)
 
 ### Core Pages (8)
 
@@ -51,7 +51,7 @@ Vercel Production domain is `www.myeasterntype.com`. All canonical URLs, sitemap
 
 balanced, qi_deficient, yang_deficient, yin_deficient, phlegm_damp, damp_heat, blood_stasis, qi_stagnant, sensitive
 
-### Wellness Pages (51)
+### Wellness Pages (55)
 
 51 in-depth wellness guides covering TCM patterns, concepts, conditions, and remedies. Organized in 4 clusters:
 - TCM Organ Patterns (10): spleen-qi-deficiency, kidney-yin-deficiency, liver-qi-stagnation, etc.
@@ -116,7 +116,7 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Symptom pages | 70 (all converted to structured data + shared component) |
 | Pattern pages | 9 |
 | Type pages | 9 |
-| Wellness pages | 55 (+ 7 redirected) |
+| Wellness pages | 56 (+ 7 redirected) |
 | Food combo pages | 10 |
 | Herb pages | 132 |
 | Solutions pages | 9 (hub + 8 detail) |
@@ -124,7 +124,7 @@ Each formula includes classical source citation, ingredients with amounts, step-
 | Journal pages | 4 (hub + 3 articles) |
 | Utility pages | 4 |
 | Sitemap URLs | 309 |
-| Total build pages | 330 |
+| Total build pages | 331 |
 | Product tiers | 3 (Free / $4.99 / $12.99) |
 | Pattern coverage | 9/9 types (complete) |
 

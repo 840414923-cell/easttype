@@ -197,7 +197,7 @@ Each page must have **3-5 internal links**:
 Update this as we complete each page.
 
 ### Day 1
-- [ ] 1. `chinese-medicine-for-child-digestion` ← START HERE (uses proven pin content as input)
+- [x] 1. `chinese-medicine-for-child-digestion` ← START HERE (uses proven pin content as input) ✅ Done 2026-07-19
 - [ ] 2. `chinese-medicine-for-child-constipation`
 - [ ] 3. `chinese-medicine-for-picky-eating-child`
 
