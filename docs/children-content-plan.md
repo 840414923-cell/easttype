@@ -127,7 +127,8 @@ Follow `docs/aeo-citation-template.md` strictly:
 - **H2: When to See a Doctor** (disclaimer + red flags)
 - **FAQ** (4-5 Q&As with FAQPage JSON-LD)
 - **Medical disclaimer footer**
-- **Inline CTA**: "Discover YOUR body type → /quiz" (mid-page + footer)
+- **InlineQuizCta at ~30%**: Insert `<InlineQuizCta />` after the "How Chinese Medicine Views [Symptom]" section, before the Patterns table. This catches readers at the natural pause before detailed content (~25-30% of article).
+- **InlineQuizCta at footer**: Keep `<InlineQuizCta />` after "When to See a Doctor" section, before FAQ.
 - **Target word count**: 1,600-1,900
 
 ## Child-Specific Elements (differentiate from adult pages)
