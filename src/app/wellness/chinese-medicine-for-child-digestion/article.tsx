@@ -42,6 +42,8 @@ export default function ChildDigestionArticle() {
         </p>
       </section>
 
+      <InlineQuizCta />
+
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">{"Child Digestion Patterns in TCM"}</h2>
         <p className="text-text2 leading-relaxed mb-4">
