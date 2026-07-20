@@ -202,9 +202,9 @@ Update this as we complete each page.
 - [x] 3. `chinese-medicine-for-picky-eating-child` ✅ Done 2026-07-19
 
 ### Day 2
-- [ ] 4. `chinese-medicine-for-child-stomach-ache`
-- [ ] 5. `chinese-medicine-for-child-bloating`
-- [ ] 6. `chinese-medicine-for-child-nausea`
+- [x] 4. `chinese-medicine-for-child-stomach-ache` ✅ Done 2026-07-20
+- [x] 5. `chinese-medicine-for-child-bloating` ✅ Done 2026-07-20
+- [x] 6. `chinese-medicine-for-child-nausea` ✅ Done 2026-07-20
 
 ### Day 3
 - [ ] 7. `chinese-medicine-for-child-frequent-colds`

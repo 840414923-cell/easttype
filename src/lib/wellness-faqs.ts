@@ -1286,5 +1286,71 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Deficient body type is most commonly associated with low appetite and picky eating, often combined with Liver-related sensitivity to pressure. Constitution tends to run in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which often offers useful context for your child's patterns.", "zh-TW": "氣虛體質最常與胃口差、挑食相關，常合併對壓力敏感的肝氣因素。體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，常為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは食欲のなさや偏食に最も関連し、プレッシャーへの感受性という肝の要因と組み合わさることが多いです。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する有用な手がかりになります。" },
     },
   ],
+  "chinese-medicine-for-child-stomach-ache": [
+    {
+      q: { en: "Why does my child always point to the belly button when their tummy hurts?", "zh-TW": "為什麼孩子肚子痛時總是指著肚臍？", ja: "子どもがお腹が痛いといつもへそを指差すのはなぜですか？" },
+      a: { en: "The area around the belly button is where the Middle Burner sits in Chinese medicine. It is the central zone of digestion. When Cold settles there, the pain tends to be diffuse and centered on the navel rather than sharp and off to one side. This is why a child points rather than locates: the pain is real, but it is spread across the whole middle rather than concentrated in one spot.", "zh-TW": "肚臍周圍在中醫裡屬於中焦的位置，是消化的中心區域。當寒氣停留在這裡，疼痛通常是瀰漫性的，集中在肚臍周圍，而不是尖銳偏向某一側。這就是為什麼孩子用指的方式而不是定位：疼痛是真實的，但它遍佈整個中段，而不是集中在某一點。", ja: "へその周りは中医学では中焦にあたり、消化の中心です。寒気がここに留まると、痛みは鋭く片側に偏るのではなく、へそを中心に広がります。子どもが場所ではなくへそを指差すのはそのためです。痛みは本物ですが、一点に集中せず中全体に広がっています。" },
+    },
+    {
+      q: { en: "Is it normal for a child to complain of stomach pain several times a week?", "zh-TW": "孩子一週抱怨肚子痛好幾次，這正常嗎？", ja: "子どもが週に何度もお腹が痛いと言うのは正常ですか？" },
+      a: { en: "Occasional tummy pain is common in children. But pain that shows up several times a week, in the same area, with the same triggers, is worth paying attention to. In Chinese medicine, this pattern usually points to a functional issue like Cold in the Middle rather than a structural problem. If the pain is severe, worsening, or accompanied by red flag symptoms, consult your pediatrician.", "zh-TW": "偶爾的肚子痛在兒童中很常見。但如果每週出現好幾次、在同一個位置、有相同的誘因，就值得注意。在中醫看來，這種模式通常指向中焦寒這類功能性問題，而不是結構性病變。如果疼痛劇烈、加重，或伴隨危險信號症狀，請諮詢小兒科醫師。", ja: "ときどきお腹が痛いというのは子どもによくあります。しかし、週に何度も、同じ場所で、同じきっかけで痛む場合は注意が必要です。中医学では、このパターンは構造的な問題ではなく、中焦の寒のような機能的な問題を示すことが多いです。痛みが強い、悪化している、危険信号の症状を伴う場合は、小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Can cold drinks really cause a stomach ache in a child?", "zh-TW": "喝冷飲真的會讓孩子肚子痛嗎？", ja: "冷たい飲み物は本当に子どものお腹の痛みを引き起こしますか？" },
+      a: { en: "In TCM theory, cold drinks lower the temperature of the digestive middle. An adult with a mature Spleen can compensate. A child whose Spleen is still developing may not. The cold slows digestion, and over time, the middle cannot maintain its warmth. The stomach ache may not appear immediately after the cold drink, which is why the connection is easy to miss.", "zh-TW": "中醫認為，冷飲會降低消化中焦的溫度。脾成熟的成人可以代償，但脾仍在發育的孩子可能無法。寒冷讓消化變慢，久而久之中焦無法維持溫度。肚子痛不一定在喝冷飲後立即出現，所以兩者的關聯容易被忽略。", ja: "中医学では、冷たい飲み物は消化の中焦の温度を下げるとされます。脾が成熟した大人は補えますが、発達中の子どもはそうとは限りません。冷えが消化を遅くし、長期的には中焦が温度を保てなくなります。冷たい飲み物の直後にお腹が痛くならないこともあり、関連を見逃しやすいです。" },
+    },
+    {
+      q: { en: "How can I tell the difference between this and something serious like appendicitis?", "zh-TW": "怎麼區分中焦寒和闌尾炎這類嚴重問題？", ja: "中焦の寒と虫垂炎のような深刻な問題をどう見分ければいいですか？" },
+      a: { en: "Appendicitis pain is usually sharp, localized to the lower right side, and often accompanied by fever, loss of appetite, and tenderness that worsens with movement. Cold in the Middle pain is diffuse, centered on the belly button, eases with warmth, and does not come with fever. If you are unsure, or if the pain is severe or worsening, always consult your pediatrician immediately.", "zh-TW": "闌尾炎的疼痛通常是尖銳的，局限在右下腹，常伴隨發燒、食慾下降，且按壓時疼痛會隨移動加重。中焦寒的疼痛是瀰漫性的，集中在肚臍周圍，遇暖緩解，不伴發燒。如果不確定，或疼痛劇烈、加重，請立即就醫。", ja: "虫垂炎の痛みは通常鋭く、右下腹に限局し、発熱、食欲不振、移動時の圧痛悪化を伴うことが多いです。中焦の寒の痛みは広がりがあり、へそ周辺が中心で、温めると和らぎ、発熱はありません。判断に迷う場合や、痛みが強い・悪化している場合は、すぐに小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Which body type is most associated with Cold in the Middle in children?", "zh-TW": "兒童中焦寒最相關的是哪種體質？", ja: "子どもの中焦の寒に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly linked to this pattern. Children with a Qi Deficient parent often inherit a similar tendency toward weak digestion and cold sensitivity. A free 5-minute body type quiz can help you see whether this matches your own constitution, which can offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與此模式相關。有氣虛體質父母的孩子，常遺傳類似的消化弱和怕冷傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプがこのパターンに最も関連します。気虚の親を持つ子どもは、消化の弱さや寒がりな傾向を受け継ぐことが多いです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになります。" },
+    },
+  ],
+  "chinese-medicine-for-child-bloating": [
+    {
+      q: { en: "Why does my child's belly puff up right after eating?", "zh-TW": "為什麼孩子吃完飯肚子就脹起來？", ja: "子どもが食後すぐにお腹が膨れるのはなぜですか？" },
+      a: { en: "In Chinese medicine, this means the Spleen cannot move food and air downward fast enough. Food sits in the middle, air collects, and the belly distends. The puffiness is usually visible within thirty minutes of a meal and tends to settle after an hour or two as the Spleen slowly catches up.", "zh-TW": "中醫認為，這代表脾來不及把食物和氣往下送。食物停在中焦，氣體聚集，肚子就脹。膨脹通常在飯後三十分鐘內出現，一兩小時後隨著脾慢慢跟上會逐漸消退。", ja: "中医学では、脾が食べ物と気を下に送るのが間に合わないことを意味します。食べ物が中焦に留まり、気が集まり、お腹が膨らみます。膨らみは通常食後30分以内に見え、1〜2時間で脾が追いつくにつれて落ち着いてきます。" },
+    },
+    {
+      q: { en: "Is bloating in children always a sign of food intolerance?", "zh-TW": "兒童脹氣一定是食物不耐症嗎？", ja: "子どもの膨満感は常に食物不耐症の兆候ですか？" },
+      a: { en: "Not necessarily. Food intolerance is one possible cause, but in Chinese medicine, bloating more often reflects a Spleen that is temporarily too tired to keep up. The same food may cause bloating on a day when the child is tired or stressed, and cause no bloating on a day when they are rested. The pattern is functional, not always a fixed intolerance.", "zh-TW": "不一定。食物不耐症是可能原因之一，但在中醫看來，脹氣更多時候是脾暫時太累跟不上。同一種食物在孩子疲累或壓力大的日子可能脹氣，在休息充足的日子則不會。這是功能性的，不一定是固定的不耐症。", ja: "必ずしもそうではありません。食物不耐症も原因の一つですが、中医学では、膨満感は脾が一時的に疲れて追いつけないことを反映することが多いです。同じ食べ物でも、子どもが疲れている日やストレスのある日は膨満し、休んでいる日は膨満しないことがあります。機能的なパターンであり、常に固定の不耐症とは限りません。" },
+    },
+    {
+      q: { en: "Can stress at school really cause bloating?", "zh-TW": "學校壓力真的會導致脹氣嗎？", ja: "学校のストレスは本当に膨満感を引き起こしますか？" },
+      a: { en: "Yes, and it is one of the most common triggers. The Liver and Spleen are closely connected in TCM theory. When a child is anxious, pressured, or upset, Liver Qi tightens and blocks the Spleen's downward flow. The result is bloating that appears within minutes of starting a meal, often with belching or hiccups.", "zh-TW": "會的，而且是最常見的誘因之一。中醫認為肝和脾密切相連。當孩子焦慮、被施壓或難過時，肝氣會鬱結，阻塞脾的下降功能。結果就是飯後幾分鐘內出現脹氣，常伴隨打嗝或呃逆。", ja: "はい、最も一般的な引き金の一つです。中医学では肝と脾は密接に結びついています。子どもが不安やプレッシャー、悲しみを感じると、肝気が緊張し、脾の下行をブロックします。その結果、食事開始数分以内に膨満感が現れ、げっぷやしゃっくりを伴うことがよくあります。" },
+    },
+    {
+      q: { en: "How long until I see improvement with warm soups and habit changes?", "zh-TW": "用溫熱湯品和改變習慣，多久能改善？", ja: "温かいスープと習慣の改善でどのくらいで効果が出ますか？" },
+      a: { en: "Most families see visibly less puffiness within the first three days of pulling back on cold and raw foods. Gas and appetite usually improve within a week. More settled digestion overall tends to take two to three weeks of consistent warm meals and regular meal times.", "zh-TW": "多數家庭在減少生冷食物的頭三天就能看到脹氣明顯減輕。排氣和胃口通常在一週內改善。整體消化更穩定通常需要兩到三週持續溫熱飲食和規律用餐時間。", ja: "多くの家庭は、冷たいものや生ものを控え始めて最初の3日以内に膨らみが目に見えて減るのを実感します。ガスと食欲は通常1週間以内に改善します。全体的な消化の安定には、温かい食事と規則正しい食事時間を2〜3週間続ける必要があります。" },
+    },
+    {
+      q: { en: "Which body type is most linked to bloating in children?", "zh-TW": "兒童脹氣最相關的是哪種體質？", ja: "子どもの膨満感に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with a Spleen that struggles to move food efficiently. Constitution tends to run in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which often offers useful context for your child's digestive patterns.", "zh-TW": "氣虛體質最常與脾無法有效運化食物相關。體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，常為孩子的消化模式提供有用的脈絡。", ja: "気虚タイプは、脾が食べ物を効率よく動かせないことと最も関連します。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんの消化パターンを理解する手がかりになります。" },
+    },
+  ],
+  "chinese-medicine-for-child-nausea": [
+    {
+      q: { en: "Why does my child feel nauseous every morning before school?", "zh-TW": "為什麼孩子每天上學前早上都會噁心？", ja: "子どもが毎朝学校の前に吐き気を感じるのはなぜですか？" },
+      a: { en: "Morning nausea before school is often a combination of two patterns. The Stomach may be running cold and empty from not eating overnight, which weakens its downward push. At the same time, school anxiety tightens Liver Qi, which pushes the Stomach's energy upward. Both need to be addressed: warm ginger water for the Stomach, and a conversation about what is causing the anxiety.", "zh-TW": "上學前的早晨噁心通常是兩個模式疊加。胃經過一夜未進食，又冷又空，下降力減弱。同時學校焦慮讓肝氣鬱結，推動胃氣上逆。兩者都需要處理：用溫薑水暖胃，同時談談焦慮的原因。", ja: "学校前の朝の吐き気は、多くの場合2つのパターンの組み合わせです。胃は一晩何も食べずに冷えて空っぽで、下行力が弱まっています。同時に学校への不安で肝気が緊張し、胃の気を上に押し上げます。両方に対処が必要です：胃には温かい生姜湯を、そして不安の原因について話し合うことを。" },
+    },
+    {
+      q: { en: "Is motion sickness related to Chinese medicine patterns?", "zh-TW": "暈車和中醫體質有關嗎？", ja: "乗り物酔いは中医学のパターンと関連していますか？" },
+      a: { en: "Yes. In TCM theory, motion creates a kind of chaos that confuses the Stomach's downward direction. Children whose Stomach Qi is already weak feel this most intensely. Warming and strengthening the Stomach with ginger water before travel is the traditional approach, and many families find it genuinely helpful.", "zh-TW": "有關。中醫認為，晃動會造成一種混亂，干擾胃的下降方向。胃氣本就虛弱的孩子感受最強烈。傳統做法是出發前用薑水溫暖和強化胃氣，許多家庭覺得確實有效。", ja: "はい。中医学では、動きが胃の下行方向を混乱させる一種の混沌を作るとされます。胃気がすでに弱い子どもが最も強く感じます。移動前に生姜湯で胃を温め強化するのが伝統的なアプローチで、多くの家庭が本当に役立つと感じています。" },
+    },
+    {
+      q: { en: "Can anxiety really cause physical nausea in a child?", "zh-TW": "焦慮真的會讓孩子身體上噁心嗎？", ja: "不安は本当に子どもに身体的な吐き気を引き起こしますか？" },
+      a: { en: "Yes, and it is one of the most common causes of nausea in school-age children. The Liver and Stomach are neighbors in the energetic middle. When anxiety tightens Liver Qi, it presses against the Stomach and reverses its energy. The nausea is real and physical, not imagined. Addressing the anxiety directly is often more effective than any food change.", "zh-TW": "會的，而且是學齡兒童噁心最常見的原因之一。肝和胃在氣機中焦是鄰居。焦慮讓肝氣鬱結時，會壓迫胃，使其氣逆行。噁心是真實的身體感受，不是想像的。直接處理焦慮通常比任何飲食改變都有效。", ja: "はい、学齢期の子どもの吐き気の最も一般的な原因の一つです。肝と胃は気機の中焦で隣同士です。不安で肝気が緊張すると、胃を圧迫し、その気を逆行させます。吐き気は本物の身体的感覚であり、想像ではありません。不安に直接対処することが、どんな食事変更よりも効果的なことが多いです。" },
+    },
+    {
+      q: { en: "Should I force my child to eat when they feel nauseous?", "zh-TW": "孩子噁心時應該強迫進食嗎？", ja: "子どもが吐き気を感じているとき無理に食べさせるべきですか？" },
+      a: { en: "No. Forcing food into a Stomach that is pushing upward tends to make the nausea worse. The traditional approach is to start with small sips of warm ginger water or a few spoonfuls of thin rice congee. Once the Stomach's energy settles and the nausea eases, the child will usually ask for food on their own.", "zh-TW": "不應該。在胃氣上逆時強迫進食通常會加重噁心。傳統做法是先喝幾口溫薑水或幾匙稀白粥。等胃氣平穩、噁心緩解後，孩子通常會自己要東西吃。", ja: "いいえ。胃気が上行しているところに無理に食べさせると、吐き気を悪化させる傾向があります。伝統的なアプローチは、温かい生姜湯を少しずつ、または薄いお粥を数さじから始めることです。胃気が落ち着き、吐き気が和らぐと、子どもは自分から食べ物を欲しがるようになります。" },
+    },
+    {
+      q: { en: "Which body type is most associated with nausea in children?", "zh-TW": "兒童噁心最相關的是哪種體質？", ja: "子どもの吐き気に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly linked to a weak Stomach that cannot maintain its downward push. Constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與胃氣虛弱、無法維持下降力相關。體質常有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、胃気が弱く下行力を維持できないことと最も関連します。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
 
 }
