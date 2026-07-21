@@ -24,6 +24,9 @@ export default function ChildBloatingArticle() {
       <p className="text-text2 text-sm mb-6">{"9 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"If your child's belly looks puffy or distended within thirty minutes of eating, Chinese medicine sees this as a Spleen that cannot move food and air smoothly. The Spleen's job is to process food and send it downward. When it is tired, food sits. Air collects. The belly puffs out. Two patterns usually combine. Spleen Qi Deficiency looks like a puffy belly after meals, gas, and heavy reluctance to finish. Liver Qi Stagnation adds belching, hiccups, and bloating that worsens with stress. Warm, easy-to-move foods such as carrot fennel rice soup, cooked radish, and a tiny pinch of tangerine peel may help the Spleen regain its rhythm over one to two weeks."}
         </p>

@@ -24,6 +24,9 @@ export default function PickyEatingChildArticle() {
       <p className="text-text2 text-sm mb-6">{"8 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"If mealtime has become a daily negotiation, your child's Spleen is probably as exhausted as your patience. In Chinese medicine, picky eating is rarely character or discipline. It is almost always a Spleen that has learned to shut down. The pattern usually combines Spleen Qi Deficiency with Liver Qi Stagnation. The Spleen is tired from being overfed, under-chewed, or pushed past full. The Liver is tight from mealtime stress, screen conflicts, or rushing. Together they create a child who would rather not eat than risk another battle. Light appetite-stimulating foods such as hawthorn tea, tangerine peel water, fennel, and small warm bowls of millet porridge may gently reopen the Spleen over one to two weeks."}
         </p>

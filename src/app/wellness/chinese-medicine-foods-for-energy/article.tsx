@@ -23,6 +23,9 @@ export default function FoodsForEnergyArticle() {
       <p className="text-text2 text-sm mb-6">{"9 min read · Based on 3,000 years of Eastern body wisdom"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"TL;DR — Chinese medicine says fatigue isn't one thing. It's a pattern. Qi deficiency, Yang deficiency, Dampness — each needs different foods. Sweet potato, congee, jujube, and ginger are top Qi-builders. Cold drinks and raw salads drain energy if you're already running low. The right food for YOUR body type matters more than generic \"healthy\" eating. Take a body type quiz to find your match."}
         </p>

@@ -3,6 +3,7 @@ import { TYPES, TYPE_IDS } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import TypeDetailClient from "./detail-client"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
+import { TYPE_DETAILS } from "@/lib/type-details"
 
 const SEO_TITLES: Record<ConstitutionId, { en: string; zh: string; ja: string }> = {
   balanced: { en: "The Still Lake — Balanced Constitution (Ping He)", zh: "平和質 — 你是那1/10的天選之人", ja: "平和質 — バランスのとれた体質" },
@@ -102,6 +103,22 @@ export default async function TypeDetailPage({ params }: { params: Promise<{ id:
             "@id": url,
           },
         },
+        ...(TYPE_DETAILS[typeId]?.faqs?.length
+          ? [
+              {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                mainEntity: TYPE_DETAILS[typeId].faqs.map((f) => ({
+                  "@type": "Question",
+                  name: f.q.en,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: f.a.en,
+                  },
+                })),
+              },
+            ]
+          : []),
         buildBreadcrumbJsonLd([
           { name: "EastType", url: "https://www.myeasterntype.com" },
           { name: titles.en, url },

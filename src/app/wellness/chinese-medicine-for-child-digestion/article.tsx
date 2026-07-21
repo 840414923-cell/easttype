@@ -24,6 +24,9 @@ export default function ChildDigestionArticle() {
       <p className="text-text2 text-sm mb-6">{"9 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"In Chinese medicine, a child's Spleen, the organ pair that turns food into usable energy, is considered naturally immature until about age 6 or 7. That immaturity is a developmental stage, not a defect. Two patterns often show up in children with weak digestion. Spleen Qi Deficiency looks like small appetite, loose stools with undigested bits, and tiredness after meals. Spleen Yang Deficiency adds cold hands, pale face, and a tendency to feel chilly. Warm, easy-to-digest foods such as rice congee with Chinese yam, jujube dates, and gently cooked root vegetables may help the Spleen gradually strengthen over several weeks."}
         </p>

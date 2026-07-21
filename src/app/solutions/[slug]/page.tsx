@@ -44,14 +44,24 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
   const solution = SOLUTIONS[slug]
   if (!solution) notFound()
 
+  const solutionUrl = `${SITE_URL}/solutions/${solution.slug}`
   const jsonLdArticle = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: solution.title,
     description: solution.metaDescription,
-    url: `${SITE_URL}/solutions/${solution.slug}`,
-    author: { "@type": "Organization", name: "EastType" },
-    publisher: { "@type": "Organization", name: "EastType" },
+    url: solutionUrl,
+    datePublished: "2026-06-01",
+    dateModified: "2026-06-01",
+    image: `${SITE_URL}/og-image.png`,
+    author: { "@type": "Organization", name: "EastType", url: SITE_URL },
+    publisher: {
+      "@type": "Organization",
+      name: "EastType",
+      url: SITE_URL,
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/favicon.svg` },
+    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": solutionUrl },
   }
 
   const jsonLdBreadcrumb = buildBreadcrumbJsonLd([

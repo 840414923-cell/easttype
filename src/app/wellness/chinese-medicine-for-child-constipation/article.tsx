@@ -24,6 +24,9 @@ export default function ChildConstipationArticle() {
       <p className="text-text2 text-sm mb-6">{"8 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"When a child has not had a proper bowel movement in three or more days, Chinese medicine looks first at fluid and warmth. The intestines behave like a river that needs both moisture and a gentle current to keep moving. Two patterns commonly show up in constipated children. Intestine Dry presents as hard, pebble-like stools with thirst and dry lips. Spleen Qi Deficiency with sluggishness shows as infrequent stools that are not necessarily hard, with tiredness and small appetite. Moistening foods such as black sesame, cooked pear, walnuts, and warm honey water may help. Cold raw fruit, bananas in particular for many children, often makes the situation worse over time."}
         </p>

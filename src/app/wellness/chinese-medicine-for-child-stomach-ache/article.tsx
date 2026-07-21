@@ -24,6 +24,9 @@ export default function ChildStomachAcheArticle() {
       <p className="text-text2 text-sm mb-6">{"9 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"When a child points to the area around their belly button and says it hurts, Chinese medicine often reads this as Cold in the Middle. The digestive middle, called the Middle Burner, is where the Spleen and Stomach turn food into energy. Cold slows that work the way cold thickens soup on a stove. Two patterns usually combine. Cold in the Middle brings diffuse belly button pain that eases with warmth, loose stools, and a pale face. Spleen Qi Deficiency adds low appetite and tiredness after eating. Warming foods such as jujube ginger millet porridge, cooked pumpkin, and a tiny pinch of fennel may gradually restore the Spleen's warmth over two to three weeks of consistent use."}
         </p>

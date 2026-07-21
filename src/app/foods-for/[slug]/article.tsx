@@ -3,6 +3,7 @@ import Image from "next/image"
 import { FOOD_COMBO_PAGES } from "@/lib/food-combo-data"
 import { SYMPTOMS } from "@/lib/symptoms-data"
 import { HERBS } from "@/lib/herbs-data"
+import { TYPES } from "@/lib/constitution-data"
 import type { FaqItem } from "@/lib/wellness-faqs"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
@@ -246,6 +247,36 @@ export default function FoodComboArticle({ slug }: { slug: string }) {
           </div>
         </section>
       )}
+
+      {page.relatedTypeIds && page.relatedTypeIds.length > 0 && (
+        <section className="mb-10">
+          <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-4">
+            Best For Body Types
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {page.relatedTypeIds.map((id) => {
+              const t = TYPES[id as keyof typeof TYPES]
+              if (!t) return null
+              return (
+                <Link
+                  key={id}
+                  href={`/types/${id}`}
+                  className="group block rounded-lg border border-[rgba(140,45,42,0.12)] bg-[var(--color-card-bg)] p-4 no-underline hover:border-[rgba(140,45,42,0.4)] transition-all"
+                >
+                  <p className="text-xs text-text2/50 uppercase tracking-wider mb-1">{t.pct}</p>
+                  <p className="text-sm text-text group-hover:text-accent transition-colors">{t.en} ({t.zh}) {"\u2192"}</p>
+                </Link>
+              )
+            })}
+          </div>
+        </section>
+      )}
+
+      <div className="mb-10 rounded-xl bg-[var(--color-bg2)] border border-[rgba(140,45,42,0.08)] p-5">
+        <p className="text-xs text-text2 leading-relaxed text-center">
+          This content is for educational and informational purposes only and is not medical advice. Always consult a qualified healthcare professional before making changes to your diet or lifestyle.
+        </p>
+      </div>
 
       <SymptomCta />
     </main>

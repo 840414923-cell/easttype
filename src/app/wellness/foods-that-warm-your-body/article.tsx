@@ -32,8 +32,8 @@ export default function FoodsThatWarmArticle() {
 
       {/* TL;DR */}
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
-        <h2 className="font-[family-name:var(--font-display)] text-lg text-accent mb-3">
-          {"TL;DR"}
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
         </h2>
         <ul className="text-sm text-text2 space-y-2">
           {[

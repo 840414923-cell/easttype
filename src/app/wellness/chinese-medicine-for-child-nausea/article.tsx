@@ -24,6 +24,9 @@ export default function ChildNauseaArticle() {
       <p className="text-text2 text-sm mb-6">{"9 min read · Eastern body wisdom for families"}</p>
 
       <div className="bg-accent/8 border border-accent/20 rounded-xl p-5 mb-10">
+        <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+          Quick Answer
+        </h2>
         <p className="text-sm text-text leading-relaxed">
           {"In Chinese medicine, the Stomach's energy is supposed to move downward. Food comes in, gets processed, and moves along. Nausea is what happens when that energy reverses and pushes upward. The technical term is Stomach Qi Reversal. Two patterns usually combine. Stomach Cold means the Stomach lacks the warmth to push food down, so it comes back up as nausea. Liver Qi Stagnation means emotional tension has tightened the middle so nothing can descend. Children with motion sickness, morning queasiness, or stress-related nausea often match both. Warm, redirecting foods such as ginger tangerine peel water, plain congee, and a tiny pinch of tangerine peel may help the Stomach find its downward direction again over one to two weeks."}
         </p>
