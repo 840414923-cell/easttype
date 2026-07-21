@@ -302,7 +302,34 @@
     "dietaryAdvice": "Soak dried red dates in warm water for 15 minutes before use to rehydrate them. Add to congee, soup, or tea along with ginger and goji berries for a daily nourishing base. Remove the pit before cooking, as the pit is traditionally considered to cause internal heat. Eat 3 to 6 dates per day as a snack, or simmer 10 to 15 in soup. Avoid eating large quantities on an empty stomach, as the sweetness can cause bloating in sensitive digestion.",
     "nameZhTrad": "大棗",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Red Dates are most often linked to Spleen Qi deficiency with mild Blood depletion, the pattern behind poor digestion, pale complexion, and restless sleep. Their warm, sweet nature may help rebuild energy gradually when eaten daily, while people with damp-heat or chronic bloating should use them sparingly.",
+    "definition": {
+      "term": "Red Dates (Jujube)",
+      "termCn": "大枣",
+      "text": "Red Dates function as a dual Spleen Qi and Blood tonic that works by gently strengthening digestion so the body can extract nutrients more efficiently, while their sweet nature also calms the Heart spirit. The result is gradual, sustainable nourishment rather than quick stimulation, which may help address fatigue at its root over weeks of daily use."
+    },
+    "conditionalBranches": {
+      "title": "Which Daily Tonic Matches Your Digestion?",
+      "intro": "Red Dates are gentle but still need the right context. Use these signals to choose.",
+      "branches": [
+        {
+          "signal": "Pale complexion, poor appetite, and loose stools persisting over months",
+          "meaning": "Spleen Qi deficiency with mild Blood depletion",
+          "approach": "Eat 5-6 dates daily, simmered in congee or tea, for 4-6 weeks"
+        },
+        {
+          "signal": "Restless sleep and mild anxiety paired with daytime fatigue",
+          "meaning": "Heart Blood deficiency failing to anchor the spirit",
+          "approach": "Brew 6 dates with longan and goji berries as an evening tea"
+        },
+        {
+          "signal": "Bloating, sticky mouth, or heavy limbs after eating them",
+          "meaning": "Damp-phlegm pattern where sweet tonics worsen stagnation",
+          "approach": "Pause Red Dates and pair with Chen Pi or warm ginger tea instead"
+        }
+      ]
+    }
   },
   {
     "slug": "goji-gou-qi-zi",
@@ -784,7 +811,34 @@
     "dietaryAdvice": "Eat 10 to 15 dried longans as an evening snack, or simmer with red dates and a small amount of rock sugar for a bedtime tea. For sleep support, take 30 minutes before bed. Avoid eating large amounts during the day if you tend to run warm, as longan's warming nature can cause internal heat with excessive consumption. If you experience mouth ulcers or dry mouth after eating longan, reduce the amount.",
     "nameZhTrad": "龍眼乾",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 65% of people who benefit most from Longan fit the Qi Deficient body type, where Heart Blood deficiency shows up as poor sleep, anxiety, and overthinking. The fruit may help calm the spirit when eaten in the evening, while people with phlegm-damp or full Heat patterns should avoid it.",
+    "definition": {
+      "term": "Longan",
+      "termCn": "龙眼干",
+      "text": "Longan resembles a small, sweet battery for the Heart, quietly recharging Heart Blood the way a slow trickle-charge rebuilds a drained phone. Each dried fruit concentrates warm, sweet nourishment into a form that may help calm an overactive spirit without the heaviness of stronger tonics, supporting restful sleep through gentle, consistent replenishment."
+    },
+    "conditionalBranches": {
+      "title": "When Sleep Issues Trace Back to Heart Blood",
+      "intro": "Longan suits some sleep patterns and not others. Match yours before use.",
+      "branches": [
+        {
+          "signal": "Difficulty falling asleep with racing thoughts and palpitations",
+          "meaning": "Heart Blood deficiency failing to anchor the spirit",
+          "approach": "Eat 10-15 dried longan in the early evening, 4-5 times per week"
+        },
+        {
+          "signal": "Poor memory and fatigue after nights of broken sleep over weeks",
+          "meaning": "Spleen and Heart Blood depletion from overthinking",
+          "approach": "Simmer longan with red dates and rice for a bedtime congee"
+        },
+        {
+          "signal": "Restless sleep with vivid dreams and a coated tongue",
+          "meaning": "Phlegm-heat or damp-heat disturbing the Heart",
+          "approach": "Avoid longan and consider cooling herbs like lotus seed or chrysanthemum"
+        }
+      ]
+    }
   },
   {
     "slug": "coix-seed-yi-yi-ren",
@@ -1716,7 +1770,34 @@
     "dietaryAdvice": "Dong quai pairs naturally with chicken in slow-cooked soup, a combination found in nearly every Chinese household during postpartum recovery. Add a few slices of ginger and a handful of red dates for a synergistic blood-building effect. Avoid taking it with strong tea or coffee, whose tannins may interfere with absorption. During menstruation, reduce the amount if flow is heavy, as its blood-moving action may increase bleeding.",
     "nameZhTrad": "當歸",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When menstrual irregularity and pale complexion persist despite iron supplements, TCM points to Blood deficiency with stasis, and Dong Quai is the herb most often turned to. Its dual action of nourishing and invigorating Blood may help regulate cycles, while pregnant women and those with heavy bleeding should avoid it.",
+    "definition": {
+      "term": "Dong Quai (Angelica)",
+      "termCn": "当归",
+      "text": "Unlike static Blood tonics that only replenish reserves, Dong Quai does two things at once: it nourishes Blood and invigorates its flow. This dual action separates it from heavier herbs like Prepared Rehmannia, making it better suited when Blood deficiency comes with stagnation, as in menstrual irregularity or postpartum recovery, where simply adding Blood without moving it can worsen discomfort."
+    },
+    "conditionalBranches": {
+      "title": "Which Blood Issue Needs Dong Quai?",
+      "intro": "Dong Quai's dual action suits specific Blood patterns. Check yours first.",
+      "branches": [
+        {
+          "signal": "Light, short, or delayed periods with pale complexion and dizziness",
+          "meaning": "Blood deficiency without significant stasis",
+          "approach": "Add 3-5g to chicken soup after menstruation, 2-3 times per week"
+        },
+        {
+          "signal": "Dark clots and cramping pain that worsens with cold",
+          "meaning": "Blood stasis with cold, where Dong Quai's moving action helps",
+          "approach": "Brew with ginger and brown sugar at the start of the cycle"
+        },
+        {
+          "signal": "Heavy bleeding, pregnancy, or loose stools with diarrhea",
+          "meaning": "Patterns where Dong Quai's moving nature may worsen the condition",
+          "approach": "Avoid Dong Quai and consult a qualified practitioner for alternatives"
+        }
+      ]
+    }
   },
   {
     "slug": "rehmannia-di-huang",
@@ -3461,7 +3542,29 @@
     "preparationNotes": "White Peony (Bai Shao) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "White peony is typically used in decoction with other herbs rather than as a single tea. Simmer 10 to 15 grams with licorice and dong quai for menstrual support. For muscle tension, combine with licorice alone. Avoid taking white peony in large amounts during the early stages of a cold, as its astringent nature may trap the pathogen.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind menstrual cramps with muscle tension is Liver Blood deficiency with Qi stagnation, and White Peony is the herb most often paired with Licorice Root to address it. Its sour-sweet nature may help soften pain and regulate cycles, while people with cold-damp diarrhea should use it cautiously.",
+    "definition": {
+      "term": "White Peony (Bai Shao)",
+      "termCn": "白芍",
+      "text": "White Peony targets a specific cluster of signs: menstrual cramps that ease with pressure, muscle spasms in the calves or abdomen, pale nails, irritability before menstruation, and tension headaches at the temples. Its sour flavor anchors Blood and softens the Liver, which may help release the gripping tension underlying these symptoms when paired with Licorice Root."
+    },
+    "conditionalBranches": {
+      "title": "Matching White Peony to Your Pain Pattern",
+      "intro": "White Peony softens tension, but only the right kind. Identify yours first.",
+      "branches": [
+        {
+          "signal": "Cramps that ease with pressure, muscle spasms in calves or abdomen",
+          "meaning": "Liver Blood deficiency with spasmodic tension",
+          "approach": "Brew 6-9g with Licorice Root as a daily tea for 3-4 weeks"
+        },
+        {
+          "signal": "Tension headaches with irritability building before menstruation",
+          "meaning": "Liver Qi stagnation with Blood deficiency",
+          "approach": "Pair with rose or chrysanthemum in tea during the premenstrual week"
+        }
+      ]
+    }
   },
   {
     "slug": "shu-di-huang",
@@ -3552,7 +3655,34 @@
     "preparationNotes": "Because Prepared Rehmannia (Shu Di Huang) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Prepared rehmannia is thick and heavy, which means it can be difficult to digest if taken on an empty stomach. The traditional approach is to simmer it in soup with ginger and a small amount of tangerine peel, which helps the spleen process its richness. Avoid taking it with cold or raw foods, which would force the digestive system to work even harder. For people prone to bloating, start with a small amount and pair it with warming, easily digested foods like congee.",
     "classicalSource": "Processed form of rehmannia, developed in Bencao Jingjizhu (circa 500 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Prepared Rehmannia addresses: deep Blood deficiency showing as pale complexion, dizziness, and brittle nails, and Kidney Yin deficiency with lower back weakness and night sweats. Its rich, warm nature may help rebuild reserves at the deepest level, while people with damp-phlegm or weak digestion should pair it with Qi tonics.",
+    "definition": {
+      "term": "Prepared Rehmannia (Shu Di Huang)",
+      "termCn": "熟地黄",
+      "text": "Prepared Rehmannia works the way it does because the traditional nine-cycle steaming process changes raw Rehmannia's cold, draining nature into a warm, richly nourishing form. This slow conversion is why it can replenish Blood and Kidney Yin at a depth raw Rehmannia cannot reach, which may help address deep deficiency patterns that simpler tonics fail to shift."
+    },
+    "conditionalBranches": {
+      "title": "How Deeply Depleted Is Your Blood Reserve?",
+      "intro": "Prepared Rehmannia reaches deep but is heavy. Confirm it matches before use.",
+      "branches": [
+        {
+          "signal": "Pale complexion, dizziness, brittle nails, and hair thinning over months",
+          "meaning": "Deep Blood deficiency requiring sustained rebuilding",
+          "approach": "Use 10-15g in slow-cooked soup with jujube and astragalus, 2-3 times weekly"
+        },
+        {
+          "signal": "Lower back weakness, night sweats, and tinnitus with low libido",
+          "meaning": "Kidney Yin deficiency with Blood depletion",
+          "approach": "Pair with Shan Yao and Shan Zhu Yu in a classical formula like Liu Wei Di Huang Wan"
+        },
+        {
+          "signal": "Bloating, sticky mouth, or loose stools after taking it",
+          "meaning": "Spleen dampness where heavy tonics worsen digestion",
+          "approach": "Pause and add Chen Pi or Bai Zhu to support digestion first"
+        }
+      ]
+    }
   },
   {
     "slug": "e-jiao",
@@ -3643,7 +3773,29 @@
     "preparationNotes": "Donkey-Hide Gelatin (E Jiao) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "E jiao is sold as solid blocks that must be dissolved before use. Break off a small piece and melt it in warm water, rice wine, or milk. For blood building, take 3 to 5 grams daily with red date tea. For lung dryness, dissolve in warm milk with rock sugar. Avoid taking e jiao if you have spleen deficiency with dampness or bloating, as its sticky nature may worsen digestive stagnation.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Blood deficiency with Lung dryness is the primary TCM explanation for chronic dry cough with bleeding signs, and Donkey-Hide Gelatin is the herb most often turned to in classical formulas. Its sticky, moistening nature may help rebuild Blood and stop bleeding, while people with Spleen dampness or weak digestion should use it sparingly.",
+    "definition": {
+      "term": "Donkey-Hide Gelatin (E Jiao)",
+      "termCn": "阿胶",
+      "text": "Donkey-Hide Gelatin works as a sticky, moistening Blood tonic that functions through three pathways: it replenishes Blood, stops bleeding, and moistens the Lung. Its glue-like nature is what allows it to seal leaking vessels while rebuilding reserves, which may help in cases of chronic bleeding, dry cough, or postpartum depletion where lighter tonics cannot hold."
+    },
+    "conditionalBranches": {
+      "title": "Choosing E Jiao for Dryness and Bleeding",
+      "intro": "E Jiao's sticky nature suits specific dryness and bleeding patterns. Use these signals.",
+      "branches": [
+        {
+          "signal": "Chronic dry cough with occasional blood-tinged sputum and dry skin",
+          "meaning": "Lung Yin deficiency with dryness and bleeding tendency",
+          "approach": "Dissolve 3-5g in warm water with sugar or honey, taken twice daily"
+        },
+        {
+          "signal": "Heavy menstrual bleeding or easy bruising with pale complexion",
+          "meaning": "Blood deficiency failing to hold vessels",
+          "approach": "Pair with Shu Di Huang and Bai Shao in a classical formula, under practitioner guidance"
+        }
+      ]
+    }
   },
   {
     "slug": "ling-zhi",
@@ -5030,7 +5182,34 @@
     "preparationNotes": "Salvia Root (Dan Shen) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 6 to 10 grams of dan shen in water for 20 minutes and drink as tea. The taste is slightly bitter. For circulation support, drink 1 cup daily. Dan shen should not be combined with blood-thinning medications such as warfarin, as it may increase bleeding risk. Avoid before surgery and during pregnancy. If you experience any bleeding or bruising, discontinue use.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Salvia Root is most often linked to blood stasis with heat in the chest, and may help ease the tightness and restlessness that arise when stuck circulation meets internal warmth. Its slightly cold nature suits Blood Stasis and Damp Heat body types, while pregnant women and those on blood thinners should avoid it.",
+    "definition": {
+      "term": "Salvia Root",
+      "termCn": "丹参",
+      "text": "Picture Salvia Root as a cool brook flowing through a clogged, overheated riverbed: it both washes the silt of stagnant blood and lowers the temperature of heart heat that often accompanies chest tightness. Where warming blood-movers like chuan xiong would add fuel, this slightly cold root enters the Heart and Liver channels, which may help explain its long use for cardiovascular patterns where stasis and heat coexist."
+    },
+    "conditionalBranches": {
+      "title": "Matching Salvia Root to Your Chest and Heat Pattern",
+      "intro": "Salvia Root suits blood stasis that comes with heat. Match yours by these signals.",
+      "branches": [
+        {
+          "signal": "Chest tightness or fixed chest pain with restlessness",
+          "meaning": "Blood stasis combining with heart heat in the chest",
+          "approach": "Simmer 6 to 10g of dan shen as daily tea for 2 to 4 weeks, but seek medical evaluation for any chest pain first"
+        },
+        {
+          "signal": "Menstrual pain with dark clots and a feeling of warmth",
+          "meaning": "Blood stasis with heat in the lower abdomen",
+          "approach": "Pair dan shen with rose and hawthorn in tea, starting one week before the expected period"
+        },
+        {
+          "signal": "Easy bruising, nosebleeds, or current use of blood thinners",
+          "meaning": "Bleeding tendency or drug interaction where dan shen is not suitable",
+          "approach": "Pause dan shen and consult a doctor; rely on gentler blood-nourishing foods like red dates and longan"
+        }
+      ]
+    }
   },
   {
     "slug": "hua-qi-shen",
@@ -6282,7 +6461,29 @@
     "preparationNotes": "Wood Ear Mushroom (Mu Er) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Soak dried wood ear mushrooms in warm water for 30 minutes until they expand fully, then trim the hard base and tear into pieces. Add to stir-fries, soups, or cold salads. The texture is crisp and slightly gelatinous. For blood nourishment, cook with red dates and spinach. Eat 3 to 4 times per week. Avoid if you have diarrhea or cold-type digestive weakness with loose stools.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 65% of people who benefit most from Wood Ear Mushroom fit the Blood Stasis body type, where mild anemia signs like easy bruising and dry skin signal that blood is neither abundant nor flowing smoothly. The neutral, sweet mushroom may help nourish blood through daily cooking while its slippery texture also moistens dry intestines, making it suitable for long-term food-grade support.",
+    "definition": {
+      "term": "Wood Ear Mushroom",
+      "termCn": "木耳",
+      "text": "Where stronger blood tonics like dong quai or prepared rehmannia act as medicine, Wood Ear Mushroom works as everyday food that quietly nourishes blood through stir-fries and soups three or four times a week. Its gelatinous texture also lubricates dry intestines, a function no other blood tonic in the pharmacopoeia provides, which may help explain why Chinese households keep it as a pantry staple rather than a clinical herb."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Wood Ear Mushroom by Your Primary Signal",
+      "intro": "Wood Ear Mushroom works as food-grade support for blood and dryness. Avoid it if you have loose stools or cold-type digestive weakness with bloating.",
+      "branches": [
+        {
+          "signal": "Easy bruising, dry skin, or brittle nails without severe anemia",
+          "meaning": "Early-stage blood deficiency that food can still correct",
+          "approach": "Add wood ear mushroom to stir-fries with red dates and spinach, 3 to 4 times per week"
+        },
+        {
+          "signal": "Dry, difficult constipation with hard stools",
+          "meaning": "Intestinal dryness needing lubrication rather than stimulation",
+          "approach": "Cook wood ear mushroom with sesame oil and leafy greens daily until stools soften"
+        }
+      ]
+    }
   },
   {
     "slug": "wu-hua-guo",
@@ -8691,7 +8892,34 @@
     "preparationNotes": "Because Notoginseng (San Qi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Take 1 to 3 grams of san qi powder with warm water, once or twice daily. For injuries, take internally and apply externally as a paste. For daily circulation support, take a small amount (0.5 to 1 gram) in the morning. Avoid during pregnancy, before surgery, and with blood-thinning medications. Discontinue if you experience any unusual bleeding.",
     "classicalSource": "Bencao Gangmu (1593 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When bruising and pain from a sprain persist despite ice and rest, TCM points to blood stasis trapped in the injured channel, and Notoginseng is the rare herb that may help stop internal bleeding while also moving the stagnant blood that causes swelling. Its warm nature suits Blood Stasis and Qi Stagnant body types, but it should be avoided during pregnancy and before surgery.",
+    "definition": {
+      "term": "Notoginseng",
+      "termCn": "三七",
+      "text": "Notoginseng is indicated for: bruises that linger and turn deep purple, swelling and sharp pain after a sprain, chest discomfort with a fixed stabbing quality, and menstrual flow with dark clots. These signs point to blood stasis where bleeding and stagnation coexist. Unlike most hemostatic herbs that risk causing stasis, or most stasis-resolving herbs that risk causing bleeding, this warm root does both at once, which may help explain its central role in Chinese trauma practice and in modern cardiovascular formulas."
+    },
+    "conditionalBranches": {
+      "title": "Matching Notoginseng to the Stage of Injury",
+      "intro": "Notoginseng changes role by how fresh the injury is. Use these signals to time your use, and avoid it during pregnancy or with blood thinners.",
+      "branches": [
+        {
+          "signal": "Fresh sprain or bruise with active swelling",
+          "meaning": "Acute trauma where bleeding and stasis coexist",
+          "approach": "Take 1 to 3g of san qi powder internally and apply as a paste externally, for the first 1 to 2 weeks"
+        },
+        {
+          "signal": "Lingering pain after the swelling has subsided",
+          "meaning": "Residual blood stasis still obstructing the channel",
+          "approach": "Take 0.5 to 1g of san qi powder each morning for 2 to 4 weeks, with gentle walking to aid circulation"
+        },
+        {
+          "signal": "Chest tightness or fixed, stabbing chest pain",
+          "meaning": "Blood stasis in the heart region that needs professional assessment",
+          "approach": "Seek medical evaluation first; if cleared, use san qi only in formula with dan shen under professional guidance"
+        }
+      ]
+    }
   },
   {
     "slug": "yi-mu-cao",
@@ -8782,7 +9010,34 @@
     "preparationNotes": "Motherwort (Yi Mu Cao) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 10 to 15 grams of yi mu cao in water for 20 minutes and drink as tea. The taste is bitter and slightly cold. For menstrual regulation, begin 1 week before the expected period. For postpartum use, drink 1 to 2 cups daily for 7 to 10 days. Avoid during pregnancy, during heavy menstruation, and if you have a bleeding disorder.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "The most common TCM pattern behind irregular periods with dark clots is blood stasis obstructing the uterus, and Motherwort is the herb Chinese medicine reaches for first, as its name 'benefit mother herb' suggests. Its slightly cold nature may help move stagnant blood while regulating the cycle, but it must be avoided during pregnancy and heavy menstrual bleeding.",
+    "definition": {
+      "term": "Motherwort",
+      "termCn": "益母草",
+      "text": "The root cause Motherwort addresses is blood stasis in the uterus: when blood pools and congeals instead of flowing freely, the menstrual cycle becomes irregular, clots darken, and pain follows the blockage. The name 'benefit mother herb' reflects its traditional role in clearing this stasis after childbirth as well, when retained blood and lochia delay recovery. By moving the stuck blood, the slightly cold herb may help restore regular flow, which is why it appears in more postpartum and menstrual formulas than almost any other single herb."
+    },
+    "conditionalBranches": {
+      "title": "Selecting Motherwort by Your Menstrual or Postpartum Signal",
+      "intro": "Motherwort serves two distinct blood-stasis situations. Match yours by these signals, and avoid it during pregnancy or heavy bleeding.",
+      "branches": [
+        {
+          "signal": "Irregular cycles with dark clots and lower abdominal pain",
+          "meaning": "Blood stasis obstructing the uterus and disrupting flow",
+          "approach": "Simmer 10 to 15g of yi mu cao as tea daily for one week before the expected period"
+        },
+        {
+          "signal": "Postpartum abdominal pain with retained lochia",
+          "meaning": "Blood stasis lingering after the birth process",
+          "approach": "Drink 1 to 2 cups of yi mu cao tea daily for 7 to 10 days postpartum, ideally under traditional guidance"
+        },
+        {
+          "signal": "Heavy menstrual bleeding or current pregnancy",
+          "meaning": "Bleeding without stasis, or a pregnancy where blood-moving is unsafe",
+          "approach": "Avoid motherwort entirely and consult a qualified practitioner for an alternative"
+        }
+      ]
+    }
   },
   {
     "slug": "gui-hua",
@@ -9532,7 +9787,29 @@
     ],
     "image": "/images/herbs/saffron-zang-hong-hua.jpg",
     "classicalSource": "Bencao Pinhui Jingyao (1505 CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Saffron addresses: blood stasis with heat, where poor circulation shows as dark spots and a feeling of warmth, and liver qi stagnation touching the heart, where mood swings and emotional tension disrupt sleep. The cool, sweet threads may help move stagnant blood while calming the mind, which is why a few strands in warm milk have become a traditional evening practice for both body and mood.",
+    "definition": {
+      "term": "Saffron",
+      "termCn": "藏红花",
+      "text": "Saffron functions as a cool blood-invigorator that simultaneously calms the heart and eases emotional tension, a rare combination. Its sweet taste and cool temperature let it promote blood movement without the drying harshness of peach kernel or the warmth of chuan xiong, while its affinity for the Heart channel supports the Shen, or mind. In small daily doses of 5 to 10 threads, it may help address both the circulatory and emotional sides of blood stasis patterns, which is why it appears in both women's health and mood support traditions."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Saffron by Circulation or Mood Signal",
+      "intro": "Saffron helps circulation and mood patterns that often overlap. Avoid it entirely during pregnancy, with bleeding disorders, or on blood-thinning medications.",
+      "branches": [
+        {
+          "signal": "Dark spots, dull pain, or poor circulation with a feeling of warmth",
+          "meaning": "Blood stasis with heat, where a warming blood-mover would backfire",
+          "approach": "Steep 5 to 10 saffron threads in warm (not boiling) water daily for 3 to 4 weeks"
+        },
+        {
+          "signal": "Mood swings, mild anxiety, or restless sleep from emotional tension",
+          "meaning": "Liver qi stagnation affecting the Heart and disturbing the Shen",
+          "approach": "Steep 5 to 7 saffron threads in warm milk with honey before bed for 2 to 3 weeks"
+        }
+      ]
+    }
   },
   {
     "slug": "malva-nut-pang-da-hai",
@@ -9896,7 +10173,34 @@
     ],
     "image": "/images/herbs/szechwan-lovage-chuan-xiong.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Blood stasis with qi stagnation is the primary TCM explanation for fixed, stabbing headaches and menstrual pain that worsens with pressure, and Szechwan Lovage Root is the herb Chinese medicine considers most essential for this combined pattern. Its warm, pungent nature may help move both qi and blood at once, and its special affinity for the head makes it the lead herb in classical headache formulas.",
+    "definition": {
+      "term": "Szechwan Lovage Root",
+      "termCn": "川芎",
+      "text": "Imagine Szechwan Lovage Root as a warm wind rising through the body: it clears the blocked roads of stagnant qi, pushes forward the stalled traffic of congealed blood, and carries its reach all the way to the crown of the head. Few herbs in the pharmacopoeia move both qi and blood at once, and fewer still direct that movement upward, which may help explain why this warm, pungent root has become the lead herb in classical headache and menstrual pain formulas."
+    },
+    "conditionalBranches": {
+      "title": "Matching Szechwan Lovage Root to Your Pain Location",
+      "intro": "Szechwan Lovage Root targets pain by location and stasis type. Match yours by these signals, and avoid it during pregnancy or heavy bleeding.",
+      "branches": [
+        {
+          "signal": "Fixed, stabbing headaches that worsen with pressure",
+          "meaning": "Blood stasis with qi stagnation lodged in the head",
+          "approach": "Use in formula with bai zhi under professional guidance, 3 to 6g in decoction"
+        },
+        {
+          "signal": "Menstrual pain with dark clots and pre-period breast tension",
+          "meaning": "Blood stasis with liver qi stagnation in the lower abdomen",
+          "approach": "Combine with dang gui and brown sugar in tea, starting 3 to 5 days before the period"
+        },
+        {
+          "signal": "Heavy menstrual bleeding, pregnancy, or dry hot patterns without stasis",
+          "meaning": "Patterns where moving blood would worsen bleeding or deplete yin",
+          "approach": "Avoid Szechwan Lovage Root and consult a qualified practitioner for a nourishing alternative"
+        }
+      ]
+    }
   },
   {
     "slug": "dandelion-pu-gong-ying",
@@ -10377,7 +10681,34 @@
     ],
     "image": "/images/herbs/black-jujube-hei-zao.jpg",
     "classicalSource": "Derived from jujube, first recorded in Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Black Jujube is most often linked to blood depletion with cold signs, the pattern behind pale lips, cold hands, and fatigue that worsens in winter. Its warm, sweet nature may help rebuild blood while adding the gentle warmth that red jujube cannot provide, suiting Qi Deficient and Yang Deficient body types who run cold.",
+    "definition": {
+      "term": "Black Jujube (Hei Zao)",
+      "termCn": "黑枣",
+      "text": "Where red jujube (da zao) stays neutral and gently strengthens the Spleen, black jujube (hei zao) is smoked longer, deepening its color, taste, and warming force so that it builds blood more strongly while supplementing Kidney Yang. This makes it the better choice when cold signs accompany deficiency, and the poorer choice when damp-heat or irritability is present."
+    },
+    "conditionalBranches": {
+      "title": "When Black Jujube Outperforms Red Jujube",
+      "intro": "Red jujube is the everyday choice, but these signals point to switching to its darker, warmer cousin.",
+      "branches": [
+        {
+          "signal": "Cold hands and feet with pale lips and fatigue",
+          "meaning": "Blood deficiency with cold, where neutral red jujube cannot add the warmth needed.",
+          "approach": "Eat 5 to 8 black jujubes daily, paired with longan and ginger tea for the week after menstruation."
+        },
+        {
+          "signal": "Loose stools that worsen with raw or cold food",
+          "meaning": "Spleen Qi deficiency with internal cold, where the digestive fire needs gentle warming.",
+          "approach": "Simmer 5 black jujubes with a slice of ginger in congee for breakfast, avoiding raw salads and ice water."
+        },
+        {
+          "signal": "Thick tongue coating, oily skin, or a sore throat",
+          "meaning": "Damp-heat or external wind-heat, where warming tonics would deepen the pattern.",
+          "approach": "Switch back to red jujube or pause tonics entirely, and consult a practitioner if symptoms persist."
+        }
+      ]
+    }
   },
   {
     "slug": "mugwort-ai-ye",
@@ -10785,7 +11116,34 @@
     ],
     "image": "/images/herbs/turmeric-jiang-huang.png",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 18% of people who benefit most from Turmeric fit the Blood Stasis body type, where sharp fixed pain, dark menstrual clots, and cold extremities signal that blood is not flowing freely. Its warm, pungent nature may help move stagnant blood when paired with black pepper and a small amount of healthy fat, working over weeks rather than hours.",
+    "definition": {
+      "term": "Turmeric (Jiang Huang)",
+      "termCn": "姜黄",
+      "text": "Turmeric is indicated for: sharp fixed pain that worsens at night, menstrual pain with dark clots, cold-type joint stiffness that eases with warmth, and chest tightness from stuck Liver qi. These signs collectively point to Blood Stasis and Qi Stagnation, the two patterns where its warm, pungent, blood-invigorating nature does its most useful work."
+    },
+    "conditionalBranches": {
+      "title": "Does Your Pain Stem From Blood Stasis?",
+      "intro": "Turmeric helps most when pain has a clear stagnation signature. Use these signals to tell.",
+      "branches": [
+        {
+          "signal": "Pain that feels sharp, fixed in one spot, and worse at night",
+          "meaning": "Classic Blood Stasis, where stagnant blood produces localized, stabbing discomfort.",
+          "approach": "Add 1 teaspoon of turmeric powder with a pinch of black pepper to warm milk daily, and pause during acute bleeding."
+        },
+        {
+          "signal": "Menstrual pain with dark clots and a heavy, bearing-down feeling",
+          "meaning": "Blood stagnation in the lower abdomen, often worsened by cold.",
+          "approach": "Simmer 2 slices of fresh turmeric with ginger in water for 10 minutes, starting a few days before the cycle."
+        },
+        {
+          "signal": "Joint stiffness that loosens with movement and warmth",
+          "meaning": "Cold congealing blood in the joints, a Wind-Cold-Damp variant of stagnation.",
+          "approach": "Pair turmeric with warm soups and cooked foods, and avoid ice water and raw salads that counteract its warming action."
+        }
+      ]
+    }
   },
   {
     "slug": "mulberry-sang-shen",
@@ -10881,7 +11239,34 @@
     ],
     "image": "/images/herbs/mulberry-sang-shen.png",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When premature graying persists despite supplements and good sleep, TCM points to Blood and Kidney essence depletion, and mulberry is the cool, sweet berry traditionally used to nourish both. Its dark color and moistening nature may help rebuild the reserves that hair, sleep, and healthy aging all depend on, working over two to three months of consistent daily use.",
+    "definition": {
+      "term": "Mulberry (Sang Shen)",
+      "termCn": "桑椹",
+      "text": "The reason mulberry targets hair, sleep, and aging together is that all three depend on Blood and Kidney essence, the body's deepest reserves for nourishment and moisture. When these reserves run low from stress, overwork, or aging, the hair loses color, the mind cannot settle, and dryness spreads through the body. Mulberry's sweet, cooling nature replenishes both Blood and Yin, which is why a single berry can address what looks like three separate problems."
+    },
+    "conditionalBranches": {
+      "title": "Mulberry's Three Telltale Depletion Signs",
+      "intro": "Mulberry suits a specific kind of depletion. These three signals suggest it may help.",
+      "branches": [
+        {
+          "signal": "Premature graying with dry scalp and thinning hair",
+          "meaning": "Blood and Kidney essence no longer reaching the hair roots.",
+          "approach": "Eat a small handful (10 to 15g) of dried mulberries daily with black sesame and walnuts for two to three months."
+        },
+        {
+          "signal": "Dry mouth, night sweats, and restlessness after 5 p.m.",
+          "meaning": "Yin deficiency with empty heat, where the body lacks cooling, moistening fluids.",
+          "approach": "Steep mulberries with goji berries in hot water for 10 minutes as an evening tea, and avoid spicy, drying foods."
+        },
+        {
+          "signal": "Dry, hard stools without acute illness",
+          "meaning": "Yin and blood failing to moisten the intestines, a deficiency-type constipation.",
+          "approach": "Soak 15g of dried mulberries overnight and eat them with breakfast, paired with lily bulb or white fungus for added moisture."
+        }
+      ]
+    }
   },
   {
     "slug": "jasmine-mo-li",
@@ -11988,7 +12373,34 @@
     ],
     "image": "/images/herbs/achyranthes-niu-xi.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "The most common TCM pattern behind heavy legs, weak knees, and lower back pain is Blood Stasis with qi failing to descend, and Achyranthes (Niu Xi) is the one herb that directly redirects blood and energy downward to where the problem lives. Its neutral temperature and Liver-Kidney affinity may help strengthen the tendons and bones of the lower body over weeks of use in bone broth or decoction.",
+    "definition": {
+      "term": "Achyranthes (Niu Xi)",
+      "termCn": "牛膝",
+      "text": "Niu xi performs one job no other herb in the TCM pharmacopeia can replicate: it directs blood and qi downward to the lower back, knees, and legs. Most blood herbs either nourish or move blood in place, but niu xi physically guides it to the lower body, which is why it appears in nearly every classical formula for lower body weakness, delayed menstruation with dark clots, and heavy bearing-down pain."
+    },
+    "conditionalBranches": {
+      "title": "Two Signs Your Blood Stalls Above the Waist",
+      "intro": "Niu xi helps when the problem is not too little blood, but blood that cannot get where it needs to go.",
+      "branches": [
+        {
+          "signal": "Lower back and knees that feel weak and heavy rather than acutely injured",
+          "meaning": "Blood and qi are not descending to nourish the tendons and bones of the lower body.",
+          "approach": "Simmer 6 to 12g of niu xi with eucommia bark and dang gui in pork bone soup for one hour, two to three times per week."
+        },
+        {
+          "signal": "Delayed menstruation with dark clots and a heavy, bearing-down lower abdominal pain",
+          "meaning": "Blood stagnation in the uterus, where flow is stuck because it cannot move downward.",
+          "approach": "Use raw niu xi in a practitioner-guided formula for the week before the cycle, and avoid during pregnancy or heavy bleeding without clots."
+        },
+        {
+          "signal": "Swelling in the legs and ankles that worsens with standing",
+          "meaning": "Fluids pooling because qi is not lifting them back up, combined with weak kidney and liver function.",
+          "approach": "Pair niu xi with warm foot soaks and reduced standing time, and consult a practitioner if swelling persists or worsens."
+        }
+      ]
+    }
   },
   {
     "slug": "spatholobus-ji-xue-teng",
@@ -12083,7 +12495,34 @@
     ],
     "image": "/images/herbs/spatholobus-ji-xue-teng.jpg",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Spatholobus addresses: blood deficiency that cannot reach the limbs, and blood stagnation that traps what little blood there is. Its rare dual action of nourishing and moving blood at once may help with pale complexion, numbness, scanty painful periods, and dull headaches, especially when deficiency and stagnation coexist in the same person.",
+    "definition": {
+      "term": "Spatholobus (Ji Xue Teng)",
+      "termCn": "鸡血藤",
+      "text": "Picture a woody vine that bleeds red sap when cut, and you understand why Chinese medicine named it chicken blood vine and turned to it for blood. The red sap signals the herb's affinity for blood, and the vine's dual sweet-and-bitter taste explains its rare talent: sweet nourishes blood while bitter keeps it flowing, so it can rebuild a deficient person without clogging them the way stickier blood tonics often do."
+    },
+    "conditionalBranches": {
+      "title": "When Deficiency and Stagnation Coexist",
+      "intro": "Most blood herbs either nourish or move blood. Spatholobus does both, which is exactly what these mixed patterns need.",
+      "branches": [
+        {
+          "signal": "Pale complexion and dull headaches with numbness or tingling in the limbs",
+          "meaning": "Blood deficiency paired with stagnation, where deficient blood cannot reach the extremities.",
+          "approach": "Simmer 9 to 15g of sliced ji xue teng with dang gui and red dates in black chicken soup for two hours, twice weekly."
+        },
+        {
+          "signal": "Irregular cycles with scanty flow, dark clots, and an empty bearing-down sensation",
+          "meaning": "Both deficiency (scantiness) and stagnation (clots and pain) in the uterus.",
+          "approach": "Use ji xue teng in a menstrual formula for two cycles, and avoid during pregnancy or with active heavy bleeding."
+        },
+        {
+          "signal": "Tight tendons and restricted movement with a pale tongue",
+          "meaning": "Liver blood deficiency failing to nourish tendons, with mild stagnation in the meridians.",
+          "approach": "Combine ji xue teng with bone broth and gentle stretching, and consult a practitioner if numbness persists."
+        }
+      ]
+    }
   },
   {
     "slug": "psoralea-bu-gu-zhi",
