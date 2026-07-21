@@ -42,6 +42,16 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
       </h1>
       <p className="text-text2 text-sm mb-10">Based on 3,000 years of Eastern body wisdom</p>
 
+      {/* Quick Answer - GEO direct answer module */}
+      {data.quickAnswer && (
+        <section className="mb-10">
+          <div className="rounded-xl border border-[rgba(140,45,42,0.2)] bg-[rgba(140,45,42,0.06)] p-5">
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Quick Answer</p>
+            <p className="text-text leading-relaxed">{data.quickAnswer}</p>
+          </div>
+        </section>
+      )}
+
       {/* Intro */}
       <section className="mb-10">
         {data.intro.map((p, i) => (
@@ -73,7 +83,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
 
       {/* Body Type Cards — darker bg block */}
       {data.bodyTypes.length > 0 && (
-        <section className="mb-10 -mx-6 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
+        <section className="mb-10 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
           <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
             Which Body Types Are Most Affected
           </h2>
@@ -123,6 +133,38 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         </section>
       )}
 
+      {/* Conditional Branches - GEO conditional conclusion module */}
+      {data.conditionalBranches && data.conditionalBranches.branches.length > 0 && (
+        <section className="mb-10">
+          <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-2">
+            {data.conditionalBranches.title || "Which Pattern Sounds Like You?"}
+          </h2>
+          {data.conditionalBranches.intro && (
+            <p className="text-text2 text-sm mb-5">{data.conditionalBranches.intro}</p>
+          )}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b-2 border-[rgba(140,45,42,0.25)]">
+                  <th className="text-left py-3 px-4 font-semibold text-text">If This Sounds Like You</th>
+                  <th className="text-left py-3 px-4 font-semibold text-text">The Signal</th>
+                  <th className="text-left py-3 px-4 font-semibold text-text">Start Here</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.conditionalBranches.branches.map((b, i) => (
+                  <tr key={i} className="border-b border-[rgba(140,45,42,0.1)]">
+                    <td className="py-3 px-4 font-medium text-text whitespace-nowrap">{b.signal}</td>
+                    <td className="py-3 px-4 text-text2">{b.meaning}</td>
+                    <td className="py-3 px-4 text-text2">{b.approach}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       {/* Inline Quiz CTA */}
       <section className="mb-10 print:hidden">
         <div className="flex flex-col sm:flex-row items-center gap-4 rounded-xl border border-[rgba(140,45,42,0.15)] bg-[rgba(140,45,42,0.06)] p-5">
@@ -140,7 +182,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
 
       {/* TCM Explanation */}
       <section className="mb-10">
-        <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
+        <h2 className="font-[family-name=var(--font-display)] text-xl text-text mb-3">
           How Chinese Medicine Views This
         </h2>
         {data.tcmExplanation.map((p, i) => (
@@ -148,7 +190,21 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
         ))}
       </section>
 
-      {/* Metaphor — accent bg block */}
+      {/* Definition - GEO key concept module */}
+      {data.definition && (
+        <section className="mb-10">
+          <div className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[var(--color-card-bg)] p-5">
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Key Concept</p>
+            <h3 className="font-[family-name=var(--font-display)] text-lg text-text mb-2">
+              {data.definition.term}
+              {data.definition.termCn && <span className="text-text2/60 text-sm ml-2">({data.definition.termCn})</span>}
+            </h3>
+            <p className="text-text2 leading-relaxed">{data.definition.text}</p>
+          </div>
+        </section>
+      )}
+
+      {/* Metaphor - accent bg block */}
       {data.metaphor && (
         <section className="mb-10">
           <div className="rounded-xl bg-gradient-to-br from-[rgba(140,45,42,0.1)] to-[rgba(140,45,42,0.03)] border border-[rgba(140,45,42,0.2)] p-6">
@@ -160,7 +216,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
 
       {/* TCM vs Modern Table — darker bg block */}
       {data.tcmVsModern && data.tcmVsModern.length > 0 && (
-        <section className="mb-10 -mx-6 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
+        <section className="mb-10 px-6 py-8 bg-[var(--color-bg2)] rounded-xl">
           <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
             Eastern vs. Western Perspective
           </h2>

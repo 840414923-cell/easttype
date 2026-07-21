@@ -36,6 +36,24 @@ export interface SymptomComparison {
   answer: string
 }
 
+export interface SymptomDefinition {
+  term: string
+  termCn?: string
+  text: string
+}
+
+export interface SymptomConditionalBranch {
+  signal: string
+  meaning: string
+  approach: string
+}
+
+export interface SymptomConditional {
+  title?: string
+  intro?: string
+  branches: SymptomConditionalBranch[]
+}
+
 export interface SymptomArticleData {
   slug: string
   title: string
@@ -54,4 +72,7 @@ export interface SymptomArticleData {
   checklist?: SymptomChecklist
   relatedSolution?: SymptomRelatedSolution
   howIsItDifferent?: SymptomComparison[]
+  quickAnswer?: string
+  definition?: SymptomDefinition
+  conditionalBranches?: SymptomConditional
 }

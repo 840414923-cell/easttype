@@ -13,6 +13,38 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "I spent years thinking I was just \"not a morning person\" or \"lazy.\" Turns out, my body was low on Qi, the energy that powers everything from digestion to thinking clearly. Once I understood this pattern, things started making sense in a way they never had before.",
       "This isn't about being dramatic. Chronic low energy affects your work, your relationships, your willingness to try new things. It quietly shrinks your life. Let's talk about what might actually be going on underneath.",
     ],
+    quickAnswer: "When 8 hours of sleep still leaves you reaching for coffee by 10 AM, Chinese medicine looks past sleep quantity to Qi Deficiency, a pattern where your body lacks the fuel to recharge overnight. Roughly 15% of people fit this body type. A second pattern, Yang Deficiency, adds cold hands and feet to the same fatigue. Both may improve with warm cooked foods and consistent sleep before 11 PM.",
+    definition: {
+      term: "Qi Deficiency",
+      termCn: "气虚",
+      text: "Qi Deficiency is a Chinese medicine pattern where your body's vital energy runs low. Think of it as a smaller battery than other people have: you charge it the same way through sleep and food, but it holds less and drains faster. Common signs include a soft voice, easy sweating with little exertion, frequent colds, and fatigue that doesn't lift with rest.",
+    },
+    conditionalBranches: {
+      title: "Which Pattern Sounds Like You?",
+      intro: "Always being tired is not one pattern. Chinese medicine distinguishes four common roots, each with a different entry point.",
+      branches: [
+        {
+          signal: "Tired, but otherwise warm",
+          meaning: "Battery runs low without other symptoms",
+          approach: "Qi Deficient path: congee, jujube dates, gentle movement",
+        },
+        {
+          signal: "Tired and cold hands or feet",
+          meaning: "Internal heater is also underpowered",
+          approach: "Yang Deficient path: ginger, lamb, cinnamon, warm cooked foods",
+        },
+        {
+          signal: "Tired and heavy, foggy head",
+          meaning: "Dampness is weighing down your energy",
+          approach: "Phlegm Damp path: adzuki beans, coix seed, green tea",
+        },
+        {
+          signal: "Tired and irritable, tight chest",
+          meaning: "Energy is stuck rather than depleted",
+          approach: "Qi Stagnant path: rose tea, citrus, evening walk",
+        },
+      ],
+    },
     tcmExplanation: [
       "Let's be honest: being tired all the time isn't normal, even though it's common. The usual suspects are poor sleep, bad diet, too much screen time, or not enough exercise. And sure, those things matter. But many people fix all of those and still feel like a phone stuck on 5% battery. That's when it's worth looking deeper.",
       "Sometimes it's low iron, thyroid issues, or vitamin deficiencies. Your doctor can check those. But here's the thing a lot of people run into: the blood work comes back totally fine, and you're told everything looks normal. Great. But you still feel like garbage. That gap between \"normal test results\" and \"I can barely get through the afternoon\" is exactly where Eastern body wisdom has something useful to say.",
@@ -132,6 +164,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "I spent years thinking I just had a \"sensitive stomach\" or that certain foods didn't agree with me. I tried cutting out gluten, then dairy, then FODMAPs. Some things helped a little, but nothing really solved it. The bloating kept coming back like an uninvited guest who shows up at every meal.",
       "Eastern body wisdom looks at bloating differently from what you might expect. It's less about which specific food is the trigger and more about why your digestive system is struggling to process food in the first place. That shift in perspective made a huge difference for me, and it might for you too.",
     ],
+    quickAnswer: "In Chinese medicine, bloating after every meal is most often linked to Spleen Qi Deficiency with secondary Phlegm Damp, where your digestive engine lacks the power to process food efficiently. About 15% of people fit the Qi Deficient body type, and another 10% fit Phlegm Damp, where moisture accumulates and makes everything feel heavy. Warm cooked meals, smaller portions, and chewing thoroughly may help both patterns over time.",
+    definition: {
+      term: "Spleen Qi Deficiency",
+      termCn: "脾气虚",
+      text: "Spleen Qi Deficiency describes a digestive system that has lost the power to convert food into usable energy. In TCM, the Spleen is the functional engine behind your stomach, intestines, and the entire process of converting meals into fuel. When Spleen Qi runs low, food enters but moves through slowly, creating gas, fullness, and that stuffed feeling within minutes of eating. Common signs include bloating after small meals, fatigue, soft voice, and easy sweating.",
+    },
+    conditionalBranches: {
+      title: "Which Digestive Pattern Is Yours?",
+      intro: "Bloating after meals is not one problem. Chinese medicine separates it into several roots, each with a different entry point.",
+      branches: [
+        { signal: "Bloated and tired after small meals", meaning: "Digestive engine lacks power (Qi)", approach: "Qi path: congee, jujube dates, chew thoroughly" },
+        { signal: "Bloated, heavy, and worse in humidity", meaning: "Moisture is accumulating on top of weakness (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, green tea" },
+        { signal: "Bloated with stress, comes and goes", meaning: "Energy flow is jammed, not weak", approach: "Stagnation path: rose tea, citrus, evening walk" },
+        { signal: "Bloated with cold hands and feet", meaning: "Digestive fire is also underheated", approach: "Yang path: ginger, lamb, warm cooked foods" },
+      ],
+    },
     tcmExplanation: [
       "The usual explanations you'll hear: food intolerances, eating too fast, too much salt, swallowed air, IBS, or SIBO. These are all valid possibilities, and it's worth checking with your doctor if bloating is severe, painful, or accompanied by weight loss or blood in your stool.",
       "But here's what doesn't get talked about enough: you can be \"fine\" on all the standard tests and still bloat after every single meal. Your digestive enzymes are normal. Your gut bacteria are supposedly fine. No food allergies detected. Yet there you are, unbuttoning your jeans at 2 PM because lunch is staging a protest.",
@@ -219,6 +267,38 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Maybe you sit on your hands during meetings. Maybe you wear socks to bed year-round. Maybe your partner complains that your feet are like ice blocks when you get under the covers. These aren't just quirks. In Eastern body wisdom, they're clues about how your internal heating system is running.",
       "This page isn't about telling you to \"just wear more layers.\" It's about understanding why your body runs cold when other people are perfectly comfortable, and what you can do about it from the inside out.",
     ],
+    quickAnswer: "Yang Deficiency is the primary TCM explanation for always feeling cold, even when thyroid panels and iron levels come back normal. About 8% of people fit this body type, where the internal furnace runs too low to warm the extremities. A second pattern, Qi Deficiency, adds fatigue to the coldness. Warming foods like ginger, cinnamon, and lamb may help both patterns over time.",
+    definition: {
+      term: "Yang Deficiency",
+      termCn: "阳虚",
+      text: "Yang Deficiency is a pattern where your body's warming, active, energizing force runs low. Yang powers your metabolism, keeps your limbs warm, and drives movement. When it drops, your body protects your core by pulling heat away from your hands and feet, leaving them cold even in a warm room. Common signs include cold extremities, a preference for hot drinks, lower back soreness, and feeling worse in cold weather.",
+    },
+    conditionalBranches: {
+      title: "Which Heating Problem Do You Have?",
+      intro: "Always being cold has two common roots in Chinese medicine. The right approach depends on which one matches your pattern.",
+      branches: [
+        {
+          signal: "Cold hands and feet, energy is fine",
+          meaning: "Furnace is low (Yang)",
+          approach: "Yang path: ginger, lamb, cinnamon, warm foot soaks",
+        },
+        {
+          signal: "Cold and tired all the time",
+          meaning: "Fuel for the furnace is also low (Qi)",
+          approach: "Qi path: congee, jujube dates, gentle movement",
+        },
+        {
+          signal: "Cold that worsens with stress",
+          meaning: "Energy flow is stuck, blocking warmth",
+          approach: "Stagnation path: rose tea, citrus, evening walk",
+        },
+        {
+          signal: "Cold with heavy, puffy feeling",
+          meaning: "Dampness is clogging the system",
+          approach: "Damp path: adzuki beans, coix seed, green tea",
+        },
+      ],
+    },
     tcmExplanation: [
       "Sure, sometimes being cold is about not wearing enough layers or sitting in a drafty room. But if you're always cold regardless of the environment, there's something else going on. Your thyroid might be underactive, which is worth checking with your doctor. Low iron or poor circulation could also play a role.",
       "But here's what frustrates a lot of people: the blood work comes back fine. Thyroid is normal. Iron is normal. Vitamin D is fine. Everything checks out. Yet you're still sitting there with freezing hands while your coworker is in a t-shirt. That's the space where Eastern body wisdom offers a different perspective.",
@@ -332,6 +412,17 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You eat your fiber. You drink your water. You've tried probiotics, magnesium, prunes. You go, but it takes effort, and it's never quite enough. The advice is always the same: more fiber, more water, more exercise. But what if you're doing all of that and your digestion still moves at its own slow pace?",
       "Chronic constipation that fiber doesn't fix. In TCM, there are different types: dry-type (Yin Deficiency, hard pellets, needs moisture), sluggish-type (Qi Deficiency or Phlegm Damp, infrequent but normal texture, needs energy), and stress-type (Qi Stagnation, comes and goes with emotional state, needs flow).",
     ],
+    quickAnswer: "About 10% of people with chronic constipation fit the Phlegm Damp body type, where digestion is sluggish and stool moves like everything is in mud. Two other patterns share the symptom: Yin Deficiency, where intestines lack moisture and stools come out as dry pellets, and Qi Stagnation, where stress blocks the flow and constipation comes and goes with emotional state. Each needs a different approach, and more fiber may actually worsen the dry type.",
+    conditionalBranches: {
+      title: "Which Pipe Problem Do You Have?",
+      intro: "Constipation is not one condition in Chinese medicine. Three distinct patterns share this symptom, and each needs a different approach.",
+      branches: [
+        { signal: "Hard dry pellets, dry skin and mouth", meaning: "Pipe lacks moisture (Yin)", approach: "Yin path: pear, black sesame, honey, warm water on empty stomach" },
+        { signal: "Infrequent but normal texture, heavy feeling", meaning: "Pump is weak, pipe is fine (Qi or Damp)", approach: "Sluggish path: sweet potato, steamed veg, warm cooked meals" },
+        { signal: "Comes and goes with stress and emotion", meaning: "Control system is jammed (Qi Stagnation)", approach: "Flow path: rose tea, tangerine peel, regular movement" },
+        { signal: "Worse with cold drinks and raw food", meaning: "Cold is slowing the pump further", approach: "Warmth path: ginger tea, cooked meals, skip the ice" },
+      ],
+    },
     tcmExplanation: [
       "Low fiber diet (but you're already eating fiber). Dehydration. Medications (opioids, iron supplements, antidepressants). Hypothyroidism. Irritable bowel syndrome (IBS-C). Pelvic floor dysfunction. Neurological conditions. Structural issues (hemorrhoids, fissures). If these are addressed and constipation persists, TCM distinguishes between different types that require different approaches.",
       "Before exploring Eastern frameworks, make sure you've ruled out the basics. A thyroid panel can rule out hypothyroidism. Review any medications with your doctor. A physical exam can assess pelvic floor function.",
@@ -425,6 +516,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "I used to think I just had no willpower. That I loved food too much. But then I noticed something odd: I wasn't hungry for anything specific. I was just hungry in general, like a bottomless pit that no amount of pasta could fill. That's when I started looking into what Chinese medicine says about constant hunger, and it turned out to be one of those \"oh, that explains everything\" moments.",
       "This page is for people who eat well, eat enough, and still feel like their stomach missed the memo. Let's talk about why that happens and what your body might be trying to tell you.",
     ],
+    quickAnswer: "When constant hunger persists despite balanced meals and stable blood sugar, TCM points to Spleen Qi Deficiency with Phlegm Damp, where food enters but is not converted into nourishment, so the body keeps requesting fuel. A second pattern, Yin Deficiency with relative heat, burns through food too fast and triggers hunger soon after eating. Warm cooked meals and smaller portions may help the first pattern, while cooling moistening foods may help the second.",
+    definition: {
+      term: "Spleen Qi Deficiency",
+      termCn: "脾气虚",
+      text: "Spleen Qi Deficiency is the pattern behind hunger that no meal seems to satisfy. Common signs include feeling hungry right after eating, bloating and heaviness after meals, tiredness instead of energy from food, soft voice, easy sweating, and frequent colds. The Spleen cannot convert what you eat into usable nourishment, so the body keeps signaling that it needs more, even when the stomach is full.",
+    },
+    conditionalBranches: {
+      title: "Which Hunger Pattern Is Driving You?",
+      intro: "Constant hunger has two common TCM roots, and the right approach depends on whether your body is failing to absorb nourishment or burning too hot.",
+      branches: [
+        { signal: "Hungry, heavy, and bloated after meals", meaning: "Digestion too weak to extract nourishment (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, warm cooked meals" },
+        { signal: "Hungry with dry mouth and warm feeling", meaning: "Internal heat burning through food too fast (Yin)", approach: "Yin path: pear, mung bean soup, tremella mushroom" },
+        { signal: "Hungry and tired, weak voice, easy sweat", meaning: "Pure weakness, no excess heat (Qi)", approach: "Qi path: congee, jujube dates, gentle movement" },
+        { signal: "Hungry soon after spicy or fried food", meaning: "Heat-generating diet is worsening the pattern", approach: "Cooling path: reduce spice and alcohol, add cucumber and mint" },
+      ],
+    },
     tcmExplanation: [
       "Before exploring Eastern perspectives, let's cover the usual suspects. Not eating enough protein or healthy fats is a big one. If your meals are mostly carbs, your blood sugar spikes and crashes like a rollercoaster, and each crash screams \"feed me.\" Dehydration can also masquerade as hunger. Your brain sometimes confuses thirst signals with hunger signals, and by the time you figure it out, you've already eaten a whole bag of chips.",
       "Other possibilities: an overactive thyroid, blood sugar instability, certain medications that increase appetite, not enough sleep (sleep deprivation spikes ghrelin, your hunger hormone), and high-intensity exercise without adequate refueling. If you're constantly hungry alongside weight loss, rapid heartbeat, or anxiety, get your thyroid checked.",
@@ -507,6 +614,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's the thing that might surprise you: being sleepy all the time is different from being tired all the time. They feel similar, but in Chinese medicine, they come from different root patterns and need different approaches. Tired is your body saying \"I'm out of gas.\" Sleepy is more like your body saying \"something heavy is sitting on my engine.\" Same outcome, different cause.",
       "This distinction matters because the approach that helps with one won't necessarily help with the other. Taking a nap might temporarily fix the sleepy feeling, but if the root pattern is Dampness, you'll wake up feeling just as groggy. Let's dig into what's actually going on.",
     ],
+    quickAnswer: "Phlegm Damp with Spleen weakness is the primary TCM explanation for sugar cravings that spike at 3 PM, where the Spleen sends a distress signal for the energetic quality of sweetness, and refined sugar makes the underlying weakness worse. About 10% of people fit Phlegm Damp and another 15% fit Qi Deficient, and both patterns can drive the craving. Naturally sweet foods like sweet potato, squash, and jujube dates may satisfy the signal without feeding the dampness loop, while warm cooked meals may help rebuild Spleen strength.",
+    definition: {
+      term: "Spleen Qi Deficiency",
+      termCn: "脾气虚",
+      text: "Spleen Qi Deficiency is the opposite pattern from Stomach Fire. Where Stomach Fire burns too hot and consumes food too fast, Spleen Qi Deficiency runs too cold and too weak, converting food into energy inefficiently. The Spleen asks for the sweet flavor to support itself, but refined sugar further weakens it, creating a feedback loop where the more sweets you eat, the more your Spleen struggles, and the more it asks for sweets. Common signs include craving sweets after meals, bloating, tiredness after eating, weight around the middle, and a coated tongue.",
+    },
+    conditionalBranches: {
+      title: "Which Craving Loop Are You Caught In?",
+      intro: "Sugar cravings have two main TCM roots, and the right approach depends on whether the Spleen is overwhelmed by dampness or simply underpowered.",
+      branches: [
+        { signal: "Crave sweets with heaviness, sluggishness, weight around middle", meaning: "Spleen overwhelmed by dampness (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, cut refined sugar and dairy" },
+        { signal: "Crave sweets for quick energy, tired and weak", meaning: "Body desperate for fuel (Qi)", approach: "Qi path: sweet potato, jujube dates, congee, warm cooked meals" },
+        { signal: "Cravings spike at 3 PM regardless of lunch", meaning: "Spleen distress signal on a schedule", approach: "Rhythm path: naturally sweet foods at 2:30 PM, warm tea" },
+        { signal: "Cravings worsen with stress and emotional eating", meaning: "Stagnation is compounding the pattern", approach: "Flow path: rose tea, walk after lunch, address emotions" },
+      ],
+    },
     tcmExplanation: [
       "The obvious reasons first: not enough sleep, poor sleep quality, sleep apnea, certain medications, and blood sugar crashes from eating too many refined carbs. All real possibilities. Sleep apnea in particular is underdiagnosed and worth checking for if you snore, wake up gasping, or feel like you barely slept despite being in bed for 8 hours.",
       "But if you've addressed all of those and still feel like you're walking through molasses every afternoon, there might be something else happening. Some people find that no matter how much sleep they get, no matter how clean their diet is, the drowsiness persists. That's when looking at your body's constitutional patterns can open up a whole new set of options.",
@@ -594,6 +717,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People tell you it's just aging. Your doctor says your joints look fine on the X-ray. You stretch more, drink more water, take supplements. Nothing really changes. The stiffness keeps showing up every morning like an alarm clock you can't turn off.",
       "Chinese medicine sees morning stiffness differently than just wear and tear. It's not necessarily about how old your joints are. It's about whether your body has enough warmth and circulation to keep things supple overnight. When the internal heater runs low, things stiffen up. When circulation gets sluggish, things lock down. The good news is that both of these can be addressed without waiting for the stiffness to get worse.",
     ],
+    quickAnswer: "Yang Deficiency is the primary TCM explanation for morning stiffness that eases after 20 minutes of movement, where your body cannot maintain enough warmth overnight to keep muscles and joints supple. About 8% of people fit this type. A second pattern, Blood Stasis, creates a different stiffness: more localized, with dull fixed aches and easy bruising from sluggish circulation. Warming foods, warm showers before stretching, and gentle qi gong may help both patterns over time.",
+    definition: {
+      term: "Blood Stasis",
+      termCn: "血瘀",
+      text: "Blood Stasis develops when blood circulation slows enough that tissues stop receiving fresh nourishment. Common causes include prolonged sitting, physical trauma, chronic cold exposure, Qi Deficiency that cannot push blood forcefully enough, and emotional suppression that constricts flow. Over time the underfed areas become stiff, achy, and prone to bruising. Common signs include dull pain in fixed locations, easy bruising, a dusky or purplish tint to the lips or tongue, and stiffness that warmth and movement relieve.",
+    },
+    conditionalBranches: {
+      title: "Which Stiffness Pattern Is Locking You Up?",
+      intro: "Morning stiffness has two common TCM roots. The right approach depends on whether your body lacks warmth or lacks circulation.",
+      branches: [
+        { signal: "Stiff, cold hands and feet, worse in winter", meaning: "Internal heater is underpowered (Yang)", approach: "Yang path: ginger, lamb, cinnamon, warm foot soaks" },
+        { signal: "Stiff with dull fixed aches and easy bruising", meaning: "Circulation is too slow to nourish tissues (Blood Stasis)", approach: "Stasis path: gentle qi gong, warm shower before stretching, turmeric" },
+        { signal: "Stiff that improves quickly with movement", meaning: "Stagnation rather than weakness", approach: "Flow path: daily tai chi, regular movement, avoid long sitting" },
+        { signal: "Stiff with cold lower back and clear urination", meaning: "Yang Deficiency has progressed", approach: "Warming path: hot water bottle on lower back, warm sleepwear" },
+      ],
+    },
     tcmExplanation: [
       "Before looking at Eastern patterns, check the basics first. Lack of regular movement is the most common cause of stiffness. If you sit at a desk all day and don't exercise, your muscles and connective tissues adapt to that limited range of motion. Dehydration makes muscles and fascia less pliable, so drinking enough water matters.",
       "Poor sleep position or a mattress that doesn't support you can leave you stiff in the morning. Some medications, including statins and certain blood pressure drugs, can cause muscle stiffness as a side effect. If the stiffness is in specific joints rather than your whole body, it's worth checking for arthritis with your doctor.",
@@ -679,6 +818,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The obvious answer is that you're dehydrated. Drink more water, problem solved. But if you're already drinking plenty and still feel thirsty, something else is going on. Your body has water. It's just not using it properly.",
       "Chinese medicine has a name for this pattern, and it's not about how much water you drink. It's about your body's ability to transform and distribute fluids. When that system isn't working right, you can drink gallons and still feel parched.",
     ],
+    quickAnswer: "Chinese medicine identifies Yin Deficiency as the primary pattern behind chronic thirst that no amount of water seems to fix, where your body lacks the capacity to hold and distribute fluids rather than the fluids themselves. About 10% of people fit this body type. Drinking more water does not replenish Yin directly, because the problem is not water supply but the body's ability to absorb and retain it. Yin-nourishing foods like pear, lily bulb, and tremella mushroom may help, along with sleep before 11 PM.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is like a sponge that has lost its ability to hold water. You can keep pouring water in, but the sponge stays dry because its structure can no longer absorb. Yin is the cooling, moistening, resting principle that gives your body the capacity to retain fluids, regulate temperature, and keep tissues supple. When Yin runs low, internal heat builds, dryness appears in mouth, skin, and eyes, and thirst persists no matter how much you drink.",
+    },
     tcmExplanation: [
       "Before exploring Eastern frameworks, make sure you've ruled out the basics. Diabetes is the most important one to check. Excessive thirst is a classic symptom of both type 1 and type 2 diabetes. A simple blood test can rule this out. Diabetes insipidus, a rare condition affecting water regulation, is another possibility.",
       "Dehydration from not drinking enough, especially in hot weather or during exercise. High salt intake. Certain medications, including diuretics, anticholinergics, and some antidepressants. Sjogren's syndrome, an autoimmune condition that causes dry mouth and eyes. Anemia can sometimes cause thirst.",
@@ -757,6 +902,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This is different from daytime thirst. Daytime thirst can be caused by many things: not drinking enough, hot weather, salty food, exercise. But nighttime thirst, specifically waking at 2 or 3 AM with a dry mouth and throat, follows a different pattern. The body should be resting and replenishing at night, not calling for water.",
       "Chinese medicine sees nighttime thirst as a classic signal of Yin Deficiency. The body's cooling system is undercharged, so internal heat builds during the night, drying out the mouth and throat. Drinking water helps temporarily, but the real issue is the coolant, not the water supply.",
     ],
+    quickAnswer: "In Chinese medicine, nighttime thirst that wakes you at 2 or 3 AM is most often linked to Yin Deficiency, where your body's cooling system runs too low on coolant to keep internal heat contained overnight. About 10% of people fit the Yin Deficient body type. The dry mouth is not a water shortage but a coolant shortage, which is why drinking helps only temporarily. Yin-nourishing evening meals like pear soup and sleep before 11 PM may help rebuild the cooling reserve.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency describes a body whose cooling, moistening, and resting functions are running below capacity. In TCM, Yin is the principle that anchors heat, lubricates tissues, and supports nighttime recovery. When Yin is sufficient, your body temperature drops at night, your mouth stays moist, and you sleep deeply. When Yin runs low, heat builds unopposed, the mouth and throat dry out, and thirst wakes you between 2 and 4 AM, the Liver's active window in the TCM body clock.",
+    },
     tcmExplanation: [
       "Before exploring Eastern frameworks, make sure you've ruled out the basics. Diabetes is the most important one to check. High blood sugar causes excessive thirst at any time of day or night. A simple blood test can rule this out. Sleep apnea with mouth breathing is another common cause. A sleep study can evaluate this.",
       "Medications causing dry mouth are worth reviewing with your doctor. Sjogren's syndrome, an autoimmune condition, can be checked with specific blood tests. Simple dehydration from not drinking enough during the day is an obvious possibility. Dry bedroom air from heating or air conditioning can also contribute, and a humidifier may help.",
@@ -835,6 +986,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People call it laziness. They say you just need more discipline. Try harder. Set alarms. Make lists. And maybe you've tried all of that, and it works for about two days before you're right back where you started. Here's the thing nobody tells you: if it were just about discipline, the lists and alarms would work. The fact that they don't suggests something else is going on.",
       "Traditional Chinese Medicine has a different explanation for chronic low motivation, and it has nothing to do with willpower. It has to do with Qi, the energy that powers every function in your body, including the part that gets you off the couch.",
     ],
+    quickAnswer: "About 15% of people with chronic low motivation fit the Qi Deficient body type, where the body's vital energy is too low to power the drive that gets you off the couch. A second pattern, Yang Deficiency, affects roughly 10% and adds cold hands, cold feet, and a sense that everything takes more effort than it should. Building Qi through warm cooked foods, gentle movement, and sleep before 11 PM may help both patterns more than willpower alone.",
+    definition: {
+      term: "Qi Deficiency",
+      termCn: "气虚",
+      text: "Qi Deficiency is the pattern behind motivation that willpower alone cannot fix. Common signs include chronic tiredness, a soft voice, easy sweating with light exertion, frequent colds, weak digestion, feeling worse after exertion, and a sense that simple tasks cost more energy than they should. The body's battery is genuinely smaller and drains faster than other people's, which is why discipline-based strategies fail and Qi-building approaches often work better.",
+    },
+    conditionalBranches: {
+      title: "Which Engine Problem Is Draining Your Drive?",
+      intro: "Low motivation has two main TCM roots. The right approach depends on whether your battery is low or your heater is also underpowered.",
+      branches: [
+        { signal: "Unmotivated, tired, but otherwise warm", meaning: "Battery runs low without other symptoms (Qi)", approach: "Qi path: congee, jujube dates, gentle movement, sleep before 11 PM" },
+        { signal: "Unmotivated with cold hands and feet", meaning: "Internal heater is also underpowered (Yang)", approach: "Yang path: ginger, lamb, cinnamon, warm foot soaks" },
+        { signal: "Unmotivated, worse after exertion, catches colds easily", meaning: "Qi reserves are deeply depleted", approach: "Recovery path: rest, warm nourishing meals, no intense workouts" },
+        { signal: "Unmotivated with brain fog and heavy feeling", meaning: "Dampness is compounding the low energy", approach: "Damp path: adzuki beans, coix seed, cut dairy and sweets" },
+      ],
+    },
     tcmExplanation: [
       "Before looking at Eastern frameworks, check the basics. Depression is the most common medical cause of persistent low motivation, and it's worth talking to a professional if you also experience hopelessness, loss of interest in things you used to enjoy, or changes in appetite and sleep. ADHD can also show up as difficulty initiating tasks, especially ones that aren't immediately rewarding.",
       "Other possibilities: vitamin D deficiency (surprisingly common and directly linked to motivation), iron deficiency, thyroid issues, chronic sleep deprivation, burnout from prolonged stress, and side effects of certain medications. If you haven't had basic blood work done recently, that's a reasonable first step.",
@@ -918,6 +1085,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People tell you to relax. Breathe. Let it go. And you've tried. But the irritability isn't something you're choosing. It's a baseline state, like a radio that's always slightly too loud. You can turn it down for a while, but it creeps back up on its own.",
       "In Traditional Chinese Medicine, chronic irritability isn't a character flaw or a stress problem. It's an energy flow problem. Specifically, it's what happens when your body's energy gets stuck and starts pressing outward as emotional friction. The good news is that this is a pattern, and patterns can be shifted.",
     ],
+    quickAnswer: "When irritability persists despite cutting caffeine, improving sleep, and balancing hormones, TCM points to Liver Qi Stagnation, where emotional energy gets stuck and builds pressure instead of flowing freely. About 8% of people fit this body type. The short fuse is not character or stress alone, it is the accumulated pressure behind the dam, which is why small triggers set off large reactions. Movement, rose tea, and emotional expression may help release the buildup over time.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is like a dammed river. A healthy Liver keeps energy and emotions flowing smoothly, so frustration moves through you and passes. When the Liver gets stuck, pressure builds behind the blockage. Every small trigger releases more than it should, because the pressure was already there before the trigger arrived. Common signs include chest tightness, frequent sighing, mood swings, irritability that flares with stress, and symptoms that ease with movement.",
+    },
     tcmExplanation: [
       "The standard explanation is stress. And yes, stress makes irritability worse. But it's not the whole story. Many people are stressed without being irritable, and many people are irritable without being particularly stressed. Something else is going on underneath.",
       "Other possibilities: poor sleep, caffeine, hormonal fluctuations (especially PMS), blood sugar instability, and certain medications. These are all real factors and worth addressing. Cutting back on coffee and getting better sleep can make a real difference.",
@@ -994,6 +1167,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Heat sensitivity isn't about being picky. It's about how your body regulates its internal temperature. Some people have a robust cooling system that handles warm weather, heated rooms, and summer afternoons without breaking a sweat. Others feel like their internal AC gave out years ago and nobody came to fix it.",
       "If you're the person who dreads summer, opens windows in winter, and can't sleep without the fan pointed directly at your face, there might be a reason rooted in how your body's energy is distributed. Eastern medicine has a framework for this, and it starts with understanding what keeps your body cool from the inside.",
     ],
+    quickAnswer: "The most common TCM pattern behind heat sensitivity that persists when thyroid panels are normal is Yin Deficiency, where your body's cooling system cannot keep up with internal warmth, especially in the afternoon and evening. About 10% of people fit this body type. The AC is not broken, it is underpowered, which is why you feel comfortable in winter and miserable in summer. Cooling moistening foods like mung bean soup, cucumber, and pear may help, along with sleep before midnight.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is the mirror image of Yang Deficiency. Where Yang is your body's warming, active force, Yin is the cooling, moistening, resting counterpart that keeps heat in check. When Yang is low, you run cold. When Yin is low, internal heat builds unopposed and you run warm, especially in the afternoon and at night. Common signs include feeling warm when others are comfortable, dry skin and throat, night sweats, and a thin build.",
+    },
     tcmExplanation: [
       "Before looking at Eastern explanations, it's worth checking the standard medical causes. An overactive thyroid (hyperthyroidism) can make you heat-sensitive and is easily checked with a blood test. Perimenopause and menopause are common reasons women become heat-sensitive, often with hot flashes that come and go. High blood pressure can sometimes make you feel warmer than usual.",
       "Certain medications, including antidepressants and blood pressure drugs, can affect how your body regulates temperature. Dehydration is another simple cause: if you're not drinking enough water, your body has less fluid available for sweating and cooling.",
@@ -1070,6 +1249,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Mood swings like this are exhausting. Not because any single swing is so terrible, but because you never know which version of yourself is going to show up. You start to distrust your own reactions. Was that a reasonable response, or was that the mood swing? You can't tell anymore.",
       "There are many reasons for mood swings, and hormones are usually the first suspect. But if you've had blood work done and everything checks out, or if the mood swings don't follow any obvious hormonal cycle, Chinese medicine offers a framework that goes beyond hormones and neurotransmitters. It looks at how your energy flows, and what happens when it doesn't.",
     ],
+    quickAnswer: "Yin Deficiency is the primary TCM explanation for hot flashes that surge without warning, because Yin is the cooling, anchoring force that holds Yang heat down. About 10% of people fit the Yin Deficient body type, and their flashes tend to be sudden, dry, and intense. A second pattern, Damp Heat, produces a stickier, heavier heat that lingers. Pear, black sesame, and lily bulb may help rebuild the cooling system, while avoiding spicy food, alcohol, and late nights may stop draining it further.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is like a pot boiling over. Yang is the heat under the pot, and Yin is the liquid inside. When there is enough liquid, the heat stays absorbed and contained. When the liquid runs low, the steam bursts through unpredictably, and that surge is the hot flash. After the surge passes, you may feel cold because the heat has left and there is no warmth reserve either. This is different from Damp Heat, which feels sticky and oppressive rather than sudden and dry.",
+    },
+    conditionalBranches: {
+      title: "What Kind of Heat Is Surging Through You?",
+      intro: "Hot flashes have two main TCM roots, and the quality of the heat tells them apart.",
+      branches: [
+        { signal: "Sudden, dry, intense flashes with night sweats and dry skin", meaning: "Cooling liquid is too low (Yin Deficiency)", approach: "Yin path: pear, black sesame, lily bulb, tremella, sleep before 11 PM, avoid spicy food and alcohol" },
+        { signal: "Sticky, oppressive, lingering heat with acne or acid reflux", meaning: "Heat and dampness merged (Damp Heat)", approach: "Cool and drain: mung bean soup, celery, modest green tea, reduce greasy and sweet foods" },
+        { signal: "Flashes that worsen after late nights and stress", meaning: "Yin is being burned faster than it can rebuild", approach: "Protect sleep, small frequent meals, avoid heat generators like coffee and lamb" },
+        { signal: "Cold chill that follows each flash", meaning: "Both heat and warmth reserve are depleted", approach: "Layer clothing, dress in pieces you can remove, keep the bedroom cool but not freezing" },
+      ],
+    },
     tcmExplanation: [
       "Before looking at Eastern patterns, it's worth checking the basics. Hormonal fluctuations (PMS, perimenopause, thyroid dysfunction) are the most common cause of mood swings. If you haven't had your thyroid and reproductive hormones checked recently, that's a good starting point. Blood sugar instability can also cause mood swings: if your glucose crashes after a high-carb meal, irritability and mood drops often follow.",
       "Chronic stress and burnout can make anyone emotionally volatile. Poor sleep amplifies every emotional response. Certain medications, including birth control and some antidepressants, can affect mood stability. If any of these apply, addressing them directly is the first step.",
@@ -1146,6 +1341,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Shoulder tension is so common that most people just accept it as part of life. They roll their eyes when someone tells them to relax their shoulders, because they've tried, and it doesn't stick. The tightness comes back every single time.",
       "The thing about chronic shoulder tension is that stretching alone rarely fixes it for good. That's because the problem isn't just in your muscles. In Chinese medicine, the shoulders are a landing pad for stuck energy and unprocessed emotions. Until you address the root, the tension keeps coming home to the same spot.",
     ],
+    quickAnswer: "Chinese medicine identifies Liver and Gallbladder meridian stagnation as the primary pattern behind chronic shoulder tension that returns within hours of massage, where stuck energy from suppressed emotion lands in the muscles along the sides of the neck and upper back. About 8% of people fit the Qi Stagnant body type. The backpack you cannot take off is emotional weight, which is why stretching alone does not last. Movement, rose tea, and emotional expression may help release the underlying pattern.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation describes a body where the system responsible for smooth energy flow has gotten stuck. In TCM, the Liver keeps emotions and physical energy moving freely through the body, and the Gallbladder meridian, which runs through the tops of the shoulders and up the sides of the neck, is its partner channel. When Liver Qi stagnates from stress or suppressed emotion, the Gallbladder meridian tightens in response, and the shoulders creep up toward the ears. Common signs include tension that returns after massage, tight chest, frequent sighing, and stiffness that worsens with emotional stress.",
+    },
     tcmExplanation: [
       "Start with the basics before exploring deeper patterns. Poor ergonomics at your desk, hunching over a phone, or carrying heavy bags on one shoulder can all create chronic shoulder tension. If you work at a computer, your monitor might be too low, causing you to shrug your shoulders unconsciously all day.",
       "Weak upper back muscles or tight chest muscles from sitting too much can pull your shoulders forward and up, creating a constant state of low-grade tension. Sleep position matters too. Sleeping on your side without proper pillow support can keep your shoulder in an awkward position all night.",
@@ -1223,6 +1424,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This is different from waking up at 3 AM. Waking up mid-sleep means something interrupted your rest. Not being able to fall asleep in the first place means something is preventing your body from transitioning from wake to sleep. In Chinese medicine, these are related but distinct problems with different root patterns.",
       "And unlike what your fitness tracker might suggest, the solution isn't always \"better sleep hygiene.\" Sometimes the problem isn't your bedtime routine. It's what's happening inside your body that keeps the engine running when it should be idling.",
     ],
+    quickAnswer: "The most common TCM pattern behind chronic neck pain is Liver Qi Stagnation, where stress and frustration jam the energy at the narrowest passage between head and torso. About 8% of people fit the Qi Stagnant body type, and their neck tightens during stressful weeks even when posture is perfect. The neck is a narrow bridge, and when Liver Qi gets stuck, traffic piles up there first. Peppermint tea, gentle neck rolls, and emotional processing may help keep the energy moving through that bottleneck.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is what happens when the Liver system, meant to keep energy flowing freely, tightens under stress. Where healthy Liver energy moves like traffic through an open bridge, stagnant Qi moves like traffic piling up at the narrowest point. The Liver is the organ most sensitive to frustration and suppressed emotion. The neck is the narrowest passage between head and torso, so when Qi gets stuck, the bottleneck shows up there first. The pain is energetic, not mechanical, which is why posture work alone often cannot resolve it.",
+    },
     tcmExplanation: [
       "Before exploring Eastern frameworks, make sure you've covered the basics. Caffeine after noon is the most common culprit. Blue light from screens suppresses melatonin production. An irregular sleep schedule confuses your circadian rhythm. A bedroom that's too warm (above 68°F/20°C) makes it harder for your body temperature to drop, which is a biological signal for sleep onset.",
       "Anxiety and stress are also major factors. If something specific is worrying you, your brain treats it as a threat and stays vigilant. This is normal and usually temporary. But if you've addressed all of these and still can't fall asleep, the Eastern perspective offers a different kind of explanation.",
@@ -1341,6 +1548,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People assume you're lazy or distracted. You're not. You might be putting in more effort than the people who can focus easily, because you're constantly pulling yourself back on track. It's exhausting. By the end of the day, you feel like you ran a mental marathon but have nothing to show for it.",
       "Chinese medicine looks at focus differently. It doesn't see poor concentration as a willpower problem. It sees it as an energy problem. Specifically, it sees it as the result of not having enough Qi to sustain mental focus. The fix isn't trying harder. It's giving your body what it needs to fuel your mind.",
     ],
+    quickAnswer: "About 15% of people with chronic poor focus fit the Qi Deficient body type, where the body lacks the basic energy to sustain concentrated mental effort, no matter how hard you try. Focus is one of the first things to go when Qi runs low, because the body prioritizes physical functions over mental ones. Warm cooked meals, gentle movement between tasks, and stopping multitasking may help more than willpower strategies or another productivity app.",
+    definition: {
+      term: "Spleen Qi Deficiency",
+      termCn: "脾气虚",
+      text: "Spleen Qi Deficiency is the pattern behind focus problems that willpower cannot fix. Common signs include mental fatigue after short periods of concentration, tiredness after meals, bloating, soft voice, easy sweating, loose stools, and a sense that the brain is running on fumes even when you have eaten enough. The Spleen cannot convert food into usable mental energy efficiently, so the brain is underfed even when the stomach is full. The fix is not trying harder, it is giving the body better fuel.",
+    },
     tcmExplanation: [
       "In TCM, mental focus requires Qi, your body's basic energy. When Qi is deficient, it's like trying to keep a candle lit in a windstorm. The flame keeps flickering and going out. You can shield it with your hands (using willpower and effort), but eventually your hands get tired and the wind wins. The problem isn't the candle. It's that there's not enough shelter and not enough fuel.",
       "The Spleen in TCM is the organ responsible for transforming food into Qi and Blood. When Spleen Qi is weak, your body doesn't efficiently convert what you eat into usable energy. Your brain runs on fumes even if you're eating enough. This is why focus problems often come with physical symptoms too: feeling tired after meals, bloating, loose stools, or a general sense of heaviness.",
@@ -1413,6 +1626,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The frustrating part is watching other people eat whatever they want and stay thin. You eat a salad and gain weight. It doesn't seem fair, and honestly, it isn't. But it also isn't random. Your body isn't broken. It's following a pattern that Chinese medicine has been mapping for thousands of years.",
       "This isn't about willpower. If willpower were the problem, you'd have solved it by now. This is about understanding why your metabolism is stuck in first gear when you're trying to drive on the highway.",
     ],
+    quickAnswer: "When weight refuses to budge despite calorie restriction and exercise, TCM points to Phlegm Damp with Qi Deficiency, where dampness clogs the metabolic pipes and low Qi underpowers the engine at the same time. About 10% of people fit Phlegm Damp and another 15% fit Qi Deficient, and the two often overlap. Calorie counting does not address either pattern, because the issue is processing capacity, not input. Damp-draining foods, warm cooked meals, and gentle movement may help both patterns more than stricter dieting.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "痰湿",
+      text: "Phlegm Damp is like a clogged pipe in your body's metabolism. The Spleen is supposed to convert food into clean energy and transport it where needed. When the Spleen is weak, some of what you eat does not become energy, it becomes a sticky heavy substance called Dampness, which thickens into Phlegm over time. This accumulation blocks channels, slows everything down, and makes weight loss feel like pushing a boulder uphill. Common signs include weight around the middle, heavy sluggish feeling, oily skin, worse in humid weather, and foggy thinking after heavy meals.",
+    },
+    conditionalBranches: {
+      title: "Which Metabolic Bottleneck Is Yours?",
+      intro: "Stubborn weight has two main TCM roots, and the right approach depends on whether the pipe is clogged, the engine is weak, or both.",
+      branches: [
+        { signal: "Heavy, puffy, worse in humidity, foggy after meals", meaning: "Dampness is clogging the pipes (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, green tea, cut dairy and sweets" },
+        { signal: "Tired, sweats easily, catches colds, underpowered metabolism", meaning: "Engine lacks fuel to run metabolism (Qi)", approach: "Qi path: congee, jujube dates, gentle movement, no raw food" },
+        { signal: "Both heavy and tired, worse with cold drinks", meaning: "Dampness and Qi Deficiency combined", approach: "Combined path: warm cooked meals, walk after meals, smaller portions" },
+        { signal: "Weight gain with stress and emotional eating", meaning: "Stagnation is compounding the pattern", approach: "Flow path: rose tea, regular movement, address emotional triggers" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, stubborn weight is most often linked to two patterns: Phlegm Damp and Qi Deficiency. These aren't separate problems. They're often two sides of the same coin.",
       "Phlegm Damp is like a slow drain in your body's metabolism. Your Spleen is supposed to transform food into clear energy and transport it where it's needed. When the Spleen is weak or overwhelmed, it can't process everything cleanly. Instead of becoming energy, some of what you eat turns into a sticky, heavy substance that Chinese medicine calls Dampness. Over time, Dampness thickens into Phlegm. This stuff accumulates, blocks your channels, and makes everything slower. Think of it like a clogged pipe. The water is there, but it can't flow.",
@@ -1530,6 +1759,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You've probably tried it all. Throat lozenges, salt water gargles, honey tea. They help for a little while, then the soreness creeps back. Doctors look at your throat and say it looks a bit red, maybe prescribe something, but nothing really fixes it long-term.",
       "In Chinese medicine, a throat that's always sore isn't just a throat problem. It can be a sign that heat is accumulating in the upper part of your body, like a chimney that's too dry. The fireplace below is burning fine, but the flue doesn't have enough moisture to handle the heat rising through it.",
     ],
+    quickAnswer: "The most common TCM pattern behind a chronically sore throat with normal strep tests and no infection is Yin Deficiency with virtual heat rising, where insufficient cooling moisture allows heat to collect in the upper body and scorch the throat overnight. About 10% of people fit this body type. The soreness is worse in the morning because Yin replenishes during sleep, and depleted Yin falls short of overnight repair. Honey in warm water, loquat syrup, and sleep before 11 PM may help rebuild the moistening reserve.",
+    definition: {
+      term: "Yin Deficiency with Virtual Heat",
+      termCn: "阴虚虚火",
+      text: "Yin Deficiency with Virtual Heat describes a body whose cooling and moistening functions have dropped low enough that internal heat builds and rises upward. In TCM, Yin is supposed to anchor heat in the lower body and keep the upper body cool and lubricated. When Yin is depleted, heat is no longer held down, and it rises to collect in the throat, mouth, and face. The throat becomes the canary in the coal mine, the first place to complain when internal dryness reaches a threshold. Common signs include chronic sore throat, dry mouth and eyes, feeling warm at night, and hoarseness by evening.",
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, the throat is considered the gateway to the Lungs and is closely connected to several organ systems. A chronically sore throat is most often linked to Yin Deficiency with virtual heat rising upward.",
       "Yin is the cooling, moistening aspect of your body. When Yin is sufficient, it keeps the upper body cool and lubricated. The throat stays comfortable, the mouth stays moist, and things feel balanced. But when Yin runs low, there isn't enough coolant to keep the system comfortable. Heat that should be balanced starts to rise and collect in the upper body, particularly in the throat.",
@@ -1608,6 +1843,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's something that might change how you think about sugar cravings: they're not always about a lack of willpower. In Chinese medicine, craving sweets specifically (not just any food) is connected to a specific organ system and a specific pattern of imbalance. The sweet craving is your body asking for something it thinks it needs.",
       "Understanding why your body is asking for sweets is the first step toward giving it what it actually wants instead.",
     ],
+    quickAnswer: "Yin Deficiency is the primary TCM explanation for a chronic dry cough that lingers after the cold is gone, when X-rays and infection panels come back clear. About 10% of people fit the Yin Deficient body type, where the respiratory tract dries out and every breath feels like a small irritation. A second pattern, Phlegm Damp, produces wet, phlegmy coughing instead. Steamed pear with rock sugar may help the dry type, while reducing dairy may ease the wet type over time.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is the cooling, moistening counterpart to Yang, the warming, activating force. Where Yang heats, Yin hydrates. When Yin runs low, the body loses its protective moisture layer, and tissues like the throat and airways dry out first. The opposite of Phlegm Damp, which holds too much moisture, Yin Deficiency is an under-watered state. A dry, ticklish cough that worsens at night, a dry mouth, and feeling warm internally are common signs.",
+    },
+    conditionalBranches: {
+      title: "Which Cough Pattern Matches Yours?",
+      intro: "A chronic cough has two common roots in Chinese medicine, and they need opposite approaches.",
+      branches: [
+        { signal: "Dry, ticklish cough with little phlegm, worse at night", meaning: "Lung moisture is too low (Yin Deficiency)", approach: "Yin path: steamed pear with rock sugar, lily bulb, tremella, honey in warm water" },
+        { signal: "Wet, phlegmy cough with lots of mucus", meaning: "Fluid processing is sluggish (Phlegm Damp)", approach: "Damp path: reduce dairy, ginger tea, warm cooked foods, avoid raw and cold" },
+        { signal: "Cough worse after eating heavy or greasy meals", meaning: "Dampness is clogging the system", approach: "Lighter meals, adzuki beans, coix seed, modest green tea" },
+        { signal: "Cough started after a cold and never left", meaning: "Cold damaged Lung Yin or left lingering damp", approach: "Identify dry vs wet quality, then match the path above" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, each of the five flavors corresponds to a specific organ system. The sweet flavor corresponds to the Spleen. When your Spleen is weak or overworked, it sends a signal that it needs sweet-flavored things to support itself. It's not a craving for sugar per se. It's a craving for the energetic quality of sweetness.",
       "The irony is that refined sugar actually weakens the Spleen further. The Spleen asks for help, you give it candy, and the candy makes the problem worse. It's like a thirsty person drinking salt water. It tastes like it's helping, but it's making the underlying dehydration worse.",
@@ -1712,6 +1963,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People tell you you're too sensitive. Maybe you've started believing them. You try to hold it together in meetings, at dinner, in conversations that shouldn't be emotional. Sometimes you succeed. Often you don't. The tears come regardless of whether the situation calls for them.",
       "In Chinese medicine, easy crying isn't a sign of weakness or being \"too emotional.\" It's often a sign that emotional energy is bottled up with nowhere to go, and tears are the pressure release valve. Understanding why the pressure is there in the first place can change how you see this entirely.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind easy crying, both involving Qi but in opposite ways. Liver Qi Stagnation, affecting about 8% of people, creates pressure that releases as tears at the slightest trigger, like a pressure cooker with a clogged valve. Qi Deficiency, affecting about 15%, creates a different easy crying: the cup has low walls, so even small emotions overflow. Movement and rose tea may help the first pattern, while jujube dates and warm nourishing meals may help the second.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation develops when emotional energy stops flowing freely and starts building pressure in the chest. Common causes include suppressed frustration, unexpressed anger, prolonged sitting, lack of creative outlets, chronic stress, and irregular eating and sleeping patterns. The Liver is responsible for smooth emotional flow, so anything that blocks expression tends to stagnate its energy. Tears become a release valve for pressure that has nowhere else to go, which is why the crying often feels out of proportion to the trigger. Common signs include chest tightness, frequent sighing, mood swings, and crying that eases after movement.",
+    },
+    conditionalBranches: {
+      title: "Which Crying Pattern Fits You?",
+      intro: "Easy crying has two distinct TCM roots. One comes from too much pressure, the other from too little capacity.",
+      branches: [
+        { signal: "Cry with chest tightness, sighing, pressure feeling", meaning: "Emotional energy stuck and building pressure (Qi Stagnation)", approach: "Stagnation path: rose tea, daily walk, emotional expression" },
+        { signal: "Cry from small emotions, tired and weak", meaning: "Capacity to hold emotions is too low (Qi Deficiency)", approach: "Qi path: jujube dates, congee, gentle movement, sleep before 11 PM" },
+        { signal: "Crying worse before period", meaning: "Blood moving down lets Liver Qi rise up", approach: "Cycle path: warm meals, magnesium-rich foods, rose tea the week before" },
+        { signal: "Crying with anxiety and racing mind", meaning: "Stagnation has started to affect the Heart", approach: "Heart path: chrysanthemum tea, journaling, talk to someone" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the Liver is in charge of the smooth flow of emotions. When Liver Qi is flowing well, emotions move through you naturally. You feel something, process it, and it passes. When Liver Qi is stagnant, emotions get bottled up. They don't process and move on. They accumulate, building pressure inside you like a closed pot of water coming to a boil.",
       "The Heart also plays a role. In TCM, the Heart is the seat of emotional experience. When the Heart is overactive or unsettled, emotional responses get amplified. A small sadness feels enormous. A tiny frustration feels overwhelming. It's not that the emotion is bigger. It's that your internal volume is turned up.",
@@ -1791,6 +2058,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "It's frustrating because you feel like you should be able to fix it. Everything is fine, right? So why does your chest feel tight? Why does your mind race at the worst moments? Why can't you just relax?",
       "What if the anxiety isn't just in your head? Traditional Chinese Medicine has a completely different way of looking at this. It doesn't see anxiety as a brain malfunction. It sees it as energy that's gotten stuck somewhere in your body, trying to move but unable to. And once you understand that frame, a lot of things start clicking into place.",
     ],
+    quickAnswer: "In Chinese medicine, anxiety that persists with normal blood work and no obvious stressor is most often linked to Liver Qi Stagnation, where the body's energy gets stuck in meridians and creates internal pressure that the mind reads as unease. About 8% of people fit this body type. The anxiety is not in your head, it is in your traffic jam, with the fuel present but the road blocked. Gentle movement, rose tea, and emotional expression may help release the stagnation more than willpower or distraction.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is the pattern behind anxiety that has no obvious cause. Common signs include chest tightness, frequent sighing, racing thoughts, a feeling that something is stuck inside, irritability that alternates with anxiety, mood swings, worse with stress and suppression, better with movement and emotional expression. The Liver is responsible for smooth energy and emotional flow, so when its Qi stagnates, the body's energy system becomes congested and the mind reads that congestion as unease, often without a clear trigger.",
+    },
     tcmExplanation: [
       "In Chinese medicine, one of the most common patterns behind unexplained anxiety is something called Qi Stagnation. Qi is your body's basic life energy, the stuff that makes everything run. Normally it flows smoothly through your body along pathways called meridians. But sometimes it gets blocked.",
       "When energy builds up without an outlet, it creates internal pressure. That pressure shows up as chest tightness, a racing mind, irritability, and that general sense that something is off even though you can't name it. It's not that you're broken. It's that your body's energy system is congested.",
@@ -1896,6 +2169,17 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Dizziness is one of those symptoms that's hard to describe and even harder to pin down. It can feel like spinning, lightheadedness, unsteadiness, or a floating sensation. It can last seconds or hours. It can come and go or be constant. This variety makes it tricky to understand, but Chinese medicine has been making sense of dizziness for thousands of years.",
       "The key insight from TCM is that dizziness isn't random. The quality of the dizziness, when it happens, and what accompanies it all point to specific patterns that can be addressed.",
     ],
+    quickAnswer: "About 15% of people with chronic dizziness fit the Qi Deficient body type, where weak Qi cannot push blood forcefully enough to the head, creating lightheadedness that worsens when standing up. A second pattern, Yin Deficiency, affects about 10% and creates a different dizziness: spinning or unsteadiness from internal wind, often with dry eyes, night sweats, and warmth at night. The two need opposite approaches, which is why a wrong guess can make things worse rather than better.",
+    conditionalBranches: {
+      title: "Which Dizziness Pattern Is Throwing You Off?",
+      intro: "Chronic dizziness has two main TCM roots, and they need opposite approaches. Guessing wrong can make things worse.",
+      branches: [
+        { signal: "Lightheaded on standing, weak, soft voice, sweats easily", meaning: "Qi too weak to push blood upward (Qi Deficiency)", approach: "Qi path: congee, jujube dates, ginger tea, stand up slowly" },
+        { signal: "Spinning or unsteady, dry eyes, warm at night", meaning: "Yin too low to anchor, internal wind (Yin Deficiency)", approach: "Yin path: black sesame, goji berries, lily bulb, avoid spicy food" },
+        { signal: "Dizzy with palpitations and pale complexion", meaning: "Blood is also deficient", approach: "Blood path: dark leafy greens, jujube dates, talk to a doctor about iron" },
+        { signal: "Dizzy with nausea and heavy head", meaning: "Phlegm Damp is obstructing the head", approach: "Damp path: adzuki beans, coix seed, cut dairy and fried food" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, dizziness is most often linked to Qi Deficiency or Yin Deficiency. Both patterns involve the head not getting what it needs to function properly, but the mechanism is different.",
       "Qi Deficiency creates dizziness because Qi is the force that pushes Blood upward. Your brain needs a steady supply of Blood to function. When Qi is weak, it can't push strongly enough. This is especially noticeable when you stand up quickly. Your body needs to adjust blood flow to your head, and if Qi is low, that adjustment happens too slowly. You feel lightheaded until the Qi catches up. This type of dizziness often comes with other signs of low energy: fatigue, weak voice, sweating easily, and feeling better after rest or eating.",
@@ -1977,6 +2261,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You've probably tried eating less. Eating lighter. Skipping meals. Maybe you feel a little better when you don't eat much, but then you're hungry and low on energy, and the cycle starts again. The problem isn't how much you're eating. It's that your body can't handle what you're giving it, even in normal amounts.",
       "Chinese medicine has a clear framework for this. It's not about eating less. It's about eating in a way that matches what your digestive system can actually process right now.",
     ],
+    quickAnswer: "When feeling sick after eating persists despite elimination diets and food tracking, TCM points to Spleen Qi Deficiency with secondary Phlegm Damp, where the problem is not the food but the processing capacity, like an email inbox too overwhelmed to handle what comes in. About 15% of people fit the Qi Deficient type, and Dampness often develops on top. Eating less does not help, eating different may. Congee, warm cooked meals, and thorough chewing may help rebuild the Spleen's capacity over time.",
+    definition: {
+      term: "Spleen Qi Deficiency",
+      termCn: "脾气虚",
+      text: "Spleen Qi Deficiency is like an email inbox that has been overwhelmed for too long. Messages come in faster than they can be processed, so they pile up unopened, the inbox grows, and the whole system slows to a crawl. In TCM, the Spleen is the functional system that converts food into energy. When Spleen Qi runs low, food enters but cannot be processed efficiently, so it sits there creating nausea, heaviness, fatigue, and brain fog. Common signs include feeling sick after normal-sized meals, tiredness instead of energy from food, bloating, and a soft voice.",
+    },
+    conditionalBranches: {
+      title: "Which Post-Meal Pattern Is Making You Sick?",
+      intro: "Feeling sick after eating has two main TCM roots, and the right approach depends on whether the engine is weak or the moisture has accumulated on top.",
+      branches: [
+        { signal: "Sick, tired, soft voice, sweats easily", meaning: "Digestive engine underpowered (Qi)", approach: "Qi path: congee, jujube dates, small frequent meals, chew thoroughly" },
+        { signal: "Sick with heavy sluggish feeling, worse in humidity", meaning: "Dampness has accumulated on top of weakness (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, cut dairy and sweets" },
+        { signal: "Sick after cold or raw food specifically", meaning: "Cold is overwhelming the digestive fire", approach: "Warmth path: warm cooked meals only, ginger tea, no ice water" },
+        { signal: "Sick when eating while stressed or rushing", meaning: "Emotional tension is impairing the Spleen", approach: "Rhythm path: sit down, breathe before meals, no screens while eating" },
+      ],
+    },
     tcmExplanation: [
       "In Chinese medicine, the Spleen is the organ responsible for transforming food into energy. Not your anatomical spleen, but a functional system that covers your entire digestive process. When the Spleen is strong, you eat, food gets converted into usable energy, and you feel good. When the Spleen is weak, food goes in but doesn't get properly transformed.",
       "The key insight is this: it's not the food that's the problem. It's the processing capacity. You could eat the healthiest meal in the world, but if your Spleen can't transform it, it still makes you feel sick. This is why elimination diets often provide only temporary relief. You keep removing foods, but you never address why your body can't handle them in the first place.",
@@ -2060,6 +2360,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Other people seem to bounce back in two days. You need two weeks. And just when you think you're finally healthy, something else gets you. It feels like your immune system is always one step behind whatever's going around.",
       "In Chinese medicine, frequent illness isn't just bad luck. It's a sign that your body's defensive energy is underpowered. And the fix isn't just washing your hands more often (though please keep doing that).",
     ],
+    quickAnswer: "When chronic nausea persists despite a normal GI workup, TCM points to Phlegm Damp, a pattern where the Stomach downward flow is blocked by internal sludge. About 10% of people fit the Phlegm Damp body type, and their nausea comes with a feeling of fullness and heaviness that lingers after meals. The Stomach is supposed to send food downward, but a slow drain backs everything up. Ginger tea may help move energy downward, while adzuki beans and coix seed may help clear the dampness over time.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "痰湿",
+      text: "Phlegm Damp turns the Stomach into a slow-draining sink. The Stomach is supposed to receive food and send it downward. When the drain is clear, everything flows through without effort. When the drain is clogged with sludge, water pools, nothing moves, and the backing-up sensation is what you feel as nausea. Underneath the dampness is usually a weak Spleen, the organ that turns food into energy. A weak Spleen creates dampness, dampness blocks the Stomach, and the Stomach rebels upward.",
+    },
     tcmExplanation: [
       "TCM has a concept called Wei Qi, which is often translated as \"defensive energy.\" Wei Qi circulates just beneath your skin and at your body's surface, acting like an invisible shield against external pathogens. When Wei Qi is strong, most bugs bounce off you. When it's weak, they walk right in.",
       "Wei Qi is produced by your Lungs and distributed by your Spleen. Both organs need adequate Qi to generate enough defensive energy. If your overall Qi is low (Qi Deficiency), your Wei Qi is almost certainly low too. It's like a country that can't afford to maintain its border defenses. The walls are there, but the guards are understaffed.",
@@ -2138,6 +2444,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's what's frustrating: the doctor says your lungs are clear. X-rays look fine. No infection. No allergy they can pinpoint. So why won't the cough stop? Chinese medicine looks at this differently. A chronic cough isn't just about the lungs. It can be a signal that your body's internal moisture or fluid management is off balance.",
       "The character of the cough tells a story. A dry, ticklish cough that produces nothing? That's one pattern. A wet cough with phlegm that keeps coming back? That's another. Understanding which one you have can point toward what your body actually needs.",
     ],
+    quickAnswer: "Yin Deficiency is the primary TCM explanation for a chronic dry cough that lingers after the cold is gone, when X-rays and infection panels come back clear. About 10% of people fit the Yin Deficient body type, where the respiratory tract dries out and every breath feels like a small irritation. A second pattern, Phlegm Damp, produces wet, phlegmy coughing instead. Steamed pear with rock sugar may help the dry type, while reducing dairy may ease the wet type over time.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is the cooling, moistening counterpart to Yang, the warming, activating force. Where Yang heats, Yin hydrates. When Yin runs low, the body loses its protective moisture layer, and tissues like the throat and airways dry out first. The opposite of Phlegm Damp, which holds too much moisture, Yin Deficiency is an under-watered state. A dry, ticklish cough that worsens at night, a dry mouth, and feeling warm internally are common signs.",
+    },
+    conditionalBranches: {
+      title: "Which Cough Pattern Matches Yours?",
+      intro: "A chronic cough has two common roots in Chinese medicine, and they need opposite approaches.",
+      branches: [
+        { signal: "Dry, ticklish cough with little phlegm, worse at night", meaning: "Lung moisture is too low (Yin Deficiency)", approach: "Yin path: steamed pear with rock sugar, lily bulb, tremella, honey in warm water" },
+        { signal: "Wet, phlegmy cough with lots of mucus", meaning: "Fluid processing is sluggish (Phlegm Damp)", approach: "Damp path: reduce dairy, ginger tea, warm cooked foods, avoid raw and cold" },
+        { signal: "Cough worse after eating heavy or greasy meals", meaning: "Dampness is clogging the system", approach: "Lighter meals, adzuki beans, coix seed, modest green tea" },
+        { signal: "Cough started after a cold and never left", meaning: "Cold damaged Lung Yin or left lingering damp", approach: "Identify dry vs wet quality, then match the path above" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, a chronic cough is usually understood through two main patterns. The first is dry cough from Yin Deficiency. Think of your respiratory tract like a delicate sponge that's supposed to stay moist. When Yin is low, that sponge dries out. The throat and airways lose their natural lubrication, and every breath feels like a tiny irritation. The body responds by coughing, trying to clear something that isn't really there. It's like a dry scratch on a record. The needle keeps catching because the surface is too dry.",
       "The second pattern is a wet cough from Phlegm Damp accumulation. In this case, the body's fluid processing is sluggish. Fluids that should be transformed and moved along instead collect and thicken into phlegm. This phlegm rises into the lungs and triggers coughing as the body tries to expel it. But because the underlying fluid issue isn't resolved, the phlegm keeps forming.",
@@ -2222,6 +2544,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard explanation is simple: stomach acid is escaping upward when it should stay down. Take a proton pump inhibitor, reduce the acid, problem solved. Except for many people, it isn't solved. The medication helps for a while, then stops working. Or you become dependent on it. Or you address the acid but still feel that burning, uncomfortable sensation.",
       "Chinese medicine looks at reflux differently. It's not just about too much acid. It's about why things are moving upward when they should be moving downward. That's a question of direction, not just quantity.",
     ],
+    quickAnswer: "When post-nasal drip persists despite antihistamines and nasal sprays, TCM points to Phlegm Damp, a pattern where the Spleen cannot process fluids fast enough and the overflow drips down your throat. About 6% of people fit this body type. Cutting dairy, sugar, and cold raw foods may help reduce the phlegm load, while warm ginger tea supports the Spleen.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "鐥版箍",
+      text: "Phlegm Damp is the mirror opposite of a body that drains fluids cleanly. Where an efficient Spleen converts what you drink into usable moisture and clears the rest, a Phlegm Damp system lets fluid linger, thicken, and turn sticky. The excess has nowhere to go, so it rises as mucus and settles in the sinuses and throat. Common signs include feeling heavy, a coated tongue, extra weight around the middle, and drip that is worse in the morning or after dairy.",
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, the Stomach is supposed to send food downward. That's its natural direction. The Spleen sends nutrients up, the Stomach sends waste down. This is called the \"descending function of the Stomach.\" When reflux happens, this descending function has been disrupted. Things are going up when they should be going down.",
       "The most common pattern behind reflux is Stomach Heat combined with Dampness. Heat in TCM has a natural upward tendency. Think about how fire rises. When there's excess Heat in the Stomach, it wants to rise. Normally, your body's downward energy keeps it in check. But when Dampness is present, it creates a kind of sludge that allows the Heat to push upward more easily. It's like a greasy fire that won't stay contained.",
@@ -2338,6 +2666,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard approach is all about the mouth. Better brushing technique, tongue scraping, flossing more, using antibacterial mouthwash, maybe seeing a dentist for a deep clean. These things help temporarily. But if the bad breath keeps returning no matter how diligent your oral hygiene is, the problem might not be starting in your mouth at all.",
       "Chinese medicine has a saying: the mouth is the opening of the Stomach. What happens in your digestive system can show up on your breath. If there's heat and stagnation below, it rises upward and comes out as bad breath. Fix the mouth all you want. If the source is digestive, it keeps coming back.",
     ],
+    quickAnswer: "In Chinese medicine, chronic bad breath is most often linked to Damp Heat in the Stomach, not poor oral hygiene. About 8% of people fit this body type, where digestive sludge and heat rise through the Stomach meridian to the mouth. Brushing and mouthwash only clean the outside of the sink while the drain stays clogged. Mint tea, celery, and cucumber may help clear the internal source over time, while reducing spicy and greasy foods may stop feeding the pattern.",
+    definition: {
+      term: "Damp Heat",
+      termCn: "湿热",
+      text: "Damp Heat is like a kitchen sink drain where grease and food particles have built up and started to decompose. The Dampness is the sludge collecting in the pipes, and the Heat is the warmth and odor of that decomposition. Water still goes down, slowly, but the smell keeps returning no matter how many times you clean the outside of the sink. The pattern shows up on the breath, in the tongue coating, and after heavy meals because the source is internal, not surface level.",
+    },
     tcmExplanation: [
       "In Chinese medicine, the Stomach meridian connects directly to the mouth. When everything is working well, the Stomach's energy flows downward, food is processed smoothly, and your breath is neutral. But when something goes wrong in the digestive system, that energy can rebel upward, carrying heat and stagnation with it, and that's what shows up as bad breath.",
       "The most common pattern behind chronic bad breath is Damp Heat in the Stomach. The Dampness is the sludge building up, and the Heat is the decomposition creating warmth and odor. This is why brushing your teeth only helps temporarily. You're cleaning the outside of the sink while the drain is still clogged. The odor keeps coming back because the source hasn't been addressed.",
@@ -2415,6 +2749,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "People call it brain fog, and it's become one of the most common complaints in wellness clinics and internet forums alike. But unlike a headache or a rash, brain fog is hard to measure. Blood tests come back normal. Brain scans look fine. Your doctor says there's nothing wrong, and you go home feeling like maybe it's all in your head.",
       "It's not in your head. Well, it is, but not in the way you think. Traditional Chinese Medicine has been describing this exact collection of symptoms for centuries, and it connects brain fog to patterns that go deeper than \"you need more sleep.\"",
     ],
+    quickAnswer: "About 10% of people with stubborn brain fog fit the Phlegm Damp body type, where the Spleen cannot process fluids cleanly and a cloudy, sticky substance rises to cloud the head. A second group, about 15%, fit the Qi Deficient type, where low overall energy dims brain power rather than clouding it. The two patterns need different approaches. Adzuki beans and tangerine peel tea may help the damp type, while congee and jujube dates may support the low-energy type over time.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "痰湿",
+      text: "Phlegm Damp does in the body what condensation does on a window. When the Spleen turns food into energy, it is supposed to send clear fuel upward to the brain. When processing is sluggish, that fuel arrives cloudy and sticky instead of clear. The brain still works, but everything takes more effort because the input is obscured. Wiping the outside of the window does not help, because the moisture is forming on the inside. The fix is to change the conditions producing the dampness.",
+    },
+    conditionalBranches: {
+      title: "What Is Clouding Your Thinking?",
+      intro: "Brain fog has two common roots in Chinese medicine, and they call for different support.",
+      branches: [
+        { signal: "Thick, heavy fog, worse after meals and in humid weather", meaning: "Moisture clouding the head (Phlegm Damp)", approach: "Damp path: adzuki beans, coix seed, tangerine peel tea, cut dairy and sweets" },
+        { signal: "Dim, low-power fog, worse as the day goes on", meaning: "Brain fuel is too low (Qi Deficiency)", approach: "Qi path: congee, sweet potato, jujube dates, warm cooked meals, gentle movement" },
+        { signal: "Fog that coffee temporarily fixes but worsens over time", meaning: "Both patterns aggravated by stimulants", approach: "Start morning with warm water instead of coffee, add ginger or tangerine peel" },
+        { signal: "Fog paired with sluggish digestion and bloating", meaning: "Spleen weakness underlies both damp and low Qi", approach: "Warm easily digested meals, small portions, 15-minute walk after eating" },
+      ],
+    },
     tcmExplanation: [
       "Chinese medicine doesn't have a concept called \"brain fog.\" But it does have a concept that describes the exact same experience: Phlegm Damp clouding the head. In TCM theory, your Spleen is responsible for transforming food into clear energy and transporting that energy upward to your brain. When your Spleen is weak, or when you're eating foods that create excess moisture, the transformation doesn't happen cleanly. Instead of clear energy rising to your head, you get a cloudy, sticky, heavy substance that Chinese medicine calls Phlegm Damp.",
       "There's also a second pattern that contributes to brain fog: Qi Deficiency. When your body's overall energy is low, your brain simply doesn't have enough fuel to run at full speed. This creates a different quality of fog, more like dimming the lights than clouding the window. Some people have both patterns simultaneously, which is why their brain fog feels so stubborn.",
@@ -2495,6 +2845,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This is cyclic breast tenderness, also called mastalgia, and it's one of the most common premenstrual symptoms. Somewhere between 50% and 80% of women experience it at some point. It arrives before your period and leaves after, as reliably as clockwork. Which is both reassuring (it's predictable) and frustrating (it keeps happening).",
       "First, the important reassurance: cyclic breast tenderness that comes and goes with your period is not the same thing as a breast lump that stays. If you find a lump that doesn't go away after your period, or any discharge, or skin changes, please see a doctor right away. What we're talking about here is the monthly soreness and swelling that resolves on its own. That's a different conversation.",
     ],
+    quickAnswer: "When cyclic breast tenderness persists despite caffeine reduction and supportive bras, TCM points to Liver Qi Stagnation, a pattern where energy tightens instead of flowing freely before your period. About 15% of people fit the Qi Stagnant body type, and the Liver meridian runs directly through the breast tissue. Energy that should pass through instead pools like traffic backing up on a highway, creating pressure and pain. Rose tea, reduced salt, and gentle movement in the week before your period may help keep that energy moving.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is the opposite of smooth, free flow. Where healthy Liver energy moves like water through an open channel, stagnant Liver Qi moves like water hitting a dam. The Liver system is responsible for keeping energy circulating throughout the body, and it is especially sensitive to frustration, stress, and suppressed emotion. When it tightens, the meridians narrow and energy pools wherever the channel is tightest. The breasts sit on the Liver meridian, so premenstrual pressure often shows up there first.",
+    },
     tcmExplanation: [
       "In Chinese medicine, the breasts sit right on two major energy pathways: the Liver meridian and the Stomach meridian. Think of meridians as highways that Qi travels along. The Liver meridian runs along the sides of the body and passes through the breasts. The Stomach meridian runs down the front of the body, straight through the center of the breasts. These aren't metaphorical. In TCM anatomy, these are the literal channels that supply energy to the breast tissue.",
       "Before your period, Qi and Blood start gathering in the pelvis to prepare for menstruation. But they also build up in the breasts because of those meridian pathways. If your Qi is flowing smoothly, the extra energy passes through without causing problems. If your Qi is stagnating, the energy pools in the breasts like traffic backing up on a highway. The pooling creates pressure, and the pressure creates pain and swelling.",
@@ -2568,6 +2924,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's something most people don't know: in Chinese medicine, your nails are considered an extension of your Blood, and they're governed by the Liver. Not the liver organ in the Western sense, but the Liver system in TCM, which is responsible for storing Blood and keeping it flowing smoothly throughout your body.",
       "Think of your nails like the leaves of a tree. If the roots are healthy and the soil is rich, the leaves are vibrant and strong. If the roots are struggling or the soil is depleted, the leaves get brittle, spotted, and thin. Your nails are the leaves. Your Blood and Liver are the roots.",
     ],
+    quickAnswer: "The most common TCM pattern behind brittle, splitting nails is Liver Blood deficiency, where the Liver system lacks the reserves to nourish the nail bed. In TCM, the Liver opens into the nails, so when Blood or Qi or Yin runs low, the nails are the first to thin and break. Two body types often show up here. Qi Deficient types have soft nails that bend, while Yin Deficient types have dry, ridged nails that snap. Black sesame, goji berries, and bone broth may help nourish the roots over time.",
+    definition: {
+      term: "Liver Blood",
+      termCn: "肝血",
+      text: "Liver Blood shows its health through the nails, and common signs of deficiency include thin, brittle, ridged, or slow-growing nails that peel in layers and break before they grow long. Other signals may include a pale complexion, easy bruising, dry skin, brittle hair, muscle cramps, and blurry or dry eyes. The concept comes from the TCM saying that the Liver opens into the nails. When Blood is abundant, nails are smooth, pink, and strong. When Blood is depleted, the nails are like leaves on a tree with struggling roots: the first part to wither.",
+    },
+    conditionalBranches: {
+      title: "Which Depletion Is Weakening Your Nails?",
+      intro: "Brittle nails have two common roots in Chinese medicine, and the right foods depend on which one matches your pattern.",
+      branches: [
+        { signal: "Soft nails that bend rather than snap, with tiredness and pale complexion", meaning: "Construction crew lacks energy (Qi Deficiency)", approach: "Qi path: congee, sweet potato, pumpkin, warm cooked meals, avoid raw and cold" },
+        { signal: "Dry, ridged, brittle nails with night warmth and dry throat", meaning: "Moistening reserves are low (Yin Deficiency)", approach: "Yin path: black sesame, lily bulb, pear, sleep before 11 PM, avoid spicy food" },
+        { signal: "Nails that improved briefly with biotin but broke again", meaning: "Supplement alone cannot fix internal depletion", approach: "Nourish Blood and Liver: dark leafy greens, goji berries, bone broth" },
+        { signal: "Nails worse during periods of poor sleep or high stress", meaning: "Liver rebuilds Blood only during deep rest", approach: "Sleep before 11 PM, the Liver rebuilds reserves between 11 PM and 3 AM" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the saying is \"the Liver opens into the nails.\" This means the health of your nails reflects the health of your Liver Blood. When Blood is abundant and well-nourished, your nails are smooth, strong, and pink. When Blood is deficient, the nails don't get the building blocks they need. They become thin, brittle, ridged, and slow-growing.",
       "There are two main patterns behind this. Qi Deficiency is like having a construction crew that doesn't have enough energy to finish the job. The raw materials might be there, but the body lacks the Qi to transform them into strong nails. You might also feel tired, have a pale complexion, or bruise easily with this pattern.",
@@ -2642,6 +3014,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's the thing the beauty industry doesn't want to admit: cellulite is incredibly common. Up to 90% of women have it. It's not a disease. It's not a moral failing. And it's definitely not just about weight. Thin people have cellulite too. Athletes have cellulite. It's about how your body handles fluids and tissue structure, not the number on the scale.",
       "Chinese medicine looks at cellulite through the lens of fluid metabolism. It's about how your body processes, moves, and eliminates moisture. If that system is sluggish, fluids accumulate in the tissues, and cellulite may be one of the visible results.",
     ],
+    quickAnswer: "Phlegm Damp is the primary TCM explanation for cellulite that persists despite creams and dry brushing, because the pattern is about fluid metabolism, not fat. When the Spleen is weak, fluids accumulate under the skin and create the uneven, dimpled texture. About 10% of people fit the Phlegm Damp body type, where the body holds moisture like a sponge left in stagnant water. Cutting back on dairy and sweets, adding adzuki beans and coix seed, and eating warm cooked foods may help the body process the trapped moisture over time.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "痰湿",
+      text: "Phlegm Damp settles into tissues when fluid metabolism runs sluggish, and the Spleen is the organ at fault. A diet heavy in dairy, sugar, fried food, and cold drinks overworks the Spleen until it cannot process fluids cleanly. The leftover moisture thickens, collects, and sinks. The body becomes like a sponge sitting in stagnant water: heavy, puffy, and uneven. Cellulite is the visible sign of that moisture trapped under the skin, not a weight problem.",
+    },
     tcmExplanation: [
       "In TCM, cellulite is most often associated with Phlegm Dampness accumulating under the skin. Think of your body's tissue like a sponge sitting in a puddle. When the sponge is healthy and dry, it's firm and smooth. When it's sitting in stagnant water, it gets heavy, puffy, and develops an uneven texture. Your connective tissue is the sponge. The stagnant fluid is the Phlegm Dampness.",
       "The organ responsible for fluid metabolism in TCM is the Spleen. When the Spleen is strong, it processes fluids efficiently, sending the useful parts where they're needed and eliminating the rest. When the Spleen is weak, fluids aren't processed properly. They accumulate, become thick and sticky, and settle into tissues. That's Phlegm Dampness.",
@@ -2710,6 +3088,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Cold sweats are different from the normal sweating you do when you're hot or exercising. Normal sweat is warm. It's your body's cooling mechanism working as intended. Cold sweat is something else. It's moisture escaping when it shouldn't, and the fact that it feels cold tells you the body isn't generating enough internal warmth to balance what's being lost.",
       "If this sounds familiar and your doctor hasn't found a clear cause, the Eastern medicine perspective offers a specific explanation involving your body's defensive energy and its ability to keep the doors closed when they should be closed.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind cold sweats that happen without a clear medical cause, and both involve the body losing its grip at the boundary. The first is Qi Deficiency, where Defensive Qi is too weak to keep the pores sealed, and about 12% of people fit this type. The second is Yang Deficiency, where the warming force itself is also low, so the sweat comes out cold. Warm cooked meals, gentle movement, and layering the midsection may help both patterns over time.",
+    definition: {
+      term: "Defensive Qi",
+      termCn: "卫气",
+      text: "Defensive Qi, or Wei Qi, is the door latch of your body. It circulates just beneath the skin and controls when the pores open and close. When the latch works, the doors stay shut when you are at rest and open only when heat needs to escape. When the latch is weak, the doors drift open and moisture leaks out at times it should not. The sweat feels cold because the body cannot generate enough internal warmth to balance what is being lost. This is different from night sweats, which come from internal heat pushing outward.",
+    },
+    conditionalBranches: {
+      title: "Why Is Your Skin Leaking Cold Moisture?",
+      intro: "Cold sweats have two common roots in Chinese medicine, and each points to a different gap in your energy.",
+      branches: [
+        { signal: "Sweats with tiredness, soft voice, and minimal exertion", meaning: "Door latch is weak (Qi Deficiency)", approach: "Qi path: congee, chicken soup, sweet potato, gentle movement, regular meals" },
+        { signal: "Sweats with cold hands, cold feet, and a preference for warmth", meaning: "The warming force is also low (Yang Deficiency)", approach: "Yang path: ginger, cinnamon, lamb, layer midsection and lower back, warm foot soaks" },
+        { signal: "Sweats that worsen with heavy workouts", meaning: "Exercise is draining the boundary further", approach: "Switch to walking, light yoga, or tai chi until Qi recovers" },
+        { signal: "Sweats that ease with warmth and regular meals", meaning: "The system needs steady fuel, not big loads", approach: "Small warm meals at consistent times, avoid skipping breakfast" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, there's a specific type of energy called Wei Qi, or Defensive Qi. It circulates just beneath the skin and controls the opening and closing of your pores. Think of it like a door latch on a house. When the latch works properly, the doors stay closed when they should and open when they need to. Heat stays in when it's cold outside. Moisture stays in when you're at rest.",
       "When Defensive Qi is too weak, the latch doesn't hold. The pores open when they shouldn't, and moisture escapes. Because the body doesn't have enough energy to both hold the pores closed and maintain internal warmth, what comes out feels cold and clammy. The sweat isn't from excess heat. It's from a lack of containment.",
@@ -2789,6 +3183,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The internet will tell you it's genetics, allergies, or thin skin. And sure, those things can play a role. But what if there's something deeper going on? Something about how your body is running on the inside that shows up right there, under your eyes, for everyone to see?",
       "Chinese medicine reads the face like a dashboard. Dark circles under the eyes are like a warning light on that dashboard, and they've been pointing to specific internal patterns for thousands of years. Let's unpack what those patterns might be.",
     ],
+    quickAnswer: "In Chinese medicine, dark circles under the eyes are most often linked to Kidney Yin Deficiency, where the body cooling and reserve system runs too low to keep the delicate under-eye area nourished. About 10% of people fit the Yin Deficient body type, and they often run warm at night and wake with a dry mouth. A second pattern, Spleen Qi Deficiency, creates puffy, pooling circles instead. Black sesame, goji berries, and sleep before 11 PM may help the Yin type, while warm cooked meals may support the Qi type over time.",
+    definition: {
+      term: "Kidney Yin Deficiency",
+      termCn: "肾阴虚",
+      text: "Kidney Yin Deficiency drains the cooling reserves that keep heat contained. The Kidney system in TCM governs your reserves, your aging process, your bones, and your fundamental vitality. Yin is the cooling, moistening, resting aspect of that system. When Yin is low, relative heat builds unopposed, and the delicate under-eye area is one of the first places it shows. The darkness is your body version of the red battery icon. People with this pattern often also have dry skin, trouble staying asleep, and a feeling of being wired but tired.",
+    },
+    conditionalBranches: {
+      title: "Which Shadow Is Under Your Eyes?",
+      intro: "Dark circles have two common roots in Chinese medicine, and they look and feel different from each other.",
+      branches: [
+        { signal: "Dark, thin, dry circles with poor sleep and night warmth", meaning: "Cooling reserves are depleted (Kidney Yin Deficiency)", approach: "Yin path: black sesame, goji berries, mulberries, sleep before 11 PM, avoid spicy food" },
+        { signal: "Puffy, swollen circles with paleness and tiredness", meaning: "Fluids are pooling because energy is low (Spleen Qi Deficiency)", approach: "Qi path: congee, jujube dates, lightly cooked vegetables, cut cold and raw foods" },
+        { signal: "Circles that worsen with late nights and stress", meaning: "Both patterns aggravated by depletion", approach: "Protect sleep hours, warm water throughout the day, steady nourishing meals" },
+        { signal: "Circles that eye cream cannot fix", meaning: "Source is internal, not surface level", approach: "Nourish from within: dark-colored foods for Kidney, warm cooked meals for Spleen" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the area under the eyes is connected to the Kidney system. Not the kidneys as the anatomical organs you're thinking of, but the Kidney system as an energy complex that governs your reserves, your aging process, your bones, your hair, and your fundamental vitality. When Kidney energy is depleted, it can show up as darkness under the eyes. Think of it like a battery indicator. When the battery is low, the indicator turns red. Dark circles are your body's version of that red battery icon.",
       "The most common pattern is Kidney Yin Deficiency. Yin is the cooling, moistening, resting aspect of your body. When Yin is low, there's relative excess heat, and that heat can \"cook\" the fluids in the delicate under-eye area, leaving it dry, thin, and discolored. People with this pattern often also have trouble sleeping, dry skin, night sweats, and a feeling of being \"wired but tired.\"",
@@ -2867,6 +3277,17 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The usual medical advice focuses on identifying a specific cause: a bacterial infection, a parasite, food poisoning, IBS, celiac disease, or inflammatory bowel disease. These are all real possibilities and worth investigating. But what if you've been tested for everything and the results come back normal, yet the loose stools keep coming?",
       "Chinese medicine doesn't treat all diarrhea as the same problem. It sees two very different types with opposite qualities, and getting the type right matters because the wrong food approach can actually make things worse.",
     ],
+    quickAnswer: "About 10% of people with chronic loose stools fit the Yang Deficient body type, where the digestive system runs too cold to process food properly, like a washing machine on a cold cycle. A second group fits the Damp Heat type, where internal heat rushes everything through with burning urgency. The two types need opposite food approaches. Warming ginger tea and congee may help the cold type, while mung bean soup and cooling foods may ease the hot type over time.",
+    conditionalBranches: {
+      title: "Is Your Digestion Running Cold or Hot?",
+      intro: "Chronic diarrhea has two opposite roots in Chinese medicine, and the wrong food choice can make either one worse.",
+      branches: [
+        { signal: "Watery, not smelly, worse in the morning or after cold foods", meaning: "Digestive furnace is too low (Yang Deficiency, Cold type)", approach: "Cold path: warm water, ginger tea, cinnamon tea, congee, avoid raw and cold foods" },
+        { signal: "Urgent, burning, foul-smelling, with a hot and sweaty feeling", meaning: "Heat is flushing the system out (Damp Heat, Heat type)", approach: "Heat path: mung bean soup, cucumber, celery, avoid spicy, alcohol, and greasy food" },
+        { signal: "Loose stools that shift between cold and hot qualities", meaning: "Mixed pattern, needs gentle middle ground", approach: "Warm water is safe for both types, small frequent meals, identify which dominates" },
+        { signal: "Stomach upset that worsens with stress", meaning: "Liver overacting on Spleen", approach: "Peppermint tea, regular meal times, avoid eating while tense" },
+      ],
+    },
     tcmExplanation: [
       "TCM sees chronic diarrhea as falling into two main categories, and they're basically opposites. Understanding which one you have changes everything about how you approach it.",
       "The first type is Cold diarrhea. This is the most common form. Your Spleen and Stomach lack the warmth and energy needed to process food properly. It's like a washing machine running on cold water: the clothes go in, the cycle runs, but nothing really gets cleaned because there's not enough heat to break things down. The stool tends to be watery, not particularly smelly, and worse in the morning or after eating cold foods. Your abdomen may feel cold to the touch, and you might prefer warm drinks and warm weather.",
@@ -2947,6 +3368,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard approach treats eczema as a skin problem. Apply something to the skin, suppress the inflammation, wait for it to return. But eczema that keeps coming back to the same places isn't just a surface issue. It's a signal that something inside is generating the conditions for flare-ups over and over.",
       "Chinese medicine views eczema as an internal problem expressing itself through the skin. The redness, oozing, and itchiness aren't random. They're the visible signs of Damp Heat, a specific internal pattern where heat and moisture combine to create the perfect conditions for skin flare-ups.",
     ],
+    quickAnswer: "When eczema persists despite steroid creams and trigger avoidance, TCM points to Damp Heat, a pattern where internal moisture and heat combine to generate flare-ups through the skin. About 8% of people fit the Damp Heat body type, and their eczema tends to be red, oozing, and itchy. Two other patterns can show up: the Sensitive type reacts to environmental triggers, and the Yin Deficient type produces dry, cracking eczema instead. Mung bean soup, coix seed, and reducing dairy may help the damp type, while pear and lotus root may support the dry type.",
+    definition: {
+      term: "Damp Heat",
+      termCn: "湿热",
+      text: "Damp Heat shows up on the skin with a recognizable set of signs: red, inflamed patches that ooze or weep, a burning itch that worsens in humid weather, oily skin prone to eruptions, a thick yellow tongue coating, and a general feeling of being warm and sticky. The Dampness is the sticky, heavy, recurrent quality that makes eczema return to the same spots. The Heat is the redness, inflammation, and burning. Creams cool the surface temporarily, but the internal Damp Heat keeps cooking, like putting ice on a stove burner that keeps generating heat.",
+    },
+    conditionalBranches: {
+      title: "What Is Fueling Your Flare-Ups?",
+      intro: "Eczema has three main TCM roots, and each calls for a different internal approach.",
+      branches: [
+        { signal: "Red, oozing, itchy eczema worse in humid weather", meaning: "Moisture and heat combined (Damp Heat)", approach: "Drain and cool: mung bean soup, coix seed, celery, reduce dairy, alcohol, and spicy food" },
+        { signal: "Eczema triggered by foods, pollens, or chemicals", meaning: "Body reacting to environmental triggers (Sensitive type)", approach: "Identify and reduce triggers, gentle skincare, breathable fabrics, dehumidifier indoors" },
+        { signal: "Dry, cracking, flaking eczema without oozing", meaning: "Internal dryness, not dampness (Yin Deficiency)", approach: "Nourish moisture: pear, lotus root, tremella, avoid over-cooling which weakens digestion" },
+        { signal: "Eczema that returns to the exact same spots", meaning: "Dampness has settled there and never fully left", approach: "Persistent damp-draining diet, warm not hot showers, simple moisturizers like coconut oil" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, eczema is viewed through the Damp Heat lens. Dampness is the sticky, heavy, oozing quality. It's what makes eczema recurrent and stubborn. Heat is the redness, inflammation, and burning itch. These two forces combine to create the perfect conditions for skin flare-ups.",
       "Creams cool the surface temporarily, but the internal Damp Heat keeps cooking. It's like putting ice on a stove burner. The ice melts, and the burner keeps generating heat. The flare-up returns because the source, the internal Damp Heat, was never addressed. The skin is the exhaust pipe, not the engine.",
@@ -3033,6 +3470,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard approach is to treat the pain. Take something, wait for it to work, repeat when the pain returns. But if you're getting headaches regularly, something is causing them. The pain isn't the problem. It's a signal that something else is wrong.",
       "Chinese medicine has been treating headaches for thousands of years, and it doesn't see them as random events. It sees them as the result of specific patterns that can be understood and addressed. The location of your headache, the type of pain, when it happens, and what makes it better or worse all tell a story about what's going on inside.",
     ],
+    quickAnswer: "The most common TCM pattern behind recurring tension headaches is Liver Qi Stagnation, where stress and frustration tighten the energy channels and create upward pressure in the head. About 8% of people fit the Qi Stagnant body type, and their headaches feel tight, pressing, or like a band around the head. A second pattern, Yin Deficiency, produces burning or throbbing headaches instead, as unanchored heat rises. Rose tea and gentle movement may help the stagnant type, while black sesame and sleep before 11 PM may support the deficient type.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation builds when stress, frustration, resentment, or suppressed emotion jam the Liver system ability to keep energy flowing smoothly. The Liver is responsible for the free movement of Qi throughout the body, and it is the organ most sensitive to emotional pressure. When it tightens, the meridians narrow and pressure builds behind the blockage. Because the Liver meridian connects strongly to the head, that pressure often surfaces as a tight, pressing headache that worsens with stress and eases with movement or emotional release.",
+    },
+    conditionalBranches: {
+      title: "Which Pressure Is in Your Head?",
+      intro: "Recurring headaches have two main TCM roots, and the quality of the pain tells you which one is yours.",
+      branches: [
+        { signal: "Tight, pressing, band-like headache that worsens with stress", meaning: "Energy is stuck and building pressure (Qi Stagnation)", approach: "Move Qi: rose tea, chrysanthemum tea, gentle walking, stretching, emotional processing" },
+        { signal: "Burning, throbbing headache, worse at night or after activity", meaning: "Cooling anchor is too low (Yin Deficiency)", approach: "Nourish and cool: black sesame, goji berries, lily bulb, pear, sleep before 11 PM" },
+        { signal: "Headache at the temples after a frustrating week", meaning: "Liver meridian pressure from emotional buildup", approach: "Tangerine peel tea, regular meals, find healthy outlets for frustration" },
+        { signal: "Headache that ibuprofen calms but returns the next day", meaning: "Pattern is ongoing, the trigger has not been addressed", approach: "Identify stress vs depletion, match the path above, eat at consistent times" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, recurring headaches are most often linked to Qi Stagnation or Yin Deficiency. These are different patterns with different qualities of pain, but they share a common theme: something is creating upward pressure in the head that has nowhere to go.",
       "Qi Stagnation is like a traffic jam in your body's energy system. Qi is supposed to flow smoothly through channels called meridians. When it gets blocked, pressure builds up. The Liver meridian is particularly important here. It's responsible for the smooth flow of Qi throughout your body, and it has a strong connection to the head. When Liver Qi gets stuck, often from stress, frustration, or suppressed emotions, that stuck energy creates upward pressure. The result is a headache that feels tight, pressing, or like a band around your head.",
@@ -3114,6 +3567,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You're sitting at your desk, perfectly comfortable, when suddenly a wave of heat rises from your chest to your face. Your skin flushes, you start sweating, and within minutes it passes. Then you're cold. This cycle repeats, sometimes dozens of times a day. It's not a fever. It's not anxiety. It's your body's internal thermostat misfiring.",
       "Sudden waves of heat rushing through the body. In TCM, hot flashes are Yang rising uncontrollably because Yin can't anchor it down. When Yin (cooling force) is deficient, the heating energy surges upward through the chest, face, and neck. Not just menopause. Any age, any gender.",
     ],
+    quickAnswer: "Liver Qi Stagnation is the primary TCM explanation for overthinking, where stuck energy traps thoughts in a loop like a record player with a scratch, replaying the same few seconds because the needle cannot move forward. About 8% of people fit the Qi Stagnant type. Moving your body, externalizing thoughts onto paper, and rose tea may help break the loop, since physical movement literally moves the stuck energy feeding it.",
+    definition: {
+      term: "Qi Stagnation",
+      termCn: "姘旈儊",
+      text: "Qi Stagnation is like a record player with a scratch and a weakening motor. The Liver is supposed to keep energy, and thoughts, flowing forward in a smooth stream. When frustration or stress knots that flow, the needle sticks and the same phrase replays on loop. The mind cannot let go and move on because the energy underneath it cannot. The brake is not in your thoughts, it is in the stuck current carrying them.",
+    },
     tcmExplanation: [
       "In TCM, hot flashes are a Yin-Yang imbalance. Yin is the cooling, anchoring, moistening force. Yang is the heating, rising, activating force. Normally, Yin holds Yang down like a lid on a pot. When Yin is deficient, the lid is too light. Yang surges upward as heat, creating the flash.",
       "When the surge passes, you may feel cold because the heat has left and the underlying Yin deficiency means there's no warmth reserve either. The analogy is a pot boiling over. There isn't enough liquid (Yin) to absorb the heat (Yang), so the steam bursts through unpredictably.",
@@ -3198,6 +3657,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard approach is to blame wear and tear, or maybe arthritis. And those are real possibilities. But when blood tests for arthritis come back negative and X-rays show no significant damage, the creaking and aching continue without a clear explanation. The joints aren't broken. They're just not getting what they need.",
       "Chinese medicine calls this Bi Syndrome, meaning obstruction. Something is blocking the smooth flow of Qi and Blood through the joint area. The joint is like a door hinge left out in the rain. It still swings, but it's stiff, creaky, and reluctant to move.",
     ],
+    quickAnswer: "Chinese medicine identifies three distinct patterns behind joint pain that shows no structural damage on X-rays, and each involves a different force obstructing the joint. The first is Cold Bi from Yang Deficiency, where about 8% of people lack the internal warmth to keep joints lubricated. The second is Blood Stasis, where circulation is sluggish and the pain is sharp and fixed. The third is Damp Bi from Phlegm Damp, where joints feel swollen and heavy. Warming foods, gentle movement, and damp-draining foods may help depending on the pattern.",
+    definition: {
+      term: "Bi Syndrome",
+      termCn: "痹证",
+      text: "Bi Syndrome means obstruction, the opposite of free flow. Where a healthy joint moves like a well-oiled door hinge, a joint with Bi Syndrome moves like a hinge left out in the rain: stiff, creaky, and reluctant. The word Bi literally means blockage. Something is preventing the smooth passage of Qi and Blood through the joint. The obstructing force can be Cold, which contracts and freezes, Damp, which settles and weighs down, or Wind, which moves the pain from place to place. Most people have a combination.",
+    },
+    conditionalBranches: {
+      title: "Which Obstruction Is in Your Joints?",
+      intro: "Joint pain without structural damage has three main TCM roots, and each points to a different approach.",
+      branches: [
+        { signal: "Stiff, cold joints that worsen in cold weather and ease with warmth", meaning: "Cold is contracting the joint (Cold Bi, Yang Deficiency)", approach: "Warm path: ginger, cinnamon, lamb, bone broth, warm foot soaks, keep joints covered" },
+        { signal: "Sharp, fixed, stabbing pain in one spot, possibly with purplish skin", meaning: "Blood is stuck and not flowing (Blood Stasis)", approach: "Move blood: turmeric, hawthorn, rose tea, regular gentle movement, daily 15-minute walk" },
+        { signal: "Heavy, swollen, soft joints that worsen in humid or rainy weather", meaning: "Moisture has settled in (Damp Bi, Phlegm Damp)", approach: "Drain damp: adzuki beans, coix seed, celery, winter melon, reduce dairy and sweets" },
+        { signal: "Pain that moves between different joints", meaning: "Wind is carrying the obstruction around", approach: "Combination approach: gentle movement, warming foods, and damp-draining foods together" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, joint pain without structural damage is called Bi Syndrome. Bi means obstruction. Something is blocking the smooth flow of Qi and Blood through the joint area. The three main obstructing forces are Cold Bi, Damp Bi, and Wind Bi, and most people have a combination.",
       "Cold Bi makes the joints stiff, worse with cold, and better with warmth. Cold contracts and slows things down. When cold obstructs a joint, the circulation becomes sluggish, and the joint feels like it's frozen in place. Movement helps because it generates warmth and gets the Qi and Blood flowing again.",
@@ -3284,6 +3759,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The obvious answer is that something structural must be wrong. A bulging disc, a pinched nerve, a muscle strain. And those are real possibilities worth checking. But when the scans come back clean and the pain persists, it's worth asking a different question. What if the problem isn't the structure, but the support system?",
       "Chinese medicine views the lower back as the residence of the Kidneys, the root of the body's warming and cooling systems. When those systems are undercharged, the lower back loses its internal support. The spine is fine, but the foundation beneath it is running low on fuel.",
     ],
+    quickAnswer: "In Chinese medicine, chronic lower back pain with normal MRI results is most often linked to Kidney Yang Deficiency, where the internal heater that warms the lower back runs too low. About 8% of people fit the Yang Deficient body type, and their back feels cold, weak, and worse in winter. Two other patterns can overlap: Qi Deficiency leaves the muscular support undercharged, and Blood Stasis creates sharp, fixed pain. Warm cooked foods, ginger tea, and bone broth may help the cold type, while gentle movement may support the others.",
+    definition: {
+      term: "Kidney Yang Deficiency",
+      termCn: "肾阳虚",
+      text: "Kidney Yang Deficiency announces itself through a cluster of signs: a cold, weak, achy lower back that feels worse in winter and better with warmth, cold hands and feet, a preference for hot drinks and warm environments, frequent clear urination, lower energy, and sometimes a feeling of coldness in the knees. In TCM, the lower back is the residence of the Kidneys, and Kidney Yang is the internal heater. When that heater is underpowered, the walls, your spine, are intact, but the furnace is not generating enough warmth. The result is a back that aches from lack of internal support.",
+    },
+    conditionalBranches: {
+      title: "What Is Weakening Your Lower Back?",
+      intro: "Lower back pain with clean scans has three main TCM roots, and each needs different support.",
+      branches: [
+        { signal: "Cold, weak, achy back, worse in winter, better with warmth", meaning: "Internal heater is underpowered (Kidney Yang Deficiency)", approach: "Yang path: ginger tea, cinnamon, lamb, black beans, bone broth, warm compresses" },
+        { signal: "Back aches after standing or sitting, builds through the day, with general tiredness", meaning: "Muscular support is undercharged (Qi Deficiency)", approach: "Qi path: congee, chicken soup, gentle movement like tai chi or swimming, avoid heavy lifting" },
+        { signal: "Sharp, fixed, stabbing pain in one spot", meaning: "Blood is not flowing freely (Blood Stasis)", approach: "Move blood: turmeric, hawthorn, rose tea, regular gentle movement, warm foot soaks" },
+        { signal: "Back pain that eases with rest but returns with activity", meaning: "Reserves are too low to sustain exertion", approach: "Steady gentle movement, not intense exercise, early sleep, warm cooked foods" },
+      ],
+    },
     tcmExplanation: [
       "The lower back is the residence of the Kidneys in TCM. Kidney Yang is the internal heater. When Kidney Yang is deficient, the lower back lacks warmth, circulation is sluggish, and the area feels cold, achy, and vulnerable to cold weather. Think of it like a house with broken heating. The walls, your spine, are intact, but the furnace, Kidney Yang, isn't generating enough warmth.",
       "Kidney Yin Deficiency creates a different kind of pain: tight, sore, and worse with overexertion. It's like the house has good heating but the plumbing is dry, so everything runs hot but brittle. The lower back feels tight rather than cold, and the ache is more pronounced after activity than during rest.",
@@ -3370,6 +3861,17 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Menopause is not a disease. Let's start there. It's a transition, a natural shift in the body's hormonal landscape that every woman goes through. But \"natural\" doesn't mean \"easy,\" and it doesn't mean you just have to suffer through it. Some women glide through menopause with barely a symptom. Others feel like their body has been hijacked. The difference often comes down to what your baseline looks like before menopause starts.",
       "In Chinese medicine, menopause is understood as a natural decline in Yin. Yin is the cooling, moistening, anchoring force in the body. When Yin drops, the body loses its ability to regulate temperature, stay moist, and keep things calm. The symptoms you're feeling aren't random. They're all different expressions of the same underlying shift.",
     ],
+    quickAnswer: "About 10% of people with intense menopause symptoms fit the Yin Deficient body type, where the body cooling, moistening savings account drops low enough that heat surges, dryness spreads, and sleep fragments. A second factor, Qi Stagnation, amplifies the emotional swings as stress tightens the Liver system during a time of rapid change. The two patterns feed each other: depletion creates stress, stress creates stagnation, stagnation worsens depletion. Cooling foods, protected sleep, and gentle emotional processing may help break the cycle over time.",
+    conditionalBranches: {
+      title: "Which Pattern Is Driving Your Transition?",
+      intro: "Menopause symptoms have two overlapping TCM roots, and addressing both matters more than fixing either one alone.",
+      branches: [
+        { signal: "Hot flashes, night sweats, dry skin, and poor sleep", meaning: "Cooling savings are running low (Yin Deficiency)", approach: "Yin path: tofu, pear, black sesame, tremella, lily bulb, sleep before 11 PM, avoid spicy food and alcohol" },
+        { signal: "Mood swings, irritability, chest tightness, and sighing", meaning: "Stress has jammed the flow (Qi Stagnation)", approach: "Move Qi: rose tea, daily gentle exercise, process emotions, avoid caffeine" },
+        { signal: "Symptoms that worsen during stressful weeks", meaning: "Depletion and stagnation feeding each other", approach: "Both paths: cooling foods plus stress processing, protected sleep is non-negotiable" },
+        { signal: "Symptoms that started mild but intensified over years of poor sleep and stress", meaning: "Long-term Yin burning compounded by Liver tightness", approach: "Rebuild slowly: consistent sleep, warm nourishing meals, gentle movement, patience" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, Yin and Yang are like a bank account and the spending that comes out of it. Yin is the savings. Yang is the spending. When you're young, the account is full. The body has plenty of cooling, moistening reserve to draw on. You can stay up late, eat spicy food, handle stress, and your body bounces back because there's plenty in the tank.",
       "As you get older, the account gradually depletes. This is normal and expected. Menopause is the point where the balance gets low enough that you start noticing the shortfall. Not enough Yin to cool the body? Hot flashes. Not enough Yin to keep things moist? Dryness everywhere. Not enough Yin to anchor the mind and emotions? Irritability and anxiety. Not enough Yin to keep the heat contained at night? Night sweats.",
@@ -3450,6 +3952,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Standard medicine usually looks for a specific cause: a virus, medication side effects, pregnancy, inner ear problems, or acid reflux. And these are all valid. But what happens when your doctor says everything looks fine and you still feel nauseous on a regular basis?",
       "Chinese medicine approaches nausea from a different angle. Instead of asking what triggered it today, it asks why your stomach keeps threatening to rebel in the first place. The answer often comes down to a pattern that's been building for a while.",
     ],
+    quickAnswer: "When chronic nausea persists despite a normal GI workup, TCM points to Phlegm Damp, a pattern where the Stomach downward flow is blocked by internal sludge. About 10% of people fit the Phlegm Damp body type, and their nausea comes with a feeling of fullness and heaviness that lingers after meals. The Stomach is supposed to send food downward, but a slow drain backs everything up. Ginger tea may help move energy downward, while adzuki beans and coix seed may help clear the dampness over time.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "痰湿",
+      text: "Phlegm Damp turns the Stomach into a slow-draining sink. The Stomach is supposed to receive food and send it downward. When the drain is clear, everything flows through without effort. When the drain is clogged with sludge, water pools, nothing moves, and the backing-up sensation is what you feel as nausea. Underneath the dampness is usually a weak Spleen, the organ that turns food into energy. A weak Spleen creates dampness, dampness blocks the Stomach, and the Stomach rebels upward.",
+    },
     tcmExplanation: [
       "In Chinese medicine, the Stomach has one main job: receive food and send it downward. This is called the descending function. When things are working right, food goes in, gets processed, and moves down. Nausea is what happens when this downward movement gets disrupted. Something is causing the Stomach's energy to rebel upward instead of flowing down the way it should.",
       "The most common culprit behind chronic nausea in TCM is Phlegm Dampness. Think of your digestive system like a kitchen sink. When the drain is clear, water flows through without a problem. But when the drain is slow, water starts to pool. Eventually, you get a backed-up sink where nothing moves and everything just sits there getting stagnant. That's what Phlegm Damp does to your Stomach. It creates a slow drain.",
@@ -3524,6 +4032,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Neck pain is one of those things that sneaks up on you. One morning you wake up and you can't turn your head to check your blind spot. You reach for your seatbelt and wince. You try to look at the ceiling and your neck protests like you asked it to do something unreasonable.",
       "The standard advice is to improve your posture, get a better pillow, and stretch more. Those things can help. But if your neck keeps tightening up no matter what you do, there may be something deeper going on. Chinese medicine has been treating neck pain for thousands of years, and it points to a pattern that posture alone doesn't explain.",
     ],
+    quickAnswer: "The most common TCM pattern behind chronic neck pain is Liver Qi Stagnation, where stress and frustration jam the energy at the narrowest passage between head and torso. About 8% of people fit the Qi Stagnant body type, and their neck tightens during stressful weeks even when posture is perfect. The neck is a narrow bridge, and when Liver Qi gets stuck, traffic piles up there first. Peppermint tea, gentle neck rolls, and emotional processing may help keep the energy moving through that bottleneck.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is what happens when the Liver system, meant to keep energy flowing freely, tightens under stress. Where healthy Liver energy moves like traffic through an open bridge, stagnant Qi moves like traffic piling up at the narrowest point. The Liver is the organ most sensitive to frustration and suppressed emotion. The neck is the narrowest passage between head and torso, so when Qi gets stuck, the bottleneck shows up there first. The pain is energetic, not mechanical, which is why posture work alone often cannot resolve it.",
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, chronic neck pain is most often linked to Qi Stagnation. Qi is the energy that flows through your body along pathways called meridians. When Qi flows freely, your muscles are supple and your neck moves without complaint. When Qi gets stuck, muscles tighten, and the tightness turns into pain.",
       "Think of your neck as a narrow bridge between two cities. The head is one city, the body is the other. Traffic (Qi) needs to flow in both directions for everything to work. Now imagine what happens when there's a traffic jam at the narrowest point on the bridge. Cars pile up. Nothing moves. Pressure builds. The bridge itself starts to strain under the weight of it all.",
@@ -3598,6 +4112,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This is one of those symptoms that sits in an uncomfortable gray zone. Your doctor runs blood work, checks your thyroid, asks about menopause, and everything comes back normal. Which is reassuring in one sense and completely unhelpful in another, because you're still waking up in a puddle.",
       "Night sweats can be associated with a lot of things: hormonal changes, infections, certain medications, anxiety. If yours are new, severe, or accompanied by fever or weight loss, please talk to your doctor. But if you've been checked out and the answer is \"we can't find anything wrong,\" there's a perspective from Eastern medicine that might make sense of what's happening.",
     ],
+    quickAnswer: "The most common TCM pattern behind night sweats without fever is Yin Deficiency, where your body's cooling and moistening force runs too low to contain internal heat at night. Roughly 10% of people fit the Yin Deficient body type. The heat pushes outward during sleep, causing sweating that stops when you wake. Yin-nourishing foods like pear, lily bulb, and black sesame may help, along with sleep before 11 PM.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "阴虚",
+      text: "Yin Deficiency is the opposite of Yang Deficiency. Where Yang is your body's warming, active force, Yin is the cooling, moistening, resting counterpart that keeps heat in check. When Yin runs low, internal heat builds unopposed, especially at night when Yang should retreat. The result is a body that overheats during sleep, producing night sweats, dry mouth, and a restless mind. Common signs include feeling warm at night, dry skin and throat, and a thin build.",
+    },
     tcmExplanation: [
       "In Chinese medicine, night sweats are most often linked to a concept called Yin Deficiency. Yin is the cooling, moistening, resting part of your body's energy. It's what keeps things calm and contained. Yang is the warming, active part. They balance each other out, like the cold and hot taps on a faucet.",
       "When Yin is low, there isn't enough cooling force to keep internal heat in check, especially at night when Yang is supposed to retreat. The heat pushes outward, and your body sweats to try to cool itself down. Think of it like a car with a broken radiator. The engine runs fine for a while, but without enough coolant, it starts overheating, especially when it's been running all day.",
@@ -3669,6 +4189,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You know it's not reasonable. The person walking slowly isn't doing it to annoy you. The loading screen isn't personal. But the frustration rises anyway, fast and hot, like a pilot light that's always on. You catch yourself snapping, then feel bad about it, then snap again ten minutes later. The patience tank is always near empty, and there's never a gas station when you need one.",
       "In Chinese medicine, chronic impatience isn't a personality trait. It's an internal heat problem. Specifically, it's what happens when energy is stuck and creating friction, or when there's too much internal fire and not enough cooling water to keep it in check. Understanding the mechanism makes the solution a lot clearer than just \"try to be more patient.\"",
     ],
+    quickAnswer: "Liver Qi Stagnation is the primary TCM explanation for a short fuse and chronic impatience, where stuck energy creates internal friction that generates heat and irritability. About 8% of people fit the Qi Stagnant body type, and they often feel like a pot about to boil over, with tension in the chest, frequent sighing, and quick mood shifts. When the pressure builds long enough, it progresses to Liver Fire, and the temper gets shorter. Cooling foods, protected sleep, and gentle movement may help lower the internal temperature over time.",
+    definition: {
+      term: "Liver Fire",
+      termCn: "肝火",
+      text: "Liver Fire produces a cluster of recognizable signs: a short temper that flares fast and hot, a feeling of internal friction or vibration, tension in the chest and ribs, frequent sighing, quick mood shifts, a low-grade irritability that spikes with small pressures, and sometimes a red face, bitter taste, or bloodshot eyes. It develops when Liver Qi Stagnation builds long enough that the pressure generates heat. The heat rises upward and manifests as impatience, like a stove with the flame turned up too high where everything burns and the cook is always rushing.",
+    },
     tcmExplanation: [
       "In TCM, impatience is most often connected to Liver Qi Stagnation that has progressed to Liver Fire. When Liver Qi is stuck, it creates pressure. When that pressure builds long enough, it generates heat. That heat rises upward and manifests as a short temper, a quick temper, and an inability to tolerate delay. Think of a stove with the flame turned up too high. Everything burns. Nothing has time to cook properly. The heat is constant and the cook is always rushing.",
       "The internal friction analogy works well here. When energy flows smoothly, there's no friction. When it's stuck, it grinds against itself, creating heat and irritation. Your body literally feels like it's vibrating with frustration, because the energy is pressing against blockages instead of moving through them.",
@@ -3743,6 +4269,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Period cramps, or dysmenorrhea if you want the clinical term, are one of the most common menstrual complaints. Up to 90% of women experience them at some point. For some it's a mild annoyance. For others it's genuinely debilitating, accompanied by nausea, headaches, and fatigue. The standard advice is usually ibuprofen and a hot water bottle. Helpful in the moment, but it doesn't answer the question of why your body keeps doing this.",
       "Chinese medicine has a different way of thinking about menstrual pain. Not as a random event, but as a signal that something about the way energy and blood are moving through your body isn't quite smooth. The key word here is smooth. When things flow, there's no pain. When they get stuck, pain shows up.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind period cramps that return every month, and both involve something getting stuck on the way out. The first is Qi Stagnation, where stress tightens the Liver system and energy cannot flow freely through the pelvis. About 15% of people fit this type. The second is Blood Stasis, where the blood itself is thick and sluggish, creating sharp pain and dark clots. Ginger tea and warmth may help both patterns, while rose tea and gentle movement may specifically ease the stagnant type.",
+    definition: {
+      term: "Blood Stasis",
+      termCn: "血瘀",
+      text: "Blood Stasis develops when blood becomes thick, sluggish, or congealed, usually because Qi is not pushing it freely, because Cold has settled into the uterus and slowed the flow, or because of long-term emotional tension that tightens the Liver ability to circulate blood. In TCM, Qi moves Blood. When Qi is stuck, Blood is stuck. The clots you might see in menstrual flow are blood that congealed because it was not moving fast enough. Passing the clots relieves the pressure, which is why pain often eases after they come out. The pain is sharp, fixed, and often accompanied by dark blood.",
+    },
+    conditionalBranches: {
+      title: "What Is Blocking Your Monthly Flow?",
+      intro: "Period cramps have two main TCM roots, and the quality of the pain tells them apart.",
+      branches: [
+        { signal: "Dull, building ache that tightens with stress, worse before the period starts", meaning: "Energy is stuck and creating a backup (Qi Stagnation)", approach: "Move Qi: rose tea, gentle walking, stress management in the weeks before, warm food and drinks" },
+        { signal: "Sharp, stabbing pain with dark blood and clots", meaning: "Blood itself is thick and stuck (Blood Stasis)", approach: "Move blood: ginger tea with brown sugar, warmth on lower abdomen, avoid cold food and drinks" },
+        { signal: "Pain that eases once the clots pass", meaning: "Congealed blood was creating the pressure", approach: "Warm the uterus consistently, not just during the period, start ginger tea a few days before" },
+        { signal: "Pain that worsens with cold food, iced drinks, or sitting on cold surfaces", meaning: "Cold has settled in and slowed the flow", approach: "Strict warmth: warm meals, hot water bottle, no raw or cold foods during and before the period" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, period cramps are most often linked to two patterns: Qi Stagnation and Blood Stasis. Qi is the energy that moves everything in your body, including blood. When Qi flows freely, menstrual blood moves out smoothly and there's minimal discomfort. When Qi gets stuck, blood gets stuck too, and that stuck-ness creates pain.",
       "Stress is one of the biggest contributors to Qi Stagnation. The Liver system in TCM is responsible for keeping energy moving smoothly throughout the body, and it's highly sensitive to frustration, anger, and emotional tension. When you're stressed, the Liver tightens up, Qi slows down, and the first place that bottleneck shows up is often the pelvis. It's not in your head. It's a real mechanical consequence of how your body handles pressure.",
@@ -3822,6 +4364,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "PMS is so common that we've almost normalized it. But feeling like a completely different person for a week every month isn't something you just have to live with. Some women breeze through their cycles. Others get knocked sideways. The difference isn't luck. It often comes down to what's happening internally, and Chinese medicine has been mapping those internal patterns for a very long time.",
       "This isn't about dismissing your experience as \"just hormones.\" It's about understanding why your body responds to its own hormonal shifts in such an extreme way, and what you can do about it beyond popping ibuprofen and waiting it out.",
     ],
+    quickAnswer: "In Chinese medicine, PMS with mood swings, bloating, and breast tenderness is most often linked to Liver Qi Stagnation, where the Liver system tightens under stress and cannot move Blood and Qi freely before your period. About 8% of people fit the Qi Stagnant body type, and their symptoms feel like a pressure cooker that cannot release steam. Everything clears up once the period starts and things finally get moving. Rose tea, daily gentle exercise, and emotional processing in the weeks before may help keep the pressure from building.",
+    definition: {
+      term: "Liver Qi Stagnation",
+      termCn: "肝气郁结",
+      text: "Liver Qi Stagnation is like a pressure cooker that cannot release steam. Before your period, the body needs to move a large volume of Blood and Qi downward and outward. If the Liver system, responsible for that smooth flow, has tightened under stress, frustration, or suppressed emotion, the energy gets trapped. It presses against your emotions, causing mood swings and irritability. It presses against your digestion, causing bloating and cravings. It presses against your breasts, causing tenderness. It presses against your head, causing headaches. Once the period starts and the flow opens, the pressure releases and the symptoms clear.",
+    },
     tcmExplanation: [
       "In TCM, the Liver system is the star of the PMS show. Not the liver organ in the Western sense, but the Liver energy system that's responsible for the smooth flow of Qi and Blood throughout your body. When Liver Qi flows freely, everything moves well. Your emotions are even, your digestion works, your periods come and go without drama.",
       "But when Liver Qi gets stuck (a pattern called Liver Qi Stagnation), everything downstream gets backed up. Before your period, your body needs to move a lot of Blood and Qi downward and outward. If the Liver can't facilitate that flow, the energy gets trapped. It presses against your emotions (mood swings, irritability), your digestion (bloating, cravings), your breasts (tenderness, swelling), and your head (headaches, insomnia). It's like a pressure cooker that can't release steam.",
@@ -3895,6 +4443,22 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Poor circulation is one of those things that sounds minor until you live with it. It makes your extremities cold, your skin discolored, your muscles achy, and your energy low. It's like your body is a city where the water pressure keeps dropping. The downtown core gets enough, but the neighborhoods at the edges are running dry.",
       "Chinese medicine has a beautifully simple way of looking at circulation: Blood follows Qi, and Qi follows warmth. If you're cold and your energy is low, your blood is going to move slowly. Let's break down what that means for your body type and what you can do about it.",
     ],
+    quickAnswer: "About 8% of people with persistently cold hands and feet fit the Yang Deficient body type, where the internal furnace runs too low to push warm blood to the extremities. A second pattern, Blood Stasis, creates poor circulation when the blood itself becomes thick and sluggish, causing purplish skin and sharp fixed pain. The two patterns are related: cold slows the flow, and slow flow eventually thickens. Warming foods like ginger and cinnamon may help the cold type, while hawthorn and turmeric may support the stagnant type over time.",
+    definition: {
+      term: "Yang Deficiency",
+      termCn: "阳虚",
+      text: "Yang Deficiency acts like a furnace running too low to heat a house in winter. Yang is the warming, activating, driving force that keeps blood moving and tissues warm. When Yang drops, the body runs cold, and cold causes contraction and slowing. The body protects the core by pulling warmth and blood away from the extremities, which is why cold hands and cold feet show up first. Blood follows Qi, and Qi follows warmth. Without enough warmth, the river of blood slows to a trickle, sediment builds up, and circulation falters at the edges first.",
+    },
+    conditionalBranches: {
+      title: "Why Is Your Circulation Slowing Down?",
+      intro: "Poor circulation has two main TCM roots, and the second often grows out of the first.",
+      branches: [
+        { signal: "Cold hands and feet, pale skin, worse in winter, better with warmth", meaning: "Internal furnace is too low (Yang Deficiency)", approach: "Warm path: ginger, cinnamon, lamb, beef, warm soups, stop ice water, warm foot soaks" },
+        { signal: "Purplish or dusky skin, dark lips, sharp fixed pain, varicose veins", meaning: "Blood has become thick and stuck (Blood Stasis)", approach: "Move blood: hawthorn, turmeric, black fungus, dark chocolate, regular brisk walking" },
+        { signal: "Numbness or pins and needles after sitting too long", meaning: "Stagnation from inactivity, not yet a deep pattern", approach: "Stand up every hour, stretch, walk two minutes, muscles squeeze blood back to the heart" },
+        { signal: "Circulation that worsens with both cold and stress", meaning: "Yang Deficiency and Qi Stagnation combined", approach: "Warm the system and move energy: ginger tea, daily walking, stress processing, warm foot soaks before bed" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, Blood doesn't move on its own. It needs Qi to push it and warmth to keep it flowing. Think of your blood vessels as rivers. The water (Blood) needs a current (Qi) and a temperature warm enough to keep it from freezing. When either Qi or warmth is lacking, the river slows down. Sediment builds up. The flow gets sluggish. Areas furthest from the source, your fingers and toes, are the first to feel it.",
       "The most common pattern is Yang Deficiency. Yang is your body's warming, activating force. When Yang is low, your body is literally running cold, and cold causes things to contract and slow down. Your body prioritizes keeping your core organs warm, so it pulls warmth and blood away from your extremities. That's why cold hands and cold feet are the most common signs of poor circulation in TCM.",
@@ -3974,6 +4538,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "It's not painful exactly, but it's relentless. You wake up with it, you go to sleep with it, and the in-between is filled with small throat clears and that low-grade annoyance of something being there that shouldn't be. Nasal sprays help temporarily. Antihistamines might dry it out for a while. But it always comes back.",
       "In Chinese medicine, post-nasal drip is understood as a fluid management problem. Your body is producing fluids faster than it can process them, and the excess has nowhere to go but up and out, or in this case, down the back of your throat. It's like a gutter that's overflowing because the downpipe is blocked. The water has to go somewhere.",
     ],
+    quickAnswer: "When post-nasal drip persists despite antihistamines and nasal sprays, TCM points to Phlegm Damp, a pattern where the Spleen cannot process fluids fast enough and the overflow drips down your throat. About 6% of people fit this body type. Cutting dairy, sugar, and cold raw foods may help reduce the phlegm load, while warm ginger tea supports the Spleen.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "鐥版箍",
+      text: "Phlegm Damp is the mirror opposite of a body that drains fluids cleanly. Where an efficient Spleen converts what you drink into usable moisture and clears the rest, a Phlegm Damp system lets fluid linger, thicken, and turn sticky. The excess has nowhere to go, so it rises as mucus and settles in the sinuses and throat. Common signs include feeling heavy, a coated tongue, extra weight around the middle, and drip that is worse in the morning or after dairy.",
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, post-nasal drip is most often linked to Spleen deficiency with Phlegm Damp accumulation. The Spleen in TCM isn't just the anatomical organ. It's the entire system responsible for transforming food and drink into usable energy and fluids. When the Spleen is weak or overburdened, it can't process fluids efficiently.",
       "Think of it like a water treatment plant that's running at half capacity. Fluids come in, but the system can't convert them all into clean, usable moisture. The excess has to go somewhere. In TCM, that excess becomes what's called \"dampness\" and eventually thickens into \"phlegm.\" This phlegm doesn't just stay in one place. It rises upward, following the natural tendency of dampness to float and accumulate in the upper body.",
@@ -4053,6 +4623,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Rosacea is frustrating because the standard approach is mostly about management. Avoid triggers. Use prescription creams. Maybe try lasers. All valid strategies, but none of them answer the question of why your face keeps flushing in the first place. Why do some people get rosacea and others don't, even when they share the same triggers?",
       "Chinese medicine approaches facial redness as a symptom of internal heat that's rising to the surface. Your face is like the roof of a house. If there's a fire in the kitchen, the smoke ends up at the top. TCM asks: where is the fire, and what's feeding it?",
     ],
+    quickAnswer: "The most common TCM pattern behind rosacea is Damp Heat rising to the face, where internal heat and sticky moisture bubble up like a pot left on a rolling boil. People with this constitution tend to run warm, have oily or combination skin, and notice redness flares with spicy food, alcohol, and stress. Cooling foods like cucumber, mung beans, and chrysanthemum tea may help lower the internal temperature driving the flush.",
+    definition: {
+      term: "Damp Heat",
+      termCn: "婀跨儹",
+      text: "Damp Heat shows up as a recognizable cluster of signs: a body that runs warm, skin that leans oily or combination, a tendency toward breakouts and redness, digestive heaviness after rich meals, and a flushed face that flares with stress, alcohol, or spicy food. The heat provides the redness and inflammation, while the dampness adds the sticky, puffy, slow-to-clear quality that makes the pattern stubborn.",
+    },
     tcmExplanation: [
       "In TCM, persistent facial redness is most often linked to Heat in the Blood or Damp Heat rising to the face. Think of your circulatory system like a pot of water on a stove. When the fire underneath is too strong, the water gets hot, starts bubbling, and eventually steam and bubbles rise to the surface. Your face is the surface where that internal heat becomes visible.",
       "Blood Heat is the simpler pattern. The blood itself is running hot, which causes redness, warmth, and that flushing sensation. It's like having your internal thermostat set too high. The heat expands the blood vessels near the surface of your face, creating that persistent redness and the visible capillaries that come with chronic rosacea.",
@@ -4121,6 +4697,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This is one of the most frustrating experiences in medicine. Your body is clearly sending an alarm, but nobody can find the fire. The scans are clean, the labs are fine, and yet your stomach keeps hurting. It's like a smoke detector that won't stop going off even though you can't see any smoke.",
       "Chinese medicine approaches this differently. It doesn't need to see structural damage to take stomach pain seriously. In TCM, pain means something in your system isn't working the way it should, even if it hasn't progressed to the point where tests can measure it. The organ might not be diseased. But it might be functioning poorly. And that distinction matters a lot when you're the one living with the pain.",
     ],
+    quickAnswer: "Stuck Liver Qi is the primary TCM explanation for stomach pain that cramps, moves around, and flares with stress, though a second pattern, Phlegm Damp, produces a heavier, duller ache with fullness after eating. Roughly 8% of people fit the Qi Stagnant type. Warm congee, ginger tea, and regular meal times may help both patterns, while addressing emotional pressure directly eases the cramping type.",
+    definition: {
+      term: "Qi Stagnation",
+      termCn: "姘旈儊",
+      text: "Qi Stagnation builds when frustration, suppressed emotion, or chronic stress tightens the Liver's job of keeping energy flowing smoothly. Instead of moving in a steady stream, Qi pools, knots, and pushes sideways into the Stomach, which is why the pain grips and shifts rather than staying fixed. The trigger is almost always emotional: an argument, a stressful week, or swallowing how you really feel. Burping, sighing, and passing gas tend to relieve it.",
+    },
+    conditionalBranches: {
+      title: "Which Stomach Pain Pattern Is Yours?",
+      intro: "Recurring stomach pain with clean scans usually traces to one of two TCM patterns, and the quality of your pain tells you which.",
+      branches: [
+        { signal: "Cramping pain that moves and worsens with stress", meaning: "Liver Qi is stuck and invading the Stomach", approach: "Stagnation path: ginger tea, rose tea, regular meals, move after eating" },
+        { signal: "Heavy, dull ache with fullness after little food", meaning: "Phlegm Damp is sludging the Stomach", approach: "Damp path: congee, reduce dairy and sweets, warm simple foods" },
+        { signal: "Pain with nausea and a coated tongue", meaning: "Damp and stagnation are combining", approach: "Mixed path: tangerine peel tea, light warm meals, address stress" },
+      ],
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, recurring stomach pain with no structural cause is usually linked to one of two patterns: Qi Stagnation or Phlegm Damp. The quality of your pain tells you which one is more likely.",
       "Qi Stagnation in the stomach creates pain that feels gripping, cramping, or colicky. It moves around rather than staying in one place. It gets worse with stress, anger, or emotional upset, and it gets better when you burp, pass gas, or have a bowel movement. This is the Liver invading the Stomach in TCM terms. The Liver's energy is supposed to flow smoothly, but when it gets stuck from frustration or stress, it pushes sideways into the Stomach and disrupts its normal function. The result is pain that feels like something is gripping and twisting inside.",
@@ -4201,6 +4792,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Tinnitus is frustrating because it's invisible. There's nothing to point to, nothing to show people. You look fine on the outside. But inside, there's this constant noise that makes it hard to concentrate, hard to relax, hard to fall asleep. It wears you down in a way that's hard to explain to someone who hasn't experienced it.",
       "If you've been to an ENT and they didn't find anything alarming, you might have been told to \"learn to live with it.\" Eastern medicine takes a different view. The ears are connected to specific organ systems, and the type of sound you hear may point to a pattern that can be addressed.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind chronic tinnitus: Kidney Yin Deficiency, which starves the ears of moisture and produces a low hum, and Liver Fire, where excess heat rises to create a high-pitched screech. About 10% of people fit the Yin Deficient type, the more common of the two. Black sesame, walnuts, and sleep before 11 PM may help nourish the cooling reserves that keep the ears quiet.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "闃磋櫄",
+      text: "Yin Deficiency is like a radio losing its signal as the battery drains. Yin is the cooling, moistening reserve that keeps your internal instruments quiet and settled. When it runs low, static fills the gaps: phantom sounds in the ears, dryness in the throat and skin, a restless warmth at night. The ears, sensitive to the smallest fluctuation, pick up that static as a low persistent hum that worsens when you are tired.",
+    },
     tcmExplanation: [
       "In Traditional Chinese Medicine, the Kidneys \"open into the ears.\" This is a way of saying that ear health is connected to Kidney energy. When Kidney energy is robust, hearing tends to be sharp and the ears are quiet. When Kidney energy declines, the ears may produce phantom sounds, like a radio that picks up static when the signal weakens.",
       "The type of sound matters. A low-pitched ringing or buzzing, like a distant hum, is often associated with Kidney Deficiency. Think of it as the system running low on resources and the ears picking up the static of that depletion. A high-pitched ringing or screeching, on the other hand, may be associated with Liver Fire, where excess heat rises to the head and creates noise. The low hum is about not having enough. The high screech is about too much heat pushing upward.",
@@ -4273,6 +4870,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Your rings are tight by afternoon. Your face looks puffy in the morning. Your legs feel heavy by the end of the day, and pressing your thumb into your shin leaves a dimple that takes a moment to disappear. You drink less water thinking it will help, but the puffiness stays. Your body is holding onto moisture it should be releasing, and cutting water intake doesn't fix the problem.",
       "Water retention, puffiness, feeling heavy and swollen. In TCM, the Spleen is responsible for transforming and transporting fluids. When Spleen Qi is weak, fluids accumulate instead of being processed and eliminated. The body becomes like a sponge that absorbs water but can't be wrung out.",
     ],
+    quickAnswer: "In Chinese medicine, water retention is most often linked to Phlegm Damp, a pattern where a weak Spleen cannot process fluids and a low Kidney Yang cannot evaporate them, so moisture pools in the tissues like a saturated sponge that will not wring out. About 10% of people fit this body type. Damp-draining foods like adzuki beans, coix seed, and winter melon may help the body release the trapped fluid.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "鐥版箍",
+      text: "Phlegm Damp is the pattern that traps fluid where it should be moving. In a balanced body the Spleen converts what you drink into clean moisture and the Kidneys evaporate the rest, but under Phlegm Damp that processing slows and a heavy residue settles into the tissues. The result is puffiness, a dimple when you press your shin, rings that tighten by afternoon, and a foggy heaviness that worsens in humid weather. The system holds water it can no longer recycle.",
+    },
     tcmExplanation: [
       "In TCM, water retention is a Spleen and Kidney problem. The Spleen transforms food and drink into usable energy and transports fluids to where they're needed. When Spleen Qi is weak, fluids don't get transformed. They sit in the tissues as dampness.",
       "The Kidneys regulate water metabolism, deciding what to keep and what to release. When Kidney Yang is low, the body doesn't have enough heat to evaporate and move fluids, so they pool.",
@@ -4351,6 +4954,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's something that might surprise you: Chinese medicine has been treating skin conditions for over 2,000 years, and it doesn't start with what you put on your face. It starts with what's happening underneath. Your skin is a mirror. The breakouts are the reflection. The real problem is what's being reflected.",
       "This doesn't mean skincare doesn't matter. But if your internal landscape keeps generating the conditions for breakouts, no amount of external cleaning will keep the surface clear for long. You have to address what's feeding the fire.",
     ],
+    quickAnswer: "About 10% of people with persistent breakouts fit the Phlegm Damp body type, where internal moisture and heat fuel deep, swollen, slow-to-clear acne that flares in humid weather. A second group, roughly 15%, fit the Qi Deficient type, whose skin renews too slowly to clear blemishes. Cutting dairy and sugar while drinking warm water may help both patterns, because a stronger Spleen drains the dampness that keeps feeding the breakouts.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "鐥版箍",
+      text: "Phlegm Damp announces itself through a set of persistent signs: oily heavy skin, deep swollen breakouts that linger, a sluggish digestion that feels unhappy at the same time as your face, worse flares in humid weather, and a coated tongue. The dampness is the fuel that keeps pores clogged, and when heat joins it, the clogged pore turns into a red painful bump. Skin and digestion usually misbehave together.",
+    },
+    conditionalBranches: {
+      title: "What's Driving Your Breakouts?",
+      intro: "Persistent acne usually traces to one of two internal patterns, and the quality of your breakouts tells you which is dominant.",
+      branches: [
+        { signal: "Deep, swollen, oily breakouts worse in humidity", meaning: "Phlegm Damp is generating the fuel", approach: "Damp path: adzuki beans, coix seed, cut dairy and sugar, warm water" },
+        { signal: "Stubborn but less inflamed breakouts that linger", meaning: "Qi is too low to renew the skin", approach: "Qi path: congee, jujube dates, warm nourishing meals, gentle movement" },
+        { signal: "Breakouts on chin and jawline linked to your cycle", meaning: "Hormonal shifts meeting internal dampness", approach: "Mixed path: warm foods, reduce sugar, track cycle patterns" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, persistent acne is almost always linked to two patterns working together: Dampness and Heat. Dampness is the heavy, sticky, oily quality that creates the environment for breakouts. It's what makes your skin feel greasy and your pores clogged. Heat is the red, inflamed, active quality that turns a clogged pore into a red, swollen, painful bump.",
       "Think of it like this. Dampness is the fuel. Heat is the spark. When both are present, breakouts are inevitable. You can suppress the fire (topical treatments, antibiotics), but if the fuel keeps being generated internally, the next spark will start the next fire. The only lasting approach is to reduce both the fuel and the conditions that create the spark.",
@@ -4431,6 +5049,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This isn't just about getting older. Plenty of people in their twenties and thirties describe the same thing. The forgetfulness isn't random either. It tends to get worse when you're tired, stressed, or not sleeping well. Which suggests it's connected to something deeper than just age.",
       "Traditional Chinese Medicine has a different lens for understanding memory. It connects forgetfulness to specific organ systems and energy patterns in the body. Not in a mystical way, but in a practical way that points to what your body might need to support clearer thinking.",
     ],
+    quickAnswer: "When forgetfulness persists despite lists, reminders, and enough sleep, TCM points to depleted reserves: Qi Deficiency, where overall energy is too low to prioritize memory, and Yin Deficiency, where the Kidney battery that powers the brain runs dry. Roughly 15% of people fit the Qi Deficient type and 8% the Yin Deficient type. Walnuts, black sesame, and sleep before 11 PM may help rebuild the stores that keep information sticking.",
+    definition: {
+      term: "Qi Deficiency",
+      termCn: "姘旇櫄",
+      text: "Qi Deficiency develops when your body spends energy faster than it refuels it, through chronic stress, skipped meals, irregular sleep, or simply running on empty for too long. With the budget tight, the body funnels Qi toward breathing and heartbeat and cuts lower-priority tasks like memory storage. Information lands but does not stick, because there is not enough fuel to encode it. The fix is not a sharper list, it is a fuller tank.",
+    },
+    conditionalBranches: {
+      title: "Which Memory Drain Matches You?",
+      intro: "Forgetfulness with normal cognitive tests usually traces to one of two depleted reserves, and the way your memory fails tells you which.",
+      branches: [
+        { signal: "Forget things when tired, low overall energy", meaning: "Qi is too low to prioritize storage", approach: "Qi path: congee, jujube dates, warm meals, single-task" },
+        { signal: "Scattered mind, runs warm, trouble sleeping", meaning: "Kidney Yin battery is running dry", approach: "Yin path: walnuts, black sesame, sleep before 11 PM" },
+        { signal: "Both tired and warm, worse under stress", meaning: "Qi and Yin are both depleted", approach: "Combined path: nourishing warm foods, early sleep, gentle routine" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the Kidneys govern the brain and memory. Think of Kidney energy as the deep battery reserve of your body. When Kidney Yin is strong, that battery is charged and your brain stays sharp. When Kidney Yin declines, whether from chronic stress, poor sleep, overwork, or just running on empty for too long, the battery drains. Memory is one of the first things that gets affected.",
       "The Heart also plays a role. In Chinese medicine, the Heart houses the mind, meaning it's responsible for clear thinking and mental clarity. When Heart Blood is insufficient, your mind doesn't get the nourishment it needs. Thoughts become fuzzy, concentration wavers, and information slips through instead of sticking.",
@@ -4511,6 +5144,16 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Here's something that might reframe the problem. What if the weight you're gaining isn't all fat? In Chinese medicine, a significant portion of unexplained weight gain can be understood as accumulated moisture, or what TCM calls Dampness. Your body is holding onto fluids and metabolic waste that it should be processing and eliminating. The result looks and feels like weight gain, but the mechanism is different from simply eating too many calories.",
       "This doesn't mean calories don't matter. They do. But for some body types, the metabolism is like a sink with a slow drain. You can turn down the faucet (eat less), but until you clear the drain, the water keeps rising.",
     ],
+    quickAnswer: "The most common TCM pattern behind stubborn weight gain is Phlegm Damp, where a weak Spleen turns food into sticky residue instead of clean energy, so moisture and metabolic waste pool around the middle like water in a sink with a slow drain. About 10% of people fit this type, and another 15% fit the Qi Deficient type, whose underpowered metabolism conserves rather than burns. Adzuki beans, coix seed, and warm cooked meals may help both.",
+    conditionalBranches: {
+      title: "Which Weight Gain Pattern Is Yours?",
+      intro: "Weight that creeps up despite unchanged habits usually traces to one of two patterns, and how the weight feels tells you which.",
+      branches: [
+        { signal: "Soft, puffy weight around the middle, worse in humidity", meaning: "Phlegm Damp is clogging the drain", approach: "Damp path: adzuki beans, coix seed, cut dairy and sweets, light sweating" },
+        { signal: "Slow gain with fatigue, soft voice, easy sweating", meaning: "Qi is too low to power the metabolism", approach: "Qi path: congee, jujube dates, warm meals, gentle movement" },
+        { signal: "Puffy and tired, sluggish digestion", meaning: "Both damp and deficiency are present", approach: "Combined path: drain dampness first, then build Qi with warm foods" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the most common pattern behind stubborn weight gain is Phlegm Damp (痰湿). Your Spleen is responsible for transforming food into usable energy and transporting fluids around your body. When the Spleen is weak, or when you overwhelm it with the wrong foods, the transformation doesn't happen cleanly. Instead of converting food into clear energy, you get a sticky, heavy residue that accumulates in your tissues.",
       "Think of your metabolism as a kitchen. A well-functioning kitchen takes raw ingredients and turns them into meals efficiently. A Phlegm Damp kitchen is like one where the exhaust fan is broken and the drains are clogged. You can still cook, but grease builds up on every surface, smoke fills the room, and nothing cleans up properly. The harder you cook (the more you eat), the worse it gets.",
@@ -4591,6 +5234,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Overthinking isn't the same as being thoughtful. Thoughtful people consider things carefully and then make a decision. Overthinkers consider things endlessly and then feel paralyzed. The difference isn't intelligence or caring. It's something happening in your body that keeps your mind spinning in circles.",
       "Chinese medicine has a surprisingly specific explanation for why some people can't stop thinking. It connects overthinking to energy that's stuck in your head rather than flowing through your whole body. And it has practical suggestions that have nothing to do with meditation apps.",
     ],
+    quickAnswer: "Liver Qi Stagnation is the primary TCM explanation for overthinking, where stuck energy traps thoughts in a loop like a record player with a scratch, replaying the same few seconds because the needle cannot move forward. About 8% of people fit the Qi Stagnant type. Moving your body, externalizing thoughts onto paper, and rose tea may help break the loop, since physical movement literally moves the stuck energy feeding it.",
+    definition: {
+      term: "Qi Stagnation",
+      termCn: "姘旈儊",
+      text: "Qi Stagnation is like a record player with a scratch and a weakening motor. The Liver is supposed to keep energy, and thoughts, flowing forward in a smooth stream. When frustration or stress knots that flow, the needle sticks and the same phrase replays on loop. The mind cannot let go and move on because the energy underneath it cannot. The brake is not in your thoughts, it is in the stuck current carrying them.",
+    },
     tcmExplanation: [
       "In TCM, the Liver is responsible for smooth energy flow throughout the body, including the flow of thoughts. When Liver Qi flows well, thoughts move through your mind naturally: you think something, you process it, you move on. When Liver Qi is stagnant (Qi Stagnation), thoughts get stuck the same way energy gets stuck. They loop, repeat, and circle back instead of moving forward.",
       "There's a second mechanism too. The Spleen in TCM is associated with thinking and concentration. When Spleen Qi is weak (Qi Deficiency), your thinking becomes unfocused and scattered rather than sharp and clear. You can't hold a single thought long enough to resolve it, so your mind jumps from one incomplete thought to the next.",
@@ -4664,6 +5313,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard explanation is that some people just sweat more. Genetics, body size, fitness level. All true. But when sweating happens out of proportion to the situation, when you're sweating at rest or during mild activity, something beyond simple genetics may be at play.",
       "Chinese medicine sees sweating as a function of the body's gatekeeping system. When that system is undercharged, the gates don't close properly, and the body releases moisture at the wrong times. The thermostat isn't broken. It's just missing the energy to regulate itself.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind excessive sweating: Qi Deficiency, where the gatekeeper at your pores cannot tell a real reason to open from a false alarm, causing daytime sweating, and Yin Deficiency, where low coolant lets heat build at night and triggers night sweats. About 12% of people fit the Qi Deficient type and 10% the Yin Deficient type. Congee and jujube dates may help the first, pear and black sesame the second.",
+    definition: {
+      term: "Qi Deficiency",
+      termCn: "姘旇櫄",
+      text: "Qi Deficiency is the underpowered counterpart to a gatekeeping system that runs at full charge. When Wei Qi, the defensive energy at your skin surface, is strong, your pores open for exercise and heat and close again at rest. When Qi is low, the gatekeeper falls asleep: minor triggers like a warm meal or a slight hill throw the gates wide, and you sweat at the wrong times. Daytime sweating with tiredness and a soft voice is the hallmark.",
+    },
+    conditionalBranches: {
+      title: "When and Why Do You Sweat?",
+      intro: "Sweating out of proportion to the situation usually traces to one of two patterns, and the timing tells you which.",
+      branches: [
+        { signal: "Sweat during the day from minimal effort", meaning: "Qi is too low to close the gates", approach: "Qi path: congee, jujube dates, gentle movement, avoid intense workouts" },
+        { signal: "Sweat at night, feel warm, dry mouth", meaning: "Yin coolant is too low to contain heat", approach: "Yin path: pear, black sesame, lily bulb, sleep before 11 PM" },
+        { signal: "Sweat day and night with fatigue and warmth", meaning: "Both Qi and Yin are depleted", approach: "Combined path: nourish Yin in evening, build Qi in morning" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, sweating is regulated by Wei Qi, the defensive energy at the skin surface. Wei Qi acts like a gatekeeper. When Qi is strong, the gates open when appropriate, during exercise or in heat, and close when needed, during rest or in cool conditions. When Qi is deficient, the gates don't close properly. Minor triggers open them fully, causing sweating from small stimuli.",
       "Think of a bouncer at a club who can't tell the difference between a VIP and a troublemaker. Everyone gets let in, and the club gets overcrowded. That's what Qi Deficiency does to your pores. They can't distinguish between a real reason to open, like exercise, and a false alarm, like eating a warm meal. The result is sweating at the wrong times.",
@@ -4744,6 +5408,28 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "I used to blame stress, or caffeine, or \"just one of those things.\" But when it happens consistently at the same time window, night after night, it's not random. Chinese medicine has a surprisingly specific explanation for this, and it involves something called the body clock.",
       "Before we get into it: yes, waking at 3 AM can sometimes be related to blood sugar drops, sleep apnea, or other medical issues. If this is new, severe, or affecting your daily life, definitely check with your doctor first. But if you've been checked out and everything is \"normal,\" keep reading. Eastern body wisdom has a genuinely interesting angle on this.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind waking at 3 AM, both tied to the Liver meridian's 1 to 3 AM time window. Liver Qi Stagnation, the more common one, occurs when stress and frustration block energy flow. Liver Yin Deficiency is the second, where insufficient cooling force lets the Liver overheat at night. Chrysanthemum tea, rose tea, and sleep before 11 PM may help both patterns.",
+    conditionalBranches: {
+      title: "Which Liver Pattern Is Waking You?",
+      intro: "The 1 to 3 AM window belongs to the Liver meridian. Two different Liver imbalances can wake you, and each needs a different approach.",
+      branches: [
+        {
+          signal: "Wake at 3 AM with racing thoughts and tension",
+          meaning: "Liver Qi is stuck from stress",
+          approach: "Stagnation path: rose tea, light evening walk, sleep before 11 PM",
+        },
+        {
+          signal: "Wake at 3 AM feeling warm and dry",
+          meaning: "Liver Yin is too low to cool the system",
+          approach: "Yin path: chrysanthemum tea, pear, sleep before 11 PM",
+        },
+        {
+          signal: "Wake at 3 AM hungry or anxious",
+          meaning: "Blood sugar drop or hormonal shift",
+          approach: "Check with doctor: small protein snack before bed may help",
+        },
+      ],
+    },
     tcmExplanation: [
       "The obvious culprits are stress, anxiety, late-night eating, too much screen time before bed, and that after-dinner espresso you knew you'd regret. All of these are real factors. But when the wake-up time is consistent, it's worth looking at something most people have never heard of: the TCM body clock.",
       "Blood sugar is another common factor. Your blood sugar naturally dips in the middle of the night, and if it drops too low, your body releases cortisol and adrenaline to compensate, which wakes you up. This is especially common if you eat dinner early or have a high-sugar dinner. A small protein-rich snack before bed might help stabilize things.",
@@ -4825,6 +5511,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "This isn't about being lazy. This isn't about not wanting to face the day. This is about a gap between the amount of rest you're getting and the amount of recovery your body is actually able to do with that rest. They're not the same thing, and that gap is where the exhaustion lives.",
       "It's a frustrating feeling because you're doing everything right on paper. You're in bed for enough hours. You're not staring at your phone until 2 AM (mostly). You're even trying the sleep hygiene tips. But the tiredness is still there every morning, like a deposit that never clears.",
     ],
+    quickAnswer: "In Chinese medicine, waking up tired after eight hours is most often linked to Qi Deficiency, where the body has enough time in bed but not enough fuel to perform the overnight repair that makes sleep restorative, like charging a phone with a damaged cable. About 12% of people fit this type. Warm cooked meals, consistent sleep before 11 PM, and gentle morning movement may help the body actually use the rest it is getting.",
+    definition: {
+      term: "Qi Deficiency",
+      termCn: "姘旇櫄",
+      text: "Qi Deficiency arrives with a familiar set of morning signs: limbs that feel heavy even after a long night, a foggy brain that takes hours to clear, a soft voice, easy bruising, and sweating from minimal exertion. The body went through the motions of sleeping but could not do the deep maintenance work, so you wake feeling like the battery only reached 30 percent. The tiredness lifts slowly, if at all, and naps rarely help.",
+    },
     tcmExplanation: [
       "Sleep apnea is the big one to rule out. If you snore loudly, wake up gasping, or your partner notices you stop breathing during the night, this needs medical attention. Sleep apnea prevents your body from reaching the deep sleep stages where real recovery happens. You might be in bed for eight hours but only getting a fraction of the restorative sleep you need.",
       "Depression can also show up as unrefreshing sleep. It's not always sadness. Sometimes it's just a flat, heavy feeling where nothing restores you, including rest. Thyroid issues, iron deficiency, and vitamin D deficiency are other medical causes worth checking with blood work.",
@@ -4900,6 +5592,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Waking up once to urinate might be normal, especially if you drank a lot before bed. But two, three, four times a night? That's not just an inconvenience. That's your body sending a message that something about its fluid management isn't working the way it should during the hours you're supposed to be resting.",
       "This is one of those things where Western medicine has a name for it (nocturia) but often doesn't have a satisfying answer when the obvious causes are ruled out. Eastern medicine approaches this differently, looking at how your body manages warmth and fluid at night.",
     ],
+    quickAnswer: "About 8% of people who wake to urinate multiple times a night fit the Yang Deficient body type, where the internal heater is too low to hold and vaporize fluids overnight, so they drain downward and fill the bladder. A second pattern, Qi Deficiency, weakens the holding function so fluid leaks through. Warming foods like walnuts and cinnamon, warm feet at night, and stopping fluids two hours before bed may help both.",
+    definition: {
+      term: "Yang Deficiency",
+      termCn: "闃宠櫄",
+      text: "Yang Deficiency develops when the body's warming fire is starved over time, through cold food and drinks, living in chill, overwork, or simply aging out of the deepest reserves. Yang is the heater that warms and vaporizes fluid so the body can recycle it. When that heater drops, fluid stops being processed and slips straight through, which is why nighttime urine runs pale and clear. Cold lower back and cold feet usually travel with it.",
+    },
+    conditionalBranches: {
+      title: "Why Your Bladder Wakes You",
+      intro: "Nighttime urination with normal test results usually traces to one of two patterns, and whether you feel cold or tired tells you which.",
+      branches: [
+        { signal: "Wake to pee, feel cold, pale clear urine", meaning: "Kidney Yang is too low to retain fluid", approach: "Yang path: walnuts, cinnamon, warm feet and lower back, avoid cold evening foods" },
+        { signal: "Wake to pee, mainly tired, low energy", meaning: "Qi is too weak to hold fluid in place", approach: "Qi path: congee, jujube dates, warm meals, gentle movement" },
+        { signal: "Both cold and tired, leaks through the night", meaning: "Yang and Qi are both low", approach: "Combined path: warming nourishing foods, early sleep, keep lower back warm" },
+      ],
+    },
     tcmExplanation: [
       "Before diving into Eastern explanations, it's worth ruling out the straightforward causes. Drinking a lot of fluids close to bedtime is the most common reason. Alcohol and caffeine are both diuretics, meaning they tell your kidneys to produce more urine. If your evening routine includes a large tea, a beer, or a big glass of water, try cutting that out and see what happens.",
       "For men, an enlarged prostate can press on the bladder and create the urge to go even when the bladder isn't full. For women, pelvic floor changes after pregnancy or during menopause can play a role. Urinary tract infections, diabetes, and certain blood pressure medications can also cause nighttime urination.",
@@ -4982,6 +5689,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Numbness in the hands and feet is one of those symptoms that's easy to dismiss until it starts happening regularly. You shake it off, literally, and the feeling comes back. But why does it happen in the first place? And why does it happen to you more than other people?",
       "Chinese medicine has a clear explanation for this. Numbness in the extremities is often connected to two things: insufficient warmth reaching the ends of your body, and insufficient blood and energy circulation. Both trace back to specific constitutional patterns.",
     ],
+    quickAnswer: "When numbness in your hands and feet persists despite movement and posture changes, TCM points to Yang Deficiency, where the body pulls warmth away from the extremities to protect the core, leaving the ends under-circulated. A second pattern, Qi Deficiency, lacks the pumping power to push blood that far. About 10% fit the Yang Deficient type. Ginger foot soaks, warming foods, and gentle movement may help restore flow to the ends.",
+    definition: {
+      term: "Yang Deficiency",
+      termCn: "闃宠櫄",
+      text: "Yang Deficiency is like a house where the heating pipes narrow before they reach the far rooms. The boiler works fine, but the body triages its limited warmth toward the core and pulls it away from your fingertips and toes. Less warmth means less circulation, less circulation means less sensation, and numbness or tingling is the result. Cold weather makes it worse, and the hands and feet are always the first to go numb.",
+    },
+    conditionalBranches: {
+      title: "What's Cutting Off Circulation?",
+      intro: "Numb extremities with clean nerve tests usually trace to one of two patterns, and whether you run cold or tired tells you which.",
+      branches: [
+        { signal: "Numb and cold hands and feet, worse in winter", meaning: "Yang is too low to warm the ends", approach: "Yang path: ginger foot soaks, lamb, cinnamon, dress warm at wrists and ankles" },
+        { signal: "Numb with fatigue, pale skin, soft voice", meaning: "Qi pump is too weak to push blood out", approach: "Qi path: congee, jujube dates, gentle walking, build energy" },
+        { signal: "Numb with both cold and exhaustion", meaning: "Yang and Qi are both low", approach: "Combined path: warming foods plus Qi-building meals, gentle movement" },
+      ],
+    },
     tcmExplanation: [
       "Numbness in the extremities can have medical causes that need attention. If the numbness is one-sided, sudden, or accompanied by weakness, confusion, or difficulty speaking, seek emergency medical care immediately. These can be signs of a stroke.",
       "Other medical causes include carpal tunnel syndrome (especially if numbness is in your thumb, index, and middle fingers), peripheral neuropathy (common with diabetes), vitamin B12 deficiency, pinched nerves in the neck or back, and Raynaud's phenomenon. If you haven't been evaluated for these, it's worth checking with a doctor.",
@@ -5061,6 +5783,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The skincare industry will tell you it's dead skin cells. Or dehydration. Or pollution. And those things can contribute. But if you're exfoliating regularly, moisturizing, and protecting your skin and it still looks tired, something deeper is going on.",
       "Chinese medicine connects a dull complexion to Blood. Specifically, to Blood that isn't reaching your face in sufficient quantity or quality. Your face is like a room with a lamp inside. If the power is flowing, the lamp glows warmly through the glass. If the power is weak or the cord is kinked, the light dims. Face creams are like polishing the glass. They help, but they don't fix the power supply.",
     ],
+    quickAnswer: "The most common TCM pattern behind a dull complexion is Blood Stasis, where sluggish blood stops flowing freely and leaves the face under-nourished with a slightly dark or purplish undertone. A second pattern, Qi Deficiency, is too weak to push blood upward and leaves the face pale rather than dark. Jujube dates, goji berries, and gentle movement may help move stagnation and lift the color back into the face.",
+    definition: {
+      term: "Blood Stasis",
+      termCn: "琛€鐦€",
+      text: "Blood Stasis is the pattern that slows blood to a crawl until it stops nourishing the surface. In a healthy face, blood flows smoothly and carries color and vitality to the skin. Under stasis, the flow turns sluggish and sticky, leaving a dull, sallow, or slightly purplish tone, dark circles that sleep cannot fix, easy bruising, and period pain with clots. The blood is present, but it is not moving, so the face dims.",
+    },
     tcmExplanation: [
       "Lack of sleep is the most obvious cause of a dull complexion, and it's real. When you don't sleep enough, circulation to the skin drops, and it shows. Dehydration makes skin look flat. Smoking constricts blood vessels and reduces blood flow to the face over time. Not removing makeup properly clogs pores and creates a dull film on the skin.",
       "If you're sleeping well, drinking water, and taking care of your skin but still look like you haven't seen sunlight in weeks, the Eastern perspective offers a different angle. It's about what's flowing (or not flowing) underneath.",
@@ -5137,6 +5865,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "The standard advice is to strip the oil away. Stronger cleansers, more astringents, harsher toners. But here's the thing about that approach: your skin just produces more oil to compensate. You're turning up the faucet while trying to mop the floor. It doesn't work.",
       "Chinese medicine looks at oily skin differently. Instead of asking \"how do we remove the oil?\" it asks \"why is your body producing so much of it in the first place?\" The oil on your face isn't random. It may be a sign that your internal fluid processing system is out of balance.",
     ],
+    quickAnswer: "Damp Heat is the primary TCM explanation for an oily face, where a weak Spleen lets fluids pool into sticky dampness and heat bubbles that dampness up to the surface like a pot of thick soup left on a rolling boil. People with this constitution run warm, feel heavy, and crave the fried, sweet, and dairy-heavy foods that make it worse. Green tea, chrysanthemum tea, and cutting dairy and sugar may help drain the overflow.",
+    definition: {
+      term: "Damp Heat",
+      termCn: "婀跨儹",
+      text: "Damp Heat is the inverted opposite of a Spleen that processes fluids cleanly. Where a balanced system separates useful moisture from waste and sends each to the right place, a Damp Heat system lets fluid stagnate into a sticky residue and then heats it until it overflows upward. On the face that looks like warm, yellowish oil, redness, and breakouts. The heat adds the inflammation, the dampness adds the heavy greasy quality that will not rinse away.",
+    },
     tcmExplanation: [
       "Humidity and hot weather make everyone oilier. That's normal. Using the wrong skincare products for your skin type, especially heavy creams on already oily skin, can make things worse. Stress increases cortisol, which ramps up sebum production. Not washing your face before bed lets oil and debris build up overnight.",
       "But if you've addressed all of these and your face is still an oil slick by 2 PM, the Eastern perspective has a different explanation. One that starts inside your body, not on top of your skin.",
@@ -5207,6 +5941,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Hair loss is one of those things people don't talk about enough, even though it's incredibly common. The standard response is either \"it's genetic\" or \"try minoxidil,\" which feels like being told your house is flooding and the only option is to mop faster. What if you could at least slow down the water?",
       "Traditional Chinese Medicine doesn't see hair as separate from the rest of your body. It sees hair as the visible tip of an internal system. When that system is well-nourished, hair grows thick and strong. When it's depleted, hair thins and falls. The question isn't just what's happening to your hair. It's what your body is no longer able to send to your scalp.",
     ],
+    quickAnswer: "Chinese medicine identifies two distinct patterns behind hair thinning: Yin Deficiency, where the cooling and moistening force dries out the fluids that root hair, and Qi Deficiency, where the pump is too weak to deliver nourishment to the scalp. About 10% of people fit the Yin Deficient type and 15% the Qi Deficient type. Black sesame, goji berries, and warm nourishing meals may help rebuild the reserves that keep hair rooted.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "闃磋櫄",
+      text: "Yin Deficiency comes with a cluster of drying signs: hair that thins and falls, a dry mouth and dry skin, a feeling of warmth at night, sometimes night sweats, and a restless mind that will not settle. Yin is the cooling, moistening reserve that keeps follicles hydrated and rooted. When it runs low, the scalp dries out like a plant left too close to a heater, and the hair lets go. The thinning often pairs with feeling running hot.",
+    },
+    conditionalBranches: {
+      title: "Which Thinning Pattern Fits You?",
+      intro: "Hair loss with normal blood work usually traces to one of two depleted patterns, and how the thinning feels tells you which.",
+      branches: [
+        { signal: "Thinning with dry skin, warm at night, dry mouth", meaning: "Yin is too dry to keep hair rooted", approach: "Yin path: black sesame, goji berries, pear, sleep before 11 PM" },
+        { signal: "Thinning with fatigue, weak delivery to scalp", meaning: "Qi is too weak to nourish the roots", approach: "Qi path: congee, sweet potato, jujube dates, gentle movement" },
+        { signal: "Thinning with both dryness and exhaustion", meaning: "Yin and Qi are both depleted", approach: "Combined path: moistening foods plus warm nourishing meals, scalp massage" },
+      ],
+    },
     tcmExplanation: [
       "The most common explanation is genetics, specifically androgenetic alopecia. This is real and well-documented. If hair loss runs in your family, you may have a genetic predisposition. But genetics loads the gun. Environment pulls the trigger. Two people with the same genetic profile can experience very different rates of hair loss depending on their internal health.",
       "Other common causes: thyroid dysfunction (both overactive and underactive), iron deficiency, severe stress (telogen effluvium), hormonal changes after pregnancy or during menopause, certain medications, and autoimmune conditions. These are all worth checking with your doctor.",
@@ -5290,6 +6039,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Nobody talks about this at dinner parties, but low libido is incredibly common. It's just not the kind of thing people bring up over appetizers. So you end up thinking you're the only one, which makes you feel even more broken. You're not broken. Your body is running low on something, and that something can be figured out.",
       "Chinese medicine connects sexual desire to your body's deepest energy reserves. Not in a mystical way, but in a very practical \"your body won't spend energy on reproduction if it barely has enough to get through Tuesday\" kind of way. Let's unpack what that means for your specific body type.",
     ],
+    quickAnswer: "In Chinese medicine, low libido is most often linked to Yang Deficiency, where the internal fire that fuels desire runs too low, so the body cuts reproductive function to conserve what little warmth it has. A second pattern, Qi Deficiency, is pure exhaustion: no spare energy to fund desire. About 8% fit the Yang Deficient type and 15% the Qi Deficient type. Warming foods, sleep before 11 PM, and gentle movement may help the body feel safe turning those systems back on.",
+    definition: {
+      term: "Yang Deficiency",
+      termCn: "闃宠櫄",
+      text: "Yang Deficiency takes hold when the internal fire is spent faster than it is rebuilt, through chronic cold exposure, overwork, late nights, skipping warm meals, or simply drawing down the deepest reserves over years. Yang is the warming, activating force that fuels metabolism and desire. When it drops, the body reads it as an emergency and shuts off non-essential functions, libido among the first. Cold hands, cold feet, and a low back that aches usually accompany it.",
+    },
+    conditionalBranches: {
+      title: "Where Did Your Drive Go?",
+      intro: "Low libido with normal hormone panels usually traces to one of two depleted patterns, and whether you run cold or tired tells you which.",
+      branches: [
+        { signal: "Low drive, cold hands and feet, low back ache", meaning: "Yang fire is too low to fuel desire", approach: "Yang path: lamb, walnuts, cinnamon, warm foods, avoid ice water" },
+        { signal: "Low drive, pure exhaustion, no spare energy", meaning: "Qi is too low to fund reproduction", approach: "Qi path: congee, jujube dates, warm meals, gentle movement" },
+        { signal: "Low drive with both cold and exhaustion", meaning: "Yang and Qi are both depleted", approach: "Combined path: warming nourishing foods, early sleep, rebuild reserves slowly" },
+      ],
+    },
     tcmExplanation: [
       "Stress is the big one. When your body is in survival mode, it shuts down non-essential functions, and reproduction is first on the chopping block. Chronic stress keeps cortisol high and suppresses the hormones that drive desire. Relationship issues are another obvious factor. Unresolved conflict, lack of emotional connection, or feeling unappreciated can tank libido faster than anything biological.",
       "Medical causes: low testosterone (in both men and women), thyroid dysfunction, depression, anxiety, and certain medications (especially SSRIs and blood pressure medications). Hormonal changes from aging, childbirth, or menopause can also play a role. If you haven't had your hormones checked, that's a reasonable first step.",
@@ -5373,6 +6137,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "It's frustrating because the advice is always the same: eat less, move more. And you've tried that. Multiple times. Each time you lose a little, stall out, and then gain back more than you lost. It feels like your metabolism is a dimmer switch that someone turned down and forgot where the knob is.",
       "Chinese medicine doesn't think about metabolism in terms of calories in versus calories out. It thinks about it in terms of how well your body transforms food into energy versus how much of it gets stored as gunk. That gunk, in TCM language, is called Dampness, and it's the key to understanding why some metabolisms run fast and others crawl.",
     ],
+    quickAnswer: "About 10% of people with a stubbornly slow metabolism fit the Phlegm Damp body type, where a weak Spleen turns food into sticky sludge instead of clean energy, so weight and puffiness build like residue in a factory with clogged drains. Another 15% fit the Qi Deficient type, whose underpowered engine conserves rather than burns. Draining dampness with adzuki beans and coix seed, stopping ice water, and gentle movement may help both.",
+    definition: {
+      term: "Phlegm Damp",
+      termCn: "鐥版箍",
+      text: "Phlegm Damp acts as the sludge that slows a metabolism to a crawl. The Spleen is meant to take food in, convert it into usable energy, and ship that energy where it is needed. Under Phlegm Damp the machinery turns inefficient: raw material goes in, but instead of clean output you get waste and residue that coats the system. Everything feels heavy and slow, weight collects around the middle, and the body holds moisture it cannot clear.",
+    },
+    conditionalBranches: {
+      title: "What's Slowing Your Engine?",
+      intro: "A slow metabolism with normal thyroid panels usually traces to one of two patterns, and how the slowness feels tells you which.",
+      branches: [
+        { signal: "Heavy, puffy, soft weight around the middle, worse in humidity", meaning: "Phlegm Damp is clogging the machinery", approach: "Damp path: adzuki beans, coix seed, cut dairy and sweets, stop ice water" },
+        { signal: "Slow, tired, weak digestion, gains on little food", meaning: "Qi is too low to run the engine", approach: "Qi path: congee, sweet potato, jujube dates, warm nourishing meals" },
+        { signal: "Puffy and tired, sluggish all around", meaning: "Damp and deficiency are both present", approach: "Combined path: drain dampness gently while building Qi with warm foods" },
+      ],
+    },
     tcmExplanation: [
       "Before looking at Eastern perspectives, make sure the basics are covered. Thyroid function is the most common medical cause of a genuinely slow metabolism. An underactive thyroid (hypothyroidism) directly reduces your metabolic rate. Get a full thyroid panel, not just TSH, because some issues don't show up on basic screening.",
       "Other factors: muscle mass (muscle burns more calories at rest than fat), age (metabolism naturally slows as we get older), sleep deprivation (disrupts hunger hormones and reduces metabolic rate), chronic stress (high cortisol promotes fat storage, especially around the belly), and certain medications. If you've been yo-yo dieting for years, that can also slow your metabolism as your body learns to function on fewer calories.",
@@ -5456,6 +6235,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Irregular periods are incredibly common. Technically, a \"normal\" cycle is anywhere from 21 to 35 days, and some variation is expected. But when your cycle swings wildly, or when you skip months, or when the duration and flow change unpredictably, that's your body telling you that the system regulating your cycle isn't running smoothly.",
       "In Chinese medicine, the menstrual cycle is governed by something called the Chong and Ren meridians, which are like the two main highways that supply the uterus with Qi and Blood. The Liver system acts as the traffic controller, making sure everything flows in the right direction at the right time. When any part of this system is disrupted, the cycle becomes unpredictable.",
     ],
+    quickAnswer: "When an irregular cycle persists despite tracking and lifestyle tweaks, TCM points to Liver Qi Stagnation, where stress knots the energy that should flow in a steady rhythm, throwing the timing into a stop-and-start pattern. A second pattern, Yang Deficiency, leaves the uterus too cold to keep the cycle on schedule. About 15% fit the Qi Stagnant type. Rose tea, warmth before your period, and stress management may help restore the rhythm.",
+    definition: {
+      term: "Qi Stagnation",
+      termCn: "姘旈儊",
+      text: "Qi Stagnation shows up as a recognizable set of cycle signs: a period that arrives early one month and late the next, mood swings and chest tightness before flow, frequent sighing, and cramps that ease once bleeding starts. The Liver is supposed to keep energy moving in a predictable rhythm, but under stress that flow tightens into fits and starts, like a river with rocks thrown in. The timing becomes unreliable because the energy driving it is not smooth.",
+    },
+    conditionalBranches: {
+      title: "What's Throwing Off Your Cycle?",
+      intro: "An irregular cycle with normal hormone panels usually traces to one of two patterns, and whether stress or cold is the trigger tells you which.",
+      branches: [
+        { signal: "Irregular with mood swings, chest tightness, sighing", meaning: "Liver Qi is stuck from stress", approach: "Stagnation path: rose tea, fennel tea, manage stress, move body" },
+        { signal: "Irregular, delayed, light flow, runs cold", meaning: "Yang is too low to warm the uterus", approach: "Yang path: warm foods and drinks, keep midsection warm, avoid cold before period" },
+        { signal: "Irregular with both tension and coldness", meaning: "Stagnation and Yang deficiency are combining", approach: "Combined path: warm the body while moving stagnant Qi with tea and routine" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, the Liver is the organ system responsible for smooth rhythm and timing in the body. It's sometimes called the \"general\" because it coordinates the movement of Qi throughout the system. When the Liver is functioning well, energy moves in a steady, predictable pattern. Your menstrual cycle is one of those patterns.",
       "When the Liver gets stressed, Qi stagnates. Instead of a steady flow, the energy moves in fits and starts. Imagine a river that normally flows at a consistent pace. Now imagine someone keeps putting rocks in it. The water pools in some places, rushes through others, and the overall rhythm is lost. That's what Qi Stagnation does to your menstrual cycle. The timing becomes unreliable because the energy that drives it isn't flowing smoothly.",
@@ -5536,6 +6330,21 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Heavy menstrual bleeding, or menorrhagia, is more than just an inconvenience. Losing that much blood month after month can lead to iron deficiency, fatigue, and a general feeling of being run down. The standard approach usually involves checking for fibroids, testing thyroid function, and sometimes prescribing hormonal birth control. These are all valid steps.",
       "But there are plenty of women who get checked, don't have fibroids, have normal thyroid panels, and are told that heavy periods are \"just how their body works.\" Chinese medicine offers a framework for understanding why the body is flooding, and it comes down to two things: blood that's stuck and energy that's too weak to hold things in place.",
     ],
+    quickAnswer: "The most common TCM pattern behind heavy menstrual bleeding is Blood Stasis, where sluggish blood cannot drain smoothly, pressure builds behind the blockage, and a surge floods through, often with clots. A second pattern, Qi Deficiency, is too weak to hold the flow in check, so the blood runs freely. Hawthorn berry, dark beans, and real rest during your period may help both patterns, while cold food and sugar make the stasis worse.",
+    definition: {
+      term: "Blood Stasis",
+      termCn: "琛€鐦€",
+      text: "Blood Stasis develops when blood loses its smooth flow and turns sticky and slow, through cold in the uterus, a sedentary lifestyle, emotional constriction, or Qi that is too weak to keep it moving. Instead of an even drain, the blood pools and congeals, pressure builds behind the stuck portion, and when it finally breaks through it floods. Dark clots, easy bruising, and period pain that eases once the clot passes are the hallmarks.",
+    },
+    conditionalBranches: {
+      title: "Why Is the Flow So Heavy?",
+      intro: "Heavy periods with no fibroids and normal thyroid panels usually trace to one of two patterns, and whether the blood clots or simply runs tells you which.",
+      branches: [
+        { signal: "Heavy flow with dark clots and cramping", meaning: "Blood is stuck and surging under pressure", approach: "Stasis path: hawthorn tea, dark beans, warm foods, avoid cold and sugar" },
+        { signal: "Heavy flow that runs freely, fatigue and pale tone", meaning: "Qi is too weak to hold the flow", approach: "Qi path: rest during period, congee, jujube dates, nourish blood" },
+        { signal: "Heavy with both clots and exhaustion", meaning: "Stasis and deficiency are combining", approach: "Combined path: move blood gently while resting and building Qi" },
+      ],
+    },
     tcmExplanation: [
       "In TCM, heavy periods are most often linked to two patterns: Blood Stasis and Qi Deficiency. They sound like opposites, but they work together in a way that creates the flooding effect.",
       "Blood Stasis means that blood has become sluggish and isn't flowing freely. Instead of a smooth, even flow, the blood moves in a lumpy, uneven way. Think of it like a hose with mud in it. The water can't pass through smoothly, so pressure builds up behind the blockage. When the pressure gets high enough, a surge of water blasts through. In your uterus, that surge is the heavy bleeding and clotting. The blood is essentially being pushed out in a panic because it can't drain in a controlled, orderly way.",
@@ -5615,6 +6424,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "Skin care companies would have you believe you just haven't found the right product. But what if the problem isn't what you're putting on your skin? What if the problem is that your body isn't sending enough moisture to your skin in the first place?",
       "Chinese medicine has a name for the body's internal moisturizing system. It's called Yin. When Yin is adequate, your skin stays hydrated from within. When Yin is low, no amount of external moisturizer can compensate for what's missing on the inside.",
     ],
+    quickAnswer: "Yin Deficiency is the primary TCM explanation for skin that stays dry no matter how much moisturizer you apply, because the problem is not on the surface but in the body's internal moisture reserve, which has run too low to send hydration outward. About 10% of people fit this type. Pear, black sesame, lily bulb, and sleep before 11 PM may help rebuild the cooling, moistening force that keeps skin supple from within.",
+    definition: {
+      term: "Yin Deficiency",
+      termCn: "闃磋櫄",
+      text: "Yin Deficiency is the moisture reservoir running dry, like a plant whose roots can no longer reach the water table. You can mist the leaves with moisturizer all day, but the plant stays thirsty because the real problem is underground. Yin is the cooling, lubricating reserve that keeps skin, eyes, throat, and joints supple. When it drops, dryness spreads across multiple systems at once, and the warmth that comes with it marks the root as depletion rather than weather.",
+    },
     tcmExplanation: [
       "Before looking inward, consider the obvious. Hot showers strip natural oils. Central heating and air conditioning dry the air. Harsh soaps and cleansers damage your skin barrier. Not drinking enough water is an actual cause of dry skin, not just something your doctor says.",
       "Winter is brutal for dry skin in any climate. As humidity drops, moisture evaporates from your skin faster. If your dry skin is seasonal and resolves in summer, it's probably environmental. If it persists year-round regardless of climate, humidity, or how much water you drink, the Eastern perspective becomes more relevant.",
@@ -5687,6 +6502,12 @@ export const SYMPTOM_ARTICLES: Record<string, SymptomArticleData> = {
       "You've tried the antihistamines. They help, sort of, but they make you drowsy or dry you out or stop working after a while. Every year it's the same battle. You start dreading the season change instead of looking forward to it. That's not how it should be.",
       "Chinese medicine looks at seasonal allergies differently. Instead of asking \"what are you allergic to,\" it asks \"why is your body overreacting.\" The pollen isn't the problem. Pollen has been around forever. The problem is your body's threshold for handling it has dropped. Let's talk about why that happens and what you can do to raise that threshold back up.",
     ],
+    quickAnswer: "Chinese medicine identifies one core pattern behind seasonal allergies: a Sensitive constitution where Wei Qi, the defensive energy, is jumpy and overreacts to harmless pollen like a smoke detector that goes off when you toast bread. Rather than blaming the pollen, TCM asks why the threshold dropped. Congee with jujube dates, chrysanthemum tea before season, and cutting mucus-forming dairy and sugar may help raise that threshold back up.",
+    definition: {
+      term: "Sensitive",
+      termCn: "鐗圭",
+      text: "The Sensitive constitution is the opposite of a defense system with a calm, well-calibrated threshold. Where a robust system shrugs off pollen and dust as harmless visitors, a Sensitive system reads them as threats and sounds the alarm: sneezing, streaming eyes, congestion. The Wei Qi is not weak so much as jumpy, like a smoke detector that fires when you toast bread. A childhood history of asthma or eczema often travels with it.",
+    },
     tcmExplanation: [
       "Seasonal allergies happen when your immune system misidentifies harmless substances like pollen, mold spores, or grass as dangerous invaders. It releases histamine, which causes all the sneezing, itching, and congestion. Allergy testing can pinpoint your specific triggers, and that's useful information to have.",
       "Genetics play a role. If your parents had allergies, you're more likely to have them too. Environmental factors matter: early childhood exposure (or lack thereof) to various allergens, air quality, and the hygiene hypothesis (too-clean environments may impair immune development). Stress, poor sleep, and a diet high in processed foods can all worsen allergic responses.",
