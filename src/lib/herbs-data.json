@@ -966,7 +966,13 @@
     "dietaryAdvice": "Dry-roast coix seeds in a pan until fragrant before cooking, as raw coix seeds are harder to digest and slightly cold in nature. Simmer with rice for congee, or brew as tea with red beans (hong dou) for a classic dampness-draining combination. Eat 2 to 3 times per week during humid seasons. Avoid during pregnancy, as traditional texts caution against its use in early pregnancy.",
     "nameZhTrad": "薏苡仁",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Coix Seed is most often linked to Spleen strengthening with dampness draining, addressing the heavy, sluggish, puffy quality that phlegm-damp body types carry. Its cool, draining nature may help reduce water retention and joint stiffness when used consistently in porridge or tea.",
+    "definition": {
+      "term": "Coix Seed",
+      "termCn": "薏苡仁",
+      "text": "Coix Seed performs a dual function that few herbs can match: it strengthens the Spleen to stop producing dampness, while simultaneously draining existing dampness through urination. Think of it as both fixing the leak and mopping the floor. Common signs it addresses include heavy limbs, morning puffiness, joint stiffness in damp weather, and a thick tongue coating."
+    }
   },
   {
     "slug": "lotus-seed-lian-zi",
@@ -2056,7 +2062,29 @@
     "dietaryAdvice": "Poria is sold as sliced pieces or powder. Add a handful of slices to soup or congee along with Chinese yam and lotus seeds for a spleen-strengthening meal. Poria powder can be mixed into warm water or congee. For fluid retention, take poria tea with a small amount of coix seed. Avoid taking in large amounts if you have yin deficiency with severe dryness, as its draining nature may reduce needed fluids.",
     "nameZhTrad": "茯苓",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who benefit most from Poria fit the Phlegm Damp body type with Spleen Qi deficiency, where fluid retention, bloating, and mental fogginess combine. Poria is unique among damp-draining herbs because it also calms the mind, addressing the mental heaviness that accompanies fluid stagnation.",
+    "definition": {
+      "term": "Poria",
+      "termCn": "茯苓",
+      "text": "Poria acts like a gentle drainage system for the body. Unlike stronger diuretics that force fluid out rapidly, Poria slowly and steadily helps the Spleen process fluids properly so that dampness resolves at its source. Its unique added benefit is calming the Heart and mind, which is why TCM says dampness clouds the intellect, and Poria clears both the fluid and the fog.",
+      "conditionalBranches": {
+        "title": "Which Dampness Pattern Needs Poria?",
+        "intro": "Poria addresses dampness with a calming side benefit. Choose based on your primary concern.",
+        "branches": [
+          {
+            "signal": "Fluid retention plus bloating plus foggy thinking",
+            "meaning": "Spleen too weak to drain, damp clouding the mind",
+            "approach": "Poria in porridge daily, 2-3 weeks"
+          },
+          {
+            "signal": "Water retention plus anxiety and poor sleep",
+            "meaning": "Dampness with Heart agitation",
+            "approach": "Poria with longan before bed"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "fennel-xiao-hui-xiang",
@@ -4636,7 +4664,29 @@
     "preparationNotes": "Because Plantain Seed (Che Qian Zi) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Che qian zi should be wrapped in a cloth bag before simmering, as the tiny seeds can be irritating if swallowed directly. Simmer 10 to 15 grams in water for 15 minutes and drink the tea throughout the day. For urinary patterns, drink warm and frequently. Avoid if you have kidney deficiency without damp-heat, as its draining nature may deplete already weak kidneys.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When urinary difficulty, edema, or hot-type diarrhea persist despite increased water intake, TCM points to damp-heat accumulating in the lower body, and Plantain Seed is a cold, draining herb that promotes urination to flush out heat and dampness simultaneously. It may help with urinary tract discomfort and watery diarrhea with heat signs.",
+    "definition": {
+      "term": "Plantain Seed",
+      "termCn": "车前子",
+      "text": "Unlike warming damp-draining herbs that risk drying the body too much, Plantain Seed drains dampness while simultaneously clearing heat through the urinary pathway. This makes it particularly suited for damp-heat conditions where there is both fluid accumulation and inflammation or burning. Common signs include dark or difficult urination, lower body swelling, and diarrhea with a burning sensation.",
+      "conditionalBranches": {
+        "title": "Which Damp-Heat Pattern Needs Plantain Seed?",
+        "intro": "Plantain Seed targets damp-heat in the lower body. Match yours.",
+        "branches": [
+          {
+            "signal": "Dark, difficult urination with heat sensation",
+            "meaning": "Damp-heat in urinary tract",
+            "approach": "Plantain seed tea, daily, 3-5 days"
+          },
+          {
+            "signal": "Watery diarrhea with burning and urgency",
+            "meaning": "Damp-heat in intestines",
+            "approach": "Plantain seed with coix seed, short-term"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "di-gu-pi",
@@ -5117,7 +5167,29 @@
     "preparationNotes": "Because Alisma (Ze Xie) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Ze xie is used in decoction rather than as food. Simmer 6 to 10 grams with other herbs for 20 minutes. For damp-heat patterns, it is combined with poria and polyporus. For kidney fire, it is combined with prepared rehmannia and di huang. Avoid if you have kidney deficiency without heat or dampness, as its draining nature may further deplete weak kidneys.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind lower body edema with hot, sticky urine is Kidney and Bladder damp-heat, and Alisma is the primary herb for promoting urination while clearing heat from the lower burner. It is stronger than coix seed but gentler than pharmaceutical diuretics, making it useful for short-term damp-heat clearance.",
+    "definition": {
+      "term": "Alisma",
+      "termCn": "泽泻",
+      "text": "Alisma is indicated for: lower body edema, hot and scanty urination, lower back heaviness with a warm sensation, dizziness from internal heat and damp, and high cholesterol patterns (in modern research). These signs point to damp-heat pooling in the lower body where it blocks normal fluid circulation. Alisma opens the drainage pathway while cooling the heat that accompanies the stagnation.",
+      "conditionalBranches": {
+        "title": "When to Choose Aliza Over Gentler Damp Herbs",
+        "intro": "Alisma is for more significant damp-heat. Check if your case warrants it.",
+        "branches": [
+          {
+            "signal": "Lower body edema with hot, scanty urine",
+            "meaning": "Significant damp-heat pooling",
+            "approach": "Alisma with poria, consult practitioner"
+          },
+          {
+            "signal": "Mild morning puffiness without heat signs",
+            "meaning": "Simple dampness, no heat",
+            "approach": "Use coix seed or poria instead"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "zhu-ling",
@@ -5207,7 +5279,29 @@
     "preparationNotes": "Polyporus (Zhu Ling) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 10 to 15 grams of zhu ling with poria and ze xie in water for 20 minutes and drink as tea. The taste is bland, making it easy to combine with other herbs. For water retention, drink throughout the day. For yin-deficient patterns with dampness, reduce the dose and combine with yin tonics. Avoid if you have cold-type patterns without dampness.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Polyporus addresses: urinary difficulty with lower body swelling, and fluid accumulation with fever that signals damp-heat has become severe. Its neutral temperature makes it suitable for draining dampness without adding heat or cold, a balanced action that gentler herbs cannot always achieve.",
+    "definition": {
+      "term": "Polyporus",
+      "termCn": "猪苓",
+      "text": "Polyporus develops its draining effect through a purely diuretic action without warming or cooling properties. This makes it the most neutral damp-draining herb, suitable for cases where the practitioner cannot determine whether the dampness is cold or hot in nature. It specifically targets the urinary pathway to promote fluid excretion. Common signs include urinary difficulty, lower body edema, and watery diarrhea.",
+      "conditionalBranches": {
+        "title": "Which Fluid Pattern Needs Polyporus?",
+        "intro": "Polyporus drains fluid without changing temperature. Use when cold/heat nature is unclear.",
+        "branches": [
+          {
+            "signal": "Urinary difficulty with edema, nature unclear",
+            "meaning": "Dampness without clear cold or heat signs",
+            "approach": "Polyporus with poria, consult practitioner"
+          },
+          {
+            "signal": "Fluid retention with mild fever",
+            "meaning": "Damp-heat becoming more severe",
+            "approach": "Polyporus with alisma, short-term"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "chai-hu",
@@ -8241,7 +8335,13 @@
     "preparationNotes": "Because Pinellia Tuberr (Ban Xia) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Ban xia must be processed (zhi ban xia) before use, as raw ban xia is toxic. Simmer 6 to 10 grams of processed ban xia with ginger and other herbs for 20 minutes. The taste is acrid and slightly numbing. For nausea, combine with ginger. For phlegm, combine with chen pi. Avoid during pregnancy unless specifically prescribed, and never use raw ban xia.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Mildly toxic"
+    "safetyRating": "Mildly toxic",
+    "quickAnswer": "In Chinese medicine, Pinellia is most often linked to phlegm and nausea, addressing the two together because TCM sees them as connected: when the Spleen produces phlegm, the Stomach rebels upward causing nausea. Pinellia is the primary herb for drying phlegm while simultaneously directing Stomach Qi downward.",
+    "definition": {
+      "term": "Pinellia",
+      "termCn": "半夏",
+      "text": "Pinellia performs a unique mechanical function in TCM: it pushes rebellious Stomach energy downward while simultaneously drying the phlegm that caused the rebellion. Think of it as unclogging a pipe that has backed up: the phlegm is the blockage, and the nausea is the backup. Common signs include nausea with a phlegmy sensation, vomiting of mucus, and chest fullness with a rattling sound."
+    }
   },
   {
     "slug": "qian-hu",
@@ -9019,7 +9119,29 @@
     "preparationNotes": "Patchouli (Guang Huo Xiang) is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Steep 5 to 10 grams of huo xiang in hot water for 10 minutes and drink as tea. The taste is aromatic, slightly bitter, and refreshing. For summer digestive patterns, drink 2 to 3 cups daily. In cooking, add fresh huo xiang to soups and stir-fries during humid weather. Avoid if you have yin deficiency with heat signs.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who benefit most from Patchouli fit the Phlegm Damp body type with external damp invasion, where nausea, bloating, and fatigue spike during humid weather or after eating damp-producing foods. Patchouli is an aromatic herb that wakes up the Spleen and disperses surface dampness through its fragrance.",
+    "definition": {
+      "term": "Patchouli",
+      "termCn": "广藿香",
+      "text": "Patchouli acts like opening a window in a damp, stuffy room. Its aromatic fragrance disperses dampness from both the surface and the digestive system simultaneously. Unlike heavier damp-draining herbs that work through urination, Patchouli works through its volatile oils that wake up the Spleen and push dampness outward. Common signs include nausea that worsens in humidity, bloating after damp foods, and a heavy head sensation.",
+      "conditionalBranches": {
+        "title": "When to Choose Patchouli for Dampness",
+        "intro": "Patchouli is for dampness with nausea, especially weather-related. Match yours.",
+        "branches": [
+          {
+            "signal": "Nausea and bloating worse in humid weather",
+            "meaning": "External damp invading the middle",
+            "approach": "Patchouli tea, especially during humid spells"
+          },
+          {
+            "signal": "Nausea with fatigue and heavy head",
+            "meaning": "Spleen damp blocking clear Yang from rising",
+            "approach": "Patchouli with agastache in warm tea"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "ji-nei-jin",
