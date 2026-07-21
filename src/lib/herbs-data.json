@@ -2812,7 +2812,34 @@
     "preparationNotes": "Gastrodia (Tian Ma) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Tian ma is most commonly cooked in chicken soup, a traditional combination for headache and dizziness. Simmer one or two slices with chicken, goji berries, and a few red dates for 1 to 2 hours. For daily use, a thin slice can be steeped in hot water as tea. The taste is mild and slightly starchy. Avoid taking tian ma with blood-thinning medications without professional guidance.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When throbbing stress headaches and dizziness persist despite painkillers, TCM points to Liver Wind rising from qi stagnation or yin deficiency. Tian ma is the herb Chinese medicine reserves for this specific pattern, anchoring the upward surge rather than numbing the head. About 8% of people fit the Qi Stagnant body type that drives this wind, and a smaller share fit Yin Deficiency. Simmered in chicken soup, tian ma may help steady the inner terrain over weeks of consistent use.",
+    "definition": {
+      "term": "Tian Ma",
+      "termCn": "天麻",
+      "text": "Often called the wind-calming orchid, tian ma acts like a shock absorber for an overcharged head. When stress sends Liver energy surging upward into throbbing headaches, dizziness, or numbness that shifts location, tian ma may help anchor that rising force and steady the inner equilibrium."
+    },
+    "conditionalBranches": {
+      "title": "Matching Tian Ma to Your Type of Wind-Headache",
+      "intro": "Tian ma suits two overlapping wind patterns. Use these signals to tell them apart.",
+      "branches": [
+        {
+          "signal": "Throbbing temple headaches with irritability, eye tension, and a rising sensation",
+          "meaning": "Liver Yang rising from stress, the Qi Stagnant subtype",
+          "approach": "Add 3-5g dried tian ma to chicken or fish soup twice weekly, paired with rose tea and gentle movement"
+        },
+        {
+          "signal": "Dizziness, dry eyes, night sweats, and unsteadiness rather than sharp pain",
+          "meaning": "Liver Yin deficiency letting internal wind stir without anchor",
+          "approach": "Pair tian ma with goji and chrysanthemum tea, prioritize sleep before 11 PM, and avoid spicy food"
+        },
+        {
+          "signal": "Headache that responds only briefly to painkillers and returns within hours",
+          "meaning": "Wind has become chronic and needs root-level settling, not symptom suppression",
+          "approach": "Take tian ma consistently for 4-6 weeks through food rather than sporadic doses, and track headache triggers"
+        }
+      ]
+    }
   },
   {
     "slug": "he-shou-wu",
@@ -4093,7 +4120,34 @@
     "preparationNotes": "Reishi Mushroom (Ling Zhi) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Reishi is too woody to cook with directly, so the traditional method is to simmer sliced pieces for 30 to 45 minutes and drink the decoction. The taste is intensely bitter, which is why many people prefer reishi powder in capsules or mixed into coffee. For sleep support, take it in the evening. For immune support, take it in the morning with warm water. Combining with goji berries in tea rounds out the bitter flavor.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that reishi addresses simultaneously: Heart Qi depletion that fragments sleep and racing thoughts, and Lung and Kidney Yin weakness that leaves immunity fragile through seasonal changes. About 15% of people fit the Qi Deficient body type and 10% the Yin Deficient body type. Unlike sedatives that force rest, reishi rebuilds what chronic stress has depleted, and daily tea or dual extract may help restore a steadier baseline over several weeks.",
+    "definition": {
+      "term": "Reishi",
+      "termCn": "灵芝",
+      "text": "Reishi functions as a dual-purpose regulator in Chinese tonic practice, simultaneously calming the spirit through Heart nourishment and supporting defensive Qi through Lung and immune pathways. Unlike stimulants that push the body harder, it works by rebuilding what chronic stress has depleted, which may help restore a steadier baseline over weeks of consistent use."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Reishi by What Your Body is Missing",
+      "intro": "Reishi suits depleted states, not excess ones. Match it to the right gap.",
+      "branches": [
+        {
+          "signal": "Sleep is light and broken with racing thoughts despite exhaustion",
+          "meaning": "Heart Qi and Blood too thin to anchor the spirit",
+          "approach": "Take reishi tea or dual extract 30 minutes before bed for 4-8 weeks, paired with jujube dates"
+        },
+        {
+          "signal": "Frequent colds, low resilience, and slow recovery during season changes",
+          "meaning": "Lung and defensive Qi underpowered at the boundary",
+          "approach": "Use reishi daily through spring and autumn, combined with astragalus for stronger boundary support"
+        },
+        {
+          "signal": "Heat signs such as red face, irritability, or loose inflamed stools",
+          "meaning": "An excess pattern where reishi may add heaviness rather than help",
+          "approach": "Pause reishi and consider cooling options like American ginseng or chrysanthemum tea first"
+        }
+      ]
+    }
   },
   {
     "slug": "sang-ye",
@@ -4958,7 +5012,34 @@
     "preparationNotes": "Sour Jujube Seed (Suan Zao Ren) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Grind roasted suan zao ren into powder and take 3 to 5 grams with warm water 30 minutes before bed. Alternatively, simmer 10 to 15 grams in water for 20 minutes and drink the tea. The taste is mild and slightly sour. For stronger effect, combine with lily bulb and lotus seeds. Avoid taking during the day if it causes drowsiness, and do not combine with sedative medications without professional guidance.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Heart Yin depletion with racing thoughts at night is the primary TCM pattern that suan zao ren addresses. About 10% of people fit the Yin Deficient body type and another 8% the Qi Stagnant body type, and the two often overlap when stress runs long enough to drain the cooling reserve. The classical formula Suan Zao Ren Tang pairs the seed with mai dong and fu ling, and for milder cases the tea alone taken 30 minutes before bed may help the spirit settle.",
+    "definition": {
+      "term": "Suan Zao Ren",
+      "termCn": "酸枣仁",
+      "text": "Unlike sedatives that force sleep but leave the mind groggy, sour jujube seed works by replenishing the Heart Yin that should anchor the spirit at night. The pattern it addresses is specific: physical tiredness paired with racing thoughts that refuse to settle, the classic signature of Heart Yin depletion."
+    },
+    "conditionalBranches": {
+      "title": "Matching Suan Zao Ren to Your Insomnia Pattern",
+      "intro": "Not every sleepless night needs suan zao ren. Check the signal before reaching for it.",
+      "branches": [
+        {
+          "signal": "Sleep will not come because the mind replays the day on loop",
+          "meaning": "Liver Qi stagnation disturbing the Heart from stress",
+          "approach": "Combine suan zao ren with rose tea and a 20-minute evening walk to move the stuck Qi first"
+        },
+        {
+          "signal": "You wake between 1 and 3 AM with dry mouth and warm palms",
+          "meaning": "Heart and Liver Yin deficiency letting virtual heat rise overnight",
+          "approach": "Take suan zao ren powder with warm water before bed, paired with lily bulb and sleep before 11 PM"
+        },
+        {
+          "signal": "Night sweats soak the sheets and sleep stays shallow until dawn",
+          "meaning": "Severe Yin depletion that needs a formula, not a single herb",
+          "approach": "Use the classical Suan Zao Ren Tang under guidance rather than the seed alone, and protect evening rest"
+        }
+      ]
+    }
   },
   {
     "slug": "wu-wei-zi",
@@ -9232,7 +9313,34 @@
     "preparationNotes": "Chicken Gizzard Lining (Ji Nei Jin) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Buy dried ji nei jin and grind it into a fine powder. Take 1 to 3 grams with warm water after meals, or add to congee. The taste is slightly fishy and bland, so it can be mixed with a small amount of honey. For chronic digestive weakness, take with every meal for 2 to 4 weeks, then reduce to as needed.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind chronic food stagnation with weak digestion is Spleen Qi deficiency caught in a loop with accumulating dampness, and ji nei jin is the herb that breaks the cycle. About 15% of people fit the Qi Deficient body type and another 10% the Phlegm Damp body type, and the two reinforce each other: weak Spleen produces more stagnation, stagnation further exhausts the Spleen. Powdered ji nei jin taken after meals may help resolve the accumulation while gently strengthening the digestive fire.",
+    "definition": {
+      "term": "Ji Nei Jin",
+      "termCn": "鸡内金",
+      "text": "Ji nei jin is the inner lining of a chicken gizzard, the very organ that grinds grain into digestible bits, and in TCM logic it carries that same grinding power into the human digestive system. For food that sits heavy, ferments into gas, or refuses to move, ji nei jin may help break the stagnation where ordinary enzymes fall short."
+    },
+    "conditionalBranches": {
+      "title": "Matching Ji Nei Jin to Your Stagnation Pattern",
+      "intro": "Ji nei jin shines when food will not move. Match it to where the stagnation sits.",
+      "branches": [
+        {
+          "signal": "Bloating and belching after every meal, with a heavy full stomach",
+          "meaning": "Food stagnation from a Spleen too weak to process efficiently",
+          "approach": "Take 1-2g ji nei jin powder after meals daily, paired with smaller portions and thorough chewing"
+        },
+        {
+          "signal": "Chronic abdominal fullness with thick greasy tongue coating and foggy head",
+          "meaning": "Phlegm-damp on top of food stagnation, a heavier combined pattern",
+          "approach": "Combine ji nei jin with coix seed and poria in congee, and cut dairy and cold raw foods"
+        },
+        {
+          "signal": "Sharp stomach pain, vomiting, or signs of gallstones",
+          "meaning": "Possible structural issue needing proper evaluation, not just stagnation",
+          "approach": "Use ji nei jin only as support and seek proper workup, do not attempt to manage acute obstruction alone"
+        }
+      ]
+    }
   },
   {
     "slug": "zhi-shi",
@@ -10949,7 +11057,34 @@
     ],
     "image": "/images/herbs/euryale-seed-qian-shi.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that euryale seed addresses: Spleen Qi deficiency with chronic loose stools, and fluid retention from phlegm-damp that the Spleen cannot process. About 15% of people fit the Qi Deficient body type and 10% the Phlegm Damp body type, and both share a Spleen too weak to hold or process fluids. Euryale seed is uniquely dual-action, tonifying and astringing at once, and as a food-grade herb in soups and congee it may help firm what is leaking without the harshness of stronger tonics.",
+    "definition": {
+      "term": "Qian Shi",
+      "termCn": "芡实",
+      "text": "Qian shi is the food-grade herb used when the body cannot hold onto what it should: chronic loose stools that drain energy, frequent urination that disrupts sleep, excessive vaginal discharge, or spontaneous daytime sweating. Its dual action of strengthening the Spleen while gently astringing may help firm what is leaking without the harshness of stronger tonics."
+    },
+    "conditionalBranches": {
+      "title": "Matching Qian Shi to What Your Body Leaks",
+      "intro": "Qian shi firms and holds. Match it to the specific thing your body cannot contain.",
+      "branches": [
+        {
+          "signal": "Chronic loose stools with fatigue, worse after cold or raw food",
+          "meaning": "Spleen Qi too weak to process and transport fluids",
+          "approach": "Cook qian shi with yam and lotus seed in congee, 3-4 times weekly, and switch to warm cooked meals"
+        },
+        {
+          "signal": "Frequent urination, especially at night, with lower back weakness",
+          "meaning": "Kidney Qi unable to anchor fluids in the lower body",
+          "approach": "Add qian shi to bone broth with walnuts and chestnuts, and stop fluids 2 hours before bed"
+        },
+        {
+          "signal": "Water retention with a heavy sluggish body and thick tongue coating",
+          "meaning": "Phlegm-damp accumulation that needs draining before tonifying",
+          "approach": "Use coix seed and poria first to drain the damp, then introduce qian shi once the heaviness eases"
+        }
+      ]
+    }
   },
   {
     "slug": "burdock-root-niu-bang-gen",
@@ -11041,7 +11176,34 @@
     ],
     "image": "/images/herbs/burdock-root-niu-bang-gen.jpg",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 60% of people who benefit most from burdock root carry the damp-heat pattern that surfaces as red inflamed acne, cystic swellings, or a hot sore throat that surface care alone cannot fully clear. Burdock root is the cold detoxifier that enters the Lung and Stomach channels governing the skin, drawing heat and sticky toxins downward through urine and stool. Daily tea during active breakouts may help clear the internal source rather than chasing the skin symptom alone.",
+    "definition": {
+      "term": "Burdock Root",
+      "termCn": "牛蒡根",
+      "text": "Burdock root works like a deep-cleaning drain for the blood and lymph, drawing heat and sticky toxins downward and out through urine and stool. For the damp-heat pattern that surfaces as red inflamed acne, cystic swelling, or a hot sore throat, burdock may help clear the internal source rather than chasing the skin symptom alone."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Burdock by Where the Heat Shows",
+      "intro": "Burdock targets heat and toxins through the skin, throat, and lymph. Match the location.",
+      "branches": [
+        {
+          "signal": "Red inflamed acne, boils, or skin eruptions that flare in humidity",
+          "meaning": "Damp-heat in the blood expressing through the Lung channel",
+          "approach": "Brew 3-6g burdock root as daily tea during breakouts, paired with mung bean and chrysanthemum"
+        },
+        {
+          "signal": "Hot sore throat with swollen lymph nodes, especially at onset",
+          "meaning": "Wind-heat and toxin lodging in the throat and neck lymph",
+          "approach": "Combine burdock with honeysuckle tea at the first sign, and rest the voice for 48 hours"
+        },
+        {
+          "signal": "Oily sluggish skin with cystic acne and a heavy tired body",
+          "meaning": "Phlegm-damp mixed with heat, a heavier combined pattern",
+          "approach": "Pair burdock with coix seed and dandelion in tea, and reduce dairy and fried food"
+        }
+      ]
+    }
   },
   {
     "slug": "pumpkin-seeds-nan-gua-zi",
@@ -11133,7 +11295,34 @@
     ],
     "image": "/images/herbs/pumpkin-seeds-nan-gua-zi.jpg",
     "classicalSource": "Bencao Gangmu (1593 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind intestinal parasites with mild qi weakness and low-grade fatigue is Spleen Qi deficiency that has lowered the body's resistance, and pumpkin seeds are the food-grade herb Chinese medicine considers safest for this combined picture. About 15% of people fit the Qi Deficient body type, and balanced types also use them for daily zinc and magnesium support. Their sweet warm nature gently tonifies the Spleen while paralyzing parasites so they release from the gut wall, which may help clear the problem without toxicity.",
+    "definition": {
+      "term": "Pumpkin Seeds",
+      "termCn": "南瓜子",
+      "text": "Pumpkin seeds function as one of the safest food-grade herbs in the Chinese pharmacopeia, gently tonifying Spleen Qi while simultaneously paralyzing intestinal parasites so they release from the gut wall. Their sweet warm nature and rich mineral profile, especially zinc and magnesium, may help support daily energy, prostate health, and immune resilience in qi-deficient and balanced types alike."
+    },
+    "conditionalBranches": {
+      "title": "Matching Pumpkin Seeds to Your Daily Need",
+      "intro": "Pumpkin seeds serve three different daily purposes. Match them to your primary goal.",
+      "branches": [
+        {
+          "signal": "Suspected intestinal parasites with appetite changes and anal itching",
+          "meaning": "Parasite pattern where pumpkin seeds offer a gentle non-toxic option",
+          "approach": "Eat 30-50g raw pumpkin seeds with honey on an empty stomach for 5-7 days, then reassess"
+        },
+        {
+          "signal": "Fatigue, weak digestion, and low drive without other clear cause",
+          "meaning": "Qi deficiency needing gentle daily Spleen support",
+          "approach": "Add a handful of roasted pumpkin seeds to breakfast daily, paired with jujube dates and congee"
+        },
+        {
+          "signal": "Balanced constitution seeking daily mineral and immune support",
+          "meaning": "Maintenance use to preserve equilibrium through nutrition",
+          "approach": "Use a small handful of pumpkin seeds with walnuts as a snack, ideal for long-term regular use"
+        }
+      ]
+    }
   },
   {
     "slug": "black-jujube-hei-zao",
@@ -11585,7 +11774,34 @@
     ],
     "image": "/images/herbs/senna-leaf-fan-xie-ye.jpg",
     "classicalSource": "Yinpin Xincan (1935 CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "When heat-type constipation with sticky dry stools persists despite fiber, TCM points to damp-heat accumulating in the Large Intestine, and senna leaf is the cold, downward-draining herb that may help move the accumulation while clearing the heat. Its action is fast and reliable, usually within 6 to 12 hours. It suits short-term relief in heat-type constipation and occasional use in balanced types after travel or dietary disruption, but daily dependence can worsen the underlying Spleen weakness over time.",
+    "definition": {
+      "term": "Senna Leaf",
+      "termCn": "番泻叶",
+      "text": "Senna functions as a direct stimulant of the large intestine wall, triggering rhythmic contractions that move stool downward within roughly six to twelve hours of intake. Its cold, bitter nature also clears heat accumulation, which may help with the sticky, dry, heat-type constipation that simple fiber and water often fail to resolve."
+    },
+    "conditionalBranches": {
+      "title": "When Senna is Safe and When to Pause",
+      "intro": "Senna is a short-term tool, not a daily habit. Use these signals to time it right.",
+      "branches": [
+        {
+          "signal": "Dry, sticky stools with abdominal heat, bloating, and a red face",
+          "meaning": "Damp-heat constipation where senna's cold draining fits the pattern",
+          "approach": "Steep 1-2g senna leaf in hot water for 5 minutes, take in the evening, and stop after 2-3 days"
+        },
+        {
+          "signal": "Occasional constipation from travel, jet lag, or dietary change",
+          "meaning": "Temporary disruption in a balanced constitution",
+          "approach": "Use a single small cup of senna tea as a one-off, then address hydration and routine"
+        },
+        {
+          "signal": "Chronic constipation with cold signs, fatigue, or pale complexion",
+          "meaning": "Qi or Yang deficiency type where senna will deepen the weakness",
+          "approach": "Avoid senna and choose moistening or warming options like peach kernel, hemp seed, or dried ginger"
+        }
+      ]
+    }
   },
   {
     "slug": "turmeric-jiang-huang",
@@ -12357,7 +12573,13 @@
     ],
     "classicalSource": "Bencao Gangmu (1578 CE)",
     "safetyRating": "Non-toxic",
-    "image": "/images/herbs/albizzia-flower-he-huan-hua.jpg"
+    "image": "/images/herbs/albizzia-flower-he-huan-hua.jpg",
+    "quickAnswer": "In Chinese medicine, Albizzia Flower is most often linked to Liver Qi stagnation touching the Heart, the pattern behind a tight chest, frequent sighing, and a mind that spins at night with thoughts that will not stop. About 8% of people fit the Qi Stagnant body type, and their sleep trouble comes with irritability or a flat heavy mood that rest alone cannot lift. Its traditional name 'shared joy' points to its role in releasing the emotional knot, which may help restore flow without heavy sedation.",
+    "definition": {
+      "term": "Albizzia Flower",
+      "termCn": "合欢花",
+      "text": "Albizzia flower is the herb Chinese medicine turns to for a recognizable cluster of signs: a tight chest, frequent sighing, a mind that spins at night with thoughts that will not stop, and a flat heavy mood that sleep alone cannot lift. Its traditional name 'shared joy' points to its role in releasing the Liver knot beneath these symptoms."
+    }
   },
   {
     "slug": "cardamom-sha-ren",
@@ -12459,7 +12681,34 @@
     ],
     "classicalSource": "Kaibao Bencao (974 CE)",
     "safetyRating": "Use with caution",
-    "image": "/images/herbs/cardamom-sha-ren.jpg"
+    "image": "/images/herbs/cardamom-sha-ren.jpg",
+    "quickAnswer": "In Chinese medicine, Cardamom is most often linked to damp-cold smothering the Spleen fire, the pattern behind heavy bloating, lost appetite, and nausea that flares in humid weather or after cold raw meals. About 10% of people fit the Phlegm Damp body type and 15% the Qi Deficient body type, and sha ren is the warm aromatic seed specifically suited to waking a damp sluggish Spleen. It cuts through the heaviness rather than adding moisture, which may help restore the digestive fire without cloying the system.",
+    "definition": {
+      "term": "Sha Ren",
+      "termCn": "砂仁",
+      "text": "Where cooling digestives like mint settle the stomach from above, sha ren works from below by warming the Spleen fire that should cook food into energy. Its warm, drying aroma specifically suits the pattern where damp-cold has smothered that fire, producing heavy bloating, lost appetite, and nausea that flares in humid weather or after cold raw meals."
+    },
+    "conditionalBranches": {
+      "title": "Matching Sha Ren to Your Damp-Cold Digestion",
+      "intro": "Sha ren suits cold-damp, not heat. Match it to the right digestive pattern.",
+      "branches": [
+        {
+          "signal": "Heavy bloating, lost appetite, and foggy head that worsens in humid weather",
+          "meaning": "Phlegm-damp smothering the Spleen in a Phlegm Damp body type",
+          "approach": "Add 1-2 crushed sha ren pods to congee or rice during the last 5 minutes of cooking, 3 times weekly"
+        },
+        {
+          "signal": "Nausea and queasy stomach after cold, raw, or greasy meals",
+          "meaning": "Cold in the Stomach blocking the normal downward flow",
+          "approach": "Steep sha ren with fresh ginger as a tea after meals, and switch to warm cooked foods"
+        },
+        {
+          "signal": "Bloating with burning, acid reflux, or a red uncomfortable stomach",
+          "meaning": "Stomach heat rather than cold-damp, where sha ren will worsen the burn",
+          "approach": "Skip sha ren and choose cooling digestives like mint or mung bean soup instead"
+        }
+      ]
+    }
   },
   {
     "slug": "gynostemma-jiao-gu-lan",
@@ -13490,7 +13739,34 @@
     ],
     "image": "/images/herbs/radish-seed-lai-fu-zi.jpg",
     "classicalSource": "Ri Hua Zi Bencao (10th century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Food stagnation turning into phlegm and chest fullness is the primary TCM explanation for the bloated belly and phlegmy cough that follow heavy eating, and lai fu zi is the everyday seed that resolves both at once. About 10% of people fit the Phlegm Damp body type and 8% the Qi Stagnant body type, and the two often meet when stress knots the digestion during a heavy meal. By moving stagnation downward and resolving phlegm, lai fu zi may help clear both ends of the pattern without cloying the Spleen.",
+    "definition": {
+      "term": "Lai Fu Zi",
+      "termCn": "莱菔子",
+      "text": "The cause lai fu zi targets is a two-step chain: heavy eating overwhelms the Spleen, the overwhelmed Spleen then leaks dampness upward into the Lungs as phlegm. By resolving the food stagnation at its source and directing the disrupted Qi downward, lai fu zi may help clear both the bloated belly and the phlegmy chest that follow overeating."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Lai Fu Zi by Where Stagnation Sits",
+      "intro": "Lai fu zi reads the body in two directions, downward and outward. Match the signal.",
+      "branches": [
+        {
+          "signal": "Bloated distended stomach with belching and a sense of food stuck after meals",
+          "meaning": "Food stagnation in the Stomach needing downward movement",
+          "approach": "Take 3-6g lai fu zi powder after heavy meals, or brew with hawthorn for stronger stagnation relief"
+        },
+        {
+          "signal": "Chest fullness with sticky phlegm cough that flares after overeating",
+          "meaning": "Spleen overload spilling dampness upward into the Lungs",
+          "approach": "Combine lai fu zi with tangerine peel tea, and reduce portion size at the next meal"
+        },
+        {
+          "signal": "Stagnation with deep fatigue, cold limbs, and a pale tongue",
+          "meaning": "Qi deficiency underneath the stagnation, where lai fu zi alone is too draining",
+          "approach": "Pair lai fu zi with a small amount of codonopsis or jujube to support the Spleen while moving stagnation"
+        }
+      ]
+    }
   },
   {
     "slug": "belamcanda-she-gan",
@@ -13680,6 +13956,33 @@
     ],
     "image": "/images/herbs/acorus-shi-chang-pu.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "About 55% of people who benefit most from acorus carry the phlegm-damp obstruction that clouds the head and blocks the heart orifice. The result is a recognizable cluster: a head that feels stuffed with cotton, sluggish thinking, and a chest-bound anxiety that does not lift with rest. Acorus is the primary aromatic herb in TCM for opening these orifices, and a small amount in tea may help dissolve the invisible phlegm behind both the brain fog and the unease.",
+    "definition": {
+      "term": "Shi Chang Pu",
+      "termCn": "石菖蒲",
+      "text": "The root cause shi chang pu addresses is phlegm obstructing the clear orifices of the head and heart. When damp-phlegm clouds the senses, thinking turns sluggish and the head feels stuffed with cotton. When the same phlegm blocks the heart orifice, the spirit cannot settle and anxiety takes on a physical, chest-bound quality. The aromatic rhizome may help open these channels and dissolve the obstruction."
+    },
+    "conditionalBranches": {
+      "title": "When Acorus Fits and When It Does Not",
+      "intro": "Acorus targets phlegm, not simple tiredness. Match the signal before using.",
+      "branches": [
+        {
+          "signal": "Brain fog with a heavy head, worse after damp weather or heavy meals",
+          "meaning": "Damp-phlegm clouding the head orifices, the primary pattern",
+          "approach": "Brew a small pinch of shi chang pu with green tea or add to porridge, 2-3 times per week"
+        },
+        {
+          "signal": "Anxiety that feels lodged in the chest with restlessness and unclear thoughts",
+          "meaning": "Phlegm obstructing the heart orifice, blocking the spirit from settling",
+          "approach": "Combine with pinellia and fu ling in a classical formula under guidance, rather than acorus alone"
+        },
+        {
+          "signal": "Fog or fatigue without any heaviness, phlegm, or chest signs",
+          "meaning": "Qi or Yin deficiency rather than phlegm obstruction",
+          "approach": "Skip acorus and consider codonopsis or lily bulb instead, which rebuild rather than open"
+        }
+      ]
+    }
   }
 ]
