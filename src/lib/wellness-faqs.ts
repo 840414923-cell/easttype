@@ -1250,5 +1250,71 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Qi Deficient body type is most commonly linked to a weak Stomach that cannot maintain its downward push. Constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與胃氣虛弱、無法維持下降力相關。體質常有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、胃気が弱く下行力を維持できないことと最も関連します。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
     },
   ],
+  "chinese-medicine-for-child-frequent-colds": [
+    {
+      q: { en: "Why does my child catch every cold that goes around preschool?", "zh-TW": "為什麼孩子會染上幼稚園裡流行的每一場感冒？", ja: "なぜ子どもは幼稚園で流行る風邪をすべてもらってくるのですか？" },
+      a: { en: "In TCM theory, this usually reflects weak Lung Qi and thin Wei Qi, the surface defense that screens out wind and chill. The Lungs govern the skin and pores, so when they are underpowered, every draft and exposure lands. Rebuilding Lung Qi with foods like astragalus and Chinese yam, and protecting the neck with a scarf in air-conditioned rooms, often reduces the frequency of colds over several weeks of consistent use. Always consult your pediatrician if colds are severe or accompanied by fever.", "zh-TW": "中醫認為，這通常反映肺氣虛弱和衛氣不固，衛氣是抵禦風寒的表層防禦。肺主皮毛，當肺氣不足時，每一陣風和每一次接觸都會入侵。用黃芪、山藥等食物重建肺氣，並在冷氣房用圍巾保護頸部，持續數週通常能減少感冒頻率。若感冒嚴重或伴隨發燒，請務必諮詢小兒科醫師。", ja: "中医学では、これは通常、肺気の弱さと衛気の薄さを反映します。衛気は風寒を防ぐ表面の防御エネルギーです。肺は皮毛を司るため、肺気が不足すると、すべての風と接触が入ってしまいます。黄耆や山芋などの食材で肺気を養い、冷房の部屋ではスカーフで首を守ることで、数週間の継続で風邪の頻度が減ることが多いです。風邪が重い場合や発熱を伴う場合は、必ず小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Is astragalus safe for young children?", "zh-TW": "黃芪對幼兒安全嗎？", ja: "黄耆は幼児に安全ですか？" },
+      a: { en: "Astragalus (Huang Qi) is considered a gentle Qi-tonifying herb in TCM. For children, the traditional approach is a small amount, around 2 to 3 thin slices in a pot of chicken soup, once a week, rather than daily concentrated doses. It is typically not given during an active cold with fever, only in the weeks between colds to rebuild Wei Qi. Children under 3 should avoid it. Always consult your pediatrician before introducing any herb to a child's diet.", "zh-TW": "黃芪在中醫裡屬於溫和的補氣藥。對兒童的傳統用法是少量，約 2 至 3 片放入一鍋雞湯，每週一次，而非每日濃縮劑量。通常不在發燒的活動性感冒期間使用，只在兩次感冒之間的數週用來重建衛氣。3 歲以下兒童應避免使用。給孩子飲食添加任何草藥前，請務必諮詢小兒科醫師。", ja: "黄耆は中医学では穏やかな補気の生薬とされます。子どもへの伝統的な用法は少量で、鶏スープの鍋に2〜3枚を週1回入れ、毎日の濃縮摂取は避けます。発熱を伴う活動性の風邪の期間には使わず、風邪と風邪の間の数週間に衛気を養うために用います。3歳未満の子どもは避けてください。子どもの食事に生薬を加える前は、必ず小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "How long does it take to strengthen a child's Lung Qi?", "zh-TW": "增強孩子的肺氣需要多久？", ja: "子どもの肺気を強めるのにどのくらいかかりますか？" },
+      a: { en: "Most families notice fewer colds within three to four weeks of consistent food and habit changes. Deeper improvement, where colds become shorter and less frequent, tends to take two to three months. The Lungs rebuild slowly, in the gaps between colds. Consistency with warm meals, early sleep, and neck protection in wind matters more than any single herb or short intensive course.", "zh-TW": "多數家庭在持續食物和習慣調整 3 至 4 週後注意到感冒變少。更深層的改善，感冒變短變少，通常需要 2 至 3 個月。肺的重建是緩慢的，發生在兩次感冒之間的空檔。持續的溫熱飲食、早睡和頸部防風，比任何單一草藥或短期密集療程更重要。", ja: "多くの家庭は、食事と習慣を一貫して変えて3〜4週間で風邪が減ることに気づきます。風邪が短く軽くなる深い改善には2〜3か月かかる傾向があります。肺はゆっくりと、風邪と風邪の間の隙間で回復します。温かい食事、早寝、風からの首の保護の継続が、単一の生薬や短期集中よりも重要です。" },
+    },
+    {
+      q: { en: "Should I give my child pear during an active cold?", "zh-TW": "孩子正在感冒時可以吃梨嗎？", ja: "子どもが風邪をひいている最中に梨を与えていいですか？" },
+      a: { en: "Pear is cool and moistening, which makes it helpful for a dry cough after a cold has cleared, but less ideal during the early stage of a cold with chills and clear mucus. Steamed pear with a small piece of rock sugar is the traditional form for children. Save it for the recovery phase, when the Lungs are dry and the cough is lingering, rather than the first day of symptoms. For children under 3, pear puree in small amounts is gentler than large pieces.", "zh-TW": "梨性涼潤，適合感冒後乾咳時使用，但在感冒初期有寒意和清鼻涕時較不適合。冰糖燉梨是給兒童的傳統形式。留到恢復期，肺乾、咳嗽殘留時再給，而非症狀出現的第一天。3 歲以下兒童，少量梨泥比大塊更溫和。", ja: "梨は涼性で潤いがあり、風邪が治った後の乾いた咳に適していますが、悪寒と透明な鼻水がある風邪の初期には適しません。子どもには冰糖で蒸した梨が伝統的な形です。症状初日ではなく、肺が乾き咳が残る回復期に与えましょう。3歳未満では、大きな塊より少量の梨のピューレが穏やかです。" },
+    },
+    {
+      q: { en: "Which body type is most linked to frequent colds in children?", "zh-TW": "兒童頻繁感冒最相關的是哪種體質？", ja: "子どもの頻繁な風邪に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with weak Lung Qi and thin Wei Qi in both children and adults. Constitution tends to run in families, so a Qi Deficient parent often has a child with similar surface vulnerability. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與肺氣虛弱和衛氣不固相關，無論兒童或成人。體質多有家族傾向，氣虛的父母常有表層同樣脆弱的孩子。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、子どもにも大人にも、肺気の弱さと衛気の薄さに最も関連します。体質は家族的に現れやすく、気虚の親には同じように表面が弱い子どもがいることが多いです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-phlegm": [
+    {
+      q: { en: "Why does my child always have phlegm even when they are not sick?", "zh-TW": "為什麼孩子沒生病也一直有痰？", ja: "子どもが病気でないのにいつも痰があるのはなぜですか？" },
+      a: { en: "In Chinese medicine, persistent phlegm between colds usually points to the Spleen, not the Lungs. The Spleen is too weak to process fluids completely, so the leftover fluid thickens into dampness and rises to be stored in the Lungs. The rattle you hear is stored dampness, not active infection. Warming and drying the Spleen with foods like tangerine peel and coix seed may help reduce it over two to three weeks.", "zh-TW": "中醫認為，感冒之間持續有痰通常指向脾，而非肺。脾太弱，無法完全運化水液，殘留的水液會變成濕氣，上輸並貯存在肺裡。你聽到的痰音是積存的濕氣，不是正在感染。用陳皮、薏苡仁等溫燥食物健脾，兩到三週內可能有助於減少痰液。", ja: "中医学では、風邪の間にも続く痰は通常、肺ではなく脾を指します。脾が弱くて水分を完全に処理できず、余った水分が湿となって濃くなり、肺に貯蔵されるために上がってきます。聞こえる痰音は貯蔵された湿であり、活動性の感染ではありません。陳皮や薏苡仁などの温める乾燥させる食材で脾を助けると、2〜3週間で減る可能性があります。" },
+    },
+    {
+      q: { en: "Is dairy really linked to phlegm in Chinese medicine?", "zh-TW": "中醫真的認為乳製品會生痰嗎？", ja: "中医学では乳製品は本当に痰と関連していますか？" },
+      a: { en: "Yes. In TCM theory, dairy is damp-forming, meaning it leaves a heavy, sticky byproduct the Spleen has to clear. A child whose Spleen is already tired will store that dampness as phlegm. You do not have to remove dairy completely. Pulling back to one small warm serving a day, and avoiding cold milk on an empty stomach, is often enough to hear a difference within a week.", "zh-TW": "是的。中醫認為乳製品生濕，會留下黏重的副產物讓脾去清理。脾本就疲弱的孩子會把這些濕氣積成痰。不必完全戒除乳製品，每天減到一小份溫熱的量，並避免空腹喝冷牛奶，通常一週內就能聽出差別。", ja: "はい。中医学では乳製品は湿を生じるとされ、脾が片付けるべき重く粘ついた副産物を残します。すでに脾が疲れている子どもは、その湿を痰として蓄えます。乳製品を完全に排除する必要はありません。1日1回の少量の温かいものに減らし、空腹時に冷たい牛乳を避ければ、1週間以内で違いに気づくことが多いです。" },
+    },
+    {
+      q: { en: "What is the difference between cold phlegm and heat phlegm?", "zh-TW": "寒痰和熱痰有什麼不同？", ja: "寒痰と熱痰の違いは何ですか？" },
+      a: { en: "Cold phlegm is clear, watery, and worse in cold weather or after cold drinks. It responds to warming foods like ginger water and warm soups. Heat phlegm is yellow, thick, and sticky, and it often follows a cold that has turned warm. It responds to cooling, phlegm-dissolving foods like radish soup and steamed pear. Matching the food to the phlegm type matters, because warming a heat-phlegm child can make it worse.", "zh-TW": "寒痰是清澈、稀水的，遇冷或喝冷飲後加重，適合薑水、溫湯等溫性食物。熱痰是黃色、濃稠、黏的，常出現在感冒轉熱之後，適合白蘿蔔湯、蒸梨等清涼化痰的食物。食物要對應痰的類型，因為溫性食物用在熱痰的孩子身上反而會加重。", ja: "寒痰は透明で水っぽく、寒い日や冷たい飲み物の後に悪化します。生姜湯や温かいスープなどの温める食材に応答します。熱痰は黄色く、濃くて粘つき、温に転じた風邪の後に現れることが多いです。大根スープや蒸し梨などの冷やし痰を溶かす食材に応答します。食材を痰のタイプに合わせることが重要で、熱痰の子どもに温める食材を使うと悪化することがあります。" },
+    },
+    {
+      q: { en: "How long does it take for tangerine peel and coix seed to help?", "zh-TW": "陳皮和薏苡仁要多久才見效？", ja: "陳皮と薏苡仁で効果が出るまでどのくらいかかりますか？" },
+      a: { en: "Most families notice the morning rattle ease within the first week of daily tangerine peel water and coix seed porridge, especially when dairy and cold drinks are pulled back at the same time. The thick tongue coating usually thins over two to three weeks. Constitutional phlegm, the kind a child has carried for months, may take longer and often needs ongoing warm, dry habits rather than a short fix.", "zh-TW": "多數家庭在每天喝陳皮水、吃薏仁粥的第一週內就會感覺早晨痰音減輕，尤其是同時減少乳製品和冷飲時。厚舌苔通常兩到三週變薄。體質性痰，也就是孩子帶了幾個月的那種，可能需要更久，通常需要持續的溫燥習慣，而非短期的速效。", ja: "多くの家庭は、毎日の陳皮水と薏苡仁粥で最初の1週間以内に朝の痰音が和らぐことに気づきます。特に乳製品と冷たい飲み物を同時に控えた場合です。厚い舌の苔は通常2〜3週間で薄くなります。体質的な痰、子どもが何ヶ月も抱えているようなものは、より時間がかかり、短期的な解決ではなく継続的な温かく乾燥した習慣が必要になることが多いです。" },
+    },
+    {
+      q: { en: "Which body type is most associated with phlegm in children?", "zh-TW": "兒童痰多最相關的是哪種體質？", ja: "子どもの痰に最も関連する体質は？" },
+      a: { en: "The Phlegm-Damp and Qi Deficient body types are most commonly linked to a child who holds phlegm easily. Constitution tends to run in families, so a parent who recognizes the same tendency in themselves often sees why their child processes fluids the same way. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "痰濕和氣虛體質最常與容易生痰的孩子相關。體質多有家族傾向，所以當父母在自己身上認出同樣傾向時，常能理解孩子為何也這樣運化水液。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "痰湿と気虚タイプが、痰を溜めやすい子どもに最も関連します。体質は家族的に現れやすく、親が自分自身に同じ傾向を認めると、子どもが同じように水分を処理する理由がわかることがよくあります。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-chronic-cough": [
+    {
+      q: { en: "Why does my child's cough last for weeks after a cold?", "zh-TW": "為什麼孩子感冒好了，咳嗽還會拖好幾週？", ja: "子どもの風邪が治っても咳が何週間も続くのはなぜですか？" },
+      a: { en: "In Chinese medicine, a cough that lingers after the fever and runny nose are gone is usually not a new infection. It often means the Lung has been dried out by the illness, or a small amount of phlegm is still sitting in the airway. The pattern is called Lung Yin Deficiency when it is dry and ticklish, or Phlegm Damp when it is wet and rattling. Matching the food to the pattern is what helps the body finish clearing it.", "zh-TW": "中醫認為，發燒和流鼻涕都好了之後還持續的咳嗽，通常不是新的感染。多半是肺被疾病耗乾了，或氣道裡還留著一點痰。乾咳帶癢屬肺陰虛，濕咳帶痰聲屬痰濕。把食物對上模式，才能幫助身體收尾。", ja: "中医学では、熱や鼻水が治まった後も続く咳は、通常新しい感染ではありません。多くの場合、肺が病気で乾燥したか、気道に少量の痰が残っているかのどちらかです。乾いた痒い咳は肺陰虚、湿ったガラガラ音の咳は痰湿と呼ばれます。食べ物をパターンに合わせることが、体が片付けるのを助けます。" },
+    },
+    {
+      q: { en: "Is a night cough always a sign of something serious?", "zh-TW": "夜咳一定是嚴重問題嗎？", ja: "夜の咳は常に深刻な兆候ですか？" },
+      a: { en: "Not usually. A dry, ticklish cough at night is one of the most common patterns in children, and in TCM theory it often points to Lung Yin Deficiency, where the Lung tissue has been dried out by repeated coughing. The cough flares at night because the airway is driest and the body is lying flat. Steamed pear with rock sugar, a humidifier, and an earlier bedtime may help settle it within a week or two.", "zh-TW": "通常不是。夜間乾咳帶癢是兒童最常見的模式之一，中醫常歸為肺陰虛，也就是肺被反覆咳嗽耗乾。夜間發作是因為氣道最乾、且身體平躺。蒸梨加冰糖、加濕器、提早入睡，通常一兩週內就能讓夜咳緩和。", ja: "通常そうではありません。夜の乾いた痒い咳は子どもに最も多いパターンの一つで、中医学では肺陰虚、つまり繰り返す咳で肺が乾燥した状態とされます。夜に悪化するのは気道が最も乾燥し、体が水平になるためです。冰糖蒸し梨、加湿器、早めの就寝で、通常1〜2週間で夜咳が落ち着くことがあります。" },
+    },
+    {
+      q: { en: "Can dairy really make a child's cough worse?", "zh-TW": "乳製品真的會讓孩子咳嗽更嚴重嗎？", ja: "乳製品は本当に子どもの咳を悪化させますか？" },
+      a: { en: "In Chinese medicine, dairy is considered damp forming, which means it leaves a sticky residue that the Spleen has to clear. In a child whose Spleen is already tired, this often shows up as thicker phlegm and a rattlier cough the next morning. Dairy is not banned, but pulling it back during a wet cough phase helps the body clear what is already there.", "zh-TW": "中醫認為乳製品容易生濕，會留下黏膩的殘留物讓脾去清理。脾本就累的孩子，常表現為隔天早上痰更稠、咳更響。乳製品不是禁止，只是在濕咳階段減量，能幫身體先把已有的痰清掉。", ja: "中医学では、乳製品は湿を生みやすく、脾が片付けるべき粘つく残留物を残すとされます。すでに脾が疲れている子どもでは、翌朝の痰が濃くなり咳が目立つことがよくあります。乳製品は禁止ではありませんが、湿った咳の時期に控えると、体がすでにある痰を片付ける助けになります。" },
+    },
+    {
+      q: { en: "Is honey safe for my child's cough?", "zh-TW": "蜂蜜對孩子的咳嗽安全嗎？", ja: "子どもの咳に蜂蜜は安全ですか？" },
+      a: { en: "Honey may help soothe the throat and calm a dry cough, but it is only safe for children over one year old. Honey can carry a small risk of infant botulism in babies under one, so it must be avoided entirely in that age group. For a child over one, half a teaspoon in warm water in the morning is a traditional approach. Always check with your pediatrician first.", "zh-TW": "蜂蜜可能有助於潤喉和緩和乾咳，但只適合一歲以上的孩子。一歲以下嬰兒有嬰兒肉毒桿菌症的風險，必須完全避免。一歲以上可早上用半茶匙蜂蜜加溫水，是傳統做法。使用前請務必詢問小兒科醫師。", ja: "蜂蜜は喉を潤し乾いた咳を和らげるのに役立つことがありますが、1歳以上のお子さんにのみ安全です。1歳未満の乳児には乳児ボツリヌス症のリスクがあるため、完全に避ける必要があります。1歳以上では、朝に小さじ半杯の蜂蜜をぬるま湯で溶かすのが伝統的な方法です。必ず事前に小児科医にご確認ください。" },
+    },
+    {
+      q: { en: "Which body type is most linked to chronic cough in children?", "zh-TW": "兒童慢性咳嗽最相關的是哪種體質？", ja: "子どもの慢性咳に最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with weak Lungs that catch colds easily and clear them slowly. Constitution tends to run in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與肺氣虛弱、容易感冒且恢復慢相關。體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、肺が弱く風邪を引きやすく治りにくいことと最も関連します。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
 
 }

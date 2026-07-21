@@ -46,6 +46,7 @@ async function compressDir(dir, maxWidth = 800, quality = 80) {
 const dirs = [
   { path: "public/images/herbs", maxWidth: 800, quality: 78 },
   { path: "public/images/solutions", maxWidth: 1200, quality: 82 },
+  { path: "public/images/pinterest", maxWidth: 1000, quality: 80 },
 ]
 
 let grandBefore = 0
