@@ -12,6 +12,18 @@ import { SYMPTOMS } from "@/lib/symptoms-data"
 
 const VALID_IDS = new Set<string>(Object.keys(TYPES))
 
+const TYPE_EN_NAMES: Record<string, string> = {
+  balanced: "Balanced Constitution",
+  qi_deficient: "Qi Deficient Constitution",
+  yang_deficient: "Yang Deficient Constitution",
+  yin_deficient: "Yin Deficient Constitution",
+  phlegm_damp: "Phlegm Damp Constitution",
+  damp_heat: "Damp Heat Constitution",
+  blood_stasis: "Blood Stasis Constitution",
+  qi_stagnant: "Qi Stagnant Constitution",
+  sensitive: "Sensitive Constitution",
+}
+
 const WELLNESS_TITLES: Record<string, { en: string; "zh-TW": string; ja: string }> = {
   "why-am-i-always-tired": { en: "Why Am I Always Tired?", "zh-TW": "為什麼我總是累？", ja: "なぜいつも疲れている？" },
   "cold-hands-and-feet": { en: "Cold Hands and Feet", "zh-TW": "手腳冰冷", ja: "手足の冷え" },
@@ -61,7 +73,7 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
   return (
     <>
       <Nav />
-      <main className="flex-1 max-w-2xl mx-auto px-6 py-16">
+      <main className="flex-1 max-w-3xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <div
             className="inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-6"
@@ -70,10 +82,10 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
             {type.zh} · {type.zhPy}
           </div>
           <h1
-            className="font-[family-name:var(--font-display)] text-5xl md:text-6xl mb-4"
+            className="font-[family-name:var(--font-display)] text-4xl md:text-5xl mb-4"
             style={{ color: type.color }}
           >
-            {type.en}
+            {TYPE_EN_NAMES[id]}: {type.en}
           </h1>
           <p className="text-text2 text-lg italic">
             &ldquo;{type.line}&rdquo;
@@ -83,6 +95,15 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
           </p>
         </div>
 
+        {detail.quickAnswer && (
+          <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-12">
+            <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+              Quick Answer
+            </h2>
+            <p className="text-text leading-relaxed text-[0.95rem]">{detail.quickAnswer}</p>
+          </div>
+        )}
+
         <section className="mb-12">
           <h2 className="font-[family-name:var(--font-display)] text-2xl text-text mb-4">
             What This Means
@@ -91,6 +112,17 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
             {t(detail.essence)}
           </p>
         </section>
+
+        {detail.definition && (
+          <div className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[var(--color-card-bg)] p-5 mb-12">
+            <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Key Concept</p>
+            <h3 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
+              {detail.definition.term}
+              {detail.definition.termCn && <span className="text-text2/60 text-sm ml-2">({detail.definition.termCn})</span>}
+            </h3>
+            <p className="text-text2 leading-relaxed text-[0.95rem]">{detail.definition.text}</p>
+          </div>
+        )}
 
         <section className="mb-12 border-l-2 pl-6" style={{ borderColor: type.color }}>
           <h2 className="font-[family-name:var(--font-display)] text-2xl text-text mb-4">
@@ -119,7 +151,7 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
             Is This You?
           </h2>
           <p className="text-text2 text-sm mb-6">
-            Check how many resonate — most people with this type recognize 3 or more
+            Check how many resonate, most people with this type recognize 3 or more
           </p>
           <div className="space-y-3">
             {detail.selfCheck.map((item, i) => (
@@ -310,9 +342,11 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
           </Link>
         </section>
 
-        <p className="text-center text-text2/60 text-xs mt-10">
-          Based on traditional Chinese dietary philosophy. For informational purposes only — not medical advice.
-        </p>
+        <div className="mt-10 rounded-xl bg-[var(--color-bg2)] border border-[rgba(140,45,42,0.08)] p-5">
+          <p className="text-xs text-text2 leading-relaxed text-center">
+            This content is for educational and informational purposes only and is not medical advice. Always consult a qualified healthcare professional before making changes to your diet or lifestyle, especially if you have a health condition. Individual results may vary.
+          </p>
+        </div>
       </main>
       <Footer />
     </>
