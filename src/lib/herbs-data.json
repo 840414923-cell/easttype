@@ -2937,7 +2937,13 @@
     "preparationNotes": "Because Eucommia Bark (Du Zhong) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Du zhong is typically cooked in soup rather than brewed as tea, as its active compounds are better extracted by long simmering. Simmer with pork spine or chicken for 2 hours, adding goji berries and red dates for flavor and synergy. The bark can be lightly dry-roasted before cooking to enhance its warming properties. Avoid taking du zhong if you have yin deficiency with significant heat signs, as its warming nature may worsen internal heat.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Eucommia Bark is most often linked to Kidney Yang and Liver support, addressing lower back weakness, knee soreness, and fragile tendons that signal the body's deepest warming energy is running low. Its warm nature may help strengthen the structural foundation of the body over several weeks of consistent use.",
+    "definition": {
+      "term": "Eucommia Bark",
+      "termCn": "杜仲",
+      "text": "Eucommia Bark performs a unique dual function: it warms Kidney Yang to address lower back and knee weakness, while simultaneously supporting the Liver to strengthen tendons and ligaments. This combination makes it particularly suited for people whose structural framework (joints, back, knees) feels fragile and cold. Common signs include chronic lower back soreness that feels better with warmth and pressure."
+    }
   },
   {
     "slug": "rou-cong-rong",
@@ -3028,7 +3034,29 @@
     "preparationNotes": "Because Cistanche (Rou Cong Rong) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Simmer 6 to 10 grams of cistanche slices with lamb, ginger, and red dates for a warming kidney soup. For constipation, steep 3 to 5 grams in warm water as tea and drink in the morning. The flavor is mild and slightly salty, blending well with savory dishes. Avoid during acute infections or if you have diarrhea, as its moistening nature may worsen loose stools.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 10% of people who benefit most from Cistanche fit the Yang Deficient body type with secondary Qi deficiency, where cold lower back, frequent urination, and low drive combine. Cistanche is considered a gentle Yang tonic that warms without being harsh, making it suitable for longer-term use than stronger Yang herbs.",
+    "definition": {
+      "term": "Cistanche",
+      "termCn": "肉苁蓉",
+      "text": "Cistanche acts like a slow-burning log on a dying fire. Unlike intense Yang herbs that flare up quickly and risk consuming remaining Yin, Cistanche warms gradually and sustainably. It specifically targets Kidney Yang depletion that manifests as cold lower back, weak knees, and reduced vitality, while being gentle enough that it does not easily cause the dryness or agitation that hotter herbs can trigger.",
+      "conditionalBranches": {
+        "title": "When to Choose Cistanche Over Stronger Yang Herbs",
+        "intro": "Cistanche is the gentlest Kidney Yang tonic. Choose it when warmth is needed but harsh herbs would be too much.",
+        "branches": [
+          {
+            "signal": "Cold lower back plus frequent clear urination",
+            "meaning": "Kidney Yang too weak to warm and hold",
+            "approach": "Cistanche tea daily, 3-4 weeks"
+          },
+          {
+            "signal": "Cold plus fatigue plus dry skin",
+            "meaning": "Yang and Yin both low, need gentle approach",
+            "approach": "Cistanche with goji, daily"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "yin-yang-huo",
@@ -3214,7 +3242,13 @@
     "preparationNotes": "Morinda (Ba Ji Tian) is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 10 to 15 grams of ba ji tian with pork spine or chicken, adding ginger and red dates, for 2 hours. The root is tough and woody, so long simmering is necessary. Remove the herb pieces before serving. For joint support, pair with du zhong and niu xi. Avoid if you have yin deficiency with heat signs, as its warming nature may aggravate internal heat.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When cold lower back and weak knees persist despite rest and stretching, TCM points to Kidney Yang deficiency with damp accumulation, and Morinda Root is a warming herb that strengthens the lower body while dispersing cold-damp. It may help address the heavy, weak sensation in the legs and back that cold weather worsens.",
+    "definition": {
+      "term": "Morinda Root",
+      "termCn": "巴戟天",
+      "text": "Unlike gentler Yang tonics that only warm, Morinda Root also disperses cold-dampness from the lower body. This makes it particularly suited for Yang deficiency that has allowed dampness to settle into the knees and lower back, creating a combination of weakness and heaviness. Common signs include legs that feel heavy and cold, worse in damp weather, and a lower back that aches deeply."
+    }
   },
   {
     "slug": "xuan-shen",
@@ -6000,7 +6034,29 @@
     "preparationNotes": "Asiatic Cornelian Cherry (Shan Zhu Yu) is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 6 to 10 grams of shan zhu yu with other kidney tonics in soup for 1 hour. The taste is sour and slightly sweet. For long-term kidney support, it is most commonly taken as part of Liu Wei Di Huang Wan in pill form rather than as a single herb. Avoid if you have damp-heat patterns with difficulty urinating, as its astringent nature may worsen the obstruction.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind excessive urination with lower back weakness and dizziness is Kidney and Liver deficiency with loss of containment, and Asiatic Cornelian Cherry is the primary astringent tonic that holds what others let escape. It warms mildly while securing, making it unique among Yang-supporting herbs.",
+    "definition": {
+      "term": "Asiatic Cornelian Cherry",
+      "termCn": "山茱萸",
+      "text": "Asiatic Cornelian Cherry is indicated for: frequent urination (especially at night), excessive sweating with little exertion, dizziness with ringing in the ears, lower back weakness, and menstrual flooding. These signs all share one mechanism: the body has lost its ability to contain and hold its essences. This herb warms mildly while tightening the body's holding capacity.",
+      "conditionalBranches": {
+        "title": "Which Leakage Pattern Needs This Herb?",
+        "intro": "This herb addresses different types of loss of containment. Match yours.",
+        "branches": [
+          {
+            "signal": "Frequent nighttime urination with cold lower back",
+            "meaning": "Kidney Yang too weak to hold fluids",
+            "approach": "With goji and rehmannia, daily"
+          },
+          {
+            "signal": "Excessive sweating with dizziness",
+            "meaning": "Qi and Yin both failing to contain",
+            "approach": "With astragalus, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "sha-ji",
@@ -6317,7 +6373,29 @@
     "preparationNotes": "Because Acanthopanax Bark (Wu Jia Pi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Wu jia pi is most traditionally prepared as a traditional wine, steeped in rice wine for 2 to 3 weeks. Take a small cup (15 to 30 ml) daily. Alternatively, simmer 10 to 15 grams in soup with pork or chicken for 1 hour. The taste is pungent and slightly bitter. Avoid if you have yin deficiency with heat signs, as its warming nature may aggravate internal heat. Do not confuse with bei wu jia (Siberian ginseng), which is a different herb with different properties.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Acanthopanax Bark addresses: cold-damp joint pain that worsens in wet weather, and fluid retention with heaviness in the limbs. Its warm, drying nature makes it suitable for conditions where dampness has settled deep into the joints and tissues, particularly in the lower body.",
+    "definition": {
+      "term": "Acanthopanax Bark",
+      "termCn": "五加皮",
+      "text": "Acanthopanax Bark develops its joint-supporting effect through a dual action: it warms to disperse cold that has lodged in the joints, while simultaneously drying dampness that makes joints feel heavy and swollen. This combination works because in TCM, cold and damp often team up to create the deep, aching, weather-sensitive joint pain that standard anti-inflammatory approaches struggle to address.",
+      "conditionalBranches": {
+        "title": "Which Joint Pattern Needs Acanthopanax?",
+        "intro": "This herb addresses two overlapping joint patterns. Match yours.",
+        "branches": [
+          {
+            "signal": "Joint pain worse in cold, damp weather",
+            "meaning": "Cold-damp lodged in joints",
+            "approach": "Acanthopanax wine or tea, 2-3x weekly"
+          },
+          {
+            "signal": "Swollen, heavy legs with fluid retention",
+            "meaning": "Dampness accumulating in lower body",
+            "approach": "Acanthopanax with coix seed soup"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "hong-shen-pian",
@@ -11663,7 +11741,29 @@
     ],
     "image": "/images/herbs/deer-antler-velvet-lu-rong.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "Kidney Yang and Essence depletion is the primary TCM explanation for severe lower back weakness, very cold extremities, and deeply depleted vitality, and Deer Antler Velvet is considered the most powerful Yang and Essence tonic in the Chinese pharmacopeia. It is reserved for deep deficiency that gentler herbs cannot reach.",
+    "definition": {
+      "term": "Deer Antler Velvet",
+      "termCn": "鹿茸",
+      "text": "Deer Antler Velvet performs a function no other herb can replicate: it directly replenishes Kidney Essence (Jing) and Kidney Yang simultaneously. Essence is the body's deepest constitutional reserve, governing growth, reproduction, and aging. When both Essence and Yang are deeply depleted from chronic illness, extreme overwork, or aging, gentler herbs cannot reach deep enough. Common signs include bone weakness, extreme cold, and severely reduced vitality.",
+      "conditionalBranches": {
+        "title": "When Is Deer Antler Actually Needed?",
+        "intro": "Deer Antler is for deep deficiency only. Check if your case warrants it.",
+        "branches": [
+          {
+            "signal": "Severe cold plus bone weakness plus extreme fatigue",
+            "meaning": "Kidney Yang and Essence deeply depleted",
+            "approach": "Small dose, consult practitioner essential"
+          },
+          {
+            "signal": "Mild cold plus occasional fatigue",
+            "meaning": "Yang mildly low, gentler herbs suffice",
+            "approach": "Use cistanche or du-zhong instead"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "cyperus-xiang-fu",
@@ -12294,7 +12394,29 @@
     ],
     "image": "/images/herbs/cordyceps-dong-chong-xia-cao.jpg",
     "classicalSource": "Bencao Congxin (1751 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Cordyceps is most often linked to simultaneous Kidney Yang and Lung Qi support, making it unique among Yang tonics. It addresses the combination of deep fatigue, weak lower back, and respiratory vulnerability that occurs when the body's deepest energy reserves and its surface defense are both depleted.",
+    "definition": {
+      "term": "Cordyceps",
+      "termCn": "冬虫夏草",
+      "text": "Cordyceps acts like a bridge between the body's deepest reserves and its surface defense. Most Yang tonics only warm the interior, but Cordyceps simultaneously strengthens Kidney Yang at the root and Lung Qi at the surface. This dual action makes it uniquely suited for people who are both deeply fatigued and frequently ill, a combination that single-direction herbs struggle to address.",
+      "conditionalBranches": {
+        "title": "Which Deficiency Pattern Needs Cordyceps?",
+        "intro": "Cordyceps addresses two systems simultaneously. Match your primary signal.",
+        "branches": [
+          {
+            "signal": "Deep fatigue plus frequent respiratory infections",
+            "meaning": "Kidney Yang and Lung Qi both low",
+            "approach": "Cordyceps in chicken soup, weekly"
+          },
+          {
+            "signal": "Weak lower back plus shortness of breath",
+            "meaning": "Kidney not anchoring Lung Qi",
+            "approach": "Cordyceps with ginseng, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "snow-lotus-xue-lian-hua",
@@ -12389,7 +12511,29 @@
     ],
     "image": "/images/herbs/snow-lotus-xue-lian-hua.jpg",
     "classicalSource": "Jing Zhu Bencao (18th century)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "About 5% of people who benefit most from Snow Lotus fit the Yang Deficient body type with cold-damp joint pain, where extreme cold sensitivity and weather-responsive joint pain dominate. Snow Lotus is a high-altitude herb that warms powerfully while dispersing cold from deep within the joints and meridians.",
+    "definition": {
+      "term": "Snow Lotus",
+      "termCn": "雪莲花",
+      "text": "Unlike gentler Yang tonics that warm slowly, Snow Lotus carries an intense warming quality born from surviving extreme cold at high altitudes. It specifically targets cold that has penetrated deep into the joints, meridians, and lower back, the kind that ordinary warming foods and herbs cannot reach. Its rarity reflects its specialized use for severe cold-type conditions rather than general Yang support.",
+      "conditionalBranches": {
+        "title": "When to Consider Snow Lotus",
+        "intro": "Snow Lotus is for severe cold patterns only. Verify your need before use.",
+        "branches": [
+          {
+            "signal": "Deep joint cold unresponsive to ginger and cinnamon",
+            "meaning": "Cold lodged deep in meridians",
+            "approach": "Snow Lotus tea, small dose, consult practitioner"
+          },
+          {
+            "signal": "Cold lower back with menstrual pain from cold",
+            "meaning": "Cold in Kidney and Womb meridians",
+            "approach": "Snow Lotus with brown sugar, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "japanese-knotweed-hu-zhang",
@@ -12824,7 +12968,29 @@
     ],
     "image": "/images/herbs/psoralea-bu-gu-zhi.jpg",
     "classicalSource": "Yaoxing Lun (7th century CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "When frequent nighttime urination and cold lower back persist despite lifestyle changes, TCM points to Kidney Yang deficiency that has lost its holding power, and Psoralea is a hot-natured Yang tonic that warms the Kidney core while securing its ability to contain fluids. It is stronger than gentler Yang herbs and best used with guidance.",
+    "definition": {
+      "term": "Psoralea",
+      "termCn": "补骨脂",
+      "text": "Psoralea is indicated for: frequent nighttime urination (3+ times), cold lower back with weakness, morning diarrhea, tooth weakness, and vitiligo (in TCM dermatology). These signs point to Kidney Yang that is not only low but has lost its capacity to hold and contain. The herb's hot nature makes it one of the strongest warming tonics, requiring careful dosing.",
+      "conditionalBranches": {
+        "title": "Which Kidney Yang Pattern Needs Psoralea?",
+        "intro": "Psoralea is for significant Kidney Yang loss with leakage. Check your signs.",
+        "branches": [
+          {
+            "signal": "Nighttime urination 3+ times with cold lower back",
+            "meaning": "Kidney Yang failing to hold fluids",
+            "approach": "Psoralea with nutmeg, consult practitioner"
+          },
+          {
+            "signal": "Morning diarrhea before dawn with cold abdomen",
+            "meaning": "Kidney Yang too weak to warm the Spleen",
+            "approach": "Psoralea with aconite, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "cynomorium-suo-yang",
@@ -12919,7 +13085,29 @@
     ],
     "image": "/images/herbs/cynomorium-suo-yang.jpg",
     "classicalSource": "Bencao Yansi (15th century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind dry constipation with cold lower back and reduced vitality is Kidney Yang and Intestine dryness combining, and Cynomorium is a moistening Yang tonic that addresses both simultaneously. It warms the Kidney core while lubricating the intestines, a rare combination.",
+    "definition": {
+      "term": "Cynomorium",
+      "termCn": "肉苁蓉锁阳",
+      "text": "Cynomorium develops its dual effect through a unique property: it warms Kidney Yang while simultaneously moistening the intestines. Most Yang tonics are drying, which can worsen constipation. Cynomorium is the exception, making it particularly suited for elderly or chronically ill individuals whose constipation stems from cold rather than heat, combined with lower back weakness and reduced drive.",
+      "conditionalBranches": {
+        "title": "Which Cold Constipation Pattern Needs Cynomorium?",
+        "intro": "Cynomorium suits cold-type deficiency with dryness. Match yours.",
+        "branches": [
+          {
+            "signal": "Constipation plus cold lower back plus fatigue",
+            "meaning": "Kidney Yang low with intestinal dryness",
+            "approach": "Cynomorium tea, daily, 1-2 weeks"
+          },
+          {
+            "signal": "Cold extremities plus reduced drive plus dry stools",
+            "meaning": "Yang deficiency with fluid depletion",
+            "approach": "Cynomorium with cistanche, daily"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "radish-seed-lai-fu-zi",
