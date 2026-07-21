@@ -88,7 +88,34 @@
     "dietaryAdvice": "Ginseng is best taken on an empty stomach in the morning, traditionally with a small cup of warm water. A thin slice held under the tongue and slowly dissolved is the most traditional method. Avoid drinking strong tea or eating radishes on the same day, as both are traditionally said to reduce its effects. For recovery use, take daily for two to three weeks, then pause. For daily maintenance, American ginseng (hua qi shen) is a gentler alternative.",
     "nameZhTrad": "人蔘",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Ginseng is most often linked to primal Qi depletion, the deep exhaustion that follows prolonged illness, and may help rebuild foundational energy when ordinary tonics cannot reach. Its warm nature suits Qi Deficient and Yang Deficient body types, while people with excess Heat should avoid it.",
+    "definition": {
+      "term": "Ginseng",
+      "termCn": "人参",
+      "text": "A powerful Qi tonic that works by directly replenishing yuan qi, the foundational energy reserve stored in the Kidneys. Rather than stimulating like caffeine, it supports the Spleen's capacity to extract energy from food and the Lung's ability to govern breathing, which may help address fatigue at its source instead of masking it."
+    },
+    "conditionalBranches": {
+      "title": "Matching Ginseng to Your Depth of Depletion",
+      "intro": "Ginseng's intensity means it suits some situations and not others. Use these signals to decide.",
+      "branches": [
+        {
+          "signal": "Deep exhaustion after prolonged illness or surgery",
+          "meaning": "Yuan qi, the foundational reserve, is severely depleted",
+          "approach": "Short, focused course of 1-3g daily for 2-4 weeks, paired with rest and warm meals"
+        },
+        {
+          "signal": "Chronic fatigue with poor appetite and loose stools",
+          "meaning": "Spleen Qi deficiency creating a digestion-energy cycle",
+          "approach": "Add 2 thin slices to chicken soup or congee, 3-4 times per week"
+        },
+        {
+          "signal": "Restlessness, insomnia, or feeling overheated after taking it",
+          "meaning": "Possible excess Heat pattern where ginseng is not suitable",
+          "approach": "Pause ginseng and consider gentler options like dang shen or Chinese yam"
+        }
+      ]
+    }
   },
   {
     "slug": "astragalus-huang-qi",
@@ -178,7 +205,13 @@
     "dietaryAdvice": "Astragalus is the most commonly used herb in Chinese home cooking, added to soup stocks by the handful without weighing. Simmer with chicken, red dates, and goji berries for a weekly tonic soup. The slices themselves are not eaten; they are removed before serving. For immune support, start taking the soup weekly two to three weeks before cold season begins. Avoid during acute colds or flu, as its tonifying nature may trap the pathogen inside.",
     "nameZhTrad": "黃耆",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 70% of people who benefit most from Astragalus fit the Qi Deficient body type, where weak defensive Qi leads to frequent colds and chronic fatigue. The herb may help build resistance when taken consistently before cold season rather than during one, working preventively over weeks rather than acutely.",
+    "definition": {
+      "term": "Astragalus",
+      "termCn": "黄芪",
+      "text": "Think of Astragalus as a wall builder for the body's exterior, strengthening defensive Wei Qi the way reinforcing a fortress guards against invaders. Its slightly sweet, gently warming nature lifts Spleen Qi upward and firms the protective boundary, which may help reduce the frequency of colds when taken consistently before cold season rather than during an active infection."
+    }
   },
   {
     "slug": "jujube-da-zao",
@@ -633,7 +666,34 @@
     "dietaryAdvice": "Chinese yam can be eaten steamed, boiled in soup, or sliced into stir-fries. For therapeutic use, peel and steam the fresh tuber, or buy dried slices and simmer in congee. Avoid eating it raw, as the raw form contains compounds that may irritate the skin and throat. For digestive recovery, eat a bowl of Chinese yam congee daily for one to two weeks.",
     "nameZhTrad": "山藥",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When chronic loose stools and low energy persist despite eating well, TCM points to Spleen Qi deficiency, and Chinese Yam may help by providing food-grade nourishment that a weakened digestive system can actually absorb. Its neutral temperature also suits Yin Deficient types who cannot tolerate warmer tonics.",
+    "definition": {
+      "term": "Chinese Yam",
+      "termCn": "山药",
+      "text": "Unlike stronger tonics that push the body, Chinese Yam works by quietly feeding three organs at once: Spleen for digestion, Lung for immunity, and Kidney for reserves. Where ginseng acts forcefully and huang jing nourishes deeply, shan yao operates through gentle, starchy nourishment that a weakened system can absorb without strain, making it suitable for daily long-term use."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Chinese Yam Over Stronger Tonics",
+      "intro": "Chinese Yam's neutrality makes it versatile, but it suits certain situations best. Use these signals to decide.",
+      "branches": [
+        {
+          "signal": "Chronic loose stools, poor appetite, and low energy",
+          "meaning": "Classic Spleen Qi deficiency needing gentle food-grade tonification",
+          "approach": "Steam 100-150g fresh yam daily or add to congee for 4-6 weeks"
+        },
+        {
+          "signal": "Dry cough with fatigue after illness",
+          "meaning": "Lung Qi and Yin both depleted during recovery",
+          "approach": "Cook with rice congee and a few red dates for gentle dual nourishment"
+        },
+        {
+          "signal": "Fatigue with night sweats or lower back weakness",
+          "meaning": "Kidney reserves involved alongside Qi deficiency",
+          "approach": "Pair with goji berries and walnuts in soup for cumulative support"
+        }
+      ]
+    }
   },
   {
     "slug": "longan-gui-yuan",
@@ -2019,7 +2079,34 @@
     "preparationNotes": "Licorice Root is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 3 to 5 grams of licorice root in water for 10 minutes for a sweet, soothing tea. A small piece can be held in the mouth to soothe a dry throat. Avoid taking licorice in large amounts or for extended periods, as it may cause water retention and raise blood pressure. Do not combine with blood pressure medications or diuretics without professional guidance. Use the honey-prepared form (zhi gan cao) for tonification and the raw form (sheng gan cao) for heat-clearing.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind dry throat and occasional fatigue is mild Spleen Qi deficiency with Lung dryness, and Licorice Root may help through its dual action of tonifying Qi and moistening the Lung. Its neutral, sweet nature also makes it the classic harmonizer that balances other herbs in complex formulas.",
+    "definition": {
+      "term": "Licorice Root",
+      "termCn": "甘草",
+      "text": "Licorice Root addresses a specific cluster of signs: occasional fatigue and loose stools from mild Spleen Qi deficiency, dry throat with tickling cough, minor mouth ulcers, and the need to harmonize a formula when multiple herbs are combined. Its sweet, neutral nature makes it one of the mildest Qi tonics available for daily use in moderate amounts."
+    },
+    "conditionalBranches": {
+      "title": "When Licorice Root Is the Right Choice",
+      "intro": "Licorice Root's harmonizing nature suits specific patterns. Check which fits your situation.",
+      "branches": [
+        {
+          "signal": "Occasional fatigue with loose stools and mild stomach discomfort",
+          "meaning": "Mild Spleen Qi deficiency needing gentle tonification",
+          "approach": "Brew 1-2g as tea, once daily, for 2-3 weeks"
+        },
+        {
+          "signal": "Dry throat, tickling cough, or minor mouth ulcers",
+          "meaning": "Lung dryness with mild heat requiring moistening",
+          "approach": "Dissolve a small piece slowly in the mouth, 2-3 times daily"
+        },
+        {
+          "signal": "Taking a multi-herb formula that feels too harsh on the stomach",
+          "meaning": "Herbs combining without harmonization, causing digestive upset",
+          "approach": "Add a small amount of licorice to harmonize and reduce side effects"
+        }
+      ]
+    }
   },
   {
     "slug": "huang-jing",
@@ -2110,7 +2197,34 @@
     "preparationNotes": "Solomon Seal (Huang Jing) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Buy the steamed (zhi huang jing) form, which is dark and sweet, for daily use. Simmer 10 to 15 grams in water for 20 minutes and drink as tea, or add slices to congee. The steamed form is also edible directly as a snack. For recovery use, take daily for 4 to 6 weeks. Avoid if you have damp patterns with heavy, sticky symptoms, as its moistening nature may worsen dampness.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies three distinct patterns that Solomon Seal addresses: Qi deficiency with dryness, Yin depletion from prolonged stress, and the combined exhaustion of energy and essence that follows extended overwork. Its neutral temperature makes it suitable when stronger Qi tonics worsen dryness or stronger Yin tonics worsen fatigue.",
+    "definition": {
+      "term": "Solomon Seal",
+      "termCn": "黄精",
+      "text": "Solomon Seal is used when prolonged stress depletes both Qi and Yin at a deep level, producing a quiet exhaustion accompanied by dryness that stronger Qi tonics may worsen. The root cause is dual depletion of energy and fluids, and huang jing's balanced nature addresses both simultaneously through slow, cumulative nourishment rather than quick stimulation."
+    },
+    "conditionalBranches": {
+      "title": "Signals That Point to Solomon Seal",
+      "intro": "Solomon Seal suits mixed patterns where single-focus tonics fall short. Read your signals to decide.",
+      "branches": [
+        {
+          "signal": "Fatigue accompanied by dry skin and poor sleep",
+          "meaning": "Both Qi and Yin depleted, needing balanced nourishment",
+          "approach": "Take steamed huang jing as daily tea, 3-5g, for 6-8 weeks"
+        },
+        {
+          "signal": "Quiet exhaustion after months of stress, no acute symptoms",
+          "meaning": "Deep, cumulative depletion of energy and essence reserves",
+          "approach": "Add to congee with Chinese yam and red dates for slow rebuilding"
+        },
+        {
+          "signal": "Fatigue that worsens with stronger Qi tonics like ginseng",
+          "meaning": "Yin deficiency underlying the Qi deficiency, making warm tonics counterproductive",
+          "approach": "Switch to huang jing alone or with ophiopogon for gentle dual support"
+        }
+      ]
+    }
   },
   {
     "slug": "mai-dong",
@@ -3132,7 +3246,13 @@
     "preparationNotes": "Codonopsis (Dang Shen) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Add 10 to 15 grams of dang shen to chicken or pork soup along with astragalus and red dates for a weekly qi-tonifying meal. The flavor is mild and sweet, blending easily with other ingredients. For recovery, eat dang shen congee daily for one to two weeks. Avoid taking during acute colds or flu, as its tonifying nature may trap the pathogen.",
     "classicalSource": "Bencao Congxin (1757 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Spleen Qi deficiency is the primary TCM explanation for chronic fatigue with weak digestion, and Codonopsis may help by gently tonifying the Spleen and Lung without the intensity that makes ginseng unsuitable for daily use. It also generates fluids, making it suitable for post-illness recovery when both energy and moisture are depleted.",
+    "definition": {
+      "term": "Codonopsis",
+      "termCn": "党参",
+      "text": "Codonopsis performs a similar function to ginseng but at a gentler intensity, tonifying Spleen and Lung Qi to break the cycle where poor digestion leads to low energy and low energy further weakens digestion. It also generates fluids, which may help support post-illness recovery when both energy and moisture are depleted at the same time."
+    }
   },
   {
     "slug": "bai-zhu",
@@ -3223,7 +3343,34 @@
     "preparationNotes": "Because Atractylodes (Bai Zhu) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Bai zhu is typically used in decoction rather than cooking, as its bitter flavor does not pair well with food. Simmer 6 to 10 grams with dang shen and poria for 20 minutes and drink as tea. For digestive support, take after meals. Avoid if you have yin deficiency with dryness, as its drying nature may worsen the dryness. Reduce dosage if you experience dry mouth or constipation.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Atractylodes is most often linked to Spleen Qi deficiency with dampness, the pattern behind chronic loose stools, bloating, and low energy. Its warm, drying nature may help the Spleen resume processing food and fluids so that nutrition is absorbed rather than passed through undigested.",
+    "definition": {
+      "term": "Atractylodes",
+      "termCn": "白术",
+      "text": "Bai Zhu works like a sponge and a furnace at once: it dries the excess dampness that makes the Spleen sluggish, while warming its digestive fire so food is properly broken down rather than pooling as bloating or loose stools."
+    },
+    "conditionalBranches": {
+      "title": "Which Spleen pattern do you fit?",
+      "intro": "Atractylodes helps most when your fatigue and digestion issues trace back to one of these Spleen patterns.",
+      "branches": [
+        {
+          "signal": "Loose stools and bloating after eating, with low energy",
+          "meaning": "Spleen Qi deficiency with dampness, where food is not properly processed",
+          "approach": "Simmer bai zhu with dang shen and poria in soup; the drying action targets the dampness blocking your digestion."
+        },
+        {
+          "signal": "Heavy, sluggish sensation with water retention",
+          "meaning": "Damp accumulation overwhelming the Spleen's fluid management",
+          "approach": "Pair bai zhu with poria and coix seed as a daily tea; the trio gently drains excess fluid while rebuilding Spleen strength."
+        },
+        {
+          "signal": "Fatigue that worsens in damp or humid weather",
+          "meaning": "External dampness aggravating an already deficient Spleen",
+          "approach": "Increase bai zhu in soups during damp seasons; its drying quality counters both internal and environmental dampness."
+        }
+      ]
+    }
   },
   {
     "slug": "bai-shao",
@@ -4494,7 +4641,34 @@
     "preparationNotes": "Because Schisandra (Wu Wei Zi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Steep 3 to 6 grams of schisandra berries in hot water for 10 minutes. The flavor is famously five-flavored: sour, sweet, bitter, pungent, and salty, which is the origin of its Chinese name (five flavor seed). Drink 1 to 2 cups daily. For cough, add a small amount of honey. Avoid if you have external pathogens (early cold) or damp-heat patterns, as its astringent nature may trap the pathogen.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 12% of people who benefit most from Schisandra fit the Qi Deficient body type that leaks energy through chronic cough or sweating. Its five-flavor nature may help contain the leakage while supporting the systems that produce Qi, so the energy you rebuild actually stays in the body.",
+    "definition": {
+      "term": "Schisandra",
+      "termCn": "五味子",
+      "text": "Unlike ginseng, which adds energy from outside, Schisandra works by closing the leaks that let energy escape. Where a pure tonic pours water into a leaking vessel, this sour berry seals the cracks first, so the Qi you build is retained rather than lost."
+    },
+    "conditionalBranches": {
+      "title": "Where is your Qi leaking?",
+      "intro": "Schisandra addresses distinct leakage patterns. Match your signal to the right approach.",
+      "branches": [
+        {
+          "signal": "Chronic cough that wears you down and leaves you tired",
+          "meaning": "Lung Qi leaking outward through persistent coughing",
+          "approach": "Take wu wei zi with mai dong and ren shen as Sheng Mai San; the astringent action contains the leakage while rebuilding Lung Qi."
+        },
+        {
+          "signal": "Excessive sweating with fatigue and poor concentration",
+          "meaning": "Qi escaping through the pores, depleting body and mind",
+          "approach": "Brew wu wei zi as a morning tea, or combine with astragalus for enhanced Qi-holding over several weeks."
+        },
+        {
+          "signal": "Night sweats with palpitations and restless sleep",
+          "meaning": "Yin deficiency with Qi leakage, often from prolonged stress",
+          "approach": "Combine wu wei zi with mai dong in tea before bed; the pairing nourishes Yin while containing the nighttime leakage."
+        }
+      ]
+    }
   },
   {
     "slug": "ze-xie",
@@ -4947,7 +5121,29 @@
     "preparationNotes": "American Ginseng (Hua Qi Shen) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Take 2 to 3 thin slices of American ginseng, hold them in the mouth to soften, then chew slowly. Alternatively, steep 3 to 5 grams in warm water for 10 minutes as tea. Take in the morning or early afternoon, not before bed. Avoid drinking strong tea or eating radishes on the same day. Do not take during acute colds with chills, as its cool nature may worsen cold-type patterns.",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When fatigue persists despite rest and you tend to run warm, TCM points to Qi deficiency with heat, and American Ginseng is the cooling tonic that may help rebuild energy without adding warmth. Its cool nature makes it the safer choice for qi-deficient types who find Asian ginseng too heating.",
+    "definition": {
+      "term": "American Ginseng",
+      "termCn": "花旗参",
+      "text": "American Ginseng suits a specific cluster of signs: chronic fatigue that comes with a tendency to feel warm, a dry mouth that water does not fix, irritability when overtired, and slow recovery after illness. Where Asian ginseng would add fuel to the warmth, this cool root rebuilds Qi while gently clearing heat."
+    },
+    "conditionalBranches": {
+      "title": "Which fatigue pattern needs a cooling tonic?",
+      "intro": "American Ginseng helps when fatigue comes with heat signs. Confirm which pattern matches yours.",
+      "branches": [
+        {
+          "signal": "Chronic fatigue with a tendency to overheat or feel warm",
+          "meaning": "Qi deficiency with internal heat, where warming tonics would backfire",
+          "approach": "Hold 2 to 3 thin slices in the mouth and let them dissolve slowly; the cooling Qi support builds gradually without adding warmth."
+        },
+        {
+          "signal": "Post-illness fatigue with dry mouth and lingering weakness",
+          "meaning": "Qi and fluid depletion after illness, needing gentle rebuilding",
+          "approach": "Sip American ginseng tea warm throughout the day; its dual action tonifies Qi while generating fluids, which is gentler than warming tonics on a recovering system."
+        }
+      ]
+    }
   },
   {
     "slug": "ge-gen",
@@ -5673,7 +5869,29 @@
     "preparationNotes": "Because Rhodiola (Hong Jing Tian) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Steep 3 to 6 grams of dried rhodiola root in hot water for 10 minutes. The taste is bitter and slightly astringent. Take in the morning, not before bed, as it may interfere with sleep. For convenience, rhodiola is also available as a tincture or capsule. Avoid if you have cold-type patterns with chills, as its cold nature may worsen the cold. Do not combine with stimulant medications.",
     "classicalSource": "Recorded in Tibetan medical texts; later in Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind burnout and mental fatigue from chronic stress is Qi deficiency with heat, and Rhodiola is the cold-natured adaptogen that may help rebuild stamina without stoking internal warmth. Unlike caffeine it does not overstimulate, and unlike warm tonics it does not create heat.",
+    "definition": {
+      "term": "Rhodiola",
+      "termCn": "红景天",
+      "text": "Rhodiola grows at altitudes where oxygen is thin and conditions are harsh, which is exactly why it suits the modern burnout pattern: prolonged stress depletes Qi while smoldering nervous tension creates internal heat. The herb rebuilds stamina through a cooling pathway that most Qi tonics cannot offer."
+    },
+    "conditionalBranches": {
+      "title": "Is your exhaustion hot or cold?",
+      "intro": "Rhodiola fits a specific exhaustion profile. Confirm yours before choosing it.",
+      "branches": [
+        {
+          "signal": "Stress exhaustion with a tendency to run warm or feel overheated",
+          "meaning": "Qi depletion with internal heat from chronic nervous tension",
+          "approach": "Take rhodiola tea or extract in the morning; its cold nature provides calm energy support without the overstimulation of caffeine or the warmth of ginseng."
+        },
+        {
+          "signal": "Mental fatigue and stress headaches from prolonged concentration",
+          "meaning": "Spleen Qi and Heart Blood depletion from sustained mental work",
+          "approach": "Use rhodiola daily for several weeks; the grounding effect builds gradually, supporting focus without the crash that stimulants cause."
+        }
+      ]
+    }
   },
   {
     "slug": "wu-jia-pi",
@@ -5855,7 +6073,29 @@
     "preparationNotes": "Because Red Ginseng Slice (Hong Shen Pian) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Take 1 to 2 thin slices daily, dissolved in warm water or held in the mouth until soft. For recovery, take in the morning for 2 to 3 weeks, then pause. Avoid strong tea, radishes, and coffee on the same day. Do not take during acute colds, flu, or fever, as its warming nature may trap the pathogen. Not recommended for people who tend to run hot.",
     "classicalSource": "Processed form of ginseng, first recorded in Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies three distinct patterns that Red Ginseng Slice addresses: post-surgical cold deficiency, chronic cold-type fatigue with weak digestion, and deep exhaustion with cold limbs. Its steamed, warming preparation may be more effective than white ginseng for rebuilding Qi and Yang together when cold signs are present.",
+    "definition": {
+      "term": "Red Ginseng Slice",
+      "termCn": "红参片",
+      "text": "Red Ginseng Slice does two things in the body at once: it strongly tonifies Qi where it has been deeply depleted, and it warms the Yang when cold signs are present. The steaming process that turns white ginseng red also changes its nature, making it more potent for deficiency that comes with cold."
+    },
+    "conditionalBranches": {
+      "title": "When does your deficiency need red ginseng?",
+      "intro": "Red Ginseng Slice fits cold-type deficiency that white or American ginseng cannot fully address. Match your pattern.",
+      "branches": [
+        {
+          "signal": "Recovering from surgery or long illness, with cold signs and deep fatigue",
+          "meaning": "Severe Qi depletion with cold, where gentle tonics are not strong enough",
+          "approach": "Dissolve one thin slice in warm water daily for 2 to 3 weeks; the concentrated warming action rebuilds Qi faster than white ginseng."
+        },
+        {
+          "signal": "Chronic cold-type fatigue with weak digestion and a cold feeling from within",
+          "meaning": "Spleen Qi deficiency with cold, needing both tonification and warming",
+          "approach": "Simmer red ginseng with ginger and red dates in congee; the combination warms the digestive fire while tonifying the Spleen."
+        }
+      ]
+    }
   },
   {
     "slug": "tao-jiao",
@@ -11341,7 +11581,34 @@
     ],
     "classicalSource": "Jiuhuang Bencao (1406 CE)",
     "safetyRating": "Non-toxic",
-    "image": "/images/herbs/gynostemma-jiao-gu-lan.jpg"
+    "image": "/images/herbs/gynostemma-jiao-gu-lan.jpg",
+    "quickAnswer": "Qi deficiency with damp-heat is the primary TCM explanation for tiredness that comes with a foggy, heavy body feeling and a tendency to overheat, and Gynostemma is the cooling alternative to ginseng that may help rebuild energy without feeding the warmth or deepening the dampness.",
+    "definition": {
+      "term": "Gynostemma",
+      "termCn": "绞股蓝",
+      "text": "Jiaogulan is like a cool, steady breeze in a room that is both stuffy and overheated: it gently clears the heat and the damp heaviness at once, while rebuilding energy through a cooling pathway that warming tonics like ginseng cannot offer. This is why mountain cultures called it the herb of immortality."
+    },
+    "conditionalBranches": {
+      "title": "Which fatigue type tolerates gynostemma best?",
+      "intro": "Gynostemma suits fatigue patterns that warming tonics would worsen. Check which one matches you.",
+      "branches": [
+        {
+          "signal": "Tired but run warm or overheat easily, where ginseng causes irritability or poor sleep",
+          "meaning": "Qi deficiency with internal heat, where warming tonics backfire",
+          "approach": "Brew jiaogulan as a daily tea; its cooling nature rebuilds energy without adding the warmth that triggers breakouts or restlessness."
+        },
+        {
+          "signal": "Heavy fatigue with a foggy, weighed-down body feeling",
+          "meaning": "Dampness tangled with Qi deficiency, where a pure tonic would feed the dampness",
+          "approach": "Drink jiaogulan tea through the day; its slight drying quality lightens the dampness while supporting steady energy, which rich tonics cannot do."
+        },
+        {
+          "signal": "Long-term stress recovery with low-grade heat and exhaustion",
+          "meaning": "Prolonged stress draining Qi while smoldering as heat",
+          "approach": "Use jiaogulan consistently for several weeks; its cooling, adaptive nature supports resilience through sustained stress without the stimulation of caffeine."
+        }
+      ]
+    }
   },
   {
     "slug": "cordyceps-dong-chong-xia-cao",
