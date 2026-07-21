@@ -1667,7 +1667,34 @@
     "dietaryAdvice": "Add a small piece of aged tangerine peel to soups, stews, or tea. For bloating, steep 3 to 5 grams in hot water for 10 minutes and drink after meals. When cooking with heavy meats, add chen pi to aid digestion. The older the peel, the more effective and less harsh it is. Avoid using large amounts if you have yin deficiency with dry cough, as its drying nature may worsen dryness.",
     "nameZhTrad": "陳皮",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Aged Tangerine Peel is most often linked to Spleen and Stomach Qi stagnation with damp-phlegm, the pattern behind bloating after heavy meals, sticky mucus in the throat, and a heavy sluggish feeling that resists simple digestives. About 10% of people fit the Phlegm Damp body type and another 8% fit the Qi Stagnant type, and the peel addresses both at once by moving stuck energy and drying the sticky moisture beneath. A cup of aged peel tea after a heavy meal may help restore the downward flow that bloating blocks.",
+    "definition": {
+      "term": "Chen Pi",
+      "termCn": "陈皮",
+      "text": "Think of Aged Tangerine Peel as a traffic director at a congested intersection between the Spleen and Stomach. When food, gas, and sticky moisture pile up after a heavy or greasy meal, the aromatic oils in the aged rind wave traffic through, while the drying warmth sops up the dampness underneath. The aging matters: time mellows the harshness and deepens the moving action, which is why older peel fetches higher prices and may help more than fresh peel for chronic stagnation."
+    },
+    "conditionalBranches": {
+      "title": "Matching Chen Pi to Your Stagnation Layer",
+      "intro": "Chen pi sits between digestion and phlegm. Pick the layer before brewing.",
+      "branches": [
+        {
+          "signal": "Bloating and fullness within an hour of heavy or greasy meals",
+          "meaning": "Spleen and Stomach Qi stagnation, the most common layer",
+          "approach": "Brew 2-3g of aged peel as tea after the meal, 3-4 times per week"
+        },
+        {
+          "signal": "Sticky mucus in the throat or chest with a heavy sluggish feeling",
+          "meaning": "Damp-phlegm accumulating in the middle and upper body",
+          "approach": "Pair with pear and rock sugar as a gentle decoction, or add to congee twice weekly"
+        },
+        {
+          "signal": "Dry cough with no phlegm, or thirst with a dry mouth",
+          "meaning": "Lung or Stomach Yin deficiency, where drying herbs worsen the picture",
+          "approach": "Pause chen pi and consider lily bulb or sha shen, which moisten rather than dry"
+        }
+      ]
+    }
   },
   {
     "slug": "honeysuckle-jin-yin-hua",
@@ -4921,7 +4948,34 @@
     "preparationNotes": "Hawthorn (Shan Zha) is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Drink hawthorn tea by steeping 10 to 15 grams of dried slices in hot water for 10 minutes. The taste is tart and fruity. For digestion, drink after heavy meals. Avoid on an empty stomach, as the sourness may irritate the stomach lining. Do not take hawthorn with blood-thinning medications or before surgery, as it may affect platelet function. Avoid during pregnancy.",
     "classicalSource": "Bencao Jingjizhu (circa 500 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 75% of people who benefit most from Hawthorn fit a food stagnation pattern triggered by heavy, fatty, or meat-heavy meals that overwhelm the Spleen's processing power. The recognizable cluster is a hard, distended fullness in the upper abdomen within an hour of eating, sometimes with belching that carries the taste of the previous meal. Hawthorn is the primary TCM herb for breaking down this specific type of meat-and-fat stagnation, and a cup of hawthorn tea after a heavy meal may help resume the downward flow.",
+    "definition": {
+      "term": "Shan Zha",
+      "termCn": "山楂",
+      "text": "Hawthorn performs a dual digestive and circulatory function: it breaks down heavy food, especially meat and fat, while also moving sluggish blood that accumulates from rich diets. The sour-sweet fruit stimulates the enzymatic breakdown that an overworked Spleen cannot sustain on its own, which is why a small cup of hawthorn tea after steak or roast duck may help more than a general digestive. The same blood-moving action underlies its traditional association with chest comfort after heavy eating."
+    },
+    "conditionalBranches": {
+      "title": "When Hawthorn Outperforms a General Digestive",
+      "intro": "Shan zha targets meat and fat stagnation. Match it to the meal, not the habit.",
+      "branches": [
+        {
+          "signal": "Hard fullness in the upper abdomen after meat, fat, or fried food",
+          "meaning": "Food stagnation from a heavy diet, the core pattern",
+          "approach": "Brew 5-10g of hawthorn as tea after the meal, up to 3 times per week"
+        },
+        {
+          "signal": "Mild chest heaviness or pressure that follows rich meals",
+          "meaning": "Diet-related blood stasis in the chest, secondary to stagnation",
+          "approach": "Add hawthorn to daily tea for several weeks; rule out cardiac causes with a practitioner"
+        },
+        {
+          "signal": "Stomach discomfort with no link to heavy meals, or with acid reflux",
+          "meaning": "Stomach heat or Yin deficiency rather than food stagnation",
+          "approach": "Pause hawthorn, whose sour warmth may worsen acid and dryness"
+        }
+      ]
+    }
   },
   {
     "slug": "suan-zao-ren",
@@ -5472,7 +5526,34 @@
     "preparationNotes": "Bupleurum (Chai Hu) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Chai hu is used in decoction rather than as food. Simmer 6 to 10 grams with other herbs for 20 minutes. For liver qi stagnation, it is combined with white peony and licorice. The taste is slightly bitter and pungent. Avoid taking chai hu in large doses or for extended periods, as its drying, rising nature may deplete yin. Not recommended for yin deficiency with liver yang rising.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When chest tightness, frequent sighing, and mood swings persist despite cutting caffeine and improving sleep, TCM points to Liver Qi Stagnation, the pattern Bupleurum has anchored for over two thousand years. About 8% of people fit the Qi Stagnant body type, and their tension lands in the rib-side and chest rather than the muscles, flaring during stressful weeks and easing on vacation. As the chief herb in the classic Free and Easy Wanderer formula, bupleurum may help restore the smooth flow that frustration has blocked.",
+    "definition": {
+      "term": "Chai Hu",
+      "termCn": "柴胡",
+      "text": "Unlike general calming herbs that sedate the nervous system, Bupleurum works by restoring outward flow to Liver Qi that has tightened into a knot under stress. The outward-dispersing action is what makes it the chief herb of the most widely prescribed liver-soothing formula in Chinese medicine, rather than a standalone sedative. It may help most when the irritability, sighing, and chest pressure come on with emotional pressure rather than from simple tiredness."
+    },
+    "conditionalBranches": {
+      "title": "Which Layer of Liver Stagnation Needs Bupleurum?",
+      "intro": "Chai hu disperses, it does not nourish. Match the pattern before use.",
+      "branches": [
+        {
+          "signal": "Chest or rib-side tightness with frequent sighing and irritability under stress",
+          "meaning": "Liver Qi stagnation, the core pattern",
+          "approach": "Use within a balanced formula like Xiao Yao San rather than as a single strong herb"
+        },
+        {
+          "signal": "Alternating fever and chills with a bitter taste and chest fullness",
+          "meaning": "Shaoyang disorder, a pathogen trapped at the half-exterior half-interior layer",
+          "approach": "Combine with scutellaria in a classical formula under professional guidance"
+        },
+        {
+          "signal": "Pure tiredness or weakness with no chest tightness or mood component",
+          "meaning": "Qi or Blood deficiency without stagnation",
+          "approach": "Pause bupleurum, whose dispersing action may further weaken a deficient system"
+        }
+      ]
+    }
   },
   {
     "slug": "dan-shen",
@@ -8143,7 +8224,34 @@
     "preparationNotes": "Apricot Kernel (Xing Ren) is slightly warm in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Use 5 to 10 grams of apricot kernels in cooking. For cough, simmer with pear and rock sugar. The kernels can also be ground and mixed into congee. Note that bitter apricot kernels contain amygdalin and should not be eaten in large quantities. The sweet variety is safer for regular consumption. Avoid during pregnancy and do not exceed recommended doses.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Mildly toxic"
+    "safetyRating": "Mildly toxic",
+    "quickAnswer": "The most common TCM pattern behind a stubborn cough that will not settle is Rebellious Lung Qi, and Apricot Kernel is the herb Chinese medicine reaches for first to bring that upward-rushing energy back down. About 12% of people with a chronic cough fit a pattern where the Lung cannot descend properly, and the kernel's descending and moistening actions may help whether the cough is cold, hot, or dry. A small dose within a matched formula is the standard approach, rather than the kernel on its own.",
+    "definition": {
+      "term": "Xing Ren",
+      "termCn": "杏仁",
+      "text": "Apricot Kernel is indicated for: a cough that worsens at night, wheezing with a feeling of upward pressure in the chest, sticky phlegm that is hard to expectorate, and dry constipation that accompanies a respiratory pattern. The kernel performs two jobs that few herbs combine: it descends the Lung Qi that has rushed upward as cough, and its natural oils moisten the Large Intestine through the paired-organ relationship. This dual action is why a single herb may help both the cough and the constipation that often travel with it."
+    },
+    "conditionalBranches": {
+      "title": "Matching Xing Ren to Your Type of Cough",
+      "intro": "Xing ren descends, it does not clear heat alone. Match the cough type.",
+      "branches": [
+        {
+          "signal": "Cough with wheezing and a feeling of pressure pushing upward in the chest",
+          "meaning": "Rebellious Lung Qi that cannot descend, the core pattern",
+          "approach": "Use within a pattern-matched formula, as xing ren rarely works alone"
+        },
+        {
+          "signal": "Dry cough with sticky hard phlegm and accompanying dry constipation",
+          "meaning": "Lung and Large Intestine dryness, the paired-organ pattern",
+          "approach": "Combine with moistening herbs like chuan bei and mai dong for a gentler effect"
+        },
+        {
+          "signal": "Cough with high fever, yellow phlegm, and chest pain",
+          "meaning": "Lung heat or phlegm-fire that needs heat-clearing first",
+          "approach": "Pair with heat-clearing herbs, or pause xing ren if the pattern is purely hot and severe"
+        }
+      ]
+    }
   },
   {
     "slug": "gua-lou",
@@ -8234,7 +8342,29 @@
     "preparationNotes": "Because Trichosanthes Fruit (Gua Lou) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Use 10 to 15 grams of the whole fruit or 6 to 10 grams of the seeds. Simmer in water for 20 minutes and drink as tea. The taste is sweet and slightly bitter. The seeds can be eaten directly for constipation. Avoid if you have cold-type phlegm with clear, watery sputum, and do not use with aconite (wu tou) herbs.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Trichosanthes Fruit addresses: phlegm-heat pooling in the chest, and chest discomfort from sticky phlegm wedged between the ribs. The first shows up as thick yellow sputum with a hot full pressure; the second shows up as a tight blocked sensation that does not lift with rest. The fruit's cold and moistening nature may help soften the sticky phlegm while clearing the heat baked into it, which is why it anchors the classical chest-opening formula.",
+    "definition": {
+      "term": "Gua Lou",
+      "termCn": "瓜蒌",
+      "text": "The root cause Trichosanthes Fruit addresses is sticky phlegm that has baked together with heat and lodged in the chest or breast tissue. When heat meets phlegm, the result is a yellow, thick, and stubborn substance that blocks the broad upper passage between the lungs and ribs. The cold and moistening fruit may help soften the lump and move it downward, a function few phlegm herbs share because most dry rather than moisten."
+    },
+    "conditionalBranches": {
+      "title": "Which Chest Pattern Needs Trichosanthes Fruit?",
+      "intro": "Gua lou softens sticky hot phlegm. Use only when heat is present.",
+      "branches": [
+        {
+          "signal": "Thick yellow phlegm with chest fullness and a hot pressured feeling",
+          "meaning": "Phlegm-heat in the Lung and chest, the primary pattern",
+          "approach": "Use within a phlegm-heat formula; combine with scutellaria and xing ren under guidance"
+        },
+        {
+          "signal": "Tight blocked chest sensation with sticky phlegm but no strong heat signs",
+          "meaning": "Chest yang obstruction with phlegm, a related but colder pattern",
+          "approach": "Combine with macrostem onion in the classical chest formula, rather than using gua lou alone"
+        }
+      ]
+    }
   },
   {
     "slug": "zhu-ye",
@@ -8513,7 +8643,29 @@
     "preparationNotes": "Peucedanum Root (Qian Hu) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 6 to 10 grams of qian hu in water for 20 minutes and drink as tea. The taste is bitter and slightly pungent. For cough, combine with jie geng and xing ren. Avoid if you have cold-type cough with clear, watery phlegm, as its cold nature may worsen the cold.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Lung Qi rebellion with phlegm-heat is the primary TCM explanation for the cough that arrives a few days into a wind-heat cold, when the dry tickle turns into thick yellow phlegm and a heavy chest. About 8% of people shift into this pattern after a respiratory infection, and Peucedanum Root is one of the few herbs that simultaneously descends the upward-rushing Lung Qi and clears the heat baked into the phlegm. A small dose within a cough formula may help shorten the transition from acute cold to lingering cough.",
+    "definition": {
+      "term": "Qian Hu",
+      "termCn": "前胡",
+      "text": "Picture Peucedanum Root as a downward escalator installed at the top of the Lung, carrying rebellious Qi and sticky phlegm back toward the feet where they belong. Its slightly cold nature cools the heat that makes the phlegm yellow and thick, while the descending action stops the upward push that the body reads as cough. The root may help most in that narrow window after a wind-heat cold, when the cough has deepened but the system is not yet fully depleted."
+    },
+    "conditionalBranches": {
+      "title": "When to Choose Qian Hu Over a Plain Cough Herb",
+      "intro": "Qian hu fits the narrow window after wind-heat settles. Match the stage.",
+      "branches": [
+        {
+          "signal": "Cough producing thick yellow phlegm a few days after a wind-heat cold",
+          "meaning": "Lung heat with phlegm after wind-heat, the core pattern",
+          "approach": "Combine with platycodon and scutellaria in a standard cough formula"
+        },
+        {
+          "signal": "Cough with clear watery phlegm, or with dry sticky phlegm and thirst",
+          "meaning": "Cold-type cough or Yin deficiency cough, which need opposite care",
+          "approach": "Pause qian hu and choose a warming or moistening herb matched to the pattern"
+        }
+      ]
+    }
   },
   {
     "slug": "sheng-ma",
@@ -8695,7 +8847,29 @@
     "preparationNotes": "Oroxylum Seed (Mu Hu Die) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Steep 3 to 6 grams of mu hu die seeds in hot water for 10 minutes and sip slowly. The taste is bland and slightly sweet. For voice strain, drink throughout the day. Combine with pang da hai (malva nut) for enhanced throat soothing. Avoid if you have cold-type sore throat or stomach cold with diarrhea.",
     "classicalSource": "Diannan Bencao (15th century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Oroxylum Seed is most often linked to Lung and throat dryness in people whose voice is their daily tool, the pattern behind hoarseness that rest alone will not lift. About 6% of people fit a voice-strain pattern in which Lung Yin runs too low to keep the vocal apparatus moist, and the butterfly-shaped seed is the herb Chinese medicine assigns to this specific layer. Sipped slowly through the day as a light tea, it may help restore the moisture that talking, singing, or teaching steadily drains.",
+    "definition": {
+      "term": "Mu Hu Die",
+      "termCn": "木蝴蝶",
+      "text": "Oroxylum Seed performs a narrowly targeted function: it moistens the Lung and throat while gently regulating Liver Qi, the two channels it enters. The large paper-thin seeds release a mild moistening action in hot water that suits the slow cumulative repair of a voice pushed too hard for too long. Beyond the throat, its secondary Liver-regulating action may help when mild chest tightness from emotional strain sits alongside the hoarseness."
+    },
+    "conditionalBranches": {
+      "title": "Matching Mu Hu Die to Your Throat Signal",
+      "intro": "Mu hu die moistens a specific throat layer. Match the voice signal.",
+      "branches": [
+        {
+          "signal": "Hoarseness or a dry scratchy throat after long speaking, singing, or teaching",
+          "meaning": "Lung Yin depletion in the throat, the primary pattern",
+          "approach": "Steep 2-3 thin seeds in hot water and sip slowly through the day, 3-4 times per week"
+        },
+        {
+          "signal": "Hoarseness with mild chest tightness, sighing, or a flat mood",
+          "meaning": "Liver Qi stagnation joining Lung dryness, the combined pattern",
+          "approach": "Combine with rose petals or chrysanthemum in tea; address the emotional pressure directly"
+        }
+      ]
+    }
   },
   {
     "slug": "ba-jiao-da-liao",
@@ -8883,7 +9057,34 @@
     "preparationNotes": "Ginkgo Nut (Bai Guo Ren) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Roast 5 to 10 ginkgo nuts and eat them as a snack, or add to congee. Never eat raw ginkgo nuts, as they contain toxins that are destroyed by cooking. Do not exceed 10 nuts per day, as excessive consumption can cause toxicity. Avoid entirely during pregnancy and in young children.",
     "classicalSource": "Bencao Gangmu (1593 CE)",
-    "safetyRating": "Mildly toxic"
+    "safetyRating": "Mildly toxic",
+    "quickAnswer": "About 9% of people who benefit most from Ginkgo Nut fit a pattern of chronic wheezing or urinary leakage where the body has lost its grip on what should be contained. The Lung keeps wheezing because it cannot hold its Qi in place; the bladder keeps filling at night because the kidneys cannot hold their fluids. Ginkgo Nut is the primary TCM astringent for both layers, and a small roasted amount in congee may help tighten what age or chronic strain has loosened.",
+    "definition": {
+      "term": "Bai Guo Ren",
+      "termCn": "白果仁",
+      "text": "Unlike dispersing cough herbs that push phlegm outward, Ginkgo Nut works in the opposite direction by tightening a Lung that has grown too loose to contain its own Qi. The astringent action suits the chronic leakage-type wheeze of an older or depleted system, rather than the acute productive cough of a fresh cold. The same holding action extends to the kidneys and bladder, which is why a few roasted nuts daily may help with nighttime urination that pure warming herbs cannot seal."
+    },
+    "conditionalBranches": {
+      "title": "Is Your Wheeze Loose or Blocked?",
+      "intro": "Bai guo ren contains, it does not disperse. Match the leakage type.",
+      "branches": [
+        {
+          "signal": "Chronic wheezing that worsens with exertion and in older age, without much new phlegm",
+          "meaning": "Lung Qi failing to contain itself, the astringent pattern",
+          "approach": "Eat a few roasted nuts in congee or soup daily, with strict dose limits due to mild toxicity"
+        },
+        {
+          "signal": "Frequent nighttime urination with lower back coldness in an older adult",
+          "meaning": "Kidney Qi failing to hold fluids, the urinary pattern",
+          "approach": "Use within a kidney-tonic formula under guidance, not as a standalone food"
+        },
+        {
+          "signal": "Acute cough with lots of new phlegm, or an early-stage cold",
+          "meaning": "Exterior pathogen or active phlegm that needs dispersing, not containing",
+          "approach": "Pause ginkgo nut, whose astringent action may trap the pathogen inside"
+        }
+      ]
+    }
   },
   {
     "slug": "hua-jiao",
@@ -9431,7 +9632,34 @@
     "preparationNotes": "Immature Bitter Orange (Zhi Shi) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Zhi shi is used in decoction rather than as food due to its bitter taste. Simmer 3 to 6 grams with other herbs for 20 minutes. For digestive stagnation, combine with hou po and da huang. Avoid if you have spleen deficiency without stagnation, as its aggressive breaking nature may further weaken the spleen. Not for use during pregnancy.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When abdominal fullness turns hard and distended despite fiber and digestive enzymes, TCM points to Qi and food stagnation baked together with heat in the digestive tract. About 7% of people reach this layer when stagnation is left to settle, and the abdomen feels firm rather than soft and bloated. Immature Bitter Orange is the strongest TCM herb for breaking this hard stagnation and forcing the downward flow, which is why it appears in the classical severe-constipation formula rather than in gentle daily tonics.",
+    "definition": {
+      "term": "Zhi Shi",
+      "termCn": "枳实",
+      "text": "Immature Bitter Orange is indicated for: a hard distended abdomen that resists pressure, constipation with a full blocked sensation, chest fullness with sticky phlegm, and mild organ prolapse that worsens with exhaustion. The unripe fruit is stronger than its nearly-ripe cousin because the breaking action is sharper, which is why practitioners reach for it when stagnation has hardened rather than just slowed. A small dose in a formula may help move what gentler herbs cannot."
+    },
+    "conditionalBranches": {
+      "title": "How Hard Is Your Abdominal Stagnation?",
+      "intro": "Zhi shi breaks hard stagnation. Confirm the hardness before use.",
+      "branches": [
+        {
+          "signal": "A hard distended abdomen with constipation that resists pressure",
+          "meaning": "Heat-type stagnation with accumulation, the strongest pattern",
+          "approach": "Use within Da Cheng Qi Tang or a similar formula, only under professional guidance"
+        },
+        {
+          "signal": "Soft bloating and fullness that comes and goes with stress",
+          "meaning": "Liver overacting on Spleen, a milder Qi stagnation",
+          "approach": "Choose the nearly-ripe zhi ke instead, or a gentler herb like chen pi"
+        },
+        {
+          "signal": "Tiredness and a sinking sensation with a soft abdomen and loose stools",
+          "meaning": "Spleen Qi sinking, which needs lifting not breaking",
+          "approach": "Pause zhi shi; use a lifting formula with bupleurum and astragalus instead"
+        }
+      ]
+    }
   },
   {
     "slug": "san-qi",
@@ -9962,7 +10190,29 @@
     "preparationNotes": "Because Sandalwood (Tan Xiang) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Take 1 to 3 grams of sandalwood powder in warm water. The taste is bitter, aromatic, and woody. For external use, mix powder with water to form a paste for skin application. For aromatic use, burn sandalwood incense in a well-ventilated space. Avoid if you have heat-type pain or yin deficiency with significant heat signs.",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind a tight gripping pain in the chest or upper stomach that flares with stress is Cold Qi Stagnation in the middle burner, and Sandalwood is the aromatic herb Chinese medicine assigns to this exact layer. About 7% of people with stress-related chest pain fit a pattern where the Qi has tightened enough to generate a cold gripping quality rather than a hot burning one. A small amount of sandalwood in warm water, or simply the fragrance of the wood, may help move the knot without forcing.",
+    "definition": {
+      "term": "Tan Xiang",
+      "termCn": "檀香",
+      "text": "The root cause Sandalwood addresses is Qi that has frozen into a tight cold knot in the chest or stomach under emotional pressure. When stress meets a system that runs slightly cold, the Qi tightens rather than disperses, and the result is a gripping pain that changes with the emotional state. The aromatic warmth of the wood may help thaw and move that knot, a function shared with meditation practice, which is why sandalwood incense has accompanied both for centuries."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Sandalwood by Where the Knot Sits",
+      "intro": "Tan xiang warms and moves a cold knot. Confirm the cold quality first.",
+      "branches": [
+        {
+          "signal": "A tight gripping chest or upper stomach pain that flares with stress",
+          "meaning": "Cold Qi stagnation in the chest or middle burner, the core pattern",
+          "approach": "Use a small amount of sandalwood powder in warm water, or burn the incense alongside internal use"
+        },
+        {
+          "signal": "Anxiety-related shallow breathing and chest tightness without sharp pain",
+          "meaning": "Mild chest Qi stagnation with spirit disturbance, a lighter layer",
+          "approach": "Lean on sandalwood aromatherapy; pair with a calming formula like suan zao ren"
+        }
+      ]
+    }
   },
   {
     "slug": "cang-er-zi",
@@ -10144,7 +10394,29 @@
     "preparationNotes": "Mulberry Twig (Sang Zhi) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 15 to 30 grams of mulberry twigs in water for 20 minutes and drink as tea, or add to chicken soup for joint support. The taste is mild and slightly bitter. For chronic joint patterns, take 3 to 4 times per week. Can be combined with gui zhi (cinnamon twig) for enhanced upper-body circulation. Avoid if you have no specific joint pattern, as its dispersing nature is unnecessary for healthy individuals.",
     "classicalSource": "Bencao Jingjizhu (circa 500 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies one core pattern that Mulberry Twig addresses: wind-damp lodging in the upper body joints and channels, the pattern behind shoulder and wrist stiffness that worsens in damp weather and eases with movement. About 6% of people with chronic upper-body joint vulnerability fit this layer, and the mulberry twig is one of the few herbs that reaches the upper body specifically rather than the lower back and knees. Simmered in soup or brewed as tea over several weeks, it may help keep the channels open and the stiffness from settling in.",
+    "definition": {
+      "term": "Sang Zhi",
+      "termCn": "桑枝",
+      "text": "Think of Mulberry Twig as a broom whose handle reaches specifically into the upper body joints, sweeping wind-damp out of the shoulders, elbows, and wrists where it tends to settle. The twig carries the same channel-opening nature as the rest of the mulberry tree but with a directional pull upward, which is why traditional practice pairs it with shoulder and arm conditions rather than with the lower body. A weekly soup with the twigs may help maintain mobility in joints that stiffen with every damp week."
+    },
+    "conditionalBranches": {
+      "title": "Which Joints Need Mulberry Twig?",
+      "intro": "Sang zhi targets the upper body only. Confirm the joint location first.",
+      "branches": [
+        {
+          "signal": "Stiffness or aching in the shoulders, elbows, or wrists that worsens in damp weather",
+          "meaning": "Wind-damp in the upper body channels, the core pattern",
+          "approach": "Simmer 10-15g of mulberry twigs in a weekly soup, or brew as daily tea for several weeks"
+        },
+        {
+          "signal": "Pain in the lower back, hips, or knees instead of the upper body",
+          "meaning": "Wind-damp in the lower channels, which needs different herbs",
+          "approach": "Choose du zhong or niu xi instead, which target the lower body"
+        }
+      ]
+    }
   },
   {
     "slug": "zi-su",
@@ -10235,7 +10507,29 @@
     "preparationNotes": "Because Perilla Leaf (Zi Su Ye) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Steep 5 to 10 grams of dried perilla leaves in hot water for 5 minutes. The taste is aromatic, slightly bitter, and distinctive. For cold prevention, drink warm at the first sign of chills. For seafood digestion, eat fresh leaves with the meal or drink tea afterward. Avoid if you have heat-type conditions with fever.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Wind-cold at the early stage of a chill is the primary TCM explanation for the tight-chested shivery feeling that precedes a full cold, and Perilla Leaf is the gentle warming herb Chinese medicine uses to disperse it before it deepens. About 9% of people catch this layer if they act within the first 12 to 24 hours of chills, and the same leaf doubles as the traditional answer for the cold-type stomach upset that follows a seafood meal. A hot cup of perilla leaf tea at the first sign of chills may help halt the progression.",
+    "definition": {
+      "term": "Zi Su Ye",
+      "termCn": "紫苏叶",
+      "text": "Perilla Leaf performs three linked functions: it releases the exterior in an early wind-cold, harmonizes the middle when seafood or cold food has upset the stomach, and gently moves Lung Qi to ease chest tightness. The warm aromatic leaves are mild enough for children and the elderly, which is why traditional practice keeps them in the kitchen rather than the dispensary. The same leaf may help with the cold-type bloating that follows a raw-food meal as much as with the first shivers of a cold."
+    },
+    "conditionalBranches": {
+      "title": "Two Signals That Call for Perilla Leaf",
+      "intro": "Zi su works at two early layers. Match the signal quickly.",
+      "branches": [
+        {
+          "signal": "Chills, a mild tight chest, and no sweat at the very start of a cold",
+          "meaning": "Wind-cold at the exterior, the release-the-exterior pattern",
+          "approach": "Brew a strong cup of perilla leaf tea with fresh ginger at the first sign, then rest and sweat lightly"
+        },
+        {
+          "signal": "Stomach upset, bloating, or nausea after eating seafood or raw cold food",
+          "meaning": "Cold in the middle burner from food, the harmonize pattern",
+          "approach": "Eat fresh perilla leaves with the meal, or drink warm perilla tea after eating"
+        }
+      ]
+    }
   },
   {
     "slug": "guang-chen-pi",
@@ -10326,7 +10620,29 @@
     "preparationNotes": "Because Aged Tangerine Peel (Guang Chen Pi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Add a small piece of aged Guangdong tangerine peel to soups, stews, or tea. For bloating, steep 3 to 5 grams in hot water for 10 minutes and drink after meals. When cooking with heavy meats, add the peel to aid digestion. The older the peel, the more effective and less harsh it is. Avoid if you have yin deficiency with dry cough, as its drying nature may worsen dryness.",
     "classicalSource": "Derived from aged tangerine peel, first recorded in Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, the Guangdong premium aged peel is most often linked to stubborn damp-phlegm in the Spleen and Lung, the pattern behind bloating that worsens after meals, sticky mucus, and a heavy sluggish mood. About 10% of people fit the Phlegm Damp body type, and the premium Xinhui peel is considered the strongest of the citrus peel family for moving Qi while drying the dampness beneath. Aged for years like a fine tea, the peel may help with chronic damp patterns that regular citrus peel cannot shift.",
+    "definition": {
+      "term": "Guang Chen Pi",
+      "termCn": "广陈皮",
+      "text": "Unlike regular tangerine peel, which moves Qi and dries phlegm adequately, the Guangdong premium variety develops a deeper aromatic reservoir through years of careful aging that intensifies the moving action without increasing the harshness. The Xinhui-grown rind is considered the standard because the local climate and storage tradition produce an oil profile that regular peel cannot match, which is why a small amount may help where the regular peel has stalled. The longer the aging, the higher the price, and the gentler the action on a sensitive stomach."
+    },
+    "conditionalBranches": {
+      "title": "When the Premium Peel Outperforms the Regular",
+      "intro": "Reserve the premium peel for what regular peel cannot shift.",
+      "branches": [
+        {
+          "signal": "Chronic bloating and heavy sluggish mood with sticky phlegm, unresponsive to regular citrus peel",
+          "meaning": "Stubborn damp-phlegm that needs the deeper aromatic action",
+          "approach": "Brew a small piece of aged Guangdong peel as tea, 2-3 times per week"
+        },
+        {
+          "signal": "Mild occasional bloating after a heavy meal, with no chronic pattern",
+          "meaning": "Light food stagnation that regular chen pi can handle",
+          "approach": "Use regular aged tangerine peel, and reserve the premium peel for chronic patterns"
+        }
+      ]
+    }
   },
   {
     "slug": "saffron-zang-hong-hua",
@@ -12143,7 +12459,34 @@
     ],
     "image": "/images/herbs/jasmine-mo-li.png",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 14% of people who benefit most from Jasmine tea fit a combined Liver Qi stagnation and Spleen weakness pattern, where stress tightens the chest and mood while quietly choking the digestion at the same time. The recognizable cluster is chest tightness, sighing, stress-related bloating, and a flat heavy mood that rest alone cannot lift. The gentle aromatic warmth of jasmine may help keep the Liver flowing without the strong dispersing force of heavier herbs, which is why it is one of the most popular daily tea flowers in East Asia.",
+    "definition": {
+      "term": "Mo Li",
+      "termCn": "茉莉",
+      "text": "Jasmine is indicated for: stress-related chest tightness and frequent sighing, mood swings and irritability before menstruation, stress-related bloating and irregular appetite, and a flat heavy mood that sleep alone cannot lift. The flower's gentle warming and moving nature suits the mild-to-moderate Liver Qi pattern that builds over weeks rather than the acute knot that needs a stronger herb. Daily jasmine tea may help keep the flow steady enough that the knot does not form in the first place."
+    },
+    "conditionalBranches": {
+      "title": "Which Daily Flower Matches Your Mood-Digestion Loop?",
+      "intro": "Jasmine suits mild daily stagnation. Confirm the depth before relying on tea alone.",
+      "branches": [
+        {
+          "signal": "Stress-related chest tightness, sighing, and irritability that comes and goes with the week",
+          "meaning": "Liver Qi stagnation, the core pattern",
+          "approach": "Drink 2-3 cups of jasmine tea through stressful weeks; pair with daily gentle movement"
+        },
+        {
+          "signal": "Premenstrual mood swings and bloating that ease once the period starts",
+          "meaning": "Liver Qi stagnation intensifying before menstruation",
+          "approach": "Sip jasmine tea in the week before the period; combine with rose petals for a stronger effect"
+        },
+        {
+          "signal": "A deep low mood with loss of interest, or severe anxiety with palpitations",
+          "meaning": "Heart Blood or Yin deficiency, or a pattern beyond simple stagnation",
+          "approach": "Seek professional support; jasmine alone is too gentle for a depleted or severe pattern"
+        }
+      ]
+    }
   },
   {
     "slug": "deer-antler-velvet-lu-rong",
@@ -12367,7 +12710,34 @@
     ],
     "image": "/images/herbs/cyperus-xiang-fu.jpg",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When premenstrual tension, breast tenderness, and mood swings persist despite cutting caffeine and tracking the cycle, TCM points to Liver Qi Stagnation settling in the lower abdomen, the pattern Cyperus has anchored for centuries. About 8% of people fit the Qi Stagnant body type, and their tension lands specifically in the pelvic region before menstruation rather than in the chest. Traditional practice names Cyperus the chief of Qi-regulating herbs, and a small dose within a balanced formula may help restore the smooth flow that frustration and hormones have blocked.",
+    "definition": {
+      "term": "Xiang Fu",
+      "termCn": "香附",
+      "text": "The root cause Cyperus addresses is Liver Qi that has tightened into a knot, whether in the chest, the ribs, the lower abdomen, or anywhere along the channel that wraps the body's sides. Its neutral temperature means it can move without adding heat or cold, which is why traditional practice uses it for both the premenstrual pattern and the everyday stress pattern. The rhizome may help most when the pain or tightness shifts location and changes with emotional state, the classic signature of Qi rather than blood or fixed stasis."
+    },
+    "conditionalBranches": {
+      "title": "Where Has Your Liver Qi Knotted?",
+      "intro": "Cyperus moves what shifts with mood. Confirm the Qi signature first.",
+      "branches": [
+        {
+          "signal": "Premenstrual breast tenderness, lower abdominal tension, and mood swings that ease once the period flows",
+          "meaning": "Liver Qi stagnation in the lower abdomen, the gynecological pattern",
+          "approach": "Use within Xiao Yao San or a similar formula in the week before the period"
+        },
+        {
+          "signal": "Stress-related chest or rib-side tightness with frequent sighing",
+          "meaning": "Liver Qi stagnation in the chest and hypochondrium, the general pattern",
+          "approach": "Brew cyperus with rose petals and chrysanthemum as tea through stressful weeks"
+        },
+        {
+          "signal": "A fixed sharp pain in one location that does not shift with mood",
+          "meaning": "Blood stasis rather than Qi stagnation, which needs different herbs",
+          "approach": "Switch to a blood-moving herb like dan shen or peach kernel, and seek professional guidance"
+        }
+      ]
+    }
   },
   {
     "slug": "birds-nest-yan-wo",
