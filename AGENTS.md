@@ -308,6 +308,80 @@ pnpm build                        # 编译成功，新页面 HTML 已生成
 
 ---
 
+## 16. GEO 模块作为新页面必做项（AI 引用优化）
+
+**背景：2026-07-21，70 个症状页全部加上了 GEO 模块（quickAnswer / definition / conditionalBranches），目的是让 AI 引擎（ChatGPT / Perplexity / Bing Copilot / Claude）在回答用户问题时自动引用 EastType 的内容。GEO 是不依赖外链和域名年龄的赛道，对新站尤其重要。**
+
+### 核心规则
+
+- **所有新增内容页面（症状页、wellness 文章、solutions、herbs、foods-for 等）必须包含 GEO 模块**
+- GEO 模块包括（按页面类型选 2-3 个，不是每页都加全部）：
+  - `quickAnswer`：1-2 句话直接回答页面核心问题，放在 H1 下方最显眼位置（AI 引擎必摘首段）
+  - `definition`：核心概念定义框（如适用），含术语 + 中文 + 解释
+  - `conditionalBranches`：条件结论决策表（如适用），"If you X -> Y path -> Z approach" 格式
+
+### 反模板化（防程序化内容判定）
+
+- **每页 GEO 模块内容必须独特，禁止套模板填关键词**（参考规则 11）
+- `quickAnswer` 用 6 种句式轮换（不得相邻两页用同一种）：
+  1. "In Chinese medicine, [symptom] is most often linked to..."
+  2. "The most common TCM pattern behind [symptom] is..."
+  3. "About [X]% of people with [symptom] fit the [pattern] body type..."
+  4. "[Pattern] is the primary TCM explanation for..."
+  5. "When [symptom] persists despite [usual fix], TCM points to..."
+  6. "Chinese medicine identifies [N] distinct patterns behind [symptom]..."
+- `definition` 用 5 种方式轮换：术语+比喻 / 术语+功能 / 术语+对比 / 术语+症状清单 / 术语+原因
+- `conditionalBranches` 用不同表格形态：行数不同、列内容不同、title 每页独特
+- **提交前查重**：任意两页 `quickAnswer` 开头 10 词不能相同，`definition` 开头 8 词不能相同，`conditionalBranches.title` 不能相同
+
+### 模块组合（按页面类型选）
+
+| 页面类型 | 推荐组合 |
+|---|---|
+| 多体质症状（2+ types） | quickAnswer + definition + conditionalBranches |
+| 单一体质症状（1 type） | quickAnswer + definition |
+| 鉴别诊断型（需区分多种可能） | quickAnswer + conditionalBranches |
+| wellness / solutions 文章 | quickAnswer + definition（视内容而定） |
+
+### 内容规则
+
+- 遵守所有禁用词、em dash、对冲语言规则（见规则 6）
+- `quickAnswer` 含核心实体（体质名 / 模式名）+ 数字（如有）+ 对冲语言（may help / often linked to）
+- `definition` 沿用该页已有隐喻（如有），termCn 用中文
+- `conditionalBranches` 每行给具体食物 + 行动建议，便于 AI 直接摘录
+
+### 数据结构参考
+
+```typescript
+// src/lib/symptom-article-types.ts
+export interface SymptomDefinition {
+  term: string
+  termCn?: string
+  text: string
+}
+
+export interface SymptomConditionalBranch {
+  signal: string
+  meaning: string
+  approach: string
+}
+
+export interface SymptomConditional {
+  title?: string
+  intro?: string
+  branches: SymptomConditionalBranch[]
+}
+
+// 在文章数据接口中添加可选字段：
+// quickAnswer?: string
+// definition?: SymptomDefinition
+// conditionalBranches?: SymptomConditional
+```
+
+渲染组件参考：`src/components/symptom-article.tsx` 中的 Quick Answer / Key Concept / Conditional Branches 三个 section。
+
+---
+
 ## 项目概况
 
 - **单一代码库**：Next.js 16 + React 19 + Tailwind 4 + pnpm
