@@ -420,7 +420,39 @@
     "dietaryAdvice": "Goji berries need no preparation and can be eaten directly as a snack, though soaking them briefly in warm water softens the texture. Add a tablespoon to breakfast oatmeal, congee, or tea. For eye health, pair with chrysanthemum in a tea. For blood building, combine with red dates. Avoid eating more than 15 to 20 grams per day, as excessive amounts may cause loose stools in sensitive individuals.",
     "nameZhTrad": "枸杞子",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Goji is most often linked to Liver and Kidney Yin depletion, the pattern behind dry eyes, brittle nails, and tiredness that creeps in with age. About 15% of people fit the Yin Deficient body type, and a smaller share fit Blood Stasis, where circulation slows and the eyes lose fresh nourishment. A daily handful steeped with chrysanthemum tea may help moisten the eyes over two to three weeks of consistent use.",
+    "definition": {
+      "term": "Liver and Kidney Yin Deficiency",
+      "termCn": "肝肾阴虚",
+      "text": "Liver and Kidney Yin Deficiency describes the functional state where the body's cooling and moistening reserves run low, with the Liver and Kidney systems specifically affected. The Liver governs the eyes and the Kidney governs the deep aging reserve, so this pattern shows up as dry eyes, blurry vision, brittle nails, and tiredness that deepens with age. Goji's sweet, neutral nature may help replenish these specific reserves through daily food-grade use, which is why it has become the most widely used yin tonic in Chinese households."
+    },
+    "conditionalBranches": {
+      "title": "Which Form of Yin Depletion Matches Your Signs?",
+      "intro": "The signals goji responds to have three common roots, and each calls for a slightly different pairing.",
+      "branches": [
+        {
+          "signal": "Dry, scratchy eyes with blurry vision by evening, worse after long screen use",
+          "meaning": "Liver and Kidney Yin are too thin to nourish the eyes (Liver-Kidney Yin Deficiency)",
+          "approach": "Eye path: 10-15 goji berries daily with chrysanthemum tea, sleep before 11 PM, brief screen breaks every hour"
+        },
+        {
+          "signal": "Dry skin, brittle nails, poor sleep, and mild night warmth",
+          "meaning": "Deeper Kidney Yin is running low (Kidney Yin Deficiency)",
+          "approach": "Reserve path: goji with black sesame and mulberries, protect sleep hours, avoid spicy food at night"
+        },
+        {
+          "signal": "Mild dizziness, pale complexion, and fatigue that improves with rest",
+          "meaning": "Blood layer is also thin, not only Yin (Liver Blood Deficiency)",
+          "approach": "Blood path: goji with red dates in congee, steady nourishing meals, no skipping breakfast"
+        },
+        {
+          "signal": "Dry eyes that eye drops soothe temporarily but cannot resolve",
+          "meaning": "Surface is being moistened, internal source is not",
+          "approach": "Root path: daily goji tea for two to three weeks, add pear or white fungus for Lung connection"
+        }
+      ]
+    }
   },
   {
     "slug": "ginger-sheng-jiang",
@@ -1131,7 +1163,13 @@
     "dietaryAdvice": "Buy dried lily bulbs and soak them in warm water for 30 minutes before cooking. Simmer with pear, rock sugar, and a small amount of water for a traditional lung-moistening dessert. For emotional support, cook with lotus seeds and red dates. The texture is soft and slightly starchy, with a mild sweet flavor. Avoid during cold-type cough with clear phlegm, as its cool nature could worsen the cold.",
     "nameZhTrad": "百合",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 25% of people who benefit most from Lily Bulb fit the Yin Deficient body type, where Heart and Lung Yin are too low to anchor the mind or moisten a dry cough. A second pattern, residual heat lingering after a respiratory illness, leaves the throat scratchy and sleep restless even after the fever is gone. Sweet soup with pear and rock sugar may help both patterns by cooling the heat and replenishing the moisture at the same time.",
+    "definition": {
+      "term": "Heart and Lung Yin Deficiency",
+      "termCn": "心肺阴虚",
+      "text": "Heart and Lung Yin Deficiency behaves like a garden in late summer whose soil has dried past the point of holding water. The Heart houses the mind and the Lung rules the breath, and when their cooling, moistening layer thins, both organs run hot and restless. Sleep turns shallow because the mind has no cool anchor, and a dry cough lingers because the airways have lost their protective moisture. Lily bulb's sweet, slightly cool nature is the gentle rain that softens this soil again."
+    }
   },
   {
     "slug": "white-fungus-yin-er",
@@ -1221,7 +1259,13 @@
     "dietaryAdvice": "Soak dried white fungus in cold water for 2 to 3 hours until it expands fully, then cut into small pieces and remove the hard yellow base. Simmer with rock sugar, goji berries, and red dates for 1 to 2 hours until gelatinous. For lung support, add pear slices. For skin nourishment, add papaya. Eat 2 to 3 times per week as a dessert or between-meal snack. Avoid if you have phlegm-damp patterns with heavy, sticky sensations.",
     "nameZhTrad": "銀耳",
     "classicalSource": "Bencao Zaixin (1841 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When dry skin persists despite heavy moisturizers, TCM points to Lung Yin depletion, the pattern White Fungus directly addresses with its gelatinous, fluid-replenishing nature. About 15% of people fit the Yin Deficient body type, where internal moisture is too low to reach the skin from within. A bowl of soup with rock sugar and pear, taken two to three times weekly, may help restore moisture from within over several weeks of consistent use.",
+    "definition": {
+      "term": "Lung and Stomach Yin Deficiency",
+      "termCn": "肺胃阴虚",
+      "text": "Lung and Stomach Yin Deficiency is the opposite of Phlegm Damp. Where Phlegm Damp holds too much moisture in the wrong form, this pattern holds too little moisture in the right places. The Lung dries into a ticklish cough and the Stomach dries into unquenchable thirst, while the skin loses its inner hydration because the Lung's moisture channel can no longer reach the surface. White fungus addresses this gap with a gelatinous texture that closely matches the body's own moistening fluids, which is why it is often called the poor man's bird's nest."
+    }
   },
   {
     "slug": "mint-bo-he",
@@ -1887,7 +1931,13 @@
     "dietaryAdvice": "Raw rehmannia is typically used in decoction with other herbs rather than as a single-herb tea, as its cold nature can be harsh on the digestion when taken alone. If used at home, simmer 10 to 15 grams with water and a small amount of ginger to protect the stomach. Avoid taking raw rehmannia if you have spleen deficiency with loose stools, as its cold, moistening nature may worsen digestive weakness.",
     "nameZhTrad": "地黃",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind night sweats and afternoon flushes is Kidney Yin Deficiency, and Rehmannia is the primary root used to address it in classical formulas like Liu Wei Di Huang Wan. About 15% of people fit the Yin Deficient body type, where the body's deepest cooling reserves have dropped low enough that internal heat rises unopposed at night. Simmered with a small amount of ginger to protect the stomach, prepared rehmannia in soups may help rebuild cooling reserves over weeks of consistent use.",
+    "definition": {
+      "term": "Kidney Yin Deficiency",
+      "termCn": "肾阴虚",
+      "text": "Kidney Yin Deficiency produces a recognizable symptom cluster: night sweats that soak the chest, a dry throat that worsens by evening, lower back soreness without structural cause, hot palms and soles, and sleep that breaks between 2 and 4 AM. The Kidney system in TCM holds the body's deepest cooling reserves, and when these run low from overwork, poor sleep, or aging, internal heat rises unopposed. Classical formulas built around rehmannia target exactly this cluster, which is why it anchors nearly every Kidney Yin formula in the tradition."
+    }
   },
   {
     "slug": "poria-fu-ling",
@@ -2395,7 +2445,13 @@
     "preparationNotes": "Ophiopogon (Mai Dong) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Soak mai dong in warm water for 30 minutes before use. Simmer with pear, lily bulb, and rock sugar for a lung-moistening dessert soup, or brew alone as a gentle tea. For heart yin support, combine with red dates and lotus seeds. Avoid taking mai dong if you have spleen deficiency with loose stools or damp phlegm, as its cool, moistening nature may worsen these conditions.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies three distinct patterns that Mai Dong addresses: Lung Yin dryness with sticky phlegm, Heart Yin depletion with night-time restlessness, and Stomach Yin weakness with unquenchable thirst. About 15% of people fit the Yin Deficient body type, and most who benefit from mai dong sit somewhere across these three overlapping patterns. Simmered with pear, lily bulb, and rock sugar, mai dong tea may help moisten the lungs and quiet the mind over days of consistent use.",
+    "definition": {
+      "term": "Heart, Lung, and Stomach Yin Depletion",
+      "termCn": "心肺胃阴虚",
+      "text": "Heart, Lung, and Stomach Yin Depletion develops when three specific drains combine: prolonged fever that evaporates Lung fluids, chronic emotional stress that burns Heart Yin, and irregular eating habits that exhaust Stomach moisture. Mai dong is one of the few single herbs that reaches all three organs, which is why it anchors classical formulas for stress-related insomnia and post-illness dry cough alike. The pattern is functional rather than structural, and may respond to consistent nourishing food over weeks of daily use."
+    }
   },
   {
     "slug": "yu-zhu",
@@ -2485,7 +2541,13 @@
     "preparationNotes": "Solomon Seal (Yu Zhu) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Soak dried yu zhu slices for 1 hour, then simmer in clear soup with lean pork, lily bulb, and a few red dates for 1 to 2 hours. The soup should be clear and mildly sweet. For a simpler preparation, brew yu zhu slices in hot water as a daily throat-moistening tea. Avoid if you have damp patterns with heavy phlegm, as its moistening nature may increase stickiness.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Yu Zhu is most often linked to the gentle, daily moistening of Lung and Stomach Yin, the pattern behind a chronic dry throat and mild dry cough that flare in dry climates. Its neutral, sweet nature may help rebuild fluids slowly through pork soup and congee, while people with damp-phlegm or Spleen deficiency should use it sparingly.",
+    "definition": {
+      "term": "Yu Zhu (Solomon Seal)",
+      "termCn": "玉竹",
+      "text": "Yu Zhu functions as a food-grade Yin tonic that gently moistens the Lung and Stomach channels without the cooling intensity of mai dong or the heavy richness of shu di huang. Its sweet, neutral nature rebuilds fluid reserves through everyday cooking, which may help address the slow dryness that accumulates from climate, aging, or post-illness depletion when stronger tonics would overwhelm a recovering digestive system."
+    }
   },
   {
     "slug": "shi-hu",
@@ -2575,7 +2637,13 @@
     "preparationNotes": "Dendrobium (Shi Hu) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 6 to 10 grams of shi hu in water for 30 minutes and drink as tea, or add to chicken soup with goji berries and yu zhu for a nourishing meal. The flavor is bland and slightly sweet, making it easy to incorporate into cooking. For vocal health, sip the tea slowly throughout the day. Avoid if you have early-stage cold with dampness, as its moistening nature may worsen damp symptoms.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 6% of people who benefit most from Shi Hu fit the severe end of the Yin Deficient body type, where a cracked dry tongue and thirst that water cannot quench signal deep fluid depletion. Its premium, sweet nature may help rebuild Stomach and Kidney Yin slowly over weeks of consistent use, while people with damp-cold or early colds should avoid it.",
+    "definition": {
+      "term": "Shi Hu (Dendrobium)",
+      "termCn": "石斛",
+      "text": "Think of Shi Hu as a deep aquifer that a parched landscape taps when shallow wells have run dry: its sweet, cool nature reaches the deepest layer of Stomach and Kidney Yin where ordinary fluids cannot penetrate, which may help restore the cracked tongue and unquenchable thirst that mark severe fluid depletion, while its slow, premium rebuild suits the chronic deficiency that follows prolonged illness or advanced aging rather than quick everyday dryness."
+    }
   },
   {
     "slug": "tian-ma",
@@ -3237,7 +3305,34 @@
     "preparationNotes": "Scrophularia (Xuan Shen) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Xuan shen is typically used in decoction with other heat-clearing herbs rather than as a single tea. Simmer 10 to 15 grams with water and a small amount of licorice to moderate its cold nature. For sore throat, combine with honeysuckle and brew as tea. Avoid taking xuan shen if you have spleen deficiency with loose stools, as its cold, moistening nature may worsen digestive weakness.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When a severe sore throat persists despite antibiotics and lozenges, TCM points to heat-toxin scorching the throat with underlying Yin damage, and Xuan Shen is the herb that both cools the heat and replenishes the Yin simultaneously. Its bitter, cold nature may help address the night fever, dry mouth, and swollen lymph nodes that mark this combined pattern, while people with Spleen deficiency or cold-damp should avoid it.",
+    "definition": {
+      "term": "Xuan Shen (Scrophularia)",
+      "termCn": "玄参",
+      "text": "Unlike purely heat-clearing herbs that cool but may worsen the underlying deficiency, Xuan Shen does both at once: it clears heat from the blood level while simultaneously replenishing the Yin that the heat has consumed. This dual action separates it from herbs like huang lian or jin yin hua, which clear heat but leave the body drier, making Xuan Shen the preferred choice when heat and deficiency coexist, as in sore throat with night fever or the stage of illness where heat has damaged Yin but not yet fully resolved."
+    },
+    "conditionalBranches": {
+      "title": "When to Choose Xuan Shen Over a Pure Heat-Clearer",
+      "intro": "Xuan Shen differs from single-action heat-clearers because it addresses heat and Yin depletion at the same time. Match your dominant signal to the right pairing.",
+      "branches": [
+        {
+          "signal": "Severe sore throat with swelling and dry mouth",
+          "meaning": "Heat-toxin scorching the throat with early Yin damage",
+          "approach": "Xuan Shen cools the heat-toxin while moistening the throat; pair with ban lan gen for acute swelling, and sip warm water throughout the day"
+        },
+        {
+          "signal": "Night fever worse than morning, dry mouth water cannot fix, dark urine",
+          "meaning": "Yin-deficient virtual heat rising after heat has consumed fluids",
+          "approach": "Xuan Shen both clears the deficiency fire and replenishes the Yin; pair with sheng di huang, and prioritize sleep before 11 PM to support Yin recovery"
+        },
+        {
+          "signal": "Hard, painless lumps in the neck or enlarged lymph nodes that linger",
+          "meaning": "Phlegm-heat congealing into nodules that refuse to dissolve",
+          "approach": "Xuan Shen softens hard masses over weeks of consistent use; pair with zhe bei mu, and avoid cold raw foods that thicken phlegm"
+        }
+      ]
+    }
   },
   {
     "slug": "dang-shen",
@@ -4339,7 +4434,34 @@
     "preparationNotes": "Because Anemarrhena (Zhi Mu) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Zhi mu is used in decoction rather than as food. Simmer 6 to 10 grams with water for 20 minutes. For yin-deficient fire, it is combined with huang bai and prepared rehmannia in pill form (Zhi Bai Di Huang Wan), which is more practical for long-term use than daily decoction. Avoid if you have spleen deficiency with loose stools or cold-type patterns, as its cold nature may worsen these.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind night sweats with afternoon fever and heat in the palms is Yin-deficient fire rising from depleted Kidney Yin, and Zhi Mu is the herb Chinese medicine pairs with Huang Bai in the classic formula Zhi Bai Di Huang Wan to both nourish the Yin and clear the false fire simultaneously. Its cold, bitter nature may help address hot flashes, sticky dry cough, and intense thirst from stomach fire, while people with Spleen deficiency or cold patterns should avoid it.",
+    "definition": {
+      "term": "Zhi Mu (Anemarrhena)",
+      "termCn": "知母",
+      "text": "Zhi Mu is indicated for: night sweats that soak the sheets, afternoon fever with a feeling of heat in the palms and soles, a dry cough with sticky phlegm, intense thirst and hunger with bad breath from stomach fire, and hot flashes that surge without warning. These signs collectively point to Yin-deficient fire or stomach fire, the two heat patterns where its dual action of clearing heat while nourishing Yin does its most useful work, which may help explain why it anchors the classic formula Zhi Bai Di Huang Wan."
+    },
+    "conditionalBranches": {
+      "title": "Sorting the Three Fire Patterns Zhi Mu Addresses",
+      "intro": "Zhi Mu is one of the few herbs that clears heat and nourishes Yin at once. Identify which fire is dominant to pair it correctly.",
+      "branches": [
+        {
+          "signal": "Night sweats, afternoon fever, and heat in palms and soles",
+          "meaning": "Kidney Yin deficiency generating false fire that rises unchecked overnight",
+          "approach": "Zhi Mu nourishes Kidney Yin and clears the deficiency fire; the classic pairing with Huang Bai in Zhi Bai Di Huang Wan addresses both, and sleep before 11 PM supports Yin recovery"
+        },
+        {
+          "signal": "Dry cough with sticky, hard-to-clear phlegm and a warm chest",
+          "meaning": "Lung heat scorching the fluids, producing dryness with sticky residue",
+          "approach": "Zhi Mu clears the Lung heat while its moistening quality softens the phlegm; pair with mai dong, and avoid spicy foods that deepen the heat"
+        },
+        {
+          "signal": "Intense thirst, constant hunger, and bad breath that brushing cannot fix",
+          "meaning": "Stomach fire blazing, an excess-heat pattern distinct from simple deficiency",
+          "approach": "Zhi Mu's cold nature directly reduces the fire while generating fluids to address the thirst; pair with shi gao, and reduce greasy heavy foods that feed the fire"
+        }
+      ]
+    }
   },
   {
     "slug": "che-qian-zi",
@@ -5685,7 +5807,13 @@
     "preparationNotes": "Glehnia Root (Sha Shen) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Soak dried sha shen for 30 minutes, then simmer with pork or chicken, lily bulb, and pear for 1 hour. The soup should be clear and slightly sweet. For throat moistening, brew sha shen slices in hot water as tea. Avoid if you have cold-type cough with clear phlegm or spleen deficiency with dampness, as its cool, moistening nature may worsen these patterns.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Sha Shen addresses: Lung Yin deficiency with a chronic dry throat and mild dry cough, and Stomach Yin deficiency with dry mouth and reduced appetite after illness. Its gentle, sweet nature may help moisten both organs without the intensity of mai dong or the cost of shi hu, making it the preferred Yin tonic for early-stage dryness, post-respiratory recovery, and long-term daily maintenance when stronger herbs would overwhelm a delicate system.",
+    "definition": {
+      "term": "Sha Shen (Glehnia)",
+      "termCn": "沙参",
+      "text": "The reason Sha Shen targets the Lung and Stomach together is that both organs depend on a steady supply of Yin-derived moisture to function, and both are the first to dry out when environmental dryness, post-illness depletion, or aging gradually drains the fluid reserve. Its sweet, cool nature rebuilds this moisture gently enough for early-stage dryness and long-term maintenance, which may help explain why practitioners reach for sha shen rather than stronger tonics when the system is still recovering and heavier herbs would overwhelm a fragile digestive capacity."
+    }
   },
   {
     "slug": "tian-dong",
@@ -5775,7 +5903,13 @@
     "preparationNotes": "Because Asparagus Root (Tian Dong) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Soak dried tian dong for 1 hour, then simmer in soup with lean pork, mai dong, and goji berries for 1 to 2 hours. The texture is soft and slightly gelatinous. For severe dryness, eat the softened tian dong along with the soup. Avoid if you have spleen deficiency with loose stools or damp phlegm, as its cold, moistening nature may significantly worsen these conditions.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Asparagus Root is most often linked to Lung and Kidney Yin deficiency, where deep internal dryness causes chronic thirst, dry cough, and constipation that water alone cannot fix. Its cold, moistening nature may help replenish fluids in the deepest reserves of the body, particularly when dryness has persisted for months.",
+    "definition": {
+      "term": "Asparagus Root",
+      "termCn": "天冬",
+      "text": "Asparagus Root performs a dual moisturizing function: it nourishes Lung Yin to calm dry coughs and Kidney Yin to address deep internal heat. Think of it as a deeper-acting cousin of Mai Dong, reaching further down into the body's fluid reserves. Common signs it suits include chronic dry throat, hard dry stools, and a tongue with little coating."
+    }
   },
   {
     "slug": "shan-zhu-yu",
@@ -5957,7 +6091,29 @@
     "preparationNotes": "Sea Buckthorn (Sha Ji) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Steep 5 to 10 grams of dried sea buckthorn berries in hot water for 10 minutes. The flavor is intensely sour and fruity. Add honey to taste. Alternatively, take 1 to 2 teaspoons of sea buckthorn juice in warm water. For skin support, the oil can be taken internally in capsule form. Avoid in large amounts if you have excess stomach acid, as the sourness may aggravate it.",
     "classicalSource": "Recorded in Tibetan medical texts (Sibu Yidian, 8th century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 5% of people who benefit most from Sea Buckthorn fit the Yin Deficient body type with secondary Qi deficiency, where dry skin, dry mouth, and low energy combine. Sea Buckthorn is unique among Yin tonics because it also supports Qi through its rich nutrient profile. Its bright orange berries may help replenish both moisture and energy over several weeks.",
+    "definition": {
+      "term": "Sea Buckthorn",
+      "termCn": "沙棘",
+      "text": "Sea Buckthorn acts like a natural multivitamin delivered in Yin-nourishing format. Most Yin tonics only moisten, but Sea Buckthorn also tonifies Spleen and Lung Qi through its exceptionally high nutrient density. This makes it particularly suitable for people who are both dry and tired, a combination that single-function herbs struggle to address.",
+      "conditionalBranches": {
+        "title": "When to Choose Sea Buckthorn",
+        "intro": "Sea Buckthorn addresses two overlapping deficiencies. Match yours based on your primary signal.",
+        "branches": [
+          {
+            "signal": "Dry skin plus fatigue",
+            "meaning": "Yin and Qi both depleted",
+            "approach": "Sea buckthorn juice daily, 2-3 weeks"
+          },
+          {
+            "signal": "Dry mouth plus poor appetite",
+            "meaning": "Stomach Yin and Spleen Qi weak",
+            "approach": "Sea buckthorn with porridge, morning"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "hong-jing-tian",
@@ -7527,7 +7683,29 @@
     "preparationNotes": "Sichuan Fritillary Bulb (Chuan Bei) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "The most traditional preparation is to steam 3 to 5 grams of chuan bei powder inside a hollowed pear with rock sugar for 30 minutes. Eat the pear and the powder together. Alternatively, take 1 to 2 grams of powder with honey. For dry cough, take twice daily for 5 to 7 days. Avoid if you have cold-type cough with clear, watery phlegm, as its cold nature may worsen the cold.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When a dry, ticklish cough persists for weeks after a cold has resolved, TCM points to Lung Yin damage with residual phlegm, and Sichuan Fritillary is the classic herb that moistens the lungs while gently clearing sticky phlegm. Unlike harsh phlegm-clearing herbs, it protects Lung Yin while doing its job.",
+    "definition": {
+      "term": "Sichuan Fritillary",
+      "termCn": "川贝",
+      "text": "Unlike drying phlegm herbs that clear dampness but risk injuring Yin, Sichuan Fritillary simultaneously moistens and clears. It specifically targets the dry-type cough where phlegm is sticky and hard to expectorate, the kind that lingers after repeated infections have damaged Lung Yin. Common signs include a dry scratchy throat, minimal sticky sputum, and worse cough at night.",
+      "conditionalBranches": {
+        "title": "Which Cough Pattern Needs Fritillary?",
+        "intro": "Fritillary addresses two distinct cough patterns. Match yours before using.",
+        "branches": [
+          {
+            "signal": "Dry cough with sticky, hard-to-clear phlegm",
+            "meaning": "Lung Yin damaged with residual phlegm",
+            "approach": "Fritillary powder with pear, 2x daily"
+          },
+          {
+            "signal": "Cough with yellow phlegm and chest heat",
+            "meaning": "Phlegm-heat combining with Yin deficiency",
+            "approach": "Fritillary with loquat leaf, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "xing-ren",
@@ -10082,7 +10260,29 @@
     ],
     "image": "/images/herbs/black-goji-hei-gou-qi.jpg",
     "classicalSource": "Not recorded in classical TCM; modern addition from Tibetan medicine",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind premature aging signs with dry eyes and poor sleep is Yin and Blood dual deficiency, and Black Goji is prized for nourishing both simultaneously. Rich in anthocyanins, it may help address the deep depletion that ordinary Goji alone cannot fully reach.",
+    "definition": {
+      "term": "Black Goji",
+      "termCn": "黑枸杞",
+      "text": "Black Goji is indicated for: dry eyes with blurred vision, premature graying, poor sleep with vivid dreams, dry and dull skin, and lower back weakness. These signs point to a deeper level of Yin and Blood depletion than regular Goji addresses. The dark pigment reflects its higher concentration of protective compounds that target the deepest reserves.",
+      "conditionalBranches": {
+        "title": "When to Choose Black Goji Over Regular Goji",
+        "intro": "Black Goji goes deeper than regular Goji. Choose based on severity.",
+        "branches": [
+          {
+            "signal": "Dry eyes plus poor sleep, mild",
+            "meaning": "Liver Yin and Blood mildly depleted",
+            "approach": "Regular goji tea daily is sufficient"
+          },
+          {
+            "signal": "Premature aging signs plus deep fatigue",
+            "meaning": "Kidney Yin and Essence also involved",
+            "approach": "Black goji in warm water, morning"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "szechwan-lovage-chuan-xiong",
@@ -11663,7 +11863,13 @@
     ],
     "image": "/images/herbs/birds-nest-yan-wo.jpg",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct benefits that Bird's Nest provides: deep Lung Yin nourishment for chronic dry cough, and Stomach Yin replenishment for poor appetite with dry mouth. Its neutral temperature and gentle nature make it suitable for recovery from illness and for supporting skin that has become dry from within.",
+    "definition": {
+      "term": "Bird's Nest",
+      "termCn": "燕窝",
+      "text": "Bird's Nest develops its nourishing effect through unique glycoproteins that directly support the body's Yin reserves, particularly in the Lungs and Stomach. In TCM theory, these are the two organs most vulnerable to fluid depletion from stress, illness, or aging. By replenishing both simultaneously, Bird's Nest addresses the root of surface dryness rather than just masking it with external moisture."
+    }
   },
   {
     "slug": "albizzia-flower-he-huan-hua",
