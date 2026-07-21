@@ -27,6 +27,9 @@ export interface HerbData {
   image?: string
   classicalSource?: string
   safetyRating?: string
+  quickAnswer?: string
+  definition?: { term: string; termCn?: string; text: string }
+  conditionalBranches?: { title?: string; intro?: string; branches: { signal: string; meaning: string; approach: string }[] }
 }
 
 export const HERBS: Record<string, HerbData> = Object.fromEntries(

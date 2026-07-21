@@ -905,7 +905,29 @@
     "dietaryAdvice": "Remove the bitter green core (lian zi xin) before cooking if you want a purely sweet taste, or leave it in if you want the heart-clearing benefit. Simmer with rock sugar and lily bulb for a traditional bedtime sweet soup. For chronic diarrhea, cook lotus seeds with Chinese yam and white rice into a thick congee. Avoid eating large amounts if you are constipated, as the astringent nature may worsen dry stools.",
     "nameZhTrad": "蓮子",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that lotus seeds address simultaneously: Spleen Qi weakness with chronic loose stools, and Heart agitation with racing thoughts at night. Their neutral temperature makes them gentle enough for long-term use in soups and dessert teas.",
+    "definition": {
+      "term": "Lotus Seeds",
+      "termCn": "莲子",
+      "text": "Lotus seeds develop their calming effect from a unique dual action: they strengthen the Spleen to improve digestion while simultaneously settling the Heart to quiet the mind. This combination works because TCM views the Heart and Spleen as connected through Blood production. When Spleen weakness fails to produce enough Blood, the Heart becomes agitated."
+    },
+    "conditionalBranches": {
+      "title": "Which Pattern Needs Lotus Seeds?",
+      "intro": "Lotus seeds bridge digestion and sleep. Choose based on your primary complaint.",
+      "branches": [
+        {
+          "signal": "Loose stools plus poor appetite",
+          "meaning": "Spleen Qi too weak to process food",
+          "approach": "Lotus seed porridge with yam, daily"
+        },
+        {
+          "signal": "Racing thoughts plus poor sleep",
+          "meaning": "Heart agitation from insufficient nourishment",
+          "approach": "Lotus seed tea with longan before bed"
+        }
+      ]
+    }
   },
   {
     "slug": "lily-bulb-bai-he",
@@ -1266,7 +1288,13 @@
     "dietaryAdvice": "Steep 5 to 8 dried rose buds in hot water for 5 minutes. The water should be hot but not boiling to preserve the aromatic oils. Drink 1 to 2 cups daily, especially in the afternoon for stress relief. For menstrual support, begin drinking rose tea one week before the expected period. Avoid during pregnancy in large amounts, and do not combine with blood-thinning medications.",
     "nameZhTrad": "玫瑰花",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who benefit most from rose tea fit the Qi Stagnant body type, where emotional tension, PMS mood swings, and chest tightness stem from Liver energy that cannot flow freely. Rose petals move stuck Qi without causing drowsiness, making them ideal for daily emotional support.",
+    "definition": {
+      "term": "Rose Petals",
+      "termCn": "玫瑰花",
+      "text": "Rose petals in TCM act like a traffic controller for your body's energy. When Liver Qi gets stuck from stress or suppressed emotions, rose tea gently restores flow. Think of it as unkinking a garden hose: the water was always there, but the kink prevented it from reaching where it needed to go."
+    }
   },
   {
     "slug": "cinnamon-rou-gui",
@@ -2534,7 +2562,29 @@
     "preparationNotes": "Because Fo-Ti (He Shou Wu) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "He shou wu must be the processed (zhi he shou wu) form for internal use, never raw. The traditional way to take it is as a powder mixed into warm congee or tea, often with a small amount of black sesame for a synergistic effect on hair. Because it is moderately warming, avoid combining with spicy or fried foods that could create excess heat. For long-term use, take it in the evening, as the traditional view holds that essence is best replenished during rest.",
     "classicalSource": "Kaibao Bencao (973 CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "The most common TCM pattern behind premature graying and hair thinning is Blood and Essence deficiency, and Fo-Ti (He Shou Wu) is the primary herb for nourishing both. It also supports Kidney Yin, making it suitable for lower back weakness and dry skin that accompany aging.",
+    "definition": {
+      "term": "Fo-Ti (He Shou Wu)",
+      "termCn": "何首乌",
+      "text": "Fo-Ti is indicated for: premature graying, hair thinning, dry scalp, lower back weakness, poor sleep with night sweats, and dry skin. These signs collectively point to Liver Blood and Kidney Essence depletion. The prepared form nourishes; the raw form is for detoxification and laxative effects."
+    },
+    "conditionalBranches": {
+      "title": "Which Deficiency Needs Fo-Ti?",
+      "intro": "Fo-Ti nourishes two interconnected deficiencies. Identify your primary pattern.",
+      "branches": [
+        {
+          "signal": "Gray hair plus dry skin plus poor sleep",
+          "meaning": "Blood and Essence depleted",
+          "approach": "Prepared fo-ti tea with goji, daily"
+        },
+        {
+          "signal": "Lower back weakness plus night sweats",
+          "meaning": "Kidney Yin also low",
+          "approach": "Prepared fo-ti with rehmannia, consult practitioner"
+        }
+      ]
+    }
   },
   {
     "slug": "du-zhong",
@@ -2805,7 +2855,13 @@
     "preparationNotes": "Because Horny Goat Weed (Yin Yang Huo) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Because this herb is warming and mobilizing, pair it with nourishing, moistening foods to prevent it from drying out the body. Slow-cooked bone broth, black sesame porridge, and walnuts provide the yin and blood foundation that supports its yang-building action. Avoid pairing with alcohol or spicy food, which can amplify the warming effect to the point of restlessness or insomnia. A cup of warm water with the herb in the morning is the traditional way to take it.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind cold lower back and weak knees with reduced drive is Kidney Yang Deficiency, and Horny Goat Weed (Yin Yang Huo) is the classic Yang tonic that warms from within. About 10% of people fit this body type. It may also support joint pain that worsens in cold, damp weather.",
+    "definition": {
+      "term": "Horny Goat Weed",
+      "termCn": "淫羊藿",
+      "text": "Horny Goat Weed develops its warming effect by directly tonifying Kidney Yang, the body's deepest source of heat and drive. When Kidney Yang runs low from aging, overwork, or chronic cold exposure, the lower back and knees lose warmth first because they are governed by the Kidney system. The herb warms and strengthens this core reservoir, but should be avoided by those with Yin Deficiency or internal heat."
+    }
   },
   {
     "slug": "ba-ji-tian",
@@ -5889,7 +5945,13 @@
     "preparationNotes": "Peach Gum (Tao Jiao) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Soak dried peach gum in cold water for 12 to 24 hours until it expands and softens, then pick out any impurities. Simmer with rock sugar, goji berries, and a small amount of white fungus for 30 minutes as a sweet soup. Eat 2 to 3 times per week. The texture is gelatinous and slightly crunchy. Avoid if you have damp patterns with heavy, sticky sensations.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 10% of people who benefit most from peach gum fit the Yin Deficient body type, where dry skin, dry throat, and mild constipation signal that the body's moistening reserves are running low. Peach gum is a natural plant resin that nourishes Yin and generates fluids, prized for its skin-supporting properties.",
+    "definition": {
+      "term": "Peach Gum",
+      "termCn": "桃胶",
+      "text": "Unlike animal-based Yin tonics that are heavy and cloying, peach gum is a light plant resin that moistens without burdening digestion. It nourishes Yin through plant polysaccharides that help retain moisture in tissues. This makes it particularly suitable for people whose digestion is too weak for richer tonics but who still need deep hydration."
+    }
   },
   {
     "slug": "mu-er",
@@ -6071,7 +6133,29 @@
     "preparationNotes": "Fig (Wu Hua Guo) is neutral in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Eat 3 to 5 dried figs daily as a snack, or simmer with water and rock sugar for 20 minutes as a moistening tea. For cough, combine with pear and apricot kernel. For constipation, soak dried figs overnight and eat them in the morning with the soaking water. The fresh fruit, when available, is also excellent. Avoid if you have damp-heat patterns with sticky, heavy sensations.",
     "classicalSource": "Jiuhuang Bencao (1406 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Fig is most often linked to Lung Yin and intestinal moisture, addressing dry cough, sore throat, and dry-type constipation that water alone cannot fix. Its neutral temperature makes it suitable for long-term use. Steamed figs with rock sugar may help soothe a dry, scratchy throat within days.",
+    "definition": {
+      "term": "Fig",
+      "termCn": "无花果",
+      "text": "Fig in TCM acts like a natural humidifier for your body. When Lung Yin runs low, the respiratory tract dries out, causing cough and throat irritation. Fig moistens from within, adding fluid back to tissues that have become parched. Think of it as watering a plant at the roots rather than misting the leaves."
+    },
+    "conditionalBranches": {
+      "title": "Which Dryness Pattern Needs Fig?",
+      "intro": "Fig addresses two dryness-related patterns. Match yours based on where dryness shows up.",
+      "branches": [
+        {
+          "signal": "Dry cough plus sore throat",
+          "meaning": "Lung Yin depleted",
+          "approach": "Steamed figs with rock sugar and pear, daily"
+        },
+        {
+          "signal": "Dry, hard stools plus bloating",
+          "meaning": "Intestinal dryness with Qi stagnation",
+          "approach": "Fresh figs or fig tea with honey, morning"
+        }
+      ]
+    }
   },
   {
     "slug": "luo-han-guo",
@@ -6435,7 +6519,29 @@
     "preparationNotes": "Because Prunella Spike (Xia Ku Cao) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 10 to 15 grams of xia ku cao in water for 15 minutes and drink as tea. The taste is bland and slightly bitter. For eye inflammation, drink 1 to 2 cups daily. For nodules, it is typically used in decoction with other herbs under professional guidance. Avoid if you have spleen deficiency with cold signs, as its cold nature may worsen digestive weakness.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When headaches and red, painful eyes persist despite rest, TCM points to Liver Fire rising upward, and Prunella Spike is a cold herb that clears heat, brightens the eyes, and reduces swelling. It may also support thyroid and breast health when heat and phlegm accumulate as nodules.",
+    "definition": {
+      "term": "Prunella Spike",
+      "termCn": "夏枯草",
+      "text": "Unlike warming herbs that build and nourish, Prunella Spike is a cold herb that drains and clears. It specifically targets Liver Fire rising to the eyes and head, and phlegm-heat accumulating as nodules in the neck and breasts. Its cold nature makes it unsuitable for Yang Deficient types who run cold."
+    },
+    "conditionalBranches": {
+      "title": "When to Choose Prunella Spike",
+      "intro": "Prunella Spike addresses two distinct heat patterns. Match yours before using.",
+      "branches": [
+        {
+          "signal": "Headaches with red painful eyes",
+          "meaning": "Liver Fire rising upward",
+          "approach": "Prunella spike tea with chrysanthemum, daily"
+        },
+        {
+          "signal": "Swollen lymph nodes or thyroid area",
+          "meaning": "Phlegm-heat forming nodules",
+          "approach": "Prunella spike with seaweed, consult practitioner"
+        }
+      ]
+    }
   },
   {
     "slug": "yin-chen",
@@ -8527,7 +8633,29 @@
     "preparationNotes": "Because Osmanthus Flower (Gui Hua) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Steep 3 to 5 grams of dried osmanthus flowers in hot water for 5 minutes. The flavor is sweet, floral, and aromatic. Drink 1 to 2 cups daily during autumn and winter. Combine with black tea for a traditional Chinese tea blend. Avoid if you have heat-type conditions, as its warming nature may aggravate internal heat.",
     "classicalSource": "Bencao Gangmu (1593 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When cold-type stomach discomfort and bad breath persist despite dental care, TCM points to cold stagnation in the middle warmer, and Osmanthus Flower is a gentle warming herb that dispels cold, freshens breath, and supports digestion. Its warm, aromatic nature makes it ideal as a daily autumn and winter tea.",
+    "definition": {
+      "term": "Osmanthus Flower",
+      "termCn": "桂花",
+      "text": "Osmanthus Flower is indicated for: cold-type stomach discomfort, bad breath that persists despite oral hygiene, mild digestive sluggishness in cold weather, and desire for a warming daily tea. These signs point to cold accumulating in the middle warmer. The flower's aromatic warmth disperses cold gently without the intensity of hotter herbs like ginger or cinnamon."
+    },
+    "conditionalBranches": {
+      "title": "When to Choose Osmanthus Flower",
+      "intro": "Osmanthus addresses two overlapping cold patterns. Match yours based on your primary signal.",
+      "branches": [
+        {
+          "signal": "Cold stomach discomfort plus bad breath",
+          "meaning": "Cold stagnating in middle warmer",
+          "approach": "Osmanthus tea daily, especially autumn and winter"
+        },
+        {
+          "signal": "Digestive sluggishness plus low mood in cold weather",
+          "meaning": "Cold plus Qi stagnation",
+          "approach": "Osmanthus tea with rose, afternoon"
+        }
+      ]
+    }
   },
   {
     "slug": "he-ye-cha",
@@ -9620,7 +9748,29 @@
     ],
     "image": "/images/herbs/dandelion-pu-gong-ying.jpg",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Damp Heat is the primary TCM explanation for persistent acne and skin breakouts that topical treatments cannot fix, and dandelion is a cold herb that clears heat, detoxifies, and drains dampness through urination. It also supports liver function and bile flow.",
+    "definition": {
+      "term": "Dandelion",
+      "termCn": "蒲公英",
+      "text": "Dandelion in TCM is a heat-clearing herb that works through three pathways: it detoxifies fire toxicity that surfaces as skin breakouts, promotes urination to drain dampness, and supports liver bile flow to aid detoxification. Its cold nature makes it effective for acute flare-ups but unsuitable for long-term use in cold constitutions."
+    },
+    "conditionalBranches": {
+      "title": "Which Heat Pattern Needs Dandelion?",
+      "intro": "Dandelion clears two types of internal heat. Match your symptoms before using.",
+      "branches": [
+        {
+          "signal": "Acne plus oily skin plus irritability",
+          "meaning": "Damp Heat pushing through skin",
+          "approach": "Dandelion tea daily, 1 to 2 weeks"
+        },
+        {
+          "signal": "Dry mouth plus internal heat feeling",
+          "meaning": "Yin Deficient heat, use cautiously",
+          "approach": "Dandelion with rehmannia, short-term only"
+        }
+      ]
+    }
   },
   {
     "slug": "euryale-seed-qian-shi",
@@ -10179,7 +10329,29 @@
     ],
     "image": "/images/herbs/cordyceps-flower-chong-cao-hua.jpg",
     "classicalSource": "Modern cultivated variety, not recorded in classical texts",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Cordyceps Flower is most often linked to Qi and Yang support, offering an affordable alternative to wild cordyceps for chronic fatigue and weak immunity. About 15% of people fit the Qi Deficient type that benefits most. Warm soups with cordyceps flower may help rebuild energy over several weeks.",
+    "definition": {
+      "term": "Cordyceps Flower",
+      "termCn": "虫草花",
+      "text": "Cordyceps Flower is a farm-grown mushroom that tonifies Lung Qi and strengthens Kidney Yang simultaneously. It supports respiratory health, immune resilience, and recovery from chronic fatigue. Unlike wild cordyceps which is costly, the cultivated flower variety delivers similar benefits at a fraction of the price, making it practical for daily use in soups and teas."
+    },
+    "conditionalBranches": {
+      "title": "Which Energy Pattern Needs Cordyceps Flower?",
+      "intro": "Cordyceps Flower supports two overlapping patterns. Choose based on your primary signal.",
+      "branches": [
+        {
+          "signal": "Tired plus frequent colds",
+          "meaning": "Lung Qi too weak to defend",
+          "approach": "Cordyceps flower soup with astragalus, 3x weekly"
+        },
+        {
+          "signal": "Tired plus cold lower back",
+          "meaning": "Kidney Yang also depleted",
+          "approach": "Cordyceps flower with goji and lamb broth"
+        }
+      ]
+    }
   },
   {
     "slug": "senna-leaf-fan-xie-ye",

@@ -287,6 +287,15 @@ export default async function HerbDetailPage({
             <p className="text-text2/50 text-xs italic mb-6">{herb.botanicalName}</p>
           )}
 
+          {herb.quickAnswer && (
+            <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-10">
+              <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+                Quick Answer
+              </h2>
+              <p className="text-text leading-relaxed text-[0.95rem]">{herb.quickAnswer}</p>
+            </div>
+          )}
+
           <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
               Summary
@@ -348,6 +357,17 @@ export default async function HerbDetailPage({
             </div>
           </section>
 
+          {herb.definition && (
+            <div className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[var(--color-card-bg)] p-5 mb-10">
+              <p className="text-xs font-semibold text-accent uppercase tracking-wider mb-2">Key Concept</p>
+              <h3 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
+                {herb.definition.term}
+                {herb.definition.termCn && <span className="text-text2/60 text-sm ml-2">({herb.definition.termCn})</span>}
+              </h3>
+              <p className="text-text2 leading-relaxed text-[0.95rem]">{herb.definition.text}</p>
+            </div>
+          )}
+
           <section className="mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
               What This Herb Does
@@ -405,6 +425,37 @@ export default async function HerbDetailPage({
                     </p>
                   </div>
                 ))}
+              </div>
+            </section>
+          )}
+
+          {herb.conditionalBranches && herb.conditionalBranches.branches.length > 0 && (
+            <section className="mb-10">
+              <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-2">
+                {herb.conditionalBranches.title || "Which Pattern Sounds Like You?"}
+              </h2>
+              {herb.conditionalBranches.intro && (
+                <p className="text-text2 text-sm mb-5">{herb.conditionalBranches.intro}</p>
+              )}
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm border-collapse">
+                  <thead>
+                    <tr className="border-b-2 border-[rgba(140,45,42,0.25)]">
+                      <th className="text-left py-3 px-4 font-semibold text-text">If This Sounds Like You</th>
+                      <th className="text-left py-3 px-4 font-semibold text-text">The Signal</th>
+                      <th className="text-left py-3 px-4 font-semibold text-text">Start Here</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {herb.conditionalBranches.branches.map((b, i) => (
+                      <tr key={i} className="border-b border-[rgba(140,45,42,0.1)]">
+                        <td className="py-3 px-4 font-medium text-text whitespace-nowrap">{b.signal}</td>
+                        <td className="py-3 px-4 text-text2">{b.meaning}</td>
+                        <td className="py-3 px-4 text-text2">{b.approach}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
             </section>
           )}
