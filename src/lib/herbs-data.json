@@ -543,7 +543,13 @@
     "dietaryAdvice": "Use fresh ginger freely in daily cooking. For cold prevention, simmer 5 to 6 thin slices in water for 10 minutes and add brown sugar to taste. For nausea, chew a small slice or drink ginger tea. Avoid taking large amounts of fresh ginger on an empty stomach, as its pungent nature can irritate sensitive stomachs. Reduce intake if you tend to run hot or have acid reflux, as ginger's warmth can worsen heat-type conditions.",
     "nameZhTrad": "生薑",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Fresh Ginger is most often linked to Spleen and Stomach warming, addressing nausea, cold-type digestive discomfort, and early-stage wind-cold symptoms that appear at the onset of a cold. Its warm, aromatic nature may help restore the digestive system's downward flow when cold has disrupted it.",
+    "definition": {
+      "term": "Fresh Ginger",
+      "termCn": "生姜",
+      "text": "Fresh Ginger performs a dual warming action: it warms the Spleen and Stomach to restore digestive function, while simultaneously releasing the body's surface to expel early-stage cold invasions. Think of it as the body's internal heater and external shield combined. Common signs it addresses include nausea, cold-type stomach discomfort, and the first sign of a wind-cold cold with chills but no fever."
+    }
   },
   {
     "slug": "chrysanthemum-ju-hua",
@@ -1542,7 +1548,29 @@
     "dietaryAdvice": "Use cinnamon bark (rou gui), not cassia powder, for therapeutic purposes. A small pinch in warm water, milk, or tea provides a daily warming dose. For cooking, add a stick to slow-cooked stews and lamb dishes. Avoid taking large amounts if you are pregnant, as cinnamon's strong warming nature may be too stimulating. If you experience dry mouth, constipation, or nosebleeds, reduce or discontinue use.",
     "nameZhTrad": "肉桂",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "About 10% of people who benefit most from Cinnamon fit the Yang Deficient body type, where cold lower back, cold extremities, and digestive coldness signal that the body's deepest warming force is underpowered. Cinnamon is one of the hottest culinary herbs in TCM and may help warm the core when used consistently in cooking.",
+    "definition": {
+      "term": "Cinnamon",
+      "termCn": "肉桂",
+      "text": "Cinnamon acts like a fire that burns from the center outward. Unlike ginger which warms and disperses, Cinnamon warms deeply and anchors the heat in the Kidney core. This makes it particularly suited for cold that originates from deep depletion rather than external cold invasion. Common signs include a cold lower back that feels cold to the touch, frequent clear urination, and a pulse that feels weak and slow.",
+      "conditionalBranches": {
+        "title": "Which Cold Pattern Needs Cinnamon?",
+        "intro": "Cinnamon addresses deep internal cold. Match your pattern before using.",
+        "branches": [
+          {
+            "signal": "Cold lower back plus frequent clear urination",
+            "meaning": "Kidney Yang deeply cold",
+            "approach": "Cinnamon in warm milk or tea, small pinch daily"
+          },
+          {
+            "signal": "Cold abdomen plus loose stools plus fatigue",
+            "meaning": "Spleen and Kidney both cold",
+            "approach": "Cinnamon with ginger in cooking, daily"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "dried-tangerine-chen-pi",
@@ -2119,7 +2147,29 @@
     "dietaryAdvice": "Crush a teaspoon of fennel seeds lightly and steep in hot water for 5 minutes for a digestive tea. For cooking, toast the seeds briefly to release their aroma and add to soups, stews, or roasted vegetables. For menstrual support, combine with ginger and brown sugar. Avoid taking fennel in large large amounts during pregnancy, though culinary amounts are safe.",
     "nameZhTrad": "茴香",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When lower abdominal cold pain and bloating persist despite digestive enzymes, TCM points to Cold in the Liver channel with Qi stagnation, and Fennel is a warming seed that disperses cold while moving stuck energy in the lower abdomen. It may help with cold-type menstrual cramps and hernia-type pain.",
+    "definition": {
+      "term": "Fennel",
+      "termCn": "小茴香",
+      "text": "Unlike general warming herbs that heat the whole body, Fennel targets the lower abdomen specifically. It warms the Liver meridian channel that runs through the groin and lower belly, dispersing cold that has settled there and moving Qi that has frozen in place. This makes it particularly suited for cold-type menstrual pain, lower abdominal bloating, and hernia-like discomfort that improves with warmth.",
+      "conditionalBranches": {
+        "title": "Which Lower Abdomen Pattern Needs Fennel?",
+        "intro": "Fennel targets cold in the lower abdomen. Match your specific signal.",
+        "branches": [
+          {
+            "signal": "Cold menstrual cramps that improve with a hot pad",
+            "meaning": "Cold in the Liver channel",
+            "approach": "Fennel tea with ginger, before and during period"
+          },
+          {
+            "signal": "Lower abdominal bloating with cold sensation",
+            "meaning": "Cold with Qi stagnation in lower burner",
+            "approach": "Fennel seeds in cooking, daily"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "gan-cao",
@@ -5660,7 +5710,29 @@
     "preparationNotes": "Because Dried Ginger (Gan Jiang) is hot, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Use dried ginger (gan jiang), not fresh, for internal warming. Simmer 3 to 6 grams in water for 10 minutes. The taste is hot and pungent. For chronic cold digestion, add a small piece to congee or soup daily. Avoid if you have yin deficiency with heat, internal bleeding, or during pregnancy in large amounts. Reduce or discontinue if you experience dry mouth, constipation, or nosebleeds.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind severe cold-type digestive symptoms with vomiting and diarrhea is Spleen and Stomach Yang deficiency, and Dried Ginger is the primary herb for warming the digestive core. It is hotter and more deeply penetrating than fresh ginger, reaching the organ level rather than just the surface.",
+    "definition": {
+      "term": "Dried Ginger",
+      "termCn": "干姜",
+      "text": "Dried Ginger is indicated for: vomiting of clear fluid, diarrhea with undigested food, cold abdominal pain that feels better with pressure and warmth, pale complexion, and a deep slow pulse. These signs point to the digestive fire being so low that food cannot be processed at all. Unlike fresh ginger which releases surface cold, dried ginger stays inside and warms the organs directly.",
+      "conditionalBranches": {
+        "title": "Fresh Ginger or Dried Ginger?",
+        "intro": "They serve different warming functions. Choose based on where cold is located.",
+        "branches": [
+          {
+            "signal": "Early cold symptoms with chills and nausea",
+            "meaning": "Cold at the body surface",
+            "approach": "Fresh ginger tea with brown sugar"
+          },
+          {
+            "signal": "Chronic cold diarrhea with abdominal pain",
+            "meaning": "Cold deep in the Spleen and Stomach",
+            "approach": "Dried ginger in porridge or tea, daily"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "gao-liang-jiang",
@@ -5751,7 +5823,29 @@
     "preparationNotes": "Because Galangal (Gao Liang Jiang) is hot, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Use galangal as a cooking spice, adding a slice or two to soups and stews for warming flavor. For therapeutic use, simmer 3 to 6 grams in water for 10 minutes. The taste is hot, pungent, and slightly sweet. Avoid if you have stomach heat, acid reflux, or yin deficiency with heat signs. Do not take during acute fever or inflammatory conditions.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Galangal addresses: cold-type stomach pain with vomiting, and food stagnation from cold that causes bloating and bad breath. Its hot, aromatic nature warms the middle and disperses cold stagnation, making it particularly useful for children and elderly with weak digestion.",
+    "definition": {
+      "term": "Galangal",
+      "termCn": "高良姜",
+      "text": "Galangal acts like a targeted heating pad for the stomach. Unlike ginger which warms broadly, Galangal concentrates its heat specifically in the middle warmer, addressing cold pain that is localized to the stomach area. Its aromatic quality also helps break up stagnant food that cold has frozen in place. Common signs include stomach pain that feels cold and improves with warmth, and vomiting of clear fluid.",
+      "conditionalBranches": {
+        "title": "Which Stomach Cold Pattern Needs Galangal?",
+        "intro": "Galangal targets cold pain in the stomach specifically. Match yours.",
+        "branches": [
+          {
+            "signal": "Stomach pain that feels cold and improves with warmth",
+            "meaning": "Cold directly in the Stomach",
+            "approach": "Galangal tea, small amounts, 1-2x daily"
+          },
+          {
+            "signal": "Bloating and bad breath from cold food stagnation",
+            "meaning": "Cold has stopped digestion",
+            "approach": "Galangal with cardamom in cooking"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "sha-shen",
@@ -8511,7 +8605,13 @@
     "preparationNotes": "Because Star Anise (Ba Jiao Hui Xiang) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Add one or two star anise pods to soups, stews, and braised dishes for flavor and digestive support. For therapeutic use, simmer 2 to 3 pods in water for 10 minutes and drink as tea. The flavor is sweet, warm, and aromatic. Avoid if you have heat-type conditions, as its warming nature may aggravate internal heat.",
     "classicalSource": "Bencao Pinhui Jingyao (1505 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Star Anise is most often linked to Kidney and Spleen warming, addressing cold-type lower back pain and digestive sluggishness with a sweet, fragrant quality. It is one of the most common warming spices in Chinese cooking and may help gently support Yang when used regularly in stews and braises.",
+    "definition": {
+      "term": "Star Anise",
+      "termCn": "八角",
+      "text": "Star Anise performs a gentle, sustained warming function through its sweet and aromatic properties. Unlike hotter herbs that create intense but temporary warmth, Star Anise warms slowly and steadily, making it ideal for daily cooking. It specifically supports Kidney Yang for lower back warmth and Spleen Yang for digestive function, while its aromatic quality helps move Qi that cold has slowed down."
+    }
   },
   {
     "slug": "bai-guo-ren",
@@ -8693,7 +8793,29 @@
     "preparationNotes": "Because Sichuan Peppercorn (Hua Jiao) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Use Sichuan peppercorn freely in cooking, particularly in stir-fries and hot pots. For therapeutic use, simmer 2 to 3 grams in water for 5 minutes and drink as tea. The taste is intensely numbing and slightly citrusy. Avoid if you have heat-type conditions, yin deficiency with heat signs, or during pregnancy in large amounts.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who benefit most from Sichuan Peppercorn fit the Yang Deficient body type with cold-damp accumulation, where abdominal cold pain and diarrhea are accompanied by a heavy, damp quality. Sichuan Peppercorn is a unique warming herb that not only heats but also dries dampness and kills parasites, a rare triple action.",
+    "definition": {
+      "term": "Sichuan Peppercorn",
+      "termCn": "花椒",
+      "text": "Sichuan Peppercorn acts like a three-tool device: it warms the middle to address cold pain, dries dampness to address diarrhea and heaviness, and has a unique parasite-killing property. This triple action makes it particularly suited for cold-damp digestive conditions in tropical or humid environments. Common signs include abdominal cold pain that improves with warmth, chronic loose stools, and a thick greasy tongue coating.",
+      "conditionalBranches": {
+        "title": "Which Cold-Damp Pattern Needs Sichuan Peppercorn?",
+        "intro": "This spice addresses cold with dampness specifically. Match your signs.",
+        "branches": [
+          {
+            "signal": "Cold abdominal pain with chronic diarrhea",
+            "meaning": "Cold-damp in Spleen and Stomach",
+            "approach": "Sichuan peppercorn in cooking, daily"
+          },
+          {
+            "signal": "Abdominal pain with heavy feeling and thick tongue coat",
+            "meaning": "Dampness with cold in middle warmer",
+            "approach": "Sichuan peppercorn tea with ginger"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "mu-ding-xiang",
@@ -8784,7 +8906,29 @@
     "preparationNotes": "Because Clove (Mu Ding Xiang) is hot, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Use cloves sparingly in cooking due to their intense potency. For toothache, apply a single clove or a small amount of clove oil directly to the affected tooth. For stomach cold, steep 1 to 2 cloves in hot water for 5 minutes. Avoid if you have heat-type conditions, as clove's intense heat can worsen internal fire. Not recommended during pregnancy in large amounts.",
     "classicalSource": "Yaoxing Lun (7th century CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "When hiccups, nausea, or bad breath persist despite dietary changes, TCM points to cold stagnation in the Stomach with Qi rebelling upward, and Clove is one of the hottest aromatic herbs that forces Stomach Qi downward while warming the middle. It is potent and should be used in very small amounts.",
+    "definition": {
+      "term": "Clove",
+      "termCn": "丁香",
+      "text": "Unlike gentler warming spices, Clove carries an intense, concentrated heat that specifically forces rebellious Qi downward. In TCM, hiccups and vomiting are signs that Stomach energy is going up instead of down. Clove grabs that upward-moving energy and pushes it back where it belongs. Common signs include persistent hiccups, vomiting, and a cold sensation in the stomach that nothing else seems to warm.",
+      "conditionalBranches": {
+        "title": "When to Use Clove Versus Other Warming Herbs",
+        "intro": "Clove is for rebellious Qi with cold, a specific pattern. Check yours.",
+        "branches": [
+          {
+            "signal": "Persistent hiccups with cold stomach sensation",
+            "meaning": "Cold causing Stomach Qi to rebel upward",
+            "approach": "1-2 cloves chewed, or tiny pinch in tea"
+          },
+          {
+            "signal": "Vomiting clear fluid with cold abdominal pain",
+            "meaning": "Severe cold in Stomach with Qi reversal",
+            "approach": "Clove with ginger tea, small dose"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "guang-huo-xiang",
@@ -11082,7 +11226,29 @@
     ],
     "image": "/images/herbs/mugwort-ai-ye.jpg",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "The most common TCM pattern behind cold menstrual pain with dark clots and infertility-related cold signs is Cold in the Womb meridian, and Mugwort is the primary herb for warming and moving blood in the lower abdomen. Used as moxa, tea, or foot soaks, it may help disperse deep cold that has settled in the reproductive organs.",
+    "definition": {
+      "term": "Mugwort",
+      "termCn": "艾叶",
+      "text": "Mugwort develops its warming effect through a unique property: it produces a penetrating warmth that reaches meridians and organs that surface warming cannot access. This is why it is the primary herb used in moxibustion, the TCM technique of burning herbs over acupuncture points. Common signs it addresses include cold menstrual pain with dark clots, cold lower abdomen that feels cold to touch, and a pale tongue with a white coating.",
+      "conditionalBranches": {
+        "title": "Which Cold Pattern Needs Mugwort?",
+        "intro": "Mugwort warms deeply and moves blood. Choose your application method.",
+        "branches": [
+          {
+            "signal": "Cold menstrual cramps with dark clots",
+            "meaning": "Cold and blood stasis in Womb meridian",
+            "approach": "Mugwort foot soak before period, daily"
+          },
+          {
+            "signal": "Cold lower abdomen with pale complexion",
+            "meaning": "Yang deficiency in lower warmer",
+            "approach": "Moxibustion on lower abdomen, consult practitioner"
+          }
+        ]
+      }
+    }
   },
   {
     "slug": "cordyceps-flower-chong-cao-hua",
