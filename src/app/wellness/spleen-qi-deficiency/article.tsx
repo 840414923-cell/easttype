@@ -27,7 +27,7 @@ export default function SpleenQiDeficiencyArticle() {
           Quick Answer
         </h2>
         <p className="text-text leading-relaxed text-[0.95rem]">
-          Spleen Qi Deficiency is one of the most common patterns identified in Chinese medicine. In TCM theory, the Spleen is responsible for transforming food into usable energy. When Spleen Qi is weak, your body struggles to extract nutrition from what you eat. The result may include fatigue after meals, bloating, loose stools, poor concentration, and a feeling of heaviness. This pattern overlaps significantly with the Qi Deficient body type. Warm, cooked, easy-to-digest foods like congee, sweet potato, and ginger tea may help support Spleen function over time.
+          When your body struggles to turn meals into steady energy, TCM often points to Spleen Qi Deficiency. In TCM theory, the Spleen is responsible for converting food into usable energy. When Spleen Qi is weak, your body struggles to extract nutrition from what you eat. The result may include fatigue after meals, bloating, loose stools, poor concentration, and a feeling of heaviness. This pattern overlaps significantly with the Qi Deficient body type. Warm, cooked, easy-to-digest foods like congee, sweet potato, and ginger tea may help support Spleen function over time.
         </p>
       </div>
 

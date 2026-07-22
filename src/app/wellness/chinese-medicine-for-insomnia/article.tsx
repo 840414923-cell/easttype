@@ -27,7 +27,7 @@ export default function ChineseMedicineForInsomniaArticle() {
           Quick Answer
         </h2>
         <p className="text-text leading-relaxed text-[0.95rem]">
-          Chinese medicine does not treat all insomnia the same way. The pattern matters. If you cannot fall asleep, the issue may be too much Heat or deficient Blood failing to anchor the mind. If you wake between 1 and 3 AM, the Liver may be involved. Waking around 3 to 5 AM may point to Lung or Heart patterns. Rather than sedating the brain, Chinese medicine focuses on identifying which internal imbalance is keeping the mind (Shen) restless, then addressing it with cooling foods, calming herbs, and daily rhythm adjustments. This approach does not replace medical treatment for serious sleep disorders but may help people whose insomnia stems from stress, aging, or constitutional tendencies.
+          Chinese medicine identifies several distinct patterns behind insomnia, and the right foods depend on which one fits. If you cannot fall asleep, the issue may be too much Heat or deficient Blood failing to anchor the mind. If you wake between 1 and 3 AM, the Liver may be involved. Waking around 3 to 5 AM may point to Lung or Heart patterns. Rather than sedating the brain, Chinese medicine focuses on identifying which internal imbalance is keeping the mind (Shen) restless, then addressing it with cooling foods, calming herbs, and daily rhythm adjustments. This approach does not replace professional care for serious sleep disorders but may help people whose insomnia stems from stress, aging, or constitutional tendencies.
         </p>
       </div>
 

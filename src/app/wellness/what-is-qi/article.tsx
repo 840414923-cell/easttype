@@ -27,7 +27,7 @@ export default function WhatIsQiArticle() {
           Quick Answer
         </h2>
         <p className="text-text leading-relaxed text-[0.95rem]">
-          Qi (pronounced &quot;chee,&quot; also spelled chi) is the Chinese medicine concept of vital energy that flows through your body along specific pathways called meridians. It powers every function: digestion, breathing, thinking, moving, and healing. When qi is strong and flowing smoothly, you feel energized and balanced. When qi is weak or stuck, symptoms appear: fatigue, bloating, pain, mood swings, or poor sleep.
+          Qi (pronounced &quot;chee,&quot; also spelled chi) is the Chinese medicine concept of vital energy that flows through your body along specific pathways called meridians. It may power every function: digestion, breathing, thinking, moving, and recovery. When qi is strong and flowing smoothly, you may feel energized and balanced. When qi is weak or stuck, symptoms that may appear include fatigue, bloating, pain, mood swings, or poor sleep.
         </p>
       </div>
 

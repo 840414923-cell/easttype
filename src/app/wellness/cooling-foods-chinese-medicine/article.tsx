@@ -27,7 +27,7 @@ export default function CoolingFoodsArticle() {
           Quick Answer
         </h2>
         <p className="text-text leading-relaxed text-[0.95rem]">
-          In Chinese medicine, cooling foods help lower internal heat and restore moisture to the body. They are recommended for people who tend to feel hot, experience night sweats, have dry skin or mouth, break out frequently, or feel irritable in warm weather. Common cooling foods include mung beans, chrysanthemum tea, pear, lotus root, watermelon, and bitter melon. The existing warming foods page at <Link href="/wellness/foods-that-warm-your-body" className="text-accent hover:underline">/wellness/foods-that-warm-your-body</Link> covers the opposite pattern.
+          In Chinese medicine, cooling foods may help lower internal heat and restore moisture to the body. They are often suggested for people who tend to feel hot, experience night sweats, have dry skin or mouth, break out frequently, or feel irritable in warm weather. Common cooling foods include mung beans, chrysanthemum tea, pear, lotus root, watermelon, and bitter melon. The existing warming foods page at <Link href="/wellness/foods-that-warm-your-body" className="text-accent hover:underline">/wellness/foods-that-warm-your-body</Link> covers the opposite pattern.
         </p>
       </div>
 
