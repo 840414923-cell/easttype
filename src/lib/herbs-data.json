@@ -640,7 +640,29 @@
     "dietaryAdvice": "Brew dried chrysanthemum flowers in water just off the boil for 3 to 5 minutes. Do not use boiling water, which makes the tea bitter. Drink 1 to 2 cups daily, especially in the afternoon when eye strain and stress peak. Pair with goji berries for eye health, or with cassia seed for liver heat. Avoid drinking chrysanthemum tea if you have a cold-type pattern with chills, as its cool nature could worsen the cold.",
     "nameZhTrad": "菊花",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Chrysanthemum is most often linked to Liver heat that flares upward into the head, producing red dry eyes, temple headache, and a short fuse in the late afternoon. The floral tea may help about 18% of adults whose irritability and eye redness fit a Damp Heat or Qi Stagnation profile rather than simple eye strain.",
+    "definition": {
+      "term": "Liver Heat Rising",
+      "termCn": "肝火上炎",
+      "text": "Think of Chrysanthemum as a small cooling fan that lifts trapped warmth up and out through the eyes and head. When Liver Heat rises, it shows as red eyes, temple pressure, and a quick temper, and the light floral tea may help vent that upward flare without the crash that follows caffeine."
+    },
+    "conditionalBranches": {
+      "title": "Which heat pattern is driving your eye and head symptoms?",
+      "intro": "Chrysanthemum suits two related but distinct heat patterns. Check which fits you closer.",
+      "branches": [
+        {
+          "signal": "Red dry eyes with afternoon headache and irritability",
+          "meaning": "Liver Heat Rising, often from stress or long screen time",
+          "approach": "Steep 6 to 8 dried flowers in just-boiled water for 5 minutes, mid-afternoon"
+        },
+        {
+          "signal": "Heavy head, bitter taste, or jawline acne",
+          "meaning": "Damp Heat sinking into the head and face",
+          "approach": "Pair chrysanthemum with a pinch of honeysuckle for added heat clearing"
+        }
+      ]
+    }
   },
   {
     "slug": "chinese-yam-shan-yao",
@@ -1368,7 +1390,29 @@
     "dietaryAdvice": "Steep fresh or dried mint leaves in hot water for 3 to 5 minutes. Do not boil the leaves, as high heat destroys the aromatic oils. Drink 1 to 2 cups daily during hot weather or at the first sign of a sore throat. For liver qi support, pair with rose petals. Avoid drinking mint tea in the evening if you are sensitive to its stimulating effect, and avoid it during cold-type patterns with chills.",
     "nameZhTrad": "薄荷",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When sinus congestion and chest tightness persist despite antihistamines, TCM points to stuck Qi in the Lung and Liver that mint may help unblock. The volatile oils open the head within minutes, while the cooling nature drains the low-grade damp heat that often feeds a chronic post-nasal drip.",
+    "definition": {
+      "term": "Qi Stagnation Turning to Heat",
+      "termCn": "气郁化火",
+      "text": "Mint does two jobs at once. Its pungent oils push stagnant Qi outward through the sweat glands and sinuses, while its cool nature drains the low-grade heat that builds when frustration is held in too long. The leaf is best used short-term as a quick-relief tea rather than a daily tonic."
+    },
+    "conditionalBranches": {
+      "title": "Matching your stuck-energy symptom to the right mint routine",
+      "intro": "Mentha works fast, but the form matters. Choose by your main complaint.",
+      "branches": [
+        {
+          "signal": "Stress headache with neck and shoulder tension",
+          "meaning": "Liver Qi stuck in the head and nape",
+          "approach": "Steep fresh leaves for 3 minutes, do not boil, and sip while warm"
+        },
+        {
+          "signal": "Stuffy nose and scratchy throat at the start of a cold",
+          "meaning": "Wind-heat trying to settle in the Lung",
+          "approach": "Pour hot water over the leaves, inhale the steam first, then drink"
+        }
+      ]
+    }
   },
   {
     "slug": "rose-mei-gui",
@@ -1784,7 +1828,13 @@
     "dietaryAdvice": "Steep 10 to 15 grams of dried honeysuckle flowers in hot water for 5 to 10 minutes. Drink 2 to 3 cups at the first sign of a sore throat, then reduce to 1 cup daily until symptoms resolve. The taste is mild and slightly sweet. Avoid drinking honeysuckle tea on a regular basis when healthy, as its cold nature may weaken the spleen over time. Do not use during cold-type patterns with chills and clear mucus.",
     "nameZhTrad": "金銀花",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 72% of people who benefit most from Honeysuckle fit the Damp Heat body type, where heat and sticky fluids pool in the throat, skin, or lower digestive tract. The flower may help most when a sore throat or early-stage skin flare comes on fast with a red, hot, and swollen quality.",
+    "definition": {
+      "term": "Toxic Heat in the Upper Burner",
+      "termCn": "上焦热毒",
+      "text": "Unlike tonic herbs that build you up slowly over weeks, Honeysuckle works more like a fast-response cooling agent for acute, hot, red, and swollen symptoms. It is meant for short bursts during a flare, then stopped once the throat clears or the skin calms. Daily long-term use is not the traditional model."
+    }
   },
   {
     "slug": "dong-quai-dang-gui",
@@ -4265,7 +4315,29 @@
     "preparationNotes": "Because Mulberry Leaf (Sang Ye) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Steep 5 to 10 grams of dried mulberry leaves in hot water for 5 minutes. The flavor is mild and slightly sweet, making it easy to drink regularly. For eye health, combine with chrysanthemum. For early cough, add a small amount of honey. Avoid drinking mulberry leaf tea if you have a cold-type pattern with chills and clear nasal discharge.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Mulberry Leaf addresses: Lung heat with a dry hacking cough, and Liver heat showing up as blurry or dry eyes. The leaf may help about 22% of adults whose afternoon thirst and mild feverish feeling fit a Yin Deficient heat picture rather than a simple infection.",
+    "definition": {
+      "term": "Lung Heat with Dryness",
+      "termCn": "肺热伤津",
+      "text": "Signs that point to this pattern include a dry barking cough worse at night, a scratchy throat, scant sticky sputum, afternoon thirst that plain water does not fix, and a mild feverish flush in the palms and cheeks. Mulberry leaf is light enough for daily tea and may gently clear this kind of heat without injuring the stomach."
+    },
+    "conditionalBranches": {
+      "title": "Which heat is mulberry leaf best suited to clear?",
+      "intro": "The leaf covers two different heat patterns. Read the signals before choosing it.",
+      "branches": [
+        {
+          "signal": "Dry cough after a cold, with thirsty and dry mouth",
+          "meaning": "Residual Lung heat drying the fluids",
+          "approach": "Brew 5 to 10 grams of dried leaf as a mild tea, twice a day for a week"
+        },
+        {
+          "signal": "Blurry or dry eyes with mild afternoon feverishness",
+          "meaning": "Mild Yin deficiency heat rising to the eyes",
+          "approach": "Pair with a few chrysanthemum flowers for added eye support"
+        }
+      ]
+    }
   },
   {
     "slug": "jue-ming-zi",
@@ -4356,7 +4428,29 @@
     "preparationNotes": "Cassia Seed (Jue Ming Zi) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Roast the seeds lightly in a dry pan until fragrant before brewing, as raw cassia seeds can cause loose stools. Steep 10 to 15 grams in hot water for 10 minutes and drink as a tea throughout the day. The flavor is mild and slightly nutty. Avoid combining with warming stimulants like coffee, which could counteract its cooling effect. For eye strain, pair with chrysanthemum in the same cup.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind red, bloodshot eyes with morning grittiness and sluggish bowels is Liver Heat overflowing into the head, and Cassia Seed may help drain that heat downward through the intestine. Roughly 15% of adults with chronic eye strain plus constipation fit this combined Liver and Large Intestine heat picture.",
+    "definition": {
+      "term": "Liver Heat Flaring Up",
+      "termCn": "肝热上扰",
+      "text": "The root cause is usually long screen time, fried food, or suppressed anger keeping the Liver in a heated state. Heat rises naturally, so it lands in the eyes, the temples, and the head, producing redness, pressure, and irritability. Cassia seed works by cooling the Liver downward and giving the heat an exit through the bowel, which is why the seed is lightly roasted before brewing."
+    },
+    "conditionalBranches": {
+      "title": "Choosing cassia seed by your main complaint",
+      "intro": "The seed does double duty for eyes and bowels. Pick the form that matches your need.",
+      "branches": [
+        {
+          "signal": "Tired bloodshot eyes with screen fatigue and mild headache",
+          "meaning": "Liver heat from overuse, no bowel issue",
+          "approach": "Lightly roasted whole seed, 10 grams steeped, one cup a day"
+        },
+        {
+          "signal": "Eye redness plus dry hard stools and a bitter taste",
+          "meaning": "Liver heat with intestine dryness",
+          "approach": "Crack the seeds slightly before steeping so the moistening oils release"
+        }
+      ]
+    }
   },
   {
     "slug": "ban-lan-gen",
@@ -4446,7 +4540,13 @@
     "preparationNotes": "Because Isatis Root (Ban Lan Gen) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 10 to 15 grams of ban lan gen in water for 15 minutes and drink the decoction warm. The taste is intensely bitter, so adding a small amount of honey or licorice can help. Use for short periods only, typically 3 to 5 days, as its cold nature can weaken the spleen with prolonged use. Avoid entirely if you have spleen deficiency, cold-type patterns, or during pregnancy.",
     "classicalSource": "Xinxiu Bencao (659 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Toxic Heat lodged in the throat and blood is the primary TCM explanation for the sudden severe sore throat and high fever that Ban Lan Gen may help address during flu season. The root is reserved for short, intense courses when a hot red throat or viral skin eruption appears, and it is not meant for daily preventive use.",
+    "definition": {
+      "term": "Toxic Heat in the Throat",
+      "termCn": "热毒蕴结",
+      "text": "Picture Toxic Heat as a small brush fire that has not yet spread beyond the throat. The gland is swollen, red, and painful because the body is mounting a hot response to a pathogen. Isatis root acts like a focused splash of cold water on that local fire, which is why it is paired with other cold herbs for a few days only, then stopped the moment the throat cools."
+    }
   },
   {
     "slug": "lian-qiao",
@@ -4536,7 +4636,13 @@
     "preparationNotes": "Forsythia (Lian Qiao) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 10 to 15 grams of forsythia with honeysuckle in water for 10 minutes and drink warm. For early-stage sore throat, take 2 to 3 cups on the first day, then reduce. The taste is slightly bitter and pungent. Use for short periods only, typically 3 to 5 days. Avoid if you have spleen deficiency with loose stools or cold-type patterns.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Forsythia is most often linked to early-stage heat that has not yet deepened into the organs, showing up as a swollen sore throat, tender lumps under the jaw, or red spots on the skin. The fruit may help clear that shallow heat before it settles, especially in the first 48 hours of a hot-type flare.",
+    "definition": {
+      "term": "Surface-Level Heat Toxins",
+      "termCn": "表热毒",
+      "text": "Forsythia does two specific jobs: it vents shallow heat outward through the skin, and it disperses the small hard lumps that form when heat and toxins collect in the lymph nodes under the jaw. The green fruit is picked before it fully ripens because the clearing action is strongest at that stage, then dried and brewed for short courses during a flare."
+    }
   },
   {
     "slug": "zhi-mu",
@@ -4857,7 +4963,13 @@
     "preparationNotes": "Because Wolfberry Bark (Di Gu Pi) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 10 to 15 grams of di gu pi in water for 15 minutes and drink as tea. The flavor is mild and slightly sweet. For deficiency-heat patterns, take it in the afternoon when the fever and heat tend to peak. For chronic use, combine with mai dong and di huang for a balanced yin-nourishing and heat-clearing effect. Avoid if you have spleen deficiency with cold signs.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 16% of people who benefit most from Wolfberry Bark fit the Yin Deficient body type, where a deep quiet heat flares in the late afternoon and steals sweat through the night. The root bark may help when the palms, soles, and chest feel flushed but there is no actual fever, a pattern that often follows a long illness or chronic stress.",
+    "definition": {
+      "term": "Deficiency Heat Steaming Out",
+      "termCn": "虚热外蒸",
+      "text": "Unlike the loud, hot, red heat of an acute sore throat, deficiency heat is quiet and low-grade, more like a pilot light left on after the main burner shuts off. It shows as afternoon flushing, night sweats, and a dry mouth that worsens at night. Wolfberry root bark cools that low flame at the source without damaging the already depleted yin."
+    }
   },
   {
     "slug": "shan-zha",
@@ -5875,7 +5987,29 @@
     "preparationNotes": "Kudzu Root (Ge Gen) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 10 to 15 grams of ge gen (kudzu root) in water for 20 minutes and drink as tea. The taste is mild and starchy. For neck tension from early colds, drink warm and wrap the neck in a scarf. For digestive support, take after meals. Ge gen powder can also be mixed into congee. Avoid if you have excess heat patterns without exterior cold.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When stiff neck and shoulders persist despite stretching and ibuprofen, TCM points to blocked Yang in the muscle layer that Kudzu Root may help release. The starchy root also generates fluids for the dry mouth and thirst that come with a fever, and it has a long folk use for the morning-after effects of alcohol.",
+    "definition": {
+      "term": "Muscle Layer Yang Trap",
+      "termCn": "太阳经气不利",
+      "text": "Classic signs include a tight stiff neck that does not ease with rest, tension headaches at the back of the skull, dry mouth with thirst but no desire to drink large amounts, and sometimes loose stools after a fever breaks. Kudzu root's starchy sweetness both loosens the muscle bands and replenishes the fluids lost to fever, which is why it has been used for cold, flu, and hangover recovery for centuries."
+    },
+    "conditionalBranches": {
+      "title": "Pairing kudzu root with your main symptom",
+      "intro": "Kudzu root serves three different complaints. Choose the brew strength by your need.",
+      "branches": [
+        {
+          "signal": "Stiff neck and upper back tension from stress or screens",
+          "meaning": "Yang stuck in the muscle layer of the neck",
+          "approach": "Decoct 10 to 15 grams of sliced root for 20 minutes, drink once daily"
+        },
+        {
+          "signal": "Dry mouth and thirst during or after a fever",
+          "meaning": "Stomach fluids damaged by heat",
+          "approach": "Simmer 15 grams with a few jujube dates until the liquid turns cloudy, sip warm"
+        }
+      ]
+    }
   },
   {
     "slug": "gan-jiang",
@@ -7271,7 +7405,29 @@
     "preparationNotes": "Monk Fruit (Luo Han Guo) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Monk fruit is one of the most versatile herbs in the Chinese kitchen because its natural sweetness makes it easy to incorporate into daily life. Break a quarter of the fruit into hot water for a throat-soothing tea, or add a small piece to pear soup for a lung-moistening dessert. Because it is cool in nature, avoid combining it with ice-cold drinks, which can over-chill the spleen. For throat issues, sip the tea slowly and let it coat the throat before swallowing.",
     "classicalSource": "Lingnan Caiyao Lu (1932 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind a lingering dry cough with sticky phlegm and a raspy throat is Lung Yin damage with residual heat, and Monk Fruit may help moisten that dryness while gently clearing the leftover heat. The fruit is naturally very sweet yet adds no calories, which makes it one of the few cooling herbs safe for daily, even long-term, use.",
+    "definition": {
+      "term": "Lung Yin Dryness with Residual Heat",
+      "termCn": "肺阴虚夹热",
+      "text": "The cause is usually a heat illness, a dry climate, or long talking and singing that slowly depletes the moistening fluids of the Lung. The dry cough is the body's way of trying to clear what little sticky phlegm is left, and the raspy voice is the vocal cords losing their lubrication. Monk fruit works by both replacing the missing moisture and gently clearing the low heat, which is why it is favored by teachers and singers."
+    },
+    "conditionalBranches": {
+      "title": "Selecting monk fruit by your cough type",
+      "intro": "The fruit is forgiving, but the form still matters. Match it to your symptom.",
+      "branches": [
+        {
+          "signal": "Dry ticklish cough with a hoarse voice, no fever",
+          "meaning": "Lung Yin deficiency from overuse or dry air",
+          "approach": "Break a quarter of one dried fruit, steep in just-boiled water, sip through the day"
+        },
+        {
+          "signal": "Cough with sticky yellow phlegm and a sore throat",
+          "meaning": "Damp Heat lingering in the Lung",
+          "approach": "Steep with a few honeysuckle flowers for added heat clearing"
+        }
+      ]
+    }
   },
   {
     "slug": "huang-bo",
@@ -7362,7 +7518,29 @@
     "preparationNotes": "Because Phellodendron Bark (Huang Bo) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Huang bo is used in decoction rather than as food due to its intensely bitter taste. Simmer 3 to 6 grams with other herbs for 20 minutes. For damp-heat, it is combined with che qian zi and yi yi ren. For deficiency fire, it is taken as part of Zhi Bai Di Huang Wan in pill form. Avoid if you have spleen deficiency with cold signs, as its bitter, cold nature may significantly worsen digestive weakness.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Phellodendron Bark addresses: damp heat pooling in the lower body with urinary or genital discomfort, and kidney deficiency fire stealing yin with night sweats and lower back ache. The cold bitter bark may help both, but only for short courses, because the same cold nature that clears heat can also weaken an already delicate digestion.",
+    "definition": {
+      "term": "Damp Heat Sinking Below",
+      "termCn": "湿热下注",
+      "text": "Picture a damp basement in summer: heavy, sticky, warm, and slow to air out. When damp heat sinks to the lower body, it produces cloudy urine, genital dampness or itching, low back ache, and sometimes a dull ache in the knees. Phellodendron bark is one of the few herbs cold enough to dry out that basement without adding more heat, which is also why it must be paired with a Spleen-protecting herb in any longer formula."
+    },
+    "conditionalBranches": {
+      "title": "Telling the two lower-body heat patterns apart",
+      "intro": "Phellodendron suits two lower-body heat patterns but the cause is opposite. Read carefully.",
+      "branches": [
+        {
+          "signal": "Cloudy urine, genital dampness, or low back ache with a strong constitution",
+          "meaning": "True damp heat in the lower body",
+          "approach": "Short 3 to 5 day course only, under the guidance of a qualified practitioner"
+        },
+        {
+          "signal": "Night sweats, dry mouth, lower back ache with a tired constitution",
+          "meaning": "Yin deficiency letting empty fire rise",
+          "approach": "Usually paired with zhi mu to protect yin, not used alone"
+        }
+      ]
+    }
   },
   {
     "slug": "huang-zhi-zi",
@@ -7453,7 +7631,29 @@
     "preparationNotes": "Because Cape Jasmine Fruit (Huang Zhi Zi) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 6 to 10 grams of cape jasmine fruit in water for 15 minutes and drink as tea. The taste is bitter and slightly cold. For irritability and insomnia, drink in the evening. For damp-heat patterns, drink throughout the day. Avoid if you have spleen deficiency with loose stools or cold-type patterns, as its bitter, cold nature may worsen these conditions.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Liver and Gallbladder Damp Heat is the primary TCM explanation for the bitter morning taste, yellowish sclera, and midnight waking that Cape Jasmine Fruit may help address. The fruit also cools the blood and vents shallow heat outward through the skin, which is why it appears in formulas for both internal damp heat and surface rashes with a hot red edge.",
+    "definition": {
+      "term": "Damp Heat in Liver and Gallbladder",
+      "termCn": "肝胆湿热",
+      "text": "Cape Jasmine Fruit does three things at once. It drains damp heat downward through the urine, it cools the blood to stop the small bleeds that come with heat, and it vents shallow heat outward through the skin as a faint sweat. The triple action is why it appears in classic formulas for both the deep pattern of jaundice and the surface pattern of hot red skin eruptions."
+    },
+    "conditionalBranches": {
+      "title": "Picking cape jasmine by where the heat is showing",
+      "intro": "The fruit clears heat in three directions. Match it to your symptom location.",
+      "branches": [
+        {
+          "signal": "Bitter taste, yellowish eyes or skin, irritability",
+          "meaning": "Damp heat inside the Liver and Gallbladder",
+          "approach": "Decoct 6 to 9 grams with a Spleen-protecting herb like jujube"
+        },
+        {
+          "signal": "Hot red skin rash, nosebleed, or blood in the urine",
+          "meaning": "Heat spilling out into the blood level",
+          "approach": "Use raw, not charred, for the strongest blood-cooling effect"
+        }
+      ]
+    }
   },
   {
     "slug": "xia-ku-cao",
@@ -7656,7 +7856,13 @@
     "preparationNotes": "Because Capillary Wormwood (Yin Chen) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 15 to 30 grams of yin chen in water for 20 minutes and drink as tea. The taste is bitter and slightly aromatic. For liver support, drink 1 to 2 cups daily for 2 to 3 weeks, then pause. For skin conditions, use the cooled tea as a wash in addition to drinking it. Avoid if you have spleen deficiency with cold signs or during pregnancy.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Capillary Wormwood is most often linked to damp heat sinking into the Liver and Gallbladder, the pattern behind yellowish skin and eyes, bitter taste, and right-sided rib discomfort. The spring herb may help most when these signs come on slowly after rich food or alcohol, rather than the sudden onset that points to an acute infection.",
+    "definition": {
+      "term": "Damp Heat Causing Stagnation",
+      "termCn": "湿热郁滞",
+      "text": "Unlike the strong cold herbs that push heat out fast and hard, Capillary Wormwood works more like a slow ventilator, gently opening the bile ducts and draining damp heat out through the urine over days rather than hours. The young spring sprigs are picked before they flower because the clearing action is softest and safest at that stage, which is also why it is the lead herb in the classic jaundice formula."
+    }
   },
   {
     "slug": "da-qing-ye",
@@ -7747,7 +7953,34 @@
     "preparationNotes": "Because Isatis Leaf (Da Qing Ye) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Simmer 10 to 15 grams of da qing ye in water for 15 minutes. The taste is intensely bitter. Use for short periods only, typically 3 to 5 days, and only for significant heat patterns. Avoid entirely if you have spleen deficiency, cold-type patterns, or during pregnancy.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When high fever and a raw, swollen throat persist despite rest and fluids, TCM points to blood-level heat-toxin, and Isatis Leaf is the cold herb that cools the blood, clears toxicity, and may help shorten epidemic-grade fevers when guided by a practitioner. Its intense cold nature is reserved for short, focused use rather than daily prevention.",
+    "definition": {
+      "term": "Isatis Leaf",
+      "termCn": "大青叶",
+      "text": "Isatis Leaf produces its strong antiviral reputation through a direct blood-cooling mechanism: when heat-toxin enters the blood level, it produces high fever, intense throat pain, and sometimes red skin eruptions, and the herb's intensely cold nature pulls that heat out of the bloodstream rather than merely suppressing symptoms. This is why it is reserved for epidemic-grade severity and almost never used preventively or in people who already run cold."
+    },
+    "conditionalBranches": {
+      "title": "Choosing Isatis Leaf by How Deep the Heat Sits",
+      "intro": "Isatis Leaf is one of the coldest herbs in the TCM pharmacy, so matching the depth and severity of the heat matters before use.",
+      "branches": [
+        {
+          "signal": "High fever with a raw, swollen throat during a flu outbreak",
+          "meaning": "Heat-toxin at the defense level, an acute excess-heat pattern",
+          "approach": "Short 3-5 day course as a decoction guided by a practitioner, paired with rest and fluids"
+        },
+        {
+          "signal": "Bright red skin eruptions or purpura that feel hot to the touch",
+          "meaning": "Blood-level heat pushing outward through the vessels",
+          "approach": "Combined with sheng di huang and zi cao in a blood-cooling formula, never self-prescribed"
+        },
+        {
+          "signal": "Ongoing low energy, cold hands, or loose stools",
+          "meaning": "Qi deficiency or a cold constitution where Isatis Leaf will worsen the chill",
+          "approach": "Pause this herb and choose gentler cooling like chrysanthemum or mint"
+        }
+      ]
+    }
   },
   {
     "slug": "zhe-er-gen",
@@ -7838,7 +8071,34 @@
     "preparationNotes": "Because Houttuynia (Zhe Er Gen) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Fresh zhe er gen can be eaten as a salad with chili oil and soy sauce, a common dish in southwestern China. Dried zhe er gen can be simmered for 15 minutes as tea. The taste is distinctive and fishy, which some people love and others dislike. Use for 5 to 7 days for acute patterns. Avoid if you have cold-type patterns or yin deficiency without heat.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "The most common TCM pattern behind coughing up thick, foul-smelling yellow phlegm is Lung heat-toxin, and Houttuynia is the cold, pungent herb that drains that heat, reduces abscesses, and may help clear the Lung through both respiratory and urinary pathways. The fresh plant, eaten as a peppery salad in southwest China, carries the strongest clearing action.",
+    "definition": {
+      "term": "Houttuynia",
+      "termCn": "折耳根",
+      "text": "Houttuynia acts like a scrub brush for the Lung. When thick, yellow, foul-smelling phlegm signals heat-toxin deep in the respiratory tract, this pungent cold herb scours the heat out through two drains at once: it breaks down the phlegm in the lungs and flushes the residue out through urine. The fresh form, eaten as a peppery salad in southwest China, carries the strongest clearing action."
+    },
+    "conditionalBranches": {
+      "title": "Which Lung Pattern Calls for Houttuynia?",
+      "intro": "Houttuynia targets a specific kind of lung congestion, so the look and smell of your phlegm tells you whether it fits.",
+      "branches": [
+        {
+          "signal": "Cough producing thick, yellow, foul-smelling phlegm",
+          "meaning": "Heat-toxin and pus forming in the Lung",
+          "approach": "Fresh houttuynia as a salad or strong tea, 1-2 cups daily for up to a week"
+        },
+        {
+          "signal": "Burning, cloudy urination with lower body heaviness",
+          "meaning": "Damp-heat draining into the lower body",
+          "approach": "Fresh plant brewed as a daily tea through the flare-up, paired with extra water"
+        },
+        {
+          "signal": "Pale, clear, or white phlegm with aversion to cold",
+          "meaning": "Cold-damp or wind-cold in the Lung where cold herbs do harm",
+          "approach": "Skip houttuynia and warm the lung with ginger tea instead"
+        }
+      ]
+    }
   },
   {
     "slug": "ma-chi-xian",
@@ -7929,7 +8189,34 @@
     "preparationNotes": "Because Purslane (Ma Chi Xian) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Fresh purslane can be eaten as a salad, blanched and dressed with garlic and vinegar, or simmered as tea. Dried purslane can be brewed in hot water for 10 minutes. The taste is sour and slightly grassy. Eat freely during summer when the plant is abundant. Avoid if you have cold-type diarrhea or spleen deficiency with loose stools.",
     "classicalSource": "Bencao Jingjizhu (circa 500 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct patterns that Purslane addresses simultaneously: damp-heat in the intestines producing burning summer diarrhea, and heat-toxin surfacing as red, inflamed skin. Its cold, sour nature may help cool both fronts, and the fresh plant doubles as an edible green rich in omega-3 fatty acids.",
+    "definition": {
+      "term": "Purslane",
+      "termCn": "马齿苋",
+      "text": "Purslane in TCM is a dual-action heat clearer that works through two channels: it cools blood-heat in the Large Intestine to calm burning summer diarrhea, and it resolves surface heat-toxin to reduce red, inflamed skin. The fresh plant can be taken internally as a salad or tea and applied externally as a poultice, which is why it has served as both food and folk care for heat flare-ups across many traditions."
+    },
+    "conditionalBranches": {
+      "title": "Matching Purslane to Gut or Skin Heat",
+      "intro": "Purslane works on two fronts, so decide whether the heat is in the intestines or on the skin before you reach for it.",
+      "branches": [
+        {
+          "signal": "Sudden burning, urgent diarrhea during hot or humid weather",
+          "meaning": "Summer heat and damp-heat inflaming the intestines",
+          "approach": "Fresh purslane blanched as a salad, once or twice daily for 2-3 days"
+        },
+        {
+          "signal": "Red, hot, sometimes oozing skin eruptions",
+          "meaning": "Heat-toxin surfacing through the blood to the skin",
+          "approach": "Tea taken internally plus crushed fresh plant applied as a poultice on the eruption"
+        },
+        {
+          "signal": "Chronic loose stools with cold hands and low energy",
+          "meaning": "Spleen Qi deficiency that cold purslane will worsen",
+          "approach": "Avoid purslane and focus on warm Spleen tonics like Chinese yam or jujube"
+        }
+      ]
+    }
   },
   {
     "slug": "lu-hui",
@@ -8020,7 +8307,34 @@
     "preparationNotes": "Because Aloe (Lu Hui) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "For internal use, take a small amount of aloe juice (10 to 30 ml) in the evening for short periods only, typically 3 to 5 days. The taste is intensely bitter. For external use, apply fresh gel from a cut leaf directly to burns, irritation, or dry skin. Avoid internal use during pregnancy, during menstruation, or if you have cold-type patterns or spleen deficiency.",
     "classicalSource": "Yaoxing Lun (7th century CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "Liver fire with intestinal dryness is the primary TCM explanation for the cluster of constipation, headache, and irritability that Aloe may help target, and its bitter cold purge works fast but should be reserved for short bursts rather than ongoing use, unlike gentler moistening laxatives. The fresh gel also cools mild external burns on contact.",
+    "definition": {
+      "term": "Aloe",
+      "termCn": "芦荟",
+      "text": "Unlike moistening laxatives such as hemp seed that gently lubricate the intestines, Aloe works by forcefully purging heat downward. Where a moisturizer slowly restores the fluid needed for easy bowel movement, Aloe simply flushes the heat out, which brings fast relief for the constipation, headache, and irritability cluster of liver fire but also explains why prolonged use can deplete the body rather than rebuild it."
+    },
+    "conditionalBranches": {
+      "title": "When Aloe Fits and When to Step Back",
+      "intro": "Aloe's purge is fast and harsh, so it suits short, clearly defined heat patterns and almost nothing else.",
+      "branches": [
+        {
+          "signal": "Constipation with headache, irritability, and a flushed face",
+          "meaning": "Liver fire drying the intestines, an excess-heat constipation",
+          "approach": "Small internal dose of prepared aloe for 2-3 days only, then stop"
+        },
+        {
+          "signal": "Mild sunburn or localized heat-redness on the skin",
+          "meaning": "External heat injury where the gel can cool directly",
+          "approach": "Fresh aloe gel applied to the skin as needed, separate from any internal use"
+        },
+        {
+          "signal": "Ongoing constipation with fatigue, pale face, or dry stools without heat signs",
+          "meaning": "Deficiency-type constipation that aloe will deplete further",
+          "approach": "Switch to moistening laxatives like hemp seed or daily warm fluids"
+        }
+      ]
+    }
   },
   {
     "slug": "chuan-bei",
@@ -8455,7 +8769,34 @@
     "preparationNotes": "Because Bamboo Leaf (Zhu Ye) is cold, it should be used cautiously in people who already run cold. For warming preparations, simmer longer to moderate its cooling effect. For tea, steep 5-10 minutes in hot water. Store in a cool, dry place away from direct sunlight.",
     "dietaryAdvice": "Steep 6 to 10 grams of bamboo leaf in hot water for 5 minutes. The taste is light, mildly grassy, and refreshing. Drink 2 to 3 cups daily during summer or for heart-heat patterns. Combine with lu gen (phragmites) for enhanced fluid generation. Avoid if you have cold-type patterns with chills or yang deficiency.",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, Bamboo Leaf is most often linked to mild Heart heat, the pattern behind irritability, tongue-tip ulcers, and scanty dark urine that flares in hot weather. Its light, sweet, and bland nature makes it one of the gentlest cooling teas for daily summer use, and it may help drain heat through urination without weakening the digestion.",
+    "definition": {
+      "term": "Bamboo Leaf",
+      "termCn": "竹叶",
+      "text": "Heart heat with fluid depletion produces a recognizable symptom set: a restless mind that cannot settle, small ulcers on the tongue-tip, scanty dark urine, and a low-grade irritability that worsens in hot weather. Bamboo Leaf targets exactly this set because it cools the Heart, generates fluids to ease the thirst, and drains the heat out through urination via its paired Small Intestine channel, all without the harshness of stronger cold herbs."
+    },
+    "conditionalBranches": {
+      "title": "Is Your Summer Irritability Heart or Liver Heat?",
+      "intro": "Bamboo Leaf targets Heart heat specifically, so first check where your summer restlessness is coming from.",
+      "branches": [
+        {
+          "signal": "Irritability with tongue-tip ulcers, scanty dark urine, and broken sleep",
+          "meaning": "Heart heat with fluid depletion, the core pattern Bamboo Leaf addresses",
+          "approach": "Daily light tea of bamboo leaf through the hot weeks, 1-2 cups per day"
+        },
+        {
+          "signal": "Irritability with red eyes, temporal headaches, and a short temper",
+          "meaning": "Liver fire rising, which needs a different cooling herb",
+          "approach": "Pair with chrysanthemum or prunella spike instead of using bamboo leaf alone"
+        },
+        {
+          "signal": "Loose stools, cold limbs, or fatigue that worsens with cooling teas",
+          "meaning": "Spleen Yang weakness where mild cold herbs still cause harm",
+          "approach": "Stop cooling teas and warm the middle with ginger or fennel tea"
+        }
+      ]
+    }
   },
   {
     "slug": "ban-xia",
@@ -8756,7 +9097,34 @@
     "preparationNotes": "Cimicifuga (Sheng Ma) is slightly cold in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Simmer 3 to 6 grams of sheng ma with other lifting herbs for 20 minutes. The taste is slightly sweet and pungent. For qi sinking, it is used as part of Bu Zhong Yi Qi Tang rather than alone. Avoid if you have excess heat patterns without deficiency, or if you have a red, dry tongue from yin deficiency.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who benefit most from Cimicifuga carry Spleen Qi that has sunk so low that organ prolapse or chronic diarrhea appears, and its rare lifting action may help raise Yang Qi upward while also venting rashes and clearing mouth-ulcer heat. It is almost never used alone, instead paired with Ginseng and Astragalus in classical lifting formulas.",
+    "definition": {
+      "term": "Cimicifuga",
+      "termCn": "升麻",
+      "text": "Cimicifuga works through a rare mechanism in Chinese medicine: it lifts. When severe Spleen Qi deficiency sinks so low that organs prolapse or chronic diarrhea appears, most tonics only rebuild the qi without redirecting it upward, so Cimicifuga is added to provide the ascending vector that guides the rebuilt qi back into place. This same lifting quality also vents rashes outward and carries heat-clearing action to the mouth and throat."
+    },
+    "conditionalBranches": {
+      "title": "Two Signals That Call for Cimicifuga's Lift",
+      "intro": "Cimicifuga is one of the few herbs that lifts, so the signals that call for it are specific.",
+      "branches": [
+        {
+          "signal": "Organ prolapse, chronic diarrhea, or a sagging sensation in the abdomen",
+          "meaning": "Spleen Qi sinking so low it cannot hold organs in place",
+          "approach": "Only as part of a formula like Bu Zhong Yi Qi Tang, never as a single herb"
+        },
+        {
+          "signal": "Early-stage rash that needs to vent outward, or mouth ulcers from rising heat",
+          "meaning": "Heat-toxin that the lifting action can guide to the surface",
+          "approach": "Short course combined with heat-clearers like huang lian or shi gao"
+        },
+        {
+          "signal": "Rebellious Qi with headache, dizziness, or a pressing-upward feeling",
+          "meaning": "Qi rising in the wrong direction where more lifting will worsen symptoms",
+          "approach": "Avoid cimicifuga and use downward-directing herbs like shi jue ming or mu li"
+        }
+      ]
+    }
   },
   {
     "slug": "mu-hu-die",
@@ -10099,7 +10467,34 @@
     "preparationNotes": "Lotus Leaf (He Ye) is cool in nature, making it balanced for most constitutions. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Store in an airtight container in a cool, dry place for up to 12 months.",
     "dietaryAdvice": "Steep 5 to 10 grams of dried lotus leaf in hot water for 5 minutes. The taste is mild, slightly bitter, and refreshing. Drink 2 to 3 cups daily during summer. Can be combined with green tea for enhanced cooling. Avoid if you have cold-type patterns with chills or during cold weather.",
     "classicalSource": "Derived from lotus, first recorded in Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "When a heavy, foggy head and unquenchable thirst persist despite extra water, TCM points to summer heat trapping the upper body, and Lotus Leaf is the light, ascending herb that lifts the fog, clears surface heat, and may help the body shed dampness through gentle daily tea use during humid months.",
+    "definition": {
+      "term": "Lotus Leaf",
+      "termCn": "荷叶",
+      "text": "Lotus Leaf acts like a window shade for summer heat. When humid weather traps the head in a heavy, foggy feeling that water alone cannot lift, the leaf's light, ascending nature rises upward and opens the pores, letting the trapped heat dissipate. Its mild bitter taste also nudges dampness toward the exit, which is why daily lotus leaf tea is a summer staple across much of East Asia."
+    },
+    "conditionalBranches": {
+      "title": "When Lotus Leaf Outperforms Plain Summer Tea",
+      "intro": "Lotus Leaf does more than cool, so knowing the shape of your summer discomfort tells you when it fits.",
+      "branches": [
+        {
+          "signal": "Heavy, foggy head with thirst that plain water does not relieve",
+          "meaning": "Summer heat trapping the upper body and blocking clear Yang from rising",
+          "approach": "1-2 cups of lotus leaf tea daily through humid stretches of summer"
+        },
+        {
+          "signal": "Fluid retention, sluggishness, and a coated tongue in humid weather",
+          "meaning": "Dampness accumulating from the environment",
+          "approach": "Lotus leaf paired with green tea or yi yi ren for a gentle daily draining effect"
+        },
+        {
+          "signal": "Cold-type fatigue, pale face, or diarrhea from iced drinks",
+          "meaning": "Spleen cold where light cooling teas will deepen the chill",
+          "approach": "Switch to warming ginger tea or plain warm water instead"
+        }
+      ]
+    }
   },
   {
     "slug": "tan-xiang",
@@ -10303,7 +10698,34 @@
     "preparationNotes": "Because Cocklebur Fruit (Cang Er Zi) is warm, use cautiously in people who run hot. For tea, steep 5-10 minutes. For soup, simmer 30-60 minutes. Avoid overcooking as prolonged heat may reduce active compounds. Store in an airtight container in a cool, dry place.",
     "dietaryAdvice": "Simmer 6 to 10 grams of cang er zi in water for 15 minutes and drink as tea. The taste is slightly bitter and warm. For sinus congestion, drink 2 to 3 cups daily. Note that cang er zi is slightly toxic and should not be used in excess or for extended periods. Avoid during pregnancy and in young children. Discontinue if you experience any adverse reactions.",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Mildly toxic"
+    "safetyRating": "Mildly toxic",
+    "quickAnswer": "The most common TCM pattern behind chronic sinus congestion with thick discharge and sinus headaches is wind-damp blocking the nasal passages, and Cocklebur Fruit is the primary herb in TCM that opens the nose, dispels wind-damp, and may help relieve allergic rhinitis when combined with Magnolia bud and Angelica root.",
+    "definition": {
+      "term": "Cocklebur Fruit",
+      "termCn": "苍耳子",
+      "text": "Cocklebur Fruit in TCM functions as the primary nose-opener in the pharmacopeia. It works through three actions: it dispels wind-damp from the nasal passages to relieve congestion, it targets the sinuses specifically to reduce headaches, and it drains dampness from the skin surface. These combined actions anchor the classical Cang Er Zi San formula that remains the standard reference for chronic sinusitis and allergic rhinitis."
+    },
+    "conditionalBranches": {
+      "title": "Matching Cocklebur to Your Type of Sinus Block",
+      "intro": "Cocklebur Fruit is the primary nose-herb in TCM, but it works best when the discharge type matches.",
+      "branches": [
+        {
+          "signal": "Chronic sinus congestion with thick discharge and sinus-area headaches",
+          "meaning": "Wind-damp obstructing the nasal passages, the core pattern",
+          "approach": "Used in Cang Er Zi San with xin yi hua and bai zhi, as a short course"
+        },
+        {
+          "signal": "Allergic rhinitis with thick, yellow discharge during flare-ups",
+          "meaning": "Wind-heat layered on the damp obstruction",
+          "approach": "Paired with cooling herbs like huang qin during the heat flare"
+        },
+        {
+          "signal": "Dry, scratchy nose with no discharge, or nosebleeds",
+          "meaning": "Yin dryness where a wind-dispersing herb will worsen the dryness",
+          "approach": "Avoid cang er zi and moisten with lily bulb or mai dong instead"
+        }
+      ]
+    }
   },
   {
     "slug": "sang-zhi",
@@ -10846,7 +11268,34 @@
     ],
     "image": "/images/herbs/malva-nut-pang-da-hai.jpg",
     "classicalSource": "Bencao Gangmu Shiyi (1765 CE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Chinese medicine identifies two distinct throat patterns that Malva Nut addresses: dry, scratchy throat from Yin deficiency, and sore throat with sticky phlegm from Lung heat. Unlike drying heat-clearers, its swollen-seed mucilage physically coats the throat, which may help restore the voice and quiet a dry cough within hours of brewing the tea.",
+    "definition": {
+      "term": "Malva Nut",
+      "termCn": "胖大海",
+      "text": "Unlike most cold herbs that dry as they cool, Malva Nut cools and moistens at the same time. Where she gan clears throat heat but leaves the tissue dry, the malva seed swells into a gel that physically coats the throat, which makes it better suited to the dry, scratchy throat of Yin deficiency or the heat-with-phlegm pattern where a raw throat still needs lubrication alongside clearing."
+    },
+    "conditionalBranches": {
+      "title": "Is Your Sore Throat Dry or Phlegm-Laden?",
+      "intro": "Malva Nut soothes the throat through a gel that both cools and moistens, so it suits two different throat patterns.",
+      "branches": [
+        {
+          "signal": "Dry, scratchy throat with a ticklish cough and hoarse voice",
+          "meaning": "Lung Yin deficiency with dryness, the most common fit",
+          "approach": "1-2 seeds steeped in hot water as tea, 1-2 times daily for several days"
+        },
+        {
+          "signal": "Sore throat with sticky yellow phlegm and chest heat",
+          "meaning": "Lung heat with phlegm that still needs lubrication",
+          "approach": "Short course of malva nut tea through the flare-up, paired with fluids"
+        },
+        {
+          "signal": "Loose stools, bloating, or a heavy coated tongue",
+          "meaning": "Spleen dampness where the moistening gel will add to the damp load",
+          "approach": "Skip malva nut and use a drying throat herb like she gan or jie geng"
+        }
+      ]
+    }
   },
   {
     "slug": "sweet-wormwood-qing-hao",
@@ -10937,7 +11386,34 @@
     ],
     "image": "/images/herbs/sweet-wormwood-qing-hao.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Non-toxic"
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Deficiency heat with lingering damp-heat is the primary TCM explanation for the afternoon fevers, night sweats, and heavy feverish discomfort that Sweet Wormwood may help address, and its aromatic, bitter, and pungent nature reaches heat at the blood level where ordinary cooling herbs cannot, which is why it anchors the classical formula for recurrent low-grade fever.",
+    "definition": {
+      "term": "Sweet Wormwood",
+      "termCn": "青蒿",
+      "text": "Deficiency heat with lingering damp-heat produces a specific symptom cluster: afternoon fevers that rise as the day fades, night sweats that soak the chest, hot palms and soles without an external cause, and a heavy feverish sluggishness that ordinary cooling herbs fail to lift. Sweet Wormwood targets exactly this cluster because its aromatic quality penetrates damp-heat that other cold herbs cannot reach, and its blood-level action addresses the deeper heat source."
+    },
+    "conditionalBranches": {
+      "title": "Which Heat Layer Does Sweet Wormwood Reach?",
+      "intro": "Sweet Wormwood reaches heat at a deeper layer than ordinary cooling herbs, so its signals are specific.",
+      "branches": [
+        {
+          "signal": "Afternoon fevers, night sweats, and hot palms without an external cause",
+          "meaning": "Deficiency heat at the blood level, the classical qing hao pattern",
+          "approach": "Used in formulas like Qing Hao Bie Jia Tang, guided by a practitioner"
+        },
+        {
+          "signal": "Heavy, feverish sluggishness with a sticky feeling in summer humidity",
+          "meaning": "Damp-heat trapped in the body where aromatic cooling is needed",
+          "approach": "Short course paired with damp-draining herbs like yi yi ren or huo xiang"
+        },
+        {
+          "signal": "Recent fever with chills, body ache, and no sweat",
+          "meaning": "Exterior wind-cold or wind-heat that needs a releasing herb, not a clearing one",
+          "approach": "Use releasing herbs like gui zhi or jing jie and save sweet wormwood for deeper heat"
+        }
+      ]
+    }
   },
   {
     "slug": "black-goji-hei-gou-qi",
@@ -13535,7 +14011,34 @@
     ],
     "image": "/images/herbs/japanese-knotweed-hu-zhang.jpg",
     "classicalSource": "Mingyi Bielu (3rd century CE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "In Chinese medicine, Japanese Knotweed is most often linked to Liver heat with blood stasis, the combined pattern behind red eyes, throbbing temple headaches, and inflamed skin that does not clear with surface care. Its bitter cold nature descends rising heat while moving stagnant blood, and it may help reduce inflammatory flare-ups at both the liver and skin levels when guided by a practitioner.",
+    "definition": {
+      "term": "Japanese Knotweed",
+      "termCn": "虎杖",
+      "text": "Japanese Knotweed produces its effect through a paired mechanism rarely found in a single herb: it descends liver heat while simultaneously moving stagnant blood. Liver heat rising upward causes red eyes and throbbing headaches, while the blood stasis beneath it traps heat in the skin and tissues, so clearing only one leaves the pattern to return. By acting on both at once, the herb may address inflammatory skin and liver flare-ups at their shared root."
+    },
+    "conditionalBranches": {
+      "title": "When Liver Heat and Blood Stasis Coexist",
+      "intro": "Japanese Knotweed is unusual because it clears heat and moves blood at once, which suits a specific combined pattern.",
+      "branches": [
+        {
+          "signal": "Red eyes, irritability, and throbbing temple headaches",
+          "meaning": "Liver fire rising upward without significant stasis",
+          "approach": "Pair with gentian or xia ku cao rather than relying on hu zhang alone"
+        },
+        {
+          "signal": "Red, hot, inflamed skin that does not clear with surface care",
+          "meaning": "Blood heat with underlying stasis feeding the inflammation",
+          "approach": "Combined with blood-cooling and blood-moving herbs like sheng di and chi shao"
+        },
+        {
+          "signal": "Cold-type joint pain, pale complexion, or heavy menstrual flow",
+          "meaning": "Cold stasis or deficiency where a bitter cold herb will worsen the pattern",
+          "approach": "Avoid hu zhang and warm the channels with herbs like gui zhi or ai ye"
+        }
+      ]
+    }
   },
   {
     "slug": "achyranthes-niu-xi",
@@ -14231,7 +14734,34 @@
     ],
     "image": "/images/herbs/belamcanda-she-gan.jpg",
     "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
-    "safetyRating": "Use with caution"
+    "safetyRating": "Use with caution",
+    "quickAnswer": "About 12% of people who benefit most from Belamcanda fit the damp-heat body type where a sore throat arrives with sticky yellow phlegm and a warm, full chest, and its bitter, cold nature clears lung heat, reduces throat swelling, and may help restore a voice lost to phlegm and obstruction.",
+    "definition": {
+      "term": "Belamcanda",
+      "termCn": "射干",
+      "text": "Belamcanda acts like a heat hose aimed directly at the throat and upper lungs. When sticky yellow phlegm and a raw, swollen throat signal phlegm-heat obstructing the respiratory tract, this bitter, cold herb clears the heat, breaks down the phlegm, and reduces the swelling that causes hoarseness, all within a single channel-focused action. Its narrow Lung-channel affinity is what makes it so targeted compared with whole-body heat clearers."
+    },
+    "conditionalBranches": {
+      "title": "Choosing She Gan by Your Throat Signal",
+      "intro": "She Gan focuses on phlegm-heat in the throat and lungs, so the look of your phlegm is the key signal.",
+      "branches": [
+        {
+          "signal": "Sore throat with sticky yellow phlegm and a warm, full chest",
+          "meaning": "Phlegm-heat obstructing the Lung and throat, the core pattern",
+          "approach": "Short course as a decoction combined with jie geng or huang qin"
+        },
+        {
+          "signal": "Sudden hoarseness or laryngitis from heat and phlegm",
+          "meaning": "Phlegm-heat settling on the vocal cords",
+          "approach": "Brief course to clear the heat, then rest the voice"
+        },
+        {
+          "signal": "Dry, scratchy throat with little phlegm and night dryness",
+          "meaning": "Yin deficiency dryness where bitter drying will worsen the condition",
+          "approach": "Skip she gan and moisten with lily bulb, mai dong, or malva nut"
+        }
+      ]
+    }
   },
   {
     "slug": "acorus-shi-chang-pu",

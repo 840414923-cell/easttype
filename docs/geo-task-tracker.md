@@ -20,7 +20,7 @@ Pinterest (+169% impressions, +223% saves) -> Website (Google 8 pages top 10) ->
 
 | # | Task | Status | Notes |
 |---|---|---|---|
-| 1 | 122 herbs GEO modules (batch by category) | 🔄 In Progress | 10/132 done. Batch 1: Qi Tonic remaining |
+| 1 | 132 herbs GEO modules (batch by category) | ✅ Done | 132/132 done 2026-07-22 |
 | 2 | Day 4-5 children pages (6 pages: sleep/night + emotion) | ⬜ Not Started | Pinterest engine + Google has clicks |
 
 ### 🟡 Tier 2 (Next Week, High ROI)
@@ -62,18 +62,20 @@ Pinterest (+169% impressions, +223% saves) -> Website (Google 8 pages top 10) ->
 
 | Batch | Category | Count | Status |
 |---|---|---|---|
-| 1 | Qi Tonic (remaining) | ~14 | 🔄 Next |
-| 2 | Blood Tonic (remaining) | ~11 | ⬜ |
-| 3 | Yin Tonic (remaining) | ~10 | ⬜ |
-| 4 | Yang Tonic (remaining) | ~8 | ⬜ |
-| 5 | Warming Herb (remaining) | ~8 | ⬜ |
-| 6 | Cooling Herb (remaining) | ~8 | ⬜ |
-| 7 | Dampness Draining | ~8 | ⬜ |
-| 8 | Qi Regulating (remaining) | ~7 | ⬜ |
-| 9 | Calming Herb (remaining) | ~7 | ⬜ |
-| 10 | Digestive Support | ~7 | ⬜ |
-| 11 | Heat Clearing (remaining) | ~6 | ⬜ |
-| 12 | Other/uncategorized | ~28 | ⬜ |
+| 1 | Qi Tonic (remaining) | ~14 | ✅ Done |
+| 2 | Blood Tonic (remaining) | ~11 | ✅ Done |
+| 3 | Yin Tonic (remaining) | ~10 | ✅ Done |
+| 4 | Yang Tonic (remaining) | ~8 | ✅ Done |
+| 5 | Warming Herb (remaining) | ~8 | ✅ Done |
+| 6 | Cooling Herb (remaining) | ~8 | ✅ Done |
+| 7 | Dampness Draining | ~8 | ✅ Done |
+| 8 | Qi Regulating (remaining) | ~7 | ✅ Done |
+| 9 | Calming Herb (remaining) | ~7 | ✅ Done |
+| 10 | Digestive Support | ~7 | ✅ Done |
+| 11 | Heat Clearing (remaining) | ~6 | ✅ Done |
+| 12 | Other/uncategorized | ~28 | ✅ Done |
+
+> All 132 herbs now have GEO modules (quickAnswer + definition, with conditionalBranches where applicable). Completed 2026-07-22.
 
 ---
 
