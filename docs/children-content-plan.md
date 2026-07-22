@@ -208,19 +208,19 @@ Update this as we complete each page.
 - [x] 6. `chinese-medicine-for-child-nausea` ✅ Done 2026-07-20
 
 ### Day 3
-- [ ] 7. `chinese-medicine-for-child-frequent-colds`
-- [ ] 8. `chinese-medicine-for-child-chronic-cough`
-- [ ] 9. `chinese-medicine-for-child-phlegm`
+- [x] 7. `chinese-medicine-for-child-frequent-colds` ✅ Done 2026-07-21
+- [x] 8. `chinese-medicine-for-child-chronic-cough` ✅ Done 2026-07-21
+- [x] 9. `chinese-medicine-for-child-phlegm` ✅ Done 2026-07-21
 
 ### Day 4
-- [ ] 10. `chinese-medicine-for-child-sleep`
-- [ ] 11. `chinese-medicine-for-child-night-sweats`
-- [ ] 12. `chinese-medicine-for-child-night-terrors`
+- [x] 10. `chinese-medicine-for-child-sleep` ✅ Done 2026-07-22
+- [x] 11. `chinese-medicine-for-child-night-sweats` ✅ Done 2026-07-22
+- [x] 12. `chinese-medicine-for-child-night-terrors` ✅ Done 2026-07-22
 
 ### Day 5
-- [ ] 13. `chinese-medicine-for-child-anxiety`
-- [ ] 14. `chinese-medicine-for-child-tantrums`
-- [ ] 15. `chinese-medicine-for-child-focus`
+- [x] 13. `chinese-medicine-for-child-anxiety` ✅ Done 2026-07-22
+- [x] 14. `chinese-medicine-for-child-tantrums` ✅ Done 2026-07-22
+- [x] 15. `chinese-medicine-for-child-focus` ✅ Done 2026-07-22
 
 ### Day 6
 - [ ] 16. `chinese-medicine-for-child-low-energy`

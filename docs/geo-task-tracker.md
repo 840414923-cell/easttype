@@ -21,7 +21,7 @@ Pinterest (+169% impressions, +223% saves) -> Website (Google 8 pages top 10) ->
 | # | Task | Status | Notes |
 |---|---|---|---|
 | 1 | 132 herbs GEO modules (batch by category) | ✅ Done | 132/132 done 2026-07-22 |
-| 2 | Day 4-5 children pages (6 pages: sleep/night + emotion) | ⬜ Not Started | Pinterest engine + Google has clicks |
+| 2 | Day 4-5 children pages (6 pages: sleep/night + emotion) | ✅ Done | 6 pages done 2026-07-22, wellness 64->70, build 339->345 |
 
 ### 🟡 Tier 2 (Next Week, High ROI)
 
@@ -86,8 +86,8 @@ Pinterest (+169% impressions, +223% saves) -> Website (Google 8 pages top 10) ->
 | 1 | Spleen/Digestion Foundation | 3 | ✅ Done 2026-07-19 |
 | 2 | Spleen/Digestion Deep | 3 | ✅ Done 2026-07-20 |
 | 3 | Lung/Respiratory | 3 | ✅ Done 2026-07-21 |
-| 4 | Sleep/Night (Heart Shen + Liver) | 3 | ⬜ Next |
-| 5 | Emotional/Liver | 3 | ⬜ |
+| 4 | Sleep/Night (Heart Shen + Liver) | 3 | ✅ Done 2026-07-22 |
+| 5 | Emotional/Liver | 3 | ✅ Done 2026-07-22 |
 | 6 | Growth/Energy (Kidney/Spleen) | 3 | ⬜ |
 | 7 | Immunity/Skin (Lung + Spleen Damp Heat) | 3 | ⬜ |
 
