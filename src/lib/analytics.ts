@@ -1,5 +1,6 @@
-// GA4 analytics with cookie-consent gating.
-// Client-side gtag only loads after the user accepts the cookie banner.
+// GA4 analytics with opt-out consent model.
+// gtag.js loads by default for all visitors. Users can opt out via the
+// cookie banner's "Decline" button, which sets et_consent=declined.
 // Server-side Measurement Protocol (used in the Creem webhook) does not depend
 // on browser consent because it fires on a payment-success server callback.
 
@@ -18,14 +19,15 @@ declare global {
 export function isConsentGranted(): boolean {
   if (typeof window === "undefined") return false
   try {
-    return window.localStorage.getItem(CONSENT_KEY) === "accepted"
+    return window.localStorage.getItem(CONSENT_KEY) !== "declined"
   } catch {
-    return false
+    return true
   }
 }
 
-// Dynamically inject the gtag.js script. Only runs once, and only when the
-// user has granted consent. Safe to call repeatedly (idempotent).
+// Dynamically inject the gtag.js script. Loads by default for all visitors.
+// Skips only when the user has explicitly declined via the cookie banner.
+// Safe to call repeatedly (idempotent).
 export function initGA(): void {
   if (typeof window === "undefined") return
   if (gtagLoaded) return
