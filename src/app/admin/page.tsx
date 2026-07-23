@@ -581,7 +581,7 @@ export default function AdminPage() {
                   <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
                     <div className="text-xs text-[#7a6e5e]">总收入</div>
                     <div className="text-2xl font-bold text-[#A63A3A] mt-1">
-                      ${orders.filter((o) => o.status === "active").reduce((sum, o) => sum + (o.plan === "pro" ? 12.99 : 4.99), 0).toFixed(2)}
+                      ${orders.filter((o) => o.status === "active").reduce((sum, o) => sum + (o.plan === "pro" ? 24.99 : 9.99), 0).toFixed(2)}
                     </div>
                   </div>
                   <div className="bg-[#1e1a14] border border-[#2a2418] rounded-lg p-4">
@@ -616,7 +616,7 @@ export default function AdminPage() {
                           <td className="py-2 px-3 text-[#e8dcc8]">{o.email}</td>
                           <td className="py-2 px-3">
                             <span className={o.plan === "pro" ? "text-[#A63A3A] font-bold" : "text-[#7a6e5e]"}>
-                              {o.plan === "pro" ? "Pro $12.99" : "Basic $4.99"}
+                              {o.plan === "pro" ? "Pro $24.99" : "Basic $9.99"}
                             </span>
                           </td>
                           <td className="py-2 px-3 text-[#7a6e5e]">{o.type}</td>

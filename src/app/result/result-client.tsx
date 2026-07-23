@@ -247,11 +247,11 @@ function ResultContent({ proToken, basicToken }: { proToken: string; basicToken:
               <div className="py-2 px-2 text-[11px] font-semibold text-text2 border-b border-card-border" />
               <div className="py-2 px-2 text-[11px] font-semibold text-text border-b border-card-border">
                 <div>{"Basic"}</div>
-                <div className="text-accent font-bold">$4.99</div>
+                <div className="text-accent font-bold">$9.99</div>
               </div>
               <div className="py-2 px-2 text-[11px] font-semibold border-b border-card-border bg-[rgba(140,45,42,0.04)]">
                 <div className="text-accent">{"Pro"}</div>
-                <div className="gold-gradient-text font-bold">$12.99</div>
+                <div className="gold-gradient-text font-bold">$24.99</div>
               </div>
             </div>
             {[

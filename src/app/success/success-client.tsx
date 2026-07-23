@@ -25,7 +25,7 @@ function SuccessContent() {
     sessionStorage.setItem(flag, "1")
     track("purchase", {
       transaction_id: token || `web-${Date.now()}`,
-      value: isPro ? 12.99 : 4.99,
+      value: isPro ? 24.99 : 9.99,
       currency: "USD",
       plan,
       type,
