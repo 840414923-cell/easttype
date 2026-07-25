@@ -593,5 +593,273 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
   },
+  {
+    slug: "back-to-school-by-body-type",
+    title: "Back-to-School by Body Type: Why Some Kids Bounce In While Others Drag",
+    description: "Back to school hits every child differently. A Chinese medicine guide to body type and how children respond to September, with school readiness tips for each constitution.",
+    date: "2026-07-25",
+    category: "event",
+    tags: ["back-to-school", "children", "body-type", "chinese-medicine", "kids"],
+    excerpt: "Some children walk into their classroom on day one like they belong there. Others come home exhausted, teary, or with a stomach ache. Their body type may explain why.",
+    thumbnail: "/images/journal/back-to-school-cover.jpg",
+    sections: [
+      {
+        heading: "Why September Hits Different Kids Differently",
+        body: "In Chinese medicine, a child's reaction to going back to school may be closely tied to their body type, what TCM calls their constitution. Qi Deficient children often come home pale and spent, barely able to hold a conversation about their day. Qi Stagnant children may complain of tummy aches or headaches each school morning, with no clear physical cause. Damp Heat types might break out in rashes or spots during the first stressful week. A child's constitution is not a diagnosis. It is a pattern of strengths and weak points that shapes how their body responds to change, pressure, and new routines. Knowing your child's type may help you prepare for the parts of September that will cost them the most energy.\n\nEvery September, teachers see the same pattern repeat. Some children walk into their new classroom like they belong there, make a friend within the first recess, and come home buzzing with stories. Others drag through the school gate, cling to a parent's hand, and return home withdrawn, tearful, or complaining of a stomach ache that no one can find a reason for. Same school, same teacher, same curriculum. Different bodies.\n\nChinese medicine does not frame this as good behavior versus bad behavior. It frames it as a question of constitution. A child who runs low on Qi will struggle with the sustained output that a full school day demands. A child whose Liver Qi tends to tighten under stress will show it through the gut, not through words. The nine body types each carry their own weak point, and September is exactly the kind of pressure test that exposes it.",
+      },
+      {
+        heading: "The Nine Body Types at School Drop-off",
+        type: "table",
+        table: {
+          headers: ["Body Type", "First Week Vibe", "What Drains Them", "What May Help"],
+          rows: [
+            ["Qi Deficient", "Pale and spent by pickup", "Sustained mental and social output", "Warm cooked breakfast, early bedtime"],
+            ["Qi Stagnant", "Tummy aches and reluctance at the gate", "Emotional pressure and new routines", "Movement before school, time to talk"],
+            ["Damp Heat", "Breakouts and irritability in week one", "Heavy lunches and sticky heat", "Light cooling foods, less sugar"],
+            ["Yin Deficient", "Dry throat, restless sleep, distracted", "Hot classroom and poor hydration", "Hydrating foods, pear and lily bulb"],
+            ["Yang Deficient", "Cold hands, sluggish in the morning", "Early chill and cold drinks", "Warm food, layer up, ginger tea"],
+            ["Phlegm Damp", "Foggy, heavy, hard to focus", "Dairy and sweets after school", "Light meals, movement, less damp food"],
+            ["Blood Stasis", "Clumsy, dark circles, growing pains", "Sitting still for long stretches", "Stretching, movement breaks, warm feet"],
+            ["Sensitive", "Sneezing, itchy skin, reactive", "Dust, chalk, new environment", "Clean uniform, gentle soap, airy room"],
+            ["Balanced", "Settles in within a few days", "Mostly fine, watch sleep debt", "Normal routine, light on screen time"],
+          ],
+        },
+      },
+      {
+        heading: "Nine Body Types at a Glance",
+        type: "image",
+        imageAlt: "Nine body types and their first week of school behavior at a glance",
+        imageDescription: "An infographic grid showing all nine body types as small illustrated icons in a 3x3 layout. Each cell has the body type name, a one-line description of their first week vibe, and a small color-coded dot from red (struggles most) to green (settles easily). Qi Deficient and Qi Stagnant are warm-toned, Balanced and Yang Deficient are cool-toned. Clean, educational style with plenty of white space.",
+        imagePath: "/images/journal/back-to-school-body-type-grid.jpg",
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "Every child carries a constitution they did not choose. Knowing your child's body type may help you stop reading their September struggles as bad behavior, and start reading them as a pattern you can actually support. Take the free 5-minute quiz to find out which of the nine body types your child leans toward.",
+      },
+      {
+        heading: "The Qi Deficient Child: The One Who Comes Home Exhausted",
+        body: "The Qi Deficient child is the one who walks out of the school gate looking like the day already beat them. Pale, quiet, maybe a little sweaty on the forehead even though it was not hot. You ask how school was, and you get a one-word answer, not because they are being rude but because they genuinely do not have the energy to give you more. By the time they have walked home, dropped their bag, and sat down, they may look ready for bed, and it is only four in the afternoon.\n\nIn Chinese medicine, Qi is the body's daily fuel, the energy that powers talking, thinking, moving, and digesting. A Qi Deficient child starts the day with a smaller tank than their peers. A full school day of paying attention, following rules, navigating friendships, and sitting still drains that tank by mid-afternoon. They are not lazy. They are not faking it. Their constitution simply asks for more recovery time than the school schedule allows.\n\nWhat may help is a warm, cooked breakfast rather than cold cereal or nothing at all. Congee, eggs, or warm oats support the Spleen, the organ Chinese medicine links with turning food into usable energy. An early bedtime, ideally before nine, protects what little Qi they have for the next day. Skip the temptation to fill their afternoons with clubs and lessons. A Qi Deficient child often needs a quiet hour of rest before homework, not another demand on their reserves. If the exhaustion is severe or persistent, a conversation with their pediatrician is worth having, to rule out anything beyond constitution.",
+      },
+      {
+        heading: "The Qi Stagnant Child: The One Who Gets Tummy Aches Before School",
+        body: "The Qi Stagnant child is the one who feels fine all weekend and develops a stomach ache every weekday morning, usually right around the time the school bag gets picked up. The ache is real. It is not invented. It just does not have the kind of cause a scan or a blood test can find, which is exactly why it frustrates parents and worries teachers.\n\nIn Chinese medicine, the Liver is responsible for the smooth flow of Qi throughout the body, and it is the organ most sensitive to emotional pressure, frustration, and change. When a child feels stretched by a new routine, a difficult classmate, or the simple pressure of performing, that flow can tighten and stall. A stalled Liver Qi tends to show up through the gut, because the Spleen and Stomach sit right next door. The result is a child whose worry announces itself as a tummy ache, a headache, or a sudden need to use the bathroom right before leaving the house.\n\nWhat may help is movement before school. A short walk, a few stretches, even dancing to one song can get Qi flowing again and ease the tightness before the day starts. It also helps to leave space in the morning for them to talk if they want to, rather than rushing from bed to car. Pressing a child to explain why their stomach hurts usually makes it worse. Quiet company works better than interrogation. If the pattern continues for more than a few weeks, or if the pain is severe, a pediatrician should be involved to make sure nothing else is going on.",
+      },
+      {
+        heading: "The Damp Heat Child: The One Who Breaks Out in the First Week",
+        body: "The Damp Heat child is the one who walks into the first week of school with clear skin and walks out of it with a rash, a cluster of spots, or an itchy patch that was not there on Monday. The classroom is warm, the playground is sweaty, and lunchbox food is often sweeter and heavier than what they eat at home. For a Damp Heat constitution, that combination can be too much.\n\nIn Chinese medicine, Damp Heat describes a pattern where internal moisture and warmth get stuck together and try to exit through the skin. The first stressful week of school, with its irregular meals, less water, and more heat, is a classic trigger. Your child may also seem more irritable than usual, and their tongue might look more coated than normal.\n\nWhat may help is lighter food through September. Less fried food, less dairy, less sugar, and more cooling options like cucumber, mung bean soup, and pear. Make sure they actually drink water during the school day, not just at home. If a rash looks infected or spreads quickly, have it checked by a pediatrician rather than assuming it is purely constitutional.",
+      },
+      {
+        heading: "The Week Before School: A Simple Timeline",
+        type: "image",
+        imageAlt: "A visual timeline of the week before school starts with preparation tips",
+        imageDescription: "A horizontal timeline infographic showing 5 days before school starts. Each day has a small icon and a short label: Day 5 shift sleep schedule, Day 4 practice the route, Day 3 stock warm breakfast foods, Day 2 talk about the first day, Day 1 keep it quiet. Warm autumn color palette, clean and encouraging style, a small school building icon at the end of the timeline.",
+        imagePath: "/images/journal/back-to-school-prep-week.jpg",
+      },
+      {
+        heading: "5 Things to Do the Week Before School Starts",
+        type: "list",
+        list: [
+          { bold: "Shift the sleep schedule five days early.", text: "A child's internal clock cannot reset in one night. Move bedtime and wake-up time fifteen minutes earlier each day during the last week of August, so the first school morning does not arrive as a shock to their system." },
+          { bold: "Practice the morning route once or twice.", text: "Walk or drive the route to school at the actual time you will need to leave. This lowers anxiety for Qi Stagnant and Sensitive types especially, because the unknown becomes familiar before the pressure is real." },
+          { bold: "Stock the kitchen for warm breakfasts.", text: "Congee, oats, eggs, and warm soups support a child's Qi far better than cold cereal or a skipped meal. Have the ingredients ready before the first morning rush, so a warm breakfast is easy rather than a project." },
+          { bold: "Talk about the day, not the year.", text: "Big talks about the whole school year can overwhelm a child. Talk instead about the first day, the first recess, the first lunch. Small, concrete pictures are easier for a child to carry than abstract expectations." },
+          { bold: "Leave the first week quiet.", text: "Do not book after-school clubs, playdates, or lessons in the first week. Most body types need more recovery time than parents expect. An empty calendar gives their body room to settle into the new rhythm." },
+        ],
+      },
+      {
+        heading: "The First-Day Breakfast That May Help",
+        body: "For a nervous child on the first morning of school, a warm, soft, easy-to-digest breakfast is one of the simplest things you can offer. Congee with jujube dates and Chinese yam is a traditional choice, because both ingredients support the Spleen without burdening it. Here is how to make it the morning before, or the night before and gently reheated.",
+        type: "steps",
+        steps: [
+          { title: "Rinse half a cup of white rice", detail: "Use short-grain white rice for the softest texture. Rinse twice under cold water until the water runs mostly clear. This removes excess starch and stops the congee from turning gluey. Half a cup of dry rice is enough for two child-sized portions." },
+          { title: "Soak the rice for thirty minutes", detail: "Cover the rinsed rice with water and let it sit for half an hour. Soaking softens the grain so it breaks down faster during cooking, which gives congee its signature silky texture. Drain before moving to the next step." },
+          { title: "Add water at a one-to-eight ratio", detail: "For half a cup of rice, use four cups of water. This ratio produces a congee that is soft enough for a child's stomach first thing in the morning, without being too thin. A clay pot or heavy saucepan works best. Avoid iron, which can affect the color." },
+          { title: "Bring to a boil, then simmer for forty minutes", detail: "Bring the pot to a rolling boil on high heat, then reduce to the lowest possible flame. Stir occasionally so the rice does not stick to the bottom. After about forty minutes the grains should have broken down into a soft porridge. A skin forming on top is normal and fine." },
+          { title: "Add jujube dates and Chinese yam", detail: "Pit and slice three to four dried red jujube dates, and add a small handful of peeled, diced Chinese yam, fresh or dried. Both are traditional Spleen-supporting foods in Chinese medicine. Stir them in during the last fifteen minutes of cooking, so they soften but do not fall apart completely." },
+          { title: "Serve warm, not hot", detail: "Ladle into a bowl and let it cool until it is warm but comfortable to eat. This congee is gentle on a child's stomach on a morning when they may be nervous and eating less than usual. A small pinch of salt is fine. Avoid sugar, which can undo the settling effect you are aiming for." },
+        ],
+      },
+      {
+        heading: "A First-Day Breakfast That Settles the Stomach",
+        type: "image",
+        imageAlt: "A bowl of warm jujube and Chinese yam congee on a school morning",
+        imageDescription: "A soft, warm-toned photograph of a ceramic bowl filled with creamy white rice congee, scattered with sliced red jujube dates and pale cubes of Chinese yam. A wooden spoon rests on the side. Morning light falls across a simple wooden table, with a child's school bag visible in the soft-focus background.",
+        imagePath: "/images/journal/back-to-school-breakfast.jpg",
+      },
+    ],
+    relatedLinks: [
+      { title: "Chinese Medicine for Child Sleep", slug: "chinese-medicine-for-child-sleep", type: "wellness" },
+      { title: "Chinese Medicine for Child Anxiety", slug: "chinese-medicine-for-child-anxiety", type: "wellness" },
+      { title: "Chinese Medicine for Child Focus", slug: "chinese-medicine-for-child-focus", type: "wellness" },
+      { title: "Chinese Medicine for Child Low Energy", slug: "chinese-medicine-for-child-low-energy", type: "wellness" },
+      { title: "Chinese Medicine for Child Tantrums", slug: "chinese-medicine-for-child-tantrums", type: "wellness" },
+    ],
+    faqs: [
+      {
+        q: "Which body type struggles most with going back to school?",
+        a: "Qi Deficient children often find the first weeks the hardest, because a full school day drains their limited energy reserves. Qi Stagnant children may struggle in a different way, through stomach aches and reluctance at the gate. A body type quiz may help you see which pattern your child leans toward.",
+      },
+      {
+        q: "My child gets a stomach ache every school morning. Is that real?",
+        a: "In many cases, yes. Chinese medicine links unexplained morning stomach aches to Liver Qi Stagnation, where emotional pressure tightens the flow of energy and shows up through the gut. The pain is genuine even when no physical cause is found. If it persists or is severe, a pediatrician should still check it.",
+      },
+      {
+        q: "Should I change my child's diet before school starts?",
+        a: "Small shifts may help more than big ones. A warm, cooked breakfast supports the Spleen and gives a Qi Deficient child more to run on. Less sugar and fried food may ease a Damp Heat child's skin. Avoid drastic diets right before school, as the change itself adds pressure.",
+      },
+      {
+        q: "What is the best breakfast for the first day of school?",
+        a: "Warm, soft, and easy to digest. Congee with jujube dates and Chinese yam is a traditional choice because it supports the Spleen without burdening it. Eggs, warm oats, or a simple rice porridge also work. Cold cereal on an empty, nervous stomach is best avoided.",
+      },
+      {
+        q: "How long does it take for a child to settle into the school routine?",
+        a: "Most children settle within two to three weeks, but this varies by body type. Balanced and Yang Deficient children often adjust quickly. Qi Deficient and Qi Stagnant children may need a full month, with earlier bedtimes and lighter afternoons, before the new rhythm feels natural to them.",
+      },
+    ],
+  },
+  {
+    slug: "coffee-and-your-body-type",
+    title: "Coffee and Your Body Type: Why It Helps Some and Wrecks Others",
+    description: "Coffee lifts some people and wrecks others. Chinese medicine explains why your body type and caffeine tolerance are linked, and which of the nine constitutions should skip the morning cup.",
+    date: "2026-07-25",
+    category: "event",
+    tags: ["coffee", "caffeine", "body-type", "chinese-medicine", "energy"],
+    excerpt: "Your coworker swears by coffee. You crash after one cup. Chinese medicine explains why the same caffeine hits different body types so differently.",
+    thumbnail: "/images/journal/coffee-cover.jpg",
+    sections: [
+      {
+        heading: "Why Coffee Splits People Into Two Camps",
+        body: "Coffee affects people very differently depending on their body type, and Chinese medicine may explain why. For Yang Deficient constitutions, a small cup of coffee can be associated with a gentle lift in warming energy that feels steadier than it does for others. For Yin Deficient types, the same cup may intensify internal dryness, irritability, and afternoon crashes, because caffeine pulls on a system already running hot and low on cooling reserves. Qi Deficient types often get a short spike followed by deeper fatigue. There is no universally good or bad answer. How coffee interacts with your constitution, your caffeine sensitivity, and your current energy reserves may matter far more than the drink itself.\n\nThe split is not subtle. Walk into any office and you will find two camps. One group drinks espresso at 4 PM and sleeps fine. The other group has half a latte at 9 AM and spends the afternoon with a racing heart, a dry mouth, and a vague sense that something is wrong. Western nutrition frames this as a difference in caffeine metabolism, a story about liver enzymes and genetic variants. Chinese medicine frames it as a difference in constitution, the baseline state of your internal climate. Both are describing the same phenomenon from different angles. The TCM view simply adds a useful next step: if you know your body type, you can predict whether coffee will help or harm you, and you can pick a drink that fits your system instead of fighting it.",
+      },
+      {
+        heading: "The Nine Body Types and Coffee",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Coffee Effect", "Why", "Better Alternative"],
+          rows: [
+            ["Yin Deficient", "Wrecks it", "Adds fire to a system already running hot and dry", "Chrysanthemum or honeysuckle tea"],
+            ["Damp Heat", "Worsens it", "Heat compounds, acne and irritability tend to rise", "Green tea with coix seed"],
+            ["Qi Stagnant", "Mixed bag", "Brief mood lift, then tighter tension returns", "Rose or tangerine peel tea"],
+            ["Phlegm Damp", "Sluggish response", "Caffeine cannot cut through the heavy dampness", "Pu-erh tea, warm ginger water"],
+            ["Blood Stasis", "Mild effect", "Little direct impact, but lost sleep worsens stasis", "Rose tea with jujube dates"],
+            ["Sensitive", "Overstimulates", "Even small amounts cause palpitations and jitters", "Rooibos or barley tea"],
+            ["Qi Deficient", "Rollercoaster", "Short spike followed by a deeper crash", "Ginseng or jujube date tea"],
+            ["Yang Deficient", "May help in small amounts", "Adds gentle warming energy to a cold system", "Ginger or cinnamon tea"],
+            ["Balanced", "Fine in moderation", "A steady system can absorb coffee without much fuss", "Any tea, rotated by season"],
+          ],
+        },
+      },
+      {
+        heading: "Coffee Compatibility Score by Body Type",
+        body: "Across the nine body types, coffee compatibility ranges from a near miss to a comfortable fit. Yin Deficient scores lowest, because caffeine pushes an already hot, dry system further out of balance. Yang Deficient and Balanced score highest, since a small amount of warming stimulation lands well on a cold or steady system. Most types sit in the awkward middle, where coffee works briefly but costs more than it gives.",
+        type: "barchart",
+        barchart: {
+          items: [
+            { label: "Yin Deficient", value: 1, displayValue: "1/10" },
+            { label: "Damp Heat", value: 2, displayValue: "2/10" },
+            { label: "Qi Stagnant", value: 5, displayValue: "5/10" },
+            { label: "Phlegm Damp", value: 4, displayValue: "4/10" },
+            { label: "Blood Stasis", value: 5, displayValue: "5/10" },
+            { label: "Sensitive", value: 2, displayValue: "2/10" },
+            { label: "Qi Deficient", value: 3, displayValue: "3/10" },
+            { label: "Yang Deficient", value: 7, displayValue: "7/10" },
+            { label: "Balanced", value: 8, displayValue: "8/10" },
+          ],
+        },
+      },
+      {
+        heading: "Three Body Types, Three Very Different Reactions",
+        type: "image",
+        imageAlt: "Three body types and their different reactions to coffee explained in an infographic",
+        imageDescription: "A detailed infographic comparing three body types and their coffee reactions side by side. Three columns: Yin Deficient (red zone, coffee adds fire to an already hot dry system, shows a flame icon and dry throat icon, crash at 2pm), Qi Deficient (yellow zone, short spike then deep crash, shows a battery icon draining from 80% to 10%, crash at 11am), Yang Deficient (green zone, gentle warming lift, shows a small flame icon warming a cold system, steady through afternoon). Each column has a timeline bar showing energy levels from 8am to 6pm. Clean PPT slide style with labels, icons, and color-coded zones.",
+        imagePath: "/images/journal/coffee-three-reactions.jpg",
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "Find out if your body type is coffee-compatible. Take the free 5-minute quiz and learn which of the nine constitutions you fit, so the next cup you reach for actually agrees with your system.",
+      },
+      {
+        heading: "The Yin Deficient Coffee Trap",
+        body: "Of all nine body types, Yin Deficient is the one that should be most cautious around coffee, and yet Yin Deficient people are often the ones reaching for the strongest cup. There is a reason for the mismatch. Yin Deficient types tend to feel a low-grade fatigue that sleep does not fully fix, a tiredness that sits under the surface all day. Coffee seems to switch it off for an hour or two, which feels like relief. The problem is what happens underneath that relief.\n\nIn Chinese medicine, Yin represents the cooling, moistening, resting side of the body's energy. A Yin Deficient person is already running low on that cooling reserve, which is why they tend to run warm, feel dry in the throat and skin, and wake up sweating at night. Coffee is warming, drying, and stimulating. Each cup pushes the system further in the direction it is already leaning too hard. The afternoon crash that follows is not a caffeine wearing off problem. It is the body's cooling reserves being thinner than they were in the morning.\n\nOver time, the pattern may deepen. The dry throat gets drier. The night sweats get more frequent. The irritability sharpens. The fatigue that coffee was supposed to fix starts showing up earlier in the day, which leads to another cup, which leads to another crash. If you suspect you are Yin Deficient, the single most useful change you can make may be to stop reaching for coffee as the answer to your tiredness.",
+      },
+      {
+        heading: "The Qi Deficient Rollercoaster",
+        body: "Qi Deficient types have a different problem with coffee, and it is arguably more confusing because the damage is delayed. A Qi Deficient person runs low on the basic energy that powers digestion, breathing, and sustained effort. They feel tired, yes, but it is a soft, deflated tired, not the wired, restless tired of Yin Deficient. When they drink coffee, something happens that looks like a success. For an hour or maybe two, they feel almost normal. They can focus. They can get through the morning. Then the floor drops out.\n\nThe crash is not just the caffeine wearing off. In TCM terms, coffee borrows energy from tomorrow to spend today. A Qi Deficient system does not have much energy in reserve, so the borrowing is steeper and the repayment is harsher. The afternoon crash hits harder than the morning fatigue ever did, and it tends to come with a foggy head, loose digestion, and a wanting to lie down feeling that no second cup can fix.\n\nWhat makes this a trap is that the morning cup works well enough to feel worth it, and the crash is far enough away that the connection is not obvious. Over weeks and months, the baseline keeps drifting down. The same cup that used to carry you to lunch now barely gets you to 10 AM. The honest answer for Qi Deficient types is that coffee is not giving you energy. It is spending the little you have, and charging interest.",
+      },
+      {
+        heading: "The Yang Deficient Surprise",
+        body: "Here is the twist. Of all nine body types, Yang Deficient is the one that may actually get along with coffee, and that surprises people who assume coffee is universally bad for tired people. Yang Deficient types run cold. Their hands and feet tend to be cool, they prefer warm food and drinks, and they may feel sluggish in a way that warmth and stimulation can genuinely shift.\n\nCoffee is warming and moving in nature, which is exactly what a Yang Deficient system is short of. A small cup in the morning, especially in winter, can offer a gentle lift that does not come with the crash that Qi Deficient types experience, because there is actual warming energy being added rather than borrowed. The key word is small. A Yang Deficient person who drinks three or four cups a day is no longer helping. They are overstimulating a cold system and creating the same exhaustion loop as everyone else. One cup, early, before food, is the pattern that tends to work. Beyond that, warming teas like ginger or cinnamon may do the same job more gently.",
+      },
+      {
+        heading: "5 Morning Drinks That May Support Your Body Type Better Than Coffee",
+        type: "list",
+        list: [
+          { bold: "Chrysanthemum tea", text: "Cooling and gently moistening, this is the classic morning swap for Yin Deficient and Damp Heat types who find coffee too drying and heating." },
+          { bold: "Ginger and jujube date tea", text: "Warming and steadying, a strong option for Qi Deficient and Yang Deficient types who need sustained energy rather than a spike." },
+          { bold: "Rose tea", text: "Gently moving, this may suit Qi Stagnant types whose tiredness is tied up with tension, frustration, and tightness rather than true deficiency." },
+          { bold: "Pu-erh tea", text: "Warm and resolving, a traditional choice for Phlegm Damp types whose heaviness and fog respond better to warmth than to caffeine." },
+          { bold: "Roasted barley tea", text: "Caffeine-free, mild, and easy on the digestion, a safe default for Sensitive types who get palpitations from even small amounts of coffee." },
+        ],
+      },
+      {
+        heading: "5 Coffee Alternatives by Body Type",
+        type: "image",
+        imageAlt: "Five coffee alternative drinks matched to body types in an infographic",
+        imageDescription: "A detailed infographic showing 5 coffee alternative drinks, each matched to specific body types. Five rows, each with a drink icon, drink name, body type tags, and a one-line benefit: 1. Chrysanthemum tea (cooling, for Yin Deficient and Damp Heat, flower icon), 2. Ginger and jujube date tea (warming, for Qi Deficient and Yang Deficient, ginger root icon), 3. Rose tea (moving, for Qi Stagnant, rose icon), 4. Pu-erh tea (resolving, for Phlegm Damp, tea leaf icon), 5. Roasted barley tea (caffeine-free, for Sensitive, barley icon). Color-coded by temperature: blue for cooling, red for warming, green for neutral. Clean PPT slide style with ingredient icons and clear labels.",
+        imagePath: "/images/journal/coffee-alternatives.jpg",
+      },
+      {
+        heading: "How to Transition Off Coffee Without the Crash",
+        body: "Quitting coffee badly is worse than not quitting at all. A cold turkey approach tends to produce a three-day headache, a week of fog, and a relapse that convinces you coffee is essential. The body type aware approach below is slower, gentler, and far more likely to stick.",
+        type: "steps",
+        steps: [
+          { title: "Halve your cup, do not quit cold turkey", detail: "Going from three cups to zero overnight is the fastest way to a three-day headache. Start by cutting each cup in half, or alternating one coffee with one non-caffeinated drink through the morning. The goal is to step down over one to two weeks rather than shock the system." },
+          { title: "Match the swap to your body type", detail: "If you run warm or dry, lean toward chrysanthemum or mint tea. If you run cold or tired, use ginger, jujube date, or cinnamon tea. A swap that fits your constitution will satisfy you in a way that a random herbal tea will not." },
+          { title: "Keep the ritual, change the contents", detail: "Much of what coffee does for you is the ritual, the warm mug, the smell, the ten quiet minutes. Keep all of it. Only the liquid inside changes. This sounds trivial, and it is the step people most often skip." },
+          { title: "Move caffeine earlier in the day", detail: "If you are stepping down rather than quitting, push your last cup earlier by an hour each day until it lands before 11 AM. Caffeine has a long half-life, and afternoon coffee is often what wrecks the sleep that would have fixed the tiredness in the first place." },
+          { title: "Address the tiredness underneath", detail: "Most people drink coffee because they are tired, and most tiredness has a cause that coffee cannot reach. Late nights, skipped breakfast, screen time before bed, and a body type that is out of balance all show up as fatigue. Work on those, and the craving for coffee tends to fade on its own." },
+          { title: "Expect a dip, and ride it out", detail: "Around day three or four, you will feel worse before you feel better. This is normal. It is the system recalibrating to producing its own energy again. Stay with it. By the end of week two, most people report steadier energy through the afternoon than they ever had on coffee." },
+        ],
+      },
+      {
+        heading: "Coffee Compatibility at a Glance",
+        type: "image",
+        imageAlt: "Coffee compatibility chart across nine body types",
+        imageDescription: "A visual chart placing all nine body types on a spectrum from red (coffee wrecks it) to green (coffee may help). Yin Deficient and Damp Heat sit at the red end with a coffee cup crossed out. Yang Deficient and Balanced sit at the green end with a small coffee cup. Each type has a one-line summary of how coffee interacts with its constitution and a suggested morning tea swap.",
+        imagePath: "/images/journal/coffee-body-type-chart.jpg",
+      },
+    ],
+    relatedLinks: [
+      { title: "Kidney Yin Deficiency: The Body Type That Runs Hot", slug: "kidney-yin-deficiency", type: "wellness" },
+      { title: "Spleen Qi Deficiency: Why You Are Always Tired", slug: "spleen-qi-deficiency", type: "wellness" },
+      { title: "Liver Fire: When Stress Turns Into Heat", slug: "liver-fire", type: "wellness" },
+      { title: "Stomach Heat: Why You Are Always Thirsty", slug: "stomach-heat", type: "wellness" },
+      { title: "Chinese Medicine for Fatigue: A Body Type Approach", slug: "chinese-medicine-for-fatigue", type: "wellness" },
+    ],
+    faqs: [
+      {
+        q: "Is coffee bad for everyone in Chinese medicine?",
+        a: "No. Coffee is warming, drying, and stimulating, which means it fits some body types better than others. Yang Deficient and Balanced types often tolerate it well in small amounts. Yin Deficient, Qi Deficient, and Damp Heat types tend to struggle with it. The effect depends less on coffee itself and more on how it matches your constitution.",
+      },
+      {
+        q: "Why does coffee make some people crash and others feel fine?",
+        a: "In TCM terms, the difference is about reserves. A person with ample energy reserves experiences coffee as a small, repayable loan. A person who is already depleted experiences it as a steep borrowing against tomorrow, which shows up as a hard afternoon crash. Caffeine metabolism, sleep quality, and body type all play a role.",
+      },
+      {
+        q: "Which body type should avoid coffee completely?",
+        a: "Yin Deficient types have the weakest case for coffee, because their system already runs hot and dry, and coffee pushes it further in that direction. Damp Heat and Sensitive types also tend to do poorly. If you belong to one of these, even a small cup may cause palpitations, dryness, irritability, or worse sleep, and a warming or cooling tea may serve you better.",
+      },
+      {
+        q: "Can Yang Deficient people drink coffee every day?",
+        a: "A small cup, early in the day, may be fine for a Yang Deficient constitution, especially in cold weather. Daily heavy coffee is a different story. Three or four cups a day overstimulates even a cold, slow system and tends to create the same exhaustion loop it was meant to solve. Moderation is the part that matters.",
+      },
+      {
+        q: "What is the best coffee alternative for tiredness?",
+        a: "It depends on your body type. For Qi Deficient tiredness, ginger and jujube date tea may offer steadier support. For Yin Deficient fatigue, chrysanthemum tea is gentler on a hot, dry system. For Phlegm Damp heaviness, pu-erh tea is the traditional choice. The right swap is the one that matches your constitution, not the one with the most marketing behind it.",
+      },
+    ],
+  },
 
 ]
