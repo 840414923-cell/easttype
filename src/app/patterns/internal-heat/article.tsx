@@ -2,13 +2,14 @@
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 
 export default function InternalHeatArticle() {
   const slug = "internal-heat"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -29,6 +30,8 @@ export default function InternalHeatArticle() {
           You wake up hot. Your pillow is damp. Your mouth is dry even though you drank water before bed. The room is a normal temperature, but your body feels like it's running a fever from the inside. Not menopause, not infection — just unexplained heat that shows up when the sun goes down.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -200,6 +203,7 @@ export default function InternalHeatArticle() {
       </section>
 
       <FaqSection faqs={PATTERN_FAQS[slug]} />
+      <InlineQuizCta />
       <SymptomCta />
     </main>
   )

@@ -8,7 +8,7 @@ export default function ChineseMedicineForConstipationArticle() {
   const slug = "chinese-medicine-for-constipation"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForConstipationArticle() {
           This excess-versus-deficiency distinction matters because the foods and habits that help one pattern may worsen another. A strongly cooling, moistening approach suited to Heat-type constipation may weaken a Qi-deficient digestive system. A warming, tonifying approach suited to Qi Deficiency may add more heat to an already hot, dry intestine. Knowing your pattern is the first step, and you can begin that exploration with our free <Link href="/quiz" className="text-accent hover:underline">body type quiz</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

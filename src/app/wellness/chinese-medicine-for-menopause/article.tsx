@@ -8,7 +8,7 @@ export default function ChineseMedicineForMenopauseArticle() {
   const slug = "chinese-medicine-for-menopause"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForMenopauseArticle() {
           Chinese medicine frames this entire process as manageable rather than broken. Food choices, calmer daily rhythms, enough rest, and patience are the traditional tools. The heat and dryness tend to soften as the body settles into its new equilibrium. Nothing in the TCM view asks a woman to silently endure severe symptoms, and the approaches below are designed to make the passage smoother.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

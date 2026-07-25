@@ -8,7 +8,7 @@ export default function WhatIsJingArticle() {
   const slug = "what-is-jing"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function WhatIsJingArticle() {
           The second form is Post-Heaven Jing. This is the Jing extracted each day from food, drink, rest, and a balanced life. Because the body can draw on Post-Heaven Jing for its daily needs, it can spare Pre-Heaven Jing from being spent too quickly. A common metaphor compares Pre-Heaven Jing to a trust fund you&apos;re born with, and Post-Heaven Jing to your daily income. The goal of longevity practice in Chinese medicine is to live off the income and protect the trust fund, so the deep reserve lasts as long as possible. To understand how this fits into the broader picture of vital energy, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

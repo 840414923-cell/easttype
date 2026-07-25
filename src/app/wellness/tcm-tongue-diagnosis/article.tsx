@@ -8,7 +8,7 @@ export default function TcmTongueDiagnosisArticle() {
   const slug = "tcm-tongue-diagnosis"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function TcmTongueDiagnosisArticle() {
           The idea is straightforward: your internal organs are connected to your tongue through meridians and blood vessels. When something changes inside your body, whether it is a buildup of heat, a shortage of energy, or excess moisture, those changes show up on the surface of your tongue. Learning to read these signals is like having a dashboard indicator for your internal state.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

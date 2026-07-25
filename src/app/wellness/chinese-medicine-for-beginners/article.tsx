@@ -8,7 +8,7 @@ export default function BeginnersGuideArticle() {
   const slug = "chinese-medicine-for-beginners"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function BeginnersGuideArticle() {
           This guide is written for absolute beginners. No jargon, no theory, no requirements to buy anything. By the end, you will have a simple 7-day plan to start feeling the effects of Chinese medicine through food alone.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

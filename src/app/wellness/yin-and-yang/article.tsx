@@ -8,7 +8,7 @@ export default function YinAndYangArticle() {
   const slug = "yin-and-yang"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function YinAndYangArticle() {
           You do not need to study classical texts to use the idea. Most of it maps onto things you already notice: whether you feel hot or cold, wired or tired, dried out or comfortably moist. Those everyday signals are exactly what Yin and Yang describe.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

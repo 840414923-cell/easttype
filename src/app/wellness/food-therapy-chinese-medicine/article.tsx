@@ -8,7 +8,7 @@ export default function FoodTherapyChineseMedicineArticle() {
   const slug = "food-therapy-chinese-medicine"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function FoodTherapyChineseMedicineArticle() {
           Food therapy also pays close attention to how a meal is prepared. Long, slow cooking tends to make a dish easier on the Spleen, while raw, cold, and deep-fried preparation adds strain. A vegetable steamed until soft carries a gentler effect than the same vegetable blended into an iced drink. Even the order of eating matters to some practitioners, who suggest beginning a meal with something warm and liquid to wake the digestive fire before heavier foods arrive. None of this requires rare ingredients. Most of the work happens with ordinary pantry staples, simply chosen and prepared with the body in mind. For the wider context, see our guide on <Link href="/wellness/what-is-chinese-medicine" className="text-accent hover:underline">what Chinese medicine is</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -2,13 +2,14 @@
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 
 export default function NaturalBalanceArticle() {
   const slug = "natural-balance"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -32,6 +33,8 @@ export default function NaturalBalanceArticle() {
           The Natural Balance pattern is what Chinese medicine calls the baseline. Every other pattern out there, the fatigue, the cold hands, the bloating, the mood swings, they're all deviations from this starting point. If your body is a well-tuned instrument, this is what being perfectly in tune sounds like. Most people aren't, and that's okay. But understanding what balance actually looks like can help you figure out which direction you've drifted.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -210,6 +213,7 @@ export default function NaturalBalanceArticle() {
       </section>
 
       <FaqSection faqs={PATTERN_FAQS[slug]} />
+      <InlineQuizCta />
       <SymptomCta />
     </main>
   )

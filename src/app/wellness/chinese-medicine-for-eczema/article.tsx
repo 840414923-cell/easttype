@@ -8,7 +8,7 @@ export default function ChineseMedicineForEczemaArticle() {
   const slug = "chinese-medicine-for-eczema"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForEczemaArticle() {
           A third pattern is Spleen Deficiency with Dampness, where weak digestion allows dampness to accumulate without the intense heat. This produces eczema that is more swollen, oozing, and sluggish rather than red and hot. A fourth pattern is Kidney Yin Deficiency, where deep cooling reserves run low and the skin becomes chronically dry and thin. Each pattern calls for a different food direction. For a closer look, see our page on <Link href="/symptoms/why-do-i-have-eczema" className="text-accent hover:underline">why eczema happens</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -2,13 +2,14 @@
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 
 export default function DampHeatArticle() {
   const slug = "damp-heat"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -32,6 +33,8 @@ export default function DampHeatArticle() {
           In Traditional Chinese Medicine, this combination of heavy dampness and intense heat is called Damp Heat. Dampness brings that heavy, sticky, oily feeling. Heat brings redness, inflammation, and irritability. Together they create a pattern that can feel like your body is a greenhouse in the middle of summer.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -196,6 +199,7 @@ export default function DampHeatArticle() {
       </section>
 
       <FaqSection faqs={PATTERN_FAQS[slug]} />
+      <InlineQuizCta />
       <SymptomCta />
     </main>
   )

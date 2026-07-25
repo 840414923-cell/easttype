@@ -8,7 +8,7 @@ import InlineQuizCta from "@/components/inline-quiz-cta"
 export default function FoodsForEnergyArticle() {
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -43,6 +43,8 @@ export default function FoodsForEnergyArticle() {
           {"If your Qi (vital energy) is low, you need Qi-boosting foods. If your Yang (warming energy) is low, you need warming foods. If Dampness is weighing you down, you need foods that dry and drain. Eating the wrong foods for your pattern can actually make you MORE tired. It's like putting diesel in a gas engine — the fuel might be \"good,\" but it's wrong for the system."}
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">{"Top 10 Qi-Boosting Foods (Backed by 3,000 Years of Use)"}</h2>

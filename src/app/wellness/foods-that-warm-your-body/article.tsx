@@ -8,7 +8,7 @@ import InlineQuizCta from "@/components/inline-quiz-cta"
 export default function FoodsThatWarmArticle() {
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       {/* Breadcrumb */}
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">
@@ -62,6 +62,8 @@ export default function FoodsThatWarmArticle() {
           {"Think of it this way: some people can eat ice cream in January and feel fine. You? You're the one ordering hot tea in July. That's not a personality trait — that's probably your Yang talking. Or rather, your Yang not talking loud enough."}
         </p>
       </section>
+
+      <InlineQuizCta />
 
       {/* Analogy */}
       <section className="mb-10 bg-cream/40 border border-border rounded-xl p-6">

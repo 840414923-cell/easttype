@@ -8,7 +8,7 @@ export default function ChineseMedicineForMigrainesArticle() {
   const slug = "chinese-medicine-for-migraines"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForMigrainesArticle() {
           A third pattern is Phlegm Dampness obstructing the head. When the Spleen is too weak to transform fluids, dampness accumulates and rises as phlegm to cloud the head. This migraine feels heavy, foggy, and sluggish, often with nausea and a thick tongue coating. A fourth pattern is Kidney Essence Deficiency, where deep reserves run low and the head lacks foundational nourishment. Each pattern calls for a different food direction. For a closer look, see our page on <Link href="/symptoms/why-do-i-have-headaches" className="text-accent hover:underline">why headaches happen</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

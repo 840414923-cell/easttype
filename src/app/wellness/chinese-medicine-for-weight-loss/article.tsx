@@ -8,7 +8,7 @@ export default function ChineseMedicineForWeightLossArticle() {
   const slug = "chinese-medicine-for-weight-loss"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForWeightLossArticle() {
           A few points are worth stating plainly. TCM does not promise rapid weight loss. Food therapy in this tradition is gradual, and changes tend to show up slowly in how the body feels and functions rather than on a scale. The aim is steadier energy, lighter limbs, clearer thinking, and better digestion, with body composition shifting as a secondary effect. Anyone expecting quick results may be disappointed, and anyone looking for gentle, sustained change may find this approach better suited to their body.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

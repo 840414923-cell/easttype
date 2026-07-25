@@ -2,6 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import type { JournalArticle, JournalSection as JSection, JournalRelatedLink } from "@/lib/journal-data"
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -227,7 +228,10 @@ export default function JournalArticleView({ article }: { article: JournalArticl
       </p>
 
       {article.sections.map((section, i) => (
-        <SectionView key={i} section={section} />
+        <div key={i}>
+          <SectionView section={section} />
+          {i === 0 && <InlineQuizCta />}
+        </div>
       ))}
 
       {article.relatedLinks && article.relatedLinks.length > 0 && (

@@ -8,7 +8,7 @@ export default function WhatIsQiArticle() {
   const slug = "what-is-qi"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function WhatIsQiArticle() {
           This guide explains qi in plain English: what it is, how it moves through your body, what happens when it goes wrong, and what you can do about it through food and daily habits.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

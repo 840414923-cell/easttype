@@ -8,7 +8,7 @@ export default function ChineseHerbsForEnergyArticle() {
   const slug = "chinese-herbs-for-energy"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseHerbsForEnergyArticle() {
           One point is worth stating plainly. Herbs are not meant to replace food therapy. A person eating cold, irregular meals while taking ginseng is working against the very system the herb is trying to support. Food comes first, herbs second. If your energy is persistently low, our guide to <Link href="/wellness/chinese-medicine-for-fatigue" className="text-accent hover:underline">Chinese medicine for fatigue</Link> explains how TCM frames the problem, and our page on <Link href="/symptoms/why-am-i-always-tired" className="text-accent hover:underline">why you are always tired</Link> traces the daily signs.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

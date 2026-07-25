@@ -21,7 +21,7 @@ export default function SymptomArticle({ data }: { data: SymptomArticleData }) {
   const faqs = SYMPTOM_FAQS[slug]
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>

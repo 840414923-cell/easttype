@@ -8,7 +8,7 @@ export default function MeridiansChineseMedicineArticle() {
   const slug = "meridians-chinese-medicine"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function MeridiansChineseMedicineArticle() {
           This guide explains what meridians are, how the twelve main channels work, what tends to happen when flow is interrupted, and what you can do day to day to keep them open. None of it requires special equipment, and much of it maps onto habits you already understand, like moving your body, eating warm food, and managing stress.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

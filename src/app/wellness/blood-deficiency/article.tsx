@@ -8,7 +8,7 @@ export default function BloodDeficiencyArticle() {
   const slug = "blood-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function BloodDeficiencyArticle() {
           Women are more prone to Blood Deficiency than men. Each menstrual cycle draws on Blood reserves, and heavy periods can slowly deplete the balance over years. Pregnancy, childbirth, and breastfeeding place further demands on those reserves. This is one reason fatigue, paleness, and poor sleep may show up more often in women, particularly during the reproductive years and around menopause.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

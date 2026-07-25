@@ -8,7 +8,7 @@ export default function ChineseMedicineForAcidRefluxArticle() {
   const slug = "chinese-medicine-for-acid-reflux"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForAcidRefluxArticle() {
           A third pattern is food stagnation, which arises when the system is asked to process more than it can handle at once. Large meals, eating too quickly, or eating late at night can leave food sitting and fermenting in the middle, and the pressure has to escape somewhere, often upward. Each of these patterns produces reflux, yet each calls for a different food direction. Cooling foods suit Stomach Heat, soothing foods suit Liver-driven reflux, and light, easily digested meals suit food stagnation. For a closer look at why this happens, see our page on <Link href="/symptoms/why-do-i-have-acid-reflux" className="text-accent hover:underline">why acid reflux happens</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -8,7 +8,7 @@ export default function KidneyYinDeficiencyArticle() {
   const slug = "kidney-yin-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function KidneyYinDeficiencyArticle() {
           It is important to separate this concept from the Western kidney. In Western medicine, the kidneys are two specific organs that filter waste from the blood. The TCM Kidney is a broader functional system that governs the lower back, the bones, the ears, the hair, reproduction, growth, and aging. This understanding has developed through roughly two thousand years of careful clinical observation. To understand the foundational energy that powers all of this, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -8,7 +8,7 @@ export default function LungQiDeficiencyArticle() {
   const slug = "lung-qi-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function LungQiDeficiencyArticle() {
           Beyond these physical roles, the Lung is tied to a specific emotion. Grief and sadness are the emotions most closely associated with the Lung. Periods of mourning, chronic sorrow, or long-held loss may affect Lung energy, just as strong Lung function helps a person process and release grief. Understanding the Lung this way helps explain why a TCM practitioner asks about your emotional life and your skin alongside your breathing. To go deeper on the core concept, read about <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi is in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

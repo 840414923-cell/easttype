@@ -22,7 +22,7 @@ const TYPE_SUMMARY: Record<ConstitutionId, { en: { name: string; desc: string; k
 export default function BodyTypesArticle() {
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -53,6 +53,8 @@ export default function BodyTypesArticle() {
           {"The thing is, most people don't fit neatly into just one category. You might recognize yourself in 2 or 3 of these types — that's completely normal. One is usually dominant, shaping your baseline tendencies, while others show up as secondary influences. Think of it like a color palette: you have a primary hue, but there are undertones that shift how it appears in different lights."}
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">{"Why 9 Types Matter: More Nuance, Better Guidance"}</h2>

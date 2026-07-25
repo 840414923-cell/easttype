@@ -8,7 +8,7 @@ export default function ChineseFaceMappingArticle() {
   const slug = "chinese-face-mapping"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">&rsaquo;</span>
@@ -42,6 +42,8 @@ export default function ChineseFaceMappingArticle() {
           This is not about replacing your dermatologist. It is about adding a layer of information. Your face may be telling you something about what is happening inside your body, and Chinese medicine has been listening for over two thousand years.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

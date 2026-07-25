@@ -8,7 +8,7 @@ export default function ChineseMedicineForNightSweatsArticle() {
   const slug = "chinese-medicine-for-night-sweats"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForNightSweatsArticle() {
           This is distinct from daytime sweating. Sweating that comes with exertion or during meals may be associated with Qi Deficiency, where the body cannot hold fluids inside its boundaries. The timing, the amount, and the sensations that travel with the sweat help a practitioner tell the patterns apart. Sweating that arrives mainly after sleep, with warmth in the palms and soles and a dry mouth in the morning, leans toward Yin Deficiency. Sweating that appears through the day with tiredness and a pale face leans toward Qi Deficiency. You can read more in our guide on <Link href="/wellness/kidney-yin-deficiency" className="text-accent hover:underline">Kidney Yin Deficiency</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

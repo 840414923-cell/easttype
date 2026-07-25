@@ -8,7 +8,7 @@ export default function StomachHeatArticle() {
   const slug = "stomach-heat"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function StomachHeatArticle() {
           Several factors may fan the flames. A diet heavy in spicy food, alcohol, coffee, and deep-fried or roasted dishes adds constant fuel. Eating very large meals, or going long stretches without food and then overeating, can also strain the system. Emotional stress, especially frustration and anger that is held in rather than expressed, may generate heat through the close relationship between the Liver and the Stomach. It helps to understand that Stomach Heat is not the same thing as stomach acid in Western medicine, even though acid reflux is one of the most common points of overlap. For a broader look at foods that address heat patterns, see our guide on <Link href="/wellness/cooling-foods-chinese-medicine" className="text-accent hover:underline">cooling foods in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

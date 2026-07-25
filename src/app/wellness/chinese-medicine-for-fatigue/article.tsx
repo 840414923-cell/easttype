@@ -8,7 +8,7 @@ export default function ChineseMedicineForFatigueArticle() {
   const slug = "chinese-medicine-for-fatigue"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -54,6 +54,8 @@ export default function ChineseMedicineForFatigueArticle() {
           The central question in TCM is therefore not &quot;how tired are you&quot; but &quot;where is the energy leak?&quot; Is the Spleen failing to produce enough energy from food? Is the Kidney reserve running low after years of overwork? Is the Liver failing to keep energy moving freely? Each answer points to a different path. If you sense your tiredness has a specific texture to it, our page on <Link href="/symptoms/why-am-i-always-tired" className="text-accent hover:underline">why you are always tired</Link> explores how these patterns show up in daily life.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

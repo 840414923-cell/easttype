@@ -8,7 +8,7 @@ export default function LiverQiStagnationArticle() {
   const slug = "liver-qi-stagnation"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function LiverQiStagnationArticle() {
           When Liver Qi becomes stagnant, the effect can feel like a traffic jam in the body&apos;s energy system. Cars back up, tension builds, and nothing moves the way it should. That backed-up pressure may show up as emotional friction, tight muscles, digestive bloating, or painful periods. Liver Qi Stagnation is, at its core, a problem of movement. To understand the foundational energy that gets stuck in this pattern, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

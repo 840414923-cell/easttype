@@ -8,7 +8,7 @@ export default function SpleenDampnessArticle() {
   const slug = "spleen-dampness"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function SpleenDampnessArticle() {
           Dampness rarely stays in one pure form. It can combine with heat to produce Damp Heat, which adds redness, irritation, and strong odors. It can also combine with cold to produce Cold Damp, which adds chill, pallor, and aching. Knowing whether your dampness leans hot or cold matters, because the foods that help are not the same. This page focuses on dampness in its general form and how it connects to Spleen function.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

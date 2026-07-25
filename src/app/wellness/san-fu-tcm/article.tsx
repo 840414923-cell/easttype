@@ -8,7 +8,7 @@ export default function SanFuTcmArticle() {
   const slug = "san-fu-tcm"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -74,6 +74,8 @@ export default function SanFuTcmArticle() {
           Because exact dates shift each year with the stem-branch calendar, it is more useful to think of San Fu as a roughly four-week window in the deepest part of summer rather than a fixed block of calendar days. The practice does not require pinpoint accuracy. What matters is consistency across the window.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

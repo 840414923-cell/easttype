@@ -8,7 +8,7 @@ export default function SpleenQiDeficiencyArticle() {
   const slug = "spleen-qi-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function SpleenQiDeficiencyArticle() {
           Spleen Qi Deficiency simply means this digestive-fire system is running below its optimal capacity. It is not a disease diagnosis. It is a functional pattern that Chinese medicine has observed and addressed for over two thousand years through food therapy, lifestyle adjustments, and herbal support.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

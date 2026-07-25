@@ -8,7 +8,7 @@ export default function ChineseMedicineForHairLossArticle() {
   const slug = "chinese-medicine-for-hair-loss"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForHairLossArticle() {
           A third pattern is Blood Heat, where excess heat in the blood dries and damages the follicles, leading to sudden hair loss with an oily or inflamed scalp. A fourth pattern is Qi and Blood Stagnation, where poor circulation to the scalp starves the follicles. Each pattern calls for a different food direction. For a closer look, see our page on <Link href="/symptoms/why-is-my-hair-falling-out" className="text-accent hover:underline">why your hair may be falling out</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

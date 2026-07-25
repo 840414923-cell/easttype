@@ -8,7 +8,7 @@ export default function ChineseMedicineForTinnitusArticle() {
   const slug = "chinese-medicine-for-tinnitus"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForTinnitusArticle() {
           Because the two directions are almost opposites, one calling for nourishment and the other for clearing, the food approach has to match the pattern. Warming and moistening foods suit a depleted Kidney, while cooling foods suit a hot, rising Liver. The sections below lay out the main patterns, the foods that fit each, and the daily habits that protect the ears over time.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

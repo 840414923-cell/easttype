@@ -8,7 +8,7 @@ export default function WhatIsShenArticle() {
   const slug = "what-is-shen"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function WhatIsShenArticle() {
           The Shen is visible through four traditional windows. The first is sleep quality. A settled Shen sleeps deeply and wakes refreshed. The second is eye brightness. The eyes of someone with strong Shen are clear and responsive. The third is mental clarity, the ability to hold attention and follow a thought without wandering. The fourth is emotional stability, the capacity to feel joy, sadness, and anger without losing the center. When the Shen is disturbed, one or more of these windows dims, and symptoms such as insomnia, anxiety, palpitations, or vivid dreams can appear. The most common underlying patterns are Heart Blood Deficiency, Heart Yin Deficiency, and Heart Fire. To understand the foundational energy that the Heart relies on, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

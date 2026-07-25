@@ -8,7 +8,7 @@ export default function TcmDietArticle() {
   const slug = "tcm-diet"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -49,6 +49,8 @@ export default function TcmDietArticle() {
           Read together, these five principles point to one idea: make digestion easy. The Spleen does not need exotic superfoods. It needs warmth, regularity, and a manageable workload. Most people who shift toward this way of eating notice steadier energy and less bloating within a couple of weeks, simply because the digestive system is no longer fighting cold, irregularity, and excess at every meal. You do not have to apply all five at once. Starting with warm breakfasts and regular meal times is often enough to feel a difference.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

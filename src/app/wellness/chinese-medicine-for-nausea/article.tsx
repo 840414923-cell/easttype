@@ -8,7 +8,7 @@ export default function ChineseMedicineForNauseaArticle() {
   const slug = "chinese-medicine-for-nausea"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForNauseaArticle() {
           Another layer is Phlegm. When the Spleen cannot move fluids cleanly, some of them congeal into a sticky residue that TCM calls Phlegm. Phlegm collects in the Stomach and gives the upward rebellion something solid to push against, which is why some people feel a lump or a wave of stickiness right before the nausea hits. The <Link href="/symptoms/why-do-i-have-nausea" className="text-accent hover:underline">nausea symptom page</Link> walks through how this shows up day to day.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

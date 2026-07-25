@@ -8,7 +8,7 @@ export default function KidneyYangDeficiencyArticle() {
   const slug = "kidney-yang-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function KidneyYangDeficiencyArticle() {
           This is quite different from the Western concept of the kidney. In Western medicine, the kidneys are two specific organs whose main job is filtering waste from the blood. The TCM Kidney is a far broader functional system that governs the lower back, the bones, the ears, the hair, reproduction, growth, and the gradual process of aging. When a Chinese medicine practitioner talks about warming the Kidney, they are not pointing at the two organs alone. They are describing an entire network of warming function. To see how this fits the wider picture of the body&apos;s vital energy, read our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

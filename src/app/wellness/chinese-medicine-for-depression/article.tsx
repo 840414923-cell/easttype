@@ -8,7 +8,7 @@ export default function ChineseMedicineForDepressionArticle() {
   const slug = "chinese-medicine-for-depression"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForDepressionArticle() {
           A third pattern is Kidney Yang Deficiency, where the deepest warming energy of the body runs low. The person loses the will to act, engage, and connect. This is often seen in long-term, deep-seated depression accompanied by coldness, low back weakness, and exhaustion. A fourth pattern is Phlegm Dampness obstructing the mind, where heavy, sticky accumulation clouds thinking and creates a sense of mental heaviness and fogginess. Each pattern calls for a different food and lifestyle direction. For a closer look at the emotional side, see our page on <Link href="/symptoms/why-are-my-moods-all-over-the-place" className="text-accent hover:underline">why your moods may be all over the place</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

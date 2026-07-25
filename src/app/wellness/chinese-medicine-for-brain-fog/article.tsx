@@ -8,7 +8,7 @@ export default function ChineseMedicineForBrainFogArticle() {
   const slug = "chinese-medicine-for-brain-fog"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForBrainFogArticle() {
           The other half is dampness. Dampness is the murky residue that builds when the Spleen cannot process fluids cleanly. It is heavy, sticky, and slow. When it rises toward the head, it is described as clouding the mind. The metaphor is exact: a foggy head in dampness often feels heavy, muzzy, and wrapped in cotton, just like a humid day. This is different from a neurological condition. The fog is a functional drop in clarity, and it tends to shift with food, rest, and weather. For the background idea, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi is</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

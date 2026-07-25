@@ -8,7 +8,7 @@ export default function WhatIsDampnessArticle() {
   const slug = "what-is-dampness"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -39,6 +39,8 @@ export default function WhatIsDampnessArticle() {
           This guide explains what dampness means in Chinese medicine, where it comes from, how it tends to show up in the body, and which foods and habits may help clear it. It is written to stand on its own, and it also connects to a related pattern. When dampness settles specifically around a weak Spleen, the result is Spleen Dampness, which we cover in its own <Link href="/wellness/spleen-dampness" className="text-accent hover:underline">detailed guide</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

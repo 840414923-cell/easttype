@@ -8,7 +8,7 @@ export default function ChineseMedicineForBloatingArticle() {
   const slug = "chinese-medicine-for-bloating"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForBloatingArticle() {
           A third contributor is dampness. When fluids are not moved efficiently, they pool and create a heavy, puffy kind of fullness. A fourth is plain food stagnation from overeating. All four produce a swollen belly, yet they call for different food directions. Warm, cooked, easily digested foods suit a weak Spleen, while moving, aromatic foods suit stuck Liver energy. The key is matching the food to the pattern.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

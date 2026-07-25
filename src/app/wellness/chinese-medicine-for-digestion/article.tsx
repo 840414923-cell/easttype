@@ -8,7 +8,7 @@ export default function ChineseMedicineForDigestionArticle() {
   const slug = "chinese-medicine-for-digestion"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForDigestionArticle() {
           Because the Spleen and Stomach sit at the center, Chinese medicine treats them as the foundation of long term health. Supporting them is rarely about a single herb or superfood. It is more often about consistent habits: warm meals, regular timing, calm eating, and foods matched to your constitution. If you want to see where your own digestion fits into the larger picture, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can be a useful starting point.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

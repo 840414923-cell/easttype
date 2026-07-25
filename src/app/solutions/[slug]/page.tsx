@@ -7,6 +7,7 @@ import { SOLUTIONS, SOLUTION_LIST } from "@/lib/solutions-data"
 import { HERBS } from "@/lib/herbs-data"
 import { buildBreadcrumbJsonLd } from "@/lib/json-ld"
 import { notFound } from "next/navigation"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 const SITE_URL = "https://www.myeasterntype.com"
 
@@ -104,7 +105,7 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
 
       <Nav />
       <main className="flex-1">
-        <article className="max-w-5xl mx-auto px-6 py-12">
+        <article className="max-w-4xl mx-auto px-6 py-12">
 
           {/* Breadcrumb */}
           <nav className="text-xs text-text2/60 mb-8">
@@ -173,6 +174,9 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
               </tbody>
             </table>
           </div>
+
+          {/* Inline quiz CTA - early engagement */}
+          <InlineQuizCta />
 
           {/* TCM vs Modern */}
           <h2 className="font-[family-name:var(--font-display)] text-2xl text-text mb-2 tracking-wide">

@@ -2,13 +2,14 @@
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 
 export default function BloodStasisArticle() {
   const slug = "blood-stasis"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -32,6 +33,8 @@ export default function BloodStasisArticle() {
           In Traditional Chinese Medicine, this slowdown in circulation is called Blood Stasis. It&apos;s not that nothing moves. It&apos;s that things move too slowly, and the areas downstream don&apos;t get the nourishment they need while waste doesn&apos;t clear the way it should. The result is a body that feels sluggish, achy, and prone to spots that just never quite heal right.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -197,6 +200,7 @@ export default function BloodStasisArticle() {
       </section>
 
       <FaqSection faqs={PATTERN_FAQS[slug]} />
+      <InlineQuizCta />
       <SymptomCta />
     </main>
   )

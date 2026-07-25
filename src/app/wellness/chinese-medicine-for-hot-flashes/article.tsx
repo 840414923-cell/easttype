@@ -8,7 +8,7 @@ export default function ChineseMedicineForHotFlashesArticle() {
   const slug = "chinese-medicine-for-hot-flashes"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForHotFlashesArticle() {
           When Kidney Yin thins, as it tends to during the years around midlife, Yang loses its partner and begins to drift upward and outward. The chest, face, and neck feel the surge first. A hot flash can be understood as that unanchored warmth rising quickly to the surface, breaking out as flushing and sweat before it fades. Because the root is a shortage of cooling rather than a surplus of heat, the strategy is not to fight the warmth aggressively. It is to rebuild and protect the cooling reserve so the warming force has something to settle into again. For a deeper look at this pattern, see our guide on <Link href="/wellness/kidney-yin-deficiency" className="text-accent hover:underline">Kidney Yin Deficiency</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

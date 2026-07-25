@@ -2,13 +2,14 @@
 import Link from "next/link"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 import { PATTERN_FAQS } from "@/lib/pattern-faqs"
 
 export default function ColdSensitivityArticle() {
   const slug = "cold-sensitivity"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">›</span>
@@ -35,6 +36,8 @@ export default function ColdSensitivityArticle() {
           In Traditional Chinese Medicine, this pattern of chronic cold sensitivity is called Yang Deficiency. In everyday language, we call it the Cold Sensitivity pattern. Your body has a heating system, but it's running on low power.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">
@@ -198,6 +201,7 @@ export default function ColdSensitivityArticle() {
       </section>
 
       <FaqSection faqs={PATTERN_FAQS[slug]} />
+      <InlineQuizCta />
       <SymptomCta />
     </main>
   )

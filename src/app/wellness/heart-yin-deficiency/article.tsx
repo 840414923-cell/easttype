@@ -8,7 +8,7 @@ export default function HeartYinDeficiencyArticle() {
   const slug = "heart-yin-deficiency"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function HeartYinDeficiencyArticle() {
           The emotion most closely linked to the Heart is joy. In balanced amounts, joy is healthy and enlivening. Excessive excitement, constant overstimulation, or prolonged emotional intensity can also disturb the Heart. This is why a period of emotional upheaval so often precedes the onset of insomnia and palpitations. The Heart is also said to open into the tongue, which is why practitioners examine it so closely. To understand the foundational energy that powers every organ, including the Heart, see our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi means in Chinese medicine</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -8,7 +8,7 @@ export default function ChineseMedicineForAnxietyArticle() {
   const slug = "chinese-medicine-for-anxiety"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -51,6 +51,8 @@ export default function ChineseMedicineForAnxietyArticle() {
           This view differs from Western psychiatry, which tends to focus on neurotransmitters such as serotonin and dopamine. Chinese medicine instead asks which organ system is out of balance and why. Two people with nearly identical symptoms may receive very different guidance once their pattern is identified. If you sense that your thinking never slows down, our page on <Link href="/symptoms/why-do-i-overthink-everything" className="text-accent hover:underline">why you overthink everything</Link> explores this connection.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

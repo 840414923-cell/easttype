@@ -6,6 +6,7 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 import { Nav } from "@/components/nav"
 import { Footer } from "@/components/footer"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 export function generateStaticParams() {
   return Object.keys(HERBS).map((slug) => ({ slug }))
@@ -238,7 +239,7 @@ export default async function HerbDetailPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Nav />
       <main className="flex-1">
-        <div className="max-w-2xl mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto px-6 py-12">
           <nav className="text-xs text-text2/60 mb-8">
             <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
             <span className="mx-1.5">{'>'}</span>
@@ -295,6 +296,8 @@ export default async function HerbDetailPage({
               <p className="text-text leading-relaxed text-[0.95rem]">{herb.quickAnswer}</p>
             </div>
           )}
+
+          <InlineQuizCta />
 
           <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-10">
             <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">

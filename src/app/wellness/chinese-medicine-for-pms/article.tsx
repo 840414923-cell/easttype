@@ -8,7 +8,7 @@ export default function ChineseMedicineForPmsArticle() {
   const slug = "chinese-medicine-for-pms"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -45,6 +45,8 @@ export default function ChineseMedicineForPmsArticle() {
           A third pattern is Cold in the Uterus, where exposure to cold, cold food, or cold environments causes the blood to congeal. This leads to cramping, dark clots, and a feeling of cold in the lower abdomen. A fourth pattern is Kidney Deficiency, where deep reserves are too low to support the hormonal shift, leading to back pain, fatigue, and emotional fragility before the period. Each pattern calls for a different food direction. For a closer look, see our page on <Link href="/symptoms/why-do-i-have-pms" className="text-accent hover:underline">why you have PMS</Link>.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

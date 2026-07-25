@@ -9,6 +9,7 @@ import type { ConstitutionId } from "@/lib/types"
 import { TYPE_DETAILS } from "@/lib/type-details"
 import { PATTERNS } from "@/lib/pattern-data"
 import { SYMPTOMS } from "@/lib/symptoms-data"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 const VALID_IDS = new Set<string>(Object.keys(TYPES))
 
@@ -73,7 +74,7 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
   return (
     <>
       <Nav />
-      <main className="flex-1 max-w-3xl mx-auto px-6 py-16">
+      <main className="flex-1 max-w-4xl mx-auto px-6 py-16">
         <div className="text-center mb-12">
           <div
             className="inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-6"
@@ -112,6 +113,8 @@ export default function TypeDetailClient({ params }: { params: Promise<{ id: str
             {t(detail.essence)}
           </p>
         </section>
+
+        <InlineQuizCta />
 
         {detail.definition && (
           <div className="rounded-xl border border-[rgba(140,45,42,0.15)] bg-[var(--color-card-bg)] p-5 mb-12">

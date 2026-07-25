@@ -7,6 +7,7 @@ import { TYPES } from "@/lib/constitution-data"
 import type { FaqItem } from "@/lib/wellness-faqs"
 import FaqSection from "@/components/faq-section"
 import SymptomCta from "@/components/symptom-cta"
+import InlineQuizCta from "@/components/inline-quiz-cta"
 
 const FOOD_HERB_MAP: Record<string, string> = {}
 Object.values(HERBS).forEach((h) => {
@@ -90,7 +91,7 @@ export default function FoodComboArticle({ slug }: { slug: string }) {
   }))
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-sm text-text2 mb-8 flex items-center gap-2 flex-wrap">
         <Link href="/" className="hover:text-accent transition-colors">EastType</Link>
         <span className="text-text2/40">›</span>
@@ -120,6 +121,8 @@ export default function FoodComboArticle({ slug }: { slug: string }) {
           {page.quickAnswer}
         </p>
       </div>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

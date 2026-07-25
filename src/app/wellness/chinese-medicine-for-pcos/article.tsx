@@ -8,7 +8,7 @@ export default function ChineseMedicineForPcosArticle() {
   const slug = "chinese-medicine-for-pcos"
 
   return (
-    <main className="max-w-2xl mx-auto px-6 py-12">
+    <main className="max-w-4xl mx-auto px-6 py-12">
       <nav className="text-xs text-text2/60 mb-8">
         <Link href="/" className="hover:text-accent transition-colors no-underline text-text2/60">EastType</Link>
         <span className="mx-1.5">{'>'}</span>
@@ -48,6 +48,8 @@ export default function ChineseMedicineForPcosArticle() {
           It helps to be clear about what this framework is and is not. TCM is not a replacement for endocrinology or gynecology, and PCOS is a real metabolic and hormonal condition with long-term health implications. The Chinese medicine lens is complementary. It offers a way to think about why your body responds the way it does, and which foods and habits may gently support it alongside medical care. For a broader look at the most common dampness pattern, our <Link href="/wellness/spleen-dampness" className="text-accent hover:underline">Spleen Dampness guide</Link> covers the underlying mechanism in detail.
         </p>
       </section>
+
+      <InlineQuizCta />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
