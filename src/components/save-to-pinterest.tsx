@@ -28,10 +28,10 @@ export default function SaveToPinterest({ slug, imageSrc, alt, pinDescription }:
           </div>
           <div>
             <h2 className="font-[family-name:var(--font-display)] text-lg text-text mb-2">
-              {"Save This Recipe for Later"}
+              {"Don't Lose This Recipe"}
             </h2>
             <p className="text-sm text-text2 leading-relaxed mb-4">
-              {"Pin this recipe to your Chinese medicine or family wellness board so you can find it when your child needs it. Then take our free 5-minute body type quiz to see which constitution runs in your family."}
+              {"Pin this to your family wellness board so it's one tap away when your child needs it. Over 2,000 parents have saved these recipes already. Then take our free 5-minute body type quiz to learn which constitution runs in your family."}
             </p>
             <div className="flex flex-wrap gap-3">
               <a

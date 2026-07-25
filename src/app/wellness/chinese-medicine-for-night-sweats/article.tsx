@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForNightSweatsArticle() {
   const slug = "chinese-medicine-for-night-sweats"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForNightSweatsArticle() {
           Night sweats in Chinese medicine usually point to Yin Deficiency with empty heat. The body&apos;s cooling reserve runs too low to keep warmth settled at night. As you sleep, that unanchored heat rises and breaks out as sweat. This is different from sweating during the day or from a hot room. Cooling and moistening foods such as black sesame, mulberry, and floating wheat may help rebuild the cooling reserve over time. If this sounds familiar, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can help you check the pattern.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Pattern Causes Your Night Sweats?"
+        branches={[
+          { signal: "Night sweats + dry mouth + flushed cheeks", meaning: "Yin Deficiency with empty heat", approach: "Nourish Yin: lily bulb, goji, wheat tea" },
+          { signal: "Night sweats + irritability + red eyes", meaning: "Liver Fire consuming fluids", approach: "Clear Liver Fire: chrysanthemum, celery, mung bean" },
+          { signal: "Sweats + fatigue + poor appetite", meaning: "Qi Deficiency failing to hold pores", approach: "Boost Qi: astragalus, red dates, rice porridge" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

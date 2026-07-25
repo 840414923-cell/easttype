@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function BloodDeficiencyArticle() {
   const slug = "blood-deficiency"
@@ -30,6 +31,12 @@ export default function BloodDeficiencyArticle() {
           In Chinese medicine, Blood (血) is more than just the red liquid in your veins. It is the nourishing substance that moisturizes the body, grounds the mind, and supports every organ. When Blood is deficient, you may feel dizzy, pale, dry, and ungrounded. Common signs include pale lips and complexion, brittle nails, dry hair and skin, dizziness (especially when standing up quickly), numbness or tingling in the limbs, difficulty falling asleep, and poor memory. Blood-building foods like red dates, goji berries, black sesame, and bone broth may help restore reserves over time. To see whether Blood Deficiency matches your overall constitution, take our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Blood Deficiency"
+        termCn="血虚, xuě xū"
+        text="Blood Deficiency in Chinese medicine means the Blood is not nourishing the body well enough. Blood here is broader than the red fluid measured in a blood test. It carries warmth to the limbs, color to the face, and steadiness to the mind. When Blood runs thin, symptoms that may appear include pale lips, brittle nails, dizziness, dry skin, and a restless mind that struggles to fall asleep. The Liver stores Blood and the Heart governs it, so both organs are often involved."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

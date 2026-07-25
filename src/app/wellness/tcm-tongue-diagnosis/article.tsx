@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function TcmTongueDiagnosisArticle() {
   const slug = "tcm-tongue-diagnosis"
@@ -30,6 +31,12 @@ export default function TcmTongueDiagnosisArticle() {
           In Chinese medicine, the tongue is considered a mirror of internal health. Practitioners examine four features: color (pale, red, or purple), coating (white, yellow, or none), shape (swollen, thin, or teeth-marked), and moisture (dry or wet). Each combination may point to a specific internal pattern, such as qi deficiency, internal heat, or dampness accumulation. Looking at your tongue in the morning, before eating or brushing, can give you clues about which body type you might be.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Tongue Diagnosis"
+        termCn="舌诊, shé zhěn"
+        text="Tongue diagnosis is one of the core examination methods in Chinese medicine. The tongue is read as a map of internal conditions. The color of the tongue body reflects the state of Blood and Qi. A pale tongue may suggest deficiency, a red tongue may signal heat. The coating reveals the condition of the Stomach and the presence of dampness or dryness. The shape, cracks, and the position of any abnormalities all carry meaning. A practitioner examines the tongue in natural light and asks the patient not to brush it beforehand."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

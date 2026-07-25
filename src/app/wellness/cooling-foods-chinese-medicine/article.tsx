@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function CoolingFoodsArticle() {
   const slug = "cooling-foods-chinese-medicine"
@@ -30,6 +31,15 @@ export default function CoolingFoodsArticle() {
           In Chinese medicine, cooling foods may help lower internal heat and restore moisture to the body. They are often suggested for people who tend to feel hot, experience night sweats, have dry skin or mouth, break out frequently, or feel irritable in warm weather. Common cooling foods include mung beans, chrysanthemum tea, pear, lotus root, watermelon, and bitter melon. The existing warming foods page at <Link href="/wellness/foods-that-warm-your-body" className="text-accent hover:underline">/wellness/foods-that-warm-your-body</Link> covers the opposite pattern.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Heat Pattern Needs Cooling?"
+        branches={[
+          { signal: "Red face + thirst + irritability", meaning: "Liver Fire or Stomach Heat rising", approach: "Cool and clear: mung bean, celery, chrysanthemum" },
+          { signal: "Night sweats + dry throat + flushed cheeks", meaning: "Yin Deficiency with empty heat", approach: "Nourish Yin and cool: pear, lily bulb, tremella" },
+          { signal: "Acne + oily skin + heavy feeling", meaning: "Damp-Heat accumulating", approach: "Clear damp heat: coix seed, green tea, bitter gourd" }
+        ]}
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

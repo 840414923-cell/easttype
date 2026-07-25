@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForHotFlashesArticle() {
   const slug = "chinese-medicine-for-hot-flashes"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForHotFlashesArticle() {
           Hot flashes in Chinese medicine are described as &ldquo;empty heat&rdquo; rising upward. When Kidney Yin, the body&apos;s cooling reserve, runs low, the natural warmth within the body has nothing to hold it down. Heat then flares upward suddenly, bringing redness in the face and neck, sweating, and a strong feeling of internal warmth. This is the most common explanation for hot flashes during perimenopause and the years that follow, and the same mechanism can be associated with night sweats and dryness. Cooling and moistening foods such as mung beans, pear, and black sesame may help replenish that cooling reserve over time. If this pattern sounds familiar, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can help confirm it.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Is Driving Your Hot Flashes?"
+        branches={[
+          { signal: "Hot flashes + night sweats + dry mouth", meaning: "Kidney Yin Deficiency, empty heat", approach: "Nourish Yin: lily bulb, goji, black sesame" },
+          { signal: "Hot flashes + irritability + red face", meaning: "Liver Fire flaring upward", approach: "Clear Liver Fire: chrysanthemum, celery, mung bean" },
+          { signal: "Hot flashes + fatigue + cold between flashes", meaning: "Yin and Yang both deficient", approach: "Balance gently: goji, yam, moderate warming foods" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

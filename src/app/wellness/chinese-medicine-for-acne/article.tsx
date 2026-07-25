@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForAcneArticle() {
   const slug = "chinese-medicine-for-acne"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForAcneArticle() {
           In traditional Chinese medicine, acne is often viewed as a sign of internal Heat and Damp-Heat rising to the face. The skin is seen as a mirror of what is happening inside the body, not as an isolated problem on the surface. Red, inflamed, and cystic breakouts may signal Damp-Heat, where sticky warmth becomes trapped and pushes outward through the skin. Greasy, slow-to-clear blemishes may involve Phlegm Damp. Hormonal acne along the jaw line may relate to Kidney and Liver patterns that shift with the menstrual cycle. Rather than focusing only on the surface, this approach looks at the internal environment that may be creating the breakout. Cooling foods such as mung beans, green tea, and cucumber may help address the root from within. You can see whether this fits your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Match Your Acne to Its TCM Pattern"
+        branches={[
+          { signal: "Red, inflamed acne on chin and jaw", meaning: "Damp-Heat in the lower body", approach: "Cooling, damp-draining: green tea, coix seed, celery" },
+          { signal: "Cystic acne with oily skin + heavy periods", meaning: "Blood Heat and Dampness", approach: "Cool blood foods: mung beans, lotus seed, watermelon" },
+          { signal: "Stubborn acne that heals slowly + fatigue", meaning: "Spleen Qi Deficiency with damp", approach: "Strengthen Spleen: yam, porridge, avoid cold raw foods" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

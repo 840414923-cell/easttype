@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function HeartYinDeficiencyArticle() {
   const slug = "heart-yin-deficiency"
@@ -30,6 +31,12 @@ export default function HeartYinDeficiencyArticle() {
           In TCM, the Heart (心) houses the mind, which is called the Shen. Heart Yin is the cooling, moistening blanket that keeps the mind calm and settled. When Heart Yin becomes depleted, a type of empty heat rises and disturbs the Shen. The result may include insomnia (especially difficulty falling asleep), palpitations, anxiety, vivid dreams, night sweats, and a red flushed face. This pattern can be associated with chronic stress, menopause, or prolonged emotional strain. Cooling and calming foods like lotus seed, lily bulb, and wheat may help quiet the mind and rebuild the cooling reserve. You can see whether this matches your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Heart Yin Deficiency"
+        termCn="心阴虚, xīn yīn xū"
+        text="Heart Yin is the cooling, moistening layer of the Heart organ system. Unlike Heart Yang, which provides warmth and drive, Heart Yin keeps the Heart from overheating. When this cooling layer wears thin, empty heat may rise and disturb the Shen, the spirit that the Heart houses. The result can be a mind that races at night, palpitations without exertion, and a flushed feeling in the cheeks or palms. The pattern often develops after prolonged overwork or chronic stress."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

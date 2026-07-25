@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsShenArticle() {
   const slug = "what-is-shen"
@@ -30,6 +31,12 @@ export default function WhatIsShenArticle() {
           Shen (神) is often translated as &quot;spirit&quot; or &quot;mind.&quot; In Chinese medicine, the Heart houses the Shen. When the Shen is calm and well-anchored, you sleep deeply, think clearly, and feel emotionally stable. When the Shen is disturbed, you may experience insomnia, anxiety, vivid dreams, palpitations, and restlessness. Nourishing Heart Blood and Heart Yin through food and lifestyle may help anchor the Shen so the mind can settle. You can explore whether this pattern fits your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Shen (Spirit)"
+        termCn="神, shén"
+        text="Shen is the Chinese medicine concept of the spirit or the conscious awareness that the Heart houses. It is the quality of presence behind clear thinking, restful sleep, and a calm gaze. When the Heart has enough Blood and Yin to anchor it, the Shen stays settled and the mind feels quiet. When the Heart is disturbed by heat or undernourished, the Shen may wander, showing up as insomnia, vivid dreams, anxiety, or a mind that will not slow down at night."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

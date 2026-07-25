@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForAcidRefluxArticle() {
   const slug = "chinese-medicine-for-acid-reflux"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForAcidRefluxArticle() {
           Acid reflux in Chinese medicine is most often understood as Stomach Heat or Liver Fire pushing stomach acid upward when it should flow down. The Stomach is meant to send its contents and energy in a downward direction. When heat reverses that flow, acid rises into the chest and throat. Common signs may include a burning feeling behind the breastbone, a sour or bitter taste, sour burps, a dry mouth, and bad breath. Cooling, moistening foods such as mung beans, pear, and lotus root may help calm stomach fire and ease the upward push. This pattern can be associated with the <Link href="/types/damp_heat" className="text-accent hover:underline">Damp Heat body type</Link>, and you can check your overall constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Acid Reflux Pattern Fits Your Symptoms?"
+        branches={[
+          { signal: "Burning reflux + stress + irritability", meaning: "Stomach Heat flaring upward", approach: "Cooling foods: mung bean, lotus root, cucumber" },
+          { signal: "Sour regurgitation + bloating + fatigue", meaning: "Spleen Qi sinking, Stomach rebelling", approach: "Warm, cooked foods: congee, sweet potato, ginger tea" },
+          { signal: "Dry throat + reflux at night + thirst", meaning: "Stomach Yin Deficiency", approach: "Moistening foods: pear, lily bulb, tremella" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function StomachHeatArticle() {
   const slug = "stomach-heat"
@@ -30,6 +31,12 @@ export default function StomachHeatArticle() {
           Stomach Heat occurs when the digestive fire burns too intensely. Instead of warm, steady processing, the Stomach overheats. The digestive fire, which normally helps break food down, grows excessive and scorches the body&apos;s fluids. Signs may include a burning sensation in the stomach, excessive hunger, foul bad breath, mouth ulcers or canker sores, acid reflux, a strong thirst for cold drinks, and red or swollen gums. This pattern can be associated with too much spicy food, alcohol, barbecue, and emotional stress held in the gut. Cooling foods like mung beans, cucumber, pear, and lotus root may help bring the digestive fire back into balance. You can check whether this fits your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Stomach Heat"
+        termCn="胃热, wèi rè"
+        text="Stomach Heat describes excess fire in the Stomach organ system, often from rich spicy foods, alcohol, or prolonged hunger. The heat speeds up digestion in a way that feels ravenous rather than healthy. The mouth may be dry, the breath sour, the gums swollen or bleeding, and the appetite unusually strong yet unsatisfying. Acid regurgitation and a burning sensation in the stomach area are common. The pattern may also show as constipation with hard dry stools, as the heat dries out the fluids."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

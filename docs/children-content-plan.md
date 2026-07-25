@@ -223,14 +223,14 @@ Update this as we complete each page.
 - [x] 15. `chinese-medicine-for-child-focus` ✅ Done 2026-07-22
 
 ### Day 6
-- [ ] 16. `chinese-medicine-for-child-low-energy`
-- [ ] 17. `chinese-medicine-for-growing-tall`
-- [ ] 18. `chinese-medicine-for-child-bedwetting`
+- [x] 16. `chinese-medicine-for-child-low-energy` ✅ Done 2026-07-25
+- [x] 17. `chinese-medicine-for-growing-tall` ✅ Done 2026-07-25
+- [x] 18. `chinese-medicine-for-child-bedwetting` ✅ Done 2026-07-25
 
 ### Day 7
-- [ ] 19. `chinese-medicine-for-child-allergies`
-- [ ] 20. `chinese-medicine-for-child-eczema`
-- [ ] 21. `chinese-medicine-for-child-immune-system`
+- [x] 19. `chinese-medicine-for-child-allergies` ✅ Done 2026-07-25
+- [x] 20. `chinese-medicine-for-child-eczema` ✅ Done 2026-07-25
+- [x] 21. `chinese-medicine-for-child-immune-system` ✅ Done 2026-07-25
 
 ---
 

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function KidneyYangDeficiencyArticle() {
   const slug = "kidney-yang-deficiency"
@@ -30,6 +31,12 @@ export default function KidneyYangDeficiencyArticle() {
           Kidney Yang is the body&apos;s internal furnace, the warming spark that keeps metabolism moving and tissues properly heated. When Kidney Yang runs low, everything tends to slow down and run cold. Common signs may include feeling chilled, especially through the lower body and core, frequent clear urination that wakes you at night, a dull ache across the low back and knees, deep fatigue, a drop in libido, and loose stools that can appear first thing in the morning. This pattern overlaps heavily with the Yang Deficient body type. Warming foods such as lamb, walnuts, and cinnamon may help replenish the inner furnace over time. To see whether this matches your constitution, try our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Kidney Yang Deficiency"
+        termCn="肾阳虚, shèn yáng xū"
+        text="If Kidney Yin is the oil in the lamp, Kidney Yang is the flame. Kidney Yang is the warming, activating fire at the base of the body. It keeps the lower back strong, the legs warm, and the metabolism steady. When this fire dims, coldness may settle in the lower body, the lower back may feel weak and achy, and energy may drop through the morning. Frequent clear urination and a tendency to feel chilled are common signs. The pattern is often linked to aging, chronic illness, or prolonged exposure to cold."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

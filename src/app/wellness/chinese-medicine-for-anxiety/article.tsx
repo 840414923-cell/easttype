@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForAnxietyArticle() {
   const slug = "chinese-medicine-for-anxiety"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForAnxietyArticle() {
           Chinese medicine does not treat anxiety as one uniform condition. The underlying pattern matters. When anxiety comes with irritability, sighing, and chest tightness, it may point to Liver Qi Stagnation. When it arrives with palpitations, night sweats, and a racing mind at night, Heart Yin Deficiency may be involved. Each pattern calls for different foods and habits. Chinese medicine works to restore internal balance rather than suppress symptoms alone. This approach may complement, but does not replace, professional mental health care.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Anxiety Pattern Sounds Like You?"
+        branches={[
+          { signal: "Chest tightness, sighing, irritability", meaning: "Liver Qi Stagnation blocking flow", approach: "Move Qi: chrysanthemum tea, citrus, daily walking" },
+          { signal: "Palpitations, racing mind at night, night sweats", meaning: "Heart Yin Deficiency with empty heat", approach: "Nourish Heart Yin: lily bulb, lotus seed, wheat tea" },
+          { signal: "Worry, overthinking, fatigue after meals", meaning: "Heart and Spleen Blood Deficiency", approach: "Build Blood: red dates, longan, goji berries" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

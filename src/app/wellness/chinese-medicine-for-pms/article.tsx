@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForPmsArticle() {
   const slug = "chinese-medicine-for-pms"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForPmsArticle() {
           PMS in Chinese medicine is most often understood as Liver Qi Stagnation. The Liver governs the smooth flow of energy and emotion, and it is the organ most sensitive to stress and frustration. Before menstruation, energy and blood gather in the lower abdomen, and if Liver Qi is already stuck, this gathering creates pressure that manifests as irritability, breast tenderness, bloating, and mood swings. Other patterns include Blood Deficiency, where the body lacks the reserves to handle the premenstrual drop in blood, and Cold in the Uterus, which causes cramping and dark clots. Moving foods like rose tea and tangerine peel may help stuck patterns, while nourishing foods like jujube and dong quai may help deficient ones. This pattern can be associated with the <Link href="/types/qi_stagnant" className="text-accent hover:underline">Qi Stagnant body type</Link>, and you can check your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which PMS Pattern Do You Experience?"
+        branches={[
+          { signal: "Irritability + breast tenderness + mood swings", meaning: "Liver Qi Stagnation before period", approach: "Soothe Liver: rose tea, citrus, mint" },
+          { signal: "Cravings + bloating + fatigue before period", meaning: "Spleen Deficiency with damp", approach: "Strengthen Spleen: yam, porridge, limit sweets" },
+          { signal: "Headaches + dizziness + pale face", meaning: "Blood Deficiency, Liver undernourished", approach: "Build Blood: red dates, black sesame, goji" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

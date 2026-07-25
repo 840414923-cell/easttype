@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForDepressionArticle() {
   const slug = "chinese-medicine-for-depression"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForDepressionArticle() {
           Depression in Chinese medicine is not seen as a single brain disorder. It is viewed as a signal that the body&apos;s energy has become stuck, depleted, or clouded. The most common pattern is Liver Qi Stagnation, where frustration and suppressed emotion trap energy in the chest, creating a heavy, unmoving feeling. Other patterns include Spleen Qi and Blood Deficiency, where the body is too depleted to sustain emotional stability, and Kidney Yang Deficiency, where deep exhaustion drains the will to engage with life. Moving foods like rose tea and tangerine peel may help stuck patterns, while nourishing foods like jujube and longan may help depleted ones. This pattern can be associated with the <Link href="/types/qi_stagnant" className="text-accent hover:underline">Qi Stagnant body type</Link>, and you can check your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which TCM Pattern Matches Your Low Mood?"
+        branches={[
+          { signal: "Flat mood + chest tightness + frequent sighing", meaning: "Liver Qi Stagnation, emotions stuck", approach: "Move Qi: rose tea, citrus, daily outdoor walking" },
+          { signal: "Low mood + poor appetite + fatigue", meaning: "Spleen Qi Deficiency, low fuel", approach: "Strengthen Spleen: congee, yam, warm cooked meals" },
+          { signal: "Depression + fear + lower back weakness", meaning: "Kidney Yang Deficiency, low fire", approach: "Warm Yang: walnuts, lamb, dark sesame" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

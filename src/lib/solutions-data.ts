@@ -35,6 +35,7 @@ export interface Solution {
   metaDescription: string
   heroImage: string
   intro: string
+  quickAnswer?: string
   tcmVsModern: {
     aspect: string
     westernView: string
@@ -60,6 +61,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese medicine herbal tea formulas for weight loss, each suited to a different body type. Learn why TCM sees weight differently and find your match.",
     heroImage: "/images/solutions/weight-loss-hero.png",
     intro: "Chinese medicine approaches weight loss by restoring your body's natural fluid metabolism rather than restricting calories. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of weight gain.",
+    quickAnswer: "In Chinese medicine, stubborn weight gain is most often linked to Phlegm Damp, a pattern where the Spleen cannot clear fluids efficiently and dampness collects as soft, puffy tissue rather than lean mass. Around half of people whose weight resists calorie restriction fit this body type, which tends to feel heavy and oily and worsens in humid weather. Two other patterns can also be associated with weight struggles: Spleen Qi Deficient, where weak digestion stores what it cannot process, and Qi Stagnant, where stress-driven eating blocks metabolic flow. Each pattern may respond to a different food-grade herbal tea. Matching the formula to your body type, instead of forcing one approach on everyone, is the core idea behind this guide.",
     tcmVsModern: [
       {
         aspect: "Root cause of weight gain",
@@ -331,6 +333,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese medicine herbal tea formulas for chronic fatigue and low energy, each suited to a different body type. Learn why TCM sees tiredness differently and find your match.",
     heroImage: "/images/solutions/hair-loss-hero.jpg",
     intro: "Chinese medicine does not treat fatigue with stimulants. Instead, it identifies which type of energy your body is lacking and uses specific herbs to rebuild it. Three common body types may respond to different herbal tea formulas, each targeting a distinct root cause of chronic tiredness.",
+    quickAnswer: "The most common TCM pattern behind chronic low energy is Qi Deficient, where the Spleen cannot generate enough usable energy from food and you feel tired no matter how much you rest or eat. This body type often comes with bloating after meals, a soft voice, and easy sweating. Two more patterns can also be associated with fatigue: Yang Deficient, where low internal fire leaves you tired and cold at the same time, and Yin Deficient, where internal heat burns through your reserves and leaves you wired but exhausted. Each pattern may respond to a different food-grade herbal tea that rebuilds the specific energy system involved. Identifying which system is depleted is the fastest way to choose the right formula.",
     tcmVsModern: [
       { aspect: "Root cause of fatigue", westernView: "Poor sleep, nutrient deficiencies, thyroid imbalance, or stress", tcmView: "Qi Deficiency, Yang Deficiency, or Yin Deficiency depending on which energy system is depleted" },
       { aspect: "View of energy", westernView: "Calories converted to ATP through cellular metabolism", tcmView: "Qi is the vital force that powers digestion, circulation, and thinking. It must be generated daily from food and rest" },
@@ -508,6 +511,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese medicine herbal tea formulas for insomnia and poor sleep, each suited to a different body type. Learn why TCM sees sleep differently and find your match.",
     heroImage: "/images/solutions/sleep-hero.png",
     intro: "Chinese medicine does not sedate the mind into sleep. Instead, it asks why the mind refuses to settle. Three common body types may struggle with sleep for completely different reasons, and each requires a different herbal approach.",
+    quickAnswer: "About 40 percent of people with persistent insomnia fit the Qi Deficient body type, where the Spleen cannot produce enough Blood to anchor the Heart and the mind keeps spinning even when the body is exhausted. This pattern tends to involve falling asleep fine but waking at 2 or 3 AM with racing thoughts. Poor sleep can also stem from two other patterns: Yin Deficient, where a lack of cooling fluid lets internal heat keep you hot and restless, and Qi Stagnant, where stress and frustration block the unwind process. Each pattern may respond to a different food-grade herbal tea that settles the specific organ system involved. Matching the tea to why you cannot sleep matters more than forcing the same herb on everyone.",
     tcmVsModern: [
       { aspect: "Root cause of insomnia", westernView: "Stress, anxiety, poor sleep hygiene, or melatonin imbalance", tcmView: "Heart-Spleen deficiency, Heart-Kidney disharmony, or Liver fire depending on which organ system is out of balance" },
       { aspect: "View of sleep", westernView: "A neurological state driven by circadian rhythms and neurotransmitters", tcmView: "When Yang energy naturally descends and Yin energy rises, the mind settles. Insomnia means this transition is blocked" },
@@ -685,6 +689,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese medicine herbal tea formulas for bloating, indigestion, and weak digestion, each suited to a different body type. Learn why TCM sees digestion differently and find your match.",
     heroImage: "/images/solutions/acne-hero.jpg",
     intro: "Chinese medicine sees the digestive system as a cooking pot. If the fire under the pot is too weak, food sits and ferments. If the pot is too hot, fluids dry up. If the flow is stuck, pressure builds. Three common body types need three completely different approaches to digestion.",
+    quickAnswer: "Spleen Qi Deficient is the primary TCM explanation for bloating and tiredness after meals, where the digestive fire runs too low to process food and what you eat sits, ferments, and produces gas. This body type often craves sweets, has loose stools, and feels full quickly. Digestive trouble can also arise from two other patterns: Yin Deficient, where the stomach lining loses its protective moisture and reacts with acid reflux and dryness, and Qi Stagnant, where stress pushes stuck energy sideways into the stomach and causes bloating that shifts location. Each pattern may respond to a different food-grade herbal tea that supports the specific weakness involved. Strengthening the right system, rather than suppressing every symptom the same way, is what makes the difference.",
     tcmVsModern: [
       { aspect: "Root cause of indigestion", westernView: "Acid reflux, H. pylori, food intolerances, or stress", tcmView: "Spleen Qi deficiency, Stomach heat, or Liver Qi invading the Stomach depending on the pattern" },
       { aspect: "View of digestion", westernView: "Mechanical breakdown of food by stomach acid and enzymes", tcmView: "The Spleen transforms food into Qi and Blood using digestive fire. The Stomach receives and breaks down. They must work together" },
@@ -864,6 +869,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese medicine herbal tea formulas for anxiety and stress, each suited to a different body type. Learn why TCM sees anxiety differently and find your match.",
     heroImage: "/images/solutions/pms-hero.jpg",
     intro: "Chinese medicine does not see anxiety as a disorder of the brain alone. It sees it as a signal that the body's internal flow is stuck, overheating, or too depleted to anchor the mind. Three common body types may experience anxiety for completely different reasons, and each responds to a different herbal approach.",
+    quickAnswer: "When anxiety persists despite breathing exercises and rest, TCM points to Liver Qi Stagnant, a pattern where frustration and stress trap energy in the chest and generate internal heat that disturbs the Heart. This body type often feels chest tightness, frequent sighing, and irritability that rises and falls with stress. Anxiety can also come from two other patterns: Yin Deficient, where a lack of cooling reserve lets internal heat keep the mind racing and restless, and Qi Deficient, where the Spleen cannot produce enough Blood to anchor the mind and worry loops on low energy. Each pattern may respond to a different food-grade herbal tea that eases the specific imbalance involved. Reading which system is out of flow, instead of approaching every case the same way, guides the right choice.",
     tcmVsModern: [
       { aspect: "Root cause of anxiety", westernView: "Neurochemical imbalance, particularly serotonin and GABA dysfunction", tcmView: "Liver Qi stagnation, Heart Yin deficiency, or Spleen Qi deficiency depending on which organ system fails to anchor the spirit" },
       { aspect: "View of the mind", westernView: "Anxiety originates in the brain and is treated psychologically", tcmView: "The mind is housed in the Heart. When the Heart lacks nourishment or is disturbed by heat or stagnation, anxiety appears" },
@@ -1042,6 +1048,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese herbal tea formulas for acne, each suited to a different body type. Learn why TCM sees skin breakouts as internal heat and find your match.",
     heroImage: "/images/solutions/acne-hero.jpg",
     intro: "Chinese medicine views acne not as a surface problem but as a sign of internal heat and dampness rising to the skin. Where Western dermatology focuses on pores and bacteria, TCM asks why the body is pushing heat upward in the first place. Three common body type patterns may contribute to persistent breakouts, and each responds to a different combination of cooling and blood-moving herbs.",
+    quickAnswer: "Chinese medicine identifies three distinct patterns behind persistent acne, and Damp Heat is the most common of them. In this pattern, heat and sticky dampness accumulate inside and push upward through the skin as red, inflamed, oily breakouts that worsen in humid weather. Acne can also arise from Blood Stasis, where sluggish circulation leaves deep, purplish cysts and dark marks that linger, and Qi Stagnant, where stress-driven heat flares along the jaw and chin before exams or deadlines. Each pattern may respond to a different food-grade herbal tea that clears, moves, or cools the specific internal cause. Reading which pattern sits behind your breakouts, instead of drying the surface the same way every time, is what guides the right formula.",
     tcmVsModern: [
       {
         aspect: "Root cause of acne",
@@ -1231,6 +1238,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese herbal tea formulas for PMS symptoms, each matched to a different body type. Learn why TCM links premenstrual tension to liver qi and find your formula.",
     heroImage: "/images/solutions/pms-hero.jpg",
     intro: "In Chinese medicine, the premenstrual phase is governed by the Liver, which ensures the smooth flow of qi and blood. When liver qi stagnates in the days before menstruation, it produces the familiar cluster of PMS symptoms: mood swings, breast tenderness, bloating, and irritability. Three body type patterns underlie these symptoms, and each responds to different herbs that move qi and nourish blood.",
+    quickAnswer: "In Chinese medicine, PMS is most often linked to Liver Qi Stagnant, a pattern where the smooth flow of energy and blood slows in the days before menstruation and produces mood swings, breast tenderness, and irritability that ease once the period begins. This is the most common body type behind premenstrual tension. PMS can also stem from Blood Deficient, where low reserves leave you dizzy, pale, and drained rather than irritable, and Blood Stasis, where blood that cannot flow freely causes sharp lower abdominal pain with dark clots. Each pattern may respond to a different food-grade herbal tea that moves, nourishes, or warms the specific imbalance involved. Timing the tea to the days before your period, matched to your pattern, is the core idea behind this guide.",
     tcmVsModern: [
       {
         aspect: "Root cause of PMS",
@@ -1419,6 +1427,7 @@ export const SOLUTIONS: Record<string, Solution> = {
     metaDescription: "Three Chinese herbal tea formulas for hair health, each matched to a different body type. Learn why TCM connects hair to kidney essence and blood, and find your formula.",
     heroImage: "/images/solutions/hair-loss-hero.jpg",
     intro: "Chinese medicine sees hair as an extension of the Kidneys and Blood. When kidney essence declines through stress, aging, or overwork, the hair loses its nourishment from within. Unlike topical treatments that work on the scalp surface, TCM herbs work from the inside, rebuilding the deep reserves that feed the hair. Three body type patterns contribute to hair thinning, and each responds to different nourishing herbs.",
+    quickAnswer: "The most common TCM pattern behind hair thinning is Kidney Yin Deficient, where the cooling, moistening reserve that feeds the hair from within runs low through chronic stress, poor sleep, or overwork, and the hair turns dry and brittle before it falls. This body type often comes with night sweats, dry skin, and a feeling of internal heat. Hair loss can also arise from Blood Deficient, where low blood fails to nourish the follicles and leaves hair thin, fine, and slow-growing, and Qi Deficient, where chronic fatigue shifts the body into conservation mode and cuts non-essential growth. Each pattern may respond to a different food-grade herbal tea that rebuilds the specific reserve involved. Nourishing the right system from within, rather than working only on the scalp, is the core idea.",
     tcmVsModern: [
       {
         aspect: "Root cause of hair loss",

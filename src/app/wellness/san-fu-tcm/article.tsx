@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function SanFuTcmArticle() {
   const slug = "san-fu-tcm"
@@ -30,6 +31,15 @@ export default function SanFuTcmArticle() {
           San Fu (三伏) is the hottest 30 to 40 day stretch of summer, split into three periods known as First Fu, Middle Fu, and Last Fu. In Chinese medicine, this window matters because yang energy peaks at the body&apos;s surface while the deeper organs stay surprisingly cool. The traditional practice of &quot;winter disease, summer support&quot; (冬病夏治) uses this moment to address cold-type patterns such as winter coughs, cold limbs, and yang deficiency through specific warming foods, daily habits, and, in clinics, herbal patches placed on points of the back. This guide covers the principles anyone can apply at home.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Winter Pattern Should You Prepare For?"
+        branches={[
+          { signal: "Winter colds + weak lungs + easy sweating", meaning: "Lung Qi Deficiency, weak defense", approach: "Strengthen Lungs in summer: astragalus, lily, jujube" },
+          { signal: "Cold limbs + lower back ache in winter", meaning: "Kidney Yang Deficiency, low fire", approach: "Warm Yang in summer: lamb, walnuts, cinnamon" },
+          { signal: "Winter phlegm + heavy limbs + sluggish", meaning: "Spleen Dampness, cold accumulating", approach: "Drain damp in summer: coix seed, white radish, ginger" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

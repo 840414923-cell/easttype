@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForTinnitusArticle() {
   const slug = "chinese-medicine-for-tinnitus"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForTinnitusArticle() {
           TCM connects tinnitus to two main organ systems. The Kidneys are said to open into the ears, so chronic, slow, low-pitched ringing often points to Kidney Yin or Yang deficiency, especially when it comes with aging, fatigue, or lower back weakness. Sudden, loud, high-pitched ringing usually signals excess heat, typically Liver Fire rising upward. The approach depends on the pattern: nourishing foods like black sesame, walnuts, and goji berries for deficiency, and cooling foods like chrysanthemum tea and celery for heat. This kind of ringing can be associated with the <Link href="/types/yin_deficient" className="text-accent hover:underline">Yin Deficient body type</Link>, and you can check your overall constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Pattern Is Behind Your Tinnitus?"
+        branches={[
+          { signal: "Loud ringing + red face + irritability", meaning: "Liver Fire rising to the ears", approach: "Clear Liver Fire: chrysanthemum, celery, mung bean" },
+          { signal: "Faint ringing + dizziness + lower back ache", meaning: "Kidney Yin Deficiency, ears undernourished", approach: "Nourish Kidney: goji, mulberry, black sesame" },
+          { signal: "Ringing + phlegm + heaviness in head", meaning: "Phlegm-Damp blocking the ears", approach: "Clear damp: coix seed, tangerine peel, white radish" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsQiArticle() {
   const slug = "what-is-qi"
@@ -30,6 +31,12 @@ export default function WhatIsQiArticle() {
           Qi (pronounced &quot;chee,&quot; also spelled chi) is the Chinese medicine concept of vital energy that flows through your body along specific pathways called meridians. It may power every function: digestion, breathing, thinking, moving, and recovery. When qi is strong and flowing smoothly, you may feel energized and balanced. When qi is weak or stuck, symptoms that may appear include fatigue, bloating, pain, mood swings, or poor sleep.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Qi (Vital Energy)"
+        termCn="气, qì"
+        text="Qi is the animating energy of life in Chinese medicine. It powers every function the body performs: breathing, digesting, thinking, moving, and recovering from illness. Qi is not a mystical concept but a practical one. It flows through twelve primary pathways called meridians, and when it moves freely the body feels energized and balanced. When Qi is weak, stuck, or flowing in the wrong direction, symptoms that may appear include fatigue, pain, bloating, mood shifts, or poor sleep."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

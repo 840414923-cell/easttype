@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForWeightLossArticle() {
   const slug = "chinese-medicine-for-weight-loss"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForWeightLossArticle() {
           Chinese medicine does not view all weight gain the same way. The most common pattern is Spleen Dampness, where weak digestion creates heavy, sticky deposits that the body cannot easily clear. Other patterns can be associated with cold and sluggish function (Yang Deficiency) or with stress-driven eating and bloating that shifts with mood (Qi Stagnation). Each pattern may call for a different combination of warming, draining, or moving foods. Addressing the underlying pattern may support healthy weight management more effectively than generic calorie restriction alone. TCM does not promise rapid weight loss, and changes tend to appear gradually over weeks or months rather than overnight. If you are unsure which pattern fits you, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> may help point you in the right direction.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Pattern Blocks Healthy Weight Balance?"
+        branches={[
+          { signal: "Heavy body + sluggish + sticky tongue coat", meaning: "Spleen Dampness, slow metabolism", approach: "Drain damp: coix seed, adzuki bean, hawthorn" },
+          { signal: "Cravings + fatigue + cold limbs", meaning: "Spleen and Kidney Yang Deficiency", approach: "Warm and strengthen: ginger, yam, lamb" },
+          { signal: "Irritable + chest tightness + stress eating", meaning: "Liver Qi Stagnation affecting digestion", approach: "Move Qi: rose tea, citrus, mint" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

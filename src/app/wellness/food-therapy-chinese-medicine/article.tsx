@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function FoodTherapyChineseMedicineArticle() {
   const slug = "food-therapy-chinese-medicine"
@@ -30,6 +31,15 @@ export default function FoodTherapyChineseMedicineArticle() {
           Food therapy, known as Shi Liao, is the oldest and most accessible branch of Chinese medicine. Before herbs or acupuncture, there is food. The principle is simple: every food has energetic properties, such as warming, cooling, moistening, or drying, that affect the body. Choosing the right foods for your constitution and condition may help prevent and ease imbalances over time. This guide covers the core principles, how foods are classified, and how to start. If you want personal direction, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can point you to the foods that suit you.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Imbalance Should Your Diet Address First?"
+        branches={[
+          { signal: "Fatigue + bloating + sweet cravings", meaning: "Spleen Qi Deficiency, digestion weak", approach: "Warm, simple, cooked: congee, yam, ginger" },
+          { signal: "Irritable + chest tightness + stress", meaning: "Liver Qi Stagnation, flow blocked", approach: "Move Qi with food: citrus, mint, rose tea" },
+          { signal: "Dry skin + thirst + night sweats", meaning: "Yin Deficiency, fluids low", approach: "Moisten and cool: pear, lily bulb, black sesame" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

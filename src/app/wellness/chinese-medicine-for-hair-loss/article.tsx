@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForHairLossArticle() {
   const slug = "chinese-medicine-for-hair-loss"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForHairLossArticle() {
           Hair loss in Chinese medicine is most often traced to the Kidneys and the Blood. The Kidneys store Essence, which produces marrow and nourishes the hair. The Liver stores Blood, and Blood circulates to the scalp to feed each follicle. When Kidney Essence is depleted by overwork, aging, or chronic stress, or when Blood is low from poor digestion or heavy menstruation, the hair loses its nourishment and begins to thin and fall. Nourishing foods such as black sesame, goji berries, and walnuts may help rebuild the reserves that support healthy hair. This pattern can be associated with the <Link href="/types/qi_deficient" className="text-accent hover:underline">Qi Deficient body type</Link>, and you can check your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Pattern Is Behind Your Hair Loss?"
+        branches={[
+          { signal: "Thinning + dry scalp + brittle nails", meaning: "Blood Deficiency, follicles starved", approach: "Nourish Blood: black sesame, goji, red dates" },
+          { signal: "Hair loss + lower back ache + graying", meaning: "Kidney Jing Deficiency, root weakened", approach: "Nourish Kidney: walnuts, black beans, mulberry" },
+          { signal: "Oily scalp + hair falls in clumps", meaning: "Damp-Heat rising to the scalp", approach: "Clear damp heat: coix seed, green tea, mung bean" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

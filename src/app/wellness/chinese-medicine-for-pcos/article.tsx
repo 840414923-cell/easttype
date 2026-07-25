@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForPcosArticle() {
   const slug = "chinese-medicine-for-pcos"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForPcosArticle() {
           In Chinese medicine, PCOS is most often associated with a <Link href="/types/phlegm_damp" className="text-accent hover:underline">Phlegm Dampness pattern</Link>. The Spleen, which is responsible for metabolizing fluids, is too weak to keep up, and the unprocessed fluids settle as sticky deposits that may affect the reproductive system. The signs that show up most often are irregular or absent periods, weight that is hard to lose, acne along the jawline, and excess facial or body hair. Kidney and Liver patterns are usually involved as well, since the Kidney governs reproduction and the Liver keeps energy moving. Foods that drain dampness, such as adzuki beans and coix seed, along with foods that move Qi, such as celery and mint, may help support the body alongside medical treatment. TCM does not replace endocrinology care, but it may offer a useful complementary lens.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which PCOS Pattern Fits Your Body?"
+        branches={[
+          { signal: "Weight gain + acne + irregular periods", meaning: "Damp-Heat and Phlegm accumulation", approach: "Clear damp heat: coix seed, celery, green tea" },
+          { signal: "Irregular periods + mood swings + breast tenderness", meaning: "Liver Qi Stagnation affecting flow", approach: "Move Qi: rose tea, citrus, mint" },
+          { signal: "Scanty periods + cold limbs + lower back ache", meaning: "Kidney Yang Deficiency, cold uterus", approach: "Warm Yang: walnuts, ginger, cinnamon" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

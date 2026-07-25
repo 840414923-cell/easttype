@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForMigrainesArticle() {
   const slug = "chinese-medicine-for-migraines"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForMigrainesArticle() {
           Migraines in Chinese medicine are most often understood as Liver Fire or Liver Yang rising upward to disturb the head. The Liver governs the smooth flow of energy, and when frustration, stress, or repressed emotion cause that energy to stagnate and ignite, heat rises to the head and produces the throbbing, intense pain of a migraine. Other patterns include Blood Deficiency, where the head lacks nourishment, and Phlegm Dampness, where heavy accumulation clouds the head. Cooling foods such as chrysanthemum and mung beans may help clear liver heat, while nourishing foods like goji and black sesame may help blood-deficient types. This pattern can be associated with the <Link href="/types/qi_stagnant" className="text-accent hover:underline">Qi Stagnant body type</Link>, and you can check your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Match Your Migraine to Its TCM Pattern"
+        branches={[
+          { signal: "Throbbing temples + red face + irritability", meaning: "Liver Yang Rising to the head", approach: "Anchor and cool: celery, chrysanthemum, mung bean" },
+          { signal: "Dull headache + fatigue + pale face", meaning: "Blood Deficiency, brain undernourished", approach: "Build Blood: red dates, black sesame, goji" },
+          { signal: "Heavy head + nausea + thick tongue coat", meaning: "Phlegm-Damp clouding the head", approach: "Clear damp: coix seed, tangerine peel, white radish" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

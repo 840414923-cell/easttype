@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForDigestionArticle() {
   const slug = "chinese-medicine-for-digestion"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForDigestionArticle() {
           In Chinese medicine, digestion is the responsibility of the Spleen and Stomach, which work as a pair. The Stomach receives food, and the Spleen refines it into the energy and blood that fuel the rest of the body. When this pair works well, eating leaves you light and steady. When the system is weak, you may notice bloating, gas, fullness after small meals, irregular bowel movements, and a heavy tiredness that sets in shortly after eating. The most common pattern behind these signs is Spleen Qi Deficiency, where the digestive fire simply lacks the strength to process meals efficiently. Warm, cooked, easily digested foods like rice congee and ginger tea may help restore comfortable, regular digestion over time, while cool, raw, and icy foods tend to add to the burden.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Is Weakening Your Digestion?"
+        branches={[
+          { signal: "Bloating + fatigue + loose stools", meaning: "Spleen Qi Deficiency, poor transformation", approach: "Warm, simple meals: congee, ginger, yam" },
+          { signal: "Heartburn + thirst + sour breath", meaning: "Stomach Heat, excess fire", approach: "Cool the stomach: mung bean, lotus root, cucumber" },
+          { signal: "Sluggish + heavy + sticky tongue coat", meaning: "Dampness blocking the middle", approach: "Drain damp: coix seed, adzuki bean, cardamom" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

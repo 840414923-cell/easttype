@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function EasternVsWesternArticle() {
   const slug = "eastern-vs-western-medicine"
@@ -30,6 +31,11 @@ export default function EasternVsWesternArticle() {
           Western medicine identifies diseases and targets them with specific treatments: drugs, surgery, or therapy. Eastern medicine (Chinese medicine) identifies patterns of imbalance in the whole person and uses food, herbs, acupuncture, and lifestyle adjustments to restore balance. Western medicine excels at acute conditions, infections, and structural problems. Eastern medicine excels at chronic conditions, functional complaints, and symptoms that do not show up on lab tests. They work best together, not against each other.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Eastern and Western Medicine"
+        text="Eastern and Western medicine approach the body from different angles. Western medicine excels at acute care, precise diagnosis through lab tests and imaging, and targeted intervention through surgery or medication. Chinese medicine excels at pattern recognition, looking at how symptoms cluster and relate to lifestyle, emotion, and environment. Where Western medicine asks what is the disease, Chinese medicine asks which pattern is out of balance. The two systems are complementary rather than competing, and many patients benefit from using both."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function TcmBodyClockArticle() {
   const slug = "tcm-body-clock"
@@ -30,6 +31,12 @@ export default function TcmBodyClockArticle() {
           Chinese medicine divides the 24-hour day into twelve 2-hour blocks, each governed by a specific organ system. During its time block, that organ receives maximum energy flow for maintenance and repair. If you wake up at the same time every night, feel sluggish at particular hours, or crave food at odd times, your body clock may be out of sync. The most well-known example is waking between 1 AM and 3 AM, which corresponds to the Liver meridian.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Chinese Body Clock"
+        termCn="子午流注, zǐ wǔ liú zhù"
+        text="The Chinese body clock maps the twenty four hour day into twelve two hour windows, each governed by a specific organ meridian. During its window, an organ Qi peaks and it works hardest. The Liver peaks from 1 to 3 AM, the Large Intestine from 5 to 7 AM, the Stomach from 7 to 9 AM. This is why waking at the same hour each night may point to a specific organ system. The clock also identifies a low period for each organ, when it rests and restores."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

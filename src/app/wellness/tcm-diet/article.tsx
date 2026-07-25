@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function TcmDietArticle() {
   const slug = "tcm-diet"
@@ -30,6 +31,12 @@ export default function TcmDietArticle() {
           A TCM diet is not about counting calories or avoiding carbs. It is about eating warm, cooked, seasonal foods matched to your body type and current health condition. The core principle is simple: the Spleen thrives on warmth and regularity. Cold, raw, and irregular eating weakens digestion over time. This guide covers the key principles anyone can start applying today.
         </p>
       </div>
+
+      <DefinitionBox
+        term="TCM Diet Therapy"
+        termCn="食疗, shí liáo"
+        text="Diet therapy is the first line of balancing in Chinese medicine, placed before herbs and acupuncture. Every food is classified by its temperature, flavor, and action on specific organs. Ginger is warm and dispels cold. Mung beans are cool and clear heat. Red dates are sweet and build Blood. The same symptom may call for different foods depending on the underlying pattern. A person with cold type fatigue needs warming foods, while a person with heat type fatigue needs cooling ones. Pattern first, food second."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

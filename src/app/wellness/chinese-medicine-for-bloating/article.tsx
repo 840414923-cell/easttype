@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForBloatingArticle() {
   const slug = "chinese-medicine-for-bloating"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForBloatingArticle() {
           Bloating in Chinese medicine usually means the Spleen cannot properly process food and fluids, so gas builds up in the middle. Two common patterns stand out. Spleen Qi Deficiency brings bloating after eating, fatigue, and loose stools, while Liver Qi Stagnation brings bloating that fluctuates with mood and gets worse with stress. Warm, gently moving foods such as ginger tea, fennel, and well-cooked vegetables may help settle the gut and ease the pressure. This pattern can be associated with the <Link href="/types/qi_deficient" className="text-accent hover:underline">Qi Deficient body type</Link>, and you can confirm your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Type of Bloating Do You Have?"
+        branches={[
+          { signal: "Bloating + tiredness + loose stools", meaning: "Spleen Qi Deficiency, slow digestion", approach: "Warm, cooked foods: congee, ginger, fennel" },
+          { signal: "Bloating + heavy feeling + sticky tongue coat", meaning: "Spleen Dampness blocking middle", approach: "Drain damp: coix seed, adzuki bean, cardamom" },
+          { signal: "Bloating + irritability + mood-related", meaning: "Liver Qi invading the Spleen", approach: "Soothe Liver: rose tea, mint, citrus peel" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -4,6 +4,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function FoodsForEnergyArticle() {
 
@@ -30,6 +31,15 @@ export default function FoodsForEnergyArticle() {
           {"TL;DR — Chinese medicine says fatigue isn't one thing. It's a pattern. Qi deficiency, Yang deficiency, Dampness — each needs different foods. Sweet potato, congee, jujube, and ginger are top Qi-builders. Cold drinks and raw salads drain energy if you're already running low. The right food for YOUR body type matters more than generic \"healthy\" eating. Take a body type quiz to find your match."}
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Foods Match Your Energy Pattern?"
+        branches={[
+          { signal: "Sluggish mornings + bloating + sweet cravings", meaning: "Spleen Qi Deficiency, poor fuel conversion", approach: "Warm breakfast: congee, sweet potato, ginger" },
+          { signal: "Afternoon crash + dry mouth + irritability", meaning: "Yin Deficiency with empty heat", approach: "Cooling foods: pear, lily bulb, mung bean" },
+          { signal: "Low drive + cold hands + lower back ache", meaning: "Kidney Yang Deficiency, low fire", approach: "Warming foods: lamb, walnuts, dark sesame" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-3">{"Why Chinese Medicine Approaches Energy Differently"}</h2>

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function SpleenDampnessArticle() {
   const slug = "spleen-dampness"
@@ -30,6 +31,12 @@ export default function SpleenDampnessArticle() {
           Spleen Dampness occurs when the Spleen cannot properly metabolize fluids, and those fluids accumulate as dampness inside the body. This buildup can be associated with a lingering feeling of heaviness, fogginess, and stickiness. Common signs may include chronic fatigue that feels heavy rather than wired, brain fog, bloating, sticky or sluggish bowel movements, weight gain that resists effort to lose it, and mild swelling or edema. In Chinese medicine, dampness is often compared to a damp sponge left inside the body. It is heavy, sticky, and slow to clear. Certain foods, including adzuki beans, coix seed (yi yi ren), and winter melon, may help dry out that dampness and restore a sense of lightness. If these signs sound familiar, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can help place this pattern in context.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Spleen Dampness"
+        termCn="脾湿, pí shī"
+        text="Spleen Dampness describes a state where the Spleen cannot properly transform and transport fluids, causing moisture to accumulate in the body. The signs tend to feel heavy and sluggish: a foggy head, grogginess that persists after waking, a thick coating on the tongue, bloating after meals, and stools that are loose or sticky. The limbs may feel weighed down, and cravings for sweet or starchy foods may intensify. Damp environments and cold raw foods are common aggravators."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

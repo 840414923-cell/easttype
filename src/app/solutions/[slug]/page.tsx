@@ -125,6 +125,16 @@ export default async function SolutionPage({ params }: { params: Promise<{ slug:
             {solution.intro}
           </p>
 
+          {/* Quick Answer - GEO direct answer module */}
+          {solution.quickAnswer && (
+            <div className="bg-[rgba(140,45,42,0.06)] border border-[rgba(140,45,42,0.2)] rounded-xl p-5 mb-10">
+              <h2 className="font-[family-name:var(--font-display)] text-sm uppercase tracking-wider text-accent mb-3">
+                Quick Answer
+              </h2>
+              <p className="text-text leading-relaxed text-[0.95rem]">{solution.quickAnswer}</p>
+            </div>
+          )}
+
           {/* Hero image placeholder */}
           <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden bg-card-bg border border-[rgba(140,45,42,0.12)] mb-12">
             <Image

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForHighBloodPressureArticle() {
   const slug = "chinese-medicine-for-high-blood-pressure"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForHighBloodPressureArticle() {
           Chinese medicine does not have a word for hypertension, but it has treated the symptoms behind it for centuries: dizziness, headaches, flushed face, ringing in the ears, and chest tightness. The most common pattern is Liver Yang Rising, where stress and frustration push energy and blood upward toward the head. A second pattern is Kidney Yin Deficiency, where the cooling, grounding energy of the body wears thin with age or overwork and cannot anchor the rising Yang. A third involves phlegm and dampness accumulating from a weak digestion, which thickens the blood and slows its flow. Foods that cool the Liver, nourish Kidney Yin, and clear dampness may help support healthy blood pressure alongside medical care. This pattern can be associated with the <Link href="/types/damp_heat" className="text-accent hover:underline">Damp Heat body type</Link> or the <Link href="/types/yin_deficient" className="text-accent hover:underline">Yin Deficient body type</Link>, and you can check your overall constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which TCM Pattern Matches Your Blood Pressure?"
+        branches={[
+          { signal: "Red face + headaches + irritability", meaning: "Liver Yang Rising, excess heat above", approach: "Cool and anchor: celery, chrysanthemum, mung bean" },
+          { signal: "Dizziness + tinnitus + dry mouth", meaning: "Liver and Kidney Yin Deficiency", approach: "Nourish Yin: goji, mulberry, black sesame" },
+          { signal: "Heaviness + chest fullness + phlegm", meaning: "Phlegm-Damp obstructing vessels", approach: "Clear damp: coix seed, hawthorn, tangerine peel" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

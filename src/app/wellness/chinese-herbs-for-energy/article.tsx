@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseHerbsForEnergyArticle() {
   const slug = "chinese-herbs-for-energy"
@@ -30,6 +31,15 @@ export default function ChineseHerbsForEnergyArticle() {
           Chinese medicine offers several herbs that may help rebuild energy from within. Unlike caffeine, which borrows energy from tomorrow, these herbs aim to restore the body&apos;s own energy production over time. Key herbs include ginseng (Ren Shen), astragalus (Huang Qi), jujube dates (Da Zao), and goji berries (Gou Qi Zi). Some support Qi, others feed Blood or essence, and the right choice depends on your underlying pattern. Herbs work best alongside food therapy and steady habits, not as a replacement for either. Always consult a licensed practitioner before taking herbs, especially in concentrated form.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Energy Deficit Pattern Is Yours?"
+        branches={[
+          { signal: "Low stamina + breathless + soft voice", meaning: "Lung and Spleen Qi Deficiency", approach: "Boost Qi: astragalus, ginseng, jujube" },
+          { signal: "Tired + pale + dizzy + poor sleep", meaning: "Blood Deficiency, low fuel", approach: "Build Blood: dong quai, goji, red dates" },
+          { signal: "Deep fatigue + cold limbs + frequent urination", meaning: "Kidney Yang Deficiency, low reserve", approach: "Warm Yang: deer antler, walnuts, cinnamon" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

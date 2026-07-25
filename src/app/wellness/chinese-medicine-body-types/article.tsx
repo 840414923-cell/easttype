@@ -6,6 +6,7 @@ import { TYPES } from "@/lib/constitution-data"
 import type { ConstitutionId } from "@/lib/types"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 const TYPE_SUMMARY: Record<ConstitutionId, { en: { name: string; desc: string; key: string }; zh: { name: string; desc: string; key: string }; ja: { name: string; desc: string; key: string } }> = {
   balanced: { en: { name: "The Still Lake", desc: "Self-regulating, steady energy, emotionally resilient. The rare baseline — only ~30% of people.", key: "Sleeps well, adapts easily, rarely sick" }, zh: { name: "平和質", desc: "自我調節、能量穩定、情緒韌性強。罕見基準體質，約30%的人。", key: "睡得好、適應力強、很少生病" }, ja: { name: "平和質", desc: "自己調節、安定エネルギー、感情的回復力。稀な基準体質、約30%", key: "よく眠れ、適応力強、病気になりにくい" } },
@@ -44,6 +45,12 @@ export default function BodyTypesArticle() {
           {"Chinese medicine identifies 9 body constitutions (平和, 氣虚, 阳虚, 阴虚, 痰湿, 湿热, 血瘀, 气郁, 特禀) — each with distinct patterns in energy, digestion, temperature preference, emotional tendencies, and dietary needs. Unlike Ayurveda's 3 doshas, this system offers 9 categories for more precise personalization. Most people have one dominant type with secondary influences."}
         </p>
       </div>
+
+      <DefinitionBox
+        term="Nine Body Types"
+        termCn="九种体质, jiǔ zhǒng tǐ zhì"
+        text="The nine body types are a constitutional framework in Chinese medicine that describes nine distinct patterns of physical and emotional tendency. Unlike a one size fits all model, this system recognizes that what nourishes one person may drain another. A Qi Deficient type needs warming, building foods and gentle rest. A Damp Heat type needs cooling, drying foods and lighter meals. Identifying your type is not a diagnosis of disease but a guide to the foods, habits, and rhythms that may best support your natural constitution."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

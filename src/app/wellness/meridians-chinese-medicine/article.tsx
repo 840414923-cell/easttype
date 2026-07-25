@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function MeridiansChineseMedicineArticle() {
   const slug = "meridians-chinese-medicine"
@@ -30,6 +31,12 @@ export default function MeridiansChineseMedicineArticle() {
           Meridians are the energy pathways that run through your body, linking your internal organs to the surface of your skin. In Chinese medicine, Qi, the vital energy that powers every bodily function, flows along these channels. When that flow is smooth and even, you tend to feel healthy and balanced. When a pathway becomes blocked or weak, pain and other symptoms often appear somewhere along that route. Acupuncture, acupressure, moxibustion, and food therapy all work through this same meridian system, which is one reason a single point on your forearm can be used to influence your chest, your breathing, or your digestion.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Meridians (Jing Luo)"
+        termCn="经络, jīng luò"
+        text="Meridians are the network of pathways through which Qi and Blood circulate in Chinese medicine. Think of them as the internal wiring of the body. There are twelve primary meridians, each paired with a major organ, and they connect the surface of the skin to the deep interior. This is why pressure on a point on the wrist may affect the chest, or why pain along a leg channel may reflect an issue in the Liver. Acupuncture, acupressure, and meridian stretching all work through this channel system."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

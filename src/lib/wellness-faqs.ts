@@ -1448,5 +1448,137 @@ export const WELLNESS_FAQS: Record<string, FaqItem[]> = {
       a: { en: "The Phlegm-Damp and Qi Deficient body types are most commonly linked to a child whose mind feels foggy and whose attention drifts. Constitution tends to run in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "痰濕和氣虛體質最常與頭腦發霧、注意力飄移的孩子相關。體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "痰湿と気虚タイプは、頭が霧がかり、注意力が漂う子どもに最も関連します。体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
     },
   ],
+  "chinese-medicine-for-child-low-energy": [
+    {
+      q: { en: "Why is my child always tired even after a full night of sleep?", "zh-TW": "孩子睡滿一整夜，為什麼白天還是喊累？", ja: "子どもが一晩しっかり寝たのに、いつも疲れているのはなぜですか？" },
+      a: { en: "In Chinese medicine, daytime energy depends on the Spleen turning food into usable Qi. When a child's Spleen is still maturing, cold or raw food, irregular meals, and too little warm nourishment can leave the body with a thin supply of fuel. The tiredness is real, even after sleep, because the issue is supply, not rest. Warming, easily digested food is the traditional starting point.", "zh-TW": "中醫認為，白天的精力依賴脾把食物轉成可用的氣。孩子脾尚未成熟時，生冷食物、用餐不規律、溫養不足，都會讓身體燃料單薄。即使睡夠了仍累，因為問題出在供給，不在休息。溫熱、易消化的食物是傳統的起點。", ja: "中医学では、日中の元気は脾が食べ物を気に変えることに依存します。子どもの脾が未成熟な間は、冷たいものや生もの、不規則な食事、温かい滋養の不足が、からだの燃料を薄くします。睡眠をとっても疲れているのは、問題が休息ではなく供給にあるからです。温かく消化しやすい食事が伝統的な出発点です。" },
+    },
+    {
+      q: { en: "How should I use sweet potato for a child who seems drained?", "zh-TW": "孩子看起來沒力氣，地瓜該怎麼用？", ja: "元気のない子どもに、さつまいもをどう使えばいいですか？" },
+      a: { en: "Sweet potato is warm and sweet in TCM terms, which fits a Spleen that needs gentle fuel. A small steamed portion at breakfast, or mashed into warm congee two or three times a week, is a reasonable way to begin. Roasted or baked is fine, but avoid cold sweet potato straight from the fridge, since cold slows the very system you are trying to support. Consistency over two to three weeks tends to matter more than portion size.", "zh-TW": "在中醫裡，地瓜性溫味甘，正適合需要溫和燃料的脾。早餐一小份蒸地瓜，或一週兩三次搗入溫粥，是合理的開始。烤的也行，但避免從冰箱拿出來直接吃冷的，因為寒冷會拖慢你正在支持的那個系統。兩到三週的持續比份量更重要。", ja: "中医学では、さつまいもは温性で甘味があり、穏やかな燃料を必要とする脾に合います。朝食に小さめの蒸したもの、または週2〜3回温かいお粥に潰して混ぜるのが無難な始め方です。焼きものでも構いませんが、冷蔵庫から出した冷たいさつまいもは避けてください。冷たさは支えようとしているシステムを遅くするからです。2〜3週間の継続が量よりも重要です。" },
+    },
+    {
+      q: { en: "What kind of movement supports a child who tires easily?", "zh-TW": "容易累的孩子，做哪種運動比較好？", ja: "疲れやすい子どもに合う運動はどんなものですか？" },
+      a: { en: "Gentle, outdoor, and brief tends to work better than intense or exhausting activity. Twenty minutes of walking, light skipping, or slow cycling in fresh air helps Qi circulate without draining the reserve. The goal is movement that leaves the child slightly energized, not wiped out. Long competitive sessions on top of an already tired Spleen can deepen the fatigue.", "zh-TW": "溫和、戶外、短時間的活動，通常比激烈或耗神的更適合。在新鮮空氣中散步二十分鐘、輕跳或慢騎車，能讓氣流通而不耗儲備。目標是做完後孩子稍微有精神，而不是癱軟。本已疲累的脾再加重競技訓練，反而會讓疲倦加深。", ja: "穏やかで、屋外で、短時間の活動が、激しいものや疲れるものよりも適しています。新鮮な空気の中で20分の散歩、軽い縄跳び、ゆっくりとしたサイクリングは、気を巡らせつつ予備を削りません。目標は、子どもが少し元気になるような動きであって、へたり込むものではないことです。すでに疲れた脾に長い競技練習を重ねると、疲れを深めることがあります。" },
+    },
+    {
+      q: { en: "How long until low energy starts to lift with food and habit changes?", "zh-TW": "靠飲食和習慣調整，低能量多久才會改善？", ja: "食事と習慣の改善で、低エネルギーはどのくらいで回復し始めますか？" },
+      a: { en: "Small shifts in color and warmth of the face, plus slightly better morning energy, often show within one to two weeks. Steadier stamina through the school day tends to take three to four weeks of consistent warm meals, regular sleep, and gentle movement. If fatigue is severe, persistent, or paired with pale skin and poor appetite for more than a month, consult your pediatrician.", "zh-TW": "臉色稍微紅潤、早晨精神略好，常在一兩週內出現。整個上學日更穩定的體力，通常需要三到四週持續溫熱飲食、規律睡眠和溫和活動。如果疲倦嚴重、持續，或伴隨臉色蒼白、胃口差超過一個月，請諮詢小兒科醫師。", ja: "顔色や温かさのわずかな変化、朝の元気が少し良くなることは、1〜2週間で現れることが多いです。登校日を通した安定したスタミナには、温かい食事、規則的な睡眠、穏やかな運動を3〜4週間続ける必要があります。疲れが強い、長引く、または青白い肌と食欲不振が1か月以上続く場合は、小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Which body type is most linked to a child who always seems tired?", "zh-TW": "總是喊累的孩子，最相關的是哪種體質？", ja: "いつも疲れている子どもに最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with low energy that lingers despite rest, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與休息後仍揮之不去的低能量相關，體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、休んでも残る低エネルギーに最も関連し、体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-growing-tall": [
+    {
+      q: { en: "How does Chinese medicine view a child's growth in height?", "zh-TW": "中醫如何看待孩子的身高成長？", ja: "中医学は子どもの身長の成長をどう見ていますか？" },
+      a: { en: "Classical texts link growth to Kidney Essence, the inherited reserve that fuels bone, marrow, and the slow build of substance through childhood. Essence unfolds on its own timeline and is supported, not rushed, by daily habits. TCM does not promise extra height. It frames food, sleep, and warmth as ways to support the natural growth potential a child is already carrying.", "zh-TW": "古典文獻將生長歸於腎精，這份與生俱來的儲備推動骨骼、骨髓，以及童年時期身形的緩慢堆疊。精有自己的時間表，日常習慣是支持它，不是催促它。中醫不承諾額外長高，而是把飲食、睡眠和保暖視為支持孩子既有的自然生長潛力的方式。", ja: "古典文献は成長を腎精に結びつけます。腎精は受け継いだ予備で、骨、髄、そして子ども時代の身体のゆっくりとした形成を支えます。精には独自のタイミングがあり、日常の習慣はそれを急ぐのではなく支えます。中医学は背を伸ばすことを約束しません。食事、睡眠、温かさを、子どもがすでに持つ自然な成長ポテンシャルを支える手段として捉えます。" },
+    },
+    {
+      q: { en: "What is the right way to use bone broth for a growing child?", "zh-TW": "成長中的孩子，骨頭湯該怎麼用？", ja: "成長期の子どもに骨スープをどう使えばいいですか？" },
+      a: { en: "A small, warm cup two to three times a week is a traditional approach. Use a mild, unsalted broth made from bones simmered for several hours, and offer it in the morning or before dinner rather than right before bed. For younger children, dilute it and strain the fat. Bone broth is one supportive food among many, not a daily necessity, and a few weeks of regular use tends to matter more than large single servings.", "zh-TW": "每週兩三次、一小杯溫熱的骨頭湯是傳統做法。用數小時慢燉、不加鹽的清淡骨湯，在早上或晚餐前給，而非臨睡前。年幼的孩子可稀釋並撈去浮油。骨頭湯只是眾多支持性食物之一，不是每日必需，幾週規律使用比一次大份量更重要。", ja: "週2〜3回、小さな温かいカップ1杯が伝統的なやり方です。数時間煮出した骨からとった、塩を加えないマイルドなスープを使い、寝る直前ではなく朝または夕食前に出します。幼い子どもには薄めて脂を除きます。骨スープは多くのサポート食材の一つであり、毎日必要なものではありません。数週間の規則的な使用が、一度の大量摂取よりも重要です。" },
+    },
+    {
+      q: { en: "Why does sleep matter so much for growth in TCM?", "zh-TW": "中醫為什麼說睡眠對生長很重要？", ja: "中医学で睡眠が成長にとても重要とされるのはなぜですか？" },
+      a: { en: "Chinese medicine places growth and repair under the Kidney and Liver, and both are said to do their deepest work during the first half of the night. A child who falls asleep before 9 PM and sleeps deeply through the early hours is, in this view, giving Essence the quiet window it needs. Late bedtimes, screens, and broken sleep may not block growth, but they can quietly reduce the quality of that recovery window.", "zh-TW": "中醫把生長和修復歸於腎和肝，兩者據說在入夜前半段做得最深。在這個觀點裡，孩子九點前入睡並在前半夜睡得沉，就是給精所需的安靜時段。晚睡、看螢幕、睡眠破碎不一定會擋住生長，但會悄悄降低那段恢復時段的品質。", ja: "中医学は成長と修復を腎と肝に位置づけ、両者は夜の前半に最も深く働くとされます。この観点では、9時前に寝入り、前半夜を深く眠る子どもは、精に必要な静かな時間を与えています。就寝が遅い、画面、睡眠の分断は成長を止めるわけではありませんが、その回復時間の質を静かに下げることがあります。" },
+    },
+    {
+      q: { en: "What ages does this approach apply to?", "zh-TW": "這套做法適用於哪些年齡？", ja: "このアプローチは何歳から適用できますか？" },
+      a: { en: "The food and habit approach is gentle enough for children from around 3 years old through the early teens, which is the main growth window. For toddlers under 3, focus on warm, soft food and early sleep rather than specific tonics. During the rapid growth years around ages 9 to 14, consistent habits matter most. Always check with your pediatrician if growth seems unusually slow or has stalled.", "zh-TW": "這套飲食與習慣做法溫和，大致適用於 3 歲到青春期早期的孩子，也就是主要的生長窗口。3 歲以下幼兒，以溫軟食物和早睡為主，不必用特定食補。9 到 14 歲快速生長期，規律的習慣最重要。如果生長明顯偏慢或停滯，請務必諮詢小兒科醫師。", ja: "食事と習慣のアプローチは穏やかで、約3歳から思春期前半、つまり主な成長期に適しています。3歳未満の幼児には、特定の滋養物より、温かく柔らかい食事と早い就寝に焦点を当てます。9〜14歳の急成長期には、一貫した習慣が最も重要です。成長が著しく遅い、または止まっている場合は、必ず小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Which body type tends to run in families with slow growth patterns?", "zh-TW": "生長偏慢的孩子，家族裡常見哪種體質？", ja: "成長がゆっくりな子どもの家族に現れやすい体質は？" },
+      a: { en: "The Yin Deficient body type is sometimes linked to children who are slow to build substance, and constitution is often inherited. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's growth pattern.", "zh-TW": "陰虛體質有時與身形堆疊較慢的孩子相關，體質常是遺傳而來。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的生長模式提供有用的脈絡。", ja: "陰虚タイプは、身体をゆっくりと作る子どもに関連することがあり、体質は遺伝することが多いです。無料の5分間体質クイズでご自身の体質を知ると、お子さんの成長パターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-bedwetting": [
+    {
+      q: { en: "How does TCM explain bedwetting in an older child?", "zh-TW": "中醫怎麼解釋較大孩子還會尿床？", ja: "中医学は年長の子どものおねしょをどう説明しますか？" },
+      a: { en: "Classical Chinese medicine frames nighttime control as a job of Kidney Qi, which is supposed to warm and hold the fluids of the lower body through the night. In a child whose Kidney Qi is still maturing, that holding function can be weak, and urine slips through during deep sleep. The pattern is read as a developmental lag in warmth and control, not as laziness or a behavior problem.", "zh-TW": "古典中醫把夜間控制視為腎氣的工作，腎氣應該在夜裡溫暖並固守住半身的津液。孩子腎氣尚未成熟時，這個固守功能可能偏弱，尿液便在深睡時漏出。這個模式被理解為溫度與控制力的發育遲緩，而不是懶惰或行為問題。", ja: "古典中医学は、夜間の排泄制御を腎気の役割と捉え、腎気が夜通し下半身の津液を温め留めるべきとします。腎気が未成熟な子どもでは、その留める働きが弱く、深い眠りの間に尿が漏れることがあります。このパターンは、温暖さと制御力の発達の遅れと読まれ、怠けや行動の問題ではありません。" },
+    },
+    {
+      q: { en: "How should I use walnuts to support Kidney Qi?", "zh-TW": "用核桃支持腎氣，該怎麼用？", ja: "腎気を支えるためにクルミをどう使えばいいですか？" },
+      a: { en: "Walnuts are warm and sweet in TCM terms and are traditionally linked to the Kidney. For a child over 4, two or three walnuts a day as a snack, or crushed into warm congee in the morning, is a simple place to start. Avoid sugared or salted roasted versions. A few weeks of regular use, alongside warmth and early sleep, tends to matter more than the exact daily amount.", "zh-TW": "在中醫裡，核桃性溫味甘，傳統上歸腎。4 歲以上孩子，每天兩三顆當零食，或早上搗碎拌入溫粥，是簡單的起點。避免糖漬或鹽烤的版本。配合保暖和早睡，幾週規律使用比確切的每日量更重要。", ja: "中医学では、クルミは温性で甘味があり、伝統的に腎に結びつきます。4歳以上の子どもには、1日2〜3粒をおやつに、または朝の温かいお粥に潰して混ぜるのが簡単な始め方です。砂糖漬けや塩焼きは避けてください。温かさと早い睡眠と合わせた数週間の規則的な使用が、正確な1日の量よりも重要です。" },
+    },
+    {
+      q: { en: "What bedtime habits support fewer wet nights?", "zh-TW": "哪些睡前習慣有助於減少尿床？", ja: "おねしょを減らすのに役立つ寝る前の習慣は？" },
+      a: { en: "Warmth is the central theme. A warm bath or foot soak before bed, warm pajamas, and keeping the lower back and belly covered through the night all fit the Kidney Qi picture. Shift the last drink of water to at least an hour before sleep, and keep it small. A calm, unhurried bedtime also matters, since anxiety and rushing can weaken the holding function.", "zh-TW": "保暖是核心主題。睡前溫水澡或泡腳、穿暖睡衣、整夜蓋住後腰和肚子，都符合腎氣的畫面。最後一次喝水挪到睡前至少一小時，而且量要少。從容不趕的睡前流程也很重要，因為焦慮和急促會削弱固守功能。", ja: "温かさが中心のテーマです。寝る前の温かいお風呂や足湯、暖かいパジャマ、夜通し腰とお腹を覆うこと、すべてが腎気の像に合います。最後の水分は寝る少なくとも1時間前に移し、量を少なくします。穏やかで急がない就寝手順も重要で、不安や急ぎは留める働きを弱めることがあります。" },
+    },
+    {
+      q: { en: "When does bedwetting need a doctor's attention?", "zh-TW": "尿床到什麼程度需要看醫生？", ja: "おねしょはどこまで進んだら医師の受診が必要ですか？" },
+      a: { en: "Occasional wet nights are common up to age 6 or 7. It is worth talking with your pediatrician if bedwetting continues past age 7, returns after a long dry stretch, comes with daytime accidents, pain, or excessive thirst, or appears alongside a sudden change in mood or sleep. TCM food support is gentle and complementary, not a substitute for medical evaluation when red flags appear.", "zh-TW": "偶爾尿床在 6 到 7 歲前都算常見。若尿床持續超過 7 歲、在長期乾爽後又出現、合併白天失禁、疼痛或異常口渴，或伴隨情緒與睡眠的突然變化，就值得與小兒科醫師談談。中醫食養溫和且屬輔助性質，出現警訊時不能取代醫療評估。", ja: "偶発的なおねしょは6〜7歳まではよくあります。7歳を過ぎても続く、長く乾いていたのに再発した、昼間の失禁、痛み、異常な喉の渇きを伴う、気分や睡眠の急な変化と同時に現れる場合は、小児科医に相談する価値があります。中医学の食事サポートは穏やかで補助的なもので、危険信号がある場合の医療評価の代わりにはなりません。" },
+    },
+    {
+      q: { en: "Which body type is most associated with bedwetting in children?", "zh-TW": "兒童尿床最相關的是哪種體質？", ja: "子どものおねしょに最も関連する体質は？" },
+      a: { en: "The Yang Deficient body type is most commonly linked to children who run cold and struggle to hold fluids overnight, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's nighttime pattern.", "zh-TW": "陽虛體質最常與怕冷、夜間固不住津液的孩子相關，體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的夜間狀況提供有用的脈絡。", ja: "陽虚タイプは、寒がりで夜間の津液を留めにくい子どもに最も関連し、体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんの夜間のパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-allergies": [
+    {
+      q: { en: "What exactly is Wei Qi in Chinese medicine?", "zh-TW": "中醫說的「衛氣」到底是什麼？", ja: "中医学の「衛気」とは具体的に何ですか？" },
+      a: { en: "Wei Qi is often translated as defensive Qi. It is described as a thin, warm layer that circulates just under the skin and guards the surface against external factors like wind, cold, and pollen. In this view, allergic reactions reflect a Wei Qi layer that is thin or uneven, so external triggers pass through more easily. It is the closest TCM concept to what modern language calls surface immunity.", "zh-TW": "衛氣常被譯為防禦之氣。中醫描述它是一層薄而溫的氣，在皮膚底下運行，守護體表不受風、寒、花粉等外來因素侵擾。在這個觀點裡，過敏反應反映的是衛氣層偏薄或不均，外來誘因因此更容易穿透。這是中醫最接近現代所稱表面免疫的概念。", ja: "衛気は防禦の気と訳されることが多いです。皮膚のすぐ下を巡る薄く温かい層で、風、寒さ、花粉などの外的要因から体表を守るとされます。この見方では、アレルギー反応は衛気の層が薄いか不均一であることを反映し、外的誘因が通り抜けやすくなります。現代の言葉でいう表面免疫に最も近い中医学の概念です。" },
+    },
+    {
+      q: { en: "How do I introduce astragalus to a child with allergies?", "zh-TW": "我該如何讓過敏孩子開始用黃耆？", ja: "アレルギーのある子どもに黄芪をどう導入すればいいですか？" },
+      a: { en: "Astragalus, or Huang Qi, is a warm, sweet root traditionally used to build the surface layer. For children over 4, a few thin slices simmered into chicken soup or rice congee once or twice a week is a common approach. Avoid strong daily doses, and skip it entirely during an acute cold or fever, since it is meant for steady support between episodes, not during active illness. Check with your pediatrician before starting, especially for children with plant allergies.", "zh-TW": "黃耆（Huang Qi）是性溫味甘的根部，傳統用來鞏固表層。4 歲以上孩子，每週一兩次把幾片黃耆煮進雞湯或米粥是常見做法。避免每天重劑量，急性感冒或發燒時完全不用，因為它是發作間歇的穩定支持，不是生病當下的工具。開始前請諮詢小兒科醫師，特別是對植物過敏的孩子。", ja: "黄芪（ホワンキー）は温性で甘味のある根で、伝統的に表層を強めるのに使われます。4歳以上の子どもには、週1〜2回、薄切り数枚を鶏スープやお粥に煮出すのが一般的です。毎日の強い摂取は避け、急性の風邪や発熱時には完全に使用しないでください。発作と発作の間の穏やかなサポート用であり、発病中のものではないからです。特に植物アレルギーのある子どもでは、開始前に小児科医にご確認ください。" },
+    },
+    {
+      q: { en: "How are allergies connected to diet in TCM?", "zh-TW": "在中醫看來，過敏和飲食有什麼關係？", ja: "中医学でアレルギーと食事はどう関係していますか？" },
+      a: { en: "Chinese medicine sees the Spleen as the source of the Qi that eventually becomes Wei Qi at the surface. If a child eats a lot of cold, raw, or sweet food, the Spleen slows, less Qi is produced, and the surface layer thins. Warming, simple, regular meals are read as a way to feed the defense from the inside out. The link explains why some children's allergies flare after stretches of poor eating.", "zh-TW": "中醫把脾視為氣的來源，而氣最終會在體表成為衛氣。孩子吃太多生冷或甜食，脾就變慢，產生的氣變少，表層隨之變薄。溫熱、簡單、規律的餐食被理解為由內而外餵養防禦的方式。這層關聯也解釋了為什麼有些孩子的過敏在一段飲食不佳後會發作。", ja: "中医学は脾を気の源と見なし、その気は最終的に体表で衛気になります。子どもが冷たいもの、生もの、甘いものを多く食べると脾が遅くなり、作られる気が減り、表層が薄くなります。温かく、シンプルで、規則的な食事は、内側から外側へ防御を養う方法と読まれます。このつながりは、食事が乱れた後に子どものアレルギーが悪化する理由も説明します。" },
+    },
+    {
+      q: { en: "What seasonal habits help a child through pollen season?", "zh-TW": "花粉季節，哪些季節性習慣對孩子有幫助？", ja: "花粉の季節、子どもに役立つ季節的な習慣は？" },
+      a: { en: "Start warm food and early sleep a few weeks before the season usually begins, rather than waiting for symptoms. Keep the neck covered on windy days, since wind is the main external factor TCM associates with allergy onset. A warm scarf, light outdoor time in the morning rather than peak pollen afternoon, and rinsing the face and hair after outdoor play are simple habits that fit the Wei Qi picture.", "zh-TW": "在花粉季開始前幾週就先啟動溫熱飲食和早睡，而不是等症狀出來才做。起風的日子保護頸部，因為風是中醫認為過敏發作的主要外因。一條暖圍巾、早上輕量戶外活動而非花粉高峰的下午、戶外玩耍後清洗臉和頭髮，都是符合衛氣畫面的簡單習慣。", ja: "症状が出るのを待つのではなく、季節が始まる数週間前から温かい食事と早い睡眠を始めます。風は中医学でアレルギー発作の主な外因とされるため、風の強い日は首を覆います。暖かいマフラー、花粉のピークの午後より朝の軽い外出、外遊び後の顔と髪のすすぎ、いずれも衛気の像に合うシンプルな習慣です。" },
+    },
+    {
+      q: { en: "Which body type is most linked to childhood allergies?", "zh-TW": "兒童過敏最相關的是哪種體質？", ja: "子どものアレルギーに最も関連する体質は？" },
+      a: { en: "Children with allergies often fit what TCM calls a sensitive constitution, where the surface layer is thinner and reacts more easily, and this tendency often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's allergy pattern.", "zh-TW": "過敏的孩子常符合中醫所說的敏感體質，表層較薄、反應較大，這種傾向常有家族性。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的過敏模式提供有用的脈絡。", ja: "アレルギーのある子どもは、中医学のいう敏感体質に当てはまることが多く、表層が薄く反応しやすく、この傾向は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのアレルギーパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-eczema": [
+    {
+      q: { en: "How does Chinese medicine picture childhood eczema?", "zh-TW": "中醫如何看待兒童濕疹？", ja: "中医学は子どもの湿疹をどう捉えていますか？" },
+      a: { en: "TCM reads eczema as an internal pattern showing up on the skin, rather than a skin problem in itself. The most common picture is damp heat sitting in the body, often because a young Spleen cannot clear fluids efficiently and they thicken and warm into a sticky residue. The redness, weeping, and itch are read as that internal damp heat pushing outward. Food and habits aim to clear the pattern from the inside, not to focus only on the skin.", "zh-TW": "中醫把濕疹讀作一個內在模式在皮膚上的顯現，而不是皮膚本身的問題。最常見的畫面是體內有濕熱，常是因為幼嫩的脾無法有效運化水液，水液變稠、變溫，成了黏膩的殘留。發紅、滲液和搔癢被理解為那份內在濕熱往外推。飲食和習慣的目標是從內部清理這個模式，而不是只盯著皮膚。", ja: "中医学は湿疹を、皮膚自体の問題ではなく、内側のパターンが皮膚に現れたものと読みます。最も一般的な像は体内に湿熱が留まることで、多くは若い脾が水分を効率よく運化できず、それが濃くなり温まって粘着性の残り物になるためです。赤み、滲出、かゆみは、その内側の湿熱が外に押し出されていると読まれます。食事と習慣は皮膚だけに焦点を当てるのではなく、内側からパターンを清めることを目指します。" },
+    },
+    {
+      q: { en: "How should I use mung beans for a child with this pattern?", "zh-TW": "孩子屬於這個模式，綠豆該怎麼用？", ja: "このパターンの子どもに緑豆をどう使えばいいですか？" },
+      a: { en: "Mung beans are cool and sweet in TCM terms and are a traditional food for gently draining damp heat. A thin mung bean soup, made with a small handful cooked until soft in plenty of water, given warm and unsweetened once or twice a week, is a reasonable approach. Avoid iced mung bean drinks and large daily amounts, since too much cold can swing the pattern the other way and weaken the Spleen.", "zh-TW": "在中醫裡，綠豆性涼味甘，是傳統用來輕柔清利濕熱的食物。用一小把綠豆加足量水煮到軟爛做成清湯，溫熱不加糖，一週一兩次，是合理的做法。避免冰鎮綠豆飲和每天大量食用，因為過寒會把模式推向另一端，反而削弱脾。", ja: "中医学では緑豆は涼性で甘味があり、湿熱を穏やかに除く伝統的な食材です。緑豆を一握り、たっぷりの水で柔らかく煮た薄いスープを、温かく甘味なしで週1〜2回与えるのが無難なやり方です。冷やした緑豆ドリンクや毎日の多量摂取は避けてください。冷やしすぎはパターンを逆方向に振らせ、脾を弱めることがあります。" },
+    },
+    {
+      q: { en: "Why does diet matter when the problem shows on the skin?", "zh-TW": "問題出在皮膚上，為什麼飲食還這麼重要？", ja: "皮膚に表れているのに、なぜ食事が重要なのですか？" },
+      a: { en: "Because the skin is read as an outlet for what is happening inside. If a child keeps eating fried, sweet, or heavily spiced food, the internal damp heat keeps being produced, and the skin keeps receiving it. Warming, plain, easily digested food aims to reduce the source of the residue, while topical care only manages what has already reached the surface. Both layers matter, but the inside sets the pace.", "zh-TW": "因為皮膚被視為內部狀況的出口。如果孩子持續吃油炸、甜膩或重口味的食物，體內濕熱就不斷產生，皮膚也就不斷接收。溫熱、清淡、易消化的食物著眼於減少殘留的來源，而外用照護只能處理已經到達表面的部分。兩層都重要，但內部決定節奏。", ja: "皮膚は内側で起きていることの出口と読まれるからです。子どもが揚げ物、甘いもの、濃い味付けを食べ続けると、内側の湿熱は作られ続け、皮膚はそれを受け続けます。温かく、淡白で、消化しやすい食事は残り物の源を減らすことを目指し、外用ケアはすでに表面に達したものを管理するだけです。両方とも重要ですが、ペースを決めるのは内側です。" },
+    },
+    {
+      q: { en: "When does childhood eczema need a doctor's attention?", "zh-TW": "兒童濕疹什麼時候需要看醫生？", ja: "子どもの湿疹はいつ医師の受診が必要ですか？" },
+      a: { en: "Eczema that is widespread, weeping, crusted, or showing signs of infection needs medical care, not only food support. It is also worth consulting your pediatrician if eczema is severe enough to disrupt sleep, if it appears very early in infancy, or if it follows eating a specific food. TCM dietary support is gentle and complementary, and works alongside, not in place of, medical evaluation.", "zh-TW": "濕疹面積大、滲液、結痂，或出現感染跡象時，需要醫療處理，不能只靠食養。若濕疹嚴重到影響睡眠、在嬰兒期很早就出現、或吃了特定食物後跟著發作，也值得諮詢小兒科醫師。中醫飲食支持溫和且屬輔助性質，是與醫療評估並行，而非取代。", ja: "湿疹が広範、滲出性、かさぶた、感染の兆候を示す場合は、食事サポートだけでなく医療ケアが必要です。湿疹が睡眠を妨げるほどひどい場合、乳児期に非常に早く現れる場合、特定の食物を食べた後に続く場合も、小児科医への相談に値します。中医学の食事サポートは穏やかで補助的であり、医療評価の代わりではなく、併用するものです。" },
+    },
+    {
+      q: { en: "Which body type is most associated with recurring eczema in children?", "zh-TW": "兒童反覆濕疹最相關的是哪種體質？", ja: "子どもの反復性湿疹に最も関連する体質は？" },
+      a: { en: "The Damp Heat body type is most commonly linked to children whose skin flares with red, sticky, warm patches, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's pattern.", "zh-TW": "濕熱體質最常與皮膚反覆出現紅、黏、熱斑塊的孩子相關，體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "湿熱タイプは、皮膚に赤く、粘つき、温かい発疹が繰り返し現れる子どもに最も関連し、体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
+  "chinese-medicine-for-child-immune-system": [
+    {
+      q: { en: "How does Chinese medicine picture a child's immune system?", "zh-TW": "中醫如何看待孩子的免疫力？", ja: "中医学は子どもの免疫をどう捉えていますか？" },
+      a: { en: "TCM does not use the word immune. It describes resistance as a three-layer defense. The outermost layer is the Lungs and the surface they govern, including skin and the mucous lining of the nose and throat. The middle layer is the Spleen, which produces daily Qi from food. The deepest layer is the Kidneys, which hold the inherited reserve drawn on through growth. A weak link in any layer can show up as frequent illness.", "zh-TW": "中醫不用「免疫」這個詞，它把抵抗力描述成三層防禦。最外層是肺及其所主的體表，包括皮膚和鼻咽喉的黏膜。中間層是脾，負責從食物產生每日的氣。最深層是腎，儲存與生俱來、成長過程中逐步動用的儲備。任何一層薄弱，都可能表現為反覆生病。", ja: "中医学は「免疫」という言葉を使いません。抵抗力を三層の防御として描写します。最も外側の層は肺とその支配する表、皮膚や鼻・喉の粘液層を含みます。中間の層は脾で、食べ物から日々の気を作ります。最も深い層は腎で、成長を通じて引き出される受け継いだ予備を蓄えます。どの層が弱くても、頻繁な体調不良として現れることがあります。" },
+    },
+    {
+      q: { en: "What role does shiitake play in supporting a child's resistance?", "zh-TW": "香菇在支持孩子抵抗力上扮演什麼角色？", ja: "椎茸は子どもの抵抗力を支える上でどんな役割を果たしますか？" },
+      a: { en: "Shiitake mushroom is mild and sweet in TCM terms and is traditionally used as a gentle food that supports the Spleen and the surface layer at the same time. For children over 3, two or three cooked shiitake caps added to soup or stir-fried rice a few times a week is a simple approach. Always cook shiitake thoroughly, and avoid raw versions. Steady weekly use tends to matter more than large single portions.", "zh-TW": "在中醫裡，香菇性平味甘，傳統上作為溫和的食物，同時支持脾和表層。3 歲以上孩子，每週幾次在湯或炒飯裡加兩三朵煮熟的香菇，是簡單的做法。香菇務必徹底煮熟，避免生食。每週規律使用比一次大份量更重要。", ja: "中医学では椎茸は平性で甘味があり、伝統的に脾と表層を同時に支える穏やかな食材として使われます。3歳以上の子どもには、週数回、スープやチャーハンに2〜3枚の加熱した椎茸を加えるのがシンプルなやり方です。椎茸は必ず十分に加熱し、生のものは避けてください。週ごとの規則的な使用が、一度の大量摂取よりも重要です。" },
+    },
+    {
+      q: { en: "What daily habits build the three layers of defense?", "zh-TW": "哪些日常習慣能建立這三層防禦？", ja: "三層の防御を育む日常の習慣は？" },
+      a: { en: "Warm, regular meals feed the middle Spleen layer. Early, deep sleep feeds the deep Kidney layer. Keeping the neck and upper back covered on cold or windy days protects the outer Lung layer. Together these habits address all three layers at once, which is why a child who eats well, sleeps early, and dresses for the weather often catches fewer colds than one who skips any one of the three.", "zh-TW": "溫熱規律的餐食餵養中間的脾層。早而深沉的睡眠餵養深層的腎層。在冷天或風天保護頸部和上背，則守護外層的肺。這些習慣合起來同時照顧三層，這也是為什麼吃得好、睡得早、穿得暖的孩子，通常比三項缺一的孩子更少感冒。", ja: "温かく規則的な食事は中間の脾の層を養います。早く深い睡眠は深い腎の層を養います。寒い日や風の強い日に首と上背部を覆うことは、外側の肺の層を守ります。これらの習慣は一緒になって三層すべてに対処するため、よく食べ、早く寝、気候に合わせて着る子どもは、どれか一つでも欠く子どもより風邪をひきにくいことが多いのです。" },
+    },
+    {
+      q: { en: "What does it mean if a child keeps falling sick every few weeks?", "zh-TW": "孩子每幾週就生病一次，代表什麼？", ja: "子どもが数週間おきに病気になるのは何を意味しますか？" },
+      a: { en: "In TCM terms, frequent illness usually points to a surface layer that has not had time to rebuild between episodes. Each cold draws on the reserve, and if rest and food do not refill it before the next exposure, the cycle repeats. The traditional response is to focus on steady rebuilding food, early sleep, and limited exposure during recovery, rather than pushing the child back into normal activity the moment symptoms fade. If illness is severe, persistent, or accompanied by worrying signs, consult your pediatrician.", "zh-TW": "在中醫看來，反覆生病通常指向表層在兩次發作間沒來得及重建。每次感冒都動用儲備，若休息和飲食沒能在下次暴露前補回，循環就重複。傳統的應對是把重心放在穩定重建的飲食、早睡、恢復期減少暴露，而不是症狀一退就把孩子推回正常活動。若病情嚴重、持續或伴隨令人擔心的跡象，請諮詢小兒科醫師。", ja: "中医学では、頻繁な体調不良は通常、発作と発作の間に表層が再構築する時間を持てなかったことを示します。風邪をひくごとに予備が引き出され、次の暴露前に休息と食事で補充されないと、サイクルが繰り返されます。伝統的な対応は、症状が消えた途端に通常活動へ戻すのではなく、安定した再構築の食事、早い睡眠、回復期の暴露制限に焦点を当てることです。体調不良が重い、長引く、心配な兆候を伴う場合は、小児科医にご相談ください。" },
+    },
+    {
+      q: { en: "Which body type is most linked to a child who is often unwell?", "zh-TW": "常生病的孩子最相關的是哪種體質？", ja: "よく体調を崩す子どもに最も関連する体質は？" },
+      a: { en: "The Qi Deficient body type is most commonly associated with children whose three layers of defense run thin and who catch what goes around, and constitution often runs in families. A free 5-minute body type quiz can help you see whether this matches your own constitution, which may offer useful context for your child's patterns.", "zh-TW": "氣虛體質最常與三層防禦偏薄、什麼流行就染上的孩子相關，體質多有家族傾向。免費的 5 分鐘體質測驗可以幫助你了解自己的體質，為孩子的狀況提供有用的脈絡。", ja: "気虚タイプは、三層の防御が薄く、流行るものをもらいやすい子どもに最も関連し、体質は家族的に現れやすいです。無料の5分間体質クイズでご自身の体質を知ると、お子さんのパターンを理解する手がかりになることがあります。" },
+    },
+  ],
 
 }

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForInsomniaArticle() {
   const slug = "chinese-medicine-for-insomnia"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForInsomniaArticle() {
           Chinese medicine identifies several distinct patterns behind insomnia, and the right foods depend on which one fits. If you cannot fall asleep, the issue may be too much Heat or deficient Blood failing to anchor the mind. If you wake between 1 and 3 AM, the Liver may be involved. Waking around 3 to 5 AM may point to Lung or Heart patterns. Rather than sedating the brain, Chinese medicine focuses on identifying which internal imbalance is keeping the mind (Shen) restless, then addressing it with cooling foods, calming herbs, and daily rhythm adjustments. This approach does not replace professional care for serious sleep disorders but may help people whose insomnia stems from stress, aging, or constitutional tendencies.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Insomnia Pattern Keeps You Awake?"
+        branches={[
+          { signal: "Hard to fall asleep + racing mind", meaning: "Heart Yin Deficiency, Shen unsettled", approach: "Calm the Heart: lily bulb, lotus seed, wheat tea" },
+          { signal: "Wake 1 to 3 AM + irritability", meaning: "Liver Fire or Stagnation", approach: "Soothe Liver: chrysanthemum, rose, tangerine peel" },
+          { signal: "Wake hungry + worry + palpitations", meaning: "Heart and Spleen Blood Deficiency", approach: "Build Blood: red dates, longan, goji" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

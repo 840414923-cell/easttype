@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function ChineseFaceMappingArticle() {
   const slug = "chinese-face-mapping"
@@ -30,6 +31,12 @@ export default function ChineseFaceMappingArticle() {
           Chinese face mapping, called mian zhen, is a diagnostic method that reads facial zones, colors, and features to assess internal organ health. Each area of the face corresponds to a specific organ system. Breakouts, redness, puffiness, or color changes in a particular zone may reflect imbalances in the related organ. For example, forehead breakouts may point to digestive issues, while chin breakouts are often linked to hormonal cycles. This is a traditional assessment tool, not a medical diagnosis.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Face Mapping (Mian Zhen)"
+        termCn="面诊, miàn zhěn"
+        text="Face mapping is a diagnostic method in Chinese medicine that reads the face as a reflection of internal organ health. Different zones of the face correspond to different organ systems. The forehead is linked to the Heart and Small Intestine. The area between the brows to the Liver. The nose to the Spleen and Stomach. The chin to the Kidneys and reproductive system. Color, texture, breakouts, and lines in each zone may offer clues about which organ system needs support. It is one piece of a broader diagnostic picture."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

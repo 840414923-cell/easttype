@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForNauseaArticle() {
   const slug = "chinese-medicine-for-nausea"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForNauseaArticle() {
           In Chinese medicine, nausea happens when Stomach Qi goes the wrong way. Normally Stomach energy descends, pushing food downward. When it rebels upward instead, you feel queasy. Several patterns can cause this. Stomach Cold brings nausea that feels better with warmth and worse with cold drinks. Spleen Qi Deficiency brings mild chronic nausea with fatigue after eating. Stomach Heat brings nausea with sour burps and a burning feeling. Liver Qi Stagnation invading the Stomach brings nausea triggered by stress or mood. Ginger is the single most used food in TCM for settling the stomach across all these patterns. This kind of imbalance can be associated with the <Link href="/types/qi_deficient" className="text-accent hover:underline">Qi Deficient body type</Link>, and you can confirm your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Type of Nausea Do You Have?"
+        branches={[
+          { signal: "Nausea + sour regurgitation + thirst", meaning: "Stomach Heat, fire rebelling up", approach: "Cool stomach: mung bean, lotus root, bamboo shoots" },
+          { signal: "Nausea + bloating + fatigue", meaning: "Spleen and Stomach Qi Deficiency", approach: "Warm and strengthen: ginger tea, congee, yam" },
+          { signal: "Nausea + chest fullness + irritability", meaning: "Liver Qi invading Stomach", approach: "Soothe Liver: mint, citrus, rose tea" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

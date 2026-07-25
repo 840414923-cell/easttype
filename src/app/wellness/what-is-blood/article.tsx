@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsBloodArticle() {
   const slug = "what-is-blood"
@@ -30,6 +31,12 @@ export default function WhatIsBloodArticle() {
           In Chinese medicine, Blood (Xue) is far more than the red fluid in your veins. It is the substance that nourishes every tissue, moistens the body, and most importantly, anchors the mind. When Blood is abundant and flowing, the mind is calm, sleep comes easily, and the body feels strong. When Blood is deficient, you might feel dizzy, anxious, or unable to sleep even though you are exhausted. The Spleen produces Blood from food, and the Liver stores it. To see how Blood fits alongside your vital energy, read our guide on <Link href="/wellness/what-is-qi" className="text-accent hover:underline">what Qi is</Link>, and find out which constitution fits you with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Blood (Xue)"
+        termCn="血, xuě"
+        text="In Chinese medicine, Blood is broader than the red fluid measured in a lab. It is the dense, nutritive substance that moistens the muscles, nourishes the skin, anchors the mind, and allows the tendons to flex. Blood is produced by the Spleen from food, stored by the Liver, and circulated by the Heart. When Blood is ample, the complexion is bright, the sleep is deep, and the mind feels settled. When Blood is thin, dryness, restlessness, and pale symptoms may follow."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

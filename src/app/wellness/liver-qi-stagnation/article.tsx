@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function LiverQiStagnationArticle() {
   const slug = "liver-qi-stagnation"
@@ -30,6 +31,12 @@ export default function LiverQiStagnationArticle() {
           In Chinese medicine, the Liver (肝, gān) is responsible for the smooth, even flow of Qi, the body&apos;s vital energy, throughout every organ and limb. When Liver Qi becomes stuck, you tend to feel stuck as well: frustrated, irritable, and tense, often for no clear reason. The most recognizable physical signs include frequent sighing, a tight or aching sensation along the rib sides, breast tenderness in the days before a period, bloating that shifts with your mood, and menstrual cycles that arrive early, late, or with cramping. This is arguably the single most common pattern seen in modern, fast-paced, and stressed-out people. Foods and habits that encourage movement, such as mint tea, gentle daily walking, and time spent outdoors, may help restore a smoother flow of energy. You can check whether this matches your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Liver Qi Stagnation"
+        termCn="肝气郁结, gān qì yù jié"
+        text="The Liver in Chinese medicine is responsible for the smooth flow of Qi and emotion. Think of it as a traffic controller for energy. When emotions are suppressed or stress runs high for long stretches, the flow jams. Pressure builds behind the blockage, much like water behind a dam. The sensations that may follow include chest tightness, frequent sighing, a lump feeling in the throat, mood swings, and pain that shifts location. Movement, expression, and sour flavored foods may help restore flow."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsDampnessArticle() {
   const slug = "what-is-dampness"
@@ -30,6 +31,12 @@ export default function WhatIsDampnessArticle() {
           Dampness is one of the most important concepts in Chinese medicine. It refers to fluid your body cannot properly metabolize. Instead of being processed and eliminated, that fluid accumulates and creates heavy, sticky, sluggish feelings. Common signs may include brain fog, bloating, sticky stools, weight that resists effort to lose, and a thick tongue coating. In most cases the Spleen sits at the root, because it is the organ responsible for moving and separating fluids in the first place.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Dampness"
+        termCn="湿, shī"
+        text="Dampness in Chinese medicine behaves like a damp sponge left in a room. It is heavy, sticky, and slow to clear. It can settle in the joints, the digestion, or the head, producing symptoms that feel foggy, heavy, and sluggish. A thick greasy tongue coating, bloating, grogginess, and sticky stools are classic signs. Dampness may come from humid weather, but more often it develops from foods that are cold, sweet, greasy, or dairy heavy. The Spleen is the organ most vulnerable to it."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

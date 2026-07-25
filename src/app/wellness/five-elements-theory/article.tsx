@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function FiveElementsTheoryArticle() {
   const slug = "five-elements-theory"
@@ -30,6 +31,12 @@ export default function FiveElementsTheoryArticle() {
           The Five Elements (Wu Xing) theory is a framework in Chinese medicine that connects everything in nature to five archetypes: Wood, Fire, Earth, Metal, and Water. Each element corresponds to specific organs, emotions, seasons, tastes, colors, and body functions. Understanding which element may be out of balance can help explain recurring patterns in your health, mood, and energy. To see which element tends to dominate for you, try our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Five Elements (Wu Xing)"
+        termCn="五行, wǔ xíng"
+        text="The Five Elements theory maps the body and the natural world into five archetypes: Wood, Fire, Earth, Metal, and Water. Each element corresponds to specific organs, emotions, seasons, tastes, and tissues. Wood links to the Liver and anger. Fire to the Heart and joy. Earth to the Spleen and worry. Metal to the Lungs and grief. Water to the Kidneys and fear. The elements generate and regulate each other in cycles, and Chinese medicine uses these relationships to trace how an imbalance in one organ may ripple into others."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

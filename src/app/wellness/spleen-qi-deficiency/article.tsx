@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function SpleenQiDeficiencyArticle() {
   const slug = "spleen-qi-deficiency"
@@ -30,6 +31,12 @@ export default function SpleenQiDeficiencyArticle() {
           When your body struggles to turn meals into steady energy, TCM often points to Spleen Qi Deficiency. In TCM theory, the Spleen is responsible for converting food into usable energy. When Spleen Qi is weak, your body struggles to extract nutrition from what you eat. The result may include fatigue after meals, bloating, loose stools, poor concentration, and a feeling of heaviness. This pattern overlaps significantly with the Qi Deficient body type. Warm, cooked, easy-to-digest foods like congee, sweet potato, and ginger tea may help support Spleen function over time.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Spleen Qi Deficiency"
+        termCn="脾气虚, pí qì xū"
+        text="The Spleen in Chinese medicine is the digestive engine. It extracts nutrients and Qi from food and lifts the clean energy upward to nourish the body and mind. When Spleen Qi runs low, the engine sputters. Food may pass through without being fully processed, leading to bloating, gas, and loose stools. Energy may dip after eating rather than rise. Over time, the muscles may feel weak and the thoughts scattered. Irregular meals, excessive worry, and cold raw foods are frequent causes."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

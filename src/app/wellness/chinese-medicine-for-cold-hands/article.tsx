@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForColdHandsArticle() {
   const slug = "chinese-medicine-for-cold-hands"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForColdHandsArticle() {
           Cold hands and feet are one of the most common complaints seen in Chinese medicine. When the internal warming force runs low, the body prioritizes the core organs and cuts warmth to the extremities. The most common pattern is Yang Deficiency: the internal furnace is underpowered. Warming foods such as lamb, ginger, cinnamon, and walnuts may help gradually rebuild the body&apos;s heating system over time, when matched to the right pattern.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Why Are Your Hands Cold? Match the Pattern"
+        branches={[
+          { signal: "Cold hands + pale face + fatigue", meaning: "Qi and Blood Deficiency, poor circulation", approach: "Build Qi and Blood: red dates, beef, ginger" },
+          { signal: "Cold hands + cold feet + lower back ache", meaning: "Kidney Yang Deficiency, low fire", approach: "Warm Yang: lamb, walnuts, cinnamon" },
+          { signal: "Cold hands that turn red then white", meaning: "Liver Qi Stagnation, blocked flow to limbs", approach: "Move Qi: rose tea, citrus, warm foot soaks" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

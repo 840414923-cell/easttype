@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForConstipationArticle() {
   const slug = "chinese-medicine-for-constipation"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForConstipationArticle() {
           Chinese medicine does not treat all constipation the same way. Excess-type constipation, marked by hard, dry, infrequent stools with abdominal fullness, may involve Heat or Stomach Fire accumulating in the intestines. Deficient-type constipation, marked by straining with little result and tiredness afterward, may reflect Qi or Blood Deficiency, where the body lacks the pushing power to move waste along. The foods that may help depend entirely on which pattern you have. Moistening foods like sesame seeds, pear, and honey may support dry-type constipation, while warm, moving foods like radish and ginger may help stagnant-type constipation where bloating and tension are the main complaint.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Constipation Pattern Is Yours?"
+        branches={[
+          { signal: "Dry, hard stools + thirst + dry skin", meaning: "Intestine Dryness, lacking fluids", approach: "Moisten: pear, sesame oil, honey, black sesame" },
+          { signal: "Straining + fatigue + soft stools", meaning: "Qi Deficiency, no strength to push", approach: "Boost Qi: sweet potato, rice porridge, flaxseed" },
+          { signal: "Constipation + bloating + irritability", meaning: "Liver Qi Stagnation, blocked descending", approach: "Move Liver Qi: mint, citrus, rose tea" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

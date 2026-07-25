@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function LungQiDeficiencyArticle() {
   const slug = "lung-qi-deficiency"
@@ -30,6 +31,12 @@ export default function LungQiDeficiencyArticle() {
           Lung Qi governs breathing and protects the body&apos;s surface from external pathogens through Wei Qi, the defensive energy that circulates just beneath the skin. When Lung Qi is weak, you may catch colds easily, feel short of breath, have a weak or low voice, and sweat with minimal effort. This pattern overlaps with the Qi Deficient body type and can be associated with frequent respiratory complaints. Foods like pears, lily bulb, white fungus, and Chinese yam may help support Lung function over time when paired with warm, cooked meals and steady rest.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Lung Qi Deficiency"
+        termCn="肺气虚, fèi qì xū"
+        text="The Lungs govern breathing and command the defensive Qi, the layer of energy that guards the skin against external pathogens. When Lung Qi is robust, breathing is easy and the immune barrier holds firm. When Lung Qi weakens, the breath may become shallow, the voice soft, and the body more susceptible to colds that linger. Spontaneous sweating with little exertion and a tendency to feel winded on stairs are common signals. The pattern may develop after repeated respiratory illness or chronic grief."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

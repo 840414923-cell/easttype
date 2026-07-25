@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForFatigueArticle() {
   const slug = "chinese-medicine-for-fatigue"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForFatigueArticle() {
           In Chinese medicine, chronic fatigue is not simply &quot;not enough sleep.&quot; It often reflects Qi Deficiency, and Spleen Qi Deficiency in particular. The Spleen produces usable energy from food. When it is weak, no amount of rest resolves the tiredness. Common signs may include fatigue after eating, brain fog, a weak voice, bloating, and a pale complexion. Warm, nourishing foods such as congee, sweet potato, and jujube dates may help rebuild energy gradually over time.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="What Type of Fatigue Are You Experiencing?"
+        branches={[
+          { signal: "Tired + breathless + soft voice", meaning: "Qi Deficiency, low overall energy", approach: "Build Qi: sweet potato, rice porridge, red dates" },
+          { signal: "Tired + pale face + dizziness", meaning: "Blood Deficiency, poor nourishment", approach: "Build Blood: black sesame, beef, goji" },
+          { signal: "Tired + cold limbs + frequent urination", meaning: "Kidney Yang Deficiency, low fire", approach: "Warm Yang: lamb, walnuts, cinnamon tea" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

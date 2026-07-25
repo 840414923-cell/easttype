@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsJingArticle() {
   const slug = "what-is-jing"
@@ -30,6 +31,12 @@ export default function WhatIsJingArticle() {
           Jing (精) is often translated as &quot;essence.&quot; It is your deepest, most fundamental energy reserve. You are born with a fixed amount, called Pre-Heaven Jing, and you supplement it throughout life through food and lifestyle, which builds Post-Heaven Jing. Jing governs growth, reproduction, aging, and longevity. When Jing is abundant, you tend to age slowly and recover well. When Jing is depleted, you may age faster, feel deeply tired, and notice changes in hair, bones, knees, lower back, and reproductive health. The foods and habits that nourish Jing may help preserve this deep reserve. To see where your constitution sits, try our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Jing (Essence)"
+        termCn="精, jīng"
+        text="Jing is the deepest layer of the substance in Chinese medicine, often translated as essence. It is the inherited reserve you are born with, stored in the Kidneys, and it governs growth, reproduction, aging, and the strength of the constitution. Unlike Qi, which is replenished daily from food and air, Jing is spent slowly and is difficult to rebuild. Conserving it through balanced rest, moderate habits, and steady nourishment is a central concern of long term wellness practice."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

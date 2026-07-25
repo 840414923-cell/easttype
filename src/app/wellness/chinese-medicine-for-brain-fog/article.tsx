@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForBrainFogArticle() {
   const slug = "chinese-medicine-for-brain-fog"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForBrainFogArticle() {
           Brain fog in Chinese medicine usually means one of two things. Either the Spleen is too weak to make enough energy for the mind, or dampness is clouding the head. Both create that heavy, unclear, can&apos;t-focus feeling that settles over thinking. Foods that strengthen the Spleen, such as rice congee, sweet potato, and Chinese yam, and foods that drain dampness, such as adzuki beans and coix seed, may help lift the fog over time. If this sounds familiar, our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link> can help you check the pattern.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Pattern Is Clouding Your Thinking?"
+        branches={[
+          { signal: "Foggy head + heavy limbs + thick tongue coat", meaning: "Phlegm-Damp clouding the mind", approach: "Clear damp: coix seed, white radish, tangerine peel" },
+          { signal: "Poor memory + pale face + dizziness", meaning: "Blood Deficiency, brain undernourished", approach: "Build Blood: red dates, black sesame, goji" },
+          { signal: "Mental fatigue + weak voice + easy sweating", meaning: "Qi Deficiency, low fuel for thinking", approach: "Boost Qi: sweet potato, rice porridge, astragalus" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

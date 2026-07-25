@@ -4,6 +4,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function FoodsThatWarmArticle() {
 
@@ -49,6 +50,15 @@ export default function FoodsThatWarmArticle() {
           ))}
         </ul>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Cold Pattern Do You Have?"
+        branches={[
+          { signal: "Cold hands and feet + pale face + fatigue", meaning: "Qi and Blood Deficiency, poor circulation", approach: "Build and warm: red dates, ginger, beef" },
+          { signal: "Cold lower back + frequent clear urination", meaning: "Kidney Yang Deficiency, low fire", approach: "Warm Kidney Yang: lamb, walnuts, cinnamon" },
+          { signal: "Cold abdomen + bloating + loose stools", meaning: "Spleen Yang Deficiency, cold in middle", approach: "Warm Spleen: dried ginger, fennel, leeks" }
+        ]}
+      />
 
       {/* Direct Answer */}
       <section className="mb-10">

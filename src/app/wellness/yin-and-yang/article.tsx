@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function YinAndYangArticle() {
   const slug = "yin-and-yang"
@@ -30,6 +31,12 @@ export default function YinAndYangArticle() {
           Yin and Yang is the most fundamental concept in Chinese medicine. Yin is cooling, moistening, calming, and resting. Yang is warming, activating, moving, and energizing. Health is the dynamic balance between them. When Yin is low, you may run hot and dry. When Yang is low, you may run cold and tired. Understanding your own Yin-Yang balance may help you choose the right foods and daily habits that fit your body. You can get a quick read on your pattern with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Yin and Yang"
+        termCn="阴阳, yīn yáng"
+        text="Yin and Yang are the two complementary forces that Chinese medicine uses to describe every relationship in the body and the natural world. Yang is warm, active, bright, and rising. Yin is cool, resting, dark, and descending. Neither is good or bad on its own. Health is the dynamic balance between them. When Yang exceeds Yin, heat signs may appear: restlessness, dry mouth, red face. When Yin exceeds Yang, cold signs may follow: sluggishness, pale complexion, fluid retention."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

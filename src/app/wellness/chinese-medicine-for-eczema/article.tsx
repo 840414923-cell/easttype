@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForEczemaArticle() {
   const slug = "chinese-medicine-for-eczema"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForEczemaArticle() {
           Eczema in Chinese medicine is most often understood as Damp Heat trapped in the skin. When the body cannot clear dampness and heat through normal channels, they push outward through the skin, creating the red, oozing, itchy patches that define acute eczema. In chronic cases, the repeated flare-ups deplete Blood, leading to dry, cracked skin that itches more at night. Cooling and damp-draining foods such as mung beans and coix seed may help acute patterns, while nourishing foods like black sesame and goji may help chronic dry patterns. This pattern can be associated with the <Link href="/types/damp_heat" className="text-accent hover:underline">Damp Heat body type</Link>, and you can check your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Match Your Eczema to Its TCM Root"
+        branches={[
+          { signal: "Red, oozing, itchy lesions", meaning: "Damp-Heat erupting on skin", approach: "Clear heat and damp: mung bean, celery, coix seed" },
+          { signal: "Dry, flaky, pale eczema", meaning: "Blood Deficiency, skin undernourished", approach: "Nourish Blood: black sesame, red dates, goji" },
+          { signal: "Chronic eczema + fatigue + poor appetite", meaning: "Spleen Deficiency generating damp", approach: "Strengthen Spleen: yam, porridge, avoid raw foods" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

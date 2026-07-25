@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function BeginnersGuideArticle() {
   const slug = "chinese-medicine-for-beginners"
@@ -30,6 +31,15 @@ export default function BeginnersGuideArticle() {
           Starting Chinese medicine does not require herbs, needles, or a practitioner. It starts with understanding three simple ideas: your body runs on energy (qi), that energy has a temperature (yin and yang), and your body has a type that determines which foods help you and which ones work against you. Once you know your type, you can make better food choices starting with your very next meal.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Where Should You Start with Chinese Medicine?"
+        branches={[
+          { signal: "Always tired + poor digestion + cold hands", meaning: "Spleen and Qi Deficiency, start with digestion", approach: "Warm, cooked meals: congee, sweet potato, ginger tea" },
+          { signal: "Stressed + irritable + chest tightness", meaning: "Liver Qi Stagnation, start with flow", approach: "Move Qi: citrus, rose tea, daily walking" },
+          { signal: "Dry skin + poor sleep + anxiety", meaning: "Yin and Blood Deficiency, start with nourishment", approach: "Nourish: goji, red dates, black sesame" }
+        ]}
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

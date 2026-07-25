@@ -88,8 +88,8 @@ Pinterest (+169% impressions, +223% saves) -> Website (Google 8 pages top 10) ->
 | 3 | Lung/Respiratory | 3 | ✅ Done 2026-07-21 |
 | 4 | Sleep/Night (Heart Shen + Liver) | 3 | ✅ Done 2026-07-22 |
 | 5 | Emotional/Liver | 3 | ✅ Done 2026-07-22 |
-| 6 | Growth/Energy (Kidney/Spleen) | 3 | ⬜ |
-| 7 | Immunity/Skin (Lung + Spleen Damp Heat) | 3 | ⬜ |
+| 6 | Growth/Energy (Kidney/Spleen) | 3 | ✅ Done 2026-07-25 |
+| 7 | Immunity/Skin (Lung + Spleen Damp Heat) | 3 | ✅ Done 2026-07-25 |
 
 ---
 

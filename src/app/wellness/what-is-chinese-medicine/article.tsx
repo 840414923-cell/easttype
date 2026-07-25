@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function WhatIsChineseMedicineArticle() {
   const slug = "what-is-chinese-medicine"
@@ -30,6 +31,12 @@ export default function WhatIsChineseMedicineArticle() {
           Chinese medicine, also called Traditional Chinese Medicine (TCM), is a complete medical system developed over 3,000 years in China. It treats the whole person rather than isolated symptoms by identifying patterns of imbalance in the body. Instead of asking &quot;what disease do you have?&quot; Chinese medicine asks &quot;what pattern is your body showing?&quot; The same symptom in two people may have different root causes and therefore different treatments. TCM includes five main branches: herbal medicine, acupuncture, dietary therapy, exercise (qigong and tai chi), and massage (tuina).
         </p>
       </div>
+
+      <DefinitionBox
+        term="Chinese Medicine"
+        termCn="中医, zhōng yī"
+        text="Chinese medicine is a complete medical system developed over more than two thousand years of observation and practice. Where Western medicine tends to isolate a specific cause and target it, Chinese medicine looks at the web of relationships between organ systems, emotions, environment, and lifestyle. The same symptom in two people may trace to different root patterns and receive different guidance. Diagnosis relies on pulse, tongue, and questioning rather than lab values alone, and the goal is restoring internal balance."
+      />
 
       <section className="mb-10">
         <p className="text-text2 leading-relaxed mb-4">

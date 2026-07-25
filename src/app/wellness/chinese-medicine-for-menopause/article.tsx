@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { ConditionalBranchesTable } from "@/components/wellness-geo"
 
 export default function ChineseMedicineForMenopauseArticle() {
   const slug = "chinese-medicine-for-menopause"
@@ -30,6 +31,15 @@ export default function ChineseMedicineForMenopauseArticle() {
           In Chinese medicine, menopause is viewed as a natural decline of Kidney Yin, the cooling and moistening energy that keeps the body&apos;s warmth in balance. As Yin thins over the years around midlife, internal heat has nothing to restrain it, and a state known as empty heat may rise. This can be associated with hot flashes, night sweats, dry skin, irritability, and difficulty staying asleep. Chinese medicine does not call menopause a disease. It treats it as a transition that every woman moves through, one that may be eased with the right foods, calmer routines, and time. Cooling and moistening foods such as black sesame seeds, goji berries, lotus seed, and lily bulb have been used for generations during this phase. To see whether your constitution matches this picture, try our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <ConditionalBranchesTable
+        title="Which Menopause Pattern Are You Experiencing?"
+        branches={[
+          { signal: "Hot flashes + dry skin + night sweats", meaning: "Kidney Yin Deficiency, cooling layer thin", approach: "Nourish Yin: lily bulb, goji, black sesame" },
+          { signal: "Mood swings + breast tenderness + sighing", meaning: "Liver Qi Stagnation", approach: "Move Qi: rose tea, citrus, mint" },
+          { signal: "Fatigue + cold limbs + frequent urination", meaning: "Kidney Yang Deficiency", approach: "Warm Yang: walnuts, lamb, cinnamon" }
+        ]}
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

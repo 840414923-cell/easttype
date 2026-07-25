@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function KidneyYinDeficiencyArticle() {
   const slug = "kidney-yin-deficiency"
@@ -30,6 +31,12 @@ export default function KidneyYinDeficiencyArticle() {
           Kidney Yin Deficiency is one of the most common patterns identified in Chinese medicine. In TCM theory, the Kidneys store the body&apos;s deepest reserve of cooling, moistening energy, called Yin. When this reserve runs low, the body&apos;s natural warmth has nothing to balance it, and a type of internal heat builds up. The result may include night sweats, a dry mouth or throat, hot flashes that tend to peak in the late afternoon or evening, low back ache, and difficulty staying asleep. You may also notice a flushed face, ringing in the ears, or a restless, anxious mind. This pattern can be associated with aging, chronic overwork, and the hormonal shifts of menopause. Cooling, moistening foods like black sesame seeds, pears, and goji berries may help restore balance over time. You can check whether this matches your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Kidney Yin Deficiency"
+        termCn="肾阴虚, shèn yīn xū"
+        text="Kidney Yin is the moistening, cooling reserve stored in the Kidney organ system. It is the deepest reservoir of fluid, responsible for keeping internal heat in check and lubricating the joints, skin, and mucous membranes. When this reserve is drawn down faster than it is replenished, heat may build without a cooling counterbalance. Night sweats, a dry throat, low back ache, and tinnitus are signs that may accompany this pattern. Late nights, overwork, and aging are common contributors."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">

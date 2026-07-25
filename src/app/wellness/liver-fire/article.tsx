@@ -3,6 +3,7 @@ import FaqSection from "@/components/faq-section"
 import { WELLNESS_FAQS } from "@/lib/wellness-faqs"
 import SymptomCta from "@/components/symptom-cta"
 import InlineQuizCta from "@/components/inline-quiz-cta"
+import { DefinitionBox } from "@/components/wellness-geo"
 
 export default function LiverFireArticle() {
   const slug = "liver-fire"
@@ -30,6 +31,12 @@ export default function LiverFireArticle() {
           Liver Fire is what happens when Liver Qi Stagnation escalates into heat. When frustration and stress are held in the body long enough, the stuck energy ignites into fire. Signs may include red or bloodshot eyes, sharp headaches focused at the temples or the top of the head, intense irritability or sudden rage, a bitter taste in the mouth, dry mouth, ringing in the ears, and a flushed red face. This is a distinctly hot pattern, unlike the Liver Qi Stagnation it tends to grow out of. Cooling foods like celery, chrysanthemum tea, and mung beans may help bring the internal temperature down. You can check whether this matches your constitution with our <Link href="/quiz" className="text-accent hover:underline">free body type quiz</Link>.
         </p>
       </div>
+
+      <DefinitionBox
+        term="Liver Fire"
+        termCn="肝火, gān huǒ"
+        text="Liver Fire is an excess heat pattern that blazes upward when stagnant Liver Qi compresses for too long and ignites. The symptoms tend to rise toward the head: red face, bloodshot eyes, a bitter taste in the mouth, and a short temper that flares fast and hot. Headaches that throb at the temples and ringing in the ears may also appear. The pattern is often triggered by chronic frustration, suppressed anger, or long periods of emotional pressure without release."
+      />
 
       <section className="mb-10">
         <h2 className="font-[family-name:var(--font-display)] text-xl text-text mb-4">
