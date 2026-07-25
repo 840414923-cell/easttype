@@ -203,6 +203,13 @@ Hero (split: "What's Your Chinese Medicine Body Type?" + hero image) -> Trust Ba
 - 方剂数据库：`D:\EastType\【A04】中医方剂数据库\中医方剂Excel数据表.xlsx`（84,295条方剂，14MB）
 - 中药图片库：`D:\EastType\图片参考\中药图片\A017-中医药材图片`（200+种药材实拍图）
 - 方剂配图：`D:\EastType\图片参考\方剂配图\`（用户用 image2 生成，1536x864 16:9）
+- Journal 图片风格规范（所有 journal 文章统一）：
+  - 数量：每篇 1 封面 + 3 内文 = 4 张图
+  - 尺寸：1536x864（16:9），JPG 格式，<200KB
+  - 封面图：**手绘扁平设计风**（hand-drawn flat illustration）。两个对比人物/元素，体现"同一场景不同体质不同反应"。扁平色块无渐变，粗线条带手绘质感，有限色调（cream 背景 + 两个对比色 + navy 描边），大量留白。参考：coffee-cover.jpg, heatwave-cover.jpg
+  - 内文配图：**PPT 式详细信息图**（educational infographic）。包含图标+文字标签+数据表格+步骤说明，信息密度高但排版清晰。配色：cream/white 背景 + amber/red/green 功能色。参考：back-to-school-body-type-grid.jpg, coffee-three-reactions.jpg
+  - 图片路径：`public/images/journal/[slug]-[description].jpg`
+  - 压缩：用 sharp 转 JPG（quality 82, maxWidth 1536），目标 <200KB
 
 ---
 
