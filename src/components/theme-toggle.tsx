@@ -1,31 +1,40 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useSyncExternalStore } from "react"
+
+const THEME_KEY = "et-theme"
+
+function subscribeTheme(callback: () => void) {
+  window.addEventListener("et-theme-changed", callback)
+  return () => window.removeEventListener("et-theme-changed", callback)
+}
+
+function getThemeClient() {
+  return localStorage.getItem(THEME_KEY) ?? "dark"
+}
+
+function getThemeServer() {
+  return "dark"
+}
 
 export function ThemeToggle() {
-  const [dark, setDark] = useState(true)
+  const theme = useSyncExternalStore(subscribeTheme, getThemeClient, getThemeServer)
+  const dark = theme !== "light"
 
   useEffect(() => {
-    const saved = localStorage.getItem("et-theme")
-    if (saved === "light") {
-      setDark(false)
-      document.documentElement.classList.remove("dark")
-      document.documentElement.classList.add("light")
-    }
-  }, [])
-
-  const toggle = () => {
-    const next = !dark
-    setDark(next)
-    if (next) {
+    if (dark) {
       document.documentElement.classList.remove("light")
       document.documentElement.classList.add("dark")
-      localStorage.setItem("et-theme", "dark")
     } else {
       document.documentElement.classList.remove("dark")
       document.documentElement.classList.add("light")
-      localStorage.setItem("et-theme", "light")
     }
+  }, [dark])
+
+  const toggle = () => {
+    const nextTheme = dark ? "light" : "dark"
+    localStorage.setItem(THEME_KEY, nextTheme)
+    window.dispatchEvent(new Event("et-theme-changed"))
   }
 
   return (

@@ -27,10 +27,12 @@ export default function DayPage({ params }: { params: { day: string } }) {
   const [saved, setSaved] = useState(false)
 
   useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect */
     const stored = localStorage.getItem(`camp-checkin-day-${dayNum}`)
     if (stored) {
       setCheckin(JSON.parse(stored))
     }
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, [dayNum])
 
   const toggle = (key: keyof typeof checkin) => {

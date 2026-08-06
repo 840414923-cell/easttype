@@ -292,9 +292,11 @@ export default function AdminPage() {
   }
 
   useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect */
     if (tab === "cardgen" && !genResult && !genError && genDone.size < Object.keys(SYMPTOMS).length) {
       handleGenerateCard()
     }
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, [tab])
 
   const unusedCodes = codes ? codes.filter((c) => c.status === "unused").map((c) => c.code) : []

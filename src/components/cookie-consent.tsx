@@ -1,29 +1,34 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useSyncExternalStore } from "react"
 
 const CONSENT_KEY = "et_consent"
 
+function subscribeConsent(callback: () => void) {
+  window.addEventListener("et-consent-changed", callback)
+  return () => window.removeEventListener("et-consent-changed", callback)
+}
+
+function getConsentHiddenClient() {
+  return localStorage.getItem(CONSENT_KEY) !== null
+}
+
+function getConsentHiddenServer() {
+  return true
+}
+
 export function CookieConsent() {
-  const [visible, setVisible] = useState(false)
+  const hidden = useSyncExternalStore(subscribeConsent, getConsentHiddenClient, getConsentHiddenServer)
 
-  useEffect(() => {
-    if (!localStorage.getItem(CONSENT_KEY)) {
-      setVisible(true)
-    }
-  }, [])
-
-  if (!visible) return null
+  if (hidden) return null
 
   const accept = () => {
     localStorage.setItem(CONSENT_KEY, "accepted")
-    setVisible(false)
     window.dispatchEvent(new Event("et-consent-changed"))
   }
 
   const decline = () => {
     localStorage.setItem(CONSENT_KEY, "declined")
-    setVisible(false)
     window.dispatchEvent(new Event("et-consent-changed"))
   }
 

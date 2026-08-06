@@ -27,17 +27,6 @@ export function SearchBar({
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    if (query.trim()) {
-      setResults(searchContent(query))
-      setIsOpen(true)
-      setActiveIndex(-1)
-    } else {
-      setResults([])
-      setIsOpen(false)
-    }
-  }, [query])
-
-  useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setIsOpen(false)
@@ -71,7 +60,18 @@ export function SearchBar({
           type="text"
           autoFocus={autoFocus}
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            const value = e.target.value
+            setQuery(value)
+            if (value.trim()) {
+              setResults(searchContent(value))
+              setIsOpen(true)
+              setActiveIndex(-1)
+            } else {
+              setResults([])
+              setIsOpen(false)
+            }
+          }}
           onKeyDown={handleKeyDown}
           onFocus={() => query.trim() && setIsOpen(true)}
           placeholder="Search symptoms, foods, body types..."

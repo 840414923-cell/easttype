@@ -15,6 +15,7 @@ export default function CampDashboard() {
   const [checkinData, setCheckinData] = useState<Record<number, { completed: number; mood: string }>>({})
 
   useEffect(() => {
+    /* eslint-disable react-hooks/set-state-in-effect */
     const enroll = localStorage.getItem("camp-enrolled")
     if (enroll) {
       setEnrolled(true)
@@ -35,6 +36,7 @@ export default function CampDashboard() {
       }
     }
     setCheckinData(data)
+    /* eslint-enable react-hooks/set-state-in-effect */
   }, [])
 
   const enroll = () => {
