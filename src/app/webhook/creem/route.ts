@@ -38,7 +38,7 @@ const webhookHandler = Webhook({
 
     await trackPurchaseServer({
       transactionId: data.id,
-      value: ((data.metadata?.plan as string) ?? "basic") === "pro" ? 12.99 : 4.99,
+      value: ((data.metadata?.plan as string) ?? "basic") === "pro" ? 24.99 : 9.99,
       currency: "USD",
       plan: (data.metadata?.plan as string) ?? "basic",
       clientId: (data.metadata?._ga as string | undefined) || undefined,
