@@ -1058,5 +1058,196 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
   },
+  {
+    slug: "autumn-hair-shedding-by-body-type",
+    title: "Why Your Hair Sheds More in Autumn: How Your Body Type May Hold the Answer",
+    description: "Why your hair sheds more in autumn, and how your Chinese medicine body type may explain why some lose more hair than others during the seasonal shift.",
+    date: "2026-08-08",
+    category: "seasonal",
+    tags: ["autumn", "hair-loss", "hair-shedding", "body-type", "seasonal"],
+    excerpt: "If your brush fills up faster every September, you are not imagining it. Autumn hair shedding is real, and your Chinese medicine body type may explain why it hits some people harder than others.",
+    thumbnail: "/images/journal/autumn-hair-shedding-cover.jpg",
+    sections: [
+      {
+        heading: "The Brush Does Not Lie",
+        body: "It starts around the second week of September. You run a hand through your hair and three strands come away. You brush in the morning and the brush is fuller than usual. The shower drain has more hair in it than you are comfortable looking at. You check your scalp in the mirror, half convinced you are going bald, and then by October it slows down and you forget about it until next year.\n\nThis is not in your head. Seasonal hair shedding in autumn is one of the most documented patterns in both dermatology and traditional Chinese medicine. Clinics see a spike in hair loss consultations every September and October. Research suggests people shed roughly twice as many hairs per day during peak autumn compared to summer.\n\nBut the interesting part is not that everyone sheds more. It is that some people shed a little more, barely noticing, while others lose handfuls and genuinely panic. Chinese medicine has a framework for this difference. Two principles sit at the center: hair is considered the surplus of blood, and the kidneys are said to show their vitality through the hair. When autumn arrives and the air turns dry, the body types whose blood or kidney reserves are already thin are the ones whose hair pays the price first.\n\nThis guide walks through how each of the nine body types experiences autumn hair shedding, what makes some types more vulnerable than others, and what may help you support your hair through the transition.",
+      },
+      {
+        heading: "How Autumn Affects Hair Across Body Types",
+        type: "image",
+        imageAlt: "Autumn hair shedding risk by body type",
+        imageDescription: "An infographic showing all nine body types arranged along a hair shedding severity spectrum from red (severe shedding) to green (minimal shedding). Each type has a small head silhouette icon with varying amounts of falling hair strands. Yin Deficient and Blood Stasis sit at the red end. Balanced sits at the green end. Warm autumn color palette with red, amber, and green accents on a cream background.",
+        imagePath: "/images/journal/autumn-hair-shedding-matrix.jpg",
+      },
+      {
+        heading: "The Nine Body Types and Autumn Hair Shedding",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Shedding Pattern", "Scalp Condition", "Risk Level"],
+          rows: [
+            ["Yin Deficient", "Sheds early and fast", "Dry, flaky, itchy", "★★★★★"],
+            ["Blood Stasis", "Thinning at crown and temples", "Tight, poor circulation", "★★★★☆"],
+            ["Qi Deficient", "Slow, thin strands", "Pale, low energy", "★★★★☆"],
+            ["Qi Stagnant", "Patchy, stress-triggered", "Normal but tense", "★★★☆☆"],
+            ["Yang Deficient", "Dry, brittle hair", "Cold, sluggish circulation", "★★★☆☆"],
+            ["Phlegm Damp", "Oily shedding", "Greasy, clogged follicles", "★★★☆☆"],
+            ["Damp Heat", "Inflamed shedding with dandruff", "Red, itchy, irritated", "★★★☆☆"],
+            ["Sensitive", "Reactive shedding", "Irritated, flares with changes", "★★☆☆☆"],
+            ["Balanced", "Normal seasonal turnover", "Healthy, resilient", "★☆☆☆☆"],
+          ],
+        },
+      },
+      {
+        heading: "Hair Shedding Severity by Body Type",
+        body: "Three body types face high to moderate risk of noticeable autumn hair shedding. The remaining six either shed within normal range or barely notice the change. The difference comes down to whether the body has enough blood and kidney reserve to keep the hair rooted when the season turns dry.",
+        type: "barchart",
+        barchart: {
+          items: [
+            { label: "Yin Deficient", value: 2, displayValue: "2/10" },
+            { label: "Blood Stasis", value: 3, displayValue: "3/10" },
+            { label: "Qi Deficient", value: 4, displayValue: "4/10" },
+            { label: "Qi Stagnant", value: 5, displayValue: "5/10" },
+            { label: "Yang Deficient", value: 5, displayValue: "5/10" },
+            { label: "Phlegm Damp", value: 5, displayValue: "5/10" },
+            { label: "Damp Heat", value: 6, displayValue: "6/10" },
+            { label: "Sensitive", value: 7, displayValue: "7/10" },
+            { label: "Balanced", value: 9, displayValue: "9/10" },
+          ],
+        },
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "Your body type may explain why your hair reacts to autumn the way it does. Take the free 5-minute quiz to find out which of the nine constitutions you are, and what it means for your hair, your skin, and your energy through every season.",
+      },
+      {
+        heading: "The Types That Shed Most",
+        body: "Two body types account for most of the autumn hair loss that sends people to the mirror in a panic. If you belong to either, the arrival of dry, cool air is a signal to start supporting your hair from the inside, not just switching shampoos.",
+      },
+      {
+        heading: "Yin Deficient: When Dryness Reaches the Root",
+        body: "Yin Deficient types are the most vulnerable to autumn hair shedding, and it usually starts earlier than for other types. The scalp is an extension of the skin, and the hair root depends on moisture and blood to stay anchored. When your body already runs warm and dry, the drop in humidity that comes with autumn pulls moisture from every surface, including the scalp. The scalp may feel tight, itchy, and flaky. The hair may lose its shine before the shedding even begins, because the root is running on empty.\n\nWhat makes this worse is that Yin Deficient types often sleep poorly, and the deepest repair of blood and hair happens during sleep. A cycle forms: dryness disrupts sleep, poor sleep reduces blood production, and thin blood cannot hold the hair. What may help: moistening foods like black sesame, mulberry, lily bulb, and pear. Avoid anything that dries you further, including spicy food, late nights, and very hot showers. Aim for sleep before 11 PM, and consider adding a spoonful of black sesame powder to your morning routine through September and October.",
+      },
+      {
+        heading: "Blood Stasis: When the Scalp Cannot Feed the Follicle",
+        body: "Blood Stasis types shed for a different reason. The blood may be present, but it is not moving. The scalp is the farthest point from the heart, and if circulation is sluggish, the hair follicles sit at the end of a supply line that is not delivering. The scalp may feel tight or tender when you press it. Hair thinning often appears at the crown and temples first, because those areas have the weakest blood supply to begin with.\n\nAutumn makes this worse because cold constricts blood vessels. As the temperature drops, the scalp gets even less circulation, and the hair that was already hanging on by a thread lets go. What may help: foods that invigorate blood circulation, including walnuts, peach kernel, and a small amount of dark chocolate or hawthorn. Gentle scalp massage with warm fingers for two minutes each morning may help bring blood to the surface. Avoid sitting still for long stretches, and keep the head and neck warm as the weather cools.",
+      },
+      {
+        heading: "The Types That Shed Moderately",
+        body: "Three body types experience autumn shedding in a milder form. The hair thins, the brush fills up a bit more than usual, but it does not reach the level of panic. These types can usually manage the shedding with dietary adjustments and a few habit changes.",
+      },
+      {
+        heading: "Qi Deficient: When the Root Is Underfed",
+        body: "Qi Deficient types shed because the body lacks the energy to produce blood efficiently. If blood is the soil that feeds the hair, Qi is the farmer. When the farmer is exhausted, the soil goes untilled and the crop suffers. The hair may grow slowly, come out in thin strands, and lack body. The scalp may look pale. Unlike Yin Deficient shedding, which is driven by dryness, Qi Deficient shedding is driven by sheer exhaustion. It tends to worsen during periods of stress, poor appetite, or after illness. What may help: Chinese yam, jujube dates, black bean, and goji berry. These are gentle, nourishing foods that support the body's ability to produce blood over time. Avoid skipping meals, overexercising, and staying up late, all of which deepen the deficit.",
+      },
+      {
+        heading: "Phlegm Damp: When Oil Smothers the Root",
+        body: "Phlegm Damp types face a different problem entirely. Their scalp produces too much oil, and the excess sebum can clog the hair follicle, weaken the root, and cause hair to fall out before its natural cycle is complete. The hair may feel greasy by the end of the day, and the shedding often comes with a heavy, waxy feeling on the scalp.\n\nThis type of shedding does not worsen dramatically in autumn, but it does not improve either. The cooler air reduces sweating, which means the oil sits on the scalp longer instead of being flushed out. What may help: foods that reduce dampness and oil, including coix seed, mung bean, and celery. Avoid dairy, fried food, and sweets, which all increase the body's tendency to produce phlegm and oil. Wash the scalp with warm, not hot, water, and avoid heavy styling products that add to the buildup.",
+      },
+      {
+        heading: "The Types That Barely Notice",
+        body: "If you are Balanced, you will still shed more hair in autumn than in summer. This is normal. The hair growth cycle includes a natural shedding phase, and seasonal turnover is a sign that the body is responding to changes in light and temperature. For Balanced types, the shedding stays within the normal range of 50 to 100 hairs per day and resolves on its own within four to six weeks. No special intervention is needed beyond basic scalp care and a healthy diet.",
+      },
+      {
+        heading: "Autumn Foods That May Support Hair Health",
+        type: "image",
+        imageAlt: "Six autumn hair-supporting foods",
+        imageDescription: "A warm-toned food infographic showing six foods that support hair health arranged in a 3x2 grid: black sesame, walnut, black bean, mulberry, goji berry, and Chinese yam. Each food has a simple flat illustration icon and a one-line TCM property description. Cream background with amber and dark brown accents, autumn leaf decorations in corners.",
+        imagePath: "/images/journal/autumn-hair-foods.jpg",
+      },
+      {
+        heading: "Foods That May Support Hair Through Autumn",
+        type: "list",
+        list: [
+          { bold: "Black sesame.", text: "The single most recommended food for hair in Chinese medicine. It nourishes the kidneys and blood, and its dark color is traditionally associated with hair pigment. A spoonful of ground black sesame each morning is a simple autumn habit." },
+          { bold: "Walnut.", text: "Walnuts support the kidneys and are considered a brain and hair food in TCM. Their warming nature makes them suitable for Yang Deficient and Qi Deficient types. Four to five walnuts a day is enough." },
+          { bold: "Black bean.", text: "Black beans nourish kidney Yin and blood. They are gentle enough for daily use and may be added to soups, stews, or rice. Their dark skin contains anthocyanins, which support circulation to the scalp." },
+          { bold: "Mulberry.", text: "Fresh or dried, mulberries nourish blood and Yin. They are particularly suited to Yin Deficient and Blood Stasis types. A small handful of dried mulberries can be soaked in warm water and drunk as a light tea." },
+          { bold: "Goji berry.", text: "Goji berries support both the liver and kidneys, the two organ systems most connected to hair health in TCM. Add a teaspoon to tea, congee, or oatmeal. Avoid large amounts if you tend to run warm, as they are slightly warming." },
+          { bold: "Chinese yam.", text: "Also known as shan yao, it supports the Spleen and Lungs, the organs responsible for producing the Qi that eventually becomes blood. It is the most gentle and versatile food on this list, suitable for every body type." },
+        ],
+      },
+      {
+        heading: "Black Sesame and Walnut Paste: A Step-by-Step Hair Recipe",
+        body: "Black sesame and walnut paste is one of the oldest and simplest hair-supporting recipes in Chinese households. It takes ten minutes of active time and requires no special equipment beyond a pan and a grinder. The combination of black sesame, walnut, and black bean provides the three things the hair root needs most in autumn: moisture, oil, and blood-building nutrition. Here is how to make it.",
+        type: "steps",
+        steps: [
+          { title: "Measure the ingredients", detail: "You will need half a cup of black sesame seeds, a quarter cup of walnut halves, and two tablespoons of dried black beans. This makes enough powder for about one week of daily servings. All three ingredients can be found in Asian grocery stores or online." },
+          { title: "Toast the black sesame seeds", detail: "Place a dry pan over low heat. Add the sesame seeds and stir constantly for 3 to 4 minutes. They are done when they become fragrant and a few begin to pop. Do not use oil. Do not walk away, because sesame seeds burn quickly and burnt sesame tastes bitter and loses its beneficial properties. Transfer to a plate to cool." },
+          { title: "Toast the walnuts", detail: "In the same dry pan over low heat, add the walnut halves. Stir for 2 to 3 minutes until they become fragrant and slightly darker. Walnuts burn even faster than sesame, so keep the heat low and the pan moving. Break them into smaller pieces as they toast. Transfer to the plate with the sesame." },
+          { title: "Toast the black beans", detail: "Add the dried black beans to the dry pan over medium heat. Stir for 5 to 6 minutes. The skins will begin to crack and split open, and the beans will give off a nutty aroma. This step is important because raw black beans are hard to digest. Let them cool on the plate with the other ingredients." },
+          { title: "Grind into a fine powder", detail: "Once all three ingredients are completely cool, transfer them to a spice grinder, coffee grinder, or food processor. Grind for 30 to 60 seconds until you have a fine, dark powder. The texture should resemble coarse flour. Do not over-grind the walnuts, or they will release their oil and turn the powder into a paste." },
+          { title: "Store in an airtight jar", detail: "Transfer the powder to a clean, dry glass jar with a tight lid. Store at room temperature in a dark cupboard. The powder will keep for up to two weeks. Do not refrigerate, because moisture will cause it to clump and spoil." },
+          { title: "Make a daily serving", detail: "Each morning, put one tablespoon of the powder in a small bowl. Add just enough warm water to make a smooth paste, stirring to remove lumps. Then add more warm water or warm milk to thin it to your preferred consistency. Sweeten with a teaspoon of honey. Drink it warm, not hot, ideally before breakfast." },
+          { title: "Be patient with the results", detail: "Hair grows slowly, and the effects of dietary changes show up over weeks, not days. A daily spoonful of this paste through September and October may support the hair root from within. If you notice less shedding after three to four weeks, you are on the right track. If not, your body type may need a different approach." },
+        ],
+      },
+      {
+        heading: "Things to Keep in Mind About the Paste",
+        type: "list",
+        list: [
+          { bold: "Do not add sugar.", text: "White sugar is considered drying in TCM, which works against the moistening purpose of the sesame and walnut. Honey is the preferred sweetener because it is moistening and gentle on the Lungs." },
+          { bold: "If you run cold, add ginger.", text: "Yang Deficient types may find the paste too cooling if eaten raw. A tiny pinch of ginger powder stirred in with the warm water can balance the temperature without changing the flavor much." },
+          { bold: "If you have oily scalp, reduce the walnut.", text: "Phlegm Damp and Damp Heat types should use less walnut and more black bean, since walnuts are oily and may increase scalp sebum. Adjust the ratio to one tablespoon walnut and three tablespoons black bean." },
+          { bold: "Consistency matters more than quantity.", text: "A small daily serving for four weeks is more effective than a large batch once a week. The hair root responds to steady nutrition, not occasional floods." },
+        ],
+      },
+      {
+        heading: "Autumn Hair Care Habits Beyond Food",
+        type: "image",
+        imageAlt: "Six autumn hair care habits",
+        imageDescription: "A flat illustration infographic showing six autumn hair care habits with simple icons in a 3x2 grid: a scalp massage with fingertips, a wide-tooth wooden comb, a silk pillowcase, a warm water shower head, a sleep before 11 PM clock, and a neck scarf. Warm amber and dark brown color palette with cream background, minimal line-art style with autumn leaf accents.",
+        imagePath: "/images/journal/autumn-hair-care-habits.jpg",
+      },
+      {
+        heading: "Daily Habits for Autumn Hair Care",
+        type: "list",
+        list: [
+          { bold: "Massage your scalp each morning.", text: "Use the pads of your fingers, not your nails, and press in small circles for two minutes. This may help bring blood to the scalp surface, which is especially important for Blood Stasis and Yang Deficient types." },
+          { bold: "Switch to a wide-tooth wooden comb.", text: "Plastic combs create static and pull on dry autumn hair. A wooden comb glides more gently and distributes natural oils from the scalp down the hair shaft." },
+          { bold: "Wash with warm, not hot, water.", text: "Hot water strips the scalp of its natural oils and worsens the dryness that drives autumn shedding. Warm water cleans without disrupting the protective layer." },
+          { bold: "Sleep before 11 PM.", text: "The body produces blood and repairs tissue during deep sleep, and the hours before midnight are considered the most restorative in TCM. If your hair is shedding, sleep is the first thing to fix, before any food or supplement." },
+          { bold: "Keep your neck warm.", text: "The back of the neck is where blood vessels travel to the scalp. Cold constricts them, reducing blood flow to the hair root. A light scarf in autumn is practical hair care, not just fashion." },
+          { bold: "Do not panic.", text: "Stress worsens shedding, especially for Qi Stagnant types. Seasonal shedding is temporary. Most people see it slow down by late October. If you are losing more than 150 hairs a day for more than six weeks, consider consulting a dermatologist." },
+        ],
+      },
+    ],
+    relatedLinks: [
+      { title: "Kidney Yin Deficiency", slug: "kidney-yin-deficiency", type: "wellness" },
+      { title: "Blood Deficiency", slug: "blood-deficiency", type: "wellness" },
+      { title: "Spleen Qi Deficiency", slug: "spleen-qi-deficiency", type: "wellness" },
+      { title: "He Shou Wu", slug: "he-shou-wu", type: "herbs" },
+    ],
+    faqs: [
+      {
+        q: "Is autumn hair shedding normal?",
+        a: "Yes. Seasonal shedding in autumn is a well-documented pattern. Most people shed 50 to 100 hairs per day normally, and this may double during peak autumn. If the shedding slows down within four to six weeks, it is likely seasonal and not a sign of permanent hair loss.",
+      },
+      {
+        q: "Why does my hair shed more in autumn than spring?",
+        a: "In Chinese medicine, autumn is the season of dryness, and the hair root depends on moisture and blood to stay anchored. When the air loses humidity, the scalp loses moisture faster, and the root weakens. Spring, by contrast, is a season of rising energy and renewal, which tends to support hair growth.",
+      },
+      {
+        q: "Which body type is most affected by autumn hair shedding?",
+        a: "Yin Deficient types are the most vulnerable, because their bodies already run warm and dry. When autumn reduces external moisture, the scalp dries out faster and the hair root loses its grip. Blood Stasis types are also at high risk because poor circulation prevents the scalp from receiving the blood it needs.",
+      },
+      {
+        q: "Does black sesame really help with hair loss?",
+        a: "Black sesame is one of the most traditional hair-supporting foods in Chinese medicine. It nourishes the kidneys and blood, which are the two systems most connected to hair health. While it is not a quick fix, a daily spoonful over several weeks may support the hair root from within, especially for Yin Deficient and Qi Deficient types.",
+      },
+      {
+        q: "Should I wash my hair less in autumn to prevent shedding?",
+        a: "Not necessarily. Washing frequency depends on your scalp type. Phlegm Damp and Damp Heat types may need to wash daily to remove excess oil. Yin Deficient and Balanced types may benefit from washing every other day to preserve natural oils. The key is using warm, not hot, water and a gentle, sulfate-free shampoo.",
+      },
+      {
+        q: "When should I see a doctor about hair loss?",
+        a: "If you are shedding more than 150 hairs per day for more than six weeks, if the shedding is accompanied by scalp redness, pain, or scarring, or if you notice bald patches appearing suddenly, consult a dermatologist. Seasonal shedding is temporary, but these signs may indicate a different type of hair loss that needs medical attention.",
+      },
+      {
+        q: "Can stress cause autumn hair shedding?",
+        a: "Stress is a major factor, especially for Qi Stagnant types. The Liver system in TCM is responsible for smooth energy flow, and when stress blocks that flow, blood circulation to the scalp suffers. Autumn, with its shorter days and emotional weight, can amplify stress-related shedding. Movement, sleep, and emotional expression may help more than any supplement.",
+      },
+    ],
+  },
 
 ]
