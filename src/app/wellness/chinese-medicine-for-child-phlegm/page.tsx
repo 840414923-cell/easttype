@@ -5,8 +5,8 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-for-child-phlegm"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Chinese Medicine for Child Phlegm: Dampness Trapped in the Lungs and Foods That May Help"
-const DESC = "In Chinese medicine, a child's persistent phlegm often starts in the Spleen, not the Lungs. Tangerine peel, radish, and coix seed may help dry dampness and ease the morning rattle over two to three weeks."
+const TITLE = "Chinese Medicine for Child Phlegm: Why the Chest Rattles Every Morning"
+const DESC = "In Chinese medicine, a child's phlegm starts in the Spleen, not the Lungs. Tangerine peel, radish, and coix seed may help dry dampness and ease the morning rattle."
 
 export const metadata: Metadata = {
   title: TITLE,

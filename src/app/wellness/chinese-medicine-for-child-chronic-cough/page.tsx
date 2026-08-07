@@ -5,8 +5,8 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-for-child-chronic-cough"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Chinese Medicine for Child Chronic Cough: Phlegm Patterns and Foods That May Help"
-const DESC = "In Chinese medicine, a child's chronic cough often comes from phlegm damp or lung dryness after repeated infections. Pear with rock sugar, loquat, and almond may gently calm the cough over two to three weeks."
+const TITLE = "Chinese Medicine for Child Chronic Cough: Why It Lingers for Weeks After a Cold"
+const DESC = "In Chinese medicine, a lingering cough often comes from phlegm or lung dryness after a cold. Pear with rock sugar and loquat may help calm it over two to three weeks."
 
 export const metadata: Metadata = {
   title: TITLE,

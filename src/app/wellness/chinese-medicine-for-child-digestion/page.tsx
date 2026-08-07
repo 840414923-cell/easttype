@@ -5,8 +5,8 @@ import { buildArticleJsonLd } from "@/lib/json-ld"
 
 const SLUG = "chinese-medicine-for-child-digestion"
 const URL = `https://www.myeasterntype.com/wellness/${SLUG}`
-const TITLE = "Chinese Medicine for Child Digestion: Spleen-Supporting Foods That May Help"
-const DESC = "In Chinese medicine, a child's Spleen is naturally immature until age 6 or 7. These warm, gentle foods, including rice congee with Chinese yam and jujube dates, may help support weak digestion in picky eaters and kids with frequent stomach trouble."
+const TITLE = "Chinese Medicine for Child Digestion: Why Tummy Trouble Keeps Coming Back"
+const DESC = "In Chinese medicine, a child's Spleen is weak until age 7. Warm foods like rice congee with Chinese yam may help picky eaters and ease frequent stomach trouble."
 
 export const metadata: Metadata = {
   title: TITLE,
