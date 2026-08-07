@@ -1249,5 +1249,184 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
   },
+  {
+    slug: "autumn-cravings-by-body-type",
+    title: "Autumn Cravings: Why Your Body Type Decides Whether Comfort Food Helps or Hurts",
+    description: "Why autumn makes you crave heavier food, and how your Chinese medicine body type decides whether comfort food helps or hurts when the weather cools.",
+    date: "2026-08-09",
+    category: "seasonal",
+    tags: ["autumn", "comfort-food", "cravings", "body-type", "diet", "seasonal"],
+    excerpt: "The first cool evening of September, you are reaching for stew instead of salad. Your body is talking. But whether you should listen depends entirely on your Chinese medicine body type.",
+    thumbnail: "/images/journal/autumn-cravings-cover.jpg",
+    sections: [
+      {
+        heading: "The Stew That Appears on Its Own",
+        body: "The first cool evening of September, you find yourself standing at the stove without having decided to cook. The pot is on, the water is boiling, and you are reaching for the heavier ingredients you ignored all summer. Roots instead of greens. Broth instead of salad. Something about the air has flipped a switch, and your appetite has followed.\n\nThis is not weakness or lack of discipline. The body reads the season before the mind does, and when the temperature drops, the digestive system asks for denser, warmer fuel. In Chinese medicine, this instinct has a name. Autumn is the season of gathering and storing, and the body naturally wants to build reserve before winter. The tradition of eating rich food after the start of autumn, called tie qiu biao in Chinese, was built on this observation.\n\nBut here is the part the tradition leaves out. The instinct is universal. The correct response is not. A Qi Deficient body that needs warming stew and a Phlegm Damp body that needs light vegetable soup are both sending the same signal, but feeding them the same food produces opposite results. One gets stronger. The other gets heavier, more sluggish, and more stuck.\n\nThe question is not whether to eat more in autumn. It is whether your body type is the kind that benefits from extra nourishment, or the kind that suffers from it. This guide sorts the nine body types into three groups: those that should eat more, those that should keep it light, and those that need moisture rather than mass.",
+      },
+      {
+        heading: "What Your Autumn Cravings Mean by Body Type",
+        type: "image",
+        imageAlt: "Autumn craving directions for nine body types",
+        imageDescription: "An infographic showing nine body types arranged in three color-coded groups. Left group in warm orange (Eat More): Qi Deficient and Yang Deficient with stew and ginger icons. Center group in cool blue (Keep Light): Phlegm Damp, Damp Heat, and Qi Stagnant with vegetable and tea icons. Right group in soft green (Eat Moist): Yin Deficient and Blood Stasis with pear and soup icons. Each type has a small icon of the food it craves and an arrow pointing to what it actually needs. Cream background, clean PPT style, warm autumn accents.",
+        imagePath: "/images/journal/autumn-cravings-signals.jpg",
+      },
+      {
+        heading: "Nine Body Types, Nine Autumn Appetites",
+        body: "Before sorting them into groups, it helps to hear what each body type is actually craving when the air turns cool. The craving is the body speaking. Whether you should obey it is a different question.",
+        type: "list",
+        list: [
+          { bold: "Qi Deficient.", text: "Wants sweets, starch, and second helpings of rice. The body is asking for fuel, because its energy production is low. The instinct is right, but the form matters. Congee nourishes. Pastries drain." },
+          { bold: "Yang Deficient.", text: "Wants red meat, hot soup, and anything cooked for hours. The body is asking for warmth, because its internal heating system is weak. This is one of the few types that genuinely benefits from traditional autumn eating." },
+          { bold: "Yin Deficient.", text: "Wants rich, creamy, or dessert-like food. The body is asking for moisture, because its cooling reserve is thin. But cream and sugar do not moisten the way pear and lily bulb do. The craving is right, the target is wrong." },
+          { bold: "Blood Stasis.", text: "Wants spicy food and sometimes alcohol. The body is asking for movement, because blood circulation is sluggish. A small amount of spice may help. A large amount scatters the very energy it was trying to move." },
+          { bold: "Qi Stagnant.", text: "Wants sugar, chocolate, and anything eaten standing in front of the fridge at midnight. This is not the body asking for food. It is the Liver asking for emotional release. Eating does not solve it. Walking does." },
+          { bold: "Phlegm Damp.", text: "Wants greasy, heavy, deeply flavored food. The body is not asking for nourishment. It is stuck in a loop where dampness dulls the taste buds, so the tongue demands stronger flavors, which produce more dampness. The craving is the problem, not the solution." },
+          { bold: "Damp Heat.", text: "Wants barbecue, hotpot, and fried food. The residual summer heat in the body is still active, and these foods add fuel to a fire that has not gone out yet. This is the type most likely to break out in acne or mouth ulcers after an autumn binge." },
+          { bold: "Sensitive.", text: "Appetite swings with the weather. Cool days bring hunger for warm food. Warm days bring a return to light eating. The body is honest but reactive. Simple, warm, freshly cooked meals are the steadiest ground." },
+          { bold: "Balanced.", text: "Wants slightly more warm, cooked food than in summer. The instinct is accurate and the body can handle modest indulgence without trouble. This is the type that can enjoy autumn eating without overthinking it." },
+        ],
+      },
+      {
+        heading: "Autumn Comfort Food: Craving vs Need",
+        type: "table",
+        table: {
+          headers: ["Body Type", "What You Crave", "What Actually Helps", "What to Avoid"],
+          rows: [
+            ["Qi Deficient", "Sweets, extra rice", "Yam jujube congee, gentle protein", "Cold raw food, overeating"],
+            ["Yang Deficient", "Red meat, long-cooked stew", "Lamb, ginger, cinnamon in moderation", "Cold drinks, raw salads"],
+            ["Yin Deficient", "Rich desserts, creamy food", "Duck, pear, lily bulb, honey", "Spicy, deep-fried, late nights"],
+            ["Blood Stasis", "Spicy food, wine", "Walnut, peach kernel, hawthorn", "Ice-cold food, excessive alcohol"],
+            ["Qi Stagnant", "Sugar, midnight snacks", "Rose tea, citrus, a walk outside", "Emotional eating, skipping meals"],
+            ["Phlegm Damp", "Greasy, heavy flavors", "Coix seed, winter melon, radish", "Dairy, fried food, sweets"],
+            ["Damp Heat", "Barbecue, hotpot", "Bitter gourd, mung bean, celery", "Alcohol, greasy and spicy food"],
+            ["Sensitive", "Varies with weather", "Simple warm meals, mild flavors", "Extreme flavors, overeating"],
+            ["Balanced", "Slightly more warm food", "Seasonal cooked meals", "Overeating, forcing intake"],
+          ],
+        },
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "Before you change your autumn diet, know your type. The same stew that fuels a Qi Deficient body may smother a Phlegm Damp one. Take the free 5-minute quiz and learn which of the nine constitutions you are, so the food you crave becomes the food that actually helps.",
+      },
+      {
+        heading: "The Types That Need Extra Nourishment",
+        body: "Two body types can and should eat more in autumn. Their internal reserves are genuinely low, and the seasonal instinct to build reserve is working in their favor. For these types, a warm, substantial meal is not a indulgence. It is what the body has been waiting for.",
+      },
+      {
+        heading: "Qi Deficient: The Body Asking for Fuel",
+        body: "For Qi Deficient types, the autumn craving for starch and sweetness is not indulgence. It is the body requesting fuel, because its daily energy production runs below what the season now demands. The instinct is correct. The execution is where people go wrong. A bowl of congee with jujube dates and Chinese yam answers the request perfectly. A pastry from the bakery answers it with sugar that spikes and crashes, leaving the body more depleted than before.\n\nThe key for this type is regularity, not quantity. Three warm meals at consistent times may do more than one large feast. The Spleen, which produces Qi from food, works best with rhythm. Skipping breakfast and overeating at dinner is the pattern that keeps Qi Deficient types exhausted no matter how much they eat. What may help: congee, rice, sweet potato, jujube dates, Chinese yam, and a small amount of lean protein at every meal. Avoid cold drinks, raw food, and irregular meal times.",
+      },
+      {
+        heading: "Yang Deficient: The Body Asking for Warmth",
+        body: "Yang Deficient types are the ones the autumn eating tradition was designed for. Their internal heating system runs weak, and when the weather cools, they feel it in their bones, their digestion, and their energy. The body craves red meat, long-cooked stews, and warming spices because these foods directly address the deficit. A bowl of lamb and radish stew on a September evening is exactly what this type needs.\n\nThe catch is moderation, because even a cold body can be overwhelmed. Warming food should be added gradually through September, not dumped all at once in a single feast. Start with ginger tea in the morning, add warming soups at lunch, and reserve heavier meat dishes for dinner. What may help: lamb, beef, chicken, ginger, cinnamon, chestnut, and fennel. Avoid cold drinks, raw salads, and anything straight from the refrigerator.",
+      },
+      {
+        heading: "The Types That Should Keep It Light",
+        body: "Three body types face the opposite situation. Their instinct in autumn is to eat heavier food, but doing so makes them worse. For these types, the autumn tradition of rich eating is not helpful. It is a trap. The body is not asking for nourishment. It is stuck in a pattern that heavier food deepens.",
+      },
+      {
+        heading: "Phlegm Damp: The Trap of Comfort Food",
+        body: "Phlegm Damp types crave greasy, heavy, deeply flavored food in autumn, and giving in to that craving is the worst thing they can do. The body is not undernourished. It is congested. Dampness has settled in the digestive system, dulling the taste buds and slowing metabolism. The tongue demands stronger flavors because it cannot taste subtlety anymore, and the strong flavors it demands produce more dampness. The loop feeds itself.\n\nFor this type, autumn eating should go in the opposite direction of instinct. Light, warm, slightly bitter foods may help break the cycle. Coix seed porridge for breakfast. Winter melon soup for lunch. Radish and vegetable soup for dinner. These are not exciting foods. They are the foods that slowly clear the sludge so the body can taste properly again. What may help: coix seed, winter melon, radish, celery, and green tea. Avoid dairy, fried food, sweets, and anything that feels heavy going down.",
+      },
+      {
+        heading: "Damp Heat: When Comfort Food Backfires",
+        body: "Damp Heat types face a timing problem. The autumn air is cooling, but their body still holds residual heat from summer. The craving for barbecue and hotpot is the heat talking, not the season. Eating spicy, greasy food now is like pouring oil on a fire that is just starting to die down. The result is acne, mouth ulcers, irritability, and a heavier feeling that looks like autumn weight gain but is actually accumulated heat.\n\nThe right move for this type is to wait. Keep eating summer-clearing foods through the first two weeks of autumn, until the body genuinely cools. Bitter gourd, mung bean, and celery are still appropriate in September for this type. Save the warming stews for October, when the internal heat has truly cleared and the body is ready for them. What may help: bitter gourd, mung bean, celery, lotus root, and green tea. Avoid alcohol, barbecue, deep-fried food, and spicy hotpot until late autumn.",
+      },
+      {
+        heading: "Qi Stagnant: Sugar Is Not the Answer",
+        body: "Qi Stagnant types crave sugar in autumn, but the craving has nothing to do with hunger. The Liver system, responsible for the smooth flow of energy and emotion, tightens when stress builds. Shorter days and the emotional weight of the season amplify this. Sugar provides a brief hit of comfort, followed by a crash that leaves the body more tense than before. The midnight snack standing in front of the fridge is not the body asking for food. It is the Liver asking for movement.\n\nFor this type, the single most effective autumn food habit is not about food at all. It is a ten-minute walk after dinner. Rose tea, citrus peel tea, and foods that keep energy moving may help. But the real medicine for Qi Stagnant autumn cravings is fresh air, sunlight, and honest emotional expression. What may help: rose tea, citrus, kiwi, and regular physical movement. Avoid sugar binges, late-night eating, and sitting for long stretches.",
+      },
+      {
+        heading: "The Types That Need Moisture Not Mass",
+        body: "Two body types should eat more in autumn, but not more food. More moisture. Their deficit is not one of volume but of fluid, and the dry autumn air makes that deficit worse. For these types, the answer is not a bigger portion. It is a different category of food entirely.",
+      },
+      {
+        heading: "Yin Deficient: Nourish, Do Not Stuff",
+        body: "Yin Deficient types often feel hungry in autumn, but the hunger is a thirst in disguise. The body is losing moisture to the dry air, and it misreads the signal as a request for food. Eating heavy food does not solve the problem. It adds heat and burden to a system that is already running warm and dry. What the body is actually asking for is moistening, cooling, fluid-rich food that replenishes the reserve without generating more heat.\n\nThink of it this way: a Yin Deficient body in autumn is like a sponge left in the sun. Pouring heavy stew on it does not make it wet. Soaking it in pear soup does. The foods that help this type are the ones that are naturally juicy, cooling, and moistening. What may help: pear, lily bulb, white fungus, duck, lotus root, honey, and mulberry. Avoid spicy food, deep-fried food, lamb, and anything that makes you sweat. Go to bed before 11 PM, because Yin is rebuilt during sleep.",
+      },
+      {
+        heading: "A Day of Autumn Eating by Body Type",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Breakfast", "Lunch", "Dinner"],
+          rows: [
+            ["Qi Deficient", "Yam jujube congee", "Chicken ginger soup with rice", "Steamed root vegetables with rice"],
+            ["Yang Deficient", "Ginger jujube tea with oatmeal", "Lamb and radish stew", "Pumpkin soup with warm bread"],
+            ["Yin Deficient", "Pear and lily bulb soup", "Duck soup with lotus root", "White fungus and rice congee"],
+            ["Phlegm Damp", "Coix seed porridge", "Winter melon soup with fish", "Radish and vegetable clear soup"],
+            ["Damp Heat", "Mung bean soup", "Bitter gourd with rice", "Celery and lotus root stir-fry"],
+            ["Qi Stagnant", "Rose tea with light congee", "Vegetable rice bowl with citrus", "Clear greens soup, walk after"],
+          ],
+        },
+      },
+      {
+        heading: "Autumn Foods to Focus On, Grouped by Function",
+        type: "image",
+        imageAlt: "Autumn foods grouped by TCM function",
+        imageDescription: "A warm-toned infographic showing autumn foods organized into three color-coded columns. Left column in warm orange labeled WARM AND NOURISHING: lamb, ginger, jujube date, chestnut, yam. Center column in cool blue labeled CLEAR AND LIGHT: coix seed, winter melon, radish, celery, mung bean. Right column in soft green labeled MOISTEN AND COOL: pear, white fungus, lily bulb, duck, honey. Each food has a simple flat icon. Cream background with autumn leaf accents, clean PPT layout.",
+        imagePath: "/images/journal/autumn-cravings-foods.jpg",
+      },
+      {
+        heading: "Foods to Focus On This Autumn",
+        type: "list",
+        list: [
+          { bold: "Warm and nourishing (for Qi and Yang Deficient types).", text: "Lamb, beef, chicken, ginger, cinnamon, chestnut, jujube date, and Chinese yam. These foods add warmth and fuel to bodies that run cold and depleted. Eat them in moderate, regular portions rather than single large feasts." },
+          { bold: "Clear and light (for Phlegm Damp and Damp Heat types).", text: "Coix seed, winter melon, radish, celery, mung bean, and bitter gourd. These foods reduce dampness, clear residual heat, and keep the digestive system from getting bogged down. They are not exciting, but they are what these body types need when the instinct says otherwise." },
+          { bold: "Moisten and cool (for Yin Deficient and Blood Stasis types).", text: "Pear, white fungus, lily bulb, duck, lotus root, honey, and mulberry. These foods add fluid without adding heat, which is exactly what dry body types need when the autumn air strips moisture from every surface." },
+          { bold: "Moving and soothing (for Qi Stagnant types).", text: "Rose tea, citrus peel, kiwi, and peppermint. These foods support the Liver system in keeping energy flowing smoothly. Pair them with physical movement for the strongest effect." },
+          { bold: "Neutral and gentle (for Sensitive and Balanced types).", text: "Rice, seasonal vegetables, light soups, and moderate portions of any of the above. These body types handle autumn eating without much trouble, as long as the food is warm, freshly cooked, and not excessive." },
+        ],
+      },
+      {
+        heading: "Common Autumn Eating Mistakes",
+        type: "list",
+        list: [
+          { bold: "Eating the same comfort food as everyone else.", text: "Your colleague lamb stew might be perfect for their Yang Deficient body and a disaster for your Damp Heat one. Autumn eating is not one-size-fits-all. Know your type first." },
+          { bold: "Using sugar to cope with the autumn mood dip.", text: "The emotional weight of shorter days is real, especially for Qi Stagnant types. But sugar provides a twenty-minute lift followed by a two-hour crash. A walk, a cup of rose tea, or an early night may help more." },
+          { bold: "Switching to heavy meat too early.", text: "The first two weeks of autumn may still be hot. Damp Heat and Phlegm Damp types should keep eating light until the body genuinely cools, usually by late September. Starting the stews in early August is asking for breakouts and sluggishness." },
+          { bold: "Still drinking ice-cold drinks.", text: "The Spleen in TCM is sensitive to cold, and autumn is when it needs to work hardest to process the heavier food you are introducing. Ice water, cold smoothies, and iced coffee undermine the very system you are relying on to handle the season." },
+          { bold: "Skipping meals when appetite drops.", text: "Some body types, particularly Qi Deficient and Sensitive, may lose appetite during the seasonal transition. Skipping meals deepens the deficit. A small bowl of warm congee is better than nothing, even if you do not feel hungry." },
+          { bold: "Overeating nuts and dried fruit.", text: "Walnuts, almonds, and dried jujube are autumn staples, but they are dense. A handful is nourishing. A bag is a burden, especially for Phlegm Damp and Damp Heat types who do not process rich food efficiently." },
+        ],
+      },
+    ],
+    relatedLinks: [
+      { title: "Spleen Qi Deficiency", slug: "spleen-qi-deficiency", type: "wellness" },
+      { title: "Kidney Yang Deficiency", slug: "kidney-yang-deficiency", type: "wellness" },
+      { title: "TCM Diet: A Complete Guide", slug: "tcm-diet", type: "wellness" },
+      { title: "Cooling Foods in Chinese Medicine", slug: "cooling-foods-chinese-medicine", type: "wellness" },
+    ],
+    faqs: [
+      {
+        q: "Is it normal to eat more in autumn?",
+        a: "Yes. The body naturally wants to build reserve before winter, and the digestive system works better in cooler weather than in the heat of summer. The instinct to eat more is universal. What differs is what your body type should actually eat in response.",
+      },
+      {
+        q: "Is the Chinese tradition of eating meat after Liqiu good for everyone?",
+        a: "No. The tradition of tie qiu biao, eating rich food after the start of autumn, was designed for people who were genuinely depleted after a summer of poor appetite and heat exposure. It suits Qi Deficient and Yang Deficient types well. For Phlegm Damp, Damp Heat, and Qi Stagnant types, the same rich food may cause congestion, breakouts, and sluggishness.",
+      },
+      {
+        q: "Why do I crave sugar in autumn when I never do in summer?",
+        a: "Two possible reasons. If you are Qi Deficient, the body is asking for quick energy because its daily production is low. If you are Qi Stagnant, the sugar craving is emotional, driven by the Liver system tightening under the shorter days and seasonal mood shift. A walk outdoors may satisfy the second type faster than any food.",
+      },
+      {
+        q: "Which body type should be most careful about autumn weight gain?",
+        a: "Phlegm Damp and Damp Heat types. Their bodies already tend to hold onto dampness and heat, and the autumn instinct to eat heavier food amplifies that tendency. These types should keep their autumn diet light and warm, prioritizing foods that clear dampness over foods that add nourishment.",
+      },
+      {
+        q: "Why do I feel hungrier at night in autumn?",
+        a: "If you are Yin Deficient, the dryness of autumn may disrupt sleep, and the body may misread the resulting fatigue as hunger. A small bowl of pear soup or warm milk before bed may address the actual need, which is moisture and calm, not calories.",
+      },
+      {
+        q: "Can I drink herbal tea instead of eating heavier food?",
+        a: "It depends on your body type and the tea. Ginger and jujube tea may suit Qi and Yang Deficient types. Rose and citrus tea may suit Qi Stagnant types. Chrysanthemum and mint tea may suit Yin Deficient and Damp Heat types. The right tea supports your body type. The wrong one, drunk daily, may push you further out of balance.",
+      },
+      {
+        q: "Should I force myself to eat less if I am gaining weight in autumn?",
+        a: "Not necessarily. If you are Qi or Yang Deficient, the weight may be your body finally building the reserve it needs, and cutting food would deepen the deficit. If you are Phlegm Damp or Damp Heat, the weight is likely accumulated dampness, and the answer is not eating less but eating differently: lighter, warmer, and more clearing.",
+      },
+    ],
+  },
 
 ]
