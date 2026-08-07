@@ -861,5 +861,202 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
       },
     ],
   },
+  {
+    slug: "autumn-arrives-by-body-type",
+    title: "Autumn Arrives: Why the Season Change Energizes Some and Drains Others",
+    description: "The Chinese calendar marks autumn start on August 7. Why some body types thrive in cooler air while others face dryness, fatigue, and low mood.",
+    date: "2026-08-07",
+    category: "seasonal",
+    tags: ["autumn", "liqiu", "season-change", "body-type", "lung", "dryness"],
+    excerpt: "August 7 marks Liqiu, the start of autumn in the Chinese calendar. The same cool air that refreshes one person may leave another dry, tired, or low. Here is how each of the nine body types handles the seasonal shift.",
+    thumbnail: "/images/journal/autumn-arrives-cover.jpg",
+    sections: [
+      {
+        heading: "When the Calendar Says Autumn but the Thermometer Says Summer",
+        body: "On August 7, the Chinese calendar turns a page. Liqiu, the Start of Autumn, arrives right on schedule, even if the weather outside still feels like the middle of July. In the Western calendar, this seems odd. The hottest days of the year often come after the official start of autumn. But Chinese medicine does not wait for the thermometer to agree. It tracks something subtler: the direction of change.\n\nThat shift is already happening, even if you cannot feel it in the temperature. The air loses a fraction of its humidity. The nights grow a touch longer. The morning dew sits differently on the grass. These are small signals, and your body reads them whether you notice or not.\n\nWhat is striking is how differently people respond. Some feel a wave of clarity and energy as the air cools, as if a fog has lifted. Others reach for lip balm and skin cream, wake up with a dry throat, or feel a quiet heaviness in their chest. A few feel emotionally flat, as if the world has turned down its color saturation. Chinese medicine has a name for this. It is the moment when your body type meets the season, and the two either get along or they do not.\n\nThis guide walks through how each of the nine body types responds to the arrival of autumn, what to watch for, and what may help you stay balanced through the transition.",
+      },
+      {
+        heading: "How Autumn Meets Each Body Type",
+        type: "image",
+        imageAlt: "Autumn body type impact spectrum",
+        imageDescription: "An infographic showing all nine body types arranged along an autumn impact spectrum from red (high risk) to green (low risk). Each type has a small icon and a one-line summary of its autumn reaction. Yin Deficient and Qi Stagnant sit at the red end. Phlegm Damp and Damp Heat sit at the green end. The overall color palette uses warm autumn tones with red, amber, and sage green accents.",
+        imagePath: "/images/journal/autumn-body-type-matrix.jpg",
+      },
+      {
+        heading: "The Nine Body Types in Autumn",
+        type: "table",
+        table: {
+          headers: ["Body Type", "Autumn Experience", "Main Risk", "Risk Level"],
+          rows: [
+            ["Yin Deficient", "Dryness worsens fast", "Dry throat, skin, night sweats", "★★★★★"],
+            ["Qi Stagnant", "Mood dips with shorter days", "Emotional flatness, chest tightness", "★★★★☆"],
+            ["Sensitive", "Reacts to temperature swings", "Skin flare-ups, nasal irritation", "★★★★☆"],
+            ["Blood Stasis", "Cold worsens circulation", "Pain patterns, cold extremities", "★★★☆☆"],
+            ["Qi Deficient", "Energy dips with the transition", "Fatigue, low appetite, weak voice", "★★★☆☆"],
+            ["Yang Deficient", "Starts feeling the cold early", "Cold hands and feet, sluggishness", "★★★☆☆"],
+            ["Balanced", "Adapts with minor adjustments", "Minimal, basic self-care sufficient", "★☆☆☆☆"],
+            ["Damp Heat", "Actually improves as humidity drops", "Least risk, heat eases naturally", "★☆☆☆☆"],
+            ["Phlegm Damp", "Feels lighter as dryness reduces damp", "Least risk, body prefers the shift", "★☆☆☆☆"],
+          ],
+        },
+      },
+      {
+        heading: "Autumn Adaptability Score by Body Type",
+        body: "Nearly half of the nine body types face moderate to high risk during the autumn transition. Three types, Phlegm Damp, Damp Heat, and Balanced, handle the shift with relative ease. The rest need to pay attention.",
+        type: "barchart",
+        barchart: {
+          items: [
+            { label: "Yin Deficient", value: 2, displayValue: "2/10" },
+            { label: "Qi Stagnant", value: 3, displayValue: "3/10" },
+            { label: "Sensitive", value: 4, displayValue: "4/10" },
+            { label: "Blood Stasis", value: 5, displayValue: "5/10" },
+            { label: "Qi Deficient", value: 5, displayValue: "5/10" },
+            { label: "Yang Deficient", value: 5, displayValue: "5/10" },
+            { label: "Balanced", value: 8, displayValue: "8/10" },
+            { label: "Damp Heat", value: 9, displayValue: "9/10" },
+            { label: "Phlegm Damp", value: 9, displayValue: "9/10" },
+          ],
+        },
+      },
+      {
+        heading: "",
+        type: "cta",
+        body: "Not sure which of the nine body types you are? Take the free 5-minute quiz and learn how your constitution may shape the way you experience every season, not just autumn.",
+      },
+      {
+        heading: "The Types That Struggle Most",
+        body: "Two body types account for most autumn discomfort. If you belong to either, the arrival of cooler, drier air is a signal to adjust your diet, protect your sleep, and pay attention to what your body is telling you.",
+      },
+      {
+        heading: "Yin Deficient: When the Air Steals Your Moisture",
+        body: "If you are Yin Deficient, autumn is your hardest season. Your body already runs warm and dry. When the air loses its humidity, the little moisture you have evaporates faster. Your throat may feel scratchy by mid-morning. Your skin may tighten and flake. Your lips crack. You might wake at 3 AM with a dry mouth and a restless mind, unable to get back to sleep. Night sweats, already a hallmark of this type, may intensify during the first weeks of autumn. The underlying issue is that your cooling, moistening reserve is thin, and the season amplifies that deficit. What may help: pear, lily bulb, white fungus, lotus root, and honey. These are the classic autumn moistening foods, and they are not optional for your type. Avoid spicy food, deep-fried food, and anything that makes you sweat. Go to bed before 11 PM, because the hours before midnight are when the body rebuilds its Yin.",
+      },
+      {
+        heading: "Qi Stagnant: When the Shorter Days Pull Your Mood Down",
+        body: "If you are Qi Stagnant, the physical dryness of autumn may not bother you much, but the emotional shift might. The Lung system in Chinese medicine is linked to grief, and autumn is the season of the Lung. As the light changes and the days contract, a quiet sadness can settle in that has nothing to do with anything going wrong in your life. You might feel less motivated, more irritable, or oddly flat. Your chest may feel tight, as if you cannot take a full breath. This is not a character flaw. It is the interaction between a Liver that already struggles with smooth emotional flow and a season that asks it to process more. What may help: movement, first and foremost. A brisk walk outdoors in the morning light may do more than any food. Rose tea, citrus peel tea, and foods that keep energy moving. Avoid sitting for long stretches, suppressing frustration, and skipping meals, which all deepen stagnation.",
+      },
+      {
+        heading: "The Types That Actually Feel Better",
+        body: "Not everyone dreads autumn. If you are Phlegm Damp or Damp Heat, the cooler, drier air may come as a relief. Your body has been wrestling with humidity and heaviness all summer. Autumn starts to solve that problem for you, naturally.",
+      },
+      {
+        heading: "Phlegm Damp: The Season That Lightens the Load",
+        body: "Phlegm Damp types often feel sluggish and heavy through summer. The humidity thickens the dampness already sitting in their system, and no amount of sweating seems to clear it. When autumn arrives and the air dries out, something lifts. The body feels less congested. The mind feels less foggy. The sticky, heavy quality that has been dragging at you for months begins to ease, because the environment is now working with you instead of against you. This does not mean you can eat whatever you want. Continue to avoid heavy, sweet, and dairy-heavy foods. But you may find that the same diet that left you bloated in July sits comfortably in September.",
+      },
+      {
+        heading: "Damp Heat: When the Fire Finally Cools",
+        body: "Damp Heat types suffer through summer. The combination of heat and humidity is exactly what their body already produces too much of, and the environment piles on. When autumn begins to dry the air and drop the temperature, the external pressure eases. Skin breakouts may calm down. The irritability that flared in August may soften. The sticky, uncomfortable quality in the body starts to clear. Enjoy the relief, but do not overdo the warming foods yet. The remnants of summer heat are still in the body for the first few weeks of autumn, and heavy, spicy, or greasy food can reignite them.",
+      },
+      {
+        heading: "Autumn Foods That May Help Every Body Type",
+        type: "image",
+        imageAlt: "Autumn moistening foods guide",
+        imageDescription: "A warm-toned food infographic showing six autumn moistening foods arranged in a grid: pear, white fungus, lily bulb, lotus root, honey, and Chinese yam. Each food has a small icon and a one-line description of its TCM property. The background uses soft amber and cream tones with autumn leaf accents.",
+        imagePath: "/images/journal/autumn-moistening-foods.jpg",
+      },
+      {
+        heading: "Foods to Add in Autumn",
+        type: "list",
+        list: [
+          { bold: "Pear.", text: "The single most recommended fruit for autumn. It is cooling, moistening, and directly supports the Lungs. Eat it fresh, steamed with rock sugar, or poached." },
+          { bold: "White fungus.", text: "Also called snow fungus, it is prized in TCM for its ability to moisten the Lungs and nourish Yin. Simmered into soup with rock sugar, it becomes a daily staple for Yin Deficient types through autumn." },
+          { bold: "Lily bulb.", text: "Not the ornamental flower, but the edible bulb used in Chinese cooking. It moistens the Lungs and calms the mind, which may help the sleep disturbances that come with autumn dryness." },
+          { bold: "Lotus root.", text: "Cooling and moistening, it clears heat while adding fluid. Sliced into soups or stir-fried, it is one of the most versatile autumn vegetables." },
+          { bold: "Honey.", text: "A spoonful in warm water each morning is a simple autumn habit. It moistens dryness and supports the Lungs. Avoid adding it to very hot water, which reduces its beneficial properties." },
+          { bold: "Chinese yam.", text: "Also known as shan yao, it supports both the Spleen and the Lungs. It is gentle enough for daily use and may help the body adjust to the seasonal transition." },
+        ],
+      },
+      {
+        heading: "The Autumn Tiger: When Summer Bites Back",
+        body: "Liqiu may say autumn, but the sun often disagrees. For the first two to three weeks after the start of autumn, daytime temperatures can still climb into the mid-30s. Chinese medicine calls this the Autumn Tiger, a final burst of summer heat that catches people off guard because they have already switched their mindset to cool weather. The danger is not the heat itself. It is the combination of drying air and lingering warmth, which can dehydrate the body faster than a July afternoon. If you feel unusually tired or thirsty in late August, the Autumn Tiger may be the reason.",
+        type: "list",
+        list: [
+          { bold: "Keep drinking warm water.", text: "The air is drier even if the temperature is high. Your body needs more fluid than you think." },
+          { bold: "Do not switch to heavy, warming foods yet.", text: "Save lamb, ginger, and cinnamon for late September. The residual heat in the body is still clearing." },
+          { bold: "Protect your neck from cold drafts.", text: "The gap between hot outdoors and cold air-conditioned indoors is wider in late August than at any other time. A light scarf may prevent the first autumn cold." },
+          { bold: "Eat melon while it lasts.", text: "Watermelon and winter melon are still appropriate in the Autumn Tiger window. Their cooling properties help clear the last of the summer heat." },
+        ],
+      },
+      {
+        heading: "How to Make White Fungus and Pear Soup: A Step-by-Step Autumn Recipe",
+        body: "White fungus and pear soup is the quintessential autumn dish in Chinese households. It is simple, inexpensive, and directly addresses the dryness that the season brings. The combination of snow fungus, pear, and rock sugar creates a lightly sweet, silky soup that moistens the Lungs and soothes the throat. Here is how to make it the traditional way.",
+        type: "steps",
+        steps: [
+          { title: "Choose the right fungus", detail: "Look for dried white fungus that is pale yellow, not bleached white. The pieces should be loose and light, not compacted. Avoid any with a sharp chemical smell, which indicates sulfur treatment. A single small piece, about the size of a walnut, is enough for two servings." },
+          { title: "Soak until fully expanded", detail: "Place the dried fungus in a bowl of cold water for two to three hours. It will expand dramatically, sometimes to ten times its dry size. Once fully softened, trim the hard yellow base and tear the soft part into small florets. Rinse twice to remove any grit." },
+          { title: "Prepare the pear", detail: "Use one Asian pear if available, or a firm Western pear as a substitute. Peel, core, and cut into small chunks. Asian pear is preferred because it is juicier and has a crisper texture that holds up during simmering. Do not use overripe pear, which turns mushy and clouds the soup." },
+          { title: "Simmer the fungus first", detail: "Place the torn fungus in a clay pot or stainless steel pot with about four cups of water. Bring to a boil, then reduce to a low simmer. Cook for 30 to 40 minutes before adding the pear. The fungus needs more time to release its gelatinous texture, which gives the soup its characteristic silkiness." },
+          { title: "Add the pear and simmer gently", detail: "Add the pear chunks and continue simmering for another 15 to 20 minutes. The pear should soften but not dissolve. If you are using dried lily bulb, add it at the same time as the pear. The soup is done when the liquid has turned slightly thick and the fungus is tender with a pleasant, gelatinous bite." },
+          { title: "Sweeten with rock sugar", detail: "Turn off the heat and stir in a small piece of rock sugar, about 15 grams. Rock sugar is preferred over white sugar because it is gentler on the Lungs and does not introduce the drying quality that refined sugar can bring. Stir until fully dissolved. The soup should be lightly sweet, not syrupy." },
+          { title: "Serve warm, not hot", detail: "Let the soup cool for ten minutes before serving. A warm bowl in the morning or evening is ideal. One small bowl per day is sufficient. Store any leftover in the refrigerator and consume within 24 hours, as the soup loses its moistening quality after a day." },
+        ],
+      },
+      {
+        heading: "A Few Things to Keep in Mind About White Fungus Soup",
+        type: "list",
+        list: [
+          { bold: "Do not eat it cold.", text: "Cold soup weakens the Spleen, which is the organ responsible for processing fluids. Warm is always better for moistening in TCM." },
+          { bold: "If you run cold, add ginger.", text: "Yang Deficient types may find white fungus too cooling. A single thin slice of ginger added during simmering can balance the coldness without changing the flavor." },
+          { bold: "Quality of the fungus matters.", text: "Bleached, sulfur-treated white fungus is common in cheap markets. It looks brighter but tastes chemical and may irritate the throat. Source from a reputable seller." },
+          { bold: "It is a daily habit, not a one-time fix.", text: "The moistening effect builds over days, not hours. A small bowl each evening for the first two weeks of autumn is more effective than a large batch once a week." },
+        ],
+      },
+      {
+        heading: "Autumn Habits Beyond Food",
+        type: "image",
+        imageAlt: "Six autumn wellness habits",
+        imageDescription: "A flat illustration infographic showing six autumn wellness habits with simple icons: an early bedtime clock, a morning walk in cool air, a scarf around the neck, a bowl of warm soup, a window cracked for fresh air, and a journal for emotional release. Warm amber and sage green color palette with minimal line-art style.",
+        imagePath: "/images/journal/autumn-habits.jpg",
+      },
+      {
+        heading: "Daily Habits for the Autumn Transition",
+        type: "list",
+        list: [
+          { bold: "Go to bed before 11 PM.", text: "In the TCM body clock, the Liver begins its restoration work at 11 PM. Autumn asks the body to conserve more, and sleep is the primary way it does that." },
+          { bold: "Walk outdoors in the morning.", text: "Morning light and cool air help regulate the internal clock and may lift the mood, especially for Qi Stagnant types who feel the emotional pull of shorter days." },
+          { bold: "Wear a light scarf.", text: "The back of the neck is considered a gateway for cold and wind in Chinese medicine. A simple scarf is the most practical autumn accessory." },
+          { bold: "Eat warm, cooked meals.", text: "Salads, smoothies, and raw foods are summer habits. Autumn calls for soups, stews, and porridge, which are easier on a body that is adjusting to cooler air." },
+          { bold: "Keep a window slightly open at night.", text: "Fresh air supports Lung function, but avoid direct drafts on the face. A cracked window is enough." },
+          { bold: "Name what you are feeling.", text: "Autumn is linked to grief in TCM. If you feel a quiet sadness, do not push it away. Acknowledging it, writing it down, or talking with someone may move it through faster than suppressing it." },
+        ],
+      },
+    ],
+    relatedLinks: [
+      { title: "Lung Qi Deficiency", slug: "lung-qi-deficiency", type: "wellness" },
+      { title: "Kidney Yin Deficiency", slug: "kidney-yin-deficiency", type: "wellness" },
+      { title: "Cooling Foods in Chinese Medicine", slug: "cooling-foods-chinese-medicine", type: "wellness" },
+      { title: "Why Do I Wake Up at 3 AM", slug: "why-do-i-wake-up-at-3am", type: "symptoms" },
+    ],
+    faqs: [
+      {
+        q: "Why do I feel sad when autumn starts, even when nothing is wrong?",
+        a: "In Chinese medicine, autumn is linked to the Lung system, which is associated with grief. The shorter days and cooler air can amplify a natural emotional response that has nothing to do with external events. Qi Stagnant types are most sensitive to this shift.",
+      },
+      {
+        q: "Why is my throat dry in the morning during autumn?",
+        a: "Autumn air carries less moisture than summer air. If your body type is already prone to dryness, particularly Yin Deficient, the throat is often the first place you notice it. A spoonful of honey in warm water before bed may help.",
+      },
+      {
+        q: "Should I stop eating cooling foods once autumn starts?",
+        a: "Not immediately. The first two to three weeks of autumn may still be hot, what Chinese medicine calls the Autumn Tiger. Continue eating watermelon and cucumber during this window, then transition to moistening foods like pear and white fungus as the air cools.",
+      },
+      {
+        q: "Which body type has the easiest time in autumn?",
+        a: "Phlegm Damp and Damp Heat types tend to feel better in autumn, because the drier air naturally reduces the dampness and humidity their bodies have been struggling with all summer.",
+      },
+      {
+        q: "Is white fungus soup good for every body type?",
+        a: "It is most beneficial for Yin Deficient, Qi Deficient, and Balanced types. Yang Deficient types may find it too cooling and can add a slice of ginger to balance the effect. Phlegm Damp types should eat it in moderation, as the sweetness can add dampness if overconsumed.",
+      },
+      {
+        q: "Why do I catch colds more easily in autumn?",
+        a: "The temperature gap between day and night widens in autumn, and the body is still adjusting from summer. The neck and upper back are considered vulnerable to wind in TCM. Wearing a light scarf and avoiding direct drafts may help reduce the risk.",
+      },
+      {
+        q: "What is the Autumn Tiger?",
+        a: "It is the period of lingering summer heat during the first weeks after Liqiu, the start of autumn. Daytime temperatures can still be high, even though the air is drying. The combination of heat and dryness can dehydrate the body faster than expected.",
+      },
+    ],
+  },
 
 ]
