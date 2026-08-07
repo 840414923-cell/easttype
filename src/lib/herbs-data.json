@@ -14884,5 +14884,444 @@
         }
       ]
     }
+  },
+  {
+    "slug": "american-ginseng-xi-yang-shen",
+    "nameEn": "American Ginseng",
+    "nameZh": "xi yang shen",
+    "nameZhTrad": "西洋參",
+    "pinyin": "xī yáng shēn",
+    "botanicalName": "Panax quinquefolius",
+    "category": "Yin Tonic",
+    "temperature": "Cool",
+    "taste": "Sweet, Bitter",
+    "channels": "Heart, Lung, Kidney",
+    "summary": "A cooling cousin of Asian ginseng that replenishes Qi and nourishes Yin at the same time. American Ginseng is the herb of choice for people who feel depleted but also run warm, because it builds energy without adding heat.",
+    "actions": [
+      "Tonifies Qi and nourishes Yin",
+      "Clears deficiency heat and generates fluids",
+      "Calms the mind and supports sleep",
+      "Supports lung function and moistens dryness"
+    ],
+    "actionDetails": [
+      {
+        "action": "Tonifies Qi and nourishes Yin",
+        "explanation": "Most Qi tonics are warming, which can aggravate someone who is already running warm. American Ginseng is the exception. Its cool nature allows it to replenish energy while simultaneously protecting moisture, making it uniquely suited to the person who is tired but also dry, thirsty, or prone to night sweats."
+      },
+      {
+        "action": "Clears deficiency heat and generates fluids",
+        "explanation": "When the body runs low on Yin, a low-grade internal heat develops that western medicine often cannot locate on any test. American Ginseng addresses this pattern directly by replenishing the cooling, moistening reserve that keeps the temperature regulated. The result is less afternoon flushing, less dry mouth, and a gradual settling of the restless warmth that keeps people awake at night."
+      },
+      {
+        "action": "Calms the mind and supports sleep",
+        "explanation": "Unlike Asian ginseng, which stimulates and energizes, American Ginseng has a gently calming quality. For the person whose mind races at night with the kind of dry, restless energy that cannot settle, a cup of American Ginseng tea in the evening may help quiet the internal noise without causing drowsiness the next morning."
+      },
+      {
+        "action": "Supports lung function and moistens dryness",
+        "explanation": "The lungs are the first organ to feel the dryness of autumn, and American Ginseng enters the Lung channel to help. By generating fluids and supporting lung Qi at the same time, it may help with the dry cough and shortness of breath that come from depletion rather than infection."
+      }
+    ],
+    "bodyTypes": ["qi_deficient", "yin_deficient"],
+    "commonlyUsedFor": [
+      {
+        "condition": "Depletion with dryness: tired but also thirsty, warm, or prone to night sweats",
+        "tcmInterpretation": "This presentation reflects a dual deficiency where Qi is low and Yin is insufficient to cool and moisten the body. American Ginseng is one of the few herbs that addresses both sides simultaneously, which is why it is preferred over Asian ginseng for this specific pattern.",
+        "whyItHelps": "The cool, sweet, and slightly bitter nature replenishes energy without stoking the internal fire. Regular use in tea form may gradually reduce the afternoon warmth and dry-mouth feeling that define this pattern."
+      },
+      {
+        "condition": "Chronic mental fatigue with poor sleep and a racing mind at night",
+        "tcmInterpretation": "When the mind cannot rest because the body is depleted but running warm, the Heart and Kidney are out of sync. American Ginseng enters both channels and may help restore the coordination between the organ that houses the spirit and the organ that anchors it.",
+        "whyItHelps": "A small cup of tea in the early evening provides gentle Qi support while the cooling nature begins to settle the internal heat that keeps the mind spinning. Unlike sedatives, it does not force sleep but removes the internal noise that prevents it."
+      }
+    ],
+    "therapeuticFocus": ["Energy & Vitality", "Sleep & Calm", "Respiratory Health"],
+    "foodPairings": ["goji berries", "Chinese yam", "lily bulb", "honey"],
+    "howToUse": "Steep 2-3 thin slices in hot water for 10 minutes as a daily tea. Alternatively, add 3-5g to chicken soup or congee. For therapeutic use, take 1-3g in tea form twice daily.",
+    "dosage": "2-5g per day. Start with a smaller amount and increase gradually.",
+    "preparationNotes": "Slice the root thinly before steeping to maximize surface area. Do not use metal knives if possible, as traditional practice avoids metal contact with ginseng. Store in a dry, sealed container away from light.",
+    "dietaryAdvice": "American Ginseng works best on an empty stomach or between meals, when absorption is strongest. Pair it with warm water, not cold, and avoid drinking coffee within an hour of taking it, as caffeine may counteract the calming effect. For recovery from illness, a two-week course of daily tea is a common traditional protocol.",
+    "cautions": [
+      "Do not use during acute cold or flu, as its cooling nature may trap the pathogen",
+      "Avoid combining with Asian ginseng, as the two have opposing temperature profiles",
+      "Not suitable for Yang Deficient types who run cold, as it may worsen chilliness",
+      "May interact with blood thinners and diabetes medications",
+      "Limit use during pregnancy and consult a healthcare provider first"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between American Ginseng and Asian ginseng?",
+        "a": "They are cousins from the same plant family but with opposite temperature profiles. Asian ginseng (Panax ginseng) is warming and stimulating, suited to people who run cold and depleted. American Ginseng (Panax quinquefolius) is cooling and moistening, suited to people who are depleted but also run warm or dry. Using the wrong one for your body type can make you feel worse."
+      },
+      {
+        "q": "Can I drink American Ginseng tea every day?",
+        "a": "For most people who fit the Qi and Yin deficient pattern, a daily cup of mild tea for two to four weeks is a common traditional practice. Long-term daily use beyond a month is generally not recommended without a break. If you notice increased coldness or loose stools, reduce or stop."
+      },
+      {
+        "q": "When is the best time to take American Ginseng?",
+        "a": "Morning or early afternoon is common for energy support. Some people take it in the early evening to help with sleep, as its calming quality may quiet a racing mind. Avoid taking it right before bed if you are sensitive, as even mild Qi tonics can keep some people alert."
+      },
+      {
+        "q": "Which body type benefits most from American Ginseng?",
+        "a": "Qi Deficient and Yin Deficient types may benefit most, especially when the presentation includes both tiredness and signs of internal heat like dry mouth or night sweats. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/american-ginseng-xi-yang-shen.jpg",
+    "classicalSource": "Ben Cao Gang Mu Shiyi (Supplement to the Compendium of Materia Medica), 1765",
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "In Chinese medicine, American Ginseng is most often linked to the person who is tired but also runs warm or dry, a pattern that calls for Qi replenishment without added heat. About 12% of people fit the Qi or Yin deficient profile that benefits most. A daily cup of mild tea for two to four weeks may help restore energy while settling the internal warmth.",
+    "definition": {
+      "term": "American Ginseng",
+      "termCn": "西洋參",
+      "text": "Think of American Ginseng as the cooling shadow of Asian ginseng. Where its cousin warms and stimulates, this root replenishes energy while simultaneously protecting moisture and clearing low-grade heat. It is the herb of choice for someone who is clearly depleted, but whose depletion comes with thirst, dryness, night sweats, or a restless mind that cannot settle, signs that a warming tonic would only make worse."
+    },
+    "conditionalBranches": {
+      "title": "Which Depletion Pattern Calls for American Ginseng?",
+      "intro": "American Ginseng suits two patterns that look similar on the surface but feel different inside. Check your primary signal.",
+      "branches": [
+        {
+          "signal": "Tired with dry mouth and afternoon warmth",
+          "meaning": "Qi deficiency with Yin depletion",
+          "approach": "2-3 slices as tea, morning and early evening"
+        },
+        {
+          "signal": "Tired with restless mind and poor sleep",
+          "meaning": "Heart and Kidney out of sync",
+          "approach": "American ginseng tea with lily bulb before bed"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "sophora-root-ku-shen",
+    "nameEn": "Sophora Root",
+    "nameZh": "ku shen",
+    "nameZhTrad": "苦參",
+    "pinyin": "kǔ shēn",
+    "botanicalName": "Sophora flavescens",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Bitter",
+    "channels": "Heart, Liver, Stomach, Large Intestine, Bladder",
+    "summary": "One of the most intensely bitter herbs in the Chinese pharmacy. Sophora Root dries dampness, clears heat, and kills parasites, reaching areas that gentler cooling herbs cannot.",
+    "actions": [
+      "Clears heat and dries dampness",
+      "Kills intestinal parasites and relieves itching",
+      "Drains damp-heat from the lower body",
+      "May support healthy skin through anti-inflammatory action"
+    ],
+    "actionDetails": [
+      {
+        "action": "Clears heat and dries dampness",
+        "explanation": "The sheer bitterness of Sophora Root is its working mechanism. In TCM, bitter flavors descend and dry, and no herb in the standard pharmacy is bitterer than this one. For damp-heat that has settled deep into the tissues, where gentler herbs cannot reach, the intense descending action pulls the heat downward and out through the urine."
+      },
+      {
+        "action": "Kills parasites and relieves skin itching",
+        "explanation": "Sophora Root has a traditional reputation for killing intestinal parasites and calming the intense itching that accompanies skin conditions like eczema and scabies. The same bitter, drying compounds that make it effective internally also work when applied as an external wash, which is why it appears in both oral and topical formulas for skin parasites."
+      },
+      {
+        "action": "Drains damp-heat from the lower body",
+        "explanation": "When damp-heat collects in the lower abdomen and genital region, producing vaginal discharge, urinary burning, or swelling in the legs, Sophora Root targets that specific area through the Bladder and Large Intestine channels. Its drying nature is strong enough to address discharge that has resisted gentler approaches."
+      },
+      {
+        "action": "May support skin health through anti-inflammatory pathways",
+        "explanation": "Modern research has identified matrine and oxymatrine, two alkaloids unique to Sophora, as compounds with significant anti-inflammatory and potential anti-allergic properties. These findings align with the herb's long-standing use for inflammatory skin patterns that involve both heat and dampness."
+      }
+    ],
+    "bodyTypes": ["damp_heat"],
+    "commonlyUsedFor": [
+      {
+        "condition": "Damp-heat skin conditions with intense itching, oozing, and redness",
+        "tcmInterpretation": "Skin that is red, oozing, and unbearably itchy is a hallmark of damp-heat surfacing through the blood. The dampness causes the oozing, the heat causes the redness, and the combination drives the itch. Sophora Root addresses both components through its bitter, cold, drying nature.",
+        "whyItHelps": "An external wash made from Sophora Root decoction may provide rapid relief of itching, while internal use in formula addresses the root. The dual approach is particularly effective for eczema flares that resist topical steroids."
+      },
+      {
+        "condition": "Vaginal discharge that is yellow, thick, and burning, from lower body damp-heat",
+        "tcmInterpretation": "Yellow, thick, burning vaginal discharge is a classic sign of damp-heat in the lower burner. The Liver channel wraps around the genitals, and when Liver damp-heat descends, it produces this specific type of discharge.",
+        "whyItHelps": "Sophora Root enters the Liver channel and directly targets the damp-heat producing the discharge. Combined with phellodendron and plantain seed, it forms the basis of several classic gynecological formulas for damp-heat patterns."
+      }
+    ],
+    "therapeuticFocus": ["Skin Health", "Women's Health", "Digestive Health"],
+    "foodPairings": ["rice", "mung bean", "coix seed", "winter melon"],
+    "howToUse": "Decoct 3-10g internally, or use as an external wash at 15-30g. Not suitable for food use due to extreme bitterness.",
+    "dosage": "3-10g internal use. 15-30g for external wash.",
+    "preparationNotes": "Decoct for 15-20 minutes. For external wash, use a stronger concentration and let it cool before applying to skin. The taste is intensely bitter and may cause nausea in sensitive individuals.",
+    "dietaryAdvice": "Sophora Root is not a food-grade herb and should not be added to meals. It is used in short courses of decoction, typically 5 to 7 days, under the guidance of a practitioner. During use, avoid spicy, greasy, and sweet foods that may feed the damp-heat pattern. Drink plenty of water to help flush the cleared heat through urine.",
+    "cautions": [
+      "Not safe for use during pregnancy due to potential uterine stimulation",
+      "May cause nausea and stomach discomfort due to extreme bitterness",
+      "Avoid in Spleen and Stomach deficiency with cold signs",
+      "Long-term use may injure Yin and dry the body excessively",
+      "May interact with antiarrhythmic medications"
+    ],
+    "faqs": [
+      {
+        "q": "Can I take Sophora Root every day?",
+        "a": "No. Sophora Root is an intensely bitter, cold herb meant for short courses of 5 to 7 days. Daily long-term use may excessively dry the body and damage the Spleen. It is not a food-grade supplement."
+      },
+      {
+        "q": "How does Sophora Root help with eczema?",
+        "a": "For damp-heat type eczema that is red, oozing, and intensely itchy, Sophora Root may help both internally as a decoction and externally as a cooled wash. The bitter, cold nature clears heat while the drying action reduces the oozing."
+      },
+      {
+        "q": "Is Sophora Root the same as Sophora japonica?",
+        "a": "No. Sophora Root (Sophora flavescens) is the root used for clearing damp-heat. Sophora japonica is the flower, also called huai hua, which is used for cooling blood and stopping bleeding. They are different parts of related plants with different uses."
+      },
+      {
+        "q": "Which body type should avoid Sophora Root?",
+        "a": "Yang Deficient and Qi Deficient types who run cold should avoid it, as its extreme cold and bitter nature may worsen chilliness, cause digestive upset, and further deplete energy. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/sophora-root-ku-shen.jpg",
+    "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
+    "safetyRating": "Use with caution",
+    "quickAnswer": "The most common TCM pattern behind skin that is red, oozing, and unbearably itchy is damp-heat surfacing through the blood, and Sophora Root is the most intensely bitter herb in the pharmacy that dries that dampness, clears that heat, and may help settle the inflammation through both internal decoction and external wash. Its power is matched by its harshness, which is why it is reserved for short, focused courses rather than daily use.",
+    "definition": {
+      "term": "Sophora Root",
+      "termCn": "苦参",
+      "text": "Sophora Root functions as a deep-tissue heat extractor. Its extreme bitterness drives downward and dries dampness in places that gentler herbs cannot reach: the lower abdomen, the genital region, and the deep layers of the skin. When damp-heat has settled into these areas and produced discharge, oozing skin, or urinary burning, this is the herb that reaches in and pulls it out, though its intensity means it is always used in short, targeted courses."
+    },
+    "conditionalBranches": {
+      "title": "When to Use Sophora Root Internally vs Externally",
+      "intro": "Sophora Root can be taken as a decoction or applied as a wash. The right route depends on where the damp-heat sits.",
+      "branches": [
+        {
+          "signal": "Red, oozing, intensely itchy skin on the surface",
+          "meaning": "Damp-heat surfacing through the blood to the skin",
+          "approach": "External wash of 15-30g decoction, cooled and applied 2x daily"
+        },
+        {
+          "signal": "Yellow, burning discharge or urinary symptoms",
+          "meaning": "Damp-heat collected in the lower burner",
+          "approach": "Internal decoction of 3-10g for 5-7 days, combined with phellodendron"
+        },
+        {
+          "signal": "Chronic itching with dry, flaky skin and no oozing",
+          "meaning": "Blood deficiency or Yin deficiency generating wind, not damp-heat",
+          "approach": "Skip Sophora Root and use moistening herbs like lily bulb or rehmannia instead"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cogon-grass-root-bai-mao-gen",
+    "nameEn": "Cogon Grass Root",
+    "nameZh": "bai mao gen",
+    "nameZhTrad": "白茅根",
+    "pinyin": "bái máo gēn",
+    "botanicalName": "Imperata cylindrica (L.) Raeusch.",
+    "category": "Cooling Herb",
+    "temperature": "Cold",
+    "taste": "Sweet",
+    "channels": "Lung, Stomach, Bladder",
+    "summary": "A sweet, cold root that cools the blood and stops bleeding while gently draining heat through urine. Cogon Grass Root is mild enough for regular use and is traditionally brewed as a summer cooling tea.",
+    "actions": [
+      "Cools blood and stops bleeding",
+      "Clears heat and promotes urination",
+      "Clears lung heat and relieves cough",
+      "Generates fluids and relieves thirst"
+    ],
+    "actionDetails": [
+      {
+        "action": "Cools blood and stops bleeding from heat",
+        "explanation": "When blood heats up, it moves faster and pushes outside its normal pathways, producing nosebleeds, blood in the urine, or coughing up blood. Cogon Grass Root cools the blood directly, which slows the rush and helps the blood stay in its proper channels. Its sweet nature makes it gentler than other blood-cooling herbs like raw rehmannia."
+      },
+      {
+        "action": "Clears heat and promotes urination",
+        "explanation": "Heat that collects in the lower body, producing dark urine, urinary burning, or swelling in the legs, may be flushed out through the Bladder channel. Cogon Grass Root promotes urine without being harshly diuretic, which means it clears heat while preserving the body's fluid balance."
+      },
+      {
+        "action": "Clears lung heat and relieves dry cough",
+        "explanation": "The sweet, cold nature of this root enters the Lung channel and is particularly useful for the dry cough that accompanies warm weather or the aftermath of a respiratory infection. Unlike bitter, drying cough herbs, it moistens while it cools."
+      },
+      {
+        "action": "Generates fluids and relieves thirst",
+        "explanation": "Because it is sweet and cold rather than bitter and harsh, Cogon Grass Root can be drunk as a daily tea during hot weather to replenish fluids and clear summer heat. This is one of the few heat-clearing herbs that is genuinely pleasant to drink, which is why it has been a popular summer beverage across southern China for generations."
+      }
+    ],
+    "bodyTypes": ["damp_heat", "blood_stasis"],
+    "commonlyUsedFor": [
+      {
+        "condition": "Recurrent nosebleeds during hot or dry weather",
+        "tcmInterpretation": "Frequent nosebleeds in summer or autumn often reflect blood heat, where the blood has been warmed beyond its normal range and pushes through the fragile vessels in the nasal cavity. The pattern is common in children and in adults who run warm.",
+        "whyItHelps": "A daily tea of Cogon Grass Root for one to two weeks may help cool the blood and reduce the frequency of nosebleeds. Its gentle, sweet nature makes it suitable for children when dosed appropriately."
+      },
+      {
+        "condition": "Urinary burning or dark urine from summer heat",
+        "tcmInterpretation": "Dark, concentrated, or burning urine is a sign of heat collecting in the Bladder. Unlike urinary tract infections that require medical treatment, this pattern often reflects simple dehydration and summer heat that has not been flushed out.",
+        "whyItHelps": "Brewed as a light tea and drunk throughout the day, Cogon Grass Root gently promotes urine while clearing the heat, often resolving the burning within a day or two when the cause is environmental rather than infectious."
+      }
+    ],
+    "therapeuticFocus": ["Kidney & Urinary Health", "Respiratory Health", "Summer Heat Relief"],
+    "foodPairings": ["watermelon", "mung bean", "lotus root", "pear"],
+    "howToUse": "Simmer 15-30g fresh or dried in water for 15 minutes. Drink as tea, 2-3 cups per day during hot weather or acute symptoms.",
+    "dosage": "15-30g per day as tea.",
+    "preparationNotes": "Rinse the dried roots thoroughly before simmering, as they may retain sand. Fresh roots have a sweeter taste and stronger fluid-generating effect. Simmer for 15-20 minutes, not longer, as overcooking diminishes the cooling and fluid-generating properties.",
+    "dietaryAdvice": "Cogon Grass Root tea is one of the most palatable cooling teas in Chinese medicine, with a mild, sweet taste that requires no added sugar. Drink it warm or at room temperature, never ice-cold, as cold drinks counteract the Spleen's role in processing fluids. During hot weather, a daily thermos of this tea may replace plain water for a week or two without issue.",
+    "cautions": [
+      "Avoid in cold-type urinary patterns with clear, frequent urination",
+      "Not suitable for Spleen Yang deficiency with loose stools and cold hands",
+      "Long-term daily use beyond two weeks may gradually weaken digestion",
+      "Stop use if loose stools or increased coldness develop",
+      "Consult a healthcare provider for any bleeding that is severe or persistent"
+    ],
+    "faqs": [
+      {
+        "q": "Is Cogon Grass Root the same as the weed in my yard?",
+        "a": "It may well be. Imperata cylindrica is considered one of the world's worst weeds, but its root has been used in Chinese medicine for centuries. The medicinal root is typically harvested from specific cultivars and processed for safety, so do not dig up your lawn."
+      },
+      {
+        "q": "Can children drink Cogon Grass Root tea?",
+        "a": "Yes, in reduced amounts. Children prone to summer nosebleeds or urinary heat may benefit from a mild tea of 5-10g per day. The sweet taste makes it easy for children to accept. Consult a pediatric practitioner for proper dosing."
+      },
+      {
+        "q": "How is it different from lotus root?",
+        "a": "Both cool the blood and stop bleeding, but lotus root is more nourishing and is eaten as food, while Cogon Grass Root is more specifically diuretic and is typically brewed as tea. They can be used together for summer heat patterns."
+      },
+      {
+        "q": "Which body type benefits most from Cogon Grass Root?",
+        "a": "Damp Heat and Blood Stasis types may benefit most, especially during summer when heat collects in the blood and bladder. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/cogon-grass-root-bai-mao-gen.jpg",
+    "classicalSource": "Shennong Bencao Jing (circa 200 BCE)",
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "About 8% of people who experience recurrent nosebleeds during hot weather fit the blood heat pattern that Cogon Grass Root may help address, and the same sweet, cold root also gently flushes heat through urine for those with dark, burning urinary output. Its mild taste makes it one of the few cooling herbs that can be drunk daily as a summer tea without discomfort.",
+    "definition": {
+      "term": "Cogon Grass Root",
+      "termCn": "白茅根",
+      "text": "Where most blood-cooling herbs are bitter and harsh, Cogon Grass Root is sweet and mild. It cools the blood to stop nosebleeds and urinary bleeding, clears lung heat to calm dry cough, and promotes urination to flush summer heat, all through a tea that tastes pleasant enough for daily use. This combination of effectiveness and gentleness is rare among heat-clearing herbs, which is why it has served as both medicine and summer beverage across East Asia."
+    },
+    "conditionalBranches": {
+      "title": "Matching Cogon Grass Root to the Source of Bleeding",
+      "intro": "Cogon Grass Root stops bleeding from heat in multiple locations. Identify where the heat is expressing itself.",
+      "branches": [
+        {
+          "signal": "Recurrent nosebleeds during hot or dry weather",
+          "meaning": "Blood heat pushing through nasal vessels",
+          "approach": "Daily tea of 15-20g for 1-2 weeks, reduce if bleeding stops"
+        },
+        {
+          "signal": "Dark, burning urine with possible trace of blood",
+          "meaning": "Heat in the Bladder causing bleeding and irritation",
+          "approach": "Stronger tea of 20-30g, drunk throughout the day for 3-5 days"
+        },
+        {
+          "signal": "Dry cough with scanty, blood-tinged sputum",
+          "meaning": "Lung heat damaging the vessels",
+          "approach": "Combine with pear and lily bulb in a gentle soup, 1x daily for 5 days"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pagoda-tree-flower-huai-hua",
+    "nameEn": "Pagoda Tree Flower",
+    "nameZh": "huai hua",
+    "nameZhTrad": "槐花",
+    "pinyin": "huái huā",
+    "botanicalName": "Sophora japonica L.",
+    "category": "Cooling Herb",
+    "temperature": "Cool",
+    "taste": "Bitter",
+    "channels": "Liver, Large Intestine",
+    "summary": "A flower that cools blood, stops bleeding in the lower body, and clears liver fire. Pagoda Tree Flower is the primary herb for hemorrhoids and blood in the stool from heat patterns.",
+    "actions": [
+      "Cools blood and stops bleeding",
+      "Clears liver fire and reduces headache",
+      "Reduces hemorrhoidal bleeding",
+      "May support vascular health through rutin content"
+    ],
+    "actionDetails": [
+      {
+        "action": "Cools blood and stops bleeding, especially in the lower body",
+        "explanation": "Pagoda Tree Flower has a specific affinity for the lower digestive tract, where heat in the blood can cause bleeding hemorrhoids or blood in the stool. Its cooling nature directly addresses the blood heat that makes vessels fragile and prone to rupture, and its downward-directed action sends the cooling effect to the large intestine rather than the upper body."
+      },
+      {
+        "action": "Clears liver fire and reduces associated headache and eye redness",
+        "explanation": "The Liver channel connects to the eyes and the head, and when liver fire rises, it produces red eyes, throbbing temples, and irritability. Pagoda Tree Flower enters the Liver channel and gently cools this fire from above, without the harsh downward purge of herbs like gentian or aloe."
+      },
+      {
+        "action": "Reduces hemorrhoidal bleeding from damp-heat in the lower body",
+        "explanation": "Hemorrhoids that bleed bright red blood are a classic sign of damp-heat settling in the lower rectum. Pagoda Tree Flower is considered the most targeted single herb for this specific complaint, and it appears in the majority of traditional formulas for hemorrhoidal bleeding."
+      },
+      {
+        "action": "May support vascular health through rutin content",
+        "explanation": "Modern research has identified rutin, a flavonoid that supports capillary strength, as a major component of Pagoda Tree Flower. This aligns with the traditional use for bleeding from fragile vessels, as rutin is known to reduce capillary permeability and fragility."
+      }
+    ],
+    "bodyTypes": ["damp_heat"],
+    "commonlyUsedFor": [
+      {
+        "condition": "Bleeding hemorrhoids with bright red blood, worse during bowel movements",
+        "tcmInterpretation": "Bright red blood from hemorrhoids indicates heat in the blood sitting in the lower rectum. The large intestine channel is the pathway involved, and the heat makes the hemorrhoidal vessels fragile and prone to bleeding during straining.",
+        "whyItHelps": "Pagoda Tree Flower cools the blood specifically in the lower digestive tract. A tea drunk daily for one to two weeks may help reduce the bleeding while the underlying heat is cleared. For chronic patterns, it is combined with sophora bud and carbonized herbs."
+      },
+      {
+        "condition": "Headache with red eyes and irritability from liver fire rising",
+        "tcmInterpretation": "When liver fire rises upward, it produces a distinctive cluster: throbbing temples, bloodshot eyes, and a short temper. The fire has been generated by stress, frustration, or suppressed emotion, and it needs to be cooled from the top down.",
+        "whyItHelps": "A mild tea of Pagoda Tree Flower may help cool the liver fire gently, without the harsh purge of stronger liver-heat herbs. It is particularly suited to people who cannot tolerate the bitterness of gentian root or the harshness of aloe."
+      }
+    ],
+    "therapeuticFocus": ["Digestive Health", "Liver Health", "Vascular Support"],
+    "foodPairings": ["rice", "celery", "mung bean", "green tea"],
+    "howToUse": "Steep 10-15g in hot water for 10 minutes as tea, or simmer briefly. Drink 1-2 cups per day for acute patterns.",
+    "dosage": "10-15g per day as tea.",
+    "preparationNotes": "Pagoda Tree Flower can be used fresh or dried. Dried flowers are more commonly available. Brew as a light tea, avoiding long simmering which may destroy the rutin content. The taste is mildly bitter and pleasant when brewed lightly.",
+    "dietaryAdvice": "Drink the tea warm, once or twice daily, for one to two weeks during a flare-up of hemorrhoidal bleeding or liver fire headache. The tea is mild enough for regular short-term use. During use, avoid alcohol, spicy food, and heavy fried food, all of which feed the heat pattern. For hemorrhoids, combine the tea with increased water intake and dietary fiber.",
+    "cautions": [
+      "Avoid in cold-type digestive patterns with loose stools and no heat signs",
+      "Not suitable for Yang Deficient types who run cold",
+      "May reduce blood pressure, use caution with antihypertensive medications",
+      "Stop use if cold symptoms develop",
+      "For any rectal bleeding, consult a healthcare provider to rule out serious conditions"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pagoda Tree Flower related to Sophora Root?",
+        "a": "They come from related plants but are different parts used for different purposes. Pagoda Tree Flower (Sophora japonica) is the flower bud, used for cooling blood and stopping bleeding. Sophora Root (Sophora flavescens) is the root of a different species, used for clearing damp-heat and killing parasites."
+      },
+      {
+        "q": "Can I drink Pagoda Tree Flower tea every day?",
+        "a": "For acute patterns like hemorrhoidal bleeding or liver fire headache, 1-2 cups daily for one to two weeks is common. Long-term daily use is not recommended as its cold nature may gradually weaken the Spleen and digestion."
+      },
+      {
+        "q": "Does Pagoda Tree Flower help with high blood pressure?",
+        "a": "Research suggests rutin, a compound in Pagoda Tree Flower, may support vascular health. However, it is not a medical treatment for hypertension. If you have high blood pressure, consult your doctor before using any herbal tea regularly."
+      },
+      {
+        "q": "Which body type benefits most from Pagoda Tree Flower?",
+        "a": "Damp Heat types may benefit most, particularly for hemorrhoidal bleeding and liver fire symptoms. Take the free body type quiz to check your type."
+      }
+    ],
+    "image": "/images/herbs/pagoda-tree-flower-huai-hua.jpg",
+    "classicalSource": "Ri Huaazi Bencao (10th century CE)",
+    "safetyRating": "Non-toxic",
+    "quickAnswer": "Liver fire descending into the Large Intestine is the primary TCM explanation for bleeding hemorrhoids with bright red blood, and Pagoda Tree Flower is the most targeted single herb for this specific complaint. The same flower also gently cools liver fire that rises to the head, making it useful for the headache, red eyes, and irritability cluster that accompanies the hemorrhoidal bleeding.",
+    "definition": {
+      "term": "Pagoda Tree Flower",
+      "termCn": "槐花",
+      "text": "Pagoda Tree Flower is recognized by four classic signs: bright red blood in the stool from hemorrhoids, throbbing temples from liver fire, bloodshot and irritated eyes, and a short, quick temper. The flower addresses all four because it enters both the Liver channel, where the fire originates, and the Large Intestine channel, where the bleeding occurs. Its rutin content, which modern research links to capillary strength, aligns with the traditional use for bleeding from fragile vessels."
+    },
+    "conditionalBranches": {
+      "title": "Which Bleeding Pattern Needs Pagoda Tree Flower?",
+      "intro": "Pagoda Tree Flower targets bleeding from heat in specific locations. Match yours before using.",
+      "branches": [
+        {
+          "signal": "Bright red blood from hemorrhoids during bowel movements",
+          "meaning": "Blood heat in the lower rectum and large intestine",
+          "approach": "Daily tea of 10-15g for 1-2 weeks, combined with fiber and water"
+        },
+        {
+          "signal": "Throbbing headache with red eyes and irritability",
+          "meaning": "Liver fire rising upward without bleeding",
+          "approach": "Light tea of 5-10g in the morning, for 3-5 days"
+        },
+        {
+          "signal": "Dark, tarry stools or blood mixed throughout the stool",
+          "meaning": "Possibly a serious condition requiring medical diagnosis, not a simple heat pattern",
+          "approach": "Stop self-treatment and consult a healthcare provider immediately"
+        }
+      ]
+    }
   }
 ]
