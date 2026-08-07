@@ -1379,6 +1379,13 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
         ],
       },
       {
+        heading: "Autumn Eating Mistakes to Avoid",
+        type: "image",
+        imageAlt: "Six common autumn eating mistakes",
+        imageDescription: "A flat illustration infographic showing six common autumn eating mistakes with crossed-out icons in a 3x2 grid: a plate of identical stew shared by different people (one size fits all), a sugar cube with a sad face (emotional eating), a heavy meat dish in August (too early), an iced drink (cold harms Spleen), an empty plate (skipped meal), and a large bag of nuts (overeating dense food). Warm amber and red warning accents on cream background, minimal line-art style with autumn leaf decorations.",
+        imagePath: "/images/journal/autumn-cravings-mistakes.jpg",
+      },
+      {
         heading: "Common Autumn Eating Mistakes",
         type: "list",
         list: [
